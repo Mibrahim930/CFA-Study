@@ -10,8 +10,8 @@ export function getTopic(id: string): Topic | undefined {
 
 export function getModule(slug: string): { topic: Topic; module: Module } | undefined {
   for (const topic of syllabus.topics) {
-    const module = topic.modules.find((m) => m.slug === slug);
-    if (module) return { topic, module };
+    const mod = topic.modules.find((m) => m.slug === slug);
+    if (mod) return { topic, module: mod };
   }
   return undefined;
 }
