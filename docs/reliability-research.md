@@ -346,3 +346,205 @@ All URLs above. Downloads are kept in the session scratchpad (`…/scratchpad/re
 - openintro.org/license (via WebFetch)
 - python-programming.quantecon.org/intro.html
 - OpenStax repo LICENSE files via api.github.com / raw.githubusercontent.com
+
+---
+
+## Source Discovery — Cycle 2 (2026-10-10)
+
+Cycle 1 was accepted by the supervisor. This cycle follows the supervisor's priority order. IDs continue from Cycle 1 (S50+). Conventions are unchanged. "Vector candidate" marks a worked numeric example to use as a test vector later; no vectors were built. I recomputed a few of these by hand and say so where I did.
+
+### 2.1 Derivatives pricing (priority 1)
+
+**Headline.**
+- The best new find is the **Federal Reserve Board's *Trading and Capital-Markets Activities Manual*** (S50).
+  - It is public domain.
+  - It has instrument profiles with pricing sections for FX, forwards, FRAs, futures, interest rate swaps, options, currency swaps and swaptions.
+- **No openly licensed derivatives-pricing textbook was found.**
+  - I checked Open Textbook Library listings, the LibreTexts Finance shelf and the planned OpenStax Finance book.
+  - The **Swaps**, **put–call–forward parity** and **cost-of-carry with benefits/costs (CFA notation)** modules still rely on the finance engine plus GROUND sources.
+
+| # | Source (ID) | URL | Access | Licence (quoted) | Modules | Worked numeric examples? | Reuse | Conf. |
+|---|---|---|---|---|---|---|---|---|
+| 1 | **S50** Fed Board, *Trading and Capital-Markets Activities Manual*, section 4000 "Instrument Profiles": 4305 FX, 4310 Forwards, 4315 FRAs, 4320 Financial Futures, 4325 Interest-Rate Swaps, 4330 Options (incl. Black–Scholes), 4335 Currency Swaps (valued as PV of each leg), 4340 Swaptions, 4345 Equity Derivatives, 4350 Credit Derivatives, 4353 CLOs. Also 4105 ABS, 4110 RMBS, 4020 Treasuries, 4025 STRIPS | federalreserve.gov/publications/supervision_trading.htm; sections at federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf and 4000p2.pdf | Fetched (TOC, 4000p1, 4000p2) | Board: "Unless otherwise indicated, information on Board's website is in the public domain and may be copied and distributed without permission." | All 10 Derivatives modules; also ABS/MBS, Government Issuers, FX | **Yes, with errors** (all recomputed by me; see "Source arithmetic slips" below): IRP FX forward (4310), FRA implied forward and FRA settlement value (4315) | ADAPT | High (licence, content); **dated** (Feb 1998 / Apr 2003 pages; LIBOR, Eurodollar and DM examples) |
+| 2 | **S51** MIT OCW 15.401 *Finance Theory I* (Fall 2008): Lecture 8 slides (forwards and futures), Lecture 10 slides (options), Recitation 4 "Forwards & Futures", Recitation 5 "Options", sample final exam and solutions | ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ (pages/video-lectures-and-slides/…, pages/recitations/, pages/exams/) | Fetched | OCW terms: CC BY-NC-SA 4.0 (course level). Slides say "© 2007–2008 by Andrew W. Lo". **The problem-set collection PDF says "(For Course Use Only. All Rights Reserved.)", which conflicts with the course licence, so treat that file as GROUND.** | Forward Commitment & Contingent Claim Features; Cost of Carry; Futures (mark-to-market); Options; Put–Call Parity; One-Period Binomial | **Yes**, all checked: one-period call price by replication and by risk-neutral probability; a two-period European vs American put; futures-implied interest rates; a mark-to-market settlement example | ADAPT (slides, recitations); GROUND (problem-set PDF) | High |
+| 3 | **S53** SOA Exam FAM, Sample Questions & Solutions for Topics 1–6 (dated July 17, 2026). The syllabus Topic 6 "Option Pricing Fundamentals" (2.5–7.5%) covers one-period binomial, Black–Scholes and put–call parity | soa.org/globalassets/assets/files/edu/2024/fall/solutions/2024-10-exam-fam-s-sample-solutions.pdf (linked from the 2026-10 FAM syllabus) | Fetched | SOA copyright notice | Put–Call Parity; Binomial; Options valuation | Yes, but only a handful of items (put–call parity and risk-neutral binomial solutions) | GROUND (numbers usable as vectors) | High |
+| 4 | **S52** Richmond Fed, *Instruments of the Money Market* (1998): ch. 14 Money Market Futures, ch. 15 Options on Money Market Futures, ch. 16 OTC Interest Rate Derivatives (FRAs, swaps, caps/floors) | richmondfed.org/publications/research/special_reports/instruments_of_the_money_market (chapter_14/15/16.pdf) | Fetched (ch. 16, 28 pp) | © FRB Richmond. Not public domain (Reserve Banks are not federal agencies). Ch. 16 says it was "last updated in 1993" | FRAs; Swaps; Futures; Options on futures | Some (not extracted) | GROUND | High; **very dated** |
+| 5 | **S57** OpenStax *Principles of Finance 2e* (already planned) | github.com/openstax/osbooks-principles-finance | Fetched (collection + module scan) | CC BY-NC-SA 4.0 (Cycle 1) | Ch. 20 "Risk Management and the Financial Manager" covers hedging with futures, forwards, options and swaps → Derivative Benefits, Risks & Uses. **New mapping:** ch. 18 "Financial Forecasting" → Equity "FS Forecasting in Equity Valuation" and FSA "Intro to FS Modeling" | None (ch. 20 modules have no example blocks; descriptive only) | ADAPT | High |
+| 6 | **S54** CFTC, "Basics of Futures Trading" (HTML) | cftc.gov/LearnAndProtect/EducationCenter/FuturesMarketBasics/index.htm | Fetched | US federal work, so public domain (by statute; the CFTC disclaimer page returned 403) | Derivative Instrument & Market Features; Futures (margin, hedgers vs speculators) | No; consumer-level | ADAPT | High (content); Medium (PD by statute) |
+| 7 | **S56** Cboe Options Institute | cboe.com/optionsinstitute/ | Fetched (page and terms) | Cboe terms: "You may view, print and download one copy of the Materials for your personal non-commercial use…" | Options; Option strategies | n/a | LINK | High |
+| 8 | **S55** Options Industry Council (free courses) | optionseducation.org | Fetched (terms) | Terms: "Information available from the Services is owned, licensed or controlled by OCC or third parties." No reuse grant | Options basics | n/a | LINK | High |
+
+**Negative results.** These are Medium confidence: search coverage, not proof of absence.
+- The LibreTexts Finance shelf (12 books) has derivatives only in *Finance, Banking, and Money*, ch. 12. That book is CC BY-NC-SA 3.0, anonymous, and descriptive only.
+- The OCW slug for 15.437 returns 404.
+- 18.S096 and 15.450 are graduate stochastic-calculus courses, a poor fit for Level I. Not downloaded.
+- The old SOA MFE derivatives sample PDFs return 404 (retired).
+
+**Vector candidates noted (do not build yet).** My hand recomputations are marked ✓ (agrees) or ✗ (does not reproduce).
+- S51 Recitation 5, binomial call:
+  - Inputs: S₀ = 102, Su = 120, Sd = 90, 3-month rate 2%, K = 110.
+  - Stated: hedge ratio 1/3; q = 0.468; C = 4.59.
+  - ✓ q = (102×1.02 − 90)/30 = 0.468; C = 10×0.468/1.02 = 4.588.
+- S51 sample final Q10, two-period put:
+  - Inputs: S₀ = 100, u = 1.15, d = 0.90, r = 5% EAR, K = 100.
+  - Stated: European 2.76; American 3.80.
+  - ✓ European: q = 0.6, P = 0.16×19/1.05² = 2.757.
+  - American recomputes to 3.81 (0.4×10/1.05 = 3.8095). The source truncates it; use tolerance.
+- S51 sample final Q6, futures-implied rates from gold:
+  - Inputs: spot 693; Dec-07 706.42; Jun-08 726.70; zero convenience yield.
+  - Stated: 7.97% and 6.54% annualised.
+  - ✓ (706.42/693)^4 − 1 = 7.97%; (726.7/693)^(4/3) − 1 = 6.54%.
+- S51 Recitation 4: mark-to-market illustration. Futures agreed at 500, settles 495 at t = 1, 497 at T; seller earns 3/unit under both the forward and the futures. Conceptual vector.
+- S50 §4310 IRP forward:
+  - Inputs: DM/$ spot 1.3514, 180-day $ 5%, DM 10% (period rates, not annualised).
+  - Stated F = 1.4156.
+  - ✗ Recompute gives 1.41575 (rounds to 1.4158).
+- S50 §4315 FRA:
+  - Implied 6×12 rate from 6% (6-month) and 7% (12-month), stated 8.00%. The source uses annual compounding; recompute 8.01%. Under simple money-market convention it would be 7.77%, a **convention trap**.
+  - Settlement value of a $10m 3×6 FRA (contract 6.00%, settlement 6.50%, 91/360 days), stated **$12,431.22**.
+  - ✗ Recompute: 12,638.89 / (1 + 0.065×91/360) = **$12,434.58**.
+
+**Source arithmetic slips (lesson for the pipeline).** Even T1 sources contain small arithmetic errors:
+- Fed manual (S50): about 0.01–0.03%, in the IRP forward and FRA examples above.
+- TI guidebook: two slips (Cycle 1).
+- MIT final (S51): an answer truncated rather than rounded.
+
+Every sourced vector needs an independent recomputation and a tolerance, and its notes field should record any disagreement.
+
+**CFA-convention flags for derivatives content** (fix in prompts and rubrics):
+1. **FX quote direction.** S50 writes F = S×(1+r_F)/(1+r_D), quoting FX as foreign units per domestic unit. CFA Level I uses price/base notation. The generator must normalise to CFA notation, or MCQs will invert the formula. (High, from reading S50.)
+2. **Carry model.** S51 uses F = S(1 + r − y + c)^T with a net convenience yield. CFA Level I states F₀ = S₀(1+r)^T adjusted for the future value of benefits and costs (and the continuous form). The answers are numerically close but not identical. Pick one convention per item, and the engine must use the same one. (Medium.)
+3. **Contango/backwardation.** S51 defines them relative to the carry-adjusted spot price. Many CFA-oriented texts compare futures with spot directly. Check the definition against CFA wording before generating items on it. (Medium.)
+4. **Rate conventions.** Money-market (simple, ACT/360) and annual-compounding forward rates give different FRA rates (8.01% vs 7.77% above). Every FRA, swap or forward item must state its convention explicitly.
+5. **LIBOR era.** S50, S52 and S51 are LIBOR-era. Relabel the reference rate as SOFR or a generic market reference rate (MRR), which matches ARRC (Cycle 1 S18).
+
+### 2.2 IFRS 18 vs IAS 1 in 2027 Level I FSA (priority 2): verdict
+
+**Verdict: 2027 Level I FSA almost certainly teaches the pre-IFRS 18 (IAS 1-based) presentation framework. IFRS 18 is not a 2027 Level I learning objective.** Confidence: **Medium-High**. I have not seen the curriculum text itself.
+
+Evidence:
+1. CFA Institute's official "Curriculum Changes for 2027" (Cycle 1, S41) lists substantive changes only to **Quant, Equities and Ethics**. FSA is not mentioned. (High; T1.)
+2. In the 2027 LOS (`content/syllabus-2027.json`), the FSA statements use pre-IFRS 18 phrasing (High; read this session). Examples:
+   - "contrast cash flow statements prepared under IFRS and US GAAP"
+   - "describe presentation choices, including non-GAAP measures, that could be used to influence an analyst's opinion"
+   - No LOS mentions operating profit as a required subtotal, income-statement categories, or management-defined performance measures (MPMs).
+3. Three independent prep providers describe 2027 Level I FSA as unchanged, and none mentions IFRS 18 or IAS 1 (Medium):
+   - IFT: "Seven out of the ten topics have no significant changes to their content." It also says FSA prerequisite readings are unchanged.
+   - 300Hours (1 Sep 2026): major changes to three topics only, which are Quant, Equities and Ethics.
+   - AnalystPrep (17 May 2026): older materials remain useful for FSA.
+4. The IASB confirms IFRS 18 replaces IAS 1 and has an effective date of 1 January 2027. It adds two required subtotals, operating profit and profit before financing and income taxes, and requires MPM disclosure. (High: ifrs.org standard page and project page fetched; © IFRS Foundation, GROUND.)
+
+The US side has the same timing. FASB **ASU 2024-03** (disaggregation of income-statement expenses, DISE) applies to annual periods beginning after 15 Dec 2026 (Medium; Deloitte DART summary). It is also not in the Level I LOS.
+
+**Recommendation for lessons and the pipeline:**
+- **Exam content:** teach the current curriculum framing, meaning IAS 1-era IFRS vs US GAAP presentation. No answer key may depend on IFRS 18-only rules: the required operating/investing/financing P&L categories, the two new subtotals, or MPM reconciliations.
+- **Optional context:** add an "In the real world from 2027" callout, marked *not examinable at Level I (2027)*. It covers IFRS 18 subtotals and MPMs (which link naturally to the LOS on non-GAAP measures) and ASU 2024-03.
+- **verify.ts:** add a currency gate. If an FSA item's stem, key or explanation mentions IFRS 18, "management-defined performance measure" or "operating category", quarantine it for human review. Tag FSA lessons with `standardsBasis: "IAS1-era"`.
+- **Re-check triggers:** the CFA Institute 2028 curriculum-change notice, or the user registering (plan's "reconcile mode").
+
+### 2.3 Equity research reports and forecasting (priority 3)
+
+| # | Source (ID) | URL | Access | Licence | Modules | Reuse | Conf. |
+|---|---|---|---|---|---|---|---|
+| 1 | **S58** CFA Institute Research Challenge, *Written Report Guidelines* (2 pp) | cfainstitute.org/-/media/documents/support/research-challenge/challenge/rc-written-report-guidelines.pdf | Fetched | No notice on the PDF; CFA Institute content | **Equity Analyst Research Reports** | GROUND | High |
+| 2 | **S59** FINRA Rule 2241 "Research Analysts and Research Reports" (rule text): sell-side research conflicts, firm research policies, disclosures. Effective 2015 per Regulatory Notice 15-30 | finra.org/rules-guidance/rulebooks/finra-rules/2241 | Fetched | "© 2026 FINRA. All Rights Reserved." | Equity Analyst Research Reports (sell-side vs buy-side); Ethics Std V/VI context | LINK / GROUND | High |
+| 3 | **S60** SEC Regulation AC (analyst certification), 17 CFR §§242.500–505 | ecfr.gov/current/title-17/chapter-II/part-242 | eCFR page is JS-rendered; not read | US federal regulation, public domain | Equity Analyst Research Reports | ADAPT | Medium |
+| 4 | **S61** SEC v. Andrew Left & Citron Capital, Litigation Release No. 26056 (26 Jul 2024). An activist short seller is alleged to have published Long/Short recommendations, then traded against them, and to have misrepresented independence. A parallel DOJ indictment exists | sec.gov/enforcement-litigation/litigation-releases/lr-26056 | **403** (sec.gov blocks undeclared automated clients). Details from search results | US federal work, public domain | Equity Analyst Research Reports (activist short sellers); Ethics II(B) market manipulation, V(B) communication | ADAPT (case facts) | Medium; **outcome not verified, so present as allegations only** |
+| 5 | Form SHO / Rule 13f-2 (Cycle 1 §C) | — | — | — | Activist short sellers | — | Medium |
+
+What S58 provides:
+- Required report sections: Business Description; Industry Overview & Competitive Positioning; Investment Summary; Valuation; Financial Analysis; Investment Risks; ESG.
+- A 100-point rubric: 5 / 10 / 15 / 20 / 20 / 15 / 15 for those sections in that order.
+- Requirements: a front-page data block (recommendation, current and target price) and the independent-analyst perspective.
+- This is a ready-made skeleton for the "elements of a detailed company research report" LOS.
+
+**Forecasting** remains thin. The best open option is OpenStax Finance ch. 18 (S57), plus S1 (Five Forces/PESTEL) for revenue drivers. Backlog: open-licence three-statement-model walkthroughs.
+
+### 2.4 Financial reporting quality (priority 4)
+
+| # | Source (ID) | URL | Access | Licence | Modules | Reuse | Conf. |
+|---|---|---|---|---|---|---|---|
+| 1 | **S63** Dechow & Schrand, *Earnings Quality* (CFA Institute Research Foundation, 2004, 160 pp): earnings-management techniques, when it occurs, and monitors (directors, auditors, analysts) | rpc.cfainstitute.org/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf | Fetched | "© 2004 The Research Foundation of CFA Institute. All rights reserved." | **Financial Reporting Quality** | GROUND | High; dated examples |
+| 2 | **S64** CFA Institute, *Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting* (2016, 72 pp) | rpc.cfainstitute.org/-/media/documents/article/position-paper/bridging-the-gap-ensuring-non-gaap-and-performance-reporting.pdf | Fetched | "© 2016 CFA Institute. All rights reserved." | FRQ (non-GAAP presentation choices LOS); Income Statements | GROUND | High |
+| 3 | **S65** SEC staff Non-GAAP Financial Measures C&DIs. Last substantive update Dec 2022 (questions 100.01, 100.04–100.06, 102.10) per Deloitte DART and Gibson Dunn | sec.gov Corporation Finance C&DI page (blocked to automated fetch) | 403 | Public domain | FRQ; Income Statements | ADAPT | Medium |
+| 4 | **S66** SEC earnings-management cases | SEC press release 2022-64 (Rollins); others via search | 403 | Public domain | FRQ (earnings management, "beat by a penny") | ADAPT (facts) | Medium |
+| 5 | **S67** IASB IFRS 18 standard page and project summary | ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/ | Fetched | © IFRS Foundation | Context callout only (§2.2) | GROUND | High |
+
+S66 cases in detail:
+- **Rollins** (Apr 2022, $8m penalty): unsupported reserve reductions used to round EPS up to the next cent. This came from the SEC "EPS Initiative", which uses data analytics.
+- **UPS** (Nov 2024, $45m): improper valuation of a business unit.
+
+### 2.5 Sovereign credit (priority 5)
+
+| # | Source (ID) | URL | Access | Licence | Modules | Reuse | Conf. |
+|---|---|---|---|---|---|---|---|
+| 1 | **S69** Cantor & Packer (1996), "Determinants and Impact of Sovereign Credit Ratings", FRBNY *Economic Policy Review* 2(2). Six key factors: per-capita income, GDP growth, inflation, external debt, level of economic development, default history | newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf | Fetched (18 pp) | © FRBNY | **Credit Analysis for Government Issuers** | GROUND | High; dated but foundational |
+| 2 | **S70** IMF–World Bank, *Guidance Note on the Bank-Fund Debt Sustainability Framework for Low Income Countries* (Feb 2018, 71 pp), plus a 2024 Supplement (climate, domestic debt, restructurings) | worldbank.org/content/dam/LIC%20DSF/Site%20File/assets/documentation/pp122617guidance-note-on-lic-dsf.pdf | Fetched | "© 2018 International Monetary Fund"; IMF terms allow no derivative works (Cycle 1) | Credit Analysis for Government Issuers (debt sustainability) | GROUND | High |
+| 3 | **S71** IMF *Staff Guidance Note on the Sovereign Risk and Debt Sustainability Framework for Market Access Countries* (Aug 2022, PP/2022/039) | imf.org/en/Publications/Policy-Papers/Issues/2022/08/08/Staff-Guidance-Note-on-the-Sovereign-Risk-and-Debt-Sustainability-Framework-for-Market-521884 | **403** | IMF terms | Same | LINK | Medium |
+| 4 | **S72** Scope Ratings *Sovereign Rating Methodology* (27 Jan 2025). A revision was proposed in Jan 2026; adoption not verified | scoperatings.com/governance-and-policies/rating-governance/methodologies | JS-only page; not read | Proprietary | Same | LINK | Medium |
+| 5 | **S73** Fitch *Sovereign Rating Criteria* (revised; reportedly effective Sep 2025 with explicit recovery assumptions) | fitchratings.com (search "Sovereign Rating Criteria") | Not located | Proprietary | Same | LINK | Low |
+
+### 2.6 Licence upgrades from Cycle 1
+
+| Source | Cycle 1 | Now | Evidence |
+|---|---|---|---|
+| S35 Lyryx *Intermediate Financial Accounting* Vol 2 | Medium | **High** | See details below the table |
+| S29 World Bank *PPP Reference Guide 3.0* | Medium | **High** (for the OKR copy) | OKR API metadata: `dc.rights` "CC BY 3.0 IGO", `dc.rights.uri` creativecommons.org/licenses/by/3.0/igo, 2017, DOI 10.1596/29052, rights holder World Bank. The ppp.worldbank.org PDF dated 2024 may be a different version, so use the OKR copy |
+| S31 OECD *Corporate Governance Factbook 2025* | Medium | Medium (unchanged) | oecd.org still returns 403. The user should check the copyright page in a browser |
+| S12 Ginnie Mae MBS Guide | Medium | Medium (unchanged) | ginniemae.gov's website-policies and privacy pages have no copyright statement. Public domain only by statute (government corporation within HUD) |
+
+S35 Lyryx Vol 2 in detail:
+- Read the PDF's own licence page this session. Source: the eCampusOntario repository, openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf; record dc.rights "CC BY | https://creativecommons.org/licenses/by/4.0/".
+- The licence statement reads: "available under the Creative Commons license (CC BY), allowing anyone to reuse, revise, remix and redistribute". "Version 2021 — Revision A", 594 pp.
+- Covers **IFRS 16** (25 mentions, right-of-use model) and IAS 12.
+- **Caveat:** it also covers Canadian **ASPE**, which is not in the CFA syllabus. The generator must use the IFRS paragraphs only.
+
+### 2.7 Blocked sites: exact URLs for the user to open manually
+
+None of these were bypassed. The user can open each in a browser and, if wanted, save a copy outside the repo for private grounding.
+
+| Source | URL |
+|---|---|
+| Moody's *Rating Symbols and Definitions* | https://ratings.moodys.com/api/rmc-documents/53954 |
+| S&P *Guide to Credit Rating Essentials* (2024) | https://www.spglobal.com/_assets/documents/guide-to-credit-rating-essentials_2024.pdf |
+| S&P *Sovereign Rating Methodology* | https://disclosure.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/10221157 |
+| Fitch *Sovereign Rating Criteria* | https://www.fitchratings.com/ (site search: "Sovereign Rating Criteria"; exact URL not located) |
+| Scope *Sovereign Rating Methodology* | https://scoperatings.com/governance-and-policies/rating-governance/methodologies |
+| OCC (Options Clearing Corp) *Characteristics and Risks of Standardized Options* | https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf |
+| CME Group *Understanding Treasury Futures* | https://www.cmegroup.com/education/files/understanding-treasury-futures.pdf (education hub: https://www.cmegroup.com/education.html) |
+| Fannie Mae *Basics of Fannie Mae Single-Family MBS* | https://capitalmarkets.fanniemae.com/media/4271/display |
+| OECD *Corporate Governance Factbook 2025* | https://www.oecd.org/en/publications/oecd-corporate-governance-factbook-2025_f4f43735-en.html |
+| IMF SRDSF MAC guidance note (2022) | https://www.imf.org/en/Publications/Policy-Papers/Issues/2022/08/08/Staff-Guidance-Note-on-the-Sovereign-Risk-and-Debt-Sustainability-Framework-for-Market-521884 |
+| SEC v. Left (LR-26056) | https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26056 |
+| SEC Rollins EPS case (PR 2022-64) | https://www.sec.gov/news/press-release/2022-64 |
+
+About sec.gov:
+- SEC's published fair-access policy asks automated clients to declare a User-Agent containing contact details.
+- That would mean sending the user's contact information. I did not do it.
+- The engineer may configure it later, but only with the user's consent.
+
+### 2.8 Cycle 2 recommendations (ranked by reliability impact)
+
+1. **Make S50 (Fed trading manual, public domain) the ADAPT backbone for derivatives instrument features and pricing descriptions.**
+   - Modernise LIBOR/DM examples to SOFR/EUR.
+   - Never copy its example numbers as answer keys without recomputation, because two of its examples do not reproduce.
+2. **Add the IFRS 18 currency gate (§2.2)** to verify.ts and tag FSA lessons `IAS1-era`. IFRS 18 appears only in a non-examinable callout.
+3. **Use S51 (MIT 15.401) recitations and exam** as the derivatives teaching and worked-example layer. Four vector candidates have already been hand-checked.
+4. **Encode the five derivatives convention flags (§2.1)** in the generation prompt and grader rubric: FX quote direction, carry form, contango wording, rate convention, MRR not LIBOR.
+5. **Ingest Lyryx Vol 2 (now High, CC BY 4.0)** as the ADAPT source for IAS 12, IFRS 16, EPS and cash flows, with an ASPE filter.
+6. **Equity research reports:** use the S58 report skeleton and rubric, S59/S60 for sell-side conflict rules, and S61 as the activist-short-seller case (presented as allegations).
+7. **FRQ:** S63/S64 as GROUND, plus SEC EPS-Initiative cases (public domain) as case vignettes.
+8. **Sovereign credit:** S69 for rating determinants and S70 for debt-sustainability logic. Ask the user to save one agency sovereign methodology manually.
+9. **Vector policy:** every sourced vector carries `sourceStated`, `recomputed`, `tolerance` and `agree` fields. Cycles 1–2 found arithmetic slips in three "authoritative" sources.
+
+### 2.9 Proposed Cycle 3 backlog
+
+1. **Swaps and put–call–forward parity with discount-factor worked examples:**
+   - Fed Board FEDS Notes or NY Fed swap explainers.
+   - BIS Quarterly Review swap features (BIS terms allow non-commercial redistribution).
+   - SOA FM sample items on swaps (none were found in the FM extract; check FAM-L).
+2. **CFA-convention reference check.** Collect CFA Institute free materials or sample items that show the exact derivatives notation, so the five §2.1 flags are settled from T1 rather than inferred.
+3. **FS forecasting and modelling:** open-licence three-statement-model walkthroughs (OpenStax Finance ch. 18 depth check; LibreTexts/Pressbooks accounting).
+4. **Hedge funds and real estate:** Fed Financial Stability Report sections (public domain); SEC Form PF statistics; Nareit/NCREIF primers (licence check).
+5. **Verify sec.gov facts** for S61, S65 and S66 once a compliant access method is approved, or have the user open them.
+6. **Re-check OECD Factbook and Ginnie Mae licences** via the user.
