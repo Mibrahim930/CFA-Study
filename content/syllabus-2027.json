@@ -1,0 +1,2293 @@
+{
+  "curriculumYear": 2027,
+  "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf",
+  "generatedAt": "2026-10-10T19:17:39.313Z",
+  "topics": [
+    {
+      "id": "quant",
+      "name": "Quantitative Methods",
+      "weight": {
+        "min": 11,
+        "max": 14
+      },
+      "session": 1,
+      "modules": [
+        {
+          "id": "quant-01",
+          "slug": "quant-01-returns-of-financial-assets-and-instruments",
+          "order": 1,
+          "title": "Returns of Financial Assets and Instruments",
+          "los": [
+            {
+              "id": "quant-01-los1",
+              "text": "describe, compare, and interpret returns"
+            },
+            {
+              "id": "quant-01-los2",
+              "text": "describe, compare, and interpret required rates of return, risk-free rates, risk premia, and inflation"
+            }
+          ]
+        },
+        {
+          "id": "quant-02",
+          "slug": "quant-02-types-of-financial-returns",
+          "order": 2,
+          "title": "Types of Financial Returns",
+          "los": [
+            {
+              "id": "quant-02-los1",
+              "text": "calculate, compare, and interpret different types of returns for financial assets, instruments, and indicators"
+            }
+          ]
+        },
+        {
+          "id": "quant-03",
+          "slug": "quant-03-benchmarking-returns",
+          "order": 3,
+          "title": "Benchmarking Returns",
+          "los": [
+            {
+              "id": "quant-03-los1",
+              "text": "calculate and compare money-weighted and time-weighted rates of return"
+            },
+            {
+              "id": "quant-03-los2",
+              "text": "describe the choices and the implications of the different weighting methods used in index construction and management, and calculate, interpret, and explain the value and the returns of an index"
+            }
+          ]
+        },
+        {
+          "id": "quant-04",
+          "slug": "quant-04-the-time-value-of-money-in-finance",
+          "order": 4,
+          "title": "The Time Value of Money in Finance",
+          "los": [
+            {
+              "id": "quant-04-los1",
+              "text": "calculate and interpret the present value of fixed-income and equity instruments based on expected future cash flows"
+            },
+            {
+              "id": "quant-04-los2",
+              "text": "calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given their present value and cash flows"
+            },
+            {
+              "id": "quant-04-los3",
+              "text": "explain the cash flow additivity principle and its importance for the condition of no arbitrage, and explain its use in calculating implied forward interest rates, forward exchange rates, and option values"
+            }
+          ]
+        },
+        {
+          "id": "quant-05",
+          "slug": "quant-05-statistical-characteristics-of-asset-returns",
+          "order": 5,
+          "title": "Statistical Characteristics of Asset Returns",
+          "los": [
+            {
+              "id": "quant-05-los1",
+              "text": "calculate, interpret, and evaluate various measures of (1) central tendency and location and (2) dispersion"
+            },
+            {
+              "id": "quant-05-los2",
+              "text": "describe, interpret, and evaluate measures of skewness and kurtosis"
+            },
+            {
+              "id": "quant-05-los3",
+              "text": "calculate, interpret, and evaluate covariance and correlation"
+            },
+            {
+              "id": "quant-05-los4",
+              "text": "calculate, interpret, and evaluate semi-deviation and coefficient of variation"
+            }
+          ]
+        },
+        {
+          "id": "quant-06",
+          "slug": "quant-06-statistical-distributions-for-financial-asset-prices-and-ret",
+          "order": 6,
+          "title": "Statistical Distributions for Financial Asset Prices and Returns",
+          "los": [
+            {
+              "id": "quant-06-los1",
+              "text": "calculate, interpret, and evaluate unconditional expected values for mean, variance, and covariance"
+            },
+            {
+              "id": "quant-06-los2",
+              "text": "calculate, interpret, and evaluate the principal moments of key statistical distributions used in finance"
+            },
+            {
+              "id": "quant-06-los3",
+              "text": "calculate, interpret, and evaluate conditional expectations, variances, and covariances"
+            },
+            {
+              "id": "quant-06-los4",
+              "text": "formulate investment problems through Bayesian updating"
+            }
+          ]
+        },
+        {
+          "id": "quant-07",
+          "slug": "quant-07-estimation-and-hypothesis-testing",
+          "order": 7,
+          "title": "Estimation and Hypothesis Testing",
+          "los": [
+            {
+              "id": "quant-07-los1",
+              "text": "explain the central limit theorem and the application of confidence intervals and sampling methodologies"
+            },
+            {
+              "id": "quant-07-los2",
+              "text": "explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test; construct appropriate hypothesis tests; and interpret the results"
+            },
+            {
+              "id": "quant-07-los3",
+              "text": "compare and contrast parametric and non-parametric tests, describe situations in which each is the more appropriate type of test, construct appropriate hypothesis tests, and interpret the results"
+            }
+          ]
+        },
+        {
+          "id": "quant-08",
+          "slug": "quant-08-the-return-and-risk-of-a-financial-portfolio",
+          "order": 8,
+          "title": "The Return and Risk of a Financial Portfolio",
+          "los": [
+            {
+              "id": "quant-08-los1",
+              "text": "calculate, interpret, and evaluate the expected return, variance, standard deviation, covariance, and correlation of portfolio returns"
+            },
+            {
+              "id": "quant-08-los2",
+              "text": "describe, calculate, and interpret the minimum-variance portfolio and portfolios that lie on the efficient frontier"
+            },
+            {
+              "id": "quant-08-los3",
+              "text": "explain the selection of an optimal portfolio, given an investor's risk aversion and the capital allocation line, and how this extends to the market portfolio and the capital market line"
+            }
+          ]
+        },
+        {
+          "id": "quant-09",
+          "slug": "quant-09-simulation-of-financial-asset-prices-and-returns",
+          "order": 9,
+          "title": "Simulation of Financial Asset Prices and Returns",
+          "los": [
+            {
+              "id": "quant-09-los1",
+              "text": "describe historical simulation and explain how it can be used in investment applications"
+            },
+            {
+              "id": "quant-09-los2",
+              "text": "describe bootstrap resampling, and explain how it can be used in investment applications"
+            },
+            {
+              "id": "quant-09-los3",
+              "text": "describe Monte Carlo simulation and explain how it can be used in investment applications"
+            }
+          ]
+        },
+        {
+          "id": "quant-10",
+          "slug": "quant-10-applications-of-simple-linear-regression-in-finance",
+          "order": 10,
+          "title": "Applications of Simple Linear Regression in Finance",
+          "los": [
+            {
+              "id": "quant-10-los1",
+              "text": "describe, interpret, and explain simple linear regression, including coefficient estimation using the least squares criterion"
+            },
+            {
+              "id": "quant-10-los2",
+              "text": "describe and compare the assumptions of simple linear regression, identify violations through analyzing residuals, evaluate the estimated model's goodness-of-fit and regression coefficients, and results of ANOVA estimates"
+            },
+            {
+              "id": "quant-10-los3",
+              "text": "calculate and interpret predicted values, the standard error of the estimate, and prediction intervals for the dependent variable in a simple linear regression model and describe different functional forms"
+            },
+            {
+              "id": "quant-10-los4",
+              "text": "calculate and interpret the variable estimates of the capital asset pricing model (CAPM)"
+            }
+          ]
+        },
+        {
+          "id": "quant-11",
+          "slug": "quant-11-introduction-to-financial-data-science",
+          "order": 11,
+          "title": "Introduction to Financial Data Science",
+          "los": [
+            {
+              "id": "quant-11-los1",
+              "text": "describe how big data, machine learning, and artificial intelligence are used in financial data science, fintech, and investment management"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "econ",
+      "name": "Economics",
+      "weight": {
+        "min": 6,
+        "max": 9
+      },
+      "session": 1,
+      "modules": [
+        {
+          "id": "econ-01",
+          "slug": "econ-01-the-firm-and-market-structures",
+          "order": 1,
+          "title": "The Firm and Market Structures",
+          "los": [
+            {
+              "id": "econ-01-los1",
+              "text": "determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition"
+            },
+            {
+              "id": "econ-01-los2",
+              "text": "describe characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly"
+            },
+            {
+              "id": "econ-01-los3",
+              "text": "explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing strategy"
+            },
+            {
+              "id": "econ-01-los4",
+              "text": "explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy"
+            },
+            {
+              "id": "econ-01-los5",
+              "text": "identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures"
+            }
+          ]
+        },
+        {
+          "id": "econ-02",
+          "slug": "econ-02-understanding-business-cycles",
+          "order": 2,
+          "title": "Understanding Business Cycles",
+          "los": [
+            {
+              "id": "econ-02-los1",
+              "text": "describe the business cycle and its phases"
+            },
+            {
+              "id": "econ-02-los2",
+              "text": "describe credit cycles"
+            },
+            {
+              "id": "econ-02-los3",
+              "text": "describe how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators"
+            }
+          ]
+        },
+        {
+          "id": "econ-03",
+          "slug": "econ-03-fiscal-policy",
+          "order": 3,
+          "title": "Fiscal Policy",
+          "los": [
+            {
+              "id": "econ-03-los1",
+              "text": "compare monetary and fiscal policy"
+            },
+            {
+              "id": "econ-03-los2",
+              "text": "describe roles and objectives of fiscal policy as well as arguments as to whether the size of a national debt relative to GDP matters"
+            },
+            {
+              "id": "econ-03-los3",
+              "text": "describe tools of fiscal policy, including their advantages and disadvantages"
+            },
+            {
+              "id": "econ-03-los4",
+              "text": "explain the implementation of fiscal policy and difficulties of implementation as well as whether a fiscal policy is expansionary or contractionary"
+            }
+          ]
+        },
+        {
+          "id": "econ-04",
+          "slug": "econ-04-monetary-policy",
+          "order": 4,
+          "title": "Monetary Policy",
+          "los": [
+            {
+              "id": "econ-04-los1",
+              "text": "describe the roles and objectives of central banks"
+            },
+            {
+              "id": "econ-04-los2",
+              "text": "describe tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates"
+            },
+            {
+              "id": "econ-04-los3",
+              "text": "describe qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy"
+            },
+            {
+              "id": "econ-04-los4",
+              "text": "explain the interaction of monetary and fiscal policy"
+            }
+          ]
+        },
+        {
+          "id": "econ-05",
+          "slug": "econ-05-introduction-to-geopolitics",
+          "order": 5,
+          "title": "Introduction to Geopolitics",
+          "los": [
+            {
+              "id": "econ-05-los1",
+              "text": "describe geopolitics from a cooperation versus competition perspective"
+            },
+            {
+              "id": "econ-05-los2",
+              "text": "describe geopolitics and its relationship with globalization"
+            },
+            {
+              "id": "econ-05-los3",
+              "text": "describe functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund, and the World Trade Organization"
+            },
+            {
+              "id": "econ-05-los4",
+              "text": "describe geopolitical risk"
+            },
+            {
+              "id": "econ-05-los5",
+              "text": "describe tools of geopolitics and their impact on regions and economies"
+            },
+            {
+              "id": "econ-05-los6",
+              "text": "describe the impact of geopolitical risk on investments"
+            }
+          ]
+        },
+        {
+          "id": "econ-06",
+          "slug": "econ-06-international-trade",
+          "order": 6,
+          "title": "International Trade",
+          "los": [
+            {
+              "id": "econ-06-los1",
+              "text": "describe the benefits and costs of international trade"
+            },
+            {
+              "id": "econ-06-los2",
+              "text": "compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications"
+            },
+            {
+              "id": "econ-06-los3",
+              "text": "explain motivations for and advantages of trading blocs, common markets, and economic unions"
+            }
+          ]
+        },
+        {
+          "id": "econ-07",
+          "slug": "econ-07-capital-flows-and-the-fx-market",
+          "order": 7,
+          "title": "Capital Flows and the FX Market",
+          "los": [
+            {
+              "id": "econ-07-los1",
+              "text": "describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency"
+            },
+            {
+              "id": "econ-07-los2",
+              "text": "describe exchange rate regimes and explain the effects of exchange rates on countries' international trade and capital flows"
+            },
+            {
+              "id": "econ-07-los3",
+              "text": "describe common objectives of capital restrictions imposed by governments"
+            }
+          ]
+        },
+        {
+          "id": "econ-08",
+          "slug": "econ-08-exchange-rate-calculations",
+          "order": 8,
+          "title": "Exchange Rate Calculations",
+          "los": [
+            {
+              "id": "econ-08-los1",
+              "text": "calculate and interpret currency cross-rates"
+            },
+            {
+              "id": "econ-08-los2",
+              "text": "explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corpfin",
+      "name": "Corporate Finance",
+      "weight": {
+        "min": 6,
+        "max": 9
+      },
+      "session": 1,
+      "modules": [
+        {
+          "id": "corpfin-01",
+          "slug": "corpfin-01-organizational-forms-corporate-issuer-features-and-ownership",
+          "order": 1,
+          "title": "Organizational Forms, Corporate Issuer Features, and Ownership",
+          "los": [
+            {
+              "id": "corpfin-01-los1",
+              "text": "compare the organizational forms of businesses"
+            },
+            {
+              "id": "corpfin-01-los2",
+              "text": "describe key features of corporate issuers"
+            },
+            {
+              "id": "corpfin-01-los3",
+              "text": "compare publicly and privately owned corporate issuers"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-02",
+          "slug": "corpfin-02-investors-and-other-stakeholders",
+          "order": 2,
+          "title": "Investors and Other Stakeholders",
+          "los": [
+            {
+              "id": "corpfin-02-los1",
+              "text": "compare the financial claims and motivations of lenders and shareholders"
+            },
+            {
+              "id": "corpfin-02-los2",
+              "text": "describe a company's stakeholder groups and compare their interests"
+            },
+            {
+              "id": "corpfin-02-los3",
+              "text": "describe environmental, social, and governance factors of corporate issuers considered by investors"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-03",
+          "slug": "corpfin-03-corporate-governance-conflicts-mechanisms-risks-and-benefits",
+          "order": 3,
+          "title": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+          "los": [
+            {
+              "id": "corpfin-03-los1",
+              "text": "describe the principal-agent relationship and conflicts that may arise between stakeholder groups"
+            },
+            {
+              "id": "corpfin-03-los2",
+              "text": "describe corporate governance and mechanisms to manage stakeholder relationships and mitigate associated risks"
+            },
+            {
+              "id": "corpfin-03-los3",
+              "text": "describe potential risks of poor corporate governance and stakeholder management and benefits of effective corporate governance and stakeholder management"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-04",
+          "slug": "corpfin-04-working-capital-and-liquidity",
+          "order": 4,
+          "title": "Working Capital and Liquidity",
+          "los": [
+            {
+              "id": "corpfin-04-los1",
+              "text": "explain the cash conversion cycle and compare issuers' cash conversion cycles"
+            },
+            {
+              "id": "corpfin-04-los2",
+              "text": "explain liquidity and compare issuers' liquidity levels"
+            },
+            {
+              "id": "corpfin-04-los3",
+              "text": "describe issuers' objectives and compare methods for managing working capital and liquidity"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-05",
+          "slug": "corpfin-05-capital-investments-and-capital-allocation",
+          "order": 5,
+          "title": "Capital Investments and Capital Allocation",
+          "los": [
+            {
+              "id": "corpfin-05-los1",
+              "text": "describe types of capital investments"
+            },
+            {
+              "id": "corpfin-05-los2",
+              "text": "describe the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and contrast their use in capital allocation"
+            },
+            {
+              "id": "corpfin-05-los3",
+              "text": "describe principles of capital allocation and common capital allocation pitfalls"
+            },
+            {
+              "id": "corpfin-05-los4",
+              "text": "describe types of real options relevant to capital investments"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-06",
+          "slug": "corpfin-06-capital-structure",
+          "order": 6,
+          "title": "Capital Structure",
+          "los": [
+            {
+              "id": "corpfin-06-los1",
+              "text": "calculate and interpret the weighted-average cost of capital for a company"
+            },
+            {
+              "id": "corpfin-06-los2",
+              "text": "explain factors affecting capital structure and the weighted-average cost of capital"
+            },
+            {
+              "id": "corpfin-06-los3",
+              "text": "explain the Modigliani-Miller propositions regarding capital structure"
+            },
+            {
+              "id": "corpfin-06-los4",
+              "text": "describe optimal and target capital structures"
+            }
+          ]
+        },
+        {
+          "id": "corpfin-07",
+          "slug": "corpfin-07-business-models",
+          "order": 7,
+          "title": "Business Models",
+          "los": [
+            {
+              "id": "corpfin-07-los1",
+              "text": "describe key features of business models"
+            },
+            {
+              "id": "corpfin-07-los2",
+              "text": "describe various types of business models"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fsa",
+      "name": "Financial Statement Analysis",
+      "weight": {
+        "min": 11,
+        "max": 14
+      },
+      "session": 1,
+      "modules": [
+        {
+          "id": "fsa-01",
+          "slug": "fsa-01-introduction-to-financial-statement-analysis",
+          "order": 1,
+          "title": "Introduction to Financial Statement Analysis",
+          "los": [
+            {
+              "id": "fsa-01-los1",
+              "text": "describe the steps in the financial statement analysis framework"
+            },
+            {
+              "id": "fsa-01-los2",
+              "text": "describe the roles of financial statement analysis"
+            },
+            {
+              "id": "fsa-01-los3",
+              "text": "describe the importance of regulatory filings, financial statement notes and supplementary information, management's commentary, and audit reports"
+            },
+            {
+              "id": "fsa-01-los4",
+              "text": "describe implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards"
+            },
+            {
+              "id": "fsa-01-los5",
+              "text": "describe information sources that analysts use in financial statement analysis besides annual and interim financial reports"
+            }
+          ]
+        },
+        {
+          "id": "fsa-02",
+          "slug": "fsa-02-analyzing-income-statements",
+          "order": 2,
+          "title": "Analyzing Income Statements",
+          "los": [
+            {
+              "id": "fsa-02-los1",
+              "text": "describe general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis"
+            },
+            {
+              "id": "fsa-02-los2",
+              "text": "describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred"
+            },
+            {
+              "id": "fsa-02-los3",
+              "text": "describe the financial reporting treatment and analysis of non-recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies"
+            },
+            {
+              "id": "fsa-02-los4",
+              "text": "describe how earnings per share is calculated and calculate and interpret a company's basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities"
+            },
+            {
+              "id": "fsa-02-los5",
+              "text": "evaluate a company's financial performance using common-size income statements and financial ratios based on the income statement"
+            }
+          ]
+        },
+        {
+          "id": "fsa-03",
+          "slug": "fsa-03-analyzing-balance-sheets",
+          "order": 3,
+          "title": "Analyzing Balance Sheets",
+          "los": [
+            {
+              "id": "fsa-03-los1",
+              "text": "explain the financial reporting and disclosures related to intangible assets"
+            },
+            {
+              "id": "fsa-03-los2",
+              "text": "explain the financial reporting and disclosures related to goodwill"
+            },
+            {
+              "id": "fsa-03-los3",
+              "text": "explain the financial reporting and disclosures related to financial instruments"
+            },
+            {
+              "id": "fsa-03-los4",
+              "text": "explain the financial reporting and disclosures related to non-current liabilities"
+            },
+            {
+              "id": "fsa-03-los5",
+              "text": "calculate and interpret common-size balance sheets and related financial ratios"
+            }
+          ]
+        },
+        {
+          "id": "fsa-04",
+          "slug": "fsa-04-analyzing-statements-of-cash-flows-i",
+          "order": 4,
+          "title": "Analyzing Statements of Cash Flows I",
+          "los": [
+            {
+              "id": "fsa-04-los1",
+              "text": "describe how the cash flow statement is linked to the income statement and the balance sheet"
+            },
+            {
+              "id": "fsa-04-los2",
+              "text": "describe the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data"
+            },
+            {
+              "id": "fsa-04-los3",
+              "text": "demonstrate the conversion of cash flows from the indirect to direct method"
+            },
+            {
+              "id": "fsa-04-los4",
+              "text": "contrast cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP)"
+            }
+          ]
+        },
+        {
+          "id": "fsa-05",
+          "slug": "fsa-05-analyzing-statements-of-cash-flows-ii",
+          "order": 5,
+          "title": "Analyzing Statements of Cash Flows II",
+          "los": [
+            {
+              "id": "fsa-05-los1",
+              "text": "analyze and interpret both reported and common-size cash flow statements"
+            },
+            {
+              "id": "fsa-05-los2",
+              "text": "calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios"
+            }
+          ]
+        },
+        {
+          "id": "fsa-06",
+          "slug": "fsa-06-analysis-of-inventories",
+          "order": 6,
+          "title": "Analysis of Inventories",
+          "los": [
+            {
+              "id": "fsa-06-los1",
+              "text": "describe the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios"
+            },
+            {
+              "id": "fsa-06-los2",
+              "text": "calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods"
+            },
+            {
+              "id": "fsa-06-los3",
+              "text": "describe the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company's inventory disclosures and other sources of information"
+            }
+          ]
+        },
+        {
+          "id": "fsa-07",
+          "slug": "fsa-07-analysis-of-long-term-assets",
+          "order": 7,
+          "title": "Analysis of Long-Term Assets",
+          "los": [
+            {
+              "id": "fsa-07-los1",
+              "text": "compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination"
+            },
+            {
+              "id": "fsa-07-los2",
+              "text": "explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios"
+            },
+            {
+              "id": "fsa-07-los3",
+              "text": "analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets"
+            }
+          ]
+        },
+        {
+          "id": "fsa-08",
+          "slug": "fsa-08-topics-in-long-term-liabilities-and-equity",
+          "order": 8,
+          "title": "Topics in Long-Term Liabilities and Equity",
+          "los": [
+            {
+              "id": "fsa-08-los1",
+              "text": "explain the financial reporting of leases from the perspectives of lessors and lessees"
+            },
+            {
+              "id": "fsa-08-los2",
+              "text": "explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans"
+            },
+            {
+              "id": "fsa-08-los3",
+              "text": "describe the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation"
+            }
+          ]
+        },
+        {
+          "id": "fsa-09",
+          "slug": "fsa-09-analysis-of-income-taxes",
+          "order": 9,
+          "title": "Analysis of Income Taxes",
+          "los": [
+            {
+              "id": "fsa-09-los1",
+              "text": "contrast accounting profit, taxable income, taxes payable, and income tax expense and temporary versus permanent differences between accounting profit and taxable income"
+            },
+            {
+              "id": "fsa-09-los2",
+              "text": "explain how deferred tax liabilities and assets are created and the factors that determine how a company's deferred tax liabilities and assets should be treated for the purposes of financial analysis"
+            },
+            {
+              "id": "fsa-09-los3",
+              "text": "calculate, interpret, and contrast an issuer's effective tax rate, statutory tax rate, and cash tax rate"
+            },
+            {
+              "id": "fsa-09-los4",
+              "text": "analyze disclosures relating to deferred tax items and the effective tax rate reconciliation and explain how information included in these disclosures affects a company's financial statements and financial ratios"
+            }
+          ]
+        },
+        {
+          "id": "fsa-10",
+          "slug": "fsa-10-financial-reporting-quality",
+          "order": 10,
+          "title": "Financial Reporting Quality",
+          "los": [
+            {
+              "id": "fsa-10-los1",
+              "text": "compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)"
+            },
+            {
+              "id": "fsa-10-los2",
+              "text": "describe a spectrum for assessing financial reporting quality"
+            },
+            {
+              "id": "fsa-10-los3",
+              "text": "explain the difference between conservative and aggressive accounting"
+            },
+            {
+              "id": "fsa-10-los4",
+              "text": "describe motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports"
+            },
+            {
+              "id": "fsa-10-los5",
+              "text": "describe mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms"
+            },
+            {
+              "id": "fsa-10-los6",
+              "text": "describe presentation choices, including non-GAAP measures, that could be used to influence an analyst's opinion"
+            },
+            {
+              "id": "fsa-10-los7",
+              "text": "describe accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items"
+            },
+            {
+              "id": "fsa-10-los8",
+              "text": "describe accounting warning signs and methods for detecting manipulation of information in financial reports"
+            }
+          ]
+        },
+        {
+          "id": "fsa-11",
+          "slug": "fsa-11-financial-analysis-techniques",
+          "order": 11,
+          "title": "Financial Analysis Techniques",
+          "los": [
+            {
+              "id": "fsa-11-los1",
+              "text": "describe tools and techniques used in financial analysis, including their uses and limitations"
+            },
+            {
+              "id": "fsa-11-los2",
+              "text": "calculate and interpret activity, liquidity, solvency, and profitability ratios"
+            },
+            {
+              "id": "fsa-11-los3",
+              "text": "describe relationships among ratios and evaluate a company using ratio analysis"
+            },
+            {
+              "id": "fsa-11-los4",
+              "text": "demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components"
+            },
+            {
+              "id": "fsa-11-los5",
+              "text": "describe the uses of industry-specific ratios used in financial analysis"
+            },
+            {
+              "id": "fsa-11-los6",
+              "text": "describe how ratio analysis and other techniques can be used to model and forecast earnings"
+            }
+          ]
+        },
+        {
+          "id": "fsa-12",
+          "slug": "fsa-12-introduction-to-financial-statement-modeling",
+          "order": 12,
+          "title": "Introduction to Financial Statement Modeling",
+          "los": [
+            {
+              "id": "fsa-12-los1",
+              "text": "demonstrate the development of a sales-based pro forma company model"
+            },
+            {
+              "id": "fsa-12-los2",
+              "text": "explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases"
+            },
+            {
+              "id": "fsa-12-los3",
+              "text": "explain how the competitive position of a company based on a Porter's five forces analysis affects prices and costs"
+            },
+            {
+              "id": "fsa-12-los4",
+              "text": "explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation"
+            },
+            {
+              "id": "fsa-12-los5",
+              "text": "explain considerations in the choice of an explicit forecast horizon and an analyst's choices in developing projections beyond the short-term forecast horizon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equity",
+      "name": "Equities",
+      "weight": {
+        "min": 11,
+        "max": 14
+      },
+      "session": 2,
+      "modules": [
+        {
+          "id": "equity-01",
+          "slug": "equity-01-equity-instrument-features",
+          "order": 1,
+          "title": "Equity Instrument Features",
+          "los": [
+            {
+              "id": "equity-01-los1",
+              "text": "describe basic features and types of equity instruments"
+            },
+            {
+              "id": "equity-01-los2",
+              "text": "contrast features of publicly listed versus private equity securities"
+            }
+          ]
+        },
+        {
+          "id": "equity-02",
+          "slug": "equity-02-equity-jurisdictions-classes-and-the-voting-process",
+          "order": 2,
+          "title": "Equity Jurisdictions, Classes, and the Voting Process",
+          "los": [
+            {
+              "id": "equity-02-los1",
+              "text": "describe differences in economic and voting rights and other characteristics among different jurisdictions and equity classes"
+            },
+            {
+              "id": "equity-02-los2",
+              "text": "describe the voting process and roles of the issuer's management, board, proxy advisors, asset managers, and asset owners in the process"
+            }
+          ]
+        },
+        {
+          "id": "equity-03",
+          "slug": "equity-03-equity-issuance-and-trading",
+          "order": 3,
+          "title": "Equity Issuance and Trading",
+          "los": [
+            {
+              "id": "equity-03-los1",
+              "text": "describe primary and secondary public equity markets and their functions"
+            },
+            {
+              "id": "equity-03-los2",
+              "text": "compare exchange, off-exchange, and over-the-counter equities trading"
+            },
+            {
+              "id": "equity-03-los3",
+              "text": "describe liquidity measures for a publicly listed security and calculate float and average daily volume"
+            },
+            {
+              "id": "equity-03-los4",
+              "text": "describe types of equity indexes"
+            }
+          ]
+        },
+        {
+          "id": "equity-04",
+          "slug": "equity-04-sources-of-equity-returns",
+          "order": 4,
+          "title": "Sources of Equity Returns",
+          "los": [
+            {
+              "id": "equity-04-los1",
+              "text": "describe features and uses of dividends, share repurchases, stock splits, and reverse stock splits"
+            },
+            {
+              "id": "equity-04-los2",
+              "text": "describe dividend payment chronology"
+            },
+            {
+              "id": "equity-04-los3",
+              "text": "calculate price and total return for equity securities"
+            }
+          ]
+        },
+        {
+          "id": "equity-05",
+          "slug": "equity-05-introduction-to-equity-valuation",
+          "order": 5,
+          "title": "Introduction to Equity Valuation",
+          "los": [
+            {
+              "id": "equity-05-los1",
+              "text": "contrast price and value for an equity security"
+            },
+            {
+              "id": "equity-05-los2",
+              "text": "contrast the use of book value of equity, market capitalization, and enterprise value as indicators of intrinsic value"
+            },
+            {
+              "id": "equity-05-los3",
+              "text": "describe major categories of equity valuation models and explain their advantages and disadvantages"
+            }
+          ]
+        },
+        {
+          "id": "equity-06",
+          "slug": "equity-06-discounted-cash-flow-dcf-and-growth-models",
+          "order": 6,
+          "title": "Discounted Cash Flow (DCF) and Growth Models",
+          "los": [
+            {
+              "id": "equity-06-los1",
+              "text": "contrast the inputs used in dividend discount, free cash flow to equity (FCFE), free cash flow to the firm (FCFF), and residual income models, and explain the process for using present value models to value equity"
+            },
+            {
+              "id": "equity-06-los2",
+              "text": "calculate and interpret the intrinsic value of an equity security based on present value models that assume constant cash flow growth or multistage cash flow growth"
+            },
+            {
+              "id": "equity-06-los3",
+              "text": "explain the shortcomings of constant and multistage cash flow growth assumptions in present value models"
+            },
+            {
+              "id": "equity-06-los4",
+              "text": "calculate the intrinsic value of a non-callable, non-convertible preferred stock and describe how contingency features affect intrinsic value"
+            }
+          ]
+        },
+        {
+          "id": "equity-07",
+          "slug": "equity-07-relative-value-equity-valuation-approaches",
+          "order": 7,
+          "title": "Relative Value Equity Valuation Approaches",
+          "los": [
+            {
+              "id": "equity-07-los1",
+              "text": "explain the process for using multiples to value equity based on the method of comparables and the method of forecasted fundamentals"
+            },
+            {
+              "id": "equity-07-los2",
+              "text": "calculate and interpret price and enterprise value multiples, and describe their appropriate uses"
+            },
+            {
+              "id": "equity-07-los3",
+              "text": "determine a potential peer group for multiples-based equity valuation based on a company's industry classification or specific drivers of expected return"
+            },
+            {
+              "id": "equity-07-los4",
+              "text": "describe the use of multiples based on past, current, and projected future values in estimating equity value"
+            }
+          ]
+        },
+        {
+          "id": "equity-08",
+          "slug": "equity-08-financial-statement-forecasting-in-equity-valuation",
+          "order": 8,
+          "title": "Financial Statement Forecasting in Equity Valuation",
+          "los": [
+            {
+              "id": "equity-08-los1",
+              "text": "explain the rationale, construction, and uses of financial statement forecast models in equity valuation"
+            },
+            {
+              "id": "equity-08-los2",
+              "text": "evaluate the construction of an equity valuation model based on characteristics of the subject company"
+            },
+            {
+              "id": "equity-08-los3",
+              "text": "estimate and interpret the value of an equity security based on the outputs of a financial statement forecast model"
+            }
+          ]
+        },
+        {
+          "id": "equity-09",
+          "slug": "equity-09-industry-and-competitive-analysis",
+          "order": 9,
+          "title": "Industry and Competitive Analysis",
+          "los": [
+            {
+              "id": "equity-09-los1",
+              "text": "describe the process of industry and competitive analysis"
+            },
+            {
+              "id": "equity-09-los2",
+              "text": "describe industry classification methods and compare methods by which companies can be grouped"
+            },
+            {
+              "id": "equity-09-los3",
+              "text": "determine an industry's size, growth characteristics, profitability, and market share trends"
+            },
+            {
+              "id": "equity-09-los4",
+              "text": "analyze an industry's structure and external influences using Porter's Five Forces and the PESTLE framework"
+            }
+          ]
+        },
+        {
+          "id": "equity-10",
+          "slug": "equity-10-company-analysis-past-present-and-future",
+          "order": 10,
+          "title": "Company Analysis: Past, Present, and Future",
+          "los": [
+            {
+              "id": "equity-10-los1",
+              "text": "explain a company's competitive strategy and position within an industry"
+            },
+            {
+              "id": "equity-10-los2",
+              "text": "evaluate a company's revenue drivers, operating profitability, and pricing power"
+            },
+            {
+              "id": "equity-10-los3",
+              "text": "evaluate a company's working capital, capital investments, and capital structure"
+            }
+          ]
+        },
+        {
+          "id": "equity-11",
+          "slug": "equity-11-equity-analyst-research-reports",
+          "order": 11,
+          "title": "Equity Analyst Research Reports",
+          "los": [
+            {
+              "id": "equity-11-los1",
+              "text": "describe the elements that should be covered in a detailed company research report"
+            },
+            {
+              "id": "equity-11-los2",
+              "text": "compare sell-side and buy-side equity analyst reports and their conclusions"
+            },
+            {
+              "id": "equity-11-los3",
+              "text": "explain why value estimates from the same modeling approach may differ based on analyst assumptions regarding revenue, profitability, investment, and financing"
+            }
+          ]
+        },
+        {
+          "id": "equity-12",
+          "slug": "equity-12-the-capital-asset-pricing-model-market-model-and-other-facto",
+          "order": 12,
+          "title": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+          "los": [
+            {
+              "id": "equity-12-los1",
+              "text": "explain the use of the CAPM and the market model to estimate a company's required return on equity"
+            },
+            {
+              "id": "equity-12-los2",
+              "text": "describe the arbitrage pricing theory and the importance of multi-factor models used in equity investing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed-income",
+      "name": "Fixed Income",
+      "weight": {
+        "min": 11,
+        "max": 14
+      },
+      "session": 2,
+      "modules": [
+        {
+          "id": "fixed-income-01",
+          "slug": "fixed-income-01-fixed-income-instrument-features",
+          "order": 1,
+          "title": "Fixed-Income Instrument Features",
+          "los": [
+            {
+              "id": "fixed-income-01-los1",
+              "text": "describe the features of a fixed-income security"
+            },
+            {
+              "id": "fixed-income-01-los2",
+              "text": "describe the contents of a bond indenture and contrast affirmative and negative covenants"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-02",
+          "slug": "fixed-income-02-fixed-income-cash-flows-and-types",
+          "order": 2,
+          "title": "Fixed-Income Cash Flows and Types",
+          "los": [
+            {
+              "id": "fixed-income-02-los1",
+              "text": "describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors"
+            },
+            {
+              "id": "fixed-income-02-los2",
+              "text": "describe how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-03",
+          "slug": "fixed-income-03-fixed-income-issuance-and-trading",
+          "order": 3,
+          "title": "Fixed-Income Issuance and Trading",
+          "los": [
+            {
+              "id": "fixed-income-03-los1",
+              "text": "describe fixed-income market segments and their issuer and investor participants"
+            },
+            {
+              "id": "fixed-income-03-los2",
+              "text": "describe types of fixed-income indexes"
+            },
+            {
+              "id": "fixed-income-03-los3",
+              "text": "compare primary and secondary fixed-income markets to equity markets"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-04",
+          "slug": "fixed-income-04-fixed-income-markets-for-corporate-issuers",
+          "order": 4,
+          "title": "Fixed-Income Markets for Corporate Issuers",
+          "los": [
+            {
+              "id": "fixed-income-04-los1",
+              "text": "compare short-term funding alternatives available to corporations and financial institutions"
+            },
+            {
+              "id": "fixed-income-04-los2",
+              "text": "describe repurchase agreements (repos), their uses, and their benefits and risks"
+            },
+            {
+              "id": "fixed-income-04-los3",
+              "text": "contrast the long-term funding of investment-grade versus high-yield corporate issuers"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-05",
+          "slug": "fixed-income-05-fixed-income-markets-for-government-issuers",
+          "order": 5,
+          "title": "Fixed-Income Markets for Government Issuers",
+          "los": [
+            {
+              "id": "fixed-income-05-los1",
+              "text": "describe funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies"
+            },
+            {
+              "id": "fixed-income-05-los2",
+              "text": "contrast the issuance and trading of government and corporate fixed-income instruments"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-06",
+          "slug": "fixed-income-06-fixed-income-bond-valuation-prices-and-yields",
+          "order": 6,
+          "title": "Fixed-Income Bond Valuation: Prices and Yields",
+          "los": [
+            {
+              "id": "fixed-income-06-los1",
+              "text": "calculate a bond's price given a yield-to-maturity on or between coupon dates"
+            },
+            {
+              "id": "fixed-income-06-los2",
+              "text": "identify the relationships among a bond's price, coupon rate, maturity, and yield-to-maturity"
+            },
+            {
+              "id": "fixed-income-06-los3",
+              "text": "describe matrix pricing"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-07",
+          "slug": "fixed-income-07-yield-and-yield-spread-measures-for-fixed-rate-bonds",
+          "order": 7,
+          "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+          "los": [
+            {
+              "id": "fixed-income-07-los1",
+              "text": "calculate annual yield on a bond for varying compounding periods in a year"
+            },
+            {
+              "id": "fixed-income-07-los2",
+              "text": "compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-08",
+          "slug": "fixed-income-08-yield-and-yield-spread-measures-for-floating-rate-instrument",
+          "order": 8,
+          "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+          "los": [
+            {
+              "id": "fixed-income-08-los1",
+              "text": "calculate and interpret yield spread measures for floating-rate instruments"
+            },
+            {
+              "id": "fixed-income-08-los2",
+              "text": "calculate and interpret yield measures for money market instruments"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-09",
+          "slug": "fixed-income-09-the-term-structure-of-interest-rates-spot-par-and-forward-cu",
+          "order": 9,
+          "title": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+          "los": [
+            {
+              "id": "fixed-income-09-los1",
+              "text": "define spot rates and the spot curve, and calculate the price of a bond using spot rates"
+            },
+            {
+              "id": "fixed-income-09-los2",
+              "text": "define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates"
+            },
+            {
+              "id": "fixed-income-09-los3",
+              "text": "compare the spot curve, par curve, and forward curve"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-10",
+          "slug": "fixed-income-10-interest-rate-risk-and-return",
+          "order": 10,
+          "title": "Interest Rate Risk and Return",
+          "los": [
+            {
+              "id": "fixed-income-10-los1",
+              "text": "calculate and interpret the sources of return from investing in a fixed-rate bond;"
+            },
+            {
+              "id": "fixed-income-10-los2",
+              "text": "describe the relationships among a bond's holding period return, its Macaulay duration, and the investment horizon;"
+            },
+            {
+              "id": "fixed-income-10-los3",
+              "text": "define, calculate, and interpret Macaulay duration."
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-11",
+          "slug": "fixed-income-11-yield-based-bond-duration-measures-and-properties",
+          "order": 11,
+          "title": "Yield-Based Bond Duration Measures and Properties",
+          "los": [
+            {
+              "id": "fixed-income-11-los1",
+              "text": "define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)"
+            },
+            {
+              "id": "fixed-income-11-los2",
+              "text": "explain how a bond's maturity, coupon, and yield level affect its interest rate risk"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-12",
+          "slug": "fixed-income-12-yield-based-bond-convexity-and-portfolio-properties",
+          "order": 12,
+          "title": "Yield-Based Bond Convexity and Portfolio Properties",
+          "los": [
+            {
+              "id": "fixed-income-12-los1",
+              "text": "calculate and interpret convexity and describe the convexity adjustment"
+            },
+            {
+              "id": "fixed-income-12-los2",
+              "text": "calculate the percentage price change of a bond for a specified change in yield, given the bond's duration and convexity"
+            },
+            {
+              "id": "fixed-income-12-los3",
+              "text": "calculate portfolio duration and convexity and explain the limitations of these measures"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-13",
+          "slug": "fixed-income-13-curve-based-and-empirical-fixed-income-risk-measures",
+          "order": 13,
+          "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+          "los": [
+            {
+              "id": "fixed-income-13-los1",
+              "text": "explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options"
+            },
+            {
+              "id": "fixed-income-13-los2",
+              "text": "calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond's effective duration and convexity"
+            },
+            {
+              "id": "fixed-income-13-los3",
+              "text": "define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes"
+            },
+            {
+              "id": "fixed-income-13-los4",
+              "text": "describe the difference between empirical duration and analytical duration"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-14",
+          "slug": "fixed-income-14-credit-risk",
+          "order": 14,
+          "title": "Credit Risk",
+          "los": [
+            {
+              "id": "fixed-income-14-los1",
+              "text": "describe credit risk and its components, probability of default and loss given default"
+            },
+            {
+              "id": "fixed-income-14-los2",
+              "text": "describe the uses of ratings from credit rating agencies and their limitations"
+            },
+            {
+              "id": "fixed-income-14-los3",
+              "text": "describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-15",
+          "slug": "fixed-income-15-credit-analysis-for-government-issuers",
+          "order": 15,
+          "title": "Credit Analysis for Government Issuers",
+          "los": [
+            {
+              "id": "fixed-income-15-los1",
+              "text": "explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-16",
+          "slug": "fixed-income-16-credit-analysis-for-corporate-issuers",
+          "order": 16,
+          "title": "Credit Analysis for Corporate Issuers",
+          "los": [
+            {
+              "id": "fixed-income-16-los1",
+              "text": "describe the qualitative and quantitative factors used to evaluate a corporate borrower's creditworthiness"
+            },
+            {
+              "id": "fixed-income-16-los2",
+              "text": "calculate and interpret financial ratios used in credit analysis"
+            },
+            {
+              "id": "fixed-income-16-los3",
+              "text": "describe the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-17",
+          "slug": "fixed-income-17-fixed-income-securitization",
+          "order": 17,
+          "title": "Fixed-Income Securitization",
+          "los": [
+            {
+              "id": "fixed-income-17-los1",
+              "text": "explain benefits of securitization for issuers, investors, economies, and financial markets"
+            },
+            {
+              "id": "fixed-income-17-los2",
+              "text": "describe securitization, including the parties and the roles they play"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-18",
+          "slug": "fixed-income-18-asset-backed-security-abs-instrument-and-market-features",
+          "order": 18,
+          "title": "Asset-Backed Security (ABS) Instrument and Market Features",
+          "los": [
+            {
+              "id": "fixed-income-18-los1",
+              "text": "describe characteristics and risks of covered bonds and how they differ from other asset-backed securities"
+            },
+            {
+              "id": "fixed-income-18-los2",
+              "text": "describe typical credit enhancement structures used in securitizations"
+            },
+            {
+              "id": "fixed-income-18-los3",
+              "text": "describe types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type"
+            },
+            {
+              "id": "fixed-income-18-los4",
+              "text": "describe collateralized debt obligations, including their cash flows and risks"
+            }
+          ]
+        },
+        {
+          "id": "fixed-income-19",
+          "slug": "fixed-income-19-mortgage-backed-security-mbs-instrument-and-market-features",
+          "order": 19,
+          "title": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+          "los": [
+            {
+              "id": "fixed-income-19-los1",
+              "text": "define prepayment risk and describe time tranching structures in securitizations and their purpose"
+            },
+            {
+              "id": "fixed-income-19-los2",
+              "text": "describe fundamental features of residential mortgage loans that are securitized"
+            },
+            {
+              "id": "fixed-income-19-los3",
+              "text": "describe types and characteristics of residential mortgage-backed securities, including mortgage pass-through securities and collateralized mortgage obligations, and explain the cash flows and risks for each type"
+            },
+            {
+              "id": "fixed-income-19-los4",
+              "text": "describe characteristics and risks of commercial mortgage-backed securities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "derivatives",
+      "name": "Derivatives and Risk Management",
+      "weight": {
+        "min": 6,
+        "max": 9
+      },
+      "session": 2,
+      "modules": [
+        {
+          "id": "derivatives-01",
+          "slug": "derivatives-01-derivative-instrument-and-derivative-market-features",
+          "order": 1,
+          "title": "Derivative Instrument and Derivative Market Features",
+          "los": [
+            {
+              "id": "derivatives-01-los1",
+              "text": "define a derivative and describe basic features of a derivative instrument"
+            },
+            {
+              "id": "derivatives-01-los2",
+              "text": "describe the basic features of derivative markets, and contrast over-the-counter and exchange-traded derivative markets"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-02",
+          "slug": "derivatives-02-forward-commitment-and-contingent-claim-features-and-instrum",
+          "order": 2,
+          "title": "Forward Commitment and Contingent Claim Features and Instruments",
+          "los": [
+            {
+              "id": "derivatives-02-los1",
+              "text": "define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics"
+            },
+            {
+              "id": "derivatives-02-los2",
+              "text": "determine the value at expiration and profit from a long or a short position in a call or put option"
+            },
+            {
+              "id": "derivatives-02-los3",
+              "text": "contrast forward commitments with contingent claims"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-03",
+          "slug": "derivatives-03-derivative-benefits-risks-and-issuer-and-investor-uses",
+          "order": 3,
+          "title": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+          "los": [
+            {
+              "id": "derivatives-03-los1",
+              "text": "describe benefits and risks of derivative instruments"
+            },
+            {
+              "id": "derivatives-03-los2",
+              "text": "compare the use of derivatives among issuers and investors"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-04",
+          "slug": "derivatives-04-arbitrage-replication-and-the-cost-of-carry-in-pricing-deriv",
+          "order": 4,
+          "title": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+          "los": [
+            {
+              "id": "derivatives-04-los1",
+              "text": "explain how the concepts of arbitrage and replication are used in pricing derivatives"
+            },
+            {
+              "id": "derivatives-04-los2",
+              "text": "explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-05",
+          "slug": "derivatives-05-pricing-and-valuation-of-forward-contracts-and-for-an-underl",
+          "order": 5,
+          "title": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+          "los": [
+            {
+              "id": "derivatives-05-los1",
+              "text": "explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration"
+            },
+            {
+              "id": "derivatives-05-los2",
+              "text": "explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates."
+            }
+          ]
+        },
+        {
+          "id": "derivatives-06",
+          "slug": "derivatives-06-pricing-and-valuation-of-futures-contracts",
+          "order": 6,
+          "title": "Pricing and Valuation of Futures Contracts",
+          "los": [
+            {
+              "id": "derivatives-06-los1",
+              "text": "compare the value and price of forward and futures contracts"
+            },
+            {
+              "id": "derivatives-06-los2",
+              "text": "explain why forward and futures prices differ"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-07",
+          "slug": "derivatives-07-pricing-and-valuation-of-interest-rate-and-other-swaps",
+          "order": 7,
+          "title": "Pricing and Valuation of Interest Rate and Other Swaps",
+          "los": [
+            {
+              "id": "derivatives-07-los1",
+              "text": "describe how swap contracts are similar to but different from a series of forward contracts"
+            },
+            {
+              "id": "derivatives-07-los2",
+              "text": "contrast the value and price of swaps"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-08",
+          "slug": "derivatives-08-pricing-and-valuation-of-options",
+          "order": 8,
+          "title": "Pricing and Valuation of Options",
+          "los": [
+            {
+              "id": "derivatives-08-los1",
+              "text": "explain the exercise value, moneyness, and time value of an option"
+            },
+            {
+              "id": "derivatives-08-los2",
+              "text": "contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims"
+            },
+            {
+              "id": "derivatives-08-los3",
+              "text": "identify the factors that determine the value of an option and describe how each factor affects the value of an option"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-09",
+          "slug": "derivatives-09-option-replication-using-put-call-parity",
+          "order": 9,
+          "title": "Option Replication Using Put–Call Parity",
+          "los": [
+            {
+              "id": "derivatives-09-los1",
+              "text": "explain put-call parity for European options"
+            },
+            {
+              "id": "derivatives-09-los2",
+              "text": "explain put-call forward parity for European options"
+            }
+          ]
+        },
+        {
+          "id": "derivatives-10",
+          "slug": "derivatives-10-valuing-a-derivative-using-a-one-period-binomial-model",
+          "order": 10,
+          "title": "Valuing a Derivative Using a One-Period Binomial Model",
+          "los": [
+            {
+              "id": "derivatives-10-los1",
+              "text": "explain how to value a derivative using a one-period binomial model"
+            },
+            {
+              "id": "derivatives-10-los2",
+              "text": "describe the concept of risk neutrality in derivatives pricing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "name": "Alternative Investments",
+      "weight": {
+        "min": 6,
+        "max": 9
+      },
+      "session": 2,
+      "modules": [
+        {
+          "id": "alternatives-01",
+          "slug": "alternatives-01-alternative-investment-features-methods-and-structures",
+          "order": 1,
+          "title": "Alternative Investment Features, Methods, and Structures",
+          "los": [
+            {
+              "id": "alternatives-01-los1",
+              "text": "describe features and categories of alternative investments"
+            },
+            {
+              "id": "alternatives-01-los2",
+              "text": "compare direct investment, co-investment, and fund investment methods for alternative investments"
+            },
+            {
+              "id": "alternatives-01-los3",
+              "text": "describe investment ownership and compensation structures commonly used in alternative investments"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-02",
+          "slug": "alternatives-02-alternative-investment-performance-and-returns",
+          "order": 2,
+          "title": "Alternative Investment Performance and Returns",
+          "los": [
+            {
+              "id": "alternatives-02-los1",
+              "text": "describe the performance appraisal of alternative investments"
+            },
+            {
+              "id": "alternatives-02-los2",
+              "text": "calculate and interpret alternative investment returns both before and after fees"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-03",
+          "slug": "alternatives-03-investments-in-private-capital-equity-and-debt",
+          "order": 3,
+          "title": "Investments in Private Capital: Equity and Debt",
+          "los": [
+            {
+              "id": "alternatives-03-los1",
+              "text": "explain features of private equity and its investment characteristics"
+            },
+            {
+              "id": "alternatives-03-los2",
+              "text": "explain features of private debt and its investment characteristics"
+            },
+            {
+              "id": "alternatives-03-los3",
+              "text": "describe the diversification benefits that private capital can provide"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-04",
+          "slug": "alternatives-04-real-estate-and-infrastructure",
+          "order": 4,
+          "title": "Real Estate and Infrastructure",
+          "los": [
+            {
+              "id": "alternatives-04-los1",
+              "text": "explain features and characteristics of real estate"
+            },
+            {
+              "id": "alternatives-04-los2",
+              "text": "explain the investment characteristics of real estate investments"
+            },
+            {
+              "id": "alternatives-04-los3",
+              "text": "explain features and characteristics of infrastructure"
+            },
+            {
+              "id": "alternatives-04-los4",
+              "text": "explain the investment characteristics of infrastructure investments"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-05",
+          "slug": "alternatives-05-natural-resources",
+          "order": 5,
+          "title": "Natural Resources",
+          "los": [
+            {
+              "id": "alternatives-05-los1",
+              "text": "explain features of raw land, timberland, and farmland and their investment characteristics"
+            },
+            {
+              "id": "alternatives-05-los2",
+              "text": "describe features of commodities and their investment characteristics"
+            },
+            {
+              "id": "alternatives-05-los3",
+              "text": "analyze sources of risk, return, and diversification among natural resource investments"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-06",
+          "slug": "alternatives-06-hedge-funds",
+          "order": 6,
+          "title": "Hedge Funds",
+          "los": [
+            {
+              "id": "alternatives-06-los1",
+              "text": "explain investment features of hedge funds and contrast them with other asset classes"
+            },
+            {
+              "id": "alternatives-06-los2",
+              "text": "describe investment forms and vehicles used in hedge fund investments"
+            },
+            {
+              "id": "alternatives-06-los3",
+              "text": "analyze sources of risk, return, and diversification among hedge fund investments"
+            }
+          ]
+        },
+        {
+          "id": "alternatives-07",
+          "slug": "alternatives-07-introduction-to-digital-assets",
+          "order": 7,
+          "title": "Introduction to Digital Assets",
+          "los": [
+            {
+              "id": "alternatives-07-los1",
+              "text": "describe financial applications of distributed ledger technology"
+            },
+            {
+              "id": "alternatives-07-los2",
+              "text": "explain investment features of digital assets and contrast them with other asset classes"
+            },
+            {
+              "id": "alternatives-07-los3",
+              "text": "describe investment forms and vehicles used in digital asset investments"
+            },
+            {
+              "id": "alternatives-07-los4",
+              "text": "analyze sources of risk, return, and diversification among digital asset investments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio Construction",
+      "weight": {
+        "min": 8,
+        "max": 12
+      },
+      "session": 2,
+      "modules": [
+        {
+          "id": "portfolio-01",
+          "slug": "portfolio-01-portfolio-risk-and-return-part-i",
+          "order": 1,
+          "title": "Portfolio Risk and Return: Part I",
+          "los": [
+            {
+              "id": "portfolio-01-los1",
+              "text": "describe characteristics of the major asset classes that investors consider in forming portfolios"
+            },
+            {
+              "id": "portfolio-01-los2",
+              "text": "explain risk aversion and its implications for portfolio selection"
+            },
+            {
+              "id": "portfolio-01-los3",
+              "text": "explain the selection of an optimal portfolio, given an investor's utility (or risk aversion) and the capital allocation line"
+            },
+            {
+              "id": "portfolio-01-los4",
+              "text": "calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data"
+            },
+            {
+              "id": "portfolio-01-los5",
+              "text": "calculate and interpret portfolio standard deviation"
+            },
+            {
+              "id": "portfolio-01-los6",
+              "text": "describe the effect on a portfolio's risk of investing in assets that are less than perfectly correlated"
+            },
+            {
+              "id": "portfolio-01-los7",
+              "text": "describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-02",
+          "slug": "portfolio-02-portfolio-risk-and-return-part-ii",
+          "order": 2,
+          "title": "Portfolio Risk and Return: Part II",
+          "los": [
+            {
+              "id": "portfolio-02-los1",
+              "text": "describe the implications of combining a risk-free asset with a portfolio of risky assets"
+            },
+            {
+              "id": "portfolio-02-los2",
+              "text": "explain the capital allocation line (CAL) and the capital market line (CML)"
+            },
+            {
+              "id": "portfolio-02-los3",
+              "text": "explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk"
+            },
+            {
+              "id": "portfolio-02-los4",
+              "text": "explain return generating models (including the market model) and their uses"
+            },
+            {
+              "id": "portfolio-02-los5",
+              "text": "calculate and interpret beta"
+            },
+            {
+              "id": "portfolio-02-los6",
+              "text": "explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)"
+            },
+            {
+              "id": "portfolio-02-los7",
+              "text": "calculate and interpret the expected return of an asset using the CAPM"
+            },
+            {
+              "id": "portfolio-02-los8",
+              "text": "describe and demonstrate applications of the CAPM and the SML"
+            },
+            {
+              "id": "portfolio-02-los9",
+              "text": "calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen's alpha"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-03",
+          "slug": "portfolio-03-portfolio-management-an-overview",
+          "order": 3,
+          "title": "Portfolio Management: An Overview",
+          "los": [
+            {
+              "id": "portfolio-03-los1",
+              "text": "describe the portfolio approach to investing"
+            },
+            {
+              "id": "portfolio-03-los2",
+              "text": "describe the steps in the portfolio management process"
+            },
+            {
+              "id": "portfolio-03-los3",
+              "text": "describe types of investors and distinctive characteristics and needs of each"
+            },
+            {
+              "id": "portfolio-03-los4",
+              "text": "describe defined contribution and defined benefit pension plans"
+            },
+            {
+              "id": "portfolio-03-los5",
+              "text": "describe aspects of the asset management industry"
+            },
+            {
+              "id": "portfolio-03-los6",
+              "text": "describe mutual funds and compare them with other pooled investment products"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-04",
+          "slug": "portfolio-04-basics-of-portfolio-planning-and-construction",
+          "order": 4,
+          "title": "Basics of Portfolio Planning and Construction",
+          "los": [
+            {
+              "id": "portfolio-04-los1",
+              "text": "describe the reasons for a written investment policy statement (IPS)"
+            },
+            {
+              "id": "portfolio-04-los2",
+              "text": "describe the major components of an IPS"
+            },
+            {
+              "id": "portfolio-04-los3",
+              "text": "describe risk and return objectives and how they may be developed for a client"
+            },
+            {
+              "id": "portfolio-04-los4",
+              "text": "explain the difference between the willingness and the ability (capacity) to take risk in analyzing an investor's financial risk tolerance"
+            },
+            {
+              "id": "portfolio-04-los5",
+              "text": "describe the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique circumstances and their implications for the choice of portfolio assets"
+            },
+            {
+              "id": "portfolio-04-los6",
+              "text": "explain the specification of asset classes in relation to asset allocation"
+            },
+            {
+              "id": "portfolio-04-los7",
+              "text": "describe the principles of portfolio construction and the role of asset allocation in relation to the IPS"
+            },
+            {
+              "id": "portfolio-04-los8",
+              "text": "describe how environmental, social, and governance (ESG) considerations may be integrated into portfolio planning and construction"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-05",
+          "slug": "portfolio-05-the-behavioral-biases-of-individuals",
+          "order": 5,
+          "title": "The Behavioral Biases of Individuals",
+          "los": [
+            {
+              "id": "portfolio-05-los1",
+              "text": "compare and contrast cognitive errors and emotional biases"
+            },
+            {
+              "id": "portfolio-05-los2",
+              "text": "discuss commonly recognized behavioral biases and their implications for financial decision making"
+            },
+            {
+              "id": "portfolio-05-los3",
+              "text": "describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-06",
+          "slug": "portfolio-06-introduction-to-risk-management",
+          "order": 6,
+          "title": "Introduction to Risk Management",
+          "los": [
+            {
+              "id": "portfolio-06-los1",
+              "text": "define risk management"
+            },
+            {
+              "id": "portfolio-06-los2",
+              "text": "describe features of a risk management framework"
+            },
+            {
+              "id": "portfolio-06-los3",
+              "text": "define risk governance and describe elements of effective risk governance"
+            },
+            {
+              "id": "portfolio-06-los4",
+              "text": "explain how risk tolerance affects risk management"
+            },
+            {
+              "id": "portfolio-06-los5",
+              "text": "describe risk budgeting and its role in risk governance"
+            },
+            {
+              "id": "portfolio-06-los6",
+              "text": "identify financial and non-financial sources of risk and describe how they may interact"
+            },
+            {
+              "id": "portfolio-06-los7",
+              "text": "describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "name": "Ethical and Professional Standards",
+      "weight": {
+        "min": 10,
+        "max": 15
+      },
+      "session": 1,
+      "modules": [
+        {
+          "id": "ethics-01",
+          "slug": "ethics-01-ethics-and-trust-in-the-investment-profession",
+          "order": 1,
+          "title": "Ethics and Trust in the Investment Profession",
+          "los": [
+            {
+              "id": "ethics-01-los1",
+              "text": "explain ethics"
+            },
+            {
+              "id": "ethics-01-los2",
+              "text": "describe the role of a code of ethics in defining a profession"
+            },
+            {
+              "id": "ethics-01-los3",
+              "text": "describe professions and how they establish trust"
+            },
+            {
+              "id": "ethics-01-los4",
+              "text": "describe the need for high ethical standards in investment management"
+            },
+            {
+              "id": "ethics-01-los5",
+              "text": "explain professionalism in investment management"
+            },
+            {
+              "id": "ethics-01-los6",
+              "text": "identify challenges to ethical behavior"
+            },
+            {
+              "id": "ethics-01-los7",
+              "text": "compare and contrast ethical standards with legal standards"
+            },
+            {
+              "id": "ethics-01-los8",
+              "text": "describe a framework for ethical decision-making"
+            }
+          ]
+        },
+        {
+          "id": "ethics-02",
+          "slug": "ethics-02-code-of-ethics-and-standards-of-professional-conduct",
+          "order": 2,
+          "title": "Code of Ethics and Standards of Professional Conduct",
+          "los": [
+            {
+              "id": "ethics-02-los1",
+              "text": "describe the structure of the CFA Institute Professional Conduct Program and the process for the enforcement of the Code and Standards"
+            },
+            {
+              "id": "ethics-02-los2",
+              "text": "identify the six components of the Code of Ethics and the seven Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-02-los3",
+              "text": "explain the ethical responsibilities required by the Code and Standards, including the sub-sections of each Standard"
+            }
+          ]
+        },
+        {
+          "id": "ethics-03",
+          "slug": "ethics-03-guidance-for-standard-i-professionalism",
+          "order": 3,
+          "title": "Guidance for Standard I: Professionalism",
+          "los": [
+            {
+              "id": "ethics-03-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-03-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-03-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-04",
+          "slug": "ethics-04-guidance-for-standard-ii-integrity-of-capital-markets",
+          "order": 4,
+          "title": "Guidance for Standard II: Integrity of Capital Markets",
+          "los": [
+            {
+              "id": "ethics-04-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-04-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-04-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-05",
+          "slug": "ethics-05-guidance-for-standard-iii-duties-to-clients",
+          "order": 5,
+          "title": "Guidance for Standard III: Duties to Clients",
+          "los": [
+            {
+              "id": "ethics-05-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-05-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-05-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-06",
+          "slug": "ethics-06-guidance-for-standard-iv-duties-to-employers",
+          "order": 6,
+          "title": "Guidance for Standard IV: Duties to Employers",
+          "los": [
+            {
+              "id": "ethics-06-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-06-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-06-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-07",
+          "slug": "ethics-07-guidance-for-standard-v-investment-analysis-recommendations",
+          "order": 7,
+          "title": "Guidance for Standard V: Investment Analysis, Recommendations, and Actions",
+          "los": [
+            {
+              "id": "ethics-07-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-07-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-07-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-08",
+          "slug": "ethics-08-guidance-for-standard-vi-conflicts-of-interest",
+          "order": 8,
+          "title": "Guidance for Standard VI: Conflicts of Interest",
+          "los": [
+            {
+              "id": "ethics-08-los1",
+              "text": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-08-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-08-los3",
+              "text": "identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-09",
+          "slug": "ethics-09-guidance-for-standard-vii-responsibilities-as-a-cfa-institut",
+          "order": 9,
+          "title": "Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate",
+          "los": [
+            {
+              "id": "ethics-09-los1",
+              "text": "demonstrate a thorough knowledge of the CFA Institute Code of Ethics and Standards of Professional Conduct by interpreting the Code and Standards in various situations involving issues of professional integrity"
+            },
+            {
+              "id": "ethics-09-los2",
+              "text": "recommend practices and procedures designed to prevent violations of the Code and Standards"
+            }
+          ]
+        },
+        {
+          "id": "ethics-10",
+          "slug": "ethics-10-application-of-the-code-and-standards-level-i",
+          "order": 10,
+          "title": "Application of the Code and Standards: Level I",
+          "los": [
+            {
+              "id": "ethics-10-los1",
+              "text": "evaluate practices, policies, and conduct relative to the CFA Institute Code of Ethics and Standards of Professional Conduct"
+            },
+            {
+              "id": "ethics-10-los2",
+              "text": "explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
