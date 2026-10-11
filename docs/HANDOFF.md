@@ -24,11 +24,26 @@ Repo: https://github.com/Mibrahim930/CFA-Study (PRIVATE, keep it that way). Loca
 6. **Model defaults.** Use `claude-opus-5-5` (per the claude-api skill) with `fallbacks: "default"` and beta `server-side-fallback-2026-07-01` on non-batch calls. Note that fallbacks are rejected on the Batches API.
 7. Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
-## What's done (all pushed; `npm test` = 53 passing; `npx tsc --noEmit` and `npm run lint` clean)
+## Cross-platform status (verified 2026-10-11)
+The project runs fully on **Windows**, macOS and Linux. GitHub Actions (`.github/workflows/ci.yml`) runs
+`npm ci → npm run typecheck → npm run lint → npm test → npm run build` on **windows-latest** and ubuntu-latest
+on every push to main. Both are green at commit 7fa99f0. Check them with `gh run list`.
+- **PDF extraction** now uses pdf.js (`pdfjs-dist`) everywhere instead of macOS PDFKit. The outline ingest produces a
+  **byte-identical** `content/syllabus-2027.json` (verified by diff).
+  - Gotchas handled: pdf.js joins a running head with its page number ("Economics6") — the parser strips page numbers.
+  - Superscripts like M² stay inline (line breaks happen only when the baseline moves by more than 0.6 × the line height).
+  - `standardFontDataUrl` must use forward slashes plus a trailing "/" (Windows CI caught this).
+- **CRLF:** `.gitattributes` forces LF, and the OpenStax/CNXML ingest normalises `\r\n`. There's a test for it.
+- **Fresh clone:** run `npm run typecheck` (it does `next typegen && tsc --noEmit`). Plain `tsc` fails until typegen has run.
+- `npm run ingest:openstax` rebuilds the corpus (needs `git` on PATH). The Mac produced 5,547 chunks and the Windows clone 5,551.
+  The 4-chunk difference is most likely the upstream repos changing between clones. It's harmless.
+- `.claude/launch.json` uses `npm`. If the preview tooling on Windows can't spawn it, change it to `npm.cmd`.
+
+## What's done (all pushed; `npm test` = 56 passing; typecheck and lint clean)
 | Area | Files | Notes |
 |---|---|---|
 | Next.js 16.4 app (Turbopack, cacheComponents, partialPrefetching) | `app/`, `components/` | **Read `node_modules/next/dist/docs/` before writing Next code** — APIs differ (async `params`, `PageProps<'/route'>` global type, `next typegen`, params must be awaited inside `<Suspense>`). Build prerenders 118 pages. |
-| Syllabus | `lib/syllabus/*`, `content/syllabus-2027.json`, `content-pipeline/ingest-outline.ts` | 10 topics / 102 modules / 340 LOS, parsed from the official 2027 outline PDF via macOS PDFKit (`osascript -l JavaScript`). 2027 weights verified on cfainstitute.org; several prep sites wrongly say they're unchanged. |
+| Syllabus | `lib/syllabus/*`, `content/syllabus-2027.json`, `content-pipeline/ingest-outline.ts` | 10 topics / 102 modules / 340 LOS, parsed from the official 2027 outline PDF via pdf.js (cross-platform). 2027 weights verified on cfainstitute.org; several prep sites wrongly say they're unchanged. |
 | UI | `app/page.tsx`, `app/topics/[id]`, `app/learn/[slug]`, `components/module-workspace.tsx`, `components/youtube-player.tsx` | Dashboard in study order; module workspace with embedded YouTube (paste a link), speed control, resume position, timestamped notes, LOS checklist, completion. Storage is `lib/store/local.ts` (localStorage, shaped for a later Supabase swap). |
 | Finance engine | `lib/finance/*` | TVM (BA II Plus sign convention), NPV/IRR/MIRR, returns, stats/regression, bonds (price/YTM/accrued/spot-forward-par/duration/convexity), derivatives (forward, put–call parity, binomial, swaps), corporate/equity, FX, money market, accounting. `registry.ts` = zod-validated `runCalc({fn,args})` + `matches()`. Test reference values were computed independently in Python. |
 | Corpus | `content-pipeline/ingest-openstax.ts`, `content-pipeline/lib/cnxml.ts`, `lib/kb/{types,search}.ts` | Shallow-clones 6 OpenStax repos (licence checked) into git-ignored `sources/`; 5,547 chunks in `sources/corpus/openstax.jsonl` (regenerate with `npx tsx content-pipeline/ingest-openstax.ts`). Dependency-free BM25 search. |
@@ -85,9 +100,9 @@ The user asked to start the Quant pilot first. Next steps, in order:
 ```
 npm run dev                # http://localhost:3000 (.claude/launch.json has config "dev")
 npm test                   # vitest
-npx tsc --noEmit && npm run lint
-npm run ingest:outline     # re-parse the official outline (macOS only)
-npx tsx content-pipeline/ingest-openstax.ts
+npm run typecheck && npm run lint
+npm run ingest:outline     # re-parse the official outline (any OS; pdf.js)
+npm run ingest:openstax    # rebuild sources/corpus/openstax.jsonl
 ```
 
 ## Open questions for the user
