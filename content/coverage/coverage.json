@@ -99,29 +99,53 @@
     "auditedAt": "2026-10-11T22:25:20.876Z"
   },
   "quant-03-los1": {
-    "coverage": "none",
+    "coverage": "full",
     "covered": [
-      "GIPS rules on when firms must use time-weighted vs money-weighted returns",
-      "GIPS valuation and calculation requirements (sub-period returns at cash flows, geometric linking)",
-      "Mention that money-weighted returns use daily external cash flows and are annualized since inception",
-      "Sample GIPS report showing a money-weighted return"
+      "TWR definition: compounded growth independent of cash flows",
+      "TWR calculation by geometrically linking sub-period returns, with worked examples (15.3% annual; 0.14%)",
+      "IRR definition as discount rate setting NPV of cash flows to zero",
+      "Money-weighted return concept: sensitive to timing and size of cash flows",
+      "IRR calculation example with annualization (34%)",
+      "Modified Dietz approximation of MWR with worked example (-4.67%)",
+      "Comparison: TWR for managers without control of flows, IRR/MWR for managers who control flows",
+      "Why TWR and IRR differ in the same return stream"
     ],
     "missing": [
-      "Definition of money-weighted return as the IRR of cash flows",
-      "Definition of time-weighted return as compounded sub-period returns",
-      "Worked calculation of MWR (IRR) with multiple cash flows",
-      "Worked calculation of TWR by chaining holding period returns",
-      "Comparison of how cash flow timing affects MWR vs TWR",
-      "Guidance on which measure suits evaluating a manager vs an investor's experience",
-      "Formulas and numerical examples"
+      "CFA-style example using a simple investor deposit/withdrawal with TWR and MWR computed side by side",
+      "Explicit statement that MWR equals IRR with cash flows at specific times, with a step-by-step solve for a two-period case",
+      "Interpretation of when MWR above or below TWR as a result of investor timing of flows"
     ],
-    "useful_chunk_ids": [],
-    "note": "The passages are GIPS compliance rules that mention both return types but never teach definitions, formulas or calculations, so a beginner could not learn this LOS from them.",
+    "useful_chunk_ids": [
+      "commonfund-twr-vs-irr:2:1",
+      "commonfund-twr-vs-irr:3:2",
+      "commonfund-twr-vs-irr:3:3",
+      "commonfund-twr-vs-irr:4:4",
+      "commonfund-twr-vs-irr:1:0",
+      "ib-mwr-twr-white-paper:1:0",
+      "ib-mwr-twr-white-paper:2:1",
+      "smu-fma-ch4-rates-of-return:1:0"
+    ],
+    "note": "Together the Commonfund, Interactive Brokers and SMU passages define both measures, show worked calculations and compare their use, though a classic investor-flow MWR vs TWR example is absent.",
     "losId": "quant-03-los1",
     "topicId": "quant",
     "moduleTitle": "Benchmarking Returns",
     "losText": "calculate and compare money-weighted and time-weighted rates of return",
     "retrieved": [
+      {
+        "id": "ib-mwr-twr-white-paper:1:0",
+        "title": "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)",
+        "locator": "pp. 1–2"
+      },
+      {
+        "id": "commonfund-twr-vs-irr:4:4",
+        "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+        "locator": "pp. 4–5"
+      },
+      {
+        "id": "smu-fma-ch4-rates-of-return:1:0",
+        "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+        "locator": "pp. 1–5"
+      },
       {
         "id": "gips-2020-firms:29:26",
         "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
@@ -133,6 +157,31 @@
         "locator": "pp. 28–29"
       },
       {
+        "id": "commonfund-twr-vs-irr:2:1",
+        "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+        "locator": "pp. 2–3"
+      },
+      {
+        "id": "commonfund-twr-vs-irr:3:3",
+        "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+        "locator": "pp. 3–4"
+      },
+      {
+        "id": "commonfund-twr-vs-irr:3:2",
+        "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+        "locator": "p. 3"
+      },
+      {
+        "id": "ib-mwr-twr-white-paper:2:1",
+        "title": "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)",
+        "locator": "pp. 2–3"
+      },
+      {
+        "id": "commonfund-twr-vs-irr:1:0",
+        "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+        "locator": "pp. 1–2"
+      },
+      {
         "id": "gips-2020-firms:106:115",
         "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
         "locator": "pp. 106–107"
@@ -141,50 +190,10 @@
         "id": "gips-2020-firms:15:11",
         "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
         "locator": "pp. 15–16"
-      },
-      {
-        "id": "gips-2020-firms:31:28",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 31–32"
-      },
-      {
-        "id": "gips-2020-firms:85:91",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 85–86"
-      },
-      {
-        "id": "gips-2020-firms:23:20",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 23–24"
-      },
-      {
-        "id": "gips-2020-firms:94:101",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 94–95"
-      },
-      {
-        "id": "gips-2020-firms:105:113",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 105–106"
-      },
-      {
-        "id": "gips-2020-firms:48:47",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 48–49"
-      },
-      {
-        "id": "gips-2020-firms:49:49",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 49–51"
-      },
-      {
-        "id": "gips-2020-firms:78:83",
-        "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
-        "locator": "pp. 78–79"
       }
     ],
-    "costUsd": 0.0226835,
-    "auditedAt": "2026-10-11T22:25:20.125Z"
+    "costUsd": 0.0269315,
+    "auditedAt": "2026-10-11T22:34:18.383Z"
   },
   "quant-01-los2": {
     "coverage": "partial",
@@ -15674,32 +15683,31 @@
   "equity-09-los3": {
     "coverage": "none",
     "covered": [
-      "Company-level profitability ratios (ROE, DuPont) and an industry ROE comparison table",
-      "Porter's five forces link to ROE and competitive environment",
-      "General point that ratios should be benchmarked against industry averages"
+      "Generic company-level profitability ratios (profit margin, ROA, ROE, DuPont)",
+      "Comparing a firm's ROE to industry averages, with an ROE-by-industry table",
+      "Trend and cross-sectional ratio analysis at firm level"
     ],
     "missing": [
-      "Methods for determining industry size (revenue, units, market value)",
+      "Methods for determining industry size (revenue, units, market definition)",
       "Industry growth characteristics and life-cycle stages",
-      "Industry-level profitability analysis (margins, returns on capital by industry)",
-      "Market share trends and how to measure them",
-      "Data sources and approaches for sizing and growth (top-down vs bottom-up)",
-      "Cyclical vs. growth/defensive industry classification"
+      "Industry-level profitability drivers such as margins, returns on capital and cost structure",
+      "Market share trend analysis and concentration measures",
+      "Data sources and approaches for industry analysis (top-down, bottom-up, historical trends)",
+      "Industry classification systems and peer group definition"
     ],
     "useful_chunk_ids": [
-      "damodaran-valn2ed-ch19:14:11",
       "os:principles-finance-2e:m00045:4.1"
     ],
-    "note": "Passages cover company profitability ratios and Porter's forces but nothing on sizing an industry, its growth characteristics, or market share trends.",
+    "note": "The passages cover firm-level ratio analysis and only a passing industry-average ROE comparison, with nothing on sizing an industry, growth patterns, or market share trends.",
     "losId": "equity-09-los3",
     "topicId": "equity",
     "moduleTitle": "Industry and Competitive Analysis",
     "losText": "determine an industry's size, growth characteristics, profitability, and market share trends",
     "retrieved": [
       {
-        "id": "os:principles-finance-2e:m00067:0",
-        "title": "Principles of Finance 2e",
-        "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to Earnings (P/E) Ratio"
+        "id": "flatworld-finance-for-managers:54:39",
+        "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+        "locator": "pp. 54–56"
       },
       {
         "id": "os:principles-finance-2e:m00045:4.1",
@@ -15707,9 +15715,29 @@
         "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method"
       },
       {
-        "id": "flatworld-finance-for-managers:54:39",
+        "id": "os:principles-finance-2e:m00067:0",
+        "title": "Principles of Finance 2e",
+        "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to Earnings (P/E) Ratio"
+      },
+      {
+        "id": "os:principles-finance-2e:m00045:0",
+        "title": "Principles of Finance 2e",
+        "locator": "§6.6 Profitability Ratios and the DuPont Method — Overview"
+      },
+      {
+        "id": "os:principles-economics-3e:m63682:4.2",
+        "title": "Principles of Economics 3e",
+        "locator": "§7.5 Costs in the Long Run — The Size and Number of Firms in an Industry"
+      },
+      {
+        "id": "flatworld-finance-for-managers:53:38",
         "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
-        "locator": "pp. 54–56"
+        "locator": "pp. 53–54"
+      },
+      {
+        "id": "os:principles-economics-3e:m63906:2",
+        "title": "Principles of Economics 3e",
+        "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Comparing Marginal Revenue and Marginal Costs"
       },
       {
         "id": "damodaran-valn2ed-ch12:18:18",
@@ -15722,9 +15750,9 @@
         "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers"
       },
       {
-        "id": "os:principles-finance-2e:m00040:1",
-        "title": "Principles of Finance 2e",
-        "locator": "§6.1 Ratios: Condensing Information into Smaller Pieces — Importance of Ratios and Analysis"
+        "id": "flatworld-introduction-to-business:670:631",
+        "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+        "locator": "pp. 670–672"
       },
       {
         "id": "russell-us-indexes-methodology:26:31",
@@ -15732,33 +15760,13 @@
         "locator": "p. 26"
       },
       {
-        "id": "cfa-rf-etf-module1:8:4",
-        "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
-        "locator": "pp. 8–9"
-      },
-      {
-        "id": "damodaran-valn2ed-ch19:14:11",
-        "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
-        "locator": "pp. 14–15"
-      },
-      {
-        "id": "flatworld-finance-for-managers:53:38",
-        "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
-        "locator": "pp. 53–54"
-      },
-      {
-        "id": "nasdaq-100-methodology:2:1",
-        "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
-        "locator": "p. 2"
-      },
-      {
-        "id": "os:principles-finance-2e:m00045:0",
-        "title": "Principles of Finance 2e",
-        "locator": "§6.6 Profitability Ratios and the DuPont Method — Overview"
+        "id": "russell-us-indexes-methodology:24:27",
+        "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+        "locator": "p. 24"
       }
     ],
-    "costUsd": 0.0207122,
-    "auditedAt": "2026-10-11T22:25:44.497Z"
+    "costUsd": 0.0234635,
+    "auditedAt": "2026-10-11T22:34:16.851Z"
   },
   "equity-09-los4": {
     "coverage": "partial",
@@ -19686,19 +19694,19 @@
   "fixed-income-13-los4": {
     "coverage": "none",
     "covered": [
-      "Analytical duration formulas: Macaulay, modified and effective duration definitions",
-      "Limits of analytical duration: parallel shifts and large yield changes",
-      "Key rate duration as a decomposition of effective duration"
+      "Analytical duration measures: Macaulay, modified and effective duration definitions and formulas",
+      "Effective duration as the measure for bonds with embedded options",
+      "Limitations of duration: parallel shifts and large yield changes"
     ],
     "missing": [
-      "Definition of empirical duration (observed price-yield relationship via regression of historical data)",
+      "Definition of empirical duration (statistical regression of bond price or return changes on yield changes)",
       "Contrast between empirical and analytical duration",
-      "Why empirical duration differs: credit and equity-like behavior, yield-spread and liquidity effects, nonparallel or non-yield-driven moves",
-      "Examples such as high-yield bonds where empirical duration is lower than analytical duration",
-      "Limitations of empirical duration (regression stability, data quality, choice of window)"
+      "When empirical duration is used (e.g. credit-risky bonds, MBS, where yield-spread correlations break analytical assumptions)",
+      "Why empirical and analytical duration can differ (yield and spread correlation, liquidity, stale prices)",
+      "Reliability caveats of empirical duration such as data and regression issues"
     ],
     "useful_chunk_ids": [],
-    "note": "The passages cover analytical (Macaulay, modified, effective) and key rate duration but never mention empirical duration or compare it to analytical duration.",
+    "note": "The passages cover analytical duration measures and their limits but never define or discuss empirical duration, so the LOS contrast cannot be taught.",
     "losId": "fixed-income-13-los4",
     "topicId": "fixed-income",
     "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
@@ -19710,9 +19718,24 @@
         "locator": "pp. 4–5"
       },
       {
+        "id": "duffee-treasury-yields-spreads:10:11",
+        "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+        "locator": "pp. 10–11"
+      },
+      {
         "id": "ftse-fixed-income-indices-guide:132:153",
         "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
         "locator": "p. 132"
+      },
+      {
+        "id": "mpra-key-rate-duration:11:8",
+        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+        "locator": "pp. 11–12"
+      },
+      {
+        "id": "mit-ocw-15433-fixedincome1:13:3",
+        "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+        "locator": "pp. 13–16"
       },
       {
         "id": "ftse-fixed-income-indices-guide:18:19",
@@ -19720,9 +19743,9 @@
         "locator": "pp. 18–19"
       },
       {
-        "id": "mit-ocw-15433-fixedincome1:13:3",
-        "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
-        "locator": "pp. 13–16"
+        "id": "mpra-key-rate-duration:5:3",
+        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+        "locator": "pp. 5–6"
       },
       {
         "id": "mpra-key-rate-duration:1:0",
@@ -19735,38 +19758,23 @@
         "locator": "pp. 7–8"
       },
       {
+        "id": "mpra-key-rate-duration:14:10",
+        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+        "locator": "pp. 14–16"
+      },
+      {
+        "id": "fed-feds-2006-28:28:23",
+        "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+        "locator": "pp. 28–29"
+      },
+      {
         "id": "imf-wb-debt-mgmt-2002:80:99",
         "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
         "locator": "p. 80"
-      },
-      {
-        "id": "mpra-key-rate-duration:5:3",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 5–6"
-      },
-      {
-        "id": "mpra-key-rate-duration:11:8",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 11–12"
-      },
-      {
-        "id": "os:principles-finance-2e:m00082:2.1",
-        "title": "Principles of Finance 2e",
-        "locator": "§13.5 Probability Distributions — Apply the Normal Distribution in Financial Contexts"
-      },
-      {
-        "id": "occ-interest-rate-risk:78:92",
-        "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
-        "locator": "pp. 78–79"
-      },
-      {
-        "id": "mpra-key-rate-duration:10:7",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 10–11"
       }
     ],
-    "costUsd": 0.021394200000000002,
-    "auditedAt": "2026-10-11T22:25:52.602Z"
+    "costUsd": 0.0237775,
+    "auditedAt": "2026-10-11T22:34:17.118Z"
   },
   "fixed-income-13-los3": {
     "coverage": "full",

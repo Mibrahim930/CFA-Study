@@ -148,3 +148,16 @@ New sources (chunks): `fed-feds-2001-27-historical-simulation` (50; Fed Board, p
 
 ### Verified vs assumed (this pass)
 Verified: HTTP status, content type and PDF magic bytes before ingest; text extraction counts of the key terms in each file (for example "historical simulation" 124 times in Pritsker, "risk neutral" 17 times in 18.S096 lecture 19); the licence strings quoted above, read from the PDF text or page footer; the real `retrieve()` ranks listed in the table. Assumed: public-domain status of Treasury, OCC, BEA, Census, GPO and FSOC items (U.S. federal works) and of the Fed Board paper (Board disclaimer); the CC licence on the two LibreTexts pages comes from the footer link, not from a licence file.
+
+## Last-5 pass (2026-10-11)
+Targets: the last 5 uncovered LOS. Corpus grep first, then web search for free, reputable sources (no prep providers, no Wikipedia). Each new source was ingested with `npm run ingest:sources -- --only <id>` and a chunk spot-checked.
+
+| LOS | Outcome | Source ids / chunk ids |
+|---|---|---|
+| quant-03-los1 | new source | `smu-fma-ch4-rates-of-return` (18 chunks; SMU actuarial lecture slides: IRR, dollar-weighted and time-weighted return, geometric mean; no licence stated, GROUND), `commonfund-twr-vs-irr` (7; © Commonfund, GROUND; TWR vs IRR with a quarterly example), `ib-mwr-twr-white-paper` (3; Interactive Brokers, no licence, GROUND; Modified Dietz and geometric linking worked example). The IB paper uses Modified Dietz, not IRR, for money-weighted |
+| fsa-01-los1 | still missing | The six steps appear only on prep-provider pages (AnalystPrep, IFT, PrepNuggets, JK Shah) and on member-only CFA refresher pages. No open textbook or university page found |
+| equity-09-los3 | retrieval miss | `os:principles-economics-3e:m63887:3` (four-firm concentration ratio and HHI), `:m63887:4`, `:m63887:5`; `flatworld-finance-banking-and-money:232:204`, `:235:206`, `:237:208` (concentration ratio and Herfindahl index definitions and calculation) |
+| fixed-income-06-los3 | still missing | No free non-prep source found that uses the term. FDIC exam manual 3.3, Fed Supervision Manual 3000.1, MSRB "How Are Municipal Bonds Priced", MSRB Rule G-30 and FINRA Rule 2121 pages contain no "matrix pricing" (checked by text search, not loaded). GAO-12-265 returns 403; PwC Viewpoint redirects without content; SEC XBRL notes are on blocked sec.gov. Only `occ-asset-securitization:56:53` mentions it |
+| fixed-income-13-los4 | new source (partial) | `duffee-treasury-yields-spreads` (20 chunks; Journal of Finance 1998, author-hosted, GROUND): negative relation between Treasury yields and corporate spreads, stronger for lower-rated bonds. It supplies the mechanism behind lower empirical duration for high-yield bonds but does not define "empirical duration". The CME paper returned 403 and the Kansas City Fed RWP 98-08 URL was not retrievable; Wellington, Morningstar and Columbia Threadneedle pieces are practitioner marketing, not loaded |
+
+Verified: HTTP status, content type and PDF magic bytes for the loaded files; term counts in the extracted text; chunk counts from ingest. Assumed: none of the four loaded files states a reuse licence, so all are GROUND.

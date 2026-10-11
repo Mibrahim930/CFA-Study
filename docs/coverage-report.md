@@ -5,7 +5,7 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 
 | Topic | Audited | Full | Partial | None |
 |---|---|---|---|---|
-| Quantitative Methods | 30/30 | 1 | 28 | 1 |
+| Quantitative Methods | 30/30 | 2 | 28 | 0 |
 | Economics | 30/30 | 1 | 29 | 0 |
 | Corporate Finance | 22/22 | 3 | 19 | 0 |
 | Financial Statement Analysis | 53/53 | 2 | 50 | 1 |
@@ -22,8 +22,6 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 
 - **quant-02-los1** (partial): calculate, compare, and interpret different types of returns for financial assets, instruments, and indicators
   - Missing: holding period return and its definition; annualizing returns for periods shorter or longer than a year; money-weighted vs time-weighted return calculation (only GIPS compliance rules, no method); gross vs net returns, and pre-tax vs after-tax returns; real vs nominal return (Fisher relation) as a return type; log (continuously compounded) returns; leveraged return; harmonic mean, trimmed and winsorized means; comparing return types across assets and indicators, including price vs total return
-- **quant-03-los1** (none): calculate and compare money-weighted and time-weighted rates of return
-  - Missing: Definition of money-weighted return as the IRR of cash flows; Definition of time-weighted return as compounded sub-period returns; Worked calculation of MWR (IRR) with multiple cash flows; Worked calculation of TWR by chaining holding period returns; Comparison of how cash flow timing affects MWR vs TWR; Guidance on which measure suits evaluating a manager vs an investor's experience; Formulas and numerical examples
 - **quant-01-los2** (partial): describe, compare, and interpret required rates of return, risk-free rates, risk premia, and inflation
   - Missing: formal definition of required rate of return as the sum of real risk-free rate plus premia; real vs nominal risk-free rate and the Fisher relation; decomposition of nominal rate into real rate, inflation premium, default, liquidity and maturity premia; explicit comparison of required return components across securities; interpretation of the equity risk premium as a distinct concept; inflation premium quantification and its link to nominal yields
 - **quant-01-los1** (partial): describe, compare, and interpret returns
@@ -341,7 +339,7 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 - **equity-08-los2** (partial): evaluate the construction of an equity valuation model based on characteristics of the subject company
   - Missing: Explicit framework for choosing a model from company characteristics (earnings stability, leverage, maturity, competitive position); Forecasting financial statements and sales, margins and capital items as model inputs; Top-down, bottom-up and hybrid forecasting approaches; Company-specific factors such as business model, cyclicality, and regulatory and macro conditions; Choosing a forecast horizon and handling terminal value; Scenario and sensitivity analysis; Matching model complexity to data availability and the analyst's purpose; Evaluating model construction decisions as the LOS requires
 - **equity-09-los3** (none): determine an industry's size, growth characteristics, profitability, and market share trends
-  - Missing: Methods for determining industry size (revenue, units, market value); Industry growth characteristics and life-cycle stages; Industry-level profitability analysis (margins, returns on capital by industry); Market share trends and how to measure them; Data sources and approaches for sizing and growth (top-down vs bottom-up); Cyclical vs. growth/defensive industry classification
+  - Missing: Methods for determining industry size (revenue, units, market definition); Industry growth characteristics and life-cycle stages; Industry-level profitability drivers such as margins, returns on capital and cost structure; Market share trend analysis and concentration measures; Data sources and approaches for industry analysis (top-down, bottom-up, historical trends); Industry classification systems and peer group definition
 - **equity-09-los4** (partial): analyze an industry's structure and external influences using Porter's Five Forces and the PESTLE framework
   - Missing: PESTLE framework itself: the six factors (political, economic, social, technological, legal, environmental) defined with examples; detailed treatment of threat of substitutes; detailed treatment of supplier power; how to apply both frameworks to assess an industry's attractiveness and profitability; distinction between PESTLE macro factors and Five Forces industry structure; legal and environmental factors; worked industry example combining both frameworks
 - **equity-10-los1** (partial): explain a company's competitive strategy and position within an industry
@@ -426,7 +424,7 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 - **fixed-income-13-los2** (partial): calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond's effective duration and convexity
   - Missing: clean statement of the formula %ΔP ≈ -EffDur×Δy + 0.5×Convexity×(Δy)^2 with units; convexity formula in Level I form (price up/down based) and the 1/2 factor; worked numeric example using effective duration and convexity together; how to compute effective duration and convexity from up/down prices; converting Δy in basis points to decimals, and the sign convention; note that the convexity adjustment is positive for both rate rises and falls
 - **fixed-income-13-los4** (none): describe the difference between empirical duration and analytical duration
-  - Missing: Definition of empirical duration (observed price-yield relationship via regression of historical data); Contrast between empirical and analytical duration; Why empirical duration differs: credit and equity-like behavior, yield-spread and liquidity effects, nonparallel or non-yield-driven moves; Examples such as high-yield bonds where empirical duration is lower than analytical duration; Limitations of empirical duration (regression stability, data quality, choice of window)
+  - Missing: Definition of empirical duration (statistical regression of bond price or return changes on yield changes); Contrast between empirical and analytical duration; When empirical duration is used (e.g. credit-risky bonds, MBS, where yield-spread correlations break analytical assumptions); Why empirical and analytical duration can differ (yield and spread correlation, liquidity, stale prices); Reliability caveats of empirical duration such as data and regression issues
 - **fixed-income-14-los1** (partial): describe credit risk and its components, probability of default and loss given default
   - Missing: Formal definition of credit risk as the risk of loss from a borrower failing to pay; Explicit definition of loss given default as a share of exposure lost, equal to 1 minus recovery rate; Expected loss = PD x LGD stated as a clean formula; Exposure at default and recovery rate concepts; Credit spread as compensation for credit risk in a Level I framing; Simple beginner-oriented explanation; passages are regulatory or academic, not CFA-style
 - **fixed-income-14-los3** (partial): describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads
@@ -680,4 +678,4 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 - **ethics-10-los2** (partial): explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct
   - Missing: Text and explanation of most Standards (II through VII), including integrity of capital markets, duties to clients, and conflicts of interest; Many worked case examples where the reader must judge violation or no violation; Guidance on recommended procedures for compliance across most standards; A step-by-step method for applying the Standards to a scenario and distinguishing violating from compliant conduct; Contrasting non-violation cases showing conduct that complies
 
-Audit cost so far: $8.10.
+Audit cost so far: $8.11.

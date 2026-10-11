@@ -57,7 +57,8 @@ const OPENSTAX_TOPICS: Record<string, string[]> = {
   "Introductory Business Statistics 2e": ["quant"],
   "Principles of Data Science": ["quant"],
   "Principles of Accounting, Volume 1: Financial Accounting": ["fsa"],
-  "Principles of Economics 3e": ["econ"],
+  // Market structure chapters (concentration ratio, HHI) serve equity industry analysis too.
+  "Principles of Economics 3e": ["econ", "equity"],
   "Principles of Management": ["corpfin", "equity"],
 };
 

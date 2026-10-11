@@ -418,6 +418,14 @@ export const SOURCES: SourceDef[] = [
   // Alternatives: digital assets
   { id: "fsoc-digital-assets-2022", title: "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)", year: 2022, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["alternatives", "portfolio"],
     url: "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf" },
+  { id: "smu-fma-ch4-rates-of-return", title: "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)", year: 2010, source: "other", tier: "T2", license: "Course slides on the author's SMU page; no licence stated (private grounding only)", reuse: "ground", topics: ["quant", "portfolio"],
+    url: "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf" },
+  { id: "commonfund-twr-vs-irr", title: "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)", year: 2018, source: "other", tier: "T3", license: "© Commonfund (all rights reserved; free public PDF, private grounding only)", reuse: "ground", topics: ["quant", "portfolio"],
+    url: "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf" },
+  { id: "ib-mwr-twr-white-paper", title: "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)", year: 2012, source: "other", tier: "T3", license: "Interactive Brokers white paper; no licence stated (private grounding only)", reuse: "ground", topics: ["quant", "portfolio"],
+    url: "https://www.interactivebrokers.com/images/common/Statements/MWR-TWR_white_paper.pdf" },
+  { id: "duffee-treasury-yields-spreads", title: "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)", year: 1998, source: "other", tier: "T2", license: "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)", reuse: "ground", topics: ["fixed-income"],
+    url: "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf" },
 ];
 
 const toChunks = (def: SourceDef, parts: { text: string; locator: string; url: string }[]): SourceChunk[] =>
