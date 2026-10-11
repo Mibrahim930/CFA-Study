@@ -52,7 +52,8 @@ export function loadCorpus(): SourceChunk[] {
 
 /** Topics each OpenStax book serves (PDF sources carry their own `topics`). */
 const OPENSTAX_TOPICS: Record<string, string[]> = {
-  "Principles of Finance 2e": ["quant", "corpfin", "equity", "fixed-income", "derivatives", "portfolio"],
+  // Ch. 5–6 cover financial statements and ratio analysis (incl. common-size statements and DuPont).
+  "Principles of Finance 2e": ["quant", "fsa", "corpfin", "equity", "fixed-income", "derivatives", "portfolio"],
   "Introductory Business Statistics 2e": ["quant"],
   "Principles of Data Science": ["quant"],
   "Principles of Accounting, Volume 1: Financial Accounting": ["fsa"],
@@ -64,15 +65,68 @@ export function servesTopic(chunk: SourceChunk, topicId: string): boolean {
   return (chunk.topics ?? OPENSTAX_TOPICS[chunk.title] ?? []).includes(topicId);
 }
 
+const LOS_VERBS = /^(?:and\s+|or\s+)?(?:(?:describe|explain|calculate|interpret|compare|contrast|evaluate|identify|discuss|demonstrate|distinguish|formulate|recommend|determine|analyze|define|construct|estimate|apply|justify)(?:,\s*|\s+and\s+|\s+|$))+/i;
+
+/**
+ * Split an LOS into its parts so each gets its own search, e.g. "present value of fixed-income and
+ * equity instruments" → also "fixed-income instruments", "equity instruments". Exported for tests.
+ */
+export function losFacets(text: string): string[] {
+  // "measures of (1) central tendency and (2) dispersion" → "measures of central tendency", "measures of dispersion"
+  const numbered = text.match(/^(.*?)\(1\)(.*)$/i);
+  const clauses = numbered
+    ? numbered[2].split(/\(\d\)/).map((part) => `${numbered[1].replace(LOS_VERBS, "")} ${part}`)
+    : text.split(/[,;]|\band\b(?=\s+(?:describe|explain|calculate|interpret|compare|evaluate|identify|discuss|demonstrate|distinguish))/i);
+  const facets = new Set(
+    clauses
+      .map((c) => c.trim().replace(LOS_VERBS, "").replace(/\s+(?:and|or|of|the)\s*$/i, "").trim())
+      .filter((c) => c.replace(/[^a-z]/gi, "").length >= 5),
+  );
+  // "X of A and B <noun>" → "A <noun>" and "B <noun>" so each object of a shared head gets searched.
+  const m = text.match(/\bof\s+([\w-]+)\s+and\s+([\w-]+)\s+(\w+)/i);
+  if (m) {
+    facets.add(`${m[1]} ${m[3]}`);
+    facets.add(`${m[2]} ${m[3]}`);
+  }
+  facets.delete(text);
+  return [...facets];
+}
+
+/** Curriculum wording → textbook wording, so keyword search can bridge the two vocabularies. */
+const SYNONYMS: [RegExp, string][] = [
+  [/\bequity\b|\bequities\b/i, "stock shares dividend"],
+  [/\bfixed[- ]income\b/i, "bond coupon"],
+  [/\bissuers?\b/i, "company firm"],
+  [/\bdispersion\b/i, "variance standard deviation range"],
+  [/\bcentral tendency\b/i, "mean median mode"],
+  [/\bimplied return\b/i, "yield internal rate of return"],
+  [/\bcontingent claims?\b/i, "options"],
+  [/\bforward commitments?\b/i, "forwards futures swaps"],
+  [/\bcommon-size\b/i, "vertical analysis percentage of revenue"],
+];
+
+export const expandQuery = (q: string) => [q, ...SYNONYMS.filter(([re]) => re.test(q)).map(([, s]) => s)].join(" ");
+
 const indexes = new Map<string, Bm25Index>();
-/** BM25 over the chunks that serve this LOS's topic. */
+/**
+ * BM25 over the chunks that serve this LOS's topic. The full LOS query and each facet are searched
+ * separately and merged by reciprocal rank fusion, so one part of a multi-part LOS can't crowd out the rest.
+ */
 export function retrieve(ctx: LosContext, k = 10): { chunk: SourceChunk; score: number }[] {
   let index = indexes.get(ctx.topic.id);
   if (!index) {
     index = new Bm25Index(loadCorpus().filter((c) => servesTopic(c, ctx.topic.id)));
     indexes.set(ctx.topic.id, index);
   }
-  return index.search(`${ctx.module.title} ${ctx.los.text}`, k);
+  const queries = [`${ctx.module.title} ${ctx.los.text}`, ...losFacets(ctx.los.text)].map(expandQuery);
+  const fused = new Map<string, { chunk: SourceChunk; score: number }>();
+  for (const q of queries) {
+    index.search(q, k).forEach(({ chunk }, rank) => {
+      const prev = fused.get(chunk.id);
+      fused.set(chunk.id, { chunk, score: (prev?.score ?? 0) + 1 / (60 + rank) });
+    });
+  }
+  return [...fused.values()].sort((a, b) => b.score - a.score).slice(0, k);
 }
 
 export function chunksById(ids: string[]): Map<string, SourceChunk> {
