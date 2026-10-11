@@ -182,6 +182,95 @@ export const SOURCES: SourceDef[] = [
     license: OCW, reuse: "adapt", topics,
     url: `${OCW_BASE}/${OCW_FILES[k]}`,
   })),
+  // Gap-closing pass (2026-10-11): sources chosen for the LOS the coverage audit marked "none" (see docs/missing-sources.md).
+  // US federal government work (public domain, ADAPT)
+  { id: "fed-gpr-ifdp1222", title: "Measuring Geopolitical Risk (Caldara & Iacoviello, Federal Reserve Board IFDP 1222)", year: 2018, source: "gov", tier: "T1", license: FEDPD, reuse: "adapt", topics: ["econ", "portfolio"],
+    url: "https://www.federalreserve.gov/econres/ifdp/files/ifdp1222.pdf" },
+  { id: "nist-ir-8202", title: "Blockchain Technology Overview (NIST Interagency Report 8202)", year: 2018, source: "gov", tier: "T1", license: "Public domain (U.S. government work, 17 U.S.C. 105; NIST publications are not subject to copyright in the United States)", reuse: "adapt", topics: ["alternatives"],
+    url: "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf" },
+  { id: "ofr-asset-management", title: "Asset Management and Financial Stability (Office of Financial Research, U.S. Treasury)", year: 2013, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["portfolio"],
+    url: "https://www.financialresearch.gov/reports/files/ofr_asset_management_and_financial_stability.pdf" },
+  { id: "occ-corporate-risk-governance", title: "Comptroller's Handbook: Corporate and Risk Governance, v2.0 (OCC)", year: 2019, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["portfolio", "corpfin"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf" },
+  { id: "occ-investment-securities", title: "Comptroller's Handbook: Investment Securities, Section 203 (OCC; 1990 text, reputation-risk references struck in 2025)", year: 1990, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/investment-securities/pub-ch-investment-securities.pdf" },
+  { id: "occ-liquidity", title: "Comptroller's Handbook: Liquidity, v1.2 (OCC)", year: 2023, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income", "corpfin"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf" },
+  { id: "occ-interest-rate-risk", title: "Comptroller's Handbook: Interest Rate Risk (OCC)", year: 2020, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income", "portfolio"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf" },
+  { id: "treasury-covered-bonds", title: "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)", year: 2008, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income"],
+    url: "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf" },
+  // Financial Stability Board (free to read; all rights reserved, GROUND)
+  { id: "fsb-crypto-2022", title: "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)", year: 2022, source: "other", tier: "T1", license: "© Financial Stability Board; free to read, not an open licence (private grounding only)", reuse: "ground", topics: ["alternatives", "econ"],
+    url: "https://www.fsb.org/wp-content/uploads/P160222.pdf" },
+  { id: "fsb-ai-ml-2017", title: "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)", year: 2017, source: "other", tier: "T1", license: "© Financial Stability Board; free to read, not an open licence (private grounding only)", reuse: "ground", topics: ["quant", "portfolio"],
+    url: "https://www.fsb.org/wp-content/uploads/P011117.pdf" },
+  // IMF/World Bank public debt management guidelines accompanying document (copy hosted by the Czech Ministry of Finance)
+  { id: "imf-wb-debt-mgmt-2002", title: "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)", year: 2002, source: "other", tier: "T1", license: "© International Monetary Fund and World Bank; not an open licence (private grounding only)", reuse: "ground", topics: ["fixed-income", "econ"],
+    url: "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf" },
+  // Index and industry classification methodology (free to read, ground)
+  { id: "msci-gics-methodology", title: "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)", year: 2023, source: "other", tier: "T1", license: "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)", reuse: "ground", topics: ["equity"],
+    url: "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf" },
+  // Damodaran, Investment Valuation 2nd ed. (Wiley, 2002): chapters posted free on the author's site; copyright Wiley, so GROUND.
+  ...(
+    [
+      [5, "Option Pricing Theory and Models", ["derivatives", "equity"]],
+      [11, "Estimating Growth", ["equity", "fsa"]],
+      [12, "Closure in Valuation: Estimating Terminal Value", ["equity"]],
+      [17, "Fundamentals of Relative Valuation", ["equity"]],
+      [18, "Earnings Multiples", ["equity"]],
+      [19, "Book Value Multiples", ["equity"]],
+      [20, "Revenue Multiples and Sector-Specific Multiples", ["equity"]],
+      [28, "The Option to Delay and Valuation Implications (real options)", ["corpfin", "equity"]],
+    ] as [number, string, string[]][]
+  ).map(([n, t, topics]): SourceDef => ({
+    id: `damodaran-valn2ed-ch${n}`, title: `Investment Valuation, 2nd ed., ch. ${n}: ${t} (Aswath Damodaran, NYU Stern)`, year: 2002, source: "other", tier: "T2",
+    license: "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)", reuse: "ground", topics,
+    url: `https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch${n}.pdf`,
+  })),
+  // MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): lecture notes, CC BY-NC-SA 4.0 per the course page.
+  ...(
+    [
+      ["154333portfolio1", "aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf", "Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)", ["portfolio", "quant"]],
+      ["154334portfolio2", "64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf", "Class 4: Portfolio Theory part 2", ["portfolio", "quant"]],
+      ["154335portfolio3", "d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf", "Class 5: Portfolio Theory part 3 (optimal risky portfolio)", ["portfolio", "quant"]],
+      ["154336capm1", "df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf", "Class 6: CAPM part 1", ["portfolio", "equity"]],
+      ["154338equity", "804da75d6a54ffb4e5cb11de74d5a917_154338Equity.pdf", "Class 8: Equity", ["equity"]],
+      ["1543313fixedincome1", "0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf", "Class 13: Fixed Income part 1", ["fixed-income"]],
+      ["1543314fixedincome2", "5997158d2e3cbd743504709197ca513f_1543314fixedincome2.pdf", "Class 14: Fixed Income part 2", ["fixed-income"]],
+      ["1543315fixedincome3", "abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf", "Class 15: Fixed Income part 3", ["fixed-income"]],
+      ["1543316riskmanagement", "2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf", "Class 16: Risk Management (VaR, historical simulation)", ["portfolio", "quant"]],
+      ["1543317creditrisk1", "08ceba70b1a9e8969c47f667a7a3de11_1543317creditrisk1.pdf", "Class 17: Credit Risk part 1", ["fixed-income"]],
+      ["1543319securityanalysis", "ffbc3f7faa47ea6af53d2a3efe1e29ee_1543319securityanalysis.pdf", "Class 19: Security Analysis", ["equity", "fsa"]],
+      ["15433_20a_active_management", "85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf", "Class 20: Active Management", ["portfolio", "equity"]],
+      ["15433_21a_hedge_funds", "2c65cd619fc2e15bc0789bbecf0f7370_15433_21a_hedge_funds.pdf", "Class 21: Hedge Funds", ["alternatives", "portfolio"]],
+    ] as [string, string, string, string[]][]
+  ).map(([k, file, t, topics]): SourceDef => ({
+    id: `mit-ocw-15433-${k.replace(/^\d+/, "").replace(/^_\d+a_/, "").replace(/_/g, "-")}`, title: `MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): ${t}`, year: 2003, source: "mit-ocw", tier: "T2",
+    license: "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)", reuse: "adapt", topics,
+    url: `https://ocw.mit.edu/courses/15-433-investments-spring-2003/${file}`,
+  })),
+  { id: "mpra-key-rate-duration", title: "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)", year: 2011, source: "other", tier: "T2", license: "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)", reuse: "ground", topics: ["fixed-income"],
+    url: "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf" },
+  { id: "finra-dividend-dates-notice", title: "NASD Notice to Members 00-54: Ex-Dividend Dates (now FINRA), August 2000", year: 2000, source: "other", tier: "T1", license: "© NASD (now FINRA); free to read on finra.org, all rights reserved (private grounding only)", reuse: "ground", topics: ["equity"],
+    url: "https://www.finra.org/sites/default/files/NoticeDocument/p003997.pdf" },
+  // Saylor/Flat World Knowledge open textbooks (archive at 2012books.lardbucket.org); licence read from each book's front matter.
+  ...(
+    [
+      ["finance-banking-and-money-v2.0", "Finance, Banking, and Money, v2.0", ["fixed-income", "econ", "derivatives"], 2012],
+      ["finance-for-managers", "Finance for Managers", ["corpfin", "equity", "portfolio"], 2012],
+      ["business-strategy", "Business Strategy", ["fsa", "equity", "corpfin"], 2012],
+      ["challenges-and-opportunities-in-international-business", "Challenges and Opportunities in International Business", ["econ"], 2012],
+      ["enterprise-and-individual-risk-management", "Enterprise and Individual Risk Management", ["portfolio", "derivatives"], 2012],
+      ["individual-finance", "Individual Finance", ["portfolio"], 2012],
+      ["an-introduction-to-business-v2.0", "An Introduction to Business, v2.0", ["corpfin", "equity"], 2012],
+      ["policy-and-theory-of-international-economics", "Policy and Theory of International Economics", ["econ"], 2012],
+    ] as [string, string, string[], number][]
+  ).map(([slug, t, topics, y]): SourceDef => ({
+    id: `flatworld-${slug.replace(/-v\d\.\d$/, "").replace(/^challenges-and-opportunities-in-/, "").replace(/^an-/, "")}`, title: `${t} (Flat World Knowledge / Saylor Foundation archive)`, year: y, source: "other", tier: "T2",
+    license: "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)", reuse: "adapt", topics,
+    url: `https://2012books.lardbucket.org/pdfs/${slug}.pdf`,
+  })),
   // HTML sources (kind: "html"): each URL is fetched to sources/docs/<id>/page-N.html and converted by lib/html-text.ts.
   // cftc-futures-basics (S54) omitted: cftc.gov returns 403 to the pipeline fetch; the user must open it manually (see docs/missing-sources.md).
   { id: "treasury-yield-curve-method", kind: "html", title: "Treasury Yield Curve Methodology (U.S. Department of the Treasury)", year: 2026, source: "gov", tier: "T1",
@@ -209,6 +298,30 @@ export const SOURCES: SourceDef[] = [
       "https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php",
       "https://www.eia.gov/energyexplained/coal/",
     ] },
+  // Gap-closing pass HTML sources
+  { id: "fed-g17-capacity-notes", kind: "html", title: "Industrial Production and Capacity Utilization (G.17) explanatory notes (Federal Reserve Board)", year: 2026, source: "gov", tier: "T1",
+    license: FEDPD, reuse: "adapt", topics: ["econ"],
+    url: "https://www.federalreserve.gov/releases/g17/cap_notes.htm", urls: ["https://www.federalreserve.gov/releases/g17/cap_notes.htm"] },
+  { id: "census-naics", kind: "html", title: "NAICS codes and understanding industry classification systems (U.S. Census Bureau, 2022 Economic Census)", year: 2022, source: "gov", tier: "T1",
+    license: "Public domain (U.S. federal government work, 17 U.S.C. 105)", reuse: "adapt", topics: ["equity"],
+    url: "https://www.census.gov/programs-surveys/economic-census/year/2022/guidance/understanding-naics.html", urls: ["https://www.census.gov/programs-surveys/economic-census/year/2022/guidance/understanding-naics.html"] },
+  { id: "treasurydirect-securities", kind: "html", title: "Treasury Bills, Notes and Floating Rate Notes (TreasuryDirect, U.S. Department of the Treasury)", year: 2026, source: "gov", tier: "T1",
+    license: "Public domain (U.S. federal government work, 17 U.S.C. 105)", reuse: "adapt", topics: ["fixed-income"],
+    url: "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+    urls: [
+      "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "https://www.treasurydirect.gov/marketable-securities/treasury-notes/",
+      "https://www.treasurydirect.gov/marketable-securities/floating-rate-notes/",
+    ] },
+  { id: "finra-bonds", kind: "html", title: "Investment Products: Bonds (FINRA investor education)", year: 2026, source: "other", tier: "T1",
+    license: "© FINRA; free to read, all rights reserved (private grounding only)", reuse: "ground", topics: ["fixed-income"],
+    url: "https://www.finra.org/investors/investing/investment-products/bonds", urls: ["https://www.finra.org/investors/investing/investment-products/bonds"] },
+  { id: "sharpe-pension-risk-budget", kind: "html", title: "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)", year: 2001, source: "other", tier: "T2",
+    license: "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)", reuse: "ground", topics: ["portfolio"],
+    url: "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm", urls: ["https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm"] },
+  { id: "cfa-code-ethics-page", kind: "html", title: "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)", year: 2026, source: "cfa-handbook", tier: "T1",
+    license: CFA, reuse: "ground", topics: ["ethics"],
+    url: "https://www.cfainstitute.org/standards/professionals/code-ethics-standards", urls: ["https://www.cfainstitute.org/standards/professionals/code-ethics-standards"] },
 ];
 
 const toChunks = (def: SourceDef, parts: { text: string; locator: string; url: string }[]): SourceChunk[] =>

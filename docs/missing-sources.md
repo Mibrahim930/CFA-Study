@@ -48,3 +48,44 @@ S-numbers refer to docs/reliability-research.md.
 - finquiz.com/terms/
 - 300hours.com (403; also dropped because of its wrong claim about 2027 weights)
 - The Kaplan Schweser free-trial page (DNS failure); dropped as late-stage only
+
+## Gap-closing pass (2026-10-11)
+Targets: the 79 LOS the coverage audit marked "none". A corpus grep first showed which gaps were real (no text at all for "cross rate", "capital allocation line", "key rate duration", "empirical duration", "bank discount", "historical simulation", "GICS", "stablecoin"). All sources below are ingested (`npm run ingest:sources -- --only <id>`), chunk counts as reported by the ingest, and each was spot-checked for readable text. Licences were read from the file or page itself unless marked "assumed".
+
+| Theme | Source id (chunks) | Licence and reuse | Targets |
+|---|---|---|---|
+| Geopolitics | `fed-gpr-ifdp1222` (60), Fed Board IFDP 1222, 2018 | Fed Board public domain, ADAPT (policy page, not in the PDF) | econ-05-los1, 4, 5, 6 |
+| Geopolitics / FX | `flatworld-international-business` (816), `flatworld-policy-and-theory-of-international-economics` (1021) | "licensed under a Creative Commons by-nc-sa 3.0", read in each book's front matter. ADAPT | econ-05-los1, 5, econ-08-los1 (cross rates, found in the first book), econ-02-los3, econ-03-los3 |
+| Economic indicators | `fed-g17-capacity-notes` (3, HTML) | Fed Board public domain, ADAPT | econ-02-los3 |
+| Capital allocation line, risk aversion | `mit-ocw-15433-portfolio1`, `-portfolio2`, `-portfolio3`, `-capm1` (5+4+5+6) | MIT OCW 15.433 (2003); course page says CC BY-NC-SA 4.0. ADAPT. "capital allocation line" confirmed in portfolio1 | quant-08-los3, portfolio-01-los2, los3 |
+| Risk management, VaR, risk budgeting | `mit-ocw-15433-riskmanagement` (11), `occ-corporate-risk-governance` (160), `sharpe-pension-risk-budget` (24, HTML, GROUND), `flatworld-enterprise-and-individual-risk-management` (1192) | OCC public domain (ADAPT); Sharpe GROUND; Flat World CC BY-NC-SA 3.0 | quant-09-los1, portfolio-06-los2, los5, los7 |
+| Digital assets | `nist-ir-8202` (78, ADAPT, "not subject to copyright in the United States" per our licence note, assumed from NIST policy, not seen in the PDF), `fsb-crypto-2022` (36, GROUND, FSB © free to read) | | alternatives-07-los2, 3, 4 |
+| Financial data science / AI | `fsb-ai-ml-2017` (64, GROUND) | © FSB | quant-11-los1 |
+| Asset management industry, pensions, portfolio approach | `ofr-asset-management` (46, public domain, ADAPT), `flatworld-individual-finance` (534), `flatworld-finance-for-managers` (197) | | portfolio-03-los1, 2, 4, 5, portfolio-04-los4 |
+| Equity indexes, industry classification, peer groups | `msci-gics-methodology` (43, GROUND, "© 2023 MSCI Inc. All rights reserved"), `census-naics` (3, HTML, ADAPT), `damodaran-valn2ed-ch17`, `ch18`, `ch19`, `ch20` (21+46+32+36, GROUND, Wiley 2002, free on the author's site), `mit-ocw-15433-equity`, `-securityanalysis`, `-active-management` | | equity-03-los4, equity-07-los3, equity-09-los2, los3, equity-10-los2, equity-12-los2 |
+| Forecasting, valuation models | `damodaran-valn2ed-ch11` (45), `ch12` (25) | GROUND | equity-08-los1, fsa-12-los5 |
+| Real options, capital investments | `damodaran-valn2ed-ch28` (31, "The Option to Delay"), `ch5` (24, option pricing), `flatworld-finance-for-managers` | GROUND / CC BY-NC-SA 3.0 | corpfin-05-los1, 3, 4, derivatives-10-los2 |
+| Business models, Porter's five forces | `flatworld-business-strategy` (115), `flatworld-introduction-to-business` (887) | CC BY-NC-SA 3.0, ADAPT | corpfin-07-los1, 2, fsa-12-los3 |
+| Dividend chronology | `finra-dividend-dates-notice` (4, NASD Notice 00-54, 2000, GROUND) | © NASD/FINRA | equity-04-los1, 2 |
+| Fixed-income yields, spreads, returns | `mit-ocw-15433-fixedincome1/2/3` (7+3+14), `mit-ocw-15433-creditrisk1` (4), `occ-investment-securities` (80; 1990 text, dated), `mpra-key-rate-duration` (14, GROUND, key rate duration), `treasurydirect-securities` (4, HTML, ADAPT), `finra-bonds` (20, HTML, GROUND), `flatworld-finance-banking-and-money` (429) | | fixed-income-07-los2, 08-los1, 08-los2, 10-los1, 10-los2, 13-los3, 14-los3, 06-los3 |
+| Funding, covered bonds, securitization | `occ-liquidity` (119), `occ-interest-rate-risk` (96), `treasury-covered-bonds` (32, public domain, ADAPT), `imf-wb-debt-mgmt-2002` (457, GROUND, © IMF/World Bank; copy hosted by the Czech Ministry of Finance, since imf.org returns 403) | | fixed-income-04-los1, 05-los1, 18-los1, 17-los1 |
+| Hedge funds, private structures | `mit-ocw-15433-hedge-funds` (5) | CC BY-NC-SA 4.0 | alternatives-01-los3, equity-01-los2 |
+| Ethics | `cfa-code-ethics-page` (3, HTML, GROUND; thin, the Standards of Practice Handbook was already loaded) | | ethics-02-los2, ethics-08-los1 |
+
+### Not filled, or only thin
+- **Empirical vs analytical duration** (fixed-income-13-los4): only the key-rate paper was found; no open source for empirical duration regression. Discount margin (fixed-income-08-los1) and matrix pricing (fixed-income-06-los3) may still be thin.
+- **Bayesian updating, parametric vs non-parametric tests** (quant-06-los4, quant-07-los3): MIT 18.05 reading URLs guessed from the 2022 course 404ed, so not loaded. OpenStax statistics is already in the corpus.
+- **CMBS** (fixed-income-19-los4): no open Fed/OCC source found; the OCC asset securitization handbook is already loaded.
+- **FSA recognition and measurement** (fsa-01-los1, 03-los3/4, 05-los1, 07-los3, 09-los3, 10-los2/3, 11-los5, 12-*): ifrs.org standards return a login page instead of the PDF, so IFRS Foundation text was not loaded. Only the Lyryx books and OpenStax cover this; `flatworld-business-strategy` helps fsa-12-los3.
+- **Fiscal policy tools** (econ-03-los3): imf.org (F&D) and cbo.gov return 403; the Flat World economics book is the only new cover.
+
+### Blocked (for the user to open manually, not bypassed)
+- imf.org (all tried URLs: GFSR 2023 ch. 3, 2014 policy paper, F&D "Back to Basics: Fiscal Policy") return 403.
+- cbo.gov/publication/57967 returns 403; dol.gov retirement-plan types returns 403; sec.gov/files/behavior.pdf (SEC behavioral pitfalls report) returns 403; spglobal.com index methodology PDF returns 403.
+- crsreports.congress.gov: some products worked with curl but IF11730 returned 403 and IF12894 returned 403 to the pipeline's fetch, so none were loaded (sanctions, tariffs).
+- bis.org PDFs (e.g. /publ/arpdf/ar2025e3.pdf) return an HTML page rather than a PDF to the pipeline; not loaded.
+- ECB "Covered bonds in the EU financial system" (2008): the guessed URL 404ed.
+- investor.gov glossary pages (ex-dividend date, hedge fund, stock split) are served, but under 600 characters of text, below the pipeline's 500-character page floor after boilerplate, so skipped.
+
+### Verified vs assumed
+Verified directly: HTTP status and content type before ingest; licence wording in the Flat World front matter; MSCI, MPRA and OCC document dates from the first chunk; the "capital allocation line", "cross rate", "bank discount", "historical simulation" strings appear in the new chunks. Assumed: public-domain status of the Fed, OCC, OFR, Treasury, NIST and Census items (US federal works); MIT OCW 15.433 licence as stated on the course page (I confirmed by-nc-sa/4.0 appears in the page, not on each PDF).

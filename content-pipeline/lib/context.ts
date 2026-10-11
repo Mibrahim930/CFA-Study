@@ -107,12 +107,18 @@ const SYNONYMS: [RegExp, string][] = [
 
 export const expandQuery = (q: string) => [q, ...SYNONYMS.filter(([re]) => re.test(q)).map(([, s]) => s)].join(" ");
 
+/**
+ * Passages per LOS. Generation and the coverage audit share it, so the audit grades exactly what the
+ * generator sees. Raised from 10 (generate) / 6 (audit) after the first audit flagged search misses.
+ */
+export const RETRIEVE_K = 12;
+
 const indexes = new Map<string, Bm25Index>();
 /**
  * BM25 over the chunks that serve this LOS's topic. The full LOS query and each facet are searched
  * separately and merged by reciprocal rank fusion, so one part of a multi-part LOS can't crowd out the rest.
  */
-export function retrieve(ctx: LosContext, k = 10): { chunk: SourceChunk; score: number }[] {
+export function retrieve(ctx: LosContext, k = RETRIEVE_K): { chunk: SourceChunk; score: number }[] {
   let index = indexes.get(ctx.topic.id);
   if (!index) {
     index = new Bm25Index(loadCorpus().filter((c) => servesTopic(c, ctx.topic.id)));

@@ -2,8 +2,22 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { LessonView } from "@/components/lesson-view";
 import { ModuleWorkspace } from "@/components/module-workspace";
+import { getModuleLessons } from "@/lib/content/generated";
 import { getModule, syllabus } from "@/lib/syllabus";
+
+async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: string; moduleId: string; losOrder: string[] }) {
+  const lessons = await getModuleLessons(topicId, moduleId, losOrder);
+  if (lessons.length === 0) return null;
+  return (
+    <div className="space-y-4">
+      {lessons.map((l) => (
+        <LessonView key={l.losId} lesson={l} />
+      ))}
+    </div>
+  );
+}
 
 export function generateStaticParams() {
   return syllabus.topics.flatMap((t) => t.modules.map((m) => ({ slug: m.slug })));
@@ -42,6 +56,7 @@ async function LearnContent({ params }: { params: PageProps<"/learn/[slug]">["pa
           {module.title}
         </h1>
       </div>
+      <GeneratedLessons topicId={topic.id} moduleId={module.id} losOrder={module.los.map((l) => l.id)} />
       <ModuleWorkspace slug={module.slug} los={module.los} />
       <nav className="flex justify-between gap-4 border-t border-line pt-4 text-sm">
         {prev ? (

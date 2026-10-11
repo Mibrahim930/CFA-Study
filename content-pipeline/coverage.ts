@@ -11,12 +11,12 @@ import { dirname } from "node:path";
 import { parseArgs } from "node:util";
 import * as z from "zod/v4";
 import { callStructured, DEFAULT_MODEL, loadEnv, monthlyBudgetUsd, monthSpendUsd } from "./lib/claude";
-import { findLos, losForTopic, retrieve, type LosContext } from "./lib/context";
+import { findLos, losForTopic, retrieve, RETRIEVE_K, type LosContext } from "./lib/context";
 import { TOPICS } from "../lib/syllabus/topics";
 
 const RESULTS = "content/coverage/coverage.json";
 const REPORT = "docs/coverage-report.md";
-const PASSAGES = 6;
+const PASSAGES = RETRIEVE_K;
 
 const CoverageSchema = z.object({
   coverage: z.enum(["full", "partial", "none"]),
