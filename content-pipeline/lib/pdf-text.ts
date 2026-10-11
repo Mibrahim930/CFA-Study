@@ -1,12 +1,16 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { createRequire } from "node:module";
+import { dirname, join, resolve, sep } from "node:path";
 
 // Cross-platform PDF text extraction (Mozilla pdf.js). Works on macOS, Windows and Linux.
+
+const STANDARD_FONTS =
+  join(dirname(createRequire(import.meta.url).resolve("pdfjs-dist/package.json")), "standard_fonts") + sep;
 
 export async function extractPdfText(pdfPath: string): Promise<string> {
   const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
   const data = new Uint8Array(readFileSync(resolve(pdfPath)));
-  const task = pdfjs.getDocument({ data, useSystemFonts: false });
+  const task = pdfjs.getDocument({ data, useSystemFonts: false, standardFontDataUrl: STANDARD_FONTS });
   const doc = await task.promise;
   const pages: string[] = [];
   for (let p = 1; p <= doc.numPages; p++) {
