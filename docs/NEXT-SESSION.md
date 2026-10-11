@@ -14,9 +14,9 @@ Start here when picking this project back up. Also read `docs/HANDOFF.md` ("Hard
   - Report: `docs/coverage-report.md`. Raw data: `content/coverage/coverage.json`.
 - **Spend this month:** about $7.42 of the $25 cap (ledger: `content-pipeline/.spend/`).
 
-## Running when we stopped
+## Finished after the plan was written
 - A Sonnet agent researching **buyable sources under $20, published 2025 or later**, that fill the coverage gaps.
-  - Output: `docs/purchase-candidates.md`. If the file is missing, the agent didn't finish; re-run it.
+  - Done: see `docs/purchase-candidates.md`. Finding: almost nothing under $20 is DRM-free, so purchases help personal study but cannot fill corpus gaps. Prices are partly unverified; spot-check before buying.
   - Its brief: rank by coverage per dollar, propose a minimal set covering every topic, and flag DRM. Only DRM-free files can be loaded into the pipeline.
 
 ## Next steps, in order
