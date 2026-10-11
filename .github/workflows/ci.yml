@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        # The user's machines are macOS (original) and Windows (current). Linux is cheap and
+        # catches path/case issues. macOS runners cost 10x minutes on private repos, so it's omitted.
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build

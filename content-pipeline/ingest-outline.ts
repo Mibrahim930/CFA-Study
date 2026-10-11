@@ -1,6 +1,6 @@
 /**
  * Ingest the official "2027 Level I Topic Outlines" PDF into content/syllabus-2027.json.
- *   npx tsx content-pipeline/ingest-outline.ts
+ *   npx tsx content-pipeline/ingest-outline.ts [outPath]   (cross-platform)
  * Module titles are anchored on lib/syllabus/topics.ts (verified list); LOS are parsed from the PDF.
  * The output contains CFA Institute LOS text — candidate use only, keep the repo private.
  */
@@ -47,7 +47,9 @@ function isNoise(line: string, heads: Set<string>): boolean {
     line === "2027 Level I Topic Outlines" ||
     line === "LEARNING OUTCOMES" ||
     line === "The candidate should be able to:" ||
-    heads.has(line)
+    heads.has(line) ||
+    // pdf.js can put a running head and its page number on one line ("Economics6", "3Quantitative Methods")
+    heads.has(line.replace(/^\d+\s*|\s*\d+$/g, ""))
   );
 }
 
@@ -134,8 +136,8 @@ export function parseOutline(text: string, generatedAt = new Date().toISOString(
 
 async function main() {
   const pdf = await fetchSource(OUTLINE_URL, "cfa/2027-level-i-topic-outline.pdf");
-  const syllabus = parseOutline(extractPdfText(pdf));
-  const out = resolve(process.cwd(), "content/syllabus-2027.json");
+  const syllabus = parseOutline(await extractPdfText(pdf));
+  const out = resolve(process.cwd(), process.argv[2] ?? "content/syllabus-2027.json");
   writeFileSync(out, JSON.stringify(syllabus, null, 2) + "\n");
   const los = syllabus.topics.reduce((n, t) => n + t.modules.reduce((k, m) => k + m.los.length, 0), 0);
   console.log(`Wrote ${out}: ${syllabus.topics.length} topics, 102 modules, ${los} LOS`);

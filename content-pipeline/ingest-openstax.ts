@@ -83,7 +83,7 @@ function main() {
 
   for (const book of books) {
     const dir = cloneRepo(book.repo);
-    const collection = readFileSync(join(dir, "collections", `${book.collection}.collection.xml`), "utf8");
+    const collection = readFileSync(join(dir, "collections", `${book.collection}.collection.xml`), "utf8").replace(/\r\n?/g, "\n");
     let count = 0;
     for (const ch of readCollection(collection)) {
       ch.modules.forEach((mod, idx) => {

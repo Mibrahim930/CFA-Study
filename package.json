@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "ingest:outline": "tsx content-pipeline/ingest-outline.ts"
+    "ingest:outline": "tsx content-pipeline/ingest-outline.ts",
+    "typecheck": "next typegen && tsc --noEmit",
+    "ingest:openstax": "tsx content-pipeline/ingest-openstax.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
@@ -27,6 +29,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "pdfjs-dist": "^6.4.299",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5",

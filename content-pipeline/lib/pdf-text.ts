@@ -1,25 +1,35 @@
-import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
-// macOS PDFKit via JXA — no extra dependencies. Fonts in CFA PDFs use custom encodings that
-// naive stream parsing can't decode; PDFKit handles them.
-const JXA = `
-ObjC.import('PDFKit');
-function run(argv) {
-  const doc = $.PDFDocument.alloc.initWithURL($.NSURL.fileURLWithPath(argv[0]));
-  if (!doc || doc.isNil()) throw new Error('could not open PDF');
-  return doc.string.js;
-}`;
+// Cross-platform PDF text extraction (Mozilla pdf.js). Works on macOS, Windows and Linux.
 
-export function extractPdfText(pdfPath: string): string {
-  if (process.platform !== "darwin") {
-    throw new Error("PDF extraction uses macOS PDFKit; run the pipeline on a Mac.");
+export async function extractPdfText(pdfPath: string): Promise<string> {
+  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+  const data = new Uint8Array(readFileSync(resolve(pdfPath)));
+  const task = pdfjs.getDocument({ data, useSystemFonts: false });
+  const doc = await task.promise;
+  const pages: string[] = [];
+  for (let p = 1; p <= doc.numPages; p++) {
+    const page = await doc.getPage(p);
+    const content = await page.getTextContent();
+    let text = "";
+    let lastY: number | null = null;
+    for (const item of content.items) {
+      if (!("str" in item)) continue;
+      // pdf.js doesn't always flag line ends (e.g. before a page footer), so also break
+      // whenever the baseline moves vertically.
+      // Superscripts (e.g. "M²") shift the baseline by less than half a line, so they stay inline.
+      const y = item.transform[5];
+      const threshold = Math.max(2, 0.6 * (item.height || 10));
+      if (lastY !== null && Math.abs(y - lastY) > threshold && !text.endsWith("\n")) text += "\n";
+      text += item.str;
+      if (item.hasEOL) text += "\n";
+      lastY = y;
+    }
+    pages.push(text.replace(/\n[ \t]*(?=\n)/g, "")); // drop blank lines from empty items
   }
-  return execFileSync("osascript", ["-l", "JavaScript", "-e", JXA, resolve(pdfPath)], {
-    encoding: "utf8",
-    maxBuffer: 64 * 1024 * 1024,
-  });
+  await task.destroy();
+  return pages.join("\n");
 }
 
 /** Download a file once into sources/ (git-ignored). Returns the local path. */

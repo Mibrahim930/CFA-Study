@@ -31,7 +31,7 @@ function flattenMath(xml: string): string {
 
 export function cnxmlToText(xml: string): string {
   return decodeEntities(
-    flattenMath(xml)
+    flattenMath(xml.replace(/\r\n?/g, "\n"))
       .replace(/<(?:para|title|item|caption|term|row|entry|equation|note|example|exercise)\b[^>]*>/g, "\n")
       .replace(/<[^>]+>/g, " "),
   )
@@ -47,7 +47,8 @@ export interface CnxmlSection {
 }
 
 /** Split a module's <content> into top-level sections (text before the first section becomes "Overview"). */
-export function splitModule(xml: string): { title: string; sections: CnxmlSection[] } {
+export function splitModule(rawXml: string): { title: string; sections: CnxmlSection[] } {
+  const xml = rawXml.replace(/\r\n?/g, "\n"); // Windows checkouts may have CRLF line endings
   const title = decodeEntities(xml.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? "").trim();
   const content = xml.match(/<content>([\s\S]*)<\/content>/)?.[1] ?? "";
   const sections: CnxmlSection[] = [];
