@@ -12,4 +12,8 @@ export interface SourceChunk {
   /** adapt = open licence (may be adapted with attribution); ground = read privately, never reproduced. */
   reuse: "adapt" | "ground";
   text: string;
+  /** Syllabus topic ids this source serves; retrieval for a topic only searches matching chunks. */
+  topics?: string[];
+  /** Curriculum or publication year, when it matters for currency. */
+  year?: number;
 }

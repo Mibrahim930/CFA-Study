@@ -1,0 +1,467 @@
+{
+  "losId": "quant-04-los1",
+  "losText": "calculate and interpret the present value of fixed-income and equity instruments based on expected future cash flows",
+  "moduleId": "quant-04",
+  "moduleTitle": "The Time Value of Money in Finance",
+  "model": "claude-opus-5-5",
+  "generatedAt": "2026-10-11T01:15:36.664Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00109:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Levered Firm",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 28.75
+    },
+    {
+      "id": "os:principles-finance-2e:m00100:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§16.2 Net Present Value (NPV) Method — Net Present Value (NPV) Calculation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/16-2-net-present-value-npv-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 28.2
+    },
+    {
+      "id": "os:principles-finance-2e:m00050:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§7.4 Applications of TVM in Finance — The Multiple-Period Scenario",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/7-4-applications-of-tvm-in-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 27.83
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Time Value Connection",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 26.74
+    },
+    {
+      "id": "os:principles-finance-2e:m00053:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.2 Annuities — Annuities",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-2-annuities",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 26.37
+    },
+    {
+      "id": "os:principles-finance-2e:m00053:0.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.2 Annuities — Calculating the Present Value of an Annuity",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-2-annuities",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 26.03
+    },
+    {
+      "id": "os:principles-finance-2e:m00058:0.5",
+      "title": "Principles of Finance 2e",
+      "locator": "§9.1 Timing of Cash Flows — Multiple Payments or Receipts of Unequal Value: The Mixed Stream",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/9-1-timing-of-cash-flows",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 25.91
+    },
+    {
+      "id": "os:principles-finance-2e:m00058:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§9.1 Timing of Cash Flows — Timing of Cash Flows",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/9-1-timing-of-cash-flows",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 24.95
+    },
+    {
+      "id": "os:principles-finance-2e:m00050:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§7.4 Applications of TVM in Finance — Single-Period Scenario",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/7-4-applications-of-tvm-in-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 24.76
+    },
+    {
+      "id": "os:principles-finance-2e:m00100:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§16.2 Net Present Value (NPV) Method — Net Present Value (NPV) Calculation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/16-2-net-present-value-npv-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 24.58
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Valuing Bonds and Stocks as the Present Value of Their Future Cash Flows",
+      "summary": "A bond or a share is worth today what its expected future cash flows are worth once each is pulled back to the present at an appropriate discount rate. This idea drives bond pricing and dividend-based stock valuation throughout Level I.",
+      "sections": [
+        {
+          "heading": "1. The core idea: price equals discounted expected cash flows",
+          "body_markdown": "Imagine someone offers to sell you an IOU that pays 1,000 in one year. You would not pay 1,000 today, because money you hold now could earn interest in the meantime. The most you would pay is the amount that would *grow* into 1,000 at the return you could earn elsewhere.\n\n- **Present value (PV):** what a future amount is worth today.\n- **Discount rate ($r$):** the rate used to shrink a future amount back to today. It reflects the return investors require for that level of risk. It is also called the required return or market discount rate.\n- **Discounting:** the reverse of compounding. Compounding moves money forward in time. Discounting moves it back.\n\nFor one cash flow received in $t$ periods:\n$$PV = \\frac{FV}{(1+r)^t}$$\n\nAny financial instrument is just a set of future cash flows. Its value is the **sum** of the PVs of those cash flows. The only differences between a bond and a stock are *which* cash flows you expect, and how certain they are."
+        },
+        {
+          "heading": "2. Fixed-income instruments: zero-coupon and coupon bonds",
+          "body_markdown": "**Face value (par, principal):** the amount the issuer repays at maturity. **Maturity:** the date of that final payment.\n\n**Zero-coupon (discount) bond:** pays only the face value at maturity and nothing before it. Its value is one discounted lump sum: $PV = FV/(1+r)^N$. For example, a 30-year bond paying 1,000 at maturity, discounted at 5%, is worth about 231 today.\n\n**Coupon bond:** pays a fixed interest amount, the **coupon**, every period, and also repays face value at maturity. Its value has two parts:\n1. The PV of the coupon stream. This is an **annuity**, meaning equal payments at regular intervals.\n2. The PV of the face value, a single lump sum at maturity.\n\nThe coupon payment equals (coupon rate × face value) ÷ number of payments per year.\n\n**Periodic rates:** if coupons are paid $m$ times a year, use $r/m$ as the periodic discount rate and $N \\times m$ as the number of periods.\n\n**Price versus par:** a bond trades at a **premium** (above par) when its coupon rate exceeds the market discount rate. It trades at a **discount** (below par) when the coupon rate is below the market rate. It trades **at par** when the two rates are equal.\n\nAn **amortizing bond**, such as a mortgage-style loan, pays level installments that cover both interest and principal. Its value is simply the PV of an annuity."
+        },
+        {
+          "heading": "3. Cash flows that never end: perpetual bonds and preferred stock",
+          "body_markdown": "A **perpetuity** is a level payment that continues forever. Infinitely many payments still have a finite PV, because the far-distant payments are worth almost nothing today. If the first payment arrives one period from now:\n$$PV = \\frac{\\text{payment}}{r}$$\n\n- **Perpetual bond:** pays a fixed coupon forever and never repays principal.\n- **Preferred stock:** an equity share that pays a fixed dividend, usually set as a percentage of par value. Non-callable, non-convertible preferred stock with no maturity is valued as a perpetuity: $V_0 = D/r_p$.\n\nAn analogy is a farm field that yields the same crop every year forever. You value it by dividing the annual harvest by your required return."
+        },
+        {
+          "heading": "4. Common stock: dividends that may grow",
+          "body_markdown": "Common shareholders receive **dividends**, which are distributions of profit. Dividends are not promised. They are *expected*, so the discount rate is usually higher than for bonds.\n\nThe notation is:\n- $D_0$ is the dividend just paid.\n- $D_1$ is next period's dividend.\n- $g$ is the constant growth rate.\n\n**Case 1, constant dividend.** Treat it like preferred stock: $V_0 = D/r$.\n\n**Case 2, constant growth (Gordon growth model).** Dividends grow at $g$ forever:\n$$V_0 = \\frac{D_1}{r-g}, \\quad D_1 = D_0(1+g)$$\nThis requires $r > g$. If $g \\ge r$ the formula breaks down.\n\n**Case 3, multistage growth.** Dividends grow unevenly for $n$ years, then settle at a constant rate $g$. You value it in three steps:\n1. Discount each early dividend individually.\n2. At time $n$, compute the **terminal value** $V_n = D_{n+1}/(r-g)$. This is the Gordon value of all later dividends, measured at time $n$.\n3. Discount $V_n$ back $n$ periods, not $n+1$, and add everything up."
+        },
+        {
+          "heading": "5. Interpreting the result",
+          "body_markdown": "- **Price and discount rate move in opposite directions.** A higher required return shrinks every PV, so the price falls. A lower required return raises the price.\n- Instruments with longer-dated cash flows are more sensitive to a change in $r$. A perpetuity is the extreme case: cutting $r$ from 8% to 6% raises its value by one-third.\n- If your computed value exceeds the market price, the instrument looks cheap at your required return. If it is below the market price, the instrument looks expensive.\n\nWorking backwards (finding the implied return or implied growth from a known price) is a separate skill. It is covered in the next objective."
+        }
+      ],
+      "worked_example": {
+        "problem": "A bond has a face value of 100, a 6% coupon paid annually, and exactly 5 years to maturity. The market discount rate for similar bonds is 5%, compounded annually. Value the bond today, just after a coupon date. Round to two decimals.",
+        "steps": [
+          "1. Identify the cash flows. The annual coupon is 6% × 100 = 6, paid at the end of each of years 1–5. In year 5 the investor also receives the face value of 100.",
+          "2. PV of coupons (an ordinary annuity): 6 × [1 − 1/1.05^5] / 0.05 = 6 × 4.32948 = 25.98.",
+          "3. PV of face value (a lump sum): 100 / 1.05^5 = 100 / 1.27628 = 78.35.",
+          "4. Add the two parts: 25.98 + 78.35 = 104.33.",
+          "5. BA II Plus: [2ND][CLR TVM], then 5 [N], 5 [I/Y], 6 [PMT], 100 [FV], [CPT][PV]. The display shows −104.33. The negative sign just means you pay this amount to buy the bond.",
+          "6. Interpret: the price is above 100 (a premium) because the 6% coupon exceeds the 5% market rate."
+        ],
+        "answer": "The bond is worth about 104.33 per 100 of face value, a premium to par.",
+        "answer_value": 104.33,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":5,\"freq\":1},\"ytm\":0.05}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "PV of a single future cash flow / zero-coupon bond",
+          "latex": "PV = \\frac{FV}{(1+r)^N}",
+          "where": "FV = amount received at maturity; r = discount rate per period; N = number of periods until payment"
+        },
+        {
+          "name": "Coupon bond value",
+          "latex": "PV = \\sum_{i=1}^{N}\\frac{PMT}{(1+r)^i} + \\frac{FV}{(1+r)^N}",
+          "where": "PMT = coupon per period; FV = face value; r = market discount rate per period (annual rate ÷ payments per year); N = total number of coupon periods"
+        },
+        {
+          "name": "Perpetuity (perpetual bond, preferred stock, constant-dividend stock)",
+          "latex": "V_0 = \\frac{D}{r}",
+          "where": "D = level payment per period, first received one period from now; r = required return per period"
+        },
+        {
+          "name": "Gordon (constant) growth model",
+          "latex": "V_0 = \\frac{D_1}{r-g} = \\frac{D_0(1+g)}{r-g}",
+          "where": "D_0 = dividend just paid; D_1 = dividend expected next period; r = required return on equity; g = constant dividend growth rate, with r > g"
+        },
+        {
+          "name": "Multistage dividend model",
+          "latex": "V_0 = \\sum_{t=1}^{n}\\frac{D_t}{(1+r)^t} + \\frac{V_n}{(1+r)^n}, \\quad V_n = \\frac{D_{n+1}}{r-g}",
+          "where": "D_t = dividend in year t during the initial stage; n = last year of the initial stage; V_n = terminal value at time n; g = long-run constant growth rate after year n; r = required return"
+        }
+      ],
+      "exam_traps": [
+        "Plugging the dividend just paid (D_0) into the Gordon model instead of next year's dividend D_1 = D_0(1 + g).",
+        "For semiannual coupons, forgetting to halve both the coupon and the annual discount rate and to double the number of periods.",
+        "In a multistage model, computing the terminal value with D_n instead of D_{n+1}, or discounting the terminal value n + 1 periods instead of n.",
+        "Assuming a bond is worth its face value. Price equals par only when the coupon rate equals the market discount rate.",
+        "On the BA II Plus, entering the coupon and face value with opposite signs, or forgetting to enter FV at all, which values only the coupons."
+      ],
+      "builds_on": [
+        "Present value of a single sum",
+        "Annuities and perpetuities",
+        "Discount rate and required return",
+        "Periodic vs stated annual rates"
+      ],
+      "leads_to": [
+        "Implied return (yield to maturity) and implied growth",
+        "Cash flow additivity and no-arbitrage pricing",
+        "Fixed-income valuation and yield measures",
+        "Dividend discount models in equity valuation"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00050:0",
+        "os:principles-finance-2e:m00050:1",
+        "os:principles-finance-2e:m00062:2",
+        "os:principles-finance-2e:m00058:0.5",
+        "os:principles-finance-2e:m00053:0.3",
+        "os:principles-finance-2e:m00100:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A zero-coupon bond will pay 1,000 at maturity in 8 years and makes no other payments. The market discount rate is 4% per year, compounded annually. What is the bond's value today, to the nearest cent?",
+        "options": [
+          {
+            "text": "759.92",
+            "value": 759.92,
+            "explanation": "Off-by-one error: this discounts for 7 years (1,000/1.04^7) instead of the full 8 years."
+          },
+          {
+            "text": "730.69",
+            "value": 730.69,
+            "explanation": "Correct. PV = 1,000/1.04^8 = 1,000/1.36857 = 730.69. On the BA II Plus: 8 N, 4 I/Y, 0 PMT, 1000 FV, CPT PV."
+          },
+          {
+            "text": "757.58",
+            "value": 757.58,
+            "explanation": "Uses simple interest: 1,000/(1 + 0.04 × 8) = 1,000/1.32. This ignores compounding over the 8 years."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.04,\"n\":8,\"fv\":1000}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00050:1",
+          "os:principles-finance-2e:m00050:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year bond with a face value of 100 pays a 6% annual coupon in two equal semiannual installments. The market discount rate is 8% per year, stated annually with semiannual compounding. The bond is valued on a coupon date. What is its price, to two decimals?",
+        "options": [
+          {
+            "text": "94.76",
+            "value": 94.76,
+            "explanation": "Correct. The coupon is 3 per half-year, the periodic rate is 4% and there are 6 periods. PV = 3 × [1 − 1.04^−6]/0.04 + 100/1.04^6 = 15.73 + 79.03 = 94.76. BA II Plus: 6 N, 4 I/Y, 3 PMT, 100 FV, CPT PV."
+          },
+          {
+            "text": "94.85",
+            "value": 94.85,
+            "explanation": "Treats the bond as paying annually: coupon 6, rate 8%, 3 periods. This ignores the semiannual timing of the cash flows."
+          },
+          {
+            "text": "76.89",
+            "value": 76.89,
+            "explanation": "Uses the semiannual coupon of 3 and 6 periods but discounts at the full 8% per half-year instead of 4%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":3,\"freq\":2},\"ytm\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A non-callable, perpetual preferred share has a par value of 100 and pays an annual dividend equal to 6% of par. The first dividend is due one year from today. Investors require a 7.5% annual return on this share. What is its value today, to two decimals?",
+        "options": [
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Discounts the 6 dividend at the 6% dividend rate (6/0.06) instead of the 7.5% required return. In effect it assumes the share is worth par."
+          },
+          {
+            "text": "86.00",
+            "value": 86,
+            "explanation": "Treats the first dividend as received today: 6 + 6/0.075. This counts an extra undiscounted payment."
+          },
+          {
+            "text": "80.00",
+            "value": 80,
+            "explanation": "Correct. The dividend is 6% × 100 = 6. As a perpetuity, V = 6/0.075 = 80.00."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":6,\"r\":0.075,\"g\":0}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company just paid an annual dividend of 2.00 per share. Dividends are expected to grow at 4% per year forever. The required return on equity is 9%. Using the constant-growth dividend model, what is the share's value today, to two decimals?",
+        "options": [
+          {
+            "text": "40.00",
+            "value": 40,
+            "explanation": "Uses the dividend just paid (2.00) in the numerator instead of next year's dividend: 2.00/(0.09 − 0.04)."
+          },
+          {
+            "text": "41.60",
+            "value": 41.6,
+            "explanation": "Correct. D1 = 2.00 × 1.04 = 2.08, so V0 = 2.08/(0.09 − 0.04) = 41.60."
+          },
+          {
+            "text": "22.22",
+            "value": 22.22,
+            "explanation": "Ignores growth and treats the dividend as a level perpetuity: 2.00/0.09."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.08,\"r\":0.09,\"g\":0.04}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fixed-rate bond pays a 5% annual coupon. The market discount rate for bonds of the same risk and maturity is 6%. Compared with its face value, the bond's price will most likely be:",
+        "options": [
+          {
+            "text": "above par.",
+            "value": null,
+            "explanation": "Reverses the relationship. A premium arises only when the coupon rate exceeds the market discount rate."
+          },
+          {
+            "text": "equal to par.",
+            "value": null,
+            "explanation": "Price equals par only when the coupon rate equals the market discount rate, which is not the case here."
+          },
+          {
+            "text": "below par.",
+            "value": null,
+            "explanation": "Correct. The coupons are smaller than what the market demands, so investors pay less than face value. The lower price makes up the shortfall."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst values a common share as next year's dividend divided by the difference between the required return and a constant dividend growth rate. Which condition must hold for this model to give a meaningful value?",
+        "options": [
+          {
+            "text": "The required return must exceed the growth rate, with growth continuing at that rate indefinitely.",
+            "value": null,
+            "explanation": "Correct. If r ≤ g the denominator is zero or negative, and the model gives an infinite or negative value that has no economic meaning."
+          },
+          {
+            "text": "The growth rate must exceed the required return.",
+            "value": null,
+            "explanation": "Reverses the condition. With g > r the denominator turns negative, which is meaningless."
+          },
+          {
+            "text": "The dividend must stay constant every year.",
+            "value": null,
+            "explanation": "Confuses the growth model with the no-growth perpetuity (V = D/r). Constant dividends are just the special case g = 0, not a requirement."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock is expected to pay dividends of 1.00 at the end of Year 1 and 1.20 at the end of Year 2. From then on, dividends are expected to grow at 5% per year forever. The required return is 10% per year. All cash flows occur at year-end. What is the share's value today, to two decimals?",
+        "options": [
+          {
+            "text": "21.74",
+            "value": 21.74,
+            "explanation": "Computes the Year 2 terminal value with the Year 2 dividend (1.20/0.05 = 24.00) instead of the Year 3 dividend 1.26. This understates the value."
+          },
+          {
+            "text": "27.10",
+            "value": 27.1,
+            "explanation": "Discounts the two dividends correctly but adds the terminal value of 25.20 without discounting it back from Year 2."
+          },
+          {
+            "text": "22.73",
+            "value": 22.73,
+            "explanation": "Correct. D3 = 1.20 × 1.05 = 1.26, so V2 = 1.26/(0.10 − 0.05) = 25.20. V0 = 1.00/1.10 + (1.20 + 25.20)/1.10^2 = 0.91 + 21.82 = 22.73. BA II Plus CF worksheet: CF0 = 0, C01 = 1, C02 = 26.4, NPV with I = 10."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.1,\"cashflows\":[0,1.0,26.4]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00100:0.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A non-callable perpetual preferred share pays a fixed annual dividend. If the required return on the share falls from 8% to 6%, its value will:",
+        "options": [
+          {
+            "text": "fall, because a lower required return means lower dividends.",
+            "value": null,
+            "explanation": "Confuses the discount rate with the cash flow. The dividend is fixed, and a lower discount rate raises the PV."
+          },
+          {
+            "text": "rise by about 33.3%.",
+            "value": null,
+            "explanation": "Correct. The value is D/r, so the new value divided by the old value equals 0.08/0.06 = 1.333, an increase of one-third."
+          },
+          {
+            "text": "rise by 25%.",
+            "value": null,
+            "explanation": "Measures the change in the rate rather than the change in value: (8 − 6)/8 = 25%. Value is inversely proportional to r, so it rises by 0.08/0.06 − 1."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do you value a fixed-rate coupon bond?",
+        "back": "Add the PV of the coupon annuity to the PV of the face value at maturity, both discounted at the market discount rate per period.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:2"
+        ]
+      },
+      {
+        "front": "What is the formula for the constant-growth (Gordon) model, and which dividend goes in the numerator?",
+        "back": "V0 = D1/(r − g). Use next period's dividend, D1 = D0(1 + g), and the model requires r > g.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How is non-callable perpetual preferred stock valued?",
+        "back": "As a perpetuity: V0 = annual dividend ÷ required return.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "In a two-stage dividend model, which dividend sets the terminal value at year n, and how far is it discounted?",
+        "back": "Use D(n+1)/(r − g) to get the value at time n, then discount it back n periods.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Coupon rate 7%, market discount rate 5%: premium, discount, or par?",
+        "back": "Premium. The price is above par whenever the coupon rate exceeds the market discount rate.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-11T01:15:36.664Z",
+      "purpose": "generate",
+      "losId": "quant-04-los1",
+      "requestedModel": "claude-opus-5-5",
+      "servedModel": "claude-opus-5-5",
+      "inputTokens": 7270,
+      "outputTokens": 11911,
+      "cacheWriteTokens": 5647,
+      "cacheReadTokens": 0,
+      "costUsd": 0.295535,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ Repo: https://github.com/Mibrahim930/CFA-Study (PRIVATE, keep it that way). Loca
    - Open-licence and public-domain sources (OpenStax CC BY-NC-SA, MIT OCW, SEC, Fed) may be adapted with attribution.
    - "All rights reserved" sources (CFA docs/Handbook, CFA Research Foundation, EY/RSM, MIT problem-set PDFs) are **private grounding only**: Claude writes original wording, and a copy guard enforces it.
 5. **No AI arithmetic is trusted.** Every calculation question carries a `calc_spec` that `lib/finance/registry.ts` recomputes. The item is rejected if it's off by more than 0.5%.
-6. **Model defaults.** Use `claude-opus-5-5` (per the claude-api skill) with `fallbacks: "default"` and beta `server-side-fallback-2026-07-01` on non-batch calls. Note that fallbacks are rejected on the Batches API.
+6. **Model defaults.** The content pipeline uses **`claude-sonnet-5-5`**; the user chose it on 2026-10-10 after the 1-LOS Opus pilot cost $0.41. Opus remains available per run via `--model claude-opus-5-5`. Calls use `fallbacks: "default"` with beta `server-side-fallback-2026-07-01` on non-batch calls (Sonnet 5.5 accepts only the `"default"` form). Note that fallbacks are rejected on the Batches API.
 7. Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
 ## Cross-platform status (verified 2026-10-11)
@@ -103,8 +103,25 @@ npm test                   # vitest
 npm run typecheck && npm run lint
 npm run ingest:outline     # re-parse the official outline (any OS; pdf.js)
 npm run ingest:openstax    # rebuild sources/corpus/openstax.jsonl
+npm run ingest:sources     # 19 free PDFs (Handbook, RF primers, Fed/OCC) → sources/corpus/<id>.jsonl
+npm run gen -- --los quant-04-los1      # generate one LOS (Sonnet by default)
+npm run verify -- --los quant-04-los1   # gates + badges → <losId>.verified.json
 ```
 
+## Progress on 2026-10-10 (Windows session; uncommitted unless a later commit says otherwise)
+- M2 pipeline built: `content-pipeline/{generate,verify}.ts` and `lib/{claude,context,gates,schema}.ts`, with gate tests.
+  - The 1-LOS pilot (quant-04-los1) cost $0.41 on Opus and $0.18 on Sonnet. Both produced 0 quarantined items.
+  - The pilot found and fixed a calc-gate flaw: the key must be the option closest to the engine value.
+  - The user chose Sonnet. The other 29 Quant LOS still need the user's go-ahead.
+- Corpus expanded via `ingest-sources.ts`. Retrieval is now filtered per topic (`servesTopic`), and the corpus holds 7,688 chunks, adding:
+  - Ethics: the Standards Handbook;
+  - Alternatives: the RF primers;
+  - Derivatives and Fixed Income: the Fed manual, OCC handbooks and ARRC SOFR guide;
+  - FSA quality: the RF earnings-quality book and the CFA non-GAAP paper;
+  - Portfolio: the IPS papers and Statman.
+  - Still missing: Lyryx Vol 2 (its PDF link is dead), MIT 15.401, and HTML sources (Chicago Fed, CFTC).
+- `/resources` page and per-topic "Practise elsewhere" lists (`lib/resources.ts`), with a localStorage trial tracker. All of these are link-out only and are never ingested.
+
 ## Open questions for the user
-- Opus 5.5 vs Sonnet 5.5 for bulk generation. The skill defaults to Opus; Sonnet halves the cost, but that's the user's call. Decide after the 1-LOS cost measurement.
+- ~~Opus vs Sonnet~~: Sonnet chosen (2026-10-10).
 - The user should open the blocked-site URLs listed in research §2.7 manually (rating agencies, OCC options disclosure document, CME, Fannie Mae) if they want those sources.

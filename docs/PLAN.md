@@ -48,7 +48,7 @@ No single source is trusted on its own. Reliability comes from layering sources 
 4. **Multi-check:** schema lint → calc engine → blind solve by a second model → grounding critic → copy guard.
 5. **External calibration.** The app's question style is tuned on CFA's 30 free sample Qs. App scores are compared with free mocks and trials (UWorld, Kinnu): if the app scores far higher than outside questions, the app is too easy.
 6. **Human in the loop.** Pilot gate on Quant, a report button that quarantines instantly, and periodic review of flagged items in Claude Code sessions.
-7. **2027 currency.** The rewritten Quant, Equities and Ethics modules get the strictest checks. Older sources are labeled with their curriculum year.
+7. **Curriculum year.** The user decided on 2026-10-10 that 2026-curriculum sources are acceptable until they register; after that we reconcile against the official 2027 materials they receive. Sources are still labeled with their curriculum year, and 2026 Quant material is mapped carefully because 2027 rewrote Quant.
 8. **Final safety net:** the official curriculum and mocks after registration ("reconcile" mode).
 
 **Usage rule for sources:** open-licensed and public-domain sources (OpenStax, MIT, Yale, SEC, Fed) may be adapted with

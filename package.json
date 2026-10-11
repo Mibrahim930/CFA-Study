@@ -10,7 +10,10 @@
     "test": "vitest run",
     "ingest:outline": "tsx content-pipeline/ingest-outline.ts",
     "typecheck": "next typegen && tsc --noEmit",
-    "ingest:openstax": "tsx content-pipeline/ingest-openstax.ts"
+    "ingest:openstax": "tsx content-pipeline/ingest-openstax.ts",
+    "gen": "tsx content-pipeline/generate.ts",
+    "verify": "tsx content-pipeline/verify.ts",
+    "ingest:sources": "tsx content-pipeline/ingest-sources.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",

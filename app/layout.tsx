@@ -38,6 +38,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="text-muted hover:text-foreground">
               Syllabus
             </Link>
+            <Link href="/resources" className="text-muted hover:text-foreground">
+              Free resources
+            </Link>
           </nav>
         </header>
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">{children}</main>

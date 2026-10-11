@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DoneMark, ProgressBar } from "@/components/progress";
+import { ResourceCard } from "@/components/resource-card";
+import { resourcesForTopic } from "@/lib/resources";
 import { getTopic, syllabus } from "@/lib/syllabus";
 
 export function generateStaticParams() {
@@ -56,6 +58,19 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
           </li>
         ))}
       </ol>
+      <section className="space-y-3">
+        <div className="flex items-baseline justify-between gap-3">
+          <h2 className="text-lg font-medium">Practise elsewhere</h2>
+          <Link href="/resources" className="text-sm text-muted hover:text-foreground">
+            All free resources →
+          </Link>
+        </div>
+        <ul className="grid gap-3 md:grid-cols-2">
+          {resourcesForTopic(topic.id).map((r) => (
+            <ResourceCard key={r.id} r={r} />
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }

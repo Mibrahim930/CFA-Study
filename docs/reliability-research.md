@@ -548,3 +548,44 @@ About sec.gov:
 4. **Hedge funds and real estate:** Fed Financial Stability Report sections (public domain); SEC Form PF statistics; Nareit/NCREIF primers (licence check).
 5. **Verify sec.gov facts** for S61, S65 and S66 once a compliant access method is approved, or have the user open them.
 6. **Re-check OECD Factbook and Ginnie Mae licences** via the user.
+
+## Past-curriculum transfer map (2026-10-10)
+Context: the user decided that 2026-curriculum material is acceptable until they register (see PLAN.md §2.0 item 7). This section records which past-year resources transfer to the 2027 syllabus. It was produced by an Opus research subagent; the parent session re-checked the key claim independently.
+
+### Verified by the parent session
+Text was extracted with our own pdf.js reader from the official **2026 L1 topic outline** (`cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l1-topics-combined.pdf`, marked "For candidate use only"). Each 2027 LOS in `content/syllabus-2027.json` was then checked for a verbatim match:
+
+| Topic | 2027 LOS found verbatim in 2026 | Transfer |
+|---|---|---|
+| Economics, Corporate Issuers, FSA, Fixed Income, Derivatives, Alternatives, Portfolio Mgmt | 240/240 | **Clean.** 2026-labelled videos, notes and question banks map module-for-module. |
+| Ethics | 31/33 (only the two general "Code and Standards" LOS differ) | Near-clean. 2025+ material uses the current Standards. |
+| Quant | 1/30 | **Rewritten for 2027.** Remap 2026 material topic by topic. |
+| Equity | 4/37 | **Rewritten for 2027.** Market organization and market efficiency were removed; jurisdictions, forecasting, FCFF/RI and PESTLE were added. |
+
+### Reported by the subagent (primary pages read; not re-checked by the parent)
+- **Weights.** The 2024–2026 weights were the same. 2027 changed Ethics (15–20 → 10–15), Quant (6–9 → 11–14), Derivatives (5–8 → 6–9) and Alternatives (7–10 → 6–9).
+- **Ethics.** The 2025 curriculum added the 2023 revisions to the Code and Standards (effective 1 Jan 2024: new I(E) Competence, revised V(B), VI(A) renamed). **2024-and-earlier Ethics material does not transfer.** GIPS was removed from L1 in 2027.
+- **Corporate Issuers, Fixed Income, Alternatives.** These were rewritten in 2024, so pre-2024 material for them does not transfer.
+- **Free resources worth considering.** These are use-on-their-site only (mode c); none may be ingested or used for AI training:
+  - FreeFellow free L1 QBank (2026; its terms prohibit AI training);
+  - IFT 1-year free trial;
+  - FinQuiz free Quant questions;
+  - AnalystPrep free web notes;
+  - the CFA Institute Ethics Learning Lab (free; needs a CFA Institute account).
+- **Grounding candidates** (private grounding only, mode b):
+  - the 2026 outline;
+  - the 2025 Curriculum Changes Guidebook;
+  - the 2023 Standards-revision summary.
+- **Open textbook.** Lyryx *Introduction to Financial Accounting* (2024, IFRS). It is catalogued CC BY-NC-SA; confirm on the book's own copyright page before adapting.
+- **Avoid:**
+  - redistributed curriculum PDFs, mocks or refresher readings;
+  - unlicensed Anki or GitHub decks;
+  - pre-2024 video series for Corporate Issuers, Fixed Income and Alternatives;
+  - 2024 Ethics material;
+  - the 300Hours claim that the 2027 weights are unchanged (it is wrong).
+- **Could not reach** (for the user to open):
+  - prepnuggets.com/2027-cfa-level-i-updates/;
+  - the CFA prep-provider directory;
+  - the 2024 and 2025 L1 outlines (404 live);
+  - the 2024 Member Guide;
+  - finquiz.com/terms/.

@@ -9,6 +9,11 @@ const STANDARD_FONTS =
   join(dirname(createRequire(import.meta.url).resolve("pdfjs-dist/package.json")), "standard_fonts").replace(/\\/g, "/") + "/";
 
 export async function extractPdfText(pdfPath: string): Promise<string> {
+  return (await extractPdfPages(pdfPath)).join("\n");
+}
+
+/** One string per PDF page (index 0 = page 1). */
+export async function extractPdfPages(pdfPath: string): Promise<string[]> {
   const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
   const data = new Uint8Array(readFileSync(resolve(pdfPath)));
   const task = pdfjs.getDocument({ data, useSystemFonts: false, standardFontDataUrl: STANDARD_FONTS });
@@ -34,7 +39,7 @@ export async function extractPdfText(pdfPath: string): Promise<string> {
     pages.push(text.replace(/\n[ \t]*(?=\n)/g, "")); // drop blank lines from empty items
   }
   await task.destroy();
-  return pages.join("\n");
+  return pages;
 }
 
 /** Download a file once into sources/ (git-ignored). Returns the local path. */
