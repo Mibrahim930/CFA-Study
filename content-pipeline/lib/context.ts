@@ -107,6 +107,28 @@ const SYNONYMS: [RegExp, string][] = [
 
 export const expandQuery = (q: string) => [q, ...SYNONYMS.filter(([re]) => re.test(q)).map(([, s]) => s)].join(" ");
 
+let hints: Map<string, string[]> | undefined;
+/**
+ * Gap-directed queries: every coverage audit (content/coverage/coverage*.json) lists what the library
+ * lacked for each LOS. Those phrases are exactly the textbook vocabulary the LOS needs, so they are
+ * searched too, which pulls in sources added after the audit even when the LOS wording ranks them low.
+ */
+export function auditHints(losId: string): string[] {
+  if (!hints) {
+    hints = new Map();
+    const dir = join("content", "coverage");
+    const files = existsSync(dir) ? readdirSync(dir).filter((f) => /^coverage.*\.json$/.test(f)) : [];
+    for (const f of files) {
+      const results = JSON.parse(readFileSync(join(dir, f), "utf8")) as Record<string, { missing?: string[] }>;
+      for (const [id, r] of Object.entries(results)) {
+        const set = new Set([...(hints.get(id) ?? []), ...(r.missing ?? [])]);
+        hints.set(id, [...set]);
+      }
+    }
+  }
+  return hints.get(losId) ?? [];
+}
+
 /**
  * Passages per LOS. Generation and the coverage audit share it, so the audit grades exactly what the
  * generator sees. Raised from 10 (generate) / 6 (audit) after the first audit flagged search misses.
@@ -124,7 +146,7 @@ export function retrieve(ctx: LosContext, k = RETRIEVE_K): { chunk: SourceChunk;
     index = new Bm25Index(loadCorpus().filter((c) => servesTopic(c, ctx.topic.id)));
     indexes.set(ctx.topic.id, index);
   }
-  const queries = [`${ctx.module.title} ${ctx.los.text}`, ...losFacets(ctx.los.text)].map(expandQuery);
+  const queries = [`${ctx.module.title} ${ctx.los.text}`, ...losFacets(ctx.los.text), ...auditHints(ctx.los.id)].map(expandQuery);
   const fused = new Map<string, { chunk: SourceChunk; score: number }>();
   for (const q of queries) {
     index.search(q, k).forEach(({ chunk }, rank) => {

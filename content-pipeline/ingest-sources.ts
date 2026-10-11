@@ -63,7 +63,7 @@ export const SOURCES: SourceDef[] = [
   { id: "cfa-ethical-framework", title: "CFA Institute Ethical Decision-Making Framework", year: 2020, source: "cfa-handbook", tier: "T1", license: CFA, reuse: "ground", topics: ["ethics"],
     url: "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/ethics/ethical-framework-guide.pdf" },
   // Alternatives
-  { id: "cfa-rf-alt-primer", title: "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)", year: 2018, source: "cfa-rf", tier: "T1", license: CFA, reuse: "ground", topics: ["alternatives"],
+  { id: "cfa-rf-alt-primer", title: "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)", year: 2018, source: "cfa-rf", tier: "T1", license: CFA, reuse: "ground", topics: ["alternatives", "portfolio"],
     url: "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf" },
   { id: "cfa-rf-alt-credit", title: "An Introduction to Alternative Credit (CFA Institute Research Foundation)", year: 2024, source: "cfa-rf", tier: "T1", license: CFA, reuse: "ground", topics: ["alternatives", "fixed-income"],
     url: "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf" },
@@ -322,6 +322,102 @@ export const SOURCES: SourceDef[] = [
   { id: "cfa-code-ethics-page", kind: "html", title: "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)", year: 2026, source: "cfa-handbook", tier: "T1",
     license: CFA, reuse: "ground", topics: ["ethics"],
     url: "https://www.cfainstitute.org/standards/professionals/code-ethics-standards", urls: ["https://www.cfainstitute.org/standards/professionals/code-ethics-standards"] },
+
+  // ---- Final gap pass (2026-10-11): sources for the last 41 uncovered LOS. Licences were read from each file or page. ----
+  // Quant / portfolio
+  { id: "fed-feds-2001-27-historical-simulation", title: "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)", year: 2001, source: "gov", tier: "T1", license: FEDPD, reuse: "adapt", topics: ["quant", "portfolio"],
+    url: "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf" },
+  { id: "gips-2020-firms", title: "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)", year: 2020, source: "cfa-rf", tier: "T1", license: "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)", reuse: "ground", topics: ["quant", "portfolio"],
+    url: "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf" },
+  { id: "russell-us-indexes-methodology", title: "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)", year: 2026, source: "other", tier: "T2", license: "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)", reuse: "ground", topics: ["quant", "equity"],
+    url: "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf" },
+  { id: "nasdaq-100-methodology", title: "Nasdaq-100 Index Methodology (Nasdaq, Inc.)", year: 2026, source: "other", tier: "T2", license: "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)", reuse: "ground", topics: ["quant", "equity"],
+    url: "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf" },
+  { id: "occ-risk-mgmt-derivatives", title: "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)", year: 1997, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["derivatives", "portfolio", "quant"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf" },
+  // Dropped 2026-10-11: "cfa-pm-process-ips" (CFA refresher reading rr-2018-l2v6r47.pdf). The file is headed
+  // "Member use only", so it stays out even though the URL is reachable without a login.
+  // Economics
+  { id: "treasury-sanctions-review-2021", title: "The Treasury 2021 Sanctions Review (U.S. Department of the Treasury)", year: 2021, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["econ"],
+    url: "https://home.treasury.gov/system/files/136/Treasury-2021-sanctions-review.pdf" },
+  { id: "ecb-wp1415-capital-controls", title: "Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012)", year: 2012, source: "other", tier: "T1", license: "© European Central Bank 2012; all rights reserved, free to download (private grounding only)", reuse: "ground", topics: ["econ"],
+    url: "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1415.pdf" },
+  { id: "conference-board-lei-notes", title: "U.S. Leading Economic Index technical notes, Dec. 2025 (The Conference Board)", year: 2025, source: "other", tier: "T2", license: "© The Conference Board; free-to-read press PDF, all rights reserved (private grounding only)", reuse: "ground", topics: ["econ"],
+    url: "https://www.conference-board.org/pdf_free/press/US%20LEI%20Technical%20Notes%20Dec%202025.pdf" },
+  { id: "bea-business-cycle-indicators-2010", title: "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)", year: 2010, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["econ"],
+    url: "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf" },
+  { id: "census-new-residential-construction-flyer", title: "New Residential Construction: Measuring the U.S. Economy (U.S. Census Bureau flyer)", year: 2025, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["econ"],
+    url: "https://www.census.gov/content/dam/Census/topics/business-and-economy/flyers/nrc-flyer.pdf" },
+  // Corporate issuers: LibreTexts capital budgeting (licence from each page's footer link) and Flat World business books
+  { id: "libretexts-nwtc-capital-budgeting", kind: "html", title: "Capital Budgeting Concepts and Process (Business Finance Budgeting, NWTC; Business LibreTexts)", year: 2025, source: "other", tier: "T2",
+    license: "CC BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0 linked in the page footer)", reuse: "adapt", topics: ["corpfin"],
+    url: "https://biz.libretexts.org/Courses/Northeast_Wisconsin_Technical_College/Business_Finance_Budgeting_(NWTC)/04:_Capital_Budgeting/4.02:_Capital_Budgeting_Concepts_and_Process",
+    urls: ["https://biz.libretexts.org/Courses/Northeast_Wisconsin_Technical_College/Business_Finance_Budgeting_(NWTC)/04:_Capital_Budgeting/4.02:_Capital_Budgeting_Concepts_and_Process"] },
+  { id: "libretexts-aurora-capital-budgeting", kind: "html", title: "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)", year: 2024, source: "other", tier: "T2",
+    license: "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)", reuse: "adapt", topics: ["corpfin"],
+    url: "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.05:_Capital_Rationing_and_Mutually_Exclusive_Project",
+    urls: [
+      "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.05:_Capital_Rationing_and_Mutually_Exclusive_Project",
+      "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.06:_Real_Options_in_Capital_Budgeting_Overview",
+    ] },
+  ...(
+    [
+      ["creating-services-and-products", "Creating Services and Products", ["corpfin", "equity"]],
+      ["entrepreneurship-and-sustainability", "Entrepreneurship and Sustainability", ["corpfin"]],
+      ["business-accounting", "Business Accounting", ["fsa"]],
+    ] as [string, string, string[]][]
+  ).map(([slug, t, topics]): SourceDef => ({
+    id: `flatworld-${slug}`, title: `${t} (Flat World Knowledge / Saylor Foundation archive)`, year: 2012, source: "other", tier: "T2",
+    license: "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")", reuse: "adapt", topics,
+    url: `https://2012books.lardbucket.org/pdfs/${slug}.pdf`,
+  })),
+  // FSA: bank profitability ratios
+  { id: "occ-earnings-handbook", title: "Comptroller's Handbook: Safety and Soundness, Earnings (OCC)", year: 2020, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fsa"],
+    url: "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/earnings/pub-ch-earnings.pdf" },
+  // Equity: float, volume, repurchases, splits, research
+  { id: "cfr-17-240-12b-2", title: "17 CFR 240.12b-2 Definitions, including public float and affiliate (U.S. GPO / govinfo, CFR 2023)", year: 2023, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["equity"],
+    url: "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-12b-2.pdf" },
+  { id: "cfr-17-240-10b-18", title: "17 CFR 240.10b-18 Purchases of certain equity securities by the issuer (issuer repurchases; ADTV volume limit) (U.S. GPO / govinfo, CFR 2023)", year: 2023, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["equity"],
+    url: "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-10b-18.pdf" },
+  { id: "finra-splits-and-research", kind: "html", title: "Stock splits, reverse stock splits and research analyst rules (FINRA)", year: 2026, source: "other", tier: "T1",
+    license: "© FINRA; free to read on finra.org, all rights reserved (private grounding only)", reuse: "ground", topics: ["equity"],
+    url: "https://www.finra.org/investors/investing/investment-products/stocks/stock-splits",
+    urls: [
+      "https://www.finra.org/investors/investing/investment-products/stocks/stock-splits",
+      "https://syndication.finra.org/content/you-asked-we-answered-whats-reverse-stock-split",
+      "https://www.finra.org/rules-guidance/key-topics/research-analyst-rules",
+      "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+    ] },
+  // Fixed income
+  { id: "treasurydirect-pricing", kind: "html", title: "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)", year: 2026, source: "gov", tier: "T1",
+    license: "Public domain (U.S. federal government work, 17 U.S.C. 105)", reuse: "adapt", topics: ["fixed-income"],
+    url: "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+    urls: [
+      "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "https://www.treasurydirect.gov/help-center/glossary/glossary-for-marketable-securities/",
+      "https://www.treasurydirect.gov/research-center/history-of-marketable-securities/bills/t-bills-indepth/",
+    ] },
+  { id: "treasury-tfx-yield-appendix", title: "Appendix 1: Purchase prices and yields on investments (Treasury Financial Manual, Bureau of the Fiscal Service)", year: 2024, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income"],
+    url: "https://tfx.treasury.gov/sites/default/files/2024-03/Appendix-1-2-4300.pdf" },
+  { id: "ftse-fixed-income-indices-guide", title: "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)", year: 2026, source: "other", tier: "T2", license: "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)", reuse: "ground", topics: ["fixed-income"],
+    url: "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf" },
+  { id: "nyfed-sr674-mortgage-spreads", title: "Understanding Mortgage Spreads (FRBNY Staff Report 674, option-adjusted spread)", year: 2014, source: "gov", tier: "T1", license: "Federal Reserve Bank of New York staff report; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved", reuse: "ground", topics: ["fixed-income"],
+    url: "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr674.pdf" },
+  { id: "fed-cmbs-cohen-2011", title: "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)", year: 2011, source: "gov", tier: "T2", license: "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)", reuse: "ground", topics: ["fixed-income"],
+    url: "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf" },
+  { id: "fed-feds-note-ebp", kind: "html", title: "Updating the Recession Risk and the Excess Bond Premium (FEDS Notes, Federal Reserve Board)", year: 2016, source: "gov", tier: "T1", license: FEDPD, reuse: "adapt", topics: ["fixed-income"],
+    url: "https://www.federalreserve.gov/econres/notes/feds-notes/updating-the-recession-risk-and-the-excess-bond-premium-20161006.html",
+    urls: ["https://www.federalreserve.gov/econres/notes/feds-notes/updating-the-recession-risk-and-the-excess-bond-premium-20161006.html"] },
+  // Derivatives: risk-neutral valuation (MIT OCW, CC BY-NC-SA 4.0 per each course page)
+  { id: "mit-ocw-18s096-risk-neutral", title: "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)", year: 2013, source: "mit-ocw", tier: "T2",
+    license: "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)", reuse: "adapt", topics: ["derivatives"],
+    url: "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf" },
+  { id: "mit-ocw-18366-lec12", title: "MIT OpenCourseWare 18.366 (Fall 2006), Lecture 12: Black-Scholes-Merton, dynamic hedging and risk-neutral valuation", year: 2006, source: "mit-ocw", tier: "T2",
+    license: "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)", reuse: "adapt", topics: ["derivatives"],
+    url: "https://ocw.mit.edu/courses/18-366-random-walks-and-diffusion-fall-2006/837a728eb6a6bfa3ac5b91bb9b044e30_lec12.pdf" },
+  // Alternatives: digital assets
+  { id: "fsoc-digital-assets-2022", title: "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)", year: 2022, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["alternatives", "portfolio"],
+    url: "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf" },
 ];
 
 const toChunks = (def: SourceDef, parts: { text: string; locator: string; url: string }[]): SourceChunk[] =>

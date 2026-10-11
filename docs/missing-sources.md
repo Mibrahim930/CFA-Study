@@ -89,3 +89,62 @@ Targets: the 79 LOS the coverage audit marked "none". A corpus grep first showed
 
 ### Verified vs assumed
 Verified directly: HTTP status and content type before ingest; licence wording in the Flat World front matter; MSCI, MPRA and OCC document dates from the first chunk; the "capital allocation line", "cross rate", "bank discount", "historical simulation" strings appear in the new chunks. Assumed: public-domain status of the Fed, OCC, OFR, Treasury, NIST and Census items (US federal works); MIT OCW 15.433 licence as stated on the course page (I confirmed by-nc-sa/4.0 appears in the page, not on each PDF).
+
+## Final gap pass (2026-10-11)
+Targets: the last 41 LOS that the coverage audit still marked "none". Step 1 was a corpus grep (plus a probe of the real `retrieve()` ranking) for each `missing` item. Step 2 added sources only where the material was absent. All new sources were ingested with `npm run ingest:sources -- --only <id>` and a chunk was spot-checked for readable text. Licences were read from the file or page itself. Outcome counts: **30 new source** (some only partly cover the LOS, marked "partial"), **7 retrieval miss**, **4 still missing**. A new source can still rank badly: the ranks are noted for the search fix.
+
+New sources (chunks): `fed-feds-2001-27-historical-simulation` (50; Fed Board, public domain, ADAPT), `gips-2020-firms` (161; "© 2019 CFA Institute. All rights reserved", GROUND), `russell-us-indexes-methodology` (54; © LSEG 2026, GROUND), `nasdaq-100-methodology` (14; © Nasdaq 2026, GROUND), `occ-risk-mgmt-derivatives` (181; OCC, public domain, ADAPT), `cfa-pm-process-ips` (43; "© 2006 CFA Institute"; the file carries a "Member use only" header but is served with no login at a public `refresher-readings-free` URL, GROUND; **the user may want to drop it**), `treasury-sanctions-review-2021` (10; ADAPT), `ecb-wp1415-capital-controls` (47; © ECB 2012, GROUND), `conference-board-lei-notes` (8; GROUND), `bea-business-cycle-indicators-2010` (11; ADAPT), `census-new-residential-construction-flyer` (3; ADAPT), `libretexts-nwtc-capital-budgeting` (5; CC BY-NC 4.0 from the page footer link, ADAPT), `libretexts-aurora-capital-budgeting` (9; CC BY 4.0, ADAPT), `flatworld-creating-services-and-products` (302), `flatworld-entrepreneurship-and-sustainability` (624), `flatworld-business-accounting` (958) (all three CC BY-NC-SA 3.0 from the front matter, ADAPT), `occ-earnings-handbook` (46; ADAPT), `cfr-17-240-12b-2` (19) and `cfr-17-240-10b-18` (9) (GPO/govinfo, ADAPT), `finra-splits-and-research` (27, HTML; © FINRA, GROUND), `treasurydirect-pricing` (14, HTML; ADAPT), `treasury-tfx-yield-appendix` (5; ADAPT), `ftse-fixed-income-indices-guide` (158; © LSEG 2026, GROUND), `nyfed-sr674-mortgage-spreads` (83; GROUND), `fed-cmbs-cohen-2011` (42; author copyright, GROUND), `fed-feds-note-ebp` (3, HTML; ADAPT), `mit-ocw-18s096-risk-neutral` (6) and `mit-ocw-18366-lec12` (4) (CC BY-NC-SA 4.0 on both course pages, ADAPT), `fsoc-digital-assets-2022` (159; ADAPT).
+
+| LOS | Outcome | Source ids / chunk ids |
+|---|---|---|
+| quant-02-los1 | new source (partial) | `gips-2020-firms` (rank 12). The HPR, arithmetic and geometric mean and EAR text is already in OpenStax and is a retrieval miss: `os:principles-finance-2e:m00078:0`, `:m00078:3`, `:m00093:0.1`, `:m00093:0.2`. Leveraged return and continuous compounding are still thin |
+| quant-03-los1 | new source | `gips-2020-firms` (time-weighted and money-weighted definitions; fills all 12 retrieved slots) |
+| quant-03-los2 | new source (partial) | `russell-us-indexes-methodology`, `nasdaq-100-methodology` (float cap weighting, rebalancing, reconstitution). Price-weighted and equal-weighted construction is still thin |
+| quant-06-los4 | retrieval miss | `os:principles-data-science:m00024:2`, `:m00024:2.4`, `:m00024:2.5`, `os:principles-data-science:m00041:2.1`, `:m00041:2.2` (Bayes' theorem with worked examples) |
+| quant-09-los1 | new source | `fed-feds-2001-27-historical-simulation` (historical simulation, 124 mentions); `occ-risk-mgmt-derivatives` |
+| econ-02-los3 | new source | `bea-business-cycle-indicators-2010`, `conference-board-lei-notes`, `census-new-residential-construction-flyer` (indicators ranked 20 to 30) |
+| econ-03-los2 | retrieval miss | `os:principles-economics-3e:m63969:0.1`, `:m64114:0` (Ricardian equivalence), `:m64137:1`, `:m64137:1.1`, `:m63975:1` (crowding out), `flatworld-policy-and-theory-of-international-economics:790:708` |
+| econ-05-los5 | new source | `treasury-sanctions-review-2021` (sanctions as a tool; rank 30). Export controls, cyber and military tools are thin |
+| econ-07-los3 | new source | `ecb-wp1415-capital-controls` (9 of the top 12) |
+| corpfin-05-los1 | new source | `libretexts-nwtc-capital-budgeting` (replacement, expansion, new product, regulatory; independent and mutually exclusive) |
+| corpfin-05-los3 | new source (partial) | `libretexts-aurora-capital-budgeting` (capital rationing, real options). Pitfalls (empire building, anchoring, post-audit) are still not found |
+| corpfin-07-los1 | new source | `flatworld-creating-services-and-products` (10 of the top 12), `flatworld-entrepreneurship-and-sustainability` |
+| corpfin-07-los2 | new source | same two books. Subscription and freemium are thin. OpenStax *Entrepreneurship* was NOT used because its site says the book may not be ingested into LLM offerings |
+| fsa-01-los1 | still missing | The six-step framework appears in no open source found. MIT OCW 15.535 class 1 and 2 PDFs are slides with almost no text (checked, not loaded). The CFA refresher reading pages are member-only and JavaScript-rendered |
+| fsa-03-los4 | retrieval miss | `lyryx-ifa-vol2:106:102` ("Explain how long-term debt is disclosed"), `lyryx-ifa-vol2:61:55`, `lyryx-ifa-vol2:349:345`, `lyryx-intro-fa-2021a:677:556` |
+| fsa-05-los1 | retrieval miss (partial) | Reported cash flow statements: `lyryx-intro-fa-2021a` and `lyryx-ifa-vol2` chapters already ranked, plus new `flatworld-business-accounting:1025:896`, `:1036:906`, `:1046:914`. Common-size cash flow statements are still absent |
+| fsa-06-los3 | new source | `flatworld-business-accounting:470:409`, `:473:412`, `:474:413` (LIFO liquidation; rank 15) |
+| fsa-11-los5 | new source (partial) | `occ-earnings-handbook` (NIM, efficiency ratio; rank 120). Retail, airline and hotel metrics (same-store sales, RASM, RevPAR) are still not found: BTS and FFIEC return 403 |
+| equity-03-los3 | new source | `cfr-17-240-12b-2` (public float definition), `cfr-17-240-10b-18` (ADTV), `russell-us-indexes-methodology` (free float) |
+| equity-03-los4 | new source | `russell-us-indexes-methodology`, `nasdaq-100-methodology` |
+| equity-04-los1 | new source | `finra-splits-and-research:1:0` (rank 0), `cfr-17-240-10b-18` (repurchases). Liquidating and special dividends are thin |
+| equity-04-los2 | retrieval miss | `finra-dividend-dates-notice:1:0`, `:1:1`, `:2:2`; `lyryx-intro-fa-2021a:426:348`, `:428:350`; `os:principles-financial-accounting:m67919:2`, `:m67919:3` |
+| equity-08-los1 | retrieval miss (partial) | `flatworld-finance-for-managers:64:45`, `:68:46` (pro forma statements), `damodaran-valn2ed-ch11:10:8`, `:20:16`, `:21:18`. Top-down and bottom-up forecasting is thin |
+| equity-09-los3 | still missing | Only `flatworld-business-strategy:16:13` and `mit-ocw-15433-securityanalysis:1:0` touch it. Census concentration-ratio tables exist but only as data (not loaded) |
+| equity-11-los2 | new source (partial) | `finra-splits-and-research` (FINRA Rule 2241 and research analyst rules: sell-side conflicts). A buy-side comparison is not found |
+| fixed-income-03-los2 | new source | `ftse-fixed-income-indices-guide` (rank 3) |
+| fixed-income-06-los3 | still missing | Only one bullet, `occ-asset-securitization:56:53`. The MSRB PDF found does not use the term |
+| fixed-income-07-los2 | new source (partial) | `nyfed-sr674-mortgage-spreads` (OAS; rank 2). G-spread, I-spread and Z-spread definitions are still not found in an open source |
+| fixed-income-08-los1 | new source (partial) | `treasurydirect-pricing:2:6` (glossary definition of discount margin), `:1:2`. No worked discount-margin calculation |
+| fixed-income-08-los2 | new source | `treasurydirect-pricing:2:7` (discount rate vs investment rate), `:1:0`, `treasury-tfx-yield-appendix:1:0`, `:4:3`; the existing `richmondfed-money-market-ch14:7:9` has the discount yield formula. Not in the top 150 retrieved, so ranking needs a fix |
+| fixed-income-13-los4 | still missing | Searched for central-bank or regulator material on empirical duration: none found, only prep-provider pages |
+| fixed-income-14-los3 | new source (partial) | `fed-feds-note-ebp` (excess bond premium, broker-dealer capital; rank 136), `nyfed-sr674-mortgage-spreads` |
+| fixed-income-19-los4 | new source (partial) | `fed-cmbs-cohen-2011:3:3`, `:4:4`, `:14:16` (subordination, balloon, defeasance; rank 28), `cfa-rf-alt-credit:68:87` |
+| derivatives-10-los2 | new source | `mit-ocw-18s096-risk-neutral:1:0`, `:8:1`, `:17:2`; `mit-ocw-18366-lec12` (ranks 35 to 37, so ranking needs a fix) |
+| alternatives-07-los2 | new source | `fsoc-digital-assets-2022` (e.g. `:49:58`, rank 8) |
+| alternatives-07-los3 | new source | `fsoc-digital-assets-2022:105:131` and the ETF and futures chunks `:8:8`, `:14:14`, `:19:21` (rank 11) |
+| alternatives-07-los4 | new source | `fsoc-digital-assets-2022:25:29`, `:25:30` (correlation), `:1:0` (rank 4) |
+| portfolio-01-los1 | retrieval miss | `os:principles-finance-2e:m00076:0`, `:m00076:0.1` (returns and risk by asset class), `cfa-rf-alt-primer:5:2`, `:9:7`, `:10:8` (real assets, hedge funds), `cfa-rf-etf-module1:12:9` |
+| portfolio-03-los2 | still missing | `cfa-pm-process-ips` was dropped (headed "Member use only") |
+| portfolio-03-los3 | new source (partial) | `cfa-pm-process-ips:21:32`, `:22:33` (endowment and individual investor cases), `cfa-rf-etf-module2:30:30` (existing) |
+| portfolio-06-los7 | new source | `occ-risk-mgmt-derivatives` (5 of the top 12: VaR, stress tests, hedging) |
+
+### Tried, not loaded
+- `files.stlouisfed.org/.../9911cn.pdf` (Neely, "An Introduction to Capital Controls") returns an HTML shell instead of the PDF; replaced by the ECB paper above.
+- CFA Institute refresher-reading pages (`/insights/professional-learning/refresher-readings/2026/...`) hold no body text without a member login; not used. The one `refresher-readings-free` PDF was loaded (see above).
+- `pressbooks.pub/introductiontofinancialanalysis` and the LibreTexts print PDF of the Bigel text return 403 or empty; `ffiec.gov` UBPR guide 403; `bts.gov` glossary 403; `census.gov/construction/nrc/about_the_surveys/*` 404; Morningstar index calculation PDF is not a PDF.
+- OpenStax *Entrepreneurship*: not used (the site forbids ingestion into LLM offerings).
+- Chapters 1 to 13 of the Richmond Fed *Instruments of the Money Market* have almost no yield-formula text (checked, not loaded).
+
+### Verified vs assumed (this pass)
+Verified: HTTP status, content type and PDF magic bytes before ingest; text extraction counts of the key terms in each file (for example "historical simulation" 124 times in Pritsker, "risk neutral" 17 times in 18.S096 lecture 19); the licence strings quoted above, read from the PDF text or page footer; the real `retrieve()` ranks listed in the table. Assumed: public-domain status of Treasury, OCC, BEA, Census, GPO and FSOC items (U.S. federal works) and of the Fed Board paper (Board disclaimer); the CC licence on the two LibreTexts pages comes from the footer link, not from a licence file.
