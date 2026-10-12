@@ -1,21 +1,32 @@
 # Things only you can do
 
-Claude keeps this list updated while building. Tick items off as you go.
+Claude keeps this list updated. Tick items off as you go.
 
-## Before or while reviewing the prototype
-- [ ] **Review the prototype** and list the edits you want. Claude will leave a short tour in `docs/BUILD-PROGRESS.md` when it's ready.
-- [ ] **Rate a sample of Quant lessons**: are they clear for a beginner? The plan's quality bar is that at least 80% are clear. This decides whether we generate the other 9 topics.
+## 1. Review the prototype (the main thing)
+- [ ] **Open the design canvas** (private to you): https://claude.ai/artifact/CqXTYohDNxrtDgU6rQF2J4. It has five screens: the style tile, Today, Lesson + practice, Phone (Today + flashcards), and Mock exam. You can comment directly on it.
+- [ ] **Try the app on this PC:** in a terminal in `C:\Users\ibrah\CFA-Study`, run `npm run dev`, then open http://localhost:3000. Tour:
+  1. **Today** (`/`): next lesson, today's plan, cards due, progress by topic.
+  2. **Syllabus → Quantitative Methods → any module:** the lesson, its practice questions (each wrong answer becomes a review card), flashcards, the Let Me Explain lecture list with an embedded player, notes and the LOS checklist.
+  3. **Review** (`/review`): flip a card and rate it Again / Hard / Good / Easy (spaced repetition).
+  4. **Mock exam** (`/mock`): a timed set, then the score by topic and an answer review.
+  5. **Free resources** (`/resources`): FreeFellow, IFT, the CFA Institute Ethics Lab and others, plus trial trackers.
+- [ ] **Write down the edits you want** (look and feel, wording, features), and tell Claude.
+- [ ] **Rate a sample of the Quant lessons**: are they clear for a beginner? The plan's quality bar is that at least 80% are clear before generating the other 9 topics.
 
-## Accounts (Claude can't create accounts)
-- [ ] _(added when deploy prep reaches this point)_
+## 2. Accounts (Claude can't create accounts)
+- [ ] **Deploy privately so it works on your phone.** Follow `docs/DEPLOY.md`: a free Vercel account with GitHub sign-in, import the repo, set `APP_PASSWORD`. About 10 minutes.
+- [ ] Later, for syncing progress between laptop and phone, a free Supabase account. Not needed yet.
+
+## 3. Budget
+- [ ] The Claude API budget is about $25 a month (`CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`). Quant generation brings this month to about $25, so the last 1–3 Quant objectives may wait for next month. The other 9 topics cost about $55: raise the cap, or let it run a topic or two per month.
 
 ## Saves Claude usage (optional)
-- [ ] A "Fact-Forcing Gate" hook (from the ECC plugin) blocks Claude's first edit to every file until it restates facts. That wastes a noticeable share of usage. To relax it for this project, start Claude with `ECC_GATEGUARD=off`, or add `pre:edit-write:gateguard-fact-force` to `ECC_DISABLED_HOOKS`. It's your setting, so Claude won't change it.
+- [ ] A "Fact-Forcing Gate" hook (from the ECC plugin) blocks Claude's first edit to every file until it restates facts, which wastes a noticeable share of your usage. To relax it for this project, start Claude with `ECC_GATEGUARD=off`, or add `pre:edit-write:gateguard-fact-force` to `ECC_DISABLED_HOOKS`. It's your setting, so Claude won't change it.
+
+## Keep in mind
+- [ ] Leave the Claude desktop app **open** if you want an interrupted build to resume by itself. Scheduled runs only fire while the app is running, or on its next launch.
+- [ ] Progress is saved per device until the sync milestone. Use one device for flashcard reviews for now.
 
 ## Optional
 - [ ] Save the CFTC "Basics of Futures Trading" page as HTML (see `docs/missing-sources.md`).
-- [ ] OpenIntro statistics PDF via Leanpub (optional).
-- [ ] Raise `CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`, or wait for next month, before generating the other 9 topics (about $55 total).
-
-## Keep in mind
-- [ ] Leave the Claude desktop app **open** if you want the build to resume by itself after a usage limit. Scheduled runs only fire while the app is running, or on its next launch.
+- [ ] OpenIntro statistics PDF via Leanpub.

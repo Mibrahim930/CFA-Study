@@ -39,6 +39,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${jakarta.variable} ${jetbrains.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans">
+        <a href="#content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-20 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:font-bold focus:text-accent-fg">
+          Skip to content
+        </a>
         <header className="sticky top-0 z-10 border-b border-line bg-surface/95 backdrop-blur">
           <nav aria-label="Main" className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 text-[15px]">
             <Link href="/" className="flex items-center gap-2.5 font-extrabold tracking-tight">
@@ -56,7 +59,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </nav>
         </header>
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>
+        <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+          {children}
+        </main>
         <footer className="border-t border-line px-4 py-5 text-center text-xs text-muted">
           Personal study tool. Not affiliated with or endorsed by CFA Institute. CFA® is a trademark of CFA Institute.
         </footer>
