@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import type { Lecture } from "@/lib/content/videos";
 import type { Los } from "@/lib/syllabus/types";
 import { newId, useModuleState } from "@/lib/store/local";
 import { formatTime, parseYouTubeId } from "@/lib/youtube";
@@ -8,7 +9,7 @@ import { YouTubePlayer, type PlayerHandle } from "./youtube-player";
 
 const RATES = [1, 1.25, 1.5, 1.75, 2];
 
-export function ModuleWorkspace({ slug, los }: { slug: string; los: Los[] }) {
+export function ModuleWorkspace({ slug, los, lectures = [] }: { slug: string; los: Los[]; lectures?: Lecture[] }) {
   const [state, update] = useModuleState(slug);
   const player = useRef<PlayerHandle>(null);
   const [active, setActive] = useState<string | null>(null);
@@ -18,7 +19,7 @@ export function ModuleWorkspace({ slug, los }: { slug: string; los: Los[] }) {
   const [stamp, setStamp] = useState(true);
   const [rate, setRate] = useState(1.25);
 
-  const videoId = active ?? state.lastVideo?.id ?? state.videos[0] ?? null;
+  const videoId = active ?? state.lastVideo?.id ?? lectures[0]?.videoId ?? state.videos[0] ?? null;
   const resumeAt = state.lastVideo?.id === videoId ? state.lastVideo.t : 0;
 
   function addVideo(e: React.FormEvent) {
@@ -84,6 +85,30 @@ export function ModuleWorkspace({ slug, los }: { slug: string; los: Los[] }) {
         ) : (
           <div className="flex aspect-video w-full items-center justify-center rounded-lg border border-dashed border-line p-6 text-center text-sm text-muted">
             Add a lecture video for this module below. Free picks: Let Me Explain, AnalystPrep, IFT.
+          </div>
+        )}
+
+        {lectures.length > 0 && (
+          <div className="space-y-2">
+            <h3 className="text-sm font-bold">
+              Lectures for this module <span className="font-normal text-muted">· Let Me Explain</span>
+            </h3>
+            <ol className="divide-y divide-line overflow-hidden rounded-xl border border-line bg-surface text-sm">
+              {lectures.map((l, i) => (
+                <li key={l.videoId}>
+                  <button
+                    type="button"
+                    onClick={() => setActive(l.videoId)}
+                    aria-current={l.videoId === videoId ? "true" : undefined}
+                    className={`flex w-full items-center gap-3 px-3 py-2.5 text-left hover:bg-surface-2 ${l.videoId === videoId ? "bg-accent-soft font-semibold text-accent" : ""}`}
+                  >
+                    <span className="w-5 shrink-0 tabular-nums text-muted">{i + 1}</span>
+                    <span className="flex-1">{l.title}</span>
+                    <span className="shrink-0 tabular-nums text-muted">{formatTime(l.seconds)}</span>
+                  </button>
+                </li>
+              ))}
+            </ol>
           </div>
         )}
 

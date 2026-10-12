@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { LessonView } from "@/components/lesson-view";
 import { ModuleWorkspace } from "@/components/module-workspace";
 import { getModuleLessons } from "@/lib/content/generated";
+import { getModuleLectures } from "@/lib/content/videos";
 import { getModule, syllabus } from "@/lib/syllabus";
 
 async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: string; moduleId: string; losOrder: string[] }) {
@@ -68,7 +69,7 @@ async function LearnContent({ params }: { params: PageProps<"/learn/[slug]">["pa
           <Suspense fallback={<p className="text-muted">Loading lessons…</p>}>
             <GeneratedLessons topicId={topic.id} moduleId={module.id} losOrder={module.los.map((l) => l.id)} />
           </Suspense>
-          <ModuleWorkspace slug={module.slug} los={module.los} />
+          <ModuleWorkspace slug={module.slug} los={module.los} lectures={await getModuleLectures(module.id)} />
         </div>
 
         <aside className="min-w-0 flex-[1_1_260px] lg:sticky lg:top-24">
