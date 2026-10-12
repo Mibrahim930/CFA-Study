@@ -4,21 +4,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LessonView } from "@/components/lesson-view";
 import { ModuleWorkspace } from "@/components/module-workspace";
-import { getModuleLessons } from "@/lib/content/generated";
+import { getHeldBackLos, getModuleLessons } from "@/lib/content/generated";
 import { getModuleLectures } from "@/lib/content/videos";
 import { getModule, syllabus } from "@/lib/syllabus";
 
 async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: string; moduleId: string; losOrder: string[] }) {
-  const lessons = await getModuleLessons(topicId, moduleId, losOrder);
+  const [lessons, heldBack] = await Promise.all([getModuleLessons(topicId, moduleId, losOrder), getHeldBackLos(topicId, moduleId)]);
+  const notice = heldBack.length > 0 && (
+    <p className="rounded-2xl border border-warn/40 bg-warn/8 p-5 text-sm">
+      <strong>
+        {heldBack.length} lesson{heldBack.length === 1 ? " was" : "s were"} held back by the quality checks
+      </strong>{" "}
+      (a possible error was found) and will be regenerated. Use the lectures and checklist below for{" "}
+      {heldBack.length === 1 ? "that outcome" : "those outcomes"} in the meantime.
+    </p>
+  );
   if (lessons.length === 0) {
     return (
-      <p className="rounded-2xl border border-dashed border-line bg-surface p-6 text-muted">
-        Lessons for this module haven&apos;t been generated yet. Use the video, notes and checklist below in the meantime.
-      </p>
+      notice || (
+        <p className="rounded-2xl border border-dashed border-line bg-surface p-6 text-muted">
+          Lessons for this module haven&apos;t been generated yet. Use the lectures, notes and checklist below in the meantime.
+        </p>
+      )
     );
   }
   return (
     <div className="space-y-12">
+      {notice}
       {lessons.map((l) => (
         <LessonView key={l.losId} lesson={l} />
       ))}

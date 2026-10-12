@@ -93,6 +93,19 @@ function toView(f: VerifiedFileShape): ViewLesson | null {
   };
 }
 
+/** LOS in this module whose lesson was generated but held back (quarantined) by the verification gates. */
+export async function getHeldBackLos(topicId: string, moduleId: string): Promise<string[]> {
+  "use cache";
+  cacheLife("max");
+  const dir = join(process.cwd(), "content", "generated", topicId);
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir)
+    .filter((f) => f.endsWith(".verified.json") && !f.includes(".opus-pilot."))
+    .map((f) => JSON.parse(readFileSync(join(dir, f), "utf8")) as VerifiedFileShape)
+    .filter((f) => f.moduleId === moduleId && !shown(f.lesson))
+    .map((f) => f.losId);
+}
+
 /** Verified lessons for one module, in LOS order. Read once at build time. */
 export async function getModuleLessons(topicId: string, moduleId: string, losOrder: string[]): Promise<ViewLesson[]> {
   "use cache";

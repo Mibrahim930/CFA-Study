@@ -77,7 +77,15 @@ For each item, judge its factual claims:
 - contradicted: a passage says something incompatible with the item.
 List the unsupported claims briefly.
 
-Separately, set error_found = true only when the item contains a definite error by standard Level I curriculum knowledge: a wrong formula, definition, rule or key, or an arithmetic mistake. This applies whatever the passages say. Clear simplifications made for beginners are not errors. Explain any error in note.`;
+Separately, set error_found = true only when the item contains a definite error by standard Level I curriculum knowledge: a wrong formula, definition, rule or key, or an arithmetic mistake. This applies whatever the passages say. Clear simplifications made for beginners are not errors. Recheck any arithmetic step by step before flagging it; if your note concludes that the item is correct, error_found must be false. Explain any error in note.`;
+
+const CONFIRM_SYSTEM = `You are a second reviewer for CFA® Level I study material. Another reviewer flagged each item below as containing an error. For each, decide independently whether the flagged error is REAL.
+Recompute all arithmetic carefully, step by step. Where an engine value is given, it was computed by a tested finance library and is correct. A difference that only comes from rounding the final figure as the item instructs is not an error. Simplifications made for beginners are not errors.
+Return real_error = true only if the item, as a student would read it, teaches or keys something wrong.`;
+
+const ConfirmSchema = z.object({
+  verdicts: z.array(z.object({ id: z.string(), real_error: z.boolean(), explanation: z.string().describe("One or two sentences") })),
+});
 
 const REPAIR_SYSTEM = `${GENERATOR_SYSTEM}
 
@@ -143,6 +151,22 @@ class Verifier {
     ].join("\n\n");
     const data = await this.call("repair", RepairSchema, REPAIR_SYSTEM, user, "high");
     return new Map(data.items.map((r) => [r.id, r.mcq]));
+  }
+
+  async confirm(items: { c: Checked<unknown>; claim: string }[]) {
+    const blocks = items.map(({ c, claim }) => {
+      const it = c.item as Partial<Mcq & Flashcard & Lesson>;
+      let body: string;
+      if (it.stem !== undefined) {
+        const m = c.item as Mcq;
+        const engine = calcGateMcq(m).expected;
+        body = `${m.stem}\n${m.options.map((o, i) => `${ABC[i]}. ${o.text} — ${o.explanation}`).join("\n")}\nKey: ${ABC[m.answer_index]}${engine !== undefined ? `\nEngine value: ${engine}` : ""}`;
+      } else if (it.front !== undefined) body = `Q: ${it.front}\nA: ${it.back}`;
+      else body = lessonText(c.item as Lesson);
+      return `<item id="${c.id}">\n${body}\n</item>\n<flagged_error id="${c.id}">${claim}</flagged_error>`;
+    });
+    const data = await this.call("confirm", ConfirmSchema, CONFIRM_SYSTEM, blocks.join("\n\n"), "high");
+    return new Map(data.verdicts.map((v) => [v.id, v]));
   }
 
   async ground(lesson: Checked<Lesson> | null, mcqs: Checked<Mcq>[], cards: Checked<Flashcard>[]) {
@@ -243,7 +267,24 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
     }
 
     const verdicts = await v.ground(allPass(lesson) ? lesson : null, mcqs.filter(allPass), cards.filter(allPass));
-    for (const c of [lesson, ...mcqs, ...cards] as Checked<unknown>[]) {
+
+    // Second opinion: a flagged error only quarantines an item if an independent check confirms it.
+    const all = [lesson, ...mcqs, ...cards] as Checked<unknown>[];
+    const flagged = all.filter((c) => allPass(c) && (verdicts.get(c.id)?.error_found || verdicts.get(c.id)?.verdict === "contradicted"));
+    if (flagged.length) {
+      const confirmed = await v.confirm(flagged.map((c) => ({ c, claim: verdicts.get(c.id)!.note })));
+      for (const c of flagged) {
+        const verdict = verdicts.get(c.id)!;
+        const second = confirmed.get(c.id);
+        if (second && !second.real_error) {
+          verdicts.set(c.id, { ...verdict, error_found: false, verdict: verdict.verdict === "contradicted" ? "partially_supported" : verdict.verdict });
+          c.gates.critic_review = { pass: true, issues: [`flag overturned on second review: ${second.explanation}`] };
+        } else if (second) {
+          c.gates.critic_review = { pass: true, issues: [`flag confirmed: ${second.explanation}`] };
+        }
+      }
+    }
+    for (const c of all) {
       if (allPass(c) && applyGrounding(c, verdicts.get(c.id))) grounded.add(c.id);
     }
   }
