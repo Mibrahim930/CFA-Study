@@ -7,99 +7,174 @@ import { InlineRich } from "./rich-text";
 
 const BADGE_TEXT: Record<Badge, string> = { grounded_verified: "Grounded + verified", verified: "Math verified", model_only: "AI-only" };
 const LETTERS = "ABC";
+const CONFIDENCE = ["Sure", "Think so", "Guess"] as const;
+type Confidence = (typeof CONFIDENCE)[number];
 
+/** One question at a time: pick an answer, say how sure you are, see why, then a short summary. */
 export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId" | "mcqs" | "flashcards">) {
-  const [picked, setPicked] = useState<Record<string, number>>({});
+  const [i, setI] = useState(0);
+  const [choice, setChoice] = useState<number | null>(null);
+  const [confidence, setConfidence] = useState<Confidence | null>(null);
+  const [submitted, setSubmitted] = useState(false);
+  const [results, setResults] = useState<{ id: string; correct: boolean; confidence: Confidence | null }[]>([]);
+  const [flipped, setFlipped] = useState<Record<string, boolean>>({});
   // Opening a lesson puts its flashcards into the spaced-repetition deck.
   useEffect(() => enrol(flashcards.map((f) => `${losId}:${f.id}`), "flashcard"), [losId, flashcards]);
-  const choose = (id: string, i: number, key: number) => {
-    setPicked((p) => ({ ...p, [id]: i }));
-    if (i !== key) markMissed(`${losId}:${id}`);
+
+  const finished = mcqs.length > 0 && results.length === mcqs.length;
+  const m = mcqs[i];
+
+  const submit = () => {
+    if (choice === null || !m) return;
+    const correct = choice === m.answerIndex;
+    if (!correct) markMissed(`${losId}:${m.id}`);
+    setResults((r) => [...r, { id: m.id, correct, confidence }]);
+    setSubmitted(true);
   };
-  const [flipped, setFlipped] = useState<Record<string, boolean>>({});
-  const answered = mcqs.filter((m) => picked[m.id] !== undefined);
-  const correct = answered.filter((m) => picked[m.id] === m.answerIndex).length;
+  const next = () => {
+    setI((n) => n + 1);
+    setChoice(null);
+    setConfidence(null);
+    setSubmitted(false);
+  };
+  const restart = () => {
+    setI(0);
+    setChoice(null);
+    setConfidence(null);
+    setSubmitted(false);
+    setResults([]);
+  };
+
+  const right = results.filter((r) => r.correct).length;
+  const confidentWrong = results.filter((r) => !r.correct && r.confidence === "Sure").length;
+  const luckyGuesses = results.filter((r) => r.correct && r.confidence === "Guess").length;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {mcqs.length > 0 && (
-        <section className="space-y-3">
+        <section aria-label="Practice questions" className="space-y-4">
           <div className="flex items-baseline justify-between gap-2">
-            <h3 className="font-medium">Practice questions</h3>
+            <h3 className="text-lg font-bold">Practice</h3>
             <span className="text-sm text-muted tabular-nums">
-              {correct}/{answered.length} correct · {mcqs.length} total
+              {finished ? `${right}/${mcqs.length} correct` : `Question ${i + 1} of ${mcqs.length}`}
             </span>
           </div>
-          <ol className="space-y-4">
-            {mcqs.map((m, qi) => {
-              const choice = picked[m.id];
-              const done = choice !== undefined;
-              return (
-                <li key={m.id} className="space-y-2 rounded-md border border-line p-4">
-                  <div className="flex items-start justify-between gap-3">
-                    <p className="text-sm">
-                      <span className="mr-1 text-muted tabular-nums">{qi + 1}.</span>
-                      <InlineRich text={m.stem} />
-                    </p>
-                    <span className="shrink-0 text-xs text-muted">
-                      {m.difficulty} · {BADGE_TEXT[m.badge]}
-                    </span>
-                  </div>
-                  <div className="space-y-2">
-                    {m.options.map((o, i) => {
-                      const isKey = i === m.answerIndex;
-                      const state = !done ? "border-line hover:border-accent" : isKey ? "border-success bg-success/10" : i === choice ? "border-danger bg-danger/10" : "border-line opacity-70";
-                      return (
-                        <button
-                          key={i}
-                          type="button"
-                          disabled={done}
-                          onClick={() => choose(m.id, i, m.answerIndex)}
-                          className={`block w-full rounded-md border px-3 py-2 text-left text-sm ${state}`}
-                        >
-                          <span className="mr-2 font-medium">{LETTERS[i]}.</span>
-                          <InlineRich text={o.text} />
-                          {done && (isKey || i === choice) && (
-                            <span className="mt-1 block text-xs text-muted">
-                              <InlineRich text={o.explanation} />
-                            </span>
-                          )}
-                        </button>
-                      );
-                    })}
-                  </div>
-                  {done && (
+          <div className="h-1.5 overflow-hidden rounded-full bg-surface-3" aria-hidden="true">
+            <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${(results.length / mcqs.length) * 100}%` }} />
+          </div>
+
+          {finished ? (
+            <div className="space-y-4 rounded-xl bg-surface-2 p-5">
+              <p className="text-2xl font-extrabold tabular-nums">
+                {right} of {mcqs.length} correct
+              </p>
+              <ul className="space-y-1.5 text-[15px]">
+                {confidentWrong > 0 && (
+                  <li>
+                    <strong className="text-danger">{confidentWrong} confident mistake{confidentWrong === 1 ? "" : "s"}</strong>: you were sure but wrong. These are the most
+                    useful to review.
+                  </li>
+                )}
+                {luckyGuesses > 0 && (
+                  <li>
+                    <strong className="text-warn">{luckyGuesses} lucky guess{luckyGuesses === 1 ? "" : "es"}</strong>: right, but worth re-reading the explanation.
+                  </li>
+                )}
+                {mcqs.length - right > 0 && <li>{mcqs.length - right} missed question{mcqs.length - right === 1 ? " was" : "s were"} added to your review deck.</li>}
+              </ul>
+              <button type="button" onClick={restart} className="min-h-11 rounded-xl border border-line bg-surface px-5 font-semibold hover:border-accent">
+                Try again
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-4">
+              <div className="flex items-start justify-between gap-3">
+                <p className="text-[16.5px] leading-7">
+                  <InlineRich text={m.stem} />
+                </p>
+                <span className="shrink-0 pt-1 text-xs text-muted">
+                  {m.difficulty} · {BADGE_TEXT[m.badge]}
+                </span>
+              </div>
+              <div className="space-y-2.5" role="radiogroup" aria-label="Answer options">
+                {m.options.map((o, k) => {
+                  const isKey = k === m.answerIndex;
+                  const state = !submitted
+                    ? choice === k
+                      ? "border-2 border-accent bg-accent-soft"
+                      : "border border-line hover:border-accent"
+                    : isKey
+                      ? "border-2 border-success bg-success/10"
+                      : k === choice
+                        ? "border-2 border-danger bg-danger/10"
+                        : "border border-line opacity-60";
+                  return (
                     <button
+                      key={k}
                       type="button"
-                      onClick={() =>
-                        setPicked((p) => {
-                          const next = { ...p };
-                          delete next[m.id];
-                          return next;
-                        })
-                      }
-                      className="text-xs text-muted underline hover:text-foreground"
+                      role="radio"
+                      aria-checked={choice === k}
+                      disabled={submitted}
+                      onClick={() => setChoice(k)}
+                      className={`flex min-h-13 w-full items-start gap-3 rounded-xl px-4 py-3 text-left ${state}`}
                     >
-                      try again
+                      <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-surface-2 text-sm font-bold">{LETTERS[k]}</span>
+                      <span className="flex-1">
+                        <InlineRich text={o.text} />
+                        {submitted && (isKey || k === choice) && (
+                          <span className="mt-1.5 block text-sm text-muted">
+                            <strong className={isKey ? "text-success" : "text-danger"}>{isKey ? "Correct. " : "Not quite. "}</strong>
+                            <InlineRich text={o.explanation} />
+                          </span>
+                        )}
+                      </span>
                     </button>
-                  )}
-                </li>
-              );
-            })}
-          </ol>
+                  );
+                })}
+              </div>
+
+              {!submitted ? (
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <div className="flex flex-wrap items-center gap-2 text-sm" role="group" aria-label="How sure are you?">
+                    <span className="font-semibold text-muted">How sure?</span>
+                    {CONFIDENCE.map((c) => (
+                      <button
+                        key={c}
+                        type="button"
+                        aria-pressed={confidence === c}
+                        onClick={() => setConfidence(c)}
+                        className={`min-h-9 rounded-lg px-3 font-semibold ${confidence === c ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+                      >
+                        {c}
+                      </button>
+                    ))}
+                  </div>
+                  <button type="button" disabled={choice === null} onClick={submit} className="min-h-11 rounded-xl bg-accent px-6 font-bold text-accent-fg disabled:opacity-40">
+                    Check answer
+                  </button>
+                </div>
+              ) : (
+                <div className="flex justify-end">
+                  <button type="button" onClick={next} className="min-h-11 rounded-xl bg-accent px-6 font-bold text-accent-fg">
+                    {i + 1 < mcqs.length ? "Next question →" : "See summary"}
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </section>
       )}
 
       {flashcards.length > 0 && (
         <section className="space-y-3">
-          <h3 className="font-medium">Flashcards</h3>
+          <h3 className="text-lg font-bold">Flashcards</h3>
           <ul className="grid gap-3 sm:grid-cols-2">
             {flashcards.map((c) => (
               <li key={c.id}>
                 <button
                   type="button"
                   onClick={() => setFlipped((f) => ({ ...f, [c.id]: !f[c.id] }))}
-                  className="flex h-full min-h-24 w-full flex-col justify-between gap-2 rounded-md border border-line bg-surface-2 p-3 text-left text-sm hover:border-accent"
+                  className="flex h-full min-h-24 w-full flex-col justify-between gap-2 rounded-xl border border-line bg-surface-2 p-4 text-left text-sm hover:border-accent"
                 >
                   <span>
                     <InlineRich text={flipped[c.id] ? c.back : c.front} />

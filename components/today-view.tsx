@@ -55,11 +55,25 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
             </div>
           )}
 
-          <h3 className="text-lg font-bold">Today&apos;s plan</h3>
+          {finished === 0 && Object.keys(review).length === 0 && next && (
+            <div className="space-y-3 rounded-2xl border border-line bg-surface p-5">
+              <h3 className="font-bold">New here? Three steps to get going</h3>
+              <ol className="grid gap-3 sm:grid-cols-3">
+                <StartStep n={1} title="Read the beginner guide" detail={`Plain-English intro to ${next.topicName}`} href={`/topics/${next.topicId}`} />
+                <StartStep n={2} title="Watch and study module 1" detail="Lecture first, then the lesson and practice" href={`/learn/${next.slug}`} />
+                <StartStep n={3} title="Review your flashcards" detail="A few minutes a day keeps it in memory" href="/review" />
+              </ol>
+            </div>
+          )}
+
+          <div className="flex items-baseline justify-between gap-3">
+            <h3 className="text-lg font-bold">Today&apos;s plan</h3>
+            <span className="text-sm font-semibold text-muted tabular-nums">about {Math.max(5, Math.round(due.length * 0.4 + (next ? 25 : 0) + missedDue * 2))} min</span>
+          </div>
           <ol className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
-            <PlanRow n={1} title={`Review ${due.length} card${due.length === 1 ? "" : "s"}`} detail={due.length ? "Spaced repetition: the ones you're about to forget" : "Nothing due; new cards arrive as you study"} href="/review" done={due.length === 0} />
-            {next && <PlanRow n={2} title={`Study: ${next.title}`} detail={`${next.topicName} · module ${next.order}`} href={`/learn/${next.slug}`} />}
-            <PlanRow n={3} title={missedDue ? `Redo ${missedDue} missed question${missedDue === 1 ? "" : "s"}` : "No missed questions waiting"} detail="Wrong answers come back as review cards" href="/review" done={missedDue === 0} />
+            <PlanRow n={1} title={`Review ${due.length} card${due.length === 1 ? "" : "s"}`} detail={due.length ? "Spaced repetition: the ones you're about to forget" : "Nothing due; new cards arrive as you study"} minutes={Math.round(due.length * 0.4)} href="/review" done={due.length === 0} />
+            {next && <PlanRow n={2} title={`Study: ${next.title}`} detail={`${next.topicName} · module ${next.order} · watch, read, practise`} minutes={25} href={`/learn/${next.slug}`} />}
+            <PlanRow n={3} title={missedDue ? `Redo ${missedDue} missed question${missedDue === 1 ? "" : "s"}` : "No missed questions waiting"} detail="Wrong answers come back as review cards" minutes={missedDue * 2} href="/review" done={missedDue === 0} />
           </ol>
         </section>
 
@@ -97,7 +111,19 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
   );
 }
 
-function PlanRow({ n, title, detail, href, done = false }: { n: number; title: string; detail: string; href: string; done?: boolean }) {
+function StartStep({ n, title, detail, href }: { n: number; title: string; detail: string; href: string }) {
+  return (
+    <li>
+      <Link href={href} className="flex h-full flex-col gap-1 rounded-xl bg-surface-2 p-4 hover:bg-accent-soft">
+        <span className="text-xs font-bold text-accent">Step {n}</span>
+        <span className="font-semibold">{title}</span>
+        <span className="text-sm text-muted">{detail}</span>
+      </Link>
+    </li>
+  );
+}
+
+function PlanRow({ n, title, detail, href, minutes = 0, done = false }: { n: number; title: string; detail: string; href: string; minutes?: number; done?: boolean }) {
   return (
     <li>
       <Link href={href} className="flex items-center gap-4 px-5 py-4 hover:bg-surface-2">
@@ -108,6 +134,7 @@ function PlanRow({ n, title, detail, href, done = false }: { n: number; title: s
           <span className="block font-semibold">{title}</span>
           <span className="block text-sm text-muted">{detail}</span>
         </span>
+        {!done && minutes > 0 && <span className="shrink-0 text-sm font-semibold tabular-nums text-muted">{minutes} min</span>}
       </Link>
     </li>
   );
