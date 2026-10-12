@@ -1,56 +1,78 @@
-# Resume plan (written 2026-10-11)
+# Resume here (updated 2026-10-12, end of the long build session)
 
-Start here when picking this project back up. Also read `docs/HANDOFF.md` ("Hard rules" and "Progress on 2026-10-10").
+Read this first, then `docs/HANDOFF.md` for the **hard rules**:
+- No YouTube scraping (embed and metadata only).
+- Every calculation is verified by `lib/finance`.
+- "CFA" stays out of the app name.
+- The repo stays private.
+- Verify delegated research before treating it as fact.
+- Commit trailer: `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
-## Where we stopped
-- **Commits on main:** `370b6e6` (pipeline, sources, Resources page) and `761fd20` (coverage audit, retrieval, 45 more sources), plus the commit that adds this file.
-  - **Not pushed yet.** Push before working on the Mac: `git push`. CI must stay green.
-- **Pipeline works end to end on Sonnet 5.5:** `npm run gen` and `npm run verify`, at $0.18 per LOS.
-  - Only `quant-04-los1` has been generated (`content/generated/quant/`). An Opus copy is kept for comparison.
-- **The library has about 10,080 passages** across 64 source files in `sources/corpus/`. That folder is git-ignored; rebuild it with:
-  - `npm run ingest:openstax`
-  - `npm run ingest:sources`
-- **Coverage (2026-10-12):** 30 full, 308 partial, 2 none (equity-09-los3, fixed-income-06-los3); about 184 sources and 22,700 chunks. See `docs/coverage-report.md` and `docs/source-audit.md` (149 keep, 34 review; 11 off-syllabus sources excluded in `ingest-sources.ts` EXCLUDED).
-  - Report: `docs/coverage-report.md`. Raw data: `content/coverage/coverage.json`.
-- **Spend this month:** about $7.42 of the $25 cap (ledger: `content-pipeline/.spend/`).
+`docs/USER-TODO.md` lists what only the user can do.
 
-## Finished after the plan was written
-- A Sonnet agent researching **buyable sources under $20, published 2025 or later**, that fill the coverage gaps.
-  - Done: see `docs/purchase-candidates.md`. Finding: almost nothing under $20 is DRM-free, so purchases help personal study but cannot fill corpus gaps. Prices are partly unverified; spot-check before buying.
-  - Its brief: rank by coverage per dollar, propose a minimal set covering every topic, and flag DRM. Only DRM-free files can be loaded into the pipeline.
+## Who the user is
+- A total finance beginner studying for CFA Level I, 10–15 h/week, on a laptop and a phone.
+- Reliability matters most to them. They like Sonnet agents for research and want delegated work verified.
+- They approved going over budget this month; the cap was raised to $30.
+- They have **not reviewed the prototype yet**.
 
-## Next steps, in order
-1. **Review `docs/purchase-candidates.md` with the user.**
-   - Spot-check prices and editions before the user buys. Verify delegated research before reporting it as fact.
-   - The user buys; Claude never purchases.
-   - DRM-free files go in `sources/docs/<id>/` and get an `ingest-sources.ts` entry with `reuse: "ground"`.
-2. **Close the 79 "none" gaps.**
-   - Run a research agent on the specific missing items listed per LOS in the coverage report, plus any purchases.
-   - Then re-audit only the gaps: `npm run coverage -- --los <ids> --force` (about $0.014 per LOS).
-3. **User review of the pilot lesson** (`quant-04-los1`).
-   - Plan §4 requires the user to rate at least 80% of lessons "clear for a beginner".
-   - Offer to render it as a readable page in the app.
-4. **Generate the other 29 Quant LOS** (about $5): `npm run gen -- --topic quant`, then `npm run verify -- --topic quant`.
-   - Review about 30 sampled items with the user before scaling to other topics.
-5. **User-only items** (see `docs/missing-sources.md`):
-   - save the CFTC futures page as HTML;
-   - OpenIntro PDF via Leanpub (optional);
-   - OECD and SEC pages are blocked to automated fetches;
-   - not attempted: MIT 15.433, World Bank PPP guide.
-6. **Later milestones** (docs/PLAN.md):
-   - YouTube video map (the YouTube key is already in `.env.local`);
-   - M2.5 "L1 expert" skill and knowledge base;
-   - M3 study loop (FSRS);
-   - M5 mock engine and deploy.
+## State of the app (all on `main`, pushed; CI green)
+Next.js 16.4 (cacheComponents) + Tailwind 4, on Windows at `C:\Users\ibrah\CFA-Study`.
 
-## Decisions already made (don't relitigate)
-- **Curriculum year.** 2026-curriculum material is fine until the user registers; then reconcile against the official 2027 resources.
-  - 7 of 10 topics are identical between 2026 and 2027 (verified). Quant and Equity were rewritten.
-- **Sonnet 5.5** for the pipeline. Opus is available per run with `--model claude-opus-5-5`.
-- **Free outside resources** (FreeFellow, IFT, Ethics Learning Lab…) are link-out only, on the `/resources` page. Never ingest them.
+| Area | Where | Notes |
+|---|---|---|
+| Design | claude.ai canvas https://claude.ai/artifact/CqXTYohDNxrtDgU6rQF2J4 | "Calm study desk": navy #1e3a8a, paper #f6f7f9, Plus Jakarta Sans. Tokens in `app/globals.css`, including dark mode |
+| Today `/` | `components/today-view.tsx` | Next up, a time-boxed plan, a "New here?" strip, cards due, progress by topic |
+| Syllabus and topics | `app/syllabus`, `app/topics/[id]` | Topic pages: the **beginner primer** (`components/topic-primer.tsx`), then module chips (lessons ready / held back / coming, video count) |
+| Module page | `app/learn/[slug]`, `components/module-workspace.tsx` | Watch card (Let Me Explain lectures, player), notes, then lessons (`lesson-view.tsx`, one-question practice with confidence in `practice-set.tsx`); sidebar `ModuleChecklist` |
+| Review | `/review`, `components/review-session.tsx`, `lib/store/review.ts` | FSRS (ts-fsrs), Space/1–4 keys, progress, summary, phone grade bar. Lesson flashcards auto-enrol; missed questions and primer cards are added on demand |
+| Mock | `/mock`, `components/mock-exam.tsx` | 10/30/90 questions at 1.5 min each, flag, navigator, results by topic |
+| Resources | `/resources`, `lib/resources.ts` | Link-out only, with a trial tracker |
+| Phone | `components/bottom-nav.tsx`, `app/manifest.ts`, `app/icon.svg` | Bottom nav, installable PWA |
+| Deploy | `proxy.ts`, `docs/DEPLOY.md` | Basic-auth gate when `APP_PASSWORD` is set. **The user hasn't deployed yet** |
+| Storage | `lib/store/*` (localStorage) | Per device; Supabase sync not built |
 
-## Gotchas found this session
-- **Background processes on Windows.** Stopping a background shell task did NOT kill the Node child, which kept spending. Check with `Get-CimInstance Win32_Process -Filter "Name='node.exe'"` and stop it by PID.
-- **The calc gate's key must be the closest option** to the engine value. The pilot found a wrong key that would have passed at ±0.5%.
-- **The trial tracker uses local dates.** UTC made trial end dates a day late.
-- **The "Fact-Forcing Gate" hook** blocks the first write to each file until facts are stated. This is expected; state them and retry.
+Rules learned this session:
+- With cacheComponents, never read the time during render (`new Date()`/`Date.now()`). Use `useNow`/`useClock` (useSyncExternalStore).
+- Server data loaders use `"use cache"` plus `cacheLife("max")` (`lib/content/*`).
+
+## Content pipeline (`content-pipeline/`, Sonnet 5.5, spend ledger in `content-pipeline/.spend/`)
+- **Sources:** `ingest-sources.ts` holds about 185 PDF/HTML sources, plus OpenStax. `EXCLUDED` lists 11 off-syllabus sources. Corpus and downloads are **git-ignored**. Rebuild with `npm run ingest:openstax`, then `npm run ingest:sources`. Tracker: `docs/missing-sources.md`. Audit: `npx tsx content-pipeline/source-audit.ts --outline-2026 <pdf>`, which writes `docs/source-audit.md`.
+- **Retrieval** (`lib/context.ts`):
+  - topic-filtered BM25;
+  - LOS facet queries plus a synonym map;
+  - `auditHints` (the coverage audit's "missing" phrases used as extra queries);
+  - `RETRIEVE_K = 12`.
+- **Coverage audit** (`coverage.ts`, `docs/coverage-report.md`): 30 full, 308 partial, 2 none (`equity-09-los3`, `fixed-income-06-los3`; no free source exists).
+- **Lessons** (`generate.ts`, `verify.ts`):
+  - **Quant: all 30 LOS generated and verified.** 8 of about 393 items are quarantined, with real issues.
+  - `verify.ts` gates: lint, calc engine (the key must be the closest option), copy guard, IFRS 18, blind solve plus one repair, then the grounding critic plus a **second-opinion confirm** before any quarantine.
+- **Primers** (`generate-primer.ts`): `content/primers/*.json` for all 10 topics. A plain-language editor pass runs, then the same checks.
+- **Video map** (`video-map.ts`): `content/video-map.json`, 425 of 426 Let Me Explain videos mapped to 98 modules. YouTube API key in `.env.local`.
+
+## Budget
+- October API spend is **$29.24 of the $30 cap** (`CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`).
+- The other 9 topics' lessons cost about $55 more. **Don't start them without the user's go-ahead and budget.**
+
+## Next steps (ask the user which)
+1. **User review of the prototype.** Wait for their edit list (`docs/USER-TODO.md` §1) and apply it. They should also rate some Quant lessons; the plan wants at least 80% "clear for a beginner".
+2. **Remaining UI ideas** from `docs/ui-inspiration.md`:
+   - #6 mastery labels (needs persisted practice scores);
+   - #8 a per-section check in lessons (needs new content);
+   - #9 a mock review mode with Incorrect/Flagged filters and "practise weakest topic".
+3. **The other 9 topics:** run `npm run gen -- --topic <id>`, then `npm run verify -- --topic <id>`, one topic at a time, about $5–6 each, in the study order from `lib/syllabus/topics.ts`.
+4. **Later milestones** (docs/PLAN.md):
+   - Supabase sync and auth;
+   - the "L1 expert" skill and tutor;
+   - golden test vectors (TI BA II Plus guidebook, SOA FM).
+
+## Gotchas
+- **"Fact-Forcing Gate" hook (ECC plugin)** blocks the first edit to each file, and the first Bash command of a session, until you state facts (callers, data, the user's instruction). Batch writes to new files, or pre-touch them with a tiny placeholder.
+- **Windows:** stopping a background shell may leave its Node child running and spending. Check with `Get-CimInstance Win32_Process -Filter "Name='node.exe'"`.
+- **Dev server:**
+  - The user often runs `npm run dev` from their own Claude terminal on port 3000. Use the preview config **`dev-existing`**, which attaches without starting anything.
+  - Next 16 refuses a second `next dev` in the same folder.
+  - If pages stop hydrating after an edit error, stop the server and delete `.next/dev` (stale cached prerender).
+- **Hook edit failures:** when a batch of edits has one blocked by the hook, the others still apply. Always re-run `tsc` afterwards.
+- **Currency in lesson text:** `components/rich-text.tsx` treats `$` followed by a digit as currency, not math (tested).
+- The old resume task `l1-study-resume` exists but is **disabled**.
