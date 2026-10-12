@@ -1,0 +1,806 @@
+{
+  "losId": "quant-07-los2",
+  "losText": "explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test; construct appropriate hypothesis tests; and interpret the results",
+  "moduleId": "quant-07",
+  "moduleTitle": "Estimation and Hypothesis Testing",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:04:38.242Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:introductory-business-statistics-2e:m55608:6",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§9.3 Probability Distribution Needed for Hypothesis Testing — A Systematic Approach for Testing a Hypothesis",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/9-3-probability-distribution-needed-for-hypothesis-testing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-data-science:m00028:1.3",
+      "title": "Principles of Data Science",
+      "locator": "§4.2 Hypothesis Testing — Testing Claims Based on One Sample",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-2-hypothesis-testing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-data-science:m00028:1.4",
+      "title": "Principles of Data Science",
+      "locator": "§4.2 Hypothesis Testing — Testing Claims Based on One Sample",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-2-hypothesis-testing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55703:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§12.1 Test of Two Variances — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/12-1-test-of-two-variances",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55700:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§11.6 Comparison of the Chi-Square Tests — Homework",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/11-6-comparison-of-the-chi-square-tests",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00029:1.4",
+      "title": "Principles of Data Science",
+      "locator": "§4.3 Correlation and Linear Regression Analysis — Scatterplots and Correlation",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55698:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§11.5 Test for Homogeneity — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/11-5-test-for-homogeneity",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:12:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 12–14",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55700:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§11.6 Comparison of the Chi-Square Tests — Comparison of the Chi-Square Tests",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/11-6-comparison-of-the-chi-square-tests",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00030:2.1",
+      "title": "Principles of Data Science",
+      "locator": "§4.4 Analysis of Variance (ANOVA) — Using Python for One-Way ANOVA",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-4-analysis-of-variance-anova",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00051:1.3",
+      "title": "Principles of Data Science",
+      "locator": "§8.3 Ethics in Visualization and Reporting — Accurate Representation",
+      "url": "https://openstax.org/books/principles-data-science/pages/8-3-ethics-in-visualization-and-reporting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55607:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§9.2 Outcomes and the Type I and Type II Errors — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/9-2-outcomes-and-the-type-i-and-type-ii-errors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Hypothesis Testing: Weighing Evidence from a Sample",
+      "summary": "Hypothesis testing is a disciplined way to decide whether sample data give enough evidence to overturn a default claim about a population. You need it to judge claims such as \"this manager adds value\" without being fooled by random noise, and to know how often each kind of wrong decision can occur.",
+      "sections": [
+        {
+          "heading": "The courtroom intuition",
+          "body_markdown": "A hypothesis test works like a trial. The defendant is presumed innocent, and the jury convicts only if the evidence is strong enough to be very unlikely under innocence. In statistics the presumption is the **null hypothesis** ($H_0$), the default claim, which always includes the equals sign (for example, the true mean return is zero, or at most zero). The **alternative hypothesis** ($H_a$) is what you are trying to find evidence for.\n\nA verdict is either *reject $H_0$* or *fail to reject $H_0$*. A \"not guilty\" verdict does not prove innocence, and failing to reject does not prove $H_0$ is true. It only says the sample was not convincing enough."
+        },
+        {
+          "heading": "The building blocks of a test",
+          "body_markdown": "1. **State the hypotheses.** Put the claim you want evidence for in $H_a$. A *two-tailed* test uses $H_a: \\mu \\neq \\mu_0$. A *one-tailed* test uses $H_a: \\mu > \\mu_0$ or $H_a: \\mu < \\mu_0$.\n2. **Choose the significance level $\\alpha$.** This is the largest probability of wrongly rejecting a true null that you will tolerate. Common choices are 10%, 5% and 1%.\n3. **Pick the test statistic and its distribution.** A test statistic converts the sample result into a standardized number, assuming $H_0$ is true. For a mean it is a $t$ or $z$ value.\n4. **Find the critical value(s).** These mark the **rejection region**, the tail area totalling $\\alpha$. In a two-tailed test $\\alpha$ is split between the two tails.\n5. **Compute the statistic and decide.** Reject $H_0$ if the statistic falls in the rejection region. Then state the conclusion in plain business words.\n\nThe **p-value** is the probability of getting a result at least as extreme as the one observed, *if $H_0$ were true*. The equivalent decision rule is: reject $H_0$ when p-value $\\le \\alpha$. A small p-value means the data would be surprising under $H_0$. It is **not** the probability that $H_0$ is true."
+        },
+        {
+          "heading": "Two ways to be wrong, and power",
+          "body_markdown": "Because the decision rests on a sample, it can be wrong in two ways:\n\n| | $H_0$ actually true | $H_0$ actually false |\n|---|---|---|\n| **Reject $H_0$** | **Type I error** (probability $\\alpha$) | Correct |\n| **Fail to reject $H_0$** | Correct | **Type II error** (probability $\\beta$) |\n\nThink of a smoke alarm. A **Type I error** is a false alarm (reject a true null). A **Type II error** is silence during a real fire (miss a false null).\n\nThe **power** of a test is $1-\\beta$, the probability of correctly rejecting a false null. Other things equal:\n- Lowering $\\alpha$ makes false alarms rarer but raises $\\beta$ and lowers power.\n- A larger sample shrinks the standard error, which raises power without changing $\\alpha$.\n- A true parameter farther from the hypothesized value is easier to detect, so power is higher."
+        },
+        {
+          "heading": "Choosing the right test statistic",
+          "body_markdown": "**Mean of one population.** If the population is (approximately) normal and its variance is unknown, use a $t$-test with $n-1$ degrees of freedom. If the population variance is known, use a $z$-test. With a large sample the $t$ and $z$ values are very close.\n\n**Variance.** To test whether a population variance equals a stated value, use a chi-square statistic. To test whether two population variances are equal, use an $F$-statistic, usually with the larger sample variance in the numerator so that $F \\ge 1$. Each sample has its own degrees of freedom, $n-1$.\n\n**Significance is not importance.** With a huge sample, a tiny and economically meaningless difference can be statistically significant. Always ask whether the effect is large enough to matter after costs and risk."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst has 36 monthly excess returns for a fund. The sample mean is 1.2% and the sample standard deviation is 3.0%. Returns are assumed approximately normal. At the 5% significance level, test whether the true mean excess return is greater than zero. The critical $t$-value for a one-tailed test at 5% with 35 degrees of freedom is 1.690.",
+        "steps": [
+          "Hypotheses: $H_0: \\mu \\le 0$ versus $H_a: \\mu > 0$. This is a one-tailed (right-tailed) test, because we want evidence of a positive mean.",
+          "Test statistic: the population variance is unknown, so use $t = \\dfrac{\\bar{x}-\\mu_0}{s/\\sqrt{n}}$ with $n-1 = 35$ degrees of freedom.",
+          "Standard error: $s/\\sqrt{n} = 3.0/\\sqrt{36} = 3.0/6 = 0.5\\%$. Calculator: 36, press $\\sqrt{x}$, giving 6. Then press $1/x$ to get 0.1667, then $\\times$ 3 $=$ 0.5.",
+          "Test statistic: $t = (1.2 - 0)/0.5$. Calculator: 1.2 $\\div$ 0.5 $=$ 2.4.",
+          "Compare with the critical value: reject $H_0$ if $t > 1.690$. Since $2.4 > 1.690$, the statistic is in the rejection region. The one-tailed p-value is roughly 0.011, below 0.05, which gives the same decision.",
+          "Conclusion: at the 5% level there is sufficient evidence that the fund's mean excess return is greater than zero. We still have a 5% maximum chance of a Type I error."
+        ],
+        "answer": "t = 2.4, which exceeds the critical value of 1.690, so reject H0. The sample supports a positive mean excess return at the 5% significance level.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "t-test statistic for a mean",
+          "latex": "t = \\frac{\\bar{x}-\\mu_0}{s/\\sqrt{n}}, \\quad df = n-1",
+          "where": "$\\bar{x}$ is the sample mean, $\\mu_0$ the hypothesized mean, $s$ the sample standard deviation, $n$ the sample size, $df$ the degrees of freedom. Use $z$ with $\\sigma/\\sqrt{n}$ if the population standard deviation $\\sigma$ is known."
+        },
+        {
+          "name": "Power of a test",
+          "latex": "\\text{Power} = 1-\\beta",
+          "where": "$\\beta$ is the probability of a Type II error (failing to reject a false null)."
+        },
+        {
+          "name": "Decision rule using the p-value",
+          "latex": "\\text{reject } H_0 \\text{ if } p\\text{-value} \\le \\alpha",
+          "where": "$p$-value is the probability, under $H_0$, of a result at least as extreme as observed; $\\alpha$ is the significance level (the Type I error probability you accept)."
+        },
+        {
+          "name": "Chi-square test of a single variance",
+          "latex": "\\chi^2 = \\frac{(n-1)s^2}{\\sigma_0^2}, \\quad df = n-1",
+          "where": "$s^2$ is the sample variance, $\\sigma_0^2$ the hypothesized population variance, $n$ the sample size."
+        },
+        {
+          "name": "F-test of two variances",
+          "latex": "F = \\frac{s_1^2}{s_2^2}, \\quad df = (n_1-1,\\, n_2-1)",
+          "where": "$s_1^2$ is the larger sample variance (numerator) and $s_2^2$ the smaller; $n_1$ and $n_2$ are the corresponding sample sizes."
+        }
+      ],
+      "exam_traps": [
+        "Saying \"accept the null\" or \"the null is proven\" after failing to reject. The correct statement is only that the evidence was insufficient to reject.",
+        "Mixing up the errors: Type I is rejecting a true null (probability $\\alpha$), and Type II is failing to reject a false null (probability $\\beta$). Power is $1-\\beta$, not $1-\\alpha$.",
+        "Reading the p-value as the probability that the null is true. It is the probability of data this extreme if the null were true.",
+        "Putting the claim you want to prove in the null, or choosing the wrong tail. The claim needing evidence goes in $H_a$, and a directional claim means a one-tailed test.",
+        "Using $n$ instead of $n-1$ degrees of freedom, or forgetting to split $\\alpha$ across two tails in a two-tailed test.",
+        "Treating statistical significance as proof of economic importance. A tiny effect can be significant in a very large sample."
+      ],
+      "builds_on": [
+        "Sampling distribution of the sample mean",
+        "Standard error",
+        "Confidence intervals",
+        "Normal and t-distributions"
+      ],
+      "leads_to": [
+        "Parametric vs non-parametric tests",
+        "Tests of correlation and regression coefficients",
+        "Multiple testing and data-mining bias"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m55607:0",
+        "os:principles-data-science:m00028:1.3",
+        "os:principles-data-science:m00028:1.4",
+        "os:introductory-business-statistics-2e:m55608:6",
+        "os:introductory-business-statistics-2e:m55703:0.1"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst tests H0: a manager's mean alpha is zero or negative, against Ha: mean alpha is positive. The test rejects H0 at the 5% level and the client hires the manager. In truth, the manager's true alpha is exactly zero. Which statement best describes the outcome?",
+        "options": [
+          {
+            "text": "A Type II error, because the manager's skill was missed",
+            "value": null,
+            "explanation": "Mistake: confusing the errors. A Type II error means failing to reject a false null. Here the null was rejected, so it cannot be a Type II error."
+          },
+          {
+            "text": "A Type I error, because a true null was rejected",
+            "value": null,
+            "explanation": "Correct. The null (alpha is zero or negative) was true, yet the test rejected it. Rejecting a true null is a Type I error, whose probability is at most $\\alpha$."
+          },
+          {
+            "text": "No error, because the rejection was at the chosen significance level",
+            "value": null,
+            "explanation": "Mistake: believing that a decision made at the 5% level cannot be wrong. The significance level only caps the chance of this error. It does not make a given rejection correct."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55607:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A researcher tests a hypothesis about a population mean using a sample of 40 observations at the 5% significance level. Which single change would, other things equal, increase the power of the test?",
+        "options": [
+          {
+            "text": "Increase the sample size to 160 and keep the 5% level",
+            "value": null,
+            "explanation": "Correct. A larger sample reduces the standard error, so a false null is easier to detect. $\\beta$ falls and power ($1-\\beta$) rises, with $\\alpha$ unchanged."
+          },
+          {
+            "text": "Lower the significance level to 1% and keep the sample at 40",
+            "value": null,
+            "explanation": "Mistake: thinking a stricter $\\alpha$ makes the test better overall. A smaller $\\alpha$ shrinks the rejection region, which raises $\\beta$ and lowers power."
+          },
+          {
+            "text": "Test against a null value much closer to the true mean",
+            "value": null,
+            "explanation": "Mistake: reversing the effect of distance. The closer the true parameter is to the hypothesized value, the harder the difference is to detect, so power falls."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55607:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A two-tailed test of H0: μ = 5 gives a p-value of 0.03, and the significance level is 5%. Which interpretation is correct?",
+        "options": [
+          {
+            "text": "The null has a 3% probability of being true, so reject it",
+            "value": null,
+            "explanation": "Mistake: reading the p-value as the probability that $H_0$ is true. It is calculated assuming $H_0$ is true, so it cannot be a probability about $H_0$ itself."
+          },
+          {
+            "text": "The Type II error probability is 3%, so do not reject the null",
+            "value": null,
+            "explanation": "Mistake: confusing the p-value with $\\beta$. The p-value is not an error probability for a decision, and 0.03 is below 0.05, which means reject."
+          },
+          {
+            "text": "If H0 were true, results this extreme would occur 3% of the time, so reject",
+            "value": null,
+            "explanation": "Correct. The p-value is the probability of a statistic at least this extreme if $H_0$ is true. Since $0.03 \\le 0.05$, reject $H_0$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00028:1.4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst wants statistical evidence that a strategy's mean excess return, μ, is positive. Which pair of hypotheses is set up correctly?",
+        "options": [
+          {
+            "text": "H0: μ > 0 versus Ha: μ ≤ 0",
+            "value": null,
+            "explanation": "Mistake: reversing the hypotheses. The null must contain the equals sign, and the claim to be supported belongs in the alternative."
+          },
+          {
+            "text": "H0: μ ≤ 0 versus Ha: μ > 0",
+            "value": null,
+            "explanation": "Correct. The claim needing evidence (positive mean) is the alternative, a one-tailed test. The null holds the equality and the opposite possibilities."
+          },
+          {
+            "text": "H0: μ = 0 versus Ha: μ ≠ 0",
+            "value": null,
+            "explanation": "Mistake: using a two-tailed test for a directional claim. This would also count evidence of a negative mean, which does not match the question asked."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55608:6"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst has 25 monthly returns from a population assumed to be approximately normal, with unknown population variance. She wants to test a hypothesis about the population mean. Which test statistic is appropriate?",
+        "options": [
+          {
+            "text": "A t-statistic with 25 degrees of freedom",
+            "value": null,
+            "explanation": "Mistake: using $n$ instead of $n-1$ for the degrees of freedom. One degree of freedom is lost by estimating the mean from the sample."
+          },
+          {
+            "text": "A z-statistic, because the sample exceeds 20 observations",
+            "value": null,
+            "explanation": "Mistake: using z when the population variance is unknown. With an unknown variance and a small sample, the $t$-distribution is appropriate."
+          },
+          {
+            "text": "A t-statistic with 24 degrees of freedom",
+            "value": null,
+            "explanation": "Correct. The population variance is unknown and must be estimated by $s$, so use $t$ with $n-1 = 24$ degrees of freedom."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a right-tailed test of H0: μ ≤ 0 using 25 observations at the 5% level, the calculated t-statistic is 1.45 and the critical value is 1.711. What is the appropriate conclusion?",
+        "options": [
+          {
+            "text": "Fail to reject H0; the evidence is not strong enough to conclude μ > 0",
+            "value": null,
+            "explanation": "Correct. The statistic 1.45 lies below the critical value of 1.711, so it is outside the rejection region. The sample does not provide sufficient evidence for $\\mu > 0$ at 5%."
+          },
+          {
+            "text": "Reject H0; the sample shows μ is positive with 95% certainty",
+            "value": null,
+            "explanation": "Mistake: rejecting even though 1.45 is less than 1.711. Also, a 5% significance level is not a statement of 95% certainty about the hypothesis."
+          },
+          {
+            "text": "Fail to reject H0; this proves that μ is zero or negative",
+            "value": null,
+            "explanation": "Mistake: treating failure to reject as proof. A non-rejection only means the evidence was insufficient, and the null is not established as true."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55608:6",
+          "os:principles-data-science:m00028:1.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst tests whether two return series have equal population variances. Series 1 has n = 21 and sample variance 36. Series 2 has n = 31 and sample variance 16. Using the convention of placing the larger sample variance in the numerator, which F-statistic and degrees of freedom are correct?",
+        "options": [
+          {
+            "text": "F = 0.44 with degrees of freedom (30, 20)",
+            "value": null,
+            "explanation": "Mistake: putting the smaller variance on top, which gives a ratio below 1 and breaks the usual convention of a ratio of at least 1 for the critical value table."
+          },
+          {
+            "text": "F = 2.25 with degrees of freedom (20, 30)",
+            "value": null,
+            "explanation": "Correct. $F = 36/16 = 2.25$, with numerator df $= 21-1 = 20$ and denominator df $= 31-1 = 30$."
+          },
+          {
+            "text": "F = 2.25 with degrees of freedom (21, 31)",
+            "value": null,
+            "explanation": "Mistake: using the sample sizes as degrees of freedom. Each sample loses one degree of freedom, so df is $n-1$ for each."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55703:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are a Type I error and a Type II error, and what probability symbol goes with each?",
+        "back": "Type I: rejecting a true null hypothesis, probability α. Type II: failing to reject a false null hypothesis, probability β.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55607:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the power of a test, and what raises it?",
+        "back": "Power = 1 − β, the probability of correctly rejecting a false null. It rises with a larger sample, a larger α, and a true parameter farther from the hypothesized value.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55607:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What does a p-value measure, and what is the decision rule?",
+        "back": "The probability, assuming H0 is true, of a test statistic at least as extreme as the one observed. Reject H0 if p-value ≤ α.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00028:1.4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "After a test fails to reject H0, why can't you say H0 is true?",
+        "back": "The sample may simply lack enough evidence (possibly a Type II error). Failing to reject means the data were compatible with H0, not that H0 is proven.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00028:1.3",
+          "os:introductory-business-statistics-2e:m55608:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What is the t-statistic for a single mean, and what are its degrees of freedom?",
+        "back": "t = (sample mean − hypothesized mean) / (s/√n), with n − 1 degrees of freedom.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/6 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T07:04:30.179Z",
+      "purpose": "blind-solve",
+      "losId": "quant-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 915,
+      "outputTokens": 478,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006727,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:04:38.242Z",
+      "purpose": "grounding",
+      "losId": "quant-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12410,
+      "outputTokens": 1119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0361714,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0428984
+}

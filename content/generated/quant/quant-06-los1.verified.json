@@ -1,0 +1,947 @@
+{
+  "losId": "quant-06-los1",
+  "losText": "calculate, interpret, and evaluate unconditional expected values for mean, variance, and covariance",
+  "moduleId": "quant-06",
+  "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:02:57.264Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:168:160",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 168–169",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=168",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:171:163",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=171",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:17",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 15",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:18",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:3:3",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 3–4",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=3",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:14:16",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 14",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=14",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:170:162",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 170–171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=170",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:11:12",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 11",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00082:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§13.5 Probability Distributions — Calculate and Interpret Expected Values",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-5-probability-distributions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Averages, Spread and Co-movement of Uncertain Returns",
+      "summary": "Before you can describe how a return behaves, you need three numbers computed from its full set of possible outcomes: its probability-weighted average, how widely it scatters around that average, and how it moves together with another return. These three ideas are the raw material for portfolio risk, diversification and nearly everything later in the quantitative section.",
+      "sections": [
+        {
+          "heading": "Expected value: a weighted average where probabilities are the weights",
+          "body_markdown": "A **random variable** is a quantity whose value is not known in advance, such as next year's return on a stock. A **probability distribution** lists the possible values and how likely each one is. A **scenario** is one row of that list.\n\nThe **expected value** (mean) is the probability-weighted average of the outcomes. Think of a course grade: if the exam counts 60% and the homework 40%, you multiply each score by its weight and add. Expected value works the same way, with probabilities in the role of weights.\n\n$$E[X]=\\sum_i p_i x_i$$\n\nThe probabilities must add to 1. The expected value is not necessarily a value that can actually occur, and it is not the most likely outcome. It is the long-run balancing point.\n\nThe word **unconditional** means the average is taken over the whole distribution with no extra information about which scenario is in play. Averages that use extra information come in the next LOS. Here we only use the full, unconditional picture."
+        },
+        {
+          "heading": "Variance and standard deviation: the typical size of the surprise",
+          "body_markdown": "Knowing the average is not enough. Two stocks can both have an expected return of 6% while one is nearly always close to 6% and the other swings from -20% to +30%.\n\n**Variance** measures that scatter. For each scenario, take the distance from the mean, square it (so that misses above and below do not cancel), and then take the probability-weighted average of those squares.\n\n$$\\sigma_X^2=\\sum_i p_i\\,(x_i-E[X])^2$$\n\nThe **standard deviation** $\\sigma_X$ is the square root of the variance. It is in the same units as the return, so it is easier to interpret. Variance is in squared units: a return in percent gives variance in percent squared, and 94.44 (%²) is the same as 0.009444 in decimals.\n\nA useful shortcut is $\\sigma_X^2=E[X^2]-(E[X])^2$. It gives the same answer as the definition, so use it as a cross-check.\n\nWhen the scenarios are given with probabilities, you are describing the whole distribution, so you do not divide by $n-1$. The $n-1$ version belongs to estimating variance from a sample of past observations."
+        },
+        {
+          "heading": "Covariance and correlation: how two things move together",
+          "body_markdown": "**Covariance** measures whether two random variables tend to be above their means at the same time. For each scenario, multiply the two deviations from the means, then take the probability-weighted average.\n\n$$\\text{Cov}(X,Y)=\\sum_i p_i\\,(x_i-E[X])(y_i-E[Y])$$\n\n- Positive: the two tend to be high together and low together.\n- Negative: when one is high, the other tends to be low.\n- Near zero: no linear tendency.\n\nTwo facts matter on the exam. First, $\\text{Cov}(X,X)=\\text{Var}(X)$, because a variable moves perfectly with itself. Second, the size of a covariance depends on the units of the variables, so it is hard to read on its own.\n\nTo get a unit-free measure, divide by both standard deviations. This gives the **correlation**, which always lies between -1 and +1.\n\n$$\\rho_{XY}=\\frac{\\text{Cov}(X,Y)}{\\sigma_X\\sigma_Y}$$\n\nIndependent variables have zero covariance. The reverse is not guaranteed: two variables can have zero covariance and still be related in a non-linear way."
+        },
+        {
+          "heading": "Putting it together: combining assets into a portfolio",
+          "body_markdown": "A portfolio return is a weighted sum of the asset returns, $R_p=w_1R_1+w_2R_2$ with weights adding to 1. Expectations pass straight through the weights, but variances do not.\n\n$$E[R_p]=w_1E[R_1]+w_2E[R_2]$$\n\n$$\\text{Var}(R_p)=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\,\\text{Cov}(R_1,R_2)$$\n\nThe expected return is a plain weighted average. The risk is not, because of the covariance term. A lower correlation means a lower portfolio standard deviation, and unless the correlation is exactly +1, the portfolio's standard deviation is less than the weighted average of the individual standard deviations. That gap is the benefit of diversification.\n\nWith $n$ assets, the variance has $n$ variance terms but $n^2-n$ covariance terms, so for a large portfolio the co-movements matter more than the individual variances.\n\nThe same logic gives the rules for a single variable: $E[aX+b]=aE[X]+b$ and $\\text{Var}(aX+b)=a^2\\text{Var}(X)$. Adding a constant shifts the mean but does not change the spread."
+        }
+      ],
+      "worked_example": {
+        "problem": "Next year's returns on stocks A and B depend on three economic scenarios. Scenario 1 has probability 0.30: A returns 18% and B returns 2%. Scenario 2 has probability 0.50: A returns 8% and B returns 5%. Scenario 3 has probability 0.20: A returns -10% and B returns 14%. Find E[A], E[B], Var(A), Cov(A,B) and the correlation.",
+        "steps": [
+          "Expected return of A: 0.30(18) + 0.50(8) + 0.20(-10) = 5.4 + 4.0 - 2.0 = 7.4%.",
+          "Expected return of B: 0.30(2) + 0.50(5) + 0.20(14) = 0.6 + 2.5 + 2.8 = 5.9%.",
+          "Deviations of A from its mean: 18-7.4 = 10.6; 8-7.4 = 0.6; -10-7.4 = -17.4.",
+          "Var(A) = 0.30(10.6²) + 0.50(0.6²) + 0.20(17.4²) = 33.708 + 0.18 + 60.552 = 94.44 (%²), which is 0.009444 in decimals. So σ_A = √94.44 ≈ 9.72%.",
+          "Deviations of B from its mean: 2-5.9 = -3.9; 5-5.9 = -0.9; 14-5.9 = 8.1. Var(B) = 0.30(15.21) + 0.50(0.81) + 0.20(65.61) = 18.09 (%²), so σ_B ≈ 4.25%.",
+          "Cov(A,B) = 0.30(10.6)(-3.9) + 0.50(0.6)(-0.9) + 0.20(-17.4)(8.1) = -12.402 - 0.27 - 28.188 = -40.86 (%²) = -0.004086 in decimals.",
+          "Correlation = -40.86 / (9.718 × 4.253) ≈ -40.86 / 41.33 ≈ -0.99.",
+          "Cross-check with the shortcut: E[AB] = 0.30(36) + 0.50(40) + 0.20(-140) = 2.8, and E[A]E[B] = 7.4 × 5.9 = 43.66, so Cov = 2.8 - 43.66 = -40.86. ✓",
+          "Calculator tip (BA II Plus): when probabilities are multiples of 0.1, treat them as frequencies out of 10. Press 2ND DATA, then 2ND CLR WRK to clear. Enter X01 = 18 with Y01 = 3, X02 = 8 with Y02 = 5, X03 = -10 with Y03 = 2. Then press 2ND STAT and set the mode to 1-V. Read x̄ = 7.4 and the population standard deviation σx ≈ 9.72 (use σx, not Sx)."
+        ],
+        "answer": "E[A] = 7.4%, E[B] = 5.9%, Var(A) = 94.44 (%²) = 0.009444, Cov(A,B) = -40.86 (%²) = -0.004086, correlation ≈ -0.99. The two stocks move almost exactly opposite to each other.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Expected value",
+          "latex": "E[X]=\\sum_{i=1}^{n}p_i x_i",
+          "where": "$x_i$ is the outcome in scenario $i$, $p_i$ its probability (the $p_i$ sum to 1), $n$ the number of scenarios."
+        },
+        {
+          "name": "Variance",
+          "latex": "\\sigma_X^2=\\sum_{i=1}^{n}p_i\\,(x_i-E[X])^2=E[X^2]-(E[X])^2",
+          "where": "$\\sigma_X^2$ is the variance of $X$; $E[X]$ is its expected value; $p_i$ and $x_i$ are as above."
+        },
+        {
+          "name": "Covariance",
+          "latex": "\\text{Cov}(X,Y)=\\sum_{i=1}^{n}p_i\\,(x_i-E[X])(y_i-E[Y])=E[XY]-E[X]E[Y]",
+          "where": "$x_i$ and $y_i$ are the outcomes of $X$ and $Y$ in the same scenario $i$ with probability $p_i$."
+        },
+        {
+          "name": "Correlation",
+          "latex": "\\rho_{XY}=\\frac{\\text{Cov}(X,Y)}{\\sigma_X\\,\\sigma_Y}",
+          "where": "$\\sigma_X$ and $\\sigma_Y$ are the standard deviations of $X$ and $Y$; $\\rho_{XY}$ lies between -1 and +1."
+        },
+        {
+          "name": "Expected value of a linear combination",
+          "latex": "E[aX+bY]=aE[X]+bE[Y]",
+          "where": "$a$ and $b$ are constants (for example portfolio weights); $X$ and $Y$ are random variables."
+        },
+        {
+          "name": "Variance of a weighted sum of two variables",
+          "latex": "\\text{Var}(aX+bY)=a^2\\sigma_X^2+b^2\\sigma_Y^2+2ab\\,\\text{Cov}(X,Y)",
+          "where": "$a$, $b$ are constants; $\\sigma_X^2$, $\\sigma_Y^2$ are the variances; Cov is the covariance of $X$ and $Y$."
+        },
+        {
+          "name": "Variance after a linear transformation",
+          "latex": "\\text{Var}(aX+b)=a^2\\,\\text{Var}(X)",
+          "where": "$a$ is a constant multiplier, $b$ a constant shift (which has no effect on variance)."
+        }
+      ],
+      "exam_traps": [
+        "Using a simple average of the outcomes when the scenarios have unequal probabilities. The probabilities are the weights.",
+        "Dropping the factor 2 on the covariance term in the two-asset portfolio variance formula, or leaving covariance out entirely.",
+        "Thinking covariance must lie between -1 and +1. That bound belongs to correlation. Covariance can be any size and depends on the units.",
+        "Treating zero covariance as proof of independence. Independence implies zero covariance, but not the other way round.",
+        "Mixing units: reading a variance of 94.44 (%²) as 94.44% or 0.9444, or dividing by $n-1$ when the problem gives the complete scenario distribution.",
+        "Adding a constant to the variance (or forgetting to square the multiplier) when transforming a variable: $\\text{Var}(aX+b)=a^2\\text{Var}(X)$."
+      ],
+      "builds_on": [
+        "Probability and weighted averages",
+        "Holding period return",
+        "Descriptive statistics (mean, standard deviation)"
+      ],
+      "leads_to": [
+        "Conditional expectations, variances and covariances",
+        "Bayesian updating",
+        "Portfolio risk and diversification",
+        "Moments of the normal and other distributions"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00082:1",
+        "mit-ocw-15401-lec13:13:3",
+        "mit-ocw-15401-lec13:23:5"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst lists every scenario for a stock's return next year together with its probability. Which description matches the unconditional expected return computed from that list?",
+        "options": [
+          {
+            "text": "Each scenario's return multiplied by its probability, then summed",
+            "value": null,
+            "explanation": "Correct. Expected value is a probability-weighted average of all outcomes."
+          },
+          {
+            "text": "The return of the single scenario with the highest probability",
+            "value": null,
+            "explanation": "This confuses the mean with the mode (most likely outcome). The expected value uses every scenario, weighted by probability."
+          },
+          {
+            "text": "The simple average of the returns, ignoring the probabilities",
+            "value": null,
+            "explanation": "This treats every scenario as equally likely. It is only valid when all probabilities are equal."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00082:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock has four equally likely return scenarios for the coming year: 10%, 4%, -2% and 12%. What is its expected return? Give your answer to one decimal place.",
+        "options": [
+          {
+            "text": "7.0%",
+            "value": 0.07,
+            "explanation": "This is the median (the average of the middle two values, 4% and 10%), not the mean. Expected value uses every outcome."
+          },
+          {
+            "text": "6.0%",
+            "value": 0.06,
+            "explanation": "Correct. With equal probabilities of 0.25 each: (10 + 4 - 2 + 12)/4 = 24/4 = 6.0%."
+          },
+          {
+            "text": "8.0%",
+            "value": 0.08,
+            "explanation": "This divides the total of 24% by 3 instead of 4, effectively dropping a scenario when counting."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.10,0.04,-0.02,0.12]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00082:1"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): (10+4-2+12)/4 = 24/4 = 6.0%. That is option B, so the answer index is 1, not 0.\n"
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose A again: (10+4-2+12)/4 = 24/4 = 6.0%. Rechecking: 10+4=14, 14-2=12, 12+12=24, 24/4=6.0%, so the answer is B.. Correcting index: 6.0% is option B. (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A stock has three return scenarios: -4% with probability 0.20, 6% with probability 0.50, and 14% with probability 0.30. What is the expected return, rounded to one decimal place?",
+        "options": [
+          {
+            "text": "5.3%",
+            "value": null,
+            "explanation": "This is the simple average (-4 + 6 + 14)/3, which ignores the unequal probabilities."
+          },
+          {
+            "text": "8.0%",
+            "value": null,
+            "explanation": "This is a sign error: the -4% outcome was weighted as +4%, giving 0.8 + 3.0 + 4.2 = 8.0."
+          },
+          {
+            "text": "6.4%",
+            "value": null,
+            "explanation": "Correct. 0.20(-4) + 0.50(6) + 0.30(14) = -0.8 + 3.0 + 4.2 = 6.4%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00082:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An asset's return has four equally likely outcomes, which together make up its complete distribution: 2%, 6%, 10% and 14%. What is the variance of the return, expressed in decimals (for example 0.0050) and rounded to four decimal places?",
+        "options": [
+          {
+            "text": "0.0080",
+            "value": 0.008,
+            "explanation": "This is the sum of the squared deviations (0.0036 + 0.0004 + 0.0004 + 0.0036) without dividing by the number of outcomes."
+          },
+          {
+            "text": "0.0020",
+            "value": 0.002,
+            "explanation": "Correct. The mean is 8%. The squared deviations sum to 0.0080, and dividing by 4 (the full distribution) gives 0.0020."
+          },
+          {
+            "text": "0.0027",
+            "value": 0.0027,
+            "explanation": "This divides by n - 1 = 3, the sample-estimate formula, although the four outcomes are the complete distribution."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[0.02,0.06,0.10,0.14],\"basis\":\"population\"}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose A again: Mean = 8%. Squared deviations: 36, 4, 4, 36 (in %^2) sum to 80; divided by 4 (full population) = 20 %^2 = 0.0020. So B. (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio holds 60% in asset 1 (standard deviation 20%) and 40% in asset 2 (standard deviation 10%). The correlation between the two assets' returns is 0.30. What is the portfolio standard deviation, rounded to two decimal places in percent?",
+        "options": [
+          {
+            "text": "13.74%",
+            "value": 0.1374,
+            "explanation": "Correct. Variance = 0.36(0.04) + 0.16(0.01) + 2(0.6)(0.4)(0.3)(0.2)(0.1) = 0.0144 + 0.0016 + 0.00288 = 0.01888; the square root is about 13.74%."
+          },
+          {
+            "text": "16.00%",
+            "value": 0.16,
+            "explanation": "This is the weighted average of the standard deviations (0.6 × 20 + 0.4 × 10). It ignores diversification, so it would only be right if the correlation were +1."
+          },
+          {
+            "text": "13.21%",
+            "value": 0.1321,
+            "explanation": "This omits the factor 2 on the covariance term, giving variance 0.01744 instead of 0.01888."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.3}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose C again: Var = 0.36*400 + 0.16*100 + 2*0.6*0.4*0.3*20*10 = 144 + 16 + 28.8 = 188.8; sqrt = 13.74%. So A. (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about covariance is correct?",
+        "options": [
+          {
+            "text": "Covariance between two assets always lies between -1 and +1",
+            "value": null,
+            "explanation": "This describes correlation. Covariance is not bounded and depends on the units of the two variables."
+          },
+          {
+            "text": "The covariance of a variable with itself equals its variance",
+            "value": null,
+            "explanation": "Correct. Cov(X,X) = E[(X - E[X])²], which is exactly the definition of variance."
+          },
+          {
+            "text": "A covariance of zero guarantees that two variables are independent",
+            "value": null,
+            "explanation": "Independence implies zero covariance, but zero covariance only rules out a linear relationship. Non-linear dependence can remain."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two returns have variances Var(X) = 0.04 and Var(Y) = 0.09, and their covariance is -0.01. What is Var(X + Y)?",
+        "options": [
+          {
+            "text": "0.13",
+            "value": null,
+            "explanation": "This simply adds the two variances and ignores the covariance term, which is only valid when the covariance is zero."
+          },
+          {
+            "text": "0.12",
+            "value": null,
+            "explanation": "This adds the covariance once instead of twice. The formula has 2·Cov(X,Y)."
+          },
+          {
+            "text": "0.11",
+            "value": null,
+            "explanation": "Correct. Var(X+Y) = 0.04 + 0.09 + 2(-0.01) = 0.11. The negative covariance reduces the combined variance."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A random variable X has a variance of 4. A new variable is defined as Y = 3X + 2. What is the variance of Y?",
+        "options": [
+          {
+            "text": "36",
+            "value": null,
+            "explanation": "Correct. Var(aX + b) = a²·Var(X) = 9 × 4 = 36. The constant 2 shifts the mean but does not affect the spread."
+          },
+          {
+            "text": "12",
+            "value": null,
+            "explanation": "This multiplies the variance by 3 instead of by 3² = 9. A multiplier is squared when it passes through a variance."
+          },
+          {
+            "text": "38",
+            "value": null,
+            "explanation": "This adds the constant 2 to the scaled variance (36 + 2). Adding a constant to a variable does not change its variance."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How do you compute an expected value from a probability distribution?",
+        "back": "Multiply each outcome by its probability and add up the products: $E[X]=\\sum p_i x_i$. It is a weighted average with probabilities as the weights.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00082:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the formula for variance of a distribution, and what units does it have?",
+        "back": "$\\sigma^2=\\sum p_i(x_i-E[X])^2=E[X^2]-(E[X])^2$. Its units are the squared units of the variable, so take the square root to get the standard deviation.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Covariance versus correlation: what is the difference?",
+        "back": "Covariance is the probability-weighted product of deviations and depends on units, with no fixed bounds. Correlation is Cov divided by $\\sigma_X\\sigma_Y$ and always lies between -1 and +1.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the variance of a two-asset portfolio with weights $w_1$ and $w_2$?",
+        "back": "$w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\,\\text{Cov}_{12}$. A lower covariance (or correlation) lowers portfolio risk, which is the benefit of diversification.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Does zero covariance mean two variables are independent?",
+        "back": "No. Independent variables have zero covariance, but zero covariance only rules out a linear relationship, so non-linear dependence can still exist.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:02:23.218Z",
+      "purpose": "blind-solve",
+      "losId": "quant-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 796,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003089,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:02:45.731Z",
+      "purpose": "repair",
+      "losId": "quant-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13075,
+      "outputTokens": 3918,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4628,
+      "costUsd": 0.06625560000000001,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:02:50.089Z",
+      "purpose": "blind-solve",
+      "losId": "quant-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 680,
+      "outputTokens": 604,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007517,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:02:57.263Z",
+      "purpose": "grounding",
+      "losId": "quant-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14538,
+      "outputTokens": 1137,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0406074,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.117469
+}

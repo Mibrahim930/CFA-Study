@@ -1,0 +1,437 @@
+{
+  "losId": "quant-06-los4",
+  "losText": "formulate investment problems through Bayesian updating",
+  "moduleId": "quant-06",
+  "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:38:22.641Z",
+  "retrieved": [
+    {
+      "id": "cfa-rf-ai-bigdata:74:115",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "p. 74",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=74",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-data-science:m00059:2",
+      "title": "Principles of Data Science",
+      "locator": "§10.3 Effective Executive Summaries — Presenting Actionable Advice",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-3-effective-executive-summaries",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:11:7",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 11–12",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-data-science:m00058:3.2",
+      "title": "Principles of Data Science",
+      "locator": "§10.2 Validating Your Model — Accuracy and Error",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-2-validating-your-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-data-science:m00041:2",
+      "title": "Principles of Data Science",
+      "locator": "§6.5 Other Machine Learning Techniques — Multinomial Naïve Bayes Classifiers",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-5-other-machine-learning-techniques",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00028:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§4.4 When Should a Company Capitalize or Expense an Item? — What Is Depreciation?",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/4-4-when-should-a-company-capitalize-or-expense-an-item",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00024:2.3",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00044:0",
+      "title": "Principles of Data Science",
+      "locator": "§7.2 Backpropagation — Overview",
+      "url": "https://openstax.org/books/principles-data-science/pages/7-2-backpropagation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00024:2.5",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00024:2",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00115:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.3 Pro Forma Financials — Determine Potential Changes in Variables",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-3-pro-forma-financials",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00024:2.4",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Bayesian Updating for Investment Decisions",
+      "summary": "Bayesian updating is a disciplined way to revise the probability of a scenario (for example, a manager being skilled or the economy heading into recession) after you see new evidence. It matters because investment evidence is noisy, and ignoring starting probabilities leads to badly overconfident conclusions.",
+      "sections": [
+        {
+          "heading": "Start with a belief, then let evidence move it",
+          "body_markdown": "Think about carrying an umbrella. If you live in a desert city, you start with a very low belief that it will rain. Seeing a few dark clouds raises that belief, but not to certainty. If you live in a rainy city, the same clouds push you much higher because you started higher.\n\nBayesian updating formalises this.\n\n- **Prior probability**: your probability for a scenario *before* seeing the new evidence.\n- **Evidence**: the new observation, such as a positive earnings surprise, a flagged accounting screen or a year of outperformance.\n- **Likelihood**: how probable that evidence is *if a particular scenario is true*.\n- **Posterior probability**: your revised probability for the scenario *after* the evidence.\n\nThe posterior depends on both the starting belief and how well the evidence discriminates between scenarios.\n\nThe passages show this with medical screening. A test that catches 75% of true cases but also fires for 15% of healthy people leaves a positive patient with only about a 13% chance of having the disease, because the disease is rare to begin with."
+        },
+        {
+          "heading": "The mechanics: Bayes' theorem",
+          "body_markdown": "Let $A$ be the scenario you care about and $B$ the evidence. Bayes' theorem says\n\n$$P(A\\mid B)=\\frac{P(B\\mid A)\\,P(A)}{P(B)}$$\n\nThe denominator $P(B)$ is the overall chance of seeing the evidence under *any* scenario. You build it by weighting each scenario's likelihood by its prior and adding:\n\n$$P(B)=\\sum_i P(B\\mid A_i)\\,P(A_i)$$\n\nA simple way to organise the work is a three-column table with one row per scenario:\n\n1. Prior $P(A_i)$.\n2. Likelihood $P(B\\mid A_i)$.\n3. Prior × likelihood, then divide each product by the column total to get the posterior.\n\nThe posteriors across all scenarios add to 1. The likelihoods do not have to add to 1, because each one answers a separate question about a different scenario."
+        },
+        {
+          "heading": "Formulating an investment problem in Bayesian terms",
+          "body_markdown": "Most of the exam skill is setting the problem up correctly. Ask four questions:\n\n- **What are the scenarios?** They must be mutually exclusive and cover all possibilities, for example skilled or unskilled manager, or recession / normal / expansion.\n- **What is the prior for each?** Use base rates, such as how common skilled managers are in the universe or how often recessions occur. The priors must sum to 1.\n- **What is the evidence?** It should be one clear observation, such as a fund beating its benchmark this year.\n- **What is the probability of that evidence under each scenario?** These are the likelihoods.\n\nThen compute the posterior. A classic investment example is judging manager skill. Even a skilled manager beats the benchmark only some of the time, and an unskilled manager beats it by luck quite often. One good year therefore moves your belief only modestly."
+        },
+        {
+          "heading": "Updating repeatedly, and why priors matter",
+          "body_markdown": "Updating can be done in stages. Today's posterior becomes tomorrow's prior when the next piece of evidence arrives. If the observations are independent given the scenario, updating one at a time gives the same answer as updating once with the combined likelihood.\n\nA handy shortcut is the **odds form**. Odds are $P/(1-P)$, and the *likelihood ratio* is the likelihood of the evidence under one scenario divided by its likelihood under the other:\n\n$$\\text{posterior odds}=\\text{prior odds}\\times\\frac{P(B\\mid A)}{P(B\\mid A')}$$\n\nTwo analysts who see the same evidence but start with different priors will end with different posteriors. The one with the higher prior ends higher, although repeated strong evidence pulls them closer together.\n\nThe most common error is **base-rate neglect**: treating $P(B\\mid A)$ as if it were $P(A\\mid B)$. A test that catches 90% of fraud does not mean 90% of flagged firms are fraudulent. If fraud is rare, most flags are false alarms."
+        }
+      ],
+      "worked_example": {
+        "problem": "In a universe of fund managers, 10% are skilled and 90% are unskilled. In any one year, a skilled manager beats the benchmark with probability 0.70 and an unskilled manager does so with probability 0.40. Years are independent given the manager's type. A manager beats the benchmark in year 1 and again in year 2. What is the probability the manager is skilled (a) after year 1 and (b) after both years? Round to one decimal place in percent.",
+        "steps": [
+          "Define scenarios: S = skilled (prior 0.10), U = unskilled (prior 0.90). Evidence B1 = beat the benchmark in year 1.",
+          "Prior × likelihood for S: 0.10 × 0.70 = 0.07. Calculator: 0.1 × 0.7 =.",
+          "Prior × likelihood for U: 0.90 × 0.40 = 0.36. Calculator: 0.9 × 0.4 =.",
+          "Total probability of the evidence: P(B1) = 0.07 + 0.36 = 0.43.",
+          "Posterior after year 1: 0.07 ÷ 0.43 = 0.1628, about 16.3%. Calculator: 0.07 ÷ 0.43 =.",
+          "Year 2: the posterior from year 1 is the new prior. Skilled = 0.1628, unskilled = 0.8372.",
+          "New products: 0.1628 × 0.70 = 0.1140 and 0.8372 × 0.40 = 0.3349. Their sum is 0.4488.",
+          "Posterior after year 2: 0.1140 ÷ 0.4488 = 0.2539, about 25.4%.",
+          "Check by combining both years at once: 0.10 × 0.7² = 0.049 and 0.90 × 0.4² = 0.144, so 0.049 ÷ 0.193 = 0.2539."
+        ],
+        "answer": "After year 1 the probability of skill is about 16.3%. After two straight years of outperformance it is about 25.4%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Bayes' theorem (total-probability form)",
+          "latex": "P(A\\mid B)=\\frac{P(B\\mid A)\\,P(A)}{P(B\\mid A)\\,P(A)+P(B\\mid A')\\,P(A')}",
+          "where": "A = scenario of interest; A' = its complement; B = observed evidence; P(A) = prior; P(B|A) = likelihood of the evidence if A is true; P(A|B) = posterior."
+        },
+        {
+          "name": "Total probability of the evidence",
+          "latex": "P(B)=\\sum_{i} P(B\\mid A_i)\\,P(A_i)",
+          "where": "A_i = mutually exclusive, exhaustive scenarios; P(A_i) = prior of scenario i; P(B|A_i) = likelihood of the evidence under scenario i."
+        },
+        {
+          "name": "Odds form of Bayes' theorem",
+          "latex": "\\frac{P(A\\mid B)}{P(A'\\mid B)}=\\frac{P(A)}{P(A')}\\times\\frac{P(B\\mid A)}{P(B\\mid A')}",
+          "where": "The left side is the posterior odds; P(A)/P(A') is the prior odds; the last fraction is the likelihood ratio of the evidence."
+        }
+      ],
+      "exam_traps": [
+        "Confusing P(evidence | scenario) with P(scenario | evidence). A 90% detection rate does not mean a 90% chance that a flagged item is a true positive.",
+        "Ignoring the prior (base rate). When the scenario is rare, even fairly accurate evidence leaves a low posterior.",
+        "Leaving out a scenario's branch in the denominator, so the posterior is computed against too small a total.",
+        "When updating in stages, reusing the original prior for the second observation instead of the first posterior, which discards the first piece of evidence.",
+        "Expecting likelihoods across scenarios to add to 1. Priors and posteriors add to 1, but likelihoods need not."
+      ],
+      "builds_on": [
+        "Conditional probability",
+        "Total probability rule",
+        "Mutually exclusive and exhaustive events",
+        "Scenario analysis"
+      ],
+      "leads_to": [
+        "Probabilistic classification (naive Bayes)",
+        "Bayesian versus frequentist estimation",
+        "Judging manager skill from track records",
+        "Forecast revision with new information"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-data-science:m00024:2",
+        "os:principles-data-science:m00024:2.4",
+        "os:principles-data-science:m00024:2.5",
+        "os:principles-data-science:m00041:2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In Bayesian updating, which description fits the prior probability of a scenario?",
+        "options": [
+          {
+            "text": "The probability assigned to a scenario before the new evidence is considered",
+            "value": null,
+            "explanation": "Correct. The prior is the starting belief, usually based on base rates, before the evidence is incorporated."
+          },
+          {
+            "text": "The probability of seeing the evidence if a given scenario is true",
+            "value": null,
+            "explanation": "This describes the likelihood, P(evidence | scenario), not the prior."
+          },
+          {
+            "text": "The revised probability of a scenario after the evidence is incorporated",
+            "value": null,
+            "explanation": "This describes the posterior, which is the output of updating rather than the input."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00041:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst believes a firm is in a \"strong\" state with probability 0.40 and a \"weak\" state with probability 0.60. A positive earnings surprise occurs with probability 0.80 if the firm is strong and 0.30 if it is weak. The firm reports a positive surprise. What is the posterior probability that it is strong, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.73",
+            "value": null,
+            "explanation": "This is 0.80 ÷ (0.80 + 0.30). It ignores the priors and treats the two states as equally likely."
+          },
+          {
+            "text": "0.64",
+            "value": null,
+            "explanation": "Correct. Strong: 0.40 × 0.80 = 0.32. Weak: 0.60 × 0.30 = 0.18. Total = 0.50, so the posterior is 0.32 ÷ 0.50 = 0.64."
+          },
+          {
+            "text": "0.32",
+            "value": null,
+            "explanation": "This is only the numerator, prior × likelihood. It was not divided by the total probability of the evidence (0.50)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two percent of firms in a universe commit accounting fraud. A screening model flags 90% of fraudulent firms and also flags 10% of honest firms. A randomly chosen firm is flagged. What is the probability that it is fraudulent, rounded to one decimal place in percent?",
+        "options": [
+          {
+            "text": "90.0%",
+            "value": null,
+            "explanation": "This confuses P(flag | fraud) with P(fraud | flag) and ignores how rare fraud is."
+          },
+          {
+            "text": "18.4%",
+            "value": null,
+            "explanation": "This is 0.018 ÷ 0.098. The denominator leaves out the fraud branch and counts only the honest-firm flags."
+          },
+          {
+            "text": "15.5%",
+            "value": null,
+            "explanation": "Correct. Fraud: 0.02 × 0.90 = 0.018. Honest: 0.98 × 0.10 = 0.098. Total = 0.116, so the posterior is 0.018 ÷ 0.116 = 15.5%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4",
+          "os:principles-data-science:m00024:2.5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In Bayes' theorem, what does the denominator P(B) represent when there are several possible scenarios?",
+        "options": [
+          {
+            "text": "The unconditional probability of the evidence, found by adding likelihood × prior across all scenarios",
+            "value": null,
+            "explanation": "Correct. P(B) = Σ P(B | Ai) P(Ai). It scales the numerator so the posteriors add to 1."
+          },
+          {
+            "text": "The probability of the evidence given only the scenario being tested",
+            "value": null,
+            "explanation": "This is a single likelihood. Using it as the denominator ignores the other scenarios that could also produce the evidence."
+          },
+          {
+            "text": "The probability of the scenario being tested after the evidence is seen",
+            "value": null,
+            "explanation": "This is the posterior, the result of the formula, not its denominator."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The prior probability that a fund manager is skilled is 0.20. A skilled manager beats the benchmark each year with probability 0.75 and an unskilled manager with probability 0.50. Years are independent given the manager's type. The manager beats the benchmark in two consecutive years. What is the posterior probability of skill, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.27",
+            "value": null,
+            "explanation": "This updates for only one year of outperformance: 0.15 ÷ 0.55 = 0.27. The second observation is ignored."
+          },
+          {
+            "text": "0.36",
+            "value": null,
+            "explanation": "Correct. Skilled: 0.20 × 0.75² = 0.1125. Unskilled: 0.80 × 0.50² = 0.20. Total = 0.3125, so the posterior is 0.1125 ÷ 0.3125 = 0.36."
+          },
+          {
+            "text": "0.56",
+            "value": null,
+            "explanation": "This is 0.75², the probability that a skilled manager beats the benchmark twice. It is a likelihood, not a posterior, and ignores the prior and the unskilled branch."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two analysts observe the same evidence and agree on the likelihoods under each scenario, but they begin with different prior probabilities for scenario A. Which outcome is most accurate after Bayesian updating?",
+        "options": [
+          {
+            "text": "Their posteriors are identical, because both saw the same evidence and agree on the likelihoods",
+            "value": null,
+            "explanation": "The posterior depends on the prior as well as the likelihoods, so different priors give different posteriors."
+          },
+          {
+            "text": "Both posteriors move to the likelihood of the evidence, because new data overrides the prior",
+            "value": null,
+            "explanation": "Evidence does not erase the prior. The posterior weights the prior by the likelihoods and is not equal to a likelihood."
+          },
+          {
+            "text": "Their posteriors differ, and the analyst who started with the higher prior ends with the higher posterior",
+            "value": null,
+            "explanation": "Correct. With the same likelihoods, a higher prior produces a higher posterior, although strong repeated evidence narrows the gap."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst assigns probabilities of 0.20 to recession, 0.50 to normal growth and 0.30 to expansion. A particular yield-curve signal appears with probability 0.60 in a recession, 0.20 in normal growth and 0.05 in expansion. The signal appears. What is the posterior probability of recession, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.60",
+            "value": null,
+            "explanation": "This is the likelihood P(signal | recession). It is not the probability of recession given the signal."
+          },
+          {
+            "text": "0.51",
+            "value": null,
+            "explanation": "Correct. Recession: 0.20 × 0.60 = 0.12. Normal: 0.50 × 0.20 = 0.10. Expansion: 0.30 × 0.05 = 0.015. Total = 0.235, so the posterior is 0.12 ÷ 0.235 = 0.51."
+          },
+          {
+            "text": "0.55",
+            "value": null,
+            "explanation": "This is 0.12 ÷ (0.12 + 0.10). The expansion scenario was left out of the denominator."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the prior, likelihood and posterior in Bayesian updating?",
+        "back": "Prior: the probability of a scenario before seeing the evidence. Likelihood: the probability of the evidence if that scenario is true. Posterior: the revised probability of the scenario after the evidence.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00041:2",
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "front": "Write Bayes' theorem for a scenario A and its complement A' given evidence B.",
+        "back": "P(A|B) = P(B|A)P(A) / [P(B|A)P(A) + P(B|A')P(A')]",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.4"
+        ]
+      },
+      {
+        "front": "What is base-rate neglect, and why is it dangerous in investment screening?",
+        "back": "It means ignoring the prior probability and treating P(evidence | scenario) as P(scenario | evidence). If the scenario is rare, most positive signals are false alarms, so the true posterior is much lower than the detection rate suggests.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2.5"
+        ]
+      },
+      {
+        "front": "How do you update a belief when a second independent piece of evidence arrives?",
+        "back": "Use the first posterior as the new prior, then apply Bayes' theorem with the second likelihoods. The result equals updating once with the combined likelihood.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:38:22.641Z",
+      "purpose": "generate",
+      "losId": "quant-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9285,
+      "outputTokens": 10842,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.12812780000000001,
+      "stopReason": "end_turn"
+    }
+  ]
+}

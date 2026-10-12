@@ -1,0 +1,470 @@
+{
+  "losId": "quant-09-los2",
+  "losText": "describe bootstrap resampling, and explain how it can be used in investment applications",
+  "moduleId": "quant-09",
+  "moduleTitle": "Simulation of Financial Asset Prices and Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:49:41.795Z",
+  "retrieved": [
+    {
+      "id": "fed-feds-2001-27-historical-simulation:23:28",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 23",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=23",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:17:20",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=17",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:171:163",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=171",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-data-science:m00039:1",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Linear Regression and Bootstrapping",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:18:21",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 18",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=18",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:23:29",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 23–24",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=23",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:4:4",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:6:7",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 6–7",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=6",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:2:1",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 2",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=2",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:22:27",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 22",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=22",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-data-science:m00027:1.4",
+      "title": "Principles of Data Science",
+      "locator": "§4.1 Statistical Inference and Confidence Intervals — Estimating Parameters with Confidence Intervals",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-1-statistical-inference-and-confidence-intervals",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-data-science:m00058:4",
+      "title": "Principles of Data Science",
+      "locator": "§10.2 Validating Your Model — Sensitivity Analysis",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-2-validating-your-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Bootstrap Resampling: Learning About Uncertainty by Reusing Your Own Data",
+      "summary": "Bootstrap resampling repeatedly redraws observations from the one sample you actually have, with replacement, to see how much a statistic would vary. It matters because it gives standard errors and confidence intervals for statistics that have no easy formula, without assuming a particular distribution.",
+      "sections": [
+        {
+          "heading": "The intuition: one sample, many what-ifs",
+          "body_markdown": "Suppose you have 5 years of a fund's annual returns and you compute the average. That average is only one outcome. A different 5-year window would have given a different average, so you want to know **how much the estimate could wobble**. You can't go back in time and collect more years.\n\n**Bootstrapping** gives a workaround. Think of each observed return as a numbered ticket in a bag. Draw a ticket, write its value down, **put it back**, and draw again until you have as many draws as the original sample. That new list is a **resample**. Compute the statistic you care about on it. Repeat thousands of times. The pile of results shows how much the statistic moves around from sample to sample."
+        },
+        {
+          "heading": "The mechanics, step by step",
+          "body_markdown": "1. Start with your observed sample of $n$ values.\n2. Draw $n$ values at random **with replacement**. This means each value can show up zero, one, or several times in a resample.\n3. Calculate the statistic (mean, median, standard deviation, Sharpe ratio, correlation...) on that resample.\n4. Repeat steps 2–3 a large number of times, $B$ (often thousands). You now hold $B$ bootstrap estimates.\n5. Study the spread of those $B$ estimates.\n\nWhy *with* replacement? If you drew $n$ values without replacement from $n$, you would just get the original sample back in a different order, and the statistic would never change. Replacement is what creates variety.\n\nThe same idea works for more complex objects, such as the intercept and slope of a regression line. You refit the line on each resample and look at the spread of the fitted parameters."
+        },
+        {
+          "heading": "How it is used in investment work",
+          "body_markdown": "- **Standard error:** the standard deviation of the $B$ bootstrap estimates is an estimate of the statistic's standard error.\n- **Confidence intervals:** sort the $B$ estimates. A 95% *percentile interval* runs from roughly the 2.5th to the 97.5th percentile of the sorted values.\n- **Awkward statistics:** for a median, a Sharpe ratio, a correlation or a maximum drawdown, a tidy textbook formula for the sampling distribution may not exist or may need strong assumptions. Bootstrapping just recomputes the statistic on each resample.\n- **No distributional assumption:** unlike a method that fits a normal distribution first, the bootstrap works from the empirical data. Fat tails and skewness in the sample carry through into the resamples.\n- **Risk estimates:** the same resampling logic can be used to build simulated return paths for a risk measure such as VaR, and to check how stable that estimate is."
+        },
+        {
+          "heading": "Limitations to remember",
+          "body_markdown": "- **Only what was observed can appear.** Every resampled value is one of the original values. A short sample that lacks extreme moves will not produce them, so tail risk can be understated. (One study of a bootstrap-style method found that a 2-year daily sample left out rare extreme draws and tended to understate VaR.)\n- **Independence assumption.** Basic bootstrapping treats observations as independent and identically distributed. Resampling individual days scrambles their order, so features such as volatility clustering or autocorrelation are not preserved.\n- **Garbage in, garbage out.** If the original sample is small or unrepresentative of the future, thousands of resamples will not fix that; they only reshuffle the same information.\n- **Compared with Monte Carlo:** Monte Carlo usually draws from an assumed model with chosen parameters, while the bootstrap draws from the actual data."
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund's annual returns over five years were 4%, 10%, −2%, 8% and 6%. An analyst performs one bootstrap resample of size 5 and, by random draws with replacement, picks the returns of years 2, 2, 1, 5 and 3 (that is, 10%, 10%, 4%, 6%, −2%). What is the mean of this resample?",
+        "steps": [
+          "Translate the draws into values: year 2 = 10%, year 2 again = 10%, year 1 = 4%, year 5 = 6%, year 3 = −2%. Notice that year 2 appears twice and years 4 is absent; replacement allows this.",
+          "Add the five resampled values: 0.10 + 0.10 + 0.04 + 0.06 − 0.02 = 0.28.",
+          "Divide by the number of draws, 5: 0.28 / 5 = 0.056.",
+          "BA II Plus check: press 2nd [DATA] to open the statistics worksheet, then 2nd [CLR WORK]. Enter 10, press ENTER then ↓ twice (skip the Y value); repeat for 10, 4, 6 and −2 (use +/- to enter the negative). Then press 2nd [STAT] until the display shows 1-V, and press ↓ until x̄ appears: 5.6.",
+          "In a full bootstrap you would repeat this many times and collect all the resample means; the spread of those means estimates the standard error of the sample mean."
+        ],
+        "answer": "The resample mean is 5.6%. (The original sample mean is 6.0%, so this one resample differs slightly; that variation is what the bootstrap measures.)",
+        "answer_value": 0.056,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.10,0.10,0.04,0.06,-0.02]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Bootstrap estimate of the statistic",
+          "latex": "\\bar{\\theta}^{*}=\\frac{1}{B}\\sum_{b=1}^{B}\\theta^{*}_{b}",
+          "where": "$\\theta^{*}_{b}$ is the statistic (e.g., the mean) computed on resample $b$; $B$ is the number of resamples; $\\bar{\\theta}^{*}$ is the average of the bootstrap estimates."
+        },
+        {
+          "name": "Bootstrap standard error",
+          "latex": "SE_{boot}=\\sqrt{\\frac{1}{B-1}\\sum_{b=1}^{B}\\left(\\theta^{*}_{b}-\\bar{\\theta}^{*}\\right)^{2}}",
+          "where": "$SE_{boot}$ is the estimated standard error of the statistic; $\\theta^{*}_{b}$ is the statistic from resample $b$; $\\bar{\\theta}^{*}$ is the mean of the $B$ bootstrap estimates."
+        },
+        {
+          "name": "Percentile confidence interval",
+          "latex": "\\left[\\theta^{*}_{(\\alpha/2)},\\;\\theta^{*}_{(1-\\alpha/2)}\\right]",
+          "where": "$\\theta^{*}_{(p)}$ is the $p$-th percentile of the sorted bootstrap estimates; $\\alpha$ is the total tail probability (0.05 for a 95% interval)."
+        }
+      ],
+      "exam_traps": [
+        "Describing bootstrapping as drawing without replacement. Without replacement, each resample would just be the original data reordered.",
+        "Confusing bootstrapping with Monte Carlo simulation: Monte Carlo normally draws from an assumed distribution with chosen parameters, whereas bootstrapping draws from the observed data.",
+        "Believing a bootstrap can generate values larger or smaller than anything in the sample. It can only recombine observed values, so extreme tail events missing from the data stay missing.",
+        "Assuming resampling keeps time-series features such as volatility clustering. Basic resampling of individual observations treats them as independent and loses their order.",
+        "Thinking that more resamples cure a small or unrepresentative original sample. More resamples reduce simulation noise but add no new information about the population."
+      ],
+      "builds_on": [
+        "Sampling and sampling distributions",
+        "Standard error of a statistic",
+        "Confidence intervals",
+        "Random sampling with and without replacement"
+      ],
+      "leads_to": [
+        "Monte Carlo simulation",
+        "Historical simulation",
+        "Value at risk estimation",
+        "Resampled estimates of Sharpe ratio and other statistics"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-data-science:m00039:1",
+        "fed-feds-2001-27-historical-simulation:23:29"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best matches a single bootstrap resample of an observed return series containing n returns?",
+        "options": [
+          {
+            "text": "n returns drawn at random from a normal distribution fitted to the sample mean and standard deviation",
+            "value": null,
+            "explanation": "This describes a parametric Monte Carlo draw from an assumed distribution, not a bootstrap, which draws from the observed data."
+          },
+          {
+            "text": "n returns drawn at random from the n observed returns, each draw replaced before the next",
+            "value": null,
+            "explanation": "Correct. Bootstrapping samples from the observed data with replacement, so a value may be picked several times or not at all."
+          },
+          {
+            "text": "The n observed returns rearranged in random order so that each appears exactly once",
+            "value": null,
+            "explanation": "This is sampling without replacement (a reshuffle). Every statistic that ignores order would equal the original, so there would be no variation to study."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Why does bootstrap resampling draw observations with replacement?",
+        "options": [
+          {
+            "text": "Without replacement, each resample of size n would match the original sample, so the statistic would never vary",
+            "value": null,
+            "explanation": "Correct. Replacement is what makes resamples differ from the original and from each other, producing a distribution of the statistic."
+          },
+          {
+            "text": "Replacement makes the resampled data approximately normal regardless of the shape of the original data",
+            "value": null,
+            "explanation": "Confuses bootstrapping with the central limit theorem idea. Resamples keep the shape (skewness, fat tails) of the observed data."
+          },
+          {
+            "text": "Replacement allows resamples to contain returns larger than the largest return in the original sample",
+            "value": null,
+            "explanation": "Resamples only contain values already in the original sample. Replacement cannot create new, more extreme values."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A fund's five annual returns are 3%, 9%, −4%, 7% and 5%. One bootstrap resample of size 5, drawn with replacement, is 9%, 9%, 3%, −4%, 5%. What is the mean of this resample? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "This is the mean of the original sample ((3 + 9 − 4 + 7 + 5)/5), not of the resample the question asks about."
+          },
+          {
+            "text": "3.25%",
+            "value": 0.0325,
+            "explanation": "This divides the sum of the distinct values (9, 3, −4, 5) by 4 instead of the 5 draws. A resample's duplicated values count each time they are drawn."
+          },
+          {
+            "text": "4.40%",
+            "value": 0.044,
+            "explanation": "Correct. Sum = 9 + 9 + 3 − 4 + 5 = 22; 22 / 5 = 4.4%. Every draw counts, including the repeated 9%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.09,0.09,0.03,-0.04,0.05]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "For illustration, an analyst computes the mean return on five bootstrap resamples and gets 5%, 7%, 6%, 4% and 8%. Using the sample standard deviation of these five estimates (divide by B − 1), what is the bootstrap estimate of the standard error of the mean? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "1.58%",
+            "value": 0.015811,
+            "explanation": "Correct. The mean of the estimates is 6%. Squared deviations total 0.0010; divided by 4 gives 0.00025; the square root is 1.58%."
+          },
+          {
+            "text": "1.41%",
+            "value": 0.014142,
+            "explanation": "This divides the squared deviations by B = 5 (population formula) instead of B − 1 = 4."
+          },
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "This reports the average of the bootstrap estimates, which is the estimate of the statistic itself, not its standard error (the spread)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[0.05,0.07,0.06,0.04,0.08],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Four bootstrap resamples of a fund's monthly returns produce resample means of 5.2%, 6.0%, 4.8% and 5.6%. What is the bootstrap estimate of the mean (the average of the four resample means)? Round to one decimal in percent.",
+        "options": [
+          {
+            "text": "7.2%",
+            "value": 0.072,
+            "explanation": "This adds the four means (21.6%) and divides by 3 instead of by the number of resamples, 4."
+          },
+          {
+            "text": "5.4%",
+            "value": 0.054,
+            "explanation": "Correct. (5.2 + 6.0 + 4.8 + 5.6) / 4 = 21.6 / 4 = 5.4%."
+          },
+          {
+            "text": "21.6%",
+            "value": 0.216,
+            "explanation": "This stops after summing the four means and forgets to divide by the number of resamples."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.052,0.06,0.048,0.056]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst has 60 monthly returns for a fund and wants to judge how uncertain the fund's estimated Sharpe ratio is. No convenient formula for its sampling distribution is available. Which use of bootstrap resampling fits this need?",
+        "options": [
+          {
+            "text": "Create losses larger than any seen in the 60 months to stress-test the fund",
+            "value": null,
+            "explanation": "Bootstrapping only reuses observed values, so it cannot produce losses beyond those in the sample."
+          },
+          {
+            "text": "Forecast next month's return by extending the trend found in the 60 months",
+            "value": null,
+            "explanation": "Bootstrapping measures the variability of a statistic; it is not a forecasting tool that extrapolates trends."
+          },
+          {
+            "text": "Recompute the Sharpe ratio on many resamples and examine how widely the results spread",
+            "value": null,
+            "explanation": "Correct. The spread of the resampled Sharpe ratios estimates the statistic's standard error and supports a confidence interval, with no formula needed."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst bootstraps 250 daily returns from a period in which large moves tend to bunch together (volatility clustering). Each resample draws individual days at random with replacement. What is the main weakness of this approach?",
+        "options": [
+          {
+            "text": "Repeated days bias the mean of every resample upward relative to the original sample mean",
+            "value": null,
+            "explanation": "Resample means are centered on the original mean on average; duplicates do not create an upward bias."
+          },
+          {
+            "text": "Drawing days independently breaks their time order, so the clustering of volatility is not reproduced",
+            "value": null,
+            "explanation": "Correct. Basic resampling treats observations as independent and identically distributed, so time-dependent features are lost."
+          },
+          {
+            "text": "The method cannot be used until the daily returns have been shown to follow a normal distribution",
+            "value": null,
+            "explanation": "Bootstrapping is used precisely because it does not require a normality assumption."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-feds-2001-27-historical-simulation:4:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst has sorted 2,000 bootstrap estimates of a statistic from lowest to highest and wants an approximate 90% percentile confidence interval, with equal probability in each tail. Which positions in the sorted list give the interval's bounds?",
+        "options": [
+          {
+            "text": "The 100th and the 1,900th values",
+            "value": null,
+            "explanation": "Correct. A 90% interval leaves 10% in the tails, 5% on each side; 5% of 2,000 is 100, so the bounds are about the 100th and 1,900th values."
+          },
+          {
+            "text": "The 200th and the 1,800th values",
+            "value": null,
+            "explanation": "This puts 10% in each tail, which gives an 80% interval, not 90%."
+          },
+          {
+            "text": "The 50th and the 1,950th values",
+            "value": null,
+            "explanation": "This puts 2.5% in each tail, which gives a 95% interval, not 90%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is bootstrap resampling?",
+        "back": "Repeatedly drawing n values at random, with replacement, from the n observed data points, computing a statistic on each resample, and studying the distribution of those statistics.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "front": "Why must bootstrap draws be made with replacement?",
+        "back": "Without replacement, every resample of size n is just the original data reordered, so the statistic never varies. Replacement creates different resamples.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00039:1"
+        ]
+      },
+      {
+        "front": "How is a bootstrap standard error obtained?",
+        "back": "Take the standard deviation of the statistic across the B resamples (dividing by B − 1).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Bootstrap vs. Monte Carlo: what is the key difference in where draws come from?",
+        "back": "Bootstrap draws from the observed data; Monte Carlo usually draws from an assumed distribution with chosen parameters.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      {
+        "front": "Name two main limitations of basic bootstrap resampling.",
+        "back": "It cannot produce values outside the observed sample (so rare extremes can be missed), and it treats observations as independent, losing time-series features like volatility clustering.",
+        "cited_chunk_ids": [
+          "fed-feds-2001-27-historical-simulation:23:29",
+          "fed-feds-2001-27-historical-simulation:4:4"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:49:41.795Z",
+      "purpose": "generate",
+      "losId": "quant-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10252,
+      "outputTokens": 11917,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1408118,
+      "stopReason": "end_turn"
+    }
+  ]
+}

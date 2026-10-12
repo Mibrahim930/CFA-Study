@@ -1,0 +1,847 @@
+{
+  "losId": "quant-05-los3",
+  "losText": "calculate, interpret, and evaluate covariance and correlation",
+  "moduleId": "quant-05",
+  "moduleTitle": "Statistical Characteristics of Asset Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:02:04.366Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.23
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:168:160",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 168–169",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=168",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.21
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:171:163",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=171",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55719:0.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.1 The Correlation Coefficient r — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-1-the-correlation-coefficient-r",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:150:257",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "p. 150",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=150",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:182:174",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 182",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=182",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:18",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:17",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 15",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55726:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.2 Testing the Significance of the Correlation Coefficient — Performing the Hypothesis Test",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-2-testing-the-significance-of-the-correlation-coefficient",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00030:3",
+      "title": "Principles of Data Science",
+      "locator": "§4.4 Analysis of Variance (ANOVA) — Project A: Confidence Intervals",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-4-analysis-of-variance-anova",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Covariance and Correlation: Measuring How Two Returns Move Together",
+      "summary": "Covariance and correlation describe whether two assets' returns tend to rise and fall together, and how tightly. They matter because the risk of a portfolio depends on how its holdings move relative to each other, not only on how risky each one is alone.",
+      "sections": [
+        {
+          "heading": "Starting with intuition: do two things move in step?",
+          "body_markdown": "Variance tells you how much **one** return bounces around its own average. Often you need to know whether **two** returns bounce *together*. Think of two friends walking dogs in a park. If both dogs tend to run ahead of their owners at the same moments, their movements are positively related. If one runs ahead whenever the other lags, they are negatively related. If there is no pattern, they are unrelated.\n\n**Covariance** puts a number on this. For each period, take how far asset X is from its own average and how far asset Y is from its own average, then multiply those two gaps. If both are above average (or both below), the product is positive. If one is above and the other below, the product is negative. Covariance is the (adjusted) average of those products.\n\n- Positive covariance: the returns tend to be above or below their means at the same time.\n- Negative covariance: when one is above its mean, the other tends to be below.\n- Near zero: no consistent linear pattern."
+        },
+        {
+          "heading": "Computing sample covariance",
+          "body_markdown": "With $n$ paired observations from a sample, the steps are:\n\n1. Find the mean of each series.\n2. For every period, subtract each mean from its observation (the deviations).\n3. Multiply the two deviations for each period.\n4. Add the products and divide by $n-1$.\n\nThe divisor is $n-1$ (not $n$) because we are estimating from a sample, the same reason sample variance uses $n-1$. Covariance of a variable with itself equals its variance.\n\nThe units are awkward: if returns are in percent, covariance is in *percent squared*. Its size depends on how volatile the two series happen to be, so a covariance of 40 is not necessarily 'stronger' than a covariance of 4. Only its **sign** has a clean meaning."
+        },
+        {
+          "heading": "Correlation: covariance made comparable",
+          "body_markdown": "To remove the unit problem, divide covariance by the product of the two standard deviations. The result is the **correlation coefficient**, $r$ (or $\\rho$ for the population):\n\n$$r_{XY}=\\frac{\\text{Cov}(X,Y)}{s_X\\,s_Y}$$\n\nCorrelation has no units and always lies between $-1$ and $+1$:\n\n- $+1$: a perfect straight-line relationship moving in the same direction.\n- $-1$: a perfect straight-line relationship moving in opposite directions.\n- $0$: no *linear* relationship.\n\nBecause it is unit-free, correlation lets you compare the strength of linear association across different pairs of assets. Rearranging gives $\\text{Cov}(X,Y)=r\\,s_X\\,s_Y$, which is the form you need when a problem gives you correlation and standard deviations but asks for covariance."
+        },
+        {
+          "heading": "Why investors care: covariance drives portfolio risk",
+          "body_markdown": "For a two-asset portfolio with weights $w_1$ and $w_2$ (summing to 1), the variance is\n\n$$\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\,\\text{Cov}(1,2)$$\n\nwith $\\text{Cov}(1,2)=\\rho_{12}\\sigma_1\\sigma_2$. The first two terms are each asset's own risk. The third term is the interaction, and it shrinks as correlation falls. So portfolio standard deviation is below the weighted average of the individual standard deviations unless correlation is exactly $+1$. This is the mathematical core of **diversification**. In larger portfolios, the covariance terms far outnumber the variance terms, so they dominate.\n\nA practical caution: correlations estimated in calm periods can rise in turbulent markets, so a model built on low historical correlations may understate risk when it matters most."
+        },
+        {
+          "heading": "What correlation does not tell you",
+          "body_markdown": "- **Linear only.** A correlation near 0 can hide a strong curved relationship (for example, a U-shape). Zero correlation does **not** mean the variables are independent.\n- **Not the slope.** $r=0.8$ does not mean a 1% move in X brings an 0.8% move in Y. Slope comes from regression, which uses $r$ together with the two standard deviations.\n- **Not causation.** Two series can move together because both respond to a third factor, or purely by coincidence (**spurious correlation**).\n- **Outliers.** A single extreme pair of observations can inflate or deflate $r$ a great deal. Look at the data, not just the number."
+        }
+      ],
+      "worked_example": {
+        "problem": "Over five periods, Asset X had returns of 4%, 6%, 10%, 2% and 8%. Asset Y had returns of 5%, 4%, 11%, 3% and 7% over the same periods. Calculate the sample covariance and the sample correlation of the two return series.",
+        "steps": [
+          "Means: $\\bar X=(4+6+10+2+8)/5=6\\%$ and $\\bar Y=(5+4+11+3+7)/5=6\\%$.",
+          "Deviations of X from its mean: $-2,\\;0,\\;+4,\\;-4,\\;+2$. Deviations of Y from its mean: $-1,\\;-2,\\;+5,\\;-3,\\;+1$.",
+          "Products of the paired deviations: $(-2)(-1)=2$; $(0)(-2)=0$; $(4)(5)=20$; $(-4)(-3)=12$; $(2)(1)=2$. Sum $=36$.",
+          "Sample covariance $=36/(5-1)=9.0$ (%²).",
+          "Sum of squared deviations for X: $4+0+16+16+4=40$, so $s_X^2=40/4=10$ and $s_X=\\sqrt{10}=3.162\\%$. For Y: $1+4+25+9+1=40$, so $s_Y=3.162\\%$ as well.",
+          "Correlation $=9.0/(3.162\\times3.162)=9.0/10=0.90$.",
+          "BA II Plus check: press 2nd [DATA] and 2nd [CLR WORK] to clear. Enter X01=4 ENTER, ↓, Y01=5 ENTER, ↓, then X02=6, Y02=4, and so on for all five pairs. Press 2nd [STAT] and scroll with ↓ until the screen shows LIN (press 2nd [SET] if needed to switch to it). Scroll down to read $n=5$, $S_x=3.162$, $S_y=3.162$ and $r=0.9$. The calculator does not show covariance, so compute $r\\times S_x\\times S_y=0.9\\times3.162\\times3.162=9.0$.",
+          "Interpretation: the positive covariance and a correlation of 0.90 mean the two assets tend to move in the same direction with a strong linear link, so combining them would give little diversification benefit."
+        ],
+        "answer": "Sample covariance = 9.0 (%²); sample correlation = 0.90 (strong positive).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Sample covariance",
+          "latex": "\\text{Cov}(X,Y)=\\frac{\\sum_{i=1}^{n}(X_i-\\bar X)(Y_i-\\bar Y)}{n-1}",
+          "where": "$X_i,Y_i$ are the paired observations; $\\bar X,\\bar Y$ are the sample means; $n$ is the number of pairs."
+        },
+        {
+          "name": "Correlation coefficient",
+          "latex": "r_{XY}=\\frac{\\text{Cov}(X,Y)}{s_X\\,s_Y}",
+          "where": "$\\text{Cov}(X,Y)$ is the covariance; $s_X,s_Y$ are the sample standard deviations of X and Y. The result lies between $-1$ and $+1$."
+        },
+        {
+          "name": "Covariance from correlation",
+          "latex": "\\text{Cov}(X,Y)=r_{XY}\\,s_X\\,s_Y",
+          "where": "Same symbols as above; used when correlation and standard deviations are given."
+        },
+        {
+          "name": "Two-asset portfolio variance",
+          "latex": "\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2",
+          "where": "$w_1,w_2$ are portfolio weights (sum to 1); $\\sigma_1,\\sigma_2$ are the assets' standard deviations; $\\rho_{12}$ is their correlation. Take the square root for portfolio standard deviation."
+        }
+      ],
+      "exam_traps": [
+        "Dividing by $n$ instead of $n-1$ when the data are a sample, which understates the covariance.",
+        "Reading the size of a covariance as the strength of the relationship. Covariance depends on units and volatility; only correlation is standardized.",
+        "Treating a zero correlation as proof that the variables are independent. It only rules out a linear relationship.",
+        "In portfolio variance, forgetting the factor 2 on the covariance term, or forgetting to take the square root at the end, or simply averaging the standard deviations (which is only right when correlation is +1).",
+        "Reading correlation as slope or as causation: $r=0.8$ does not mean Y moves 0.8 for each 1 in X, and a high $r$ does not show that X causes Y."
+      ],
+      "builds_on": [
+        "Mean and deviations from the mean",
+        "Variance and standard deviation",
+        "Portfolio weights and expected return"
+      ],
+      "leads_to": [
+        "Portfolio risk and diversification",
+        "Linear regression and slope",
+        "Beta and CAPM",
+        "Correlation significance testing"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m55719:0.2",
+        "mit-ocw-15401-lec13:13:3",
+        "mit-ocw-15401-lec13:23:5",
+        "occ-risk-mgmt-derivatives:182:174"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about the sample covariance between two assets' returns is correct?",
+        "options": [
+          {
+            "text": "Its size alone shows relationship strength, so a covariance of 40 always means a stronger link than 4.",
+            "value": null,
+            "explanation": "Covariance is measured in squared return units and depends on how volatile each asset is, so its size cannot be compared across pairs. Standardizing by the standard deviations gives correlation, which can be compared."
+          },
+          {
+            "text": "A positive value means the two returns tend to be above or below their own means in the same periods.",
+            "value": null,
+            "explanation": "Correct. Covariance averages the products of the two deviations from the means. A positive sign means the deviations usually share the same sign."
+          },
+          {
+            "text": "It always lies between -1 and +1, which lets analysts compare different pairs of assets directly.",
+            "value": null,
+            "explanation": "This confuses covariance with correlation. Covariance has no fixed bounds; only the correlation coefficient is restricted to -1 to +1."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Asset A had returns of 2%, 6%, 4% and 8% over four periods. Asset B had returns of 10%, 6%, 8% and 4% over the same periods. What is the sample covariance of A and B, in %²?",
+        "options": [
+          {
+            "text": "-6.67",
+            "value": null,
+            "explanation": "Correct. The means are 5% (A) and 7% (B). The deviation products are -9, -1, -1 and -9, which sum to -20. Dividing by n-1 = 3 gives -6.67."
+          },
+          {
+            "text": "-5.00",
+            "value": null,
+            "explanation": "This divides the sum of cross-products by n = 4. For a sample, the divisor is n-1 = 3."
+          },
+          {
+            "text": "-20.00",
+            "value": null,
+            "explanation": "This stops at the sum of the deviation products and never divides by n-1."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "The sample covariance between the returns of Stock X and Stock Y is 18 (%²). The sample standard deviations are 5% for X and 9% for Y. What is the correlation between X and Y, rounded to two decimals?",
+        "options": [
+          {
+            "text": "1.29",
+            "value": null,
+            "explanation": "This divides covariance by the sum of the standard deviations (18/14). A correlation can never exceed 1, so this result should have been a warning."
+          },
+          {
+            "text": "0.01",
+            "value": null,
+            "explanation": "This divides covariance by the product of the variances (25 x 81 = 2,025) instead of the product of the standard deviations."
+          },
+          {
+            "text": "0.40",
+            "value": null,
+            "explanation": "Correct. Correlation = covariance / (s_X x s_Y) = 18 / (5 x 9) = 18/45 = 0.40."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A portfolio holds 60% in Asset 1 (standard deviation 20%) and 40% in Asset 2 (standard deviation 10%). The correlation between the two assets is 0.30. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "16.00%",
+            "value": 0.16,
+            "explanation": "This is the weighted average of the two standard deviations (0.6 x 20% + 0.4 x 10%). It is only valid if the correlation is +1, so it ignores the diversification from a correlation of 0.30."
+          },
+          {
+            "text": "13.74%",
+            "value": 0.1374,
+            "explanation": "Correct. Variance = 0.6^2(0.20)^2 + 0.4^2(0.10)^2 + 2(0.6)(0.4)(0.30)(0.20)(0.10) = 0.0144 + 0.0016 + 0.00288 = 0.01888. The square root is 0.1374."
+          },
+          {
+            "text": "12.65%",
+            "value": 0.1265,
+            "explanation": "This drops the covariance term (treats correlation as 0): variance = 0.0144 + 0.0016 = 0.0160, giving 12.65%. It understates risk because the correlation here is positive."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.3}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst calculates a sample correlation of 0.00 between two return series. Which interpretation is most accurate?",
+        "options": [
+          {
+            "text": "There is no linear relationship, though a nonlinear relationship could still exist.",
+            "value": null,
+            "explanation": "Correct. Correlation only measures linear association, so a value of zero says nothing about curved or other nonlinear patterns."
+          },
+          {
+            "text": "The two return series are statistically independent of one another.",
+            "value": null,
+            "explanation": "Independence implies zero correlation, but zero correlation does not imply independence. This reverses the logic."
+          },
+          {
+            "text": "The two series move in opposite directions by exactly equal amounts each period.",
+            "value": null,
+            "explanation": "This describes a correlation of -1 (a perfect inverse linear relationship), not 0."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio holds 50% in Asset 1 (standard deviation 15%) and 50% in Asset 2 (standard deviation 25%). The correlation between the two assets is -0.40. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "16.96%",
+            "value": 0.1696,
+            "explanation": "This makes a sign error by treating the correlation as +0.40. The covariance term is then added instead of subtracted: variance = 0.02125 + 0.0075 = 0.02875."
+          },
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "This is the weighted average of the standard deviations (0.5 x 15% + 0.5 x 25%), which assumes a correlation of +1 and ignores diversification."
+          },
+          {
+            "text": "11.73%",
+            "value": 0.1173,
+            "explanation": "Correct. Variance = 0.25(0.0225) + 0.25(0.0625) + 2(0.5)(0.5)(-0.40)(0.15)(0.25) = 0.005625 + 0.015625 - 0.0075 = 0.01375. The square root is 0.1173."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.15,\"sd2\":0.25,\"corr\":-0.4}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A retailer's analyst finds a sample correlation of 0.85 between annual sunscreen sales and annual sunglasses sales across 20 years. Both products sell more in hot, sunny summers. Which conclusion is best supported by this result alone?",
+        "options": [
+          {
+            "text": "Sunscreen sales drive sunglasses sales, so promoting sunscreen will lift sunglasses revenue.",
+            "value": null,
+            "explanation": "This treats correlation as causation. A shared driver such as weather could explain the co-movement."
+          },
+          {
+            "text": "The sales move together in a strongly linear way, but a common factor may explain the link.",
+            "value": null,
+            "explanation": "Correct. A correlation of 0.85 indicates a strong positive linear association but says nothing about cause, and a third variable (weather) is a plausible explanation."
+          },
+          {
+            "text": "Each 1% rise in sunscreen sales is associated with a 0.85% rise in sunglasses sales.",
+            "value": null,
+            "explanation": "This reads correlation as the slope. The slope comes from regression and depends on the standard deviations of both series as well as r."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio holds 50% in Asset 1 (standard deviation 30%) and 50% in Asset 2 (standard deviation 20%). The two assets have a correlation of -1.00. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Correct. Variance = 0.25(0.09) + 0.25(0.04) + 2(0.5)(0.5)(-1)(0.30)(0.20) = 0.0325 - 0.03 = 0.0025. The square root is 0.05, which equals |0.5 x 30% - 0.5 x 20%|."
+          },
+          {
+            "text": "25.00%",
+            "value": 0.25,
+            "explanation": "This is the weighted average of the standard deviations, valid only when correlation is +1. It ignores the offsetting effect of a perfectly negative correlation."
+          },
+          {
+            "text": "18.03%",
+            "value": 0.1803,
+            "explanation": "This omits the covariance term (equivalent to a correlation of 0): variance = 0.0225 + 0.01 = 0.0325, giving 18.03%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.3,\"sd2\":0.2,\"corr\":-1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is the correlation coefficient calculated from covariance, and what range can it take?",
+        "back": "Correlation = Cov(X,Y) / (s_X x s_Y). It is unit-free and always lies between -1 and +1.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why is covariance harder to interpret than correlation?",
+        "back": "Covariance is in squared units and depends on how volatile each series is, so only its sign is clearly meaningful. Correlation standardizes it to a -1 to +1 scale.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Does a correlation of zero mean two variables are independent?",
+        "back": "No. It means there is no linear relationship; a nonlinear dependence can still exist.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How does the correlation between two assets affect the standard deviation of a two-asset portfolio?",
+        "back": "Lower correlation means lower portfolio standard deviation (more diversification). It equals the weighted average of the standard deviations only when correlation is +1.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5",
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:01:54.439Z",
+      "purpose": "blind-solve",
+      "losId": "quant-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1046,
+      "outputTokens": 687,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009079,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:02:04.365Z",
+      "purpose": "grounding",
+      "losId": "quant-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14446,
+      "outputTokens": 1483,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0438834,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.05296240000000001
+}

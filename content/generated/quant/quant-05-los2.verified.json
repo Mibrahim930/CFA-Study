@@ -1,0 +1,770 @@
+{
+  "losId": "quant-05-los2",
+  "losText": "describe, interpret, and evaluate measures of skewness and kurtosis",
+  "moduleId": "quant-05",
+  "moduleTitle": "Statistical Characteristics of Asset Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:01:49.740Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-portfolio2:5:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 5–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=5",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.27
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.19
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15433-portfolio2:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 1–5",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:17:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 17–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:50:42",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 50–52",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=50",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Formula Review",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00053:1.1",
+      "title": "Principles of Data Science",
+      "locator": "§9.1 Encoding Univariate Data — Boxplots",
+      "url": "https://openstax.org/books/principles-data-science/pages/9-1-encoding-univariate-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62137:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§6.3 Estimating the Binomial with the Normal Distribution — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/6-3-estimating-the-binomial-with-the-normal-distribution",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:48:41",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 48–50",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=48",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:2.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Skewness and the Mean, Median, and Mode",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Shape of Return Distributions: Lopsidedness and Tail Weight",
+      "summary": "Mean and standard deviation do not show whether a return distribution is lopsided or prone to extreme outcomes. Skewness (asymmetry) and kurtosis (tail weight) fill that gap, and they matter because crashes and windfalls live in the tails.",
+      "sections": [
+        {
+          "heading": "Why two numbers are not enough",
+          "body_markdown": "Picture two commuters with the same *average* trip time and the same typical spread around it. One is occasionally 5 minutes early. The other is usually on time but now and then stuck for two hours. Their averages and spreads match, yet you would not call the trips equally risky. Investment returns work the same way. **Skewness** describes which side the extreme outcomes lean toward. **Kurtosis** describes how heavy the tails are, meaning how often extreme outcomes of either sign occur. A normal distribution is the benchmark: perfectly symmetric with tails of a standard, moderate weight."
+        },
+        {
+          "heading": "Skewness: which tail is longer",
+          "body_markdown": "Skewness is built from the *cubed* deviations of each observation from the mean, scaled by the standard deviation cubed so that the result is a pure number without units. Squaring deviations erases their sign, which is why variance is never negative. Cubing keeps the sign, so skewness can be positive or negative.\n\n- **Zero skewness:** symmetric, with left and right sides mirroring each other (the normal distribution has zero skewness).\n- **Positive (right) skew:** a long right tail, driven by a few unusually large gains. Typical ordering is mode < median < mean, because the mean is dragged toward the tail the most.\n- **Negative (left) skew:** a long left tail, driven by a few unusually large losses. Typical ordering is mean < median < mode.\n\nA useful memory aid: the mean chases the tail, and the sign of the skew names the side of the tail. Larger absolute values mean more lopsidedness."
+        },
+        {
+          "heading": "Kurtosis: how heavy are the tails",
+          "body_markdown": "Kurtosis uses *fourth-power* deviations divided by the standard deviation to the fourth. Raising to the fourth power makes extreme observations count hugely, so kurtosis is dominated by the tails. For a normal distribution, kurtosis equals **3**. Because of this, analysts quote **excess kurtosis** = kurtosis − 3, which is 0 for the normal.\n\n- **Mesokurtic:** excess kurtosis about 0 (normal-like tails).\n- **Leptokurtic:** excess kurtosis > 0. Fatter tails, so extreme gains and losses are more frequent than a normal curve predicts (typically with a more peaked centre too). Daily equity returns are typically like this.\n- **Platykurtic:** excess kurtosis < 0. Thinner tails and fewer extremes than a normal.\n\nCaution: some software reports excess kurtosis directly, and some reports the raw number. Always check whether the benchmark is 0 or 3."
+        },
+        {
+          "heading": "Why this matters for risk",
+          "body_markdown": "If you assume returns are normal, standard deviation tells you how likely large losses are. When returns are negatively skewed and leptokurtic, large losses happen more often than a normal model with the same mean and standard deviation implies, so standard deviation understates downside risk. A strategy can have attractive mean and volatility while hiding rare, severe crashes; many investors dislike negative skew and prefer positive skew. Use skewness to judge the *direction* of tail risk and excess kurtosis to judge the *frequency of extremes*; neither is captured by variance."
+        }
+      ],
+      "worked_example": {
+        "problem": "A small sample of five annual returns (in %) is 1, 2, 3, 4 and 10. Compute the sample skewness using the sample formula with the n/((n−1)(n−2)) adjustment, and say what it implies about the shape.",
+        "steps": [
+          "Mean: (1 + 2 + 3 + 4 + 10)/5 = 4. The median is 3.",
+          "Deviations from the mean: −3, −2, −1, 0, +6.",
+          "Squared deviations: 9, 4, 1, 0, 36, which sum to 50. Sample variance = 50/(5 − 1) = 12.5, so s = 3.5355. (BA II Plus: 2nd [DATA], enter 1 ENTER ↓ 2 ENTER ↓ 3 ENTER ↓ 4 ENTER ↓ 10 ENTER; then 2nd [STAT] until 1-V shows, press 2nd [ENTER]/[SET] if needed and scroll ↓ to read x̄ = 4 and Sx = 3.5355.)",
+          "Cubed deviations: −27, −8, −1, 0, +216, which sum to 180.",
+          "Divide by s cubed: 3.5355³ = 44.194, so 180/44.194 = 4.0729.",
+          "Apply the sample adjustment: n/((n−1)(n−2)) = 5/(4 × 3) = 0.41667. Skewness = 0.41667 × 4.0729 = 1.697.",
+          "Interpret: the skewness is positive, which matches mean (4) > median (3). The single large value of 10 creates a long right tail."
+        ],
+        "answer": "Sample skewness ≈ 1.70, so the distribution is positively (right) skewed.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Sample skewness",
+          "latex": "S_K=\\frac{n}{(n-1)(n-2)}\\sum_{i=1}^{n}\\left(\\frac{X_i-\\bar{X}}{s}\\right)^{3}",
+          "where": "n = number of observations; X_i = the i-th observation; \\bar{X} = sample mean; s = sample standard deviation (divisor n−1)."
+        },
+        {
+          "name": "Sample excess kurtosis",
+          "latex": "K_E=\\frac{n(n+1)}{(n-1)(n-2)(n-3)}\\sum_{i=1}^{n}\\left(\\frac{X_i-\\bar{X}}{s}\\right)^{4}-\\frac{3(n-1)^2}{(n-2)(n-3)}",
+          "where": "n = number of observations; X_i = the i-th observation; \\bar{X} = sample mean; s = sample standard deviation. The subtracted term adjusts the result so that a normal distribution is centred on 0."
+        },
+        {
+          "name": "Excess kurtosis",
+          "latex": "\\text{Excess kurtosis}=\\text{Kurtosis}-3",
+          "where": "Kurtosis = fourth standardized moment (equal to 3 for a normal distribution); 3 = the kurtosis of the normal benchmark."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up the direction of skew: the name refers to the long TAIL, not the bulk of the data. A long left tail is negative (left) skew, even though most observations sit on the right.",
+        "Treating kurtosis of 3 as 'high'. Raw kurtosis of 3 is normal-like; only excess kurtosis above 0 means fat tails. Confusing the two flips leptokurtic and platykurtic conclusions.",
+        "Assuming equal mean and standard deviation mean equal risk. Two return series can match on both and differ greatly in skewness and kurtosis, and so in crash risk.",
+        "Getting the mean/median/mode ordering backwards: positive skew gives mode < median < mean; negative skew gives mean < median < mode.",
+        "Describing kurtosis only as 'peakedness'. The exam emphasis is on tail weight: leptokurtic means more frequent extreme outcomes of either sign."
+      ],
+      "builds_on": [
+        "Mean, median and mode",
+        "Variance and standard deviation",
+        "Normal distribution as a benchmark"
+      ],
+      "leads_to": [
+        "Value at risk and tail risk",
+        "Non-normal return distributions in portfolio choice",
+        "Evaluating mean-variance analysis limits"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m53804:0.2",
+        "os:introductory-business-statistics-2e:m53804:0",
+        "os:introductory-business-statistics-2e:m53804:0.1",
+        "mit-ocw-15433-portfolio2:5:1",
+        "mit-ocw-15433-portfolio2:1:0"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": false,
+        "issues": [
+          "error found: The worked example has an arithmetic error. Skewness sum of cubed deviations: -27-8-1+0+216 = 180, OK. s=3.5355, s^3=44.19, 180/44.19=4.073, times 0.41667 = 1.697, which is correct. However, the sample skewness formula n/((n-1)(n-2)) * sum((x-mean)/s)^3 is correctly applied. The error: the passage formula divides by n (not n-1) and the lesson mixes it, but that's fine. The BA II Plus keystrokes are wrong: the 2nd [DATA] and [STAT] steps are inaccurate and the calculator doesn't output skewness. Core content is mostly correct, but 'Mode<median<mean' is a typical but not universal rule, which the lesson hedges with 'typical'. The main error is the calculator instructions."
+        ]
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A distribution of monthly returns has a long right tail caused by a few very large gains. Which ordering of the central tendency measures is most typical?",
+        "options": [
+          {
+            "text": "Mean < median < mode",
+            "value": null,
+            "explanation": "This is the typical ordering for NEGATIVE skew. It results from reading the direction of the tail backwards."
+          },
+          {
+            "text": "Mode < median < mean",
+            "value": null,
+            "explanation": "Correct. The large gains pull the mean toward the long right tail more than the median, and the mode sits lowest."
+          },
+          {
+            "text": "Mean = median = mode",
+            "value": null,
+            "explanation": "This holds for a symmetric unimodal distribution, which has zero skewness, not a long right tail."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0",
+          "os:introductory-business-statistics-2e:m53804:0.1"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A return series has an excess kurtosis of +1.8. Compared with a normal distribution, this series is best described as having:",
+        "options": [
+          {
+            "text": "Fatter tails, so extreme outcomes are more frequent",
+            "value": null,
+            "explanation": "Correct. Positive excess kurtosis means leptokurtic: heavier tails and more frequent extreme gains and losses than a normal curve."
+          },
+          {
+            "text": "Thinner tails, so extreme outcomes are less frequent",
+            "value": null,
+            "explanation": "This describes platykurtic (negative excess kurtosis). It reverses the sign interpretation."
+          },
+          {
+            "text": "Kurtosis of 1.8, so tails thinner than a normal",
+            "value": null,
+            "explanation": "This mistakes excess kurtosis for raw kurtosis. Raw kurtosis would be 4.8, since the normal benchmark of 3 is subtracted to get excess."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A fund's returns have a negative skewness and positive excess kurtosis. Relative to a normal distribution with the same mean and standard deviation, which statement is most accurate?",
+        "options": [
+          {
+            "text": "Very large gains are more likely than very large losses",
+            "value": null,
+            "explanation": "This reads the sign of skewness backwards. Negative skew means the long tail, and the extreme outcomes, lean toward losses."
+          },
+          {
+            "text": "Standard deviation fully captures the fund's risk",
+            "value": null,
+            "explanation": "This ignores that skewness and kurtosis describe tail risk that variance alone does not reveal."
+          },
+          {
+            "text": "Very large losses are more likely than a normal model implies",
+            "value": null,
+            "explanation": "Correct. Negative skew puts the long tail on the loss side and fat tails make extremes more frequent, so a normal model understates downside risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:1:0",
+          "mit-ocw-15433-portfolio2:5:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst reports a sample skewness of −0.85 for a stock's monthly returns. Which conclusion is most consistent with this value?",
+        "options": [
+          {
+            "text": "The left tail is longer and the mean is likely below the median",
+            "value": null,
+            "explanation": "Correct. Negative skewness indicates a longer left tail, which typically pulls the mean below the median."
+          },
+          {
+            "text": "The right tail is longer and the mean is likely above the median",
+            "value": null,
+            "explanation": "This reads the negative sign as right skew. Negative skewness means left skew."
+          },
+          {
+            "text": "The distribution is symmetric and the mean equals the median",
+            "value": null,
+            "explanation": "Symmetry would give skewness near zero. A value of −0.85 is a clear departure from that."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2",
+          "os:introductory-business-statistics-2e:m53804:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In the skewness calculation, deviations from the mean are cubed and then divided by the standard deviation cubed. What is the main purpose of the division?",
+        "options": [
+          {
+            "text": "To make the result always positive, like variance",
+            "value": null,
+            "explanation": "Cubing preserves signs, so skewness can be negative. Division does not make it positive."
+          },
+          {
+            "text": "To express skewness as a unit-free number describing only shape",
+            "value": null,
+            "explanation": "Correct. Dividing by s cubed cancels the units of the data, so skewness is comparable across assets and scales."
+          },
+          {
+            "text": "To adjust the measure so that fat tails are not counted",
+            "value": null,
+            "explanation": "Tail weight is the job of kurtosis, and the division does not remove tail effects. Large deviations still dominate the cubed sum."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Fund A and Fund B have the same mean return and standard deviation. Fund A has skewness of −1.2 and excess kurtosis of 3.0. Fund B has skewness of 0 and excess kurtosis of 0. For an investor who dislikes large losses, which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Fund A is preferable because its higher kurtosis implies higher expected returns",
+            "value": null,
+            "explanation": "Kurtosis measures tail weight, not the level of the mean. The means are given as equal."
+          },
+          {
+            "text": "The funds are equally attractive because mean and variance match",
+            "value": null,
+            "explanation": "This assumes only mean and variance matter. The skewness and kurtosis differences signal very different tail risk."
+          },
+          {
+            "text": "Fund B is preferable because Fund A has greater downside tail risk",
+            "value": null,
+            "explanation": "Correct. Fund A's negative skew and fat tails mean large losses are more likely than a normal pattern implies, while Fund B has a normal-like shape."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:5:1",
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A data provider reports a raw (not excess) kurtosis of 2.4 for a return series. How should the series be described relative to a normal distribution?",
+        "options": [
+          {
+            "text": "Leptokurtic, since the kurtosis is positive",
+            "value": null,
+            "explanation": "This treats raw kurtosis as if it were already excess kurtosis. The positive sign of the raw figure says nothing about fat tails."
+          },
+          {
+            "text": "Platykurtic, since excess kurtosis is −0.6",
+            "value": null,
+            "explanation": "Correct. Excess kurtosis = 2.4 − 3 = −0.6, which is below 0, so tails are thinner than normal."
+          },
+          {
+            "text": "Mesokurtic, since the kurtosis is close to 3",
+            "value": null,
+            "explanation": "Mesokurtic means excess kurtosis near 0. A difference of 0.6 from the benchmark is not treated as exactly normal-like, and the sign shows thinner tails."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does the sign of skewness tell you, and what is the usual mean/median/mode ordering for each sign?",
+        "back": "Positive skew: long right tail, mode < median < mean. Negative skew: long left tail, mean < median < mode. Zero: symmetric.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2",
+          "os:introductory-business-statistics-2e:m53804:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is excess kurtosis, and what is its value for a normal distribution?",
+        "back": "Excess kurtosis = kurtosis − 3. It is 0 for a normal distribution, because a normal has kurtosis of 3.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Contrast leptokurtic, mesokurtic and platykurtic distributions.",
+        "back": "Leptokurtic: excess kurtosis > 0, fat tails, frequent extremes. Mesokurtic: excess kurtosis about 0, normal-like. Platykurtic: excess kurtosis < 0, thin tails, fewer extremes.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why can negative skewness with fat tails make standard deviation misleading as a risk measure?",
+        "back": "Large losses occur more often than a normal distribution with the same mean and standard deviation implies, so standard deviation understates downside risk.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:5:1",
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:01:39.346Z",
+      "purpose": "blind-solve",
+      "losId": "quant-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 787,
+      "outputTokens": 482,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006511,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:01:49.739Z",
+      "purpose": "grounding",
+      "losId": "quant-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12587,
+      "outputTokens": 1441,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0397454,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0462564
+}

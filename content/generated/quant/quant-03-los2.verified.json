@@ -1,0 +1,904 @@
+{
+  "losId": "quant-03-los2",
+  "losText": "describe the choices and the implications of the different weighting methods used in index construction and management, and calculate, interpret, and explain the value and the returns of an index",
+  "moduleId": "quant-03",
+  "moduleTitle": "Benchmarking Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:00:16.403Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "gips-2020-firms:108:117",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 108–109",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=108",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.27
+    },
+    {
+      "id": "nasdaq-100-methodology:10:11",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "pp. 10–11",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=10",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "russell-us-indexes-methodology:5:4",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 5–6",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=5",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "russell-us-indexes-methodology:27:33",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 27–28",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=27",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "russell-us-indexes-methodology:26:32",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 26–27",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=26",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-riskmanagement:23:9",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 23–25",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-riskmanagement:22:8",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 22–23",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=22",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-riskmanagement:25:10",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 25–27",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=25",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00082:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§13.5 Probability Distributions — Calculate Portfolio Weights",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-5-probability-distributions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "nasdaq-100-methodology:7:8",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "pp. 7–8",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=7",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "russell-us-indexes-methodology:22:26",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 22–24",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=22",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "nasdaq-100-methodology:6:6",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "p. 6",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=6",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Indexes Are Built: Weighting Choices, Index Values and Index Returns",
+      "summary": "An index is a recipe for combining many securities into one number, and the recipe (price, equal, size or fundamentals as the weight) changes both the index's value and what it tells you about the market. You need to know how each recipe works, what it favours, and how to turn index levels and income into a return.",
+      "sections": [
+        {
+          "heading": "An index is a weighted basket",
+          "body_markdown": "Think of a fruit basket whose total value is tracked over time. You must decide how much of each fruit goes in. A **security market index** is a basket of securities, and its **weighting method** is the rule that sets how much each security counts. Two indexes holding the same 30 stocks can move differently simply because their rules differ.\n\nA **constituent** is any security currently in the index. The **index value** is a single number summarising the basket, usually scaled from a starting base such as 100 or 1,000. The **index return** is the percentage change in that number, optionally including income."
+        },
+        {
+          "heading": "The main weighting methods and what each favours",
+          "body_markdown": "- **Price weighting**: weight depends on the share price. The index value is the sum of constituent prices divided by a **divisor**. If the divisor starts at the number of stocks, the value is the plain average price. A $200 stock matters far more than a $20 stock even if the $20 company is much bigger. A stock split cuts the price, so the stock's weight falls; the divisor is adjusted so the index value itself does not jump.\n- **Equal weighting**: every constituent gets the same weight at each rebalance. Small companies count as much as giant ones, so the index leans toward smaller firms. As prices drift, weights become unequal, so the manager must trade (sell winners, buy losers) to restore equality. That means higher turnover and trading costs.\n- **Market-capitalization weighting**: weight is proportional to market cap, which is price × shares outstanding. Weights follow prices automatically, so little trading is needed. The drawback is that stocks whose prices have risen the most get the largest weights, which can mean overweighting richly valued firms.\n- **Float-adjusted market-cap weighting**: like market-cap weighting, but only shares available to the public (the **free float**) are counted. Shares held by insiders or governments are excluded because investors cannot buy them. Many major equity indexes work this way.\n- **Fundamental weighting**: weights come from company size measures that do not depend on price, such as earnings, dividends, sales or book value. It avoids automatically overweighting stocks that are expensive relative to fundamentals, and it tends to tilt toward value stocks. It still needs periodic rebalancing, because the fundamentals-based targets and market prices drift apart."
+        },
+        {
+          "heading": "Keeping an index up to date: rebalancing and reconstitution",
+          "body_markdown": "**Rebalancing** means resetting weights back to the rule's targets (for example, back to equal weights). **Reconstitution** means reviewing which securities qualify and adding or removing constituents. Index providers do both on a published schedule, for example reconstituting once a year and rebalancing every quarter. Some also apply caps so that no single company or small group of companies dominates the weights.\n\nTrade-off to remember: the more an index must trade to keep its rule, the more it costs to replicate. Equal and fundamental weighting need more trading than cap weighting, and a strategy that tracks them pays those costs."
+        },
+        {
+          "heading": "Computing index values and returns",
+          "body_markdown": "**Price-weighted value**: add up the prices and divide by the divisor.\n\n**Market-cap-weighted return**: add up the constituents' total market caps now and at the start. The index return is the percentage change in that total (the base-level scaling cancels out). Scale the starting base level by $(1+R)$ to get the new index value.\n\n**Equal-weighted return** over one period: because equal money is placed in each stock at the start, the index return is the simple average of the stocks' returns.\n\nTwo return versions exist. A **price return index** only tracks price changes. A **total return index** also counts income (dividends) and assumes it is reinvested. The total return over a period is $(P_1 - P_0 + \\text{income})/P_0$ using index levels. Always check which version you are being asked for; total return is higher whenever the constituents pay dividends."
+        }
+      ],
+      "worked_example": {
+        "problem": "A market-cap-weighted price index has three constituents. Share counts are in millions. Stock A: 20 shares, price 50 → 55. Stock B: 40 shares, price 30 → 27. Stock C: 80 shares, price 10 → 12. The index starts at a base level of 1,000. Compute the index return for the period (ignore dividends), the ending index level, and compare with the equal-weighted and price-weighted versions.",
+        "steps": [
+          "Starting market caps: A = 20 × 50 = 1,000; B = 40 × 30 = 1,200; C = 80 × 10 = 800. Total = 3,000.",
+          "Ending market caps: A = 20 × 55 = 1,100; B = 40 × 27 = 1,080; C = 80 × 12 = 960. Total = 3,140.",
+          "Index return = 3,140 / 3,000 − 1. On the BA II Plus: 3140 ÷ 3000 = gives 1.046667; then − 1 = gives 0.046667, i.e. 4.67%.",
+          "Ending index level = 1,000 × 1.046667 = 1,046.67.",
+          "Contrast: equal-weighted return is the average of stock returns: A +10%, B −10%, C +20% → (10 − 10 + 20)/3 = 6.67%.",
+          "Contrast: a price-weighted index sums prices: 90 → 94, a return of 4/90 = 4.44%. The three rules give three different answers from the same stocks."
+        ],
+        "answer": "The cap-weighted index returns 4.67% and ends at about 1,046.67 (equal-weighted: 6.67%; price-weighted: 4.44%).",
+        "answer_value": 0.046667,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":3000,\"endPrice\":3140,\"income\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Price-weighted index value",
+          "latex": "\\text{Index}=\\frac{\\sum_{i=1}^{N}P_i}{D}",
+          "where": "P_i is the price of stock i, N is the number of constituents, D is the divisor (initially N, then adjusted for splits and constituent changes)."
+        },
+        {
+          "name": "Market-cap weight of a stock",
+          "latex": "w_i=\\frac{P_i\\,Q_i}{\\sum_{j}P_j\\,Q_j}",
+          "where": "P_i is the price of stock i and Q_i is its shares outstanding (use only free-float shares for a float-adjusted index); the sum runs over all constituents j."
+        },
+        {
+          "name": "Equal-weighted index return (one period)",
+          "latex": "R_{EW}=\\frac{1}{N}\\sum_{i=1}^{N}R_i",
+          "where": "R_i is the return of stock i over the period and N is the number of constituents, with equal weights at the start of the period."
+        },
+        {
+          "name": "Price return and total return of an index",
+          "latex": "R_{PR}=\\frac{V_1-V_0}{V_0},\\qquad R_{TR}=\\frac{V_1-V_0+\\text{Inc}}{V_0}",
+          "where": "V_0 and V_1 are the index levels at the start and end of the period, and Inc is the income (dividends) paid by constituents over the period, in index points."
+        }
+      ],
+      "exam_traps": [
+        "Treating a price-weighted index as if big companies dominate: it is high share prices that dominate, regardless of company size.",
+        "Thinking a stock split changes the index value; the divisor is adjusted so the value is unchanged, but the split stock's weight falls in a price-weighted index.",
+        "Assuming an equal-weighted index needs no trading. Weights drift as prices move, so it must be rebalanced often, which raises turnover and costs.",
+        "Mixing up price return and total return: forgetting income, or dividing income by the ending level instead of the starting level.",
+        "Using full market cap instead of free-float market cap for a float-adjusted index, or assuming fundamental weighting is the same as cap weighting."
+      ],
+      "builds_on": [
+        "Holding period return",
+        "Arithmetic mean and weighted averages",
+        "Market capitalization (price × shares)"
+      ],
+      "leads_to": [
+        "Choosing a benchmark",
+        "Passive vs active management",
+        "Factor and smart-beta investing",
+        "Index fund tracking costs"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-riskmanagement:22:8",
+        "russell-us-indexes-methodology:22:26",
+        "nasdaq-100-methodology:7:8",
+        "nasdaq-100-methodology:6:6"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An index provider calculates each company's weight using only the shares that ordinary investors can actually buy, leaving out shares locked up by insiders or a government. What is the main purpose of this float adjustment?",
+        "options": [
+          {
+            "text": "To give every company the same weight regardless of its size",
+            "value": null,
+            "explanation": "This describes equal weighting. Float adjustment still weights by size, just on available shares."
+          },
+          {
+            "text": "To make weights reflect the capitalization actually available to investors",
+            "value": null,
+            "explanation": "Correct. Excluding unavailable shares means the index mirrors the investable opportunity set."
+          },
+          {
+            "text": "To give higher-priced shares a larger weight than lower-priced shares",
+            "value": null,
+            "explanation": "This confuses float adjustment with price weighting. Float adjustment concerns share counts, not share prices."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A price-weighted index holds four stocks priced at 48, 22, 90 and 40. The divisor equals the number of stocks. What is the index value, rounded to two decimals?",
+        "options": [
+          {
+            "text": "50.00",
+            "value": 50,
+            "explanation": "Correct. Sum of prices = 200; divided by the divisor of 4 gives 50.00."
+          },
+          {
+            "text": "66.67",
+            "value": 66.666667,
+            "explanation": "Divides by 3 instead of 4: wrong divisor, ignoring one of the constituents."
+          },
+          {
+            "text": "200.00",
+            "value": 200,
+            "explanation": "Sums the prices but forgets to divide by the divisor."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[48,22,90,40]}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An equal-weighted index holds three stocks, with equal amounts invested in each at the start of a single period. Over the period the stocks return +10%, −10% and +20%. What is the index return, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "Adds the three returns without dividing by the number of stocks."
+          },
+          {
+            "text": "5.90%",
+            "value": 0.059,
+            "explanation": "Takes the geometric mean of the stock returns. Geometric averaging is for compounding across time, not for combining equally weighted stocks in one period."
+          },
+          {
+            "text": "6.67%",
+            "value": 0.066667,
+            "explanation": "Correct. With equal starting weights, the index return is the simple average: (10 − 10 + 20)/3 = 6.67%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.1,-0.1,0.2]}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A market-capitalization-weighted price index holds two stocks, and share counts stay constant over the period. Stock X has 50 million shares, and its price rises from $40.00 to $44.00. Stock Y has 200 million shares, and its price falls from $20.00 to $19.50. No dividends are paid. The index price return is the percentage change in the total market capitalization of the two stocks. What is the index price return for the period, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "3.75%",
+            "value": 0.0375,
+            "explanation": "This takes the simple average of the two stock returns (+10% and −2.5%). That is equal weighting, which ignores the very different company sizes."
+          },
+          {
+            "text": "1.67%",
+            "value": 0.016667,
+            "explanation": "Correct. Beginning cap = 50 × 40 + 200 × 20 = 2,000 + 4,000 = 6,000 (millions). Ending cap = 50 × 44 + 200 × 19.50 = 2,200 + 3,900 = 6,100. Return = 6,100 / 6,000 − 1 = 1.67%. The larger company, Stock Y, carries a 66.7% starting weight, which pulls the return down."
+          },
+          {
+            "text": "5.83%",
+            "value": 0.058333,
+            "explanation": "This adds the share prices (40 + 20 = 60 rising to 44 + 19.50 = 63.50). That is price weighting, which ignores the number of shares outstanding."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":6000,\"endPrice\":6100,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): Beginning cap: X = 50*40 = 2,000; Y = 200*20 = 4,000; total 6,000. Ending: X = 2,200; Y = 200*19.5 = 3,900; total 6,100. Return = 100/6000 = 1.67%."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with a market-cap-weighted index of the same stocks, an equal-weighted index most likely:",
+        "options": [
+          {
+            "text": "holds less in small companies and needs little trading as prices change.",
+            "value": null,
+            "explanation": "This is reversed. Equal weights overweight small companies, and weights drift as prices move, so trading is required."
+          },
+          {
+            "text": "gives its largest weights to the stocks with the highest share prices.",
+            "value": null,
+            "explanation": "This describes price weighting. Equal weighting ignores both price and size."
+          },
+          {
+            "text": "holds more in small companies and needs frequent rebalancing to restore equal weights.",
+            "value": null,
+            "explanation": "Correct. Each stock gets the same weight, so small firms are overweighted relative to cap weighting, and price drift forces regular rebalancing with higher turnover."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock index stands at 2,400 at the start of the year and 2,520 at the end. Constituents paid dividends worth 36 index points during the year, assumed reinvested. What is the total return of the index for the year, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "6.50%",
+            "value": 0.065,
+            "explanation": "Correct. (2,520 − 2,400 + 36)/2,400 = 156/2,400 = 6.50%."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "This is the price return only. It leaves out the dividend income."
+          },
+          {
+            "text": "6.19%",
+            "value": 0.061905,
+            "explanation": "Divides by the ending level (2,520) instead of the starting level (2,400)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":2400,\"endPrice\":2520,\"income\":36}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A price-weighted index uses a divisor adjusted for stock splits. One constituent announces a 2-for-1 split. After the split and the divisor adjustment, which statement is correct?",
+        "options": [
+          {
+            "text": "The index value falls because the stock's price is cut in half.",
+            "value": null,
+            "explanation": "Ignores the divisor adjustment, which is made precisely so the split does not change the index value."
+          },
+          {
+            "text": "The index value is unchanged, but the stock's weight in the index falls.",
+            "value": null,
+            "explanation": "Correct. The divisor keeps the level steady, but the stock now has a lower price, so it counts for less in a price-weighted index."
+          },
+          {
+            "text": "The index value and the stock's weight are both unchanged.",
+            "value": null,
+            "explanation": "Applies cap-weighting logic (market cap is unchanged by a split). In price weighting, weight depends on price, so it falls."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An index weights its constituents by measures such as earnings, dividends and book value, not by market price. Compared with market-cap weighting, the most likely implication is that it:",
+        "options": [
+          {
+            "text": "avoids automatically overweighting stocks whose prices have outrun fundamentals, tilting toward value.",
+            "value": null,
+            "explanation": "Correct. Because weights do not rise just because prices rise, expensive stocks are not given extra weight, which usually produces a value tilt."
+          },
+          {
+            "text": "needs no rebalancing, since weights move automatically with stock prices.",
+            "value": null,
+            "explanation": "This describes cap weighting. Fundamental weights are set by fundamentals, so portfolios drift from them as prices move and must be rebalanced periodically."
+          },
+          {
+            "text": "gives its biggest weights to the stocks with the highest share prices.",
+            "value": null,
+            "explanation": "Confuses fundamental weighting with price weighting. Share price is not the weighting variable."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "In a price-weighted index, how is the index value computed and which stocks dominate?",
+        "back": "Sum of constituent prices divided by a divisor (initially the number of stocks). Stocks with high share prices dominate, regardless of company size.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why does an equal-weighted index have higher turnover than a cap-weighted one, and what does it overweight?",
+        "back": "Price moves push weights away from equal, so it must sell winners and buy losers to restore equality. It overweights small companies relative to cap weighting.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What does float adjustment do to a market-cap-weighted index?",
+        "back": "It counts only shares available to the public (free float), so weights reflect the capitalization investors can actually buy.",
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between a price return index and a total return index?",
+        "back": "A price return index tracks only price changes. A total return index also includes constituent income (dividends), assumed reinvested, so it is higher when dividends are paid.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:22:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Rebalancing vs reconstitution of an index: what is the difference?",
+        "back": "Rebalancing resets weights to the rule's targets; reconstitution reviews which securities qualify and adds or removes constituents.",
+        "cited_chunk_ids": [
+          "nasdaq-100-methodology:7:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T06:59:54.991Z",
+      "purpose": "blind-solve",
+      "losId": "quant-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1001,
+      "outputTokens": 603,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008149,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:00:03.786Z",
+      "purpose": "repair",
+      "losId": "quant-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10169,
+      "outputTokens": 1093,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4628,
+      "costUsd": 0.032193599999999996,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:00:06.428Z",
+      "purpose": "blind-solve",
+      "losId": "quant-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 188,
+      "outputTokens": 156,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002053,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:00:16.403Z",
+      "purpose": "grounding",
+      "losId": "quant-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13856,
+      "outputTokens": 1578,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0436534,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.08604899999999999
+}

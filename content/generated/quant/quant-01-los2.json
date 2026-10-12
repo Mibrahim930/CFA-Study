@@ -1,0 +1,445 @@
+{
+  "losId": "quant-01-los2",
+  "losText": "describe, compare, and interpret required rates of return, risk-free rates, risk premia, and inflation",
+  "moduleId": "quant-01",
+  "moduleTitle": "Returns of Financial Assets and Instruments",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:17:30.900Z",
+  "retrieved": [
+    {
+      "id": "gips-2020-firms:69:72",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 69–70",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=69",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00050:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§7.4 Applications of TVM in Finance — Nominal versus Real Interest Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/7-4-applications-of-tvm-in-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00021:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§3.4 Interest Rates — Real Interest Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/3-4-interest-rates",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "gips-2020-firms:78:83",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 78–79",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=78",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00021:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§3.4 Interest Rates — Interest Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/3-4-interest-rates",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00075:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.3 Historical Picture of Returns to Bonds — Federal Government Bond Behavior, Discussion, Charts, and Graphs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-3-historical-picture-of-returns-to-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Levered Firm",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-rec01:13:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 1: Present Value",
+      "locator": "pp. 13–18",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7fd4ce059d9bd0086fc9b50e3cd99540_MIT15_401F08_rec01.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-lec04:46:9",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 46–50",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=46",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:55:14",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 55–58",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=55",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00002:3.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.1 What Is Finance? — Risk and Return in Finance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-1-what-is-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "What Investors Demand: Required Returns, Risk-Free Rates, Risk Premia and Inflation",
+      "summary": "This lesson shows how the return an investor requires is built from a basic reward for waiting, compensation for rising prices, and extra pay for each kind of risk. It also shows how to strip inflation out of a quoted return, which is needed to judge whether an investment really increases purchasing power.",
+      "sections": [
+        {
+          "heading": "Required return: the price of handing over your money",
+          "body_markdown": "Think of investing as renting out your money. A landlord will not rent a flat unless the rent covers the wear and tear and the chance of a bad tenant. In the same way, an investor will not commit money unless the return **expected** from it is high enough.\n\nThat minimum acceptable expected return is the **required rate of return**. It is *forward-looking*, because it is set before you invest, and it depends on how risky the investment is. Do not confuse it with a **realized return**, which is what actually happened afterwards.\n\nA simple decision rule follows. If the expected return is at least the required return, the investment is attractive. If it is lower, the price is too high for the risk."
+        },
+        {
+          "heading": "The risk-free rate, the real rate and inflation",
+          "body_markdown": "The **risk-free rate** is the return on an asset with no default risk. In practice, short-dated government bills are used as the proxy. It has two ingredients:\n\n- The **real risk-free rate** is the reward for postponing consumption, with no risk and no inflation. It is the pure price of waiting.\n- **Expected inflation** is compensation for the fact that money will buy less by the time you are repaid.\n\nTogether they give the **nominal** (quoted) risk-free rate. The exact link, called the Fisher relation, multiplies the growth factors:\n\n$$1+r_{nom}=(1+r_{real})(1+\\pi^e)$$\n\nWhen rates and inflation are small, the shortcut $r_{nom}\\approx r_{real}+\\pi^e$ is close enough for a quick estimate. For an exact answer, which the exam often asks for, use the multiplication form.\n\nTo go the other way and find the **real return** on a quoted return, divide the growth factors:\n\n$$r_{real}=\\frac{1+r_{nom}}{1+\\pi}-1$$"
+        },
+        {
+          "heading": "Adding premia for risk",
+          "body_markdown": "A **risk premium** is the extra expected return demanded for bearing a risk that the risk-free asset does not carry. For a bond, the usual layers on top of the nominal risk-free rate are:\n\n- **Default risk premium**: compensation for the chance the issuer fails to pay in full and on time.\n- **Liquidity premium**: compensation for an asset that is hard to sell quickly at a fair price.\n- **Maturity premium**: compensation for the extra price risk of lending for longer, because longer bonds swing more when interest rates change.\n\nA build-up for a risky bond's required return is therefore:\n\n$$r_{req}=RFR_{real}+\\pi^e+DRP+LP+MP$$\n\nEquities add an **equity risk premium**, the extra return investors expect from stocks over the risk-free rate. It is larger for riskier firms. For example, a heavily borrowing company's shareholders sit behind the lenders in the payment queue, so they demand a bigger premium."
+        },
+        {
+          "heading": "Reading real returns, including negative ones",
+          "body_markdown": "Quoted returns are nominal. What matters for your wealth is the **real return**, the growth in purchasing power.\n\nIf a deposit pays 6% while prices rise 2%, you do not gain 4.00%. You gain $1.06/1.02-1=3.92\\%$ in purchasing power. The subtraction shortcut gives 4.00%, which is close but not exact.\n\nIf inflation exceeds the nominal rate, the real return is **negative**. Cash then buys less each year even though the balance grows.\n\nBecause the required return is set in advance, it uses *expected* inflation. A realized real return uses *actual* inflation. The two can differ."
+        }
+      ],
+      "worked_example": {
+        "problem": "A one-year government bill pays a nominal return of 5.5%. Expected inflation over the year is 2.5%. Find the exact expected real return, rounded to two decimals, and compare it with the quick approximation.",
+        "steps": [
+          "Write the exact relation: $r_{real}=\\frac{1+r_{nom}}{1+\\pi}-1$.",
+          "Substitute: $\\frac{1.055}{1.025}-1$.",
+          "BA II Plus: press 1.055 ÷ 1.025 = to get 1.029268, then press − 1 = to get 0.029268.",
+          "Convert to a percentage: 0.029268 = 2.93% (rounded).",
+          "Quick approximation: 5.5% − 2.5% = 3.00%. This overstates the exact figure by about 7 basis points, so use the exact form when the question asks for it."
+        ],
+        "answer": "The exact real return is 2.93%; the approximation gives 3.00%.",
+        "answer_value": 0.0293,
+        "calc_spec": {
+          "fn": "realReturn",
+          "args_json": "{\"nominal\":0.055,\"inflation\":0.025}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Fisher relation (exact)",
+          "latex": "1+r_{nom}=(1+r_{real})(1+\\pi^e)",
+          "where": "r_nom = nominal (quoted) rate; r_real = real rate; π^e = expected inflation rate, all as decimals per year."
+        },
+        {
+          "name": "Nominal rate shortcut",
+          "latex": "r_{nom}\\approx r_{real}+\\pi^e",
+          "where": "Symbols as above; accurate only when rates and inflation are small."
+        },
+        {
+          "name": "Real return from a nominal return",
+          "latex": "r_{real}=\\frac{1+r_{nom}}{1+\\pi}-1",
+          "where": "r_nom = nominal return; π = inflation rate over the same period; r_real = purchasing-power return."
+        },
+        {
+          "name": "Required return build-up for a bond",
+          "latex": "r_{req}=RFR_{real}+\\pi^e+DRP+LP+MP",
+          "where": "RFR_real = real risk-free rate; π^e = expected inflation; DRP = default risk premium; LP = liquidity premium; MP = maturity premium."
+        }
+      ],
+      "exam_traps": [
+        "Subtracting inflation from the nominal rate when the question wants the exact real return. Divide 1 + nominal by 1 + inflation instead.",
+        "Dividing by 1 + nominal rather than 1 + inflation. The denominator is always the inflation growth factor.",
+        "Treating a Treasury bill yield as the real risk-free rate. It is a nominal rate and already contains expected inflation.",
+        "Mixing up the liquidity premium (hard to trade) with the maturity premium (long-term interest-rate risk) or the default premium (issuer may not pay).",
+        "Treating the required return as what the investment actually earned. Required return is an ex-ante hurdle, while realized return is ex-post."
+      ],
+      "builds_on": [
+        "Time value of money and interest rates",
+        "Nominal versus quoted rates"
+      ],
+      "leads_to": [
+        "Holding period and other return measures",
+        "CAPM and the equity risk premium",
+        "Bond yields and credit spreads"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00050:3",
+        "os:principles-finance-2e:m00021:2",
+        "os:principles-finance-2e:m00021:4",
+        "smu-fma-ch4-rates-of-return:55:14",
+        "os:principles-finance-2e:m00075:0",
+        "os:principles-finance-2e:m00002:3.1",
+        "os:principles-finance-2e:m00107:2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Two bonds come from the same issuer, have the same maturity, coupon and credit quality. Bond X trades only a few times a month, while Bond Y trades continuously. Which premium best explains why investors require a higher yield on Bond X?",
+        "options": [
+          {
+            "text": "Default risk premium, because X is more likely to fail to pay",
+            "value": null,
+            "explanation": "Confuses credit risk with trading ease. The two bonds have the same issuer and credit quality, so default risk does not differ."
+          },
+          {
+            "text": "Maturity premium, because X has a longer remaining life",
+            "value": null,
+            "explanation": "Confuses term with marketability. The two bonds have the same maturity, so the maturity premium is the same."
+          },
+          {
+            "text": "Liquidity premium, because X is harder to sell quickly at a fair price",
+            "value": null,
+            "explanation": "Correct. The liquidity premium compensates for the difficulty of selling quickly without a price concession."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A savings account pays a nominal annual rate of 6%. Inflation over the year is 2%. Using the exact relationship, what is the real return, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "Uses the subtraction shortcut (6% − 2%). It is only an approximation and overstates the exact answer."
+          },
+          {
+            "text": "3.92%",
+            "value": 0.0392,
+            "explanation": "Correct: 1.06 / 1.02 − 1 = 0.0392, or 3.92%."
+          },
+          {
+            "text": "8.12%",
+            "value": 0.0812,
+            "explanation": "Multiplies the growth factors (1.06 × 1.02 − 1). That goes from real to nominal, not nominal to real."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "realReturn",
+          "args_json": "{\"nominal\":0.06,\"inflation\":0.02}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00050:3",
+          "smu-fma-ch4-rates-of-return:55:14"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the real risk-free rate?",
+        "options": [
+          {
+            "text": "The reward for postponing consumption with no default risk and no inflation",
+            "value": null,
+            "explanation": "Correct. The real risk-free rate is the pure price of waiting, before inflation and risk are added."
+          },
+          {
+            "text": "The compensation for the expected rise in the general price level",
+            "value": null,
+            "explanation": "This describes expected inflation, which is added to the real rate to get the nominal risk-free rate."
+          },
+          {
+            "text": "The extra yield for the chance that a borrower does not repay",
+            "value": null,
+            "explanation": "This describes the default risk premium, which is a separate layer added for credit risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00021:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond offers a nominal annual return of 8.12%. Expected inflation is 2% per year. Using the exact (multiplicative) relationship, what is the expected real return, rounded to two decimals?",
+        "options": [
+          {
+            "text": "6.12%",
+            "value": 0.0612,
+            "explanation": "Subtracts inflation directly (8.12% − 2%). That is the approximation, and it does not match the exact figure."
+          },
+          {
+            "text": "5.66%",
+            "value": 0.0566,
+            "explanation": "Divides the subtraction result by 1 + nominal (0.0612 / 1.0812) instead of by 1 + inflation."
+          },
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "Correct: 1.0812 / 1.02 − 1 = 0.06, or 6.00%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "realReturn",
+          "args_json": "{\"nominal\":0.0812,\"inflation\":0.02}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00050:3",
+          "smu-fma-ch4-rates-of-return:55:14"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst uses the yield on a one-year government bill as the nominal risk-free rate. Which statement about that yield is most accurate?",
+        "options": [
+          {
+            "text": "It equals the real risk-free rate because the government is very unlikely to default",
+            "value": null,
+            "explanation": "Confuses the absence of default risk with the absence of inflation. Inflation compensation is still included in the quoted yield."
+          },
+          {
+            "text": "It combines the real risk-free rate with compensation for expected inflation",
+            "value": null,
+            "explanation": "Correct. The quoted risk-free rate is nominal, roughly real risk-free rate plus expected inflation, with almost no default premium."
+          },
+          {
+            "text": "It leaves out inflation compensation because the bill matures within a year",
+            "value": null,
+            "explanation": "Wrongly assumes a short term removes inflation. Lenders still demand compensation for the price rises expected over the year."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00075:0",
+          "smu-fma-ch4-rates-of-return:55:14"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A bank deposit pays a nominal annual rate of 1.5% while inflation over the year is 4.0%. Using the exact relationship, what is the real return, rounded to two decimals?",
+        "options": [
+          {
+            "text": "−2.40%",
+            "value": -0.024,
+            "explanation": "Correct: 1.015 / 1.04 − 1 = −0.0240, so purchasing power falls by 2.40%."
+          },
+          {
+            "text": "−2.46%",
+            "value": -0.0246,
+            "explanation": "Divides the nominal-minus-inflation gap (−2.5%) by 1 + nominal rather than by 1 + inflation."
+          },
+          {
+            "text": "−2.50%",
+            "value": -0.025,
+            "explanation": "Uses the subtraction shortcut (1.5% − 4.0%), which is not exact."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "realReturn",
+          "args_json": "{\"nominal\":0.015,\"inflation\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00050:3",
+          "smu-fma-ch4-rates-of-return:55:14"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor's required return on a stock is 9%, but her best estimate of the return she will earn from buying at today's price is 7%. What is the most appropriate interpretation?",
+        "options": [
+          {
+            "text": "The stock is attractive, because 7% exceeds the risk-free rate",
+            "value": null,
+            "explanation": "Compares the expected return with the risk-free rate only. The stock's risk premium has to be covered too, which is what the 9% hurdle reflects."
+          },
+          {
+            "text": "The required return will fall to 7% once the investor buys the stock",
+            "value": null,
+            "explanation": "Confuses expected and required returns. The required return depends on risk, not on what the investor ends up expecting."
+          },
+          {
+            "text": "The expected return does not meet her hurdle, so the stock looks overpriced to her",
+            "value": null,
+            "explanation": "Correct. Expected return below required return means the price does not compensate for the risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the usual building blocks of the required return on a risky bond?",
+        "back": "Real risk-free rate + expected inflation + default risk premium + liquidity premium + maturity premium.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How do you convert a nominal return to an exact real return?",
+        "back": "Divide 1 + nominal by 1 + inflation, then subtract 1. Subtracting inflation directly is only an approximation.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00050:3",
+          "smu-fma-ch4-rates-of-return:55:14"
+        ]
+      },
+      {
+        "front": "Which premium compensates for hard-to-sell assets, and which for longer-term lending?",
+        "back": "The liquidity premium covers difficulty of selling quickly at a fair price. The maturity premium covers the greater interest-rate risk of longer-term lending.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How does a required return differ from a realized return?",
+        "back": "Required return is the forward-looking minimum expected return needed to accept the risk. Realized return is what the investment actually earned afterwards.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:17:30.900Z",
+      "purpose": "generate",
+      "losId": "quant-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9450,
+      "outputTokens": 9863,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1186678,
+      "stopReason": "end_turn"
+    }
+  ]
+}

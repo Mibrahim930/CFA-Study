@@ -1,0 +1,476 @@
+{
+  "losId": "quant-07-los1",
+  "losText": "explain the central limit theorem and the application of confidence intervals and sampling methodologies",
+  "moduleId": "quant-07",
+  "moduleTitle": "Estimation and Hypothesis Testing",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:39:43.148Z",
+  "retrieved": [
+    {
+      "id": "os:principles-data-science:m00017:2",
+      "title": "Principles of Data Science",
+      "locator": "§2.2 Survey Design and Implementation — Sampling",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-data-science:m00017:2.1",
+      "title": "Principles of Data Science",
+      "locator": "§2.2 Survey Design and Implementation — Sampling",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55461:2.3",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.1 A Confidence Interval When the Population Standard Deviation Is Known or Large Sample Size — Changing the Confidence Level or Sample Size",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-1-a-confidence-interval-when-the-population-standard-deviation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54036:2.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§1.2 Data, Sampling, and Variation in Data and Sampling — Sampling",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55461:2.4",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.1 A Confidence Interval When the Population Standard Deviation Is Known or Large Sample Size — Changing the Confidence Level or Sample Size",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-1-a-confidence-interval-when-the-population-standard-deviation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55608:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§9.3 Probability Distribution Needed for Hypothesis Testing — Effects of Sample Size on Test Statistic",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/9-3-probability-distribution-needed-for-hypothesis-testing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-data-science:m00027:1.2",
+      "title": "Principles of Data Science",
+      "locator": "§4.1 Statistical Inference and Confidence Intervals — Estimating Parameters with Confidence Intervals",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-1-statistical-inference-and-confidence-intervals",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54036:2.4",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§1.2 Data, Sampling, and Variation in Data and Sampling — Sampling",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-data-science:m00017:3",
+      "title": "Principles of Data Science",
+      "locator": "§2.2 Survey Design and Implementation — A Sampling Case Study",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00017:2.3",
+      "title": "Principles of Data Science",
+      "locator": "§2.2 Survey Design and Implementation — Sampling",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55461:2.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.1 A Confidence Interval When the Population Standard Deviation Is Known or Large Sample Size — Changing the Confidence Level or Sample Size",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-1-a-confidence-interval-when-the-population-standard-deviation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54036:2.3",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§1.2 Data, Sampling, and Variation in Data and Sampling — Sampling",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "From Samples to Populations: Sampling, the Central Limit Theorem and Confidence Intervals",
+      "summary": "Analysts almost never see a whole population, so they study a sample and ask how far the sample's answer might be from the truth. This lesson covers how samples are drawn, why sample averages behave predictably, and how to turn a sample average into a range that likely captures the true average.",
+      "sections": [
+        {
+          "heading": "Why we sample, and how",
+          "body_markdown": "A **population** is every item you care about (all listed stocks, all clients of a firm). A **sample** is a subset you actually measure. Think of tasting a spoonful of soup to judge the whole pot: the spoon only works if the soup is stirred.\n\nA **probability sampling** method gives every member a known, non-zero chance of selection. The main ones are:\n- **Simple random sampling**: every member has the same chance, like drawing numbers from a hat.\n- **Systematic sampling**: pick a random starting point, then take every $k$-th member from the list.\n- **Stratified random sampling**: split the population into subgroups (strata) such as size bands or regions, then randomly sample from every stratum, usually in proportion to its size. Every subgroup is guaranteed to be represented.\n- **Cluster sampling**: split the population into natural groups (branches, cities), randomly choose a few groups, and then use *all* members of the chosen groups. It is cheaper but can be less precise.\n\n**Non-probability sampling** relies on convenience (whoever is easiest to reach) or on the researcher's judgment. It is quick, but the sample may not represent the population."
+        },
+        {
+          "heading": "Sampling error versus bias",
+          "body_markdown": "**Sampling error** is the gap between a sample statistic (such as the sample mean) and the true population value, caused purely by chance in which items were drawn. A bigger random sample shrinks it.\n\n**Bias** is a systematic tilt that more data will not cure. Common examples in investment work:\n- **Sample selection bias**, including **survivorship bias**: using only the funds or firms that still exist, so failures vanish from the data.\n- **Look-ahead bias**: using information that was not actually available at the time of the decision.\n- **Time-period bias**: results that depend on the particular window chosen.\n- **Data-mining bias**: testing many ideas on the same data until one looks good by luck.\n\nA large but biased sample is still wrong; it is just precisely wrong."
+        },
+        {
+          "heading": "The central limit theorem and the standard error",
+          "body_markdown": "Draw a sample, compute its mean, put it back, and repeat many times. The collection of those sample means has its own distribution, called the **sampling distribution of the sample mean**.\n\nThe **central limit theorem (CLT)** says that for a population with mean $\\mu$ and finite variance $\\sigma^2$, when the sample size $n$ is large (a common rule of thumb is 30 or more), the sample mean is approximately normally distributed, **whatever the shape of the population**. Its centre is $\\mu$ and its spread is the **standard error**:\n\n$$\\sigma_{\\bar{x}}=\\frac{\\sigma}{\\sqrt{n}}$$\n\nIf $\\sigma$ is unknown, you estimate the standard error with $s/\\sqrt{n}$, where $s$ is the sample standard deviation. Notice the square root: to cut the standard error in half you need **four times** as much data."
+        },
+        {
+          "heading": "Confidence intervals for a mean",
+          "body_markdown": "A **point estimate** is a single number (the sample mean). A **confidence interval** wraps a range around it:\n\n$$\\text{point estimate} \\pm \\text{reliability factor} \\times \\text{standard error}$$\n\nThe **reliability factor** depends on the confidence level (for example 90%, 95%, 99%) and the distribution used:\n- Normal population with **known** $\\sigma$: use $z$ (1.645, 1.96, 2.576 for 90%, 95%, 99%).\n- **Unknown** $\\sigma$ (the usual case): use the Student's **t** distribution with $n-1$ degrees of freedom. It has fatter tails than $z$, which compensates for estimating $\\sigma$ with $s$. For large samples (30 or more), $z$ is often used as a close approximation, though $t$ remains the more accurate choice.\n\nWhat moves the width of the interval:\n- Higher confidence level gives a **wider** interval (you buy certainty with a bigger range).\n- Larger $n$ gives a **narrower** interval.\n- Larger $s$ (or $\\sigma$) gives a **wider** interval.\n\nInterpretation: a 95% confidence level describes the **procedure**. If you repeated the sampling many times and built an interval each time, about 95% of those intervals would contain the true mean. It does not say that 95% of the individual observations lie inside the interval."
+        },
+        {
+          "heading": "Resampling in one paragraph",
+          "body_markdown": "When a formula for the standard error is hard to derive, analysts can **resample** the data they already have. The **bootstrap** repeatedly draws samples of size $n$ *with replacement* from the observed sample, computes the statistic each time, and uses the spread of those results as an estimate of the standard error. The **jackknife** instead recomputes the statistic $n$ times, each time leaving out one observation. Both let the data itself approximate the sampling distribution."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst draws a random sample of 25 monthly-return-equivalent annualised observations from a fund family whose returns are assumed approximately normal. The sample mean is 10.0% and the sample standard deviation is 15.0%. The population standard deviation is unknown. Construct a 95% confidence interval for the population mean. Use the t reliability factor $t_{0.025,24}=2.064$.",
+        "steps": [
+          "Identify the setting: $\\sigma$ is unknown, the population is approximately normal and $n=25$, so use the t distribution with $df=n-1=24$.",
+          "Compute the standard error: $s/\\sqrt{n}=15.0/\\sqrt{25}=15.0/5=3.0$ (BA II Plus: 15 ÷ 25 2nd [√x] = 3).",
+          "Compute the margin of error: $2.064\\times 3.0=6.192$.",
+          "Lower limit: $10.0-6.192=3.808$. Upper limit: $10.0+6.192=16.192$.",
+          "Round and state the result: the 95% confidence interval is about 3.81% to 16.19%."
+        ],
+        "answer": "3.81% to 16.19% (point estimate 10.0% ± 6.19%)",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Standard error of the sample mean",
+          "latex": "\\sigma_{\\bar{x}}=\\frac{\\sigma}{\\sqrt{n}}\\quad\\text{or}\\quad s_{\\bar{x}}=\\frac{s}{\\sqrt{n}}",
+          "where": "$\\sigma$ = population standard deviation; $s$ = sample standard deviation; $n$ = sample size; use $s$ when $\\sigma$ is unknown."
+        },
+        {
+          "name": "Confidence interval, known σ (z)",
+          "latex": "\\bar{x}\\pm z_{\\alpha/2}\\frac{\\sigma}{\\sqrt{n}}",
+          "where": "$\\bar{x}$ = sample mean; $z_{\\alpha/2}$ = standard normal reliability factor (1.645, 1.96, 2.576 for 90%, 95%, 99%); $\\sigma$ = population standard deviation; $n$ = sample size."
+        },
+        {
+          "name": "Confidence interval, unknown σ (t)",
+          "latex": "\\bar{x}\\pm t_{\\alpha/2,\\,n-1}\\frac{s}{\\sqrt{n}}",
+          "where": "$t_{\\alpha/2,\\,n-1}$ = t reliability factor with $n-1$ degrees of freedom; $s$ = sample standard deviation; $n$ = sample size."
+        }
+      ],
+      "exam_traps": [
+        "Using the population standard deviation $\\sigma$ (or $s$) as the spread of the sample mean instead of dividing by $\\sqrt{n}$.",
+        "Using $n$ rather than $n-1$ for the degrees of freedom of the t distribution, or using $z$ for a small sample when $\\sigma$ is unknown.",
+        "Reading a 95% confidence interval as 'there is a 95% chance the sample mean is inside' or '95% of the data lie inside', instead of describing the long-run capture rate of the procedure.",
+        "Thinking a bigger confidence level narrows the interval; it widens it. Also forgetting that you must quadruple $n$ to halve the width.",
+        "Believing a larger sample fixes bias such as survivorship or selection bias; it only reduces sampling error. Also confusing stratified (sample from every group) with cluster (take all members of a few groups)."
+      ],
+      "builds_on": [
+        "Normal distribution and z-scores",
+        "Mean, variance and standard deviation",
+        "Random variables and sampling"
+      ],
+      "leads_to": [
+        "Hypothesis testing and test statistics",
+        "Parametric versus non-parametric tests",
+        "Regression inference and confidence intervals for coefficients"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-data-science:m00027:1.2",
+        "os:introductory-business-statistics-2e:m55461:2.2",
+        "os:introductory-business-statistics-2e:m55461:2.3",
+        "os:introductory-business-statistics-2e:m55461:2.4",
+        "os:introductory-business-statistics-2e:m55608:5",
+        "os:principles-data-science:m00017:2",
+        "os:principles-data-science:m00017:2.1",
+        "os:introductory-business-statistics-2e:m54036:2.1",
+        "os:principles-data-science:m00017:2.3"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Daily returns on a strategy have a strongly skewed distribution with mean μ and standard deviation σ. An analyst repeatedly draws random samples of n = 50 observations and computes each sample's mean. Which statement best describes the distribution of those sample means?",
+        "options": [
+          {
+            "text": "Skewed like the population, with mean μ and standard deviation σ/√50",
+            "value": null,
+            "explanation": "Wrong: this assumes the population's shape carries over. By the central limit theorem, the sample mean is approximately normal for large n regardless of the population shape."
+          },
+          {
+            "text": "Approximately normal, with mean μ and standard deviation σ",
+            "value": null,
+            "explanation": "Wrong: this forgets to divide by √n. The sample mean varies less than a single observation, so its spread is σ/√n."
+          },
+          {
+            "text": "Approximately normal, with mean μ and standard deviation σ/√50",
+            "value": null,
+            "explanation": "Correct: with n = 50 (large), the CLT gives an approximately normal sampling distribution centred on μ with standard error σ/√n."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00027:1.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A random sample of 100 observations from a population with known standard deviation σ = 10 has a sample mean of 12. Using a z reliability factor of 1.96, what is the 95% confidence interval for the population mean (rounded to two decimals)?",
+        "options": [
+          {
+            "text": "10.04 to 13.96",
+            "value": null,
+            "explanation": "Correct: standard error = 10/√100 = 1.0; margin = 1.96 × 1.0 = 1.96; interval = 12 ± 1.96."
+          },
+          {
+            "text": "11.80 to 12.20",
+            "value": null,
+            "explanation": "Wrong: this divides σ by n (10/100 = 0.1) instead of √n, giving a standard error that is far too small."
+          },
+          {
+            "text": "9.42 to 14.58",
+            "value": null,
+            "explanation": "Wrong: this uses 2.576, the factor for 99% confidence, rather than 1.96 for 95%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55461:2.2",
+          "os:principles-data-science:m00027:1.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Holding everything else constant, which change would produce a narrower confidence interval for a population mean?",
+        "options": [
+          {
+            "text": "Raising the confidence level from 90% to 99%",
+            "value": null,
+            "explanation": "Wrong: a higher confidence level requires a larger reliability factor, so the interval gets wider."
+          },
+          {
+            "text": "Increasing the sample size from 100 to 400",
+            "value": null,
+            "explanation": "Correct: the standard error is s/√n, so quadrupling n halves the standard error and halves the width."
+          },
+          {
+            "text": "Drawing a sample with a larger standard deviation",
+            "value": null,
+            "explanation": "Wrong: a larger s raises the standard error and therefore widens the interval."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55461:2.3",
+          "os:introductory-business-statistics-2e:m55461:2.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst has 20 randomly selected annual returns from a population assumed to be approximately normal. The population variance is unknown. Which reliability factor is most appropriate for a 95% confidence interval for the mean?",
+        "options": [
+          {
+            "text": "The t-value with 19 degrees of freedom",
+            "value": null,
+            "explanation": "Correct: σ is unknown and the sample is small, so use t with n − 1 = 19 degrees of freedom."
+          },
+          {
+            "text": "The t-value with 20 degrees of freedom",
+            "value": null,
+            "explanation": "Wrong: degrees of freedom are n − 1, not n."
+          },
+          {
+            "text": "The z-value of 1.96 from the standard normal",
+            "value": null,
+            "explanation": "Wrong: z ignores the extra uncertainty from estimating σ with s in a small sample, which t's fatter tails capture."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55608:5",
+          "os:introductory-business-statistics-2e:m55461:2.4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A researcher divides 10,000 clients into three asset-size bands. She then randomly selects clients from each band, with the number drawn from each band proportional to that band's share of all clients. Which sampling method is this?",
+        "options": [
+          {
+            "text": "Cluster sampling",
+            "value": null,
+            "explanation": "Wrong: cluster sampling picks a few groups at random and takes all members of those groups, rather than sampling from every group."
+          },
+          {
+            "text": "Stratified random sampling",
+            "value": null,
+            "explanation": "Correct: the population is split into subgroups and a random sample proportional to size is taken from each, so every band is represented."
+          },
+          {
+            "text": "Systematic sampling",
+            "value": null,
+            "explanation": "Wrong: systematic sampling takes every k-th member from a list after a random start; it does not involve subgroups."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00017:2.1",
+          "os:introductory-business-statistics-2e:m54036:2.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly contrasts cluster sampling with stratified random sampling?",
+        "options": [
+          {
+            "text": "Stratified sampling includes all members of a few chosen subgroups, whereas cluster sampling draws from every subgroup",
+            "value": null,
+            "explanation": "Wrong: this reverses the two methods."
+          },
+          {
+            "text": "Cluster sampling is a non-probability method, whereas stratified sampling is a probability method",
+            "value": null,
+            "explanation": "Wrong: both use random selection and are probability methods; the difference is how groups are used."
+          },
+          {
+            "text": "Cluster sampling includes all members of a few randomly chosen groups, whereas stratified draws from every group",
+            "value": null,
+            "explanation": "Correct: cluster sampling randomly picks groups and takes every member in them; stratified sampling randomly samples within every stratum."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00017:2.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst tests a trading rule using only the 200 equity funds that are still operating today, ignoring funds closed or merged over the past 15 years. The results look unusually strong. Which bias most directly explains this?",
+        "options": [
+          {
+            "text": "Survivorship bias",
+            "value": null,
+            "explanation": "Correct: by excluding funds that failed, the sample contains only survivors, a form of sample selection bias that overstates performance."
+          },
+          {
+            "text": "Look-ahead bias",
+            "value": null,
+            "explanation": "Wrong: look-ahead bias means using information that was not available at the time of the decision, which is not the issue described."
+          },
+          {
+            "text": "Time-period bias",
+            "value": null,
+            "explanation": "Wrong: time-period bias arises when results depend on the specific window chosen, not on which funds are included."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst reports a 95% confidence interval for a fund's mean annual return of 3.8% to 16.2%. Which interpretation is correct?",
+        "options": [
+          {
+            "text": "There is a 95% probability that the next sample's mean falls inside this interval",
+            "value": null,
+            "explanation": "Wrong: the interval is about the population mean, not a prediction of the next sample mean."
+          },
+          {
+            "text": "Intervals built this way from repeated samples would contain the true mean about 95% of the time",
+            "value": null,
+            "explanation": "Correct: the confidence level describes the long-run capture rate of the procedure."
+          },
+          {
+            "text": "About 95% of individual annual returns lie between 3.8% and 16.2%",
+            "value": null,
+            "explanation": "Wrong: this confuses the interval for the mean with the spread of individual observations, which is much wider than the standard error suggests."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00027:1.2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does the central limit theorem say about the sample mean?",
+        "back": "For large n (about 30 or more), the sample mean is approximately normal with mean μ and standard error σ/√n, whatever the population's shape.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00027:1.2"
+        ]
+      },
+      {
+        "front": "How do you build a confidence interval for a population mean when σ is unknown?",
+        "back": "Sample mean ± t(α/2, n−1) × s/√n, using n − 1 degrees of freedom.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55608:5",
+          "os:introductory-business-statistics-2e:m55461:2.4"
+        ]
+      },
+      {
+        "front": "How do confidence level and sample size affect the width of a confidence interval?",
+        "back": "A higher confidence level widens it; a larger sample narrows it (quadruple n to halve the width).",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55461:2.2",
+          "os:introductory-business-statistics-2e:m55461:2.3"
+        ]
+      },
+      {
+        "front": "Stratified versus cluster sampling: what is the key difference?",
+        "back": "Stratified: randomly sample from every subgroup. Cluster: randomly choose a few groups and take all members of those groups.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00017:2.1"
+        ]
+      },
+      {
+        "front": "What is survivorship bias and can a larger sample fix it?",
+        "back": "Using only entities that survived (for example funds still operating) overstates results. A larger sample does not fix it, because the bias is systematic.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:39:43.148Z",
+      "purpose": "generate",
+      "losId": "quant-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10339,
+      "outputTokens": 11773,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1395458,
+      "stopReason": "end_turn"
+    }
+  ]
+}

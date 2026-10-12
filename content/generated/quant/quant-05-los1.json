@@ -1,0 +1,517 @@
+{
+  "losId": "quant-05-los1",
+  "losText": "calculate, interpret, and evaluate various measures of (1) central tendency and location and (2) dispersion",
+  "moduleId": "quant-05",
+  "moduleTitle": "Statistical Characteristics of Asset Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:28:26.100Z",
+  "retrieved": [
+    {
+      "id": "smu-fma-ch4-rates-of-return:26:6",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 26–30",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=26",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62299:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.5 Geometric Mean — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-5-geometric-mean",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00078:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§13.1 Measures of Center — Geometric Mean",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-1-measures-of-center",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62299:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.5 Geometric Mean — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-5-geometric-mean",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.5",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-data-science:m00022:3",
+      "title": "Principles of Data Science",
+      "locator": "§3.2 Measures of Variation — Standard Deviation",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-2-measures-of-variation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53802:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.3 Measures of the Center of the Data — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-3-measures-of-the-center-of-the-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00022:0",
+      "title": "Principles of Data Science",
+      "locator": "§3.2 Measures of Variation — Overview",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-2-measures-of-variation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53806:1.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.7 Measures of the Spread of the Data — The standard deviation",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00038:2.3",
+      "title": "Principles of Data Science",
+      "locator": "§6.2 Classification Using Machine Learning — k-Means Clustering",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-2-classification-using-machine-learning",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Averages, Quantiles and Spread: Summarising a Set of Returns",
+      "summary": "This lesson covers the main ways to boil a list of numbers down to a typical value (several kinds of average), to find where a value ranks within the list (quantiles), and to measure how scattered the list is. These tools are the base for almost every risk and return calculation later in the curriculum.",
+      "sections": [
+        {
+          "heading": "One number to stand for many",
+          "body_markdown": "Picture the monthly electricity bills for a year. You would like one figure that says what a normal month costs. That figure is a **measure of central tendency**.\n\n- **Arithmetic mean**: add everything up and divide by the count, $\\bar{X}=\\frac{\\sum X_i}{n}$. It uses every observation, so it is easy to pull around by extreme values.\n- **Weighted mean**: an average in which some observations count for more. With weights $w_i$ that add to 1, it is $\\sum w_i X_i$. A portfolio's return is the weighted mean of its holdings' returns, with market-value weights.\n- **Median**: sort the data and take the middle value. With an even count, average the two middle values. A few extreme values barely move it.\n- **Mode**: the most frequent value. A data set can have one mode, several (bimodal, multimodal) or none.\n\nTwo variants deal with outliers (extreme values). A **trimmed mean** *removes* a fixed percentage of observations from each end and then averages the rest. A **winsorized mean** *replaces* the extreme observations with the nearest values that remain, and then averages all of them."
+        },
+        {
+          "heading": "Averages built for growth and for prices",
+          "body_markdown": "Returns compound, which means each year's gain is earned on the previous year's balance. Averaging them by simple addition then misleads. Suppose you earn +50% and then -50%. The arithmetic mean is 0%, yet you end with only 75% of your money.\n\nThe **geometric mean return** fixes this. Convert each return into a growth factor $1+R_i$, multiply the factors, take the $n$-th root, and subtract 1:\n\n$$R_G=\\left[\\prod_{i=1}^{n}(1+R_i)\\right]^{1/n}-1$$\n\nIt is the single constant yearly return that would reproduce the actual ending value. Every factor $1+R_i$ must be positive.\n\nThe **harmonic mean** suits averages of *prices* when you buy a fixed money amount each time, such as investing the same dollars every month:\n\n$$\\bar{X}_H=\\frac{n}{\\sum (1/X_i)}$$\n\nFor positive numbers that are not all equal, always: arithmetic mean > geometric mean > harmonic mean. The three are equal only when every value is identical.\n\nRule of thumb: use the arithmetic mean for the expected return of a *typical single period*, the geometric mean for *compound growth over several periods*, and the harmonic mean for *average purchase price with equal money amounts*."
+        },
+        {
+          "heading": "Location: where a value sits in the pack",
+          "body_markdown": "A **quantile** is a cut point that splits sorted data into equal-sized groups. Common ones are **quartiles** (4 groups), **quintiles** (5), **deciles** (10) and **percentiles** (100). The median is the 50th percentile and the second quartile.\n\nTo locate the $y$-th percentile in $n$ observations sorted from smallest to largest, find its position:\n\n$$L_y=(n+1)\\times\\frac{y}{100}$$\n\nIf $L_y$ is a whole number, the percentile is that ranked observation. If it has a fraction, interpolate (draw a straight line) between the two neighbouring values. For example, with $n=10$ and $y=25$ the position is $11\\times0.25=2.75$, so the 25th percentile is $X_2+0.75\\,(X_3-X_2)$."
+        },
+        {
+          "heading": "Dispersion: how scattered is the data?",
+          "body_markdown": "Two commuters may both average 30 minutes a trip. One always takes 28 to 32 minutes, while the other swings between 10 and 60. The averages are identical but the experiences differ. **Dispersion** measures that scatter. In investing, scatter in returns is treated as risk.\n\n- **Range** = maximum - minimum. It is simple, but it uses only two observations.\n- **Mean absolute deviation (MAD)**: average the distances from the mean, ignoring sign: $\\frac{\\sum |X_i-\\bar{X}|}{n}$.\n- **Variance**: average the *squared* distances from the mean. Squaring removes signs and punishes large deviations more heavily. Its units are the square of the data's units (percent squared for returns).\n- **Standard deviation**: the square root of variance, which puts it back in the data's own units (percent). This is why it is the preferred risk figure.\n\nFor a **population** (every item), divide by $N$. For a **sample** (a subset), divide by $n-1$:\n\n$$s^2=\\frac{\\sum (X_i-\\bar{X})^2}{n-1}$$\n\nThe sample mean is computed from the same data, so the deviations around it come out slightly too small. Dividing by $n-1$ corrects for that. In practice you will almost always use the sample formulas."
+        },
+        {
+          "heading": "Choosing the right tool",
+          "body_markdown": "Always ask what question is being answered. 'What did the investment actually earn per year?' calls for the geometric mean. 'What should I expect in a typical coming year?' calls for the arithmetic mean. 'What is a typical value when a few extreme values are present?' calls for the median or a trimmed/winsorized mean. 'How risky or variable is it?' calls for the standard deviation. Remember too that a mean alone hides spread: two data sets can share the same mean and look nothing alike."
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund earned +10%, -5%, +20% and +3% in four consecutive years. Find the geometric mean annual return, rounded to two decimals, and compare it with the arithmetic mean.",
+        "steps": [
+          "Convert each return to a growth factor: 1.10, 0.95, 1.20, 1.03.",
+          "Multiply the factors: 1.10 × 0.95 = 1.0450; × 1.20 = 1.2540; × 1.03 = 1.29162. This is the growth of $1 over the four years.",
+          "Take the fourth root, which is the 0.25 power. On the BA II Plus: 1.29162 [y^x] 0.25 [=] gives 1.066065.",
+          "Subtract 1: 1.066065 - 1 = 0.066065, or 6.61%.",
+          "For comparison, the arithmetic mean is (10 - 5 + 20 + 3)/4 = 7.00%. It is higher than the geometric mean, as it always is when returns vary."
+        ],
+        "answer": "The geometric mean return is about 6.61% per year (arithmetic mean 7.00%).",
+        "answer_value": 0.0661,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.10,-0.05,0.20,0.03]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Arithmetic mean",
+          "latex": "\\bar{X}=\\frac{\\sum_{i=1}^{n}X_i}{n}",
+          "where": "X_i = each observation; n = number of observations."
+        },
+        {
+          "name": "Weighted mean",
+          "latex": "\\bar{X}_w=\\sum_{i=1}^{n}w_iX_i",
+          "where": "w_i = weight of observation i (weights sum to 1); X_i = observation i."
+        },
+        {
+          "name": "Geometric mean return",
+          "latex": "R_G=\\left[\\prod_{i=1}^{n}(1+R_i)\\right]^{1/n}-1",
+          "where": "R_i = return in period i expressed as a decimal; n = number of periods."
+        },
+        {
+          "name": "Harmonic mean",
+          "latex": "\\bar{X}_H=\\frac{n}{\\sum_{i=1}^{n}\\frac{1}{X_i}}",
+          "where": "X_i = positive observation i (for example a price paid); n = number of observations."
+        },
+        {
+          "name": "Percentile position",
+          "latex": "L_y=(n+1)\\frac{y}{100}",
+          "where": "n = number of observations sorted ascending; y = desired percentile (0 to 100); L_y = position of that percentile in the sorted list."
+        },
+        {
+          "name": "Range",
+          "latex": "\\text{Range}=X_{\\max}-X_{\\min}",
+          "where": "X_max and X_min = largest and smallest observations."
+        },
+        {
+          "name": "Mean absolute deviation",
+          "latex": "\\text{MAD}=\\frac{\\sum_{i=1}^{n}|X_i-\\bar{X}|}{n}",
+          "where": "X_i = observation; X-bar = sample mean; n = number of observations."
+        },
+        {
+          "name": "Sample variance",
+          "latex": "s^2=\\frac{\\sum_{i=1}^{n}(X_i-\\bar{X})^2}{n-1}",
+          "where": "X_i = observation; X-bar = sample mean; n = sample size."
+        },
+        {
+          "name": "Sample standard deviation",
+          "latex": "s=\\sqrt{s^2}",
+          "where": "s^2 = sample variance; s is in the same units as the data."
+        },
+        {
+          "name": "Population variance",
+          "latex": "\\sigma^2=\\frac{\\sum_{i=1}^{N}(X_i-\\mu)^2}{N}",
+          "where": "mu = population mean; N = number of items in the population."
+        }
+      ],
+      "exam_traps": [
+        "Using the arithmetic mean to describe compound growth over several years. It overstates what an investor actually earned per year whenever returns vary; use the geometric mean.",
+        "Multiplying raw returns instead of growth factors (1 + R), or forgetting to subtract 1 at the end of the geometric mean calculation.",
+        "Using $n$ instead of $n+1$ in the percentile position formula, or forgetting to interpolate when the position is not a whole number.",
+        "Dividing by $n$ for a sample variance (that is the population formula), or reporting variance when the question asks for standard deviation. Variance is in squared units.",
+        "Mixing up trimmed and winsorized means: trimming deletes the extreme observations, while winsorizing replaces them with the nearest retained values."
+      ],
+      "builds_on": [
+        "Summation notation and order of operations",
+        "Holding-period return",
+        "Compound growth (time value of money)"
+      ],
+      "leads_to": [
+        "Skewness and kurtosis",
+        "Covariance and correlation",
+        "Coefficient of variation and semi-deviation",
+        "Sharpe ratio and portfolio risk"
+      ],
+      "cited_chunk_ids": [
+        "smu-fma-ch4-rates-of-return:26:6",
+        "os:introductory-business-statistics-2e:m62299:0.1",
+        "os:principles-finance-2e:m00078:3",
+        "os:principles-finance-2e:m00093:0.5",
+        "os:introductory-business-statistics-2e:m53802:0",
+        "os:principles-data-science:m00022:3",
+        "os:principles-data-science:m00022:0",
+        "os:introductory-business-statistics-2e:m53806:1.1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Five home sale prices (in thousands) in a neighbourhood are 310, 320, 335, 340 and 2,400. An analyst wants one figure for a typical sale price. Which choice is best?",
+        "options": [
+          {
+            "text": "The arithmetic mean of 741, because it uses every sale price",
+            "value": null,
+            "explanation": "Using every observation is exactly why the mean is pulled up by the single 2,400 sale. The result is higher than four of the five prices, so it is not typical."
+          },
+          {
+            "text": "The median of 335, because the 2,400 sale does not drag it",
+            "value": null,
+            "explanation": "Correct. The median is the middle value of the sorted list and ignores how extreme the largest value is, so it represents a typical sale well."
+          },
+          {
+            "text": "The mode, because it picks the most frequent sale price",
+            "value": null,
+            "explanation": "Every price appears once, so there is no mode. Choosing the mode confuses 'most frequent' with 'most typical'."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53802:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor puts the same $1,000 into a fund at the end of each of three months. The unit prices paid are $20, $25 and $40. What is the average price paid per unit? Round to two decimals.",
+        "options": [
+          {
+            "text": "$26.09",
+            "value": 26.09,
+            "explanation": "Correct. With equal dollar amounts the harmonic mean applies: 3 / (1/20 + 1/25 + 1/40) = 3 / 0.115 = 26.09."
+          },
+          {
+            "text": "$28.33",
+            "value": 28.33,
+            "explanation": "This is the simple arithmetic mean of the prices, (20 + 25 + 40)/3. It ignores that more units are bought when the price is low."
+          },
+          {
+            "text": "$27.14",
+            "value": 27.14,
+            "explanation": "This is the geometric mean, the cube root of 20 × 25 × 40. It is the wrong average for equal-dollar purchases."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "harmonicMean",
+          "args_json": "{\"xs\":[20,25,40]}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A sample of five annual returns is 4%, 8%, 6%, 10% and 2%. What is the sample standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "2.83%",
+            "value": 0.0283,
+            "explanation": "This divides the sum of squared deviations (40) by n = 5, giving the population variance of 8, so it uses the population formula for a sample."
+          },
+          {
+            "text": "2.40%",
+            "value": 0.024,
+            "explanation": "This is the mean absolute deviation, (2 + 2 + 0 + 4 + 4)/5. It averages absolute deviations instead of squaring them and taking a square root."
+          },
+          {
+            "text": "3.16%",
+            "value": 0.0316,
+            "explanation": "Correct. The mean is 6%, the squared deviations sum to 40, the sample variance is 40/(5 - 1) = 10, and its square root is 3.16%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[0.04,0.08,0.06,0.10,0.02],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00022:3",
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A data set has 19 observations sorted from smallest to largest. Using the position formula L = (n + 1) × y/100, where is the 25th percentile?",
+        "options": [
+          {
+            "text": "Position 5.00, the 5th ranked value",
+            "value": null,
+            "explanation": "Correct. L = (19 + 1) × 0.25 = 5, a whole number, so the 25th percentile is the 5th ranked observation."
+          },
+          {
+            "text": "Position 4.75, between the 4th and 5th values",
+            "value": null,
+            "explanation": "This uses n instead of n + 1 (19 × 0.25 = 4.75), which is the common error of omitting the +1."
+          },
+          {
+            "text": "Position 15.00, the 15th ranked value",
+            "value": null,
+            "explanation": "This is the position of the 75th percentile, (20 × 0.75). It counts from the wrong end of the sorted list."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A fund returned +25%, -20% and +10% in three consecutive years. What is its geometric mean annual return? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "This is the arithmetic mean, (25 - 20 + 10)/3. It ignores compounding and overstates the return actually earned per year."
+          },
+          {
+            "text": "3.23%",
+            "value": 0.0323,
+            "explanation": "Correct. 1.25 × 0.80 × 1.10 = 1.10. The cube root is 1.0323, so the geometric mean return is 3.23%."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "This is the cumulative three-year return (1.10 - 1). The student forgot to take the 1/3 power to annualise it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.25,-0.20,0.10]}"
+        },
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:26:6",
+          "os:principles-finance-2e:m00078:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For a set of positive numbers that are not all identical, which ranking of the arithmetic, geometric and harmonic means is correct?",
+        "options": [
+          {
+            "text": "Harmonic > geometric > arithmetic",
+            "value": null,
+            "explanation": "This reverses the true order. The harmonic mean gives extra weight to small values, which makes it the smallest of the three."
+          },
+          {
+            "text": "Geometric > arithmetic > harmonic",
+            "value": null,
+            "explanation": "This swaps the top two. The geometric mean is always below the arithmetic mean when values differ, which is why compounded returns trail simple averages."
+          },
+          {
+            "text": "Arithmetic > geometric > harmonic",
+            "value": null,
+            "explanation": "Correct. For unequal positive values the arithmetic mean is largest, the geometric mean is in the middle and the harmonic mean is smallest. All three are equal only if every value is the same."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:26:6"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Four annual returns, expressed in percent, are 2, 6, 10 and 14. What is the sample variance, expressed in squared percent (%²)? Round to two decimals.",
+        "options": [
+          {
+            "text": "26.67",
+            "value": 26.67,
+            "explanation": "Correct. The mean is 8. The squared deviations are 36, 4, 4 and 36, which sum to 80. Dividing by n - 1 = 3 gives 26.67."
+          },
+          {
+            "text": "20.00",
+            "value": 20,
+            "explanation": "This divides 80 by n = 4, which is the population variance, not the sample variance."
+          },
+          {
+            "text": "5.16",
+            "value": 5.16,
+            "explanation": "This is the sample standard deviation, the square root of 26.67. The question asks for variance, which is in squared units."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[2,6,10,14],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Compared with the mean absolute deviation (MAD) of the same data, the standard deviation is different mainly because it:",
+        "options": [
+          {
+            "text": "weights every deviation from the mean by exactly its own size",
+            "value": null,
+            "explanation": "That describes MAD, which averages the plain absolute distances. Standard deviation does not weight deviations in proportion to their size."
+          },
+          {
+            "text": "puts extra weight on large deviations by squaring them first",
+            "value": null,
+            "explanation": "Correct. Squaring makes a deviation of 10 count 100 times as much as a deviation of 1, so large deviations influence the standard deviation more."
+          },
+          {
+            "text": "is expressed in squared units of the underlying data",
+            "value": null,
+            "explanation": "This describes variance. Taking the square root returns the standard deviation to the same units as the data."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00022:3"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "When should you use the geometric mean instead of the arithmetic mean for investment returns?",
+        "back": "Use the geometric mean to describe compound growth over several periods, because it is the constant yearly return that reproduces the ending value. The arithmetic mean answers 'what return should I expect in a typical single period?' and is always at least as large.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.5",
+          "smu-fma-ch4-rates-of-return:26:6"
+        ]
+      },
+      {
+        "front": "What is the harmonic mean, and when is it used?",
+        "back": "n divided by the sum of the reciprocals, n / Σ(1/X). It gives the average price paid when the same money amount is invested at each purchase, as in dollar-cost averaging.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Why does the sample variance divide by n - 1 and the population variance by N?",
+        "back": "A sample's own mean is used to measure the deviations, which makes them slightly too small. Dividing by n - 1 corrects this. A population has the true mean, so it divides by N.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      },
+      {
+        "front": "Trimmed mean versus winsorized mean: what is the difference?",
+        "back": "A trimmed mean deletes a set percentage of the extreme observations at each end and averages the rest. A winsorized mean replaces those extremes with the nearest remaining values and averages everything.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How do you find the position of the y-th percentile in n sorted observations?",
+        "back": "L = (n + 1) × y/100. If L is not a whole number, interpolate between the two neighbouring ranked values.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:28:26.100Z",
+      "purpose": "generate",
+      "losId": "quant-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9890,
+      "outputTokens": 16020,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1811178,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "losId": "quant-06-los2",
+  "losText": "calculate, interpret, and evaluate the principal moments of key statistical distributions used in finance",
+  "moduleId": "quant-06",
+  "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:35:33.782Z",
+  "retrieved": [
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.22
+    },
+    {
+      "id": "mit-ocw-15433-portfolio2:5:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 5–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=5",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53806:1.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.7 Measures of the Spread of the Data — The standard deviation",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54496:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§6.1 The Standard Normal Distribution — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/6-1-the-standard-normal-distribution",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54398:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§4.4 Poisson Distribution — Estimating the Binomial Distribution with the Poisson Distribution",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/4-4-poisson-distribution",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Formula Review",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53804:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.6 Skewness and the Mean, Median, and Mode — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:17:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 17–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62137:0.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§6.3 Estimating the Binomial with the Normal Distribution — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/6-3-estimating-the-binomial-with-the-normal-distribution",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-portfolio2:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 1–5",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55463:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.3 A Confidence Interval for A Population Proportion — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-3-a-confidence-interval-for-a-population-proportion",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "The Shape of Return Distributions: Mean, Variance, Skewness and Kurtosis",
+      "summary": "Four numbers called moments (centre, spread, lopsidedness and tail heaviness) describe the shape of a return distribution. Knowing each moment for the normal, binomial and lognormal distributions lets you judge risks that the average and standard deviation alone hide.",
+      "sections": [
+        {
+          "heading": "Moments: four ways to describe a distribution",
+          "body_markdown": "A **moment** is an average of some power of how far outcomes sit from a reference point. Think of describing a stranger: height, build, posture and so on. Each moment adds a different piece of the picture.\n\n- **1st moment, the mean** $\\mu=E(X)$: the balance point, or centre.\n- **2nd central moment, the variance** $\\sigma^2=E[(X-\\mu)^2]$: the average squared distance from the mean. Its square root, the **standard deviation**, is back in the original units.\n- **3rd moment, skewness**: the average *cubed* distance from the mean, divided by $\\sigma^3$ so that it becomes a pure number. Cubing keeps the sign, so skewness can be positive, negative or zero, unlike variance.\n- **4th moment, kurtosis**: the average *fourth-power* distance from the mean, divided by $\\sigma^4$. Raising to the fourth power makes extreme outcomes count heavily.\n\nThe word *central* means the distances are measured from the mean. Skewness and kurtosis are *standardised* (divided by powers of $\\sigma$), so they do not depend on the units of the data."
+        },
+        {
+          "heading": "Reading skewness and kurtosis",
+          "body_markdown": "**Skewness** measures asymmetry. A positive value means a long right tail (a few unusually large gains). A negative value means a long left tail (a few unusually large losses). A symmetric distribution has skewness 0. Because the mean reacts to extreme values more than the median does, a typical pattern is:\n\n- Positive skew: mode < median < mean.\n- Negative skew: mean < median < mode.\n\n**Kurtosis** measures how much probability sits in the tails relative to the middle. The normal distribution has kurtosis exactly **3**. Analysts usually quote **excess kurtosis** $=$ kurtosis $-\\,3$, so the normal has excess kurtosis 0. A distribution with positive excess kurtosis is *leptokurtic*: it has **fat tails**, so extreme outcomes happen more often than a normal curve with the same mean and variance would predict. Daily stock index returns behave this way. A single huge loss day, like those that hurt a highly leveraged hedge fund in 1998, is a tail event that a normal model treats as nearly impossible.\n\nTwo assets can have identical mean and variance yet very different skewness and kurtosis. A mean-variance comparison alone would call them equally attractive, but the one with rare large losses is riskier than it looks."
+        },
+        {
+          "heading": "Moments of the key distributions",
+          "body_markdown": "**Normal** with parameters $\\mu$ and $\\sigma^2$: mean $\\mu$, variance $\\sigma^2$, skewness 0, kurtosis 3. The mean and variance fully define it. Standardising with $z=(x-\\mu)/\\sigma$ gives the standard normal, with mean 0 and standard deviation 1.\n\n**Binomial** (the number of successes in $n$ independent yes/no trials, each with success probability $p$): mean $np$ and variance $np(1-p)$. Its skewness is positive when $p<0.5$, negative when $p>0.5$, and zero at $p=0.5$. When $np$ and $n(1-p)$ are both large enough, the binomial looks roughly normal.\n\n**Poisson** (counts of rare events in an interval, with average rate $\\lambda$): mean and variance are both $\\lambda$.\n\n**Lognormal**: a variable $X$ is lognormal if $\\ln X$ is normal with mean $\\mu$ and variance $\\sigma^2$. It is useful for asset prices because prices cannot fall below zero. $X$ is always positive and **right-skewed**. Its mean is $e^{\\mu+\\sigma^2/2}$, which is *larger* than $e^{\\mu}$. The $\\mu$ and $\\sigma^2$ are the moments of $\\ln X$, not of $X$ itself.\n\n**Student's t** with $df$ degrees of freedom: symmetric and centred at 0, with fatter tails than the normal. Its variance is $df/(df-2)$ for $df>2$. The tails thin toward the normal as $df$ grows."
+        },
+        {
+          "heading": "Computing moments from data, and why higher moments matter",
+          "body_markdown": "With observed data you estimate the moments. For the **sample variance** you add up squared deviations from the sample mean and divide by $n-1$. For a full **population** you divide by $N$. Using $n-1$ corrects for the fact that the sample mean is itself estimated from the same data.\n\nExample of a rare-crash return model: a normal daily return $x$ plus a jump $J$ that occurs with probability $p$. The mean is $\\mu+Jp$ and the variance is $\\sigma^2+J^2p(1-p)$. The skewness has the sign of $J(1-2p)$. With a negative jump and small $p$, it is strongly negative. You can calibrate several such models to the same mean and variance, so a mean-variance investor sees no difference, yet their crash risk is very different. An investor who dislikes negative skewness will prefer the one with the mildest left tail.\n\nExam habit: when asked to compare two investments, check mean and variance first, then use skewness and kurtosis to see what the first two moments miss."
+        }
+      ],
+      "worked_example": {
+        "problem": "Five monthly returns of a fund are 4%, -2%, 6%, 2% and 0%. Treating these as a sample, calculate the mean return and the sample standard deviation.",
+        "steps": [
+          "Mean: (4 - 2 + 6 + 2 + 0) / 5 = 10 / 5 = 2%.",
+          "Deviations from the mean: +2, -4, +4, 0, -2 (in percentage points).",
+          "Squared deviations: 4, 16, 16, 0, 4. Their sum is 40.",
+          "Sample variance = 40 / (n - 1) = 40 / 4 = 10 (in %-squared, which is 0.0010 in decimals).",
+          "Sample standard deviation = sqrt(10) = 3.16%.",
+          "BA II Plus check: press 2nd [DATA]; clear the worksheet with 2nd [CLR WORK]. Enter 4 ENTER ↓ ↓, 2 +/- ENTER ↓ ↓, 6 ENTER ↓ ↓, 2 ENTER ↓ ↓, 0 ENTER. Then press 2nd [STAT] and press 2nd [SET] until the display shows 1-V. Press ↓ to read n = 5, X̄ = 2, Sx = 3.1623 (sample standard deviation) and σx = 2.8284 (population standard deviation).",
+          "Use Sx, not σx, because the data are a sample."
+        ],
+        "answer": "Mean = 2.00%; sample standard deviation = 3.16%",
+        "answer_value": 0.0316,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[0.04,-0.02,0.06,0.02,0.0],\"basis\":\"sample\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Central moment of order k",
+          "latex": "E\\left[(X-\\mu)^k\\right]",
+          "where": "X is the random variable, mu is its mean, k is the order (2 gives the variance, 3 and 4 feed skewness and kurtosis)."
+        },
+        {
+          "name": "Skewness",
+          "latex": "S=\\frac{E\\left[(X-\\mu)^3\\right]}{\\sigma^3}",
+          "where": "X is the random variable, mu its mean, sigma its standard deviation. S>0 means a long right tail, S<0 a long left tail."
+        },
+        {
+          "name": "Kurtosis and excess kurtosis",
+          "latex": "K=\\frac{E\\left[(X-\\mu)^4\\right]}{\\sigma^4},\\quad K_{excess}=K-3",
+          "where": "X is the random variable, mu its mean, sigma its standard deviation. The normal has K = 3 and excess kurtosis 0."
+        },
+        {
+          "name": "Sample variance",
+          "latex": "s^2=\\frac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}",
+          "where": "x_i are the observations, x-bar the sample mean, n the number of observations. A population variance divides by N instead."
+        },
+        {
+          "name": "Binomial mean and variance",
+          "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+          "where": "n is the number of independent trials, p is the success probability on each trial."
+        },
+        {
+          "name": "Standardising (z-score)",
+          "latex": "z=\\frac{x-\\mu}{\\sigma}",
+          "where": "x is the value, mu the mean, sigma the standard deviation of the normal distribution."
+        },
+        {
+          "name": "Lognormal mean and variance",
+          "latex": "E(X)=e^{\\mu+\\sigma^2/2},\\quad \\mathrm{Var}(X)=\\left(e^{\\sigma^2}-1\\right)e^{2\\mu+\\sigma^2}",
+          "where": "mu and sigma^2 are the mean and variance of ln X (the normally distributed log), and X is the lognormal variable."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up kurtosis with excess kurtosis: the normal has kurtosis 3 but excess kurtosis 0, so always check which one the question quotes.",
+        "Using the population divisor N when the data are a sample, or the reverse. Samples use n - 1.",
+        "Reading skewness sign backwards: a negative skew means a long LEFT tail and mean < median, not 'mostly negative returns'.",
+        "Treating equal mean and variance as equal risk. Skewness and kurtosis can differ sharply, and fat tails and negative skew mean larger rare losses.",
+        "Reading mu and sigma of a lognormal as the mean and standard deviation of the price itself. They describe ln X, and E(X) = e^(mu + sigma^2/2) is larger than e^mu."
+      ],
+      "builds_on": [
+        "Expected value and variance",
+        "Probability distributions and random variables",
+        "Arithmetic mean, median and mode"
+      ],
+      "leads_to": [
+        "Normal approximation and z-scores",
+        "Continuously compounded returns and lognormal prices",
+        "Risk measures and fat-tailed returns",
+        "Monte Carlo simulation"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m53804:0.2",
+        "os:introductory-business-statistics-2e:m53804:0.1",
+        "os:introductory-business-statistics-2e:m53806:1.1",
+        "os:introductory-business-statistics-2e:m54496:0",
+        "os:introductory-business-statistics-2e:m55463:0.1",
+        "mit-ocw-15433-portfolio2:5:1",
+        "mit-ocw-15433-portfolio2:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "For a normal distribution, which pair gives its skewness and its (non-excess) kurtosis?",
+        "options": [
+          {
+            "text": "Skewness 0 and kurtosis 0",
+            "value": null,
+            "explanation": "Mistake: confusing kurtosis with excess kurtosis. Excess kurtosis of the normal is 0, but its kurtosis is 3."
+          },
+          {
+            "text": "Skewness 0 and kurtosis 3",
+            "value": null,
+            "explanation": "Correct. The normal is symmetric (skewness 0) and has kurtosis 3, which is excess kurtosis 0."
+          },
+          {
+            "text": "Skewness 3 and kurtosis 0",
+            "value": null,
+            "explanation": "Mistake: swapping the two moments. Skewness of a symmetric distribution is 0, not 3."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2",
+          "mit-ocw-15433-portfolio2:5:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Daily returns on asset X are normal. Asset Y has the same mean and the same variance but an excess kurtosis of +2. Which statement about Y is correct?",
+        "options": [
+          {
+            "text": "Extreme returns are more likely than under X's normal distribution",
+            "value": null,
+            "explanation": "Correct. Positive excess kurtosis means fatter tails, so large gains and losses occur more often than the normal predicts, even with identical variance."
+          },
+          {
+            "text": "Its variance must be larger than the variance of X",
+            "value": null,
+            "explanation": "Mistake: equating higher kurtosis with higher variance. The question states the variances are equal; kurtosis describes tail shape."
+          },
+          {
+            "text": "Its return distribution must be skewed to the left",
+            "value": null,
+            "explanation": "Mistake: confusing kurtosis with skewness. A distribution can have fat tails and still be perfectly symmetric."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Four annual returns are 5%, 1%, -3% and 7%. Treating them as a sample, what is the sample standard deviation? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "3.84%",
+            "value": 0.0384,
+            "explanation": "Mistake: dividing the sum of squared deviations by n (4) instead of n - 1 (3), which gives the population standard deviation."
+          },
+          {
+            "text": "3.50%",
+            "value": 0.035,
+            "explanation": "Mistake: using the mean absolute deviation (average of the absolute deviations) instead of squaring them."
+          },
+          {
+            "text": "4.43%",
+            "value": 0.0443,
+            "explanation": "Correct. Mean = 2.5%. Squared deviations sum to 59 (in %-squared). Divide by 3 to get 19.67, and the square root is 4.43%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[0.05,0.01,-0.03,0.07],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The number of defaulting loans in a pool is modelled as binomial with n = 20 independent loans and a default probability of p = 0.30 for each. What is the variance of the number of defaults?",
+        "options": [
+          {
+            "text": "6.00",
+            "value": null,
+            "explanation": "Mistake: reporting the mean np = 6 as if it were the variance."
+          },
+          {
+            "text": "0.21",
+            "value": null,
+            "explanation": "Mistake: using p(1 - p) for a single trial and forgetting to multiply by n."
+          },
+          {
+            "text": "4.20",
+            "value": null,
+            "explanation": "Correct. Variance = np(1 - p) = 20 x 0.30 x 0.70 = 4.20."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55463:0.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best fits a lognormal random variable such as a future asset price?",
+        "options": [
+          {
+            "text": "Symmetric, because its natural log is normal",
+            "value": null,
+            "explanation": "Mistake: assuming the shape of the log carries over to the variable itself. Taking exponentials stretches the right tail."
+          },
+          {
+            "text": "Right-skewed, never taking a value below zero",
+            "value": null,
+            "explanation": "Correct. If ln X is normal, X = e^(ln X) is always positive and has a long right tail."
+          },
+          {
+            "text": "Left-skewed, with possible values below zero",
+            "value": null,
+            "explanation": "Mistake: confusing the lognormal with a distribution of losses; its support is strictly positive and its skew is positive."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "Five returns, 2%, 4%, 6%, 8% and 10%, make up the entire population of interest. What is their population variance, expressed in decimals (0.0008 style) and rounded to four decimal places?",
+        "options": [
+          {
+            "text": "0.0008",
+            "value": 0.0008,
+            "explanation": "Correct. Mean = 6%. Squared deviations in decimals sum to 0.0040. Divide by N = 5 to get 0.0008."
+          },
+          {
+            "text": "0.0010",
+            "value": 0.001,
+            "explanation": "Mistake: using n - 1 = 4 as the divisor, which gives the sample variance, even though the data are the whole population."
+          },
+          {
+            "text": "0.0040",
+            "value": 0.004,
+            "explanation": "Mistake: stopping at the sum of squared deviations and forgetting to divide by the number of observations."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[0.02,0.04,0.06,0.08,0.10],\"basis\":\"population\"}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A fund's monthly returns have a mean of 1.2%, a median of 1.8% and a mode of 2.1%. What does this ordering most likely indicate?",
+        "options": [
+          {
+            "text": "Positive skew, because the mode is the largest of the three",
+            "value": null,
+            "explanation": "Mistake: judging skew from the largest measure alone. In positive skew the mean is the largest, not the smallest."
+          },
+          {
+            "text": "Symmetry, because all three measures are positive and close",
+            "value": null,
+            "explanation": "Mistake: ignoring the ordering. In a symmetric unimodal distribution the three measures coincide."
+          },
+          {
+            "text": "Negative skew, because a long left tail pulls the mean down most",
+            "value": null,
+            "explanation": "Correct. The mean sits below the median, which sits below the mode, the typical pattern of a long left tail."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.1",
+          "os:introductory-business-statistics-2e:m53804:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A sample of four monthly returns is -2%, 0%, 4% and 6%. What is the sample standard deviation? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "3.16%",
+            "value": 0.0316,
+            "explanation": "Mistake: dividing the sum of squared deviations (40 in %-squared) by n = 4 rather than n - 1 = 3, giving the population figure."
+          },
+          {
+            "text": "3.65%",
+            "value": 0.0365,
+            "explanation": "Correct. Mean = 2%. The squared deviations sum to 40 (in %-squared). Divide by 3 to get 13.33, and the square root is 3.65%."
+          },
+          {
+            "text": "6.32%",
+            "value": 0.0632,
+            "explanation": "Mistake: taking the square root of the sum of squared deviations without dividing by n - 1."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[-0.02,0.0,0.04,0.06],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:1.1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the four principal moments, and what does each describe?",
+        "back": "Mean describes the centre, variance the spread, skewness the asymmetry (long left or right tail), and kurtosis the tail heaviness (how often extreme outcomes occur).",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2",
+          "mit-ocw-15433-portfolio2:5:1"
+        ]
+      },
+      {
+        "front": "What are the skewness, kurtosis and excess kurtosis of a normal distribution?",
+        "back": "Skewness 0, kurtosis 3, excess kurtosis 0. Positive excess kurtosis means fat tails.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.2",
+          "mit-ocw-15433-portfolio2:1:0"
+        ]
+      },
+      {
+        "front": "What are the mean and variance of a binomial variable with n trials and success probability p?",
+        "back": "Mean = np; variance = np(1 - p).",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55463:0.1"
+        ]
+      },
+      {
+        "front": "Why is the lognormal used for asset prices, and what is its mean?",
+        "back": "It is always positive and right-skewed, as prices are. If ln X ~ Normal(mu, sigma^2), then E(X) = e^(mu + sigma^2/2).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "With a positive skew, how do mean, median and mode typically rank?",
+        "back": "Mode < median < mean, because the long right tail pulls the mean up most. Negative skew reverses this: mean < median < mode.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53804:0.1",
+          "os:introductory-business-statistics-2e:m53804:0"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:35:33.782Z",
+      "purpose": "generate",
+      "losId": "quant-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8540,
+      "outputTokens": 13378,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1519978,
+      "stopReason": "end_turn"
+    }
+  ]
+}

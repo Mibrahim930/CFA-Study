@@ -1,0 +1,767 @@
+{
+  "losId": "quant-05-los4",
+  "losText": "calculate, interpret, and evaluate semi-deviation and coefficient of variation",
+  "moduleId": "quant-05",
+  "moduleTitle": "Statistical Characteristics of Asset Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:02:20.873Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "russell-us-indexes-methodology:46:50",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 46–47",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=46",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-data-science:m00022:4",
+      "title": "Principles of Data Science",
+      "locator": "§3.2 Measures of Variation — Coefficient of Variation",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-2-measures-of-variation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53806:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.7 Measures of the Spread of the Data — Coefficient of Variation",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55462:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.2 A Confidence Interval When the Population Standard Deviation Is Unknown and Small Sample Case — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-2-a-confidence-interval-when-the-population-standard-deviation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00079:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§13.2 Measures of Spread — Standard Deviation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-2-measures-of-spread",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:24:25",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00071:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.5 Efficient Markets — Efficient Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-5-efficient-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:102:166",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 102–103",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=102",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m53806:4",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.7 Measures of the Spread of the Data — Comparing Values from Different Data Sets",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "russell-us-indexes-methodology:9:7",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 9",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=9",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:59:96",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 59–60",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=59",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Downside-Only Risk and Risk per Unit of Return",
+      "summary": "Standard deviation treats upside and downside surprises alike and says nothing about how large the risk is relative to the average return. Semi-deviation isolates the below-average (or below-target) side of the spread, and the coefficient of variation scales risk by the mean so that different investments can be compared on one footing.",
+      "sections": [
+        {
+          "heading": "Why plain standard deviation is not enough",
+          "body_markdown": "Standard deviation measures how far returns typically wander from their average, in both directions. A **return** is the percentage gain or loss on an investment over a period. Most investors are happy when a return lands far *above* average and unhappy only when it lands far *below*. Think of a commute: arriving 20 minutes early and arriving 20 minutes late both count as a deviation from the usual 40 minutes, but only the late arrival hurts. Standard deviation cannot tell those two apart, so analysts add a measure that looks at the unwelcome side only."
+        },
+        {
+          "heading": "Semi-deviation: spread of the bad side only",
+          "body_markdown": "**Semi-deviation** (also called semideviation) is a standard-deviation-style measure that uses only observations *below the mean*. Steps: (1) compute the mean $\\bar X$; (2) keep only the observations lower than $\\bar X$; (3) square each of their distances from the mean and add them up; (4) divide by $n-1$, where $n$ is the **total** number of observations, not just the number kept; (5) take the square root.\n\nBecause only some squared deviations enter the numerator while the denominator is unchanged, semi-deviation can never exceed the sample standard deviation computed from the same data. A variant, **target semi-deviation**, replaces the mean with a chosen target return $B$ (for example, a minimum acceptable return) and uses only the observations below $B$. This fits an investor who cares about falling short of a specific goal."
+        },
+        {
+          "heading": "Coefficient of variation: risk per unit of return",
+          "body_markdown": "A standard deviation of 10 points means something very different for an asset averaging 4% than for one averaging 20%. The **coefficient of variation (CV)** divides the standard deviation by the mean, so it expresses risk as a fraction (or percentage) of the average:\n\n$$CV=\\frac{s}{\\bar X}$$\n\nFor returns, CV reads as the amount of risk taken per unit of average return, so a *lower* CV is better. It lets you compare investments whose averages differ widely. Its weakness is the denominator: when the mean is close to zero the CV explodes, and when the mean is negative the ratio is hard to interpret, so it is unreliable in those cases."
+        },
+        {
+          "heading": "Putting the two together on an exam",
+          "body_markdown": "Expect to be asked to (a) compute semi-deviation or target semi-deviation by hand from a short list of returns, remembering the $n-1$ denominator, (b) compute and compare CVs for two assets, and (c) explain what each measure adds beyond standard deviation. Semi-deviation answers 'how bad are the bad outcomes?'; CV answers 'how much risk per unit of average return?'. Neither replaces standard deviation; both are used alongside it."
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund had annual returns of 10%, 2%, -6%, 8% and 6% over five years. Treat these as a sample. Calculate (a) the mean, (b) the semi-deviation relative to the mean, (c) the sample standard deviation and (d) the coefficient of variation.",
+        "steps": [
+          "Mean: (10 + 2 - 6 + 8 + 6) / 5 = 20 / 5 = 4%.",
+          "Deviations from the mean: 6, -2, -10, 4, 2 (in percentage points).",
+          "Semi-deviation keeps only observations below 4%: these are 2% (deviation -2) and -6% (deviation -10).",
+          "Sum of their squared deviations: (-2)^2 + (-10)^2 = 4 + 100 = 104.",
+          "Divide by n - 1 = 4 (all five observations count in n, not just the two kept): 104 / 4 = 26.",
+          "Semi-deviation = square root of 26 = 5.10%.",
+          "Sample standard deviation: squared deviations are 36 + 4 + 100 + 16 + 4 = 160; 160 / 4 = 40; square root = 6.32%. BA II Plus: 2nd [DATA], 2nd [CLR WORK], then enter 10 ENTER ↓ ↓ 2 ENTER ↓ ↓ -6 ENTER ↓ ↓ 8 ENTER ↓ ↓ 6 ENTER; then 2nd [STAT], press 2nd [SET] until 1-V appears, and scroll ↓ to read X̄ = 4 and Sx = 6.3246. (The calculator does not give semi-deviation, so step 6 is done by hand.)",
+          "CV = standard deviation / mean = 6.3246 / 4 = 1.58. Semi-deviation (5.10%) is below the standard deviation (6.32%), as it must be."
+        ],
+        "answer": "Mean = 4%; semi-deviation ≈ 5.10%; sample standard deviation ≈ 6.32%; CV ≈ 1.58 (about 1.58 units of risk per unit of average return).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Semi-deviation (below the mean)",
+          "latex": "s_{-}=\\sqrt{\\frac{\\sum_{X_i<\\bar X}\\left(X_i-\\bar X\\right)^2}{n-1}}",
+          "where": "X_i is each observation, \\bar X is the sample mean, the sum includes only observations below the mean, and n is the total number of observations in the sample."
+        },
+        {
+          "name": "Target semi-deviation",
+          "latex": "s_{B}=\\sqrt{\\frac{\\sum_{X_i<B}\\left(X_i-B\\right)^2}{n-1}}",
+          "where": "B is the chosen target return, X_i is each observation, the sum includes only observations below B, and n is the total number of observations."
+        },
+        {
+          "name": "Coefficient of variation",
+          "latex": "CV=\\frac{s}{\\bar X}",
+          "where": "s is the standard deviation of the data and \\bar X is the mean; the result is a unitless ratio (multiply by 100 for a percentage)."
+        }
+      ],
+      "exam_traps": [
+        "Dividing the below-mean squared deviations by the number of below-mean observations (or that number minus one) instead of n - 1 using all observations.",
+        "Including observations that are above the mean (or above the target) in the semi-deviation sum.",
+        "Reading a higher CV as better: for returns, a lower CV means less risk per unit of return.",
+        "Choosing the investment with the lower standard deviation when the means differ, instead of comparing CVs.",
+        "Trusting a CV when the mean return is near zero or negative, where the ratio is unstable or hard to interpret."
+      ],
+      "builds_on": [
+        "Arithmetic mean",
+        "Sample variance and standard deviation",
+        "Sample versus population formulas"
+      ],
+      "leads_to": [
+        "Sharpe ratio and risk-adjusted return",
+        "Downside risk measures such as target shortfall",
+        "Comparing investments with different expected returns"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-data-science:m00022:4",
+        "os:introductory-business-statistics-2e:m53806:5",
+        "os:principles-finance-2e:m00079:0"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": false,
+        "issues": [
+          "error found: CV and standard deviation parts are supported. The worked example has an error: semi-deviation of sqrt(26)=5.10% is below SD 6.32%, which is fine, but the claim that semi-deviation can never exceed standard deviation is true only here because both use n-1 over a subset of deviations. The statement is correct, so the real problem is elsewhere. The BA II Plus steps are plausible. All arithmetic checks: mean 4, 104/4=26, sqrt=5.10, 160/4=40, sqrt=6.32, CV=1.58. No error found on re-check, but the flag is set in error: error_found should be false."
+        ]
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst computes the sample standard deviation and the semi-deviation (relative to the mean) from the same series of annual returns. Which statement is correct?",
+        "options": [
+          {
+            "text": "Semi-deviation is larger because it focuses on the worst outcomes only.",
+            "value": null,
+            "explanation": "Wrong: this assumes using fewer observations makes the result bigger. The denominator stays n - 1 while the numerator drops terms, so semi-deviation gets smaller."
+          },
+          {
+            "text": "Semi-deviation is never larger than the standard deviation, because it uses only some of the squared deviations.",
+            "value": null,
+            "explanation": "Correct: both use the same n - 1 denominator, but semi-deviation sums only the below-mean squared deviations, so it cannot exceed the standard deviation."
+          },
+          {
+            "text": "The two are equal whenever the return distribution is symmetric.",
+            "value": null,
+            "explanation": "Wrong: symmetry means about half the squared deviations fall below the mean, so the semi-deviation is roughly 70% of the standard deviation, not equal to it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A sample of returns has a mean of 5% and a standard deviation of 8%. What is the coefficient of variation? Round to two decimals.",
+        "options": [
+          {
+            "text": "1.60",
+            "value": null,
+            "explanation": "Correct: CV = standard deviation / mean = 8 / 5 = 1.60."
+          },
+          {
+            "text": "0.63",
+            "value": null,
+            "explanation": "Wrong: this inverts the ratio (mean / standard deviation = 5 / 8)."
+          },
+          {
+            "text": "12.80",
+            "value": null,
+            "explanation": "Wrong: this divides the variance (64, in squared percentage points) by the mean instead of the standard deviation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00022:4",
+          "os:introductory-business-statistics-2e:m53806:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A sample of five annual returns is 9%, -3%, 5%, 1% and 3%. Calculate the semi-deviation relative to the mean using the sample (n - 1) convention. Round to two decimals.",
+        "options": [
+          {
+            "text": "4.47%",
+            "value": null,
+            "explanation": "Wrong: the sum of squared below-mean deviations (40) was divided by 2, the number of below-mean observations, instead of n - 1 = 4."
+          },
+          {
+            "text": "2.83%",
+            "value": null,
+            "explanation": "Wrong: the sum (40) was divided by n = 5 rather than n - 1 = 4."
+          },
+          {
+            "text": "3.16%",
+            "value": null,
+            "explanation": "Correct: the mean is 3%. Below-mean observations are -3% (deviation -6) and 1% (deviation -2). Squares: 36 + 4 = 40. Divide by 4 to get 10; the square root is 3.16%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Fund A has a mean annual return of 8% and a standard deviation of 12%. Fund B has a mean annual return of 12% and a standard deviation of 15%. Which conclusion about risk per unit of return is correct?",
+        "options": [
+          {
+            "text": "Fund A has less risk per unit of return because its standard deviation is lower.",
+            "value": null,
+            "explanation": "Wrong: this compares raw standard deviations and ignores that the two funds have different mean returns."
+          },
+          {
+            "text": "Fund A has less risk per unit of return because its higher CV means more return per unit of risk.",
+            "value": null,
+            "explanation": "Wrong: this misreads the CV. A higher CV (1.50 for A) means more risk per unit of return, which is worse."
+          },
+          {
+            "text": "Fund B has less risk per unit of return because its CV of 1.25 is below Fund A's CV of 1.50.",
+            "value": null,
+            "explanation": "Correct: CV for A = 12/8 = 1.50 and for B = 15/12 = 1.25. The lower CV means less risk per unit of average return."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00022:4",
+          "os:introductory-business-statistics-2e:m53806:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement describes a limitation of using the coefficient of variation to evaluate investment returns?",
+        "options": [
+          {
+            "text": "It becomes unstable or hard to interpret when the mean return is close to zero or negative.",
+            "value": null,
+            "explanation": "Correct: the mean is the denominator, so a tiny mean makes the CV huge and a negative mean makes the ratio hard to interpret."
+          },
+          {
+            "text": "It ignores dispersion because it is calculated from the mean alone.",
+            "value": null,
+            "explanation": "Wrong: the numerator is the standard deviation, so dispersion is the core of the measure."
+          },
+          {
+            "text": "It can be computed only for populations, not for samples.",
+            "value": null,
+            "explanation": "Wrong: the sample version uses the sample standard deviation divided by the sample mean."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor has a minimum acceptable return of 5%. Five annual returns were 7%, 3%, -1%, 5% and 2%. Calculate the target semi-deviation relative to 5% using the sample (n - 1) convention, counting only returns below the target. Round to two decimals.",
+        "options": [
+          {
+            "text": "4.04%",
+            "value": null,
+            "explanation": "Wrong: the sum of squared shortfalls (49) was divided by 3, the number of observations below the target, instead of n - 1 = 4."
+          },
+          {
+            "text": "3.50%",
+            "value": null,
+            "explanation": "Correct: returns below 5% are 3, -1 and 2, with shortfalls -2, -6 and -3. Squares: 4 + 36 + 9 = 49. Divide by 4 to get 12.25; the square root is 3.50%."
+          },
+          {
+            "text": "3.13%",
+            "value": null,
+            "explanation": "Wrong: the sum (49) was divided by n = 5 rather than n - 1 = 4."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two assets have very different average returns. Why might an analyst prefer the coefficient of variation to the standard deviation when comparing their risk?",
+        "options": [
+          {
+            "text": "The CV captures only downside variation and ignores returns above the mean.",
+            "value": null,
+            "explanation": "Wrong: this describes semi-deviation. The CV uses the full standard deviation, upside included."
+          },
+          {
+            "text": "The CV converts the standard deviation into the probability of losing money.",
+            "value": null,
+            "explanation": "Wrong: the CV is a ratio of standard deviation to mean. It is not a probability."
+          },
+          {
+            "text": "The CV expresses risk per unit of average return, putting the two assets on a common scale.",
+            "value": null,
+            "explanation": "Correct: dividing by the mean adjusts for scale, so assets with different average returns can be compared directly."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m53806:5",
+          "os:principles-data-science:m00022:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is semi-deviation (relative to the mean) calculated, and what is its denominator?",
+        "back": "Square the deviations of only the below-mean observations, add them, divide by n - 1 (n = ALL observations), then take the square root.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What does target semi-deviation measure, and how does it differ from ordinary semi-deviation?",
+        "back": "It measures dispersion of returns falling below a chosen target B (such as a minimum acceptable return), using shortfalls from B instead of deviations from the mean.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the coefficient of variation and how do you read it for returns?",
+        "back": "CV = standard deviation / mean. It is risk per unit of average return, so a lower CV is better. It is unreliable when the mean is near zero or negative.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00022:4",
+          "os:introductory-business-statistics-2e:m53806:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How does semi-deviation compare in size with the sample standard deviation of the same data?",
+        "back": "It is never larger, because it sums only some of the squared deviations but uses the same n - 1 denominator.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T07:02:11.909Z",
+      "purpose": "blind-solve",
+      "losId": "quant-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 901,
+      "outputTokens": 1011,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.012029,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:02:20.873Z",
+      "purpose": "grounding",
+      "losId": "quant-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11559,
+      "outputTokens": 1362,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0368994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0489284
+}

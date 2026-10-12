@@ -1,0 +1,466 @@
+{
+  "losId": "quant-04-los2",
+  "losText": "calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given their present value and cash flows",
+  "moduleId": "quant-04",
+  "moduleTitle": "The Time Value of Money in Finance",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:24:35.144Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00052:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.1 Perpetuities — How to Value a Perpetuity",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-1-perpetuities",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.19
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — The Gordon Growth Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Constant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:1:0",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 1–5",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=1",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "commonfund-twr-vs-irr:3:2",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "p. 3",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=3",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Debt Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Variable or Nonconstant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:3.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Yields and Coupon Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:6.8",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Advantages and Limitations of DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:3.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Yields and Coupon Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00102:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§16.4 Alternative Methods — Modified Internal Rate of Return (MIRR)",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/16-4-alternative-methods",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Working Backwards from Price: Implied Bond Yields, Required Equity Returns and Implied Growth",
+      "summary": "Present value turns cash flows and a rate into a price. Here you reverse it: given the market price and the expected cash flows, you solve for the return a bond buyer earns, the return a stock investor requires, or the growth rate the price implies.",
+      "sections": [
+        {
+          "heading": "The same valuation machine, run in reverse",
+          "body_markdown": "Valuing a security normally means discounting expected cash flows at a chosen rate to get a price. Many exam questions give you the **price** instead, and the **rate** is the unknown. A rate found this way is called **implied**, because it is the rate the market price is implicitly using.\n\nThink of a used-car listing. You know what you pay today and what you can resell it for later. Asking what interest rate a savings account would need to pay to turn the same money into the same later amount is the same question as asking for an implied return.\n\nThe tool is unchanged: price equals the present value of future cash flows. Only the unknown differs. A bond's yield and a stock's required return and growth rate are all solved this way."
+        },
+        {
+          "heading": "Fixed income: the yield to maturity (YTM)",
+          "body_markdown": "A bond promises coupons (regular interest payments) and a repayment of face value (principal) at maturity. The **yield to maturity** is the single per-period discount rate $y$ that makes the present value of all those promised payments equal today's market price:\n\n$P_0=\\sum_{t=1}^{N}\\frac{CF_t}{(1+y)^t}$\n\nOnly a zero-coupon bond has a closed-form answer, $y=(FV/P_0)^{1/N}-1$. For anything else you solve by calculator. On the BA II Plus, enter the number of periods in N, the price as a **negative** PV (cash you pay out), the coupon per period in PMT and the face value in FV, then press CPT I/Y.\n\nMatch the period to the coupon frequency. A semiannual bond has $N$ = years × 2 and a coupon of half the annual coupon. The calculator returns a **per-period** rate. The quoted YTM is the stated annual rate, so multiply by the number of periods per year (for example × 2). Do not compound it unless the question asks for an effective annual rate.\n\nA useful check: a bond priced below face value (a discount) has a YTM above its coupon rate, because the buyer also earns the gain as the price climbs to face value. A bond priced above face value (a premium) has a YTM below its coupon rate."
+        },
+        {
+          "heading": "Equity: required return and implied growth",
+          "body_markdown": "Stocks have no maturity date, so the Gordon growth (constant-growth) model values them as a growing perpetuity:\n\n$P_0=\\frac{D_1}{r-g}$\n\n$D_1$ is the dividend expected next year, $r$ is the required return and $g$ is the constant dividend growth rate. If you know the price, the next dividend and a growth estimate, rearrange to find the return the market is demanding:\n\n$r=\\frac{D_1}{P_0}+g$\n\nThe required return is the **dividend yield** plus **growth**. Be careful with $D_1$. Questions often give the dividend just paid, $D_0$, so first compute $D_1=D_0(1+g)$.\n\nIf instead you know $r$ and want the growth the price implies, rearrange with $D_0$ given:\n\n$g=\\frac{P_0\\,r-D_0}{P_0+D_0}$\n\nFor a stock paying a fixed dividend forever, such as plain preferred shares, there is no growth, so $r=D/P_0$.\n\nThese answers are only as good as the model. The implied growth rate is a number that makes the model match the price, not a forecast the company has promised."
+        },
+        {
+          "heading": "Interpreting the answer",
+          "body_markdown": "An implied yield or required return is a **market-implied expected return**, and it relies on assumptions. The YTM equals the return an investor actually earns only if the investor holds to maturity, the issuer pays every coupon and the principal on time, and coupons are reinvested at the YTM itself. An equity required return from the Gordon model assumes dividends grow at a steady rate forever and that $r>g$.\n\nYou can use these numbers to judge value. If a bond's YTM or a stock's implied return exceeds the return you personally need for that risk, the security looks cheap. If it falls short, the security looks expensive. Before choosing an answer, check that it is reasonable: a discount bond should have a YTM above its coupon rate, and an implied growth rate must be below the required return."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 2-year bond with face value 100 pays a 5% annual coupon in two semiannual payments. The first payment is six months from now. It trades at a price of 98.14 per 100 of face value. What is its yield to maturity, expressed as a stated annual rate?",
+        "steps": [
+          "Set up the cash flows by period. The bond makes 2 payments a year for 2 years, so N = 4 semiannual periods. The coupon per period is 100 × 5% ÷ 2 = 2.50. The face value of 100 is repaid in the last period.",
+          "Clear the calculator's time value of money (TVM) registers with 2nd, FV, and set payments per year to 1 with 2nd, P/Y, 1, ENTER, 2nd, QUIT so that I/Y is a per-period rate.",
+          "Enter the inputs: 4 N, then 98.14 +/- PV (price paid is an outflow, so it is negative), then 2.5 PMT, then 100 FV.",
+          "Press CPT I/Y. The display shows about 3.00. This is the yield per half-year.",
+          "Annualize by multiplying by the number of periods per year: 3.00% × 2 = 6.00%.",
+          "Sanity check: the price is below 100, so the YTM should exceed the 5% coupon rate. 6.00% > 5.00%, which is consistent."
+        ],
+        "answer": "YTM = 6.00% (3.00% per half-year × 2)",
+        "answer_value": 0.06,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":2,\"freq\":2},\"price\":98.14}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Bond price equation (solve for YTM)",
+          "latex": "P_0=\\sum_{t=1}^{N}\\frac{CF_t}{(1+y)^t}",
+          "where": "$P_0$ = market price today; $CF_t$ = coupon or principal paid at period $t$; $N$ = number of periods; $y$ = yield per period (the YTM per period)."
+        },
+        {
+          "name": "Zero-coupon yield",
+          "latex": "y=\\left(\\frac{FV}{P_0}\\right)^{1/N}-1",
+          "where": "$FV$ = face value repaid at maturity; $P_0$ = price today; $N$ = number of compounding periods; $y$ = yield per period."
+        },
+        {
+          "name": "Stated annual YTM",
+          "latex": "\\text{YTM}_{\\text{annual}}=m\\times y",
+          "where": "$y$ = yield per period from the calculator; $m$ = periods per year (2 for semiannual)."
+        },
+        {
+          "name": "Required return (Gordon growth model)",
+          "latex": "r=\\frac{D_1}{P_0}+g",
+          "where": "$r$ = required return; $D_1=D_0(1+g)$ = next year's dividend; $P_0$ = current price; $g$ = constant dividend growth rate."
+        },
+        {
+          "name": "Implied growth rate",
+          "latex": "g=\\frac{P_0\\,r-D_0}{P_0+D_0}",
+          "where": "$P_0$ = current price; $r$ = required return; $D_0$ = dividend just paid; $g$ = constant growth rate implied by the price."
+        },
+        {
+          "name": "Required return on a no-growth perpetuity",
+          "latex": "r=\\frac{D}{P_0}",
+          "where": "$D$ = fixed annual dividend (as on plain preferred stock); $P_0$ = current price."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting to annualize: the calculator gives a per-period rate. For a semiannual bond, multiply I/Y by 2 to get the stated YTM. Do not compound it unless an effective annual rate is requested.",
+        "Using the dividend just paid, $D_0$, where the formula needs next year's dividend, $D_1=D_0(1+g)$. This understates the dividend yield and therefore the required return.",
+        "Entering the price as a positive PV on the BA II Plus. With a positive PV, a positive PMT and a positive FV, the calculator cannot solve for I/Y and shows an error. Price is the cash you pay, so it is negative.",
+        "Assuming YTM equals the coupon rate. The coupon rate sets the cash payments only. The YTM also reflects whether you pay less or more than face value.",
+        "Treating an implied return as a guaranteed return. YTM is earned only if the bond is held to maturity, no default occurs and coupons are reinvested at the YTM. A Gordon required return rests on constant growth forever."
+      ],
+      "builds_on": [
+        "Present value of bonds and stocks",
+        "Time value of money keys (N, I/Y, PV, PMT, FV)",
+        "Perpetuities and growing perpetuities",
+        "Gordon constant-growth dividend model"
+      ],
+      "leads_to": [
+        "Cash flow additivity and no arbitrage",
+        "Implied forward rates",
+        "Bond yield measures and duration",
+        "Internal rate of return and equity valuation models"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00062:3.2",
+        "os:principles-finance-2e:m00062:3.1",
+        "os:principles-finance-2e:m00107:1",
+        "os:principles-finance-2e:m00068:1",
+        "os:principles-finance-2e:m00068:3",
+        "os:principles-finance-2e:m00052:2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A zero-coupon bond with a face value of 100 matures in 5 years and is priced at 70 today. Assuming annual compounding, what is the bond's yield to maturity, rounded to two decimals?",
+        "options": [
+          {
+            "text": "8.57%",
+            "value": 0.0857,
+            "explanation": "Simple (non-compounded) average: (100 − 70) / 70 / 5. This ignores compounding and overstates the annual yield."
+          },
+          {
+            "text": "7.39%",
+            "value": 0.0739,
+            "explanation": "Correct. A zero-coupon bond has one payment, so y = (100/70)^(1/5) − 1 = 7.39%. Calculator: 5 N, −70 PV, 0 PMT, 100 FV, CPT I/Y."
+          },
+          {
+            "text": "9.33%",
+            "value": 0.0933,
+            "explanation": "Used 4 periods instead of 5 (counted the gaps between year-ends rather than the 5 years), so the same growth is squeezed into fewer periods and the yield is too high."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":5,\"pmt\":0,\"pv\":-70,\"fv\":100}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:3.2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 2-year bond with face value 100 pays a 5% annual coupon, with the first coupon one year from now. It is priced at 98. What is its yield to maturity as an annual rate, rounded to two decimals?",
+        "options": [
+          {
+            "text": "5.10%",
+            "value": 0.051,
+            "explanation": "Current yield: coupon / price = 5 / 98. It ignores the 2 gained as the price accretes to 100, so it is not the YTM."
+          },
+          {
+            "text": "7.14%",
+            "value": 0.0714,
+            "explanation": "Added the whole 2 discount to the coupon in one year: (5 + 2) / 98. The discount is earned over 2 years and the cash flows must be discounted, so this overstates the yield."
+          },
+          {
+            "text": "6.09%",
+            "value": 0.0609,
+            "explanation": "Correct. Solve 98 = 5/(1+y) + 105/(1+y)². Calculator: 2 N, −98 PV, 5 PMT, 100 FV, CPT I/Y gives about 6.09%. It is above the 5% coupon, as expected for a discount bond."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":2,\"freq\":1},\"price\":98}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:3.2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year bond with face value 100 has a 6% annual coupon paid in two equal semiannual installments of 3. It is priced at 97. Report the YTM as a stated annual rate (the semiannual yield multiplied by 2), rounded to two decimals.",
+        "options": [
+          {
+            "text": "7.13%",
+            "value": 0.0713,
+            "explanation": "Correct. With N = 6, PV = −97, PMT = 3 and FV = 100, CPT I/Y gives about 3.56% per half-year. Multiplying by 2 gives the stated annual YTM of 7.13%."
+          },
+          {
+            "text": "3.56%",
+            "value": 0.0356,
+            "explanation": "This is the semiannual rate from the calculator. It was not annualized."
+          },
+          {
+            "text": "7.26%",
+            "value": 0.0726,
+            "explanation": "Compounded the semiannual yield to an effective annual rate, 1.0356² − 1. The stem asks for the stated annual rate, which is the periodic rate × 2."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":3,\"freq\":2},\"price\":97}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:3.1",
+          "os:principles-finance-2e:m00107:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A stock trades at $40. The company just paid a dividend of $1.50 per share, and dividends are expected to grow at a constant 4% a year forever. Using the Gordon growth model, what required return does the market price imply, rounded to two decimals?",
+        "options": [
+          {
+            "text": "7.75%",
+            "value": null,
+            "explanation": "Used the dividend just paid, $1.50, as if it were next year's dividend: 1.50/40 + 4% = 7.75%. The model needs D1 = 1.50 × 1.04."
+          },
+          {
+            "text": "3.90%",
+            "value": null,
+            "explanation": "This is only the dividend yield, D1/P0 = 1.56/40. It leaves out the growth component of the required return."
+          },
+          {
+            "text": "7.90%",
+            "value": null,
+            "explanation": "Correct. D1 = 1.50 × 1.04 = 1.56. Then r = D1/P0 + g = 1.56/40 + 0.04 = 3.90% + 4.00% = 7.90%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A stock trades at $50 and has just paid a dividend of $2.00. Investors require a 9% return, and dividends are assumed to grow at a constant rate forever. What constant growth rate is implied by the price, rounded to two decimals?",
+        "options": [
+          {
+            "text": "5.00%",
+            "value": null,
+            "explanation": "Computed r − D0/P0 = 9% − 4%. This treats the dividend just paid as next year's dividend, but D1 = 2.00 × (1 + g) is itself larger."
+          },
+          {
+            "text": "4.81%",
+            "value": null,
+            "explanation": "Correct. Solve 50 = 2(1+g)/(0.09 − g), which gives g = (P0·r − D0)/(P0 + D0) = (4.50 − 2.00)/52 = 4.81%."
+          },
+          {
+            "text": "5.21%",
+            "value": null,
+            "explanation": "Subtracted D0 in the denominator instead of adding it: 2.50/48. The algebra of 50(0.09 − g) = 2(1 + g) puts P0 + D0 under the numerator."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:3",
+          "os:principles-finance-2e:m00068:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A 5-year bond with a 5% annual coupon and face value 100 is priced at 94. Which statement about its yield to maturity is correct?",
+        "options": [
+          {
+            "text": "It is above 5%, because the buyer also gains as the price rises to 100.",
+            "value": null,
+            "explanation": "Correct. The buyer receives the 5 coupons plus a 6 gain from 94 to 100, so the total return per year is greater than the coupon rate."
+          },
+          {
+            "text": "It is below 5%, because a lower price signals a lower return.",
+            "value": null,
+            "explanation": "Reverses the price-yield relationship. A lower price for the same promised cash flows means a higher yield."
+          },
+          {
+            "text": "It is equal to 5%, because the coupon payments are fixed in amount.",
+            "value": null,
+            "explanation": "Confuses the coupon rate with the YTM. The YTM is equal to the coupon rate only when the bond is priced at face value."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00107:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys a bond at a price that gives a YTM of 6%. Under which set of conditions will the investor's realized annualized return equal 6%?",
+        "options": [
+          {
+            "text": "The coupons are spent when received, and the bond is held to maturity.",
+            "value": null,
+            "explanation": "Ignores reinvestment. If coupons are spent rather than reinvested at the YTM, the realized return will not equal the YTM."
+          },
+          {
+            "text": "The coupons are reinvested at the coupon rate, and the bond is sold early at par.",
+            "value": null,
+            "explanation": "Reinvesting at the coupon rate rather than the YTM, and selling early, both break the YTM assumptions. The resale price is not guaranteed to be par."
+          },
+          {
+            "text": "The coupons are reinvested at 6%, the bond is held to maturity, and all payments are made.",
+            "value": null,
+            "explanation": "Correct. YTM assumes the investor holds to maturity, receives every promised payment and reinvests each coupon at the YTM."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does a bond's yield to maturity measure?",
+        "back": "The single per-period discount rate that makes the present value of all promised coupons and the face value equal to the bond's market price. It is earned only if the bond is held to maturity, there is no default, and coupons are reinvested at the YTM.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00107:1"
+        ]
+      },
+      {
+        "front": "How do you turn a semiannual calculator yield into the stated annual YTM?",
+        "back": "Multiply the per-period I/Y by the number of periods per year (for a semiannual bond, × 2). Compound it only if an effective annual rate is requested.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:3.1",
+          "os:principles-finance-2e:m00107:1"
+        ]
+      },
+      {
+        "front": "In the Gordon growth model, how do you solve for the required return?",
+        "back": "r = D1/P0 + g: next year's dividend yield plus the constant growth rate, where D1 = D0(1 + g).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      {
+        "front": "How do you find the growth rate implied by price when D0, P0 and r are known?",
+        "back": "g = (P0·r − D0)/(P0 + D0). It comes from P0 = D0(1+g)/(r − g).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:3"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:24:35.144Z",
+      "purpose": "generate",
+      "losId": "quant-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10320,
+      "outputTokens": 18814,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.2099178,
+      "stopReason": "end_turn"
+    }
+  ]
+}

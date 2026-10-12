@@ -1,0 +1,939 @@
+{
+  "losId": "quant-10-los3",
+  "losText": "calculate and interpret predicted values, the standard error of the estimate, and prediction intervals for the dependent variable in a simple linear regression model and describe different functional forms",
+  "moduleId": "quant-10",
+  "moduleTitle": "Applications of Simple Linear Regression in Finance",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:08:21.959Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-data-science:m00039:0",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Overview",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "os:principles-data-science:m00027:1.4",
+      "title": "Principles of Data Science",
+      "locator": "§4.1 Statistical Inference and Confidence Intervals — Estimating Parameters with Confidence Intervals",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-1-statistical-inference-and-confidence-intervals",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m64846:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.5 Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation — Logarithmic Transformation of the Data",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-5-interpretation-of-regression-coefficients-elasticity-and-log",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55852:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.7 How to Use Microsoft Excel® for Regression Analysis — How to Use Microsoft Excel® for Regression Analysis",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-7-how-to-use-microsoft-excel-for-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00091:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.5 Predictions and Prediction Intervals — Generating Prediction Intervals",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-5-predictions-and-prediction-intervals",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:0.4",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m56649:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.6 Predicting with a Regression Equation — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-6-predicting-with-a-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m64846:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.5 Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation — Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-5-interpretation-of-regression-coefficients-elasticity-and-log",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m64846:1.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.5 Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation — Logarithmic Transformation of the Data",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-5-interpretation-of-regression-coefficients-elasticity-and-log",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:3.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Testing the Parameters of the Line",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:0.3",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Forecasting with a Fitted Line: Predictions, Forecast Error and Curved Relationships",
+      "summary": "Once a regression line is estimated, you can plug in a new X to forecast Y, but a forecast is only useful if you know how far off it could be. This lesson shows how to compute a forecast, measure its typical error and build a range around it, then covers log versions of the model that capture percentage relationships.",
+      "sections": [
+        {
+          "heading": "From fitted line to forecast",
+          "body_markdown": "A simple linear regression fits a straight line through paired data. The **dependent variable** $Y$ is what we want to explain or forecast, and the **independent variable** $X$ is the input we plug in. The fitted line is $\\hat{Y} = \\hat{b}_0 + \\hat{b}_1 X$, where $\\hat{b}_0$ is the intercept and $\\hat{b}_1$ is the slope.\n\nTo forecast, choose an $X$, multiply by the slope and add the intercept. The result $\\hat{Y}$ is the **predicted value**, a single-number best guess. It is the average outcome the line implies for that $X$, not a promise about any single observation.\n\nThink of a GPS giving 'arrival in 42 minutes'. That is the line's best guess, and real trips will land above or below it. The rest of this lesson is about how far above or below."
+        },
+        {
+          "heading": "How big is a typical miss? The standard error of the estimate",
+          "body_markdown": "Each observation sits some distance from the line. That distance is the **residual**, $e_i = Y_i - \\hat{Y}_i$. Square the residuals and add them up to get the **sum of squared errors (SSE)**, the same quantity least squares minimises.\n\nThe **standard error of the estimate (SEE)** turns SSE into a typical miss, measured in the units of $Y$:\n\n$$SEE = \\sqrt{\\frac{SSE}{n-2}}$$\n\nWe divide by $n-2$ because two parameters (intercept and slope) were estimated from the data, which uses up two **degrees of freedom**. In a simple regression this is always $n-2$, not $n-1$. Many textbooks write the general case as $n-k$, where $k$ counts all estimated parameters including the intercept. Inside the square root, SSE divided by $n-2$ is the average squared miss, so you must take the square root to get back to units of $Y$.\n\nA small SEE means the points hug the line, so forecasts are tight. A large SEE means they scatter widely. SEE is not the standard error of the slope, which describes uncertainty in $\\hat{b}_1$ rather than scatter around the line."
+        },
+        {
+          "heading": "Prediction intervals: a range for one new outcome",
+          "body_markdown": "A single forecast hides uncertainty, so we build a range around it. The **standard error of the forecast** for a new observation at $X = X_f$ is\n\n$$s_f = SEE\\sqrt{1 + \\frac{1}{n} + \\frac{(X_f-\\bar{X})^2}{(n-1)s_X^2}}$$\n\nwhere $s_X^2$ is the sample variance of the $X$ values. The **prediction interval** is then $\\hat{Y} \\pm t_c \\, s_f$. Here $t_c$ is the critical value from a t-distribution with $n-2$ degrees of freedom for the confidence level you want, such as 95%.\n\nThree things drive the width:\n- **The '1' under the root.** It represents the scatter of one individual outcome around the true line. It is why a prediction interval is always wider than a **confidence interval for the mean** of $Y$ at the same $X$, which omits the 1 and answers a different question: 'where is the average?' rather than 'where will one new outcome land?'\n- **The $1/n$ term.** Uncertainty about the line's position shrinks as the sample grows.\n- **The distance term.** The further $X_f$ is from $\\bar{X}$, the wider the interval. This is why **extrapolating**, forecasting well outside the range of $X$ in your data, is risky: the line may not hold there, and the formula shows the uncertainty is larger even if it does."
+        },
+        {
+          "heading": "Functional forms: when a straight line is the wrong shape",
+          "body_markdown": "Sometimes the relationship is about percentages, not raw units, or the residuals show a curve. Taking natural logarithms ($\\ln$) of one or both variables lets us keep using the same least squares machinery. The slope's meaning changes with the form:\n\n| Form | Equation | Meaning of slope $b_1$ |\n|---|---|---|\n| Linear (lin-lin) | $Y = b_0 + b_1X$ | 1 unit rise in $X$ changes $Y$ by $b_1$ units |\n| Log-lin | $\\ln Y = b_0 + b_1X$ | 1 unit rise in $X$ changes $Y$ by about $100\\,b_1$ percent |\n| Lin-log | $Y = b_0 + b_1\\ln X$ | 1 percent rise in $X$ changes $Y$ by about $b_1/100$ units |\n| Log-log | $\\ln Y = b_0 + b_1\\ln X$ | 1 percent rise in $X$ changes $Y$ by about $b_1$ percent (an elasticity) |\n\nA classic use of log-lin is a constant growth rate: regress $\\ln(\\text{revenue})$ on time, and the slope is the per-period growth rate. Log-log suits demand-style questions about elasticity.\n\nTo choose a form, fit the straight line first and look at the residuals. Curvature or spread that grows with $X$ suggests trying a log form. If you forecast in a log-lin or log-log model, the prediction is for $\\ln Y$, so convert back with $\\hat{Y} = e^{\\widehat{\\ln Y}}$."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst regresses a company's annual revenue growth (Y, in %) on GDP growth (X, in %) using n = 20 years of data. The fitted line is Ŷ = 1.0 + 1.5X. The sum of squared errors is 72. The sample mean of X is 2.0% and the sample variance of X is 1.0. Forecast revenue growth if GDP growth is 3%, find the SEE, and build a 95% prediction interval. The critical t value for 18 degrees of freedom at 95% (two-tailed) is 2.101.",
+        "steps": [
+          "Predicted value: Ŷ = 1.0 + 1.5 × 3 = 5.5%.",
+          "SEE = √(SSE / (n − 2)) = √(72 / 18). BA II Plus: 72 ÷ 18 = 4, then press 2nd [√x] to get 2.00 (percentage points).",
+          "Distance term: (X_f − X̄)² / ((n−1)s_X²) = (3 − 2)² / (19 × 1.0) = 1/19 = 0.0526.",
+          "Inside the root: 1 + 1/20 + 0.0526 = 1 + 0.05 + 0.0526 = 1.1026.",
+          "Standard error of the forecast: s_f = 2.00 × √1.1026 = 2.00 × 1.0501 = 2.1001.",
+          "Margin: t × s_f = 2.101 × 2.1001 = 4.412.",
+          "Interval: 5.5 − 4.412 = 1.09 and 5.5 + 4.412 = 9.91."
+        ],
+        "answer": "Predicted revenue growth is 5.5%, SEE = 2.00 percentage points, and the 95% prediction interval is about 1.09% to 9.91%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Predicted value",
+          "latex": "\\hat{Y} = \\hat{b}_0 + \\hat{b}_1 X_f",
+          "where": "\\hat{b}_0 is the estimated intercept, \\hat{b}_1 the estimated slope, X_f the chosen value of the independent variable, \\hat{Y} the forecast of the dependent variable."
+        },
+        {
+          "name": "Standard error of the estimate",
+          "latex": "SEE = \\sqrt{\\frac{SSE}{n-2}}",
+          "where": "SSE is the sum of squared residuals, n is the number of observations, and n-2 are the degrees of freedom in a simple regression."
+        },
+        {
+          "name": "Standard error of the forecast",
+          "latex": "s_f = SEE\\sqrt{1 + \\frac{1}{n} + \\frac{(X_f-\\bar{X})^2}{(n-1)s_X^2}}",
+          "where": "X_f is the value of X being forecast from, \\bar{X} the sample mean of X, s_X^2 the sample variance of X, n the number of observations."
+        },
+        {
+          "name": "Prediction interval for an individual Y",
+          "latex": "\\hat{Y} \\pm t_c \\, s_f",
+          "where": "t_c is the critical t value with n-2 degrees of freedom for the chosen confidence level, s_f the standard error of the forecast."
+        },
+        {
+          "name": "Log-lin slope interpretation",
+          "latex": "\\ln Y = b_0 + b_1 X \\;\\Rightarrow\\; \\%\\Delta Y \\approx 100\\, b_1 \\text{ per unit } \\Delta X",
+          "where": "b_1 is the slope; the result is an approximate percentage change in Y for a one-unit rise in X."
+        },
+        {
+          "name": "Lin-log slope interpretation",
+          "latex": "Y = b_0 + b_1 \\ln X \\;\\Rightarrow\\; \\Delta Y \\approx \\frac{b_1}{100} \\text{ per 1\\% } \\Delta X",
+          "where": "b_1 is the slope; the result is the approximate change in Y (in Y's units) for a 1% rise in X."
+        },
+        {
+          "name": "Log-log slope interpretation",
+          "latex": "\\ln Y = b_0 + b_1 \\ln X \\;\\Rightarrow\\; b_1 = \\frac{\\%\\Delta Y}{\\%\\Delta X}",
+          "where": "b_1 is the elasticity of Y with respect to X."
+        }
+      ],
+      "exam_traps": [
+        "Dividing SSE by n or n−1 instead of n−2 when computing SEE in a simple regression, or forgetting the final square root and reporting the average squared error.",
+        "Using the confidence-interval formula (no '1' under the root) when the question asks for a prediction interval for an individual outcome, which gives a range that is too narrow.",
+        "Forgetting the intercept when computing the predicted value, or plugging in X as a percent when the equation expects a decimal (or vice versa).",
+        "Reading a log-lin slope as a unit change in Y, or forgetting to multiply by 100, when it actually gives an approximate percentage change in Y.",
+        "Treating a forecast made far outside the observed X range as just as reliable as one near the mean of X; the interval widens and the linear relationship may not hold."
+      ],
+      "builds_on": [
+        "Least squares line and its coefficients",
+        "Residuals and sum of squared errors",
+        "t-distribution and confidence intervals",
+        "Degrees of freedom"
+      ],
+      "leads_to": [
+        "CAPM estimates using regression",
+        "Multiple regression",
+        "Model misspecification and choosing functional form"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m55838:0.3",
+        "os:introductory-business-statistics-2e:m55838:0.4",
+        "os:principles-finance-2e:m00091:1",
+        "os:introductory-business-statistics-2e:m56649:0.1",
+        "os:introductory-business-statistics-2e:m64846:1",
+        "os:introductory-business-statistics-2e:m64846:1.1",
+        "os:introductory-business-statistics-2e:m64846:2"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A simple linear regression is estimated using 30 observations and has a sum of squared errors of 112. What is the standard error of the estimate, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.00",
+            "value": null,
+            "explanation": "This is SSE divided by n−2 (the average squared error) without taking the square root, so it is in squared units rather than the units of Y."
+          },
+          {
+            "text": "1.97",
+            "value": null,
+            "explanation": "This divides by n−1 = 29 instead of n−2 = 28. Two parameters (intercept and slope) are estimated, so two degrees of freedom are lost."
+          },
+          {
+            "text": "2.00",
+            "value": null,
+            "explanation": "Correct. SEE = √(112 / (30 − 2)) = √4 = 2.00."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:0.4"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): SEE = sqrt(SSE/(n-2)) = sqrt(112/28) = sqrt(4) = 2.00. Wait: 112/28 = 4, sqrt = 2.00, so the answer is C.}"
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose B again: SEE = sqrt(SSE/(n-2)) = sqrt(112/28) = sqrt(4) = 2.00. Wait: 112/28 = 4, sqrt = 2.00, so the answer is C.</br> (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fitted regression of a stock's monthly return (Y, in %) on the index's monthly return (X, in %) is Ŷ = −0.5 + 1.2X. If the index return is forecast to be 4%, what is the predicted stock return?",
+        "options": [
+          {
+            "text": "4.3%",
+            "value": null,
+            "explanation": "Correct. Ŷ = −0.5 + 1.2 × 4 = −0.5 + 4.8 = 4.3%."
+          },
+          {
+            "text": "4.8%",
+            "value": null,
+            "explanation": "This ignores the intercept and multiplies only the slope by X."
+          },
+          {
+            "text": "5.3%",
+            "value": null,
+            "explanation": "This makes a sign error by adding 0.5 instead of subtracting it: 4.8 + 0.5."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:0.3",
+          "os:introductory-business-statistics-2e:m64846:2"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose C again: Ŷ = -0.5 + 1.2(4) = 4.3%. (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why is the prediction interval for an individual value of Y at a given X wider than the confidence interval for the mean value of Y at that same X?",
+        "options": [
+          {
+            "text": "It uses fewer degrees of freedom, which raises the critical t value",
+            "value": null,
+            "explanation": "Both intervals use n−2 degrees of freedom, so the t value is the same. The difference lies inside the standard error."
+          },
+          {
+            "text": "It adds the scatter of a single outcome to the uncertainty about the line",
+            "value": null,
+            "explanation": "Correct. The extra 1 under the root represents the error term of one new observation, on top of the uncertainty about where the line lies."
+          },
+          {
+            "text": "It replaces the SEE with the standard error of the slope coefficient",
+            "value": null,
+            "explanation": "Both intervals are built from the SEE. Confusing SEE with the slope's standard error is a common mix-up between two different measures."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00091:1",
+          "os:introductory-business-statistics-2e:m56649:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst builds 95% prediction intervals from a fitted simple regression at two values of X: one equal to the sample mean of X, and one far above the largest X in the data. Compared with the interval at the mean, the interval far above the data range will be:",
+        "options": [
+          {
+            "text": "equally wide, since the SEE and the t value do not depend on X",
+            "value": null,
+            "explanation": "The SEE and t value are fixed, but the standard error of the forecast also contains a term that depends on X, so the width changes."
+          },
+          {
+            "text": "narrower, because extreme X values carry more information about the slope",
+            "value": null,
+            "explanation": "This confuses information about the slope with uncertainty in a forecast. Distance from the mean increases forecast variance."
+          },
+          {
+            "text": "wider, because the distance from the mean of X adds forecast variance",
+            "value": null,
+            "explanation": "Correct. The term (X_f − X̄)² / ((n−1)s_X²) grows as X_f moves away from X̄. Extrapolation is also risky because the linear relationship may not hold outside the observed range."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m56649:0.1",
+          "os:introductory-business-statistics-2e:m64846:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A regression gives a predicted value of 8.0. The SEE is 1.2, the standard error of the forecast is 1.5 and the critical t value for 95% confidence is 2.10. What is the 95% prediction interval for the individual outcome (rounded to two decimals)?",
+        "options": [
+          {
+            "text": "4.85 to 11.15",
+            "value": null,
+            "explanation": "Correct. Margin = 2.10 × 1.5 = 3.15, so the interval is 8.0 ± 3.15."
+          },
+          {
+            "text": "5.48 to 10.52",
+            "value": null,
+            "explanation": "This uses the SEE (1.2) as the multiplier: 2.10 × 1.2 = 2.52. That ignores the extra uncertainty from the line's position and the distance term, so the interval is too narrow."
+          },
+          {
+            "text": "6.50 to 9.50",
+            "value": null,
+            "explanation": "This uses the standard error of the forecast (1.5) but omits the critical t value, giving only one standard error either side."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00091:1",
+          "os:introductory-business-statistics-2e:m56649:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A regression of ln(salary) on years of experience gives ln(salary) = 3.20 + 0.05 × (years), with salary in thousands of dollars. Which interpretation of the slope is most appropriate?",
+        "options": [
+          {
+            "text": "Each additional year of experience raises salary by about $0.05 thousand",
+            "value": null,
+            "explanation": "This reads the slope as a unit change in Y, which is the interpretation for a linear (lin-lin) model, not a log-lin model."
+          },
+          {
+            "text": "Each additional year of experience raises salary by about 5%",
+            "value": null,
+            "explanation": "Correct. In a log-lin model a one-unit rise in X changes Y by about 100 × b₁ percent, so 100 × 0.05 = 5%."
+          },
+          {
+            "text": "Each additional year of experience raises salary by about 0.05%",
+            "value": null,
+            "explanation": "This forgets to multiply the slope by 100 to convert a proportional change into a percentage."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m64846:1",
+          "os:introductory-business-statistics-2e:m64846:1.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm's monthly sales (Y, in $ thousands) are modelled as Y = 20 + 12 ln(X), where X is monthly advertising spending. Which statement best describes the effect of a 1% increase in advertising spending?",
+        "options": [
+          {
+            "text": "Sales rise by about $12 thousand",
+            "value": null,
+            "explanation": "This reads 12 as the effect per unit of X, as in a linear model. In a lin-log model the slope applies to the log of X, so a 1% change is scaled by 1/100."
+          },
+          {
+            "text": "Sales rise by about 12%",
+            "value": null,
+            "explanation": "This treats the model as log-log, where the slope is an elasticity. Here Y is not in logs, so its change is in units of Y, not percent."
+          },
+          {
+            "text": "Sales rise by about $0.12 thousand",
+            "value": null,
+            "explanation": "Correct. In a lin-log model a 1% rise in X changes Y by about b₁/100 = 12/100 = 0.12 units of Y, i.e. $0.12 thousand."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m64846:1.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst wants to estimate a firm's constant compound growth rate of revenue over 40 quarters using regression, with the time period t = 1, 2, …, 40 as the independent variable. Which functional form is the most appropriate?",
+        "options": [
+          {
+            "text": "Lin-log: revenue regressed on ln(t)",
+            "value": null,
+            "explanation": "This implies revenue increments shrink as time passes. It does not give a constant percentage growth rate."
+          },
+          {
+            "text": "Log-lin: ln(revenue) regressed on t",
+            "value": null,
+            "explanation": "Correct. Constant compound growth means ln(revenue) rises linearly with t, and the slope (times 100) is the approximate per-period percentage growth rate."
+          },
+          {
+            "text": "Log-log: ln(revenue) regressed on ln(t)",
+            "value": null,
+            "explanation": "This makes the slope an elasticity of revenue with respect to the percentage change in time, which is not a constant per-period growth rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m64846:1",
+          "os:introductory-business-statistics-2e:m64846:1.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is the standard error of the estimate (SEE) calculated in a simple linear regression, and what does it measure?",
+        "back": "SEE = √(SSE / (n − 2)). It is the typical size of the residuals, in the units of Y; smaller means points lie closer to the line.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:0.4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the 95% prediction interval formula for an individual Y at X_f?",
+        "back": "Ŷ ± t_c × s_f, with t_c from a t-distribution with n − 2 degrees of freedom and s_f = SEE × √(1 + 1/n + (X_f − X̄)² / ((n−1)s_X²)).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00091:1",
+          "os:introductory-business-statistics-2e:m56649:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Prediction interval versus confidence interval for the mean of Y at the same X: which is wider, and why?",
+        "back": "The prediction interval is wider. It includes the extra 1 under the root, which accounts for the scatter of one individual outcome around the line.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00091:1",
+          "os:introductory-business-statistics-2e:m56649:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do you interpret the slope in log-lin, lin-log and log-log regressions?",
+        "back": "Log-lin: 1-unit rise in X changes Y by about 100·b₁ percent. Lin-log: 1% rise in X changes Y by about b₁/100 units. Log-log: b₁ is the elasticity (% change in Y per 1% change in X).",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m64846:1",
+          "os:introductory-business-statistics-2e:m64846:1.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:07:44.824Z",
+      "purpose": "blind-solve",
+      "losId": "quant-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1077,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003421,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:08:08.599Z",
+      "purpose": "repair",
+      "losId": "quant-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13035,
+      "outputTokens": 4360,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4628,
+      "costUsd": 0.07059560000000001,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:08:13.366Z",
+      "purpose": "blind-solve",
+      "losId": "quant-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1073,
+      "outputTokens": 633,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008593,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:08:21.958Z",
+      "purpose": "grounding",
+      "losId": "quant-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14095,
+      "outputTokens": 1182,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0401714,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.122781
+}

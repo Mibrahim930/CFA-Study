@@ -1,0 +1,441 @@
+{
+  "losId": "quant-06-los3",
+  "losText": "calculate, interpret, and evaluate conditional expectations, variances, and covariances",
+  "moduleId": "quant-06",
+  "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:37:09.450Z",
+  "retrieved": [
+    {
+      "id": "fed-feds-2001-27-historical-simulation:19:23",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 19–20",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=19",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:17:20",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=17",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:16:19",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 16–17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=16",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:11:12",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 11",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:168:160",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 168–169",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=168",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-data-science:m00024:2.4",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:17",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 15",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-data-science:m00024:2",
+      "title": "Principles of Data Science",
+      "locator": "§3.4 Probability Theory — Conditional Probability and Bayes’ Theorem",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-4-probability-theory",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:18:21",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 18",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=18",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Updating Averages, Spreads and Co-movement When You Know the Situation",
+      "summary": "Conditional expectations, variances and covariances are the mean, spread and co-movement of returns computed after you learn something, such as which economic regime you are in. They matter because risk and return numbers that ignore known information can mislead, and conditional pieces combine to give the unconditional totals.",
+      "sections": [
+        {
+          "heading": "1. The intuition: the average changes when you learn something",
+          "body_markdown": "Suppose you forecast daily ice-cream sales for a beach kiosk. Averaged over the whole year, you might expect 200 cones a day. If you are told that tomorrow is a scorching Saturday, you would revise that to maybe 350. The new number is a **conditional expectation**: the probability-weighted average of an outcome, *given* that a specific piece of information (an event or scenario) has occurred.\n\nNotation: $E[X \\mid S]$ is read 'the expected value of $X$ given $S$'. The vertical bar means 'given' and is not division. Inside the condition, the probabilities are re-based so they sum to 1 across only the outcomes that are still possible. The set of outcomes consistent with $S$ is the only world you now average over.\n\nIn finance, $S$ is often a market regime (expansion or recession), a signal, or the history of returns up to today."
+        },
+        {
+          "heading": "2. Conditional expectation and the law of total expectation",
+          "body_markdown": "For a discrete variable, the conditional expectation is a probability-weighted average using the conditional probabilities:\n\n$$E[X\\mid S]=\\sum_i x_i\\,P(x_i\\mid S)$$\n\nIf the scenarios $S_1,\\dots,S_k$ are mutually exclusive and cover every possibility, the ordinary (unconditional) expected value is just the probability-weighted average of the conditional expectations:\n\n$$E[X]=\\sum_{j=1}^{k}P(S_j)\\,E[X\\mid S_j]$$\n\nThis is the **law of total expectation**. Example: if there is a 60% chance of expansion with $E[R\\mid\\text{expansion}]=10\\%$ and a 40% chance of recession with $E[R\\mid\\text{recession}]=-2\\%$, then $E[R]=0.6(10\\%)+0.4(-2\\%)=5.2\\%$.\n\nKey habit: the weights for a conditional average are the *conditional* probabilities (they sum to 1 inside the scenario); the weights for the total are the *scenario* probabilities."
+        },
+        {
+          "heading": "3. Conditional variance and how the total variance is built",
+          "body_markdown": "Variance measures spread around the mean. The **conditional variance** measures spread around the *conditional* mean, using conditional probabilities:\n\n$$\\text{Var}(X\\mid S)=\\sum_i P(x_i\\mid S)\\,\\bigl(x_i-E[X\\mid S]\\bigr)^2$$\n\nWhen a scenario's outcomes are given with probabilities (not a sample of observations), divide by the probability weights, not by $n-1$. With equally likely outcomes this is the *population* variance.\n\nThe unconditional variance has two sources, which is the **law of total variance**:\n\n$$\\text{Var}(X)=E\\bigl[\\text{Var}(X\\mid S)\\bigr]+\\text{Var}\\bigl(E[X\\mid S]\\bigr)$$\n\nThe first term is the average spread *inside* the scenarios. The second is the spread *between* the scenarios' means. Even if every scenario has the same variance, the unconditional variance is larger whenever the scenario means differ. Analogy: heights inside two schools are spread out, and if one school is full of taller students, the combined group is even more spread out."
+        },
+        {
+          "heading": "4. Conditional covariance and why regimes matter",
+          "body_markdown": "**Covariance** measures whether two variables tend to move together. The **conditional covariance** uses conditional means and conditional probabilities:\n\n$$\\text{Cov}(X,Y\\mid S)=\\sum_i P(x_i,y_i\\mid S)\\,\\bigl(x_i-E[X\\mid S]\\bigr)\\bigl(y_i-E[Y\\mid S]\\bigr)$$\n\nThe same building-block logic applies as for variance:\n\n$$\\text{Cov}(X,Y)=E\\bigl[\\text{Cov}(X,Y\\mid S)\\bigr]+\\text{Cov}\\bigl(E[X\\mid S],E[Y\\mid S]\\bigr)$$\n\nConsequences you must be able to reason about:\n- Two assets can be unrelated *within* each regime (conditional covariance of zero) and still have a positive unconditional covariance, because both do better in expansions than recessions.\n- Conditional variances and covariances can change over time as information arrives. Risk models that let volatility depend on past returns (for example GARCH-type models) use a conditional mean and conditional variance-covariance matrix given the history.\n- Because portfolio variance is built from variances and covariances, using conditional estimates for the current environment changes the risk estimate of the whole portfolio."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst models next-year stock returns. Given that the economy is in an expansion, she treats four returns as equally likely: 8%, 12%, 4% and 16%. Find the conditional expected return E[R | expansion] and the conditional variance Var(R | expansion). Express the variance with returns in decimals.",
+        "steps": [
+          "Because the four outcomes are equally likely inside the expansion scenario, each has conditional probability 1/4.",
+          "Conditional mean: $E[R\\mid\\text{expansion}]=\\tfrac14(8+12+4+16)\\%=10\\%$.",
+          "Deviations from the conditional mean: $-2\\%,\\ +2\\%,\\ -6\\%,\\ +6\\%$.",
+          "Squared deviations (in %²): 4, 4, 36, 36. Probability-weighted average: $\\tfrac14(4+4+36+36)=20$ %², which is $0.0020$ in decimals. Use the population version (divide by 4, not 3) because the four outcomes are the whole conditional distribution.",
+          "BA II Plus check: press [2nd][DATA] to open the data editor and [2nd][CLR WORK] to clear it. Enter 8 [ENTER] [↓][↓] 12 [ENTER] [↓][↓] 4 [ENTER] [↓][↓] 16 [ENTER]. Press [2nd][STAT] until the display shows 1-V, then [↓] to read the mean X̄ = 10 and the population standard deviation σx = 4.4721 (use σx, not Sx). Square it: 4.4721 [x²] = 20, i.e. 0.0020 once the percentages are converted to decimals.",
+          "Interpretation: given an expansion, the expected return is 10% with a standard deviation of about 4.47%."
+        ],
+        "answer": "E[R | expansion] = 10%; Var(R | expansion) = 0.002 (20 %², standard deviation about 4.47%).",
+        "answer_value": 0.002,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[0.08,0.12,0.04,0.16],\"basis\":\"population\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Conditional expected value",
+          "latex": "E[X\\mid S]=\\sum_i x_i\\,P(x_i\\mid S)",
+          "where": "$x_i$ = possible outcomes of $X$; $P(x_i\\mid S)$ = probability of $x_i$ given that scenario $S$ has occurred (these sum to 1)."
+        },
+        {
+          "name": "Law of total expectation",
+          "latex": "E[X]=\\sum_{j}P(S_j)\\,E[X\\mid S_j]",
+          "where": "$S_j$ = mutually exclusive, exhaustive scenarios; $P(S_j)$ = probability of scenario $j$; $E[X\\mid S_j]$ = conditional expected value in that scenario."
+        },
+        {
+          "name": "Conditional variance",
+          "latex": "\\text{Var}(X\\mid S)=\\sum_i P(x_i\\mid S)\\bigl(x_i-E[X\\mid S]\\bigr)^2",
+          "where": "$E[X\\mid S]$ = conditional mean (not the unconditional mean); $P(x_i\\mid S)$ = conditional probabilities."
+        },
+        {
+          "name": "Law of total variance",
+          "latex": "\\text{Var}(X)=E\\bigl[\\text{Var}(X\\mid S)\\bigr]+\\text{Var}\\bigl(E[X\\mid S]\\bigr)",
+          "where": "First term = probability-weighted average of the scenario variances; second term = variance of the scenario means across scenarios."
+        },
+        {
+          "name": "Conditional covariance",
+          "latex": "\\text{Cov}(X,Y\\mid S)=\\sum_i P(x_i,y_i\\mid S)\\bigl(x_i-E[X\\mid S]\\bigr)\\bigl(y_i-E[Y\\mid S]\\bigr)",
+          "where": "$P(x_i,y_i\\mid S)$ = joint probability of the pair of outcomes given $S$; $E[X\\mid S]$ and $E[Y\\mid S]$ = conditional means."
+        },
+        {
+          "name": "Law of total covariance",
+          "latex": "\\text{Cov}(X,Y)=E\\bigl[\\text{Cov}(X,Y\\mid S)\\bigr]+\\text{Cov}\\bigl(E[X\\mid S],E[Y\\mid S]\\bigr)",
+          "where": "First term = average within-scenario covariance; second term = covariance between the scenario means of $X$ and $Y$."
+        }
+      ],
+      "exam_traps": [
+        "Weighting outcomes with their unconditional or joint probabilities instead of re-based conditional probabilities. Inside a scenario, the weights must sum to 1.",
+        "Measuring deviations from the unconditional mean when computing a conditional variance or covariance. The deviations must be taken around the conditional mean.",
+        "Assuming the unconditional variance is just the probability-weighted average of the scenario variances. This forgets the variance of the scenario means, so the answer comes out too low whenever the scenario means differ.",
+        "Concluding that zero covariance inside every regime means zero covariance overall. If both assets' means shift in the same direction across regimes, the unconditional covariance is positive.",
+        "Using the sample (n − 1) divisor on a scenario table that lists the full set of outcomes with probabilities. Use probability weights (population form)."
+      ],
+      "builds_on": [
+        "Unconditional expected value, variance and covariance",
+        "Probability rules and the meaning of 'given'",
+        "Joint probability tables and scenario analysis"
+      ],
+      "leads_to": [
+        "Bayesian updating of probabilities",
+        "Portfolio variance in changing market regimes",
+        "Time-varying (conditional) volatility models such as ARCH/GARCH",
+        "Regression: expected value of Y given X"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-data-science:m00024:2",
+        "fed-feds-2001-27-historical-simulation:11:12",
+        "fed-feds-2001-27-historical-simulation:19:23"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst's long-run forecast for a stock's return is 9%. After learning that the economy has entered a recession, she revises the forecast to 2%. The 2% figure is best described as:",
+        "options": [
+          {
+            "text": "An unconditional expected return that has been revised downward",
+            "value": null,
+            "explanation": "Wrong: an unconditional expectation uses no scenario information. A number tied to a known recession is conditional on that event."
+          },
+          {
+            "text": "A conditional expected return, E[R | recession]",
+            "value": null,
+            "explanation": "Correct: it is the probability-weighted average return given that the recession scenario has occurred."
+          },
+          {
+            "text": "A conditional variance of returns given a recession",
+            "value": null,
+            "explanation": "Wrong: this confuses the mean (a forecast of the return level) with the variance (a measure of dispersion)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "Given that the economy is in a high-inflation regime, an analyst treats four returns as equally likely: -3%, 5%, 1% and 9%. What is the conditional expected return? Express as a decimal rounded to three decimals where needed.",
+        "options": [
+          {
+            "text": "3.0%",
+            "value": 0.03,
+            "explanation": "Correct: (-3 + 5 + 1 + 9) / 4 = 12 / 4 = 3.0%, each outcome has conditional probability 1/4."
+          },
+          {
+            "text": "4.5%",
+            "value": 0.045,
+            "explanation": "Wrong: this ignores the minus sign on the -3% outcome, so (3 + 5 + 1 + 9) / 4 = 4.5%."
+          },
+          {
+            "text": "12.0%",
+            "value": 0.12,
+            "explanation": "Wrong: this sums the returns but forgets to apply the conditional probabilities (divide by 4)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[-0.03,0.05,0.01,0.09]}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "There is a 60% chance of an up market and a 40% chance of a down market. The expected stock return is 12% in an up market and -4% in a down market. What is the unconditional expected return?",
+        "options": [
+          {
+            "text": "4.0%",
+            "value": null,
+            "explanation": "Wrong: this is the simple average of 12% and -4%, which ignores the scenario probabilities."
+          },
+          {
+            "text": "7.2%",
+            "value": null,
+            "explanation": "Wrong: this is 0.6 × 12% only; it leaves out the contribution of the down scenario (0.4 × -4% = -1.6%)."
+          },
+          {
+            "text": "5.6%",
+            "value": null,
+            "explanation": "Correct: law of total expectation, 0.6(12%) + 0.4(-4%) = 7.2% - 1.6% = 5.6%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Given a recession, an analyst treats three returns as equally likely: -10%, -4% and 2%. These three outcomes make up the whole conditional distribution. Compute Var(R | recession) with returns in decimals, rounded to four decimals.",
+        "options": [
+          {
+            "text": "0.0036",
+            "value": 0.0036,
+            "explanation": "Wrong: this divides by n − 1 = 2 (sample variance), but the outcomes are the complete conditional distribution with probabilities 1/3 each."
+          },
+          {
+            "text": "0.0024",
+            "value": 0.0024,
+            "explanation": "Correct: conditional mean = -4%; squared deviations are 36, 0, 36 (in %²); the probability-weighted average is 72/3 = 24 %² = 0.0024."
+          },
+          {
+            "text": "0.0490",
+            "value": 0.049,
+            "explanation": "Wrong: 0.0490 is the conditional standard deviation (the square root of 0.0024), not the variance."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[-0.10,-0.04,0.02],\"basis\":\"population\"}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Two equally likely regimes exist. In each regime the conditional variance of a stock's return is 0.0400. The conditional mean return is 10% in regime 1 and -2% in regime 2. What is the unconditional variance of the return?",
+        "options": [
+          {
+            "text": "0.0436",
+            "value": null,
+            "explanation": "Correct: average conditional variance 0.0400 plus variance of the conditional means. Means 10% and -2% average 4%, deviations ±6%, so variance of means = 0.0036; total = 0.0436."
+          },
+          {
+            "text": "0.0400",
+            "value": null,
+            "explanation": "Wrong: this uses only the average of the conditional variances and ignores the extra spread created by the different regime means."
+          },
+          {
+            "text": "0.0364",
+            "value": null,
+            "explanation": "Wrong: this subtracts the variance of the conditional means (0.0400 - 0.0036) instead of adding it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The returns on two stocks are uncorrelated within an expansion and also uncorrelated within a recession (conditional covariance is zero in each regime). Both stocks have a higher expected return in expansions than in recessions, and both regimes occur with positive probability. The unconditional covariance of the two returns is:",
+        "options": [
+          {
+            "text": "Zero, because covariance is zero in every regime",
+            "value": null,
+            "explanation": "Wrong: this treats the average conditional covariance as the whole answer and omits the covariance between the two stocks' regime means."
+          },
+          {
+            "text": "Negative, because the regimes offset each other",
+            "value": null,
+            "explanation": "Wrong: the regime means move in the same direction for both stocks, so the between-regime term cannot be negative."
+          },
+          {
+            "text": "Positive, because both means shift together across regimes",
+            "value": null,
+            "explanation": "Correct: Cov(X,Y) = E[Cov(X,Y|S)] + Cov(E[X|S], E[Y|S]) = 0 + a positive term, because both conditional means rise in expansion and fall in recession."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Given a particular scenario, a stock's return takes one of three equally likely values: 0%, 4% and 14%. These are the entire conditional distribution. Compute the conditional standard deviation of the return, in decimals, rounded to four decimals.",
+        "options": [
+          {
+            "text": "0.0762",
+            "value": 0.0762,
+            "explanation": "Wrong: this uses the sample (n − 1) divisor, √(116/2) = 7.62%, though the three outcomes with probabilities 1/3 are the complete distribution."
+          },
+          {
+            "text": "0.0039",
+            "value": 0.0039,
+            "explanation": "Wrong: this is the conditional variance (116/3 = 38.67 %² = 0.0039), not the standard deviation."
+          },
+          {
+            "text": "0.0622",
+            "value": 0.0622,
+            "explanation": "Correct: conditional mean = 6%; squared deviations 36, 16, 64 (%²) sum to 116; 116/3 = 38.67 %²; the square root is 6.22% = 0.0622."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[0.0,0.04,0.14],\"basis\":\"population\"}"
+        },
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a conditional expected value, and what does the vertical bar in E[X | S] mean?",
+        "back": "The probability-weighted average of X using only the outcomes consistent with scenario S, with probabilities re-based to sum to 1. The bar means 'given', not division.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00024:2"
+        ]
+      },
+      {
+        "front": "How do you get the unconditional expected value from conditional expected values?",
+        "back": "Law of total expectation: E[X] = Σ P(Sj) × E[X | Sj], weighting each scenario's conditional mean by the scenario's probability.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Why is unconditional variance usually larger than the average of the conditional variances?",
+        "back": "Var(X) = E[Var(X|S)] + Var(E[X|S]). The second term, the spread of the scenario means, adds to the average within-scenario variance whenever the means differ.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Can two assets have zero covariance in every regime yet a non-zero unconditional covariance?",
+        "back": "Yes. Cov(X,Y) = E[Cov(X,Y|S)] + Cov(E[X|S], E[Y|S]). If both conditional means shift together across regimes, the second term makes the overall covariance non-zero.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:37:09.450Z",
+      "purpose": "generate",
+      "losId": "quant-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10611,
+      "outputTokens": 14084,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.16319979999999998,
+      "stopReason": "end_turn"
+    }
+  ]
+}

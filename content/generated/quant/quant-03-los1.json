@@ -1,0 +1,468 @@
+{
+  "losId": "quant-03-los1",
+  "losText": "calculate and compare money-weighted and time-weighted rates of return",
+  "moduleId": "quant-03",
+  "moduleTitle": "Benchmarking Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:20:52.777Z",
+  "retrieved": [
+    {
+      "id": "ib-mwr-twr-white-paper:1:0",
+      "title": "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)",
+      "locator": "pp. 1–2",
+      "url": "https://www.interactivebrokers.com/images/common/Statements/MWR-TWR_white_paper.pdf#page=1",
+      "license": "Interactive Brokers white paper; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.3
+    },
+    {
+      "id": "commonfund-twr-vs-irr:4:4",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 4–5",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=4",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.23
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:1:0",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 1–5",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=1",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "gips-2020-firms:29:26",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 29–30",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=29",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.18
+    },
+    {
+      "id": "commonfund-twr-vs-irr:3:3",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 3–4",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=3",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "gips-2020-firms:28:25",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 28–29",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=28",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "ib-mwr-twr-white-paper:2:1",
+      "title": "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)",
+      "locator": "pp. 2–3",
+      "url": "https://www.interactivebrokers.com/images/common/Statements/MWR-TWR_white_paper.pdf#page=2",
+      "license": "Interactive Brokers white paper; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "gips-2020-firms:15:11",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 15–16",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=15",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "commonfund-twr-vs-irr:2:1",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 2–3",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=2",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "commonfund-twr-vs-irr:3:2",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "p. 3",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=3",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "commonfund-twr-vs-irr:1:0",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 1–2",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=1",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "gips-2020-firms:106:115",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 106–107",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=106",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Money-Weighted vs. Time-Weighted Returns",
+      "summary": "When money is added to or taken out of a portfolio, there are two ways to measure its return. One reflects what the investor actually experienced, and the other isolates how well the manager invested. Knowing how to compute each and when to use which is a core Level I skill.",
+      "sections": [
+        {
+          "heading": "Two different questions",
+          "body_markdown": "A **cash flow** here means money the investor puts into or takes out of the portfolio (deposits, withdrawals, contributions, distributions). It is separate from the investment gains themselves.\n\nPicture a bus. The **driver** is the portfolio manager, and the **passengers' money** is the investor's cash. Passengers board and leave at times the driver often does not choose.\n\n- If you want to grade the *driver*, you should ignore how many passengers happened to be aboard on each stretch of road. That is the **time-weighted return (TWR)**.\n- If you want to know how the *whole trip* worked out for the money that was on board, you must weigh each stretch by how much money was riding on it. That is the **money-weighted return (MWR)**.\n\nBoth are legitimate. They answer different questions, so they can give different numbers for the same portfolio."
+        },
+        {
+          "heading": "Time-weighted return: chop, compute, link",
+          "body_markdown": "TWR removes the effect of cash-flow size and timing in three steps:\n\n1. **Split** the horizon into sub-periods ending at each cash flow. The portfolio must be valued on each of those dates.\n2. **Compute** each sub-period's return from the value just before the flow: $R_t = \\dfrac{V_{end} - V_{begin} + \\text{income}}{V_{begin}}$. The next sub-period then starts at the value *after* the flow.\n3. **Link geometrically** by compounding: $TWR = (1+R_1)(1+R_2)\\cdots(1+R_n) - 1$.\n\nSub-period returns are multiplied, not added, because each one grows on top of the previous result. If the horizon is longer than a year, annualize the linked return: $(1+TWR)^{1/Y}-1$, where $Y$ is the number of years.\n\nBecause every sub-period return is a return on whatever money was invested at the time, the dollar size of the deposits and withdrawals drops out."
+        },
+        {
+          "heading": "Money-weighted return: the IRR of the investor's cash flows",
+          "body_markdown": "The **money-weighted return** is the **internal rate of return (IRR)** of the investor's cash flows. IRR is the discount rate that makes the present value of the money put in equal the present value of the money received.\n\nSign convention from the investor's side:\n\n- Deposits and the initial investment are **outflows** (negative).\n- Withdrawals, distributions and the **ending portfolio value** are **inflows** (positive). The ending value is treated as if the investor cashed out.\n\nYou solve $\\sum_{t=0}^{n} \\dfrac{CF_t}{(1+r)^t} = 0$ for $r$. On the BA II Plus you use the cash flow worksheet (CF, then IRR, then CPT). If the flows are spaced quarterly or monthly, the result is a per-period rate and you must annualize it.\n\nBecause IRR gives more influence to the periods when more money was invested, the investor's own timing decisions affect the answer."
+        },
+        {
+          "heading": "Comparing the two and choosing one",
+          "body_markdown": "**When they differ.** With no interim cash flows, MWR and TWR are the same. With interim flows, they diverge:\n\n- Money added **before strong** performance, or withdrawn before weak performance, pushes MWR **above** TWR.\n- Money added **before weak** performance, or withdrawn before strong performance, pushes MWR **below** TWR.\n\n**When to use which.**\n\n- **TWR** suits managers of public or pooled funds, because investors move money in and out at will and the manager does not control it. TWR is also the usual basis for comparing managers with each other and with a benchmark.\n- **MWR** suits situations where the manager *does* control the timing and size of cash flows (private equity or real estate funds with capital calls and distributions). It is also the right measure for an individual's own experience.\n\nThe core exam idea: TWR measures **manager skill without cash-flow noise**, and MWR measures **investor outcome including the timing of decisions**."
+        }
+      ],
+      "worked_example": {
+        "problem": "An investor puts $100 (thousand) into a fund at time 0. At the end of year 1 the fund is worth $120 (thousand), and the investor immediately adds $400 (thousand). At the end of year 2 the fund is worth $468 (thousand) and the investor liquidates it. Compute the annual money-weighted return and the time-weighted return, and explain why they differ.",
+        "steps": [
+          "**TWR, year 1:** the value rose from 100 to 120 just before the deposit, so $R_1 = 120/100 - 1 = +20\\%$.",
+          "**TWR, year 2:** the deposit lifts the balance to $120 + 400 = 520$. It ends at 468, so $R_2 = 468/520 - 1 = -10\\%$.",
+          "**Link:** $TWR = 1.20 \\times 0.90 - 1 = 8.00\\%$ over two years. Annualized: $\\sqrt{1.08} - 1 \\approx 3.92\\%$ per year.",
+          "**MWR cash flows (investor's view):** $CF_0 = -100$, $CF_1 = -400$, $CF_2 = +468$.",
+          "**BA II Plus:** press CF, then 2ND CLR WORK. Enter 100 then +/- then ENTER, then the down arrow. Enter 400 then +/- then ENTER, then the down arrow twice (F01 stays 1). Enter 468 then ENTER. Press IRR, then CPT. The display shows about -5.38.",
+          "**Interpret:** the manager did fine, with +3.92% a year on a time-weighted basis. But most of the money was invested during the bad year, so the investor ended with 468 after contributing 500 in total, a loss. The MWR is negative."
+        ],
+        "answer": "MWR ≈ −5.38% per year; TWR = 8.00% over two years (≈ 3.92% per year). They differ because the large deposit came just before the poor year.",
+        "answer_value": -0.0538,
+        "calc_spec": {
+          "fn": "mwr",
+          "args_json": "{\"cashflows\":[-100,-400,468]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Sub-period return",
+          "latex": "R_t = \\frac{V_{end,t} - V_{begin,t} + I_t}{V_{begin,t}}",
+          "where": "$V_{begin,t}$ is the portfolio value at the start of sub-period $t$ (after any flow at that date); $V_{end,t}$ is the value at the end of the sub-period just before any new flow; $I_t$ is income received in the sub-period."
+        },
+        {
+          "name": "Time-weighted return (linked)",
+          "latex": "TWR = (1+R_1)(1+R_2)\\cdots(1+R_n) - 1",
+          "where": "$R_t$ is the return of sub-period $t$ and $n$ is the number of sub-periods."
+        },
+        {
+          "name": "Annualized TWR",
+          "latex": "TWR_{ann} = (1+TWR)^{1/Y} - 1",
+          "where": "$TWR$ is the cumulative linked return and $Y$ is the length of the horizon in years."
+        },
+        {
+          "name": "Money-weighted return (IRR condition)",
+          "latex": "\\sum_{t=0}^{n} \\frac{CF_t}{(1+r)^t} = 0",
+          "where": "$CF_t$ is the investor's net cash flow at time $t$ (deposits negative; withdrawals and the ending value positive); $r$ is the money-weighted return per period."
+        }
+      ],
+      "exam_traps": [
+        "Adding sub-period returns instead of compounding them, for example reporting 8% − 5% + 12% = 15% instead of 14.91%.",
+        "Computing a sub-period return from the value after a deposit (or without adjusting for it). A deposit is not a gain, so the sub-period ends at the value just before the flow.",
+        "Forgetting the ending portfolio value as the final positive cash flow, or entering deposits and the ending value with the same sign, in the IRR calculation.",
+        "Reversing the use cases: TWR is for judging managers who do not control the flows, and MWR is for cases where the manager or investor controls the timing.",
+        "Not annualizing. A multi-year TWR needs the geometric annualization step, and an IRR from quarterly or monthly flows is a per-period rate that must be annualized."
+      ],
+      "builds_on": [
+        "Holding period return",
+        "Internal rate of return and NPV",
+        "Time value of money",
+        "Geometric vs. arithmetic mean returns"
+      ],
+      "leads_to": [
+        "Index construction and index returns",
+        "Portfolio performance evaluation and benchmarking",
+        "GIPS return calculation requirements",
+        "Private capital performance measurement"
+      ],
+      "cited_chunk_ids": [
+        "commonfund-twr-vs-irr:2:1",
+        "commonfund-twr-vs-irr:3:2",
+        "commonfund-twr-vs-irr:1:0",
+        "commonfund-twr-vs-irr:4:4",
+        "ib-mwr-twr-white-paper:2:1",
+        "ib-mwr-twr-white-paper:1:0",
+        "gips-2020-firms:28:25",
+        "gips-2020-firms:106:115"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A mutual fund manager has no control over when investors add money to or withdraw money from the fund. Which return measure best isolates the manager's investment skill?",
+        "options": [
+          {
+            "text": "Money-weighted return, because it reflects the size and timing of investor deposits",
+            "value": null,
+            "explanation": "Mistake: believing MWR is the manager-skill measure. MWR is influenced by investor flow timing, which the manager does not control."
+          },
+          {
+            "text": "Single-period return on the opening balance, because it ignores cash flows",
+            "value": null,
+            "explanation": "Mistake: using a simple return on the opening balance. It lumps deposits and withdrawals into the result instead of separating sub-periods, so flows distort it."
+          },
+          {
+            "text": "Time-weighted return, because it removes the effect of cash-flow size and timing",
+            "value": null,
+            "explanation": "Correct. TWR links sub-period returns so deposits and withdrawals do not affect the result, which suits a manager who does not control them."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:2:1",
+          "commonfund-twr-vs-irr:4:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A fund had three consecutive sub-period returns of 8%, −5% and 12%, with cash flows occurring only at the sub-period boundaries. What is the time-weighted return over the whole period, rounded to the nearest 0.01%?",
+        "options": [
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Mistake: adding the sub-period returns (8 − 5 + 12) instead of compounding them."
+          },
+          {
+            "text": "14.91%",
+            "value": 0.1491,
+            "explanation": "Correct. 1.08 × 0.95 × 1.12 = 1.14912, so TWR = 14.91%."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Mistake: taking the arithmetic average of the sub-period returns (15% / 3) rather than linking them into a cumulative return."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "twr",
+          "args_json": "{\"subperiodReturns\":[0.08,-0.05,0.12]}"
+        },
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:3:2",
+          "ib-mwr-twr-white-paper:2:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A portfolio's time-weighted returns over three consecutive years were 12%, −5% and 9%. What is the annualized time-weighted return, rounded to the nearest 0.01%?",
+        "options": [
+          {
+            "text": "5.06%",
+            "value": 0.0506,
+            "explanation": "Correct. The cumulative factor is 1.12 × 0.95 × 1.09 = 1.15976, and 1.15976^(1/3) − 1 ≈ 5.06%."
+          },
+          {
+            "text": "5.33%",
+            "value": 0.0533,
+            "explanation": "Mistake: using the arithmetic mean (16% / 3). This ignores compounding and overstates the annualized return when returns vary."
+          },
+          {
+            "text": "15.98%",
+            "value": 0.1598,
+            "explanation": "Mistake: stopping at the cumulative three-year linked return and not annualizing it with the 1/3 power."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.12,-0.05,0.09]}"
+        },
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:3:2",
+          "ib-mwr-twr-white-paper:2:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor invests $200 at time 0 in a fund. She receives a $50 distribution at the end of year 1, and the remaining holding is liquidated for $180 at the end of year 2. What is the annual money-weighted return, rounded to the nearest 0.01%?",
+        "options": [
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Mistake: dividing the total gain (50 + 180 − 200 = 30) by the initial investment and ignoring both timing and the two-year horizon."
+          },
+          {
+            "text": "7.50%",
+            "value": 0.075,
+            "explanation": "Mistake: halving the 15% total return to 'annualize' it. This ignores that the $50 came back early, which raises the IRR."
+          },
+          {
+            "text": "8.19%",
+            "value": 0.0819,
+            "explanation": "Correct. Solve −200 + 50/(1+r) + 180/(1+r)² = 0, which gives r ≈ 8.19% (BA II Plus: CF0 = −200, C01 = 50, C02 = 180, IRR CPT)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "mwr",
+          "args_json": "{\"cashflows\":[-200,50,180]}"
+        },
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:3:3",
+          "commonfund-twr-vs-irr:3:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A fund performs poorly in year 1 and strongly in year 2. Investors add a large amount of new money at the end of year 1, and there are no other cash flows. How will the fund's money-weighted return compare with its time-weighted return over the two years?",
+        "options": [
+          {
+            "text": "MWR will exceed TWR, because more money was invested during the strong year",
+            "value": null,
+            "explanation": "Correct. MWR gives more weight to the period when more money was invested, which was the strong year, so it is higher than TWR."
+          },
+          {
+            "text": "MWR will be below TWR, because the new money arrived after poor performance",
+            "value": null,
+            "explanation": "Mistake: reversing the effect. The timing of the deposit made the investor's larger balance ride the strong year, which helps MWR."
+          },
+          {
+            "text": "MWR will equal TWR, because both use the same underlying sub-period returns",
+            "value": null,
+            "explanation": "Mistake: assuming the measures match whenever the asset returns are the same. They match only when there are no interim flows, because MWR weights by dollars invested."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:4:4",
+          "ib-mwr-twr-white-paper:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio is worth $500,000 at the start of a six-month period. At the end of month 3, just before a $100,000 deposit, it is worth $530,000. At the end of month 6 it is worth $600,000, and there are no other cash flows. What is the six-month time-weighted return, rounded to the nearest 0.01%?",
+        "options": [
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "Mistake: treating the deposit as investment gain. 600/500 − 1 counts the $100,000 you added as performance."
+          },
+          {
+            "text": "0.95%",
+            "value": 0.0095,
+            "explanation": "Correct. Sub-period 1: 530/500 − 1 = 6%. Sub-period 2: 600/630 − 1 = −4.7619%. Linked: 1.06 × 0.952381 − 1 ≈ 0.95%."
+          },
+          {
+            "text": "1.24%",
+            "value": 0.0124,
+            "explanation": "Mistake: adding the sub-period returns (6% − 4.76%) rather than compounding them."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "twr",
+          "args_json": "{\"subperiodReturns\":[0.06,-0.047619]}"
+        },
+        "cited_chunk_ids": [
+          "ib-mwr-twr-white-paper:2:1",
+          "gips-2020-firms:28:25"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm runs a fixed-life private fund and itself decides when to call capital from investors and when to distribute proceeds. Which return measure is generally most appropriate for reporting this fund's performance?",
+        "options": [
+          {
+            "text": "Time-weighted return, because it neutralizes the timing of cash flows",
+            "value": null,
+            "explanation": "Mistake: applying TWR here. Neutralizing flow timing hides decisions the manager actually controls, which are part of the performance."
+          },
+          {
+            "text": "Arithmetic mean of the quarterly sub-period returns, because it is simplest",
+            "value": null,
+            "explanation": "Mistake: using a simple average. It ignores compounding, and it also ignores the size and timing of the flows the firm controls."
+          },
+          {
+            "text": "Money-weighted return, because the timing of flows is part of the manager's decisions",
+            "value": null,
+            "explanation": "Correct. When the manager controls the size and timing of cash flows, the IRR-based MWR captures the effect of those decisions."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "gips-2020-firms:106:115",
+          "commonfund-twr-vs-irr:1:0",
+          "commonfund-twr-vs-irr:4:4"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How is a time-weighted return calculated when there are interim cash flows?",
+        "back": "Value the portfolio at each cash flow date, compute each sub-period return, then compound them: (1+R1)(1+R2)…(1+Rn) − 1. Annualize if the horizon exceeds one year.",
+        "cited_chunk_ids": [
+          "ib-mwr-twr-white-paper:2:1",
+          "gips-2020-firms:28:25"
+        ]
+      },
+      {
+        "front": "What is the money-weighted return in terms of cash flows?",
+        "back": "The IRR of the investor's cash flows. Deposits are negative, and withdrawals plus the ending portfolio value are positive. It is the rate that makes their present value zero.",
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:3:2",
+          "smu-fma-ch4-rates-of-return:1:0"
+        ]
+      },
+      {
+        "front": "When is TWR preferred over MWR, and when is MWR preferred over TWR?",
+        "back": "TWR suits managers who do not control investor cash flows (public or pooled funds). MWR suits cases where the manager controls the timing and size of flows (such as private funds), and measures the investor's own outcome.",
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:4:4",
+          "commonfund-twr-vs-irr:1:0",
+          "gips-2020-firms:106:115"
+        ]
+      },
+      {
+        "front": "If an investor adds a lot of money just before a strong period, how does MWR compare with TWR?",
+        "back": "MWR is higher than TWR, because more dollars were invested during the good period. Adding money before a weak period makes MWR lower than TWR.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:20:52.777Z",
+      "purpose": "generate",
+      "losId": "quant-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10228,
+      "outputTokens": 15405,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1756438,
+      "stopReason": "end_turn"
+    }
+  ]
+}

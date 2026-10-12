@@ -1,0 +1,487 @@
+{
+  "losId": "quant-07-los3",
+  "losText": "compare and contrast parametric and non-parametric tests, describe situations in which each is the more appropriate type of test, construct appropriate hypothesis tests, and interpret the results",
+  "moduleId": "quant-07",
+  "moduleTitle": "Estimation and Hypothesis Testing",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:42:24.085Z",
+  "retrieved": [
+    {
+      "id": "fed-feds-2001-27-historical-simulation:17:20",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=17",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55671:3.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§10.1 Comparing Two Independent Population Means — Comparing Two Independent Population Means",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/10-1-comparing-two-independent-population-means",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:20:24",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 20",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=20",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:31:35",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 31–32",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=31",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55610:1.4",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§9.4 Full Hypothesis Test Examples — Hypothesis Test for Proportions",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/9-4-full-hypothesis-test-examples",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55673:4.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§10.5 Two Population Means with Known Standard Deviations — Homework",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/10-5-two-population-means-with-known-standard-deviations",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55700:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§11.6 Comparison of the Chi-Square Tests — Comparison of the Chi-Square Tests",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/11-6-comparison-of-the-chi-square-tests",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55608:6",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§9.3 Probability Distribution Needed for Hypothesis Testing — A Systematic Approach for Testing a Hypothesis",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/9-3-probability-distribution-needed-for-hypothesis-testing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00058:2.2",
+      "title": "Principles of Data Science",
+      "locator": "§10.2 Validating Your Model — Interpreting Measures of Fit",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-2-validating-your-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00019:1.1",
+      "title": "Principles of Data Science",
+      "locator": "§2.4 Data Cleaning and Preprocessing — Handling Missing Data and Outliers",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-4-data-cleaning-and-preprocessing",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55674:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§10.6 Matched or Paired Samples — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/10-6-matched-or-paired-samples",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00041:3",
+      "title": "Principles of Data Science",
+      "locator": "§6.5 Other Machine Learning Techniques — Gaussian Naïve Bayes for Continuous Probabilities",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-5-other-machine-learning-techniques",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Choosing and Running Parametric and Nonparametric Tests",
+      "summary": "Hypothesis tests come in two families: those that assume the data follow a specific distribution and test a parameter, and those that make few distributional assumptions and often work on ranks or counts. Knowing which test fits a situation, and how to read its result, is a core Level I skill.",
+      "sections": [
+        {
+          "heading": "Two families of tests",
+          "body_markdown": "A **parametric test** is about a population *parameter* (a mean, a variance, a correlation) and relies on assumptions about the distribution, usually that the population is normal or the sample is large enough for the sample mean to be roughly normal. A **nonparametric test** makes few or no assumptions about the distribution, or it tests something that is not a parameter (for example, whether two classifications are related).\n\nThink of a parametric test as a precision tool calibrated for one kind of material. It cuts very cleanly if the material is as expected. A nonparametric test is a general-purpose tool: it works on rougher material but wastes a little efficiency when the material was fine all along.\n\nA nonparametric test is the better choice when:\n- the data are **ranks or ordinal** (e.g., a 1–5 rating), so means are not meaningful;\n- the sample is **small and clearly non-normal**, or has **extreme outliers**, so the parametric distribution assumption fails;\n- the hypothesis is **not about a parameter** (e.g., is rating independent of fund size?)."
+        },
+        {
+          "heading": "The parametric toolkit: match the test to the question",
+          "body_markdown": "Start with the question, then pick the statistic.\n\n- **One mean vs a hypothesized value:** t-test with $n-1$ degrees of freedom (df) when the population standard deviation is unknown, which is the usual case.\n- **Two means from unrelated (independent) samples:** t-test on the difference in sample means; df is $n_1+n_2-2$ if you assume equal variances and pool them.\n- **Two sets of measurements on the same or matched subjects (before/after):** a **paired comparison**. Compute each pair's difference $d$, treat the differences as one sample, and run a one-sample t-test on $\\mu_d$ with $n-1$ df, where $n$ is the number of pairs. Pairing removes variation between subjects, so it usually gives a sharper test than treating the samples as independent.\n- **One variance vs a hypothesized value:** chi-square test, df $=n-1$.\n- **Two variances:** F-test, $F=s_1^2/s_2^2$, with the larger sample variance on top.\n- **Is a correlation zero?** t-test with $n-2$ df.\n\nThe parametric tests above assume random sampling and (approximately) normal populations. The chi-square and F tests for variances are especially sensitive to non-normality."
+        },
+        {
+          "heading": "The nonparametric toolkit",
+          "body_markdown": "Each common nonparametric test is a stand-in for a parametric one, or covers a question parametric tests can't:\n\n- **Wilcoxon signed-rank test:** alternative to the paired t-test. It ranks the absolute sizes of the paired differences and looks at whether positive or negative differences dominate.\n- **Mann–Whitney U test:** alternative to the independent-samples t-test. It ranks all observations from both groups together and checks whether one group's ranks run higher.\n- **Spearman rank correlation:** alternative to the usual (Pearson) correlation. It correlates the *ranks* of the two variables, so it works for ordinal data and is not thrown off by outliers.\n- **Chi-square test of independence:** uses a table of counts for two categorical classifications (e.g., fund size by rating). It compares observed counts $O$ with the counts $E$ expected if the classifications were unrelated.\n\nTrade-off: if the parametric assumptions truly hold, the parametric test is **more powerful** (better at detecting a real effect). If they fail, the nonparametric test is safer because its significance level is still reliable."
+        },
+        {
+          "heading": "Running and reading a test",
+          "body_markdown": "Every test follows the same steps: state $H_0$ and $H_a$ (and whether one- or two-tailed), choose the significance level, pick the test statistic and its critical value, compute the statistic from the sample, compare, then state the conclusion.\n\nIf the statistic falls in the rejection region (or the p-value is below the significance level), **reject** $H_0$. If not, **fail to reject** $H_0$. Failing to reject is *not* proof that $H_0$ is true; it only means the sample didn't give enough evidence against it. Also remember that a significant correlation or difference says nothing about causation."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst tests whether a new screening model changed monthly returns. For six portfolios she records the return change (new model minus old model), in percentage points: 1.2, 0.8, 1.5, -0.3, 0.9, 1.1. Assuming the differences come from a normal population, test $H_0:\\mu_d=0$ against $H_a:\\mu_d\\neq0$ at the 5% significance level. The two-tailed critical t-value with 5 df is ±2.571.",
+        "steps": [
+          "The same six portfolios are measured under both models, so this is a paired comparison. Work with the six differences and a one-sample t-test, df $=n-1=5$.",
+          "Sample mean of differences: $\\bar d=(1.2+0.8+1.5-0.3+0.9+1.1)/6=5.2/6=0.8667$.",
+          "Sample standard deviation: squared deviations from 0.8667 sum to about 1.9333; divide by $n-1=5$ to get 0.3867 and take the square root: $s_d\\approx0.6218$.",
+          "Calculator (BA II Plus): press 2nd [DATA], then 2nd [CLR WORK]. Enter X01 = 1.2 ENTER ↓ ↓, X02 = 0.8 ENTER ↓ ↓, and so on for all six values (use +/- for the negative one). Press 2nd [STAT], set to 1-V (press 2nd [ENTER] to change if needed), then ↓ to read n = 6, x̄ = 0.8667, Sx = 0.6218.",
+          "Standard error: $s_d/\\sqrt n=0.6218/\\sqrt6=0.2539$.",
+          "Test statistic: $t=(0.8667-0)/0.2539\\approx3.41$.",
+          "Compare: $3.41>2.571$, so the statistic lies in the rejection region. Reject $H_0$."
+        ],
+        "answer": "t ≈ 3.41 with 5 df, which exceeds the critical value of 2.571, so reject H0: at the 5% level there is evidence that the new model changed mean returns (by about +0.87 percentage points on average in this sample).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "One-sample t-statistic",
+          "latex": "t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n}",
+          "where": "$\\bar x$ = sample mean, $\\mu_0$ = hypothesized mean, $s$ = sample standard deviation, $n$ = sample size; df $=n-1$."
+        },
+        {
+          "name": "Paired-comparison t-statistic",
+          "latex": "t=\\frac{\\bar d-\\mu_{d0}}{s_d/\\sqrt n}",
+          "where": "$\\bar d$ = mean of the paired differences, $\\mu_{d0}$ = hypothesized mean difference (usually 0), $s_d$ = sample standard deviation of the differences, $n$ = number of pairs; df $=n-1$."
+        },
+        {
+          "name": "Independent-samples t-statistic (pooled variance, equal variances assumed)",
+          "latex": "t=\\frac{(\\bar x_1-\\bar x_2)-0}{\\sqrt{\\frac{s_p^2}{n_1}+\\frac{s_p^2}{n_2}}},\\quad s_p^2=\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}",
+          "where": "$\\bar x_i$ = sample means, $s_i^2$ = sample variances, $n_i$ = sample sizes, $s_p^2$ = pooled variance; df $=n_1+n_2-2$."
+        },
+        {
+          "name": "Chi-square test of a single variance",
+          "latex": "\\chi^2=\\frac{(n-1)s^2}{\\sigma_0^2}",
+          "where": "$n$ = sample size, $s^2$ = sample variance, $\\sigma_0^2$ = hypothesized variance; df $=n-1$."
+        },
+        {
+          "name": "F-test for equal variances",
+          "latex": "F=\\frac{s_1^2}{s_2^2}",
+          "where": "$s_1^2$ = larger sample variance, $s_2^2$ = smaller sample variance; df are $n_1-1$ (numerator) and $n_2-1$ (denominator)."
+        },
+        {
+          "name": "Test of a correlation being zero",
+          "latex": "t=\\frac{r\\sqrt{n-2}}{\\sqrt{1-r^2}}",
+          "where": "$r$ = sample correlation, $n$ = number of paired observations; df $=n-2$."
+        },
+        {
+          "name": "Spearman rank correlation (no tied ranks)",
+          "latex": "r_s=1-\\frac{6\\sum d_i^2}{n(n^2-1)}",
+          "where": "$d_i$ = difference between the two ranks of observation $i$, $n$ = number of observations."
+        },
+        {
+          "name": "Chi-square test of independence",
+          "latex": "\\chi^2=\\sum\\frac{(O-E)^2}{E},\\quad E=\\frac{\\text{row total}\\times\\text{column total}}{\\text{grand total}}",
+          "where": "$O$ = observed count in a cell, $E$ = expected count if the classifications are independent; df $=(r-1)(c-1)$ for $r$ rows and $c$ columns."
+        }
+      ],
+      "exam_traps": [
+        "Treating before/after data on the same subjects as two independent samples. Paired data need the t-test on the differences, with df = number of pairs − 1.",
+        "Believing nonparametric tests need no assumptions at all. They still need random, independent observations; they just drop the normal-distribution requirement.",
+        "Saying 'accept H0' or 'H0 is proven true' when the test fails to reject. The correct statement is that there is insufficient evidence to reject it.",
+        "Using the wrong df: n−1 for a single mean or paired test, n1+n2−2 for pooled two-sample, n−2 for a correlation test, (r−1)(c−1) for a chi-square independence test.",
+        "Putting the smaller variance in the numerator of the F-statistic, or running variance tests on clearly non-normal data and trusting the result."
+      ],
+      "builds_on": [
+        "Hypothesis testing steps, Type I/II errors and power",
+        "Central limit theorem and sampling distributions",
+        "Sample mean and standard deviation",
+        "Correlation"
+      ],
+      "leads_to": [
+        "Simple linear regression and testing the slope",
+        "Analysis of variance in regression",
+        "Backtesting and model validation using rank-based measures"
+      ],
+      "cited_chunk_ids": [
+        "os:introductory-business-statistics-2e:m55674:0",
+        "os:introductory-business-statistics-2e:m55608:6",
+        "os:introductory-business-statistics-2e:m55700:1",
+        "os:principles-data-science:m00019:1.1",
+        "os:introductory-business-statistics-2e:m55671:3.2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which situation most clearly calls for a nonparametric test rather than a parametric test?",
+        "options": [
+          {
+            "text": "Testing a mean using 200 observations from a roughly normal population",
+            "value": null,
+            "explanation": "Large sample from a roughly normal population is exactly where a parametric t-test works well. Confusing 'any hypothesis test' with 'needs a nonparametric one' is the mistake."
+          },
+          {
+            "text": "Comparing two groups using only ordinal analyst ratings from 1 to 5",
+            "value": null,
+            "explanation": "Correct. Ordinal ratings carry order but not meaningful distances, so means and standard deviations are not sensible. A rank-based test such as Mann–Whitney fits."
+          },
+          {
+            "text": "Testing the variance of returns drawn at random from a normal population",
+            "value": null,
+            "explanation": "A normal population with a random sample satisfies the assumptions of the parametric chi-square variance test. Thinking variance tests are automatically nonparametric is the error."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00019:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst records the P/E ratios of 15 firms before and after an accounting rule change and wants to test whether the average P/E changed. Assume the differences are approximately normal. Which test is most appropriate?",
+        "options": [
+          {
+            "text": "Paired-comparison t-test on the 15 differences, with 14 degrees of freedom",
+            "value": null,
+            "explanation": "Correct. The same firms are measured twice, so the differences are the data and df = number of pairs − 1."
+          },
+          {
+            "text": "Independent-samples t-test on the two sets of 15 values, with 28 degrees of freedom",
+            "value": null,
+            "explanation": "This ignores the matching of observations to the same firm and treats the samples as unrelated, which is the classic paired-versus-independent mix-up."
+          },
+          {
+            "text": "Chi-square test of a single variance on the 15 after-change P/E ratios",
+            "value": null,
+            "explanation": "This tests whether a variance equals a hypothesized value, not whether a mean changed. It answers a different question."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55674:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "Five matched pairs of returns give the following differences (after minus before), in percentage points: 0.4, -0.2, 0.9, 0.5, 0.2. What is the sample mean of the differences, $\\bar d$? Round to two decimals.",
+        "options": [
+          {
+            "text": "1.80",
+            "value": 1.8,
+            "explanation": "This is the sum of the differences; the sum was never divided by n = 5."
+          },
+          {
+            "text": "0.45",
+            "value": 0.45,
+            "explanation": "This divides the sum by n − 1 = 4. The n − 1 divisor belongs in the sample standard deviation, not in a mean."
+          },
+          {
+            "text": "0.36",
+            "value": 0.36,
+            "explanation": "Correct. The sum is 1.8 and 1.8 / 5 = 0.36."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.4,-0.2,0.9,0.5,0.2]}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55674:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Five paired differences in a before/after study are 3, 5, 1, 7 and 4. What is the sample standard deviation $s_d$ of these differences, which is the denominator ingredient of the paired t-statistic? Round to two decimals.",
+        "options": [
+          {
+            "text": "2.00",
+            "value": 2,
+            "explanation": "This divides the sum of squared deviations (20) by n = 5 and takes the square root, i.e. the population standard deviation. A sample test needs n − 1."
+          },
+          {
+            "text": "2.24",
+            "value": 2.24,
+            "explanation": "Correct. The mean is 4 and the squared deviations sum to 20. Dividing by n − 1 = 4 gives a variance of 5, and its square root is 2.24."
+          },
+          {
+            "text": "5.00",
+            "value": 5,
+            "explanation": "This is the sample variance. The final square-root step was skipped."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[3,5,1,7,4],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55674:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The Wilcoxon signed-rank test is best described as:",
+        "options": [
+          {
+            "text": "A nonparametric alternative to the independent-samples t-test",
+            "value": null,
+            "explanation": "This describes the Mann–Whitney U test. Signed-rank works on paired differences, not two unrelated groups."
+          },
+          {
+            "text": "A parametric test comparing two variances using their ratio",
+            "value": null,
+            "explanation": "This describes the F-test. Signed-rank does not test variances and is not parametric."
+          },
+          {
+            "text": "A nonparametric alternative to the paired-comparison t-test",
+            "value": null,
+            "explanation": "Correct. It ranks the sizes of the paired differences and checks whether positive or negative differences dominate, without requiring normality."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A researcher classifies 300 funds by size (small, mid, large) and by rating (high, low) and wants to test whether rating is independent of size. Which test and degrees of freedom are appropriate?",
+        "options": [
+          {
+            "text": "Chi-square test of independence, with (3 − 1)(2 − 1) = 2 degrees of freedom",
+            "value": null,
+            "explanation": "Correct. Two categorical classifications in a table of counts call for a chi-square independence test, and df = (rows − 1)(columns − 1)."
+          },
+          {
+            "text": "Paired t-test on the 300 funds, with 299 degrees of freedom",
+            "value": null,
+            "explanation": "The data are counts in categories, not paired numerical measurements, so a mean-difference test does not apply."
+          },
+          {
+            "text": "Chi-square test of independence, with 3 × 2 − 1 = 5 degrees of freedom",
+            "value": null,
+            "explanation": "Right test but wrong df. Cells minus 1 is the rule for a goodness-of-fit test, not for independence."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55700:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Compared with a parametric test whose assumptions are fully satisfied by the data, a nonparametric test applied to the same data will generally:",
+        "options": [
+          {
+            "text": "Have higher power because ranks discard noisy information",
+            "value": null,
+            "explanation": "Discarding information from the actual values usually reduces, not raises, power when the parametric assumptions hold."
+          },
+          {
+            "text": "Have a higher chance of a Type I error because no distribution is assumed",
+            "value": null,
+            "explanation": "Nonparametric tests are built to keep the Type I error rate at the chosen significance level without distributional assumptions."
+          },
+          {
+            "text": "Have lower power, so it is more likely to miss a real effect",
+            "value": null,
+            "explanation": "Correct. When the parametric assumptions hold, the parametric test uses all the information in the data and is more powerful; the nonparametric test trades some power for robustness."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a paired test with 10 pairs, $H_0:\\mu_d=0$ against $H_a:\\mu_d\\neq0$ at the 5% level, the computed t-statistic is 2.10. The two-tailed critical values with 9 degrees of freedom are ±2.262. What is the best conclusion?",
+        "options": [
+          {
+            "text": "Fail to reject H0; the sample gives insufficient evidence of a nonzero mean difference",
+            "value": null,
+            "explanation": "Correct. |2.10| is smaller than 2.262, so the statistic is outside the rejection region. This is a lack of evidence, not proof of equality."
+          },
+          {
+            "text": "Reject H0 because the statistic exceeds the 1.96 normal critical value",
+            "value": null,
+            "explanation": "This uses the z critical value even though the population standard deviation is unknown. The t distribution with 9 df has fatter tails, so 2.262 is required."
+          },
+          {
+            "text": "Accept H0 and conclude the true mean difference is exactly zero",
+            "value": null,
+            "explanation": "Failing to reject never proves the null is true; the true difference could be small but nonzero."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55608:6"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the main reasons to prefer a nonparametric test over a parametric one?",
+        "back": "Data are ranks/ordinal, the sample is small and clearly non-normal or has outliers, or the hypothesis isn't about a parameter (e.g., independence of two classifications).",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00019:1.1"
+        ]
+      },
+      {
+        "front": "How is a paired-comparison test carried out, and what are its degrees of freedom?",
+        "back": "Compute the difference for each pair, then run a one-sample t-test on those differences against the hypothesized mean difference (usually 0). df = number of pairs − 1.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55674:0"
+        ]
+      },
+      {
+        "front": "Match each parametric test to its nonparametric alternative: paired t-test, independent-samples t-test, Pearson correlation.",
+        "back": "Paired t-test → Wilcoxon signed-rank; independent-samples t-test → Mann–Whitney U; Pearson correlation → Spearman rank correlation.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What does a chi-square test of independence test, and what is its df?",
+        "back": "It tests whether two categorical classifications are unrelated, by comparing observed counts with those expected under independence. df = (rows − 1)(columns − 1).",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55700:1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:42:24.085Z",
+      "purpose": "generate",
+      "losId": "quant-07-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10551,
+      "outputTokens": 12962,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1518598,
+      "stopReason": "end_turn"
+    }
+  ]
+}

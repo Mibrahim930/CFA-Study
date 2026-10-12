@@ -1,0 +1,916 @@
+{
+  "losId": "quant-10-los2",
+  "losText": "describe and compare the assumptions of simple linear regression, identify violations through analyzing residuals, evaluate the estimated model's goodness-of-fit and regression coefficients, and results of ANOVA estimates",
+  "moduleId": "quant-10",
+  "moduleTitle": "Applications of Simple Linear Regression in Finance",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:07:42.306Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m64846:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.5 Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation — Interpretation of Regression Coefficients: Elasticity and Logarithmic Transformation",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-5-interpretation-of-regression-coefficients-elasticity-and-log",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-data-science:m00039:2.1",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Multiple Regression Techniques",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00087:0.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.2 Linear Regression Analysis — Method of Least Squares and Residuals",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-2-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00029:2.3",
+      "title": "Principles of Data Science",
+      "locator": "§4.3 Correlation and Linear Regression Analysis — Linear Regression",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00087:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.2 Linear Regression Analysis — Assumptions for Linear Regression",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-2-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00087:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.2 Linear Regression Analysis — Method of Least Squares and Residuals",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-2-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Residuals Plots",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:3.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Testing the Parameters of the Line",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55852:0.3",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.7 How to Use Microsoft Excel® for Regression Analysis — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-7-how-to-use-microsoft-excel-for-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Is the Fitted Line Trustworthy? Assumptions, Residuals, R² and ANOVA",
+      "summary": "A regression line is only as reliable as the conditions behind it, so this lesson shows how to check those conditions using residuals. It also shows how to judge the fit with R² and the ANOVA table, and how to test the slope. Together these decide whether you should believe the regression output.",
+      "sections": [
+        {
+          "heading": "The four conditions behind a trustworthy regression",
+          "body_markdown": "Think of a regression like a bathroom scale: the number it shows is only meaningful if the scale is working properly. Simple linear regression has conditions that must hold for the usual tests and confidence intervals to be valid.\n\n1. **Linearity**: the true relationship between $X$ (the independent variable) and $Y$ (the dependent variable) is a straight line, apart from random error.\n2. **Homoskedasticity**: the error term has the same spread (variance) for every value of $X$. The opposite, spread that changes with $X$, is called *heteroskedasticity*.\n3. **Independence**: the error terms are not related to each other. Observations should not be tied together, for example by one period's error carrying into the next. Related errors are called *serial correlation* or *autocorrelation*.\n4. **Normality**: the error terms follow a normal distribution (with mean zero).\n\nA fifth practical point is that the data should be a sensible sample. A few extreme *outliers* can distort the line badly."
+        },
+        {
+          "heading": "Reading residuals to spot violations",
+          "body_markdown": "A **residual** is the gap between what actually happened and what the line predicted: $e_i = Y_i - \\hat{Y}_i$. It is the part of $Y$ the line failed to explain. If the conditions hold, the residuals should look like harmless random noise. So the main diagnostic is to plot them, usually against $X$ or against time.\n\n- **Healthy**: a shapeless cloud around zero with roughly constant width.\n- **Curved pattern** (for example a U shape): the relationship is not linear, so the straight-line model is misspecified.\n- **Fan or funnel shape** (spread grows or shrinks with $X$): heteroskedasticity. The coefficient estimates are still fine on average, but the standard errors are unreliable, so the $t$-tests and confidence intervals cannot be trusted.\n- **Runs of positive values followed by runs of negative values** when plotted in time order: autocorrelation, meaning the independence condition fails. Again the standard errors become unreliable.\n- **Residuals far from a bell shape** (checked with a histogram or normal probability plot) or a few huge residuals: non-normality or outliers.\n\nTo tell these apart, ask what the plot shows. A *curve* means the average is wrong. A *fan* means the spread is wrong. *Runs in time order* mean the errors are linked."
+        },
+        {
+          "heading": "Goodness of fit and the ANOVA table",
+          "body_markdown": "Why do the $Y$ values differ from one observation to the next? Regression splits that total variation into two pieces. The sum of squares breaks down as\n\n$$SST = RSS + SSE$$\n\n- $SST$ (total sum of squares): total squared deviation of $Y$ from its mean $\\bar{Y}$.\n- $RSS$ (regression sum of squares, sometimes written $SSR$): the part explained by the line.\n- $SSE$ (sum of squared errors): the part left unexplained, i.e. the sum of squared residuals.\n\nThe **coefficient of determination** is the explained share of the total:\n\n$$R^2 = \\frac{RSS}{SST} = 1 - \\frac{SSE}{SST}$$\n\nIt runs from 0 to 1. In a simple regression with one $X$, it also equals the squared correlation $r^2$ between $X$ and $Y$. A high $R^2$ is nice, but it is only a descriptive measure. It does not prove the conditions above hold, and it does not prove causation.\n\nThe **ANOVA table** (analysis of variance) lays these pieces out, with $k$ independent variables ($k=1$ here) and $n$ observations:\n\n| Source | df | Sum of squares | Mean square |\n|---|---|---|---|\n| Regression | $k = 1$ | $RSS$ | $MSR = RSS/1$ |\n| Error | $n-2$ | $SSE$ | $MSE = SSE/(n-2)$ |\n| Total | $n-1$ | $SST$ | |\n\nA *mean square* is a sum of squares divided by its degrees of freedom. The **F-statistic** compares explained to unexplained variation per degree of freedom: $F = MSR/MSE$. It is tested against a critical value with $1$ and $n-2$ degrees of freedom. The null hypothesis is that the slope is zero, and a large $F$ rejects it."
+        },
+        {
+          "heading": "Testing the coefficients",
+          "body_markdown": "The slope tells you how much $Y$ is expected to change when $X$ rises by one unit. Because it is estimated from a sample, it carries sampling error, measured by its **standard error** $s_{b_1}$. To test a hypothesized slope $B_1$ (usually $0$, meaning 'no linear relationship'), standardize the estimate:\n\n$$t = \\frac{b_1 - B_1}{s_{b_1}}$$\n\nwith $n-2$ degrees of freedom. If $|t|$ exceeds the critical value, or the reported p-value is below your significance level, reject the null and conclude the slope differs from the hypothesized value. The same logic applies to the intercept. A confidence interval $b_1 \\pm t_{crit}\\, s_{b_1}$ gives the same answer: if the hypothesized value lies outside the interval, you reject it.\n\nTwo links are worth knowing:\n- In a simple regression, the F-test and the slope's $t$-test are the same test: $F = t^2$ for the slope.\n- The slope's $t$-statistic can be computed from the correlation: $t = \\dfrac{r\\sqrt{n-2}}{\\sqrt{1-r^2}}$. Testing the slope and testing the correlation are therefore equivalent.\n\nThe tests are only valid if the residual checks from earlier pass. A big $t$ built on a funnel-shaped residual plot is not trustworthy."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst regresses a fund's monthly excess return on the market's monthly excess return using 32 monthly observations. The ANOVA output shows RSS = 300 and SSE = 200. Compute R² and the F-statistic. Then, using a 5% significance level and a critical F-value of 4.17 (1 and 30 degrees of freedom), state whether the slope is significantly different from zero.",
+        "steps": [
+          "Total variation: SST = RSS + SSE = 300 + 200 = 500.",
+          "Goodness of fit: R² = RSS / SST = 300 / 500 = 0.60. Calculator: 300 ÷ 500 = gives 0.6.",
+          "Degrees of freedom: regression df = 1, error df = n − 2 = 32 − 2 = 30.",
+          "Mean squares: MSR = 300 / 1 = 300. MSE = 200 / 30 = 6.6667.",
+          "F-statistic: F = MSR / MSE = 300 / 6.6667 = 45.0. Calculator: 300 ÷ ( 200 ÷ 30 ) = gives 45.",
+          "Decision: 45.0 is far above the critical value 4.17, so reject the null hypothesis that the slope equals zero.",
+          "Cross-check: the slope's t-statistic is √45 ≈ 6.71 in absolute value, well above the two-tailed critical t of about 2.042 for 30 df, which gives the same conclusion."
+        ],
+        "answer": "R² = 0.60 and F = 45.0, which exceeds 4.17. Reject H0, so the slope is significantly different from zero.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Sum of squares decomposition",
+          "latex": "SST = RSS + SSE",
+          "where": "SST = total sum of squares of Y around its mean; RSS = regression (explained) sum of squares; SSE = sum of squared residuals (unexplained)."
+        },
+        {
+          "name": "Coefficient of determination",
+          "latex": "R^2 = \\frac{RSS}{SST} = 1 - \\frac{SSE}{SST}",
+          "where": "RSS, SSE and SST are as above. In simple regression R^2 equals the squared correlation r^2 between X and Y."
+        },
+        {
+          "name": "F-statistic (simple regression)",
+          "latex": "F = \\frac{MSR}{MSE} = \\frac{RSS/1}{SSE/(n-2)}",
+          "where": "MSR = mean square regression; MSE = mean square error; n = number of observations. Degrees of freedom are 1 (numerator) and n-2 (denominator)."
+        },
+        {
+          "name": "t-test for a slope",
+          "latex": "t = \\frac{b_1 - B_1}{s_{b_1}}",
+          "where": "b_1 = estimated slope; B_1 = hypothesized slope (often 0); s_{b_1} = standard error of the estimated slope. Degrees of freedom = n-2."
+        },
+        {
+          "name": "Confidence interval for the slope",
+          "latex": "b_1 \\pm t_{crit}\\, s_{b_1}",
+          "where": "t_{crit} = critical t-value with n-2 degrees of freedom for the chosen confidence level; other symbols as above."
+        },
+        {
+          "name": "Slope t-statistic from the correlation",
+          "latex": "t = \\frac{r\\sqrt{n-2}}{\\sqrt{1-r^2}}",
+          "where": "r = sample correlation between X and Y; n = number of observations. This equals the slope's t-statistic and the square root of F."
+        }
+      ],
+      "exam_traps": [
+        "Using n − 1 degrees of freedom for the t-test or the F denominator. In simple regression the error degrees of freedom are n − 2, because two parameters (intercept and slope) are estimated.",
+        "Treating a high R² as proof that the model is valid. R² says nothing about whether residuals are patterned, heteroskedastic or correlated, and it does not prove causation.",
+        "Mixing up the diagnoses: a funnel-shaped residual plot is heteroskedasticity, runs of same-sign residuals in time order are autocorrelation, and a curved pattern means the relationship is not linear.",
+        "Forgetting that, in simple regression, the F-test and the slope's t-test are the same test (F = t²). They cannot disagree.",
+        "Assuming heteroskedasticity or autocorrelation biases the slope estimate itself. The main damage is to standard errors, and therefore to t-statistics and confidence intervals."
+      ],
+      "builds_on": [
+        "Least squares estimation of slope and intercept",
+        "Hypothesis testing and p-values",
+        "Student's t-distribution",
+        "Correlation coefficient"
+      ],
+      "leads_to": [
+        "Standard error of the estimate and prediction intervals",
+        "Functional forms (log transformations)",
+        "CAPM beta estimation",
+        "Multiple regression"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00087:1",
+        "os:principles-finance-2e:m00087:0.2",
+        "os:introductory-business-statistics-2e:m55838:2",
+        "os:introductory-business-statistics-2e:m55838:5",
+        "os:introductory-business-statistics-2e:m55838:5.1",
+        "os:introductory-business-statistics-2e:m55838:5.2",
+        "os:introductory-business-statistics-2e:m55838:3.1",
+        "os:introductory-business-statistics-2e:m55852:0.3"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A researcher regresses a firm's quarterly expenses on its sales. A plot of the residuals against sales shows points tightly clustered around zero at low sales and widely scattered at high sales. Which assumption is most clearly violated?",
+        "options": [
+          {
+            "text": "Independence of the error terms across observations",
+            "value": null,
+            "explanation": "Mistake: confusing a change in spread with a dependence pattern. Independence is checked by looking for runs or links between consecutive residuals, not a widening cloud."
+          },
+          {
+            "text": "Constant variance of the error term across all values of X",
+            "value": null,
+            "explanation": "Correct. The residual spread changes with X (a funnel shape). That is heteroskedasticity, a violation of the constant-variance (homoskedasticity) condition."
+          },
+          {
+            "text": "A linear relationship between X and Y",
+            "value": null,
+            "explanation": "Mistake: a nonlinear relationship shows up as a curve or systematic bend in the residuals, not as a change in their spread."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:2",
+          "os:principles-finance-2e:m00087:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst regresses 60 monthly stock returns on an index's monthly returns. When the residuals are plotted in time order, a long run of positive residuals is followed by a long run of negative residuals, then positive again. Which problem does this suggest?",
+        "options": [
+          {
+            "text": "Error terms that are not normally distributed",
+            "value": null,
+            "explanation": "Mistake: non-normality is judged from the shape of the distribution (histogram or normal plot), not from the time order of the residuals."
+          },
+          {
+            "text": "Error variance that changes with the level of X",
+            "value": null,
+            "explanation": "Mistake: heteroskedasticity appears as a changing spread (a fan), not as runs of same-sign residuals."
+          },
+          {
+            "text": "Error terms that are correlated with one another",
+            "value": null,
+            "explanation": "Correct. Same-sign runs in time order mean one period's error predicts the next, which is serial correlation and violates the independence assumption."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:1",
+          "os:introductory-business-statistics-2e:m55838:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a simple linear regression, a plot of residuals against X is U-shaped: residuals are mostly positive at low and high X, and mostly negative at middle X values. What does this pattern most likely indicate?",
+        "options": [
+          {
+            "text": "The straight-line specification does not fit the relationship well",
+            "value": null,
+            "explanation": "Correct. A systematic curve in the residuals means the average of Y is not a straight-line function of X, so the linearity assumption fails."
+          },
+          {
+            "text": "The error variance is not constant across X values",
+            "value": null,
+            "explanation": "Mistake: heteroskedasticity shows up as a change in spread around zero, not a systematic change in the sign of the residuals."
+          },
+          {
+            "text": "The residuals are serially correlated over time",
+            "value": null,
+            "explanation": "Mistake: autocorrelation is seen by plotting residuals in time order. Plotting against X and seeing a curve points to a wrong functional form."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A simple linear regression uses 24 observations. The total sum of squares is 80 and the sum of squared errors is 20. What is the F-statistic for the regression? (Round to one decimal place.)",
+        "options": [
+          {
+            "text": "66.0",
+            "value": null,
+            "explanation": "Correct. RSS = 80 − 20 = 60, so MSR = 60/1 = 60. MSE = 20/(24 − 2) = 0.9091. F = 60 / 0.9091 = 66.0."
+          },
+          {
+            "text": "3.0",
+            "value": null,
+            "explanation": "Mistake: dividing RSS by SSE (60/20) without dividing each sum of squares by its degrees of freedom."
+          },
+          {
+            "text": "69.0",
+            "value": null,
+            "explanation": "Mistake: using n − 1 = 23 as the error degrees of freedom instead of n − 2 = 22, giving 60 / (20/23) = 69.0."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:5",
+          "os:introductory-business-statistics-2e:m55838:5.1",
+          "os:introductory-business-statistics-2e:m55838:5.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A simple regression based on 27 observations gives an estimated slope of 0.80 with a standard error of 0.25. For H0: slope = 0 versus Ha: slope ≠ 0 at the 5% level (two-tailed), the critical t-value with 25 degrees of freedom is 2.060. What is the t-statistic and the conclusion?",
+        "options": [
+          {
+            "text": "t = 0.31; fail to reject H0",
+            "value": null,
+            "explanation": "Mistake: inverting the ratio (0.25 / 0.80 = 0.3125) instead of dividing the slope by its standard error."
+          },
+          {
+            "text": "t = 0.80; fail to reject H0",
+            "value": null,
+            "explanation": "Mistake: using the slope itself as the test statistic and forgetting to divide by its standard error."
+          },
+          {
+            "text": "t = 3.20; reject H0",
+            "value": null,
+            "explanation": "Correct. t = (0.80 − 0) / 0.25 = 3.20, which exceeds 2.060 in absolute value, so reject the null that the slope is zero."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:3.1",
+          "os:introductory-business-statistics-2e:m55852:0.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A simple linear regression with 20 observations has R² = 0.36 and a positive estimated slope. Test H0: slope = 0 using the t-statistic for the slope. What is the t-statistic, rounded to two decimals?",
+        "options": [
+          {
+            "text": "1.91",
+            "value": null,
+            "explanation": "Mistake: using R² = 0.36 where the sample correlation r belongs. That gives 0.36 × √18 / √(1 − 0.36²) ≈ 1.91 (or similarly with 0.64), which understates t. The correlation is the square root of R², not R² itself."
+          },
+          {
+            "text": "3.18",
+            "value": null,
+            "explanation": "Correct. In simple regression, R² = r², so r = +0.60 (the slope is positive). Then t = r√(n − 2) / √(1 − r²) = 0.60 × √18 / √0.64 = 0.60 × 4.2426 / 0.80 ≈ 3.18. Check: t² ≈ 10.1 equals F = R²(n − 2)/(1 − R²) = 0.36 × 18 / 0.64."
+          },
+          {
+            "text": "3.27",
+            "value": null,
+            "explanation": "Mistake: using n − 1 = 19 instead of the degrees of freedom n − 2 = 18. That gives 0.60 × √19 / 0.80 ≈ 3.27. Simple regression loses two degrees of freedom, one each for the intercept and the slope."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): r = 0.6; t = 0.6*sqrt(18)/sqrt(1-0.36) = 0.6*4.2426/0.8 = 3.18. Computing: 0.6*4.2426 = 2.5456; /0.8 = 3.182. So t = 3.18, which is option B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A simple linear regression is estimated with 40 observations. The F-test reported in the ANOVA table tests which null hypothesis, and with which degrees of freedom?",
+        "options": [
+          {
+            "text": "The slope equals zero, with 1 and 39 degrees of freedom",
+            "value": null,
+            "explanation": "Mistake: using n − 1 for the error degrees of freedom. The error df is n − 2 because two parameters are estimated."
+          },
+          {
+            "text": "The slope equals zero, with 1 and 38 degrees of freedom",
+            "value": null,
+            "explanation": "Correct. With one independent variable the numerator df is 1, and the error df is n − 2 = 38. The test is equivalent to the slope's t-test."
+          },
+          {
+            "text": "The intercept equals zero, with 1 and 38 degrees of freedom",
+            "value": null,
+            "explanation": "Mistake: the ANOVA F-test addresses whether the independent variable explains Y (the slope), not whether the intercept is zero."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement about R² in a simple linear regression is correct?",
+        "options": [
+          {
+            "text": "A high R² can still come with patterned residuals, so assumptions need checking separately",
+            "value": null,
+            "explanation": "Correct. R² only measures the share of variation explained. Curved, fanning or serially correlated residuals can still exist, so residual diagnostics are needed."
+          },
+          {
+            "text": "A high R² guarantees the residuals are homoskedastic and uncorrelated",
+            "value": null,
+            "explanation": "Mistake: treating a fit measure as a diagnostic for assumptions. R² does not test constant variance or independence."
+          },
+          {
+            "text": "A high R² establishes that X causes the variation seen in Y",
+            "value": null,
+            "explanation": "Mistake: confusing explanatory power in the sample with causation. A good fit does not show cause and effect."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:5.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the four main assumptions of simple linear regression?",
+        "back": "(1) The relationship between X and Y is linear. (2) The error variance is constant (homoskedasticity). (3) The errors are independent of one another. (4) The errors are normally distributed.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Which residual-plot pattern points to heteroskedasticity, and which to autocorrelation?",
+        "back": "Heteroskedasticity: a fan or funnel where the spread of residuals changes with X. Autocorrelation: runs of same-sign residuals when plotted in time order. A curved pattern instead signals a nonlinear relationship.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is R² defined, and what does it equal in simple regression?",
+        "back": "R² = RSS/SST = 1 − SSE/SST, the share of the variation in Y explained by the regression. In simple regression it equals the squared correlation r² between X and Y.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:5",
+          "os:introductory-business-statistics-2e:m55838:5.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "In a simple regression ANOVA, what is the F-statistic, its degrees of freedom, and its link to the slope's t-test?",
+        "back": "F = MSR/MSE = (RSS/1)/(SSE/(n−2)), with 1 and n−2 degrees of freedom. It tests whether the slope is zero, and F = t² for the slope, so both tests give the same conclusion.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:5.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "How do you test a regression slope against a hypothesized value?",
+        "back": "t = (b₁ − B₁)/s_b₁ with n−2 degrees of freedom, where s_b₁ is the slope's standard error. Reject if |t| exceeds the critical value, if the p-value is below the significance level, or if B₁ lies outside the confidence interval.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55838:3.1",
+          "os:introductory-business-statistics-2e:m55852:0.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T07:07:19.224Z",
+      "purpose": "blind-solve",
+      "losId": "quant-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1026,
+      "outputTokens": 614,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008309,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:07:27.643Z",
+      "purpose": "repair",
+      "losId": "quant-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9761,
+      "outputTokens": 1038,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4628,
+      "costUsd": 0.0308276,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:07:30.549Z",
+      "purpose": "blind-solve",
+      "losId": "quant-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 112,
+      "outputTokens": 284,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003181,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:07:42.305Z",
+      "purpose": "grounding",
+      "losId": "quant-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14823,
+      "outputTokens": 1695,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.046757400000000005,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.089075
+}

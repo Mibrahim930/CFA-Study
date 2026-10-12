@@ -1,0 +1,493 @@
+{
+  "losId": "quant-08-los1",
+  "losText": "calculate, interpret, and evaluate the expected return, variance, standard deviation, covariance, and correlation of portfolio returns",
+  "moduleId": "quant-08",
+  "moduleTitle": "The Return and Risk of a Financial Portfolio",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:44:00.809Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.36
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.29
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.29
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:168:160",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 168–169",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=168",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.22
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:171:163",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=171",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.2
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:38:9",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 38–42",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=38",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:18",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:17",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 15",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-lec13:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 28–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:182:174",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 182",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=182",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55719:0.2",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.1 The Correlation Coefficient r — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-1-the-correlation-coefficient-r",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:11:13",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Portfolio Return and Risk: Weights, Covariance and Correlation",
+      "summary": "A portfolio's expected return is a simple weighted average of its holdings' expected returns, but its risk is not, because assets move together to different degrees. This lesson shows how covariance and correlation feed into portfolio variance and standard deviation, which is the basis of diversification.",
+      "sections": [
+        {
+          "heading": "A portfolio is a basket with weights",
+          "body_markdown": "Think of a fruit basket: if 60% of your money is in apples and 40% in oranges, the basket's average sweetness is a 60/40 blend of the two. A portfolio works the same way for returns. The **weight** $w_i$ of an asset is the fraction of total portfolio value invested in it, so the weights sum to 1. A short position has a negative weight, which means another asset's weight exceeds 100%.\n\nThe **expected return** is the probability-weighted average outcome. For a portfolio:\n\n$$E(R_p)=\\sum_i w_i E(R_i)$$\n\nThe result always lies between the lowest and highest component expected returns (when no weight is negative). Nothing about how the assets move together matters here."
+        },
+        {
+          "heading": "Covariance and correlation: measuring moving together",
+          "body_markdown": "Risk is where the interaction matters. **Covariance** measures whether two assets' returns tend to be above or below their own averages at the same time. Positive covariance means they usually move in the same direction, negative means they tend to move opposite ways, and near zero means no consistent linear pattern. Its size is hard to interpret because its units are 'return squared' and it depends on how volatile each asset is.\n\n**Correlation** fixes this by scaling covariance with both standard deviations:\n\n$$\\rho_{12}=\\frac{\\text{Cov}(R_1,R_2)}{\\sigma_1\\sigma_2}$$\n\nCorrelation has no units and always lies between $-1$ and $+1$. Exam questions often give you one and ask for the other, so you must be able to go both ways: $\\text{Cov}=\\rho\\,\\sigma_1\\sigma_2$. When the data come from a probability table, covariance is the probability-weighted sum of the products of the two assets' deviations from their expected returns."
+        },
+        {
+          "heading": "Variance and standard deviation of a two-asset portfolio",
+          "body_markdown": "Portfolio variance is **not** a weighted average of the individual variances. Two things change: weights are *squared*, and there is an extra covariance term:\n\n$$\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\,\\text{Cov}(R_1,R_2)$$\n\nSubstituting $\\text{Cov}=\\rho\\sigma_1\\sigma_2$ gives the version you will use most:\n\n$$\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2$$\n\nThe **standard deviation** is the square root of the variance, taken as the last step. Intuition: when one asset is down while the other is up, they cushion each other, so the portfolio swings less than the weighted-average swing. This cushioning is **diversification**.\n\nTwo useful limits (long-only weights): if $\\rho=+1$, $\\sigma_p=w_1\\sigma_1+w_2\\sigma_2$, the weighted average and no diversification benefit. For any $\\rho<1$, $\\sigma_p$ is strictly below that weighted average. At $\\rho=-1$ the risk can be driven all the way to zero with the right weights."
+        },
+        {
+          "heading": "Many assets: the covariance matrix",
+          "body_markdown": "With $n$ assets, portfolio variance is a double sum over all pairs of weights times covariances. The covariance matrix has $n$ variances (on the diagonal) and $n^2-n$ covariances (off the diagonal, with each pair of assets appearing twice, once as $\\text{Cov}_{ij}$ and once as $\\text{Cov}_{ji}$). As $n$ grows, the covariances far outnumber the variances, so a stock's co-movement with the rest of the portfolio matters more than its own volatility.\n\nIn an equally weighted portfolio of many stocks, variance approaches the *average covariance* among them. Risk specific to one company washes out, but risk shared by all stocks stays, so diversification has a floor above zero."
+        }
+      ],
+      "worked_example": {
+        "problem": "Asset A has an expected return of 10% and a standard deviation of 20%. Asset B has an expected return of 6% and a standard deviation of 10%. The correlation between them is 0.30. A portfolio holds 60% in A and 40% in B. Find the portfolio's expected return, covariance of A and B, variance, and standard deviation (round the standard deviation to two decimals in percent).",
+        "steps": [
+          "Expected return: $E(R_p)=0.60(10\\%)+0.40(6\\%)=6.0\\%+2.4\\%=8.4\\%$.",
+          "Covariance: $\\text{Cov}=\\rho\\,\\sigma_A\\sigma_B=0.30\\times0.20\\times0.10=0.006$.",
+          "Weighted variance terms (use decimals): $w_A^2\\sigma_A^2=0.36\\times0.04=0.0144$ and $w_B^2\\sigma_B^2=0.16\\times0.01=0.0016$.",
+          "Covariance term: $2w_Aw_B\\text{Cov}=2\\times0.60\\times0.40\\times0.006=0.00288$.",
+          "Variance: $0.0144+0.0016+0.00288=0.01888$.",
+          "Standard deviation: on the BA II Plus key in 0.01888 and press the square-root key (√x) to get 0.137404, or 13.74%.",
+          "Sanity check: 13.74% is below the weighted-average SD of $0.6(20\\%)+0.4(10\\%)=16\\%$, as expected when $\\rho<1$."
+        ],
+        "answer": "E(R_p) = 8.40%; Cov = 0.006; variance = 0.01888; standard deviation = 13.74%",
+        "answer_value": 0.1374,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Portfolio expected return",
+          "latex": "E(R_p)=\\sum_{i=1}^{n} w_i\\,E(R_i)",
+          "where": "w_i = weight of asset i (weights sum to 1; negative for short positions); E(R_i) = expected return of asset i"
+        },
+        {
+          "name": "Covariance from correlation",
+          "latex": "\\text{Cov}(R_1,R_2)=\\rho_{12}\\,\\sigma_1\\,\\sigma_2",
+          "where": "\\rho_{12} = correlation of assets 1 and 2; \\sigma_1,\\sigma_2 = their standard deviations"
+        },
+        {
+          "name": "Correlation",
+          "latex": "\\rho_{12}=\\frac{\\text{Cov}(R_1,R_2)}{\\sigma_1\\sigma_2}",
+          "where": "Cov = covariance of the two returns; \\sigma_1,\\sigma_2 = their standard deviations; result lies between -1 and +1"
+        },
+        {
+          "name": "Two-asset portfolio variance",
+          "latex": "\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2",
+          "where": "w_1,w_2 = weights; \\sigma_1,\\sigma_2 = standard deviations of the assets; \\rho_{12} = correlation"
+        },
+        {
+          "name": "Portfolio standard deviation",
+          "latex": "\\sigma_p=\\sqrt{\\sigma_p^2}",
+          "where": "\\sigma_p^2 = portfolio variance, entered as a decimal squared (10% = 0.10)"
+        },
+        {
+          "name": "General n-asset portfolio variance",
+          "latex": "\\sigma_p^2=\\sum_{i=1}^{n}\\sum_{j=1}^{n} w_i w_j\\,\\text{Cov}(R_i,R_j)",
+          "where": "when i = j, Cov(R_i,R_i) is the variance of asset i; the n^2 - n terms with i \\neq j are the covariances"
+        }
+      ],
+      "exam_traps": [
+        "Averaging the standard deviations with the weights. That is only correct when correlation is exactly +1; otherwise the true portfolio SD is lower.",
+        "Forgetting to square the weights, or dropping the factor 2 on the covariance term. Both give a wrong variance that is still plausible-looking.",
+        "Plugging the correlation in where covariance belongs (or the reverse). The correlation must be multiplied by both standard deviations before it is a covariance.",
+        "Mixing percent and decimals: squaring 20 gives 400 in percent-squared units. Convert to decimals (0.20) before squaring, and take the square root last.",
+        "Ignoring the sign of weights for short positions: a short weight is negative in both the expected return and variance formulas."
+      ],
+      "builds_on": [
+        "Expected value and probability-weighted averages",
+        "Variance and standard deviation of a single asset",
+        "Weighted averages"
+      ],
+      "leads_to": [
+        "Minimum-variance portfolio",
+        "Efficient frontier",
+        "Capital allocation line",
+        "Diversification and systematic risk"
+      ],
+      "cited_chunk_ids": [
+        "smu-fma-ch4-rates-of-return:38:9",
+        "mit-ocw-15401-lec13:13:3",
+        "mit-ocw-15401-lec13:23:5",
+        "mit-ocw-15401-lec13:28:6",
+        "os:introductory-business-statistics-2e:m55719:0.2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio has 40% in asset X (expected return 12%) and 60% in asset Y (expected return 4%). What is the portfolio's expected return?",
+        "options": [
+          {
+            "text": "8.0%",
+            "value": null,
+            "explanation": "This is the simple average of 12% and 4%, which ignores the portfolio weights."
+          },
+          {
+            "text": "7.2%",
+            "value": null,
+            "explanation": "Correct: 0.40 × 12% + 0.60 × 4% = 4.8% + 2.4% = 7.2%. Expected return is the weighted average of component expected returns."
+          },
+          {
+            "text": "8.8%",
+            "value": null,
+            "explanation": "This swaps the weights (0.60 on X, 0.40 on Y) and so overweights the higher-return asset."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A portfolio is split 50/50 between two assets that each have a standard deviation of 20%. The correlation between the assets is 0. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "This is the weighted-average SD, valid only if correlation is +1. With zero correlation there is a diversification benefit."
+          },
+          {
+            "text": "28.28%",
+            "value": 0.2828,
+            "explanation": "This adds the two variances without squaring the weights (√(0.04 + 0.04)), overstating risk."
+          },
+          {
+            "text": "14.14%",
+            "value": 0.1414,
+            "explanation": "Correct: variance = 0.25(0.04) + 0.25(0.04) + 0 = 0.02, and √0.02 = 0.1414. The covariance term is zero because ρ = 0."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.2,\"sd2\":0.2,\"corr\":0}"
+        },
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two assets, A and B, have a covariance of 0.012. Asset A's standard deviation is 10% and asset B's is 20%. What is the correlation between their returns?",
+        "options": [
+          {
+            "text": "0.60",
+            "value": null,
+            "explanation": "Correct: ρ = Cov / (σ_A σ_B) = 0.012 / (0.10 × 0.20) = 0.60."
+          },
+          {
+            "text": "0.24",
+            "value": null,
+            "explanation": "This divides covariance by the sum of the variances (0.01 + 0.04) instead of the product of the standard deviations."
+          },
+          {
+            "text": "0.12",
+            "value": null,
+            "explanation": "This divides covariance by only one standard deviation (0.10), forgetting the other."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A portfolio holds 70% in asset 1 (standard deviation 15%) and 30% in asset 2 (standard deviation 25%). The correlation between the two assets is 0.20. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "13.50%",
+            "value": 0.135,
+            "explanation": "This omits the factor 2 on the covariance term (variance 0.018225 instead of 0.0198), understating risk."
+          },
+          {
+            "text": "14.07%",
+            "value": 0.1407,
+            "explanation": "Correct: variance = 0.49(0.0225) + 0.09(0.0625) + 2(0.7)(0.3)(0.20)(0.15)(0.25) = 0.011025 + 0.005625 + 0.00315 = 0.0198; √0.0198 = 0.1407."
+          },
+          {
+            "text": "18.00%",
+            "value": 0.18,
+            "explanation": "This is the weighted average of the SDs (0.7 × 15% + 0.3 × 25%), which ignores diversification and is correct only when ρ = +1."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.7,\"sd1\":0.15,\"sd2\":0.25,\"corr\":0.2}"
+        },
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A long-only two-asset portfolio has positive weights on assets with different standard deviations. Which statement about the portfolio standard deviation compared with the weighted average of the two assets' standard deviations is correct?",
+        "options": [
+          {
+            "text": "They are equal whenever the correlation between the assets is zero.",
+            "value": null,
+            "explanation": "This confuses zero correlation with perfect correlation. At ρ = 0 the portfolio SD is already below the weighted average."
+          },
+          {
+            "text": "The portfolio SD is greater when the correlation is negative.",
+            "value": null,
+            "explanation": "Negative correlation makes the covariance term negative, which lowers variance, so the SD is further below the weighted average, not above it."
+          },
+          {
+            "text": "They are equal only when the correlation is exactly +1.",
+            "value": null,
+            "explanation": "Correct: at ρ = +1 the variance is (w₁σ₁ + w₂σ₂)², so σ_p is the weighted average. For any ρ < 1 it is smaller."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5",
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The variance of a 4-asset portfolio is written as a double sum over every ordered pair of assets (i, j) using the full covariance matrix. How many covariance terms (pairs with i ≠ j, counting Cov(A,B) and Cov(B,A) separately) appear in the sum?",
+        "options": [
+          {
+            "text": "12",
+            "value": null,
+            "explanation": "Correct: the matrix has n² = 16 entries, of which n = 4 are variances, leaving n² − n = 12 covariances."
+          },
+          {
+            "text": "6",
+            "value": null,
+            "explanation": "This counts only the unique pairs (4 × 3 / 2) and misses that each covariance appears twice in the double sum."
+          },
+          {
+            "text": "16",
+            "value": null,
+            "explanation": "This counts every entry in the matrix, including the 4 variance terms on the diagonal."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio is 50% asset 1 (standard deviation 24%) and 50% asset 2 (standard deviation 12%). The correlation between the two assets is −0.50. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "15.87%",
+            "value": 0.1587,
+            "explanation": "This treats the correlation as +0.50 (sign error), so the covariance term is added instead of subtracted."
+          },
+          {
+            "text": "18.00%",
+            "value": 0.18,
+            "explanation": "This is the weighted average of the two SDs, which ignores the diversification effect of the negative correlation."
+          },
+          {
+            "text": "10.39%",
+            "value": 0.1039,
+            "explanation": "Correct: variance = 0.25(0.0576) + 0.25(0.0144) + 2(0.5)(0.5)(−0.5)(0.24)(0.12) = 0.0144 + 0.0036 − 0.0072 = 0.0108; √0.0108 = 0.1039."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.24,\"sd2\":0.12,\"corr\":-0.5}"
+        },
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9",
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor holds a portfolio with a weight of 130% in asset A (expected return 10%) and −30% in asset B (expected return 4%), created by short selling B and investing the proceeds in A. What is the portfolio's expected return?",
+        "options": [
+          {
+            "text": "13.0%",
+            "value": null,
+            "explanation": "This counts only the A holding (1.30 × 10%) and ignores the cost of the short position in B."
+          },
+          {
+            "text": "11.8%",
+            "value": null,
+            "explanation": "Correct: 1.30 × 10% + (−0.30) × 4% = 13.0% − 1.2% = 11.8%. A short position enters with a negative weight."
+          },
+          {
+            "text": "14.2%",
+            "value": null,
+            "explanation": "This treats the short weight as +30%, adding 1.2% instead of subtracting it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do you calculate the expected return of a portfolio?",
+        "back": "Weighted average of the assets' expected returns: E(Rp) = Σ wᵢ E(Rᵢ). Weights sum to 1; short positions have negative weights. Correlations play no role.",
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9"
+        ]
+      },
+      {
+        "front": "Write the variance of a two-asset portfolio using correlation.",
+        "back": "σp² = w₁²σ₁² + w₂²σ₂² + 2·w₁·w₂·ρ₁₂·σ₁·σ₂. Take the square root last to get the standard deviation.",
+        "cited_chunk_ids": [
+          "smu-fma-ch4-rates-of-return:38:9"
+        ]
+      },
+      {
+        "front": "How are covariance and correlation related, and how do they differ?",
+        "back": "ρ = Cov / (σ₁σ₂), so Cov = ρσ₁σ₂. Correlation is unitless and between −1 and +1; covariance has units of return squared and no fixed bounds.",
+        "cited_chunk_ids": [
+          "os:introductory-business-statistics-2e:m55719:0.2"
+        ]
+      },
+      {
+        "front": "When does portfolio standard deviation equal the weighted average of the component standard deviations, and what happens otherwise?",
+        "back": "Only when correlation is +1 (with non-negative weights). For any lower correlation, portfolio SD is below the weighted average, which is the diversification benefit.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:44:00.809Z",
+      "purpose": "generate",
+      "losId": "quant-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10637,
+      "outputTokens": 14269,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1651018,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "losId": "quant-04-los3",
+  "losText": "explain the cash flow additivity principle and its importance for the condition of no arbitrage, and explain its use in calculating implied forward interest rates, forward exchange rates, and option values",
+  "moduleId": "quant-04",
+  "moduleTitle": "The Time Value of Money in Finance",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:01:08.787Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00129:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§20.3 Exchange Rates and Risk — Exchange Rates and Risk",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/20-3-exchange-rates-and-risk",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-lec04:32:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 32–36",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=32",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:22:22",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 22–23",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=22",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:178:170",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 178–179",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=178",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15401-lec04:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 13–20",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "gips-2020-firms:132:144",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "p. 132",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=132",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-lec04:20:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 20–23",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=20",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "commonfund-twr-vs-irr:3:2",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "p. 3",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=3",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "gips-2020-firms:133:145",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "p. 133",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=133",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "gips-2020-firms:133:146",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 133–134",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=133",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00129:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§20.3 Exchange Rates and Risk — Hedging",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/20-3-exchange-rates-and-risk",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:11:7",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 11–12",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Prices That Add Up: Additivity, No-Arbitrage, Forwards and Option Parity",
+      "summary": "If two packages of cash flows are identical, they must cost the same, and the value of a package is the sum of the values of its parts. This one rule lets you back out forward interest rates, forward currency prices and option values from prices you can already observe.",
+      "sections": [
+        {
+          "heading": "Values add up (the shopping-basket rule)",
+          "body_markdown": "A **cash flow** is money received or paid at a specific date. The **cash flow additivity principle** says that when you hold several cash flows, the value today of the whole bundle is just the sum of the values today of each piece. Think of a grocery basket: the bill is the sum of the item prices, and it does not matter whether you scan the items one by one or in a different order. The same holds for cash flows, as long as every piece is valued as of the same date. Added to that is the **law of one price**: two assets or bundles that deliver exactly the same cash flows in every future state must sell for the same price."
+        },
+        {
+          "heading": "Why no-arbitrage is the guard rail",
+          "body_markdown": "An **arbitrage** is a way to make a profit with no investment and no risk. A market with **no arbitrage** is one where no such free-lunch trade exists. Additivity is the tool that tests for it. Take a 3-year bond paying a 5 coupon each year plus 100 at the end. Its cash flows are the same as a basket of three zero-coupon bonds: 5 due at year 1, 5 due at year 2, and 105 due at year 3. If the coupon bond were priced above the basket, you would sell the bond and buy the basket, pocketing the difference while the future payments cancel out. Traders doing this push the prices back into line. So under no-arbitrage, the price of any package equals the sum of the prices of its replicating pieces."
+        },
+        {
+          "heading": "Implied forward interest rates",
+          "body_markdown": "A **spot rate** $S_t$ is today's annual rate for money lent from now until year $t$. A **forward rate** is a rate agreed today for a loan that starts at a future date and ends at a later one. Two routes to the same end date must grow money equally:\n\n- Route 1: invest at the long spot rate $S_b$ for $b$ years.\n- Route 2: invest at the shorter spot rate $S_a$ for $a$ years, then roll into a forward loan from year $a$ to year $b$ at the forward rate $f_{a\\to b}$.\n\nIf the two routes ended at different amounts, you could borrow on one and lend on the other for a sure profit. So $(1+S_b)^b=(1+S_a)^a(1+f_{a\\to b})^{b-a}$. Solve for $f_{a\\to b}$ and you have the **implied forward rate**. Because rates compound, it is *not* a simple average of the spot rates. A forward rate is a rate you can lock in today, not a promise of what the spot rate will turn out to be."
+        },
+        {
+          "heading": "Forward exchange rates",
+          "body_markdown": "Quote exchange rates as **price currency per 1 unit of base currency** (for example USD per EUR means USD is the price currency, EUR the base). To get one unit of base currency in the future you can either (1) buy a forward contract, or (2) borrow price currency now, buy base currency at spot and park it at the base-currency interest rate. These two routes must cost the same, so the forward rate is $F=S\\times\\left(\\frac{1+i_P}{1+i_B}\\right)^T$. This relationship is often called **covered interest parity**. The currency with the higher interest rate trades at a forward *discount*. In other words, when the price currency has the higher rate, the base currency costs more in the forward market than at spot. Notice that the forward rate is driven by interest rate differences, not by anyone's forecast of where the exchange rate is going."
+        },
+        {
+          "heading": "Option values through put-call parity",
+          "body_markdown": "A **call** gives the right to buy an asset at the strike price $X$ on or before a set date. A **put** gives the right to sell it at $X$. Consider two packages on a non-dividend-paying share, using European options (exercisable only at expiry) with the same $X$ and expiry:\n\n- **Fiduciary call**: one call plus a risk-free zero-coupon bond that pays $X$ at expiry.\n- **Protective put**: one put plus one share of the underlying.\n\nAt expiry both are worth $\\max(S_T,X)$ whatever the share price does. Identical payoffs mean identical prices today, so $c+\\frac{X}{(1+r)^T}=p+S_0$. If you know three of the four items, additivity lets you solve for the fourth, such as the call value from a put value."
+        }
+      ],
+      "worked_example": {
+        "problem": "Effective annual spot rates are 3.5% for a 2-year zero-coupon bond and 4.0% for a 3-year zero-coupon bond. What is the implied one-year forward rate that applies from year 2 to year 3? Give the answer as a percentage to two decimals.",
+        "steps": [
+          "1. Identify the pieces: $S_2=3.5\\%$, $S_3=4.0\\%$, $a=2$, $b=3$, so the forward loan lasts $b-a=1$ year.",
+          "2. Write the no-arbitrage equation: $(1.04)^3=(1.035)^2\\times(1+f)$.",
+          "3. Compute the growth factors: $1.04^3=1.124864$ and $1.035^2=1.071225$.",
+          "4. Divide: $1+f=1.124864/1.071225=1.05007$.",
+          "5. Subtract 1: $f=0.05007$, or about 5.01%.",
+          "6. BA II Plus keystrokes: 1.04 [y^x] 3 [÷] 1.035 [y^x] 2 [=] gives 1.0501; then [−] 1 [=] gives 0.0501 (5.01%).",
+          "7. Sanity check: the forward rate is above the 4% 3-year spot rate because the spot curve is upward sloping."
+        ],
+        "answer": "The implied forward rate from year 2 to year 3 is about 5.01%.",
+        "answer_value": 0.05007,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.035,\"a\":2,\"spotB\":0.04,\"b\":3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Cash flow additivity",
+          "latex": "V_{\\text{package}}=\\sum_{i} V_i",
+          "where": "$V_i$ is the value, at the same date, of each separate cash flow or component; $V_{\\text{package}}$ is the value of the combined stream."
+        },
+        {
+          "name": "Implied forward rate",
+          "latex": "f_{a\\to b}=\\left[\\frac{(1+S_b)^{b}}{(1+S_a)^{a}}\\right]^{\\frac{1}{b-a}}-1",
+          "where": "$S_a$ and $S_b$ are today's annual spot rates for maturities $a$ and $b$ years ($b>a$); $f_{a\\to b}$ is the annual forward rate for a loan from year $a$ to year $b$."
+        },
+        {
+          "name": "Forward exchange rate (covered interest parity)",
+          "latex": "F_{P/B}=S_{P/B}\\left(\\frac{1+i_P}{1+i_B}\\right)^{T}",
+          "where": "$S_{P/B}$ is spot in price currency per unit of base currency; $F_{P/B}$ is the forward in the same quote; $i_P$ and $i_B$ are annual interest rates in the price and base currencies; $T$ is the time to delivery in years."
+        },
+        {
+          "name": "Put-call parity",
+          "latex": "c+\\frac{X}{(1+r)^{T}}=p+S_0",
+          "where": "$c$ and $p$ are today's European call and put prices; $X$ is the common strike; $r$ is the annual risk-free rate; $T$ is the time to expiry in years; $S_0$ is today's price of the non-dividend-paying underlying."
+        }
+      ],
+      "exam_traps": [
+        "Averaging spot rates to get a forward rate. Forward rates come from compounded growth factors, so the exponents $a$, $b$ and $1/(b-a)$ matter.",
+        "Forgetting the root. After dividing $(1+S_b)^b$ by $(1+S_a)^a$ you must raise the result to $1/(b-a)$ when the forward period is longer than one year.",
+        "Flipping the currency ratio. In $F=S\\times(1+i_P)/(1+i_B)$ the price-currency rate goes on top and the base-currency rate underneath; check which currency is the base in the quote.",
+        "Not discounting the strike in put-call parity. The bond leg is the present value $X/(1+r)^T$, not $X$ itself.",
+        "Treating a forward rate or forward exchange rate as a forecast. It is a no-arbitrage price you can lock in today, and the future spot rate will usually differ."
+      ],
+      "builds_on": [
+        "Present value and future value",
+        "Compounding and effective annual rates",
+        "Spot rates and zero-coupon bond prices",
+        "Arbitrage and the law of one price"
+      ],
+      "leads_to": [
+        "Valuing bonds with a spot curve",
+        "Forward and futures pricing",
+        "Swap pricing",
+        "Binomial option valuation"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec04:32:6",
+        "mit-ocw-15401-lec04:13:3",
+        "mit-ocw-15401-lec04:20:4",
+        "os:principles-finance-2e:m00129:3",
+        "occ-risk-mgmt-derivatives:22:22",
+        "os:principles-finance-2e:m00129:4"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": false,
+        "issues": [
+          "error found: Error: the lesson says the higher-rate currency trades at a forward discount, which is right, but then claims the 'forward rate is above the 4% spot because curve upward sloping', which is fine. The real error is the BA II Plus keystrokes: 1.04 y^x 3 ÷ 1.035 y^x 2 = does not give 1.0501 on the usual chain calculation order; it is also fine in algebra but the sequence is misleading. Also the lesson says 'Because rates compound, forward rate is not a simple average' while the MIT passage says the spot rate is an 'average', which is only loosely a conflict. Main definite error: keystroke sequence gives 1.04^3/1.035 then ^2 on a chain-calculator, not the intended result."
+        ]
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the cash flow additivity principle?",
+        "options": [
+          {
+            "text": "The value of a stream of cash flows is the average of the values of its separate payments.",
+            "value": null,
+            "explanation": "Averaging is the mistake. Values are added, not averaged, so a bundle of two payments is worth more than either payment alone."
+          },
+          {
+            "text": "Two assets with the same risk must offer the same expected return, whatever their payment dates.",
+            "value": null,
+            "explanation": "This confuses additivity with a risk-return statement. Additivity concerns adding up values of cash flows at one date, not risk and expected return."
+          },
+          {
+            "text": "The value of a combined set of cash flows is the sum of the values of its parts, measured at one date.",
+            "value": null,
+            "explanation": "Correct. Each piece is valued at the same date and the values are added. This is what lets us price a bond as a basket of zero-coupon bonds."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:32:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Today's effective annual spot rates are 3.00% for a 2-year zero-coupon bond and 4.00% for a 5-year zero-coupon bond. What is the implied annual forward rate for a 3-year loan that starts 2 years from now? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "14.68%",
+            "value": 0.1468,
+            "explanation": "Mistake: dividing $1.04^5$ by $1.03^2$ and subtracting 1, but forgetting to take the 3-year root. That gives the total 3-year growth, not an annual rate."
+          },
+          {
+            "text": "4.67%",
+            "value": 0.0467,
+            "explanation": "Correct. $f=\\left(1.04^5/1.03^2\\right)^{1/3}-1=(1.14681)^{1/3}-1\\approx 4.67\\%$."
+          },
+          {
+            "text": "1.00%",
+            "value": 0.01,
+            "explanation": "Mistake: subtracting the two spot rates (4% − 3%). Forward rates come from the ratio of compounded growth factors, not a difference of rates."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.03,\"a\":2,\"spotB\":0.04,\"b\":5}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:13:3",
+          "mit-ocw-15401-lec04:20:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A European call and a European put on the same non-dividend-paying share both have a strike of 52 and expire in 0.5 years. The share trades at 50, the put trades at 4.20, and the risk-free rate is 4% per year effective, compounded discretely (discount factor $1.04^{0.5}$). Using put-call parity, what is the call value? Round to two decimals.",
+        "options": [
+          {
+            "text": "3.21",
+            "value": 3.21,
+            "explanation": "Correct. $c=p+S_0-X/(1+r)^T=4.20+50-52/1.04^{0.5}=4.20+50-50.99\\approx 3.21$."
+          },
+          {
+            "text": "2.20",
+            "value": 2.2,
+            "explanation": "Mistake: using the strike of 52 without discounting it, so $c=4.20+50-52$. The bond leg must be the present value of the strike."
+          },
+          {
+            "text": "5.19",
+            "value": 5.19,
+            "explanation": "Mistake: wrong signs, computing $p-S_0+X/(1+r)^T=4.20-50+50.99$. That rearrangement belongs to the put, not the call."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "callFromParity",
+          "args_json": "{\"put\":4.2,\"spot\":50,\"strike\":52,\"r\":0.04,\"T\":0.5}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The USD/EUR spot rate is 1.2000 (USD per 1 EUR, so EUR is the base currency). The one-year interest rate is 5% in USD and 3% in EUR, both annual compounding. Assuming no arbitrage, what is the one-year forward rate in USD per EUR? Round to four decimals.",
+        "options": [
+          {
+            "text": "1.1771",
+            "value": 1.1771,
+            "explanation": "Mistake: inverting the interest rate ratio, $1.2\\times1.03/1.05$. The price-currency (USD) rate belongs on top."
+          },
+          {
+            "text": "1.2600",
+            "value": 1.26,
+            "explanation": "Mistake: growing spot only at the USD rate ($1.2\\times1.05$) and ignoring that EUR held also earns 3%."
+          },
+          {
+            "text": "1.2233",
+            "value": 1.2233,
+            "explanation": "Correct. $F=1.2\\times(1.05/1.03)=1.2\\times1.019417\\approx1.2233$. The higher USD rate makes EUR cost more forward than spot."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardFx",
+          "args_json": "{\"spot\":1.2,\"iPrice\":0.05,\"iBase\":0.03,\"T\":1,\"compounding\":\"annual\"}"
+        },
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:22:22"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "USD/EUR spot is 1.2000 (USD per EUR), one-year rates are 5% in USD and 3% in EUR, and the no-arbitrage one-year forward is 1.2233. A bank quotes a one-year forward at 1.2500. Ignoring transaction costs, which strategy earns a riskless profit with no net investment?",
+        "options": [
+          {
+            "text": "Borrow USD, convert to EUR at spot, invest the EUR for one year, and sell EUR forward at 1.2500.",
+            "value": null,
+            "explanation": "Correct. Borrow 1.20 USD, get 1 EUR, grow it to 1.03 EUR, and sell that forward for 1.2875 USD. After repaying 1.26 USD the profit is about 0.0275 USD, with no currency risk."
+          },
+          {
+            "text": "Borrow EUR, convert to USD at spot, invest the USD for one year, and buy EUR forward at 1.2500.",
+            "value": null,
+            "explanation": "Mistake: reversing the direction. Here 1.26 USD is available but repaying 1.03 EUR forward costs 1.2875 USD, which is a loss."
+          },
+          {
+            "text": "Borrow USD, convert to EUR at spot, invest the EUR for one year, and buy EUR forward at 1.2500.",
+            "value": null,
+            "explanation": "Mistake: buying EUR forward does not hedge a EUR asset you already hold. You would be long EUR twice, with exposure to the future exchange rate and no locked-in profit."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:22:22"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A European call and a European put on the same non-dividend-paying share have the same strike $X$ and expiry. Which pair of positions has identical payoffs at expiry, and therefore must have the same value today under no-arbitrage?",
+        "options": [
+          {
+            "text": "Long call plus long share, versus long put plus a risk-free bond paying $X$ at expiry.",
+            "value": null,
+            "explanation": "Mistake: swapping the extras. The share goes with the put and the bond goes with the call. These two packages have different payoffs."
+          },
+          {
+            "text": "Long call plus a risk-free bond paying $X$ at expiry, versus long put plus long share.",
+            "value": null,
+            "explanation": "Correct. Both packages pay $\\max(S_T,X)$ at expiry, so $c+X/(1+r)^T=p+S_0$."
+          },
+          {
+            "text": "Long call plus short share, versus a long put with no other position.",
+            "value": null,
+            "explanation": "Mistake: leaving out the bond. $c-S_0=p-X/(1+r)^T$, so the put alone does not match without the discounted strike."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A European call on a non-dividend-paying share is priced at 10.00. The share trades at 100, the strike is 95, expiry is one year away, and the risk-free rate is 3% per year, compounded annually. The put has the same strike and expiry. By put-call parity, what is the put value? Round to two decimals.",
+        "options": [
+          {
+            "text": "5.00",
+            "value": 5,
+            "explanation": "Mistake: not discounting the strike, so $p=10-100+95$. The strike must be discounted at the risk-free rate."
+          },
+          {
+            "text": "2.23",
+            "value": 2.23,
+            "explanation": "Correct. $p=c-S_0+X/(1+r)^T=10-100+95/1.03=10-100+92.23\\approx2.23$."
+          },
+          {
+            "text": "17.77",
+            "value": 17.77,
+            "explanation": "Mistake: using the call's rearrangement, $c+S_0-X/(1+r)^T$, instead of $c-S_0+X/(1+r)^T$. Signs on the share and bond are reversed."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "putFromParity",
+          "args_json": "{\"call\":10,\"spot\":100,\"strike\":95,\"r\":0.03,\"T\":1}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The 1-year spot rate is 5% and the 2-year spot rate is 7%, both effective annual. The implied one-year forward rate for year 2 is 9.04%. Which statement is correct?",
+        "options": [
+          {
+            "text": "The one-year spot rate in a year's time is guaranteed to be 9.04%, otherwise there would be an arbitrage.",
+            "value": null,
+            "explanation": "Mistake: treating the forward rate as a guaranteed future spot rate. No-arbitrage links today's prices only; the actual future spot rate will usually differ."
+          },
+          {
+            "text": "The forward rate must be 6%, the average of 5% and 7%, or an arbitrage would exist.",
+            "value": null,
+            "explanation": "Mistake: averaging spot rates. Growth compounds, so $1.07^2/1.05-1\\approx9.04\\%$, not 6%."
+          },
+          {
+            "text": "9.04% is a one-year rate that can be locked in today for year 2, though the later spot rate may differ.",
+            "value": null,
+            "explanation": "Correct. Borrowing for one year at 5% and investing for two years at 7% locks in about 9.04% for year 2. This is a lock-in price, not a forecast."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:20:4",
+          "mit-ocw-15401-lec04:13:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the cash flow additivity principle and why does it matter for no-arbitrage?",
+        "back": "The value of a combined set of cash flows equals the sum of the values of its parts at the same date. It lets us price a package by pricing its replicating pieces; if the price differs, a riskless arbitrage profit exists.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:32:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you compute an implied forward rate from two spot rates?",
+        "back": "$f_{a\\to b}=\\left[(1+S_b)^b/(1+S_a)^a\\right]^{1/(b-a)}-1$. Two routes (long spot vs short spot then forward) must end at the same amount.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:20:4",
+          "mit-ocw-15401-lec04:13:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "In the forward exchange rate formula, which interest rate goes on top?",
+        "back": "With quote price/base, $F=S\\times\\left(\\frac{1+i_P}{1+i_B}\\right)^T$: the price-currency rate on top, the base-currency rate underneath. The base currency is at a forward premium when $i_P>i_B$.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:22:22"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "error found: Error: when i_P>i_B the forward exceeds spot, so the base currency is at a forward premium; this is correct. But the lesson says the higher-rate currency trades at a forward discount, consistent. The formula is correct, so no definite error; flagged cautiously."
+          ]
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "State put-call parity and what two packages it equates.",
+        "back": "$c+X/(1+r)^T=p+S_0$. Fiduciary call (call plus bond paying $X$) equals protective put (put plus share) for European options on a non-dividend-paying asset.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:00:57.739Z",
+      "purpose": "blind-solve",
+      "losId": "quant-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1316,
+      "outputTokens": 595,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008699,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:01:08.786Z",
+      "purpose": "grounding",
+      "losId": "quant-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13911,
+      "outputTokens": 1606,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0440434,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0527424
+}

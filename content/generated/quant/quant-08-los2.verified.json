@@ -1,0 +1,798 @@
+{
+  "losId": "quant-08-los2",
+  "losText": "describe, calculate, and interpret the minimum-variance portfolio and portfolios that lie on the efficient frontier",
+  "moduleId": "quant-08",
+  "moduleTitle": "The Return and Risk of a Financial Portfolio",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:05:35.795Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec13:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 28–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.36
+    },
+    {
+      "id": "mit-ocw-15401-lec13:32:7",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 32–37",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=32",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.28
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-lec13:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 1–5",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec13:37:8",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 37–43",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=37",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:10:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 10–12",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=10",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-portfolio2:11:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 11–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=11",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-riskmanagement:17:6",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 17–19",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:168:160",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 168–169",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=168",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "The Lowest-Risk Mix and the Best Risk–Return Menu",
+      "summary": "When you can mix several risky assets, some mixes are clearly better than others. This lesson shows how to find the single mix with the least risk and how to spot the group of mixes that give the most return for each level of risk.",
+      "sections": [
+        {
+          "heading": "Why mixing assets creates a menu of portfolios",
+          "body_markdown": "A **portfolio** is a set of holdings described by **weights** (the fraction of your money in each asset) that add up to 1. With two risky assets, every choice of weight gives a different expected return and a different standard deviation (SD, the usual measure of risk).\n\nThink of owning an ice-cream stand and an umbrella stand. Ice cream sells on sunny days and umbrellas on rainy days, so profits partly cancel out. Owning both is steadier than owning either one. The strength of this cancelling is captured by the **correlation** $\\rho$ between the two assets, a number from $-1$ to $+1$. The lower the correlation, the more risk the mix removes.\n\nExpected return of a mix is just the weighted average of the two expected returns. Risk is not a weighted average: it is *lower* than the weighted average of the SDs unless $\\rho=+1$. Plotting every possible mix with SD on the horizontal axis and expected return on the vertical axis gives a curve that bows to the left. With many assets, the feasible portfolios fill a bullet-shaped region, and its left edge is the **minimum-variance frontier**."
+        },
+        {
+          "heading": "The minimum-variance portfolio",
+          "body_markdown": "The minimum-variance frontier shows, for each target expected return, the lowest risk any mix can reach. Its leftmost point is the **global minimum-variance (GMV) portfolio**: the mix with the smallest risk of all feasible portfolios, whatever its expected return.\n\nFor two assets, the weight in asset 1 that minimises variance is\n\n$$w_1^*=\\frac{\\sigma_2^2-\\sigma_1\\sigma_2\\rho_{12}}{\\sigma_1^2+\\sigma_2^2-2\\sigma_1\\sigma_2\\rho_{12}},\\qquad w_2^*=1-w_1^*$$\n\nNotice that asset 1's weight uses asset 2's numbers in the numerator. The more volatile asset gets the smaller weight.\n\nSpecial cases:\n- If $\\rho=-1$, risk can be driven to zero with $w_1=\\sigma_2/(\\sigma_1+\\sigma_2)$.\n- If $\\rho=+1$, portfolio SD is the plain weighted average of the SDs, so with no short selling the minimum-risk portfolio is 100% in the lower-risk asset.\n- More generally, if $\\rho$ is at least the ratio of the lower SD to the higher SD, the GMV weight in the higher-risk asset is zero or negative. Without short selling you simply hold the lower-risk asset alone."
+        },
+        {
+          "heading": "From the minimum-variance frontier to the efficient frontier",
+          "body_markdown": "The minimum-variance frontier has two halves. The lower half starts at the GMV portfolio and runs down toward lower expected returns. Every portfolio on it is beaten by a portfolio on the upper half that has the *same risk* but a *higher expected return*.\n\nThe **efficient frontier** is only the upper part: the GMV portfolio and everything above it on the minimum-variance frontier. Each of its portfolios offers the highest expected return available for its level of risk (equivalently, the lowest risk for its level of expected return). A rational, risk-averse investor who cares only about mean and variance should pick from this set, since anything else is *dominated* (the same risk with a lower return, or the same return with more risk).\n\nBeing on the efficient frontier does not make a portfolio right for everyone. Moving up the frontier raises both return and risk. Which point suits a particular investor depends on risk tolerance, which is the next topic in this module."
+        },
+        {
+          "heading": "How correlation reshapes the frontier",
+          "body_markdown": "Expected returns and SDs of the assets stay the same, so correlation changes only the risk side of the picture.\n\n- **Lower correlation** means more cancelling, so the curve bows further to the left and the GMV portfolio has a smaller SD.\n- **Higher correlation** means the curve is flatter and closer to a straight line between the two assets. At $\\rho=+1$ it *is* a straight line.\n- Expected returns of mixes never depend on correlation.\n\nThe two-asset variance formula behind all of this is\n\n$$\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\sigma_1\\sigma_2\\rho_{12}$$\n\nWith more than two assets the same ideas hold, but the frontier is the outer envelope of all possible mixes and is found with software rather than by hand."
+        }
+      ],
+      "worked_example": {
+        "problem": "Asset A has an expected return of 13% and a standard deviation of 20%. Asset B has an expected return of 8% and a standard deviation of 12%. The correlation between them is 0.30. Short selling is not needed. Find the weights of the global minimum-variance portfolio, its expected return, and its standard deviation (round SD to two decimals in percent).",
+        "steps": [
+          "Write the weight formula for A: $w_A=\\dfrac{\\sigma_B^2-\\sigma_A\\sigma_B\\rho}{\\sigma_A^2+\\sigma_B^2-2\\sigma_A\\sigma_B\\rho}$.",
+          "Numerator: $0.12^2=0.0144$ and $\\sigma_A\\sigma_B\\rho=0.20\\times0.12\\times0.30=0.0072$, so the numerator is $0.0144-0.0072=0.0072$. Keystrokes: .12 [x²] − .2 × .12 × .3 = → 0.0072.",
+          "Denominator: $0.04+0.0144-2(0.0072)=0.0544-0.0144=0.04$. Keystrokes: .2 [x²] + .12 [x²] − 2 × .2 × .12 × .3 = → 0.04.",
+          "Divide: $w_A=0.0072/0.04=0.18$, so $w_B=1-0.18=0.82$. Both weights lie between 0 and 1, so no short selling is needed.",
+          "Expected return: $0.18(13\\%)+0.82(8\\%)=2.34\\%+6.56\\%=8.90\\%$.",
+          "Variance: $0.18^2(0.04)+0.82^2(0.0144)+2(0.18)(0.82)(0.0072)=0.001296+0.00968256+0.00212544=0.013104$.",
+          "Standard deviation: $\\sqrt{0.013104}$. Keystrokes: .013104 [2nd] [√x] → 0.1145, or 11.45%.",
+          "Sanity check: 11.45% is below the SD of both assets (12% and 20%), as expected for the lowest-risk mix."
+        ],
+        "answer": "GMV weights: 18% in A and 82% in B; expected return 8.90%; standard deviation 11.45%.",
+        "answer_value": 0.1145,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.18,\"sd1\":0.2,\"sd2\":0.12,\"corr\":0.3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Two-asset portfolio variance",
+          "latex": "\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\sigma_1\\sigma_2\\rho_{12}",
+          "where": "$w_1,w_2$ are portfolio weights (sum to 1); $\\sigma_1,\\sigma_2$ are the asset standard deviations; $\\rho_{12}$ is their correlation."
+        },
+        {
+          "name": "Global minimum-variance weight (two assets)",
+          "latex": "w_1^*=\\frac{\\sigma_2^2-\\sigma_1\\sigma_2\\rho_{12}}{\\sigma_1^2+\\sigma_2^2-2\\sigma_1\\sigma_2\\rho_{12}},\\quad w_2^*=1-w_1^*",
+          "where": "$w_1^*$ is the weight in asset 1 that minimises portfolio variance; the other symbols are as above."
+        },
+        {
+          "name": "Variance of the global minimum-variance portfolio",
+          "latex": "\\sigma_{min}^2=\\frac{\\sigma_1^2\\sigma_2^2\\left(1-\\rho_{12}^2\\right)}{\\sigma_1^2+\\sigma_2^2-2\\sigma_1\\sigma_2\\rho_{12}}",
+          "where": "$\\sigma_{min}^2$ is the smallest variance achievable by mixing the two assets; the other symbols are as above."
+        },
+        {
+          "name": "Zero-risk mix when correlation is −1",
+          "latex": "w_1=\\frac{\\sigma_2}{\\sigma_1+\\sigma_2}",
+          "where": "Applies only when $\\rho_{12}=-1$; $w_1$ is the weight in asset 1 that makes portfolio SD equal to zero."
+        },
+        {
+          "name": "Portfolio expected return",
+          "latex": "E(R_p)=w_1E(R_1)+w_2E(R_2)",
+          "where": "$E(R_i)$ is the expected return of asset $i$; correlation does not enter this formula."
+        }
+      ],
+      "exam_traps": [
+        "Treating the whole minimum-variance frontier as the efficient frontier. Only the part from the GMV portfolio upward is efficient; the lower part is dominated.",
+        "Estimating portfolio SD as the weighted average of the asset SDs. That is correct only when $\\rho=+1$; otherwise the true SD is lower, and leaving out the covariance term also gives the wrong answer.",
+        "Dropping the 2 in the covariance term $2w_1w_2\\sigma_1\\sigma_2\\rho$, or mixing up numerator and denominator in the GMV weight formula (asset 1's weight uses asset 2's variance on top).",
+        "Assuming correlation changes a portfolio's expected return. It changes only risk, so lower correlation bends the frontier left without moving it down.",
+        "Assuming the minimum-variance portfolio always puts everything in the lower-risk asset, or always weights assets in proportion to inverse SD. Those shortcuts hold only in special cases ($\\rho=+1$ without short selling; $\\rho=-1$ for zero risk)."
+      ],
+      "builds_on": [
+        "Expected return and variance of a two-asset portfolio",
+        "Covariance and correlation",
+        "Diversification"
+      ],
+      "leads_to": [
+        "Capital allocation line",
+        "Optimal portfolio and risk aversion",
+        "Capital market line and market portfolio"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec13:28:6",
+        "mit-ocw-15433-portfolio3:1:0",
+        "mit-ocw-15433-portfolio3:10:2",
+        "mit-ocw-15401-lec13:13:3"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the efficient frontier of risky portfolios?",
+        "options": [
+          {
+            "text": "Every portfolio on the minimum-variance frontier, including those below the global minimum-variance portfolio",
+            "value": null,
+            "explanation": "This confuses the whole minimum-variance frontier with the efficient part. Portfolios on its lower half are dominated by upper-half portfolios with the same risk and higher expected return."
+          },
+          {
+            "text": "The single portfolio with the smallest standard deviation, whatever expected return it offers",
+            "value": null,
+            "explanation": "This describes only the global minimum-variance portfolio, which is the starting point of the efficient frontier, not the whole set."
+          },
+          {
+            "text": "Minimum-variance portfolios from the global minimum-variance portfolio up to higher expected returns",
+            "value": null,
+            "explanation": "Correct. The efficient frontier is the upper part of the minimum-variance frontier, where each portfolio gives the highest expected return for its level of risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "Asset 1 has a standard deviation of 20% and asset 2 has a standard deviation of 12%. Their correlation is 0.30. A portfolio holds 50% in each asset. What is the portfolio standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "13.11%",
+            "value": 0.1311,
+            "explanation": "Correct. Variance = 0.25(0.04)+0.25(0.0144)+2(0.25)(0.25)... computed as 0.01+0.0036+0.0036 = 0.0172, and the square root is about 13.11%."
+          },
+          {
+            "text": "16.00%",
+            "value": 0.16,
+            "explanation": "This is the weighted average of the two SDs, which ignores correlation. It would be right only if the correlation were +1."
+          },
+          {
+            "text": "11.66%",
+            "value": 0.1166,
+            "explanation": "This leaves out the covariance term (variance 0.0136) and so understates risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.2,\"sd2\":0.12,\"corr\":0.3}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:1:0"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "error found: Correct variance: 0.25(0.04)+0.25(0.0144)+2(0.25)(0.25)(0.2)(0.12)(0.3)=0.01+0.0036+0.0009=0.0145, SD 12.04%. The stated key of 13.11% is wrong, and the explanation's third term (0.0036) and sum (0.0172) are also wrong. The 0.0172 sum does give 13.11%, but it rests on an incorrect covariance term."
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Asset 1 has a standard deviation of 30% and asset 2 has a standard deviation of 20%. The correlation between them is 0.25. What weight in asset 1 gives the global minimum-variance portfolio of the two assets?",
+        "options": [
+          {
+            "text": "40%",
+            "value": null,
+            "explanation": "This uses the shortcut $\\sigma_2/(\\sigma_1+\\sigma_2)=20/50$, which is valid only for a correlation of −1."
+          },
+          {
+            "text": "25%",
+            "value": null,
+            "explanation": "Correct. Numerator = 0.04 − 0.015 = 0.025; denominator = 0.09 + 0.04 − 0.03 = 0.10; so $w_1^*=0.25$ (and 75% in asset 2)."
+          },
+          {
+            "text": "75%",
+            "value": null,
+            "explanation": "This is the minimum-variance weight in asset 2, so it reports the wrong asset. The riskier asset 1 gets the smaller weight."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two risky assets have standard deviations of 10% (asset A) and 20% (asset B), and their returns are perfectly positively correlated. Short selling is not allowed. Which portfolio has the lowest standard deviation?",
+        "options": [
+          {
+            "text": "100% in asset A, with a standard deviation of 10%",
+            "value": null,
+            "explanation": "Correct. With $\\rho=+1$, portfolio SD is the weighted average of the SDs, so it is lowest when everything is in the lower-risk asset."
+          },
+          {
+            "text": "70% in A and 30% in B, with a standard deviation below 10%",
+            "value": null,
+            "explanation": "This assumes mixing always cuts risk below the safer asset. With $\\rho=+1$ there is no diversification benefit; this mix has an SD of 13%."
+          },
+          {
+            "text": "50% in each asset, with a standard deviation of 15%",
+            "value": null,
+            "explanation": "Equal weighting is not minimum variance here. The 15% SD is correct for this mix but higher than the 10% available from asset A alone."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Asset X has a standard deviation of 15% and asset Y has a standard deviation of 10%. Their correlation is 0.20. A portfolio holds 40% in X and 60% in Y. What is the portfolio standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "8.90%",
+            "value": 0.089,
+            "explanation": "This omits the factor of 2 on the covariance term (variance 0.00792) and so understates risk."
+          },
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "This is the weighted average of the SDs (0.4×15 + 0.6×10), which ignores the benefit of a correlation below +1."
+          },
+          {
+            "text": "9.30%",
+            "value": 0.093,
+            "explanation": "Correct. Variance = 0.0036 + 0.0036 + 2(0.4)(0.6)(0.15)(0.10)(0.20) = 0.00864; the square root is about 9.30%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.4,\"sd1\":0.15,\"sd2\":0.1,\"corr\":0.2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:1:0"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "error found: w^2 sigma^2 terms: 0.16*0.0225=0.0036 and 0.36*0.01=0.0036. Covariance: 2(0.4)(0.6)(0.15)(0.10)(0.20)=0.00144. Total 0.00864, SD=9.30%. The arithmetic is correct, so the key is right. The error flag is set by mistake and should be false."
+          ]
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two assets keep the same expected returns and standard deviations, but the correlation between them falls from 0.6 to 0.1. What happens to the minimum-variance frontier formed from the two assets?",
+        "options": [
+          {
+            "text": "It shifts downward, because lower correlation reduces the expected return of each mix",
+            "value": null,
+            "explanation": "Expected return of a mix is a weighted average of the assets' expected returns and does not depend on correlation."
+          },
+          {
+            "text": "It bows further to the left, and the lowest attainable standard deviation falls",
+            "value": null,
+            "explanation": "Correct. Lower correlation means more cancelling of risk, so the same expected returns are reachable with less risk and the curve bows left."
+          },
+          {
+            "text": "It stays the same, because the frontier depends only on the assets' own risks and returns",
+            "value": null,
+            "explanation": "Portfolio variance includes the covariance term, so correlation directly changes the SD of every mix and therefore the frontier."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Asset 1 has a standard deviation of 25% and asset 2 has a standard deviation of 10%. Their correlation is −0.40. A portfolio holds 20% in asset 1 and 80% in asset 2. What is the portfolio standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "9.43%",
+            "value": 0.0943,
+            "explanation": "This leaves out the covariance term (variance 0.0089), so it ignores the diversification from negative correlation."
+          },
+          {
+            "text": "11.00%",
+            "value": 0.11,
+            "explanation": "This is a sign error: it treats the correlation as +0.40, so the covariance term is added (+0.0032) instead of subtracted."
+          },
+          {
+            "text": "7.55%",
+            "value": 0.0755,
+            "explanation": "Correct. Variance = 0.0025 + 0.0064 + 2(0.2)(0.8)(0.25)(0.10)(−0.40) = 0.0089 − 0.0032 = 0.0057; the square root is about 7.55%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.2,\"sd1\":0.25,\"sd2\":0.1,\"corr\":-0.4}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:1:0"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the global minimum-variance portfolio?",
+        "back": "The feasible mix of risky assets with the lowest possible standard deviation, whatever its expected return. It is the leftmost point of the minimum-variance frontier.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How does the efficient frontier differ from the minimum-variance frontier?",
+        "back": "The efficient frontier is only the upper part, from the global minimum-variance portfolio upward. Lower-part portfolios are dominated by ones with the same risk and higher expected return.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the two-asset formula for the minimum-variance weight in asset 1?",
+        "back": "$w_1^*=\\dfrac{\\sigma_2^2-\\sigma_1\\sigma_2\\rho_{12}}{\\sigma_1^2+\\sigma_2^2-2\\sigma_1\\sigma_2\\rho_{12}}$, and $w_2^*=1-w_1^*$.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does a lower correlation do to the two-asset frontier, and what does it leave unchanged?",
+        "back": "It bows the frontier further left (less risk for the same return). Expected returns of the mixes are unchanged. At $\\rho=+1$ the frontier is a straight line.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-12T07:05:24.959Z",
+      "purpose": "blind-solve",
+      "losId": "quant-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 937,
+      "outputTokens": 971,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.011701,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:05:35.794Z",
+      "purpose": "grounding",
+      "losId": "quant-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 17523,
+      "outputTokens": 1568,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0508874,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0625884
+}

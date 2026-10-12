@@ -1,0 +1,456 @@
+{
+  "losId": "quant-11-los1",
+  "losText": "describe how big data, machine learning, and artificial intelligence are used in financial data science, fintech, and investment management",
+  "moduleId": "quant-11",
+  "moduleTitle": "Introduction to Financial Data Science",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:57:53.291Z",
+  "retrieved": [
+    {
+      "id": "fsb-ai-ml-2017:39:56",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 39–40",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=39",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:21:26",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 21–24",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=21",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "fsb-ai-ml-2017:8:6",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 8–9",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=8",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fsb-ai-ml-2017:7:5",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 7–8",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=7",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00041:4",
+      "title": "Principles of Data Science",
+      "locator": "§6.5 Other Machine Learning Techniques — Working with Big Data",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-5-other-machine-learning-techniques",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:40:55",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "pp. 40–41",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=40",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00062:2",
+      "title": "Principles of Data Science",
+      "locator": "§2.5 Handling Large Datasets — Data Storage",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-5-handling-large-datasets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00062:0",
+      "title": "Principles of Data Science",
+      "locator": "§2.5 Handling Large Datasets — Overview",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-5-handling-large-datasets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fsb-ai-ml-2017:10:10",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 10–11",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=10",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fsb-ai-ml-2017:34:48",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 34–35",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=34",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fsb-ai-ml-2017:5:2",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "p. 5",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=5",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fsb-ai-ml-2017:31:43",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "p. 31",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=31",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Big Data, Machine Learning and AI in Finance",
+      "summary": "Modern finance firms collect huge, messy datasets and use algorithms that learn from them to forecast, classify and automate tasks. This LOS explains the vocabulary and the main uses and limits of these tools in fintech and investment management.",
+      "sections": [
+        {
+          "heading": "Big data: more than just a lot of numbers",
+          "body_markdown": "**Big data** means datasets so large or complex that ordinary spreadsheets and traditional tools struggle to store and analyse them. The standard way to describe it is the three Vs:\n\n- **Volume**: the sheer amount of data (terabytes and beyond).\n- **Velocity**: the speed at which data is created and has to be processed, such as streaming price quotes.\n- **Variety**: the mix of formats. *Structured* data fits neatly in rows and columns (prices, financial statement figures). *Unstructured* data does not (news text, social media posts, images, satellite photos, sensor readings). *Semi-structured* data sits in between.\n\nMany texts add a fourth V, **veracity** (how reliable the data is). Think of a library: volume is how many books, velocity is how fast new ones arrive, variety is whether they are novels, maps, photos and videos. In finance, data that goes beyond the traditional (company filings and market prices) is called **alternative data**. Examples are web traffic, card transactions, satellite images of car parks and text sentiment."
+        },
+        {
+          "heading": "AI, machine learning and deep learning: nested ideas",
+          "body_markdown": "**Artificial intelligence (AI)** is the broad field of building computer systems that perform tasks that normally need human intelligence. **Machine learning (ML)** is one part of AI. In ML an **algorithm** (a step-by-step procedure) improves its performance from experience, with little or no human tuning of the rules. **Deep learning** is a part of ML that uses many-layered **neural networks**, which are loosely inspired by the brain, and it can pick up very complex patterns.\n\nThink of Russian dolls: AI contains ML, and ML contains deep learning. Big data analytics is the use of such techniques on very large datasets. Some AI is not ML, for example rule-based systems that encode expert logic by hand.\n\nML is good at **prediction, classification and optimisation**, for example forecasting whether a bond issuer will be investment grade or high yield next year. It is generally *not* a tool for establishing **causation**, such as explaining why yields rose. ML patterns are also not limited to straight-line relationships, which makes it more flexible than ordinary linear regression."
+        },
+        {
+          "heading": "Three ways machines learn",
+          "body_markdown": "- **Supervised learning**: the training data comes with **labels**, meaning the known right answers. Like a student who studies past exam questions with the answer key. Example: past loans tagged *defaulted* or *repaid* are used to predict default for new loans.\n- **Unsupervised learning**: the data has no labels and the algorithm looks for structure itself. Like sorting a pile of unmarked photos into piles of similar ones. Examples: grouping similar companies (clustering), or letting thousands of documents reveal their main themes (topic modelling).\n- **Reinforcement learning**: the algorithm tries actions and receives feedback or rewards, and learns which actions work best over time. Like training a dog with treats. An example is a trading-execution algorithm that learns how to split a large order to keep costs low.\n\nA key hazard is **overfitting**: the model memorises noise and quirks in the training sample, so it looks brilliant on data it has seen and performs poorly on new data. **Underfitting** is the opposite: the model is too simple and does badly even on the training data."
+        },
+        {
+          "heading": "Where finance actually uses these tools",
+          "body_markdown": "**Investment management**\n- Searching large and varied datasets, including alternative data, for signals of higher or less-correlated returns.\n- **Text analytics and natural language processing (NLP)**: reading filings, news and social media to gauge tone or sentiment, for example by counting negative words, or finding themes with topic modelling.\n- Algorithmic trading, trade-execution optimisation, back-testing and estimating the market impact of large trades.\n- Risk management, such as spotting excessive risk or designing hedges.\n\n**Fintech and wider financial services**\n- **Credit scoring** and lending decisions, which can widen access to credit for people and small firms with little credit history.\n- **Robo-advisors**: digital platforms that give automated advice or manage portfolios with little human involvement.\n- Pricing insurance and automating customer service.\n- **RegTech** (tech used by firms to meet regulation and compliance) and **SupTech** (tech used by supervisors), plus fraud detection and surveillance.\n\nMany applications are **augmented intelligence**: the tool supports a human who supplies context and judgement, rather than replacing them."
+        },
+        {
+          "heading": "Limits, risks and ethics",
+          "body_markdown": "- **Data quality and overfitting**: poor, biased or unrepresentative data gives poor models, however sophisticated the algorithm.\n- **Interpretability**: complex models such as deep neural networks can be hard to explain, sometimes called black boxes, which makes oversight and client communication harder.\n- **Bias and discrimination**: even if sensitive attributes (race, gender and so on) are excluded, a model can reach discriminatory outcomes through **proxies** such as location.\n- **Privacy and security**: personalised services rely on personal data that must be protected.\n- **Market-wide effects**: if many firms use similar AI-driven strategies, trades may be crowded and volatility could rise. Wide use of AI-based optimisation could also encourage thinner liquidity buffers and higher leverage. On the positive side, it can improve efficiency, lower costs and strengthen risk detection."
+        }
+      ],
+      "worked_example": {
+        "problem": "An asset manager runs three projects: (1) it trains a model on 20 years of company data, each firm tagged by whether it later cut its dividend, to predict dividend cuts; (2) it feeds 50,000 untagged news articles into an algorithm that groups them into recurring themes; (3) it uses a trading algorithm that tries different order-slicing tactics and adjusts based on realised trading costs. Classify each project and name one risk to watch for.",
+        "steps": [
+          "1. Project 1 has labelled outcomes (dividend cut or not). The model learns from known answers, so it is supervised learning.",
+          "2. Project 2 has no labels, and the algorithm discovers themes by itself. This is unsupervised learning (topic modelling). The input is unstructured text, which also illustrates big data variety.",
+          "3. Project 3 involves taking actions and receiving cost feedback that shapes future actions. This is reinforcement learning.",
+          "4. Risk check for project 1: if the model fits quirks of the 20-year sample too closely, it may be overfitted and forecast poorly on new data. Testing on data the model has not seen helps detect this.",
+          "5. Risk for projects 2 and 3: themes may be hard to interpret or act on, and a strategy trained on past market conditions may behave unpredictably in new ones. A human should review the output."
+        ],
+        "answer": "Project 1 is supervised learning, project 2 is unsupervised learning, and project 3 is reinforcement learning. Overfitting is a key risk for project 1.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Mixing up the nesting: ML is a subset of AI, and deep learning is a subset of ML, not the other way round.",
+        "Calling a task supervised just because it involves prediction. The test is whether the training data has labels (known answers). No labels means unsupervised; learning by action and feedback means reinforcement.",
+        "Believing ML is mainly for finding causes. Its strength is prediction, classification and pattern detection, not proving why something happened.",
+        "Treating a model with excellent results on its training data as proven. That may be overfitting, and what matters is performance on new data.",
+        "Assuming that removing sensitive variables such as race or gender guarantees a fair model. Proxy variables can recreate the same bias."
+      ],
+      "builds_on": [
+        "Regression and statistical inference basics",
+        "Structured versus unstructured data",
+        "Sampling and data quality"
+      ],
+      "leads_to": [
+        "Model validation and overfitting",
+        "Algorithmic trading and robo-advice",
+        "Ethics in AI use and data privacy"
+      ],
+      "cited_chunk_ids": [
+        "fsb-ai-ml-2017:7:5",
+        "fsb-ai-ml-2017:8:6",
+        "os:principles-data-science:m00041:4",
+        "fsb-ai-ml-2017:39:56",
+        "fsb-ai-ml-2017:5:2",
+        "fsb-ai-ml-2017:31:43",
+        "fsb-ai-ml-2017:34:48",
+        "fsb-ai-ml-2017:10:10"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fund processes tick-by-tick price feeds that arrive every millisecond and must be handled as they stream in. Which characteristic of big data does this situation emphasise most?",
+        "options": [
+          {
+            "text": "Velocity: data is generated and must be handled at very high speed",
+            "value": null,
+            "explanation": "Correct. Velocity refers to how fast data is created and processed, and streaming millisecond feeds are the classic example."
+          },
+          {
+            "text": "Variety: data arrives in many formats such as text, images and tables",
+            "value": null,
+            "explanation": "Variety concerns the mix of data types and formats. The scenario is about speed, not format, so this confuses variety with velocity."
+          },
+          {
+            "text": "Volume: the dataset is very large in total storage size",
+            "value": null,
+            "explanation": "Volume concerns total size. Rapid arrival is not the same as a large stored total, so this confuses volume with velocity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00041:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about how AI, machine learning and deep learning relate to each other is correct?",
+        "options": [
+          {
+            "text": "Deep learning is the broadest field, containing both AI and machine learning",
+            "value": null,
+            "explanation": "This reverses the nesting. Deep learning is the narrowest of the three."
+          },
+          {
+            "text": "Machine learning is a branch of AI, and deep learning is a branch of machine learning",
+            "value": null,
+            "explanation": "Correct. The fields nest like Russian dolls: AI contains ML, and ML contains deep learning."
+          },
+          {
+            "text": "AI is a branch of machine learning, built from supervised and unsupervised methods",
+            "value": null,
+            "explanation": "This reverses AI and ML. Machine learning is one part of the broader AI field."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:7:5",
+          "fsb-ai-ml-2017:8:6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst has 15 years of loan records, each marked as defaulted or repaid, and trains an algorithm to predict default for new applicants. What type of learning is this?",
+        "options": [
+          {
+            "text": "Unsupervised learning, because no human writes the algorithm's rules",
+            "value": null,
+            "explanation": "Unsupervised learning means the data has no labels. Here every record is labelled, so this mistakes automatic rule-finding for lack of labels."
+          },
+          {
+            "text": "Reinforcement learning, because the model improves with experience",
+            "value": null,
+            "explanation": "All ML improves with experience. Reinforcement learning specifically involves actions and feedback, which is not described here."
+          },
+          {
+            "text": "Supervised learning, because past outcomes act as labels for training",
+            "value": null,
+            "explanation": "Correct. The default/repaid tags are labels, and the model learns to map borrower characteristics to those known outcomes."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:39:56"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A manager gives an algorithm thousands of untagged earnings-call transcripts and asks it to uncover the main recurring themes. Which description fits best?",
+        "options": [
+          {
+            "text": "Unsupervised learning, since the data has no labels and the algorithm finds structure on its own",
+            "value": null,
+            "explanation": "Correct. Topic modelling lets the data define its own themes, with no labelled answers supplied."
+          },
+          {
+            "text": "Supervised learning, since text data always comes with a label for each document",
+            "value": null,
+            "explanation": "Text is unstructured and here has no tags. Assuming that text is automatically labelled is the mistake."
+          },
+          {
+            "text": "Reinforcement learning, since the algorithm is rewarded each time it names a theme",
+            "value": null,
+            "explanation": "No actions and no reward feedback are described. This confuses finding patterns with learning from rewards."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:39:56"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A trade-execution algorithm tries different ways of splitting a large order and updates its approach based on the trading costs it actually incurs. Which type of learning is closest?",
+        "options": [
+          {
+            "text": "Supervised learning, since realised costs are labels attached to every order",
+            "value": null,
+            "explanation": "Supervised learning trains on a fixed labelled dataset. Here the algorithm learns from feedback on its own actions, so calling the costs labels misses the key feature."
+          },
+          {
+            "text": "Reinforcement learning, since the algorithm learns by taking actions and receiving feedback",
+            "value": null,
+            "explanation": "Correct. Taking actions and adjusting based on feedback or rewards is the defining feature of reinforcement learning."
+          },
+          {
+            "text": "Unsupervised learning, since it groups similar orders together",
+            "value": null,
+            "explanation": "Unsupervised methods find structure in unlabelled data. Grouping is not what is described, and feedback from actions is the key element."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:39:56"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A model that predicts stock outperformance shows 98% accuracy on the data used to build it but only 55% on new data it has never seen (random guessing gives 50%). What is the most likely explanation?",
+        "options": [
+          {
+            "text": "Underfitting, because the model is too simple to capture any real pattern",
+            "value": null,
+            "explanation": "An underfitted model performs poorly on the training data too. Excellent training accuracy rules this out."
+          },
+          {
+            "text": "Low velocity, because the data is not arriving fast enough for the model",
+            "value": null,
+            "explanation": "Velocity describes the speed of data arrival, not a gap between training and new-data accuracy."
+          },
+          {
+            "text": "Overfitting, because the model learned noise specific to the training sample",
+            "value": null,
+            "explanation": "Correct. Near-perfect results on training data combined with weak results on new data is the classic sign of overfitting."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which task is most consistent with where machine learning adds value, as opposed to where it is generally not the tool of choice?",
+        "options": [
+          {
+            "text": "Proving which macroeconomic variables caused government bond yields to rise",
+            "value": null,
+            "explanation": "Causal inference is not the main strength of ML. It excels at prediction and classification, so this confuses the two."
+          },
+          {
+            "text": "Classifying whether a firm's debt will be investment grade or high yield next year",
+            "value": null,
+            "explanation": "Correct. This is a classification and prediction problem, which is a typical ML strength."
+          },
+          {
+            "text": "Establishing that a policy rate change caused a currency to appreciate",
+            "value": null,
+            "explanation": "Establishing a cause is a causal inference task, not a prediction or classification task, and ML is not generally the tool for it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:8:6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A lender builds a credit-scoring model and deliberately leaves out race and gender. Which statement about the risk of discriminatory outcomes is most accurate?",
+        "options": [
+          {
+            "text": "The risk remains, since factors such as location can act as proxies for sensitive traits",
+            "value": null,
+            "explanation": "Correct. Models can find features correlated with sensitive characteristics, so outcomes may still be discriminatory even when those fields are excluded."
+          },
+          {
+            "text": "The risk disappears, since excluding sensitive fields guarantees unbiased results",
+            "value": null,
+            "explanation": "Exclusion does not guarantee fairness. This overlooks proxy variables."
+          },
+          {
+            "text": "The risk is only present in human underwriting, since algorithms apply rules neutrally",
+            "value": null,
+            "explanation": "Algorithms learn from data that may reflect past bias, so they are not automatically neutral."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:31:43"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the three Vs of big data?",
+        "back": "Volume (amount of data), velocity (speed of creation and processing) and variety (mix of structured, semi-structured and unstructured formats). Veracity (reliability) is often added as a fourth.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00041:4"
+        ]
+      },
+      {
+        "front": "How do supervised, unsupervised and reinforcement learning differ?",
+        "back": "Supervised: trains on labelled data (known answers). Unsupervised: finds structure in unlabelled data. Reinforcement: learns by taking actions and receiving feedback or rewards.",
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:39:56"
+        ]
+      },
+      {
+        "front": "How are AI, machine learning and deep learning related?",
+        "back": "AI is the broad field. Machine learning is a part of AI where algorithms improve from experience. Deep learning is a part of ML that uses many-layered neural networks.",
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:7:5",
+          "fsb-ai-ml-2017:8:6"
+        ]
+      },
+      {
+        "front": "What is overfitting, and how does it show up?",
+        "back": "The model learns noise in its training sample rather than true patterns. It performs very well on training data but poorly on new data.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Name four ways AI and big data are used in finance.",
+        "back": "Text and sentiment analysis, credit scoring, robo-advice and algorithmic trading or execution. RegTech, SupTech, fraud detection and risk management are other uses.",
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:5:2",
+          "fsb-ai-ml-2017:39:56"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:57:53.291Z",
+      "purpose": "generate",
+      "losId": "quant-11-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9572,
+      "outputTokens": 8514,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1054218,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "losId": "quant-02-los1",
+  "losText": "calculate, compare, and interpret different types of returns for financial assets, instruments, and indicators",
+  "moduleId": "quant-02",
+  "moduleTitle": "Types of Financial Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:19:02.814Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-rec01:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 1: Present Value",
+      "locator": "pp. 1–7",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7fd4ce059d9bd0086fc9b50e3cd99540_MIT15_401F08_rec01.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:26:6",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 26–30",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=26",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.5",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62299:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.5 Geometric Mean — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-5-geometric-mean",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "commonfund-twr-vs-irr:1:0",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 1–2",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=1",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:30:7",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 30–33",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=30",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:12:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 12–14",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "gips-2020-firms:31:28",
+      "title": "Global Investment Performance Standards (GIPS) for Firms, 2020 (CFA Institute)",
+      "locator": "pp. 31–32",
+      "url": "https://www.gipsstandards.org/wp-content/uploads/2021/03/2020_gips_standards_firms.pdf#page=31",
+      "license": "© 2019 CFA Institute. All rights reserved (free public PDF on gipsstandards.org; private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:5:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 5–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=5",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "russell-us-indexes-methodology:26:31",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 26",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=26",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Measuring Returns: From a Single Period to a Whole Track Record",
+      "summary": "Returns can be measured over one holding period, averaged over many periods, adjusted for cash flows, fees, taxes, inflation or borrowing, and expressed on a yearly basis. Each version answers a different question, so you need to know which to use and when.",
+      "sections": [
+        {
+          "heading": "Start simple: the holding period return",
+          "body_markdown": "A **holding period return (HPR)** is the total gain on an investment over the time you owned it, as a fraction of what you paid at the start. The gain has two parts: the change in price and any income received, such as dividends or coupons.\n\n$$HPR=\\frac{P_1-P_0+I}{P_0}$$\n\nIt works like a school grade: the points you scored divided by the points available. The result is a percentage of your *starting* money.\n\nAn HPR may cover three months, two years or any other length. To compare investments held for different lengths of time, convert each to a yearly figure. **Annualizing** compounds the HPR: if a quarterly return is $r_q$, the annual equivalent is $(1+r_q)^4-1$. Simply multiplying by 4 ignores interest earned on interest and understates the compounded annual return whenever $r_q>0$.\n\nIf you have a series of returns, there is also the **continuously compounded return**, $\\ln(1+HPR)$. It is a different way of expressing the same growth and has the convenient property that returns over several periods can be added together."
+        },
+        {
+          "heading": "Averaging several periods: arithmetic vs. geometric",
+          "body_markdown": "Suppose you know a fund's return in each of several years and want one \"average\" figure. There are two standard answers.\n\n- **Arithmetic mean**: add the returns and divide by how many there are. It describes a *typical single period* and is the natural estimate of what to expect in a randomly chosen year.\n- **Geometric mean**: compound the returns, then take the root. It is the single constant yearly return that would have turned the starting amount into the ending amount, so it describes *actual growth over the whole span*.\n\n$$R_G=\\left[\\prod_{t=1}^{n}(1+R_t)\\right]^{1/n}-1$$\n\nImagine a hill walk. The arithmetic mean is the average of your speeds on each stretch. The geometric mean is the steady pace that would have got you to the same place in the same total time.\n\nThe geometric mean is never larger than the arithmetic mean. They are equal only if every return is identical, and the gap widens the more the returns vary. A +40% year followed by a −40% year averages 0% arithmetically, yet the investor ends with only 84% of the starting money."
+        },
+        {
+          "heading": "When cash moves in and out: time-weighted vs. money-weighted",
+          "body_markdown": "If an investor adds or withdraws money during the period, a simple average of returns can mislead. Two measures handle this differently.\n\n**Time-weighted return (TWR)**: value the portfolio just before each cash flow, which splits the period into sub-periods. Calculate each sub-period's return and compound them. Because every sub-period counts equally whatever the amount invested, deposits and withdrawals have no influence. TWR is therefore the standard way to judge a **manager** who does not control when clients add or remove money.\n\n**Money-weighted return (MWR)**: the **internal rate of return (IRR)** of the investor's actual cash flows. It is the discount rate that sets the present value of money put in equal to the present value of money taken out, with the ending value treated as a final withdrawal. Large amounts invested during good or bad stretches influence it heavily. It therefore measures what the **investor** actually experienced, including the timing of their own decisions. It is also the usual measure for private funds, where the manager controls when capital is called and returned.\n\nIf the investor adds money before a strong period, the MWR is usually above the TWR. If they add before a weak period, it is below."
+        },
+        {
+          "heading": "Adjusting the return you quote",
+          "body_markdown": "The same investment can be described by several returns depending on what is deducted.\n\n- **Gross return**: before management fees and other expenses (trading costs are still deducted). **Net return**: after fees and expenses. Net is what the client actually keeps.\n- **Pre-tax vs. after-tax return**: the second subtracts taxes on income and realized gains.\n- **Nominal return**: the return in current money, not adjusted for inflation. **Real return**: purchasing-power growth after removing inflation:\n\n$$r_{real}=\\frac{1+r_{nominal}}{1+\\pi}-1$$\n\nThe quick approximation $r_{nominal}-\\pi$ is close, but the exact division is the correct form.\n- **Leveraged return**: the return on your own money (equity) when you also borrow to invest. Gains and losses on the *whole* position are measured against only your equity, after paying interest on the loan. Leverage magnifies results in both directions.\n\n$$R_L=\\frac{\\text{gain on total position}-\\text{interest on borrowing}}{\\text{equity}}$$"
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund earned annual returns of +8%, −5%, +12% and +3% over four years. Find the geometric mean annual return and compare it with the arithmetic mean. Round to two decimals in percent.",
+        "steps": [
+          "Convert each return to a growth factor by adding 1: 1.08, 0.95, 1.12, 1.03.",
+          "Multiply the factors: 1.08 × 0.95 = 1.0260; × 1.12 = 1.14912; × 1.03 = 1.1835936. Over four years, $1 grew to about $1.1836.",
+          "Take the fourth root (power 1/4). On the BA II Plus, key 1.1835936 [y^x] 4 [1/x] [=]. The display shows about 1.04304. Keep full precision from the previous step rather than rounding.",
+          "Subtract 1: 1.04304 − 1 = 0.04304, which is 4.30% per year.",
+          "Arithmetic mean for comparison: (8 − 5 + 12 + 3)/4 = 18/4 = 4.50%.",
+          "Check: 4.50% is greater than 4.30%, as it must be. The geometric mean is the figure that matches actual growth: 1.0430^4 ≈ 1.1836."
+        ],
+        "answer": "The geometric mean return is about 4.30% per year, compared with an arithmetic mean of 4.50%.",
+        "answer_value": 0.043,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.08,-0.05,0.12,0.03]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Holding period return",
+          "latex": "HPR=\\frac{P_1-P_0+I}{P_0}",
+          "where": "$P_0$ = price at the start, $P_1$ = price at the end, $I$ = income (dividends or coupons) received during the period."
+        },
+        {
+          "name": "Annualizing a return",
+          "latex": "R_{annual}=(1+HPR)^{m}-1",
+          "where": "$HPR$ = return for one sub-year period, $m$ = number of such periods in a year (e.g. 4 for quarters). For a holding period longer than a year, use $m<1$ (e.g. $m=1/2$ for a two-year HPR)."
+        },
+        {
+          "name": "Arithmetic mean return",
+          "latex": "R_A=\\frac{1}{n}\\sum_{t=1}^{n}R_t",
+          "where": "$R_t$ = return in period $t$, $n$ = number of periods."
+        },
+        {
+          "name": "Geometric mean return",
+          "latex": "R_G=\\left[\\prod_{t=1}^{n}(1+R_t)\\right]^{1/n}-1",
+          "where": "$R_t$ = return in period $t$ as a decimal, $n$ = number of equal-length periods."
+        },
+        {
+          "name": "Time-weighted return (multi-period)",
+          "latex": "TWR=\\prod_{j=1}^{k}(1+R_j)-1",
+          "where": "$R_j$ = return of sub-period $j$, measured between consecutive cash flows; $k$ = number of sub-periods. Annualize by taking the root that matches the number of years."
+        },
+        {
+          "name": "Money-weighted return (IRR)",
+          "latex": "0=\\sum_{t=0}^{N}\\frac{CF_t}{(1+IRR)^t}",
+          "where": "$CF_t$ = investor cash flow at time $t$ (deposits negative, withdrawals and the ending value positive), $IRR$ = money-weighted return per period."
+        },
+        {
+          "name": "Real return",
+          "latex": "r_{real}=\\frac{1+r_{nominal}}{1+\\pi}-1",
+          "where": "$r_{nominal}$ = nominal return, $\\pi$ = inflation rate over the same period."
+        },
+        {
+          "name": "Leveraged return",
+          "latex": "R_L=\\frac{R_P\\cdot V_P-r_D\\cdot V_D}{V_E}",
+          "where": "$R_P$ = return on the total position, $V_P$ = total invested, $r_D$ = borrowing rate, $V_D$ = amount borrowed, $V_E$ = own equity."
+        },
+        {
+          "name": "Continuously compounded return",
+          "latex": "r_{cc}=\\ln(1+HPR)",
+          "where": "$HPR$ = holding period return as a decimal; $\\ln$ is the natural logarithm."
+        }
+      ],
+      "exam_traps": [
+        "Using the arithmetic mean to describe how much an investment actually grew over several years. Growth over a span is captured by the geometric mean, which is lower whenever returns vary.",
+        "Annualizing a quarterly or monthly return by multiplying (×4 or ×12) rather than compounding. Compounding gives a higher figure for positive returns.",
+        "Choosing money-weighted return to judge a manager who has no control over client deposits and withdrawals. TWR is the fair measure there; MWR reflects the investor's timing decisions.",
+        "Calculating real return as nominal minus inflation and treating it as exact. The exact formula divides $(1+r_{nominal})$ by $(1+\\pi)$.",
+        "In leveraged return questions, dividing by total assets rather than equity, or forgetting to subtract interest on the borrowed money."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "Interest rates and effective annual rate",
+        "Percentages and growth factors"
+      ],
+      "leads_to": [
+        "Measures of central tendency",
+        "Risk-adjusted performance such as the Sharpe ratio",
+        "Portfolio return and risk",
+        "Performance evaluation and GIPS composites"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00093:0.1",
+        "os:principles-finance-2e:m00093:0.5",
+        "smu-fma-ch4-rates-of-return:26:6",
+        "smu-fma-ch4-rates-of-return:30:7",
+        "os:introductory-business-statistics-2e:m62299:0.1",
+        "commonfund-twr-vs-irr:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An investor buys a share for $50. During the year the share pays a dividend of $2, and at the end of the year the investor sells it for $54. What is the holding period return?",
+        "options": [
+          {
+            "text": "8.00%",
+            "value": 0.08,
+            "explanation": "Counts only the $4 price gain and leaves out the $2 dividend. HPR includes income as well as price change."
+          },
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "Correct: (54 − 50 + 2) / 50 = 6 / 50 = 12.00%. Total gain of price change plus income, divided by the starting price."
+          },
+          {
+            "text": "11.11%",
+            "value": 0.1111,
+            "explanation": "Divides the $6 total gain by the ending price ($54) instead of the beginning price ($50)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":50,\"endPrice\":54,\"income\":2}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A fund earned annual returns of +10%, −10% and +20% over three years. What is the geometric mean annual return? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "5.91%",
+            "value": 0.0591,
+            "explanation": "Correct: 1.10 × 0.90 × 1.20 = 1.188. The cube root is about 1.0591, so the geometric mean is about 5.91%."
+          },
+          {
+            "text": "6.67%",
+            "value": 0.0667,
+            "explanation": "This is the arithmetic mean, (10 − 10 + 20)/3. It ignores compounding and so overstates the growth rate the investor actually earned."
+          },
+          {
+            "text": "6.27%",
+            "value": 0.0627,
+            "explanation": "Takes the total compounded gain (18.8%) and divides by 3. Compounded growth must be rooted, not divided."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.1,-0.1,0.2]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.5",
+          "smu-fma-ch4-rates-of-return:26:6"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An investor puts $100 into a fund at the start of year 1. Just before a second deposit at the end of year 1, the account is worth $110. The investor then deposits another $100, and the account is worth $250 at the end of year 2. What is the money-weighted annual return, to two decimals in percent? (There are no other cash flows.)",
+        "options": [
+          {
+            "text": "14.43%",
+            "value": 0.1443,
+            "explanation": "This is the annualized time-weighted return: sub-period returns of 10% and 250/210 − 1 = 19.05% compound to 1.3095, and the square root less 1 gives 14.43%. It is not the IRR of the cash flows."
+          },
+          {
+            "text": "14.52%",
+            "value": 0.1452,
+            "explanation": "Takes the plain average of the two sub-period returns (10% and 19.05%). That is neither the money-weighted nor the time-weighted return."
+          },
+          {
+            "text": "15.83%",
+            "value": 0.1583,
+            "explanation": "Correct: solve the IRR of −100 (t=0), −100 (t=1), +250 (t=2). This gives about 15.83%. It sits above the time-weighted return because the larger second deposit was invested during the stronger year."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "mwr",
+          "args_json": "{\"cashflows\":[-100,-100,250]}"
+        },
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:1:0",
+          "smu-fma-ch4-rates-of-return:30:7"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond portfolio earned a nominal return of 8% over a year in which inflation was 3%. What was the real return over the year, to two decimals in percent?",
+        "options": [
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Subtracts inflation from the nominal return. This is only an approximation, not the exact real return."
+          },
+          {
+            "text": "4.85%",
+            "value": 0.0485,
+            "explanation": "Correct: (1.08 / 1.03) − 1 = 0.0485, so 4.85%. The real return is found by dividing growth factors."
+          },
+          {
+            "text": "11.24%",
+            "value": 0.1124,
+            "explanation": "Multiplies the growth factors, 1.08 × 1.03, instead of dividing. This adds inflation to the return rather than removing it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "realReturn",
+          "args_json": "{\"nominal\":0.08,\"inflation\":0.03}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A pension consultant is comparing two equity managers. Clients of each fund add and withdraw money whenever they wish, and the managers have no say in when this happens. Which measure is the most appropriate for judging the managers' skill?",
+        "options": [
+          {
+            "text": "Time-weighted return, because it is unaffected by the size and timing of client flows",
+            "value": null,
+            "explanation": "Correct: TWR compounds sub-period returns measured between cash flows, so flows that the manager does not control do not distort the result."
+          },
+          {
+            "text": "Money-weighted return, because it reflects the amounts invested in each period",
+            "value": null,
+            "explanation": "Confuses the manager's performance with the investor's experience. MWR is swayed by when clients choose to invest, which the manager cannot control."
+          },
+          {
+            "text": "Arithmetic mean of annual returns, because it ignores all cash flow timing",
+            "value": null,
+            "explanation": "An arithmetic mean does not account for compounding across periods, and it is not the standard measure of a manager's cumulative performance."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:1:0",
+          "gips-2020-firms:31:28"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fund returns +40% in year 1 and −40% in year 2. Which statement about its average annual returns is correct?",
+        "options": [
+          {
+            "text": "Both means are 0%, because the +40% and −40% cancel out",
+            "value": null,
+            "explanation": "Treats the two returns as additive. A 40% loss applies to a larger balance, so the investor does not break even."
+          },
+          {
+            "text": "The geometric mean is 0%, and the arithmetic mean is about −8.35%",
+            "value": null,
+            "explanation": "Swaps the two measures. The arithmetic mean is the simple average, 0%, and the geometric mean is the lower figure."
+          },
+          {
+            "text": "The arithmetic mean is 0%, and the geometric mean is about −8.35%",
+            "value": null,
+            "explanation": "Correct: the arithmetic mean is (40 − 40)/2 = 0%. The geometric mean is √(1.40 × 0.60) − 1 = √0.84 − 1 ≈ −8.35%, which reflects the actual loss of 16% over two years."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.5",
+          "smu-fma-ch4-rates-of-return:26:6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor uses $50 of their own money and $50 borrowed at 4% annual interest to buy $100 of assets. By year-end the assets are worth $110, and they produced no other income. What is the return on the investor's own equity?",
+        "options": [
+          {
+            "text": "20.00%",
+            "value": null,
+            "explanation": "Divides the $10 gain by the $50 of equity but forgets to deduct the $2 interest on the loan."
+          },
+          {
+            "text": "16.00%",
+            "value": null,
+            "explanation": "Correct: gain of $10 less $2 interest (4% × $50) is $8, divided by $50 of equity = 16.00%."
+          },
+          {
+            "text": "8.00%",
+            "value": null,
+            "explanation": "Divides the net gain of $8 by total assets of $100 instead of the investor's equity of $50."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fund earns 2% in each quarter, with returns compounding. What annual return, to two decimals, does this correspond to?",
+        "options": [
+          {
+            "text": "8.24%",
+            "value": null,
+            "explanation": "Correct: annualizing compounds the quarterly return, 1.02^4 − 1 ≈ 8.24%, which includes interest earned on interest."
+          },
+          {
+            "text": "8.00%",
+            "value": null,
+            "explanation": "Multiplies 2% by 4. This ignores compounding and understates the annual return."
+          },
+          {
+            "text": "26.82%",
+            "value": null,
+            "explanation": "Raises 1.02 to the 12th power, using the number of months in a year instead of the number of quarters."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What two components make up a holding period return?",
+        "back": "Price change plus income received (dividends or coupons), divided by the beginning price: (P1 − P0 + I) / P0.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      {
+        "front": "Arithmetic vs. geometric mean return: which describes growth over a whole span, and which is larger?",
+        "back": "The geometric mean describes actual compounded growth over the period. The arithmetic mean (a typical single-period return) is always at least as large, and the gap widens as returns vary more.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.5",
+          "smu-fma-ch4-rates-of-return:30:7"
+        ]
+      },
+      {
+        "front": "How do time-weighted and money-weighted returns differ, and who is each suited to?",
+        "back": "TWR compounds sub-period returns and ignores cash-flow size and timing, so it suits evaluating a manager. MWR is the IRR of the investor's own cash flows, so it reflects the investor's timing and suits private-fund reporting.",
+        "cited_chunk_ids": [
+          "commonfund-twr-vs-irr:1:0",
+          "smu-fma-ch4-rates-of-return:30:7"
+        ]
+      },
+      {
+        "front": "How is a real return calculated from a nominal return and inflation?",
+        "back": "Real return = (1 + nominal) / (1 + inflation) − 1. Subtracting inflation is only a rough approximation.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How is a leveraged return calculated?",
+        "back": "(Gain on the whole position − interest on borrowing) divided by the investor's own equity, not total assets.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:19:02.814Z",
+      "purpose": "generate",
+      "losId": "quant-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10985,
+      "outputTokens": 12859,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1516978,
+      "stopReason": "end_turn"
+    }
+  ]
+}

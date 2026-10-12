@@ -1,0 +1,870 @@
+{
+  "losId": "quant-09-los3",
+  "losText": "describe Monte Carlo simulation and explain how it can be used in investment applications",
+  "moduleId": "quant-09",
+  "moduleTitle": "Simulation of Financial Asset Prices and Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:06:55.579Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-feds-2001-27-historical-simulation:23:29",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 23–24",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=23",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:17:20",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=17",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00058:4",
+      "title": "Principles of Data Science",
+      "locator": "§10.2 Validating Your Model — Sensitivity Analysis",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-2-validating-your-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:27:28",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 27–28",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m54422:1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§4.3 Geometric Distribution — Notation for the Geometric: G = Geometric Probability Distribution Function",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/4-3-geometric-distribution",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:22:27",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 22",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=22",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-data-science:m00025:1",
+      "title": "Principles of Data Science",
+      "locator": "§3.5 Discrete and Continuous Probability Distributions — Overview of Probability Distributions",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-5-discrete-and-continuous-probability-distributions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:171:163",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=171",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-data-science:m00058:1",
+      "title": "Principles of Data Science",
+      "locator": "§10.2 Validating Your Model — Stating Assumptions and Justifications",
+      "url": "https://openstax.org/books/principles-data-science/pages/10-2-validating-your-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:26:27",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 26–27",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=26",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:2:2",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 2–3",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=2",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00056:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.5 Equal Payments with a Financial Calculator and Excel — Solving Time Value of Money Problems Using a Financial Calculator",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-5-equal-payments-with-a-financial-calculator-and-excel",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Rehearsing the Future with Random Draws: Monte Carlo Simulation",
+      "summary": "Monte Carlo simulation estimates an uncertain outcome by running thousands of computer-generated 'what could happen' trials and studying the results. It matters because it handles products and risks that have no tidy formula, but its answers are only as good as the assumptions fed into it.",
+      "sections": [
+        {
+          "heading": "The intuition: a flight simulator for money",
+          "body_markdown": "A pilot-in-training does not learn by crashing real planes. A simulator throws thousands of random weather and failure combinations at them. **Monte Carlo simulation** does the same for finance: a computer generates a large number of random but plausible futures, and we study the collection of results instead of betting on one forecast. A **risk factor** is an input whose future value is uncertain, such as a stock price, interest rate or exchange rate. A **random number generator** is the routine that produces the random draws. Each **trial** is one full scenario, or one path through time, built from those draws. The name comes from the casino, because the method runs on chance."
+        },
+        {
+          "heading": "The recipe: five steps",
+          "body_markdown": "1) **Specify a model.** Assume a probability distribution for the risk factors, for example normally distributed returns, and say how the factors move together. A **parameter** is a number that pins down that distribution, such as a mean, a standard deviation or a correlation. 2) **Estimate the parameters**, usually from historical data. 3) **Generate many random draws** for the risk factors, consistent with those parameters. 4) **Revalue** the portfolio or security in every trial, which gives one outcome per trial. 5) **Summarise** the pile of outcomes with an average, a standard deviation or a chosen percentile. Because the draws come from an *assumed* distribution with *estimated* parameters, Monte Carlo is a parametric method. It sits between formula-based (variance-covariance) approaches and methods that reuse past data directly."
+        },
+        {
+          "heading": "What investors use it for",
+          "body_markdown": "**Valuing complex derivatives.** For an option whose payoff depends on the whole price path, there may be no closed-form formula. Simulate many price paths, compute the payoff on each, average the payoffs, then discount the average back to today at the risk-free rate. **Risk measurement.** *Value at risk (VaR)* is the loss that is expected to be exceeded only with a small chosen probability over a set horizon. Simulate many future portfolio values and read off the value at the chosen percentile, such as the 5th. **Planning.** Estimate the probability that a retirement portfolio runs out of money, or how likely a fund is to miss a return target. **Testing assumptions.** Change an input, rerun the simulation, and see how sensitive the answer is. This is a form of sensitivity analysis."
+        },
+        {
+          "heading": "Precision costs computing time",
+          "body_markdown": "A simulated average is an *estimate* with sampling error. Its standard error shrinks with the **square root** of the number of trials $N$, roughly $s/\\sqrt{N}$, where $s$ is the standard deviation of the trial outcomes. Making the estimate twice as precise therefore needs **four times** as many trials, not twice as many. Each trial may require repricing every instrument, so large runs can be slow and expensive."
+        },
+        {
+          "heading": "Limitations to remember",
+          "body_markdown": "**Garbage in, garbage out.** If the assumed distribution is wrong (for example, normal returns when real returns have fat tails), the output is wrong however many trials you run. More trials cut random sampling noise but do not fix a flawed model. This weakness is called **model risk**. Monte Carlo is also computationally demanding, and it gives numbers rather than explanations: it does not tell you *why* a risk is large. It also depends on the quality of the estimated parameters. Contrast this with historical simulation, which reuses actual past changes and so does not need an assumed distribution. Monte Carlo draws from a distribution you choose."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst models a portfolio worth 100 today. She runs a Monte Carlo simulation that produces five trial values for the portfolio one year from now: 118, 94, 107, 131 and 85. Using only these trials, what is the simulated estimate of the expected portfolio value in one year?",
+        "steps": [
+          "Each trial is one random scenario for the portfolio's value in one year. Step 4 of the recipe has already been done for us.",
+          "Summarise with the average (step 5). Add the outcomes: 118 + 94 + 107 + 131 + 85 = 535.",
+          "Divide by the number of trials: 535 / 5 = 107.",
+          "BA II Plus check: press 2ND [DATA], then 2ND [CLR WORK]. Enter 118 ENTER ↓ ↓ 94 ENTER ↓ ↓ 107 ENTER ↓ ↓ 131 ENTER ↓ ↓ 85 ENTER.",
+          "Then press 2ND [STAT], press 2ND [SET] until the display shows 1-V, and press ↓ to scroll. The display shows n = 5 and X̄ = 107.",
+          "Interpretation: the simulated expected value is about 107, roughly 7% above today's 100. Five trials is far too few for a real study, and a real run would use thousands."
+        ],
+        "answer": "The simulated estimate of the expected portfolio value is 107.",
+        "answer_value": 107,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[118,94,107,131,85]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Monte Carlo estimate of an expected value",
+          "latex": "\\bar{X}=\\frac{1}{N}\\sum_{i=1}^{N}X_i",
+          "where": "$X_i$ is the outcome of trial $i$ (for example, portfolio value at the horizon) and $N$ is the number of trials."
+        },
+        {
+          "name": "Standard error of the simulated mean",
+          "latex": "SE=\\frac{s}{\\sqrt{N}}",
+          "where": "$s$ is the sample standard deviation of the trial outcomes and $N$ is the number of trials. Quadrupling $N$ halves $SE$."
+        },
+        {
+          "name": "Simulated value of a derivative",
+          "latex": "V_0\\approx\\frac{1}{N}\\sum_{i=1}^{N}\\frac{\\text{Payoff}_i}{(1+r)^{T}}",
+          "where": "$\\text{Payoff}_i$ is the derivative's payoff in trial $i$, $r$ is the risk-free rate per year, $T$ is the time to expiry in years and $N$ is the number of trials."
+        }
+      ],
+      "exam_traps": [
+        "Confusing Monte Carlo with historical simulation or bootstrapping: Monte Carlo draws random outcomes from an assumed distribution with estimated parameters, while the other methods reuse actual past observations.",
+        "Believing that more trials make a bad model good: extra trials reduce sampling noise only, and the bias from wrong assumptions (such as ignoring fat tails) remains.",
+        "Thinking that doubling the precision needs double the trials: because error shrinks with the square root of $N$, you need four times as many.",
+        "Forgetting to discount the average simulated payoff back to today when valuing a derivative, so that a future value is reported as a present value.",
+        "Treating the simulation as an exact answer or an explanation: it gives a statistical estimate of a distribution and does not show the cause of the risk."
+      ],
+      "builds_on": [
+        "Probability distributions (normal, lognormal)",
+        "Expected value and standard deviation",
+        "Sampling and standard error",
+        "Time value of money and discounting"
+      ],
+      "leads_to": [
+        "Historical simulation",
+        "Bootstrap resampling",
+        "Value at risk",
+        "Option pricing",
+        "Sensitivity and scenario analysis"
+      ],
+      "cited_chunk_ids": [
+        "occ-risk-mgmt-derivatives:171:163",
+        "os:principles-data-science:m00058:4",
+        "occ-risk-mgmt-derivatives:27:28"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst plans a Monte Carlo simulation of a portfolio's value in one year. Which action is the correct first step?",
+        "options": [
+          {
+            "text": "Generate thousands of random draws for each risk factor",
+            "value": null,
+            "explanation": "Draws cannot be generated until you know which distribution and parameters to draw from. This skips the model-specification step."
+          },
+          {
+            "text": "Choose a probability model for the risk factors and estimate its parameters",
+            "value": null,
+            "explanation": "Correct. The method starts by assuming a distribution (and how the factors move together) and estimating its parameters, usually from historical data. Random draws, revaluation and summarising follow."
+          },
+          {
+            "text": "Read the loss at the chosen percentile of the portfolio values",
+            "value": null,
+            "explanation": "Reading a percentile is the last step, after trials have been run and portfolio values collected."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best distinguishes Monte Carlo simulation from historical simulation when both are used to estimate portfolio risk?",
+        "options": [
+          {
+            "text": "It resamples actual past changes in the risk factors, one observation at a time",
+            "value": null,
+            "explanation": "This describes historical simulation or bootstrapping, not Monte Carlo. It confuses the sources of the draws."
+          },
+          {
+            "text": "It requires no assumption about the distribution of the risk factors",
+            "value": null,
+            "explanation": "Monte Carlo is parametric: it needs an assumed distribution. The no-distribution-assumption feature belongs to historical simulation."
+          },
+          {
+            "text": "It draws random outcomes from an assumed distribution with estimated parameters",
+            "value": null,
+            "explanation": "Correct. Monte Carlo generates hypothetical outcomes from a chosen parametric model, with parameters such as variances and covariances usually estimated from past data."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following tasks is the best candidate for Monte Carlo simulation?",
+        "options": [
+          {
+            "text": "Valuing an option whose payoff depends on prices along the whole path, with no closed-form formula",
+            "value": null,
+            "explanation": "Correct. Simulating many price paths, computing each payoff and discounting the average is the classic use when there is no formula."
+          },
+          {
+            "text": "Discounting a bond's fixed, known coupons and principal at a given yield",
+            "value": null,
+            "explanation": "Cash flows and the discount rate are certain, so ordinary discounting gives the exact answer. Simulation would add nothing."
+          },
+          {
+            "text": "Computing a stock's holding period return from its start and end prices",
+            "value": null,
+            "explanation": "This is a direct calculation from known prices with no uncertainty to simulate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A Monte Carlo estimate of a portfolio's value at risk has a certain sampling error. An analyst wants to cut that sampling error (the standard error) in half. Holding everything else constant, how many trials are needed relative to the original number?",
+        "options": [
+          {
+            "text": "Twice as many trials",
+            "value": null,
+            "explanation": "This assumes error falls in proportion to the number of trials. Error actually falls with the square root of the number of trials."
+          },
+          {
+            "text": "Sixteen times as many trials",
+            "value": null,
+            "explanation": "This squares the correct multiplier twice over. Halving the error needs a factor of 4, not 16, which would cut the error to one quarter."
+          },
+          {
+            "text": "Four times as many trials",
+            "value": null,
+            "explanation": "Correct. Standard error is proportional to $1/\\sqrt{N}$, so halving it needs $N$ to rise by a factor of 4."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A risk analyst's Monte Carlo VaR assumes normally distributed returns, but the asset's actual returns have fat tails, so the VaR is too low. She raises the number of trials from 10,000 to 1,000,000. What is the most likely effect?",
+        "options": [
+          {
+            "text": "It removes the bias, because more trials always converge to the true risk",
+            "value": null,
+            "explanation": "More trials converge to the answer implied by the assumed model, not to the true risk. This is the 'more trials fix everything' error."
+          },
+          {
+            "text": "It reduces random sampling noise but leaves the bias from the wrong distribution",
+            "value": null,
+            "explanation": "Correct. The estimate becomes more stable, but it converges to the VaR implied by the normal assumption, which still understates risk. This is model risk."
+          },
+          {
+            "text": "It increases the bias, because more draws magnify the error in assumptions",
+            "value": null,
+            "explanation": "The bias comes from the assumption and does not grow with the number of draws. Extra trials simply reveal that bias more precisely."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:27:28"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "One simulated three-year path in a Monte Carlo run has annual returns of +10%, -5% and +20%. What is the geometric mean annual return of this path? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "7.84%",
+            "value": 0.0784,
+            "explanation": "Correct. The growth factor is 1.10 × 0.95 × 1.20 = 1.254, and its cube root minus 1 is about 7.84% per year."
+          },
+          {
+            "text": "8.33%",
+            "value": 0.0833,
+            "explanation": "This is the arithmetic mean (10 - 5 + 20) / 3. It ignores compounding, so it overstates the growth per year."
+          },
+          {
+            "text": "25.40%",
+            "value": 0.254,
+            "explanation": "This is the cumulative three-year return, 1.254 - 1. It was not converted to an annual rate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.10,-0.05,0.20]}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "error found: 1.10*0.95*1.20 = 1.254, and 1.254^(1/3) = 1.0782, so the geometric mean is about 7.82%, not 7.84%. Check: 1.0784^3 = 1.2541, and 1.0782^3 = 1.2534, so the correct value is about 7.84%. This resolves to 7.84% on closer calculation, so no error is present."
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A Monte Carlo run produces five simulated one-year portfolio values (in $ thousands): 90, 100, 110, 120 and 130. Treating these as a sample, what is the standard deviation of the simulated outcomes? Round to two decimal places.",
+        "options": [
+          {
+            "text": "14.14",
+            "value": 14.14,
+            "explanation": "This divides the sum of squared deviations (1,000) by n = 5 (population variance of 200). For a sample, divide by n - 1."
+          },
+          {
+            "text": "250.00",
+            "value": 250,
+            "explanation": "This is the sample variance (1,000 / 4). The question asks for the standard deviation, so take the square root."
+          },
+          {
+            "text": "15.81",
+            "value": 15.81,
+            "explanation": "Correct. The mean is 110 and the squared deviations sum to 1,000. Sample variance = 1,000 / 4 = 250, and the square root is 15.81."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "stdev",
+          "args_json": "{\"xs\":[90,100,110,120,130],\"basis\":\"sample\"}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A Monte Carlo simulation of a European call option (expiring in exactly one year) gives an average payoff at expiry of 8.40 across all trials. Assume the draws were generated consistently with risk-neutral pricing, and use a risk-free rate of 4% per year compounded annually. What is the simulated estimate of the option's value today? Round to two decimal places.",
+        "options": [
+          {
+            "text": "8.40",
+            "value": 8.4,
+            "explanation": "This reports the undiscounted average payoff, which is a value at expiry rather than today's value."
+          },
+          {
+            "text": "8.08",
+            "value": 8.08,
+            "explanation": "Correct. The average payoff is discounted back one year: 8.40 / 1.04 = 8.0769, or 8.08."
+          },
+          {
+            "text": "8.74",
+            "value": 8.74,
+            "explanation": "This multiplies by 1.04 (compounds forward) instead of discounting: 8.40 × 1.04 = 8.736."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.04,\"n\":1,\"fv\":8.4}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is Monte Carlo simulation, in one sentence?",
+        "back": "A method that generates many random scenarios from an assumed probability model, calculates the outcome of each, and studies the distribution of those outcomes.",
+        "cited_chunk_ids": [
+          "os:principles-data-science:m00058:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What are the main steps of a Monte Carlo VaR study?",
+        "back": "Assume a parametric model for the risk factors; estimate its parameters (usually from history); generate many random draws; revalue the portfolio on each; read the loss at the chosen percentile.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How many more trials are needed to double the precision of a Monte Carlo estimate?",
+        "back": "Four times as many, because standard error falls with $1/\\sqrt{N}$.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why can a Monte Carlo result be wrong even with millions of trials?",
+        "back": "Model risk: the draws follow assumed distributions and parameters. If those are wrong, the estimate converges to the wrong answer (garbage in, garbage out).",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:27:28"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Monte Carlo vs historical simulation: where do the random outcomes come from?",
+        "back": "Monte Carlo: from an assumed distribution with estimated parameters. Historical simulation: from actual past changes in the risk factors.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:171:163"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T07:06:46.369Z",
+      "purpose": "blind-solve",
+      "losId": "quant-09-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1031,
+      "outputTokens": 587,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008049,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:06:55.579Z",
+      "purpose": "grounding",
+      "losId": "quant-09-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13934,
+      "outputTokens": 1421,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0422394,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.050288400000000004
+}

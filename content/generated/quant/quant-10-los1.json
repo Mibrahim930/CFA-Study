@@ -1,0 +1,444 @@
+{
+  "losId": "quant-10-los1",
+  "losText": "describe, interpret, and explain simple linear regression, including coefficient estimation using the least squares criterion",
+  "moduleId": "quant-10",
+  "moduleTitle": "Applications of Simple Linear Regression in Finance",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-12T06:52:16.460Z",
+  "retrieved": [
+    {
+      "id": "os:principles-data-science:m00029:2",
+      "title": "Principles of Data Science",
+      "locator": "§4.3 Correlation and Linear Regression Analysis — Linear Regression",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00087:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.2 Linear Regression Analysis — Method of Least Squares and Residuals",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-2-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00089:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.3 Best-Fit Linear Model — Interpret and Apply the Slope and <emphasis effect=\"italics\">y</emphasis>-Intercept",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-3-best-fit-linear-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-data-science:m00039:1.2",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Linear Regression and Bootstrapping",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-data-science:m00029:3.2",
+      "title": "Principles of Data Science",
+      "locator": "§4.3 Correlation and Linear Regression Analysis — Using Python for Correlation and Linear Regression",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00089:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.3 Best-Fit Linear Model — Calculate the Slope and <emphasis effect=\"italics\">y</emphasis>-Intercept for a Linear Regression Model Using Technology",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-3-best-fit-linear-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00087:0.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.2 Linear Regression Analysis — Method of Least Squares and Residuals",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-2-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-data-science:m00039:1.1",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Linear Regression and Bootstrapping",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:5",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — How Good is the Equation?",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00039:2.1",
+      "title": "Principles of Data Science",
+      "locator": "§6.3 Machine Learning in Regression Analysis — Multiple Regression Techniques",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-3-machine-learning-in-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00089:0.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.3 Best-Fit Linear Model — Calculate the Slope and <emphasis effect=\"italics\">y</emphasis>-Intercept for a Linear Regression Model Using Technology",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-3-best-fit-linear-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Fitting a Straight Line to Data: Simple Linear Regression",
+      "summary": "Simple linear regression fits one straight line that links a variable you want to explain to a single explanatory variable, choosing the line that makes the squared prediction misses as small as possible. It is the base for CAPM, return forecasting and most quantitative work later in Level I.",
+      "sections": [
+        {
+          "heading": "The core idea: a line through a cloud of points",
+          "body_markdown": "Suppose you plot each month's return on a market index (horizontal axis) against each month's return on one fund (vertical axis). You get a cloud of dots. **Simple linear regression** draws one straight line through that cloud to describe how the two move together.\n\nTwo roles matter:\n- The **dependent variable** ($Y$) is the thing you want to explain or predict (the fund's return).\n- The **independent variable** ($X$) is the thing used to explain it (the index return).\n\n\"Simple\" means there is exactly one independent variable. Think of a rough rule of thumb, such as \"each extra hour of study adds about 4 points to a test score\". Regression turns that rule of thumb into precise numbers using all of the data."
+        },
+        {
+          "heading": "The model and its two coefficients",
+          "body_markdown": "The population relationship is written\n\n$$Y_i = b_0 + b_1 X_i + \\varepsilon_i$$\n\n- $b_0$ is the **intercept**: the line's height when $X = 0$.\n- $b_1$ is the **slope**: how much $Y$ changes, on average, for a one-unit increase in $X$.\n- $\\varepsilon_i$ is the **error term**: everything that moves $Y$ but is not captured by $X$ (other influences, measurement noise).\n\nFrom a sample we only get *estimates* of the coefficients, written $\\hat b_0$ and $\\hat b_1$. The fitted (predicted) value for any observation is $\\hat Y_i = \\hat b_0 + \\hat b_1 X_i$. The hat means \"estimated or predicted\"."
+        },
+        {
+          "heading": "The least squares criterion",
+          "body_markdown": "No line passes through every dot, so each observation has a miss. That miss is the **residual**:\n\n$$e_i = Y_i - \\hat Y_i$$\n\n(observed minus predicted). A residual is positive when the dot is above the line and negative when it is below.\n\nWhich line is the \"best\"? Ordinary least squares (OLS) picks the intercept and slope that make the **sum of squared residuals** as small as possible. Squaring stops positive and negative misses from cancelling and penalises big misses heavily. Solving that minimisation gives:\n\n$$\\hat b_1 = \\frac{\\text{Cov}(X,Y)}{\\text{Var}(X)}, \\qquad \\hat b_0 = \\bar Y - \\hat b_1 \\bar X$$\n\nCompute the slope first, because the intercept needs it. Two useful consequences: the fitted line always passes through the point of means $(\\bar X, \\bar Y)$, and the residuals from a line with an intercept sum to zero."
+        },
+        {
+          "heading": "Interpreting the numbers",
+          "body_markdown": "**Slope.** Say it in plain words with units. If $\\hat b_1 = 1.2$ for fund return on index return (both in %), then a 1-percentage-point higher index return goes with a fund return that is 1.2 percentage points higher, on average. This is an association estimated from data, not proof of cause.\n\n**Intercept.** It is the expected $Y$ when $X = 0$. That only has meaning if $X = 0$ is a sensible value and lies near the range of data you observed. Otherwise treat the intercept as just the number that positions the line.\n\n**Link to correlation.** The slope is a rescaled correlation: $\\hat b_1 = r \\, \\dfrac{s_Y}{s_X}$. A positive correlation gives a positive slope, a negative correlation gives a negative slope, and zero correlation gives a slope of zero (a flat line)."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst records the return of an index (X, in %) and a fund (Y, in %) for five periods: X = 1, 2, 3, 4, 5 and Y = 2, 4, 5, 4, 5. Estimate the least squares line, state the fitted value and residual for the first observation, and predict the fund return when the index return is 6%.",
+        "steps": [
+          "Compute the means: $\\bar X = (1+2+3+4+5)/5 = 3$ and $\\bar Y = (2+4+5+4+5)/5 = 4$.",
+          "Compute deviations and cross-products. $(X-\\bar X)$ = -2, -1, 0, 1, 2 and $(Y-\\bar Y)$ = -2, 0, 1, 0, 1. Cross-products: 4, 0, 0, 0, 2, which sum to 6.",
+          "Sum the squared X deviations: 4 + 1 + 0 + 1 + 4 = 10.",
+          "Slope: $\\hat b_1 = 6/10 = 0.6$ (the 1/(n-1) factors in covariance and variance cancel).",
+          "Intercept: $\\hat b_0 = \\bar Y - \\hat b_1 \\bar X = 4 - 0.6(3) = 2.2$. The fitted line is $\\hat Y = 2.2 + 0.6X$.",
+          "First observation: $\\hat Y = 2.2 + 0.6(1) = 2.8$, so the residual is $2 - 2.8 = -0.8$ (the dot lies below the line).",
+          "Prediction at X = 6: $\\hat Y = 2.2 + 0.6(6) = 5.8$.",
+          "BA II Plus check: press 2ND [DATA] (and 2ND [CLR WRK] to clear old data). Enter X01 = 1, ENTER, down arrow, Y01 = 2, ENTER, down arrow, and repeat for the other four pairs. Press 2ND [STAT], then 2ND [ENTER] (SET) until LIN shows. Press the down arrow repeatedly: a = 2.2 (intercept) and b = 0.6 (slope) appear."
+        ],
+        "answer": "Fitted line: Ŷ = 2.2 + 0.6X. The first observation has fitted value 2.8 and residual -0.8. The predicted fund return at X = 6% is 5.8%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Regression model",
+          "latex": "Y_i = b_0 + b_1 X_i + \\varepsilon_i",
+          "where": "$Y_i$ = dependent variable, $X_i$ = independent variable, $b_0$ = intercept, $b_1$ = slope, $\\varepsilon_i$ = error term."
+        },
+        {
+          "name": "Slope estimate",
+          "latex": "\\hat b_1 = \\frac{\\sum_{i}(X_i-\\bar X)(Y_i-\\bar Y)}{\\sum_{i}(X_i-\\bar X)^2} = \\frac{\\text{Cov}(X,Y)}{\\text{Var}(X)}",
+          "where": "$X_i, Y_i$ = observations, $\\bar X, \\bar Y$ = sample means, Cov and Var are computed with the same divisor."
+        },
+        {
+          "name": "Intercept estimate",
+          "latex": "\\hat b_0 = \\bar Y - \\hat b_1 \\bar X",
+          "where": "$\\bar Y$ = mean of the dependent variable, $\\bar X$ = mean of the independent variable, $\\hat b_1$ = estimated slope."
+        },
+        {
+          "name": "Residual",
+          "latex": "e_i = Y_i - \\hat Y_i = Y_i - (\\hat b_0 + \\hat b_1 X_i)",
+          "where": "$e_i$ = residual, $Y_i$ = observed value, $\\hat Y_i$ = value predicted by the fitted line."
+        },
+        {
+          "name": "Least squares criterion",
+          "latex": "\\min_{\\hat b_0,\\hat b_1} \\sum_{i=1}^{n} e_i^2",
+          "where": "$n$ = number of observations; the chosen coefficients minimise the sum of squared residuals."
+        },
+        {
+          "name": "Slope from correlation",
+          "latex": "\\hat b_1 = r\\,\\frac{s_Y}{s_X}",
+          "where": "$r$ = sample correlation of X and Y, $s_Y$ and $s_X$ = sample standard deviations of Y and X."
+        }
+      ],
+      "exam_traps": [
+        "Swapping X and Y. The slope is Cov(X,Y) divided by the variance of the *independent* variable; regressing in the other direction gives a different slope.",
+        "Putting the variance in the numerator, or dividing the covariance by a standard deviation instead of a variance.",
+        "Reading the intercept as meaningful when X = 0 is outside the observed data, or confusing the intercept with the slope when describing the relationship.",
+        "Computing the residual as predicted minus observed. It is observed minus predicted.",
+        "Forgetting that the intercept uses the slope, so computing it before the slope, or using $\\bar Y \\cdot \\hat b_1$ instead of $\\hat b_1 \\bar X$."
+      ],
+      "builds_on": [
+        "Covariance and correlation",
+        "Variance and standard deviation",
+        "Sample mean"
+      ],
+      "leads_to": [
+        "Regression assumptions and residual analysis",
+        "ANOVA and goodness of fit",
+        "Predicted values and prediction intervals",
+        "CAPM beta estimation"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00087:0.2",
+        "os:principles-finance-2e:m00089:0",
+        "os:principles-finance-2e:m00089:1",
+        "os:introductory-business-statistics-2e:m55838:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In ordinary least squares estimation of a simple linear regression, the coefficients are chosen to minimise which quantity?",
+        "options": [
+          {
+            "text": "The sum of the residuals",
+            "value": null,
+            "explanation": "Mistake: the plain sum of residuals can be zero for many different lines because positives and negatives cancel, so it cannot identify the best line."
+          },
+          {
+            "text": "The sum of the squared residuals",
+            "value": null,
+            "explanation": "Correct: OLS minimises the sum of squared vertical differences between observed and fitted Y values."
+          },
+          {
+            "text": "The sum of the absolute residuals",
+            "value": null,
+            "explanation": "Mistake: minimising absolute residuals is a different criterion (least absolute deviations), not least squares."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:0.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A regression of a fund's monthly return (Y, in %) on an index's monthly return (X, in %) gives an intercept of 0.3 and a slope of 1.2. Which interpretation of the slope is correct?",
+        "options": [
+          {
+            "text": "A 1.2-point rise in the fund's return is followed by a 1-point rise in the index's return",
+            "value": null,
+            "explanation": "Mistake: this reverses the dependent and independent variables."
+          },
+          {
+            "text": "The fund is expected to return 1.2% when the index return is zero",
+            "value": null,
+            "explanation": "Mistake: this describes the intercept (expected Y when X = 0), and it also uses the wrong number."
+          },
+          {
+            "text": "A 1-point higher index return goes with a fund return 1.2 points higher, on average",
+            "value": null,
+            "explanation": "Correct: the slope is the average change in Y per one-unit change in X, in the units of the variables."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00089:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For a sample, the mean of X is 5, the mean of Y is 8, and the estimated slope is 0.8. What is the estimated intercept?",
+        "options": [
+          {
+            "text": "4.0",
+            "value": null,
+            "explanation": "Correct: $\\hat b_0 = \\bar Y - \\hat b_1 \\bar X = 8 - 0.8(5) = 4.0$."
+          },
+          {
+            "text": "6.4",
+            "value": null,
+            "explanation": "Mistake: multiplying the slope by the mean of Y (0.8 × 8) instead of the mean of X."
+          },
+          {
+            "text": "12.0",
+            "value": null,
+            "explanation": "Mistake: adding $\\hat b_1 \\bar X$ to $\\bar Y$ (8 + 4) instead of subtracting."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00089:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a simple linear regression sample, Cov(X, Y) = 18, Var(X) = 12 and Var(Y) = 40. What is the estimated slope coefficient, to two decimals?",
+        "options": [
+          {
+            "text": "0.67",
+            "value": null,
+            "explanation": "Mistake: inverting the ratio (Var(X)/Cov) instead of Cov/Var(X)."
+          },
+          {
+            "text": "1.50",
+            "value": null,
+            "explanation": "Correct: $\\hat b_1 = \\text{Cov}(X,Y)/\\text{Var}(X) = 18/12 = 1.50$."
+          },
+          {
+            "text": "5.20",
+            "value": null,
+            "explanation": "Mistake: dividing the covariance by the standard deviation of X ($\\sqrt{12}$) rather than by its variance."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The sample correlation between X and Y is 0.5. The sample standard deviation is 4 for X and 8 for Y. What is the estimated slope of the regression of Y on X?",
+        "options": [
+          {
+            "text": "0.25",
+            "value": null,
+            "explanation": "Mistake: using $r \\, s_X / s_Y$, which flips the standard deviations and so corresponds to the regression of X on Y in standardised-ratio form."
+          },
+          {
+            "text": "2.00",
+            "value": null,
+            "explanation": "Mistake: using $s_Y / s_X$ and leaving out the correlation."
+          },
+          {
+            "text": "1.00",
+            "value": null,
+            "explanation": "Correct: $\\hat b_1 = r \\, s_Y / s_X = 0.5 × 8 / 4 = 1.00$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A simple linear regression with an estimated intercept is fitted by least squares to a sample. Which statement about the fitted line is correct?",
+        "options": [
+          {
+            "text": "It passes through the point formed by the sample mean of X and the sample mean of Y",
+            "value": null,
+            "explanation": "Correct: because $\\hat b_0 = \\bar Y - \\hat b_1 \\bar X$, substituting $X = \\bar X$ gives $\\hat Y = \\bar Y$."
+          },
+          {
+            "text": "It passes through the origin because the intercept is chosen to minimise squared errors",
+            "value": null,
+            "explanation": "Mistake: the intercept is estimated from the data and is generally not zero."
+          },
+          {
+            "text": "The positive residuals add up to more than the absolute value of the negative residuals",
+            "value": null,
+            "explanation": "Mistake: with an intercept in the model the residuals sum to zero, so positive and negative residuals offset exactly."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An estimated regression line is Ŷ = 2 + 0.5X. For an observation with X = 10 and an observed Y of 8, what is the residual?",
+        "options": [
+          {
+            "text": "-1.0",
+            "value": null,
+            "explanation": "Mistake: computing predicted minus observed (7 - 8) instead of observed minus predicted."
+          },
+          {
+            "text": "+1.0",
+            "value": null,
+            "explanation": "Correct: fitted value = 2 + 0.5(10) = 7, so the residual = 8 - 7 = +1.0."
+          },
+          {
+            "text": "+3.0",
+            "value": null,
+            "explanation": "Mistake: forgetting the intercept, so the fitted value is taken as 5 and the residual as 8 - 5."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:0.2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does the least squares criterion do in simple linear regression?",
+        "back": "It picks the intercept and slope that minimise the sum of the squared residuals (observed Y minus fitted Y).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:0.2"
+        ]
+      },
+      {
+        "front": "How do you compute the OLS slope and intercept from summary statistics?",
+        "back": "Slope = Cov(X,Y) / Var(X). Intercept = mean of Y minus slope × mean of X. Find the slope first.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00089:0"
+        ]
+      },
+      {
+        "front": "How should you interpret the slope and the intercept of a fitted line?",
+        "back": "Slope: average change in Y for a one-unit increase in X. Intercept: expected Y when X = 0, meaningful only if X = 0 is sensible and near the observed data.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00089:1"
+        ]
+      },
+      {
+        "front": "How is a residual defined, and what is the link between slope and correlation?",
+        "back": "Residual = observed Y minus predicted Y. Slope = r × (standard deviation of Y / standard deviation of X).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00087:0.2"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-12T06:52:16.460Z",
+      "purpose": "generate",
+      "losId": "quant-10-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9921,
+      "outputTokens": 10178,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5689,
+      "costUsd": 0.1227598,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "losId": "quant-10-los4",
+  "losText": "calculate and interpret the variable estimates of the capital asset pricing model (CAPM)",
+  "moduleId": "quant-10",
+  "moduleTitle": "Applications of Simple Linear Regression in Finance",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-12T07:08:35.685Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00095:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.3 The Capital Asset Pricing Model (CAPM) — Beta",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-3-the-capital-asset-pricing-model-capm",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00095:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.3 The Capital Asset Pricing Model (CAPM) — CAPM Equation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-3-the-capital-asset-pricing-model-capm",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00090:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.4 Regression Applications in Finance — Measures of Slope and Intercept from Regression Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-4-regression-applications-in-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00130:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§20.4 Interest Rate Risk — Swap-Based Hedging",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/20-4-interest-rate-risk",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00132:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.6 Use of R Statistical Analysis Tool for Regression Analysis — Generate Linear Regression Models Using the R Statistical Tool",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-6-use-of-r-statistical-analysis-tool-for-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00108:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.3 Calculating the Weighted Average Cost of Capital — Calculating WACC in Practice",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-3-calculating-the-weighted-average-cost-of-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00095:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.3 The Capital Asset Pricing Model (CAPM) — The Capital Asset Pricing Model (CAPM)",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-3-the-capital-asset-pricing-model-capm",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-data-science:m00029:3.2",
+      "title": "Principles of Data Science",
+      "locator": "§4.3 Correlation and Linear Regression Analysis — Using Python for Correlation and Linear Regression",
+      "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00089:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.3 Best-Fit Linear Model — Interpret and Apply the Slope and <emphasis effect=\"italics\">y</emphasis>-Intercept",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-3-best-fit-linear-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Estimating Beta and Alpha: CAPM as a Regression",
+      "summary": "The CAPM links a stock's expected return to its exposure to market-wide risk, and you can estimate that exposure (beta) and any extra return (alpha) by fitting a straight line to past returns. This LOS teaches you to read the slope and intercept of that line and to use the estimates to calculate expected return and judge performance.",
+      "sections": [
+        {
+          "heading": "The idea: how strongly does a stock move with the market?",
+          "body_markdown": "Some stocks swing hard when the overall market moves, and others barely react. Think of a car's suspension: a stiff car passes every bump on to the passengers, a soft one absorbs most of them.\n\nThe **CAPM** (capital asset pricing model) says investors are paid only for the part of risk they cannot diversify away. That part is called **systematic risk**, meaning risk that comes from moving with the whole market. The measure of this exposure is **beta** ($\\beta$). The CAPM equation says the expected return is the risk-free rate plus beta times the **market risk premium**, which is the extra return the market is expected to earn over the risk-free rate."
+        },
+        {
+          "heading": "Estimating the CAPM by regression",
+          "body_markdown": "Beta is not observed directly, so you estimate it from history. Collect a series of past returns for the stock and for a market index. Then subtract the risk-free rate from each return to get **excess returns**. Fit a least-squares line:\n\n$$R_i - R_f = \\alpha + \\beta\\,(R_m - R_f) + \\varepsilon$$\n\n- The **dependent variable** (vertical axis) is the stock's excess return.\n- The **independent variable** (horizontal axis) is the market's excess return.\n- The **slope** is the estimate of beta.\n- The **intercept** is the estimate of **alpha** ($\\alpha$, also called Jensen's alpha).\n- $\\varepsilon$ is the **residual**, the part of each month's return that the line does not explain. It reflects firm-specific noise.\n\nThe slope can also be computed directly as the covariance of the stock with the market divided by the variance of the market. Spreadsheet tools such as SLOPE or R's lm return the same number."
+        },
+        {
+          "heading": "Interpreting beta and alpha",
+          "body_markdown": "**Beta** says how much the stock's excess return moves, on average, for a one-unit move in the market's excess return.\n- $\\beta = 1$: the stock moves about one-for-one with the market.\n- $\\beta > 1$: the stock amplifies market moves, so it has more systematic risk than the average stock, and the CAPM demands a higher expected return.\n- $\\beta < 1$: the stock dampens market moves.\n\n**Alpha** is the average return the stock earned beyond what the CAPM predicts for its beta. A positive alpha means it beat the benchmark for its risk. An alpha of zero means it earned exactly what its beta justified. A negative alpha means it fell short.\n\nIf you regress *raw* returns (without subtracting $R_f$), the intercept is no longer alpha. It equals $\\alpha + R_f(1-\\beta)$ when the risk-free rate is constant. The intercept also rarely has a meaningful 'return when the market is zero' reading unless a market return of zero is a realistic observation."
+        },
+        {
+          "heading": "Using the estimates, and why they are only estimates",
+          "body_markdown": "Once you have a beta estimate, plug it into the CAPM to get a required or expected return. This is how analysts estimate a company's cost of equity.\n\nBeta is a sample statistic, so it depends on the choices made when estimating it:\n- the length of the history (commonly three to five years),\n- the return frequency (monthly or weekly),\n- the market index used as the benchmark.\n\nTwo data providers can therefore report different betas for the same stock. The regression's goodness of fit tells you how much of the stock's variability the market explains. The rest is diversifiable, firm-specific noise."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock and a market index have monthly return data over five years. The covariance between the stock's and the market's monthly returns is 0.00375, and the variance of the market's monthly returns is 0.0030. The risk-free rate is 3% per year, the expected market return is 9% per year, and the stock's average return was 12% per year. Estimate beta, find the CAPM expected return, and compute alpha.",
+        "steps": [
+          "Beta equals covariance divided by market variance: 0.00375 / 0.0030 = 1.25. The stock moves about 1.25 times as much as the market.",
+          "Market risk premium = 9% − 3% = 6%.",
+          "CAPM expected return = 3% + 1.25 × 6%. On the BA II Plus: 1.25 × 6 = 7.5, then + 3 = 10.5. So the expected return is 10.5%.",
+          "Alpha = actual return − CAPM expected return = 12% − 10.5% = 1.5%.",
+          "Interpretation: the stock earned 1.5 percentage points per year more than its systematic risk would justify."
+        ],
+        "answer": "Beta = 1.25, CAPM expected return = 10.5%, alpha = +1.5% per year.",
+        "answer_value": 0.105,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.03,\"beta\":1.25,\"marketReturn\":0.09}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Excess-return regression (market model)",
+          "latex": "R_i - R_f = \\alpha + \\beta\\,(R_m - R_f) + \\varepsilon",
+          "where": "R_i is the stock's return, R_f the risk-free rate, R_m the market return, \\alpha the intercept (alpha), \\beta the slope (beta), \\varepsilon the residual."
+        },
+        {
+          "name": "Beta from covariance",
+          "latex": "\\hat\\beta = \\frac{\\operatorname{Cov}(R_i,R_m)}{\\operatorname{Var}(R_m)} = r\\,\\frac{s_i}{s_m}",
+          "where": "Cov is the sample covariance of stock and market returns, Var the market's sample variance, r their correlation, s_i and s_m the standard deviations of stock and market."
+        },
+        {
+          "name": "CAPM expected return",
+          "latex": "E(R_i) = R_f + \\beta\\,\\big(E(R_m) - R_f\\big)",
+          "where": "E(R_i) is the expected return of the asset, R_f the risk-free rate, \\beta the asset's beta, E(R_m) − R_f the market risk premium."
+        },
+        {
+          "name": "Jensen's alpha",
+          "latex": "\\alpha = \\bar R_i - \\big[R_f + \\beta\\,(\\bar R_m - R_f)\\big]",
+          "where": "\\bar R_i is the stock's average return, \\bar R_m the market's average return over the same period, R_f the risk-free rate, \\beta the estimated beta."
+        },
+        {
+          "name": "Intercept of a raw-return regression",
+          "latex": "a = \\alpha + R_f\\,(1-\\beta)",
+          "where": "a is the intercept when raw returns (not excess returns) are regressed on market returns, assuming a constant risk-free rate R_f."
+        }
+      ],
+      "exam_traps": [
+        "Plugging the market return into the CAPM where the market risk premium belongs: the premium is $R_m - R_f$, not $R_m$.",
+        "Reading the intercept of a raw-return regression as alpha. Only in an excess-return regression is the intercept alpha directly.",
+        "Dividing the covariance by the stock's variance instead of the market's variance. Beta is the slope of the stock on the market, so the market is in the denominator.",
+        "Treating beta as total risk. Beta measures only systematic risk; a stock can have high standard deviation and a low beta.",
+        "Assuming beta is a fixed, exact number. Different periods, return frequencies or index choices give different estimates."
+      ],
+      "builds_on": [
+        "Least-squares slope and intercept",
+        "Covariance and correlation",
+        "Risk-free rate and market risk premium",
+        "Systematic vs. firm-specific risk"
+      ],
+      "leads_to": [
+        "Cost of equity in WACC",
+        "Jensen's alpha and performance evaluation",
+        "Sharpe and Treynor ratios",
+        "Prediction intervals and standard error of estimate"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00090:1",
+        "os:principles-finance-2e:m00095:2.1",
+        "os:principles-finance-2e:m00095:3",
+        "os:principles-finance-2e:m00095:4",
+        "os:principles-finance-2e:m00096:2",
+        "os:principles-finance-2e:m00132:1",
+        "os:principles-finance-2e:m00089:1"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst regresses a stock's monthly excess returns on the market's monthly excess returns and obtains a slope of 0.80. Which interpretation is most appropriate?",
+        "options": [
+          {
+            "text": "On average, the stock's excess return rises about 0.8 percentage points for each 1-point rise in the market's excess return.",
+            "value": null,
+            "explanation": "Correct. The slope is the beta estimate: the average change in the stock's excess return per one-unit change in the market's excess return."
+          },
+          {
+            "text": "The stock's total standard deviation is 0.80% per month, below that of the market.",
+            "value": null,
+            "explanation": "Confuses beta with total risk. Beta is a slope, not a standard deviation, and says nothing directly about total volatility."
+          },
+          {
+            "text": "The stock earns 0.80% per month more than the market regardless of what the market does.",
+            "value": null,
+            "explanation": "Confuses slope with intercept. A constant return that does not depend on the market would be alpha."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00090:1",
+          "os:principles-finance-2e:m00089:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock has an estimated beta of 1.2. The risk-free rate is 3.0% and the expected market return is 9.0%. Using the CAPM, what is the stock's expected return? Round to the nearest 0.1%.",
+        "options": [
+          {
+            "text": "7.2%",
+            "value": 0.072,
+            "explanation": "Forgot to add the risk-free rate: 1.2 × 6.0% = 7.2% is only the risk premium of the stock."
+          },
+          {
+            "text": "10.2%",
+            "value": 0.102,
+            "explanation": "Correct: 3.0% + 1.2 × (9.0% − 3.0%) = 3.0% + 7.2% = 10.2%."
+          },
+          {
+            "text": "13.8%",
+            "value": 0.138,
+            "explanation": "Multiplied beta by the market return (9.0%) instead of the market risk premium (6.0%): 3.0% + 1.2 × 9.0% = 13.8%."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.03,\"beta\":1.2,\"marketReturn\":0.09}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00095:3",
+          "os:principles-finance-2e:m00107:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Using monthly data, the sample covariance between a stock's returns and the market's returns is 0.0042. The sample variance of the market's returns is 0.0035, and the sample variance of the stock's returns is 0.0060. What is the estimated beta?",
+        "options": [
+          {
+            "text": "0.70",
+            "value": null,
+            "explanation": "Divided the covariance by the stock's variance (0.0042 / 0.0060). That is the slope of the market on the stock, the wrong direction."
+          },
+          {
+            "text": "0.83",
+            "value": null,
+            "explanation": "Inverted the ratio (0.0035 / 0.0042). Beta is covariance over market variance, not market variance over covariance."
+          },
+          {
+            "text": "1.20",
+            "value": null,
+            "explanation": "Correct: beta = Cov(stock, market) / Var(market) = 0.0042 / 0.0035 = 1.20."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00090:1",
+          "os:principles-finance-2e:m00095:2.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A stock's monthly excess returns (stock return minus the risk-free rate) are regressed on the market's monthly excess returns. The estimated intercept is +0.25% and the slope is 0.90. How should the intercept be interpreted?",
+        "options": [
+          {
+            "text": "The stock's expected return in a month in which the market's return is exactly zero.",
+            "value": null,
+            "explanation": "This reading belongs to a regression of raw returns on raw returns. Here both variables are excess returns, so the intercept has a different meaning."
+          },
+          {
+            "text": "The monthly risk-free rate that is built into the stock's return series.",
+            "value": null,
+            "explanation": "The risk-free rate has already been subtracted from both variables, so it cannot be what the intercept measures."
+          },
+          {
+            "text": "The average monthly return above what the CAPM predicts for a beta of 0.90, an estimate of alpha.",
+            "value": null,
+            "explanation": "Correct. In an excess-return regression the intercept is Jensen's alpha: return earned beyond the CAPM-required return."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:2",
+          "os:principles-finance-2e:m00089:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock has an estimated beta of 1.4. The risk-free rate is 3.5% and the market risk premium is 6.0%. Using the CAPM, what is the stock's expected return? Round to the nearest 0.1%.",
+        "options": [
+          {
+            "text": "11.9%",
+            "value": 0.119,
+            "explanation": "Correct: 3.5% + 1.4 × 6.0% = 3.5% + 8.4% = 11.9%. The 6.0% is already the premium, so it is used as given."
+          },
+          {
+            "text": "7.0%",
+            "value": 0.07,
+            "explanation": "Treated the 6.0% premium as the market return and subtracted the risk-free rate again: 3.5% + 1.4 × (6.0% − 3.5%) = 7.0%."
+          },
+          {
+            "text": "8.4%",
+            "value": 0.084,
+            "explanation": "Forgot to add the risk-free rate: 1.4 × 6.0% = 8.4% is only the stock's risk premium."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.035,\"beta\":1.4,\"marketReturn\":0.095}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00095:3",
+          "os:principles-finance-2e:m00107:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two data providers report different betas for the same stock: 1.46 from one and 1.29 from the other. What is the most likely explanation?",
+        "options": [
+          {
+            "text": "Only one provider can be correct, because beta is a fixed property of the company.",
+            "value": null,
+            "explanation": "Beta is a regression estimate from sample data, not a fixed constant, so the estimates can legitimately differ."
+          },
+          {
+            "text": "They probably used different sample periods, return frequencies (e.g. weekly vs. monthly) or market indexes.",
+            "value": null,
+            "explanation": "Correct. Each of these choices changes the data in the regression and therefore changes the estimated slope."
+          },
+          {
+            "text": "The difference arises only because the providers assume different risk-free rates in the CAPM.",
+            "value": null,
+            "explanation": "The risk-free rate is not the main reason betas differ. Estimation choices of sample period, data frequency and benchmark are."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00095:3",
+          "os:principles-finance-2e:m00108:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst regresses a fund's monthly raw returns (not excess returns) on the market's monthly raw returns. The estimated intercept is 0.40% and the estimated slope is 1.10. The risk-free rate is a constant 0.20% per month. What is the fund's estimated monthly alpha, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.42%",
+            "value": null,
+            "explanation": "Correct. The intercept a = α + R_f(1 − β), so α = 0.40% − 0.20% × (1 − 1.10) = 0.40% + 0.02% = 0.42%."
+          },
+          {
+            "text": "0.40%",
+            "value": null,
+            "explanation": "Treated the raw-return intercept as alpha. That is only valid for an excess-return regression."
+          },
+          {
+            "text": "0.38%",
+            "value": null,
+            "explanation": "Sign error in the adjustment: computed 0.40% − 0.02% instead of subtracting the negative term R_f(1 − β) = −0.02%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "error found: The formula is right, but the arithmetic is wrong: alpha = 0.40% − 0.20%×(1−1.10) = 0.40% − 0.20%×(−0.10) = 0.40% + 0.02% = 0.42%. So 0.42% is correct only if alpha = a − Rf(1−β), which gives 0.42. Recheck: a=α+Rf(1−β) means α=0.40−(0.2)(−0.1)=0.42. Correct, so there is no error. The passages do not cover this."
+          ]
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "In the CAPM regression, what does the slope coefficient estimate, and how do you read it?",
+        "back": "Beta. It is the average change in the stock's excess return per one-unit change in the market's excess return. A value above 1 means more systematic risk than the market.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00090:1",
+          "os:principles-finance-2e:m00095:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "In a regression of stock excess returns on market excess returns, what does the intercept represent?",
+        "back": "Alpha (Jensen's alpha): the average return earned above, or below, what the CAPM predicts for the stock's beta.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the CAPM equation for expected return?",
+        "back": "E(R) = Rf + β × (E(Rm) − Rf). The risk-free rate plus beta times the market risk premium.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00095:3",
+          "os:principles-finance-2e:m00107:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How can beta be computed from the return data without running the full regression?",
+        "back": "Beta = Cov(stock, market) / Var(market), which equals the correlation times (stock standard deviation / market standard deviation).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why might two sources report different betas for the same stock?",
+        "back": "Beta is a sample estimate. Sources may use different time periods, return frequencies, or market indexes.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00095:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/6 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-12T07:08:27.128Z",
+      "purpose": "blind-solve",
+      "losId": "quant-10-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 975,
+      "outputTokens": 744,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009507,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T07:08:35.684Z",
+      "purpose": "grounding",
+      "losId": "quant-10-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13339,
+      "outputTokens": 1296,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 807,
+      "costUsd": 0.0397994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0493064
+}
