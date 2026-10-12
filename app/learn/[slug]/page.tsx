@@ -9,9 +9,15 @@ import { getModule, syllabus } from "@/lib/syllabus";
 
 async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: string; moduleId: string; losOrder: string[] }) {
   const lessons = await getModuleLessons(topicId, moduleId, losOrder);
-  if (lessons.length === 0) return null;
+  if (lessons.length === 0) {
+    return (
+      <p className="rounded-2xl border border-dashed border-line bg-surface p-6 text-muted">
+        Lessons for this module haven&apos;t been generated yet. Use the video, notes and checklist below in the meantime.
+      </p>
+    );
+  }
   return (
-    <div className="space-y-4">
+    <div className="space-y-12">
       {lessons.map((l) => (
         <LessonView key={l.losId} lesson={l} />
       ))}
@@ -46,28 +52,52 @@ async function LearnContent({ params }: { params: PageProps<"/learn/[slug]">["pa
   const next = topic.modules[idx + 1];
 
   return (
-    <div className="space-y-6">
-      <div>
-        <Link href={`/topics/${topic.id}`} className="text-sm text-muted hover:text-foreground">
+    <div className="space-y-8">
+      <div className="space-y-2">
+        <Link href={`/topics/${topic.id}`} className="text-sm font-semibold text-muted hover:text-accent">
           ← {topic.name}
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight">
-          <span className="mr-2 text-muted tabular-nums">{module.order}.</span>
-          {module.title}
-        </h1>
+        <h1 className="text-3xl font-extrabold tracking-tight">{module.title}</h1>
+        <p className="text-sm text-muted">
+          Module {module.order} of {topic.modules.length} · {module.los.length} learning outcome{module.los.length === 1 ? "" : "s"}
+        </p>
       </div>
-      <GeneratedLessons topicId={topic.id} moduleId={module.id} losOrder={module.los.map((l) => l.id)} />
-      <ModuleWorkspace slug={module.slug} los={module.los} />
-      <nav className="flex justify-between gap-4 border-t border-line pt-4 text-sm">
+
+      <div className="flex flex-wrap items-start gap-8">
+        <div className="min-w-0 flex-[999_1_640px] space-y-12">
+          <Suspense fallback={<p className="text-muted">Loading lessons…</p>}>
+            <GeneratedLessons topicId={topic.id} moduleId={module.id} losOrder={module.los.map((l) => l.id)} />
+          </Suspense>
+          <ModuleWorkspace slug={module.slug} los={module.los} />
+        </div>
+
+        <aside className="min-w-0 flex-[1_1_260px] lg:sticky lg:top-24">
+          <nav aria-label="In this module" className="space-y-3 rounded-2xl border border-line bg-surface p-5">
+            <h2 className="text-sm font-bold">In this module</h2>
+            <ol className="space-y-2 text-sm">
+              {module.los.map((l, i) => (
+                <li key={l.id}>
+                  <a href={`#${l.id}`} className="flex gap-2 text-muted hover:text-accent">
+                    <span className="tabular-nums font-semibold text-foreground">{i + 1}.</span>
+                    <span className="line-clamp-3">{l.text}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        </aside>
+      </div>
+
+      <nav aria-label="Modules" className="flex justify-between gap-4 border-t border-line pt-5 text-sm font-semibold">
         {prev ? (
-          <Link href={`/learn/${prev.slug}`} className="text-muted hover:text-foreground">
+          <Link href={`/learn/${prev.slug}`} className="text-muted hover:text-accent">
             ← {prev.title}
           </Link>
         ) : (
           <span />
         )}
         {next && (
-          <Link href={`/learn/${next.slug}`} className="text-right text-muted hover:text-foreground">
+          <Link href={`/learn/${next.slug}`} className="text-right text-muted hover:text-accent">
             {next.title} →
           </Link>
         )}

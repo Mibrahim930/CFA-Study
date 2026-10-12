@@ -6,15 +6,19 @@ import katex from "katex";
 
 const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+// Inline math is $…$ whose opening $ is not followed by a digit or space and whose closing $ is not
+// preceded by a space, so currency like "$100 now and $105 later" stays plain text.
+const MATH = /(\$\$[^$]+\$\$|\$(?![\s\d])[^$\n]+?(?<!\s)\$)/g;
+
 function inline(text: string): string {
-  // Split out math first so markdown rules never touch LaTeX.
+  // Split out math first so markdown rules never touch LaTeX. With a capturing split, odd parts are math.
   return text
-    .split(/(\$\$[^$]+\$\$|\$[^$\n]+\$)/g)
-    .map((part) => {
-      if (part.startsWith("$$") && part.endsWith("$$") && part.length > 4) {
+    .split(MATH)
+    .map((part, i) => {
+      if (i % 2 === 1 && part.startsWith("$$")) {
         return katex.renderToString(part.slice(2, -2), { displayMode: true, throwOnError: false });
       }
-      if (part.startsWith("$") && part.endsWith("$") && part.length > 2) {
+      if (i % 2 === 1) {
         return katex.renderToString(part.slice(1, -1), { throwOnError: false });
       }
       return escapeHtml(part)
