@@ -507,6 +507,20 @@ export const SOURCES: SourceDef[] = [
       "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics",
       "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
     ] },
+  // Final-4 pass (2026-10-12)
+  { id: "frbsf-el-2000-mbs-interest-rate-risk", kind: "html", title: "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)", year: 2000, source: "gov", tier: "T2", license: "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved", reuse: "ground", topics: ["fixed-income"],
+    url: "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+    urls: ["https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/"] },
+  { id: "feds-2024-039-reaching-for-duration", title: "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)", year: 2024, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["fixed-income"],
+    url: "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf" },
+  { id: "strathmore-analyzing-financial-statements", title: "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)", year: 2020, source: "other", tier: "T3", license: "University course handout; no licence stated (private grounding only)", reuse: "ground", topics: ["fsa"],
+    url: "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf" },
+  { id: "census-economic-census-data-uses", kind: "html", title: "Economic Census: how businesses use the data, sizing markets and calculating market share (U.S. Census Bureau)", year: 2012, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["equity"],
+    url: "https://bhs.econ.census.gov/ec12/pages/data.html", urls: ["https://bhs.econ.census.gov/ec12/pages/data.html"] },
+  { id: "bls-mlr-2025-12-industry-growth", title: "Monthly Labor Review, December 2025 (BLS; Industry growth patterns, output, productivity and hours worked, 1990 to 2024), FRASER copy", year: 2025, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["equity"],
+    url: "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_20251222.pdf" },
+  { id: "ftc-doj-merger-guidelines-2023", title: "Merger Guidelines (U.S. DOJ and FTC, December 2023; market shares, concentration, trends toward concentration)", year: 2023, source: "gov", tier: "T1", license: PD, reuse: "adapt", topics: ["equity"],
+    url: "https://search.ftc.gov/system/files/ftc_gov/pdf/P234000-NEW-MERGER-GUIDELINES.pdf" },
 ];
 
 const toChunks = (def: SourceDef, parts: { text: string; locator: string; url: string }[]): SourceChunk[] =>
@@ -576,9 +590,27 @@ async function ingest(def: SourceDef): Promise<number> {
   return chunks.length;
 }
 
+/**
+ * Sources excluded by the source audit (docs/source-audit.md, 2026-10-12): no 2026 or 2027 Level I LOS
+ * retrieves them, and some extract as garbled text. Kept in the manifest for the record; never ingested.
+ */
+export const EXCLUDED = new Set([
+  "census-economic-census-data-uses",
+  "cfr-17-210-2-02",
+  "cfr-17-229-303",
+  "ecb-explainers",
+  "fed-money-payments",
+  "mit-ocw-15401-final_sol",
+  "mit-ocw-15401-lec01",
+  "mit-ocw-15401-midterm",
+  "mit-ocw-15401-midterm_sol",
+  "mit-ocw-15433-fixedincome2",
+  "treasury-tfx-yield-appendix",
+]);
+
 async function main() {
   const { values } = parseArgs({ options: { only: { type: "string", multiple: true } } });
-  const todo = values.only ? SOURCES.filter((s) => values.only!.includes(s.id)) : SOURCES;
+  const todo = (values.only ? SOURCES.filter((s) => values.only!.includes(s.id)) : SOURCES).filter((s) => !EXCLUDED.has(s.id));
   let total = 0;
   const failed: string[] = [];
   for (const def of todo) {

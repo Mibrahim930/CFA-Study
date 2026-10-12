@@ -7860,37 +7860,64 @@
     "auditedAt": "2026-10-11T21:53:48.706Z"
   },
   "fsa-01-los1": {
-    "coverage": "none",
+    "coverage": "full",
     "covered": [
-      "General description of ratio analysis as one tool for evaluating financial statements",
-      "Accounting cycle steps (bookkeeping, not analysis)",
-      "Cash flow statement preparation steps (not the analysis framework)"
+      "Step 1: articulate purpose and context of analysis",
+      "Step 2: collect data (financials, industry, economy, management inquiries)",
+      "Step 3: process data (adjustments, ratios, exhibits)",
+      "Step 4: analyze and interpret data to answer the initial questions",
+      "Step 5: develop and communicate conclusions or recommendations in a report",
+      "Step 6: follow up and update periodically",
+      "Context: reasons for analysis and the main financial statements as information sources"
     ],
     "missing": [
-      "Define the financial statement analysis framework steps: state the objective and context",
-      "Gather data",
-      "Process the data",
-      "Analyze and interpret the data",
-      "Develop and communicate conclusions and recommendations",
-      "Follow-up/update the analysis",
-      "Role of the analyst and outputs of each step"
+      "CFA Institute terminology and its Exhibit wording",
+      "Detail on what to include in each step (e.g., the specific adjustments made when processing data)"
     ],
-    "useful_chunk_ids": [],
-    "note": "No passage presents the CFA six-step financial statement analysis framework; the passages cover accounting cycle, cash flow preparation, or ratio basics, which are different topics.",
+    "useful_chunk_ids": [
+      "strathmore-analyzing-financial-statements:1:0",
+      "strathmore-analyzing-financial-statements:8:1"
+    ],
+    "note": "The two Strathmore handout passages together list all six steps of the framework in the CFA sequence with a short description of each, which is enough for a Level I describe-level LOS.",
     "losId": "fsa-01-los1",
     "topicId": "fsa",
     "moduleTitle": "Introduction to Financial Statement Analysis",
     "losText": "describe the steps in the financial statement analysis framework",
     "retrieved": [
       {
+        "id": "strathmore-analyzing-financial-statements:8:1",
+        "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+        "locator": "pp. 8–14"
+      },
+      {
+        "id": "strathmore-analyzing-financial-statements:1:0",
+        "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+        "locator": "pp. 1–8"
+      },
+      {
         "id": "lyryx-intro-fa-2021a:456:374",
         "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
         "locator": "pp. 456–458"
       },
       {
+        "id": "flatworld-business-accounting:182:161",
+        "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+        "locator": "p. 182"
+      },
+      {
+        "id": "occ-earnings-handbook:22:28",
+        "title": "Comptroller's Handbook: Safety and Soundness, Earnings (OCC)",
+        "locator": "pp. 22–24"
+      },
+      {
         "id": "os:principles-financial-accounting:m67843:2",
         "title": "Principles of Accounting, Volume 1: Financial Accounting",
         "locator": "§3.1 Describe Principles, Assumptions, and Concepts of Accounting and Their Relationship to Financial Statements — The Conceptual Framework"
+      },
+      {
+        "id": "os:principles-financial-accounting:m67869:7",
+        "title": "Principles of Accounting, Volume 1: Financial Accounting",
+        "locator": "§7.1 Define and Describe the Components of an Accounting Information System — Multiple Choice"
       },
       {
         "id": "os:principles-financial-accounting:m67869:5.1",
@@ -7903,48 +7930,23 @@
         "locator": "p. 504"
       },
       {
-        "id": "occ-earnings-handbook:22:28",
-        "title": "Comptroller's Handbook: Safety and Soundness, Earnings (OCC)",
-        "locator": "pp. 22–24"
-      },
-      {
-        "id": "os:principles-financial-accounting:m67845:0",
-        "title": "Principles of Accounting, Volume 1: Financial Accounting",
-        "locator": "§3.3 Define and Describe the Initial Steps in the Accounting Cycle — Overview"
-      },
-      {
-        "id": "flatworld-business-accounting:182:161",
-        "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
-        "locator": "p. 182"
-      },
-      {
-        "id": "os:principles-finance-2e:m00068:6.6",
-        "title": "Principles of Finance 2e",
-        "locator": "§11.2 Dividend Discount Models (DDMs) — Advantages and Limitations of DDMs"
-      },
-      {
         "id": "os:principles-financial-accounting:m67845:1",
         "title": "Principles of Accounting, Volume 1: Financial Accounting",
         "locator": "§3.3 Define and Describe the Initial Steps in the Accounting Cycle — First Four Steps in the Accounting Cycle"
       },
       {
-        "id": "cfa-nongaap:10:5",
-        "title": "Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting (CFA Institute)",
-        "locator": "pp. 10–12"
+        "id": "occ-internal-external-audits:100:138",
+        "title": "Comptroller's Handbook: Internal and External Audits (audit opinions, assurance limits) (OCC)",
+        "locator": "p. 100"
       },
       {
-        "id": "os:principles-financial-accounting:m67881:1",
+        "id": "os:principles-financial-accounting:m67869:6",
         "title": "Principles of Accounting, Volume 1: Financial Accounting",
-        "locator": "§9.1 Explain the Revenue Recognition Principle and How It Relates to Current and Future Sales and Purchase Transactions — Accounting Principles and Assumptions Regulating Revenue Recognition"
-      },
-      {
-        "id": "os:principles-financial-accounting:m67866:10",
-        "title": "Principles of Accounting, Volume 1: Financial Accounting",
-        "locator": "§6.6 Describe and Prepare Multi-Step and Simple Income Statements for Merchandising Companies — Problem Set A"
+        "locator": "§7.1 Define and Describe the Components of an Accounting Information System — Key Concepts and Summary"
       }
     ],
-    "costUsd": 0.0212202,
-    "auditedAt": "2026-10-11T22:25:33.002Z"
+    "costUsd": 0.0223075,
+    "auditedAt": "2026-10-12T05:49:22.480Z"
   },
   "corpfin-07-los1": {
     "coverage": "partial",
@@ -15700,32 +15702,29 @@
   "equity-09-los3": {
     "coverage": "none",
     "covered": [
-      "Generic company-level profitability ratios (profit margin, ROA, ROE, DuPont)",
-      "Comparing a firm's ROE to industry averages, with an ROE-by-industry table",
-      "Trend and cross-sectional ratio analysis at firm level"
+      "Industry average ROE table as a benchmark for company profitability",
+      "Market share computed as own sales divided by total sales of similar businesses (Census example)",
+      "Growth expressed as CAGR in industry output (BLS note)",
+      "Firm-level profitability ratios such as margins and DuPont"
     ],
     "missing": [
-      "Methods for determining industry size (revenue, units, market definition)",
-      "Industry growth characteristics and life-cycle stages",
-      "Industry-level profitability drivers such as margins, returns on capital and cost structure",
-      "Market share trend analysis and concentration measures",
-      "Data sources and approaches for industry analysis (top-down, bottom-up, historical trends)",
-      "Industry classification systems and peer group definition"
+      "Methods for sizing an industry (revenue, units, top-down vs bottom-up)",
+      "Industry growth characteristics: life-cycle stages, cyclicality, secular growth",
+      "Industry-level profitability analysis (margins, return on capital, drivers)",
+      "Market share trend analysis over time and its interpretation",
+      "Concentration and competitive structure as tied to share trends",
+      "Data sources and how to project industry size and growth"
     ],
     "useful_chunk_ids": [
+      "census-economic-census-data-uses:1:4",
       "os:principles-finance-2e:m00045:4.1"
     ],
-    "note": "The passages cover firm-level ratio analysis and only a passing industry-average ROE comparison, with nothing on sizing an industry, growth patterns, or market share trends.",
+    "note": "The passages only touch on market share calculation and industry ROE benchmarks, and contain no teaching on industry size, growth, profitability or share trends from an equity analysis perspective.",
     "losId": "equity-09-los3",
     "topicId": "equity",
     "moduleTitle": "Industry and Competitive Analysis",
     "losText": "determine an industry's size, growth characteristics, profitability, and market share trends",
     "retrieved": [
-      {
-        "id": "flatworld-finance-for-managers:54:39",
-        "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
-        "locator": "pp. 54–56"
-      },
       {
         "id": "os:principles-finance-2e:m00045:4.1",
         "title": "Principles of Finance 2e",
@@ -15735,6 +15734,16 @@
         "id": "os:principles-finance-2e:m00067:0",
         "title": "Principles of Finance 2e",
         "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to Earnings (P/E) Ratio"
+      },
+      {
+        "id": "flatworld-finance-for-managers:54:39",
+        "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+        "locator": "pp. 54–56"
+      },
+      {
+        "id": "ftc-doj-merger-guidelines-2023:17:27",
+        "title": "Merger Guidelines (U.S. DOJ and FTC, December 2023; market shares, concentration, trends toward concentration)",
+        "locator": "p. 17"
       },
       {
         "id": "os:principles-finance-2e:m00045:0",
@@ -15747,11 +15756,6 @@
         "locator": "§7.5 Costs in the Long Run — The Size and Number of Firms in an Industry"
       },
       {
-        "id": "flatworld-finance-for-managers:53:38",
-        "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
-        "locator": "pp. 53–54"
-      },
-      {
         "id": "os:principles-economics-3e:m63906:2",
         "title": "Principles of Economics 3e",
         "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Comparing Marginal Revenue and Marginal Costs"
@@ -15762,28 +15766,28 @@
         "locator": "pp. 18–19"
       },
       {
+        "id": "census-economic-census-data-uses:1:4",
+        "title": "Economic Census: how businesses use the data, sizing markets and calculating market share (U.S. Census Bureau)",
+        "locator": "How 2012 Economic Census Data Are Used"
+      },
+      {
         "id": "os:principles-finance-2e:m00067:2",
         "title": "Principles of Finance 2e",
         "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers"
       },
       {
+        "id": "bls-mlr-2025-12-industry-growth:9:15",
+        "title": "Monthly Labor Review, December 2025 (BLS; Industry growth patterns, output, productivity and hours worked, 1990 to 2024), FRASER copy",
+        "locator": "p. 9"
+      },
+      {
         "id": "flatworld-introduction-to-business:670:631",
         "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
         "locator": "pp. 670–672"
-      },
-      {
-        "id": "russell-us-indexes-methodology:26:31",
-        "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
-        "locator": "p. 26"
-      },
-      {
-        "id": "russell-us-indexes-methodology:24:27",
-        "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
-        "locator": "p. 24"
       }
     ],
-    "costUsd": 0.0234635,
-    "auditedAt": "2026-10-11T22:34:16.851Z"
+    "costUsd": 0.0242555,
+    "auditedAt": "2026-10-12T05:49:22.616Z"
   },
   "equity-09-los4": {
     "coverage": "partial",
@@ -19715,30 +19719,54 @@
     "auditedAt": "2026-10-12T05:30:19.574Z"
   },
   "fixed-income-13-los4": {
-    "coverage": "none",
+    "coverage": "partial",
     "covered": [
-      "Analytical duration measures: Macaulay, modified and effective duration definitions and formulas",
-      "Effective duration as the measure for bonds with embedded options",
-      "Limitations of duration: parallel shifts and large yield changes"
+      "Empirical duration is estimated from observed co-movement of actual prices or returns with yields (e.g. regression on 10-year Treasury yield changes)",
+      "Analytical or theoretical duration is based on modeled sensitivity to a parallel yield curve shift rather than actual returns",
+      "Empirical and analytical duration levels can differ even when the direction of changes is similar",
+      "Empirical duration of MBS shifts with market yields and prepayment behavior, showing negative convexity",
+      "Definitions of Macaulay, modified and effective duration, with effective duration computed from curve shifts",
+      "Limitations of analytical duration: assumes parallel shifts and loses accuracy for large yield changes"
     ],
     "missing": [
-      "Definition of empirical duration (statistical regression of bond price or return changes on yield changes)",
-      "Contrast between empirical and analytical duration",
-      "When empirical duration is used (e.g. credit-risky bonds, MBS, where yield-spread correlations break analytical assumptions)",
-      "Why empirical and analytical duration can differ (yield and spread correlation, liquidity, stale prices)",
-      "Reliability caveats of empirical duration such as data and regression issues"
+      "Explicit CFA-style definition contrasting empirical and analytical duration in one place",
+      "When empirical duration is preferred, e.g. for securities with embedded options or credit and liquidity effects like corporate bonds and MBS",
+      "Weaknesses of empirical duration: sensitivity to the choice of benchmark yield, sample period, and regression fit (R-squared)",
+      "Worked example of empirical duration as regression slope of bond returns on yield changes",
+      "Discussion of how credit spread and Treasury yield correlation can make empirical duration lower than analytical duration for high-yield bonds"
     ],
-    "useful_chunk_ids": [],
-    "note": "The passages cover analytical duration measures and their limits but never define or discuss empirical duration, so the LOS contrast cannot be taught.",
+    "useful_chunk_ids": [
+      "feds-2024-039-reaching-for-duration:28:32",
+      "feds-2024-039-reaching-for-duration:26:30",
+      "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+      "mpra-key-rate-duration:7:5",
+      "ftse-fixed-income-indices-guide:132:153"
+    ],
+    "note": "The passages show empirical duration measured by regression versus theoretical model-based duration, mainly through Fed research papers, but give no clear beginner-level comparison or discussion of when and why each is used.",
     "losId": "fixed-income-13-los4",
     "topicId": "fixed-income",
     "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
     "losText": "describe the difference between empirical duration and analytical duration",
     "retrieved": [
       {
+        "id": "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+        "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+        "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed"
+      },
+      {
+        "id": "feds-2024-039-reaching-for-duration:26:30",
+        "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+        "locator": "pp. 26–27"
+      },
+      {
         "id": "mpra-key-rate-duration:4:2",
         "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
         "locator": "pp. 4–5"
+      },
+      {
+        "id": "feds-2024-039-reaching-for-duration:28:32",
+        "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+        "locator": "pp. 28–29"
       },
       {
         "id": "duffee-treasury-yields-spreads:10:11",
@@ -19746,34 +19774,24 @@
         "locator": "pp. 10–11"
       },
       {
-        "id": "ftse-fixed-income-indices-guide:132:153",
-        "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
-        "locator": "p. 132"
+        "id": "feds-2024-039-reaching-for-duration:52:56",
+        "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+        "locator": "p. 52"
       },
       {
-        "id": "mpra-key-rate-duration:11:8",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 11–12"
+        "id": "feds-2024-039-reaching-for-duration:27:31",
+        "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+        "locator": "pp. 27–28"
       },
       {
-        "id": "mit-ocw-15433-fixedincome1:13:3",
-        "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
-        "locator": "pp. 13–16"
+        "id": "feds-2024-039-reaching-for-duration:29:33",
+        "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+        "locator": "pp. 29–30"
       },
       {
-        "id": "ftse-fixed-income-indices-guide:18:19",
-        "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
-        "locator": "pp. 18–19"
-      },
-      {
-        "id": "mpra-key-rate-duration:5:3",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 5–6"
-      },
-      {
-        "id": "mpra-key-rate-duration:1:0",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 1–3"
+        "id": "frbsf-el-2000-mbs-interest-rate-risk:1:4",
+        "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+        "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed"
       },
       {
         "id": "mpra-key-rate-duration:7:5",
@@ -19781,23 +19799,18 @@
         "locator": "pp. 7–8"
       },
       {
-        "id": "mpra-key-rate-duration:14:10",
-        "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
-        "locator": "pp. 14–16"
+        "id": "ftse-fixed-income-indices-guide:132:153",
+        "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+        "locator": "p. 132"
       },
       {
-        "id": "fed-feds-2006-28:28:23",
-        "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
-        "locator": "pp. 28–29"
-      },
-      {
-        "id": "imf-wb-debt-mgmt-2002:80:99",
-        "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
-        "locator": "p. 80"
+        "id": "duffee-treasury-yields-spreads:13:14",
+        "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+        "locator": "p. 13"
       }
     ],
-    "costUsd": 0.0237775,
-    "auditedAt": "2026-10-11T22:34:17.118Z"
+    "costUsd": 0.0278215,
+    "auditedAt": "2026-10-12T05:49:24.307Z"
   },
   "fixed-income-13-los3": {
     "coverage": "full",

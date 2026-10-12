@@ -214,3 +214,18 @@ New sources (chunks). OCC Comptroller's Handbook booklets, public domain, adapt:
 
 ### Verified vs assumed (this pass)
 Verified: HTTP status, content type and PDF magic bytes for every download; extracted term counts (for example "modified duration" and "convexity" in Ritchken ch. 9, "LIFO" in the EY guide, "covenant lite" in the OCC leveraged-lending glossary, "haircut" 30 times in SR 740); one chunk read per source for several sources to check readable text (pdf.js printed font warnings on three PDFs; no garbling seen in the chunks checked); ingest chunk counts. Not verified: whether the new chunks rank in the top retrieved set for each LOS (no coverage run); licence status of the university course notes (none stated, treated as ground); public domain status of OCC, Treasury, Fed Board, GPO and uscourts.gov items (U.S. federal works, assumed).
+
+## Final-4 pass (2026-10-12)
+Targets: the 4 LOS still rated "none". Six sources added (215 chunks) via `npm run ingest:sources -- --only <id>`. Chunk text (not the title) was grepped for the target phrase. `coverage`, `gen` and `verify` were not run.
+
+| LOS | Outcome | Source ids / evidence |
+|---|---|---|
+| fixed-income-13-los4 | new source | `frbsf-el-2000-mbs-interest-rate-risk` (6 chunks; FRBSF Economic Letter, Jan 2000, GROUND): "empirical duration measures calculate duration from the observed average degree of co-movement between actual MBS market prices and Treasury yields" (`:1:3`, `:1:4`), contrasted with model-based measures. `feds-2024-039-reaching-for-duration` (80 chunks; Federal Reserve Board FEDS, public domain, ADAPT): empirical duration as a regression coefficient of fund returns on the 10-year Treasury yield (5 chunks, e.g. `:26:30`) |
+| fixed-income-06-los3 | still missing | No open source defining matrix pricing found. Checked: NC State Controller GASB 72 Appendix B (one bullet, "relies on the securities' relationship to benchmark quoted prices"; not loaded), Elton/Gruber JF paper (only mentions matrix-priced bonds as a data caveat; not loaded). Definitions found only on prep/CFA pages (AnalystPrep, IFT, CFI, member-only CFA refresher). SEC pages 403 |
+| fsa-01-los1 | new source | `strathmore-analyzing-financial-statements` (11 chunks; Strathmore University lecture handout, no licence stated, GROUND): "Articulate the purpose and context of analysis" (`:1:0`) through "Follow up and update" (`:8:1`), all six steps. Served from the university's Moodle file URL without login (HTTP 200) |
+| equity-09-los3 | new source (partial) | `census-economic-census-data-uses` (8 chunks; Census Bureau, PD, ADAPT): "Calculate market share" worked example and sizing from census totals. `bls-mlr-2025-12-industry-growth` (22 chunks; BLS Monthly Labor Review Dec 2025 via FRASER, PD, ADAPT): industry output growth patterns. `ftc-doj-merger-guidelines-2023` (88 chunks; PD, ADAPT): market shares and trend toward concentration (20 and 2 chunks). Industry life-cycle stages by name remain absent from an open government source |
+
+### Blocked (for the user to open manually, not bypassed)
+- sec.gov: 1995 United Municipal no-action letter on matrix pricing services, and the Valuation Guidance FAQ (403).
+- open.edu OpenLearn industry life cycle page, pressbooks.lib.vt.edu Strategic Management 7.5, bls.gov MLR article HTML (403 to automated fetch; the FRASER PDF copy of the BLS issue was used instead).
+- ici-dev.ici.org fair valuation PDF (403; trade body in any case).

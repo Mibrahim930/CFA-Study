@@ -10,7 +10,7 @@ Start here when picking this project back up. Also read `docs/HANDOFF.md` ("Hard
 - **The library has about 10,080 passages** across 64 source files in `sources/corpus/`. That folder is git-ignored; rebuild it with:
   - `npm run ingest:openstax`
   - `npm run ingest:sources`
-- **Coverage audit of all 340 LOS:** 9 full, 252 partial, 79 none ($4.66).
+- **Coverage (2026-10-12):** 30 full, 308 partial, 2 none (equity-09-los3, fixed-income-06-los3); about 184 sources and 22,700 chunks. See `docs/coverage-report.md` and `docs/source-audit.md` (149 keep, 34 review; 11 off-syllabus sources excluded in `ingest-sources.ts` EXCLUDED).
   - Report: `docs/coverage-report.md`. Raw data: `content/coverage/coverage.json`.
 - **Spend this month:** about $7.42 of the $25 cap (ledger: `content-pipeline/.spend/`).
 

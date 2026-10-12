@@ -8,9 +8,9 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 | Quantitative Methods | 30/30 | 2 | 28 | 0 |
 | Economics | 30/30 | 1 | 29 | 0 |
 | Corporate Finance | 22/22 | 4 | 18 | 0 |
-| Financial Statement Analysis | 53/53 | 2 | 50 | 1 |
+| Financial Statement Analysis | 53/53 | 3 | 50 | 0 |
 | Equities | 37/37 | 1 | 35 | 1 |
-| Fixed Income | 51/51 | 5 | 44 | 2 |
+| Fixed Income | 51/51 | 5 | 45 | 1 |
 | Derivatives and Risk Management | 22/22 | 3 | 19 | 0 |
 | Alternative Investments | 22/22 | 3 | 19 | 0 |
 | Portfolio Construction | 40/40 | 4 | 36 | 0 |
@@ -179,8 +179,6 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 
 ### Financial Statement Analysis
 
-- **fsa-01-los1** (none): describe the steps in the financial statement analysis framework
-  - Missing: Define the financial statement analysis framework steps: state the objective and context; Gather data; Process the data; Analyze and interpret the data; Develop and communicate conclusions and recommendations; Follow-up/update the analysis; Role of the analyst and outputs of each step
 - **fsa-01-los2** (partial): describe the roles of financial statement analysis
   - Missing: CFA-style statement of the roles of FSA: evaluate past performance and current financial position; Use of analysis to form expectations of future performance and cash flows; Using analysis for equity valuation and credit evaluation; Other roles: evaluating a company's ability to meet obligations, M&A and due diligence, regulatory and rating-agency use; Distinction between the roles of analysts and the roles of preparers and auditors in an investment-analysis context; Clear, consolidated beginner-level summary of roles in a single treatment
 - **fsa-01-los3** (partial): describe the importance of regulatory filings, financial statement notes and supplementary information, management's commentary, and audit reports
@@ -337,7 +335,7 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 - **equity-08-los2** (partial): evaluate the construction of an equity valuation model based on characteristics of the subject company
   - Missing: Explicit framework for choosing a model from company characteristics (earnings stability, leverage, maturity, competitive position); Forecasting financial statements and sales, margins and capital items as model inputs; Top-down, bottom-up and hybrid forecasting approaches; Company-specific factors such as business model, cyclicality, and regulatory and macro conditions; Choosing a forecast horizon and handling terminal value; Scenario and sensitivity analysis; Matching model complexity to data availability and the analyst's purpose; Evaluating model construction decisions as the LOS requires
 - **equity-09-los3** (none): determine an industry's size, growth characteristics, profitability, and market share trends
-  - Missing: Methods for determining industry size (revenue, units, market definition); Industry growth characteristics and life-cycle stages; Industry-level profitability drivers such as margins, returns on capital and cost structure; Market share trend analysis and concentration measures; Data sources and approaches for industry analysis (top-down, bottom-up, historical trends); Industry classification systems and peer group definition
+  - Missing: Methods for sizing an industry (revenue, units, top-down vs bottom-up); Industry growth characteristics: life-cycle stages, cyclicality, secular growth; Industry-level profitability analysis (margins, return on capital, drivers); Market share trend analysis over time and its interpretation; Concentration and competitive structure as tied to share trends; Data sources and how to project industry size and growth
 - **equity-09-los4** (partial): analyze an industry's structure and external influences using Porter's Five Forces and the PESTLE framework
   - Missing: PESTLE framework itself: the six factors (political, economic, social, technological, legal, environmental) defined with examples; detailed treatment of threat of substitutes; detailed treatment of supplier power; how to apply both frameworks to assess an industry's attractiveness and profitability; distinction between PESTLE macro factors and Five Forces industry structure; legal and environmental factors; worked industry example combining both frameworks
 - **equity-10-los1** (partial): explain a company's competitive strategy and position within an industry
@@ -419,8 +417,8 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
   - Missing: Clean, legible formula %ΔP ≈ -ModDur×Δy + ½×Convexity×(Δy)²; A complete worked example applying both terms to give the final percentage price change; Unit/scaling conventions for convexity (e.g., Δy in decimals vs percent); Explicit sign handling for yield increases versus decreases; Comparison of the combined estimate with actual price change in a full numeric example
 - **fixed-income-13-los2** (partial): calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond's effective duration and convexity
   - Missing: a clean statement of the full formula ΔP/P ≈ -EffDur × Δy + ½ × Convexity × (Δy)²; a complete worked calculation using given effective duration and convexity that ends in a final percentage price change; the ½ factor and the Δy in decimal vs percent units explained clearly and consistently; effective duration formula in the standard (P- − P+)/(2 × P0 × Δcurve) form with a worked example; callable and option-embedded bond context and negative convexity applied to the price change estimate; a practice problem with a solution
-- **fixed-income-13-los4** (none): describe the difference between empirical duration and analytical duration
-  - Missing: Definition of empirical duration (statistical regression of bond price or return changes on yield changes); Contrast between empirical and analytical duration; When empirical duration is used (e.g. credit-risky bonds, MBS, where yield-spread correlations break analytical assumptions); Why empirical and analytical duration can differ (yield and spread correlation, liquidity, stale prices); Reliability caveats of empirical duration such as data and regression issues
+- **fixed-income-13-los4** (partial): describe the difference between empirical duration and analytical duration
+  - Missing: Explicit CFA-style definition contrasting empirical and analytical duration in one place; When empirical duration is preferred, e.g. for securities with embedded options or credit and liquidity effects like corporate bonds and MBS; Weaknesses of empirical duration: sensitivity to the choice of benchmark yield, sample period, and regression fit (R-squared); Worked example of empirical duration as regression slope of bond returns on yield changes; Discussion of how credit spread and Treasury yield correlation can make empirical duration lower than analytical duration for high-yield bonds
 - **fixed-income-14-los1** (partial): describe credit risk and its components, probability of default and loss given default
   - Missing: Formal definition of credit risk as the risk of loss from a borrower failing to pay; Explicit definition of loss given default as a share of exposure lost, equal to 1 minus recovery rate; Expected loss = PD x LGD stated as a clean formula; Exposure at default and recovery rate concepts; Credit spread as compensation for credit risk in a Level I framing; Simple beginner-oriented explanation; passages are regulatory or academic, not CFA-style
 - **fixed-income-14-los3** (partial): describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads
@@ -670,4 +668,4 @@ Each LOS was judged by claude-sonnet-5-5 against the top 12 passages the pipelin
 - **ethics-10-los2** (partial): explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct
   - Missing: Text and explanation of most Standards (II through VII), including integrity of capital markets, duties to clients, and conflicts of interest; Many worked case examples where the reader must judge violation or no violation; Guidance on recommended procedures for compliance across most standards; A step-by-step method for applying the Standards to a scenario and distinguishing violating from compliant conduct; Contrasting non-violation cases showing conduct that complies
 
-Audit cost so far: $8.14.
+Audit cost so far: $8.15.
