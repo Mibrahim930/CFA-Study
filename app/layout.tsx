@@ -28,7 +28,10 @@ export const viewport: Viewport = {
 };
 
 const NAV = [
-  { href: "/", label: "Syllabus" },
+  { href: "/", label: "Today" },
+  { href: "/syllabus", label: "Syllabus" },
+  { href: "/review", label: "Review" },
+  { href: "/mock", label: "Mock exam" },
   { href: "/resources", label: "Free resources" },
 ];
 

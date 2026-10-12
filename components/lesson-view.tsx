@@ -87,7 +87,7 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
       </div>
 
       <div className={card}>
-        <PracticeSet mcqs={lesson.mcqs} flashcards={lesson.flashcards} />
+        <PracticeSet losId={lesson.losId} mcqs={lesson.mcqs} flashcards={lesson.flashcards} />
       </div>
 
       {lesson.sources.length > 0 && (

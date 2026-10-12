@@ -32,7 +32,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
   return (
     <div className="space-y-6">
       <div>
-        <Link href="/" className="text-sm text-muted hover:text-foreground">
+        <Link href="/syllabus" className="text-sm font-semibold text-muted hover:text-accent">
           ← Syllabus
         </Link>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight">{topic.name}</h1>

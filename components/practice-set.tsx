@@ -1,14 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Badge, ViewLesson } from "@/lib/content/generated";
+import { enrol, markMissed } from "@/lib/store/review";
 import { InlineRich } from "./rich-text";
 
 const BADGE_TEXT: Record<Badge, string> = { grounded_verified: "Grounded + verified", verified: "Math verified", model_only: "AI-only" };
 const LETTERS = "ABC";
 
-export function PracticeSet({ mcqs, flashcards }: Pick<ViewLesson, "mcqs" | "flashcards">) {
+export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId" | "mcqs" | "flashcards">) {
   const [picked, setPicked] = useState<Record<string, number>>({});
+  // Opening a lesson puts its flashcards into the spaced-repetition deck.
+  useEffect(() => enrol(flashcards.map((f) => `${losId}:${f.id}`), "flashcard"), [losId, flashcards]);
+  const choose = (id: string, i: number, key: number) => {
+    setPicked((p) => ({ ...p, [id]: i }));
+    if (i !== key) markMissed(`${losId}:${id}`);
+  };
   const [flipped, setFlipped] = useState<Record<string, boolean>>({});
   const answered = mcqs.filter((m) => picked[m.id] !== undefined);
   const correct = answered.filter((m) => picked[m.id] === m.answerIndex).length;
@@ -47,7 +54,7 @@ export function PracticeSet({ mcqs, flashcards }: Pick<ViewLesson, "mcqs" | "fla
                           key={i}
                           type="button"
                           disabled={done}
-                          onClick={() => setPicked((p) => ({ ...p, [m.id]: i }))}
+                          onClick={() => choose(m.id, i, m.answerIndex)}
                           className={`block w-full rounded-md border px-3 py-2 text-left text-sm ${state}`}
                         >
                           <span className="mr-2 font-medium">{LETTERS[i]}.</span>
