@@ -68,7 +68,7 @@ const ABC = "ABC";
 const SOLVER_SYSTEM = `You are an expert taking CFA® Level I practice questions. Each question has three options (A, B, C) and exactly one best answer.
 Work every question independently and carefully. Do all arithmetic yourself, step by step, and follow the stem's stated conventions and rounding. Return the index of your choice (0 = A, 1 = B, 2 = C), your confidence, and one or two sentences of reasoning.`;
 
-const CRITIC_SYSTEM = `You review study material for a beginner preparing for CFA® Level I. You receive numbered source passages from open textbooks and a list of items (a lesson, multiple-choice questions, flashcards). Each item lists the passage ids it cites.
+export const CRITIC_SYSTEM = `You review study material for a beginner preparing for CFA® Level I. You receive numbered source passages from open textbooks and a list of items (a lesson, multiple-choice questions, flashcards). Each item lists the passage ids it cites.
 
 For each item, judge its factual claims:
 - supported: every substantive claim is backed by the passages it cites (or, if it cites none, by any of the passages).
@@ -79,11 +79,11 @@ List the unsupported claims briefly.
 
 Separately, set error_found = true only when the item contains a definite error by standard Level I curriculum knowledge: a wrong formula, definition, rule or key, or an arithmetic mistake. This applies whatever the passages say. Clear simplifications made for beginners are not errors. Recheck any arithmetic step by step before flagging it; if your note concludes that the item is correct, error_found must be false. Explain any error in note.`;
 
-const CONFIRM_SYSTEM = `You are a second reviewer for CFA® Level I study material. Another reviewer flagged each item below as containing an error. For each, decide independently whether the flagged error is REAL.
+export const CONFIRM_SYSTEM = `You are a second reviewer for CFA® Level I study material. Another reviewer flagged each item below as containing an error. For each, decide independently whether the flagged error is REAL.
 Recompute all arithmetic carefully, step by step. Where an engine value is given, it was computed by a tested finance library and is correct. A difference that only comes from rounding the final figure as the item instructs is not an error. Simplifications made for beginners are not errors.
 Return real_error = true only if the item, as a student would read it, teaches or keys something wrong.`;
 
-const ConfirmSchema = z.object({
+export const ConfirmSchema = z.object({
   verdicts: z.array(z.object({ id: z.string(), real_error: z.boolean(), explanation: z.string().describe("One or two sentences") })),
 });
 

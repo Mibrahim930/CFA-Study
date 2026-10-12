@@ -6,7 +6,9 @@ import { DoneMark, ProgressBar } from "@/components/progress";
 import { ResourceCard } from "@/components/resource-card";
 import { getDeck } from "@/lib/content/deck";
 import { getHeldBackLos } from "@/lib/content/generated";
+import { getPrimer } from "@/lib/content/primers";
 import { getModuleLectures } from "@/lib/content/videos";
+import { TopicPrimer } from "@/components/topic-primer";
 import { resourcesForTopic } from "@/lib/resources";
 import { formatTime } from "@/lib/youtube";
 import { getTopic, syllabus } from "@/lib/syllabus";
@@ -42,6 +44,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
     }),
   );
   const ready = rows.filter((r) => r.lessons).length;
+  const primer = await getPrimer(topic.id);
 
   return (
     <div className="space-y-8">
@@ -57,6 +60,8 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
           <ProgressBar slugs={topic.modules.map((m) => m.slug)} />
         </div>
       </div>
+      {primer && <TopicPrimer primer={primer} topicName={topic.name} />}
+      <h2 className="text-lg font-bold">Modules</h2>
       <ol className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
         {rows.map(({ m, lectures, heldBack, lessons }) => (
           <li key={m.id}>

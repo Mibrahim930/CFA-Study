@@ -1,0 +1,447 @@
+{
+  "topicId": "quant",
+  "generatedAt": "2026-10-12T17:49:18.101Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Quantitative Methods is the maths toolkit of finance. It turns prices and cash flows (money coming in or going out) into numbers you can compare. The first part covers returns, which show how much money an investment made, as a percentage. It also covers the time value of money. This is the idea that $100 today is worth more than $100 next year, because today's money can earn interest in the meantime.\n\nThe middle part covers statistics, which means using numbers to describe data. An average shows the typical result. Spread shows how bumpy the results are. A distribution shows the shape of the likely outcomes. Estimation and hypothesis testing then ask a simple question: how far can you trust a pattern you found in a small batch of data? Portfolio maths shows how mixing several investments changes the overall return and the overall risk.\n\nThe last part covers tools for looking ahead and for finding links between things. Simulation uses a computer to create thousands of possible futures. Simple linear regression draws a best-fit straight line between two things, such as a stock and the market. Data science is about handling very large, messy sets of data. Each part builds on the one before, so start with returns and the time value of money.",
+  "whyItMatters": "Quantitative Methods carries 11 to 14 percent of the exam, and its tools (returns, averages, risk, testing) come back in almost every other topic. In a finance career, every performance report, valuation and risk number relies on this maths.",
+  "prerequisites": [
+    "Percentages and decimals: be able to turn 5% into 0.05 and back again. Practise by working out discounts and tips in your head for a week, until it feels automatic.",
+    "Powers and roots: know that $(1.05)^3$ means 1.05 x 1.05 x 1.05, and that a square root undoes squaring. Find the power and root keys on your calculator. Check your answers on easy cases such as $(1.1)^2 = 1.21$.",
+    "Averages and spread: know what a mean (the usual average: add up the numbers and divide by how many there are) and a median (the middle value when numbers are in order) are. Take any five numbers and work out both by hand. Then change one number and see which measure moves.",
+    "Reading simple graphs: understand the x axis (across) and the y axis (up), what a straight line looks like, and what a slope is (how far the line rises for each step across). Sketch a few lines from small tables of numbers until slope feels natural.",
+    "Basic interest: know that a savings account paying 5% turns $100 into $105 after one year. Work out a few two-year and three-year cases by hand before you meet any formula.",
+    "Spreadsheet basics: be able to type numbers into cells, add a formula and copy it down a column. A free tutorial on SUM, AVERAGE and basic formulas takes about an hour."
+  ],
+  "studyTips": [
+    "Do the arithmetic by hand with small round numbers first, such as $100 growing at 10%. Then apply the formula, so you understand what it does.",
+    "Build a one-page formula sheet as you go. Next to each formula, write one sentence saying when to use it and what the answer means in plain English.",
+    "Practise the calculator keys (powers, roots and the time-value-of-money functions) every day. Exam speed depends on knowing them without thinking.",
+    "For every statistics idea, ask what question it answers and what could mislead you. Examples are the arithmetic mean ignoring compounding, or the normal curve missing fat tails.",
+    "Redo each worked example with different numbers. If you can predict whether the answer will go up or down before you calculate, you understand it."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Return (holding period return)",
+      "definition": "The gain or loss on an investment, shown as a percentage of what you paid. It adds together the change in price and any income you received, such as dividends (cash a company pays to its shareholders). It covers one stretch of time, called the holding period.",
+      "example": "You buy a share for $100, receive $5 in dividends and sell it for $110. Your return is (10 + 5) / 100 = 15%. Of that, 5% is the dividend yield (the income part) and 10% is the capital gain yield (the price rise part).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Compounding",
+      "definition": "Moving money forward in time while letting the interest it earns also earn interest. For each period, multiply by $(1+r)$, where r is the interest rate for that period. Think of a snowball that gets bigger, and picks up snow faster, as it rolls.",
+      "example": "$100 at 10% per year grows to $100 x 1.1 x 1.1 = $121 after two years. Simple interest (interest only on the original $100) would give just $120. The extra $1 is interest on interest.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t3",
+      "term": "Present value (PV) and future value (FV)",
+      "definition": "Future value is what money you have today will be worth later if it earns interest. Present value is what a payment due in the future is worth today. Finding the present value is called discounting. It is compounding run backwards: divide by $(1+r)^n$, where n is the number of periods.",
+      "example": "At 10%, $110 due in one year has a PV of 110 / 1.1 = $100. Put the other way round, $100 today has an FV of $110 in one year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Annual percentage rate (APR) and effective annual rate (EAR)",
+      "definition": "The APR is the yearly rate that is quoted to you. It ignores interest on interest. The EAR is the true yearly growth once interest on interest is counted. The EAR is higher than the APR whenever interest is paid more than once a year.",
+      "example": "A 12% APR paid monthly means 1% per month. The EAR is $(1.01)^{12} - 1$, which is about 12.68%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t5",
+      "term": "Nominal and real rate",
+      "definition": "A nominal rate is the headline rate you are quoted, before prices are taken into account. A real rate is the rate left after you remove inflation (the general rise in prices). The real rate tells you how much more you can actually buy.",
+      "example": "Your savings earn 5% nominal while prices rise 2%. The exact real rate is 1.05 / 1.02 - 1, which is about 2.94%. A quick approximation is 5% - 2% = 3%.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t6",
+      "term": "Annuity and perpetuity",
+      "definition": "An annuity is a fixed payment made at regular intervals for a set number of periods. A perpetuity is the same payment that goes on forever. You value both by adding up the present values of all the payments.",
+      "example": "A loan repaid with $50 each year for 20 years is an annuity. A scholarship fund that pays $5 a year forever, at a 5% rate, has a PV of 5 / 0.05 = $100.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Arithmetic mean return",
+      "definition": "The simple average of a list of returns: add them up and divide by how many there are. It describes a typical single period. It ignores compounding, so it overstates the growth you actually earned over several periods.",
+      "example": "Returns of +10% and -10% average to 0%. Yet $100 became $110, then $99, so you lost money.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Geometric mean return",
+      "definition": "The average yearly growth rate that takes compounding into account. Multiply together the growth factors $(1+R)$ for each period. Take the n-th root of the result (the square root for two periods, the cube root for three, and so on). Then subtract 1. It is never larger than the arithmetic mean.",
+      "example": "For +10% and -10%: 1.10 x 0.90 = 0.99. The square root is about 0.995, so the geometric mean is about -0.5% per year. This matches the real loss.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Time-weighted return (TWR)",
+      "definition": "A fund's compounded growth rate, with the effect of investors' deposits and withdrawals removed. It judges the manager's skill, because managers usually do not control when cash comes in or goes out. To find it, chain the returns of each sub-period together by multiplying their growth factors.",
+      "example": "A fund returns +10% in quarter 1 and -10% in quarter 2. Its TWR is 1.10 x 0.90 - 1 = -1%, however much money was in the fund at each point.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t10",
+      "term": "Money-weighted return and internal rate of return (IRR)",
+      "definition": "A return that shows what the investor actually experienced, including the size and timing of their deposits and withdrawals. The IRR is the discount rate (the rate used to turn future money into present value) that makes the present value of all the cash flows equal zero. Investors who add money just before a strong period score better.",
+      "example": "You invest $100 and receive $110 one year later. The IRR is 10%, because 110 / 1.10 = 100.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t11",
+      "term": "Benchmark",
+      "definition": "A standard you compare a return against. It is usually a market index, which is a basket of securities that stands for a whole market. It tells you whether a fund did well or badly compared with its market.",
+      "example": "Your fund returned 8%. Its benchmark index returned 10%. The fund fell behind by 2 percentage points, even though 8% sounds good.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t12",
+      "term": "Standard deviation and variance",
+      "definition": "Both measure spread, meaning how far values typically sit from their average. Variance is the average of the squared distances from the mean. Standard deviation is the square root of the variance, so it is in the same units as the data. In finance, a higher standard deviation of returns means higher risk, because the results are more uncertain.",
+      "example": "Exam scores of 40, 70 and 100 and scores of 69, 70 and 71 both average 70. The first set has a far bigger standard deviation, so the average alone hides how different the two sets are.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t13",
+      "term": "Normal distribution",
+      "definition": "The bell-shaped pattern in which most outcomes sit near the average and extreme outcomes are rare. Its mean and standard deviation describe it completely. Real asset returns often have fatter tails. This means extreme moves happen more often than the bell curve predicts.",
+      "example": "If a portfolio's daily change is roughly normal, about 95% of days fall within two standard deviations of the average.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t14",
+      "term": "Population, sample and sampling",
+      "definition": "The population is everything you want to know about. A sample is a smaller part of it that you actually measure. Random sampling gives every member a fair chance of being picked, so the sample is representative. Sloppy sampling creates bias, which is a built-in lean in one direction.",
+      "example": "You ask 100 shoppers outside one mall about a store. Those 100 are a sample of all shoppers. Because they were easy to reach, they may not represent everyone.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t15",
+      "term": "Confidence interval",
+      "definition": "A range around a sample estimate that probably contains the true value. A 95% interval is built so that it would catch the truth in about 95 of 100 repeated samples. More data makes the interval narrower.",
+      "example": "A sample of delivery times averages 36 minutes, giving an interval of 34 to 38. A bigger sample could shrink it to 35 to 37.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t16",
+      "term": "Hypothesis test",
+      "definition": "A method for judging whether a pattern in sample data is real or just luck. You start by assuming the boring answer, called the null hypothesis (for example, that the average return is zero). Then you check how unlikely your data would be if that assumption were true. If it is very unlikely, you reject the null. It works like a court case: the accused is assumed innocent until the evidence says otherwise.",
+      "example": "A fund beat its benchmark by 1% a year over 5 years. A test asks whether such a gap could easily happen by chance if the manager had no skill.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t17",
+      "term": "Portfolio, correlation and diversification",
+      "definition": "A portfolio is a collection of investments held together. Its return is the weighted average of its holdings' returns. Correlation is a number from -1 to +1 that shows how closely two assets move together. The lower the correlation, the more the portfolio's risk falls below the average of its parts. This is diversification, like not keeping all your eggs in one basket.",
+      "example": "Put 50% in stock A (10% return) and 50% in stock B (6%). The portfolio return is 0.5 x 10% + 0.5 x 6% = 8%. If A and B are not perfectly correlated, its risk is lower than the average of their risks.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t18",
+      "term": "Simulation (Monte Carlo and historical)",
+      "definition": "Using a computer to create many possible future outcomes. Monte Carlo simulation draws random price paths from rules you assume. Historical simulation replays real past returns instead. Both show a range of results, such as how bad a loss could be.",
+      "example": "Simulate 10,000 possible one-year paths for a portfolio. Sort the results and see that the worst 5% of paths lost more than 12%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t19",
+      "term": "Simple linear regression (slope and intercept)",
+      "definition": "A method that fits the best straight line, y = a + bx, through your data. It links one variable (x, the explanatory one) to another (y, the one being explained). The slope b is the average change in y when x rises by one unit. The intercept a is the predicted y when x is zero.",
+      "example": "If monthly revenue is 9,376 + 61.8 x advertising (in $1,000s), then each extra $1,000 of advertising goes with about $61,800 more revenue on average.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t20",
+      "term": "Big data and the four Vs",
+      "definition": "Big data means datasets that are too large or too varied for traditional tools. It has four traits: volume (how much there is), velocity (how fast it is created), variety (the different types, such as text, audio and video) and veracity (how accurate and trustworthy it is). Data science methods clean and analyse such data.",
+      "example": "Social media posts about a company are high-volume, fast and varied. Analysts must check that they are accurate before trusting a sentiment signal (a reading of whether people feel positive or negative).",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "How do you calculate a holding period return?",
+      "back": "(Ending price - starting price + income received) / starting price.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "What are the two parts of a stock's total return?",
+      "back": "Dividend yield (the income) and capital gain yield (the price change).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "What does compounding mean?",
+      "back": "Earning interest on earlier interest, so money grows by $(1+r)$ each period.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "What does discounting do?",
+      "back": "It moves a future amount back to today by dividing by $(1+r)^n$. The result is its present value.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c5",
+      "front": "Which is higher when interest is paid monthly: the APR or the EAR?",
+      "back": "The EAR, because of interest on interest.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What is the formula for converting a holding period return to an annual rate?",
+      "back": "EAR = $(1 + \\text{holding period return})^m - 1$, where m is the number of holding periods in a year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "What is a real interest rate?",
+      "back": "The nominal (headline) rate after removing inflation. It shows the gain in buying power.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c8",
+      "front": "What is the difference between an annuity and a perpetuity?",
+      "back": "An annuity pays a fixed amount for a set number of periods. A perpetuity pays it forever.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c9",
+      "front": "How does the geometric mean compare with the arithmetic mean of returns?",
+      "back": "The geometric mean is never larger, because it takes compounding into account.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "When is the geometric mean the better measure?",
+      "back": "When you want the actual average compounded growth over several periods.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What does time-weighted return remove?",
+      "back": "The effect of the timing and size of investors' cash going in and out.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "Why is TWR used to judge managers of public funds?",
+      "back": "They normally do not control when investors add or withdraw money.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "What is the IRR?",
+      "back": "The discount rate that makes the present value of all an investment's cash flows equal zero.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What does a benchmark do?",
+      "back": "It gives you a standard, such as a market index, to judge a return against.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c15",
+      "front": "Why report standard deviation as well as the mean?",
+      "back": "Two datasets can share a mean but differ greatly in spread. Standard deviation shows that spread, which is a measure of risk.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c16",
+      "front": "What happens to a confidence interval as the sample size rises?",
+      "back": "It gets narrower.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "What is a null hypothesis?",
+      "back": "The default claim you test against, usually that there is no effect, such as a true mean return of zero.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c18",
+      "front": "What happens to portfolio risk as the correlation between two assets falls?",
+      "back": "Portfolio risk falls. It is below the weighted average of the assets' risks unless correlation is +1.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "What does the slope in a simple linear regression tell you?",
+      "back": "The average change in y for a one-unit increase in x.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What is the main weakness of historical simulation?",
+      "back": "It gives every past day equal weight. It ignores that volatility (how wildly prices swing) changes and clusters over time.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "mit-ocw-15401-rec01:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 1: Present Value",
+      "locator": "pp. 1–7",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7fd4ce059d9bd0086fc9b50e3cd99540_MIT15_401F08_rec01.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "commonfund-twr-vs-irr:2:1",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 2–3",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=2",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:26:6",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 26–30",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=26",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "ib-mwr-twr-white-paper:1:0",
+      "title": "Money Weighted Return and Time Weighted Return White Paper (Interactive Brokers PortfolioAnalyst)",
+      "locator": "pp. 1–2",
+      "url": "https://www.interactivebrokers.com/images/common/Statements/MWR-TWR_white_paper.pdf#page=1",
+      "license": "Interactive Brokers white paper; no licence stated (private grounding only)"
+    },
+    {
+      "id": "commonfund-twr-vs-irr:4:4",
+      "title": "What's the Difference? Time-Weighted Return vs. Internal Rate of Return (Commonfund)",
+      "locator": "pp. 4–5",
+      "url": "https://www.commonfund.org/hubfs/03%20Research%20Center/Articles/Whats%20the%20Difference_%20TWR%20vs%20IRR%20.pdf#page=4",
+      "license": "© Commonfund (all rights reserved; free public PDF, private grounding only)"
+    },
+    {
+      "id": "smu-fma-ch4-rates-of-return:1:0",
+      "title": "Financial Mathematics for Actuaries, Chapter 4: Rates of Return (Y. K. Tse, Singapore Management University lecture slides)",
+      "locator": "pp. 1–5",
+      "url": "http://www.mysmu.edu/faculty/yktse/fma/s_fma_4.pdf#page=1",
+      "license": "Course slides on the author's SMU page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00061:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.1 Characteristics of Bonds — Basic Terminology",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-1-characteristics-of-bonds",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m62299:0.1",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§2.5 Geometric Mean — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/2-5-geometric-mean",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.5",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-data-science:m00022:0",
+      "title": "Principles of Data Science",
+      "locator": "§3.2 Measures of Variation — Overview",
+      "url": "https://openstax.org/books/principles-data-science/pages/3-2-measures-of-variation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "os:principles-data-science:m00017:2.1",
+      "title": "Principles of Data Science",
+      "locator": "§2.2 Survey Design and Implementation — Sampling",
+      "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55461:2.3",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§8.1 A Confidence Interval When the Population Standard Deviation Is Known or Large Sample Size — Changing the Confidence Level or Sample Size",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/8-1-a-confidence-interval-when-the-population-standard-deviation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:4:4",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)"
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:17:20",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=17",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)"
+    },
+    {
+      "id": "os:introductory-business-statistics-2e:m55838:0",
+      "title": "Introductory Business Statistics 2e",
+      "locator": "§13.4 The Regression Equation — Overview",
+      "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/13-4-the-regression-equation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00089:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§14.3 Best-Fit Linear Model — Interpret and Apply the Slope and <emphasis effect=\"italics\">y</emphasis>-Intercept",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/14-3-best-fit-linear-model",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "cfa-rf-ai-bigdata:55:87",
+      "title": "Handbook of AI and Big Data Applications in Investments (CFA Institute Research Foundation)",
+      "locator": "p. 55",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf#page=55",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "os:principles-data-science:m00041:4",
+      "title": "Principles of Data Science",
+      "locator": "§6.5 Other Machine Learning Techniques — Working with Big Data",
+      "url": "https://openstax.org/books/principles-data-science/pages/6-5-other-machine-learning-techniques",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "costUsd": 0.3534182
+}

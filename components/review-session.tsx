@@ -50,7 +50,7 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
         <span>
           {due.length} due · {done} done
         </span>
-        <Link href={`/learn/${item.moduleSlug}`} className="hover:text-accent">
+        <Link href={item.href ?? `/learn/${item.moduleSlug}`} className="hover:text-accent">
           {item.moduleTitle} →
         </Link>
       </div>

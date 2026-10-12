@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { cacheLife } from "next/cache";
 import { syllabus } from "@/lib/syllabus";
 import { getModuleLessons } from "./generated";
+import { getPrimer, primerCardId } from "./primers";
 
 /** Everything the review page can show, keyed by review id ("<losId>:f2" / "<losId>:q3"). */
 export interface DeckItem {
@@ -15,6 +16,8 @@ export interface DeckItem {
   topicId: string;
   moduleTitle: string;
   moduleSlug: string;
+  /** Where the card's "source" link goes (defaults to its module page). */
+  href?: string;
 }
 
 export async function getDeck(): Promise<Record<string, DeckItem>> {
@@ -23,6 +26,20 @@ export async function getDeck(): Promise<Record<string, DeckItem>> {
   const deck: Record<string, DeckItem> = {};
   const root = join(process.cwd(), "content", "generated");
   const topics = existsSync(root) ? readdirSync(root) : [];
+  // Beginner primer cards ("Start here" on each topic page).
+  for (const topic of syllabus.topics) {
+    const primer = await getPrimer(topic.id);
+    for (const c of primer?.cards ?? []) {
+      deck[primerCardId(topic.id, c.id)] = {
+        front: c.front,
+        back: c.back,
+        topicId: topic.id,
+        moduleTitle: `${topic.name}: beginner guide`,
+        moduleSlug: topic.modules[0].slug,
+        href: `/topics/${topic.id}`,
+      };
+    }
+  }
   for (const topic of syllabus.topics.filter((t) => topics.includes(t.id))) {
     for (const mod of topic.modules) {
       const lessons = await getModuleLessons(topic.id, mod.id, mod.los.map((l) => l.id));
