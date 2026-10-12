@@ -4,7 +4,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DoneMark, ProgressBar } from "@/components/progress";
 import { ResourceCard } from "@/components/resource-card";
+import { getDeck } from "@/lib/content/deck";
+import { getHeldBackLos } from "@/lib/content/generated";
+import { getModuleLectures } from "@/lib/content/videos";
 import { resourcesForTopic } from "@/lib/resources";
+import { formatTime } from "@/lib/youtube";
 import { getTopic, syllabus } from "@/lib/syllabus";
 
 export function generateStaticParams() {
@@ -29,28 +33,51 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
   const topic = getTopic(id);
   if (!topic) notFound();
 
+  const deck = await getDeck();
+  const withLessons = new Set(Object.values(deck).map((d) => d.moduleSlug));
+  const rows = await Promise.all(
+    topic.modules.map(async (m) => {
+      const [lectures, heldBack] = await Promise.all([getModuleLectures(m.id), getHeldBackLos(topic.id, m.id)]);
+      return { m, lectures, heldBack: heldBack.length, lessons: withLessons.has(m.slug) };
+    }),
+  );
+  const ready = rows.filter((r) => r.lessons).length;
+
   return (
-    <div className="space-y-6">
-      <div>
+    <div className="space-y-8">
+      <div className="space-y-2">
         <Link href="/syllabus" className="text-sm font-semibold text-muted hover:text-accent">
           ← Syllabus
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight">{topic.name}</h1>
-        <p className="mt-1 text-sm text-muted">
-          Exam weight {topic.weight.min}–{topic.weight.max}% · session {topic.session} · {topic.modules.length}{" "}
-          modules
+        <h1 className="text-3xl font-extrabold tracking-tight">{topic.name}</h1>
+        <p className="text-sm text-muted">
+          Exam weight {topic.weight.min}–{topic.weight.max}% · session {topic.session} · {topic.modules.length} modules · lessons ready for {ready}
         </p>
-        <div className="mt-3 max-w-sm">
+        <div className="max-w-sm pt-1">
           <ProgressBar slugs={topic.modules.map((m) => m.slug)} />
         </div>
       </div>
-      <ol className="divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface">
-        {topic.modules.map((m) => (
+      <ol className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
+        {rows.map(({ m, lectures, heldBack, lessons }) => (
           <li key={m.id}>
-            <Link href={`/learn/${m.slug}`} className="flex items-center gap-3 px-4 py-3 hover:bg-surface-2">
-              <span className="w-6 shrink-0 text-sm text-muted tabular-nums">{m.order}</span>
-              <span className="flex-1">{m.title}</span>
-              <span className="shrink-0 text-xs text-muted">{m.los.length} LOS</span>
+            <Link href={`/learn/${m.slug}`} className="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-4 hover:bg-surface-2">
+              <span className="w-6 shrink-0 font-semibold tabular-nums text-muted">{m.order}</span>
+              <span className="min-w-0 flex-[1_1_240px] font-semibold">{m.title}</span>
+              <span className="flex shrink-0 flex-wrap items-center gap-2 text-xs font-semibold">
+                {lessons ? (
+                  <span className="rounded-full bg-success/12 px-2.5 py-1 text-success">Lessons ready</span>
+                ) : heldBack ? (
+                  <span className="rounded-full bg-warn/12 px-2.5 py-1 text-warn">Held back</span>
+                ) : (
+                  <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">Lessons coming</span>
+                )}
+                {lectures.length > 0 && (
+                  <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">
+                    {lectures.length} video{lectures.length === 1 ? "" : "s"} · {formatTime(lectures.reduce((s, l) => s + l.seconds, 0))}
+                  </span>
+                )}
+                <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{m.los.length} LOS</span>
+              </span>
               <span className="w-4 shrink-0 text-right">
                 <DoneMark slug={m.slug} />
               </span>
@@ -60,8 +87,8 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
       </ol>
       <section className="space-y-3">
         <div className="flex items-baseline justify-between gap-3">
-          <h2 className="text-lg font-medium">Practise elsewhere</h2>
-          <Link href="/resources" className="text-sm text-muted hover:text-foreground">
+          <h2 className="text-lg font-bold">Practise elsewhere</h2>
+          <Link href="/resources" className="text-sm font-semibold text-muted hover:text-accent">
             All free resources →
           </Link>
         </div>

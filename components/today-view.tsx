@@ -78,11 +78,11 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
             <ul className="space-y-3 text-sm">
               {readiness.map((t) => (
                 <li key={t.id} className="space-y-1">
-                  <div className="flex justify-between gap-2">
-                    <Link href={`/topics/${t.id}`} className="hover:text-accent">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <Link href={`/topics/${t.id}`} className="min-w-0 hover:text-accent">
                       {t.name}
                     </Link>
-                    <span className={t.started ? "font-bold" : "text-muted"}>{t.started ? `${t.pct}%` : "Not started"}</span>
+                    <span className={`shrink-0 whitespace-nowrap tabular-nums ${t.started ? "font-bold" : "text-xs text-muted"}`}>{t.started ? `${t.pct}%` : "Not started"}</span>
                   </div>
                   <div className="h-2 rounded-full bg-surface-2">
                     <div className="h-2 rounded-full bg-accent" style={{ width: `${t.pct}%` }} />

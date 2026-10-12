@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LessonView } from "@/components/lesson-view";
-import { ModuleWorkspace } from "@/components/module-workspace";
+import { ModuleChecklist, ModuleWorkspace } from "@/components/module-workspace";
 import { getHeldBackLos, getModuleLessons } from "@/lib/content/generated";
 import { getModuleLectures } from "@/lib/content/videos";
 import { getModule, syllabus } from "@/lib/syllabus";
@@ -78,26 +78,14 @@ async function LearnContent({ params }: { params: PageProps<"/learn/[slug]">["pa
 
       <div className="flex flex-wrap items-start gap-8">
         <div className="min-w-0 flex-[999_1_640px] space-y-12">
+          <ModuleWorkspace slug={module.slug} lectures={await getModuleLectures(module.id)} />
           <Suspense fallback={<p className="text-muted">Loading lessons…</p>}>
             <GeneratedLessons topicId={topic.id} moduleId={module.id} losOrder={module.los.map((l) => l.id)} />
           </Suspense>
-          <ModuleWorkspace slug={module.slug} los={module.los} lectures={await getModuleLectures(module.id)} />
         </div>
 
-        <aside className="min-w-0 flex-[1_1_260px] lg:sticky lg:top-24">
-          <nav aria-label="In this module" className="space-y-3 rounded-2xl border border-line bg-surface p-5">
-            <h2 className="text-sm font-bold">In this module</h2>
-            <ol className="space-y-2 text-sm">
-              {module.los.map((l, i) => (
-                <li key={l.id}>
-                  <a href={`#${l.id}`} className="flex gap-2 text-muted hover:text-accent">
-                    <span className="tabular-nums font-semibold text-foreground">{i + 1}.</span>
-                    <span className="line-clamp-3">{l.text}</span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </nav>
+        <aside aria-label="Module progress" className="min-w-0 flex-[1_1_260px] lg:sticky lg:top-24">
+          <ModuleChecklist slug={module.slug} los={module.los} />
         </aside>
       </div>
 

@@ -50,7 +50,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </span>
               <span className="text-[17px]">L1 Study</span>
             </Link>
-            <div className="flex flex-wrap gap-1 font-semibold">
+            <div className="-mx-1 flex gap-1 overflow-x-auto font-semibold whitespace-nowrap max-sm:w-[calc(100%+0.5rem)] sm:flex-wrap">
+              {/* One swipeable row on phones; wraps on wider screens. */}
               {NAV.map((n) => (
                 <Link key={n.href} href={n.href} className="rounded-lg px-3 py-2 text-muted hover:bg-accent-soft hover:text-accent">
                   {n.label}
