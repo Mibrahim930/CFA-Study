@@ -4,7 +4,7 @@
   "moduleId": "quant-05",
   "moduleTitle": "Statistical Characteristics of Asset Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:02:20.873Z",
+  "verifiedAt": "2026-10-12T12:42:33.374Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -195,7 +195,7 @@
         "os:principles-finance-2e:m00079:0"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -214,10 +214,8 @@
         "issues": []
       },
       "grounding": {
-        "pass": false,
-        "issues": [
-          "error found: CV and standard deviation parts are supported. The worked example has an error: semi-deviation of sqrt(26)=5.10% is below SD 6.32%, which is fine, but the claim that semi-deviation can never exceed standard deviation is true only here because both use n-1 over a subset of deviations. The statement is correct, so the real problem is elsewhere. The BA II Plus steps are plausible. All arithmetic checks: mean 4, 104/4=26, sqrt=5.10, 160/4=40, sqrt=6.32, CV=1.58. No error found on re-check, but the flag is set in error: error_found should be false."
-        ]
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -737,31 +735,31 @@
   ],
   "usage": [
     {
-      "at": "2026-10-12T07:02:11.909Z",
+      "at": "2026-10-12T12:42:25.470Z",
       "purpose": "blind-solve",
       "losId": "quant-05-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 901,
-      "outputTokens": 1011,
+      "outputTokens": 912,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.012029,
+      "costUsd": 0.011039,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:02:20.873Z",
+      "at": "2026-10-12T12:42:33.373Z",
       "purpose": "grounding",
       "losId": "quant-05-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 11559,
-      "outputTokens": 1362,
+      "outputTokens": 1267,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0368994,
+      "cacheReadTokens": 846,
+      "costUsd": 0.035957199999999995,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0489284
+  "costUsd": 0.046996199999999995
 }

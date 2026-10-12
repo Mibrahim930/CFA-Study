@@ -4,7 +4,7 @@
   "moduleId": "quant-08",
   "moduleTitle": "The Return and Risk of a Financial Portfolio",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:05:35.795Z",
+  "verifiedAt": "2026-10-12T12:44:58.738Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -324,7 +324,7 @@
           "mit-ocw-15433-portfolio3:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -346,11 +346,15 @@
           "pass": true,
           "issues": []
         },
-        "grounding": {
-          "pass": false,
+        "critic_review": {
+          "pass": true,
           "issues": [
-            "error found: Correct variance: 0.25(0.04)+0.25(0.0144)+2(0.25)(0.25)(0.2)(0.12)(0.3)=0.01+0.0036+0.0009=0.0145, SD 12.04%. The stated key of 13.11% is wrong, and the explanation's third term (0.0036) and sum (0.0172) are also wrong. The 0.0172 sum does give 13.11%, but it rests on an incorrect covariance term."
+            "flag overturned on second review: Variance = 0.25(0.04) + 0.25(0.0144) + 2(0.5)(0.5)(0.2)(0.12)(0.3) = 0.01 + 0.0036 + 0.0036 = 0.0172, so SD = 13.11%, which matches the engine value and key A. Distractors B (16%) and C (sqrt 0.0136 = 11.66%) are also correct. The truncated '2(0.25)(0.25)...' expression is sloppy, but the stated component values are right, so nothing wrong is keyed."
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -381,7 +385,7 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -498,7 +502,7 @@
           "mit-ocw-15433-portfolio3:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -521,10 +525,8 @@
           "issues": []
         },
         "grounding": {
-          "pass": false,
-          "issues": [
-            "error found: w^2 sigma^2 terms: 0.16*0.0225=0.0036 and 0.36*0.01=0.0036. Covariance: 2(0.4)(0.6)(0.15)(0.10)(0.20)=0.00144. Total 0.00864, SD=9.30%. The arithmetic is correct, so the key is right. The error flag is set by mistake and should be false."
-          ]
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -558,7 +560,7 @@
           "mit-ocw-15401-lec13:23:5"
         ]
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -768,31 +770,44 @@
   "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T07:05:24.959Z",
+      "at": "2026-10-12T12:44:40.276Z",
       "purpose": "blind-solve",
       "losId": "quant-08-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 937,
-      "outputTokens": 971,
+      "outputTokens": 985,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.011701,
+      "costUsd": 0.011841,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:05:35.794Z",
+      "at": "2026-10-12T12:44:50.823Z",
       "purpose": "grounding",
       "losId": "quant-08-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 17523,
-      "outputTokens": 1568,
+      "outputTokens": 1526,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0508874,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0504752,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T12:44:58.737Z",
+      "purpose": "confirm",
+      "losId": "quant-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 500,
+      "outputTokens": 993,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.011038,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0625884
+  "costUsd": 0.07335420000000001
 }

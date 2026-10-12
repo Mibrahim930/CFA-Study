@@ -4,7 +4,7 @@
   "moduleId": "quant-07",
   "moduleTitle": "Estimation and Hypothesis Testing",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:04:38.242Z",
+  "verifiedAt": "2026-10-12T12:44:33.228Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -723,7 +723,7 @@
           "os:introductory-business-statistics-2e:m55608:6"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -776,31 +776,31 @@
   ],
   "usage": [
     {
-      "at": "2026-10-12T07:04:30.179Z",
+      "at": "2026-10-12T12:44:24.698Z",
       "purpose": "blind-solve",
       "losId": "quant-07-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 915,
-      "outputTokens": 478,
+      "outputTokens": 486,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.006727,
+      "costUsd": 0.006807,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:04:38.242Z",
+      "at": "2026-10-12T12:44:33.227Z",
       "purpose": "grounding",
       "losId": "quant-07-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 12410,
-      "outputTokens": 1119,
+      "outputTokens": 1247,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0361714,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0374592,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0428984
+  "costUsd": 0.0442662
 }

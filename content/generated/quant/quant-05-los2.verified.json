@@ -4,7 +4,7 @@
   "moduleId": "quant-05",
   "moduleTitle": "Statistical Characteristics of Asset Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:01:49.740Z",
+  "verifiedAt": "2026-10-12T12:42:19.049Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -196,7 +196,7 @@
         "mit-ocw-15433-portfolio2:1:0"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -215,10 +215,8 @@
         "issues": []
       },
       "grounding": {
-        "pass": false,
-        "issues": [
-          "error found: The worked example has an arithmetic error. Skewness sum of cubed deviations: -27-8-1+0+216 = 180, OK. s=3.5355, s^3=44.19, 180/44.19=4.073, times 0.41667 = 1.697, which is correct. However, the sample skewness formula n/((n-1)(n-2)) * sum((x-mean)/s)^3 is correctly applied. The error: the passage formula divides by n (not n-1) and the lesson mixes it, but that's fine. The BA II Plus keystrokes are wrong: the 2nd [DATA] and [STAT] steps are inaccurate and the calculator doesn't output skewness. Core content is mostly correct, but 'Mode<median<mean' is a typical but not universal rule, which the lesson hedges with 'typical'. The main error is the calculator instructions."
-        ]
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -740,31 +738,31 @@
   "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T07:01:39.346Z",
+      "at": "2026-10-12T12:42:10.290Z",
       "purpose": "blind-solve",
       "losId": "quant-05-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 787,
-      "outputTokens": 482,
+      "outputTokens": 454,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.006511,
+      "costUsd": 0.006231,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:01:49.739Z",
+      "at": "2026-10-12T12:42:19.048Z",
       "purpose": "grounding",
       "losId": "quant-05-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 12587,
-      "outputTokens": 1441,
+      "outputTokens": 1309,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0397454,
+      "cacheReadTokens": 846,
+      "costUsd": 0.038433199999999994,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0462564
+  "costUsd": 0.044664199999999994
 }

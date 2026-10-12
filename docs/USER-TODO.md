@@ -18,7 +18,7 @@ Claude keeps this list updated. Tick items off as you go.
 - [ ] Later, for syncing progress between laptop and phone, a free Supabase account. Not needed yet.
 
 ## 3. Budget
-- [ ] The Claude API budget is about $25 a month (`CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`). Quant generation brings this month to about $25, so the last 1–3 Quant objectives may wait for next month. The other 9 topics cost about $55: raise the cap, or let it run a topic or two per month.
+- [ ] Claude API budget: you approved going over the $25 cap, and it is now $30 in `.env.local`. This month is at about $25.60: all 30 Quant objectives are done and re-checked. The other 9 topics cost about $55 more. Decide the cap for next month.
 
 ## Saves Claude usage (optional)
 - [ ] A "Fact-Forcing Gate" hook (from the ECC plugin) blocks Claude's first edit to every file until it restates facts, which wastes a noticeable share of your usage. To relax it for this project, start Claude with `ECC_GATEGUARD=off`, or add `pre:edit-write:gateguard-fact-force` to `ECC_DISABLED_HOOKS`. It's your setting, so Claude won't change it.

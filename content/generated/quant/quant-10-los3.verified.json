@@ -4,7 +4,7 @@
   "moduleId": "quant-10",
   "moduleTitle": "Applications of Simple Linear Regression in Finance",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:08:21.959Z",
+  "verifiedAt": "2026-10-12T12:45:59.803Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -249,22 +249,22 @@
       "item": {
         "kind": "concept",
         "difficulty": "easy",
-        "stem": "A simple linear regression is estimated using 30 observations and has a sum of squared errors of 112. What is the standard error of the estimate, rounded to two decimals?",
+        "stem": "A simple linear regression (one independent variable, with an intercept) is estimated using 30 observations. The sum of squared errors (the sum of squared residuals) is 112. What is the standard error of the estimate, rounded to two decimals?",
         "options": [
           {
             "text": "4.00",
             "value": null,
-            "explanation": "This is SSE divided by n−2 (the average squared error) without taking the square root, so it is in squared units rather than the units of Y."
+            "explanation": "This is SSE divided by n − 2 (the mean squared error) with no square root taken. It is in squared units of Y, not the units of Y."
           },
           {
             "text": "1.97",
             "value": null,
-            "explanation": "This divides by n−1 = 29 instead of n−2 = 28. Two parameters (intercept and slope) are estimated, so two degrees of freedom are lost."
+            "explanation": "This divides SSE by n − 1 = 29 instead of n − 2 = 28. A simple regression estimates two parameters (intercept and slope), so two degrees of freedom are lost."
           },
           {
             "text": "2.00",
             "value": null,
-            "explanation": "Correct. SEE = √(112 / (30 − 2)) = √4 = 2.00."
+            "explanation": "Correct. SEE = √(SSE / (n − 2)) = √(112 / 28) = √4 = 2.00. The answer is in the same units as the dependent variable."
           }
         ],
         "answer_index": 2,
@@ -273,7 +273,7 @@
           "os:introductory-business-statistics-2e:m55838:0.4"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -294,14 +294,16 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose B (high): SEE = sqrt(SSE/(n-2)) = sqrt(112/28) = sqrt(4) = 2.00. Wait: 112/28 = 4, sqrt = 2.00, so the answer is C.}"
+            "solver chose B (high): SEE = sqrt(SSE/(n-2)) = sqrt(112/28) = sqrt(4) = 2.00. Wait, this equals 2.00, which is option C."
           ]
         },
         "blind_solve": {
-          "pass": false,
-          "issues": [
-            "solver chose B again: SEE = sqrt(SSE/(n-2)) = sqrt(112/28) = sqrt(4) = 2.00. Wait: 112/28 = 4, sqrt = 2.00, so the answer is C.</br> (after repair)"
-          ]
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -336,7 +338,7 @@
           "os:introductory-business-statistics-2e:m64846:2"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -354,20 +356,15 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
-          "pass": false,
-          "issues": [
-            "solver chose C again: Ŷ = -0.5 + 1.2(4) = 4.3%. (after repair)"
-          ]
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q3",
@@ -417,12 +414,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -431,8 +422,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q4",
@@ -452,7 +442,7 @@
             "explanation": "This confuses information about the slope with uncertainty in a forecast. Distance from the mean increases forecast variance."
           },
           {
-            "text": "wider, because the distance from the mean of X adds forecast variance",
+            "text": "wider, because the squared distance from the mean of X adds to the forecast variance",
             "value": null,
             "explanation": "Correct. The term (X_f − X̄)² / ((n−1)s_X²) grows as X_f moves away from X̄. Extrapolation is also risky because the linear relationship may not hold outside the observed range."
           }
@@ -482,12 +472,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -496,8 +480,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q5",
@@ -547,12 +530,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -561,8 +538,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q6",
@@ -612,12 +588,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -626,8 +596,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q7",
@@ -676,12 +645,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -690,8 +653,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q8",
@@ -741,12 +703,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -755,8 +711,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     }
   ],
   "flashcards": [
@@ -883,57 +838,57 @@
   "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T07:07:44.824Z",
+      "at": "2026-10-12T12:45:42.929Z",
       "purpose": "blind-solve",
       "losId": "quant-10-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 1077,
-      "outputTokens": 115,
+      "outputTokens": 618,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.003421,
+      "costUsd": 0.008451,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:08:08.599Z",
+      "at": "2026-10-12T12:45:49.323Z",
       "purpose": "repair",
       "losId": "quant-10-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 13035,
-      "outputTokens": 4360,
+      "inputTokens": 9563,
+      "outputTokens": 792,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.07059560000000001,
+      "costUsd": 0.0279716,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:08:13.366Z",
+      "at": "2026-10-12T12:45:50.859Z",
       "purpose": "blind-solve",
       "losId": "quant-10-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 1073,
-      "outputTokens": 633,
+      "inputTokens": 114,
+      "outputTokens": 139,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.008593,
+      "costUsd": 0.001735,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:08:21.958Z",
+      "at": "2026-10-12T12:45:59.803Z",
       "purpose": "grounding",
       "losId": "quant-10-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 14095,
-      "outputTokens": 1182,
+      "inputTokens": 14483,
+      "outputTokens": 1256,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0401714,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041695199999999995,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.122781
+  "costUsd": 0.0798528
 }

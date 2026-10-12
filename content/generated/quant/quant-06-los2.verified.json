@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:03:25.213Z",
+  "verifiedAt": "2026-10-12T12:43:29.710Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -367,22 +367,22 @@
       "item": {
         "kind": "calc",
         "difficulty": "medium",
-        "stem": "Four annual returns are 5%, 1%, -3% and 7%. Treating them as a sample, what is the sample standard deviation? Round to two decimal places in percent.",
+        "stem": "Four annual returns are 5%, 1%, -3% and 7%. These four returns are a sample drawn from a longer history, so use the sample standard deviation (divide the sum of squared deviations by n - 1). What is the sample standard deviation? Round to two decimal places in percent.",
         "options": [
           {
             "text": "3.84%",
             "value": 0.0384,
-            "explanation": "Mistake: dividing the sum of squared deviations by n (4) instead of n - 1 (3). That gives the population standard deviation, 59/4 = 14.75 and a square root of 3.84%."
+            "explanation": "Mistake: dividing the sum of squared deviations (59) by n = 4 instead of n - 1 = 3. That gives the population standard deviation, sqrt(14.75) = 3.84%, which the stem rules out."
           },
           {
             "text": "3.50%",
             "value": 0.035,
-            "explanation": "Mistake: using the mean absolute deviation (the average of the absolute deviations, 14/4 = 3.5) instead of squaring the deviations."
+            "explanation": "Mistake: using the mean absolute deviation (average of 2.5, 1.5, 5.5, 4.5) instead of squaring the deviations, averaging with n - 1, and taking the square root."
           },
           {
             "text": "4.43%",
             "value": 0.0443,
-            "explanation": "Correct. Mean = 2.5%. Deviations are 2.5, -1.5, -5.5 and 4.5, and their squares sum to 59 (in %-squared). Dividing by n - 1 = 3 gives 19.67, and the square root is 4.43%."
+            "explanation": "Correct. Mean = 2.5%. Deviations are 2.5, -1.5, -5.5, 4.5, and their squares are 6.25, 2.25, 30.25, 20.25, which sum to 59 (in %-squared). Divide by n - 1 = 3 to get 19.67, and the square root is 4.43%."
           }
         ],
         "answer_index": 2,
@@ -415,13 +415,13 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose A (high): Mean = 10/4 = 2.5. Deviations: 2.5, -1.5, -5.5, 4.5, squares 6.25+2.25+30.25+20.25 = 59. 59/3 = 19.667, sqrt = 4.43. That matches C (4.43%), so I correct this: the answer is C."
+            "solver chose A (high): Mean = 10/4 = 2.5. Deviations squared: 6.25, 2.25, 30.25, 20.25 = 59. Divide by 3 = 19.667; sqrt = 4.43%. That matches C, not A. Correction: the answer is C."
           ]
         },
         "blind_solve": {
           "pass": false,
           "issues": [
-            "solver chose A again: Mean = (5+1-3+7)/4 = 2. Squared deviations: 9+1+25+25 = 60. Sample variance = 60/3 = 20, so SD = sqrt(20) = 4.47%. None match exactly, so recheck: deviations are 3, -1, -5, 5; squares 9, 1, 25, 25 = 60; 60/3 = 20; sqrt = 4.4721. The closest option is 4.43% (C), but 3.84% would be the population SD sqrt(15) = 3.87, which is also not exact. 4.43% is closest to 4.47%. (after repair)"
+            "solver chose A again: Mean = (5+1-3+7)/4 = 2.5. Squared deviations: 6.25, 2.25, 30.25, 20.25 = 59. Divide by 3 = 19.667; sqrt = 4.43%. That matches option C (index 2), not A. (after repair)"
           ]
         }
       },
@@ -544,17 +544,17 @@
       "item": {
         "kind": "calc",
         "difficulty": "easy",
-        "stem": "Five returns, 2%, 4%, 6%, 8% and 10%, make up the entire population of interest. What is their population variance, expressed in decimals (0.0008 style) and rounded to four decimal places?",
+        "stem": "Five returns, 2%, 4%, 6%, 8% and 10%, make up the entire population of interest (not a sample). What is their population variance, expressed as a decimal (not in percent-squared) and rounded to four decimal places?",
         "options": [
-          {
-            "text": "0.0008",
-            "value": 0.0008,
-            "explanation": "Correct. Mean = 6%. The squared deviations in decimals are 0.0016, 0.0004, 0, 0.0004 and 0.0016, which sum to 0.0040. Dividing by N = 5 gives 0.0008."
-          },
           {
             "text": "0.0010",
             "value": 0.001,
-            "explanation": "Mistake: using n - 1 = 4 as the divisor, which gives the sample variance, even though the data are the whole population."
+            "explanation": "Mistake: using n - 1 = 4 as the divisor, which gives the sample variance (0.0040 / 4), even though the data are the whole population."
+          },
+          {
+            "text": "0.0008",
+            "value": 0.0008,
+            "explanation": "Correct. Mean = 6% = 0.06. Squared deviations in decimals are 0.0016, 0.0004, 0, 0.0004, 0.0016, which sum to 0.0040. Divide by N = 5 to get 0.0008."
           },
           {
             "text": "0.0040",
@@ -562,7 +562,7 @@
             "explanation": "Mistake: stopping at the sum of squared deviations and forgetting to divide by the number of observations."
           }
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "calc_spec": {
           "fn": "variance",
           "args_json": "{\"xs\":[0.02,0.04,0.06,0.08,0.10],\"basis\":\"population\"}"
@@ -592,7 +592,7 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose C (high): Mean = 6%. Squared deviations in %: 16+4+0+4+16 = 40; /5 = 8 (%^2) = 8/10000 = 0.0008. So the answer is A."
+            "solver chose B (high): Mean 6%; squared deviations (in %²) 16, 4, 0, 4, 16 = 40; divide by 5 = 8 %² = 0.0008 in decimals. That is A, not B. Correction: the answer is A."
           ]
         },
         "blind_solve": {
@@ -795,7 +795,7 @@
           "os:introductory-business-statistics-2e:m55463:0.1"
         ]
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
@@ -878,57 +878,57 @@
   ],
   "usage": [
     {
-      "at": "2026-10-12T07:03:01.894Z",
+      "at": "2026-10-12T12:43:04.450Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 816,
-      "outputTokens": 658,
+      "outputTokens": 657,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.008329,
+      "costUsd": 0.008319,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:11.978Z",
+      "at": "2026-10-12T12:43:15.294Z",
       "purpose": "repair",
       "losId": "quant-06-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 9218,
-      "outputTokens": 1520,
+      "inputTokens": 9212,
+      "outputTokens": 1611,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.0345616,
+      "costUsd": 0.0354596,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:15.691Z",
+      "at": "2026-10-12T12:43:18.024Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 202,
-      "outputTokens": 332,
+      "inputTokens": 245,
+      "outputTokens": 222,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.003841,
+      "costUsd": 0.002827,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:25.212Z",
+      "at": "2026-10-12T12:43:29.709Z",
       "purpose": "grounding",
       "losId": "quant-06-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 12779,
-      "outputTokens": 1364,
+      "inputTokens": 12789,
+      "outputTokens": 1400,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0393594,
+      "cacheReadTokens": 846,
+      "costUsd": 0.039747199999999996,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.086091
+  "costUsd": 0.08635280000000001
 }

@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:03:51.040Z",
+  "verifiedAt": "2026-10-12T12:43:55.252Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -357,7 +357,7 @@
       "item": {
         "kind": "concept",
         "difficulty": "medium",
-        "stem": "There is a 60% chance of an up market and a 40% chance of a down market. The expected stock return is 12% in an up market and -4% in a down market. What is the unconditional expected return?",
+        "stem": "A market scenario analysis assigns a 60% probability to an up market and a 40% probability to a down market. The stock's expected return is 12% if the market is up and -4% if the market is down. What is the stock's unconditional expected return?",
         "options": [
           {
             "text": "4.0%",
@@ -367,77 +367,19 @@
           {
             "text": "7.2%",
             "value": null,
-            "explanation": "Wrong: this is 0.6 × 12% only; it leaves out the contribution of the down scenario (0.4 × -4% = -1.6%)."
+            "explanation": "Wrong: this is only 0.6 × 12%. It leaves out the down-market term, 0.4 × (-4%) = -1.6%."
           },
           {
             "text": "5.6%",
             "value": null,
-            "explanation": "Correct: law of total expectation, 0.6(12%) + 0.4(-4%) = 7.2% - 1.6% = 5.6%."
+            "explanation": "Correct: by the law of total expectation, weight each conditional expectation by its scenario probability: 0.6(12%) + 0.4(-4%) = 7.2% - 1.6% = 5.6%."
           }
         ],
         "answer_index": 2,
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "model_only",
-      "gates": {
-        "lint": {
-          "pass": true,
-          "issues": []
-        },
-        "calc": {
-          "pass": true,
-          "issues": []
-        },
-        "copy": {
-          "pass": true,
-          "issues": []
-        },
-        "ifrs18": {
-          "pass": true,
-          "issues": []
-        },
-        "blind_solve": {
-          "pass": true,
-          "issues": []
-        },
-        "grounding": {
-          "pass": true,
-          "issues": []
-        }
-      }
-    },
-    {
-      "id": "q4",
-      "item": {
-        "kind": "calc",
-        "difficulty": "medium",
-        "stem": "Given a recession, an analyst treats three returns as equally likely: -10%, -4% and 2%. These three outcomes make up the whole conditional distribution, each with probability 1/3. Compute Var(R | recession) as the probability-weighted average squared deviation from the conditional mean. Use returns in decimals and round to four decimals.",
-        "options": [
-          {
-            "text": "0.0036",
-            "value": 0.0036,
-            "explanation": "Wrong: this divides the sum of squared deviations by n − 1 = 2 (sample variance). The three outcomes are the complete conditional distribution with probabilities 1/3 each, so the probability-weighted version applies."
-          },
-          {
-            "text": "0.0024",
-            "value": 0.0024,
-            "explanation": "Correct: the conditional mean is -4%. The squared deviations are 36, 0 and 36 (in %²). Weighting each by 1/3 gives 72/3 = 24 %², which is 0.0024."
-          },
-          {
-            "text": "0.0490",
-            "value": 0.049,
-            "explanation": "Wrong: 0.0490 is the conditional standard deviation (the square root of 0.0024, about 0.0490), not the variance."
-          }
-        ],
-        "answer_index": 1,
-        "calc_spec": {
-          "fn": "variance",
-          "args_json": "{\"xs\":[-0.10,-0.04,0.02],\"basis\":\"population\"}"
-        },
-        "cited_chunk_ids": []
-      },
-      "badge": "verified",
+      "badge": "quarantined",
       "gates": {
         "lint": {
           "pass": true,
@@ -458,16 +400,77 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose A (high): The mean is (-10-4+2)/3 = -4%. Squared deviations are 36, 0 and 36 (in %^2), which sum to 72. Dividing by 3 gives 24 %^2, or 0.0024. Since the three outcomes are the whole distribution, the population variance applies, not the sample variance (which would give 0.0036). Choice B, 0.0024, matches the population variance, so the answer is B (index 1)."
+            "solver chose B (high): By the total expectation rule: 0.6*12 + 0.4*(-4) = 7.2 - 1.6 = 5.6%, which is option C, not B. Index 2 is correct."
           ]
         },
         "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose B again: E(R) = 0.6*12% + 0.4*(-4%) = 7.2% - 1.6% = 5.6%, which is option C (index 2). (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Given a recession, an analyst treats three returns as equally likely: -10%, -4% and 2%. These three outcomes make up the whole conditional distribution, each with probability 1/3. Compute Var(R | recession) with returns in decimals, rounded to four decimals.",
+        "options": [
+          {
+            "text": "0.0036",
+            "value": 0.0036,
+            "explanation": "Wrong: this divides the sum of squared deviations by n - 1 = 2 (sample variance). The outcomes are the complete conditional distribution with probability 1/3 each, so the divisor is 3."
+          },
+          {
+            "text": "0.0024",
+            "value": 0.0024,
+            "explanation": "Correct: the conditional mean is -4%. The squared deviations are 36, 0 and 36 (in %²). The probability-weighted average is 72/3 = 24 %² = 0.0024."
+          },
+          {
+            "text": "0.0490",
+            "value": 0.049,
+            "explanation": "Wrong: 0.0490 is the conditional standard deviation (the square root of 0.0024), not the variance."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "variance",
+          "args_json": "{\"xs\":[-0.10,-0.04,0.02],\"basis\":\"population\"}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
           "pass": true,
           "issues": []
         },
-        "grounding": {
+        "calc": {
           "pass": true,
           "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Mean = -12/3 = -4%. Deviations: -6, 0, 6 -> squares 0.0036, 0, 0.0036; sum 0.0072; divided by 3 = 0.0024. This is option B, index 1."
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose A again: Placeholder (after repair)"
+          ]
         }
       },
       "repaired": true
@@ -532,22 +535,22 @@
       "item": {
         "kind": "concept",
         "difficulty": "hard",
-        "stem": "Two stocks' returns are uncorrelated within an expansion and also uncorrelated within a recession, so the conditional covariance is zero in each regime. Both stocks have a higher expected return in expansions than in recessions, and both regimes occur with positive probability. Considering all regimes together, the unconditional covariance of the two returns is:",
+        "stem": "The returns on two stocks are uncorrelated within an expansion and also uncorrelated within a recession (conditional covariance is zero in each regime). Both stocks have a higher expected return in expansions than in recessions, and both regimes occur with positive probability. The unconditional covariance of the two returns is:",
         "options": [
           {
-            "text": "Zero, since the covariance is zero within each regime",
+            "text": "Zero, because covariance is zero in every regime",
             "value": null,
-            "explanation": "Wrong: this uses only the average conditional covariance and omits the covariance between the two stocks' regime-specific expected returns."
+            "explanation": "Wrong: this treats the average conditional covariance as the whole answer and omits the covariance between the two stocks' regime means."
           },
           {
-            "text": "Negative, since the regimes offset each other's effects",
+            "text": "Negative, because the regimes offset each other",
             "value": null,
-            "explanation": "Wrong: both stocks' regime means move in the same direction, so the between-regime term cannot be negative."
+            "explanation": "Wrong: the regime means move in the same direction for both stocks, so the between-regime term cannot be negative."
           },
           {
-            "text": "Positive, since both expected returns rise and fall together",
+            "text": "Positive, because both means shift together across regimes",
             "value": null,
-            "explanation": "Correct: Cov(X,Y) = E[Cov(X,Y | regime)] + Cov(E[X | regime], E[Y | regime]) = 0 + a positive term, because both conditional means are higher in expansion and lower in recession."
+            "explanation": "Correct: Cov(X,Y) = E[Cov(X,Y|S)] + Cov(E[X|S], E[Y|S]) = 0 + a positive term, because both conditional means rise in expansion and fall in recession."
           }
         ],
         "answer_index": 2,
@@ -572,12 +575,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -586,8 +583,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q7",
@@ -754,60 +750,62 @@
       }
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "1/4 items have the longest option as the key"
+  ],
   "usage": [
     {
-      "at": "2026-10-12T07:03:29.720Z",
+      "at": "2026-10-12T12:43:34.338Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 727,
-      "outputTokens": 489,
+      "outputTokens": 532,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.006461,
+      "costUsd": 0.006891,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:40.127Z",
+      "at": "2026-10-12T12:43:46.632Z",
       "purpose": "repair",
       "losId": "quant-06-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 11158,
-      "outputTokens": 1527,
+      "inputTokens": 11067,
+      "outputTokens": 1487,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.0385116,
+      "costUsd": 0.0379296,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:43.576Z",
+      "at": "2026-10-12T12:43:48.215Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 329,
-      "outputTokens": 364,
+      "inputTokens": 240,
+      "outputTokens": 129,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.004415,
+      "costUsd": 0.001887,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:03:51.040Z",
+      "at": "2026-10-12T12:43:55.251Z",
       "purpose": "grounding",
       "losId": "quant-06-los3",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 14454,
-      "outputTokens": 1138,
+      "inputTokens": 14087,
+      "outputTokens": 963,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0404494,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0379732,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.089837
+  "costUsd": 0.0846808
 }

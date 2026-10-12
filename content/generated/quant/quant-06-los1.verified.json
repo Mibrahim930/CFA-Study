@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:02:57.264Z",
+  "verifiedAt": "2026-10-12T12:42:59.975Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -305,25 +305,25 @@
       "item": {
         "kind": "calc",
         "difficulty": "easy",
-        "stem": "A stock has four equally likely return scenarios for the coming year: 10%, 4%, -2% and 12%. What is its expected return? Give your answer to one decimal place.",
+        "stem": "A stock has four return scenarios for the coming year, each with a 25% probability: 10%, 4%, -2% and 12%. What is the stock's expected return? Give your answer as a percentage to one decimal place.",
         "options": [
           {
             "text": "7.0%",
             "value": 0.07,
-            "explanation": "This is the median (the average of the middle two values, 4% and 10%), not the mean. Expected value uses every outcome."
-          },
-          {
-            "text": "6.0%",
-            "value": 0.06,
-            "explanation": "Correct. With equal probabilities of 0.25 each: (10 + 4 - 2 + 12)/4 = 24/4 = 6.0%."
+            "explanation": "This is the median, the average of the two middle outcomes (4% and 10%). It is not the expected value, which weights every outcome by its probability."
           },
           {
             "text": "8.0%",
             "value": 0.08,
-            "explanation": "This divides the total of 24% by 3 instead of 4, effectively dropping a scenario when counting."
+            "explanation": "This divides the 24% total by 3 instead of 4, which drops one scenario when counting. Four equally likely outcomes each carry a weight of 0.25."
+          },
+          {
+            "text": "6.0%",
+            "value": 0.06,
+            "explanation": "Correct. Expected value is the probability-weighted sum: 0.25(10%) + 0.25(4%) + 0.25(-2%) + 0.25(12%) = 24%/4 = 6.0%."
           }
         ],
-        "answer_index": 1,
+        "answer_index": 2,
         "calc_spec": {
           "fn": "arithmeticMean",
           "args_json": "{\"xs\":[0.10,0.04,-0.02,0.12]}"
@@ -332,7 +332,7 @@
           "os:principles-finance-2e:m00082:1"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -353,14 +353,16 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose A (high): (10+4-2+12)/4 = 24/4 = 6.0%. That is option B, so the answer index is 1, not 0.\n"
+            "solver chose A (high): (10+4-2+12)/4 = 24/4 = 6.0%. That corresponds to option B, not A."
           ]
         },
         "blind_solve": {
-          "pass": false,
-          "issues": [
-            "solver chose A again: (10+4-2+12)/4 = 24/4 = 6.0%. Rechecking: 10+4=14, 14-2=12, 12+12=24, 24/4=6.0%, so the answer is B.. Correcting index: 6.0% is option B. (after repair)"
-          ]
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -412,12 +414,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -426,8 +422,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q4",
@@ -437,22 +432,22 @@
         "stem": "An asset's return has four equally likely outcomes, which together make up its complete distribution: 2%, 6%, 10% and 14%. What is the variance of the return, expressed in decimals (for example 0.0050) and rounded to four decimal places?",
         "options": [
           {
-            "text": "0.0080",
-            "value": 0.008,
-            "explanation": "This is the sum of the squared deviations (0.0036 + 0.0004 + 0.0004 + 0.0036) without dividing by the number of outcomes."
-          },
-          {
             "text": "0.0020",
             "value": 0.002,
-            "explanation": "Correct. The mean is 8%. The squared deviations sum to 0.0080, and dividing by 4 (the full distribution) gives 0.0020."
+            "explanation": "Correct. The expected return is 8%. The squared deviations are 0.0036, 0.0004, 0.0004 and 0.0036, which sum to 0.0080. Weighting each by its probability of 0.25 (dividing by 4) gives 0.0020."
+          },
+          {
+            "text": "0.0080",
+            "value": 0.008,
+            "explanation": "This is the plain sum of the squared deviations. It skips the step of weighting each by its probability (dividing by 4)."
           },
           {
             "text": "0.0027",
             "value": 0.0027,
-            "explanation": "This divides by n - 1 = 3, the sample-estimate formula, although the four outcomes are the complete distribution."
+            "explanation": "This divides by n - 1 = 3, the formula for estimating variance from a sample. The four outcomes here are the complete distribution, so the probability weights apply."
           }
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "calc_spec": {
           "fn": "variance",
           "args_json": "{\"xs\":[0.02,0.06,0.10,0.14],\"basis\":\"population\"}"
@@ -480,13 +475,13 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver gave no answer"
+            "solver chose A (high): Mean = 8%. Squared deviations: 36,4,4,36 = 80 (in %^2); divided by 4 = 20 %^2 = 0.0020 using population variance. Option B is 0.0020."
           ]
         },
         "blind_solve": {
           "pass": false,
           "issues": [
-            "solver chose A again: Mean = 8%. Squared deviations: 36, 4, 4, 36 (in %^2) sum to 80; divided by 4 (full population) = 20 %^2 = 0.0020. So B. (after repair)"
+            "solver chose B again: The mean is 8%. Squared deviations are 36, 4, 4 and 36 (in %²), which sum to 80. Dividing by 4 gives 20 %², or 0.0020. Since 1% = 0.01, 20 %² = 20 × 0.0001 = 0.0020, so the population variance is 0.0020. That is option A, index 0. (after repair)"
           ]
         }
       },
@@ -521,10 +516,11 @@
           "args_json": "{\"w1\":0.6,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.3}"
         },
         "cited_chunk_ids": [
-          "mit-ocw-15401-lec13:13:3"
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -542,20 +538,15 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
-          "pass": false,
-          "issues": [
-            "solver chose C again: Var = 0.36*400 + 0.16*100 + 2*0.6*0.4*0.3*20*10 = 144 + 16 + 28.8 = 188.8; sqrt = 13.74%. So A. (after repair)"
-          ]
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q6",
@@ -582,7 +573,9 @@
         ],
         "answer_index": 1,
         "calc_spec": null,
-        "cited_chunk_ids": []
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
       },
       "badge": "model_only",
       "gates": {
@@ -602,12 +595,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -616,8 +603,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q7",
@@ -666,12 +652,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -680,8 +660,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     },
     {
       "id": "q8",
@@ -728,12 +707,6 @@
           "pass": true,
           "issues": []
         },
-        "blind_solve_first": {
-          "pass": true,
-          "issues": [
-            "solver gave no answer"
-          ]
-        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -742,8 +715,7 @@
           "pass": true,
           "issues": []
         }
-      },
-      "repaired": true
+      }
     }
   ],
   "flashcards": [
@@ -891,57 +863,57 @@
   "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T07:02:23.218Z",
+      "at": "2026-10-12T12:42:37.603Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 796,
-      "outputTokens": 138,
+      "outputTokens": 577,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.003089,
+      "costUsd": 0.007479,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:02:45.731Z",
+      "at": "2026-10-12T12:42:48.838Z",
       "purpose": "repair",
       "losId": "quant-06-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 13075,
-      "outputTokens": 3918,
+      "inputTokens": 10943,
+      "outputTokens": 1611,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.06625560000000001,
+      "costUsd": 0.0389216,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:02:50.089Z",
+      "at": "2026-10-12T12:42:50.837Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 680,
-      "outputTokens": 604,
+      "inputTokens": 226,
+      "outputTokens": 230,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.007517,
+      "costUsd": 0.002869,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:02:57.263Z",
+      "at": "2026-10-12T12:42:59.975Z",
       "purpose": "grounding",
       "losId": "quant-06-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 14538,
-      "outputTokens": 1137,
+      "inputTokens": 14993,
+      "outputTokens": 1419,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0406074,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044345199999999994,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.117469
+  "costUsd": 0.0936148
 }

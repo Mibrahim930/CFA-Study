@@ -4,7 +4,7 @@
   "moduleId": "quant-01",
   "moduleTitle": "Returns of Financial Assets and Instruments",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T06:58:57.957Z",
+  "verifiedAt": "2026-10-12T12:41:08.999Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -524,23 +524,23 @@
       "id": "q6",
       "item": {
         "kind": "calc",
-        "difficulty": "medium",
-        "stem": "A bank deposit pays a nominal annual rate of 1.5% while inflation over the year is 4.0%. Using the exact (Fisher) relationship, what is the real return? Express it as a percentage rounded to two decimal places.",
+        "difficulty": "hard",
+        "stem": "A bank deposit pays a nominal annual rate of 1.5%, and inflation over the year is 4.0%. Using the exact (multiplicative) relationship between nominal return, inflation and real return, what is the real return? Express it as a percentage rounded to two decimal places.",
         "options": [
           {
             "text": "−2.40%",
             "value": -0.024,
-            "explanation": "Correct: (1 + 0.015) / (1 + 0.04) − 1 = 0.975962 − 1 = −0.024038, which rounds to −2.40%. Purchasing power falls by about 2.40%."
+            "explanation": "Correct. The exact relationship is real = (1 + nominal) / (1 + inflation) − 1 = 1.015 / 1.04 − 1 = −0.024038, which rounds to −2.40%. Purchasing power falls by about 2.40%."
           },
           {
             "text": "−2.46%",
             "value": -0.0246,
-            "explanation": "Divides the nominal-minus-inflation gap (−2.5%) by 1 + nominal rate (1.015) instead of by 1 + inflation (1.04). The exact formula divides by the inflation factor."
+            "explanation": "Divides the nominal-minus-inflation gap (−2.5%) by 1 + nominal (1.015) instead of by 1 + inflation (1.04). That gives −2.46% and uses the wrong denominator."
           },
           {
             "text": "−2.50%",
             "value": -0.025,
-            "explanation": "Uses the subtraction shortcut (1.5% − 4.0%), which is only an approximation and is not the exact real return."
+            "explanation": "Uses the subtraction shortcut (1.5% − 4.0%), which is only an approximation and ignores the 1 + inflation denominator."
           }
         ],
         "answer_index": 0,
@@ -553,7 +553,7 @@
           "smu-fma-ch4-rates-of-return:55:14"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -574,14 +574,16 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose B (high): 1.015/1.04 = 0.97596, so the real return is -2.404%, about -2.40%. Checking: 1.015/1.04 = 0.975962, minus 1 = -0.024038, so -2.40%, which is option A, not B."
+            "solver chose B (high): 1.015/1.04 = 0.97596, so the real return is -2.40%... checking: 1.015/1.04 = 0.975962, minus 1 = -2.4038%, which rounds to -2.40%.  Correcting: the answer is A.  However the index chosen must match: A is index 0."
           ]
         },
         "blind_solve": {
-          "pass": false,
-          "issues": [
-            "solver chose B again: Exact Fisher: real = (1.015 / 1.04) − 1 = 0.975962 − 1 = −0.024038, which is −2.40% when rounded to two decimals. The approximation (1.5% − 4.0%) gives −2.50%, and −2.46% is not correct for either method, so the answer is A (index 0).\n (after repair)"
-          ]
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -756,61 +758,61 @@
     }
   ],
   "warnings": [
-    "1/6 items have the longest option as the key"
+    "1/7 items have the longest option as the key"
   ],
   "usage": [
     {
-      "at": "2026-10-12T06:58:40.765Z",
+      "at": "2026-10-12T12:40:53.410Z",
       "purpose": "blind-solve",
       "losId": "quant-01-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 816,
-      "outputTokens": 498,
+      "outputTokens": 513,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.006729,
+      "costUsd": 0.006879,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:46.986Z",
+      "at": "2026-10-12T12:40:59.411Z",
       "purpose": "repair",
       "losId": "quant-01-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 9605,
-      "outputTokens": 766,
+      "inputTokens": 9622,
+      "outputTokens": 858,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.0277956,
+      "costUsd": 0.0287496,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:49.580Z",
+      "at": "2026-10-12T12:41:01.924Z",
       "purpose": "blind-solve",
       "losId": "quant-01-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 117,
-      "outputTokens": 152,
+      "inputTokens": 131,
+      "outputTokens": 125,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.001871,
+      "costUsd": 0.001629,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:57.956Z",
+      "at": "2026-10-12T12:41:08.998Z",
       "purpose": "grounding",
       "losId": "quant-01-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 12381,
-      "outputTokens": 1227,
+      "inputTokens": 12624,
+      "outputTokens": 1121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0371934,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0366272,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.073589
+  "costUsd": 0.0738848
 }

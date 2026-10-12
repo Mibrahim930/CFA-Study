@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:04:12.668Z",
+  "verifiedAt": "2026-10-12T12:44:20.194Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -343,22 +343,22 @@
       "item": {
         "kind": "concept",
         "difficulty": "medium",
-        "stem": "In a universe of firms, 2% commit accounting fraud. A screening model flags 90% of the fraudulent firms and also flags 10% of the honest firms. A firm is chosen at random and the model flags it. Using Bayes' theorem, what is the probability that the firm is fraudulent? Round to one decimal place in percent.",
+        "stem": "Two percent of firms in a universe commit accounting fraud. A screening model flags 90% of fraudulent firms and also flags 10% of honest firms. A randomly chosen firm is flagged. What is the probability that it is fraudulent, rounded to one decimal place in percent?",
         "options": [
           {
             "text": "90.0%",
             "value": null,
-            "explanation": "This mixes up P(flag | fraud) with P(fraud | flag). It treats the model's hit rate as the posterior and ignores that fraud is rare (2% prior)."
+            "explanation": "This confuses P(flag | fraud) with P(fraud | flag). It ignores the 2% prior and the honest firms that are also flagged."
           },
           {
             "text": "18.4%",
             "value": null,
-            "explanation": "This is 0.018 ÷ 0.098. The denominator contains only the honest-firm flags (0.98 × 0.10) and leaves out the fraud-firm flags. The total probability of a flag must include both branches."
+            "explanation": "This is 0.018 ÷ 0.098. The denominator counts only the honest-firm flags and leaves out the fraud branch, so it is too small and the ratio is too high."
           },
           {
             "text": "15.5%",
             "value": null,
-            "explanation": "Correct. Flagged and fraudulent: 0.02 × 0.90 = 0.018. Flagged and honest: 0.98 × 0.10 = 0.098. P(flag) = 0.116, so P(fraud | flag) = 0.018 ÷ 0.116 = 0.1552, or 15.5%."
+            "explanation": "Correct. Fraud and flagged: 0.02 × 0.90 = 0.018. Honest and flagged: 0.98 × 0.10 = 0.098. P(flag) = 0.116, so the posterior is 0.018 ÷ 0.116 = 15.5%."
           }
         ],
         "answer_index": 2,
@@ -389,13 +389,13 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose B (high): Numerator 0.02*0.9=0.018; P(flag)=0.018+0.98*0.1=0.116; 0.018/0.116=15.5%. Recheck: 0.018/0.116=0.1552, so 15.5%, which is option C."
+            "solver chose B (high): P(flag and fraud)=0.02*0.9=0.018 and P(flag and honest)=0.98*0.1=0.098, so P(flag)=0.116 and the posterior is 0.018/0.116=15.5%. That matches option C, not B."
           ]
         },
         "blind_solve": {
           "pass": false,
           "issues": [
-            "solver chose B again: P(F|flag) = (0.9×0.02)/(0.9×0.02 + 0.1×0.98) = 0.018/(0.018+0.098) = 0.018/0.116 = 15.5%. So the correct value is 15.5%, which is option C, not B. (after repair)"
+            "solver chose B again: P(flag) = 0.02*0.90 + 0.98*0.10 = 0.018 + 0.098 = 0.116. Posterior = 0.018/0.116 = 15.5%. Check: 0.018/0.116 = 0.15517, so 15.5%, which is option C.  Correcting: the answer is C. (after repair)"
           ]
         }
       },
@@ -463,22 +463,22 @@
       "item": {
         "kind": "concept",
         "difficulty": "hard",
-        "stem": "The prior probability that a fund manager is skilled is 0.20. A skilled manager beats the benchmark each year with probability 0.75 and an unskilled manager with probability 0.50. Years are independent given the manager's type. The manager beats the benchmark in two consecutive years. What is the posterior probability of skill, rounded to two decimals?",
+        "stem": "The prior probability that a fund manager is skilled is 0.20. A skilled manager beats the benchmark in any given year with probability 0.75 and an unskilled manager with probability 0.50. Years are independent given the manager's type. The manager beats the benchmark in each of two consecutive years. What is the posterior probability that the manager is skilled, rounded to two decimals?",
         "options": [
           {
             "text": "0.27",
             "value": null,
-            "explanation": "This updates for only one year of outperformance: 0.15 ÷ 0.55 = 0.27. The second observation is ignored."
+            "explanation": "This updates for only one year of outperformance: 0.20 × 0.75 = 0.15, and 0.15 ÷ 0.55 = 0.27. The second observation is ignored."
           },
           {
             "text": "0.36",
             "value": null,
-            "explanation": "Correct. Skilled: 0.20 × 0.75² = 0.1125. Unskilled: 0.80 × 0.50² = 0.20. Total = 0.3125, so the posterior is 0.1125 ÷ 0.3125 = 0.36."
+            "explanation": "Correct. Skilled and two wins: 0.20 × 0.75² = 0.1125. Unskilled and two wins: 0.80 × 0.50² = 0.20. Total = 0.3125, so the posterior is 0.1125 ÷ 0.3125 = 0.36."
           },
           {
             "text": "0.56",
             "value": null,
-            "explanation": "This is 0.75², the probability that a skilled manager beats the benchmark twice. It is a likelihood, not a posterior, and ignores the prior and the unskilled branch."
+            "explanation": "This is 0.75² = 0.5625, the probability that a skilled manager beats the benchmark twice. It is a likelihood, not a posterior, and ignores the prior and the unskilled branch."
           }
         ],
         "answer_index": 1,
@@ -505,6 +505,12 @@
           "pass": true,
           "issues": []
         },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Two-year likelihoods are 0.75^2=0.5625 for skilled and 0.5^2=0.25 for unskilled. Skilled joint=0.2*0.5625=0.1125 and unskilled joint=0.8*0.25=0.20, so the posterior is 0.1125/0.3125=0.36. That matches option B."
+          ]
+        },
         "blind_solve": {
           "pass": true,
           "issues": []
@@ -513,7 +519,8 @@
           "pass": true,
           "issues": []
         }
-      }
+      },
+      "repaired": true
     },
     {
       "id": "q6",
@@ -752,57 +759,57 @@
   ],
   "usage": [
     {
-      "at": "2026-10-12T07:03:55.510Z",
+      "at": "2026-10-12T12:44:00.163Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 976,
-      "outputTokens": 592,
+      "outputTokens": 676,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.007989,
+      "costUsd": 0.008829,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:04:02.593Z",
+      "at": "2026-10-12T12:44:09.609Z",
       "purpose": "repair",
       "losId": "quant-06-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 9475,
-      "outputTokens": 894,
+      "inputTokens": 10113,
+      "outputTokens": 1405,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.0288156,
+      "costUsd": 0.0352016,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:04:04.732Z",
+      "at": "2026-10-12T12:44:12.427Z",
       "purpose": "blind-solve",
       "losId": "quant-06-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 149,
-      "outputTokens": 129,
+      "inputTokens": 287,
+      "outputTokens": 269,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.001705,
+      "costUsd": 0.003381,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:04:12.667Z",
+      "at": "2026-10-12T12:44:20.193Z",
       "purpose": "grounding",
       "losId": "quant-06-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 13129,
-      "outputTokens": 1125,
+      "inputTokens": 13146,
+      "outputTokens": 1206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0376694,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0385212,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.076179
+  "costUsd": 0.0859328
 }

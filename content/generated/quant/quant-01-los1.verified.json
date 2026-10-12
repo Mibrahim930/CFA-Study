@@ -4,7 +4,7 @@
   "moduleId": "quant-01",
   "moduleTitle": "Returns of Financial Assets and Instruments",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T06:58:36.823Z",
+  "verifiedAt": "2026-10-12T12:40:49.085Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -226,7 +226,7 @@
         "commonfund-twr-vs-irr:2:1"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -245,10 +245,8 @@
         "issues": []
       },
       "grounding": {
-        "pass": false,
-        "issues": [
-          "error found: Error: the geometric mean of +50% and -50% is sqrt(0.75)-1 = -13.40%, which is right, but 'a log return is always a bit smaller than the simple return for a gain' is fine. The real error is the worked example: 1.12*0.92*1.20 = 1.23648, cube root is about 1.0735, not 1.0733 (1.0733^3 = 1.2364, so roughly OK). Checking further, the cube root of 1.23648 is 1.0735, so 7.35% rather than 7.33%. Also, the claim that the geometric mean is below the arithmetic mean is supported. The core HPR, annualization, mean and TWR material is supported by the passages."
-        ]
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -403,7 +401,7 @@
           "os:principles-finance-2e:m00093:0.3"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -425,11 +423,15 @@
           "pass": true,
           "issues": []
         },
-        "grounding": {
-          "pass": false,
+        "critic_review": {
+          "pass": true,
           "issues": [
-            "error found: 1.30*0.80*1.10 = 1.144 and 1.144^(1/3) = 1.0458, so the answer is 4.58%, not 4.59%. Rounding error in the key."
+            "flag overturned on second review: 1.30 × 0.80 × 1.10 = 1.144, and its cube root minus 1 is about 4.586%, which rounds to 4.59% and matches the engine value. The distractors are also correct: 6.67% is the arithmetic mean and 14.40% is the cumulative return."
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -525,7 +527,7 @@
           "commonfund-twr-vs-irr:2:1"
         ]
       },
-      "badge": "quarantined",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -548,10 +550,8 @@
           "issues": []
         },
         "grounding": {
-          "pass": false,
-          "issues": [
-            "error found: 1.08*0.96 = 1.0368, times 1.05 = 1.08864, so the return is 8.86%. The key is correct. The passage supports ignoring cash flows but does not show the linking calculation."
-          ]
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -560,22 +560,22 @@
       "item": {
         "kind": "calc",
         "difficulty": "hard",
-        "stem": "An investor deposits 100 into a fund at time 0. At the end of Year 1 the fund is worth 120 just before the investor makes a second deposit of 50. At the end of Year 2 the fund is worth 180. There are no other cash flows. What is the money-weighted annual return, rounded to the nearest 0.01%?",
+        "stem": "An investor deposits 100 into a fund at time 0. At the end of Year 1 the fund is worth 120, and the investor immediately deposits another 50. At the end of Year 2 the fund is worth 180. There are no other cash flows. What is the money-weighted annual return, rounded to the nearest 0.01%?",
         "options": [
           {
             "text": "12.72%",
             "value": 0.1272,
-            "explanation": "This is the annualized time-weighted return, (1.20 × 180/170)^(1/2) − 1. It ignores how many dollars were invested in each year, so it is not the money-weighted return."
+            "explanation": "This is the annualized time-weighted return, (1.20 × 180/170)^(1/2) − 1. It ignores how much money was invested in each year, so it is not the money-weighted return."
           },
           {
             "text": "12.94%",
             "value": 0.1294,
-            "explanation": "This is the simple arithmetic average of the two sub-period returns (20% and 5.88%). It is neither the IRR of the investor's cash flows nor a compounded figure."
+            "explanation": "This is the simple arithmetic average of the two annual sub-period returns (20% and 5.88%). It is neither the IRR of the investor's cash flows nor a compounded figure."
           },
           {
             "text": "11.47%",
             "value": 0.1147,
-            "explanation": "Correct: the money-weighted return is the IRR of the investor's cash flows −100 at t=0, −50 at t=1 and +180 at t=2. Solving 100 + 50/(1+r) = 180/(1+r)² gives r ≈ 11.47%. It is below the time-weighted return because the extra 50 went in just before the weaker second year."
+            "explanation": "Correct: the investor's cash flows are −100 at t=0, −50 at t=1 and +180 at t=2. The IRR solves −100 − 50/(1+r) + 180/(1+r)² = 0, giving r ≈ 11.47%. This is below the time-weighted return because the extra 50 went in just before the weaker second year."
           }
         ],
         "answer_index": 2,
@@ -585,7 +585,7 @@
         },
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -606,18 +606,22 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose A (high): Solve 100 + 50/(1+r) = 120/(1+r) + 180/(1+r)^2. Let x = 1/(1+r): 100 + 50x = 120x + 180x², so 180x² + 70x − 100 = 0, or 18x² + 7x − 10 = 0. x = (−7 + sqrt(49 + 720))/36 = (−7 + 27.731)/36 = 0.57586. Then r = 1/0.57586 − 1 = 73.65%?? Rechecking the timing: the outflow of 100 at t0 and the 50 deposit at t1 are inflows to the fund, and the 120 is the value just before the deposit, so the t1 flow is not a separate terminal value. The correct equation is 100 + 50x = 180x², so 180x² − 50x − 100 = 0, or 18x² − 5x − 10 = 0. x = (5 + sqrt(25 + 720))/36 = (5 + 27.295)/36 = 0.89708. Then r = 1/0.89708 − 1 = 11.47%. That matches option C, not A."
+            "solver chose A (high): Solve 100 + 50/(1+r) = 120/(1+r) + 180/(1+r)^2. Setting r = 12.72% gives 100 + 44.36 = 144.36 on the left and 106.46 + 140.9 → about 147.4 on the right, so the match is not exact. Solving properly: the equation is 100 = 70/(1+r) + 180/(1+r)^2 (since 120 − 50 = 70). With x = 1/(1+r), 180x² + 70x − 100 = 0, so x = (−70 + sqrt(4900 + 72000))/360 = (−70 + 277.28)/360 = 0.57578, giving r = 73.7%? Recheck: the flows are −100, −50 at t=1, and +180 at t=2, with the 120 only the pre-deposit value. The equation is 100 + 50x = 180x². Then 180x² − 50x − 100 = 0, x = (50 + sqrt(2500 + 72000))/360 = (50 + 272.94)/360 = 0.8971, so r = 11.47%. Selecting C instead."
           ]
         },
         "blind_solve": {
           "pass": true,
           "issues": []
         },
-        "grounding": {
-          "pass": false,
+        "critic_review": {
+          "pass": true,
           "issues": [
-            "error found: The item cites no passages. Its setup is inconsistent: the fund is worth 120 before the 50 deposit, so the cash flows are -100, -50 and +180. Solving 100 + 50/(1+r) = 180/(1+r)^2 gives r of about 11.47%? Check: r=0.1147 gives 100+44.85 = 144.85 vs 180/1.2423 = 144.89, so OK. But the TWR is (1.2)(180/170) - 1 = 27.06%, which is not the 'weaker' year logic, and the key is fine. The stated reason is right: year 2 return of 5.9% is weaker. No error in the key."
+            "flag overturned on second review: The IRR of −100, −50 and +180 is 11.47%, matching the engine value. The 12.72% time-weighted return and the 12.94% arithmetic average of 20% and 5.88% are both computed correctly, so the key and explanations hold."
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -627,29 +631,29 @@
       "item": {
         "kind": "concept",
         "difficulty": "hard",
-        "stem": "A client adds a large sum to a portfolio just before a period of unusually strong performance, with no other cash flows during the horizon. Compared with the portfolio's time-weighted return over the whole horizon, the money-weighted return will most likely be:",
+        "stem": "A client adds a large sum to a portfolio just before a period of unusually strong performance. There are no other cash flows during the horizon. Compared with the portfolio's time-weighted return over the whole horizon, the money-weighted return will most likely be:",
         "options": [
           {
             "text": "Lower, because the larger balance dilutes the strong sub-period return.",
             "value": null,
-            "explanation": "Confuses dollars with percentages. A bigger balance during a strong period gives that period more weight, which raises the money-weighted return rather than lowering it."
+            "explanation": "This confuses dollars with percentages. A larger balance during a strong period raises, not lowers, the money-weighted return."
           },
           {
             "text": "Higher, because more money was invested while the strong return was earned.",
             "value": null,
-            "explanation": "Correct: the money-weighted return gives more weight to periods in which more dollars are invested. A well-timed addition therefore pushes it above the time-weighted return."
+            "explanation": "Correct: the money-weighted return gives more weight to periods when more dollars are invested. A well-timed addition therefore pushes it above the time-weighted return."
           },
           {
             "text": "Equal, because both measures are built from the same sub-period returns.",
             "value": null,
-            "explanation": "Wrong: only the time-weighted return ignores the size and timing of cash flows. The money-weighted return reflects them, so the two measures differ when flows are large."
+            "explanation": "Wrong: only the time-weighted return ignores the size and timing of cash flows. The money-weighted return reflects them, so the two differ."
           }
         ],
         "answer_index": 1,
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -689,20 +693,20 @@
       "item": {
         "kind": "concept",
         "difficulty": "medium",
-        "stem": "Which statement about continuously compounded (log) returns, $\\ln(1+R)$, is correct?",
+        "stem": "A continuously compounded return is defined as ln(1+R), where R is the simple holding period return. Which statement about it is correct?",
         "options": [
           {
-            "text": "The return over several periods equals the sum of the single-period continuously compounded returns.",
+            "text": "Multi-period continuously compounded returns equal the sum of the single-period continuously compounded returns.",
             "value": null,
             "explanation": "Correct: the log of a product equals the sum of the logs, so log returns add across periods."
           },
           {
-            "text": "For a positive gain, it is larger than the simple holding period return.",
+            "text": "For a positive gain, the continuously compounded return is larger than the simple holding period return.",
             "value": null,
-            "explanation": "Reversed: ln(1+R) < R for any positive gain (for example, R = 10% gives about 9.53%)."
+            "explanation": "Reversed: ln(1+R) < R for any positive R. For example, R = 10% gives about 9.53%."
           },
           {
-            "text": "The return over several periods equals the sum of the simple single-period returns.",
+            "text": "Multi-period simple returns equal the sum of the single-period simple returns.",
             "value": null,
             "explanation": "Simple returns do not add across periods; they must be compounded geometrically. Only log returns are additive."
           }
@@ -711,7 +715,7 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -871,7 +875,7 @@
         "back": "They add across periods, since $\\ln(1+R)$ summed over periods gives the multi-period log return. For a gain, a log return is slightly smaller than the simple return.",
         "cited_chunk_ids": []
       },
-      "badge": "grounded_verified",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
@@ -892,62 +896,73 @@
       }
     }
   ],
-  "warnings": [
-    "1/5 items have the longest option as the key"
-  ],
+  "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T06:58:02.002Z",
+      "at": "2026-10-12T12:40:10.500Z",
       "purpose": "blind-solve",
       "losId": "quant-01-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 982,
-      "outputTokens": 783,
+      "outputTokens": 757,
       "cacheWriteTokens": 585,
       "cacheReadTokens": 0,
-      "costUsd": 0.0112565,
+      "costUsd": 0.0109965,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:18.720Z",
+      "at": "2026-10-12T12:40:26.041Z",
       "purpose": "repair",
       "losId": "quant-01-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 12095,
-      "outputTokens": 2135,
+      "inputTokens": 12096,
+      "outputTokens": 2345,
       "cacheWriteTokens": 4628,
       "cacheReadTokens": 0,
-      "costUsd": 0.05711,
+      "costUsd": 0.059212,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:23.929Z",
+      "at": "2026-10-12T12:40:31.023Z",
       "purpose": "blind-solve",
       "losId": "quant-01-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 428,
-      "outputTokens": 615,
+      "inputTokens": 452,
+      "outputTokens": 606,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.007123,
+      "costUsd": 0.007081,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T06:58:36.822Z",
+      "at": "2026-10-12T12:40:42.796Z",
       "purpose": "grounding",
       "losId": "quant-01-los1",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 14993,
-      "outputTokens": 1668,
-      "cacheWriteTokens": 807,
+      "inputTokens": 15001,
+      "outputTokens": 1624,
+      "cacheWriteTokens": 846,
       "cacheReadTokens": 0,
-      "costUsd": 0.0486835,
+      "costUsd": 0.048357,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-12T12:40:49.084Z",
+      "purpose": "confirm",
+      "losId": "quant-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1024,
+      "outputTokens": 528,
+      "cacheWriteTokens": 540,
+      "cacheReadTokens": 0,
+      "costUsd": 0.008678,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.124173
+  "costUsd": 0.13432449999999999
 }

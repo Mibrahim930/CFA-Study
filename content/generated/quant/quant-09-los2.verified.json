@@ -4,7 +4,7 @@
   "moduleId": "quant-09",
   "moduleTitle": "Simulation of Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:06:41.891Z",
+  "verifiedAt": "2026-10-12T12:45:25.058Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -196,7 +196,7 @@
         "fed-feds-2001-27-historical-simulation:23:29"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -215,10 +215,8 @@
         "issues": []
       },
       "grounding": {
-        "pass": false,
-        "issues": [
-          "error found: Core ideas (resampling with replacement, regression parameter bootstrapping, 2-year sample understating VaR, i.i.d. assumption) are supported. Error: the worked example says 'years 4 is absent' but years 3 and 4 both... actually resample 2,2,1,5,3 omits year 4, which is correct; the arithmetic 0.28/5=0.056 is correct. However, the claim that bootstrapping with replacement 'without replacement would never change the statistic' is true for mean but not for all statistics only if order-dependent; this is acceptable. The BA II Plus steps are questionable (data entry for 1-V stats), but the result 5.6 is right. No definite error found on reflection."
-        ]
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -342,7 +340,7 @@
       "item": {
         "kind": "calc",
         "difficulty": "easy",
-        "stem": "A fund's five annual returns are 3%, 9%, −4%, 7% and 5%. One bootstrap resample of size 5, drawn with replacement from these returns, is 9%, 9%, 3%, −4%, 5%. Using all five draws in this resample, what is its arithmetic mean? Round to two decimals in percent.",
+        "stem": "A fund's five annual returns are 3%, 9%, −4%, 7% and 5%. One bootstrap resample of size 5, drawn with replacement, is 9%, 9%, 3%, −4%, 5%. What is the arithmetic mean of this resample? Round to two decimals in percent.",
         "options": [
           {
             "text": "4.00%",
@@ -350,17 +348,17 @@
             "explanation": "This is the mean of the original five returns ((3 + 9 − 4 + 7 + 5)/5), not of the resample the question asks about."
           },
           {
-            "text": "3.25%",
-            "value": 0.0325,
-            "explanation": "This divides the sum of the distinct values (9 + 3 − 4 + 5 = 13) by 4 instead of by the 5 draws. A repeated value counts every time it is drawn."
-          },
-          {
             "text": "4.40%",
             "value": 0.044,
             "explanation": "Correct. Sum = 9 + 9 + 3 − 4 + 5 = 22; 22 / 5 = 4.40%. Every draw counts, including the repeated 9%."
+          },
+          {
+            "text": "3.25%",
+            "value": 0.0325,
+            "explanation": "This divides the sum of the distinct values (9, 3, −4, 5) by 4 instead of by the 5 draws. A resample's duplicated values count each time they are drawn."
           }
         ],
-        "answer_index": 2,
+        "answer_index": 1,
         "calc_spec": {
           "fn": "arithmeticMean",
           "args_json": "{\"xs\":[0.09,0.09,0.03,-0.04,0.05]}"
@@ -390,7 +388,7 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose A (high): The sum is 9+9+3-4+5 = 22, and 22/5 = 4.40%. But the options are 4.00, 3.25 and 4.40, so the mean is 4.40%, which is option C."
+            "solver chose A (high): Sum = 9+9+3-4+5 = 22; 22/5 = 4.40%. Checking the options: 4.40% is C, not A."
           ]
         },
         "blind_solve": {
@@ -434,7 +432,7 @@
         },
         "cited_chunk_ids": []
       },
-      "badge": "verified",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -639,13 +637,8 @@
       "item": {
         "kind": "concept",
         "difficulty": "hard",
-        "stem": "An analyst has sorted 2,000 bootstrap estimates of a statistic from lowest to highest and wants an approximate 90% percentile confidence interval, with equal probability in each tail. Which positions in the sorted list give the interval's lower and upper bounds?",
+        "stem": "An analyst has sorted 2,000 bootstrap estimates of a statistic from lowest to highest and wants an approximate 90% percentile confidence interval, with equal probability in each tail. Which positions in the sorted list give the interval's bounds?",
         "options": [
-          {
-            "text": "The 100th and the 1,900th values",
-            "value": null,
-            "explanation": "Correct. A 90% interval leaves 10% in the tails, 5% on each side. 5% of 2,000 is 100, so the lower bound is about the 100th value and the upper bound about the 1,900th."
-          },
           {
             "text": "The 200th and the 1,800th values",
             "value": null,
@@ -655,9 +648,14 @@
             "text": "The 50th and the 1,950th values",
             "value": null,
             "explanation": "This puts 2.5% in each tail, which gives a 95% interval, not 90%."
+          },
+          {
+            "text": "The 100th and the 1,900th values",
+            "value": null,
+            "explanation": "Correct. A 90% interval leaves 10% in the tails, 5% on each side; 5% of 2,000 is 100, so the bounds are about the 100th and 1,900th values."
           }
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "calc_spec": null,
         "cited_chunk_ids": []
       },
@@ -682,7 +680,7 @@
         "blind_solve_first": {
           "pass": true,
           "issues": [
-            "solver chose C (high): A 90% interval leaves 5% in each tail. 5% of 2,000 is 100, so the bounds are at about the 100th and 1,900th values, which is option A."
+            "solver chose C (high): A 90% interval leaves 5% in each tail; 5% of 2,000 = 100, so the bounds are about the 100th and 1,900th values. Option A is the correct pair."
           ]
         },
         "blind_solve": {
@@ -846,57 +844,57 @@
   "warnings": [],
   "usage": [
     {
-      "at": "2026-10-12T07:06:19.023Z",
+      "at": "2026-10-12T12:45:03.448Z",
       "purpose": "blind-solve",
       "losId": "quant-09-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 1132,
-      "outputTokens": 633,
+      "outputTokens": 612,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.008711,
+      "costUsd": 0.008501,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:06:28.518Z",
+      "at": "2026-10-12T12:45:12.526Z",
       "purpose": "repair",
       "losId": "quant-09-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 10836,
-      "outputTokens": 1394,
+      "inputTokens": 10820,
+      "outputTokens": 1424,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 4628,
-      "costUsd": 0.036537599999999996,
+      "costUsd": 0.0368056,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:06:30.889Z",
+      "at": "2026-10-12T12:45:14.792Z",
       "purpose": "blind-solve",
       "losId": "quant-09-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 295,
-      "outputTokens": 160,
+      "inputTokens": 279,
+      "outputTokens": 152,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.002307,
+      "costUsd": 0.002195,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:06:41.890Z",
+      "at": "2026-10-12T12:45:25.058Z",
       "purpose": "grounding",
       "losId": "quant-09-los2",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
-      "inputTokens": 13964,
-      "outputTokens": 1533,
+      "inputTokens": 13940,
+      "outputTokens": 1512,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.043419400000000004,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0431692,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.090975
+  "costUsd": 0.0906708
 }

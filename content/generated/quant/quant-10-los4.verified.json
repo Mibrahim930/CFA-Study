@@ -4,7 +4,7 @@
   "moduleId": "quant-10",
   "moduleTitle": "Applications of Simple Linear Regression in Finance",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T07:08:35.685Z",
+  "verifiedAt": "2026-10-12T12:46:15.942Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -617,7 +617,7 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -640,10 +640,8 @@
           "issues": []
         },
         "grounding": {
-          "pass": false,
-          "issues": [
-            "error found: The formula is right, but the arithmetic is wrong: alpha = 0.40% − 0.20%×(1−1.10) = 0.40% − 0.20%×(−0.10) = 0.40% + 0.02% = 0.42%. So 0.42% is correct only if alpha = a − Rf(1−β), which gives 0.42. Recheck: a=α+Rf(1−β) means α=0.40−(0.2)(−0.1)=0.42. Correct, so there is no error. The passages do not cover this."
-          ]
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -796,35 +794,35 @@
     }
   ],
   "warnings": [
-    "1/6 items have the longest option as the key"
+    "1/7 items have the longest option as the key"
   ],
   "usage": [
     {
-      "at": "2026-10-12T07:08:27.128Z",
+      "at": "2026-10-12T12:46:07.374Z",
       "purpose": "blind-solve",
       "losId": "quant-10-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 975,
-      "outputTokens": 744,
+      "outputTokens": 707,
       "cacheWriteTokens": 0,
       "cacheReadTokens": 585,
-      "costUsd": 0.009507,
+      "costUsd": 0.009137,
       "stopReason": "end_turn"
     },
     {
-      "at": "2026-10-12T07:08:35.684Z",
+      "at": "2026-10-12T12:46:15.942Z",
       "purpose": "grounding",
       "losId": "quant-10-los4",
       "requestedModel": "claude-sonnet-5-5",
       "servedModel": "claude-sonnet-5-5",
       "inputTokens": 13339,
-      "outputTokens": 1296,
+      "outputTokens": 1259,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 807,
-      "costUsd": 0.0397994,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0394372,
       "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0493064
+  "costUsd": 0.0485742
 }
