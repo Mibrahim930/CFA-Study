@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import Link from "next/link";
+import { BottomNav } from "@/components/bottom-nav";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
@@ -50,20 +51,25 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </span>
               <span className="text-[17px]">L1 Study</span>
             </Link>
-            <div className="-mx-1 flex gap-1 overflow-x-auto font-semibold whitespace-nowrap max-sm:w-[calc(100%+0.5rem)] sm:flex-wrap">
-              {/* One swipeable row on phones; wraps on wider screens. */}
+            <div className="flex flex-wrap gap-1 font-semibold max-sm:ml-auto">
+              {/* On phones the bottom nav covers the main sections; only Free resources stays up here. */}
               {NAV.map((n) => (
-                <Link key={n.href} href={n.href} className="rounded-lg px-3 py-2 text-muted hover:bg-accent-soft hover:text-accent">
+                <Link
+                  key={n.href}
+                  href={n.href}
+                  className={`rounded-lg px-3 py-2 text-muted hover:bg-accent-soft hover:text-accent ${n.href === "/resources" ? "" : "max-sm:hidden"}`}
+                >
                   {n.label}
                 </Link>
               ))}
             </div>
           </nav>
         </header>
-        <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+        <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 max-sm:pb-24">
           {children}
         </main>
-        <footer className="border-t border-line px-4 py-5 text-center text-xs text-muted">
+        <BottomNav />
+        <footer className="border-t border-line px-4 py-5 text-center text-xs text-muted max-sm:pb-24">
           Personal study tool. Not affiliated with or endorsed by CFA Institute. CFA® is a trademark of CFA Institute.
         </footer>
       </body>
