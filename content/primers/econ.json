@@ -1,0 +1,412 @@
+{
+  "topicId": "econ",
+  "generatedAt": "2026-10-12T17:52:16.668Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Economics is the study of how people, businesses and governments make choices when they cannot have everything. Think of a household with a fixed monthly budget: every dollar spent on one thing is a dollar not spent on another. Level I splits economics into two halves. Microeconomics looks at single businesses and single markets. Macroeconomics looks at the whole economy: growth, jobs, prices, money and trade.\n\nThe first module asks how a business behaves. A market can have many rival sellers or just one. This is called market structure. It decides how much control a business has over its price and how much it chooses to produce (its output). The rest of the topic zooms out. Business cycles are the economy's ups and downs, like the seasons. Governments steer the economy with fiscal policy, which means taxes and spending. Central banks steer it with monetary policy, which means interest rates and the supply of money. A central bank is the special bank that runs a country's money system. Geopolitics means politics and conflict between countries. It adds risk on top.\n\nThe last modules look across borders. Countries trade goods and move money. The prices of currencies, called exchange rates, link every economy to the others. Exchange rate calculations turn those links into numbers. You must read currency quotes correctly and work out percentage changes and cross rates. Learn the vocabulary first, then each lesson will fit into this picture.",
+  "whyItMatters": "Economics is worth 6–9% of the exam. Its ideas (interest rates, inflation, currencies) drive the prices of almost everything people invest in, such as shares and bonds. In a finance career, you need them to understand why markets move.",
+  "prerequisites": [
+    "Percentage change: work out (new − old) ÷ old. Practise with prices, such as a $50 shirt that becomes $55 (+10%). Ten minutes of examples on a free site such as Khan Academy is enough.",
+    "Reading simple graphs: know that a curve shows how one quantity changes as another changes, and where two curves cross. Sketch a rising line and a falling line by hand and mark where they meet.",
+    "Fractions, ratios and reciprocals (flipping a number upside down): if 1 euro = 1.25 dollars, then 1 dollar = 1 ÷ 1.25 = 0.80 euro. Practise flipping a few ratios on a calculator until it feels automatic.",
+    "Basic cost words: revenue is money coming in. Cost is money going out. Profit is revenue minus cost. Think of a lemonade stand and write out its sums on paper.",
+    "Everyday money ideas: a loan (borrowed money), interest (the fee for borrowing) and inflation (prices rising over time). Check how your own bank describes an interest rate, and compare a price today with the same item ten years ago."
+  ],
+  "studyTips": [
+    "Draw the graphs yourself. For a business, sketch the cost curves and mark where price equals marginal cost. Seeing the shutdown and break-even points on the page makes them stick.",
+    "Practise currency quotes with real numbers every day. Always ask 'which currency is the base, and which is the price?' before you calculate anything.",
+    "Make a cause-and-effect chain for each policy. Example: central bank cuts rate, then borrowing rises, then spending rises, then output and inflation rise. Say each chain aloud.",
+    "Sort every indicator and policy into 'before', 'with' or 'after' the cycle, and into 'expansionary' (boosting) or 'contractionary' (cooling). Sorting is faster than memorising lists.",
+    "Do a few exchange rate calculations after each lesson. These are easy marks once you have practised, so repeat them until the steps feel automatic."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Market structure",
+      "definition": "The way a market is organised. It depends on how many sellers there are, how alike their products are, and how easily new businesses can join. The four types are perfect competition (many sellers of identical goods), monopolistic competition, oligopoly (a few big sellers) and monopoly (one seller).",
+      "example": "A farmers' market with 50 identical stalls selling eggs is close to perfect competition. A town with one water company is a monopoly.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t2",
+      "term": "Marginal cost and marginal revenue",
+      "definition": "'Marginal' means 'one more'. Marginal cost is the extra cost of making one more unit. Marginal revenue is the extra money from selling one more unit. A business in perfect competition cannot set its own price. It takes the market price as given, so its price equals its marginal revenue. It earns the most profit by producing where price equals marginal cost, $P = MR = MC$.",
+      "example": "A baker's 11th loaf costs $2 to make and sells for $3. Baking it adds $1 of profit, so she bakes it. She stops when the next loaf would cost more than $3.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t3",
+      "term": "Break-even point and shutdown point",
+      "definition": "The break-even point is the price where price equals average total cost (all costs per unit), so profit is zero. The shutdown point is the lower price where price equals minimum average variable cost. Variable costs are costs that change with output, such as ingredients. Fixed costs stay the same whatever you make, such as rent. In the short run, a business should shut down only if the price will not even cover its variable costs.",
+      "example": "A fruit farm's average variable cost is at best $1.72 per pack. If the price is $1.50, each pack loses money before fixed costs, so it shuts down. At $2.00 it stays open, even if it still makes an overall loss.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Natural monopoly",
+      "definition": "A market where one business can serve everyone at a lower cost than two or more businesses could. Costs per unit keep falling as output grows, and the market is too small to support two businesses.",
+      "example": "One water-pipe network under a town is cheaper than two competing networks. A second company would have higher costs per customer and could not compete.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t5",
+      "term": "Business cycle",
+      "definition": "The repeating pattern of economic activity rising and falling, like tides. The phases are expansion (growth), peak (the top), contraction or recession (decline) and trough (the bottom). Unemployment tends to rise in a recession and fall in an expansion.",
+      "example": "Say output grows for five years, then falls for a year. The turning point at the top is the peak and the turning point at the bottom is the trough.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t6",
+      "term": "Leading, coincident and lagging indicators",
+      "definition": "Indicators are economic statistics that give clues about the economy. They are grouped by timing. Leading indicators turn before the economy does, like dark clouds before rain. Coincident indicators turn at about the same time. Lagging indicators turn after the economy has turned.",
+      "example": "Building permits for new homes often fall before a downturn (leading). Real GDP, which measures total output after removing the effect of price changes, turns with the economy (coincident). The average length of unemployment turns later (lagging).",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Nominal vs real values",
+      "definition": "A nominal value is measured in the prices of the day. A real value is adjusted to remove the effect of inflation, so it shows the true change in quantity or buying power.",
+      "example": "Your pay rises from $1,000 to $1,030 a month, a nominal gain of 3%. If prices rise 5%, your real pay has fallen, because you can buy less.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Fiscal policy",
+      "definition": "The government's use of spending and taxes to influence the economy. Expansionary fiscal policy means more spending or lower taxes, to boost activity. Contractionary fiscal policy means less spending or higher taxes, to cool the economy.",
+      "example": "In a recession, a government cuts income tax so households have more to spend. This is expansionary.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t9",
+      "term": "Budget deficit and public debt",
+      "definition": "A deficit happens when a government spends more than it collects in taxes in a year. Public debt is the total it owes after years of borrowing to cover deficits. It is like a household that overspends each year and adds to its credit card balance.",
+      "example": "A government collects $900 billion and spends $1,000 billion. The $100 billion deficit is borrowed and added to its debt.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t10",
+      "term": "Monetary policy",
+      "definition": "A central bank's management of interest rates and credit conditions to influence the economy. The central bank is the 'bank for banks' and runs a country's money system. Credit conditions means how easy or hard it is to borrow. Lower rates encourage borrowing and spending. Higher rates slow them.",
+      "example": "If prices are rising too fast, the central bank raises its policy rate, the main interest rate it controls. Loans get more expensive, so people borrow and spend less.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t11",
+      "term": "Central bank policy tools",
+      "definition": "Traditional tools are open market operations (the central bank buying or selling bonds, which are loans that investors can trade), the reserve requirement (the share of deposits banks must hold back) and the discount rate (the rate it charges banks for loans). Open market operations are the most used tool.",
+      "example": "A central bank buys bonds from banks and pays in new money. Banks then have more cash to lend, and interest rates tend to fall.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t12",
+      "term": "Inflation targeting",
+      "definition": "A policy where the central bank aims to keep price rises within a stated range, such as around 2% a year. It uses all available information, and the public can judge it against the target, like checking a driver against the speed limit.",
+      "example": "A bank aims for 2% inflation. If inflation reaches 4%, it tends to raise rates to slow spending.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t13",
+      "term": "Price stability vs growth trade-off",
+      "definition": "Central banks aim for stable prices and also for jobs and growth. A trade-off means gaining one thing costs you some of the other. In the short run these goals can clash. Raising rates fights inflation but can slow growth and raise unemployment.",
+      "example": "Prices are rising fast and jobs are scarce. Cutting rates helps jobs but may push prices up further.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t14",
+      "term": "Geopolitical risk",
+      "definition": "The risk that wars, terrorism, or tensions between countries and other groups will disrupt the economy and markets. Geopolitics covers how states and other powerful groups compete for power and territory.",
+      "example": "A conflict closes a shipping route. Delivery costs jump and share prices fall.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t15",
+      "term": "Tariff",
+      "definition": "A tax a government puts on imported goods. Imports are goods bought from other countries. Tariffs raise the price paid by domestic buyers and protect local producers.",
+      "example": "A country adds a 10% tariff to imported steel that costs $100. It now costs buyers $110, so local steelmakers can charge more.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t16",
+      "term": "Consumer surplus and producer surplus",
+      "definition": "Consumer surplus is the gap between what buyers would pay and what they do pay. Producer surplus is the gap between what sellers receive and the least they would accept. Both are 'bargain gains'. Trade barriers, such as tariffs, shift surplus from buyers to sellers, and buyers lose more than sellers gain.",
+      "example": "You would pay up to $10 for a pizza but pay $7. Your consumer surplus is $3. A tariff that lifts the price to $9 cuts it to $1.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t17",
+      "term": "Exchange rate",
+      "definition": "The price of one currency in terms of another, like the price tag on foreign money. A quote 'A/B' means the number of units of A needed to buy 1 unit of B. Here B is the base currency (the one being priced) and A is the price currency (the one used to pay).",
+      "example": "USD/EUR = 1.10 means 1 euro costs 1.10 US dollars, so $110 buys 100 euros.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "Currency appreciation and depreciation",
+      "definition": "A currency appreciates when it buys more of another currency, so its value rises. It depreciates when it buys less. When the base currency's quote rises, the base currency has appreciated.",
+      "example": "If USD/EUR moves from 1.10 to 1.21, the euro now costs 10% more in dollars. The euro has appreciated by 10% and the dollar has depreciated.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t20",
+      "term": "Spot and forward exchange rates",
+      "definition": "The spot rate is the rate for exchanging currency now. The forward rate is a rate agreed today for an exchange on a set future date. It works like booking a price today for something you will collect later.",
+      "example": "A firm will receive 1 million euros in 3 months. It agrees today to sell them at a fixed forward rate, so it knows how many dollars it will get.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t21",
+      "term": "Capital flows",
+      "definition": "Money moving between countries to buy shares, bonds, businesses or property, or to lend. Foreign investors buying a country's assets (things of value that can be owned) bring capital in. Capital leaving the country is an outflow. These flows affect exchange rates.",
+      "example": "Foreign investors buy $5 billion of a country's bonds. They must buy its currency first, which pushes that currency's value up.",
+      "badge": "model_only"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "In perfect competition, at what output does a profit-maximising firm produce?",
+      "back": "Where price equals marginal cost (the cost of one more unit): $P = MR = MC$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "When should a perfectly competitive firm shut down in the short run?",
+      "back": "When price falls below its minimum average variable cost (the lowest per-unit cost of things that change with output, such as ingredients).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "Why can a firm with price below average cost but above average variable cost keep operating?",
+      "back": "It still covers its variable costs and part of its fixed costs, so its loss is smaller than if it shut down.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "What is the break-even point for a firm?",
+      "back": "The price at which price equals average total cost, so economic profit (profit after counting all costs) is zero.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c5",
+      "front": "What is a natural monopoly?",
+      "back": "A market where one firm can supply everyone at a lower cost per unit than several firms could, because costs keep falling as output grows.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "Name the four phases of the business cycle.",
+      "back": "Expansion, peak, contraction (recession) and trough.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "Do leading indicators turn before, with, or after the economy?",
+      "back": "Before. Coincident indicators turn with it and lagging indicators turn after.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "What is the difference between a nominal and a real value?",
+      "back": "A nominal value uses current prices. A real value is adjusted for inflation.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "What does expansionary fiscal policy involve?",
+      "back": "Higher government spending or lower taxes to boost economic activity.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c10",
+      "front": "What is a budget deficit?",
+      "back": "The shortfall when a government spends more than it collects in taxes in a year.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c11",
+      "front": "What is monetary policy?",
+      "back": "A central bank's management of interest rates and credit conditions (how easy it is to borrow) to influence economic activity.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "Name the three traditional central bank tools.",
+      "back": "Open market operations (buying or selling bonds), changing the reserve requirement and changing the discount rate.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "What happens to borrowing and spending when a central bank raises its policy rate?",
+      "back": "They tend to fall, because loans cost more. This helps to slow inflation.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What is inflation targeting?",
+      "back": "Keeping price rises within a set range, such as about 2% a year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "What is geopolitical risk?",
+      "back": "The risk that war, terrorism or tension between countries and other groups will disrupt the economy and markets.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c16",
+      "front": "What does a tariff do to the domestic price of an imported good?",
+      "back": "It raises it. Domestic producers gain, domestic consumers lose, and consumers lose more than producers gain.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "How do you read the quote USD/EUR = 1.10?",
+      "back": "1 euro costs 1.10 US dollars. The euro is the base currency (the one being priced) and the dollar is the price currency.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "If USD/EUR rises from 1.00 to 1.05, what happened to the euro?",
+      "back": "It appreciated by 5%, because it now buys more dollars.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What is the difference between a spot rate and a forward rate?",
+      "back": "A spot rate is for exchange now. A forward rate is agreed today for exchange on a future date.",
+      "badge": "model_only"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 2
+  },
+  "sources": [
+    {
+      "id": "os:principles-economics-3e:m63906:4.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — The Shutdown Point",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:5",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Short-Run Outcomes for Perfectly Competitive Firms",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-economics-3e:m63913:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§9.1 How Monopolies Form: Barriers to Entry — Natural Monopoly",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-economics-3e:m63910:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§15.3 The Safety Net — Critical Thinking Questions",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/15-3-the-safety-net",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "bea-business-cycle-indicators-2010:3:2",
+      "title": "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)",
+      "locator": "p. 3",
+      "url": "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf#page=3",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "conference-board-lei-notes:2:3",
+      "title": "U.S. Leading Economic Index technical notes, Dec. 2025 (The Conference Board)",
+      "locator": "pp. 2–3",
+      "url": "https://www.conference-board.org/pdf_free/press/US%20LEI%20Technical%20Notes%20Dec%202025.pdf#page=2",
+      "license": "© The Conference Board; free-to-read press PDF, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:346:303",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 346–349",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=346",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:366:319",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 366–368",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=366",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "os:principles-economics-3e:m63944:0",
+      "title": "Principles of Economics 3e",
+      "locator": "§28.3 How a Central Bank Executes Monetary Policy — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/28-3-how-a-central-bank-executes-monetary-policy",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:373:324",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 373–374",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=373",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "fed-gpr-ifdp1222:7:7",
+      "title": "Measuring Geopolitical Risk (Caldara & Iacoviello, Federal Reserve Board IFDP 1222)",
+      "locator": "pp. 7–8",
+      "url": "https://www.federalreserve.gov/econres/ifdp/files/ifdp1222.pdf#page=7",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)"
+    },
+    {
+      "id": "os:principles-economics-3e:m63829:1.4",
+      "title": "Principles of Economics 3e",
+      "locator": "§34.1 Protectionism: An Indirect Subsidy from Consumers to Producers — Demand and Supply Analysis of Protectionism",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/34-1-protectionism-an-indirect-subsidy-from-consumers-to-producer",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:335:292",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 335–337",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=335",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "suranovic-intl-finance:172:173",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 172–173",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=172",
+      "license": "SURANOVIC_LICENSE_TBD"
+    },
+    {
+      "id": "os:principles-economics-3e:m63724:0",
+      "title": "Principles of Economics 3e",
+      "locator": "§19.2 Adjusting Nominal Values to Real Values — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/19-2-adjusting-nominal-values-to-real-values",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-international-business:365:363",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 365",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=365",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "flatworld-international-business:365:364",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 365–366",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=365",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "flatworld-international-business:362:359",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 362–363",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=362",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    }
+  ],
+  "costUsd": 0.35268240000000006
+}

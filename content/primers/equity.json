@@ -1,0 +1,399 @@
+{
+  "topicId": "equity",
+  "generatedAt": "2026-10-12T17:58:17.782Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Equities are shares of ownership in a company. If you own a share, you own a tiny slice of the business. This topic covers what shares are and how companies sell them to investors. It also covers how investors trade them and how analysts work out what a share is worth.\n\nThe first modules cover the features and mechanics of shares. There are two main types, common and preferred, and they carry different rights. Shares can also carry different amounts of voting power. A company sells new shares in the primary market. Investors then trade those shares with each other in the secondary market. An investor earns money in two ways: dividends (cash payments from the company) and rises in the share price.\n\nThe later modules cover valuation, which means estimating a fair price for a share. There are two main routes. The first is discounted cash flow. You forecast the cash the company will give its owners, then shrink that future cash to what it is worth today. The second is relative valuation. You compare a company's price with the price of a similar company, using ratios such as price to earnings (P/E). Analysts back these methods with industry analysis, company analysis and financial forecasts, and then write a research report. The last module links risk to the return investors demand, using a formula called the CAPM.",
+  "whyItMatters": "Equities make up 11–14% of the Level I exam, and ideas like discounting and P/E come back in other topics. Every equity analyst, portfolio manager or adviser uses these tools to decide whether a share looks cheap or expensive.",
+  "prerequisites": [
+    "Percentages and growth rates: know that growing $100 by 5% gives $105. Practise by working out three savings-account balances by hand until it feels automatic.",
+    "Compound interest and present value: $100 today grows to $110 in a year at 10%. So $110 next year is worth $100 today. Practise using the time-value keys on your calculator (N, I/Y, PV, FV, PMT).",
+    "Basic formulas and algebra: be able to rearrange something like $P = D/(r-g)$ to find any letter. Do ten quick drills solving for each letter in turn.",
+    "Reading a company's financial statements at a basic level: the income statement shows profit over a period of time. The balance sheet shows what a firm owns and owes on one date. Skim a one-page summary of each for a company you know.",
+    "Everyday market vocabulary: ticker (a company's short code), exchange (a marketplace for shares), and bid and ask prices (what buyers offer and what sellers want). Open a free stock-quote page and look up two companies to see these terms in real use.",
+    "Ratios and averages: a ratio is one number divided by another. Practise with price divided by earnings, e.g. $20 / $2 = 10."
+  ],
+  "studyTips": [
+    "Learn the vocabulary first. Turn the key terms into flashcards and say each definition aloud in your own words before starting the lessons.",
+    "Work small numeric examples by hand before you rely on formulas. Value a share with a $2 dividend, then change the growth rate and watch the answer move.",
+    "Learn the two valuation routes as a pair: discounted cash flow (what the business is worth based on its cash) and relative valuation (what similar companies sell for). For each question, ask which route it uses.",
+    "Practise the time-value keystrokes on your approved calculator until N, I/Y, PV, FV and PMT feel automatic.",
+    "Draw a simple timeline for each new idea. A company issues shares (primary market). Investors trade them (secondary market). The company pays dividends, and the price changes. This helps you place the returns and valuation modules."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Equity (share or stock)",
+      "definition": "A share is one small unit of ownership in a company. Owning shares makes you a part-owner, called a shareholder. Equity just means ownership.",
+      "example": "A company has 1,000 shares. If you hold 10, you own 1% of the company.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Common shares",
+      "definition": "The standard type of share. Holders usually get a vote and a share of any dividends the board decides to pay. Their payouts are not fixed and not guaranteed.",
+      "example": "You buy 50 common shares of a shop chain. You can vote at the annual meeting. You get dividends only if the board declares them.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t3",
+      "term": "Preferred shares",
+      "definition": "A second type of share. Its holders are usually paid dividends before common shareholders. The dividend is often more fixed, and voting rights are usually weaker.",
+      "example": "A preferred share pays $4 a year. Common holders get nothing until the $4 is paid.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t4",
+      "term": "Dividend",
+      "definition": "A payment a company makes to its shareholders, usually in cash. It is shared out by how many shares each person owns. The board of directors (the group that oversees the company) decides whether to pay it and how much.",
+      "example": "A company declares $0.50 per share. If you own 200 shares, you receive $100.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t5",
+      "term": "Residual claim",
+      "definition": "Common shareholders are paid last. Lenders and other creditors (people the company owes money) are paid first. Shareholders keep whatever is left over. That could be a lot or nothing. Think of it as the leftovers after everyone else has eaten.",
+      "example": "A firm is sold for $10 million and owes lenders $8 million. Shareholders share the remaining $2 million.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t6",
+      "term": "Limited liability",
+      "definition": "A shareholder can lose at most the money they paid for their shares. If the company fails, creditors cannot take your personal savings.",
+      "example": "You paid $1,000 for shares. The company goes bust. You lose that $1,000 but owe nothing more.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Share class and voting rights",
+      "definition": "A company can issue several classes of shares, each with different rights. One class may get more votes per share. Shareholders use their votes to elect the board of directors.",
+      "example": "Class A has 1 vote per share. Class B has 10 votes per share. A founder holding class B can control the company with few shares.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Primary market and IPO",
+      "definition": "The primary market is where a company sells brand-new shares and receives the cash. An IPO (initial public offering) is the first time a company sells shares to the public. Later, a listed company may sell extra new shares. That is called a seasoned equity offering.",
+      "example": "A start-up sells 1 million new shares at $20 and raises $20 million. That money goes to the company.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Secondary market",
+      "definition": "The market where investors trade existing shares with each other, for example on a stock exchange. The company gets no new cash from these trades. Think of it as a used-car market: the carmaker is not paid when a used car changes hands.",
+      "example": "You sell 10 shares to another investor for $200. The company receives nothing.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t10",
+      "term": "Underwriter",
+      "definition": "An investment bank that helps a company sell new shares. It often buys the shares first and then resells them to investors.",
+      "example": "A bank buys 1 million new shares from a company at $19 and sells them to the public at $20.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t11",
+      "term": "Stock split and reverse split",
+      "definition": "A split cuts each share into more shares, so the price per share falls. A reverse split combines shares into fewer shares, so the price per share rises. Total value does not change. It is like swapping one $20 note for two $10 notes.",
+      "example": "In a 2-for-1 split, 10 shares at $40 become 20 shares at $20. Your total stays $400. In a 1-for-10 reverse split, 100 shares at $2 become 10 shares at $20.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t12",
+      "term": "Share buyback (repurchase)",
+      "definition": "A company uses its own cash to buy its own shares back from investors. This leaves fewer shares in the hands of investors. Rules limit how and when companies can do this.",
+      "example": "A company with 100 shares outstanding buys back 10. Each remaining share now represents a slightly bigger slice of the company.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t13",
+      "term": "Intrinsic value",
+      "definition": "What a share is really worth, based on the cash the business is expected to produce. Analysts compare it with the market price (what the share sells for today). If the price is below the value, the share looks cheap.",
+      "example": "Your analysis says a share is worth $50. It trades at $40. It looks undervalued.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t14",
+      "term": "Required return (cost of equity)",
+      "definition": "The yearly return investors need to make up for the risk of owning a share. Analysts use it as the discount rate, which is the rate used to shrink future cash into today's money.",
+      "example": "If investors demand 10% a year, a share must be priced so it can plausibly deliver 10%.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t15",
+      "term": "Present value (discounting)",
+      "definition": "Present value is what future money is worth today. Discounting means shrinking future cash using the required return. A dollar later is worth less than a dollar now, because you could invest today's dollar and earn a return.",
+      "example": "At 10%, $110 received in one year is worth $110 / 1.10 = $100 today.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t16",
+      "term": "Gordon growth model (constant-growth dividend discount model)",
+      "definition": "A shortcut that values a share as next year's dividend divided by (required return minus growth rate). It assumes dividends grow at a steady rate forever. It only works if the required return $r$ is bigger than the growth rate $g$, so $r > g$.",
+      "example": "Next dividend $2, $r = 10\\%$, $g = 4\\%$. Value = $2 / 0.06 = $33.33.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t17",
+      "term": "Free cash flow to equity (FCFE)",
+      "definition": "The cash left over for shareholders after the company pays its costs, repays its debts and covers its investment needs. It is a broader measure than dividends, because it counts cash that could be paid out, not just cash that is paid out. It can be discounted to value the shares.",
+      "example": "A firm has $5 million left after all bills and investments. That is its FCFE, even if it pays out only $2 million as dividends.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "P/E ratio (a valuation multiple)",
+      "definition": "Price per share divided by earnings per share (profit per share). It shows how much investors pay for each $1 of profit. Analysts compare it across similar companies.",
+      "example": "A share costs $30 and earns $3 per share. P/E = 30 / 3 = 10.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t19",
+      "term": "Beta",
+      "definition": "A number showing how strongly a share moves with the overall market. A beta of 1 means it moves with the market. A beta above 1 means it swings more. A beta below 1 means it swings less.",
+      "example": "If the market rises 10% and a share with beta 1.5 usually rises 15%, it is more aggressive than the market.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t20",
+      "term": "CAPM (Capital Asset Pricing Model)",
+      "definition": "A formula for required return: the risk-free rate plus beta times the market risk premium. The risk-free rate is the return on a safe investment. The market risk premium is the extra return investors expect for holding the whole market instead of the safe asset.",
+      "example": "Risk-free 3%, market return 8%, beta 1.2. Required return = $3\\% + 1.2 \\times 5\\% = 9\\%$.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What does owning a share of stock mean?",
+      "back": "You own a small slice of the company and share in its profits and risks.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "What is a dividend?",
+      "back": "A payment, usually cash, from a company to its shareholders, shared out by the number of shares held.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "Who decides whether a dividend is paid?",
+      "back": "The board of directors, which the shareholders elect.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "How do common and preferred shares differ in general?",
+      "back": "Preferred usually gets dividends first and has weaker voting. Common has voting rights and payouts that vary.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c5",
+      "front": "What does 'residual claim' mean for common shareholders?",
+      "back": "They are paid after creditors and keep whatever is left.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What does limited liability protect you from?",
+      "back": "Losing more than you put into the shares.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c7",
+      "front": "Primary market or secondary market: where does the company receive cash?",
+      "back": "The primary market, when new shares are sold. Secondary trades are between investors.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "What is the difference between an IPO and a seasoned equity offering?",
+      "back": "An IPO is the first sale of shares to the public. A seasoned offering is a later sale of extra shares by a company that is already listed.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "What does an underwriter do?",
+      "back": "It is an investment bank that buys new shares from the company and resells them to investors.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "What happens to total value in a stock split?",
+      "back": "Nothing changes. You hold more shares at a lower price, but your total value is the same.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What happens to the share price after a reverse split?",
+      "back": "It rises, because fewer shares exist. Your total value stays the same.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "What is a share buyback?",
+      "back": "A company buys its own shares from investors, so fewer shares are outstanding.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c13",
+      "front": "What is intrinsic value?",
+      "back": "What a share is worth based on the cash the business is expected to generate.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What happens to present value when the discount rate rises?",
+      "back": "It falls. Future cash is worth less today.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "What is the Gordon growth formula?",
+      "back": "$V_0 = D_1/(r-g)$: next year's dividend divided by (required return minus growth rate). It needs $r > g$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c16",
+      "front": "How does FCFE differ from dividends?",
+      "back": "FCFE is all the cash left for shareholders after costs, debt and investment. Dividends are only what is actually paid out.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "How do you calculate a P/E ratio?",
+      "back": "Share price divided by earnings per share.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c18",
+      "front": "Why can't you compare raw share prices across companies?",
+      "back": "A price depends on how many shares exist, so analysts use ratios like P/E instead.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "What is the CAPM formula?",
+      "back": "Required return = risk-free rate + beta × (market return − risk-free rate).",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "flatworld-finance-for-managers:153:106",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 153–154",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=153",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "russell-us-indexes-methodology:15:17",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 15–16",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=15",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00006:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.5 Markets and Participants — Primary and Secondary Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-5-markets-and-participants",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "mit-ocw-15401-lec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 1–4",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "finra-splits-and-research:1:2",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "Stock Splits",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks/stock-splits",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "finra-splits-and-research:1:1",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "Stock Splits",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks/stock-splits",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "cfr-17-240-10b-18:1:0",
+      "title": "17 CFR 240.10b-18 Purchases of certain equity securities by the issuer (issuer repurchases; ADTV volume limit) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 1",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-10b-18.pdf#page=1",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "mit-ocw-15433-securityanalysis:4:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 19: Security Analysis",
+      "locator": "pp. 4–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/ffbc3f7faa47ea6af53d2a3efe1e29ee_1543319securityanalysis.pdf#page=4",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:43:33",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:5.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Two-Stage Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:2:1",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-finance-for-managers:203:145",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 203–204",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=203",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "mit-ocw-15433-capm1:7:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 7–11",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=7",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    }
+  ],
+  "costUsd": 0.3082164
+}

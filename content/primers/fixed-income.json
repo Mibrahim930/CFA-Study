@@ -1,0 +1,454 @@
+{
+  "topicId": "fixed-income",
+  "generatedAt": "2026-10-12T18:00:50.906Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "A bond is a loan that you make to a company or a government. The borrower is called the issuer. The issuer promises to pay you interest at regular times. It also promises to give back the original amount on a set date. \"Fixed income\" is the name for investments built on promises like this, because the payments are set in advance. This topic starts with a bond's features: how much it pays, how often, and when. It also covers extras, such as the issuer's right to repay early or your right to swap the bond for shares of the company.\n\nNext comes pricing. A bond is worth the money it will pay in the future, scaled down to today's value using a market interest rate. Think of it this way: $100 promised next year is worth a bit less than $100 in your hand today. When market rates rise, a bond that pays a fixed amount looks less attractive, so its price falls. When rates fall, its price rises. Picture a seesaw: rates go up, price goes down. Much of the topic builds on this one seesaw. Yield is the return you earn at the price you pay. A spread is the extra return you get over a safer bond. A yield curve is a line showing how rates differ for short and long loans. Duration and convexity are two measures of how far a bond's price moves when rates move.\n\nThe last part covers risk and structure. Credit risk is the chance that the borrower does not pay you back. You learn to judge this risk for governments and for companies. Securitization means pooling many loans, such as car loans or home mortgages, and selling slices of the pool as bonds. Those slices have their own features, including the risk that borrowers repay early. Every part comes back to one question: what cash will I receive, when, and how sure am I?",
+  "whyItMatters": "Fixed income carries 11–14% of the Level I exam, so it is one of the larger topics. Almost every finance job touches bonds, because bond rates are the benchmark that other investments are compared against.",
+  "prerequisites": [
+    "Percentages and powers: you must be comfortable with 5% of $1,000 and with $(1.05)^3$, which means 1.05 multiplied by itself three times. Practise on a basic calculator by pressing multiply repeatedly. Check that you get 1.1576.",
+    "Time value of money: $100 today is worth more than $100 next year, because money you have today can earn interest. Learn it by working out how $100 grows at 5% for one, two and three years. Then run the sums backwards to see what $105 next year is worth today.",
+    "Reading a timeline: draw a line with a dot for each payment date. Write the cash amount above each dot. Do this for any loan or savings plan until it feels automatic. Every bond question is a timeline.",
+    "Using a financial calculator: learn the keys N (number of periods), I/Y (interest rate per period), PV (price today), PMT (payment each period) and FV (final payment). Enter a simple bond, such as a 3-year, 5% coupon, $1,000 bond, and compute its price. A coupon is the regular interest payment. Then change the rate and watch what happens to the price.",
+    "Basic loan language: know what a lender, borrower, interest, collateral and default mean. Collateral is something the borrower pledges to the lender in case of non-payment. Default means failing to pay as promised. Think of a car loan or a mortgage, and read the lender's terms on one real loan offer."
+  ],
+  "studyTips": [
+    "Hold on to the price–yield seesaw. Before any bond question, ask what happens to the price if yields rise. Most answers in this topic follow from that.",
+    "Work every formula once with tiny numbers, such as a one-year bond at $1,000 par. Then use a financial calculator for longer bonds. Check each calculator answer against a quick estimate.",
+    "Sketch a timeline for every cash-flow question. Mark each payment and its date. Check that the rate matches the payment period. For example, if payments come twice a year (semiannual), use half the yearly rate.",
+    "Group the modules into three blocks: features and markets, pricing and risk measures, and credit and securitization. Summarise each block in a few lines. Then connect them by asking how each feature changes yield, price or risk.",
+    "Use the flashcards daily in short sessions. Always write the direction of change (up or down) for each relationship. Direction is the most commonly missed point."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Bond",
+      "definition": "A loan you make to an issuer (a company or a government). In return, the issuer promises regular interest and repayment of the original amount on a set date. It works like an IOU that pays interest.",
+      "example": "You lend a company $1,000. It pays you $50 each year for 10 years and hands back your $1,000 at the end.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Par value (face value)",
+      "definition": "The amount the issuer promises to repay at the end of the bond's life. The interest payments are also worked out from this amount.",
+      "example": "A bond with par value $1,000 repays $1,000 at the end, whatever price you paid for it earlier.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t3",
+      "term": "Coupon rate",
+      "definition": "The yearly interest rate the issuer promises, stated as a percentage of par value. It is usually fixed when the bond is first sold. The interest paid each time is called a coupon.",
+      "example": "A 5% coupon on $1,000 par pays $50 a year. If it pays twice a year, each payment is $25.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t4",
+      "term": "Maturity",
+      "definition": "The date on which the bond ends. On that date the issuer pays the last interest payment and returns par value.",
+      "example": "A bond issued today with 10 years to maturity ends in 10 years. A 2-year-old bond of the same kind has 8 years left.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t5",
+      "term": "Yield to maturity (YTM)",
+      "definition": "The yearly return you earn if you buy at today's price, hold the bond to the end, and receive every promised payment. It is the one yearly rate that, when used to scale the promised payments back to today's value, gives exactly the price you paid. That rate is called the discount rate.",
+      "example": "A one-year bond that repays $1,000 costs $950 today. Your gain is 1,000/950 − 1 = 5.26%, so the YTM is about 5.26%.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t6",
+      "term": "Premium and discount bonds",
+      "definition": "A bond sells at a premium when its price is above par. It sells at a discount when its price is below par. It sells at par when its coupon rate equals the market yield. The market yield is the return investors currently demand on similar bonds.",
+      "example": "A 5% coupon bond sells for $990.57 when the market yield is 6%, because 1,050/1.06 = 990.57. That is a discount to the $1,000 par value.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Basis point",
+      "definition": "One hundredth of one percentage point. Bond traders use it to describe small changes in rates.",
+      "example": "A yield moving from 4.00% to 4.25% has risen by 25 basis points. 100 basis points equal 1%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Floating-rate note",
+      "definition": "A bond whose interest rate changes over time instead of staying fixed. Its rate is a reference rate plus a fixed extra amount called the spread. The reference rate (also called the index) is a published rate, such as a short-term government rate.",
+      "example": "The index is 3% and the spread is 0.5%, so the note pays 3.5%. If the index rises to 4%, the note pays 4.5%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Convertible bond",
+      "definition": "A company bond that gives the holder the right, but not the duty, to swap each bond for a fixed number of the company's shares. That fixed number is called the conversion ratio.",
+      "example": "A $1,000 bond converts into 20 shares, so the conversion price is $1,000/20 = $50. You would convert if the share price is above $50.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t10",
+      "term": "Callable bond",
+      "definition": "A bond that lets the issuer repay it before maturity at a set price. The issuer holds this choice, so investors usually demand a higher yield to accept it.",
+      "example": "A company issues a 10-year bond at 8%. Rates fall to 5%, so it calls the bond and borrows again more cheaply. You get your money back early and must reinvest it (put it to work again) at the lower rate.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t11",
+      "term": "Modified duration",
+      "definition": "An estimate of the percentage a bond's price changes when its yield changes by 1 percentage point (100 basis points). The price moves in the opposite direction to the yield. It measures interest rate risk, which is the risk that changing rates move your bond's price.",
+      "example": "A bond has a modified duration of 4. If its yield rises by 1%, its price falls by about 4%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t12",
+      "term": "Convexity",
+      "definition": "A measure of the curve in the relationship between a bond's price and its yield. Duration treats that relationship as a straight line, which is too rough for large yield changes. Convexity corrects this. A plain bond has positive convexity, which helps the investor.",
+      "example": "Modified duration of 8.58 predicts a 17.16% price fall when yield rises 2%. The true fall is 15.05%, so convexity softens the drop.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Spot rate",
+      "definition": "Today's interest rate for a single payment received at one future date, with no payments in between. It is the price of money for that exact length of time.",
+      "example": "The 2-year spot rate is 5%. $100 locked in today for exactly 2 years grows to $100 × $(1.05)^2$ = $110.25.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t14",
+      "term": "Forward rate",
+      "definition": "An interest rate agreed today for a loan that starts at a future date. You can work it out from today's spot rates.",
+      "example": "The 1-year spot rate is 4% and the 2-year spot rate is 5%. The rate for year 2 alone is $(1.05)^2/1.04 - 1$ = 6.01%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t15",
+      "term": "Yield curve",
+      "definition": "A line that plots interest rates against time to maturity, for bonds that are alike in other ways. It shows how the price of money differs between short and long loans.",
+      "example": "A 1-year rate of 3%, a 5-year rate of 4% and a 10-year rate of 5% make an upward-sloping curve.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Credit spread",
+      "definition": "The extra yield a riskier borrower pays over a safer one with a similar maturity. It pays you for taking the risk of not being repaid.",
+      "example": "A company bond yields 6% and a government bond of the same length yields 4%. The credit spread is 2%, or 200 basis points.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t17",
+      "term": "Expected loss (probability of default × loss given default)",
+      "definition": "Probability of default (PD) is the chance the borrower fails to pay. Loss given default (LGD) is the share of the money you lose if that happens. Multiply them to get the average loss per dollar lent.",
+      "example": "PD is 2% and LGD is 40%. Expected loss is 0.02 × 0.40 = 0.8%, or $8 on a $1,000 bond.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "Securitization",
+      "definition": "Pooling many loans and moving them to a separate legal entity. That entity then sells bonds backed by the cash the loans produce. It is like gathering many small IOUs into one bundle that can be bought and sold.",
+      "example": "A bank pools 10,000 car loans and sells the pool to a separate entity. The entity sells bonds that are paid from the borrowers' monthly payments.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t19",
+      "term": "Tranche",
+      "definition": "One slice of a securitization. Each slice has its own rank for receiving payments and its own level of risk. Safer slices get paid first. Riskier slices pay higher yields.",
+      "example": "A $100 million pool is cut into an $80 million senior slice (paid first) and a $20 million junior slice (paid last). The junior slice absorbs the first losses.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t20",
+      "term": "Prepayment risk",
+      "definition": "The risk that borrowers repay the loans in a pool earlier than expected. Investors then get their principal (the original amount lent) back sooner. They usually must reinvest it at lower rates when rates have fallen. Slow repayment can also stretch cash flows out longer than planned.",
+      "example": "Homeowners refinance (take a new loan to pay off the old one) when mortgage rates drop from 6% to 4%. An investor who earned 6% gets cash back early and can reinvest only at about 4%.",
+      "badge": "model_only"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What is a bond in plain words?",
+      "back": "A loan you make to a company or government. It pays interest and returns the original amount at maturity.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "What is par (face) value?",
+      "back": "The amount the issuer repays at maturity. Coupon payments are also calculated from it.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c3",
+      "front": "How do you calculate a bond's yearly coupon payment?",
+      "back": "Coupon rate × par value. For example, 5% × $1,000 = $50 a year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "What happens to a bond's price when market yields rise?",
+      "back": "The price falls. Prices and yields move in opposite directions, like a seesaw.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c5",
+      "front": "When does a bond sell at a discount?",
+      "back": "When its price is below par. This happens when its coupon rate is below the market yield.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What does yield to maturity (YTM) measure?",
+      "back": "The yearly return from buying at today's price and holding to maturity, with all promised payments received.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "How many basis points are in 1%?",
+      "back": "100 basis points.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "How is a floating-rate note's interest rate set?",
+      "back": "Index rate plus a fixed spread. The index changes over time, so the note's interest rate changes with it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "Why can a convertible bond pay a lower coupon?",
+      "back": "The holder also gets a valuable right to swap the bond into shares. That right makes up for the lower interest.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "How do you compute a convertible bond's conversion price?",
+      "back": "Par value divided by conversion ratio. For example, $1,000/20 shares = $50 per share.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "Who benefits from a call feature, the issuer or the investor?",
+      "back": "The issuer, who can repay early when rates fall. Investors therefore usually demand a higher yield.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c12",
+      "front": "What does a modified duration of 5 tell you?",
+      "back": "A 1% rise in yield cuts the price by about 5%, and a 1% fall raises it by about 5%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "Why add convexity to duration?",
+      "back": "Duration is only accurate for small yield changes. Convexity corrects for the curve in the price–yield relationship.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What is a spot rate?",
+      "back": "The rate today for money received once at a single future date, with no payments in between.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "How is a forward rate found from spot rates?",
+      "back": "Compare two spot rates. For year 2: $(1+S_2)^2/(1+S_1) - 1$. Here $S_1$ and $S_2$ are the 1-year and 2-year spot rates.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c16",
+      "front": "What does a credit spread pay you for?",
+      "back": "For taking the risk that a riskier borrower may not repay in full or on time.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "What is the formula for expected loss?",
+      "back": "Probability of default × loss given default. Multiply by the amount owed to get a dollar figure.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "What is securitization?",
+      "back": "Pooling loans and selling bonds backed by the cash those loans produce.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c19",
+      "front": "Why do mortgage-backed securities carry prepayment risk?",
+      "back": "Homeowners can repay early, for example when rates fall. Investors then receive their principal sooner than expected.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "os:principles-finance-2e:m00111:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Convertible Debt",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Interest Rate Movements and Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "nyfed-sr423-cpff:5:3",
+      "title": "The Federal Reserve's Commercial Paper Funding Facility (FRBNY Staff Report 423; commercial paper market description)",
+      "locator": "pp. 5–6",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr423.pdf#page=5",
+      "license": "Federal Reserve Bank of New York staff report; no open licence stated and not public domain, so treated as all rights reserved"
+    },
+    {
+      "id": "mit-ocw-15401-rec02:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:3.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Yields and Coupon Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:3:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 3–8",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=3",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    },
+    {
+      "id": "cfr-31-356:5:9",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 5",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=5",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "treasurydirect-pricing:1:2",
+      "title": "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Understanding Pricing and Interest Rates — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)"
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome3:19:7",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 19–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:11:10",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 11–12",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=11",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00075:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.3 Historical Picture of Returns to Bonds — Corporate Bond Behavior, Discussion, Charts, and Graphs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-3-historical-picture-of-returns-to-bonds",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Concepts of Bond Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:8:5",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 8–10",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=8",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:132:153",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 132",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)"
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)"
+    },
+    {
+      "id": "occ-credit-card-lending:162:211",
+      "title": "Comptroller's Handbook: Credit Card Lending (securitization) (OCC)",
+      "locator": "pp. 162–163",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/credit-card-lending/pub-ch-credit-card.pdf#page=162",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "occ-rating-credit-risk:52:49",
+      "title": "Comptroller's Handbook: Rating Credit Risk (OCC)",
+      "locator": "pp. 52–53",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/rating-credit-risk/pub-ch-rating-credit-risk.pdf#page=52",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "occ-rating-credit-risk:53:50",
+      "title": "Comptroller's Handbook: Rating Credit Risk (OCC)",
+      "locator": "pp. 53–55",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/rating-credit-risk/pub-ch-rating-credit-risk.pdf#page=53",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "occ-asset-securitization:7:4",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 7–8",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=7",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "treasury-covered-bonds:8:4",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 8–9",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=8",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "slcg-cmo-primer:5:4",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "p. 5",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=5",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)"
+    },
+    {
+      "id": "fed-trading-4000-p1:59:96",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 59–60",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=59",
+      "license": "Public domain (U.S. government work)"
+    }
+  ],
+  "costUsd": 0.4269364
+}

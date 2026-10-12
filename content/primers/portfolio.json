@@ -1,0 +1,384 @@
+{
+  "topicId": "portfolio",
+  "generatedAt": "2026-10-12T18:07:17.302Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Portfolio construction means spreading your money across several investments instead of just one. The aim is a mix that suits what you need. A portfolio is your whole collection of investments, like everything in one shopping basket. An asset is any single thing you can invest in, such as a share or a bond. This topic asks three questions. How much return can you expect? (Return is the money you earn, shown as a percentage.) How much risk do you take to get it? (Risk is how much that return could swing up or down.) How should you mix investments to get the best trade-off between the two?\n\nThe first half is about ideas and maths. Some investments do not rise and fall at the same time. Mixing them cancels out part of the swings. This is called diversification, and it is the 'don't put all your eggs in one basket' idea. If you plot the best possible mixes of risky assets on a graph, you get a curve called the efficient frontier. Add a safe asset and you get a straight line called the capital market line. Next comes a model called the CAPM. It says you are paid extra reward only for market-wide risk, the risk that hits everything at once. Beta is the number that measures how much of that risk an asset carries.\n\nThe second half is practical. Portfolio management is the step-by-step process of looking after a portfolio. First, write down the investor's goals and limits in an investment policy statement (IPS). Next, choose an asset allocation, which is how much goes into each type of asset. Then invest, keep watching, and rebalance. Rebalancing means trading to get back to your planned mix. People also make predictable mental mistakes with money. These are called behavioral biases, so you need to know them. Risk management means spotting, measuring and controlling risks. All of these pieces form a loop: plan, build, monitor, manage risk, and guard against your own bad habits.",
+  "whyItMatters": "This topic is worth 8–12% of the Level I exam, and its maths (return, risk, Sharpe ratio, beta) comes back in other topics. In a finance career, almost every investing or advising job involves building and monitoring portfolios for clients.",
+  "prerequisites": [
+    "Percentages and weighted averages: know how to turn 5% into 0.05 and how to work out a weighted average. A weighted average gives each number a share based on how much of it you hold. Practise with a 60/40 split, for example $0.6 \\times 10\\% + 0.4 \\times 4\\%$. Ten minutes of examples on any free maths site is enough.",
+    "Basic statistics: know what an average (mean) is. Know what a spread is, meaning how far numbers stray from the average. Know what variance is, meaning the average of the squared distances from the mean. Watch a short 'standard deviation explained' video. Then calculate one by hand for the numbers 2, 4, 6.",
+    "Reading simple graphs: be comfortable with an x-axis (the flat one), a y-axis (the upright one), a slope (how steep a line is), and a curve. Sketch risk on the x-axis and return on the y-axis a few times until it feels natural.",
+    "Compounding and rates of return: know that a 10% gain on $100 gives $110. Know that a percentage change is measured against the starting value. Work three small examples with a calculator.",
+    "Basic vocabulary of stocks and bonds: a stock is a small ownership share in a company. A bond is a loan to a government or company that pays interest. Read one beginner page on each, then list one example of each.",
+    "Using a calculator for squares and square roots: standard deviation is the square root of variance. Practise $\\sqrt{0.04} = 0.20$ until it is automatic."
+  ],
+  "studyTips": [
+    "Do the maths with tiny round numbers first, such as two assets, 50/50, with 10% and 20%. Only then use the formulas, so you can see why they work.",
+    "Draw the picture by hand, with risk on the x-axis and return on the y-axis. Include the efficient frontier, the risk-free point, and the CML. Redraw it from memory until you can explain each part aloud.",
+    "Write a one-line summary for each idea (diversification, beta, Sharpe ratio, IPS, rebalancing) using an everyday comparison, such as eggs in baskets. Then test yourself with flashcards.",
+    "For behavioral biases, match each bias to a real situation from your own life, such as holding a losing stock too long. A story is easier to remember than a label.",
+    "Keep a formula sheet with the few key equations (expected return, Sharpe ratio, CAPM). Practise each one with a calculator until you can do it quickly without notes."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Portfolio",
+      "definition": "The whole collection of investments an investor holds, treated as one package. You judge risk and return for the package, not for each piece alone.",
+      "example": "You hold $6,000 of shares and $4,000 of bonds. Together, that $10,000 is your portfolio.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Return",
+      "definition": "The gain or loss on an investment over a period of time. It is shown as a percentage of the amount you started with.",
+      "example": "You buy a share for $100. A year later it is worth $108 and has paid $2 in dividends (a share of company profit paid to owners). Return = $(108 - 100 + 2)/100 = 10\\%$.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t3",
+      "term": "Expected return",
+      "definition": "The average return you anticipate from an investment. You find it by giving each possible outcome a weight based on how likely it is. For a portfolio, it is the weighted average of the expected returns of everything in it.",
+      "example": "Put 60% in an asset expecting 10% and 40% in one expecting 5%. Then $0.6 \\times 10\\% + 0.4 \\times 5\\% = 8\\%$.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t4",
+      "term": "Risk",
+      "definition": "The uncertainty about what an investment will return. The wider the swings in possible returns, the more risk.",
+      "example": "A savings account that always pays 2% has almost no risk. A share that might return -20% or +30% has a lot.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t5",
+      "term": "Standard deviation (volatility)",
+      "definition": "A number showing how far returns typically stray from their average. It is the square root of variance (the average squared distance from the mean). Finance uses it as the standard measure of total risk. Volatility is another word for it.",
+      "example": "A fund averaging 8% with a standard deviation of 10% usually returns between about -2% and 18%.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t6",
+      "term": "Covariance and correlation",
+      "definition": "Covariance shows whether two investments tend to move together. Correlation rescales it to a number between -1 and +1. A value of +1 means they move in perfect lockstep. A value of 0 means no link. A value of -1 means they move in opposite directions.",
+      "example": "Two ice-cream shops in the same town have a correlation near +1. An ice-cream shop and an umbrella shop might have a lower, even negative, correlation.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Diversification",
+      "definition": "Spreading money across investments that do not move in lockstep. Then a bad result in one is cushioned by the others. The lower the correlation and the more assets you hold, the more the risk falls.",
+      "example": "Two assets each have 20% volatility. Hold them 50/50 with correlation 0, and the portfolio volatility is $\\sqrt{0.25 \\times 0.04 + 0.25 \\times 0.04} \\approx 14.1\\%$. That is less than 20%.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t8",
+      "term": "Systematic risk",
+      "definition": "Risk that hits the whole market, such as a recession or a sudden jump in interest rates. You cannot get rid of it by diversifying. The CAPM says investors are paid extra return only for taking this kind of risk.",
+      "example": "A stock market crash pulls down almost every share, however many different shares you own.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Idiosyncratic risk",
+      "definition": "Risk that is specific to one company or asset, such as a factory fire or a failed product. Holding many assets can diversify it away. So the market does not pay extra for it.",
+      "example": "One of your 50 holdings falls 40% because of a scandal. Your portfolio barely moves.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t10",
+      "term": "Efficient frontier",
+      "definition": "The curve of portfolios that give the highest expected return for each level of risk, using only risky assets. A portfolio below the curve is inefficient, because a better mix exists.",
+      "example": "One mix offers 8% return at 10% risk. Another offers 7% at 10% risk. The 7% mix is not on the frontier.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t11",
+      "term": "Risk-free asset",
+      "definition": "An investment with a known, certain return, such as a short-term government bill (a very short loan to the government). Its risk is treated as zero. Its return is the starting point for rewarding risk.",
+      "example": "A government bill pays 3%. That 3% is the risk-free rate, $R_f$.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t12",
+      "term": "Sharpe ratio",
+      "definition": "The return you earn above the risk-free rate, divided by the standard deviation. It shows how much reward you get for each unit of risk, so higher is better.",
+      "example": "Return is 10%, the risk-free rate is 2%, and standard deviation is 16%. Sharpe ratio = $(10 - 2)/16 = 0.5$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Capital market line (CML)",
+      "definition": "A line showing the best combinations of the risk-free asset and the best risky portfolio (called the tangency portfolio). Its slope is the highest Sharpe ratio available. A cautious investor holds more of the safe asset. A bolder investor holds more of the risky portfolio.",
+      "example": "One investor puts 50% in the risk-free asset and 50% in the risky portfolio. A bolder investor puts 100% in the risky portfolio. Both sit on the same line.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t14",
+      "term": "Beta and CAPM",
+      "definition": "Beta measures how strongly an asset moves with the overall market. A beta of 1 means it moves in step with the market. CAPM stands for Capital Asset Pricing Model. It says expected return = risk-free rate + beta × market risk premium. The market risk premium is the market's extra return over the risk-free rate.",
+      "example": "$R_f = 3\\%$, market expected return is 8%, beta is 1.2. Expected return = $3\\% + 1.2 \\times (8\\% - 3\\%) = 9\\%$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t15",
+      "term": "Asset allocation",
+      "definition": "Deciding what share of the portfolio goes into each asset class. An asset class is a broad group such as stocks, bonds or cash. This choice drives most of how the portfolio behaves overall.",
+      "example": "A 60/30/10 split on a $100,000 portfolio puts $60,000 in stocks, $30,000 in bonds and $10,000 in cash.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t16",
+      "term": "Investment policy statement (IPS)",
+      "definition": "A written plan that sets out an investor's objectives (the return wanted and the risk they can accept) and constraints (limits they must stay within). It also says who is responsible for what, and how performance and rebalancing are handled. It guides decisions, especially when markets are panicking.",
+      "example": "A family's IPS might say: 'Aim for 5% a year after inflation, hold at least 10% in cash, review each year.'",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t17",
+      "term": "Rebalancing",
+      "definition": "Buying and selling to bring the portfolio back to its target mix after market moves have pushed it off course.",
+      "example": "Your target is 60% stocks. Stocks rise until they make up 70%. You sell some stocks and buy bonds to return to 60%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "Behavioral bias",
+      "definition": "A predictable mental shortcut or emotional habit that leads people to make poor money choices. Examples are overconfidence, loss aversion (feeling losses more strongly than equal gains) and anchoring (getting stuck on a first number you saw).",
+      "example": "An investor refuses to sell a share that has fallen 30% because selling would make the loss feel real. That is loss aversion at work.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t19",
+      "term": "Risk management",
+      "definition": "The ongoing process of spotting risks, measuring them, deciding how to handle them, and checking that the handling works.",
+      "example": "A bank spots that rising interest rates could hurt its profits. It measures the possible loss, hedges (protects against) part of it, and reviews the result each quarter.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What is a portfolio?",
+      "back": "The whole collection of investments an investor holds, judged together as one package.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "How do you calculate a portfolio's expected return?",
+      "back": "Take the weighted average of each holding's expected return. Use the portfolio weights, meaning each holding's share of the total.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c3",
+      "front": "What does standard deviation measure in finance?",
+      "back": "Total risk: how widely returns typically swing around their average.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c4",
+      "front": "What does a correlation of +1 between two assets mean?",
+      "back": "They move in perfect lockstep, so combining them gives no diversification benefit.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c5",
+      "front": "What happens to portfolio risk as correlation between assets falls?",
+      "back": "Portfolio risk falls, because the assets offset each other more.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "Why does diversification reduce risk?",
+      "back": "Assets that do not move together cushion each other's losses. So the portfolio swings less than its parts.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "What is the difference between systematic and idiosyncratic risk?",
+      "back": "Systematic risk hits the whole market and cannot be diversified away. Idiosyncratic risk is specific to one asset and can be diversified away.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "Which type of risk does the CAPM say earns a reward?",
+      "back": "Only systematic risk, because idiosyncratic risk can be diversified away.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "What is the efficient frontier?",
+      "back": "The set of risky portfolios offering the highest expected return for each level of risk.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c10",
+      "front": "What is the formula for the Sharpe ratio?",
+      "back": "$(R_p - R_f)/\\sigma_p$. In words: the portfolio's return above the risk-free rate, divided by the portfolio's standard deviation.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What does the slope of the capital market line represent?",
+      "back": "The highest available Sharpe ratio, that of the tangency portfolio.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "According to the separation principle, what is the same for all investors and what differs?",
+      "back": "The best risky portfolio is the same for everyone. How much to put in it versus the risk-free asset depends on each investor's risk aversion (how much they dislike risk).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "What does a beta of 1.5 tell you?",
+      "back": "The asset tends to move about 1.5 times as much as the market. So it has more systematic risk than the market.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c14",
+      "front": "What is the CAPM formula?",
+      "back": "$E(R_i) = R_f + \\beta_i (E(R_m) - R_f)$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "What is an investment policy statement (IPS)?",
+      "back": "A written plan covering an investor's objectives, constraints, responsibilities and monitoring. It acts as a guide when emotions run high.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c16",
+      "front": "What is asset allocation?",
+      "back": "Deciding what share of the portfolio goes into each asset class, such as stocks, bonds and cash.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c17",
+      "front": "What is rebalancing and why do it?",
+      "back": "Trading to restore the target weights after market moves. It keeps the portfolio's risk in line with the plan.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c18",
+      "front": "What are System 1 and System 2 thinking?",
+      "back": "System 1 is fast, automatic intuition that can mislead. System 2 is slow, deliberate reflection that can correct it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "What does 'rational' mean in standard finance?",
+      "back": "Investors who prefer more wealth to less and make no thinking or emotional errors.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What are the main steps of the risk management process?",
+      "back": "Identify risks, measure them, find ways to manage them, and check the results once those ways are in place.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "cfa-ips-institutional:14:7",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 14–15",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=14",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:55:66",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 55–56",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=55",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "mit-ocw-15401-rec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "mit-ocw-15401-rec06:27:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 27–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=27",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    },
+    {
+      "id": "flatworld-individual-finance:397:360",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 397–398",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=397",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:11:9",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 11",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-ips-institutional:7:1",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "p. 7",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=7",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-ips-individual:7:1",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "p. 7",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=7",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-behavioral:16:13",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 16–18",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-behavioral:20:17",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 20–21",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=20",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-behavioral:22:20",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 22–23",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=22",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:155:154",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 155–157",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "cfa-ips-individual:1:0",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 1–7",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=1",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    }
+  ],
+  "costUsd": 0.27922040000000004
+}

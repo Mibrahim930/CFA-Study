@@ -1,0 +1,411 @@
+{
+  "topicId": "derivatives",
+  "generatedAt": "2026-10-12T18:03:04.593Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "A derivative is a contract whose value depends on something else. That something else is called the underlying. The underlying might be a share, a bond, a commodity such as copper, or an interest rate. Think of a bet or an insurance policy on a price. You do not own the thing itself. You own a contract whose payoff follows its price.\n\nThere are four main types. A forward is a private deal to buy or sell something later at a price fixed today. A futures contract is a forward that has been made standard, is traded on an exchange (an organised marketplace), and is settled every day. A swap is an agreement to trade streams of payments, for example fixed interest for floating interest (interest that changes over time). An option gives you the right, but not the duty, to buy (a call) or sell (a put) at a set price. Forwards, futures and swaps are called 'forward commitments', because both sides must go through with them. Options are called 'contingent claims', because the holder acts only if it pays.\n\nThe pricing ideas all rest on one rule: there is no free lunch. Two ways of getting the same result must cost the same. If they did not, traders could make a risk-free profit (called arbitrage) until prices corrected. You can also copy a derivative's payoff by combining the underlying with borrowing or lending. This copying is called replication. These ideas give us forward prices (today's price grown at the interest rate, adjusted for storage costs and benefits), swap rates, put-call parity and the one-period binomial option model.",
+  "whyItMatters": "Derivatives are worth 6–9% of the Level I exam, and the no-free-lunch logic is reused across later topics and levels. In a finance career, derivatives are everyday tools for protecting against risk and for taking market positions, so you need to understand their payoffs, prices and dangers.",
+  "prerequisites": [
+    "Compounding and present value: money grows by $(1+r)^T$ and is discounted (scaled back to today's value) by dividing by it. Think of a savings account: $100 at 5% becomes $105 in a year, so $105 a year from now is worth $100 today. Work through ten small examples by hand until it feels automatic.",
+    "Reading payoff graphs: a payoff graph shows your gain or loss for each possible final price. Sketch $\\max(0, S-K)$ (the larger of 0 and S minus K) for a few prices by hand. For example, take K = 50 and S = 40, 50, 60.",
+    "Basic algebra: rearranging equations such as $c + PV(K) = p + S$ to find one unknown letter. Practise by getting each letter alone on one side, one at a time.",
+    "Simple interest-rate language: a rate is the price of borrowing or lending money for a period. The 'risk-free rate' is the rate on a very safe loan, like a short-term government bill. Compare it to the best safe savings rate you can find.",
+    "Buying, selling and short-selling: 'long' means you own something, or you gain when its price rises. 'Short' means you gain when the price falls. Picture borrowing a friend's book, selling it, and buying a copy back later. Say 'long' or 'short' aloud for each example you meet."
+  ],
+  "studyTips": [
+    "Always ask first, 'What is the payoff at expiry?' Draw a small number line of final prices. Then work out what each position gains or loses at three prices.",
+    "Learn one master idea: two routes to the same payoff must cost the same. Then work out the forward price, put-call parity and the binomial price from it. Do not memorise them as separate formulas.",
+    "Try every formula with round numbers first, such as a $100 price, a 5% rate and one year. Check the answer makes sense before using real data.",
+    "Keep a one-page table of the four contract types. Note who pays what and when, whether each is OTC or exchange-traded, and how much counterparty risk it has. Review it often.",
+    "When a result seems backwards, ask who is long and who is short. Many mistakes come from swapping the two sides."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Derivative",
+      "definition": "A contract whose value comes from the value of something else, the underlying. It moves risk from one party to another.",
+      "example": "A contract that pays you $1 for each $1 that copper rises above $6,000 per tonne is a derivative of copper. You never touch any copper.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Underlying",
+      "definition": "The asset, rate or index that a derivative's value is based on.",
+      "example": "For an option on a share priced at $50, the share is the underlying. For a swap on interest rates, the underlying is an interest rate.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t3",
+      "term": "Long and short",
+      "definition": "The long side gains when the underlying price rises, like a buyer. The short side gains when the price falls, like a seller.",
+      "example": "You are long a forward to buy soybeans at $165. If the market price is $170 at the end, you gain $5 per ton. The short side loses $5.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Forward contract",
+      "definition": "A private agreement to buy or sell an asset on a future date at a price agreed today. The terms are tailor-made, and the deal is struck directly between two parties, not on an exchange. Normally no money changes hands until the contract ends (its maturity).",
+      "example": "A tofu maker agrees today to buy 1,000 tons of soybeans in 3 months at $165 per ton. Today's price for immediate delivery (the spot price) is $160.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t5",
+      "term": "Futures contract",
+      "definition": "A forward that has been made standard and is traded on an exchange. Gains and losses are settled every day. A clearing house (a body that stands between buyers and sellers) guarantees that each side pays.",
+      "example": "You are long 10 live-cattle contracts of 40,000 lb each. The price falls 0.20 cents per lb, so your account is debited $800 that day.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t6",
+      "term": "Over-the-counter (OTC) market",
+      "definition": "A market where two parties deal directly and tailor the terms, instead of trading through an exchange. Each side carries the risk that the other side fails to pay.",
+      "example": "A manufacturer and a swap dealer agree a custom 3-month copper forward by phone. No exchange is involved.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Margin and marking to market",
+      "definition": "Margin is a cash deposit held as protection against losses, like a security deposit on a rental. Marking to market means gains and losses are added to or taken from the account each day. This stops losses from piling up unseen.",
+      "example": "You put in $4,050 as initial margin on an oil futures contract. A bad day takes $1,000 from your account, leaving $3,050. If it falls below the minimum level of $3,000 (the maintenance level), you must top it up.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Swap",
+      "definition": "An agreement to exchange a series of cash payments on set dates. In a plain interest rate swap, one side pays a fixed rate and the other pays a floating rate. Both rates are applied to a notional amount, which is just a reference figure used to work out the payments.",
+      "example": "On a $1,000,000 notional, you pay 4% fixed ($40,000 a year) and receive floating. If floating is 5%, you receive $50,000 and net $10,000. The $1,000,000 never changes hands.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Option (call and put)",
+      "definition": "A contract giving the holder the right, but not the duty, to buy (call) or sell (put) the underlying at a set price called the strike price. The buyer pays a fee, called the premium, for this right. It works like paying a deposit to hold a price.",
+      "example": "You pay $3 for a call to buy a share at $50. If the share is at $60, you use the right and gain $10 before the $3 cost. If it is at $45, you let the option lapse and lose only the $3.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t10",
+      "term": "Exercise (strike) price and expiration",
+      "definition": "The strike price is the fixed price at which an option holder may buy or sell. The expiration date is when the option ends. European options can be used only on the expiration date. American options can be used at any time up to it.",
+      "example": "A 3-month European call with strike $50 can only be used on its expiry day. An American one can be used on any day in the 3 months.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t11",
+      "term": "Moneyness and intrinsic value",
+      "definition": "A call is in the money when the underlying price is above the strike. It is out of the money when the price is below the strike, and at the money when they are equal. Intrinsic value is what using the option would give you right now. It is never below zero. For a call it is $\\max(0, S-K)$.",
+      "example": "A call with strike $50 on a $58 share has intrinsic value $8. A put with strike $50 on the same share has intrinsic value $0.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t12",
+      "term": "Time value",
+      "definition": "The part of an option's premium above its intrinsic value. It reflects the chance that the option becomes more valuable before it expires. It shrinks to zero at expiration, like an unused ticket losing value as the event date nears.",
+      "example": "A call with $8 intrinsic value sells for $10. Its time value is $2.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Arbitrage",
+      "definition": "Making a risk-free profit with no net investment by taking advantage of two different prices for the same thing. The no-arbitrage principle says such chances cannot last. So positions with equal payoffs must cost the same.",
+      "example": "The fair forward price is $105, but a forward trades at $108. You sell the forward and buy the asset with borrowed money. You lock in a $3 profit.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t14",
+      "term": "Replication",
+      "definition": "Building the same payoff as a derivative from other things, such as the underlying plus risk-free borrowing or lending. Like copying a recipe with different ingredients, the result is the same. The derivative must be worth what its copy (the replicating portfolio) costs.",
+      "example": "Buy the asset with borrowed money. In a year you hold the asset and owe the loan. That mimics a forward purchase.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t15",
+      "term": "Cost of carry",
+      "definition": "The net cost of holding the underlying until the contract ends. It is the interest you give up, plus any storage costs, minus any benefits such as dividends (cash a company pays to its share owners) or convenience yield (the practical benefit of holding the real thing). It drives forward and futures prices.",
+      "example": "Gold costs $1,800 today and the risk-free rate is 5%. Storage cost is negligible. A one-year forward should be about $1,890.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Forward price (no-arbitrage)",
+      "definition": "The price fixed in a forward that makes its starting value zero. With no costs or benefits, $F_0 = S_0(1+r)^T$. Here $F_0$ is the forward price, $S_0$ is today's price, r is the interest rate and T is the time in years. Storage costs push the forward price up. Dividends or convenience yield push it down.",
+      "example": "Today's price is $100, r = 5%, T = 1 year. Then $F_0 = 100 \\times 1.05 = 105$, so the forward price is $105.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t17",
+      "term": "Put-call parity",
+      "definition": "A rule linking option prices. For European options with the same strike and expiry, a call plus the present value of the strike equals a put plus the underlying: $c + PV(K) = p + S$. Here c is the call price, p is the put price and PV(K) is the strike discounted to today. If the rule fails, arbitrage is possible.",
+      "example": "S = $100, K = $100, r = 5%, T = 1, call = $10. Then PV(K) = $95.24, so the put = 10 + 95.24 - 100 = $5.24.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "One-period binomial model",
+      "definition": "An option-pricing model in which the underlying can move to only one of two prices after one period. It values the option in one of two equivalent ways. One is the cost of a replicating portfolio made of the underlying plus borrowing or lending. The other is a discounted risk-neutral expected payoff, which is an average payoff worked out with special pricing probabilities and then scaled back to today.",
+      "example": "S = 100, up to 120 or down to 80, r = 5%, call strike 100. The payoffs are $20 and $0. The risk-neutral up-probability is (1.05 - 0.8)/0.4 = 0.625. So the call is 0.625 x 20 / 1.05 = $11.90.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t19",
+      "term": "Counterparty (credit) risk",
+      "definition": "The risk that the other party to a derivative fails to pay what it owes. It is larger in OTC contracts. Exchange-traded futures have very little credit risk because of the clearing house and margin.",
+      "example": "You are owed $500,000 on a copper forward, but the dealer goes bust. You lose that gain. A futures clearing house would have covered it.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What is a derivative?",
+      "back": "A contract whose value is derived from an underlying asset, rate or index. It moves risk between parties.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "What does it mean to be long a derivative?",
+      "back": "You gain when the underlying price rises, like a buyer. The short side gains when it falls.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "Name the four main derivative types.",
+      "back": "Forwards, futures, swaps and options.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "Which derivatives are forward commitments, and which are contingent claims?",
+      "back": "Forwards, futures and swaps are forward commitments, because both sides must go through with them. Options are contingent claims, because the holder may choose not to use the option.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c5",
+      "front": "What are the two main drawbacks of a forward versus a futures contract?",
+      "back": "Forwards are illiquid (hard to trade quickly) and carry counterparty risk. Futures are standardised, traded on an exchange, and guaranteed by a clearing house.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What is marking to market?",
+      "back": "Daily settlement of futures gains and losses through the margin account, so losses do not build up.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "Who pays the premium, and what does it buy?",
+      "back": "The option buyer pays the premium to the seller. It buys the right, not the duty, to buy (call) or sell (put) at the strike.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "Why are option payoffs asymmetric?",
+      "back": "The buyer's loss is capped at the premium while the gain can be large. The seller has the reverse: capped income and potentially large loss.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "What is the payoff of a long call at expiry?",
+      "back": "$\\max(0, S-K)$, where S is the underlying price and K is the strike. Profit is this minus the premium paid.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c10",
+      "front": "What is the payoff of a long put at expiry?",
+      "back": "$\\max(0, K-S)$.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c11",
+      "front": "What is arbitrage?",
+      "back": "A risk-free profit with no net investment, made from a mispriced pair of equivalent positions. In efficient markets it disappears fast.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c12",
+      "front": "What is the no-arbitrage forward price with no storage costs or benefits?",
+      "back": "$F_0 = S_0(1+r)^T$, today's price grown at the risk-free rate.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "How do storage costs and dividends affect the forward price?",
+      "back": "Storage costs raise it. Dividends and convenience yield lower it. The net cost of carry equals interest plus costs minus benefits.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What is the value of a forward at initiation?",
+      "back": "Zero. The forward price is set so that neither side pays anything upfront.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "How can an interest rate swap be viewed?",
+      "back": "As a series of forward contracts, or as a fixed-rate bond swapped for a floating-rate bond. The fixed rate is set so the swap starts at zero value.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c16",
+      "front": "State put-call parity.",
+      "back": "$c + PV(K) = p + S$ for European options with the same strike and expiry.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "Long put plus long underlying equals what, according to parity?",
+      "back": "A long call plus a risk-free bond paying K. This is also called a protective put.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "What happens to a call's value if volatility, time to expiry or the strike rises?",
+      "back": "Volatility up: call value up. Time up: call value up. Strike up: call value down. Puts rise with volatility and time, and rise with strike.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "How do higher interest rates affect call and put values?",
+      "back": "Higher rates raise call values and lower put values.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What does the binomial model use to value an option?",
+      "back": "A replicating portfolio of the underlying plus risk-free borrowing or lending, which must cost the same as the option. Equivalently, a discounted risk-neutral expected payoff.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "richmondfed-money-market-ch15:6:6",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 6–8",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond"
+    },
+    {
+      "id": "chicagofed-derivatives-1:1:0",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 1",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago"
+    },
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "chicagofed-derivatives-3:7:7",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 7–8",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=7",
+      "license": "© Federal Reserve Bank of Chicago"
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:4",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 4–5",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago"
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:24:25",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=24",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "richmondfed-money-market-ch14:22:26",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 22–23",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=22",
+      "license": "© Federal Reserve Bank of Richmond"
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:6:5",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 6–7",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=6",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "mit-ocw-18s096-risk-neutral:8:1",
+      "title": "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)",
+      "locator": "pp. 8–17",
+      "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)"
+    },
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "mit-ocw-15401-lec08:12:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 12–17",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "fed-trading-4000-p2:32:58",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 32–33",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=32",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "fed-trading-4000-p2:24:42",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 24",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=24",
+      "license": "Public domain (U.S. government work)"
+    },
+    {
+      "id": "richmondfed-money-market-ch16:21:21",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 21–22",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=21",
+      "license": "© Federal Reserve Bank of Richmond"
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:4:3",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 4–5",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=4",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "richmondfed-money-market-ch15:10:9",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 10–11",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=10",
+      "license": "© Federal Reserve Bank of Richmond"
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")"
+    },
+    {
+      "id": "richmondfed-money-market-ch15:13:12",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 13–14",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=13",
+      "license": "© Federal Reserve Bank of Richmond"
+    }
+  ],
+  "costUsd": 0.3281004
+}

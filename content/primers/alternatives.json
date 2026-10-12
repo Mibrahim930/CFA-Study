@@ -1,0 +1,426 @@
+{
+  "topicId": "alternatives",
+  "generatedAt": "2026-10-12T18:05:18.092Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Alternative investments are things you can invest in besides ordinary shares, bonds and cash. A share is a small ownership slice of a company. A bond is a loan that pays you interest. Alternatives include private companies, loans made outside public markets, buildings, land, forests, hedge funds and digital assets such as Bitcoin. Think of a normal portfolio (your whole collection of investments) as a supermarket shop. Alternatives are the specialty stalls. They are harder to buy, harder to price and often costlier, but sometimes useful.\n\nFour ideas run through the whole topic. First, many alternatives are illiquid. This means you cannot sell them quickly at a fair price, like a house compared with a bus ticket. Second, they are often held through private partnerships run by a manager. The manager charges fees and takes a share of the profits. Third, prices are hard to see. Values often come from an expert's opinion, not a live market. This makes returns look smoother and safer than they really are. Fourth, they are bought mainly to diversify. This means spreading money across things that do not all rise and fall together.\n\nThe modules apply these ideas to different assets. Private equity buys stakes in private companies. Private debt lends to them. Real estate, infrastructure and natural resources such as farmland and timber are physical assets. They can earn rent or crop income. Hedge funds are flexible, lightly regulated funds that use many strategies. Digital assets are a new category that relies on blockchain technology (a shared digital record book). The performance module teaches you to measure returns when prices are rare and cash moves in and out at irregular times.",
+  "whyItMatters": "Alternatives are worth 6–9% of the Level I exam. The ideas about fees, valuation and structure come back in later levels. In a finance career, big institutions such as pension funds hold a lot of alternatives, so you will meet them often.",
+  "prerequisites": [
+    "Percentages and simple returns: a return is the gain on money you invested. A rise from 100 to 110 is a 10% return. Practise by working out the percentage change in a few prices on a shopping receipt or savings statement.",
+    "Time value of money basics: a dollar today is worth more than a dollar next year, because you could earn interest on it. Learn it by comparing $100 saved now at 5% with $100 received in a year.",
+    "Average and spread (risk): the average return is the typical outcome. Volatility is how much results bounce around that average. Write down a month of daily temperatures, then note the average and the range.",
+    "Stocks versus bonds: a stock is a small ownership share in a company. A bond is a loan you make that pays interest. A 10-minute search on both terms is enough before you start.",
+    "Reading a simple fee: know the difference between a flat percentage of the money managed and a percentage of the profits. Calculate 2% of $1,000 and 20% of a $50 profit to get comfortable.",
+    "Basic correlation idea: two things are correlated if they tend to move together. Think of ice-cream sales and sunny days. To begin, you only need the idea of high, low and negative, not the formula."
+  ],
+  "studyTips": [
+    "Learn the structure first. For each asset, ask four questions. What is it? How is it held? How is it valued? How are fees charged?",
+    "Practise tiny numeric examples. Work out a carry on profit above a hurdle. Work out a simple IRR with $100 in and $110 out. Repeat until it feels easy.",
+    "Keep a comparison table. For each asset, note how easily it can be sold, how it is valued (market price versus appraisal), and how much income it pays.",
+    "Link every bias or quirk to its effect. Smoothing lowers measured risk. Survivorship bias raises measured returns. Say the direction aloud.",
+    "Use the flashcards in short daily sessions. Re-explain each key term in your own words, as if to a friend."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Alternative investment",
+      "definition": "An investment outside the traditional trio of listed shares, bonds and cash. 'Listed' means traded on a public exchange. Examples are private companies, real assets, hedge funds and digital assets. They are usually harder to sell, harder to value and costlier to hold.",
+      "example": "A pension fund puts 80% in shares and bonds and 20% in a private office building and a forest.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t2",
+      "term": "Illiquidity",
+      "definition": "How hard it is to sell something quickly at a fair price. An illiquid asset may take months to sell. Or it may force you to accept a lower price. Think of a house compared with a bus ticket.",
+      "example": "A share can be sold in seconds. A shopping mall may take a year to sell.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t3",
+      "term": "Diversification",
+      "definition": "Spreading money over different investments so one bad outcome does not sink you. It works best when the investments do not move together. It is the same as not putting all your eggs in one basket.",
+      "example": "Holding both a farm and a share portfolio, so a stock market fall does not hit everything.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Correlation",
+      "definition": "A number from -1 to +1 that shows how closely two investments move together. Near +1 means they move together. Near 0 means they mostly move independently. Lower correlation gives more diversification.",
+      "example": "If farmland returns have a correlation of 0.1 with shares, a fall in shares says little about farmland.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t5",
+      "term": "General partner (GP) and limited partner (LP)",
+      "definition": "A private fund is a pool of investors' money run by a manager. The GP is the manager who makes the investment decisions. The GP earns fees and a share of the profit. LPs are the investors who supply the money. They do not manage it, and they can lose only what they put in.",
+      "example": "A pension fund (LP) commits $10 million to a private fund. The firm running it (GP) chooses the deals.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t6",
+      "term": "Carried interest and hurdle rate",
+      "definition": "Carried interest (or 'carry') is the GP's share of the fund's profits. It works as a reward for good performance. A hurdle rate (also called a preferred return) is a minimum return the investors must receive first. Think of it as a bar the fund must clear. The GP earns carry only on profit above that hurdle.",
+      "example": "With an 8% hurdle, a fund earning 12% pays carry only on the part of profit above the 8% level.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t7",
+      "term": "Clawback",
+      "definition": "A clause that lets LPs get back performance fees already paid to the GP. It applies if later losses mean the GP was overpaid. It makes fees reflect the fund's full profit and loss over time.",
+      "example": "The GP earns $5 million of carry on an early win. A later loss wipes out profit, so part of the $5 million goes back to the LPs.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Internal rate of return (IRR)",
+      "definition": "The single yearly return rate that makes the present value of all cash put in and taken out equal zero. Present value means what future cash is worth today. Think of IRR as the savings-account rate that would give you the same result. It is the standard way to measure illiquid investments, where cash moves at irregular times. Its weakness is that it depends on the timing of the cash flows.",
+      "example": "You invest $100 and receive $110 one year later. The IRR is 10%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Venture capital",
+      "definition": "Money invested in young private companies with high growth potential and high risk. Funding often starts with friends, family or angel investors (wealthy individuals who back start-ups). It then moves through rounds to an IPO. An IPO is the first sale of a company's shares to the public.",
+      "example": "A fund puts $2 million into a two-year-old software start-up in the hope it later lists on the stock market.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t10",
+      "term": "Leveraged buyout (LBO)",
+      "definition": "Buying a company, often a listed one, and taking it private using a large share of borrowed money. The buyers aim to improve the firm and later sell it for more. 'Leverage' simply means using borrowed money. It is like buying a house with a big mortgage.",
+      "example": "A private equity firm buys a company for $100 million, using $70 million of loans and $30 million of its own money.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t11",
+      "term": "Private credit (private debt)",
+      "definition": "Loans made directly to companies by funds, rather than through public bond markets. Some funds are closed-end, with a fixed life. Others are evergreen. An evergreen fund takes in new investors and allows withdrawals from time to time.",
+      "example": "A fund lends $20 million directly to a mid-sized firm at a fixed interest rate.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t12",
+      "term": "Real assets",
+      "definition": "Physical or other economic resources used to create value. Examples are land, buildings, farms, forests and infrastructure. Their income and value often rise when prices in the economy rise. So they can help protect against inflation, which is the general rise in prices.",
+      "example": "A farm earning rent from crops, or a toll road collecting fees.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t13",
+      "term": "Infrastructure",
+      "definition": "Large, long-lived facilities that society relies on, such as toll roads, airports and pipelines. They often earn steady, predictable cash flows. This is a little like the regular interest paid on a safe bond.",
+      "example": "A toll road collects about $5 million in tolls every year with little change.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t14",
+      "term": "Real estate investment trust (REIT)",
+      "definition": "A company that owns property or property loans and often trades on a stock exchange. It lets many people own a slice of real estate. You can also sell it easily, unlike a building you buy outright.",
+      "example": "You buy $500 of REIT shares instead of buying a whole apartment block.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t15",
+      "term": "Appraisal and smoothing",
+      "definition": "An appraisal is an expert's estimate of what an asset is worth when it has not recently traded. Appraisals tend to change slowly. So returns look smoother than reality, and risk looks lower than it truly is. This is like a weather report that only updates once a quarter.",
+      "example": "A valuer lifts a building's value by only 1% each quarter even though the market has dropped 10%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Hedge fund",
+      "definition": "A privately offered investment fund that can use flexible methods. One is short selling, which is betting that a price will fall. Another is borrowing. Common types are macro, event-driven, relative-value and equity hedge funds. Many charge fees based on performance.",
+      "example": "A long-short equity fund buys shares it likes and sells short shares it expects to fall.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t17",
+      "term": "Survivorship bias and backfill bias",
+      "definition": "A bias is a built-in error that tilts results one way. Survivorship bias happens when a database drops failed funds. Past returns then look better than reality. Backfill bias happens when a fund adds its early good record only after it starts reporting. Both make hedge fund data look too good.",
+      "example": "If 100 funds started and 20 closed, averaging only the surviving 80 overstates typical returns.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "Distressed securities",
+      "definition": "Bonds or shares of a company that is bankrupt or likely to be. Prices can be low. But they are hard to trade and the outcome is uncertain. In bankruptcy, secured lenders are paid first. Shareholders are often wiped out.",
+      "example": "A fund buys a failing firm's bonds at 40 cents on the dollar, hoping to recover 60 cents.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t19",
+      "term": "Timberland and TIMO",
+      "definition": "Timberland is land used to grow trees for wood. A TIMO is a timber investment management organization. It runs the forest for the investors, who own the land. It charges a fee of roughly 1% of assets.",
+      "example": "An investor owns forest worth $100 million and pays the TIMO about $1 million a year to manage it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t20",
+      "term": "Digital asset and crypto-asset",
+      "definition": "A digital asset is a value or right recorded using distributed ledger technology. This is a record book shared across many computers. A crypto-asset is a private-sector digital asset that relies mainly on cryptography (secret-code security) and such a ledger. Examples are Bitcoin and Ethereum.",
+      "example": "Sending Bitcoin to a friend is recorded on a shared public ledger, not by a bank.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t21",
+      "term": "Blockchain and stablecoin",
+      "definition": "A blockchain is a shared digital record book. Transactions are grouped into blocks that are linked together. This makes tampering hard. A stablecoin is a crypto-asset designed to hold a steady value against something like a national currency.",
+      "example": "A stablecoin aims to stay worth $1 even when other crypto prices swing.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What is an alternative investment?",
+      "back": "An investment outside traditional listed shares, bonds and cash. Examples are private companies, real assets, hedge funds or digital assets.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c2",
+      "front": "What does illiquid mean?",
+      "back": "Hard to sell quickly at a fair price.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c3",
+      "front": "Why do investors add alternatives to a portfolio of shares and bonds?",
+      "back": "Mainly for diversification, since many alternatives have low correlation with shares. Some also offer inflation protection or extra return.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c4",
+      "front": "What is the difference between a GP and an LP?",
+      "back": "The GP manages the fund and earns fees and carry. LPs supply the money and do not manage it. Their liability is limited, so they can lose only what they put in.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c5",
+      "front": "What is carried interest?",
+      "back": "The GP's share of the fund's profits, paid as a performance reward.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What does a hurdle rate do?",
+      "back": "It sets a minimum return that investors must earn first. The GP earns carry only on profit above it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "What is a clawback clause?",
+      "back": "It lets LPs get back performance fees paid earlier. This applies if later losses mean the GP was overpaid.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "What does IRR measure?",
+      "back": "The yearly rate of return that sets the present value of all cash in and out to zero. It suits investments with irregular cash flows.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "Name a drawback of IRR for private funds.",
+      "back": "It depends on the timing of cash flows. It also assumes cash is reinvested at the same rate. It can look high even when the underlying return is poor.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c10",
+      "front": "What is a leveraged buyout?",
+      "back": "Buying a company, taking it private, and paying for it with a large share of borrowed money.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What is venture capital?",
+      "back": "Funding for young private companies with high growth potential and high risk.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c12",
+      "front": "How does an evergreen private credit fund differ from a closed-end one?",
+      "back": "An evergreen fund takes new investors and allows periodic redemptions (withdrawals). A closed-end fund has a fixed life with no ongoing flows in or out.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "Why do appraisal-based returns understate risk?",
+      "back": "Appraisals change slowly and lag the market. This smooths returns and lowers measured volatility and correlation.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "Does smoothing change the long-run average return much?",
+      "back": "No. It mainly lowers measured volatility and correlation, not the long-run average return.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "What are the three main real estate valuation approaches?",
+      "back": "The income (discounted cash flow) approach, the comparable sales approach, and a cost-based approach.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c16",
+      "front": "What is a REIT and why is it useful?",
+      "back": "A company that owns property or property loans and often trades like a stock. It gives easy, liquid access to real estate.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "Why is infrastructure income compared to a bond?",
+      "back": "A toll road or similar asset often produces predictable cash flows. These are like the coupons (regular interest payments) on a highly rated bond.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "What is survivorship bias in hedge fund data?",
+      "back": "Failed funds drop out of the data. The remaining funds then make past returns look better than they were.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "Name the four main hedge fund categories.",
+      "back": "Macro and managed futures, event-driven, relative-value, and equity hedge.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What is a stablecoin?",
+      "back": "A crypto-asset designed to keep a stable value relative to a national currency or other reference asset.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "cfa-rf-alt-primer:54:65",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 54–55",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=54",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-private-credit-2026:19:23",
+      "title": "Private Credit: Market Structure, Fund Design, and Retail Access (CFA Institute, 2026)",
+      "locator": "pp. 19–20",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rpc_private-credit_marketstructure-funddesign-andretailaccess_online.pdf#page=19",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:79:95",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 79–80",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=79",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:59:70",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 59",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=59",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:10:8",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 10",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=10",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:88:105",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 88",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=88",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:94:113",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 94",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=94",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-private-markets-growth:9:9",
+      "title": "Understanding the Growth of Private Markets (CFA Institute, 2026)",
+      "locator": "pp. 9–10",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/fti-macro_growth-of-private-markets_online.pdf#page=9",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:85:102",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 85–86",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=85",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:77:92",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 77",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=77",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:61:73",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 61",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=61",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:55:66",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 55–56",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=55",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:39:45",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 39–40",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=39",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:54:64",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 54",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=54",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-rf-alt-primer:35:39",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 35–36",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=35",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "nist-ir-8202:12:9",
+      "title": "Blockchain Technology Overview (NIST Interagency Report 8202)",
+      "locator": "p. 12",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf#page=12",
+      "license": "Public domain (U.S. government work, 17 U.S.C. 105; NIST publications are not subject to copyright in the United States)"
+    },
+    {
+      "id": "fsb-crypto-2022:29:34",
+      "title": "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)",
+      "locator": "p. 29",
+      "url": "https://www.fsb.org/wp-content/uploads/P160222.pdf#page=29",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)"
+    },
+    {
+      "id": "fsoc-digital-assets-2022:10:9",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "p. 10",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=10",
+      "license": "Public domain (U.S. government work)"
+    }
+  ],
+  "costUsd": 0.2999464
+}

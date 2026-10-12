@@ -1,0 +1,397 @@
+{
+  "topicId": "corpfin",
+  "generatedAt": "2026-10-12T17:54:20.875Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Corporate finance asks three plain questions about a company. Where does its money come from? What does it spend that money on? And who is the company run for? Think of a household budget that has many owners. Someone has to decide where the cash comes from, what to buy, and who gets a say.\n\nThe topic has four parts. First is how a business is set up legally: one owner (sole proprietorship), a group of owners (partnership), or a corporation, which is a company that counts as its own legal person. Second is the people with something at stake in the company: owners (shareholders), lenders, employees and customers. Their interests sometimes clash. Corporate governance is the set of rules and checks that keeps managers honest. Third is money decisions. Working capital is the short-term cash a company needs to run each day. Capital budgeting is how it chooses big, long-lasting projects, like building a new factory. Capital structure is the mix of borrowed money and owners' money that pays for the business. Fourth is the business model, which explains how the company actually makes money.\n\nThe parts fit together. Owners and managers want projects that earn more than the money used to fund them costs. The company must also be able to pay its bills on time. Good governance helps make sure managers pick projects that benefit the owners, not themselves.",
+  "whyItMatters": "Corporate finance is 6–9% of the Level I exam. Its ideas come back in equity, fixed income and financial statement analysis. These ideas are cost of capital (what funding costs a company), NPV (a test of whether a project is worth doing), liquidity (ability to pay bills) and governance. In a finance career, every company and every analyst asks these questions.",
+  "prerequisites": [
+    "Percentages and simple growth: know how to turn 6% into 0.06 and how to work out 6% of $1,000. Practise by calculating tips, discounts and savings-account interest for ten minutes a day.",
+    "Time value of money basics: a dollar today is worth more than a dollar next year, because you could earn interest on it. Practise by asking how much you must save today to have $1,100 in a year at 10%. The answer is $1,000.",
+    "Reading a simple balance sheet: it is a list of what a company owns (assets), what it owes (liabilities), and what is left over for the owners (equity). Draw one for your own finances, with your savings and car on one side and your loans on the other.",
+    "Ratios measured in days: divide a balance by the amount spent or earned per day to get a number of days. Practise with your own bills. If you spend $30 a day, a $300 balance lasts 10 days.",
+    "Everyday business words: owner, lender, supplier, customer, profit, tax. Practise by picking a local shop and listing who it owes money to, who owes money to it, and who owns it."
+  ],
+  "studyTips": [
+    "Do every calculation with small round numbers first, like a $1,000 project at 10%. Check that you understand the idea before using the exam's bigger figures.",
+    "Draw a timeline for cash conversion cycle and NPV questions. Mark when cash goes out and when it comes in. This makes the formulas feel obvious.",
+    "For governance, make a table of who wants what: shareholders, managers, lenders, employees. Then list the conflict and one fix for each pair.",
+    "Say the rules aloud each time: positive NPV means accept, a shorter cash cycle is better, and interest saves tax. Quick, repeated recall beats rereading.",
+    "Test your vocabulary daily with the flashcards. Explain each term to an imaginary friend in two short sentences."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Sole proprietorship",
+      "definition": "A business owned and run by one person. The law treats the owner and the business as the same. So the owner is personally responsible for all of the business's debts.",
+      "example": "A freelance photographer runs her studio under her own name. If the studio owes $20,000 that it cannot pay, her personal savings can be taken.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t2",
+      "term": "Partnership",
+      "definition": "A business owned by two or more people who share the profits. In the basic form, they also share personal responsibility for its debts.",
+      "example": "Three friends run a bakery and earn $90,000 in a year. Each reports $30,000 as personal income and pays tax on it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t3",
+      "term": "Corporation",
+      "definition": "A business that is its own legal person, separate from its owners. Owners hold shares (small slices of ownership). Their loss is limited to what they paid in. Shares can often be bought and sold easily.",
+      "example": "If you buy $500 of a company's shares and the company fails, you can lose at most that $500, not your house.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t4",
+      "term": "Limited liability",
+      "definition": "A rule that caps an owner's loss at the money they put in. People the business owes money to (creditors) cannot take the owner's personal belongings. Some mixed forms of business, such as an LLC (limited liability company), offer this too.",
+      "example": "You invest $10,000 in an LLC. The LLC goes bankrupt owing $2 million. You lose your $10,000, but your personal savings are safe.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t5",
+      "term": "Shareholder (owner) and residual claim",
+      "definition": "A shareholder owns a slice of the company. Shareholders have a residual claim. This means they are paid only after everyone else, such as lenders and suppliers, has been paid. They get what is left over.",
+      "example": "A firm's assets are worth $100 and it owes $70 to lenders. Shareholders have a claim to the leftover $30.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t6",
+      "term": "Stakeholder",
+      "definition": "Anyone affected by a company's decisions or with something at stake in it. This includes owners, lenders, employees, customers, suppliers and the community.",
+      "example": "A factory closure hurts the workers, local shops and the town, not only the shareholders.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Agency problem",
+      "definition": "A conflict that arises when managers (the agents) are hired to act for the owners (the principals) but put their own interests first. It is like hiring a house-sitter who throws parties in your home.",
+      "example": "A CEO uses company money for a lavish private jet. The owners lose value, and the CEO benefits.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Corporate governance",
+      "definition": "The system of rules, boards, incentives and checks that guides how a company is run. It keeps managers accountable to the owners and other stakeholders. Think of it as the rulebook and referees of a game.",
+      "example": "A board reviews monthly reports and can fire a CEO. The CEO's pay depends on long-term results. Both are governance tools.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t9",
+      "term": "Board of directors",
+      "definition": "A group elected by shareholders to watch over senior management, approve major decisions and protect shareholders' interests.",
+      "example": "The board meets every three months, reads a performance dashboard and questions the CEO about a budget overrun.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t10",
+      "term": "Working capital",
+      "definition": "The short-term money a company needs to run day to day. Net working capital is current assets minus current liabilities. Current assets are cash, stock for sale and money customers owe. Current liabilities are bills due soon.",
+      "example": "A shop has $15,000 cash, $30,000 stock and $20,000 owed by customers. It owes suppliers $25,000. Net working capital is 15,000 + 30,000 + 20,000 − 25,000 = $40,000.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t11",
+      "term": "Liquidity",
+      "definition": "How easily and quickly a company can pay its short-term bills. It does this with cash or with things that can quickly be turned into cash.",
+      "example": "A firm with $50,000 in the bank and $10,000 of bills due this month is liquid. A firm with its money tied up in a building is not.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t12",
+      "term": "Cash conversion cycle",
+      "definition": "The number of days between paying for materials and collecting cash from customers. It equals days to sell stock, plus days to collect from customers, minus days taken to pay suppliers. Shorter is usually better, because cash comes back sooner.",
+      "example": "Stock sits 20 days. Customers pay in 30 days. The firm pays suppliers in 15 days. The cycle is 20 + 30 − 15 = 35 days.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Capital budgeting",
+      "definition": "The process a company uses to judge big, long-lasting investments, such as a new factory. It picks the ones that add value. A project adds value when the cash it brings in is more than it costs.",
+      "example": "A bakery compares buying a new $8,000 oven, which cuts energy bills and raises output, against keeping the old one.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t14",
+      "term": "Net present value (NPV)",
+      "definition": "Today's value of a project's expected cash inflows, minus today's value of its costs. Future money is shrunk using a discount rate, which reflects that money later is worth less than money now. A positive NPV means the project adds value.",
+      "example": "A project costs $1,000 now and pays $1,200 in a year. At a 10% rate, the inflow is worth 1,200/1.10 = $1,090.91 today. NPV is about +$90.91.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t15",
+      "term": "Internal rate of return (IRR) and payback period",
+      "definition": "IRR is the rate at which a project's NPV is exactly zero, so the project just breaks even. Payback period is how long it takes to earn back the money invested.",
+      "example": "Spend $1,000 and get back $500 a year: the payback period is 2 years. Spend $1,000 and get $1,100 in a year: the IRR is 10%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Capital structure",
+      "definition": "The mix of debt and equity a company uses to pay for itself. Debt is borrowed money that must be repaid with interest. Equity is the owners' money.",
+      "example": "A firm funds a $100 million business with $40 million of loans and $60 million of owners' money. It is 40% debt and 60% equity.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t17",
+      "term": "Cost of capital (WACC)",
+      "definition": "The return a company must earn on its projects to satisfy the people who funded it. The weighted average cost of capital (WACC) blends the cost of debt and the cost of equity. Each is weighted by how much of it the company uses.",
+      "example": "Debt is 40% of funding and costs 5%. Equity is 60% and costs 10%. WACC is 0.40 × 5% + 0.60 × 10% = 8%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "After-tax cost of debt",
+      "definition": "What borrowing really costs once tax savings are counted. Interest is tax-deductible, which means it lowers the tax bill. So the cost is the lender's rate times (1 minus the tax rate): $r_d(1-T)$.",
+      "example": "A company borrows at 8% and has a 25% tax rate. The after-tax cost is 8% × (1 − 0.25) = 6%.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t19",
+      "term": "Business model",
+      "definition": "A description of how a company creates value for customers and earns money from it. It covers who the company serves, what it offers, how it charges and what it costs to deliver.",
+      "example": "A franchise owner pays an upfront fee plus a royalty of 3% to 12% of sales. In return, the owner gets to use a brand and its proven system.",
+      "badge": "model_only"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What is the biggest drawback of a sole proprietorship or basic partnership?",
+      "back": "Unlimited liability. Owners are personally responsible for the business's debts, and creditors can take personal assets.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "What does limited liability mean for an owner?",
+      "back": "The most they can lose is the amount they invested, not their personal belongings.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "Why can a corporation involve double taxation, while a sole proprietorship does not?",
+      "back": "A corporation's profits are taxed, and dividends (profit shares paid to owners) are taxed again. A sole proprietorship's profit is taxed once, on the owner's personal return.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c4",
+      "front": "What is a residual claim?",
+      "back": "The right to whatever is left after all other claims, such as lenders, have been paid. Shareholders hold it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c5",
+      "front": "Who are the principal and the agent in an agency problem?",
+      "back": "The principal is the owner (shareholder). The agent is the manager hired to act for the owner.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "Name two ways to reduce agency problems.",
+      "back": "Pay managers with incentives tied to long-term results, such as shares, and penalise poor or unethical behaviour. The threat of a takeover (another firm buying the company and replacing managers) also disciplines managers.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "What is a stakeholder?",
+      "back": "Any person or group affected by a company's decisions, such as owners, lenders, employees, customers and the community.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c8",
+      "front": "What is the main job of a board of directors?",
+      "back": "To oversee management on behalf of shareholders, using reports on performance and risk.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c9",
+      "front": "How is net working capital calculated?",
+      "back": "Current assets minus current liabilities.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "What is liquidity?",
+      "back": "How easily a company can pay its short-term bills using cash or assets that turn into cash quickly.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c11",
+      "front": "How is the cash conversion cycle calculated?",
+      "back": "Days of inventory (days stock sits before it sells) + days of receivables (days customers take to pay) − days of payables (days the firm takes to pay its suppliers).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "Is a shorter cash conversion cycle usually better or worse, and why?",
+      "back": "Better, because less cash is tied up in operations and cash comes back sooner.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "How does a conservative working capital strategy differ from an aggressive one?",
+      "back": "Conservative firms fund seasonal and long-term needs with long-term financing. Aggressive firms use short-term financing for seasonal needs, as needed.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What is the main goal of capital budgeting?",
+      "back": "To pick investments that increase company value. These are projects whose cash inflows exceed their costs.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "When should a company accept a project using NPV?",
+      "back": "When NPV is positive, because the project is worth more than it costs after discounting.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c16",
+      "front": "What does payback period measure, and what does it ignore?",
+      "back": "It measures how long it takes to recover the initial investment. Basic payback ignores the value of cash that arrives after payback and the time value of money.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c17",
+      "front": "What is capital structure?",
+      "back": "The mix of debt and equity a company uses to finance itself.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c18",
+      "front": "Why is the after-tax cost of debt lower than the lender's rate?",
+      "back": "Interest is tax-deductible, so borrowing saves tax. The cost is $r_d(1-T)$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "Which rate should a firm use to estimate its cost of debt: the old coupon rate or the current yield to maturity?",
+      "back": "The current yield to maturity, because it shows what lenders require today. The coupon (the fixed interest rate on a bond) was set under past conditions.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What is a business model?",
+      "back": "How a company creates value for customers and earns money. It includes the customers, the offering, pricing and costs.",
+      "badge": "model_only"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 0,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "os:principles-finance-2e:m00011:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.1 Business Structures — Hybrids: Limited Liability Corporations and Partnerships",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-1-business-structures",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-introduction-to-business:200:189",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 200–201",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=200",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:108",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — How to Resolve Agency Problems",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-finance-for-managers:280:191",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 280–283",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=280",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "flatworld-finance-for-managers:276:188",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 276–278",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=276",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "flatworld-finance-for-managers:283:192",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 283–284",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=283",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "libretexts-nwtc-capital-budgeting:1:2",
+      "title": "Capital Budgeting Concepts and Process (Business Finance Budgeting, NWTC; Business LibreTexts)",
+      "locator": "4.2: Capital Budgeting Concepts and Process - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Northeast_Wisconsin_Technical_College/Business_Finance_Budgeting_(NWTC)/04:_Capital_Budgeting/4.02:_Capital_Budgeting_Concepts_and_Process",
+      "license": "CC BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0 linked in the page footer)"
+    },
+    {
+      "id": "libretexts-nwtc-capital-budgeting:1:1",
+      "title": "Capital Budgeting Concepts and Process (Business Finance Budgeting, NWTC; Business LibreTexts)",
+      "locator": "4.2: Capital Budgeting Concepts and Process - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Northeast_Wisconsin_Technical_College/Business_Finance_Budgeting_(NWTC)/04:_Capital_Budgeting/4.02:_Capital_Budgeting_Concepts_and_Process",
+      "license": "CC BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0 linked in the page footer)"
+    },
+    {
+      "id": "flatworld-finance-for-managers:196:141",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 196–198",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=196",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — The Costs of Debt and Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Debt Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "flatworld-introduction-to-business:249:237",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 249–250",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=249",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)"
+    },
+    {
+      "id": "occ-corporate-risk-governance:29:41",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 29–31",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=29",
+      "license": "Public domain (U.S. government work)"
+    }
+  ],
+  "costUsd": 0.28232240000000003
+}

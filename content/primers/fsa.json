@@ -1,0 +1,398 @@
+{
+  "topicId": "fsa",
+  "generatedAt": "2026-10-12T17:56:17.029Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "Financial statement analysis means reading a company's reports and judging how healthy and honest they are. A company publishes three main reports. The income statement shows profit over a period of time. Think of a month of your pay minus your spending. The balance sheet is a snapshot on one date of what the company owns and what it owes. Think of your bank balance and your debts today. The cash flow statement tracks the actual cash that came in and went out.\n\nThe modules build on those three reports. First you learn the steps an analyst follows: set a purpose, collect data, process it, interpret it, report the conclusions, and follow up later. Then you study each report and its trickier items. These include inventory (goods held for sale), long-term assets (things like machines that last for years), debt, equity (the owners' share) and income taxes. In each of these, the company must make accounting choices, and those choices change the reported numbers. An analyst must spot the choices and adjust for them.\n\nThe last modules put the pieces together. Financial reporting quality asks whether the numbers can be trusted and are likely to repeat. Financial analysis techniques use ratios (one number divided by another) and common-size statements (every line shown as a percentage of one base number). These let you compare companies and years. Financial statement modeling uses past patterns to forecast the future. A good comparison is a doctor reading a patient's chart. The doctor gathers the facts, allows for oddities, compares with what is normal, and then gives an opinion.",
+  "whyItMatters": "This topic makes up 11-14% of the Level I exam, so it is one of the biggest blocks of marks. In finance jobs, from valuing shares to judging whether a borrower can repay, the first step is reading financial statements well.",
+  "prerequisites": [
+    "Percentages and ratios: practise turning a part and a whole into a percent, such as 30 out of 200 is 15%. Ten minutes a day with a calculator on shop receipts or bills is enough.",
+    "Reading a simple table: be able to compare two columns (this year versus last year) and work out the change. Practise with your own bank statement or phone bill.",
+    "Basic algebra: rearranging A = L + E and solving for one unknown number. Do five quick practice questions where you hide one number and find it.",
+    "Everyday money ideas: income (money coming in), expense (money going out), profit (what is left), loan and interest. If any feel shaky, use your own pay, spending and a loan you know, and write one sentence for each.",
+    "Vocabulary: asset (something owned), liability (something owed), equity (the owners' share), revenue (money earned from customers), expense (a cost). Write these on a card with your own example for each and test yourself before starting the modules."
+  ],
+  "studyTips": [
+    "Learn the three statements first and how they link. Net income feeds into equity on the balance sheet, and cash on the balance sheet matches the cash flow statement. Draw these links on one page.",
+    "Use a tiny made-up company with round numbers (sales 500, costs 300) and build all three statements by hand. Seeing one transaction show up in each statement makes the later modules click.",
+    "For each accounting choice (FIFO versus LIFO, the depreciation method, or counting a cost as an asset instead of an expense), ask three questions. What happens to profit, to assets and to cash? Write the answers in a small table.",
+    "Practise ratios daily with a calculator and say aloud what each one means in plain words. For example, 'a current ratio of 2 means 2 of assets for every 1 owed soon'.",
+    "Keep a separate list of IFRS versus US GAAP differences, such as LIFO being banned under IFRS. Review it weekly because the exam likes these contrasts."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Financial statements",
+      "definition": "The official reports a company publishes. They show how the company performed, what it owns and owes, and where its cash went. Investors, lenders, staff and suppliers all use them to make decisions.",
+      "example": "A bakery's year-end pack has an income statement, a balance sheet and a cash flow statement. A bank reads it before lending the bakery money.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t2",
+      "term": "Income statement",
+      "definition": "A report of a company's performance over a period of time, such as a quarter or a year. It starts with revenue (money earned from customers). It then subtracts expenses (the costs of running the business) and ends with profit.",
+      "example": "Revenue of 500 and expenses of 420 leave a profit of 80 for the year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t3",
+      "term": "Balance sheet (statement of financial position)",
+      "definition": "A snapshot, taken on one specific date, of what a company owns (assets), what it owes (liabilities) and what is left for the owners (equity).",
+      "example": "On 31 December a shop owns 300 of goods and cash and owes 100 to a bank. The owners' share is 200.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Asset",
+      "definition": "Something a company owns or controls that has value and should bring it a benefit in future. Examples are cash, stock for sale and machines.",
+      "example": "A delivery van worth 20,000 is an asset of a courier firm.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t5",
+      "term": "Liability",
+      "definition": "Something a company owes to others, such as a bank loan or a bill it has not yet paid.",
+      "example": "A firm that borrowed 50,000 from a bank has a 50,000 liability.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t6",
+      "term": "Equity",
+      "definition": "The owners' share of a company: assets minus liabilities. It is what would be left for the owners if everything were sold and all debts were repaid. The accounting equation is A = L + E (assets = liabilities + equity).",
+      "example": "Assets of 300 and liabilities of 100 give equity of 200. It is like the value of your home minus what you still owe on your mortgage.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t7",
+      "term": "Statement of cash flows",
+      "definition": "A report of the cash a company actually received and paid out in a period. It splits the cash into three groups: operating, investing and financing activities.",
+      "example": "A firm starts the year with 40 in cash and ends with 55. The statement explains the 15 gain.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Operating, investing and financing cash flows",
+      "definition": "Operating cash flow comes from the company's main business of selling goods or services. Investing cash flow comes from buying or selling long-lasting assets and investments. Financing cash flow comes from raising or repaying loans and owner money. It includes dividends, which are payments of profit to the owners.",
+      "example": "Cash from customers is operating. Buying a machine for 10,000 is investing. Repaying a 5,000 loan is financing.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t9",
+      "term": "Accrual accounting",
+      "definition": "A method that records revenue when it is earned and expenses when they are incurred (when the cost arises). It does not wait for cash to move. This is why profit and cash flow can differ.",
+      "example": "A gardener finishes a job in June worth 100, and the customer pays in July. The revenue is recorded in June.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t10",
+      "term": "Revenue recognition",
+      "definition": "The rule for when a company may record revenue. It is allowed once the company has delivered the goods or done the service it promised. It does not have to wait until it is paid.",
+      "example": "A 600 landscaping contract over six months gives 100 of revenue each month as the work is done, even if the customer pays only at the end.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t11",
+      "term": "Matching principle",
+      "definition": "An expense is recorded in the same period as the revenue it helped to earn.",
+      "example": "If a shop sells a coat in March, the cost of buying that coat is an expense in March, even if the shop bought it in January.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t12",
+      "term": "Depreciation and amortization",
+      "definition": "Both mean spreading the cost of a long-lasting asset over the years it is used, instead of charging it all at once. Depreciation is for physical assets like machines. Amortization is for assets with no physical form, like software or patents.",
+      "example": "A 10,000 machine that lasts five years is depreciated by 2,000 per year, found with 10,000/5.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Inventory and cost flow methods (FIFO, LIFO)",
+      "definition": "Inventory is the goods a company holds for sale. FIFO (first in, first out) assumes the oldest goods are sold first. LIFO (last in, first out) assumes the newest goods are sold first. IFRS, one set of international accounting rules, bans LIFO. US GAAP, the main US rule book, allows it.",
+      "example": "You buy one item at 10, then one at 12, and sell one. FIFO treats the cost of the sale as 10. LIFO treats it as 12, so profit is lower under LIFO.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t14",
+      "term": "Deferred tax",
+      "definition": "Tax that arises because the profit shown in the accounts and the profit the tax office counts fall in different periods. A deferred tax liability is tax a company expects to pay later on income it has already reported.",
+      "example": "A firm reports 1,000 of profit this year but pays tax on it next year. At a 20% tax rate, 200 of tax expense is recorded now. The unpaid 200 sits as a deferred tax liability.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t15",
+      "term": "Ratio",
+      "definition": "One financial number divided by another, used to compare firms and years. For example, a liquidity ratio checks whether a firm can pay the bills that are due soon.",
+      "example": "The current ratio is current assets (cash and things soon turned into cash) divided by current liabilities (bills due soon). 200 of assets against 100 of bills gives $200/100 = 2$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Common-size analysis",
+      "definition": "Showing every line of a statement as a percentage of one base number. The base is sales on the income statement and total assets on the balance sheet. This makes firms of different sizes easy to compare.",
+      "example": "If sales are 500 and cost of goods sold (what the goods sold cost the firm) is 300, then that cost is 60% of sales. This is $300/500 = 0.6$.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t17",
+      "term": "Earnings quality",
+      "definition": "How well reported profit shows real performance that can repeat and that turns into cash. High-quality earnings are reliable and likely to continue. Low-quality earnings are pumped up by one-off events or aggressive accounting.",
+      "example": "A firm's profit jumps because it sold a building once. That profit is low quality because it will not repeat.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t18",
+      "term": "Indirect method (cash flow)",
+      "definition": "A way to find operating cash flow. You start from net income (the final profit), remove items that involve no cash, and adjust for changes in working items like receivables (money customers still owe the firm).",
+      "example": "Net income is 100, but customers still owe 30 more than last year. Subtract 30, so operating cash flow is 70.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "What are the three main financial statements?",
+      "back": "The income statement, the balance sheet (statement of financial position) and the statement of cash flows.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "Does the income statement cover a period or a single date?",
+      "back": "A period, such as a quarter or a year.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "Does the balance sheet cover a period or a single date?",
+      "back": "A single date. It is a snapshot of assets, liabilities and equity.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "What is the accounting equation?",
+      "back": "Assets = Liabilities + Equity. What a company owns equals what it owes plus the owners' share.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c5",
+      "front": "What are the six steps of financial statement analysis?",
+      "back": "State the purpose, collect data, process data, analyze and interpret, communicate conclusions, then follow up and update.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What are the three sections of the cash flow statement?",
+      "back": "Operating, investing and financing.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "Where does paying a dividend to shareholders usually appear on the cash flow statement?",
+      "back": "Under financing activities. A dividend is a payment of profit to the owners.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c8",
+      "front": "Why can profit differ from cash flow?",
+      "back": "Accrual accounting records revenue and expenses when they are earned or incurred, not when cash moves.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c9",
+      "front": "When is revenue recognized?",
+      "back": "When the company has kept its promise to the customer, such as delivering the goods or doing the service.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "What does the matching principle say?",
+      "back": "Record an expense in the same period as the revenue it helped produce.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What is the difference between depreciation and amortization?",
+      "back": "Depreciation spreads the cost of physical assets over their lives. Amortization does the same for intangible assets (no physical form) like software or patents.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "Under the indirect method, what happens to operating cash flow when accounts receivable rise?",
+      "back": "Subtract the increase from net income. Accounts receivable is money customers still owe. Sales were recorded but the cash has not yet arrived.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "Which inventory method does IFRS prohibit?",
+      "back": "LIFO (last-in, first-out). US GAAP permits it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c15",
+      "front": "What is a temporary difference in tax?",
+      "back": "An item that counts in accounting profit and in taxable profit in different periods, so the gap reverses later.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c16",
+      "front": "What does a common-size income statement use as its base?",
+      "back": "Net sales, set to 100%. Every other line is shown as a percent of sales.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c17",
+      "front": "How do you calculate the current ratio, and what does it show?",
+      "back": "Current assets divided by current liabilities. It shows whether assets that turn into cash soon can cover the bills due soon.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "What does a higher debt-to-equity ratio usually signal?",
+      "back": "More financing comes from lenders compared with owners, so there is a higher risk of financial trouble.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c19",
+      "front": "Name one limitation of ratio analysis.",
+      "back": "Ratios use past data and can be affected by a firm's accounting choices and estimates, so they may mislead about the future.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c20",
+      "front": "What makes earnings high quality?",
+      "back": "They reflect current performance, help predict future performance, and are easily turned into cash.",
+      "badge": "model_only"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 1,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "strathmore-analyzing-financial-statements:8:1",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 8–14",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=8",
+      "license": "University course handout; no licence stated (private grounding only)"
+    },
+    {
+      "id": "strathmore-analyzing-financial-statements:1:0",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 1–8",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=1",
+      "license": "University course handout; no licence stated (private grounding only)"
+    },
+    {
+      "id": "os:principles-financial-accounting:m67843:8.1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§3.1 Describe Principles, Assumptions, and Concepts of Accounting and Their Relationship to Financial Statements — Multiple Choice",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/3-1-describe-principles-assumptions-and-concepts-of-accounting-a",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "os:principles-financial-accounting:m67881:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.1 Explain the Revenue Recognition Principle and How It Relates to Current and Future Sales and Purchase Transactions — Accounting Principles and Assumptions Regulating Revenue Recognition",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-1-explain-the-revenue-recognition-principle-and-how-it-relates",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:346:275",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "p. 346",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=346",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)"
+    },
+    {
+      "id": "flatworld-business-accounting:1046:914",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1046–1047",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1046",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")"
+    },
+    {
+      "id": "lyryx-ifa-vol2:339:337",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 339–340",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=339",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")"
+    },
+    {
+      "id": "lyryx-ifa-vol2:445:443",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 445–446",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=445",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")"
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:529:434",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 529–530",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=529",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)"
+    },
+    {
+      "id": "strathmore-analyzing-financial-statements:52:9",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 52–58",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=52",
+      "license": "University course handout; no licence stated (private grounding only)"
+    },
+    {
+      "id": "ey-us-gaap-vs-ifrs-2026:16:21",
+      "title": "US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY)",
+      "locator": "p. 16",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf#page=16",
+      "license": "© EY; free public PDF on ey.com, all rights reserved (private grounding only)"
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:578:478",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 578–579",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=578",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "lyryx-ifa-vol2:154:149",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 154–156",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=154",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")"
+    },
+    {
+      "id": "lyryx-ifa-vol2:172:169",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 172–173",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=172",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")"
+    },
+    {
+      "id": "cfa-rf-earnings-quality:10:7",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 10–11",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=10",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "os:principles-finance-2e:m00040:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.1 Ratios: Condensing Information into Smaller Pieces — Limitation of Financial Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-1-ratios-condensing-information-into-smaller-pieces",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "strathmore-analyzing-financial-statements:37:6",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 37–43",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=37",
+      "license": "University course handout; no licence stated (private grounding only)"
+    }
+  ],
+  "costUsd": 0.3126484
+}

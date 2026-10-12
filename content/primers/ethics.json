@@ -1,0 +1,345 @@
+{
+  "topicId": "ethics",
+  "generatedAt": "2026-10-12T18:09:09.688Z",
+  "model": "claude-sonnet-5-5",
+  "overview": "This topic is about how people who handle other people's money should behave. An investment professional manages money or gives investment advice for others. Those others are called clients. Ethics means choosing the right thing to do, even when no rule forces you. Think of a doctor. You trust them with your health. In the same way, clients trust investment professionals with their savings. Markets only work if that trust holds.\n\nThe CFA Institute is the global body behind the CFA exams. It turns these ideas into a Code of Ethics and seven Standards of Professional Conduct. The Code is a short list of big principles, such as putting clients first. The Standards are practical rules that show what those principles look like at work. Following the law alone is not enough. The law sets the minimum, like a floor. Ethics asks you to stand higher than that floor. The Standards also cover cases where the law says little or nothing.\n\nThe seven Standards are: I Professionalism, II Integrity of Capital Markets, III Duties to Clients, IV Duties to Employers, V Investment Analysis, Recommendations, and Actions, VI Conflicts of Interest, and VII Responsibilities as a CFA Institute Member or CFA Candidate. Capital markets are the places where shares and bonds are bought and sold. Most exam questions give a short story. You decide which Standard is involved, whether it was broken, and what the person should do. Learn the main idea behind each Standard first. Then practise on cases.",
+  "whyItMatters": "Ethics is 10-15% of the Level I exam, and the case questions reward careful reading and practice. In a finance career, trust is your most valuable asset, and one serious breach of it can end your career.",
+  "prerequisites": [
+    "Everyday money words: client, fee, commission, bonus, gift. To pick them up, spend ten minutes reading a bank or broker fee page. Note who pays whom, and why.",
+    "The basic idea of a share and a bond. A share is a small piece of ownership in a company. A bond is a loan to a company or government that pays interest. A short beginner video on each is enough for now.",
+    "Reading a short story carefully. Ethics questions often hinge on small details, such as who knew what, and when. Practise by summing up each case in one sentence: who did what, and who could be harmed.",
+    "Telling law apart from ethics. Write down one thing that is legal but unfair, such as a shop hiding a fee in tiny print. This shows why ethics asks for more than the law.",
+    "Comfort with plain-English rules. The Standards use words like reasonable and prudent (meaning careful and sensible). Say each rule aloud in your own words, as if explaining it to a friend."
+  ],
+  "studyTips": [
+    "Learn each Standard as one plain-English sentence, for example 'III(B): treat all clients fairly.' Then add one everyday example of someone breaking it.",
+    "Practise cases with the same routine each time. Ask: who is the client, which duty applies, what did the person do, and what should they have done?",
+    "Watch the small words in the rules, such as 'knowingly', 'material' and 'reasonable'. They often decide whether a Standard was broken.",
+    "Group the Standards by who is owed the duty: markets (II), clients (III, V), employer (IV), and everyone (I, VI, VII). This helps you pick the right Standard quickly.",
+    "Do case questions regularly instead of just reading. Explain your reasoning aloud. For each wrong answer, find out which principle you missed."
+  ],
+  "terms": [
+    {
+      "id": "t1",
+      "term": "Investment professional",
+      "definition": "A person who is paid to manage money or give investment advice to others. Analysts, portfolio managers and advisers are examples. An analyst studies companies. A portfolio manager looks after a collection of investments.",
+      "example": "An adviser who picks shares for a retired couple's savings is an investment professional.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t2",
+      "term": "Client",
+      "definition": "A person or organisation whose money you manage or whom you advise. Under the Code, the client's interests come first.",
+      "example": "A teacher who pays a firm to invest her $50,000 pension pot is its client.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t3",
+      "term": "Ethics",
+      "definition": "Ideas about what is morally right. Ethical conduct goes beyond what the law strictly requires.",
+      "example": "The law does not force you to mention a hidden fee. Telling the client about it anyway is ethical conduct.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t4",
+      "term": "Code of Ethics",
+      "definition": "A short list of big principles that CFA members and candidates must follow. It includes acting with integrity (being honest and doing right), putting clients first and keeping markets fair. Think of it as the mission statement.",
+      "example": "One principle says to place the interests of clients above your own and your employer's.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t5",
+      "term": "Standards of Professional Conduct",
+      "definition": "Seven practical rules of behaviour that members and candidates must follow. Each Standard is split into lettered parts. Think of them as the detailed rulebook behind the Code's mission statement.",
+      "example": "Standard III(C) Suitability says advice must fit the client's needs. This is a working rule, not just an ideal.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t6",
+      "term": "Duty of loyalty",
+      "definition": "The duty to act for your client's benefit. You put the client's interests ahead of your employer's and your own. It is the core of Standard III(A).",
+      "example": "Your firm earns more from Fund A, but Fund B is better for your client. You recommend Fund B.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t7",
+      "term": "Independence and objectivity",
+      "definition": "Giving advice based on facts and sound judgment, free from outside pressure or favours. Objectivity means not letting personal gain bend your view. You must not offer, ask for or accept gifts that could reasonably compromise this.",
+      "example": "A company you cover offers you a luxury holiday. Accepting could make your next report less honest, so you decline.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t8",
+      "term": "Misrepresentation",
+      "definition": "Knowingly giving false or misleading statements about your analysis, your recommendations or your professional activities. Standard I(C) bans it.",
+      "example": "Copying another firm's report and presenting it as your own research is misrepresentation.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t9",
+      "term": "Material nonpublic information (MNPI)",
+      "definition": "Information the public does not have, and that could move an investment's price or affect an investor's decision. 'Material' means important enough to matter to a decision. 'Nonpublic' means not yet shared with investors in general. If you hold it, you must not trade on it. You must not get others to trade on it either.",
+      "example": "You learn in confidence that a company will announce a takeover next week. Buying its shares today would break Standard II(A).",
+      "badge": "model_only"
+    },
+    {
+      "id": "t10",
+      "term": "Mosaic theory",
+      "definition": "Think of a jigsaw puzzle. An analyst may combine public information with small, non-material private details to reach a conclusion. Each piece alone does not matter much. The analyst may act on the conclusion. This is allowed even if the same conclusion would have been material had the company told it to them directly.",
+      "example": "An analyst visits stores, reads reports and chats to retailers. She concludes a company's profit will fall and issues a sell call. This is allowed.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t12",
+      "term": "Conflict of interest",
+      "definition": "A situation where your own interests, or your employer's, could cloud your judgment or clash with what you owe a client. Under Standard VI(A) you must avoid it. If you cannot, you must disclose it, which means telling people about it fully and fairly in plain language.",
+      "example": "You recommend a company whose shares you also own. You tell the client about your holding.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t13",
+      "term": "Fair dealing",
+      "definition": "Treating all clients fairly and objectively when giving advice or trading. It does not mean identical treatment for everyone. It means no client is unfairly favoured.",
+      "example": "You change a recommendation. You send it to every client at the same time, not only your biggest one.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t14",
+      "term": "Suitability",
+      "definition": "Making sure advice and investments fit the client's goals, needs and circumstances. It must also fit how much risk the client can accept. This is Standard III(C). Think of a tailor: the suit must fit the person.",
+      "example": "A 70-year-old who needs steady income should not be put wholly into a risky start-up company.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t15",
+      "term": "Confidentiality",
+      "definition": "Keeping client information private. There are limited exceptions, such as when the law requires you to share it. This is Standard III(E).",
+      "example": "You do not tell a friend how much money a client has. You must still cooperate with a CFA Institute investigation unless the law prevents it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t16",
+      "term": "Reasonable basis (diligence)",
+      "definition": "Having solid research and thinking behind any recommendation or action. Diligence means doing your homework. This is Standard V(A).",
+      "example": "Before recommending a firm's shares, you read its financial statements and check your numbers. You do not just repeat a rumour.",
+      "badge": "model_only"
+    },
+    {
+      "id": "t17",
+      "term": "Responsibilities of supervisors",
+      "definition": "If you oversee other people, you must make reasonable efforts to prevent and catch rule-breaking. The usual tool is written compliance procedures, which are written rules for following the law and the Standards. They must be followed and reviewed. This is Standard IV(C).",
+      "example": "A team head sets written trading rules and checks them every quarter. She does not simply assume everyone follows the rules.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "t18",
+      "term": "Professional Conduct program",
+      "definition": "The CFA Institute process that investigates and enforces the Code and Standards. Its staff investigate. A panel of the Disciplinary Review Committee decides contested cases, meaning cases where the member disagrees, and sets sanctions, which are penalties.",
+      "example": "A written complaint about a member is sent in. Staff investigate and may close the case, send a cautionary letter, or pursue discipline.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "front": "Why is following the law not enough to be ethical?",
+      "back": "Laws do not cover all unethical behaviour, and enforcement is limited. Ethics asks for the morally right action, not just the legal minimum.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c2",
+      "front": "Whose interests come first under the Code of Ethics?",
+      "back": "The client's. They come ahead of your own and your employer's interests.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c3",
+      "front": "What is the difference between the Code and the Standards?",
+      "back": "The Code holds big principles you aim for. The Standards are practical rules of conduct you must follow.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c4",
+      "front": "Who must follow the Code and Standards?",
+      "back": "All CFA Institute members, including charterholders (people who have earned the CFA designation), and all CFA Program candidates (people sitting the exams).",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c6",
+      "front": "What are the five parts of Standard I?",
+      "back": "Knowledge of the Law, Independence and Objectivity, Misrepresentation, Misconduct and Competence.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c7",
+      "front": "If the law and the Code differ, which should you follow?",
+      "back": "Follow the stricter one. That is the one that gives more protection to clients and markets.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c8",
+      "front": "What must you do if you hold material nonpublic information?",
+      "back": "Do not trade on it. Do not cause others to trade on it either.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c9",
+      "front": "Is a conference call with a room full of analysts enough to make information public?",
+      "back": "No. Information stays nonpublic until it is available to investors in general.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c10",
+      "front": "What does the mosaic theory allow?",
+      "back": "Acting on a conclusion built from public information plus small, non-material private pieces. This holds even if the conclusion would have been material had it been given to you directly.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c11",
+      "front": "What is market manipulation?",
+      "back": "Distorting prices or inflating trading volume in order to mislead other people in the market.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c12",
+      "front": "What does Standard VI(A) require about conflicts?",
+      "back": "Avoid them, or disclose them fully and fairly. The disclosure must be prominent, in plain language and effective.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c13",
+      "front": "Is avoiding a conflict preferred to disclosing it?",
+      "back": "Yes. Avoid it whenever reasonably possible. Disclose it clearly and completely when avoiding it is not reasonable.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c14",
+      "front": "What does Standard III(C) Suitability require?",
+      "back": "Your advice and actions must fit the client's needs, goals and circumstances.",
+      "badge": "model_only"
+    },
+    {
+      "id": "c15",
+      "front": "Can you ever share confidential client information?",
+      "back": "Only in limited cases that the law allows or requires. For example, you must cooperate with a CFA Institute investigation unless the law prevents it.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c16",
+      "front": "What is Standard V(A) about?",
+      "back": "Diligence and reasonable basis. Your recommendations and actions need research and thinking that you can justify.",
+      "badge": "grounded_verified"
+    },
+    {
+      "id": "c18",
+      "front": "How should you refer to the CFA designation or candidacy?",
+      "back": "Factually. Do not exaggerate it. Do not promise skill or investment results because of it.",
+      "badge": "grounded_verified"
+    }
+  ],
+  "dropped": {
+    "copyOrIfrs18": 3,
+    "confirmedErrors": 0
+  },
+  "sources": [
+    {
+      "id": "cfa-sop-handbook-12:17:13",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 17",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=17",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:19:16",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 19–20",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=19",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:6:1",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 6–7",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=6",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:11:7",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 11–12",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:11:6",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 11",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:125:146",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 125–126",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=125",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-code-ethics-page:1:0",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:79:90",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 79–80",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=79",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:73:82",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 73–74",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=73",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-code-ethics-page:1:1",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:146:171",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 146",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=146",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:21:18",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 21–22",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=21",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:202:239",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 202–204",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=202",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    },
+    {
+      "id": "cfa-sop-handbook-12:157:185",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 157",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=157",
+      "license": "© CFA Institute. All rights reserved (free public PDF)"
+    }
+  ],
+  "costUsd": 0.2524464
+}
