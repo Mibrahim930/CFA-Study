@@ -29,7 +29,7 @@ Next.js 16.4 (cacheComponents) + Tailwind 4, on Windows at `C:\Users\ibrah\CFA-S
 | Mock | `/mock`, `components/mock-exam.tsx` | 10/30/90 questions at 1.5 min each, flag, navigator, results by topic |
 | Resources | `/resources`, `lib/resources.ts` | Link-out only, with a trial tracker |
 | Phone | `components/bottom-nav.tsx`, `app/manifest.ts`, `app/icon.svg` | Bottom nav, installable PWA |
-| Deploy | `proxy.ts`, `docs/DEPLOY.md` | Basic-auth gate when `APP_PASSWORD` is set. **The user hasn't deployed yet** |
+| Deploy | `proxy.ts`, `docs/DEPLOY.md` | **Live on Railway: https://cfa-study.up.railway.app** (since 2026-10-13), auto-deploys from `main`. Basic-auth gate via `APP_PASSWORD`; fails closed (503) on a host if it's unset |
 | Storage | `lib/store/*` (localStorage) | Per device; Supabase sync not built |
 
 Rules learned this session:
