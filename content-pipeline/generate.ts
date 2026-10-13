@@ -11,6 +11,7 @@ import { parseArgs } from "node:util";
 import { callStructured, DEFAULT_MODEL, loadEnv, monthlyBudgetUsd, monthSpendUsd } from "./lib/claude";
 import { calcCatalog, findLos, losForTopic, retrieve, type LosContext } from "./lib/context";
 import { GenerationSchema, type GeneratedFile } from "./lib/schema";
+import { SOURCE_GAPS } from "../lib/syllabus/source-gaps";
 
 export const GENERATOR_SYSTEM = `You write study material for "L1 Study", a private app for one beginner preparing for the CFA® Level I exam (2027 curriculum). The student has a bachelor's degree but no finance or accounting background, studies 10–15 hours a week, and needs material that is correct above all else.
 
@@ -137,6 +138,7 @@ async function main() {
       console.log(`skip ${ctx.los.id} (exists; --force to regenerate)`);
       continue;
     }
+    if (SOURCE_GAPS[ctx.los.id]) console.warn(`note ${ctx.los.id}: no free source covers it well; expect model-only items (lib/syllabus/source-gaps.ts)`);
     const started = Date.now();
     const file = await generateOne(ctx, values.model);
     mkdirSync(dirname(out), { recursive: true });

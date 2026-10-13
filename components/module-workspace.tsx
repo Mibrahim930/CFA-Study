@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import type { Lecture } from "@/lib/content/videos";
+import { SOURCE_GAPS } from "@/lib/syllabus/source-gaps";
 import type { Los } from "@/lib/syllabus/types";
 import { newId, useModuleState } from "@/lib/store/local";
 import { formatTime, parseYouTubeId } from "@/lib/youtube";
@@ -243,10 +244,21 @@ export function ModuleChecklist({ slug, los }: { slug: string; los: Los[] }) {
                   update((s) => ({ ...s, losDone: e.target.checked ? [...s.losDone, l.id] : s.losDone.filter((x) => x !== l.id) }))
                 }
               />
-              <a href={`#${l.id}`} className={`hover:text-accent ${losDone.has(l.id) ? "text-muted line-through" : ""}`}>
-                <span className="mr-1 font-semibold tabular-nums">{i + 1}.</span>
-                {l.text}
-              </a>
+              <div className="min-w-0 space-y-1.5">
+                <a href={`#${l.id}`} className={`hover:text-accent ${losDone.has(l.id) ? "text-muted line-through" : ""}`}>
+                  <span className="mr-1 font-semibold tabular-nums">{i + 1}.</span>
+                  {l.text}
+                </a>
+                {SOURCE_GAPS[l.id] && (
+                  <div className="space-y-1 rounded-lg border-l-4 border-warn bg-warn/8 p-2.5 text-xs leading-5">
+                    <p>
+                      <strong className="text-warn">Use the official reading for this one. </strong>
+                      {SOURCE_GAPS[l.id].note}
+                    </p>
+                    <p className="text-muted">Make sure you cover: {SOURCE_GAPS[l.id].lookFor.join(" · ")}.</p>
+                  </div>
+                )}
+              </div>
             </li>
           ))}
         </ol>

@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { daysSinceBackup } from "@/lib/store/backup";
 import { useDoneMap } from "@/lib/store/local";
+import { useLastBackup } from "./backup-panel";
 import { dueIds, useNow, useReviewState } from "@/lib/store/review";
 
 export interface TodayModule {
@@ -21,6 +23,11 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
   const missedDue = due.filter((id) => review[id].kind === "missed").length;
   const next = modules.find((m) => !done[m.slug] && m.hasLessons) ?? modules.find((m) => !done[m.slug]);
   const finished = modules.filter((m) => done[m.slug]).length;
+  // Remind once there's something worth losing and no backup in the last week.
+  const now = useNow();
+  const lastBackup = useLastBackup();
+  const backupDays = now === null || lastBackup === undefined ? undefined : daysSinceBackup(lastBackup, now);
+  const backupDue = backupDays !== undefined && (finished > 0 || Object.keys(review).length > 0) && (backupDays === null || backupDays >= 7);
 
   const readiness = topics.map((t) => {
     const ms = modules.filter((m) => m.topicId === t.id);
@@ -78,6 +85,15 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
         </section>
 
         <aside className="min-w-0 flex-[1_1_300px] space-y-5">
+          {backupDue && (
+            <Link href="/backup" className="block space-y-1 rounded-2xl border-l-4 border-warn bg-surface p-5 hover:bg-surface-2">
+              <span className="block font-bold">Back up your progress</span>
+              <span className="block text-sm text-muted">
+                {backupDays === null ? "You haven't made a backup on this device yet." : `Your last backup was ${backupDays} days ago.`} Clearing your browser would
+                erase your progress.
+              </span>
+            </Link>
+          )}
           <div className="space-y-3 rounded-2xl border border-line bg-surface p-5">
             <div className="flex items-baseline justify-between">
               <h3 className="font-bold">Cards due</h3>

@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import type { DeckItem } from "@/lib/content/deck";
+import { saveMock, updateMock, useMockSession, type MockSession } from "@/lib/store/mock";
 import { markMissed } from "@/lib/store/review";
 import { InlineRich, RichText } from "./rich-text";
 
@@ -11,6 +12,7 @@ const SECONDS_PER_QUESTION = 90;
 const SIZES = [10, 30, 90];
 
 type Q = DeckItem & { id: string; options: string[]; answer: number };
+type Filter = "all" | "incorrect" | "flagged" | "unanswered";
 
 /** Seconds clock, browser-only (null while prerendering). */
 function useClock(): number | null {
@@ -26,39 +28,55 @@ function useClock(): number | null {
 
 const fmt = (s: number) => `${Math.floor(s / 3600)}:${String(Math.floor((s % 3600) / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
+/** Current time in unix seconds (event handlers only; render reads useClock). */
+const nowSeconds = () => Math.floor(Date.now() / 1000);
+
+/** Ends the exam once: missed and unanswered questions go to the review deck. */
+function finish(s: MockSession, byId: Record<string, Q>, at: number) {
+  for (const id of s.ids) if (byId[id] && s.answers[id] !== byId[id].answer) markMissed(id);
+  saveMock({ ...s, finished: true, finishedAt: at });
+}
+
 export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>; topicNames: Record<string, string> }) {
   const pool: Q[] = Object.entries(deck)
     .filter(([, d]) => d.options && d.answer !== undefined)
     .map(([id, d]) => ({ ...d, id, options: d.options!, answer: d.answer! }));
-  const [qs, setQs] = useState<Q[] | null>(null);
-  const [startedAt, setStartedAt] = useState(0);
-  const [i, setI] = useState(0);
-  const [answers, setAnswers] = useState<Record<string, number>>({});
-  const [flags, setFlags] = useState<Record<string, boolean>>({});
-  const [finished, setFinished] = useState(false);
+  const byId = Object.fromEntries(pool.map((q) => [q.id, q]));
+  const session = useMockSession();
+  const now = useClock();
   // Submitting ends the exam and can't be undone, so it takes a second, explicit tap.
   const [confirming, setConfirming] = useState(false);
-  const now = useClock();
+  const [filter, setFilter] = useState<Filter>("all");
 
-  const start = (n: number) => {
-    const shuffled = [...pool].sort(() => Math.random() - 0.5).slice(0, n);
-    setQs(shuffled);
-    setStartedAt(Math.floor(Date.now() / 1000));
-    setI(0);
-    setAnswers({});
-    setFlags({});
-    setFinished(false);
+  // Questions removed from the app since the exam started are skipped.
+  const qs = session ? session.ids.map((id) => byId[id]).filter(Boolean) : [];
+  const limit = qs.length * SECONDS_PER_QUESTION;
+  const elapsed = session && now !== null ? (session.finishedAt ?? now) - session.startedAt : 0;
+  const left = Math.max(0, limit - elapsed);
+  const timedOut = !!session && !session.finished && now !== null && left === 0;
+
+  // The clock ran out (possibly while the page was closed): finish the exam as the real one would.
+  useEffect(() => {
+    if (timedOut && session && now !== null) finish(session, byId, session.startedAt + limit);
+  });
+
+  const start = (questions: Q[]) => {
     setConfirming(false);
+    setFilter("all");
+    saveMock({ ids: questions.map((q) => q.id), startedAt: nowSeconds(), i: 0, answers: {}, flags: {}, finished: false });
   };
+  const startRandom = (n: number) => start([...pool].sort(() => Math.random() - 0.5).slice(0, n));
 
-  if (!qs) {
+  if (session === undefined) return <p className="text-center text-muted">Loading…</p>;
+
+  if (!session || qs.length === 0) {
     const topics = new Set(pool.map((q) => q.topicId));
     return (
       <div className="mx-auto max-w-2xl space-y-5 rounded-2xl border border-line bg-surface p-8">
         <h2 className="text-xl font-extrabold">Start a timed practice exam</h2>
         <p className="text-muted">
           {pool.length} verified questions available from {topics.size} topic{topics.size === 1 ? "" : "s"}. Pace is the real exam&apos;s: 1.5 minutes
-          per question. Once more topics are generated, full mocks follow the official topic weights.
+          per question. Your exam is saved as you go, and the clock keeps running if you leave, as it would on exam day.
         </p>
         <div className="flex flex-wrap gap-3">
           {SIZES.map((n) => (
@@ -66,7 +84,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
               key={n}
               type="button"
               disabled={pool.length === 0}
-              onClick={() => start(Math.min(n, pool.length))}
+              onClick={() => startRandom(Math.min(n, pool.length))}
               className="min-h-11 rounded-xl border border-control-line px-5 font-bold hover:border-accent disabled:opacity-50"
             >
               {Math.min(n, pool.length)} questions · {Math.round((Math.min(n, pool.length) * SECONDS_PER_QUESTION) / 60)} min
@@ -77,12 +95,9 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
     );
   }
 
-  const limit = qs.length * SECONDS_PER_QUESTION;
-  const elapsed = now === null ? 0 : now - startedAt;
-  const left = Math.max(0, limit - elapsed);
-  const over = finished || left === 0;
+  const { answers, flags } = session;
 
-  if (over) {
+  if (session.finished || timedOut) {
     const byTopic: Record<string, { right: number; total: number }> = {};
     for (const q of qs) {
       const t = (byTopic[q.topicId] ??= { right: 0, total: 0 });
@@ -90,6 +105,15 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
       if (answers[q.id] === q.answer) t.right++;
     }
     const right = qs.filter((q) => answers[q.id] === q.answer).length;
+    const missed = qs.filter((q) => answers[q.id] !== q.answer);
+    const matches: Record<Filter, (q: Q) => boolean> = {
+      all: () => true,
+      incorrect: (q) => answers[q.id] !== undefined && answers[q.id] !== q.answer,
+      flagged: (q) => !!flags[q.id],
+      unanswered: (q) => answers[q.id] === undefined,
+    };
+    const labels: Record<Filter, string> = { all: "All", incorrect: "Incorrect", flagged: "Flagged", unanswered: "Unanswered" };
+    const shown = qs.map((q, n) => ({ q, n })).filter(({ q }) => matches[filter](q));
     return (
       <div className="mx-auto max-w-3xl space-y-6">
         <div className="space-y-2 rounded-2xl bg-accent p-7 text-accent-fg">
@@ -97,7 +121,10 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
           <p className="text-4xl font-extrabold tabular-nums">
             {right}/{qs.length} · {Math.round((right / qs.length) * 100)}%
           </p>
-          <p className="opacity-90">Time used {fmt(Math.min(elapsed, limit))} of {fmt(limit)}. Missed questions were added to your review deck.</p>
+          <p className="opacity-90">
+            Time used {fmt(Math.min(elapsed, limit))} of {fmt(limit)}
+            {elapsed >= limit ? " (time ran out)" : ""}. Missed questions were added to your review deck.
+          </p>
         </div>
         <ul className="space-y-2">
           {Object.entries(byTopic).map(([t, s]) => (
@@ -109,40 +136,68 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
             </li>
           ))}
         </ul>
-        <ol className="space-y-3">
-          {qs.map((q, n) => {
-            const ok = answers[q.id] === q.answer;
-            return (
-              <li key={q.id} className={`space-y-2 rounded-xl border p-4 ${ok ? "border-success/40" : "border-danger/40"}`}>
-                <p className="text-sm">
-                  <span className="mr-1 font-bold">{n + 1}.</span>
-                  <InlineRich text={q.front} />
-                </p>
-                <p className="text-sm text-muted">
-                  Your answer: {answers[q.id] === undefined ? "none" : "ABC"[answers[q.id]]} · {ok ? "correct" : "incorrect"}
-                </p>
-                {!ok && <RichText text={q.back} className="text-sm" />}
-              </li>
-            );
-          })}
-        </ol>
-        <div className="flex gap-3">
-          <button type="button" onClick={() => setQs(null)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+
+        <div className="flex flex-wrap gap-3">
+          {missed.length > 0 && (
+            <button type="button" onClick={() => start(missed)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+              Retry the {missed.length} you missed
+            </button>
+          )}
+          <button type="button" onClick={() => saveMock(null)} className="min-h-11 rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
             New exam
           </button>
           <Link href="/review" className="inline-flex min-h-11 items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
-            Review missed
+            Review missed as flashcards
           </Link>
         </div>
+
+        <section aria-labelledby="answers-heading" className="space-y-3">
+          <h2 id="answers-heading" className="text-lg font-bold">
+            Your answers
+          </h2>
+          <div role="group" aria-label="Show questions" className="flex flex-wrap gap-2 text-sm">
+            {(Object.keys(labels) as Filter[]).map((f) => (
+              <button
+                key={f}
+                type="button"
+                aria-pressed={filter === f}
+                onClick={() => setFilter(f)}
+                className={`min-h-11 rounded-lg px-3.5 font-semibold ${filter === f ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+              >
+                {labels[f]} <span className="tabular-nums opacity-80">{qs.filter(matches[f]).length}</span>
+              </button>
+            ))}
+          </div>
+          {shown.length === 0 ? (
+            <p className="rounded-xl bg-surface-2 p-4 text-muted">No {labels[filter].toLowerCase()} questions in this exam.</p>
+          ) : (
+            <ol className="space-y-3">
+              {shown.map(({ q, n }) => {
+                const ok = answers[q.id] === q.answer;
+                return (
+                  <li key={q.id} className={`space-y-2 rounded-xl border p-4 ${ok ? "border-success/40" : "border-danger/40"}`}>
+                    <p className="text-sm">
+                      <span className="mr-1 font-bold">{n + 1}.</span>
+                      <InlineRich text={q.front} />
+                    </p>
+                    <p className="text-sm text-muted">
+                      Your answer: {answers[q.id] === undefined ? "none" : "ABC"[answers[q.id]]} · {ok ? "correct" : "incorrect"}
+                      {flags[q.id] ? " · flagged" : ""}
+                    </p>
+                    {!ok && <RichText text={q.back} className="text-sm" />}
+                  </li>
+                );
+              })}
+            </ol>
+          )}
+        </section>
       </div>
     );
   }
 
+  const i = Math.min(session.i, qs.length - 1);
   const q = qs[i];
-  const submit = () => {
-    for (const x of qs) if (answers[x.id] !== x.answer) markMissed(x.id);
-    setFinished(true);
-  };
+  const go = (n: number) => updateMock((s) => ({ ...s, i: n }));
   const unanswered = qs.filter((x) => answers[x.id] === undefined).length;
   const flagged = qs.filter((x) => flags[x.id]).length;
 
@@ -159,7 +214,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
           <button
             type="button"
             aria-pressed={!!flags[q.id]}
-            onClick={() => setFlags((f) => ({ ...f, [q.id]: !f[q.id] }))}
+            onClick={() => updateMock((s) => ({ ...s, flags: { ...s.flags, [q.id]: !s.flags[q.id] } }))}
             className={`min-h-11 rounded-lg border px-3 text-sm font-semibold ${flags[q.id] ? "border-warn bg-warn/10 text-warn" : "border-control-line"}`}
           >
             {flags[q.id] ? "Flagged" : "Flag for review"}
@@ -176,7 +231,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
               <button
                 key={k}
                 type="button"
-                onClick={() => setAnswers((a) => ({ ...a, [q.id]: k }))}
+                onClick={() => updateMock((s) => ({ ...s, answers: { ...s.answers, [q.id]: k } }))}
                 className={`block min-h-13 w-full rounded-xl px-4 py-3 text-left ${answers[q.id] === k ? "border-2 border-accent bg-accent-soft" : "border border-control-line hover:border-accent"}`}
               >
                 <InlineRich text={o} />
@@ -196,18 +251,25 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 <button type="button" autoFocus onClick={() => setConfirming(false)} className="min-h-11 rounded-xl border border-control-line bg-surface px-4 font-semibold hover:border-accent">
                   Keep working
                 </button>
-                <button type="button" onClick={submit} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setConfirming(false);
+                    finish(session, byId, nowSeconds());
+                  }}
+                  className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg"
+                >
                   Submit exam
                 </button>
               </div>
             </div>
           ) : (
             <div className="flex justify-between gap-3">
-              <button type="button" disabled={i === 0} onClick={() => setI(i - 1)} className="min-h-11 rounded-xl border border-control-line px-4 font-semibold disabled:opacity-40">
+              <button type="button" disabled={i === 0} onClick={() => go(i - 1)} className="min-h-11 rounded-xl border border-control-line px-4 font-semibold disabled:opacity-40">
                 ← Previous
               </button>
               {i < qs.length - 1 ? (
-                <button type="button" onClick={() => setI(i + 1)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                <button type="button" onClick={() => go(i + 1)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
                   Next →
                 </button>
               ) : (
@@ -225,7 +287,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
               <button
                 key={x.id}
                 type="button"
-                onClick={() => setI(n)}
+                onClick={() => go(n)}
                 aria-label={`Question ${n + 1}${flags[x.id] ? ", flagged" : ""}${answers[x.id] !== undefined ? ", answered" : ""}`}
                 className={`h-11 rounded-md text-xs font-semibold sm:h-9 ${n === i ? "outline-2 outline-foreground" : ""} ${flags[x.id] ? "bg-warn text-warn-fg" : answers[x.id] !== undefined ? "bg-accent text-accent-fg" : "border border-control-line"}`}
               >

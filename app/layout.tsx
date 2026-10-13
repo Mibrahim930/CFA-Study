@@ -70,6 +70,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <BottomNav />
         <footer className="border-t border-line px-4 py-5 text-center text-xs text-muted max-sm:pb-24">
+          <Link href="/backup" className="mb-2 inline-flex min-h-11 items-center font-semibold text-accent hover:underline">
+            Back up your progress
+          </Link>
+          <br />
           Personal study tool. Not affiliated with or endorsed by CFA Institute. CFA® is a trademark of CFA Institute.
         </footer>
       </body>

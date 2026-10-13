@@ -26,11 +26,11 @@ Next.js 16.4 (cacheComponents) + Tailwind 4, on Windows at `C:\Users\ibrah\CFA-S
 | Syllabus and topics | `app/syllabus`, `app/topics/[id]` | Topic pages: the **beginner primer** (`components/topic-primer.tsx`), then module chips (lessons ready / held back / coming, video count) |
 | Module page | `app/learn/[slug]`, `components/module-workspace.tsx` | Watch card (Let Me Explain lectures, player), notes, then lessons (`lesson-view.tsx`, one-question practice with confidence in `practice-set.tsx`); sidebar `ModuleChecklist` |
 | Review | `/review`, `components/review-session.tsx`, `lib/store/review.ts` | FSRS (ts-fsrs), Space/1–4 keys, progress, summary, phone grade bar. Lesson flashcards auto-enrol; missed questions and primer cards are added on demand |
-| Mock | `/mock`, `components/mock-exam.tsx` | 10/30/90 questions at 1.5 min each, flag, navigator, results by topic |
+| Mock | `/mock`, `components/mock-exam.tsx`, `lib/store/mock.ts` | 10/30/90 questions at 1.5 min each, flag, navigator, confirm before submit. Saved as you go (clock keeps running; auto-finishes on time-out). Results by topic, All/Incorrect/Flagged/Unanswered filters, "Retry the ones you missed" |
 | Resources | `/resources`, `lib/resources.ts` | Link-out only, with a trial tracker |
 | Phone | `components/bottom-nav.tsx`, `app/manifest.ts`, `app/icon.svg` | Bottom nav, installable PWA |
 | Deploy | `proxy.ts`, `docs/DEPLOY.md` | **Live on Railway: https://cfa-study.up.railway.app** (since 2026-10-13), auto-deploys from `main`. Basic-auth gate via `APP_PASSWORD`; fails closed (503) on a host if it's unset |
-| Storage | `lib/store/*` (localStorage) | Per device; Supabase sync not built |
+| Storage | `lib/store/*` (localStorage, all keys `l1:`) | Per device; Supabase sync not built (user chose backup-now, sync-later on 2026-10-13). `/backup` (`components/backup-panel.tsx`, `lib/store/backup.ts`) downloads/restores a JSON file; Today nudges when there's no backup in 7 days |
 
 Rules learned this session:
 - With cacheComponents, never read the time during render (`new Date()`/`Date.now()`). Use `useNow`/`useClock` (useSyncExternalStore).
@@ -45,8 +45,9 @@ Rules learned this session:
   - `RETRIEVE_K = 12`.
 - **Coverage audit** (`coverage.ts`, `docs/coverage-report.md`): 30 full, 308 partial, 2 none (`equity-09-los3`, `fixed-income-06-los3`; no free source exists).
 - **Lessons** (`generate.ts`, `verify.ts`):
-  - **Quant: all 30 LOS generated and verified.** 8 of about 393 items are quarantined, with real issues.
-  - `verify.ts` gates: lint, calc engine (the key must be the closest option), copy guard, IFRS 18, blind solve plus one repair, then the grounding critic plus a **second-opinion confirm** before any quarantine.
+  - **Quant: all 30 LOS generated and verified.** 0 quarantined: the 8 held back were requalified offline on 2026-10-13 (`requalify.ts`; 7 were checker false alarms, quant-06-los3 q7 had a real error fixed by hand with lib/finance values). They're badged verified/model_only, not grounded, until a paid `npm run verify -- --topic quant`.
+  - `verify.ts` gates: lint, calc engine (the key must be the closest option), copy guard, IFRS 18, blind solve plus one repair, then the grounding critic plus a **second-opinion confirm** before any quarantine. A blind-solve mismatch is dismissed when the solver's own reasoning names the key, or its reasoning is unusable and the engine verified the key (`solverDisputeStands`). Lint keeps comparison signs when checking distinct options. The generator must state sample vs population.
+  - **Source gaps:** `lib/syllabus/source-gaps.ts` (equity-09-los3, fixed-income-06-los3) shows a "use the official reading" note on the module checklist; generate.ts warns on them.
 - **Primers** (`generate-primer.ts`): `content/primers/*.json` for all 10 topics. A plain-language editor pass runs, then the same checks.
 - **Video map** (`video-map.ts`): `content/video-map.json`, 425 of 426 Let Me Explain videos mapped to 98 modules. YouTube API key in `.env.local`.
 
@@ -59,7 +60,7 @@ Rules learned this session:
 2. **Remaining UI ideas** from `docs/ui-inspiration.md`:
    - #6 mastery labels (needs persisted practice scores);
    - #8 a per-section check in lessons (needs new content);
-   - #9 a mock review mode with Incorrect/Flagged filters and "practise weakest topic".
+   - ~~#9 mock review mode~~ done 2026-10-13 (filters + retry missed; "practise weakest topic" waits for more topics).
 3. **The other 9 topics:** run `npm run gen -- --topic <id>`, then `npm run verify -- --topic <id>`, one topic at a time, about $5–6 each, in the study order from `lib/syllabus/topics.ts`.
 4. **Later milestones** (docs/PLAN.md):
    - Supabase sync and auth;
