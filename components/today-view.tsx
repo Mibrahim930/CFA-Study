@@ -35,7 +35,7 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
           <p className="text-sm font-semibold text-muted">
             {finished} of {modules.length} modules done
           </p>
-          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{next ? "Pick up where you left off" : "Syllabus complete"}</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{!next ? "Syllabus complete" : finished === 0 ? "Start your first module" : "Pick up where you left off"}</h1>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
           <ol className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
             <PlanRow n={1} title={`Review ${due.length} card${due.length === 1 ? "" : "s"}`} detail={due.length ? "Spaced repetition: the ones you're about to forget" : "Nothing due; new cards arrive as you study"} minutes={Math.round(due.length * 0.4)} href="/review" done={due.length === 0} />
             {next && <PlanRow n={2} title={`Study: ${next.title}`} detail={`${next.topicName} · module ${next.order} · watch, read, practise`} minutes={25} href={`/learn/${next.slug}`} />}
-            <PlanRow n={3} title={missedDue ? `Redo ${missedDue} missed question${missedDue === 1 ? "" : "s"}` : "No missed questions waiting"} detail="Wrong answers come back as review cards" minutes={missedDue * 2} href="/review" done={missedDue === 0} />
+            <PlanRow n={next ? 3 : 2} title={missedDue ? `Redo ${missedDue} missed question${missedDue === 1 ? "" : "s"}` : "No missed questions waiting"} detail="Wrong answers come back as review cards" minutes={missedDue * 2} href="/review" done={missedDue === 0} />
           </ol>
         </section>
 
@@ -83,7 +83,7 @@ export function TodayView({ modules, topics }: { modules: TodayModule[]; topics:
               <h3 className="font-bold">Cards due</h3>
               <span className={`text-3xl font-extrabold ${due.length ? "text-warn" : "text-muted"}`}>{due.length}</span>
             </div>
-            <Link href="/review" className="flex min-h-11 items-center justify-center rounded-xl border border-line font-semibold hover:border-accent">
+            <Link href="/review" className="flex min-h-11 items-center justify-center rounded-xl border border-control-line font-semibold hover:border-accent">
               Review now
             </Link>
           </div>

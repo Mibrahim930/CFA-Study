@@ -7,14 +7,17 @@
   --surface: #ffffff;
   --surface-2: #f3f4f6;
   --surface-3: #e5e7eb;
-  --line: #e5e7eb;
+  --line: #e5e7eb; /* dividers and card edges (decorative) */
+  --control-line: #868e99; /* edges of controls: 3.3:1 on surface, 3.1:1 on paper (WCAG non-text 3:1) */
   --muted: #4b5563; /* ≥ 7:1 on paper */
   --accent: #1e3a8a; /* navy: primary actions */
   --accent-fg: #ffffff;
   --accent-soft: #eef2ff;
   --success: #047857; /* grounded / correct */
+  --success-fg: #ffffff; /* text on a success fill: 5.5:1 */
   --info: #1d4ed8; /* math verified */
   --warn: #b45309; /* AI-only / due */
+  --warn-fg: #ffffff; /* text on a warn fill: 5.0:1 */
   --danger: #b91c1c;
 }
 
@@ -26,14 +29,44 @@
     --surface-2: #1f2937;
     --surface-3: #374151;
     --line: #1f2937;
+    --control-line: #6b7280; /* 3.7:1 on surface */
     --muted: #9ca3af;
     --accent: #93c5fd;
     --accent-fg: #0b1120;
     --accent-soft: #1e293b;
     --success: #34d399;
+    --success-fg: #0b1120; /* 9.8:1 (white would be 1.9:1) */
     --info: #60a5fa;
     --warn: #fbbf24;
+    --warn-fg: #0b1120; /* 11.3:1 (white would be 1.7:1) */
     --danger: #f87171;
+  }
+}
+
+/* Increase Contrast (macOS/iOS setting, surfaced to browsers as prefers-contrast). */
+@media (prefers-contrast: more) {
+  :root {
+    --line: #868e99;
+    --control-line: #4b5563;
+    --muted: #374151;
+  }
+}
+@media (prefers-contrast: more) and (prefers-color-scheme: dark) {
+  :root {
+    --line: #6b7280;
+    --control-line: #9ca3af;
+    --muted: #d1d5db;
+  }
+}
+
+/* Reduce Motion: progress bars and hover changes snap instead of animating. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
 
@@ -44,13 +77,16 @@
   --color-surface-2: var(--surface-2);
   --color-surface-3: var(--surface-3);
   --color-line: var(--line);
+  --color-control-line: var(--control-line);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-fg: var(--accent-fg);
   --color-accent-soft: var(--accent-soft);
   --color-success: var(--success);
+  --color-success-fg: var(--success-fg);
   --color-info: var(--info);
   --color-warn: var(--warn);
+  --color-warn-fg: var(--warn-fg);
   --color-danger: var(--danger);
   --font-sans: var(--font-jakarta);
   --font-mono: var(--font-jetbrains);

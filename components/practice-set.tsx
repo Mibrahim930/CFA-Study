@@ -68,7 +68,7 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
               <p className="text-2xl font-extrabold tabular-nums">
                 {right} of {mcqs.length} correct
               </p>
-              <ul className="space-y-1.5 text-[15px]">
+              <ul className="space-y-1.5 text-[0.9375rem]">
                 {confidentWrong > 0 && (
                   <li>
                     <strong className="text-danger">{confidentWrong} confident mistake{confidentWrong === 1 ? "" : "s"}</strong>: you were sure but wrong. These are the most
@@ -82,27 +82,41 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                 )}
                 {mcqs.length - right > 0 && <li>{mcqs.length - right} missed question{mcqs.length - right === 1 ? " was" : "s were"} added to your review deck.</li>}
               </ul>
-              <button type="button" onClick={restart} className="min-h-11 rounded-xl border border-line bg-surface px-5 font-semibold hover:border-accent">
+              <button type="button" onClick={restart} className="min-h-11 rounded-xl border border-control-line bg-surface px-5 font-semibold hover:border-accent">
                 Try again
               </button>
             </div>
           ) : (
             <div className="space-y-4">
               <div className="flex items-start justify-between gap-3">
-                <p className="text-[16.5px] leading-7">
+                <p className="text-[1.03125rem] leading-7">
                   <InlineRich text={m.stem} />
                 </p>
                 <span className="shrink-0 pt-1 text-xs text-muted">
                   {m.difficulty} · {BADGE_TEXT[m.badge]}
                 </span>
               </div>
-              <div className="space-y-2.5" role="radiogroup" aria-label="Answer options">
+              <div
+                className="space-y-2.5"
+                role="radiogroup"
+                aria-label="Answer options"
+                // Arrow keys move between options, as in a native radio group.
+                onKeyDown={(e) => {
+                  const step = e.key === "ArrowDown" || e.key === "ArrowRight" ? 1 : e.key === "ArrowUp" || e.key === "ArrowLeft" ? -1 : 0;
+                  if (!step || submitted) return;
+                  e.preventDefault();
+                  const n = m.options.length;
+                  const to = ((choice ?? (step > 0 ? -1 : 0)) + step + n) % n;
+                  setChoice(to);
+                  e.currentTarget.querySelectorAll<HTMLElement>('[role="radio"]')[to]?.focus();
+                }}
+              >
                 {m.options.map((o, k) => {
                   const isKey = k === m.answerIndex;
                   const state = !submitted
                     ? choice === k
                       ? "border-2 border-accent bg-accent-soft"
-                      : "border border-line hover:border-accent"
+                      : "border border-control-line hover:border-accent"
                     : isKey
                       ? "border-2 border-success bg-success/10"
                       : k === choice
@@ -114,6 +128,7 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                       type="button"
                       role="radio"
                       aria-checked={choice === k}
+                      tabIndex={choice === k || (choice === null && k === 0) ? 0 : -1}
                       disabled={submitted}
                       onClick={() => setChoice(k)}
                       className={`flex min-h-13 w-full items-start gap-3 rounded-xl px-4 py-3 text-left ${state}`}
@@ -143,7 +158,7 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                         type="button"
                         aria-pressed={confidence === c}
                         onClick={() => setConfidence(c)}
-                        className={`min-h-9 rounded-lg px-3 font-semibold ${confidence === c ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+                        className={`min-h-11 rounded-lg px-3.5 font-semibold ${confidence === c ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
                       >
                         {c}
                       </button>

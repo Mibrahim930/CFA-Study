@@ -36,6 +36,8 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [flags, setFlags] = useState<Record<string, boolean>>({});
   const [finished, setFinished] = useState(false);
+  // Submitting ends the exam and can't be undone, so it takes a second, explicit tap.
+  const [confirming, setConfirming] = useState(false);
   const now = useClock();
 
   const start = (n: number) => {
@@ -46,6 +48,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
     setAnswers({});
     setFlags({});
     setFinished(false);
+    setConfirming(false);
   };
 
   if (!qs) {
@@ -64,7 +67,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
               type="button"
               disabled={pool.length === 0}
               onClick={() => start(Math.min(n, pool.length))}
-              className="min-h-11 rounded-xl border border-line px-5 font-bold hover:border-accent disabled:opacity-50"
+              className="min-h-11 rounded-xl border border-control-line px-5 font-bold hover:border-accent disabled:opacity-50"
             >
               {Math.min(n, pool.length)} questions · {Math.round((Math.min(n, pool.length) * SECONDS_PER_QUESTION) / 60)} min
             </button>
@@ -127,7 +130,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
           <button type="button" onClick={() => setQs(null)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
             New exam
           </button>
-          <Link href="/review" className="inline-flex min-h-11 items-center rounded-xl border border-line px-5 font-semibold">
+          <Link href="/review" className="inline-flex min-h-11 items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
             Review missed
           </Link>
         </div>
@@ -140,6 +143,8 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
     for (const x of qs) if (answers[x.id] !== x.answer) markMissed(x.id);
     setFinished(true);
   };
+  const unanswered = qs.filter((x) => answers[x.id] === undefined).length;
+  const flagged = qs.filter((x) => flags[x.id]).length;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-line bg-surface">
@@ -155,7 +160,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
             type="button"
             aria-pressed={!!flags[q.id]}
             onClick={() => setFlags((f) => ({ ...f, [q.id]: !f[q.id] }))}
-            className={`min-h-10 rounded-lg border px-3 text-sm font-semibold ${flags[q.id] ? "border-warn bg-warn/10 text-warn" : "border-line"}`}
+            className={`min-h-11 rounded-lg border px-3 text-sm font-semibold ${flags[q.id] ? "border-warn bg-warn/10 text-warn" : "border-control-line"}`}
           >
             {flags[q.id] ? "Flagged" : "Flag for review"}
           </button>
@@ -172,26 +177,46 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 key={k}
                 type="button"
                 onClick={() => setAnswers((a) => ({ ...a, [q.id]: k }))}
-                className={`block min-h-13 w-full rounded-xl px-4 py-3 text-left ${answers[q.id] === k ? "border-2 border-accent bg-accent-soft" : "border border-line hover:border-accent"}`}
+                className={`block min-h-13 w-full rounded-xl px-4 py-3 text-left ${answers[q.id] === k ? "border-2 border-accent bg-accent-soft" : "border border-control-line hover:border-accent"}`}
               >
                 <InlineRich text={o} />
               </button>
             ))}
           </div>
-          <div className="flex justify-between gap-3">
-            <button type="button" disabled={i === 0} onClick={() => setI(i - 1)} className="min-h-11 rounded-xl border border-line px-4 font-semibold disabled:opacity-40">
-              ← Previous
-            </button>
-            {i < qs.length - 1 ? (
-              <button type="button" onClick={() => setI(i + 1)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
-                Next →
+          {confirming ? (
+            <div role="alertdialog" aria-labelledby="submit-title" aria-describedby="submit-detail" className="space-y-3 rounded-xl border-2 border-accent bg-accent-soft p-4">
+              <p id="submit-title" className="font-bold">
+                Submit the exam?
+              </p>
+              <p id="submit-detail" className="text-sm">
+                {unanswered > 0 ? `${unanswered} question${unanswered === 1 ? " is" : "s are"} unanswered` : "Every question has an answer"}
+                {flagged > 0 && ` and ${flagged} ${flagged === 1 ? "is" : "are"} flagged for review`}. You can&apos;t change answers after you submit.
+              </p>
+              <div className="flex flex-wrap justify-end gap-3">
+                <button type="button" autoFocus onClick={() => setConfirming(false)} className="min-h-11 rounded-xl border border-control-line bg-surface px-4 font-semibold hover:border-accent">
+                  Keep working
+                </button>
+                <button type="button" onClick={submit} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                  Submit exam
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div className="flex justify-between gap-3">
+              <button type="button" disabled={i === 0} onClick={() => setI(i - 1)} className="min-h-11 rounded-xl border border-control-line px-4 font-semibold disabled:opacity-40">
+                ← Previous
               </button>
-            ) : (
-              <button type="button" onClick={submit} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
-                Submit exam
-              </button>
-            )}
-          </div>
+              {i < qs.length - 1 ? (
+                <button type="button" onClick={() => setI(i + 1)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                  Next →
+                </button>
+              ) : (
+                <button type="button" onClick={() => setConfirming(true)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                  Submit exam…
+                </button>
+              )}
+            </div>
+          )}
         </div>
         <aside className="min-w-0 flex-[1_1_220px] space-y-3 border-t border-line bg-surface-2/50 p-5 sm:border-l sm:border-t-0">
           <p className="text-sm font-bold">Questions</p>
@@ -202,14 +227,15 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 type="button"
                 onClick={() => setI(n)}
                 aria-label={`Question ${n + 1}${flags[x.id] ? ", flagged" : ""}${answers[x.id] !== undefined ? ", answered" : ""}`}
-                className={`h-8 rounded-md text-xs font-semibold ${n === i ? "outline-2 outline-foreground" : ""} ${flags[x.id] ? "bg-warn text-foreground" : answers[x.id] !== undefined ? "bg-accent text-accent-fg" : "border border-line"}`}
+                className={`h-11 rounded-md text-xs font-semibold sm:h-9 ${n === i ? "outline-2 outline-foreground" : ""} ${flags[x.id] ? "bg-warn text-warn-fg" : answers[x.id] !== undefined ? "bg-accent text-accent-fg" : "border border-control-line"}`}
               >
                 {n + 1}
+                {flags[x.id] && <span aria-hidden="true">⚑</span>}
               </button>
             ))}
           </div>
-          <button type="button" onClick={submit} className="w-full text-sm font-semibold text-accent hover:underline">
-            Submit now
+          <button type="button" onClick={() => setConfirming(true)} className="min-h-11 w-full text-sm font-semibold text-accent hover:underline">
+            Submit now…
           </button>
         </aside>
       </div>

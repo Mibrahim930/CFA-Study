@@ -9,7 +9,7 @@ import { YouTubePlayer, type PlayerHandle } from "./youtube-player";
 
 const RATES = [1, 1.25, 1.5, 1.75, 2];
 const card = "rounded-2xl border border-line bg-surface p-5";
-const input = "w-full rounded-xl border border-line bg-surface px-4 py-2.5 text-[15px] placeholder:text-muted/80";
+const input = "w-full rounded-xl border border-line bg-surface px-4 py-2.5 text-[0.9375rem] placeholder:text-muted/80";
 
 /** Watch-along area: lecture player, lecture list, your own videos and timestamped notes. */
 export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: Los[]; lectures?: Lecture[] }) {
@@ -90,7 +90,7 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
                     setRate(r);
                     player.current?.setRate(r);
                   }}
-                  className={`min-h-9 rounded-lg px-3 font-semibold ${r === rate ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+                  className={`min-h-11 rounded-lg px-3 font-semibold ${r === rate ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
                 >
                   {r}×
                 </button>
@@ -126,7 +126,7 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
           <ul aria-label="Your videos" className="flex flex-wrap gap-2 text-sm">
             {state.videos.map((id, i) => (
               <li key={id} className="flex items-center overflow-hidden rounded-lg bg-surface-2">
-                <button type="button" onClick={() => setActive(id)} className={`min-h-9 px-3 ${id === videoId ? "font-semibold text-accent" : ""}`}>
+                <button type="button" onClick={() => setActive(id)} className={`min-h-11 px-3 ${id === videoId ? "font-semibold text-accent" : ""}`}>
                   Your video {i + 1}
                 </button>
                 <button
@@ -136,7 +136,7 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
                     update((s) => ({ ...s, videos: s.videos.filter((v) => v !== id) }));
                     if (active === id) setActive(null);
                   }}
-                  className="min-h-9 px-2.5 text-muted hover:text-danger"
+                  className="min-h-11 min-w-11 px-2.5 text-muted hover:text-danger"
                 >
                   ×
                 </button>
@@ -182,7 +182,7 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
               <input type="checkbox" checked={stamp} onChange={(e) => setStamp(e.target.checked)} className="size-4 accent-[var(--accent)]" />
               Attach video timestamp
             </label>
-            <button className="min-h-10 rounded-xl bg-accent px-4 font-bold text-accent-fg">Save note</button>
+            <button className="min-h-11 rounded-xl bg-accent px-4 font-bold text-accent-fg">Save note</button>
           </div>
         </form>
         {state.notes.length > 0 && (
@@ -255,7 +255,7 @@ export function ModuleChecklist({ slug, los }: { slug: string; los: Los[] }) {
         type="button"
         aria-pressed={state.done}
         onClick={() => update((s) => ({ ...s, done: !s.done }))}
-        className={`min-h-11 w-full rounded-xl px-4 font-bold ${state.done ? "bg-success text-white" : "border border-line bg-surface hover:border-accent"}`}
+        className={`min-h-11 w-full rounded-xl px-4 font-bold ${state.done ? "bg-success text-success-fg" : "border border-control-line bg-surface hover:border-accent"}`}
       >
         {state.done ? "✓ Module complete" : "Mark module complete"}
       </button>

@@ -44,12 +44,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <header className="sticky top-0 z-10 border-b border-line bg-surface/95 backdrop-blur">
-          <nav aria-label="Main" className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 text-[15px]">
+          <nav aria-label="Main" className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 text-[0.9375rem]">
             <Link href="/" className="flex items-center gap-2.5 font-extrabold tracking-tight">
-              <span aria-hidden="true" className="flex size-8 items-center justify-center rounded-lg bg-accent text-[13px] font-extrabold text-accent-fg">
+              <span aria-hidden="true" className="flex size-8 items-center justify-center rounded-lg bg-accent text-[0.8125rem] font-extrabold text-accent-fg">
                 L1
               </span>
-              <span className="text-[17px]">L1 Study</span>
+              <span className="text-[1.0625rem]">L1 Study</span>
             </Link>
             <div className="flex flex-wrap gap-1 font-semibold max-sm:ml-auto">
               {/* On phones the bottom nav covers the main sections; only Free resources stays up here. */}

@@ -25,15 +25,15 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
         </h2>
       </div>
 
-      <RichText text={primer.overview} className="max-w-[70ch] text-[16.5px] leading-7" />
-      <p className="max-w-[70ch] rounded-xl bg-accent-soft p-4 text-[15px]">
+      <RichText text={primer.overview} className="max-w-[70ch] text-[1.03125rem] leading-7" />
+      <p className="max-w-[70ch] rounded-xl bg-accent-soft p-4 text-[0.9375rem]">
         <strong>Why it matters: </strong>
         <InlineRich text={primer.whyItMatters} />
       </p>
 
       <div className="space-y-2">
         <h3 className="text-lg font-bold">Before you start</h3>
-        <ul className="list-disc space-y-1.5 pl-5 text-[15px]">
+        <ul className="list-disc space-y-1.5 pl-5 text-[0.9375rem]">
           {primer.prerequisites.map((p) => (
             <li key={p}>
               <InlineRich text={p} />
@@ -51,7 +51,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
                 <span>{t.term}</span>
                 <BadgeChip badge={t.badge} />
               </dt>
-              <dd className="text-[15px] leading-6">
+              <dd className="text-[0.9375rem] leading-6">
                 <InlineRich text={t.definition} />
               </dd>
               <dd className="rounded-lg bg-surface-2 p-2.5 text-sm text-muted">
@@ -75,7 +75,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
             type="button"
             disabled={enrolled === ids.length}
             onClick={() => enrol(ids, "flashcard")}
-            className="min-h-10 rounded-xl bg-accent px-4 text-sm font-bold text-accent-fg disabled:bg-success/12 disabled:text-success"
+            className="min-h-11 rounded-xl bg-accent px-4 text-sm font-bold text-accent-fg disabled:bg-success/12 disabled:text-success"
           >
             {enrolled === ids.length ? `✓ All ${ids.length} in your review deck` : `Add all ${ids.length} to my review deck`}
           </button>
@@ -86,7 +86,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
               <button
                 type="button"
                 onClick={() => setFlipped((f) => ({ ...f, [c.id]: !f[c.id] }))}
-                className="flex h-full min-h-28 w-full flex-col justify-between gap-2 rounded-xl border border-line bg-surface-2 p-4 text-left text-[15px] hover:border-accent"
+                className="flex h-full min-h-28 w-full flex-col justify-between gap-2 rounded-xl border border-line bg-surface-2 p-4 text-left text-[0.9375rem] hover:border-accent"
               >
                 <span>
                   <InlineRich text={flipped[c.id] ? c.back : c.front} />
@@ -100,7 +100,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
 
       <div className="space-y-2">
         <h3 className="text-lg font-bold">How to study this topic</h3>
-        <ul className="list-disc space-y-1.5 pl-5 text-[15px]">
+        <ul className="list-disc space-y-1.5 pl-5 text-[0.9375rem]">
           {primer.studyTips.map((t) => (
             <li key={t}>
               <InlineRich text={t} />

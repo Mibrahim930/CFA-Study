@@ -25,14 +25,14 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
     <article id={lesson.losId} className="scroll-mt-24 space-y-5">
       <header className="space-y-3">
         <div className="flex flex-wrap items-center gap-3">
-          <h2 className="text-2xl font-extrabold tracking-tight sm:text-[28px]">{lesson.title}</h2>
+          <h2 className="text-2xl font-extrabold tracking-tight sm:text-[1.75rem]">{lesson.title}</h2>
           <BadgeChip badge={lesson.badge} />
         </div>
         <p className="text-sm text-muted">LOS: {lesson.losText}</p>
-        <p className="max-w-[68ch] text-[17px] leading-7">{lesson.summary}</p>
+        <p className="max-w-[68ch] text-[1.0625rem] leading-7">{lesson.summary}</p>
       </header>
 
-      <div className={`${card} space-y-7 text-[16.5px] leading-7`}>
+      <div className={`${card} space-y-7 text-[1.03125rem] leading-7`}>
         {lesson.sections.map((s) => (
           <section key={s.heading} className="max-w-[70ch] space-y-3">
             <h3 className="text-lg font-bold">{s.heading}</h3>

@@ -90,7 +90,7 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
             Back to Today
           </Link>
           {tracked === 0 && (
-            <Link href="/syllabus" className="inline-flex min-h-11 items-center rounded-xl border border-line px-5 font-semibold hover:border-accent">
+            <Link href="/syllabus" className="inline-flex min-h-11 items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
               Pick a topic
             </Link>
           )}
