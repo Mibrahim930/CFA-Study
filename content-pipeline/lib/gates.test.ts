@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calcGateMcq, calcGateWorkedExample, copyGuard, ifrs18Gate, lintMcq, numbersIn, textShowsValue } from "./gates";
+import { calcGateMcq, calcGateWorkedExample, copyGuard, ifrs18Gate, lintMcq, numbersIn, solverDisputeStands, solverNamedChoice, textShowsValue } from "./gates";
 import type { Mcq } from "./schema";
 
 const ids = new Set(["os:a", "os:b"]);
@@ -132,5 +132,43 @@ describe("IFRS 18 gate", () => {
     expect(ifrs18Gate("Under IFRS 18, the operating category…")).toHaveLength(1);
     expect(ifrs18Gate("Disclose management-defined performance measures")).toHaveLength(1);
     expect(ifrs18Gate("IAS 1 requires an income statement")).toEqual([]);
+  });
+});
+
+describe("lint distinctness keeps comparison signs", () => {
+  it("treats orderings with different signs as distinct", () => {
+    const item = pvItem({
+      kind: "concept",
+      calc_spec: null,
+      options: [
+        { text: "Mean < median < mode", value: null, explanation: "Left-skew ordering." },
+        { text: "Mode < median < mean", value: null, explanation: "Right skew pulls the mean up." },
+        { text: "Mean = median = mode", value: null, explanation: "Symmetric case." },
+      ],
+    });
+    expect(lintMcq(item, ids)).not.toContain("options are not distinct");
+  });
+});
+
+describe("blind-solve consistency", () => {
+  it("reads the letter the reasoning commits to", () => {
+    expect(solverNamedChoice("Squared deviations sum to 80, so 0.0020. That is option A, index 0.")).toBe(0);
+    expect(solverNamedChoice("Option A is wrong because it ignores compounding, so the answer is C.")).toBe(2);
+    expect(solverNamedChoice("Option A is wrong because it ignores compounding.")).toBeNull();
+  });
+
+  it("dismisses a dispute when the reasoning names the key", () => {
+    const r = solverDisputeStands(pvItem(), 1, "Discounting 1,000 at 5% for 10 years gives 613.91, which is option A.");
+    expect(r.stands).toBe(false);
+  });
+
+  it("dismisses unusable reasoning only when the engine verified the key", () => {
+    expect(solverDisputeStands(pvItem(), 1, "Placeholder").stands).toBe(false);
+    const concept = pvItem({ kind: "concept", calc_spec: null, options: pvItem().options.map((o) => ({ ...o, value: null })) });
+    expect(solverDisputeStands(concept, 1, "Placeholder").stands).toBe(true);
+  });
+
+  it("keeps a real disagreement", () => {
+    expect(solverDisputeStands(pvItem(), 1, "Using simple discounting the value is 950, which is option B.").stands).toBe(true);
   });
 });

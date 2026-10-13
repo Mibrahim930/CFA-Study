@@ -23,6 +23,7 @@ import {
   lintCounts,
   lintMcq,
   mcqText,
+  solverDisputeStands,
   type CopyRef,
 } from "./lib/gates";
 import { BlindSolveSchema, GroundingSchema, McqSchema, type Flashcard, type GeneratedFile, type Grounding, type Lesson, type Mcq } from "./lib/schema";
@@ -62,7 +63,7 @@ export interface VerifiedFile {
 }
 
 const gate = (issues: string[]): Gate => ({ pass: issues.length === 0, issues });
-const allPass = (c: Checked<unknown>) => Object.values(c.gates).every((g) => g.pass);
+export const allPass = (c: Checked<unknown>) => Object.values(c.gates).every((g) => g.pass);
 const ABC = "ABC";
 
 const SOLVER_SYSTEM = `You are an expert taking CFA® Level I practice questions. Each question has three options (A, B, C) and exactly one best answer.
@@ -94,7 +95,7 @@ You will receive multiple-choice questions where an independent solver chose a d
 
 const RepairSchema = z.object({ items: z.array(z.object({ id: z.string(), mcq: McqSchema })) });
 
-function copyRefs(file: GeneratedFile, chunks: Map<string, SourceChunk>): CopyRef[] {
+export function copyRefs(file: GeneratedFile, chunks: Map<string, SourceChunk>): CopyRef[] {
   return [
     { label: `LOS ${file.losId}`, text: file.losText, maxRun: 10 },
     ...[...chunks.values()].map((c) => ({ label: `${c.title} ${c.locator}`, text: c.text, maxRun: c.reuse === "ground" ? 8 : 15 })),
@@ -105,7 +106,7 @@ function citationIssues(ids: string[], allowed: Set<string>): string[] {
   return ids.filter((id) => !allowed.has(id)).map((id) => `cites unknown chunk "${id}"`);
 }
 
-function mcqGates(m: Mcq, allowed: Set<string>, refs: CopyRef[]): Record<string, Gate> {
+export function mcqGates(m: Mcq, allowed: Set<string>, refs: CopyRef[]): Record<string, Gate> {
   return {
     lint: gate(lintMcq(m, allowed)),
     calc: gate(calcGateMcq(m).issues),
@@ -237,8 +238,10 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
       const answers = await v.blindSolve(solvable);
       for (const c of solvable) {
         const a = answers.get(c.id);
-        const agree = a?.choice_index === c.item.answer_index;
         const solver = a ? `chose ${ABC[a.choice_index] ?? a.choice_index} (${a.confidence}): ${a.reasoning}` : "gave no answer";
+        const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
+        const agree = !dispute.stands;
+        if (dispute.note) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note}. Solver ${solver}`] };
         c.gates.blind_solve = gate(agree ? [] : [`solver ${solver}`]);
         if (!agree) disputes.push({ checked: c, solver });
       }
@@ -260,7 +263,9 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
         const answers = await v.blindSolve(retry);
         for (const c of retry) {
           const a = answers.get(c.id);
-          const agree = a?.choice_index === c.item.answer_index;
+          const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
+          const agree = !dispute.stands;
+          if (dispute.note && a) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note} (after repair). Solver chose ${ABC[a.choice_index] ?? a.choice_index}: ${a.reasoning}`] };
           c.gates.blind_solve = gate(agree ? [] : [`solver ${a ? `chose ${ABC[a.choice_index] ?? a.choice_index} again: ${a.reasoning}` : "gave no answer"} (after repair)`]);
         }
       }

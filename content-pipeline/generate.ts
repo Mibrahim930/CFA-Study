@@ -41,6 +41,7 @@ You will receive one learning objective (LOS) and numbered source passages from 
 - Vary which position holds the correct answer.
 - Keep the three options similar in length, detail and style. The correct option must not stand out by being longer or more qualified than the distractors.
 - Stems must be self-contained: give every number needed, state compounding and timing conventions explicitly, and say how to round.
+- Variance, standard deviation, covariance and correlation stems must say which divisor applies: either "these observations are a sample, so divide by n − 1" or "these outcomes are the complete (equally likely) distribution, so divide by n". Never leave sample vs population for the student to guess.
 
 ## Calculation items (kind = "calc")
 - Every calc item and its options must be computable with one function from the catalog below. Put the function name in calc_spec.fn and its arguments in calc_spec.args_json as a JSON object (rates as decimals: 5% → 0.05).

@@ -432,13 +432,11 @@
           "os:introductory-business-statistics-2e:m55608:6"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
-          "pass": false,
-          "issues": [
-            "options are not distinct"
-          ]
+          "pass": true,
+          "issues": []
         },
         "calc": {
           "pass": true,
@@ -451,6 +449,12 @@
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-13); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

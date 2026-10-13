@@ -11,7 +11,8 @@ const BANNED_OPTION = /\b(all|none|both|neither) of (the )?(above|these|them)\b|
 /** TVM functions return BA II Plus signed values; students see magnitudes. */
 const SIGN_CONVENTION_FNS = new Set(["pv", "fv", "pmt"]);
 
-const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9.%-]+/g, " ").trim();
+// Comparison signs stay: "Mean < median" and "Mean > median" are different options.
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9.%<>=≤≥≠-]+/g, " ").trim();
 
 export function parseCalcSpec(spec: CalcSpecOut): { fn: string; args: unknown } | { error: string } {
   try {
@@ -210,3 +211,36 @@ export const lessonText = (l: Lesson) =>
     ...l.formulas.flatMap((f) => [f.name, f.where]),
     ...l.exam_traps,
   ].join("\n");
+
+/**
+ * The blind solver sometimes returns a choice_index that contradicts its own reasoning
+ * ("…that is option C" with index 1). Returns the letter (0–2) the reasoning finally commits to,
+ * or null when it names none.
+ */
+export function solverNamedChoice(reasoning: string): number | null {
+  // Only committing phrases ("is option C", "matches option C", "the answer is C"), not "option A is wrong".
+  const re = /\b(?:is|matches|choose|pick|select|answer(?:\s+is)?:?)\s+(?:option\s+)?\(?([ABC])\b/g;
+  let last: string | null = null;
+  for (const m of reasoning.matchAll(re)) last = m[1];
+  return last === null ? null : "ABC".indexOf(last);
+}
+
+/** Reasoning too thin to count as a second opinion (empty, "Placeholder", a few words). */
+export function solverReasoningUnusable(reasoning: string): boolean {
+  return reasoning.trim().split(/\s+/).filter(Boolean).length < 4;
+}
+
+/**
+ * Does a blind-solve disagreement stand? It's dismissed when the solver's own reasoning names the key,
+ * or when its reasoning is unusable and the finance engine has verified the keyed value.
+ */
+export function solverDisputeStands(m: Mcq, choiceIndex: number | undefined, reasoning: string): { stands: boolean; note?: string } {
+  if (choiceIndex === m.answer_index) return { stands: false };
+  if (solverNamedChoice(reasoning) === m.answer_index) {
+    return { stands: false, note: "solver's index contradicted its own reasoning, which names the key" };
+  }
+  if (solverReasoningUnusable(reasoning) && calcGateMcq(m).status === "pass") {
+    return { stands: false, note: "solver gave no usable reasoning; the finance engine verified the key" };
+  }
+  return { stands: true };
+}
