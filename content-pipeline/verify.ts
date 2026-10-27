@@ -137,8 +137,32 @@ class Verifier {
   }
 
   async blindSolve(items: Checked<Mcq>[]) {
-    const data = await this.call("blind-solve", BlindSolveSchema, SOLVER_SYSTEM, items.map((c) => formatQuestion(c.id, c.item)).join("\n\n"), "high");
-    return new Map(data.answers.map((a) => [a.id, a]));
+    const solve = (batch: Checked<Mcq>[], effort: "medium" | "high") =>
+      this.call("blind-solve", BlindSolveSchema, SOLVER_SYSTEM, batch.map((c) => formatQuestion(c.id, c.item)).join("\n\n"), effort);
+    try {
+      const data = await solve(items, "high");
+      return new Map(data.answers.map((a) => [a.id, a]));
+    } catch (err) {
+      // A batch can overflow the output budget when the solver reasons at length (seen on fsa-04-los2).
+      // Fall back to one question at a time, then to medium effort, before giving up on an item.
+      if (!(err instanceof Error && err.message.includes("max_tokens"))) throw err;
+      console.warn(`blind-solve batch for ${this.file.losId} overflowed; solving one question at a time`);
+      const answers = new Map<string, z.infer<typeof BlindSolveSchema>["answers"][number]>();
+      for (const c of items) {
+        for (const effort of ["high", "medium"] as const) {
+          try {
+            const data = await solve([c], effort);
+            for (const a of data.answers) answers.set(a.id, a);
+            break;
+          } catch (e) {
+            if (!(e instanceof Error && e.message.includes("max_tokens")) || effort === "medium") {
+              console.warn(`blind-solve for ${this.file.losId} ${c.id} failed at ${effort} effort: ${e instanceof Error ? e.message : e}`);
+            }
+          }
+        }
+      }
+      return answers;
+    }
   }
 
   async repair(items: { checked: Checked<Mcq>; solver: string }[]) {
@@ -343,6 +367,7 @@ async function main() {
       topic: { type: "string" },
       model: { type: "string", default: DEFAULT_MODEL },
       "skip-model-gates": { type: "boolean", default: false },
+      force: { type: "boolean", default: false },
     },
   });
   loadEnv();
@@ -354,6 +379,10 @@ async function main() {
     const src = outputPath(ctx);
     if (!existsSync(src)) {
       console.log(`skip ${ctx.los.id} (not generated yet)`);
+      continue;
+    }
+    if (!values.force && existsSync(src.replace(/\.json$/, ".verified.json"))) {
+      console.log(`skip ${ctx.los.id} (already verified; --force to redo)`);
       continue;
     }
     const file = JSON.parse(readFileSync(src, "utf8")) as GeneratedFile;
