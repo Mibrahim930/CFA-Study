@@ -1,0 +1,846 @@
+{
+  "losId": "equity-05-los3",
+  "losText": "describe major categories of equity valuation models and explain their advantages and disadvantages",
+  "moduleId": "equity-05",
+  "moduleTitle": "Introduction to Equity Valuation",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:21:16.653Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.19
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:43:33",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:109",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 155–157",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:36:27",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 36–37",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=36",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:34:25",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 34–35",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=34",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Applying the DCF Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec03:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 3: Common Stocks",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1c18f475f4a9236d92521c0e6606f27b_MIT15_401F08_rec03.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:10:8",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec07:7:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 7–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=7",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Discounted Cash Flow (DCF) Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:202:144",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 202–203",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=202",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Three Families of Equity Valuation Models",
+      "summary": "Analysts estimate what a share is worth using three broad families of models: ones that discount future cash flows, ones that apply a multiple to a company metric, and ones that add up the value of assets. Knowing what each family does well and badly tells you which tool fits which company.",
+      "sections": [
+        {
+          "heading": "Start with a house analogy",
+          "body_markdown": "Suppose you want to value a rental house. You could (1) estimate all the rent it will earn and discount it to today, (2) look at what similar houses nearby sold for, or (3) work out what it would cost to rebuild the house and add the land. Equity valuation has the same three routes:\n\n- **Present value models** (also called discounted cash flow models) work like the rent approach.\n- **Multiplier models** (also called market-based or relative valuation) work like the neighbourhood comparison.\n- **Asset-based models** work like the rebuild-cost approach."
+        },
+        {
+          "heading": "Present value models",
+          "body_markdown": "A **present value model** says a share is worth the value today of the cash it is expected to deliver to its owner. **Present value** means a future amount shrunk by a discount rate that reflects time and risk. The cash flow can be defined in different ways:\n\n- **Dividend discount model (DDM):** discounts expected dividends.\n- **Free cash flow to equity (FCFE):** discounts the cash left over after paying all obligations and reinvestment needs. It can be thought of as the dividend the firm *could* pay.\n- **Free cash flow to the firm (FCFF)** and **residual income** are other versions. Details come in later modules.\n\n**Advantages:** they are grounded in the idea that value comes from cash the business generates, so they give an estimate of *intrinsic* (stand-alone) value. They force you to think explicitly about growth, risk and reinvestment. Free-cash-flow versions also work for firms that pay no dividend.\n\n**Disadvantages:** the answer is very sensitive to the inputs, namely the growth rate, the discount rate and the terminal (end-of-forecast) value. Small changes in these can move the value a lot. Forecasting is hard, especially for young firms with erratic cash flows. A DDM is less useful when dividends are unpredictable or absent, and FCFE can be negative for fast-growing firms."
+        },
+        {
+          "heading": "Multiplier models",
+          "body_markdown": "A **multiplier model** scales a company metric by a ratio, a **multiple**, seen in the market, such as price to earnings (P/E), price to book (P/B), or enterprise value to EBITDA. The multiple usually comes from comparable companies or from the firm's own history, so the result is a *relative* value: it says what the stock is worth compared with others, not what it is worth in absolute terms.\n\n**Advantages:** simple, quick, easy to communicate, and they reflect what the market is currently paying. They are useful for screening many stocks at once.\n\n**Disadvantages:** if the comparable companies are mispriced (say the whole sector is in a bubble), your answer inherits that error. Comparable firms are rarely identical in growth and risk. Multiples can also be distorted by accounting choices, and a multiple is meaningless when the metric is negative (for example, a P/E with negative earnings). A multiple does not spell out its assumptions about growth and risk, which a present value model does."
+        },
+        {
+          "heading": "Asset-based models",
+          "body_markdown": "An **asset-based model** values the company's assets, usually at market or fair values rather than accounting book values, subtracts its liabilities, and treats what is left as the value of equity. Think of selling off every item and paying every debt.\n\n**Advantages:** useful when the assets are mostly tangible and have observable market prices, when a firm is being liquidated, or when earnings are too erratic or negative for other models. They are also helpful for holding companies and natural-resource companies.\n\n**Disadvantages:** hard to apply when much of the value comes from intangible assets such as brands, patents or know-how, because these are difficult to measure and are often missing from the balance sheet. Market values of assets may be hard to observe, and the approach ignores the firm's future earning power as a going concern."
+        },
+        {
+          "heading": "Choosing among them",
+          "body_markdown": "No model is best for every firm. A mature dividend payer with steady growth suits a DDM. A young company paying no dividends may call for a free-cash-flow model. A quick comparison of listed peers in an industry suits multiples. A firm whose worth lies mostly in tangible, marketable assets suits an asset-based approach. Good analysts often use more than one model and compare the answers.\n\nBe careful with mixing: if you use a comparable-firm multiple to find the *terminal value* inside a discounted cash flow model, you blend relative valuation into what is supposed to be an intrinsic estimate."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has just paid a dividend of $2.00 per share (D0). Dividends are expected to grow at 5% per year forever, and the required return on the stock is 9%. Using a constant-growth dividend discount model, what is the intrinsic value of one share today?",
+        "steps": [
+          "Identify the model: constant dividend growth, a present value model (the Gordon growth model), valid because r (9%) is greater than g (5%).",
+          "Find next year's dividend, because the formula needs D1: D1 = D0 × (1 + g) = 2.00 × 1.05 = 2.10.",
+          "Compute the denominator: r − g = 0.09 − 0.05 = 0.04.",
+          "Divide: V0 = 2.10 / 0.04 = 52.50.",
+          "BA II Plus keystrokes: 2.10 ÷ ( 0.09 − 0.05 ) = gives 52.50. (Or key 0.09 − 0.05 = then 1/x, then × 2.10 =.)",
+          "Interpretation: if the stock trades below $52.50 this model says it is undervalued, subject to the sensitivity of the inputs (a 1-point change in g or r moves the value a lot)."
+        ],
+        "answer": "Intrinsic value ≈ $52.50 per share",
+        "answer_value": 52.5,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.10,\"r\":0.09,\"g\":0.05}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "General present value model",
+          "latex": "V_0=\\sum_{t=1}^{\\infty}\\frac{CF_t}{(1+r)^t}",
+          "where": "V_0 is the value today, CF_t is the expected cash flow to equity holders at time t (dividends or free cash flow to equity), and r is the required return on equity."
+        },
+        {
+          "name": "Constant-growth dividend discount (Gordon growth) model",
+          "latex": "V_0=\\frac{D_1}{r-g}",
+          "where": "V_0 is the value today, D_1 is the dividend expected one year from now, r is the required return, and g is the constant dividend growth rate (requires r > g)."
+        },
+        {
+          "name": "Multiplier model (generic)",
+          "latex": "\\text{Value}=\\text{Multiple}\\times\\text{Metric}",
+          "where": "Multiple is a ratio such as P/E taken from comparable firms or history, and Metric is the subject company's own earnings per share, book value per share, or similar figure."
+        }
+      ],
+      "exam_traps": [
+        "Calling multiplier models 'intrinsic' valuation. Multiples built from comparable firms give relative value, and they inherit any mispricing in the comparables.",
+        "Using D0 instead of D1 in the Gordon growth formula. If the stem gives the dividend just paid, grow it by (1 + g) first.",
+        "Thinking present value models need dividends. Free cash flow to equity models can value firms that pay no dividend, although FCFE can be negative.",
+        "Saying asset-based models are best for any firm because 'assets are concrete'. They work poorly when the value sits in intangibles that are not on the balance sheet.",
+        "Forgetting that present value models are highly sensitive to the growth and discount rate inputs. This sensitivity is the standard disadvantage."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Required return on equity",
+        "Dividends and free cash flow"
+      ],
+      "leads_to": [
+        "Dividend discount models",
+        "Free cash flow valuation",
+        "Price multiples (P/E, P/B, EV/EBITDA)",
+        "Residual income and asset-based valuation"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00069:1",
+        "flatworld-finance-for-managers:155:109",
+        "damodaran-valn2ed-ch12:2:2",
+        "damodaran-valn2ed-ch14:10:8"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst estimates a stock's value by multiplying its earnings per share by the average price-to-earnings ratio of five similar listed companies. Which category of valuation model is this?",
+        "options": [
+          {
+            "text": "A present value model, because earnings are discounted",
+            "value": null,
+            "explanation": "Mistake: assuming any use of earnings is discounting. Nothing is discounted here; a ratio is simply applied."
+          },
+          {
+            "text": "A multiplier model, because a market ratio is applied",
+            "value": null,
+            "explanation": "Correct. Applying a multiple taken from comparable firms to the firm's own metric is a multiplier (relative) approach."
+          },
+          {
+            "text": "An asset-based model, because the peers' values are used",
+            "value": null,
+            "explanation": "Mistake: confusing using peer data with valuing assets. Asset-based models add up asset values and subtract liabilities."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock is expected to pay a dividend of $1.50 one year from now (D1 = $1.50). Dividends are expected to grow at a constant 4% per year forever, and the required return is 10%. Using the constant-growth dividend discount model, what is the value of one share today? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$15.00",
+            "value": 15,
+            "explanation": "Mistake: ignoring growth and dividing by the required return only (1.50 / 0.10), which treats the dividend as a flat perpetuity."
+          },
+          {
+            "text": "$25.00",
+            "value": 25,
+            "explanation": "Correct. V0 = D1 / (r − g) = 1.50 / (0.10 − 0.04) = 1.50 / 0.06 = 25.00."
+          },
+          {
+            "text": "$10.71",
+            "value": 10.71,
+            "explanation": "Mistake: adding g to r in the denominator (1.50 / 0.14) instead of subtracting it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":1.5,\"r\":0.10,\"g\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec03:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): V0 = D1/(r-g) = 1.50/(0.10-0.04) = 1.50/0.06 = $25.00. Option A is $25.00, so the correct index is 0."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement describes a major disadvantage of present value (discounted cash flow) models of equity valuation?",
+        "options": [
+          {
+            "text": "They ignore the time value of money and risk",
+            "value": null,
+            "explanation": "Mistake: this is the opposite of the truth. Discounting at a risk-adjusted rate is the core of these models."
+          },
+          {
+            "text": "They rely only on prices of similar firms",
+            "value": null,
+            "explanation": "Mistake: confusing present value models with multiplier models, which use comparable-firm pricing."
+          },
+          {
+            "text": "They are very sensitive to growth and discount rate inputs",
+            "value": null,
+            "explanation": "Correct. Small changes in growth, the required return or the terminal value can change the estimate a great deal, and forecasts are uncertain."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:109"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company has just paid a dividend of $1.80 per share (D0). Dividends are expected to grow at a constant 3% per year forever, and the required return on equity is 8%. Using the constant-growth dividend discount model, what is the value of one share today? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$36.00",
+            "value": 36,
+            "explanation": "Mistake: using the dividend just paid (D0 = 1.80) in the numerator instead of next year's dividend D1: 1.80 / 0.05."
+          },
+          {
+            "text": "$16.85",
+            "value": 16.85,
+            "explanation": "Mistake: adding g to r in the denominator: 1.854 / 0.11."
+          },
+          {
+            "text": "$37.08",
+            "value": 37.08,
+            "explanation": "Correct. D1 = 1.80 × 1.03 = 1.854, then V0 = 1.854 / (0.08 − 0.03) = 37.08."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":1.854,\"r\":0.08,\"g\":0.03}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec03:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For which of the following companies is an asset-based valuation model most appropriate?",
+        "options": [
+          {
+            "text": "A holding company whose assets are mainly marketable securities with observable prices",
+            "value": null,
+            "explanation": "Correct. Assets with observable market values can be summed and reduced by liabilities to estimate equity value reliably."
+          },
+          {
+            "text": "A software firm whose worth comes mainly from its brand and developer know-how",
+            "value": null,
+            "explanation": "Mistake: intangible assets are hard to measure and are often absent from the balance sheet, so an asset-based model understates such firms."
+          },
+          {
+            "text": "A young platform with negative earnings and a fast-growing user base",
+            "value": null,
+            "explanation": "Mistake: such a firm's value lies in future growth, not in its current assets, so adding up assets misses most of it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor plans to hold a stock for three years. She expects dividends of $2 at the end of each of years 1, 2 and 3, and expects to sell the share for $30 at the end of year 3 (right after the third dividend). The required return is 10% per year, compounded annually. What is the present value of the share to her? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$36.00",
+            "value": 36,
+            "explanation": "Mistake: adding the dividends and sale price without discounting (2 + 2 + 2 + 30)."
+          },
+          {
+            "text": "$27.51",
+            "value": 27.51,
+            "explanation": "Correct. PV = 2/1.10 + 2/1.10² + (2 + 30)/1.10³ = 1.82 + 1.65 + 24.04 = 27.51."
+          },
+          {
+            "text": "$4.97",
+            "value": 4.97,
+            "explanation": "Mistake: discounting only the dividends and leaving out the expected sale price, which carries most of the value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.10,\"cashflows\":[0,2,2,32]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00069:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement describes a disadvantage of multiplier models that is NOT shared to the same degree by present value models?",
+        "options": [
+          {
+            "text": "If comparable firms are mispriced by the market, the estimated value inherits that error",
+            "value": null,
+            "explanation": "Correct. A multiple taken from comparables embeds whatever the market is currently paying, so a sector-wide mispricing carries over into the result."
+          },
+          {
+            "text": "They cannot be applied to companies that pay no dividends at all",
+            "value": null,
+            "explanation": "Mistake: this is a limitation of dividend discount models, not of multiples such as P/E or EV/EBITDA."
+          },
+          {
+            "text": "They require explicit forecasts of cash flows for every future year",
+            "value": null,
+            "explanation": "Mistake: this describes present value models. Multiples are quick precisely because they avoid long forecasts."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the three major categories of equity valuation models?",
+        "back": "Present value (discounted cash flow) models, multiplier (market-based/relative) models, and asset-based models.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Main advantage and main disadvantage of present value models?",
+        "back": "Advantage: they estimate intrinsic value from the cash the business generates. Disadvantage: the result is very sensitive to growth, discount rate and terminal value assumptions.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:109",
+          "damodaran-valn2ed-ch12:2:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why can a multiplier model give a misleading answer even if the arithmetic is right?",
+        "back": "The multiple comes from comparable firms, so if those firms are over- or undervalued by the market, the estimate inherits the same mispricing. It gives relative, not intrinsic, value.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "When are asset-based models most and least useful?",
+        "back": "Most useful when assets are tangible with observable market values (holding companies, liquidations). Least useful when value is mainly in intangibles or future growth.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "How does a free cash flow to equity model differ from a dividend discount model?",
+        "back": "FCFE discounts the cash left after all obligations and reinvestment (potential dividends), while the DDM discounts actual dividends. FCFE can be negative and suits non-dividend payers.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:10:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:20:56.572Z",
+      "purpose": "blind-solve",
+      "losId": "equity-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 840,
+      "outputTokens": 547,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007267,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:03.048Z",
+      "purpose": "repair",
+      "losId": "equity-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9557,
+      "outputTokens": 875,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.028808,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:06.129Z",
+      "purpose": "blind-solve",
+      "losId": "equity-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 137,
+      "outputTokens": 93,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001321,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:16.653Z",
+      "purpose": "grounding",
+      "losId": "equity-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13095,
+      "outputTokens": 1498,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0413392,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0787352
+}

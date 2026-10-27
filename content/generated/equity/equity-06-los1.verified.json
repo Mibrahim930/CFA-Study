@@ -1,0 +1,926 @@
+{
+  "losId": "equity-06-los1",
+  "losText": "contrast the inputs used in dividend discount, free cash flow to equity (FCFE), free cash flow to the firm (FCFF), and residual income models, and explain the process for using present value models to value equity",
+  "moduleId": "equity-06",
+  "moduleTitle": "Discounted Cash Flow (DCF) and Growth Models",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:21:46.587Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch14:43:33",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.24
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "flatworld-finance-for-managers:202:144",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 202–203",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=202",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:36:27",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 36–37",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=36",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:34:25",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 34–35",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=34",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:109",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 155–157",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:26:22",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 26–27",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=26",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:38:29",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 38–39",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=38",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec07:7:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 7–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=7",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:10:8",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Choosing and Feeding a Present Value Equity Model",
+      "summary": "Equity can be valued by discounting dividends, free cash flow to equity, free cash flow to the firm, or residual income. Each uses a different cash flow and a matching discount rate, and you need to know which pairs go together and how the final equity value is reached.",
+      "sections": [
+        {
+          "heading": "The big idea: value is what you get, discounted",
+          "body_markdown": "A share is worth the present value of what it will give its owner. Think of renting out a flat: its price depends on the rent you expect, scaled down for waiting and risk. The models differ only in **which stream of money** they call the owner's reward:\n\n- **Dividend discount model (DDM):** the cash the company actually pays out to shareholders.\n- **Free cash flow to equity (FCFE):** the cash that *could* be paid to shareholders after the company has paid its running costs, taxes, lenders and reinvestment. It is sometimes described as potential dividends.\n- **Free cash flow to the firm (FCFF):** the cash generated for *all* capital providers (lenders, preferred holders and common shareholders) before any of them are paid.\n- **Residual income (RI):** profit left after charging shareholders for the capital they have tied up in the business."
+        },
+        {
+          "heading": "Matching cash flow and discount rate",
+          "body_markdown": "The discount rate must reflect the risk of the people who receive the cash flow.\n\n| Model | Cash flow | Discount rate | What the PV gives you |\n|---|---|---|---|\n| DDM | Dividends | Required return on equity | Equity value |\n| FCFE | Free cash flow to equity | Required return on equity | Equity value |\n| RI | Net income minus an equity charge | Required return on equity | Equity value (book value plus PV of RI) |\n| FCFF | Free cash flow to the firm | Weighted average cost of capital (WACC) | **Firm** value |\n\n*WACC* is the blended cost of the firm's financing sources, with debt cost taken after tax. Because FCFF belongs to every capital provider, it is discounted at their blended rate. Then you must move from firm value to equity value: subtract the market value of debt and of preferred stock, and add the value of non-operating assets (such as surplus cash) if they were not included in the cash flows."
+        },
+        {
+          "heading": "How the inputs differ in practice",
+          "body_markdown": "**FCFE vs dividends.** Dividends are a policy choice. A firm can hold back cash and build up a pile of securities. FCFE instead assumes everything available is paid out, so no cash piles up and growth comes from operating assets. When a company pays out less than FCFE, the two models give different values. FCFE is often preferred when control may change, because a new owner could pay out that surplus.\n\n**FCFE can be negative; dividends cannot.** A fast-growing firm may need more reinvestment than it generates. A negative FCFE means new shares would have to be issued. Discounting the negative flows lowers today's value, so the dilution is already captured.\n\n**FCFF and debt.** FCFF is measured *before* payments to lenders, so you need not forecast each year's borrowing and repayment. That helps if leverage is expected to change a lot. The price you pay is that you must estimate WACC and then subtract debt at the end.\n\n**Residual income.** In period $t$, RI equals net income minus a charge equal to the required return times book value of equity at the *start* of the period. A firm that only earns exactly its required return adds no value beyond book value."
+        },
+        {
+          "heading": "The process for using a present value model",
+          "body_markdown": "A typical valuation follows five stages:\n\n1. **Understand the business**: industry, strategy, competitors, accounting quality.\n2. **Forecast company performance**: sales, margins, investment, financing.\n3. **Select the right model**: choose one that fits the company (does it pay dividends reliably? is leverage stable? are cash flows positive?) and the available data.\n4. **Convert forecasts to a valuation**: turn forecasts into cash flows, discount at the matching rate, and estimate a terminal value for the period beyond the forecast.\n5. **Apply the conclusion**: compare intrinsic value with market price and decide (for example buy, hold or sell, or rate the stock), while checking sensitivity to the assumptions.\n\nThe intrinsic value you obtain is only as good as the forecasts and discount rate that feed it."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports net income of 120, non-cash charges (depreciation) of 40, interest expense of 30, a tax rate of 30%, fixed capital investment of 90, working capital investment of 10 and net borrowing of 20 (all in millions). Compute FCFF and FCFE for the year. An analyst separately discounts forecast FCFF at WACC and gets a firm value of 1,500 with no non-operating assets; the market value of debt is 400 and there is no preferred stock. What is the implied value of common equity?",
+        "steps": [
+          "After-tax interest = 30 × (1 − 0.30) = 21.",
+          "FCFF = NI + non-cash charges + after-tax interest − fixed capital investment − working capital investment = 120 + 40 + 21 − 90 − 10 = 81.",
+          "FCFE = FCFF − after-tax interest + net borrowing = 81 − 21 + 20 = 80.",
+          "Cross-check from net income: FCFE = 120 + 40 − 90 − 10 + 20 = 80, which matches.",
+          "Only simple arithmetic is needed here, so no BA II Plus keystrokes are required.",
+          "Equity from the firm-value approach = firm value − market value of debt − preferred = 1,500 − 400 − 0 = 1,100."
+        ],
+        "answer": "FCFF = 81 million, FCFE = 80 million, and the implied value of common equity is 1,100 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "FCFF from net income",
+          "latex": "FCFF = NI + NCC + Int(1-t) - FCInv - WCInv",
+          "where": "NI = net income; NCC = non-cash charges such as depreciation; Int = interest expense; t = tax rate; FCInv = fixed capital investment; WCInv = working capital investment."
+        },
+        {
+          "name": "FCFF from cash flow from operations",
+          "latex": "FCFF = CFO + Int(1-t) - FCInv",
+          "where": "CFO = cash flow from operations (under US GAAP interest is already deducted in it); other symbols as above."
+        },
+        {
+          "name": "FCFE from FCFF",
+          "latex": "FCFE = FCFF - Int(1-t) + \\text{Net borrowing}",
+          "where": "Net borrowing = new debt issued minus debt repaid."
+        },
+        {
+          "name": "FCFE from net income",
+          "latex": "FCFE = NI + NCC - FCInv - WCInv + \\text{Net borrowing}",
+          "where": "Symbols as above."
+        },
+        {
+          "name": "Dividend discount value",
+          "latex": "V_0 = \\sum_{t=1}^{\\infty} \\frac{D_t}{(1+r)^t}",
+          "where": "V_0 = equity value today; D_t = dividend in period t; r = required return on equity. For FCFE replace D_t with FCFE_t; for FCFF replace with FCFF_t and r with WACC."
+        },
+        {
+          "name": "Residual income",
+          "latex": "RI_t = NI_t - r \\times B_{t-1}",
+          "where": "RI_t = residual income in period t; NI_t = net income; r = required return on equity; B_{t-1} = book value of equity at start of period."
+        },
+        {
+          "name": "Residual income valuation",
+          "latex": "V_0 = B_0 + \\sum_{t=1}^{\\infty} \\frac{RI_t}{(1+r)^t}",
+          "where": "B_0 = current book value of equity; other symbols as above."
+        },
+        {
+          "name": "WACC",
+          "latex": "WACC = w_d r_d (1-t) + w_p r_p + w_e r_e",
+          "where": "w = market-value weights of debt, preferred and common equity; r_d = pre-tax cost of debt; r_p = cost of preferred; r_e = cost of common equity; t = tax rate."
+        }
+      ],
+      "exam_traps": [
+        "Discounting FCFF at the cost of equity (or FCFE at WACC). The rate must match the claimants who receive the cash flow.",
+        "Treating the PV of FCFF as equity value. It is firm value; subtract the market value of debt and preferred stock (and add non-operating assets) first.",
+        "Adding back full interest instead of after-tax interest Int(1 − t) when moving between net income, FCFF and FCFE.",
+        "Computing residual income with ending book value instead of beginning-of-period book value, or forgetting to add current book value to the PV of RI.",
+        "Assuming FCFE can never be negative or must equal dividends. Negative FCFE is possible and implies external equity financing."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Cost of equity and WACC",
+        "Cash flow statement and net income"
+      ],
+      "leads_to": [
+        "Constant growth (Gordon) and multistage models",
+        "Shortcomings of growth assumptions",
+        "Preferred stock valuation"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch14:10:8",
+        "damodaran-valn2ed-ch14:36:27",
+        "damodaran-valn2ed-ch14:34:25",
+        "damodaran-valn2ed-ch14:43:33",
+        "damodaran-valn2ed-ch15:1:0",
+        "damodaran-valn2ed-ch15:26:22"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which pairing of cash flow and discount rate is internally consistent in a present value equity valuation?",
+        "options": [
+          {
+            "text": "FCFE discounted at the weighted average cost of capital",
+            "value": null,
+            "explanation": "Mismatch: FCFE belongs only to common shareholders, so it needs the required return on equity, not the blended WACC."
+          },
+          {
+            "text": "FCFF discounted at the weighted average cost of capital",
+            "value": null,
+            "explanation": "Correct. FCFF is available to all capital providers, so it is discounted at the blended cost of all capital, and the result is firm value."
+          },
+          {
+            "text": "Dividends discounted at the pre-tax cost of debt",
+            "value": null,
+            "explanation": "Mismatch: dividends are an equity cash flow and carry equity risk, so the cost of debt is too low."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:1:0",
+          "damodaran-valn2ed-ch15:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst discounts forecast FCFF at WACC and obtains a firm value of 2,000. The firm has no non-operating assets. The market value of its debt is 600 and its preferred stock has a market value of 100. What is the value of common equity?",
+        "options": [
+          {
+            "text": "Add the 700 of claims to firm value, giving 2,700",
+            "value": null,
+            "explanation": "Sign error: debt and preferred stock are claims ahead of common shareholders and must be subtracted, not added."
+          },
+          {
+            "text": "Subtract only the 600 of debt, giving 1,400",
+            "value": null,
+            "explanation": "Ignores that preferred shareholders also hold a senior claim on firm value."
+          },
+          {
+            "text": "Subtract both claims, 700 in total, giving 1,300",
+            "value": null,
+            "explanation": "Correct. Equity = firm value − market value of debt − market value of preferred = 2,000 − 600 − 100 = 1,300."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:26:22"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A firm is financed 30% with debt and 70% with common equity at market values and has no preferred stock. The pre-tax cost of debt is 6%, the tax rate is 25% and the cost of equity is 12%. What discount rate should be applied to FCFF? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "9.75%",
+            "value": 0.0975,
+            "explanation": "Correct. WACC = 0.30 × 6% × (1 − 0.25) + 0.70 × 12% = 1.35% + 8.40% = 9.75%."
+          },
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "Uses the cost of equity alone, ignoring the debt component; that is the rate for equity cash flows, not FCFF."
+          },
+          {
+            "text": "10.20%",
+            "value": 0.102,
+            "explanation": "Forgets the tax shield on interest: 0.30 × 6% + 0.70 × 12% = 10.20%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.3,\"rd\":0.06,\"tax\":0.25,\"we\":0.7,\"re\":0.12}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An analyst forecasts FCFE of 100 at the end of year 1, 110 at the end of year 2 and 121 at the end of year 3. At the end of year 3 she also expects the value of all later FCFE (the terminal value) to be 1,210. The cost of equity is 10% per year and all cash flows arrive at year-end. What is the present value of equity today? Round to two decimal places.",
+        "options": [
+          {
+            "text": "272.73",
+            "value": 272.73,
+            "explanation": "Leaves out the terminal value of 1,210 and discounts only the three explicit forecasts."
+          },
+          {
+            "text": "1181.82",
+            "value": 1181.82,
+            "explanation": "Correct. 100/1.10 + 110/1.10² + (121 + 1,210)/1.10³ = 90.91 + 90.91 + 1,000.00 = 1,181.82."
+          },
+          {
+            "text": "1300.00",
+            "value": 1300,
+            "explanation": "Discounts each cash flow one period too few (treats year 1 as time 0), which overstates value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.1,\"cashflows\":[0,100,110,1331]}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:10:8"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In the residual income model applied to equity, how is residual income for a period defined?",
+        "options": [
+          {
+            "text": "Net income minus the dividends paid in that period",
+            "value": null,
+            "explanation": "This is retained earnings for the period, not residual income; it contains no charge for the cost of equity capital."
+          },
+          {
+            "text": "After-tax operating profit minus WACC times total invested capital",
+            "value": null,
+            "explanation": "This is a firm-level economic profit measure, not the equity residual income used with the cost of equity."
+          },
+          {
+            "text": "Net income minus cost of equity times beginning-of-period book value of equity",
+            "value": null,
+            "explanation": "Correct. The equity charge is the required return applied to book equity at the start of the period, and equity value is book value plus the PV of these amounts."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A standard process for valuing equity with present value models has five steps: understand the business, forecast company performance, select the valuation model, convert the forecasts into a valuation, and apply the valuation conclusions. Which step comes immediately after forecasting company performance?",
+        "options": [
+          {
+            "text": "Converting the forecasts into a valuation",
+            "value": null,
+            "explanation": "Skips the model choice. The analyst must first decide which cash flow measure and discount rate fit the firm and the forecast data. Only then can the forecasts be turned into a value."
+          },
+          {
+            "text": "Selecting the appropriate valuation model",
+            "value": null,
+            "explanation": "Correct. Once the business is understood and performance is forecast, the analyst picks a model (dividends, FCFE, FCFF or residual income) that fits the firm and the available data. Only then are the forecasts converted into a value."
+          },
+          {
+            "text": "Applying the valuation conclusions",
+            "value": null,
+            "explanation": "Skips ahead. Conclusions such as buy/sell recommendations can only be applied after the forecasts have been converted into a value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): The usual sequence is to select the model, forecast performance, convert the forecasts into a valuation, and then apply the conclusions."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm is expected to change its debt ratio substantially over the forecast horizon. Which model avoids forecasting each year's new borrowing and repayments explicitly, and why?",
+        "options": [
+          {
+            "text": "The dividend discount model, because dividends do not depend on financing",
+            "value": null,
+            "explanation": "Dividends are paid from cash left after debt service, so financing changes still affect them."
+          },
+          {
+            "text": "The FCFE model, because it excludes all debt-related flows",
+            "value": null,
+            "explanation": "FCFE is measured after net borrowing, so borrowing and repayments must be forecast."
+          },
+          {
+            "text": "The FCFF model, because it is measured before payments to lenders",
+            "value": null,
+            "explanation": "Correct. FCFF is a pre-debt cash flow, so debt flows need not be projected; the trade-off is that WACC and debt value are needed."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:26:22"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A high-growth firm's forecast FCFE is negative in the first few years because reinvestment far exceeds operating cash flow, turning positive later. How should an FCFE valuation treat this?",
+        "options": [
+          {
+            "text": "Set the negative values to zero, since dividends cannot be negative",
+            "value": null,
+            "explanation": "Confuses FCFE with dividends. Truncating at zero ignores the equity funding the firm must raise, so it overstates value."
+          },
+          {
+            "text": "Abandon FCFE and substitute dividends for the negative FCFE",
+            "value": null,
+            "explanation": "Wrong. FCFE models are flexible enough to handle negative early flows, which are common for high-growth firms. Dividends would also ignore the reinvestment needs."
+          },
+          {
+            "text": "Keep the negative values, since they imply new equity issuance whose dilution lowers value",
+            "value": null,
+            "explanation": "Correct. Negative FCFE means the firm must issue equity to fund reinvestment. Discounting those negative flows lowers today's equity value, so the dilution is captured without any extra adjustment."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:34:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): Negative FCFE implies the firm must raise new equity; discounting the negative flows reflects this funding need and its dilution."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Which discount rate goes with FCFF, and which with FCFE and dividends?",
+        "back": "FCFF is discounted at WACC (giving firm value). FCFE and dividends are discounted at the required return on equity (giving equity value).",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:1:0",
+          "damodaran-valn2ed-ch14:10:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you get from the PV of FCFF to the value of common equity?",
+        "back": "Subtract the market value of debt and preferred stock (and add non-operating assets not in the cash flows).",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:26:22"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is FCFE related to dividends conceptually?",
+        "back": "Dividends are cash actually paid; FCFE is cash that could be paid after debt service and reinvestment (potential dividends). FCFE can be negative; dividends cannot.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:43:33",
+          "damodaran-valn2ed-ch14:34:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "State the residual income formula and the RI valuation.",
+        "back": "RI_t = NI_t − r × B_(t−1) (beginning book equity). Equity value = B_0 + PV of all future RI.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What are the five steps of the equity valuation process?",
+        "back": "Understand the business; forecast performance; select the model; convert forecasts to a valuation; apply the conclusions.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:21:21.285Z",
+      "purpose": "blind-solve",
+      "losId": "equity-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1045,
+      "outputTokens": 599,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008197,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:35.265Z",
+      "purpose": "repair",
+      "losId": "equity-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10633,
+      "outputTokens": 1926,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.04147,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:37.673Z",
+      "purpose": "blind-solve",
+      "losId": "equity-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 297,
+      "outputTokens": 214,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002851,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:21:46.587Z",
+      "purpose": "grounding",
+      "losId": "equity-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14187,
+      "outputTokens": 1309,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041633199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.09415119999999999
+}

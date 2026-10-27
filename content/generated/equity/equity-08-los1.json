@@ -1,0 +1,448 @@
+{
+  "losId": "equity-08-los1",
+  "losText": "explain the rationale, construction, and uses of financial statement forecast models in equity valuation",
+  "moduleId": "equity-08",
+  "moduleTitle": "Financial Statement Forecasting in Equity Valuation",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:01:42.849Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Scenarios in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Financial Statement Foundations",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:20:16",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:38:33",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 38–39",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=38",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:10:8",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:43:33",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch10:13:12",
+      "title": "Investment Valuation, 2nd ed., ch. 10: From Earnings to Cash Flows (taxes, working capital, FCFF and FCFE inputs) (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 13",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch10.pdf#page=13",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Sensitivity Analysis in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Financial Statement Foundations",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Why and How Analysts Build Financial Statement Forecast Models",
+      "summary": "Analysts forecast a company's income statement, balance sheet and cash flow statement together so that the cash flows and earnings they value come from one consistent set of assumptions. This LOS covers why that is worth doing, how a model is assembled, and what it can be used for.",
+      "sections": [
+        {
+          "heading": "Why forecast whole statements?",
+          "body_markdown": "A share is worth what its owners expect to receive in the future, discounted to today. In other words, value is the **present value of expected future cash flows** (or earnings). Past results are already history, so the analyst needs a view of the *future*.\n\nThink of a forecast model as a blueprint for a house rather than a single guess at the price. Guessing 'earnings will grow 8% a year' is quick, but it hides everything that must be true for that growth to happen: how many more sales, how much extra equipment and inventory, how it is financed. A **financial statement forecast model** is a spreadsheet that projects the income statement, balance sheet and cash flow statement for several future years. The projections are driven by explicit assumptions, so earnings, reinvestment and cash flow all come from the same story and can be checked against each other."
+        },
+        {
+          "heading": "How a model is built",
+          "body_markdown": "Most models are built in a rough order:\n\n1. **Study the history.** Review past growth, margins and ratios. Common-size statements (every income statement line as a % of sales) and ratios such as gross margin, operating margin, ROA, ROE and turnover ratios show which relationships have been stable.\n2. **Forecast revenue first**, because most other lines are driven off it. Two common routes: **top-down** (start with the economy or industry size, then apply a market share) and **bottom-up** (start with the company's own units, prices, stores or segments and add them up). A **hybrid** mixes the two. Growth usually fades as the firm gets bigger, and the dollar revenue should be checked against the size of the market.\n3. **Forecast costs and margins.** Cost of goods sold, operating expenses and other items are often set as a % of sales or split into fixed and variable parts. Revenue growth and margins must be consistent: a company that buys growth with aggressive pricing should show lower margins.\n4. **Forecast items below operating income**: interest, taxes and share count, to reach net income and earnings per share.\n5. **Forecast reinvestment**: capital spending, depreciation and working capital (receivables, inventory, payables, often tied to days or turnover ratios). Capital spending tends to be lumpy, so analysts often smooth ('normalize') it instead of extrapolating one unusually heavy or light year.\n6. **Forecast financing**: debt, dividends and share issuance or buybacks."
+        },
+        {
+          "heading": "Tying the statements together",
+          "body_markdown": "The statements are linked, and a good model builds those links with formulas, not typed-in numbers:\n\n- Net income from the income statement flows into **retained earnings** on the balance sheet.\n- Net income, non-cash expenses (such as depreciation) and changes in working-capital accounts feed the **cash flow statement**.\n- Ending cash from the cash flow statement becomes cash on the balance sheet.\n- The balance sheet must satisfy $\\text{Assets} = \\text{Liabilities} + \\text{Equity}$ in every forecast year. If it does not, an assumption or link is broken. Many models use cash or a revolving borrowing line as the 'balancing' item.\n\nThis matters because a company can report profit and still run short of cash (for example by building up receivables and inventory). A forecast that ignores the cash flow statement would miss this."
+        },
+        {
+          "heading": "What the model is used for",
+          "body_markdown": "- **Valuation inputs.** The model produces the cash flows, earnings and book values that feed discounted cash flow, residual income and earnings-multiple approaches (the valuation step itself is a separate topic).\n- **Scenario analysis.** Change several assumptions together, for example a recession case with much lower sales, and see how the whole set of statements responds. Because the cells are linked, one change ripples through everything.\n- **Sensitivity analysis.** Change *one* input at a time (sales ±10%, cost of goods sold +10%) and see how an output moves. This shows which assumptions deserve the most research effort.\n- **Reasonableness checks.** Compare implied market share, margins, returns on capital or financing needs with history, peers and common sense.\n- **Comparing views.** Set your forecast against management guidance or analyst consensus and understand why you differ.\n\nForecasts are never final. The first draft is revised repeatedly as assumptions are tested. Forecasts several years out are uncertain (even professional analysts show limited advantage over simple benchmarks at long horizons), so a range of scenarios is more honest than one precise number."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company had revenue of 800 (in millions) last year. An analyst forecasts revenue growth of 6%, cost of goods sold at 60% of revenue, operating expenses (SG&A) at 20% of revenue, interest expense of 10, and a tax rate of 25%. Forecast next year's net income.",
+        "steps": [
+          "Revenue = 800 × 1.06 = 848.0.",
+          "Cost of goods sold = 0.60 × 848.0 = 508.8, so gross profit = 848.0 − 508.8 = 339.2.",
+          "Operating expenses = 0.20 × 848.0 = 169.6, so operating income = 339.2 − 169.6 = 169.6.",
+          "Pre-tax income = 169.6 − 10 interest = 159.6.",
+          "Tax = 0.25 × 159.6 = 39.9, so net income = 159.6 − 39.9 = 119.7.",
+          "On the BA II Plus this is just chained arithmetic, for example 800 × 1.06 = 848, then 848 × 0.2 = 169.6, and 159.6 × 0.75 = 119.7. No TVM keys are needed. In a full model, the 119.7 would flow into retained earnings and the cash flow statement."
+        ],
+        "answer": "Forecast net income is about 119.7 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Revenue forecast from growth",
+          "latex": "R_t = R_{t-1}\\times(1+g_t)",
+          "where": "R_t is revenue in forecast year t, R_{t-1} is revenue in the prior year, g_t is the assumed revenue growth rate for year t."
+        },
+        {
+          "name": "Net income from operating income",
+          "latex": "NI = (EBIT - \\text{Interest})\\times(1-\\tau)",
+          "where": "NI is net income, EBIT is operating income, Interest is interest expense, and \\tau is the tax rate."
+        },
+        {
+          "name": "Balance sheet identity",
+          "latex": "A_t = L_t + E_t",
+          "where": "A_t is total assets, L_t is total liabilities and E_t is total equity at the end of forecast year t. It must hold every year."
+        },
+        {
+          "name": "Value as present value of forecast cash flows",
+          "latex": "V_0=\\sum_{t=1}^{n}\\frac{CF_t}{(1+r)^t}+\\frac{TV_n}{(1+r)^n}",
+          "where": "CF_t is the forecast cash flow in year t, r is the discount rate, TV_n is the terminal value at the end of year n, n is the explicit forecast horizon."
+        }
+      ],
+      "exam_traps": [
+        "Treating a forecast as a single point estimate to be 'right', instead of as a set of explicit assumptions tested with scenarios and sensitivities.",
+        "Mixing up scenario analysis (several inputs changed together into a coherent story) with sensitivity analysis (one input changed at a time).",
+        "Extrapolating a lumpy item such as one year's capital spending, instead of normalizing it, or ignoring working-capital investment that growth requires.",
+        "Assuming high revenue growth and a high or rising margin can be set independently, or forgetting to check that the projected dollar revenue is plausible relative to the market.",
+        "Forgetting that net income is not cash: a model that skips the cash flow statement and the balance sheet link can hide a cash shortfall."
+      ],
+      "builds_on": [
+        "Financial statement analysis and ratios",
+        "Common-size statements",
+        "Present value of cash flows"
+      ],
+      "leads_to": [
+        "Choosing a valuation model that fits the company",
+        "Estimating equity value from forecast outputs",
+        "Scenario and sensitivity analysis"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00113:3",
+        "os:principles-finance-2e:m00113:1.1",
+        "os:principles-finance-2e:m00117:4",
+        "os:principles-finance-2e:m00117:5",
+        "damodaran-valn2ed-ch11:1:0",
+        "damodaran-valn2ed-ch11:38:33",
+        "damodaran-valn2ed-ch10:13:12"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best explains why an analyst builds a full income statement, balance sheet and cash flow forecast instead of applying one growth rate to earnings?",
+        "options": [
+          {
+            "text": "It forces earnings, reinvestment and cash flow to rest on one consistent set of explicit assumptions.",
+            "value": null,
+            "explanation": "Correct. Linked statements show what must be true (sales, investment, financing) for the projected earnings and cash flows to occur."
+          },
+          {
+            "text": "It removes the need for judgment because the statements calculate themselves from past data.",
+            "value": null,
+            "explanation": "Wrong: the model still depends on subjective assumptions about growth, margins and investment. Believing historical data replace judgment is the mistake."
+          },
+          {
+            "text": "It guarantees forecasts are accurate because every line item is tied to a historical ratio.",
+            "value": null,
+            "explanation": "Wrong: using historical ratios does not guarantee accuracy, since relationships can change, especially over long horizons."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:1.1",
+          "damodaran-valn2ed-ch11:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst starts a revenue forecast with the total size of the industry's market and then applies an assumed market share for the company. This is best described as:",
+        "options": [
+          {
+            "text": "A bottom-up approach, because it ends with the company's revenue.",
+            "value": null,
+            "explanation": "Wrong: bottom-up starts from company-level drivers such as units, prices or segments. Judging by the end result instead of the starting point is the mistake."
+          },
+          {
+            "text": "A hybrid approach, because it uses two numbers.",
+            "value": null,
+            "explanation": "Wrong: a hybrid explicitly combines top-down and bottom-up views. Using two inputs within one top-down chain does not make it a hybrid."
+          },
+          {
+            "text": "A top-down approach, because it starts from the industry or economy and works down.",
+            "value": null,
+            "explanation": "Correct. Top-down begins with a macro or industry total and applies share assumptions to reach company revenue."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a typical forecast model, which item is usually forecast first because many other lines (cost of goods sold, receivables, inventory) are driven from it?",
+        "options": [
+          {
+            "text": "Ending cash balance",
+            "value": null,
+            "explanation": "Wrong: ending cash is a result of the cash flow statement and is forecast last. Cash is an output, not a driver."
+          },
+          {
+            "text": "Revenue",
+            "value": null,
+            "explanation": "Correct. Most costs, working-capital balances and investment needs are set relative to sales, so revenue comes first."
+          },
+          {
+            "text": "Retained earnings",
+            "value": null,
+            "explanation": "Wrong: retained earnings come from forecast net income and dividends, so they are derived late in the model."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3",
+          "damodaran-valn2ed-ch11:38:33"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a forecast model, the forecast balance sheet fails to balance in year 3 even though the income statement and cash flow statement look reasonable. The most likely cause is:",
+        "options": [
+          {
+            "text": "The tax rate was set lower than the historical average.",
+            "value": null,
+            "explanation": "Wrong: a different tax rate changes net income, but if the statements are properly linked the balance sheet would still balance."
+          },
+          {
+            "text": "Revenue growth was set too high for the size of the market.",
+            "value": null,
+            "explanation": "Wrong: an aggressive growth assumption is a reasonableness problem, not a balancing error."
+          },
+          {
+            "text": "A broken link, such as net income not flowing to retained earnings or cash flow not feeding balance sheet cash.",
+            "value": null,
+            "explanation": "Correct. When the statements are properly linked, the balance sheet identity holds; an imbalance points to a missing or mistaken link."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst raises forecast sales by 10% while holding every other assumption unchanged, to see how much forecast net income moves. This exercise is best described as:",
+        "options": [
+          {
+            "text": "Sensitivity analysis, because one input is changed to see its effect on an output.",
+            "value": null,
+            "explanation": "Correct. Changing a single driver identifies how much it matters, helping decide where research effort is worth spending."
+          },
+          {
+            "text": "Scenario analysis, because the sales assumption was changed.",
+            "value": null,
+            "explanation": "Wrong: a scenario changes a coherent set of inputs together (for example a recession with lower sales and lower costs), not one input alone."
+          },
+          {
+            "text": "Normalization, because the sales figure was adjusted.",
+            "value": null,
+            "explanation": "Wrong: normalization smooths unusual historical items, such as lumpy capital spending, and is not a what-if test of an input."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5",
+          "os:principles-finance-2e:m00117:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm completed a large new plant this year, so capital expenditures were unusually high. An analyst plans to forecast the next ten years of cash flow. Which treatment is most appropriate?",
+        "options": [
+          {
+            "text": "Extend this year's capital expenditure ratio to all future years, because it is the latest data.",
+            "value": null,
+            "explanation": "Wrong: extrapolating a lumpy, one-off peak understates future cash flow. Treating the latest year as typical is the mistake."
+          },
+          {
+            "text": "Set future capital expenditures to zero, because the plant has already been built.",
+            "value": null,
+            "explanation": "Wrong: growth and replacement still need investment; assuming zero overstates cash flow."
+          },
+          {
+            "text": "Normalize capital spending to a level consistent with expected growth and depreciation over the forecast period.",
+            "value": null,
+            "explanation": "Correct. Capital spending comes in chunks, so analysts smooth it to a sustainable level instead of copying one heavy or light year."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch10:13:12"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A forecast for a small, fast-growing firm assumes revenue growth of 40% a year for ten years, a rising operating margin, and an implied 95% share of a competitive market in year ten. What is the best response by the analyst?",
+        "options": [
+          {
+            "text": "Keep the forecast, because compounded growth of 40% looks modest on an annual basis.",
+            "value": null,
+            "explanation": "Wrong: 40% compounded over ten years is roughly a 40-fold increase, so it looks low per year but is huge in total."
+          },
+          {
+            "text": "Reassess the growth and margin assumptions, because the implied market share is implausible and faster growth usually comes with lower margins.",
+            "value": null,
+            "explanation": "Correct. The dollar revenue must be sanity-checked against the market, and growth and margin assumptions must be consistent with each other."
+          },
+          {
+            "text": "Keep the growth rate but cut the discount rate, so the value is unchanged.",
+            "value": null,
+            "explanation": "Wrong: the problem is in the operating forecast; changing the discount rate does not fix an implausible market share."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:38:33"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the core rationale for building a financial statement forecast model for valuation?",
+        "back": "Value depends on expected future cash flows and earnings, and a linked model projects them from explicit, consistent assumptions about growth, margins, investment and financing.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:1:0",
+          "os:principles-finance-2e:m00113:1.1"
+        ]
+      },
+      {
+        "front": "Top-down vs bottom-up revenue forecasting?",
+        "back": "Top-down starts from the economy or industry size and applies market share. Bottom-up builds from company-level drivers such as units, prices or segments and adds them up.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Scenario analysis vs sensitivity analysis?",
+        "back": "Scenario analysis changes several inputs together into a coherent case (for example a recession). Sensitivity analysis changes one input at a time to see how much an output moves.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:4",
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      {
+        "front": "How are the three statements linked in a forecast model?",
+        "back": "Net income flows into retained earnings. Net income, non-cash expenses and working-capital changes feed the cash flow statement. Ending cash feeds the balance sheet, which must balance each year.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:1.1"
+        ]
+      },
+      {
+        "front": "Why should lumpy capital expenditures be normalized in a forecast?",
+        "back": "Capital spending comes in chunks, so copying one heavy or light year would distort future cash flows. Smoothing gives a sustainable level consistent with growth and depreciation.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch10:13:12"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:01:42.849Z",
+      "purpose": "generate",
+      "losId": "equity-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9084,
+      "outputTokens": 8436,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.10368419999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

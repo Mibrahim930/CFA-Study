@@ -1,0 +1,876 @@
+{
+  "losId": "equity-07-los2",
+  "losText": "calculate and interpret price and enterprise value multiples, and describe their appropriate uses",
+  "moduleId": "equity-07",
+  "moduleTitle": "Relative Value Equity Valuation Approaches",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:23:15.919Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00067:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:6:5",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 6–7",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=6",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:48:37",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 48–50",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=48",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:46:35",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 46–47",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=46",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:2:1",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:3:3",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 3–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=3",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:55:41",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 55–56",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=55",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch20:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 20: Revenue Multiples and Sector-Specific Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch20.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Price Multiples and Enterprise Value Multiples: Building, Reading and Choosing Them",
+      "summary": "A multiple divides what the market pays for a business by something the business produces or owns, such as earnings, sales or book value. This lesson shows how to compute the main price and enterprise value multiples, what they say about a company, and when each one is the right tool.",
+      "sections": [
+        {
+          "heading": "A multiple is a price tag per unit of something",
+          "body_markdown": "Think of buying a house and quoting its price per square metre. A multiple does the same for a company: it divides a **value** by a **fundamental** (earnings, sales, book value, cash flow). A higher multiple means you pay more per unit of that fundamental.\n\nThere are two families:\n\n- **Price (equity) multiples** have the market value of the *equity* on top, either price per share or total market capitalization. Examples are P/E, P/B, P/S and P/CF.\n- **Enterprise value (EV) multiples** have the value of the *whole operating business* on top. Examples are EV/EBITDA, EV/EBIT and EV/Sales.\n\nA good multiple is **consistent**. If the top is an equity value, the bottom should belong to equity holders too (EPS, book value of common equity). If the top is a whole-firm value, the bottom should be a whole-firm measure (EBITDA, EBIT, sales). Sales and EBITDA are earned before lenders and shareholders are paid, so they pair with EV."
+        },
+        {
+          "heading": "The main price multiples and when they fit",
+          "body_markdown": "- **P/E** = price per share ÷ earnings per share (EPS). *Trailing* P/E uses EPS from the past year; *forward* (leading) P/E uses expected EPS for the coming year. In a period of rising earnings the forward P/E is the lowest of the two, so always check which EPS is being used. P/E is meaningless when EPS is negative. For firms with swinging profits, such as cyclical firms, analysts often use a normalized EPS.\n- **P/B** = price per share ÷ book value of common equity per share. Preferred equity is removed from book equity because the price refers to common shares only. It suits firms whose value comes mainly from assets on the balance sheet, such as banks. It is weak for service or technology firms that hold few tangible assets, and book value can turn negative after long losses.\n- **P/S** = price per share ÷ sales per share. Sales are positive even for loss-making or young firms and are harder to distort than earnings. The drawback is that sales ignore profitability.\n- **P/CF** = price per share ÷ cash flow per share. It helps when large non-cash charges such as depreciation make earnings look poor. Analysts pick a cash flow definition (operating cash flow, free cash flow to equity, or a simple earnings-plus-non-cash version) and must use it consistently.\n- **Dividend yield** = dividend per share ÷ price. It is mostly used to compare the cash return of a stock with other investments."
+        },
+        {
+          "heading": "Enterprise value: the price of the whole operating business",
+          "body_markdown": "Imagine buying a company outright. You pay the shareholders, you take over the debt, you must deal with preferred holders and outside owners of subsidiaries, and you get to keep the cash. That gives\n\n$$EV = \\text{market cap} + \\text{preferred} + \\text{debt} + \\text{noncontrolling interest} - \\text{cash and short-term investments}$$\n\nDebt and preferred should ideally be at market value; book value is a common stand-in. **Noncontrolling interest** is the part of consolidated subsidiaries owned by outside shareholders; it is added because the denominator (EBITDA, sales) includes 100% of those subsidiaries.\n\n**Why subtract cash?** EBITDA does not include the income earned on cash. Leaving cash in EV would load value into the numerator with no matching income in the denominator and inflate the multiple.\n\nThe most common EV multiple is **EV/EBITDA**. EBITDA (earnings before interest, taxes, depreciation and amortization) is a rough stand-in for operating cash flow. Because both parts are measured before payments to lenders, EV/EBITDA is not distorted by how much debt a firm uses. That makes it a good tool for comparing firms with different leverage, or capital-intensive firms with large depreciation. **EV/EBIT** is similar but charges depreciation, which is better when depreciation is a real economic cost. **EV/Sales** works when earnings are negative, with the same weakness as P/S."
+        },
+        {
+          "heading": "Reading a multiple without fooling yourself",
+          "body_markdown": "A low multiple versus peers is a *clue*, not a verdict. Multiples are driven by the same things that drive any valuation: expected growth, risk and how much cash the business can pay out. A firm with a lower multiple may simply grow more slowly or be riskier.\n\nOther cautions:\n\n- Packing a company into one number hides detail, and a multiple is a snapshot rather than a view of future growth.\n- Use several multiples and make sure everyone uses the same definition (trailing vs forward, how EV is built).\n- Accounting choices affect earnings and book value; sales are less exposed to them.\n- Cross-holdings can distort EV/EBITDA: the denominator may omit income from minority stakes that the numerator's value includes, or include 100% of a subsidiary the firm only partly owns."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has a share price of $40 and 50 million shares outstanding. Net income available to common shareholders is $150 million, book value of common equity is $500 million, and annual sales are $1,200 million. EBITDA is $300 million. The market value of debt is $400 million, preferred stock is $50 million, noncontrolling interest is $30 million, and cash plus short-term investments is $120 million. Compute P/E, P/B, P/S, EV, EV/EBITDA and EV/Sales.",
+        "steps": [
+          "EPS = net income to common ÷ shares = 150 ÷ 50 = $3.00. P/E = 40 ÷ 3.00 = 13.33x.",
+          "Book value per share = 500 ÷ 50 = $10.00. P/B = 40 ÷ 10 = 4.00x.",
+          "Market capitalization = 40 × 50 = $2,000 million. P/S = 2,000 ÷ 1,200 = 1.67x (the same as price per share ÷ sales per share of $24).",
+          "Enterprise value = 2,000 + 400 (debt) + 50 (preferred) + 30 (noncontrolling interest) − 120 (cash) = $2,360 million. BA II Plus keystrokes: 2000 + 400 + 50 + 30 − 120 = (shows 2,360).",
+          "EV/EBITDA = 2,360 ÷ 300: keystrokes 2360 ÷ 300 = gives 7.8667, so 7.87x.",
+          "EV/Sales = 2,360 ÷ 1,200: keystrokes 2360 ÷ 1200 = gives 1.9667, so 1.97x. Note it is higher than P/S because EV includes debt and other claims, net of cash."
+        ],
+        "answer": "P/E = 13.33x, P/B = 4.00x, P/S = 1.67x, EV = $2,360 million, EV/EBITDA = 7.87x, EV/Sales = 1.97x.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Price-to-earnings",
+          "latex": "\\frac{P}{E}=\\frac{P_0}{EPS}",
+          "where": "P_0 is the current price per share; EPS is earnings per share (trailing = past year, forward = expected next year)."
+        },
+        {
+          "name": "Price-to-book",
+          "latex": "\\frac{P}{B}=\\frac{P_0}{BVPS},\\quad BVPS=\\frac{\\text{common equity}}{\\text{shares outstanding}}",
+          "where": "P_0 is price per share; BVPS is book value of common equity per share (preferred equity excluded)."
+        },
+        {
+          "name": "Price-to-sales",
+          "latex": "\\frac{P}{S}=\\frac{P_0}{\\text{sales per share}}=\\frac{\\text{market cap}}{\\text{sales}}",
+          "where": "Sales per share is total sales divided by shares outstanding."
+        },
+        {
+          "name": "Price-to-cash-flow",
+          "latex": "\\frac{P}{CF}=\\frac{P_0}{\\text{cash flow per share}}",
+          "where": "Cash flow per share uses a stated definition of cash flow (operating, free cash flow to equity, etc.), applied consistently."
+        },
+        {
+          "name": "Dividend yield",
+          "latex": "\\text{Dividend yield}=\\frac{D}{P_0}",
+          "where": "D is dividends per share over the stated period; P_0 is price per share."
+        },
+        {
+          "name": "Enterprise value",
+          "latex": "EV=MC+Pref+Debt+NCI-Cash",
+          "where": "MC is market capitalization; Pref is preferred stock; Debt is debt (market value ideally); NCI is noncontrolling interest; Cash is cash and short-term investments."
+        },
+        {
+          "name": "EV/EBITDA",
+          "latex": "\\frac{EV}{EBITDA}",
+          "where": "EV is enterprise value; EBITDA is earnings before interest, taxes, depreciation and amortization."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting to subtract cash and short-term investments when building EV, or adding them instead.",
+        "Pairing an equity numerator with a whole-firm denominator (for example market cap ÷ EBITDA) and calling it EV/EBITDA.",
+        "Including preferred equity in book value when computing book value per share for P/B.",
+        "Treating a negative P/E as 'cheap'; with negative EPS the ratio has no useful meaning.",
+        "Comparing a forward P/E for one firm with a trailing P/E for another, or reading a lower multiple than peers as proof of undervaluation without considering growth and risk."
+      ],
+      "builds_on": [
+        "EPS and basic financial statement items",
+        "Capital structure: debt, preferred, noncontrolling interest",
+        "Dividend discount model intuition (growth, risk, payout)"
+      ],
+      "leads_to": [
+        "Method of comparables",
+        "Choosing a peer group",
+        "Trailing, current and forward multiples"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00067:2",
+        "os:principles-finance-2e:m00067:2.1",
+        "os:principles-finance-2e:m00067:2.2",
+        "damodaran-valn2ed-ch17:6:5",
+        "damodaran-valn2ed-ch17:2:2",
+        "damodaran-valn2ed-ch17:3:3",
+        "damodaran-valn2ed-ch18:46:35",
+        "damodaran-valn2ed-ch18:55:41",
+        "damodaran-valn2ed-ch19:2:1",
+        "damodaran-valn2ed-ch20:1:0"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company has a market value of common equity of $900 million, debt with a market value of $250 million, preferred stock with a market value of $40 million, no noncontrolling interest, and cash and short-term investments of $110 million. Enterprise value is the total market value of the firm's capital claims, net of cash. Its enterprise value is:",
+        "options": [
+          {
+            "text": "$1,190 million",
+            "value": null,
+            "explanation": "This leaves out the cash adjustment: 900 + 250 + 40 = 1,190. Enterprise value is net of cash and short-term investments, so cash must be subtracted."
+          },
+          {
+            "text": "$1,300 million",
+            "value": null,
+            "explanation": "This adds cash instead of subtracting it: 900 + 250 + 40 + 110 = 1,300. The sign on cash is wrong."
+          },
+          {
+            "text": "$1,080 million",
+            "value": null,
+            "explanation": "Correct. EV = 900 + 250 + 40 − 110 = 1,080. Cash is netted out because EBITDA and other operating earnings measures include no income from it, so counting it would overstate the multiple."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:6:5",
+          "damodaran-valn2ed-ch18:46:35"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): EV = 900 + 250 + 40 - 110 = 1,080 million. Recheck: 900+250=1,150; +40=1,190; -110=1,080. So C is correct (index 2)."
+          ]
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key (after repair). Solver chose A: EV = equity 900 + debt 250 + preferred 40 + noncontrolling interest 0 − cash 110 = 1,080. This is option C, since 900+250+40 = 1,190 before subtracting cash, and 1,190 − 110 = 1,080."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A stock trades at $54. Earnings per share over the past four quarters were $4.50 and analysts expect EPS of $5.40 over the next twelve months. The forward P/E ratio is closest to:",
+        "options": [
+          {
+            "text": "10.0x",
+            "value": null,
+            "explanation": "Correct. Forward P/E uses expected EPS: 54 ÷ 5.40 = 10.0x."
+          },
+          {
+            "text": "12.0x",
+            "value": null,
+            "explanation": "This uses trailing EPS: 54 ÷ 4.50 = 12.0x, which is the trailing P/E, not the forward P/E."
+          },
+          {
+            "text": "10.9x",
+            "value": null,
+            "explanation": "This averages the two EPS figures (4.95) and divides: 54 ÷ 4.95 = 10.9x. Forward P/E uses only the expected EPS."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:2:2",
+          "damodaran-valn2ed-ch17:6:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's total book equity is $1,000 million, which includes $150 million of preferred stock. It has 50 million common shares outstanding, and the share price is $22. The price-to-book ratio, rounded to two decimals, is closest to:",
+        "options": [
+          {
+            "text": "1.10x",
+            "value": null,
+            "explanation": "This leaves preferred equity in book value: 1,000 ÷ 50 = $20 per share, and 22 ÷ 20 = 1.10x. The price refers to common shares only."
+          },
+          {
+            "text": "1.29x",
+            "value": null,
+            "explanation": "Correct. Common equity = 1,000 − 150 = 850; BVPS = 850 ÷ 50 = $17.00; P/B = 22 ÷ 17 = 1.29x."
+          },
+          {
+            "text": "0.77x",
+            "value": null,
+            "explanation": "This inverts the ratio: 17 ÷ 22 = 0.77. P/B puts price on top and book value per share on the bottom."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch19:2:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst compares two firms in the same industry. Both have positive earnings, but one is financed mainly with debt and the other mainly with equity. Which multiple is best suited to limit the distortion from these financing differences?",
+        "options": [
+          {
+            "text": "P/E, because EPS is already reduced by interest and so adjusts for debt",
+            "value": null,
+            "explanation": "This confuses deducting interest with neutralizing leverage. EPS is after interest, so a heavily indebted firm's earnings and risk differ from the other firm's and P/E is affected by financing."
+          },
+          {
+            "text": "P/S, because sales are not affected by interest expense at all",
+            "value": null,
+            "explanation": "Sales are unaffected by interest, but price is an equity value and sales are a whole-firm measure, so the multiple is inconsistent and the debt level still distorts the price."
+          },
+          {
+            "text": "EV/EBITDA, because both parts are measured for the whole firm before financing",
+            "value": null,
+            "explanation": "Correct. EV covers debt and equity, and EBITDA is earned before interest, so the ratio is largely independent of the mix of debt and equity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:6:5",
+          "damodaran-valn2ed-ch18:46:35"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm holds a very large cash balance. When computing its EV/EBITDA, why should cash and short-term investments be subtracted in arriving at enterprise value?",
+        "options": [
+          {
+            "text": "EBITDA leaves out income earned on cash, so keeping cash in EV would overstate the multiple",
+            "value": null,
+            "explanation": "Correct. Value of the cash would sit in the numerator with no matching income in the denominator, inflating EV/EBITDA."
+          },
+          {
+            "text": "Cash is a claim of lenders on the firm, so it reduces what shareholders own",
+            "value": null,
+            "explanation": "This mistakes cash for a liability. Cash is an asset; it is netted because its income is not in EBITDA, not because someone has a claim on it."
+          },
+          {
+            "text": "EBITDA already includes interest income from cash, so it must be offset in EV",
+            "value": null,
+            "explanation": "EBITDA is before interest and excludes the return on cash. The statement reverses the reason for the adjustment."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch18:46:35"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A young technology company has negative earnings and negative operating cash flow, but its revenue is positive and growing. Which statement about using multiples to value it is most appropriate?",
+        "options": [
+          {
+            "text": "Its negative P/E signals that the stock is cheaper than profitable peers",
+            "value": null,
+            "explanation": "A negative P/E has no useful interpretation. Negative EPS makes the ratio meaningless rather than low."
+          },
+          {
+            "text": "A sales-based multiple such as EV/Sales can still be computed, though it ignores profitability",
+            "value": null,
+            "explanation": "Correct. Sales stay positive for loss-making firms and are harder to distort than earnings, so P/S or EV/Sales can be used, with the caveat that margins are ignored."
+          },
+          {
+            "text": "P/B is dependable because book value stays positive for firms that lose money",
+            "value": null,
+            "explanation": "Book equity can turn negative after sustained losses, and it says little for firms with few tangible assets, so P/B can be unusable here."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch20:1:0",
+          "os:principles-finance-2e:m00067:2.1",
+          "damodaran-valn2ed-ch19:2:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Firm X has a market capitalization of $1,500 million, debt of $600 million, no preferred stock or noncontrolling interest, cash and short-term investments of $100 million, and EBITDA of $280 million. The median EV/EBITDA of its close peers is 8.0x. Which statement is most appropriate (round the multiple to two decimals)?",
+        "options": [
+          {
+            "text": "The multiple is 7.14x, below the 8.0x peer median, so the shares are certainly undervalued.",
+            "value": null,
+            "explanation": "The multiple is right (EV = 1,500 + 600 − 100 = 2,000; 2,000 ÷ 280 = 7.14x), but the conclusion is too strong. A lower multiple can reflect slower growth or higher risk."
+          },
+          {
+            "text": "The multiple is 5.36x, below the 8.0x peer median, so the shares are certainly undervalued.",
+            "value": null,
+            "explanation": "This divides market cap alone by EBITDA (1,500 ÷ 280 = 5.36x), an equity numerator over a whole-firm denominator, and then over-reads the result."
+          },
+          {
+            "text": "The multiple is 7.14x, below the peer median, which may reflect lower growth or higher risk rather than mispricing.",
+            "value": null,
+            "explanation": "Correct. EV = 2,000 and 2,000 ÷ 280 = 7.14x. A discount to peers is a starting point; multiples depend on growth, risk and cash flow, so fundamentals must be compared before calling the stock cheap."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch18:55:41",
+          "damodaran-valn2ed-ch18:46:35",
+          "damodaran-valn2ed-ch17:6:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is enterprise value (EV) built from market capitalization?",
+        "back": "EV = market cap + preferred stock + debt + noncontrolling interest − cash and short-term investments.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:6:5",
+          "damodaran-valn2ed-ch18:46:35"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why is cash subtracted from EV before dividing by EBITDA?",
+        "back": "EBITDA does not include income from cash, so leaving cash in EV would inflate the multiple.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch18:46:35"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Trailing vs forward P/E: what is the difference, and which is lower when earnings are rising?",
+        "back": "Trailing P/E uses EPS from the past year; forward P/E uses expected EPS for the next year. With rising earnings, forward P/E is lower.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:2:2",
+          "damodaran-valn2ed-ch17:6:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why is EV/EBITDA better than P/E for comparing firms with different debt levels?",
+        "back": "EV and EBITDA both describe the whole firm before financing payments, so leverage distorts the ratio far less than it distorts P/E.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:6:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What are the main strength and weakness of P/S and EV/Sales?",
+        "back": "Strength: sales are positive for loss-making firms and hard to manipulate. Weakness: they ignore profitability and cost differences.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch20:1:0",
+          "damodaran-valn2ed-ch17:3:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:22:54.479Z",
+      "purpose": "blind-solve",
+      "losId": "equity-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1044,
+      "outputTokens": 576,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007965,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:23:04.110Z",
+      "purpose": "repair",
+      "losId": "equity-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10522,
+      "outputTokens": 1074,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.032728,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:23:07.678Z",
+      "purpose": "blind-solve",
+      "losId": "equity-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 148,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001693,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:23:15.918Z",
+      "purpose": "grounding",
+      "losId": "equity-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 15110,
+      "outputTokens": 1223,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.042619199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0850052
+}

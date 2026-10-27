@@ -1,0 +1,423 @@
+{
+  "losId": "equity-01-los2",
+  "losText": "contrast features of publicly listed versus private equity securities",
+  "moduleId": "equity-01",
+  "moduleTitle": "Equity Instrument Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:37:05.693Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 1–4",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.29
+    },
+    {
+      "id": "flatworld-finance-for-managers:153:106",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 153–154",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=153",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.27
+    },
+    {
+      "id": "os:principles-economics-3e:m63861:4.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§17.1 How Businesses Raise Financial Capital — Corporate Stock and Public Firms",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/17-1-how-businesses-raise-financial-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.2
+    },
+    {
+      "id": "flatworld-finance-for-managers:249:173",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 249–250",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=249",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00006:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.5 Markets and Participants — Primary and Secondary Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-5-markets-and-participants",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63861:4",
+      "title": "Principles of Economics 3e",
+      "locator": "§17.1 How Businesses Raise Financial Capital — Corporate Stock and Public Firms",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/17-1-how-businesses-raise-financial-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — Oversight: Corporate Governance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-for-managers:129:88",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 129–130",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=129",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Listed Shares vs Private Equity: Who Can Trade, Who Can See, Who Pays",
+      "summary": "Equity that trades on an exchange and equity in a company with no public listing differ in how easily they can be sold, how their value is found, how much the company must disclose, and who the investors are. Knowing these differences helps you judge why private equity investors ask for extra return and why companies choose to go public.",
+      "sections": [
+        {
+          "heading": "Two ways to own a company",
+          "body_markdown": "**Equity** is an ownership claim on a company. A **publicly listed** (public) equity security is one whose shares are admitted to trade on an exchange or in an over-the-counter dealer market. Anyone with a brokerage account can, in principle, buy or sell them. **Private equity** is ownership in a company whose shares are *not* listed. It is usually sold directly to a limited set of investors through private deals rather than to the general public.\n\nAnalogy: a listed share is like a popular product on a big online marketplace, with many buyers, many sellers and a visible price. A private equity stake is like a one-off piece of custom furniture. You can still sell it, but you must find a specific buyer and agree on a price."
+        },
+        {
+          "heading": "Liquidity and price discovery",
+          "body_markdown": "**Liquidity** means how quickly and cheaply you can turn an asset into cash without moving its price. Listed shares trade in a **secondary market** (investors trading with other investors), so you can usually sell within seconds at a quoted price. The company itself receives no cash from these later trades. Only the seller is paid.\n\nPrivate equity is **illiquid**. There is no continuous market, and investors are often locked in for years. Because there are no frequent trades, the value must be **estimated** (for example from comparable companies or negotiated deals), and estimates can be wrong or stale. Listed shares have **price transparency**: the market price is public and updated constantly."
+        },
+        {
+          "heading": "Disclosure, regulation and cost",
+          "body_markdown": "A listed company must follow securities-regulator and exchange rules. It publishes regular financial reports, keeps a board with oversight duties, and discloses material news. This protects outside investors but is **costly**, and an IPO itself carries large fees.\n\nA private company faces far lighter public reporting duties. It shares detailed information only with its own investors, often under negotiated agreements. Managers can therefore plan for the long term without constant public scrutiny, but outside investors get less information and must do thorough **due diligence** (their own investigation before investing)."
+        },
+        {
+          "heading": "Investors, deal terms and exits",
+          "body_markdown": "Listed shares are held by a huge, diverse crowd, from individuals to pension funds. Each holder is usually a small minority with standardized rights, such as one vote per share for a given class.\n\nPrivate equity is typically held by institutions and wealthy investors who negotiate their terms. They often get board seats or special rights, and they may take an active role in running the business. **Venture capital** is private equity put into young, growing companies. A related form, the leveraged buyout, uses borrowed money to purchase a mature company. Both are covered in later modules.\n\nThe typical **exit** (way to cash out) for a private equity investor is either an **initial public offering (IPO)**, where the company lists its shares for the first time, or a sale of the company to another buyer. Going public makes exits and future share sales easier. In exchange, the company accepts regulation and reporting costs.\n\nBecause investors in private equity bear illiquidity, hard valuation and limited information, they generally demand a higher expected return as compensation."
+        }
+      ],
+      "worked_example": {
+        "problem": "Brightfield Labs is a profitable, fast-growing software company owned by its founders and a venture capital fund. The founders are weighing whether to list on an exchange next year. List one benefit and one cost of listing, and explain why the venture fund would likely welcome the listing.",
+        "steps": [
+          "1. Identify the starting point: Brightfield's shares are private equity. They have no market price and cannot be sold easily.",
+          "2. Benefit of listing: after the IPO the shares trade in a secondary market. Shareholders gain liquidity, and the company finds it easier to raise more equity later.",
+          "3. Cost of listing: the company must meet continuing disclosure and regulatory requirements, and the IPO itself is expensive (underwriting and compliance costs).",
+          "4. Venture fund's view: a fund has a limited life and needs to turn its stake into cash. A listed share can be sold on an exchange, though funds are often subject to a required holding period after the IPO.",
+          "5. Summarize: listing trades privacy and low compliance cost for liquidity, a visible market price and wider access to capital."
+        ],
+        "answer": "Benefit: liquidity and easier access to capital. Cost: ongoing disclosure, regulation and IPO expense. The venture fund welcomes listing because it creates a practical way to exit its investment.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Thinking the company receives cash whenever its listed shares trade. Only the IPO or a later new issue sends money to the company. Ordinary trades pay the selling shareholder.",
+        "Assuming private equity has a market price. Private equity values are estimates or negotiated prices, not continuously observed quotes.",
+        "Mixing up which side has heavier reporting. Listed companies carry the heavier ongoing disclosure and regulatory burden, and private companies the lighter one.",
+        "Believing 'private' means small. Some very large companies are privately held, so size does not decide whether equity is public or private.",
+        "Confusing the illiquidity premium with a guaranteed higher return. Private equity investors demand higher expected returns as compensation for illiquidity and valuation difficulty. Actual results are not guaranteed."
+      ],
+      "builds_on": [
+        "What equity represents (ownership claim)",
+        "Primary vs secondary markets",
+        "Liquidity"
+      ],
+      "leads_to": [
+        "Venture capital and leveraged buyouts",
+        "Equity valuation approaches",
+        "Initial public offerings"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec07:1:0",
+        "flatworld-finance-for-managers:129:88",
+        "flatworld-finance-for-managers:249:173",
+        "os:principles-economics-3e:m63861:4.1",
+        "os:principles-finance-2e:m00006:0",
+        "os:principles-finance-2e:m00073:2.2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement correctly contrasts price information for publicly listed equity and for private equity?",
+        "options": [
+          {
+            "text": "Private equity trades continuously, so its price is visible, while listed shares must be appraised periodically.",
+            "value": null,
+            "explanation": "Reverses the two. It is listed shares that trade continuously with visible prices."
+          },
+          {
+            "text": "Listed and private equity are both valued from continuously quoted market prices that anyone can see.",
+            "value": null,
+            "explanation": "Wrongly assumes private equity has quoted prices. Without regular trading, its value has to be estimated."
+          },
+          {
+            "text": "Listed shares have publicly observable market prices, while private equity values must be estimated or negotiated.",
+            "value": null,
+            "explanation": "Correct. Exchange trading creates a visible price, but private stakes rarely trade, so value is estimated or negotiated."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:129:88"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Compared with publicly listed equity, which feature is most typical of private equity?",
+        "options": [
+          {
+            "text": "Lower liquidity, because there is no active secondary market for the shares.",
+            "value": null,
+            "explanation": "Correct. Private stakes cannot be sold quickly at a quoted price, and some investments lock investors in for years."
+          },
+          {
+            "text": "Higher liquidity, because investors can sell at any time on an exchange.",
+            "value": null,
+            "explanation": "Describes listed shares, not private equity."
+          },
+          {
+            "text": "Stricter ongoing public reporting, because regulators demand quarterly disclosure.",
+            "value": null,
+            "explanation": "Mixes up the two. Public reporting duties are heavier for listed companies."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:129:88"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys 500 shares of an exchange-listed company from another investor through a broker. Who receives the purchase money?",
+        "options": [
+          {
+            "text": "The company, because it issued the shares in the first place.",
+            "value": null,
+            "explanation": "Confuses a secondary-market trade with a new issue. The company is paid only when it sells new shares."
+          },
+          {
+            "text": "The selling investor, because the trade happened in the secondary market.",
+            "value": null,
+            "explanation": "Correct. In a secondary trade the shares change hands between investors and the company gets nothing."
+          },
+          {
+            "text": "The exchange, because it owns the shares being traded.",
+            "value": null,
+            "explanation": "An exchange provides the trading venue and does not own the shares traded on it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "os:principles-economics-3e:m63861:4.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why do investors in private equity usually require a higher expected return than investors in comparable listed equity?",
+        "options": [
+          {
+            "text": "Private equity is always less risky in terms of business operations, so the extra return is a bonus.",
+            "value": null,
+            "explanation": "Unsupported claim. The extra return compensates for disadvantages, not for lower risk."
+          },
+          {
+            "text": "Private equity companies are legally barred from paying dividends or growing, so returns come only from sale.",
+            "value": null,
+            "explanation": "No such blanket bar exists. This invents a rule that does not apply to private equity."
+          },
+          {
+            "text": "Private equity is hard to sell quickly and hard to value, and investors usually get less information.",
+            "value": null,
+            "explanation": "Correct. Illiquidity, valuation uncertainty and limited disclosure are costs that investors expect to be compensated for."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:129:88",
+          "flatworld-finance-for-managers:249:173"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which is a typical way for a venture capital firm to exit an investment in a private company?",
+        "options": [
+          {
+            "text": "The firm places a sell order on an exchange, where the private shares are already trading.",
+            "value": null,
+            "explanation": "Private shares are not listed, so there is no exchange order to place."
+          },
+          {
+            "text": "The company goes public in an IPO, or the company is sold to another buyer.",
+            "value": null,
+            "explanation": "Correct. Listing the company or selling it outright are the standard ways to turn a private stake into cash."
+          },
+          {
+            "text": "The firm redeems its shares at any time at a published daily price set by the company.",
+            "value": null,
+            "explanation": "Private shares do not carry a published daily redemption price. Investors are often locked in."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:249:173",
+          "os:principles-economics-3e:m63861:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A private company's owners are considering an IPO. Which of the following is the most likely drawback of becoming publicly listed?",
+        "options": [
+          {
+            "text": "Early investors find it harder to sell their ownership stakes.",
+            "value": null,
+            "explanation": "Reversed. Listing generally makes exits easier, although a required holding period may apply at first."
+          },
+          {
+            "text": "The company loses access to additional equity financing from outside investors.",
+            "value": null,
+            "explanation": "Also reversed. A listing usually widens the pool of potential investors and eases later share issuance."
+          },
+          {
+            "text": "The company takes on continuing disclosure, regulatory compliance and listing costs.",
+            "value": null,
+            "explanation": "Correct. Regular reporting and regulatory requirements, plus the cost of the IPO itself, are the main drawbacks."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:249:173",
+          "os:principles-finance-2e:m00073:2.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which description best fits a typical investor in a private equity stake compared with a typical investor in a listed company's shares?",
+        "options": [
+          {
+            "text": "A small, anonymous holder with standardized rights and no ability to negotiate.",
+            "value": null,
+            "explanation": "Describes the typical listed-share holder, not a private equity investor."
+          },
+          {
+            "text": "A holder who is barred from receiving any information about the company's finances.",
+            "value": null,
+            "explanation": "Private equity investors usually do receive detailed information and often do thorough due diligence."
+          },
+          {
+            "text": "A larger investor who may negotiate terms and take an active role in the company.",
+            "value": null,
+            "explanation": "Correct. Private equity investors are often institutions or wealthy individuals who negotiate rights and may influence management."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:249:173",
+          "mit-ocw-15401-lec07:1:0"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the key difference in liquidity between publicly listed equity and private equity?",
+        "back": "Listed equity trades in an active secondary market, so it can usually be sold quickly at a visible price. Private equity is illiquid, with no regular market and often long lock-ups.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:129:88"
+        ]
+      },
+      {
+        "front": "How is value determined for listed shares versus private equity?",
+        "back": "Listed shares: observable market price from continuous trading. Private equity: estimated or negotiated, because trades are rare.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:129:88"
+        ]
+      },
+      {
+        "front": "Which type of company carries heavier ongoing disclosure and regulatory costs, and why?",
+        "back": "The publicly listed company. Exchange and regulator rules require regular reports and disclosure to protect outside investors. Private firms mainly report to their own investors.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:249:173"
+        ]
+      },
+      {
+        "front": "What are the two usual exit routes for a private equity investor?",
+        "back": "An IPO, which lists the company's shares, or a sale of the company to another buyer.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:249:173",
+          "os:principles-economics-3e:m63861:4"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:37:05.693Z",
+      "purpose": "generate",
+      "losId": "equity-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9883,
+      "outputTokens": 6930,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.0902222,
+      "stopReason": "end_turn"
+    }
+  ]
+}

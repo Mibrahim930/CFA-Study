@@ -1,0 +1,765 @@
+{
+  "losId": "equity-02-los2",
+  "losText": "describe the voting process and roles of the issuer's management, board, proxy advisors, asset managers, and asset owners in the process",
+  "moduleId": "equity-02",
+  "moduleTitle": "Equity Jurisdictions, Classes, and the Voting Process",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:18:20.241Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00012:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.2 Relationship between Shareholders and Company Management — Shareholders’ Roles and Composition",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-2-relationship-between-shareholders-and-company-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "russell-us-indexes-methodology:15:17",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 15–16",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=15",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "russell-us-indexes-methodology:16:18",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 16–17",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=16",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "cfr-17-240-12b-2:6:11",
+      "title": "17 CFR 240.12b-2 Definitions, including public float and affiliate (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 6",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-12b-2.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — Role of the Board of Directors",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63903:0.3",
+      "title": "Principles of Economics 3e",
+      "locator": "§18.1 Voter Participation and Costs of Elections — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/18-1-voter-participation-and-costs-of-elections",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63903:0",
+      "title": "Principles of Economics 3e",
+      "locator": "§18.1 Voter Participation and Costs of Elections — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/18-1-voter-participation-and-costs-of-elections",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "cfr-17-240-12b-2:8:15",
+      "title": "17 CFR 240.12b-2 Definitions, including public float and affiliate (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 8",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-12b-2.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — The Importance of Independence in Boards of Directors",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-introduction-to-business:643:607",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 643–645",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=643",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00034:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.4 The Statement of Owner’s Equity — What Is Equity?",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-4-the-statement-of-owner-s-equity",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:1.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — Oversight: Corporate Governance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Shareholder Votes Work and Who Does What",
+      "summary": "Owning shares usually gives you a say on big company decisions, but the vote passes through several hands: the company's management and board, the investment firms that hold shares for clients, the research firms that advise them, and the ultimate owners of the money. Knowing who does what helps you judge how well shareholders' wishes actually reach the company.",
+      "sections": [
+        {
+          "heading": "The basic mechanics of a shareholder vote",
+          "body_markdown": "A **shareholder meeting** is where owners vote on company matters. The yearly one is the **annual general meeting (AGM)**. A company can also call an **extraordinary (special) general meeting** between AGMs for something urgent, such as a merger.\n\nBefore the meeting, the company sets a **record date**. Only holders on that date are entitled to vote, much like a club closing its membership list before an election. The company then sends a notice and a **proxy statement**, which describes each item to be voted on and the board's recommendation.\n\nMost shareholders never attend. They vote by **proxy**: they authorize someone else, or submit a ballot (paper or electronic), to cast their votes as instructed. The vote totals are then tallied against the rules for each item."
+        },
+        {
+          "heading": "What gets voted on",
+          "body_markdown": "Items fall into two broad groups.\n\n- **Routine items**: electing directors, appointing the auditor, approving the financial statements and dividend, and an advisory vote on executive pay (often called *say on pay*). Say-on-pay votes are usually non-binding. They send a signal rather than force a change.\n- **Non-routine or structural items**: mergers and acquisitions, changes to the company's charter or bylaws, issuing a large number of new shares, new equity compensation plans, and takeover defenses. These change the shareholders' stake, so they often need a higher approval threshold.\n\nProposals can come from **management/the board** or from **shareholders** (a *shareholder proposal*), for example a request for more climate disclosure. In a **proxy contest**, a dissident investor campaigns to win votes for its own director candidates against the company's slate."
+        },
+        {
+          "heading": "The company side: management and the board",
+          "body_markdown": "**Management** (the CEO and senior executives) runs the business day to day. It prepares the information shareholders need, helps draft the proxy materials, and often lobbies investors to support the board's recommendations. Management has a built-in conflict on matters such as its own pay or takeover defenses.\n\nThe **board of directors** is elected by shareholders to oversee management and act as a fiduciary for shareholders (someone legally bound to put another party's interests first). The board approves what goes on the ballot, usually nominates director candidates (often through a nominating committee), and recommends how to vote. **Independent directors**, who have no material ties to the company beyond their board role, are meant to keep these recommendations objective rather than serving management."
+        },
+        {
+          "heading": "The investor side: asset owners, asset managers and proxy advisors",
+          "body_markdown": "**Asset owners** are the institutions that ultimately own the money: pension funds, endowments, insurers, sovereign wealth funds. They have the legal right to the shares' value and the vote. They usually set stewardship and voting expectations, delegate the mandate to managers, and monitor how votes are cast.\n\n**Asset managers** are the investment firms that run portfolios for asset owners (and for retail funds). In practice they often hold the voting authority and cast the votes, following their own voting policy. They must act in their clients' best interests. They may also engage directly with the company's board and management before a vote.\n\n**Proxy advisors** are research firms that analyze ballot items and give voting recommendations to institutional investors. Many will also carry out the voting administration. They save managers time across thousands of meetings. Criticisms are that managers may lean on them too heavily, that standard policies may not fit each company, and that advisors can have conflicts of interest (for example, if they also advise companies on governance). A manager that uses a proxy advisor still remains responsible for its voting decisions.\n\nA practical wrinkle: shares that are **lent out** (securities lending) carry their votes to the borrower, so a lender who wants to vote must recall the shares before the record date."
+        }
+      ],
+      "worked_example": {
+        "problem": "A pension fund (asset owner) hires an asset manager to run its US equity portfolio. The fund's policy says the manager should vote in the long-term interest of beneficiaries. Company Z announces an AGM with three items: (1) elect directors, (2) an advisory vote on executive pay, (3) a proposed merger with a rival, which needs shareholder approval. The manager holds 2 million Z shares for the fund, and 1 million of them are on loan to a hedge fund. Trace how the vote should proceed.",
+        "steps": [
+          "Identify the process: the board has set the agenda and a record date, and management has sent the proxy statement describing all three items.",
+          "Item 3 (merger) is non-routine and needs shareholder approval, so it deserves the most careful analysis. Items 1 and 2 are routine, and item 2 is advisory only.",
+          "Check the share position: the 1 million lent shares have transferred their votes to the borrower. To vote them, the manager would have to recall them before the record date; otherwise it votes only 1 million shares.",
+          "The manager reads the proxy statement, may use a proxy advisor's research and recommendations as an input, and may engage with Z's board or management about the merger terms.",
+          "The manager decides, under its own voting policy and its duty to the pension fund, how to vote each item. The proxy advisor's view informs the decision but does not transfer responsibility.",
+          "The manager submits the proxy ballot, and the pension fund (asset owner) later reviews a voting report to check the votes fit its stewardship expectations."
+        ],
+        "answer": "The manager votes only the shares it still controls on the record date (1 million, unless it recalls the loaned shares). It decides using its own policy with the proxy advisor's research as an input, and it remains accountable to the pension fund for the result.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating the proxy advisor as the decision-maker. Advisors recommend; the asset manager (or owner) that holds voting authority is accountable for the vote.",
+        "Confusing the asset owner with the asset manager. The owner holds the money and sets expectations; the manager usually executes the vote on the owner's behalf.",
+        "Assuming a lender of securities keeps the voting right. Loaned shares' votes go to the borrower unless the shares are recalled before the record date.",
+        "Assuming every shareholder vote is binding. Advisory votes such as say on pay are typically non-binding signals.",
+        "Believing that whoever buys shares after the record date can vote at that meeting. Voting entitlement is fixed on the record date."
+      ],
+      "builds_on": [
+        "Common vs preferred shares and voting rights",
+        "Corporate governance and the role of the board",
+        "Fiduciary duty"
+      ],
+      "leads_to": [
+        "Shareholder engagement and stewardship",
+        "Takeover defenses and corporate actions",
+        "Equity classes and dual-class structures"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00012:1",
+        "os:principles-finance-2e:m00013:4",
+        "os:principles-finance-2e:m00013:2"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company sets a record date three weeks before its annual general meeting. Which investor is entitled to vote at that meeting?",
+        "options": [
+          {
+            "text": "The investor who buys shares one week before the meeting",
+            "value": null,
+            "explanation": "Mistake: assuming ownership at the meeting date decides voting. Entitlement is fixed on the record date, which is earlier than this purchase."
+          },
+          {
+            "text": "The investor who holds shares on the record date",
+            "value": null,
+            "explanation": "Correct: the record date fixes the list of holders entitled to vote, even if they later sell before the meeting."
+          },
+          {
+            "text": "The investor who attends the meeting in person",
+            "value": null,
+            "explanation": "Mistake: believing physical attendance confers voting rights. Attendance is not required; proxy voting is common, and entitlement still depends on the record date."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the board of directors' role in the voting process?",
+        "options": [
+          {
+            "text": "It is elected by shareholders, oversees management, and typically approves the agenda and recommends how to vote",
+            "value": null,
+            "explanation": "Correct: directors are elected by shareholders and act as fiduciaries; they typically approve ballot items and make voting recommendations."
+          },
+          {
+            "text": "It owns the company's shares and casts the votes for all holders",
+            "value": null,
+            "explanation": "Mistake: confusing the board with shareholders or asset owners. Directors are overseers, not the owners whose votes are counted."
+          },
+          {
+            "text": "It supplies independent research to investors on how to vote",
+            "value": null,
+            "explanation": "Mistake: confusing the board with a proxy advisor. The board is part of the company, not an independent research provider."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00013:4",
+          "os:principles-finance-2e:m00012:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "What is the primary service a proxy advisor provides?",
+        "options": [
+          {
+            "text": "It nominates director candidates for the company's slate",
+            "value": null,
+            "explanation": "Mistake: confusing the advisor with the board's nominating process. Proxy advisors do not nominate the company's candidates."
+          },
+          {
+            "text": "It manages portfolios and holds shares for pension funds",
+            "value": null,
+            "explanation": "Mistake: confusing advisor with asset manager. Proxy advisors do not manage client money."
+          },
+          {
+            "text": "It researches ballot items and gives voting recommendations to institutional investors",
+            "value": null,
+            "explanation": "Correct: proxy advisors analyze proposals and provide recommendations (and often voting administration) to investors who vote many meetings."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A pension fund hires an external firm to run its equity portfolio and delegates voting authority to that firm. Which party normally casts the votes, and to whom is that party accountable?",
+        "options": [
+          {
+            "text": "The pension fund casts them, and it is accountable to the issuer's management",
+            "value": null,
+            "explanation": "Mistake: ignoring the delegation and reversing the accountability. Votes are not owed to the issuer's management."
+          },
+          {
+            "text": "The asset manager casts them, and it is accountable to the pension fund and its beneficiaries",
+            "value": null,
+            "explanation": "Correct: when voting is delegated, the manager votes under its policy and duty to act in its client's interest, and the asset owner monitors the result."
+          },
+          {
+            "text": "The proxy advisor casts them, and it is accountable to the issuer's board",
+            "value": null,
+            "explanation": "Mistake: treating a proxy advisor as the voting decision-maker. Advisors inform the vote; they are not accountable to the board."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which proposal is most likely to be classed as non-routine and to need a shareholder vote, possibly with a higher approval threshold?",
+        "options": [
+          {
+            "text": "Appointing the external auditor for the coming year",
+            "value": null,
+            "explanation": "Mistake: auditor appointment is a standard routine item at the AGM."
+          },
+          {
+            "text": "Approving the annual financial statements",
+            "value": null,
+            "explanation": "Mistake: financial statement approval is a routine annual item, not a structural change."
+          },
+          {
+            "text": "Approving a merger that would change the shareholders' ownership stakes",
+            "value": null,
+            "explanation": "Correct: mergers and other structural changes affect the value and stake of every holder, so they are non-routine and often need a higher threshold."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An asset manager lends half of its holding in a company to a short seller through a securities lending program. The record date is next week and the manager wants to vote all of its shares on a contentious proposal. What must it do?",
+        "options": [
+          {
+            "text": "Recall the loaned shares before the record date",
+            "value": null,
+            "explanation": "Correct: the borrower gets the votes on loaned shares, so the lender must recall them in time to be a holder on the record date."
+          },
+          {
+            "text": "Nothing, because the lender always keeps votes on loaned shares",
+            "value": null,
+            "explanation": "Mistake: assuming voting rights stay with the lender. They transfer to the borrower with the shares."
+          },
+          {
+            "text": "Ask the proxy advisor to vote the loaned shares on its behalf",
+            "value": null,
+            "explanation": "Mistake: believing a proxy advisor can vote shares the manager no longer controls. Only the holder of record can authorize those votes."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An asset manager automatically follows its proxy advisor's recommendation on every ballot item without independent review. The advisor's recommendation on a merger turns out to be poorly suited to the client's long-term interests. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "The proxy advisor bears sole responsibility, because it made the recommendation",
+            "value": null,
+            "explanation": "Mistake: assuming outsourcing research transfers accountability. The advisor only recommends; it does not hold voting authority."
+          },
+          {
+            "text": "The asset manager remains responsible, because voting authority and its duty to the client stay with the manager",
+            "value": null,
+            "explanation": "Correct: the manager may use an advisor's research but cannot shed its duty. Blind reliance is exactly the weakness critics raise."
+          },
+          {
+            "text": "The issuer's board is responsible, because it put the merger on the ballot",
+            "value": null,
+            "explanation": "Mistake: confusing the board's role in proposing an item with the investor's responsibility for how it votes its client's shares."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a proxy in a shareholder vote?",
+        "back": "An authorization (or ballot) that lets someone else, or a submitted instruction, cast a shareholder's votes when the holder does not attend the meeting.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Who are asset owners, and how do they differ from asset managers?",
+        "back": "Asset owners (pension funds, endowments, insurers, sovereign funds) own the money and set stewardship expectations. Asset managers run the portfolios and usually cast the votes on their behalf.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What do proxy advisors do, and what is the main criticism of them?",
+        "back": "They research ballot items and give voting recommendations to institutional investors. Critics cite over-reliance, one-size-fits-all policies, and possible conflicts of interest.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why does the record date matter?",
+        "back": "It fixes who is entitled to vote at the meeting. Holders on that date vote; later buyers do not, and lenders must recall loaned shares before it.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What is the board's role in a shareholder vote?",
+        "back": "Elected by shareholders to oversee management as a fiduciary, the board approves the agenda, usually nominates directors, and recommends how to vote.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00013:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "5/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:18:12.017Z",
+      "purpose": "blind-solve",
+      "losId": "equity-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 877,
+      "outputTokens": 512,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006991,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:18:20.241Z",
+      "purpose": "grounding",
+      "losId": "equity-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11937,
+      "outputTokens": 1260,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.036643199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.04363419999999999
+}

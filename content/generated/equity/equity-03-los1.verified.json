@@ -1,0 +1,767 @@
+{
+  "losId": "equity-03-los1",
+  "losText": "describe primary and secondary public equity markets and their functions",
+  "moduleId": "equity-03",
+  "moduleTitle": "Equity Issuance and Trading",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:18:31.925Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00006:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.5 Markets and Participants — Primary and Secondary Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-5-markets-and-participants",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-lec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 1–4",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00006:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.5 Markets and Participants — Key Market Players",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-5-markets-and-participants",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-introduction-to-business:725:684",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 725–726",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=725",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-etf-module1:15:13",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "p. 15",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=15",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:249:173",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 249–250",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=249",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:108",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-summary:15:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Course Summary",
+      "locator": "pp. 15–16",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/55322b0a932baa9a97c5603eeab0d766_MIT15_401F08_summary.pdf#page=15",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "russell-us-indexes-methodology:18:20",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 18",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=18",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-etf-module1:44:51",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "pp. 44–45",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=44",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-etf-module1:14:12",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "pp. 14–15",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=14",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "New Shares vs Used Shares: How Public Equity Markets Work",
+      "summary": "Public equity markets have two stages. The primary market is where a company sells brand-new shares and gets the cash. The secondary market is where investors later trade those shares among themselves, and this trading gives investors liquidity and gives everyone a continuous reading of what the shares are worth.",
+      "sections": [
+        {
+          "heading": "The new-car and used-car picture",
+          "body_markdown": "A **security** is a tradable financial claim, such as a share of stock. A **share** (common equity) is a slice of ownership in a corporation. The **primary market** is where securities are sold for the first time, with the money going to the issuing company. The **secondary market** is where already-issued securities change hands between investors. Think of a car maker selling a new car to a buyer (primary), and that buyer later selling the car to someone else (secondary). The car maker does not receive the second sale price. Likewise, a company gets no cash when its shares trade between investors."
+        },
+        {
+          "heading": "Primary market: raising capital",
+          "body_markdown": "A company that sells shares publicly does so in an **offering**. An **initial public offering (IPO)** is the first time a formerly private company sells shares to the general public. A **seasoned equity offering (SEO)**, also called a follow-on offering, is when a company that is *already* public sells additional new shares. In both cases new shares are created and the cash goes to the company. Companies usually hire an **investment bank** to act as **underwriter**. The underwriter advises on the price and number of shares, and typically buys the shares from the issuer and resells them to investors (or arranges the sale). The underwriter earns a fee, so issuing is costly. A public company can also file a **shelf registration**, which registers a future offering in advance so it can be sold quickly when conditions look favorable. Other primary-market routes exist, such as a **private placement** (shares sold to a small group of investors rather than the public), but this lesson focuses on public offerings."
+        },
+        {
+          "heading": "Secondary market: trading what already exists",
+          "body_markdown": "After an IPO, the shares trade in the secondary market, for example on a stock exchange. Each trade moves money from the buyer to the *selling investor*, not to the company. The secondary market has three key functions. **Liquidity**: investors can convert shares to cash quickly at a fair price, and this makes them more willing to buy new shares in the first place, which lowers the company's cost of raising capital. **Price discovery**: constant trading reveals what investors collectively think each share is worth, which guides investors and also helps companies decide when and at what price to issue more. **Efficient allocation of capital**: as prices signal which firms are valued highly, funds tend to flow toward the firms and projects investors believe will use them best. So the two markets support each other: the primary market creates the shares and the secondary market keeps them tradable and priced."
+        },
+        {
+          "heading": "A common confusion: secondary offerings",
+          "body_markdown": "The word *secondary* can mislead. Sometimes existing shareholders, such as founders or early venture investors, sell a large block of their own shares to the public in a registered offering. This is often called a *secondary offering*. No new shares are created and the company receives no proceeds; the **selling shareholders** do. By contrast, a seasoned (follow-on) offering of *new* shares by the company brings cash to the company. Always ask two questions: who is the seller, and are the shares newly created? If the company sells new shares, the cash goes to the company. If an investor sells existing shares, the cash goes to that investor."
+        }
+      ],
+      "worked_example": {
+        "problem": "A private company plans an IPO of 10 million new shares at $20 per share. Underwriting and other issue costs total 6% of the gross proceeds. After listing, an early investor sells 1 million of her shares on an exchange at $25 per share. How much cash does the company receive from the IPO, and how much does it receive from the investor's later sale?",
+        "steps": [
+          "Gross IPO proceeds = 10,000,000 shares × $20 = $200,000,000.",
+          "Issue costs = 6% × $200,000,000 = $12,000,000.",
+          "Net cash to the company from the IPO (a primary-market transaction) = $200,000,000 − $12,000,000 = $188,000,000.",
+          "The investor's sale of 1,000,000 shares at $25 is a trade of existing shares between investors, so it is a secondary-market transaction.",
+          "The investor receives $25,000,000 from the buyer, and the company receives $0 from that trade.",
+          "No calculator keystrokes are needed; this is simple arithmetic."
+        ],
+        "answer": "The company receives $188,000,000 net from the IPO and $0 from the later exchange trade.",
+        "answer_value": 188000000,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Assuming the company receives cash every time its shares trade. Only the original sale of new shares (IPO or SEO) brings cash to the issuer; later trades pay the selling investor.",
+        "Treating any sale of shares to the public as a primary-market transaction. If existing shareholders are the sellers and no new shares are created, the company gets no proceeds.",
+        "Mixing up IPO and SEO. The IPO is the first public sale by a private company; an SEO is a further sale of new shares by a company that is already public.",
+        "Calling the first trade of newly issued shares among investors a primary transaction. Once the shares have been sold by the issuer, all later trades are secondary.",
+        "Thinking the secondary market is unimportant to issuers. Its liquidity and price signals make investors more willing to buy new shares and help determine the issuer's cost of raising capital."
+      ],
+      "builds_on": [
+        "What common equity is (ownership and residual claim)",
+        "Role of financial markets and intermediaries"
+      ],
+      "leads_to": [
+        "Exchange, off-exchange and OTC trading",
+        "Liquidity measures, float and trading volume",
+        "Equity indexes"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00006:0",
+        "flatworld-introduction-to-business:725:684",
+        "mit-ocw-15401-lec07:1:0",
+        "os:principles-finance-2e:m00073:2.2",
+        "flatworld-finance-for-managers:155:108"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is a primary-market transaction?",
+        "options": [
+          {
+            "text": "An investor sells 500 shares of a listed company to another investor through a broker.",
+            "value": null,
+            "explanation": "Wrong: this is a trade of already-issued shares between investors, which is a secondary-market transaction."
+          },
+          {
+            "text": "A listed company sells newly created shares to the public to fund a new plant.",
+            "value": null,
+            "explanation": "Correct: new shares are created and sold, and the cash goes to the issuing company. That defines a primary-market transaction."
+          },
+          {
+            "text": "A pension fund sells shares that it bought in an IPO last year to a mutual fund.",
+            "value": null,
+            "explanation": "Wrong: only the first sale by the issuer is primary. Later resales of those shares, even of IPO shares, are secondary."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "flatworld-introduction-to-business:725:684"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Investor A buys 1,000 shares of a listed company from Investor B on a stock exchange. Which statement about the company's cash is correct?",
+        "options": [
+          {
+            "text": "The company receives the full sale price, because it originally created the shares.",
+            "value": null,
+            "explanation": "Wrong: this confuses the original issue with a later resale. The company was paid only when it first sold the shares."
+          },
+          {
+            "text": "The company receives a commission, because its shares were the security traded.",
+            "value": null,
+            "explanation": "Wrong: commissions go to brokers or intermediaries, not to the issuer of the security."
+          },
+          {
+            "text": "The company receives nothing, because the proceeds go to Investor B as the selling shareholder.",
+            "value": null,
+            "explanation": "Correct: secondary-market trades move cash between investors and give the issuer no direct proceeds."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "flatworld-introduction-to-business:725:684",
+          "flatworld-finance-for-managers:155:108"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly distinguishes an initial public offering (IPO) from a seasoned equity offering (SEO)?",
+        "options": [
+          {
+            "text": "An IPO is the first public sale of shares by a private company; an SEO is a sale of additional new shares by a company that is already public.",
+            "value": null,
+            "explanation": "Correct: both create new shares and raise cash for the issuer, but the IPO marks the move from private to public while the SEO comes from an already-listed firm."
+          },
+          {
+            "text": "An IPO is a sale of additional shares by a listed company; an SEO is the first public sale of shares by a private company.",
+            "value": null,
+            "explanation": "Wrong: the definitions are reversed."
+          },
+          {
+            "text": "An IPO raises cash for the issuer, while an SEO is always a secondary-market trade among investors that raises none.",
+            "value": null,
+            "explanation": "Wrong: a seasoned offering of new shares is a primary-market transaction and brings cash to the issuer."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "os:principles-finance-2e:m00073:2.2",
+          "mit-ocw-15401-lec07:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "How does an active, liquid secondary market benefit a company that wants to issue new shares in the primary market?",
+        "options": [
+          {
+            "text": "Secondary trading proceeds are passed to the issuer, which funds the next offering.",
+            "value": null,
+            "explanation": "Wrong: the issuer gets no proceeds from secondary trades; the sellers do."
+          },
+          {
+            "text": "Regulators fix the share price at the offering price, so investors face no risk of loss.",
+            "value": null,
+            "explanation": "Wrong: share prices float freely in the secondary market and carry risk. Nothing is fixed or guaranteed."
+          },
+          {
+            "text": "Investors can exit easily, so they accept new shares more readily, which tends to lower the issuer's cost of raising capital.",
+            "value": null,
+            "explanation": "Correct: liquidity makes shares more attractive to buy initially, supporting higher issue prices and a lower cost of capital."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-introduction-to-business:725:684"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes the price discovery function of the secondary equity market?",
+        "options": [
+          {
+            "text": "Continuous trading reflects investors' collective views of value, giving signals that guide investors and later issuance decisions.",
+            "value": null,
+            "explanation": "Correct: trades are real-money statements about value, and the resulting prices inform investors and companies."
+          },
+          {
+            "text": "Prices are set once at the IPO and stay unchanged until the company announces its next offering.",
+            "value": null,
+            "explanation": "Wrong: prices adjust continuously as trading and new information arrive."
+          },
+          {
+            "text": "A regulator sets each share's fair price each day so that trades occur at the correct value.",
+            "value": null,
+            "explanation": "Wrong: prices are produced by supply and demand among traders, not set by a regulator."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "mit-ocw-15401-summary:15:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a typical IPO, what is the role of the underwriter?",
+        "options": [
+          {
+            "text": "It becomes a long-term shareholder and holds the shares permanently so that the issuer keeps control.",
+            "value": null,
+            "explanation": "Wrong: an underwriter's purpose is to distribute shares to investors, not to hold them permanently."
+          },
+          {
+            "text": "It guarantees that the share price will never fall below the offer price in later secondary trading.",
+            "value": null,
+            "explanation": "Wrong: no one guarantees post-offering prices, which move with supply and demand."
+          },
+          {
+            "text": "It advises on price and size and typically buys the shares from the issuer and resells them to investors, for a fee.",
+            "value": null,
+            "explanation": "Correct: the investment bank organizes and distributes the offering, usually with a syndicate, and the cost is borne by the issuer."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec07:1:0",
+          "os:principles-finance-2e:m00073:2.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Founders of a listed company sell 5 million of their own existing shares to the public in a registered offering. The company creates no new shares. Which statement is correct?",
+        "options": [
+          {
+            "text": "The company receives the proceeds and its number of shares outstanding rises, as in any offering.",
+            "value": null,
+            "explanation": "Wrong: this treats the sale as a company issue. Without new shares, the company is not the seller."
+          },
+          {
+            "text": "The founders receive the proceeds, the company receives none, and shares outstanding are unchanged.",
+            "value": null,
+            "explanation": "Correct: the sellers are existing shareholders, so they get the cash. No new capital reaches the company and the share count does not change."
+          },
+          {
+            "text": "The company receives the proceeds net of fees, because it filed the registration for the offering.",
+            "value": null,
+            "explanation": "Wrong: filing paperwork does not make the company the seller. Proceeds go to whoever sells the shares."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:108",
+          "flatworld-introduction-to-business:725:684"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between the primary and secondary markets?",
+        "back": "The primary market is where new securities are first sold, with the cash going to the issuer. The secondary market is where existing securities trade between investors, with the cash going to the selling investor.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "IPO vs SEO: what is the difference?",
+        "back": "An IPO is a private company's first public sale of shares. An SEO is a sale of additional new shares by a company that is already public. Both are primary-market transactions.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:0",
+          "os:principles-finance-2e:m00073:2.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What are the main functions of the secondary equity market?",
+        "back": "Liquidity (easy exit for investors, which lowers the issuer's cost of capital), price discovery (trading reveals value) and helping direct capital to its better uses.",
+        "cited_chunk_ids": [
+          "flatworld-introduction-to-business:725:684",
+          "os:principles-finance-2e:m00006:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does an underwriter do in a public offering?",
+        "back": "An investment bank that advises on offer price and size and typically buys the shares from the issuer to resell to investors, earning a fee.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec07:1:0",
+          "os:principles-finance-2e:m00073:2.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:18:24.119Z",
+      "purpose": "blind-solve",
+      "losId": "equity-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 990,
+      "outputTokens": 517,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007267,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:18:31.925Z",
+      "purpose": "grounding",
+      "losId": "equity-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12526,
+      "outputTokens": 1116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.036381199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0436482
+}

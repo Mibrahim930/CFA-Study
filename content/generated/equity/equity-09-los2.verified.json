@@ -1,0 +1,788 @@
+{
+  "losId": "equity-09-los2",
+  "losText": "describe industry classification methods and compare methods by which companies can be grouped",
+  "moduleId": "equity-09",
+  "moduleTitle": "Industry and Competitive Analysis",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:24:53.442Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "msci-gics-methodology:13:7",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "p. 13",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=13",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "census-naics:1:0",
+      "title": "NAICS codes and understanding industry classification systems (U.S. Census Bureau, 2022 Economic Census)",
+      "locator": "Economic Census: NAICS Codes & Understanding Industry Classification Systems",
+      "url": "https://www.census.gov/programs-surveys/economic-census/year/2022/guidance/understanding-naics.html",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "msci-gics-methodology:13:8",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 13–15",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=13",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "bls-mlr-2025-12-industry-growth:9:15",
+      "title": "Monthly Labor Review, December 2025 (BLS; Industry growth patterns, output, productivity and hours worked, 1990 to 2024), FRASER copy",
+      "locator": "p. 9",
+      "url": "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_20251222.pdf#page=9",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "msci-gics-methodology:24:16",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 24–25",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=24",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "msci-gics-methodology:4:2",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 4–6",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=4",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "msci-gics-methodology:1:0",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 1–3",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=1",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "msci-gics-methodology:3:1",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 3–4",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=3",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "msci-gics-methodology:16:10",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 16–18",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=16",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "msci-gics-methodology:46:35",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 46–48",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=46",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "msci-gics-methodology:50:37",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 50–51",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=50",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "msci-gics-methodology:9:5",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 9–12",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=9",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Sorting Companies into Industries: Classification Schemes and Grouping Approaches",
+      "summary": "Analysts compare a company with similar firms, so they need a consistent way to decide which firms are similar. This lesson covers the main classification schemes (government and commercial) and the other ways companies can be grouped: by what they sell, by sensitivity to the business cycle, and by return statistics.",
+      "sections": [
+        {
+          "heading": "Why we group companies at all",
+          "body_markdown": "Think of a supermarket. Shelves of pasta, cleaning products and frozen food let you compare similar items quickly. An analyst does the same with companies. To judge whether a firm is growing fast, earns good margins or trades at a fair multiple, you need a **peer group**: firms facing similar customers, costs and risks. An **industry classification scheme** is a standard system for sorting firms into such groups.\n\nNo scheme is perfect. A firm that sells several different things can only be filed in a limited number of places, and the economy keeps changing. Classification is therefore a starting point for choosing peers, not the final answer."
+        },
+        {
+          "heading": "Two families of schemes: government and commercial",
+          "body_markdown": "**Government (statistical-agency) schemes** are built to collect and publish economic statistics. The North American Industry Classification System (**NAICS**) is one example. It is **production-oriented**: it groups business *establishments* (individual locations or units) by how similar their production processes are. Its levels are a hierarchy of codes: sector (2 digits), subsector (3), industry group (4), NAICS industry (5) and national industry (6). Other countries and regions have comparable systems, and the global-style ones are also built for statistics rather than investing.\n\n**Commercial schemes** are built for investors and are offered by index and data providers. The best known is the Global Industry Classification Standard (**GICS**, from MSCI and S&P). Others you should recognise by name are BICS (Bloomberg), ICB (FTSE Russell) and RBICS (FactSet). They classify *companies* that have issued securities, they are refreshed often, and they are designed so that groups are useful for portfolio construction and valuation.\n\nBroad contrast: government schemes are good for economy-wide statistics and are often free, but they classify by production process and may work at establishment level. Commercial schemes are tailored to market participants and to publicly traded companies."
+        },
+        {
+          "heading": "GICS in more detail",
+          "body_markdown": "GICS is **market-demand-oriented**: it groups firms by the need they satisfy for buyers rather than by factory process. That is why the old line between *goods* and *services* is not used. Consumer Discretionary and Consumer Staples each include both goods and services businesses.\n\nStructure: GICS is strictly **hierarchical** with four levels, from broad to narrow: **sector → industry group → industry → sub-industry**. There are 11 sectors (Energy, Materials, Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financials, Information Technology, Communication Services, Utilities, Real Estate). The full classification is an 8-digit code. A company belongs to exactly **one** group at each level.\n\nHow a company is placed: **revenue** comes first because it is a stable, widely available breakdown of what the firm does. **Earnings** are an important secondary consideration, because valuations track earnings more closely than revenue. Market perception also matters. Classification is reviewed after a major restructuring or when a new annual report appears, and temporary swings in results are ignored so the label stays stable."
+        },
+        {
+          "heading": "Other ways to group companies",
+          "body_markdown": "Besides standard schemes, analysts use other lenses:\n\n- **By products and services** (what the firm sells), which is the basis of the standard schemes above.\n- **By business-cycle sensitivity.** *Cyclical* companies (for example premium cars or luxury travel) see sales and profits swing strongly with the economy. *Non-cyclical* or *defensive* companies (for example staple foods or regulated electricity) have steadier demand. The weakness is that definitions are hard to pin down and vary by analyst.\n- **By statistical similarity.** Past returns are analysed and firms whose returns move together are clustered. This is backward-looking, depends on the sample period, and often yields groups that make no business sense and differ between countries.\n\nIn practice, analysts start with a commercial scheme, then adjust the peer group using the firm's actual revenue sources, exposure to the economy and perhaps return correlations."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst covers NimbusSoft, a listed company. Last year 78% of its revenue came from selling subscription software and 22% from consulting services that help clients install it. She wants a peer group for valuation. Describe how a GICS-style approach would classify the firm and how she should build and check the peer group.",
+        "steps": [
+          "Identify the revenue sources: software subscriptions are 78% of revenue and consulting is 22%.",
+          "Apply the revenue-first rule: the dominant revenue source (software) determines the classification, so the firm is most likely placed in a software sub-industry within the Information Technology sector.",
+          "Remember that GICS gives a company only one place at each level, so the consulting line does not create a second sector.",
+          "Check earnings as the secondary factor: if consulting produced most of the profit, the label might need a second look, but a modest consulting profit share supports the software classification.",
+          "Build the peer group from other companies in the same sub-industry, then confirm with the annual report that their revenue mix and customers look similar.",
+          "Sanity-check using cyclicality (is demand to software buyers similar?) and, if desired, correlations of past returns. Treat any mismatch as a reason to drop or add specific peers."
+        ],
+        "answer": "NimbusSoft would most likely be classified by its dominant revenue source (software) in the Information Technology sector, with one classification per level. The analyst should take peers from that same sub-industry and then adjust using revenue mix, earnings mix and cyclicality.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Mixing up the orientations: NAICS is production-oriented (similar production processes), whereas GICS is market-demand-oriented.",
+        "Thinking a diversified company can sit in several GICS sectors. GICS assigns one group at each level, based mainly on revenue with earnings as a secondary check.",
+        "Treating statistical (return-correlation) grouping as forward-looking or as intuitive. It is backward-looking and often produces groups that make little business sense.",
+        "Assuming government schemes classify companies. NAICS classifies establishments, and it is designed for statistics, not investment analysis.",
+        "Treating 'cyclical' and 'defensive' as precise, universally agreed labels. Definitions vary and are hard to keep stable."
+      ],
+      "builds_on": [
+        "Business models and revenue sources",
+        "Correlation of returns",
+        "Peer groups for comparison"
+      ],
+      "leads_to": [
+        "Industry analysis and market share",
+        "Porter's Five Forces",
+        "Comparable-company valuation"
+      ],
+      "cited_chunk_ids": [
+        "msci-gics-methodology:13:7",
+        "census-naics:1:0",
+        "msci-gics-methodology:13:8",
+        "msci-gics-methodology:4:2",
+        "msci-gics-methodology:3:1",
+        "msci-gics-methodology:16:10"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from GICS Methodology 2023 (MSCI and S&P Dow Jones Indices) pp. 4–6: \"energy materials industrials consumer discretionary consumer staples health\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "The North American Industry Classification System (NAICS) groups business establishments mainly according to which criterion?",
+        "options": [
+          {
+            "text": "Similarity in the buyer needs that the output satisfies",
+            "value": null,
+            "explanation": "This describes a market-demand orientation, which is the basis of GICS, not NAICS."
+          },
+          {
+            "text": "Similarity in the processes used to produce goods or services",
+            "value": null,
+            "explanation": "Correct. NAICS is production-oriented: establishments with similar production processes are grouped together."
+          },
+          {
+            "text": "Similarity in historical return correlations of their securities",
+            "value": null,
+            "explanation": "This is the statistical approach to grouping, which NAICS does not use."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "census-naics:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about the structure of GICS is correct?",
+        "options": [
+          {
+            "text": "It has four hierarchical levels, and each company belongs to one group at each level.",
+            "value": null,
+            "explanation": "Correct. The levels are sector, industry group, industry and sub-industry, and a company has one place at each."
+          },
+          {
+            "text": "A diversified company can be placed in several sectors at once, weighted by revenue.",
+            "value": null,
+            "explanation": "This confuses GICS with a multi-label scheme. GICS is strictly hierarchical with one classification per level."
+          },
+          {
+            "text": "It has two levels, sector and industry, and a company may skip a level.",
+            "value": null,
+            "explanation": "Wrong number of levels. GICS has four levels and no skipping."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:4:2",
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "When GICS assigns a company to a classification, which factor does it consider first?",
+        "options": [
+          {
+            "text": "Earnings first, since valuations track profits, with revenue only a tie-breaker",
+            "value": null,
+            "explanation": "This reverses the order. Earnings are an important secondary consideration, not the primary one."
+          },
+          {
+            "text": "Share price performance first, since markets reveal the true business mix",
+            "value": null,
+            "explanation": "Price performance is not the primary criterion. Market perception is only a supporting factor."
+          },
+          {
+            "text": "Revenue first, since it is stable, with earnings as a secondary check",
+            "value": null,
+            "explanation": "Correct. Revenue breakdowns are stable and widely available, and earnings are the important secondary consideration."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst clusters companies based only on how closely their past monthly returns move together. Which is the main weakness of this statistical approach?",
+        "options": [
+          {
+            "text": "It looks backward at past returns, so groups can be unintuitive and differ across regions",
+            "value": null,
+            "explanation": "Correct. Statistical groupings depend on the historical sample and often do not match business similarity."
+          },
+          {
+            "text": "It relies on management's description of products, which is subjective",
+            "value": null,
+            "explanation": "This describes a different, products-based method. The statistical approach uses return data, not descriptions."
+          },
+          {
+            "text": "It can only be applied to firms that have one product line",
+            "value": null,
+            "explanation": "Return correlations can be computed for any listed company. There is no single-product requirement."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst groups companies by sensitivity to the business cycle. Which company would most likely fall in the cyclical group?",
+        "options": [
+          {
+            "text": "A packaged-food producer selling everyday staples",
+            "value": null,
+            "explanation": "Staple food demand is stable through the cycle, so this is a defensive, non-cyclical firm."
+          },
+          {
+            "text": "A maker of premium sports cars whose sales drop sharply in recessions",
+            "value": null,
+            "explanation": "Correct. Demand for big-ticket discretionary goods swings strongly with the economy."
+          },
+          {
+            "text": "A regulated electricity distributor with steady demand",
+            "value": null,
+            "explanation": "Regulated utilities have steady demand and are typically treated as defensive."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst needs a peer group for valuing a listed company. Why might a commercial scheme such as GICS be preferred over NAICS for this purpose?",
+        "options": [
+          {
+            "text": "NAICS covers only private firms, so it cannot be applied to listed companies.",
+            "value": null,
+            "explanation": "Incorrect. NAICS covers business establishments broadly. Its limitation is its production focus and statistical purpose."
+          },
+          {
+            "text": "GICS groups firms by past return correlations, which produces more reliable peers.",
+            "value": null,
+            "explanation": "This confuses GICS with the statistical approach. GICS is based on business activity, mainly revenue."
+          },
+          {
+            "text": "GICS is built for investors and classifies companies by demand served, not production process.",
+            "value": null,
+            "explanation": "Correct. NAICS groups establishments by production process for statistics, so firms serving different markets can be combined. GICS reflects market demand and is designed for investment use."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7",
+          "census-naics:1:0",
+          "msci-gics-methodology:3:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "GICS includes both goods producers and service providers within the Consumer Discretionary sector. What is the reason?",
+        "options": [
+          {
+            "text": "GICS is market-demand-oriented, so groups follow what consumers buy, not whether it is a good or service.",
+            "value": null,
+            "explanation": "Correct. The goods-versus-services line is increasingly arbitrary because the two are often sold together, so GICS groups by market demand."
+          },
+          {
+            "text": "GICS is production-oriented, so firms using similar factory processes are grouped.",
+            "value": null,
+            "explanation": "This describes NAICS. A production focus would tend to separate goods from services."
+          },
+          {
+            "text": "GICS clusters firms whose past returns are highly correlated across countries.",
+            "value": null,
+            "explanation": "GICS is not a statistical-clustering scheme. It groups by business activity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7",
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "On what principle does NAICS group establishments, and what does that make it?",
+        "back": "Similarity of production processes, so it is production-oriented. It is a government statistical scheme with a 2- to 6-digit hierarchy.",
+        "cited_chunk_ids": [
+          "census-naics:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What are the four levels of GICS, from broadest to narrowest?",
+        "back": "Sector, industry group, industry, sub-industry. A company has exactly one place at each level, identified by an 8-digit code.",
+        "cited_chunk_ids": [
+          "msci-gics-methodology:4:2",
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does GICS decide a company's classification?",
+        "back": "Mainly by revenue (stable and widely available), with earnings as an important secondary factor. Market perception also matters.",
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Contrast business-cycle grouping with statistical grouping.",
+        "back": "Business-cycle grouping splits firms into cyclical and defensive by how much sales swing with the economy. Statistical grouping clusters firms by past return correlations, is backward-looking and can be unintuitive.",
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Name four commercial industry classification schemes.",
+        "back": "GICS (MSCI/S&P), BICS (Bloomberg), ICB (FTSE Russell) and RBICS (FactSet).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "3/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:24:44.401Z",
+      "purpose": "blind-solve",
+      "losId": "equity-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 840,
+      "outputTokens": 491,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006707,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:24:53.442Z",
+      "purpose": "grounding",
+      "losId": "equity-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12225,
+      "outputTokens": 1056,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.035179199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.04188619999999999
+}

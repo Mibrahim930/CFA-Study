@@ -1,0 +1,796 @@
+{
+  "losId": "equity-07-los1",
+  "losText": "explain the process for using multiples to value equity based on the method of comparables and the method of forecasted fundamentals",
+  "moduleId": "equity-07",
+  "moduleTitle": "Relative Value Equity Valuation Approaches",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:22:49.019Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch17:15:14",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 15",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=15",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:2:1",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:13:12",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 13–14",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=13",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:7",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Some Final Thoughts on Dividend Discount Models",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:19:13",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 19–20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=19",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:20:19",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Constant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-lec07:7:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 7–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=7",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-for-managers:153:106",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 153–154",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=153",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch20:30:24",
+      "title": "Investment Valuation, 2nd ed., ch. 20: Revenue Multiples and Sector-Specific Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 30–31",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch20.pdf#page=30",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Two Routes to a Multiple-Based Value: Peers vs. Fundamentals",
+      "summary": "Relative valuation turns a price into a ratio (a multiple) and then asks what ratio is reasonable for the company being valued. You can get that reasonable ratio from similar companies (comparables) or from the company's own forecast growth, risk and payout (forecasted fundamentals).",
+      "sections": [
+        {
+          "heading": "Why a multiple at all?",
+          "body_markdown": "A share price on its own says little, because it depends on how many shares the firm happens to have. A stock split that doubles the share count roughly halves the price without changing the business. To compare firms you first **standardize** the price by dividing it by something the firm produces or owns, such as earnings per share, book value per share or sales per share. The result is a **multiple**, for example price-to-earnings (P/E).\n\nThink of house prices. Nobody compares a 3,000 sq ft house with a 1,500 sq ft one by sticker price alone. You compare price per square foot. A multiple is the stock market's version of price per square foot."
+        },
+        {
+          "heading": "Route 1: the method of comparables",
+          "body_markdown": "Here you ask: *what multiple do similar assets trade at?* The idea rests on the **law of one price**, meaning that similar assets should sell for similar prices once they are standardized.\n\nThe process:\n1. Choose the multiple that suits the company and the question (P/E, P/B, P/S and so on).\n2. Choose a **benchmark**: peer companies, the industry, the wider market, or the company's own history. Compute the multiple for each peer and summarize it, usually with the mean or median.\n3. Compute the company's own multiple, or the value implied by the benchmark: $\\text{implied value per share} = \\text{benchmark multiple} \\times \\text{company's per-share metric}$.\n4. Compare, then **interpret**. A multiple above the benchmark suggests the stock looks expensive. A multiple below it suggests it looks cheap. But you must check whether differences in growth, risk or profitability explain the gap before calling it mispriced.\n\nExample: peers trade at an average P/E of 16 and the target earns $3 per share. The implied price is $16 \\times 3 = \\$48$."
+        },
+        {
+          "heading": "Route 2: the method of forecasted fundamentals",
+          "body_markdown": "Here you ask: *what multiple do this company's own fundamentals justify?* You start from a discounted cash flow idea, such as the dividend discount model, and rearrange it so that the multiple appears on one side. This gives a **justified multiple**.\n\nWith constant dividend growth, the value per share is $D_1/(r-g)$. Divide both sides by next year's earnings $E_1$ and you get the **justified leading P/E**, $\\dfrac{D_1/E_1}{r-g}$. This is the payout ratio divided by $(r-g)$.\n\nThe formula shows what drives the multiple. A higher growth rate $g$, a higher payout and a lower required return $r$ all raise the multiple. Peers do not enter the calculation, so the answer depends on the quality of your forecasts. A justified multiple is also very sensitive to $r-g$: a small change in either input moves the result a lot."
+        },
+        {
+          "heading": "Comparing the two routes",
+          "body_markdown": "| | Comparables | Forecasted fundamentals |\n|---|---|---|\n| Question | What do similar assets trade at? | What do this firm's growth, risk and payout justify? |\n| Benchmark comes from | Market prices of peers | A valuation model and your forecasts |\n| Main strength | Quick, grounded in actual market prices | Explicit link between multiple and fundamentals |\n| Main weakness | Peers may be mispriced, or not truly comparable | Output depends on forecasts, and is very sensitive to $r$ and $g$ |\n\nThe comparables route assumes that the market prices peers correctly *on average*, even if some individual stocks are wrong. So a stock can look cheap against peers and still be overvalued if the whole peer group is overpriced. A sound comparables analysis also states the multiple definition clearly, applies it the same way to every firm, and adjusts for real differences in growth, risk and cash flow, rather than just comparing raw numbers."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company is expected to earn EPS of $5.00 next year and pay out 40% of earnings as dividends. Dividends are expected to grow at 6% a year indefinitely and the required return on equity is 10%. (a) Using the method of forecasted fundamentals, what is the justified leading P/E and the justified price? (b) The stock trades at $58. What does this suggest?",
+        "steps": [
+          "Next year's dividend: $D_1 = 0.40 \\times \\$5.00 = \\$2.00$.",
+          "Denominator: $r - g = 0.10 - 0.06 = 0.04$.",
+          "Justified price: $V_0 = D_1/(r-g) = 2.00 / 0.04 = \\$50.00$. On a calculator, press 2 ÷ 0.04 =.",
+          "Justified leading P/E: $50 / 5 = 10.0$. This equals payout ÷ $(r-g)$ = $0.40/0.04 = 10$.",
+          "Compare with the market: the stock trades at $58, a leading P/E of $58/5 = 11.6$, which is above the justified 10.0.",
+          "Interpretation: if your forecasts are right, the stock looks overvalued by about $8. Because the result is very sensitive to $r-g$, check how it changes if $g$ is 5.5% or 6.5%."
+        ],
+        "answer": "Justified price = $50.00 (justified leading P/E = 10.0). At $58 the stock looks overvalued relative to these fundamentals.",
+        "answer_value": 50,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2,\"r\":0.10,\"g\":0.06}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Implied value from a benchmark multiple",
+          "latex": "\\text{Implied value per share}=\\text{Benchmark multiple}\\times\\text{Company's per-share metric}",
+          "where": "The benchmark multiple comes from peers, the industry, the market or the company's own history. The metric is, for example, EPS for P/E or sales per share for P/S."
+        },
+        {
+          "name": "Gordon growth value per share",
+          "latex": "V_0=\\dfrac{D_1}{r-g}",
+          "where": "$V_0$ is the justified value today; $D_1$ is next year's dividend per share; $r$ is the required return on equity; $g$ is the constant dividend growth rate (with $r>g$)."
+        },
+        {
+          "name": "Justified leading P/E",
+          "latex": "\\dfrac{V_0}{E_1}=\\dfrac{D_1/E_1}{r-g}=\\dfrac{p}{r-g}",
+          "where": "$E_1$ is expected EPS next year; $p=D_1/E_1$ is the dividend payout ratio; $r$ and $g$ as above."
+        },
+        {
+          "name": "Justified trailing P/E",
+          "latex": "\\dfrac{V_0}{E_0}=\\dfrac{p\\,(1+g)}{r-g}",
+          "where": "$E_0$ is the most recent (current) EPS; $p$ is the payout ratio; $g$ is dividend and earnings growth; $r$ is the required return. The $(1+g)$ factor converts $E_0$ to $E_1$."
+        }
+      ],
+      "exam_traps": [
+        "Treating a multiple below the peer average as proof of undervaluation. The gap may be explained by lower growth or higher risk, so always compare fundamentals first.",
+        "Mixing up leading and trailing justified P/E. Leading uses $p/(r-g)$ and trailing uses $p(1+g)/(r-g)$, because the trailing version is based on current EPS $E_0$.",
+        "Using the retention rate $(1-p)$ where the payout ratio $p$ belongs in the justified P/E formula, or plugging in $r$ instead of $r-g$.",
+        "Believing the comparables method gives intrinsic value. It gives value *relative* to peers, and the whole peer group can be mispriced together.",
+        "Forgetting that justified multiples are very sensitive to $r-g$: a small change in either input can move the answer a lot."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Dividend discount model and Gordon growth",
+        "Required return on equity"
+      ],
+      "leads_to": [
+        "Price and enterprise value multiples",
+        "Choosing a peer group",
+        "Trailing vs. forward multiples"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch17:2:1",
+        "damodaran-valn2ed-ch17:15:14",
+        "damodaran-valn2ed-ch17:13:12",
+        "damodaran-valn2ed-ch17:20:19",
+        "os:principles-finance-2e:m00068:3"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the idea underlying the method of comparables?",
+        "options": [
+          {
+            "text": "A stock's value equals the present value of its forecast dividends discounted at the required return.",
+            "value": null,
+            "explanation": "This describes a discounted cash flow model, which is the starting point for the method of forecasted fundamentals, not for comparables."
+          },
+          {
+            "text": "Similar assets should trade at similar standardized prices, so a benchmark multiple can be used to estimate value.",
+            "value": null,
+            "explanation": "Correct. This is the law of one price: after standardizing prices into multiples, similar assets should show similar multiples."
+          },
+          {
+            "text": "Each individual stock is priced at its intrinsic value, so peer multiples reveal fair value exactly.",
+            "value": null,
+            "explanation": "Too strong. The method only assumes peers are priced correctly on average, and individual stocks can be mispriced."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:20:19",
+          "damodaran-valn2ed-ch17:2:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst derives a justified P/E from a constant growth dividend discount model. Which input is NOT needed for that derivation?",
+        "options": [
+          {
+            "text": "The company's expected dividend growth rate",
+            "value": null,
+            "explanation": "Needed: growth $g$ appears in $r-g$ and, for the trailing version, in $(1+g)$."
+          },
+          {
+            "text": "The required return on equity",
+            "value": null,
+            "explanation": "Needed: $r$ is the discount rate in the denominator $r-g$."
+          },
+          {
+            "text": "The median P/E of peer companies",
+            "value": null,
+            "explanation": "Correct. The justified P/E uses the company's own payout, growth and required return, so a peer median plays no part. Peer multiples belong to the method of comparables."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:13:12",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An analyst values a company using the method of comparables. Four peers have P/E ratios of 10, 14, 15 and 25. Using the arithmetic mean of all four as the benchmark, what is the benchmark P/E?",
+        "options": [
+          {
+            "text": "16.0",
+            "value": 16,
+            "explanation": "Correct: (10 + 14 + 15 + 25) ÷ 4 = 64 ÷ 4 = 16.0."
+          },
+          {
+            "text": "14.5",
+            "value": 14.5,
+            "explanation": "This is the median of the four peers, not the arithmetic mean the stem asks for."
+          },
+          {
+            "text": "13.0",
+            "value": 13,
+            "explanation": "This drops the 25 peer: (10 + 14 + 15) ÷ 3 = 13.0. All four peers must be included."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[10,14,15,25]}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:15:14"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company is expected to pay out 40% of next year's earnings as dividends. Dividends are expected to grow at 5% a year indefinitely, and the required return on equity is 9%. Using the method of forecasted fundamentals, what is the justified leading P/E (price divided by next year's EPS)? Round to one decimal place.",
+        "options": [
+          {
+            "text": "10.5",
+            "value": 10.5,
+            "explanation": "This multiplies the payout by (1 + g), which gives the trailing P/E formula, not the leading one: 0.40 × 1.05 ÷ 0.04 = 10.5."
+          },
+          {
+            "text": "15.0",
+            "value": 15,
+            "explanation": "This uses the retention rate 0.60 instead of the payout ratio 0.40: 0.60 ÷ 0.04 = 15.0."
+          },
+          {
+            "text": "10.0",
+            "value": 10,
+            "explanation": "Correct: leading P/E = payout ÷ (r − g) = 0.40 ÷ (0.09 − 0.05) = 0.40 ÷ 0.04 = 10.0."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":0.4,\"r\":0.09,\"g\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:3",
+          "damodaran-valn2ed-ch17:13:12"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A stock trades at a P/E of 12, while the average P/E of its industry peers is 18. Further analysis shows the stock has noticeably lower expected earnings growth and higher risk than the peers. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "The discount may be justified by weaker fundamentals, so the stock is not necessarily undervalued.",
+            "value": null,
+            "explanation": "Correct. Lower growth and higher risk can fully explain a lower multiple, so the stock should be called cheap only if the gap is larger than the fundamentals justify."
+          },
+          {
+            "text": "The stock is undervalued because any multiple below the peer average signals a bargain.",
+            "value": null,
+            "explanation": "This ignores differences in fundamentals. A lower multiple alone does not show mispricing."
+          },
+          {
+            "text": "The stock is overvalued because lower growth means it deserves a P/E of zero.",
+            "value": null,
+            "explanation": "Lower growth justifies a lower multiple, not a zero one. This also misreads how the comparison works."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:15:14",
+          "damodaran-valn2ed-ch17:20:21"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "cites unknown chunk \"damodaran-valn2ed-ch17:20:21\""
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The whole sector in which a company operates is currently overpriced by the market, and the company's P/E equals the peer average. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "The company is certainly undervalued, because equal multiples show the market has missed an opportunity.",
+            "value": null,
+            "explanation": "Equal multiples point to fair pricing relative to peers, not undervaluation."
+          },
+          {
+            "text": "The company looks fairly valued relative to peers, but it may still be overvalued compared with intrinsic value.",
+            "value": null,
+            "explanation": "Correct. Comparables assume peers are right on average. If the entire group is overpriced, a stock priced in line with it is overpriced too, even though it looks fair relative to its peers."
+          },
+          {
+            "text": "The company must be fairly valued in absolute terms, because the method of comparables removes market mood.",
+            "value": null,
+            "explanation": "The method does not remove market mood. Multiples reflect it, so sector-wide mispricing is carried into the estimate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:20:19",
+          "damodaran-valn2ed-ch17:2:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A firm has current (most recent) EPS of $4.00 and pays out 50% of earnings as dividends. Earnings and dividends are expected to grow at 4% a year indefinitely, and the required return on equity is 10%. Using the method of forecasted fundamentals, what is the justified trailing P/E (price divided by current EPS)? Round to two decimal places.",
+        "options": [
+          {
+            "text": "8.67",
+            "value": 8.67,
+            "explanation": "Correct: trailing P/E = p(1 + g) ÷ (r − g) = 0.50 × 1.04 ÷ 0.06 = 0.52 ÷ 0.06 ≈ 8.67."
+          },
+          {
+            "text": "8.33",
+            "value": 8.33,
+            "explanation": "This omits the (1 + g) factor, giving the leading P/E 0.50 ÷ 0.06 = 8.33. Trailing P/E is based on current EPS, so growth must be applied."
+          },
+          {
+            "text": "5.20",
+            "value": 5.2,
+            "explanation": "This divides by the required return r instead of (r − g): 0.52 ÷ 0.10 = 5.20. The growth rate must be subtracted in the denominator."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":0.52,\"r\":0.10,\"g\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:3",
+          "damodaran-valn2ed-ch17:13:12"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": false,
+          "issues": [
+            "critic returned no verdict"
+          ]
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the central assumption of the method of comparables?",
+        "back": "Similar assets should trade at similar standardized prices (law of one price), so a benchmark multiple from peers can estimate value. Peers are assumed to be priced correctly on average.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:20:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How does the method of forecasted fundamentals produce a multiple?",
+        "back": "It rearranges a discounted cash flow model, such as the Gordon growth DDM, so that the multiple is expressed in terms of growth, required return and payout. The result is a justified multiple.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:13:12",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What are the justified leading and trailing P/E formulas under constant growth?",
+        "back": "Leading: $p/(r-g)$. Trailing: $p(1+g)/(r-g)$. Here $p$ is the payout ratio, $r$ the required return and $g$ the growth rate.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why can a stock look cheap on comparables but still be overvalued?",
+        "back": "Comparables only measure value relative to peers. If the whole peer group is overpriced by the market, a stock priced in line with it is overpriced in absolute terms.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:20:19",
+          "damodaran-valn2ed-ch17:2:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:22:41.005Z",
+      "purpose": "blind-solve",
+      "losId": "equity-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 789,
+      "outputTokens": 470,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006395,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:22:49.019Z",
+      "purpose": "grounding",
+      "losId": "equity-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12918,
+      "outputTokens": 1103,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0370352,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.043430199999999995
+}

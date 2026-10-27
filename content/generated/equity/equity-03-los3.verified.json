@@ -1,0 +1,817 @@
+{
+  "losId": "equity-03-los3",
+  "losText": "describe liquidity measures for a publicly listed security and calculate float and average daily volume",
+  "moduleId": "equity-03",
+  "moduleTitle": "Equity Issuance and Trading",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:19:11.585Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "russell-us-indexes-methodology:18:20",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 18",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=18",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.27
+    },
+    {
+      "id": "russell-us-indexes-methodology:16:18",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 16–17",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=16",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.18
+    },
+    {
+      "id": "russell-us-indexes-methodology:22:26",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 22–24",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=22",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "cfa-rf-etf-module2:16:16",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "russell-us-indexes-methodology:14:15",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 14–15",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=14",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "russell-us-indexes-methodology:30:38",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 30–32",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=30",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-rf-etf-module1:34:41",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "pp. 34–35",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=34",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "nasdaq-100-methodology:2:1",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "p. 2",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=2",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec07:4:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 4–7",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=4",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "cfa-rf-etf-module2:19:18",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "pp. 19–20",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=19",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "russell-us-indexes-methodology:30:37",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 30",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=30",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "russell-us-indexes-methodology:10:10",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 10–11",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=10",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Measuring How Easily a Stock Trades: Spread, Depth, Volume and Float",
+      "summary": "Liquidity describes how quickly and cheaply you can buy or sell a share without moving its price. This lesson covers the common ways to measure it, and how to compute free float and average daily volume (ADV).",
+      "sections": [
+        {
+          "heading": "Liquidity: the idea",
+          "body_markdown": "A liquid asset can be turned into cash quickly, in size, at a price close to the last one seen. Think of selling a popular used car in a big city versus selling a rare vintage tractor in a small town. The car sells fast at a predictable price, and the tractor takes patience and a discount.\n\nFor a listed stock, no single number captures this. Analysts look at several measures, each showing a different side of the same question: what does it cost me to trade, and how much can I trade?"
+        },
+        {
+          "heading": "Trading-based measures: spread, depth and volume",
+          "body_markdown": "**Bid–ask spread.** The *bid* is the highest price a buyer currently offers and the *ask* (or offer) is the lowest price a seller currently wants. The gap is the spread. It is often expressed as a percentage of the midpoint, which is the average of bid and ask. A narrow spread means a cheap round trip, so the stock is more liquid.\n\n**Market depth.** Depth is how many shares are posted near the best bid and ask. A deep market absorbs a large order without the price moving much. A stock can have a tight spread but thin depth, so check both.\n\n**Trading volume.** Volume is the number of shares that change hands in a period. Higher volume usually goes with tighter spreads. Because a single day can be unusual, analysts average over many days to get **average daily volume (ADV)**: total shares traded over the period divided by the number of trading days in it. Count only days on which the market was open."
+        },
+        {
+          "heading": "Float: shares that can actually trade",
+          "body_markdown": "*Shares outstanding* is every share issued and held by investors. Not all of them are available to the public. Founders, parent companies, governments, strategic holders and employees under lock-up agreements often hold shares they do not plan to sell or cannot sell yet.\n\n**Float** (free float) is the portion available for public trading: shares outstanding minus the restricted or closely held shares. A company with a large market value but a tiny float can be hard to trade because few shares are offered.\n\nMultiplying float by the share price gives **float-adjusted market capitalization**, the value of the investable part of the company. Many equity indexes weight by this figure so that holdings the public cannot buy do not distort the index. Do not confuse it with total market cap, which uses all shares outstanding."
+        },
+        {
+          "heading": "Putting the measures together",
+          "body_markdown": "A practical use of ADV is estimating how long it takes to trade a large position. Traders usually limit themselves to a fraction of ADV so they do not push the price. If you hold $N$ shares and trade at most a fraction $p$ of ADV per day, the time is roughly $N/(p\\times \\text{ADV})$ days.\n\nA stock looks highly liquid when it has a narrow spread, deep order book, high ADV and a large float. A weakness in any one of these can make large trades costly."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock traded the following numbers of shares over five consecutive trading days: 1,200,000; 900,000; 1,500,000; 800,000; and 1,100,000. Compute its average daily volume over the period.",
+        "steps": [
+          "Identify the measure: ADV is total shares traded divided by the number of trading days, which is the simple arithmetic mean of the daily volumes.",
+          "Add the volumes: 1,200,000 + 900,000 + 1,500,000 + 800,000 + 1,100,000 = 5,500,000 shares.",
+          "Count the trading days: 5.",
+          "Divide: 5,500,000 / 5 = 1,100,000 shares per day.",
+          "BA II Plus check: press 2nd [DATA], then 2nd [CLR WORK]. Enter 1200000 ENTER ↓ ↓, 900000 ENTER ↓ ↓, and so on for each day (the ↓ ↓ skips the Y value). Then press 2nd [STAT] and ENTER until X̄ appears. It shows 1,100,000."
+        ],
+        "answer": "Average daily volume is 1,100,000 shares.",
+        "answer_value": 1100000,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[1200000,900000,1500000,800000,1100000]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Average daily volume",
+          "latex": "\\text{ADV}=\\frac{\\sum_{t=1}^{T} V_t}{T}",
+          "where": "V_t is shares traded on trading day t, and T is the number of trading days in the period."
+        },
+        {
+          "name": "Float",
+          "latex": "\\text{Float}=\\text{Shares outstanding}-\\text{Restricted (closely held) shares}",
+          "where": "Shares outstanding is all issued shares. Restricted shares are those held by insiders, parent firms, governments, strategic holders or under lock-up."
+        },
+        {
+          "name": "Float-adjusted market capitalization",
+          "latex": "\\text{Float-adjusted cap}=P\\times\\text{Float}",
+          "where": "P is the share price and Float is the number of shares available to the public."
+        },
+        {
+          "name": "Quoted spread as a percent of midpoint",
+          "latex": "\\text{Spread \\%}=\\frac{A-B}{(A+B)/2}",
+          "where": "A is the ask price and B is the bid price."
+        }
+      ],
+      "exam_traps": [
+        "Using total shares outstanding when the question asks for float, or total market cap when it asks for float-adjusted market cap. Restricted shares must be removed first.",
+        "Forgetting that lock-up shares and shares held by governments or parent companies are restricted, so leaving one of them out of the deduction overstates float.",
+        "Dividing total volume by the wrong number of days, such as calendar days instead of trading days, or by n − 1.",
+        "Treating a tight spread as proof of liquidity without checking depth. A tight spread with only a few shares posted is not a deep market.",
+        "Reporting the restricted shares as the float, or the dollar spread as if it were a percentage of the midpoint."
+      ],
+      "builds_on": [
+        "Primary and secondary markets",
+        "Bid, ask and order types",
+        "Shares outstanding and market capitalization"
+      ],
+      "leads_to": [
+        "Float-adjusted index weighting",
+        "Trading costs and market impact",
+        "Types of equity indexes"
+      ],
+      "cited_chunk_ids": [
+        "russell-us-indexes-methodology:22:26",
+        "cfa-rf-etf-module2:16:16"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which set of conditions best describes a highly liquid stock?",
+        "options": [
+          {
+            "text": "Narrow bid–ask spread with large quantities posted at the best bid and offer",
+            "value": null,
+            "explanation": "Correct. A narrow spread means low cost to trade, and large posted quantities mean orders can be absorbed without moving the price."
+          },
+          {
+            "text": "Wide bid–ask spread with large quantities posted at the best bid and offer",
+            "value": null,
+            "explanation": "This ignores the spread. A wide spread means high round-trip trading cost, which signals poorer liquidity even if depth is good."
+          },
+          {
+            "text": "Narrow bid–ask spread with very few shares posted at the best bid and offer",
+            "value": null,
+            "explanation": "This ignores depth. With few shares posted, a moderate order would move the price, so the market is thin."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-etf-module2:16:16"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock traded 420,000; 380,000; 510,000; 450,000 and 390,000 shares on five consecutive trading days. What is its average daily volume over these five days?",
+        "options": [
+          {
+            "text": "2,150,000 shares",
+            "value": 2150000,
+            "explanation": "This is the total volume. It forgets to divide by the number of trading days."
+          },
+          {
+            "text": "430,000 shares",
+            "value": 430000,
+            "explanation": "Correct. Total volume of 2,150,000 divided by 5 trading days gives 430,000 shares per day."
+          },
+          {
+            "text": "537,500 shares",
+            "value": 537500,
+            "explanation": "This divides the 2,150,000 total by 4 instead of 5, which miscounts the number of trading days."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[420000,380000,510000,450000,390000]}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A listed company has 90 million shares outstanding. Its founders hold 15 million shares, a parent company holds 20 million shares, and 5 million employee shares are under a lock-up agreement that bars sale. The founders' and parent's shares are not available to public investors. All remaining shares are freely available to public investors. How many shares make up the company's float?",
+        "options": [
+          {
+            "text": "40 million shares",
+            "value": null,
+            "explanation": "This is the total of restricted shares (15 + 20 + 5), not the float. The restricted shares still have to be subtracted from shares outstanding."
+          },
+          {
+            "text": "55 million shares",
+            "value": null,
+            "explanation": "This subtracts only the founders' and parent's shares (90 − 35) and forgets that the locked-up employee shares are also unavailable to the public."
+          },
+          {
+            "text": "50 million shares",
+            "value": null,
+            "explanation": "Correct. Restricted shares total 15 + 20 + 5 = 40 million. Float equals shares outstanding minus restricted shares: 90 − 40 = 50 million shares."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (medium): Float excludes founders, parent, and locked-up shares: 80 − 12 − 16 − 4 = 48 million. Option B, 48 million, is correct, so index 1."
+          ]
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key (after repair). Solver chose A: Excluding founders (15M), parent (20M) and locked-up employee shares (5M) removes 40M of 90M shares, leaving a float of 50M. The option of 50 million is C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A stock has 120 million shares outstanding and trades at $25 per share. Holders of 30 million shares are restricted (insiders and a strategic investor). What is the float-adjusted market capitalization?",
+        "options": [
+          {
+            "text": "$2,250 million",
+            "value": null,
+            "explanation": "Correct. Float is 120 − 30 = 90 million shares, and 90 million × $25 = $2,250 million."
+          },
+          {
+            "text": "$3,000 million",
+            "value": null,
+            "explanation": "This is the total market cap (120 million × $25). It does not remove the restricted shares."
+          },
+          {
+            "text": "$750 million",
+            "value": null,
+            "explanation": "This is the value of only the restricted shares (30 million × $25), not the float."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock was added to a major index, which caused a one-day volume spike. Over five consecutive trading days, volumes were 1,000,000; 250,000; 300,000; 350,000 and 400,000 shares. What is the average daily volume over all five days?",
+        "options": [
+          {
+            "text": "350,000 shares",
+            "value": 350000,
+            "explanation": "This is the median of the five days. ADV is a mean, so the spike day must be included in the average."
+          },
+          {
+            "text": "325,000 shares",
+            "value": 325000,
+            "explanation": "This drops the spike day and averages four days. The question asks for all five trading days."
+          },
+          {
+            "text": "460,000 shares",
+            "value": 460000,
+            "explanation": "Correct. Total volume is 2,300,000 shares, and 2,300,000 / 5 = 460,000 shares per day."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[1000000,250000,300000,350000,400000]}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes market depth for a listed stock?",
+        "options": [
+          {
+            "text": "The gap between the highest bid and the lowest ask",
+            "value": null,
+            "explanation": "This describes the bid–ask spread, a different liquidity measure."
+          },
+          {
+            "text": "The number of shares that change hands during a day",
+            "value": null,
+            "explanation": "This describes trading volume, not depth."
+          },
+          {
+            "text": "The quantity of shares available to trade near the current price",
+            "value": null,
+            "explanation": "Correct. Depth measures how large an order the market can absorb near the current price without a big price move."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation) pp. 16–17: \"the gap between the highest bid and the\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor wants to sell 3,000,000 shares of a stock whose average daily volume (ADV) is 600,000 shares. To avoid moving the price, the investor will sell at most 10% of ADV on any single day, and will sell exactly that maximum each day. Assuming ADV stays constant, how many trading days will the sale take?",
+        "options": [
+          {
+            "text": "5 days",
+            "value": null,
+            "explanation": "This divides the order by the full ADV (3,000,000 / 600,000) and ignores the 10% daily limit, which would mean the investor is 100% of the market volume."
+          },
+          {
+            "text": "50 days",
+            "value": null,
+            "explanation": "Correct. The daily limit is 0.10 × 600,000 = 60,000 shares, so the sale takes 3,000,000 / 60,000 = 50 trading days."
+          },
+          {
+            "text": "0.5 days",
+            "value": null,
+            "explanation": "This multiplies the 5-day figure by 10% instead of dividing by the participation rate. A cap on daily selling lengthens the sale, not shortens it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): Daily max = 20% × 400,000 = 80,000 shares; 2,000,000 / 80,000 = 25 days. Option A, 25 days, is correct, so index 0."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a stock's float, and how do you compute it?",
+        "back": "Float is the shares available to the public. Compute it as shares outstanding minus restricted or closely held shares (insiders, parents, governments, strategic holders, lock-ups).",
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you calculate average daily volume (ADV)?",
+        "back": "Add the shares traded on each trading day in the period and divide by the number of trading days.",
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Bid–ask spread versus market depth: what is the difference?",
+        "back": "Spread is the price gap between the best bid and best ask, which is the cost of trading. Depth is how many shares are posted near those prices, which is the size you can trade without moving the price.",
+        "cited_chunk_ids": [
+          "cfa-rf-etf-module2:16:16"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why do many indexes weight by float-adjusted market cap instead of total market cap?",
+        "back": "Restricted shares cannot be bought by the public, so weighting by float-adjusted cap reflects only the investable part of each company.",
+        "cited_chunk_ids": [
+          "russell-us-indexes-methodology:22:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:18:49.199Z",
+      "purpose": "blind-solve",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 689,
+      "outputTokens": 451,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006005,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:19:02.998Z",
+      "purpose": "repair",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11147,
+      "outputTokens": 1765,
+      "cacheWriteTokens": 4720,
+      "cacheReadTokens": 0,
+      "costUsd": 0.051744,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:19:04.761Z",
+      "purpose": "blind-solve",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 300,
+      "outputTokens": 175,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002467,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:19:11.584Z",
+      "purpose": "grounding",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13296,
+      "outputTokens": 977,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0365312,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.09674719999999999
+}

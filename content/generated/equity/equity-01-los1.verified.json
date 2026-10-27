@@ -1,0 +1,787 @@
+{
+  "losId": "equity-01-los1",
+  "losText": "describe basic features and types of equity instruments",
+  "moduleId": "equity-01",
+  "moduleTitle": "Equity Instrument Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:17:41.846Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "flatworld-finance-for-managers:153:106",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 153–154",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=153",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.23
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.22
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Alternative Sources of Funds",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.21
+    },
+    {
+      "id": "os:principles-finance-2e:m00034:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.4 The Statement of Owner’s Equity — What Is Equity?",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-4-the-statement-of-owner-s-equity",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.2
+    },
+    {
+      "id": "flatworld-finance-for-managers:154:107",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 154–155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=154",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Features of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 1–4",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "russell-us-indexes-methodology:17:19",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 17",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=17",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "russell-us-indexes-methodology:15:16",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 15",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=15",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "russell-us-indexes-methodology:15:17",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 15–16",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=15",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Differences between Preferred and Common Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Common and Preferred Shares: What Equity Owners Actually Hold",
+      "summary": "Equity is the owner's slice of a company, and it comes in different share types with different rights to dividends, votes and assets. Knowing how common and preferred shares differ lets you judge which claims are safe, which are risky and which behave like debt.",
+      "sections": [
+        {
+          "heading": "Equity is what is left after everyone else is paid",
+          "body_markdown": "Think of a company as a pizza restaurant. Suppliers, lenders and employees are paid first. Whatever is left belongs to the owners. That leftover claim is **equity**, and it is split into **shares** (units of ownership).\n\nTwo features follow from this:\n- **Residual claim**: owners get what remains. That can be a lot or nothing, so the payoff is uncertain.\n- **Limited liability**: if the company fails, an owner can lose the amount invested but not personal assets beyond it.\n\nOwners are usually paid through **dividends**, which are distributions of profit (mostly cash) in proportion to the number of shares held. The **board of directors**, which the shareholders elect, decides whether and how much to pay. Unlike a bond's interest, no contract forces a dividend on common shares.  "
+        },
+        {
+          "heading": "Common shares: the ownership core",
+          "body_markdown": "**Common shares** are the main equity instrument and the one most people mean by \"stock\".\n\n- **Voting rights**: usually one vote per share on matters such as electing the board. Some firms have several **share classes**, for example Class A with one vote and Class B with ten, and each class can have its own price.\n- **Dividends**: variable and discretionary. They can rise, fall or stop.\n- **Liquidation**: paid last, after creditors and preferred holders.\n- **Par value**: a small nominal figure on the certificate. For common shares it is mainly an accounting and legal leftover. It does not set the price or the dividend. Money received above par is recorded as *additional paid-in capital*.\n\nTwo variations exist in practice:\n- **Callable common shares**: the *issuer* can buy the shares back at a set price. This favours the issuer, so the shares are worth less to investors.\n- **Putable common shares**: the *investor* can sell the shares back to the issuer at a set price. This favours the investor, so the shares are worth more.\n\nMemory tip: *call* = the company calls them in; *put* = the holder puts them back to the company."
+        },
+        {
+          "heading": "Preferred shares: a hybrid between bonds and common shares",
+          "body_markdown": "**Preferred shares** are equity, but they are \"preferred\" because they get better treatment than common shares on dividends and in liquidation.\n\nTypical features:\n- **Fixed dividend**, usually quoted as a percentage of par (a 5% preferred with \\$100 par pays \\$5 a year).\n- **Priority**: the preferred dividend must be paid before any common dividend.\n- **No maturity date**: par is normally never repaid unless the shares are retired or the company winds up.\n- **Usually no vote**, although voting rights can appear when dividends are missed.\n- **No bankruptcy trigger**: unlike bondholders, preferred holders cannot force the company into bankruptcy over a missed dividend.\n\nCommon variations you must recognise:\n- **Cumulative**: a skipped dividend builds up as *arrears* and must be paid, together with the current dividend, before common holders receive anything. **Non-cumulative**: a skipped dividend is lost for good.\n- **Participating**: holders can receive extra dividends above the stated rate when the company does well (under conditions set in the terms). **Non-participating** holders get only the stated rate.\n- **Convertible**: holders may exchange the shares for common shares at a set ratio.\n- **Redeemable (callable / putable)**: the issuer may redeem the shares, or the holder may force redemption, at a set price.\n\nBecause the dividend is fixed and has no end date, a non-growing preferred behaves like a perpetuity, which is why it feels like a bond."
+        },
+        {
+          "heading": "The pecking order of claims",
+          "body_markdown": "When a company pays out cash or is liquidated, claimants line up:\n\n1. **Bondholders / creditors** (interest and principal are contractual)\n2. **Preferred shareholders** (fixed dividend, ahead of common)\n3. **Common shareholders** (residual claimants)\n\n| Feature | Preferred | Common |\n|---|---|---|\n| Dividend | Fixed, paid first | Variable, paid after preferred |\n| Votes | Usually none | Usually yes |\n| Liquidation | Before common | Last |\n| Upside | Limited | Open-ended |\n\nA higher rank means a steadier but capped payoff. A lower rank means more risk and more potential reward. A preferred dividend is a *priority*, not a guarantee: the board must still declare it, and a company in trouble may skip it."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has issued 5% non-convertible, non-participating preferred shares with a par value of $100 and no maturity date. Investors currently require an annual return of 7% on this kind of security. Treating the dividend as a level perpetuity paid annually, what is the value of one preferred share? Round to two decimals.",
+        "steps": [
+          "Find the annual dividend: 5% × $100 par = $5.00 per share.",
+          "The shares never mature and the dividend does not grow, so the share is a perpetuity: value = dividend ÷ required return.",
+          "Compute: $5.00 ÷ 0.07 = 71.4286.",
+          "BA II Plus keystrokes: 5 ÷ 0.07 = (display 71.428571). Round to $71.43.",
+          "Sense check: the market value is below the $100 par because the required return (7%) is higher than the dividend rate on par (5%)."
+        ],
+        "answer": "$71.43 per share",
+        "answer_value": 71.43,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":5,\"r\":0.07,\"g\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Annual preferred dividend",
+          "latex": "D_{pref} = \\text{dividend rate} \\times \\text{par value}",
+          "where": "D_{pref} is the yearly dividend per share in currency; the dividend rate is the stated percentage; par value is the nominal amount per share."
+        },
+        {
+          "name": "Value of a non-growing perpetual preferred share",
+          "latex": "V_0 = \\frac{D_{pref}}{r}",
+          "where": "V_0 is today's value per share; D_{pref} is the fixed annual dividend per share; r is the investor's required annual return as a decimal."
+        }
+      ],
+      "exam_traps": [
+        "Assuming preferred holders can force bankruptcy when dividends are missed. Only creditors such as bondholders have that power; preferred holders just block common dividends.",
+        "Mixing up cumulative and participating. Cumulative protects against *missed* dividends (arrears are caught up). Participating gives *extra* dividends when profits are high.",
+        "Mixing up callable and putable. The issuer holds the call; the investor holds the put.",
+        "Thinking the par value of common shares drives the share price or the dividend. It is largely an accounting and legal figure.",
+        "Treating a preferred dividend as guaranteed. It has priority over common dividends but must still be declared, and non-cumulative dividends that are skipped are gone for good."
+      ],
+      "builds_on": [
+        "Accounting equation (assets = liabilities + equity)",
+        "Bonds versus equity as sources of funding",
+        "Perpetuity valuation"
+      ],
+      "leads_to": [
+        "Public versus private equity securities",
+        "Dividend discount models",
+        "Cost of preferred equity in WACC",
+        "Equity valuation"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-finance-for-managers:153:106",
+        "flatworld-finance-for-managers:154:107",
+        "os:principles-finance-2e:m00070:0",
+        "os:principles-finance-2e:m00070:2",
+        "os:principles-finance-2e:m00073:2",
+        "os:principles-finance-2e:m00111:1",
+        "os:principles-finance-2e:m00034:0",
+        "mit-ocw-15401-lec07:1:0"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company is liquidated and its assets are sold. Which group of claimants is paid last, receiving only whatever remains?",
+        "options": [
+          {
+            "text": "Preferred shareholders",
+            "value": null,
+            "explanation": "Mistake: preferred holders rank ahead of common holders, so they are paid before the residual claimants."
+          },
+          {
+            "text": "Common shareholders",
+            "value": null,
+            "explanation": "Correct. Common shareholders are the residual claimants. They are paid after creditors and preferred holders."
+          },
+          {
+            "text": "Bondholders",
+            "value": null,
+            "explanation": "Mistake: bondholders are creditors with contractual claims and rank first among these three."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:2",
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company has cumulative preferred shares that pay $3.00 per share each year. It paid nothing on them in the last two years. In the current year it wants to pay a dividend to common shareholders. What total amount per preferred share must it pay to preferred holders first?",
+        "options": [
+          {
+            "text": "$3.00 per share",
+            "value": null,
+            "explanation": "Mistake: this treats the shares as non-cumulative and ignores the two years of arrears."
+          },
+          {
+            "text": "$6.00 per share",
+            "value": null,
+            "explanation": "Mistake: this covers the two years of arrears but forgets the current year's dividend, which also ranks ahead of common."
+          },
+          {
+            "text": "$9.00 per share",
+            "value": null,
+            "explanation": "Correct. Two years of arrears ($6.00) plus the current dividend ($3.00) must be paid before common holders receive anything."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0",
+          "flatworld-finance-for-managers:154:107"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company has 6% non-convertible, non-participating preferred shares with a par value of $100 and no maturity date. The dividend is paid annually and does not grow. Investors require an 8% annual return. What is the value of one share? Round to two decimals.",
+        "options": [
+          {
+            "text": "$75.00",
+            "value": 75,
+            "explanation": "Correct. Dividend = 6% × $100 = $6; value = $6 ÷ 0.08 = $75.00."
+          },
+          {
+            "text": "$81.00",
+            "value": 81,
+            "explanation": "Mistake: this grows the dividend by one period of the required return ($6 × 1.08 ÷ 0.08), but the dividend is level and the first payment is already $6."
+          },
+          {
+            "text": "$133.33",
+            "value": 133.33,
+            "explanation": "Mistake: this inverts the rates, using $8 (8% of par) as the dividend and dividing by 6%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":6,\"r\":0.08,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Dividend = 6% × $100 = $6; perpetuity value = 6/0.08 = $75.00. This matches option A, not B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description correctly defines putable common shares?",
+        "options": [
+          {
+            "text": "The holder may sell the shares back to the issuer at a set price",
+            "value": null,
+            "explanation": "Correct. A put gives the investor the right to sell the shares back to the issuer at a pre-set price."
+          },
+          {
+            "text": "The issuer may buy the shares back from holders at a set price",
+            "value": null,
+            "explanation": "Mistake: this describes callable shares, where the issuer holds the option."
+          },
+          {
+            "text": "The holder may exchange the shares for preferred shares at a set ratio",
+            "value": null,
+            "explanation": "Mistake: this confuses a put with a conversion feature, which is a different type of option."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor holds participating preferred shares. Which feature distinguishes these shares from non-participating preferred shares?",
+        "options": [
+          {
+            "text": "Dividends that are skipped build up and must be paid before any common dividend",
+            "value": null,
+            "explanation": "Mistake: this describes the cumulative feature. A share can be participating without being cumulative, and vice versa."
+          },
+          {
+            "text": "Holders can share in extra dividends beyond the stated rate when profits are high",
+            "value": null,
+            "explanation": "Correct. Participation lets holders receive more than the fixed dividend under conditions in the terms. Non-participating holders get only the stated rate."
+          },
+          {
+            "text": "Holders may exchange the shares for common shares at a set ratio",
+            "value": null,
+            "explanation": "Mistake: this describes a convertible feature, which concerns exchanging the security rather than receiving extra dividends."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company has 4.5% non-convertible, non-participating preferred shares with a par value of $50 and no maturity date. The dividend is paid annually and does not grow. Investors require a 5% annual return. What is the value of one share? Round to two decimals.",
+        "options": [
+          {
+            "text": "$47.25",
+            "value": 47.25,
+            "explanation": "Mistake: this multiplies the $2.25 dividend by 1.05 before dividing by 5%, wrongly treating the first dividend as one period away from growing."
+          },
+          {
+            "text": "$45.00",
+            "value": 45,
+            "explanation": "Correct. Dividend = 4.5% × $50 = $2.25; value = $2.25 ÷ 0.05 = $45.00."
+          },
+          {
+            "text": "$55.56",
+            "value": 55.56,
+            "explanation": "Mistake: this uses 5% of par ($2.50) as the dividend and discounts it at the 4.5% dividend rate, swapping the two rates."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.25,\"r\":0.05,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0",
+          "flatworld-finance-for-managers:154:107"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about the par value of a company's common shares is most accurate?",
+        "options": [
+          {
+            "text": "It sets the dividend each share must receive",
+            "value": null,
+            "explanation": "Mistake: common dividends are set by the board and are not tied to par. Only preferred dividends are quoted as a percentage of par."
+          },
+          {
+            "text": "It is the price at which the company must repurchase shares",
+            "value": null,
+            "explanation": "Mistake: par is not a repurchase price. Buybacks occur at market prices unless a specific put or call feature says otherwise."
+          },
+          {
+            "text": "It is mainly an accounting and legal figure that does not set price or dividends",
+            "value": null,
+            "explanation": "Correct. Common par value is a nominal figure used for record-keeping, and any amount paid above par is recorded as additional paid-in capital."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:154:107",
+          "os:principles-finance-2e:m00034:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does it mean that common shareholders are residual claimants?",
+        "back": "They are paid only after creditors and preferred holders. They receive whatever is left, which can be a lot or nothing.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:2",
+          "mit-ocw-15401-lec07:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Cumulative versus participating preferred shares: what is the difference?",
+        "back": "Cumulative: missed dividends accumulate as arrears and must be paid before any common dividend. Participating: holders can receive extra dividends above the stated rate when profits are high.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Callable versus putable shares: who holds the option?",
+        "back": "Callable: the issuer can buy the shares back at a set price. Putable: the investor can sell the shares back to the issuer at a set price.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why is preferred stock called a hybrid of bonds and common stock?",
+        "back": "It has a fixed dividend, a priority claim and no maturity, like a bond, but it is legally equity, usually has no vote, and missed dividends cannot force bankruptcy.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:154:107",
+          "os:principles-finance-2e:m00073:2",
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:17:32.590Z",
+      "purpose": "blind-solve",
+      "losId": "equity-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 747,
+      "outputTokens": 472,
+      "cacheWriteTokens": 585,
+      "cacheReadTokens": 0,
+      "costUsd": 0.0076765,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:17:41.846Z",
+      "purpose": "grounding",
+      "losId": "equity-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12541,
+      "outputTokens": 1315,
+      "cacheWriteTokens": 846,
+      "cacheReadTokens": 0,
+      "costUsd": 0.040347,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.048023500000000004
+}

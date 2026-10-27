@@ -1,0 +1,433 @@
+{
+  "losId": "equity-05-los2",
+  "losText": "contrast the use of book value of equity, market capitalization, and enterprise value as indicators of intrinsic value",
+  "moduleId": "equity-05",
+  "moduleTitle": "Introduction to Equity Valuation",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:49:20.183Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00067:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:48:37",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 48–50",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=48",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Determining the Intrinsic Value of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-creating-services-and-products:170:137",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 170–171",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=170",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-securityanalysis:4:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 19: Security Analysis",
+      "locator": "pp. 4–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/ffbc3f7faa47ea6af53d2a3efe1e29ee_1543319securityanalysis.pdf#page=4",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-introduction-to-business:692:648",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 692–693",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=692",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:31:26",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 31",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=31",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:210:149",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 210–211",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=210",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Book value, market cap and enterprise value: three yardsticks for a company's worth",
+      "summary": "Analysts often start from three headline numbers for a company: book value of equity (an accounting figure), market capitalization (the market's price for the shares) and enterprise value (the price of the whole business). This lesson shows what each one measures, where it falls short as an indicator of intrinsic value, and when each is the right tool.",
+      "sections": [
+        {
+          "heading": "Three numbers, three different questions",
+          "body_markdown": "**Intrinsic value** is what an analyst estimates an asset is really worth from its fundamentals, such as the cash it is expected to generate. It is different from any number you can simply look up. The three figures in this lesson are *proxies* for it, and each answers a different question.\n\nThink of selling a house that still has a mortgage:\n- **Book value of equity** is like the accountant's record: what was paid for the house years ago, less wear and tear, less the mortgage balance owed.\n- **Market capitalization** is what buyers would pay today for *your ownership slice* after the lender is repaid.\n- **Enterprise value (EV)** is the price of the *whole house*: your slice plus the lender's slice, minus any cash left in a safe that comes with the house.\n\nNone of the three is intrinsic value itself. Each one is biased in its own way.\n\nSources: [market cap and residual ownership, book vs market values]."
+        },
+        {
+          "heading": "Book value of equity: the accountant's record",
+          "body_markdown": "Book value of equity is total assets minus total liabilities as recorded on the balance sheet:\n\n$$\\text{Book equity} = \\text{Total assets} - \\text{Total liabilities}$$\n\nWhen you value the *common* shares, preferred stock is also deducted, because preferred holders rank ahead of common holders.\n\nAssets are mostly carried at what the company originally paid, less accumulated depreciation. So the figure looks backward. It reflects past costs, not future earning power.\n\n**Why analysts like it**\n- It is stable and easy to understand.\n- It exists even when earnings are negative, so it can be used when a P/E ratio cannot.\n- It is most meaningful for firms whose assets are mostly financial or liquid and so are carried near current value, such as banks.\n\n**Why it can mislead**\n- Old assets can be worth far more or far less than their recorded cost.\n- Valuable self-built resources, such as brands, know-how and a customer base, are mostly not recorded as assets.\n- Accounting choices differ across firms, which makes comparisons shaky.\n- Large buybacks or write-downs can shrink book equity, even to below zero, without the business becoming worthless.\n\nSources: [book value definition and limitations]."
+        },
+        {
+          "heading": "Market capitalization: the market's price for the shares",
+          "body_markdown": "Market capitalization (market cap) is the current share price multiplied by the number of shares outstanding:\n\n$$\\text{Market cap} = P \\times \\text{shares outstanding}$$\n\nCommon shareholders are the *residual claimants*. They get what is left after everyone ahead of them has been paid. So market cap is the market's current estimate of the value of that residual slice.\n\n**Strengths:** it is observable and up to date. Because share prices reflect expectations about future cash flows, it is forward-looking, unlike book value.\n\n**Limitations as an indicator of intrinsic value**\n- It is a *price*. If the market is too optimistic or pessimistic, market cap and intrinsic value of the equity will differ.\n- It covers common equity only. Two firms with identical operations but different amounts of debt will have different market caps, so it is a poor measure of the size of the business.\n- It includes the value of any cash the company holds, because that cash belongs to shareholders after debts are met.\n\nSources: [market cap definition, residual claim]."
+        },
+        {
+          "heading": "Enterprise value: the price tag on the whole business",
+          "body_markdown": "Enterprise value adds the claims of other capital providers to market cap, then removes cash that is not part of the operating business:\n\n$$EV = \\text{Market cap} + \\text{Debt} + \\text{Preferred stock} + \\text{Noncontrolling interest} - \\text{Cash and short-term investments}$$\n\nThe logic behind each piece:\n- **Debt and preferred stock:** lenders and preferred holders also fund the business, so their claims belong in the value of the whole firm.\n- **Noncontrolling interest:** the firm's statements include 100% of a majority-owned subsidiary, so the minority owners' share is added to match.\n- **Minus cash and short-term investments:** a buyer of the company gets this cash, which could be used to repay debt. So it lowers the net price paid for the operating assets.\n\nDebt should ideally be at market value, but book value of debt is often used as an approximation.\n\n**Why use it:** EV is not affected by how the business is split between debt and equity. That makes it better for comparing firms with different leverage, for takeover analysis, and for multiples built on pre-interest measures such as EV/EBITDA.\n\n**Limitations:** EV still inherits the market cap's gap between price and value, and it needs reliable data on debt, preferred stock, minority interests and cash.\n\nSources: [EV as a more comprehensive measure of total value than market cap]."
+        },
+        {
+          "heading": "Choosing between them",
+          "body_markdown": "- **Book value of equity:** accounting-based and backward-looking. Best for asset-heavy or financial firms, or when earnings are negative. Weak when value comes from unrecorded intangibles or when assets are old.\n- **Market cap:** market-based and forward-looking, and it measures *equity only*. Weak when the market misprices the shares and when firms differ in leverage.\n- **Enterprise value:** market-based and covers the *whole operating business*. Best for comparing firms with different capital structures and for acquisitions. Weak when debt, minority interest or cash data are unreliable.\n\nA useful habit is to ask what the number includes and which claimants it covers, and whether it is historical cost or a market price."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has 40 million shares outstanding at $25.00 per share. Its balance sheet shows total assets of $2,000 million and total liabilities of $1,300 million, including debt with a market value of about $600 million. It has no preferred stock, noncontrolling interest of $50 million, and cash and short-term investments of $150 million. Compute book value of equity, market capitalization and enterprise value.",
+        "steps": [
+          "Book value of equity = total assets − total liabilities. On the BA II Plus: 2000 [−] 1300 [=] gives 700, so $700 million.",
+          "Market capitalization = price × shares. On the BA II Plus: 40 [×] 25 [=] gives 1,000, so $1,000 million.",
+          "Start enterprise value from market cap: $1,000 million.",
+          "Add debt ($600 million), preferred stock ($0) and noncontrolling interest ($50 million).",
+          "Subtract cash and short-term investments ($150 million). On the BA II Plus: 1000 [+] 600 [+] 0 [+] 50 [−] 150 [=] gives 1,500.",
+          "Interpretation: market cap ($1,000 million) is above book equity ($700 million), so the market values the company above the recorded cost of its net assets. EV ($1,500 million) is the value of the whole operating business."
+        ],
+        "answer": "Book value of equity = $700 million; market capitalization = $1,000 million; enterprise value = $1,500 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Book value of equity",
+          "latex": "\\text{BVE} = TA - TL",
+          "where": "TA = total assets and TL = total liabilities, both as recorded on the balance sheet. For common equity, also subtract preferred stock."
+        },
+        {
+          "name": "Market capitalization",
+          "latex": "\\text{MC} = P \\times N",
+          "where": "P = current share price and N = number of common shares outstanding."
+        },
+        {
+          "name": "Enterprise value",
+          "latex": "EV = MC + D + PS + NCI - C",
+          "where": "MC = market capitalization, D = debt (market value if available), PS = preferred stock, NCI = noncontrolling interest, C = cash and short-term investments."
+        }
+      ],
+      "exam_traps": [
+        "Adding cash instead of subtracting it when computing enterprise value. Cash reduces the net price of the operating business.",
+        "Treating market cap as the cost of buying the whole company. A buyer also takes on the debt and preferred claims, and gets the cash.",
+        "Using book value of equity in place of market cap as the starting point of EV, or treating book value as intrinsic value.",
+        "Leaving out preferred stock or noncontrolling interest, which are claims on the consolidated business.",
+        "Assuming market cap always equals intrinsic value of the equity. It is a market price and can be wrong."
+      ],
+      "builds_on": [
+        "Balance sheet equation (assets = liabilities + equity)",
+        "Capital structure (debt, preferred, common equity)",
+        "Residual claim of common shareholders"
+      ],
+      "leads_to": [
+        "Price-to-book ratio",
+        "EV/EBITDA and other enterprise value multiples",
+        "Choosing an equity valuation model"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00073:2",
+        "damodaran-valn2ed-ch19:1:0",
+        "os:principles-finance-2e:m00067:2.1",
+        "flatworld-finance-for-managers:210:149"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which expression correctly gives a company's enterprise value?",
+        "options": [
+          {
+            "text": "Market cap + debt + preferred stock + noncontrolling interest + cash and short-term investments",
+            "value": null,
+            "explanation": "Wrong: this adds cash. A buyer receives the target's cash, which offsets part of the price, so cash must be subtracted."
+          },
+          {
+            "text": "Market cap + debt + preferred stock + noncontrolling interest − cash and short-term investments",
+            "value": null,
+            "explanation": "Correct: EV starts with the market value of common equity, adds the other claims on the business and removes cash that is not part of the operating assets."
+          },
+          {
+            "text": "Book equity + debt + preferred stock + noncontrolling interest − cash and short-term investments",
+            "value": null,
+            "explanation": "Wrong: this starts from book value of equity. EV is built from the market value of equity, not accounting equity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A software firm's value comes mainly from code and a brand that it developed internally over many years. Why is its book value of equity likely to be a poor indicator of intrinsic value?",
+        "options": [
+          {
+            "text": "Book value is based on the market price of its shares, so it double counts expectations",
+            "value": null,
+            "explanation": "Wrong: this confuses book value with market cap. Book value comes from the balance sheet, not from the share price."
+          },
+          {
+            "text": "Book value looks forward and so is too sensitive to growth forecasts for the firm",
+            "value": null,
+            "explanation": "Wrong: book value is backward-looking and built from recorded historical costs, not from forecasts."
+          },
+          {
+            "text": "Internally developed intangibles are mostly not recorded as assets, so book equity tends to understate what the firm is worth",
+            "value": null,
+            "explanation": "Correct: accounting records assets largely at historical cost and leaves out most self-built brands and know-how, so book equity can be far below economic value."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch19:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm has 50 million shares outstanding at $18.00 each. Its balance sheet shows total assets of $1,500 million and total liabilities of $800 million, and it has no preferred stock. What is market capitalization minus book value of equity?",
+        "options": [
+          {
+            "text": "$100 million",
+            "value": null,
+            "explanation": "Wrong: this subtracts total liabilities ($800 million) from market cap ($900 million) instead of book equity ($700 million)."
+          },
+          {
+            "text": "$200 million",
+            "value": null,
+            "explanation": "Correct: market cap = 50 × $18 = $900 million; book equity = $1,500 − $800 = $700 million; the difference is $200 million."
+          },
+          {
+            "text": "−$200 million",
+            "value": null,
+            "explanation": "Wrong: this reverses the order of subtraction, computing book equity minus market cap."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch19:1:0",
+          "os:principles-finance-2e:m00073:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company has a market capitalization of $1,200 million, debt with a market value of $400 million, preferred stock of $100 million, no noncontrolling interest, and cash and short-term investments of $250 million. What is its enterprise value?",
+        "options": [
+          {
+            "text": "$1,450 million",
+            "value": null,
+            "explanation": "Correct: 1,200 + 400 + 100 − 250 = 1,450."
+          },
+          {
+            "text": "$1,700 million",
+            "value": null,
+            "explanation": "Wrong: this omits the subtraction of cash and short-term investments (1,200 + 400 + 100)."
+          },
+          {
+            "text": "$1,950 million",
+            "value": null,
+            "explanation": "Wrong: this adds cash instead of subtracting it (1,200 + 400 + 100 + 250)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An acquirer is deciding how much a takeover target is really costing it. Why is enterprise value a better guide than market capitalization?",
+        "options": [
+          {
+            "text": "EV leaves out debt, so it isolates what the target's shareholders would receive in a sale",
+            "value": null,
+            "explanation": "Wrong: EV includes debt. The statement mixes up EV with market cap, which measures the shareholders' slice."
+          },
+          {
+            "text": "EV equals the book value of the target's assets, which is what it would cost to replace the firm",
+            "value": null,
+            "explanation": "Wrong: EV is built from market values, not from the accounting book value of assets."
+          },
+          {
+            "text": "EV adds the debt the buyer inherits and subtracts the cash it acquires, approximating the net cost of the whole operating business",
+            "value": null,
+            "explanation": "Correct: the buyer pays for the equity, takes on the claims of lenders and preferred holders, and receives the target's cash."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00067:2.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Firm X and Firm Y have essentially identical operating businesses. Firm X is financed entirely with equity. Firm Y is financed with substantial debt, and its market capitalization is much lower than Firm X's. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "Their enterprise values should be roughly similar. Y's lower market cap mainly reflects its debt claim, not a smaller business",
+            "value": null,
+            "explanation": "Correct: EV covers all capital providers, so it is largely independent of the debt/equity mix. Market cap shows only the equity slice."
+          },
+          {
+            "text": "Y is the smaller business, because a lower market cap means a lower value for the operating assets",
+            "value": null,
+            "explanation": "Wrong: this treats market cap as the value of the whole business. It ignores that lenders hold part of Y's claims."
+          },
+          {
+            "text": "Y's enterprise value should be much lower than X's, because debt reduces the value of the firm to its owners",
+            "value": null,
+            "explanation": "Wrong: this subtracts debt instead of adding it. Debt is a claim on the business, so it belongs in EV."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For which of the following companies is book value of equity most likely to be a meaningful indicator of value?",
+        "options": [
+          {
+            "text": "A young biotechnology firm whose value rests on drug candidates not yet recorded as assets",
+            "value": null,
+            "explanation": "Wrong: its main value drivers are unrecorded intangibles, so book equity says little about value."
+          },
+          {
+            "text": "A bank whose assets are mostly financial instruments carried at or near current value",
+            "value": null,
+            "explanation": "Correct: when balance-sheet assets and liabilities are close to market values, book equity is a reasonable indicator of what the equity is worth."
+          },
+          {
+            "text": "A consumer brand whose worth comes from decades of marketing and customer loyalty",
+            "value": null,
+            "explanation": "Wrong: brand value built internally is mostly not on the balance sheet, so book equity understates economic value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch19:1:0"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do you get from market capitalization to enterprise value?",
+        "back": "Add debt, preferred stock and noncontrolling interest, then subtract cash and short-term investments.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Why is cash subtracted when computing enterprise value?",
+        "back": "A buyer of the whole company receives the cash, which could repay debt. So EV, the net price of the operating business, excludes it.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How does book value of equity differ from market capitalization as a value indicator?",
+        "back": "Book equity is assets minus liabilities at recorded (mostly historical) cost, so it looks backward. Market cap is price × shares, so it reflects the market's current expectations of future cash flows.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch19:1:0",
+          "os:principles-finance-2e:m00073:2"
+        ]
+      },
+      {
+        "front": "What is market capitalization, and which claim does it measure?",
+        "back": "Current share price × shares outstanding. It measures the value of the common shareholders' residual claim only, not the whole business.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:2"
+        ]
+      },
+      {
+        "front": "Why is EV better than market cap for comparing firms with different amounts of debt?",
+        "back": "EV includes the claims of all capital providers, so it is largely independent of the debt/equity mix. Market cap shows only the equity slice and shrinks as leverage rises.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:49:20.183Z",
+      "purpose": "generate",
+      "losId": "equity-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10337,
+      "outputTokens": 12809,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1499202,
+      "stopReason": "end_turn"
+    }
+  ]
+}

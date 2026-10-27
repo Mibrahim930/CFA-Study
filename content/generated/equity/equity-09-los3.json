@@ -1,0 +1,478 @@
+{
+  "losId": "equity-09-los3",
+  "losText": "determine an industry's size, growth characteristics, profitability, and market share trends",
+  "moduleId": "equity-09",
+  "moduleTitle": "Industry and Competitive Analysis",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:07:57.102Z",
+  "retrieved": [
+    {
+      "id": "flatworld-finance-for-managers:54:39",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 54–56",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=54",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to Earnings (P/E) Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "ftc-doj-merger-guidelines-2023:17:27",
+      "title": "Merger Guidelines (U.S. DOJ and FTC, December 2023; market shares, concentration, trends toward concentration)",
+      "locator": "p. 17",
+      "url": "https://search.ftc.gov/system/files/ftc_gov/pdf/P234000-NEW-MERGER-GUIDELINES.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — Overview",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63682:4.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§7.5 Costs in the Long Run — The Size and Number of Firms in an Industry",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/7-5-costs-in-the-long-run",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:18:18",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 18–19",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=18",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-introduction-to-business:670:631",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 670–672",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=670",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "bls-mlr-2025-12-industry-growth:9:15",
+      "title": "Monthly Labor Review, December 2025 (BLS; Industry growth patterns, output, productivity and hours worked, 1990 to 2024), FRASER copy",
+      "locator": "p. 9",
+      "url": "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_20251222.pdf#page=9",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "russell-us-indexes-methodology:26:31",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 26",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=26",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:29:21",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 29–30",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=29",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-introduction-to-business:749:706",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 749–750",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=749",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Sizing Up an Industry: Scale, Growth, Profit and Share",
+      "summary": "This lesson shows how an analyst measures how big an industry is, how quickly it is expanding, how much profit it earns, and whether a given company is winning or losing share. These measurements set the baseline for judging any company in the industry and for building forecasts.",
+      "sections": [
+        {
+          "heading": "Four basic questions, like sizing up a pie",
+          "body_markdown": "Picture an industry as a pie sold to customers. An analyst asks four things:\n\n1. **Size** – how big is the pie?\n2. **Growth** – is the pie getting bigger, staying put or shrinking, and how fast?\n3. **Profitability** – how much of each slice is left for owners after costs?\n4. **Market share trends** – is our company's slice getting bigger or smaller relative to rivals?\n\nA company can grow its sales and still be doing badly if the pie is growing faster. A company can sit in a large, fast-growing pie and still earn little because the whole industry is poorly paid. Each of the four answers has to be read together with the others."
+        },
+        {
+          "heading": "Industry size: how big is the pie?",
+          "body_markdown": "**Industry size** is usually measured as total revenue (sales) of all firms selling the product. It can also be measured in **units** sold, customers served or capacity. Revenue is price times volume:\n\n$$\\text{Industry revenue}=\\text{average price}\\times\\text{units sold}$$\n\nFor example, if a market buys one million dishwashers a year at $500 each, the industry is worth about $500 million a year.\n\nTwo common ways to estimate size:\n- **Top-down:** start from a broad figure (for example total consumer spending or published market data) and narrow it to the relevant slice.\n- **Bottom-up:** add up the revenue (or units times price) of the individual firms, or build from customers times spending per customer.\n\nThe most important choice is where to **draw the boundary**. 'Sporting goods', 'outdoor gear' and 'all retail' are three different industries with three different sizes. Pick a definition that matches what customers actually treat as substitutes."
+        },
+        {
+          "heading": "Growth: speed and stage",
+          "body_markdown": "The standard growth measure is the **compound annual growth rate (CAGR)**, the single constant yearly rate that would take the starting size to the ending size:\n\n$$\\text{CAGR}=\\left(\\frac{\\text{Ending size}}{\\text{Beginning size}}\\right)^{1/n}-1$$\n\nHere $n$ is the number of *years between* the two data points (not the number of data points). Using CAGR rather than a simple average of yearly growth rates respects compounding.\n\nSeparate **revenue growth** from **volume growth**. If revenue grows faster than units, the gap comes from higher average prices or a richer product mix. Compare industry growth with overall economic growth to see whether the industry is gaining or losing importance.\n\nIndustries also move through a **life cycle**:\n- **Embryonic:** tiny, slow growth, high prices, heavy investment, high chance of failure.\n- **Growth:** rapid expansion, new entrants, improving profitability.\n- **Shakeout:** growth slows, rivalry is intense, capacity is too high, weaker firms exit and margins come under pressure.\n- **Mature:** slow, steady growth; fewer, larger firms; stable pricing and profits.\n- **Decline:** falling demand, overcapacity, price cuts and consolidation.\n\nThe stage is a guide, not a rule: some industries are renewed by new technology, and some skip stages."
+        },
+        {
+          "heading": "Profitability: what is left of each slice?",
+          "body_markdown": "**Profitability** asks how well the industry's firms turn sales and capital into profit. Common measures:\n- **Margins** (gross, operating, net) = profit divided by sales.\n- **Returns on capital** such as return on assets (ROA), return on equity (ROE) or return on invested capital (ROIC).\n\nThe **DuPont breakdown** splits ROE into three drivers:\n\n$$\\text{ROE}=\\text{net margin}\\times\\text{asset turnover}\\times\\text{equity multiplier}$$\n\n- *Net margin* – profit per dollar of sales (pricing power and cost control).\n- *Asset turnover* – sales per dollar of assets (efficiency).\n- *Equity multiplier* – assets per dollar of equity (financial leverage).\n\nThis matters because a rise in industry ROE caused only by higher borrowing is not a sign of better underlying business economics.\n\nProfit levels vary a lot by industry, and a ratio only means something against a **relevant benchmark**. A firm that beats the average of a broad industry group may look less impressive against its closest competitors. Look at the **trend** over several years and at the **spread** between firms: very high returns tend to attract new entrants and fade toward industry averages over time, while a persistently low return signals structural problems such as overcapacity."
+        },
+        {
+          "heading": "Market share trends: winning or losing?",
+          "body_markdown": "**Market share** is a firm's sales divided by total industry sales:\n\n$$\\text{Market share}=\\frac{\\text{Firm sales}}{\\text{Industry sales}}$$\n\nShare rises only when the firm grows *faster than the industry*. Example: a firm's sales rise from 180 to 195 (up 8.3%) while the industry rises from 1,200 to 1,500 (up 25%). Share falls from 15% to 13% even though sales rose.\n\nPoints to remember:\n- Share depends on the **market definition** (the denominator). Narrow definitions give larger shares.\n- Track share **over time** and compare with rivals' shares: who is gaining, who is losing, and why (new products, price cuts, acquisitions, distribution).\n- Ask what share was **bought with**: share gained by cutting prices can lower margins, so combine share trends with profitability trends.\n- A few firms with large combined shares point to a concentrated industry; many small firms point to a fragmented one. Shares do not by themselves explain *why* the structure exists, which is a separate topic."
+        }
+      ],
+      "worked_example": {
+        "problem": "An industry had total revenue of $200 million five years ago and $320 million today. Compute the industry's compound annual growth rate over the five years, rounded to two decimals as a percentage.",
+        "steps": [
+          "Identify the inputs: beginning size = 200, ending size = 320, number of years between the two figures $n=5$.",
+          "Compute the total growth ratio: $320/200=1.6$.",
+          "Take the fifth root: $1.6^{1/5}$. On the BA II Plus type 1.6 [y^x] 0.2 [=] to get about 1.0986.",
+          "Subtract 1 to get the rate: $1.0986-1=0.0986$, or 9.86% per year.",
+          "Alternative with the TVM keys: 5 [N], 200 [+/−] [PV], 0 [PMT], 320 [FV], then [CPT] [I/Y]. The display shows 9.86.",
+          "Sanity check: $200\\times1.0986^5\\approx320$."
+        ],
+        "answer": "The industry's CAGR is about 9.86% per year.",
+        "answer_value": 0.0986,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":5,\"pv\":-200,\"fv\":320}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Industry revenue",
+          "latex": "\\text{Revenue}=P\\times Q",
+          "where": "P = average selling price per unit; Q = number of units sold in the period."
+        },
+        {
+          "name": "Compound annual growth rate",
+          "latex": "\\text{CAGR}=\\left(\\frac{S_{end}}{S_{begin}}\\right)^{1/n}-1",
+          "where": "S_end = ending industry size; S_begin = beginning industry size; n = number of years between the two figures."
+        },
+        {
+          "name": "Projected industry size",
+          "latex": "S_n=S_0\\,(1+g)^n",
+          "where": "S_0 = current size; g = assumed annual growth rate (decimal); n = number of years projected."
+        },
+        {
+          "name": "Market share",
+          "latex": "\\text{Share}=\\frac{\\text{Firm sales}}{\\text{Industry sales}}",
+          "where": "Firm sales and industry sales are for the same period and the same market definition."
+        },
+        {
+          "name": "DuPont ROE",
+          "latex": "\\text{ROE}=\\frac{NI}{S}\\times\\frac{S}{A}\\times\\frac{A}{E}",
+          "where": "NI = net income; S = sales; A = total assets; E = shareholders' equity."
+        }
+      ],
+      "exam_traps": [
+        "Using the number of data points instead of the number of years for $n$ in CAGR (a table with five yearly figures spans four years of growth).",
+        "Annualizing growth by dividing total growth by the number of years instead of using compounding, which overstates the annual rate.",
+        "Assuming that rising firm sales mean rising market share; share only rises if the firm outgrows the industry.",
+        "Reading a higher ROE as better profitability without checking whether leverage (the equity multiplier) caused the increase.",
+        "Comparing a firm's margin or share with the wrong benchmark or market definition, which can make performance look better or worse than it really is."
+      ],
+      "builds_on": [
+        "Process of industry and competitive analysis",
+        "Time value of money and growth rates",
+        "Financial ratios and the DuPont breakdown"
+      ],
+      "leads_to": [
+        "Porter's Five Forces and PESTLE analysis",
+        "Industry and company forecasting",
+        "Relative valuation against industry peers"
+      ],
+      "cited_chunk_ids": [
+        "bls-mlr-2025-12-industry-growth:9:15",
+        "os:principles-economics-3e:m63682:4.2",
+        "flatworld-finance-for-managers:54:39",
+        "os:principles-finance-2e:m00045:4.1",
+        "damodaran-valn2ed-ch12:18:18"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The market for a service was worth $450 million at the start of year 1 and $720 million at the start of year 5, so four years of growth separate the two figures. What was the compound annual growth rate of this market? Round to two decimals as a percentage.",
+        "options": [
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Divides the total growth of 60% by 4 years. This ignores compounding and overstates the annual rate."
+          },
+          {
+            "text": "12.47%",
+            "value": 0.1247,
+            "explanation": "Correct: $(720/450)^{1/4}-1=1.6^{0.25}-1\\approx0.1247$. Four years separate the two values."
+          },
+          {
+            "text": "9.86%",
+            "value": 0.0986,
+            "explanation": "Uses n = 5 because there are five yearly data points; the number of growth years is 4, not 5."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":4,\"pv\":-450,\"fv\":720}"
+        },
+        "cited_chunk_ids": [
+          "bls-mlr-2025-12-industry-growth:9:15"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An industry has current annual revenue of $3.2 billion. An analyst assumes revenue will grow at 7% per year, compounded annually, for the next 6 years. What is the projected annual revenue at the end of year 6, in $ billions rounded to two decimals?",
+        "options": [
+          {
+            "text": "$4.80 billion",
+            "value": 4.8,
+            "explanation": "Correct: $3.2\\times1.07^6\\approx3.2\\times1.5007=4.80$."
+          },
+          {
+            "text": "$5.14 billion",
+            "value": 5.14,
+            "explanation": "Compounds for 7 periods instead of 6, giving $3.2\\times1.07^7$."
+          },
+          {
+            "text": "$4.54 billion",
+            "value": 4.54,
+            "explanation": "Uses simple growth, $3.2\\times(1+0.07\\times6)$, which leaves out growth on prior growth."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.07,\"n\":6,\"pv\":-3.2}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An industry's revenue changed by +20%, +10% and −10% in three consecutive years. What is the industry's compound (geometric mean) annual growth rate over the three years? Round to two decimals as a percentage.",
+        "options": [
+          {
+            "text": "6.67%",
+            "value": 0.0667,
+            "explanation": "Takes the arithmetic average of the three growth rates, which overstates compound growth when rates vary."
+          },
+          {
+            "text": "18.80%",
+            "value": 0.188,
+            "explanation": "Reports the cumulative three-year growth ($1.2\\times1.1\\times0.9-1$) and never converts it to an annual rate."
+          },
+          {
+            "text": "5.91%",
+            "value": 0.0591,
+            "explanation": "Correct: $(1.2\\times1.1\\times0.9)^{1/3}-1=1.188^{1/3}-1\\approx0.0591$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.2,0.1,-0.1]}"
+        },
+        "cited_chunk_ids": [
+          "bls-mlr-2025-12-industry-growth:9:15"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company's sales rose from 180 to 195 while total industry sales rose from 1,200 to 1,500 over the same period, using the same market definition. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Market share fell from 15.0% to 13.0%, because the industry grew faster than the company did.",
+            "value": null,
+            "explanation": "Correct: 180/1,200 = 15.0% and 195/1,500 = 13.0%. Share falls whenever the firm grows more slowly than the industry."
+          },
+          {
+            "text": "Market share rose, because the company's own sales increased during the period.",
+            "value": null,
+            "explanation": "Confuses sales growth with share gain. A firm must outgrow the industry for share to rise."
+          },
+          {
+            "text": "Market share stayed at 15.0%, because the company's sales growth was positive.",
+            "value": null,
+            "explanation": "Treats positive growth as keeping share constant; share changes whenever the growth rates differ."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description best fits an industry in the shakeout stage of its life cycle?",
+        "options": [
+          {
+            "text": "Demand is exploding, many new entrants appear and profitability is improving.",
+            "value": null,
+            "explanation": "This describes the growth stage, not shakeout; in shakeout growth is slowing."
+          },
+          {
+            "text": "Growth slows, capacity is excessive, rivalry is fierce and weaker firms exit.",
+            "value": null,
+            "explanation": "Correct: shakeout combines slowing growth, overcapacity and price pressure that force out weaker competitors."
+          },
+          {
+            "text": "Growth is steady and slow, few large firms remain and pricing is stable.",
+            "value": null,
+            "explanation": "This describes the mature stage, which comes after shakeout."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Average ROE in an industry rose over three years while its average net profit margin and average asset turnover were both unchanged. What is the most likely explanation?",
+        "options": [
+          {
+            "text": "Firms gained pricing power and raised their profit per dollar of sales.",
+            "value": null,
+            "explanation": "Higher pricing power would raise net margin, which was unchanged."
+          },
+          {
+            "text": "Firms used their assets more efficiently to generate each dollar of sales.",
+            "value": null,
+            "explanation": "Greater efficiency would raise asset turnover, which was unchanged."
+          },
+          {
+            "text": "Firms used more debt relative to equity, raising the equity multiplier.",
+            "value": null,
+            "explanation": "Correct: ROE = margin × turnover × equity multiplier, so with the first two unchanged, higher leverage must explain the rise."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:54:39",
+          "os:principles-finance-2e:m00045:4.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An industry's total revenue grew 6% in a year while total units sold grew only 1%. What does this most directly imply?",
+        "options": [
+          {
+            "text": "Most of the revenue growth came from higher average prices or a richer product mix.",
+            "value": null,
+            "explanation": "Correct: revenue = price × quantity, so revenue growth well above volume growth must come from price or mix."
+          },
+          {
+            "text": "Industry profit margins must have risen by about five percentage points.",
+            "value": null,
+            "explanation": "Revenue and volume data say nothing directly about costs or margins."
+          },
+          {
+            "text": "The leading firms must have gained market share at the expense of smaller ones.",
+            "value": null,
+            "explanation": "Industry totals cannot reveal how shares were divided among firms."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63682:4.2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm has sales of $90 million. Against a narrowly defined market of specialty outdoor gear (industry sales $300 million) its share is 30%; against all retail sporting goods including online sellers (industry sales $900 million) its share is 10%. What is the best way to interpret this?",
+        "options": [
+          {
+            "text": "The 10% figure is the only valid one because a larger denominator is always more accurate.",
+            "value": null,
+            "explanation": "Wrongly assumes a broader market is automatically better; accuracy depends on whether it matches real competition."
+          },
+          {
+            "text": "Share depends on the market definition, so the analyst should choose the one matching the firm's true competitors.",
+            "value": null,
+            "explanation": "Correct: share is a ratio whose denominator is set by the market boundary, and the boundary should reflect substitutes that customers actually consider."
+          },
+          {
+            "text": "Neither figure is usable because share must always be measured against the whole economy.",
+            "value": null,
+            "explanation": "Share is measured against a relevant market, not the whole economy; that would make the figure meaningless."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4.1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do you calculate an industry's compound annual growth rate (CAGR)?",
+        "back": "CAGR = (Ending size / Beginning size)^(1/n) − 1, where n is the number of years between the two figures, not the number of data points.",
+        "cited_chunk_ids": [
+          "bls-mlr-2025-12-industry-growth:9:15"
+        ]
+      },
+      {
+        "front": "Name the five stages of an industry life cycle in order.",
+        "back": "Embryonic, growth, shakeout, mature, decline.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Under what condition does a firm's market share rise?",
+        "back": "Only when the firm's sales grow faster than total industry sales, using the same market definition.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What are the three DuPont drivers of ROE, and which one reflects leverage?",
+        "back": "Net profit margin × asset turnover × equity multiplier; the equity multiplier (assets/equity) reflects financial leverage.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:54:39",
+          "os:principles-finance-2e:m00045:4.1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:07:57.102Z",
+      "purpose": "generate",
+      "losId": "equity-09-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9655,
+      "outputTokens": 11444,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1349062,
+      "stopReason": "end_turn"
+    }
+  ]
+}

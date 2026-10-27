@@ -1,0 +1,823 @@
+{
+  "losId": "equity-06-los3",
+  "losText": "explain the shortcomings of constant and multistage cash flow growth assumptions in present value models",
+  "moduleId": "equity-06",
+  "moduleTitle": "Discounted Cash Flow (DCF) and Growth Models",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:22:20.529Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch14:24:19",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 24–27",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=24",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:3:3",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 3–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=3",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Applying the DCF Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:27:20",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 27–29",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=27",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:8",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Dividend Discount Models (DDMs)",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:29:21",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 29–30",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=29",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:17:14",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 17–19",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=17",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:18:18",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 18–19",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=18",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-creating-services-and-products:265:219",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 265",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=265",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Constant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Two-Stage Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:7",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Some Final Thoughts on Dividend Discount Models",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Where Growth-Based Valuation Models Break Down",
+      "summary": "Present value models are only as good as their growth assumptions. This lesson covers the weak points of the single-growth-rate (Gordon) model and of two- and three-stage models, so you can spot when a model's output deserves doubt.",
+      "sections": [
+        {
+          "heading": "Why growth assumptions matter so much",
+          "body_markdown": "A present value model turns a forecast of future cash flows (dividends or free cash flow) into a value today. The forecast usually rests on a **growth rate**, the percentage by which the cash flow rises each period. Think of a recipe with one ingredient that dominates the taste. Small changes in the growth rate or the discount rate can swing the answer a great deal, and no spreadsheet can fix a poor growth input."
+        },
+        {
+          "heading": "Shortcomings of the constant growth (Gordon) model",
+          "body_markdown": "The model values a stream that grows at one rate forever:\n\n$$V_0=\\frac{D_1}{r-g}$$\n\nIts weak points are:\n\n- **Extreme sensitivity.** The denominator is $r-g$. As $g$ moves toward $r$ the denominator shrinks and the value explodes. A one-point change in $g$ can alter the value by tens of percent.\n- **It needs $g<r$.** If $g\\ge r$ the formula gives a negative or meaningless value.\n- **'Forever' is a strong claim.** No firm can outgrow the economy it operates in indefinitely, so a perpetual $g$ above long-run economic growth is not credible.\n- **Poor fit for many firms.** It suits mature firms with steady, predictable payouts. It fits badly for young or fast-growing firms, firms that pay no dividends, firms with erratic or limited dividend histories, or firms whose growth is about to change."
+        },
+        {
+          "heading": "Multistage models: more realistic, but not free",
+          "body_markdown": "A **two-stage model** lets growth be high for a set number of years and then drop to a stable rate. A **three-stage model** adds a **transition** period in which growth fades gradually. These models fit real firms better, but they have their own problems:\n\n- **More inputs, more error.** You must forecast each stage's growth rate, how long each stage lasts, and how payout, reinvestment and risk change. Every extra input can be wrong.\n- **Abrupt step-down in a two-stage model.** Growth falls from high to stable in a single step. That is tolerable when growth is only moderate, but unrealistic for a firm growing very fast. A transition stage (or a year-by-year n-stage model) handles this better.\n- **The terminal value still carries the Gordon weaknesses.** The value at the end of the explicit forecast uses a constant-growth formula, and it is often a large share of the total value. So the sensitivity to $g$ and $r$ remains.\n- **Stage lengths are judgment calls.** A longer high-growth period raises value, and analysts can stretch it to reach a desired answer."
+        },
+        {
+          "heading": "Consistency checks that models do not enforce",
+          "body_markdown": "The formula does not stop you from combining growth with inconsistent inputs. In the stable stage, check that:\n\n- **Reinvestment supports the growth.** Assuming capital spending only equals depreciation means zero net reinvestment, which cannot sustain growth in perpetuity. It inflates value.\n- **Risk fits maturity.** A stable firm should not carry the very high or low beta of its growth years. Betas tend to drift toward 1 as firms mature.\n- **The cash flow base is normal.** Depressed or inflated current earnings feed straight into an unreliable value.\n\nExtremely high or low outputs are usually a sign of an inconsistent input, not a bargain or an overvaluation."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock is expected to pay a dividend of $2.40 next year ($D_1$). The required return is 10%. An analyst's base case assumes dividends grow at 4% forever, and she wonders what happens to the value if she nudges the growth rate to 5%. Compute both values and the percentage change.",
+        "steps": [
+          "Base case: $r-g = 0.10-0.04 = 0.06$.",
+          "Base value: $V_0 = 2.40/0.06 = \\$40.00$.",
+          "Revised case: $r-g = 0.10-0.05 = 0.05$.",
+          "Revised value: $V_0 = 2.40/0.05 = \\$48.00$. On the BA II Plus, compute the denominator first: 0.10 − 0.05 = (0.05), then 2.4 ÷ 0.05 = 48.",
+          "Percentage change: $48.00/40.00 - 1 = 20\\%$.",
+          "Interpretation: a 1-percentage-point change in $g$ moved the value by 20%. This is why the growth input is the model's weakest point."
+        ],
+        "answer": "$48.00 at g = 5% (versus $40.00 at g = 4%), a 20% increase from a one-point change in g",
+        "answer_value": 48,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.4,\"r\":0.1,\"g\":0.05}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Constant growth (Gordon) value",
+          "latex": "V_0=\\frac{D_1}{r-g}",
+          "where": "$V_0$ = value today; $D_1$ = cash flow expected one period from now; $r$ = required return; $g$ = constant perpetual growth rate, which must be less than $r$."
+        },
+        {
+          "name": "Terminal value in a multistage model",
+          "latex": "V_n=\\frac{D_{n+1}}{r-g_L}",
+          "where": "$V_n$ = value at the end of the explicit forecast period (time $n$); $D_{n+1}$ = first cash flow after that period; $r$ = required return; $g_L$ = stable long-run growth rate."
+        },
+        {
+          "name": "Two-stage value",
+          "latex": "V_0=\\sum_{t=1}^{n}\\frac{D_t}{(1+r)^t}+\\frac{V_n}{(1+r)^n}",
+          "where": "$D_t$ = cash flow in year $t$ during the high-growth stage; $n$ = length of the high-growth stage; $V_n$ = terminal value at time $n$; $r$ = required return."
+        }
+      ],
+      "exam_traps": [
+        "Using a perpetual growth rate at or above the required return, or above the long-run growth of the economy. The formula still returns a number, but it is not valid.",
+        "Forgetting that value is far more sensitive to $g$ when $r-g$ is small. A 'small' change in $g$ is not small in value terms.",
+        "Assuming a multistage model is automatically more accurate. It adds inputs and can add error, and its terminal value still depends on a constant growth assumption.",
+        "Treating the two-stage model's sudden drop in growth as harmless for every firm. It is acceptable for moderate growers but unrealistic for very fast growers, where a transition stage is better.",
+        "Assuming capital spending equal to depreciation is a neutral assumption in the stable stage. It implies no net reinvestment, so it cannot support perpetual growth and inflates value."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Gordon growth model",
+        "Two-stage and multistage dividend discount models",
+        "Required return on equity"
+      ],
+      "leads_to": [
+        "Free cash flow to equity and to the firm models",
+        "Residual income models",
+        "Choosing an appropriate valuation model",
+        "Sensitivity analysis in valuation"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch12:3:3",
+        "damodaran-valn2ed-ch12:18:18",
+        "damodaran-valn2ed-ch14:24:19",
+        "damodaran-valn2ed-ch14:27:20",
+        "damodaran-valn2ed-ch14:29:21",
+        "os:principles-finance-2e:m00068:3",
+        "os:principles-finance-2e:m00068:7"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes a limitation of the constant growth (Gordon) model?",
+        "options": [
+          {
+            "text": "Value falls sharply as g approaches r, because the denominator gets larger.",
+            "value": null,
+            "explanation": "Reverses the relationship. As g approaches r, r − g shrinks, so value rises sharply."
+          },
+          {
+            "text": "Value rises sharply as g approaches r, and the formula fails if g is not below r.",
+            "value": null,
+            "explanation": "Correct. The denominator r − g becomes tiny as g nears r, so value is hypersensitive. If g ≥ r the result is negative or undefined."
+          },
+          {
+            "text": "Value is unaffected by g, because growth is already built into D1.",
+            "value": null,
+            "explanation": "Confuses D1 (next year's cash flow) with the perpetual growth after it. g still drives the denominator and the value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:3:3",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A very fast-growing firm is valued with a two-stage model. What is the main shortcoming of this approach for such a firm?",
+        "options": [
+          {
+            "text": "It assumes growth stays at the high rate indefinitely after the first stage.",
+            "value": null,
+            "explanation": "Describes a constant growth model with a high rate, not a two-stage model. The second stage is a lower, stable rate."
+          },
+          {
+            "text": "It removes the need for a terminal value after the first stage ends.",
+            "value": null,
+            "explanation": "The two-stage model still needs a terminal value at the end of the first stage."
+          },
+          {
+            "text": "It forces growth to drop from high to stable in one step, which is unrealistic here.",
+            "value": null,
+            "explanation": "Correct. A very fast grower's growth, risk and reinvestment would fade gradually, so a transition (three-stage) model or an n-stage model is more appropriate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:18:18",
+          "os:principles-finance-2e:m00068:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A mature firm is expected to pay a dividend of $3.00 one year from now (D1). The required return is 10% per year. An analyst raises her perpetual dividend growth assumption to 5%. Using the constant growth model, what is the intrinsic value per share? Round to two decimals.",
+        "options": [
+          {
+            "text": "$60.00",
+            "value": 60,
+            "explanation": "Correct. V0 = D1 / (r − g) = 3.00 / (0.10 − 0.05) = 60.00."
+          },
+          {
+            "text": "$63.00",
+            "value": 63,
+            "explanation": "Grows D1 by another year (3.00 × 1.05) even though D1 is already next year's dividend."
+          },
+          {
+            "text": "$20.00",
+            "value": 20,
+            "explanation": "Adds g to r in the denominator (0.15) instead of subtracting."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":3,\"r\":0.1,\"g\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst values a company with a constant growth model, assuming dividends grow 7% a year forever. Long-run nominal growth of the economy in which the company operates is expected to be 4%. Which assessment is most appropriate?",
+        "options": [
+          {
+            "text": "Acceptable, because strong firms keep growing faster than the economy in perpetuity.",
+            "value": null,
+            "explanation": "No firm can outgrow its economy forever. A perpetual rate should not exceed long-run economic growth."
+          },
+          {
+            "text": "Too high, because a firm cannot outgrow the economy forever, so value is overstated.",
+            "value": null,
+            "explanation": "Correct. A perpetual growth rate above the economy's growth is not sustainable, and a high g pushes up value through a small r − g."
+          },
+          {
+            "text": "Too high, because perpetual growth must always be below the inflation rate.",
+            "value": null,
+            "explanation": "Invents a rule. The constraint is that g must be below r and below long-run economic growth, not below inflation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:3:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock's next-year dividend (D1) is $2.00 and the required return is 8% per year. The analyst assumes dividends grow at 7% forever. Using the constant growth model, what is the value per share? Round to two decimals.",
+        "options": [
+          {
+            "text": "$214.00",
+            "value": 214,
+            "explanation": "Multiplies D1 by (1 + g) again, treating the given D1 as if it were D0."
+          },
+          {
+            "text": "$13.33",
+            "value": 13.33,
+            "explanation": "Adds g to r (0.15) in the denominator instead of subtracting. This hides the sensitivity when g is near r."
+          },
+          {
+            "text": "$200.00",
+            "value": 200,
+            "explanation": "Correct. V0 = 2.00 / (0.08 − 0.07) = 200.00. A 1% gap between r and g makes the value 100 times the dividend, showing the hypersensitivity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2,\"r\":0.08,\"g\":0.07}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:3:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with a single-growth-rate model, what is a drawback of a three-stage model?",
+        "options": [
+          {
+            "text": "It requires more forecasts (growth rates, stage lengths, payout and risk changes), each adding estimation error.",
+            "value": null,
+            "explanation": "Correct. The extra flexibility comes at the cost of more uncertain inputs, and the terminal value still uses a constant growth assumption."
+          },
+          {
+            "text": "It cannot capture growth that declines over time, so it is less realistic.",
+            "value": null,
+            "explanation": "The reverse is true. The transition stage lets growth fade gradually."
+          },
+          {
+            "text": "It cannot produce a terminal value, so it cannot value a going concern.",
+            "value": null,
+            "explanation": "A three-stage model ends with a stable-growth terminal value, typically from a Gordon-type formula."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:18:18",
+          "damodaran-valn2ed-ch14:29:21"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "In a two-stage model, the first dividend after the high-growth stage (D6, received at the end of year 6) is $2.50. The required return is 9% per year. The analyst revises the stable growth rate after year 5 from 4% to 5%. Using the constant growth formula, what is the terminal value at the end of year 5 under the revised rate? Round to two decimals.",
+        "options": [
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "Uses the old 4% growth rate, 2.50 / (0.09 − 0.04), so the revision is not applied."
+          },
+          {
+            "text": "$62.50",
+            "value": 62.5,
+            "explanation": "Correct. V5 = D6 / (r − g) = 2.50 / (0.09 − 0.05) = 62.50. A one-point change in g raised the terminal value by 25%."
+          },
+          {
+            "text": "$17.86",
+            "value": 17.86,
+            "explanation": "Adds g to r (0.14) in the denominator rather than subtracting."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.5,\"r\":0.09,\"g\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:17:14",
+          "damodaran-valn2ed-ch12:3:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Why is the Gordon growth value so sensitive to the growth rate?",
+        "back": "The denominator is r − g. As g approaches r the denominator shrinks toward zero and value explodes. If g ≥ r the model is invalid.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:3:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How high can a perpetual growth rate reasonably be?",
+        "back": "No higher than the long-run growth of the economy the firm operates in, and always below the required return r.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:3:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the main weakness of a two-stage model, and the usual fix?",
+        "back": "Growth drops from high to stable in a single step. For very fast growers, add a transition stage (three-stage) or use a year-by-year n-stage model.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:18:18"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why is a multistage model not automatically better than a constant growth model?",
+        "back": "It needs many more uncertain inputs (growth rates, stage lengths, payout, risk), and its terminal value still relies on a constant growth formula.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:18:18",
+          "damodaran-valn2ed-ch14:29:21"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why is setting capital spending equal to depreciation in the stable stage a problem?",
+        "back": "It implies zero net reinvestment, which cannot support growth forever. It overstates cash flow and therefore value.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:24:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:22:11.288Z",
+      "purpose": "blind-solve",
+      "losId": "equity-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 940,
+      "outputTokens": 492,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006917,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:22:20.529Z",
+      "purpose": "grounding",
+      "losId": "equity-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13542,
+      "outputTokens": 1358,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0408332,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0477502
+}

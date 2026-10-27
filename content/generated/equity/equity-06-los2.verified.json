@@ -1,0 +1,929 @@
+{
+  "losId": "equity-06-los2",
+  "losText": "calculate and interpret the intrinsic value of an equity security based on present value models that assume constant cash flow growth or multistage cash flow growth",
+  "moduleId": "equity-06",
+  "moduleTitle": "Discounted Cash Flow (DCF) and Growth Models",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:22:06.296Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00068:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Constant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:8",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Dividend Discount Models (DDMs)",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec03:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 3: Common Stocks",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1c18f475f4a9236d92521c0e6606f27b_MIT15_401F08_rec03.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — The Gordon Growth Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:34:25",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 34–35",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=34",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-review_fin:31:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Final Exam Review Session",
+      "locator": "pp. 31–36",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d28223e0ac8822df9538f33b1542881e_MIT15_401F08_review_fin.pdf#page=31",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Variable or Nonconstant Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-lec07:7:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lecture 7: Equities",
+      "locator": "pp. 7–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf#page=7",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:18:18",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 18–19",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=18",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:11:9",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 11–12",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=11",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Valuing Stock with Constant-Growth and Multistage Cash Flow Models",
+      "summary": "A stock is worth the present value of the cash it is expected to pay its owners. This lesson shows how to turn that idea into numbers when growth is steady forever, or when it changes between phases, and how to compare the result with the market price.",
+      "sections": [
+        {
+          "heading": "The core idea: price a stream of future cash",
+          "body_markdown": "Think of buying a rental flat. What you would pay depends on the rent you expect to collect, and especially on how fast that rent will rise. A dollar of rent ten years from now is worth less than a dollar today, so you shrink future rents with a **required rate of return** $r$. That rate is the return investors demand for bearing this stock's risk.\n\nFor a share, the cash is dividends (or free cash flow, covered below). **Intrinsic value** is the present value of those expected cash flows. Compare it with the market price. If intrinsic value is above price, the stock looks undervalued; if below, overvalued. The answer is only as good as your forecasts of growth and of $r$."
+        },
+        {
+          "heading": "Constant growth: the Gordon growth model",
+          "body_markdown": "Suppose the dividend grows at the same rate $g$ every year forever. The infinite stream of discounted dividends then collapses into one fraction:\n\n$$V_0=\\frac{D_1}{r-g}$$\n\n$D_1$ is **next year's** dividend. If you are given the dividend just paid, $D_0$, first compute $D_1=D_0(1+g)$.\n\nThe formula needs $r>g$. If $g\\ge r$ the result is negative or undefined, which means the assumption is unusable for that company, not that the stock is worth a negative amount.\n\nThe same formula works at any date: the value at time $t$ is $V_t=D_{t+1}/(r-g)$. It always uses the dividend one year after the valuation date. Rearranged, it also gives the market's implied required return, $r=D_1/P_0+g$, and the implied growth rate."
+        },
+        {
+          "heading": "Where does g come from?",
+          "body_markdown": "A common way to estimate long-run dividend growth is the **sustainable growth rate**: $g=b\\times \\text{ROE}$.\n\n- **Retention ratio** $b$ is the share of earnings kept in the business, so $b=1-\\text{payout ratio}$.\n- **ROE** is return on equity, meaning earnings divided by book equity.\n\nA firm that keeps 40% of earnings and earns 15% on equity grows at about $0.40\\times0.15=6\\%$. Note that the payout ratio is not the growth driver. The retained part is what gets reinvested."
+        },
+        {
+          "heading": "Multistage growth: when growth will not stay constant",
+          "body_markdown": "A young firm may grow quickly for a few years and then slow to a rate it can hold forever. Handle this in two pieces:\n\n1. **Stage 1 (explicit forecast):** project each dividend for years $1$ to $n$ and discount each one at $r$.\n2. **Stage 2 (terminal value):** at the end of year $n$, value all remaining dividends with the Gordon formula, using the new lower growth rate $g_L$:\n$$TV_n=\\frac{D_{n+1}}{r-g_L}$$\nThen discount $TV_n$ back $n$ years, not $n+1$.\n\nAdd the two parts. With three or more stages (for example high growth, a fade period, then mature growth), repeat the same logic: forecast each year until growth is stable, then apply Gordon.\n\n**BA II Plus shortcut:** enter the cash flows with CF, using $CF_0=0$ and the dividends for years $1$ to $n$, where year $n$ also includes $TV_n$. Then press NPV, enter I = $r$ (in percent), and CPT."
+        },
+        {
+          "heading": "Other cash flows, same logic",
+          "body_markdown": "The constant-growth idea also works with other cash flows:\n\n- **FCFE** (free cash flow to equity, the cash available to shareholders after reinvestment and net borrowing): value equity as $FCFE_1/(r-g)$, discounting at the cost of equity.\n- **FCFF** (free cash flow to the firm, the cash available to all capital providers): firm value is $FCFF_1/(WACC-g)$, discounted at the weighted average cost of capital. Subtract the value of debt (and preferred stock) to reach equity value, then divide by shares.\n\nThe discount rate must match the cash flow: cost of equity for equity cash flows, WACC for firm cash flows.\n\nThe value is very sensitive to $r-g$. A small change in the spread causes a large change in value when the spread is small."
+        }
+      ],
+      "worked_example": {
+        "problem": "A mature company just paid an annual dividend of $3.00 per share. Dividends are expected to grow 4% per year forever, and the required return is 9%. What is the intrinsic value per share today? If the shares trade at $55, is the stock under- or overvalued?",
+        "steps": [
+          "Next year's dividend: $D_1=D_0(1+g)=3.00\\times1.04=3.12$.",
+          "Check the spread: $r-g=0.09-0.04=0.05$, which is positive, so the model applies.",
+          "Apply Gordon: $V_0=3.12/0.05=62.40$.",
+          "BA II Plus: press 3 × 1.04 = (shows 3.12), then ÷ ( 0.09 − 0.04 ) = to get 62.40.",
+          "Compare: intrinsic value $62.40 > market price $55, so the stock appears undervalued under these assumptions."
+        ],
+        "answer": "Intrinsic value is $62.40 per share. Since this exceeds the $55 price, the stock looks undervalued.",
+        "answer_value": 62.4,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":3.12,\"r\":0.09,\"g\":0.04}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Gordon growth model",
+          "latex": "V_0=\\frac{D_1}{r-g}",
+          "where": "$V_0$ = intrinsic value today; $D_1$ = dividend expected one year from now; $r$ = required return; $g$ = constant dividend growth rate, with $g<r$."
+        },
+        {
+          "name": "Next-year dividend",
+          "latex": "D_1=D_0(1+g)",
+          "where": "$D_0$ = dividend most recently paid; $g$ = growth rate."
+        },
+        {
+          "name": "Implied required return",
+          "latex": "r=\\frac{D_1}{P_0}+g",
+          "where": "$P_0$ = current market price; other symbols as above."
+        },
+        {
+          "name": "Sustainable growth rate",
+          "latex": "g=b\\times \\text{ROE}",
+          "where": "$b$ = earnings retention ratio ($1-$ payout ratio); ROE = return on equity."
+        },
+        {
+          "name": "Terminal value at end of high-growth stage",
+          "latex": "TV_n=\\frac{D_{n+1}}{r-g_L}",
+          "where": "$n$ = last year of the explicit forecast; $D_{n+1}$ = first dividend of the stable stage; $g_L$ = long-run stable growth rate."
+        },
+        {
+          "name": "Two-stage value",
+          "latex": "V_0=\\sum_{t=1}^{n}\\frac{D_t}{(1+r)^t}+\\frac{TV_n}{(1+r)^n}",
+          "where": "$D_t$ = forecast dividend in year $t$; $TV_n$ = terminal value at time $n$."
+        },
+        {
+          "name": "Constant-growth firm value (FCFF)",
+          "latex": "\\text{Firm value}_0=\\frac{FCFF_1}{WACC-g}",
+          "where": "$FCFF_1$ = free cash flow to the firm next year; $WACC$ = weighted average cost of capital; $g$ = constant FCFF growth rate."
+        }
+      ],
+      "exam_traps": [
+        "Plugging $D_0$ into the Gordon formula instead of $D_1=D_0(1+g)$. Check which dividend the question gives.",
+        "Discounting the terminal value $n+1$ periods instead of $n$, or forgetting to discount it at all.",
+        "Using $D_n$ rather than $D_{n+1}$ in the terminal value, so the first dividend of the stable stage is missed.",
+        "Calculating $g$ as ROE times the payout ratio instead of ROE times the retention ratio.",
+        "Using the Gordon model when $g\\ge r$, or discounting FCFF at the cost of equity, or treating FCFF-based firm value as equity value without subtracting debt."
+      ],
+      "builds_on": [
+        "Time value of money and perpetuities",
+        "Required return and cost of equity",
+        "Dividends, earnings and retention"
+      ],
+      "leads_to": [
+        "Shortcomings of growth assumptions",
+        "Preferred stock valuation",
+        "Residual income and market multiples"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00068:1",
+        "os:principles-finance-2e:m00068:3",
+        "os:principles-finance-2e:m00068:4",
+        "os:principles-finance-2e:m00068:8",
+        "mit-ocw-15401-rec03:1:0",
+        "mit-ocw-15401-lec07:7:2",
+        "damodaran-valn2ed-ch12:18:18",
+        "damodaran-valn2ed-ch14:11:9"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst applies the Gordon growth model to a stock with an expected next-year dividend of $2.00, a required return of 7% and an assumed perpetual dividend growth rate of 8%. What does the model produce, and how should the result be read?",
+        "options": [
+          {
+            "text": "A value of $200, since only the size of the spread matters",
+            "value": null,
+            "explanation": "Ignores the sign. The spread $r-g=-1\\%$ is negative, so the formula gives $-\\$200$, not $+\\$200$."
+          },
+          {
+            "text": "A negative value, showing the model's condition that g be below r is violated",
+            "value": null,
+            "explanation": "Correct. $2.00/(0.07-0.08)=-200$. A perpetual growth rate above the required return makes the formula meaningless, so the assumption must be revised or another model used."
+          },
+          {
+            "text": "An infinite value, so the stock is worth buying at any price",
+            "value": null,
+            "explanation": "Confuses a broken assumption with a real result. Sustained growth above $r$ forever is not realistic, and the formula yields a negative number rather than a usable valuation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company just paid an annual dividend of $1.80 per share. Dividends are expected to grow at a constant 3% per year indefinitely, and the required return is 8%. Using the constant growth dividend discount model, what is the intrinsic value per share today? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$36.00",
+            "value": 36,
+            "explanation": "Uses $D_0=1.80$ in the numerator instead of $D_1=1.80\\times1.03=1.854$."
+          },
+          {
+            "text": "$16.85",
+            "value": 16.8545,
+            "explanation": "Adds growth to the required return in the denominator, giving $1.854/(0.08+0.03)$, instead of subtracting it."
+          },
+          {
+            "text": "$37.08",
+            "value": 37.08,
+            "explanation": "Correct. $D_1=1.80\\times1.03=1.854$, and $1.854/(0.08-0.03)=37.08$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":1.854,\"r\":0.08,\"g\":0.03}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A stock trades at $50. Next year's dividend is expected to be $2.00, and dividends are expected to grow at 4% per year forever. Assuming the market price equals intrinsic value under the constant growth model, what required return is implied?",
+        "options": [
+          {
+            "text": "4.00%",
+            "value": null,
+            "explanation": "Only the dividend yield $D_1/P_0=2/50$. It leaves out the growth component $g$."
+          },
+          {
+            "text": "8.16%",
+            "value": null,
+            "explanation": "Treats the $2.00 as $D_0$ and grows it once more to $2.08$, even though the stem says it is already next year's dividend."
+          },
+          {
+            "text": "8.00%",
+            "value": null,
+            "explanation": "Correct. $r=D_1/P_0+g=2.00/50+0.04=0.04+0.04=8\\%$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec07:7:2",
+          "os:principles-finance-2e:m00068:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A firm just paid a dividend of $1.00 per share (annual, paid at year-end). Dividends will grow 20% per year for the next 2 years, then 5% per year forever. The required return is 11%. Using a two-stage dividend discount model, what is the intrinsic value per share today? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$21.73",
+            "value": 21.7288,
+            "explanation": "Builds the terminal value from $D_2$ ($1.44/0.06=24.00$) instead of $D_3=1.512$, so the first stable-stage dividend is missed."
+          },
+          {
+            "text": "$27.45",
+            "value": 27.4498,
+            "explanation": "Adds the terminal value of $25.20$ to the stage-1 dividends without discounting it back two years."
+          },
+          {
+            "text": "$22.70",
+            "value": 22.7027,
+            "explanation": "Correct. $D_1=1.20$, $D_2=1.44$, $D_3=1.512$, so $TV_2=1.512/0.06=25.20$. Value $=1.20/1.11+(1.44+25.20)/1.11^2=22.70$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.11,\"cashflows\":[0,1.2,26.64]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:4",
+          "os:principles-finance-2e:m00068:8",
+          "mit-ocw-15401-rec03:1:0"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): D1=1.20, D2=1.44, D3=1.512. TV2=1.512/0.06=25.20. PV = 1.20/1.11 + (1.44+25.20)/1.2321 = 1.0811 + 21.6234 = 22.70. Recheck: 26.64/1.2321 = 21.6218; total 22.70, so answer C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "critic_review": {
+          "pass": true,
+          "issues": [
+            "flag overturned on second review: D1=1.20, D2=1.44, D3=1.512, TV2=1.512/0.06=25.20, and PV=1.0811+26.64/1.2321=22.70, which matches the engine value. Distractor A recomputes to 21.73 (using TV 24.00) and B to 27.45 (undiscounted TV), so both descriptions are accurate and the key C is correct."
+          ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company just paid a dividend equal to 60% of its earnings per share of $5.00. It will keep its payout ratio and its 15% return on equity constant forever, and the required return is 10%. Dividend growth equals the retention ratio times ROE. Using the constant growth model, what is the intrinsic value per share? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$75.00",
+            "value": 75,
+            "explanation": "Correct growth of 6% but uses $D_0=3.00$ rather than $D_1=3.18$ in the numerator."
+          },
+          {
+            "text": "$327.00",
+            "value": 327,
+            "explanation": "Computes growth as payout ratio times ROE (0.60 × 0.15 = 9%) instead of retention ratio times ROE, which collapses the spread $r-g$ to 1%."
+          },
+          {
+            "text": "$79.50",
+            "value": 79.5,
+            "explanation": "Correct. Retention $b=0.40$, so $g=0.40\\times0.15=6\\%$. $D_0=0.60\\times5.00=3.00$, $D_1=3.18$, and $3.18/(0.10-0.06)=79.50$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":3.18,\"r\":0.1,\"g\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec03:1:0",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm's dividends are forecast individually for years 1 through 4, after which they grow at a stable rate $g_L$ forever. How should the terminal value be calculated and used in the two-stage model?",
+        "options": [
+          {
+            "text": "Use $D_4/(r-g_L)$ as the value at the end of year 4, then discount it 4 years",
+            "value": null,
+            "explanation": "Uses $D_4$, the last explicit dividend, instead of $D_5$. The Gordon formula needs the dividend one year after the valuation date."
+          },
+          {
+            "text": "Use $D_5/(r-g_L)$ as the value at the end of year 5, then discount it 5 years",
+            "value": null,
+            "explanation": "Misplaces the date. $D_5/(r-g_L)$ is the value one period before $D_5$, which is the end of year 4, so it should be discounted 4 years."
+          },
+          {
+            "text": "Use $D_5/(r-g_L)$ as the value at the end of year 4, then discount it 4 years",
+            "value": null,
+            "explanation": "Correct. The Gordon value at time 4 uses the dividend at time 5, and it is brought to today with $(1+r)^4$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst values a firm using free cash flow to the firm that is expected to grow at a constant rate. Which procedure is consistent with that model?",
+        "options": [
+          {
+            "text": "Discount FCFF at the cost of equity, then subtract debt to reach equity",
+            "value": null,
+            "explanation": "Uses the wrong discount rate. FCFF belongs to all capital providers, so it must be discounted at WACC, not the cost of equity."
+          },
+          {
+            "text": "Discount FCFF at WACC; the result is already the value of equity",
+            "value": null,
+            "explanation": "Confuses firm value with equity value. Discounting FCFF at WACC gives value to all capital providers, so debt and preferred claims must be subtracted."
+          },
+          {
+            "text": "Discount FCFF at WACC, then subtract debt and preferred value to reach equity",
+            "value": null,
+            "explanation": "Correct. $FCFF_1/(WACC-g)$ gives firm value. Subtracting the value of non-equity claims leaves equity value, which is divided by shares outstanding."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock's dividend one year from now ($D_1$) is expected to be $2.00, growing at 5% per year forever. The required return is 10%. Using the constant growth model, what is the expected stock price two years from today, immediately after the year-2 dividend has been paid? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$40.00",
+            "value": 40,
+            "explanation": "This is the value today ($2.00/0.05), not the value two years ahead. It ignores that the price grows at $g$ each year."
+          },
+          {
+            "text": "$42.00",
+            "value": 42,
+            "explanation": "Uses $D_2=2.10$ in the numerator. The value at time 2 needs $D_3$, the dividend one year after that date."
+          },
+          {
+            "text": "$44.10",
+            "value": 44.1,
+            "explanation": "Correct. $D_3=2.00\\times1.05^2=2.205$, and $V_2=D_3/(r-g)=2.205/0.05=44.10$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.205,\"r\":0.1,\"g\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "In the Gordon growth model, which dividend goes in the numerator, and what must be true of r and g?",
+        "back": "$D_1$, next year's dividend ($D_0(1+g)$). It requires $r>g$; otherwise the model fails.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:1",
+          "os:principles-finance-2e:m00068:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you compute the terminal value in a two-stage dividend model with high growth for n years?",
+        "back": "$TV_n=D_{n+1}/(r-g_L)$, found at the end of year n, then discounted n years and added to the PV of the stage-1 dividends.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:4",
+          "damodaran-valn2ed-ch12:18:18"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the sustainable growth rate and how is it computed?",
+        "back": "$g=b\\times\\text{ROE}$, where $b$ is the retention ratio ($1-$ payout ratio) and ROE is return on equity.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec03:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do you back out the market's implied required return from a constant-growth stock price?",
+        "back": "$r=D_1/P_0+g$: the expected dividend yield plus the dividend growth rate.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec07:7:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "In constant-growth models, which discount rate goes with FCFE and which with FCFF?",
+        "back": "FCFE is discounted at the cost of equity and gives equity value. FCFF is discounted at WACC and gives firm value, from which debt and preferred are subtracted to reach equity value.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:21:52.759Z",
+      "purpose": "blind-solve",
+      "losId": "equity-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1139,
+      "outputTokens": 658,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008975,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:22:02.596Z",
+      "purpose": "grounding",
+      "losId": "equity-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13979,
+      "outputTokens": 1402,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.042147199999999996,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:22:06.296Z",
+      "purpose": "confirm",
+      "losId": "equity-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 463,
+      "outputTokens": 443,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.005464,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.05658619999999999
+}

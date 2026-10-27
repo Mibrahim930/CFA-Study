@@ -1,0 +1,797 @@
+{
+  "losId": "equity-04-los2",
+  "losText": "describe dividend payment chronology",
+  "moduleId": "equity-04",
+  "moduleTitle": "Sources of Equity Returns",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:20:01.880Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "finra-dividend-dates-notice:1:0",
+      "title": "NASD Notice to Members 00-54: Ex-Dividend Dates (now FINRA), August 2000",
+      "locator": "p. 1",
+      "url": "https://www.finra.org/sites/default/files/NoticeDocument/p003997.pdf#page=1",
+      "license": "© NASD (now FINRA); free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.27
+    },
+    {
+      "id": "finra-dividend-dates-notice:1:1",
+      "title": "NASD Notice to Members 00-54: Ex-Dividend Dates (now FINRA), August 2000",
+      "locator": "pp. 1–2",
+      "url": "https://www.finra.org/sites/default/files/NoticeDocument/p003997.pdf#page=1",
+      "license": "© NASD (now FINRA); free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.26
+    },
+    {
+      "id": "finra-dividend-dates-notice:2:2",
+      "title": "NASD Notice to Members 00-54: Ex-Dividend Dates (now FINRA), August 2000",
+      "locator": "p. 2",
+      "url": "https://www.finra.org/sites/default/files/NoticeDocument/p003997.pdf#page=2",
+      "license": "© NASD (now FINRA); free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.26
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:17:13",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 17–18",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=17",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:18:14",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 18–20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=18",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "flatworld-finance-for-managers:154:107",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 154–155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=154",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:29:21",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 29–30",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=29",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:8:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 8–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "russell-us-indexes-methodology:28:35",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 28–29",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=28",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "russell-us-indexes-methodology:47:51",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "pp. 47–50",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=47",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:16:12",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 16–17",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=16",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:147:102",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 147–149",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=147",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "The Dividend Calendar: Declaration, Ex-Date, Record Date and Payment",
+      "summary": "A dividend moves through four dates, and the date you buy or sell decides who gets the cash. Knowing the order, and why the ex-dividend date comes where it does, is a standard exam topic and keeps you from mixing up who is entitled to a dividend.",
+      "sections": [
+        {
+          "heading": "Why a calendar is needed",
+          "body_markdown": "Shares trade all day, every day, but a company pays a dividend to *one* group of owners. Think of a restaurant that promises a free dessert to everyone on a reservation list: someone has to freeze the list at a specific moment, and the dessert is handed out later. The company's dividend calendar does the same job. It freezes the list of owners, tells the market who is in or out, and then pays."
+        },
+        {
+          "heading": "The four dates in order",
+          "body_markdown": "1. **Declaration date**: the board of directors announces the dividend (amount per share, record date, payment date). From this moment the company has a legal obligation, so a *dividend payable* liability is recorded.\n2. **Ex-dividend date (ex-date)**: the first day on which a new buyer of the share does **not** receive the upcoming dividend. The seller keeps it.\n3. **Holder-of-record date (record date)**: the company checks its register. Whoever is listed as owner on this date is entitled to the dividend.\n4. **Payment date**: the cash is actually sent to the holders of record.\n\nA handy memory chain: *declare → ex → record → pay*. Under T+2 settlement the ex-date is a business day before the record date, so the chain holds strictly. Under T+1 the ex-date and record date fall on the same day."
+        },
+        {
+          "heading": "Why the ex-date sits where it does: settlement",
+          "body_markdown": "When you buy a share you do not become the registered owner instantly. The trade must **settle**, which means cash and shares are exchanged some business days after the trade. Only after settlement does the company's register show you as owner.\n\nSo to be on the register on the record date, your trade must settle by then. Working backwards gives a rule of thumb:\n\n- **T+2 settlement** (trade date plus 2 business days): ex-date = **1 business day before** the record date.\n- **T+1 settlement** (the US standard since May 2024): ex-date = **the record date itself**.\n- Older **T+3** practice put the ex-date 2 business days before the record date, which is how an older regulatory notice describes the usual case.\n\nA trade made **before** the ex-date still settles in time for the buyer to be a holder of record, so the buyer gets the dividend. A trade made **on or after** the ex-date does not, so the seller keeps it. Always count *business* days, so weekends and holidays push dates back."
+        },
+        {
+          "heading": "What happens to price and to the books",
+          "body_markdown": "On the ex-date, buyers no longer get the dividend, so the share is worth roughly the dividend amount less. The market price therefore tends to open lower by about that amount, all else equal. Nothing is lost: the seller who keeps the dividend is compensated by the lower price the buyer pays.\n\n**Accounting view:** declaration creates the liability, and the payment date settles it with cash. The record and ex-dates are just bookkeeping dates for entitlement.\n\n**Special case (beyond the usual exam focus):** for very large distributions, around 25% or more of the share's value, US exchange practice sets the ex-date *after* the payment date rather than just before the record date. That prevents a seller from collecting a dividend that the price had not yet reflected."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company declares a dividend on Monday, 3 February 2025. The record date is Friday, 14 February 2025 and the payment date is Friday, 28 February 2025. Shares settle on a T+1 basis and there are no holidays between these dates. (a) What is the ex-dividend date? (b) An investor buys the shares on Thursday, 13 February. Does the investor receive the dividend? (c) What would the ex-date have been under T+2 settlement?",
+        "steps": [
+          "Identify the order: declaration (3 Feb) → ex-date → record date (14 Feb) → payment (28 Feb).",
+          "With T+1 settlement, a trade settles one business day after the trade date. To be on the register on the record date, a trade must be made no later than the business day before it, which is the last cum-dividend day.",
+          "Check Thursday 13 Feb: a purchase then settles on Friday 14 Feb, the record date, so the buyer is registered in time.",
+          "Check Friday 14 Feb: a purchase then settles on Monday 17 Feb, after the record date, so the buyer is not registered. Friday 14 Feb is therefore the first ex-dividend day, the same day as the record date.",
+          "Under T+2, a Thursday 13 Feb purchase would settle Monday 17 Feb, too late, so the ex-date moves one business day earlier, to Thursday 13 Feb. Buyers on Wednesday 12 Feb settle on Friday 14 Feb and get the dividend."
+        ],
+        "answer": "(a) Friday, 14 February 2025 (the same day as the record date). (b) Yes, the Thursday 13 February buyer receives the dividend, paid on 28 February. (c) Under T+2 the ex-date would be Thursday, 13 February 2025.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Ex-date rule of thumb",
+          "latex": "\\text{Ex-date} = \\text{Record date} - (k-1)\\ \\text{business days}",
+          "where": "k is the number of business days a trade takes to settle (T+k). For T+2, k = 2 so the ex-date is 1 business day before the record date. For T+1, k = 1 so the ex-date equals the record date."
+        }
+      ],
+      "exam_traps": [
+        "Treating the record date as the cutoff for buying. Because of settlement, you must buy before the ex-date, not merely before the record date.",
+        "Mixing up the ex-date and the record date, or assuming the ex-date comes after the record date (it never does for ordinary dividends).",
+        "Forgetting that the settlement cycle changes the gap: ex-date is one business day before record under T+2, but the same day under T+1.",
+        "Counting calendar days instead of business days, for example missing that a Monday record date under T+2 gives a Friday ex-date.",
+        "Assuming the buyer must hold until the payment date, or that the seller loses the dividend when selling after the ex-date but before payment. Entitlement is fixed by the ex-date, not by who owns the share when cash is paid."
+      ],
+      "builds_on": [
+        "Dividends as a source of equity return",
+        "Trade settlement conventions",
+        "Liabilities on the balance sheet"
+      ],
+      "leads_to": [
+        "Price return and total return calculations",
+        "Dividend discount models",
+        "Share repurchases and corporate actions"
+      ],
+      "cited_chunk_ids": [
+        "finra-dividend-dates-notice:1:1",
+        "finra-dividend-dates-notice:2:2"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "critic_review": {
+        "pass": true,
+        "issues": [
+          "flag overturned on second review: Rechecking the lesson found no errors: ex-date is 1 business day before record under T+2, equal to the record date under T+1, and 2 days before under T+3. The worked example is right (ex-date 14 Feb under T+1, 13 Feb buyer receives the dividend, ex-date 13 Feb under T+2), and the 25% special case is accurate."
+        ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Assume T+2 settlement. Which sequence lists the four dividend dates in the correct chronological order?",
+        "options": [
+          {
+            "text": "Declaration date, record date, ex-dividend date, payment date",
+            "value": null,
+            "explanation": "Swaps the ex-date and the record date. Under T+2 the ex-date is the business day before the record date, not after it."
+          },
+          {
+            "text": "Declaration date, ex-dividend date, record date, payment date",
+            "value": null,
+            "explanation": "Correct. The board declares, the stock goes ex-dividend one business day before the record date, the register is checked on the record date, and cash is paid last."
+          },
+          {
+            "text": "Ex-dividend date, declaration date, record date, payment date",
+            "value": null,
+            "explanation": "Puts the ex-date before the declaration. The ex-date cannot be set until the dividend has been announced."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which event occurs on the declaration date of a cash dividend?",
+        "options": [
+          {
+            "text": "The company's board creates a legal obligation to pay, recorded as a dividend payable",
+            "value": null,
+            "explanation": "Correct. Once declared, the company owes the dividend, so a liability is recorded."
+          },
+          {
+            "text": "The company's register is checked to see who is entitled to the dividend",
+            "value": null,
+            "explanation": "This describes the holder-of-record date, not the declaration date."
+          },
+          {
+            "text": "The share price falls because new buyers no longer receive the dividend",
+            "value": null,
+            "explanation": "This describes the ex-dividend date, a different date from the declaration."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A share goes ex-dividend on Wednesday, 10 July 2024, under T+2 regular-way settlement. The record date is Thursday, 11 July. An investor buys the share on Tuesday, 9 July. Who receives the upcoming dividend?",
+        "options": [
+          {
+            "text": "The seller, because the dividend belongs to whoever owned the share when it was declared",
+            "value": null,
+            "explanation": "Confuses declaration-date ownership with entitlement. The buyer's trade settles on 11 July, so the buyer is the holder of record."
+          },
+          {
+            "text": "The seller and the buyer, who split it in proportion to the days each held the share",
+            "value": null,
+            "explanation": "Dividends are not prorated between buyer and seller. One party is entitled, based on the record date."
+          },
+          {
+            "text": "The buyer, because the trade is made before the ex-date and settles by the record date",
+            "value": null,
+            "explanation": "Correct. A 9 July trade settles on 11 July, so the buyer is on the register on the record date and receives the dividend."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under T+2 regular-way settlement, a company sets its record date on Monday, 18 March 2024. There are no holidays. What is the ex-dividend date?",
+        "options": [
+          {
+            "text": "Thursday, 14 March 2024",
+            "value": null,
+            "explanation": "Counts two business days before the record date, which is the older T+3 convention. Under T+2 the gap is one business day."
+          },
+          {
+            "text": "Monday, 18 March 2024",
+            "value": null,
+            "explanation": "Sets the ex-date equal to the record date, which is correct for T+1 but not for T+2."
+          },
+          {
+            "text": "Friday, 15 March 2024",
+            "value": null,
+            "explanation": "Correct. The ex-date is one business day before the record date, and the business day before Monday is Friday, because the weekend is skipped."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under T+1 settlement, how does the ex-dividend date of an ordinary cash dividend relate to the record date?",
+        "options": [
+          {
+            "text": "The ex-date is one business day after the record date",
+            "value": null,
+            "explanation": "The ex-date is never after the record date for ordinary dividends. A buyer after the record date could not be a holder of record."
+          },
+          {
+            "text": "The ex-date falls on the same business day as the record date",
+            "value": null,
+            "explanation": "Correct. A trade settles in one business day. A buyer on the record date settles too late, so that day is already ex-dividend."
+          },
+          {
+            "text": "The ex-date is one business day before the record date",
+            "value": null,
+            "explanation": "This is the T+2 relationship. Applying it to T+1 settlement ignores the shorter settlement cycle."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "All else equal, on which date would a stock's price be expected to fall by roughly the amount of the dividend?",
+        "options": [
+          {
+            "text": "The declaration date, when the company commits to the dividend",
+            "value": null,
+            "explanation": "The announcement may move the price as news, but the mechanical drop for the payout happens when buyers lose the right to it."
+          },
+          {
+            "text": "The payment date, when the cash leaves the company",
+            "value": null,
+            "explanation": "By the payment date the right to the dividend is already fixed, so the share price has already adjusted."
+          },
+          {
+            "text": "The ex-dividend date, when new buyers stop being entitled to the dividend",
+            "value": null,
+            "explanation": "Correct. From the ex-date, a buyer pays for a share without the dividend, so the price adjusts down by about the dividend amount."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A stock goes ex-dividend on Wednesday, 10 July 2024 under T+2 regular-way settlement. The record date is Thursday, 11 July and the payment date is 25 July. An investor who has owned the share for years sells it on the ex-date, 10 July. Who is entitled to the dividend?",
+        "options": [
+          {
+            "text": "The investor who sold, because the sale was made on or after the ex-date",
+            "value": null,
+            "explanation": "Correct. The buyer purchased ex-dividend. The sale settles on 12 July, after the record date, so the seller is still the holder of record on 11 July."
+          },
+          {
+            "text": "The buyer, because the buyer owns the share on the payment date",
+            "value": null,
+            "explanation": "Wrongly uses ownership on the payment date. Entitlement depends on the record date, which the ex-date mechanism protects."
+          },
+          {
+            "text": "The buyer, because the sale settles after the record date",
+            "value": null,
+            "explanation": "Reverses the logic. Settling after the record date means the buyer is not on the register, so the seller keeps the dividend."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the ex-dividend date?",
+        "back": "The first day on which a buyer of the share does not receive the upcoming dividend; the seller keeps it. The price typically drops by about the dividend that day.",
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "List the four dividend dates in order (T+2 settlement).",
+        "back": "Declaration → ex-dividend → holder-of-record → payment.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does the settlement cycle set the ex-date relative to the record date?",
+        "back": "Ex-date = record date minus (k − 1) business days for T+k settlement. T+2: one business day before. T+1: the same day.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What happens on the declaration date versus the payment date?",
+        "back": "Declaration: the board commits to the dividend and a dividend payable liability is recorded. Payment: cash is sent to holders of record and the liability is settled.",
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Contrast the record date with the ex-date.",
+        "back": "The record date is when the company checks its register to see who is entitled. The ex-date is the first trading day on which a new buyer would not be on that register in time.",
+        "cited_chunk_ids": [
+          "finra-dividend-dates-notice:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:19:42.511Z",
+      "purpose": "blind-solve",
+      "losId": "equity-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 903,
+      "outputTokens": 532,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007243,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:19:55.798Z",
+      "purpose": "grounding",
+      "losId": "equity-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13262,
+      "outputTokens": 1764,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044333199999999996,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:20:01.880Z",
+      "purpose": "confirm",
+      "losId": "equity-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2451,
+      "outputTokens": 727,
+      "cacheWriteTokens": 540,
+      "cacheReadTokens": 0,
+      "costUsd": 0.013522,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0650982
+}

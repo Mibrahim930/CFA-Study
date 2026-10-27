@@ -1,0 +1,808 @@
+{
+  "losId": "equity-08-los3",
+  "losText": "estimate and interpret the value of an equity security based on the outputs of a financial statement forecast model",
+  "moduleId": "equity-08",
+  "moduleTitle": "Financial Statement Forecasting in Equity Valuation",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:24:27.331Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch14:43:33",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00118:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.6 Using Excel to Create the Long-Term Forecast — Using Excel to Create the Long-Term Forecast",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-6-using-excel-to-create-the-long-term-forecast",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Sensitivity Analysis in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:1:1",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:10:8",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:2:1",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Scenarios in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00118:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.6 Using Excel to Create the Long-Term Forecast — Using Excel Functions to Balance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-6-using-excel-to-create-the-long-term-forecast",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch12:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:5.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Two-Stage Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "From a Forecast Model to a Share Value",
+      "summary": "Once an analyst has projected a company's financials, those projections can be turned into a value per share, either by discounting forecast cash flows or by applying a multiple to forecast earnings. The number only means something when you know which parts of the forecast drive it and how far it moves if those parts are wrong.",
+      "sections": [
+        {
+          "heading": "Forecast outputs are raw material, not the answer",
+          "body_markdown": "A forecast model gives you projected line items: sales, margins, earnings per share (EPS), capital spending, working-capital needs and debt. A valuation has to turn those lines into one number.\n\nThink of a forecast like a recipe's ingredient list. The valuation step is the cooking: you choose a method and combine the ingredients properly. Two routes are common:\n\n- **Discounted cash flow (DCF):** convert the forecast into cash flows that belong to a specific group of investors, then discount them to today at the rate that group requires.\n- **Multiples:** apply a price ratio, such as a forward price/earnings (P/E) ratio, to a forecast figure such as next year's EPS.\n\nThe model gives you the cash flow or earnings. Your valuation choices give you the discount rate, growth rate or multiple."
+        },
+        {
+          "heading": "Discounting cash flows: match the cash flow to the discount rate",
+          "body_markdown": "**Free cash flow to equity (FCFE)** is the cash left for shareholders after the company has paid operating costs and taxes, funded its investments, and settled its debt obligations (interest, repayments and new borrowing). Discount FCFE at the **cost of equity** and you get the value of the *equity* directly.\n\n**Free cash flow to the firm (FCFF)** is the cash generated for *all* capital providers, before any payments to lenders. Discount FCFF at the **weighted average cost of capital (WACC)** and you get the value of the *operating assets*. To reach equity you then subtract the claims ahead of shareholders (debt, and preferred stock if any) and add non-operating assets such as surplus cash or investments.\n\nThe rule is **consistency**. A cash flow measured before debt payments needs a blended rate that includes debt. A cash flow measured after debt payments needs the shareholders' own required return."
+        },
+        {
+          "heading": "Terminal value: the forecast cannot go on forever",
+          "body_markdown": "Explicit forecasts usually cover only 3–10 years, yet the company is expected to keep operating. A **terminal value (TV)** captures everything after the last forecast year, valued as of that year. Two standard ways to get it:\n\n1. **Constant-growth (Gordon) model.** Assume the cash flow grows at a steady rate $g$ forever. Then $TV_N = \\frac{CF_{N+1}}{r-g}$.\n2. **Exit multiple.** Multiply a final-year metric by a multiple, for example forecast EPS times a terminal P/E. A multiple taken from today's comparable companies brings market pricing into the DCF, so the result is partly a relative valuation.\n\nThe terminal value is itself a future amount, so it must be discounted back $N$ years like any other cash flow. It often supplies the majority of total value, which makes the long-run growth rate and discount rate the most dangerous assumptions in the model."
+        },
+        {
+          "heading": "Interpreting the result: sensitivity, scenarios and the market price",
+          "body_markdown": "A single value per share looks precise, but it rests on forecasts that may be wrong. Good practice is to flex inputs and see what happens:\n\n- **Sensitivity analysis** changes one input at a time (sales growth, margin, $g$, the discount rate) and shows which ones the value depends on most. Those inputs deserve the most research effort.\n- **Scenario analysis** changes several inputs together (for example recession, base and expansion cases). Values from the cases can be weighted by assigned probabilities.\n\nWhen the value you estimate is above the market price, that does *not* prove the stock is cheap. It says the stock is cheap *if* your forecasts are closer to reality than the expectations already priced in. Check the model's internal consistency (for example, that the balance sheet balances and growth is supported by reinvestment) before trusting the output."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst's model forecasts free cash flow to equity (FCFE) of 120 million, 132 million and 145 million in years 1, 2 and 3. After year 3, FCFE is expected to grow at 3% a year forever. The cost of equity is 10% and there are 100 million shares. Estimate the equity value and the value per share, and say how much of the value comes from the terminal value.",
+        "steps": [
+          "Terminal value at the end of year 3 using the constant-growth model: $TV_3 = \\frac{145 \\times 1.03}{0.10-0.03} = \\frac{149.35}{0.07} = 2{,}133.57$ million.",
+          "Year 3 total cash flow to discount = FCFE₃ + TV₃ = 145 + 2,133.57 = 2,278.57 million.",
+          "Discount each cash flow at 10%: 120/1.10 = 109.09; 132/1.10² = 109.09; 2,278.57/1.10³ = 1,711.92.",
+          "Add them: 109.09 + 109.09 + 1,711.92 = 1,930.11 million of equity value.",
+          "BA II Plus: press CF, 2ND, CLR WORK. Enter CF0 = 0, ↓, C01 = 120, ↓ ↓, C02 = 132, ↓ ↓, C03 = 2278.57. Press NPV, enter I = 10, ENTER, ↓, CPT. Display ≈ 1,930.11.",
+          "Per share: 1,930.11 / 100 = 19.30.",
+          "Terminal value share: 1,711.92 / 1,930.11 ≈ 88.7% of the total, so the estimate is highly sensitive to the 3% growth rate and the 10% discount rate. If the stock trades at 16, the model points to undervaluation only if these forecasts are better than the market's."
+        ],
+        "answer": "Equity value ≈ 1,930.11 million (about 19.30 per share), with roughly 89% coming from the terminal value.",
+        "answer_value": 1930.11,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.10,\"cashflows\":[0,120,132,2278.5714286]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Equity value from forecast FCFE",
+          "latex": "V_0=\\sum_{t=1}^{N}\\frac{FCFE_t}{(1+r_e)^t}+\\frac{TV_N}{(1+r_e)^N}",
+          "where": "V_0 is equity value today; FCFE_t is forecast free cash flow to equity in year t; r_e is the cost of equity; N is the last explicit forecast year; TV_N is the terminal value at year N."
+        },
+        {
+          "name": "Constant-growth terminal value",
+          "latex": "TV_N=\\frac{CF_{N+1}}{r-g}=\\frac{CF_N(1+g)}{r-g}",
+          "where": "CF_N is the final forecast-year cash flow (FCFE or FCFF); g is the perpetual growth rate; r is the discount rate matching the cash flow (cost of equity for FCFE, WACC for FCFF). Requires r > g."
+        },
+        {
+          "name": "Equity value from FCFF",
+          "latex": "\\text{Equity}=\\text{PV of FCFF at WACC}-\\text{Debt}-\\text{Preferred}+\\text{Non-operating assets}",
+          "where": "PV of FCFF at WACC is the value of operating assets; Debt and Preferred are the market values of those claims; Non-operating assets are items such as surplus cash that the FCFF did not capture."
+        },
+        {
+          "name": "Multiple-based value",
+          "latex": "P_0=\\text{Forward P/E}\\times EPS_1",
+          "where": "Forward P/E is the justified or comparable price/earnings multiple; EPS_1 is the model's forecast earnings per share for next year."
+        }
+      ],
+      "exam_traps": [
+        "Discounting FCFE at WACC or FCFF at the cost of equity. The rate must match the cash flow's claimants.",
+        "Stopping at the PV of FCFF and calling it equity value. Debt and preferred stock must be subtracted (and non-operating assets added).",
+        "Forgetting to discount the terminal value back N years, or discounting it N−1 or N+1 years.",
+        "Using the final forecast year's cash flow in the Gordon formula instead of the next year's (CF_N × (1+g)), or growing it twice when the figure given is already next year's.",
+        "Treating a value above market price as a sure sign of undervaluation instead of a result that depends on forecast quality and on the model's sensitivity to growth and discount rates."
+      ],
+      "builds_on": [
+        "Time value of money and NPV",
+        "Dividend discount and free cash flow models",
+        "Pro forma financial statement forecasting",
+        "Cost of equity and WACC"
+      ],
+      "leads_to": [
+        "Multiples-based valuation",
+        "Scenario-weighted valuation",
+        "Equity research reports and investment recommendations"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch14:43:33",
+        "damodaran-valn2ed-ch15:2:2",
+        "damodaran-valn2ed-ch12:1:1",
+        "damodaran-valn2ed-ch12:2:2",
+        "os:principles-finance-2e:m00117:5",
+        "os:principles-finance-2e:m00117:4",
+        "os:principles-finance-2e:m00068:5.1",
+        "damodaran-valn2ed-ch17:2:2"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst discounts a model's forecast free cash flow to the firm (FCFF) at the company's WACC and obtains the present value. To arrive at the value of the common equity, what should the analyst do next?",
+        "options": [
+          {
+            "text": "Add the market value of debt, because lenders' cash flows were excluded from FCFF",
+            "value": null,
+            "explanation": "Wrong direction. Debt is a claim on the firm's value that ranks ahead of shareholders, so it is subtracted, not added. FCFF is calculated before payments to lenders, so lenders' claims are still inside the number."
+          },
+          {
+            "text": "Subtract debt and preferred stock at market value, then add non-operating assets",
+            "value": null,
+            "explanation": "Correct. Discounting FCFF at WACC gives the value of the operating assets. Equity is what remains after claims ahead of shareholders are removed and surplus non-operating assets are included."
+          },
+          {
+            "text": "Make no adjustment, because discounting at WACC already gives equity value",
+            "value": null,
+            "explanation": "This confuses firm value with equity value. WACC blends debt and equity costs, so the result is the value of the whole operating business, not just the shareholders' part."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:2:2",
+          "damodaran-valn2ed-ch15:2:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A forecast model projects that a company's free cash flow to equity will be 40 million in year 5. After year 5 it is expected to grow at 3% a year forever. The cost of equity is 9%. Using the constant-growth model, what is the terminal value of the equity at the end of year 5? Round to two decimals (millions).",
+        "options": [
+          {
+            "text": "686.67 million",
+            "value": 686.67,
+            "explanation": "Correct. The year-6 FCFE is 40 × 1.03 = 41.20, and 41.20 / (0.09 − 0.03) = 686.67."
+          },
+          {
+            "text": "666.67 million",
+            "value": 666.67,
+            "explanation": "Mistake: dividing the year-5 cash flow (40) by r − g without first growing it to year 6. That gives 40 / 0.06 = 666.67."
+          },
+          {
+            "text": "343.33 million",
+            "value": 343.33,
+            "explanation": "Mistake: adding g to r instead of subtracting it, so the denominator becomes 0.12. That gives 41.20 / 0.12 = 343.33."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":41.2,\"r\":0.09,\"g\":0.03}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:1:1",
+          "os:principles-finance-2e:m00068:5.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A model forecasts free cash flow to equity of 50 million, 55 million and 60 million in years 1, 2 and 3. The analyst has already estimated the equity terminal value at the end of year 3 as 900 million. The cost of equity is 12%, and cash flows arrive at year-end. What is the current equity value? Round to two decimals (millions).",
+        "options": [
+          {
+            "text": "1,031.19 million",
+            "value": 1031.19,
+            "explanation": "Mistake: discounting the three FCFE amounts but adding the 900 terminal value undiscounted. It is a year-3 amount and must be divided by 1.12³."
+          },
+          {
+            "text": "729.09 million",
+            "value": 729.09,
+            "explanation": "Mistake: discounting the terminal value but dropping the year-3 FCFE of 60. The year-3 cash flow is 60 + 900 = 960."
+          },
+          {
+            "text": "771.80 million",
+            "value": 771.8,
+            "explanation": "Correct. 50/1.12 + 55/1.12² + (60 + 900)/1.12³ = 44.64 + 43.85 + 683.31 = 771.80."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.12,\"cashflows\":[0,50,55,960]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:5.1",
+          "damodaran-valn2ed-ch14:43:33"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): PV = 50/1.12 + 55/1.2544 + (60+900)/1.404928 = 44.64 + 43.85 + 683.29 = 771.78 under direct rounding. Recomputing precisely: 960/1.404928 = 683.30, so total is about 771.80, which matches option C. Option A (1,031.19) is not supported."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a DCF equity valuation, the terminal value accounts for 78% of the total present value. Lowering the perpetual growth rate from 3% to 2% reduces the estimated value by about one quarter. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "The estimate is reliable, because the explicit forecast years drive nearly all of the value",
+            "value": null,
+            "explanation": "Contradicts the data: 78% of the value comes from the terminal value, not the explicit forecast years."
+          },
+          {
+            "text": "The terminal value should be dropped and only the explicit-period cash flows valued",
+            "value": null,
+            "explanation": "Ignoring value beyond the forecast horizon treats a going-concern business as if it ended after the last forecast year, and so understates value."
+          },
+          {
+            "text": "The value depends heavily on long-run assumptions, so a range from sensitivity analysis should be reported",
+            "value": null,
+            "explanation": "Correct. Terminal value is driven by g and the discount rate, so flexing them shows how wide the plausible range is and where research effort is best spent."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:2:2",
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An analyst values a stock using a forecast of year-5 EPS of 4.00 and a terminal forward-looking P/E of 15 applied at the end of year 5, giving a year-5 price estimate of 60.00. The cost of equity is 10% per year. Using annual compounding, what is the present value of this terminal price today? Round to two decimals.",
+        "options": [
+          {
+            "text": "40.98",
+            "value": 40.98,
+            "explanation": "Mistake: discounting for only 4 years (60 / 1.10⁴) instead of 5."
+          },
+          {
+            "text": "37.26",
+            "value": 37.26,
+            "explanation": "Correct. 60 / 1.10⁵ = 60 / 1.61051 = 37.26."
+          },
+          {
+            "text": "33.87",
+            "value": 33.87,
+            "explanation": "Mistake: discounting for 6 years (60 / 1.10⁶), one period too many."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.10,\"n\":5,\"fv\":60}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:2:2",
+          "os:principles-finance-2e:m00068:5.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A completed forecast model produces an intrinsic value per share above the current market price. Which interpretation is most appropriate?",
+        "options": [
+          {
+            "text": "The stock is undervalued only if the forecasts are more accurate than the expectations built into the price",
+            "value": null,
+            "explanation": "Correct. The model output is only as good as its inputs. The gap signals opportunity only if the analyst's forecasts of key drivers are better than the market's, which sensitivity and scenario tests help check."
+          },
+          {
+            "text": "The stock is undervalued, because any model value above the market price guarantees a gain",
+            "value": null,
+            "explanation": "Overstates certainty. A model value is an estimate that depends on forecast assumptions, and nothing guarantees the market will move toward it."
+          },
+          {
+            "text": "The model has failed, because a correct model would always return the market price",
+            "value": null,
+            "explanation": "Wrong. Valuation models estimate intrinsic value precisely to find differences from market prices. Equality is not the test of a correct model."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:4",
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst forecasts free cash flow to equity (after interest and net borrowing) and discounts it at the company's WACC, which is lower than its cost of equity. What is the most likely effect on the estimated equity value?",
+        "options": [
+          {
+            "text": "It is understated, because WACC double counts the tax shield on debt interest",
+            "value": null,
+            "explanation": "The tax shield is in the after-tax cost of debt inside WACC. It does not make WACC exceed the cost of equity, and a lower rate raises, not lowers, present values."
+          },
+          {
+            "text": "It is unaffected, because both rates measure the same required return",
+            "value": null,
+            "explanation": "They differ. WACC blends the cost of debt and equity, while the cost of equity reflects only shareholders' risk, so they are rarely equal."
+          },
+          {
+            "text": "It is overstated, because the lower rate is applied to cash flows that carry equity risk",
+            "value": null,
+            "explanation": "Correct. FCFE belongs to shareholders and should be discounted at the cost of equity. A lower WACC inflates present values."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:2:2",
+          "damodaran-valn2ed-ch14:43:33"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Which discount rate goes with FCFE, and which with FCFF?",
+        "back": "FCFE is discounted at the cost of equity and gives equity value directly. FCFF is discounted at WACC and gives the value of the operating assets (firm value).",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you get from the PV of FCFF to equity value?",
+        "back": "Subtract the market value of debt and preferred stock, and add non-operating assets such as surplus cash.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch15:2:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the constant-growth terminal value at year N, and what must you do with it?",
+        "back": "TV_N = CF_N × (1+g) / (r − g). Then discount it back N years to today and add it to the PV of the explicit forecast cash flows.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch12:1:1",
+          "os:principles-finance-2e:m00068:5.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Sensitivity analysis versus scenario analysis: what is the difference?",
+        "back": "Sensitivity analysis changes one input at a time to see which ones move the value most. Scenario analysis changes several inputs together to describe a coherent case, such as recession, base or expansion.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5",
+          "os:principles-finance-2e:m00117:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:24:13.675Z",
+      "purpose": "blind-solve",
+      "losId": "equity-08-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1079,
+      "outputTokens": 613,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008405,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:24:27.330Z",
+      "purpose": "grounding",
+      "losId": "equity-08-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12771,
+      "outputTokens": 2009,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0458012,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.054206199999999996
+}

@@ -1,0 +1,431 @@
+{
+  "losId": "equity-11-los1",
+  "losText": "describe the elements that should be covered in a detailed company research report",
+  "moduleId": "equity-11",
+  "moduleTitle": "Equity Analyst Research Reports",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:13:20.163Z",
+  "retrieved": [
+    {
+      "id": "cfa-research-challenge:1:0",
+      "title": "CFA Institute Research Challenge: Written Report Guidelines",
+      "locator": "pp. 1–2",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-written-report-guidelines.pdf#page=1",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "finra-splits-and-research:4:19",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "finra-splits-and-research:2:4",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "You Asked. We Answered. \"What's a Reverse Stock Split?\"",
+      "url": "https://syndication.finra.org/content/you-asked-we-answered-whats-reverse-stock-split",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "finra-splits-and-research:4:11",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "finra-splits-and-research:4:18",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "finra-splits-and-research:4:23",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — Oversight: Corporate Governance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "finra-splits-and-research:4:15",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "finra-splits-and-research:4:14",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "finra-splits-and-research:4:13",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "finra-splits-and-research:4:20",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "finra-splits-and-research:4:17",
+      "title": "Stock splits, reverse stock splits and research analyst rules (FINRA)",
+      "locator": "2241. Research Analysts and Research Reports",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "license": "© FINRA; free to read on finra.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Anatomy of a Full Company Research Report",
+      "summary": "A detailed equity research report follows a standard layout that takes the reader from a headline verdict to the evidence behind it. Knowing the building blocks lets you judge whether a report is complete, balanced and credible.",
+      "sections": [
+        {
+          "heading": "A report is an argument, not a data dump",
+          "body_markdown": "Think of a doctor's file on a patient: a diagnosis up front, the history behind it, the test results, the risks of treatment and a note of anything that could bias the doctor. An equity research report works the same way. The **analyst** (the professional who studies a company and issues an opinion on its shares) wants to tell the reader *what to do* (buy, hold or sell), *why*, *how the value was estimated* and *what could go wrong*. Each section of the report exists to answer one of those questions."
+        },
+        {
+          "heading": "The building blocks",
+          "body_markdown": "A thorough report normally contains these elements:\n\n- **Snapshot or header**: company name, exchange, ticker (the short trading code), sector, industry, the recommendation, the current price with its date, and the target price with the percentage gap from today's price.\n- **Investment summary (thesis)**: a short statement of the recommendation and the two or three main reasons for it. The *thesis* is the core idea of why the shares are mispriced or fairly priced.\n- **Business description**: what the company sells, to whom, where, and how it earns money.\n- **Industry overview and competitive positioning**: how the industry is structured, what drives its growth and profits, and how the company compares with rivals.\n- **Financial analysis**: past results and projected (pro forma) results, covering growth, profitability, cash flow and balance sheet strength.\n- **Valuation**: the method and assumptions that turn the forecasts into a value estimate and a target price.\n- **Investment risks**: the things that could make the thesis fail.\n- **Environmental, social and governance (ESG)**: non-financial factors that could affect the company's performance or value.\n- **Appendices and disclosures**: detailed tables and statements of conflicts of interest."
+        },
+        {
+          "heading": "Valuation and risk must be tied to the recommendation",
+          "body_markdown": "A bare number is not enough. A good report explains **which valuation method** was used and **which assumptions** drive it, so a reader can test them. It also gives a fair account of the **risks** that could stop the price target from being reached, such as stronger competition, regulation or poor execution. If a rating system is used (e.g., buy/hold/sell), the report should define what each rating means, including the time horizon and any benchmark. A report whose target price is not backed by its forecasts, or whose risk section is only boilerplate, is incomplete however polished it looks."
+        },
+        {
+          "heading": "Disclosures and independence",
+          "body_markdown": "Readers rely on research only if they can see whether the author had reasons to be biased. A **conflict of interest** is a situation where the author or the firm could gain from a particular conclusion. Typical items to disclose: the analyst's or firm's ownership of the company's shares, compensation received from the company, investment banking or other services provided to it within the past year, and whether the firm makes a market in its shares. Under US rules these disclosures sit on the front page of the report, or the front page points to where they appear. Regulators created these rules to promote objective, transparent research. Details vary by jurisdiction, but the principle of clear, prominent disclosure is universal."
+        },
+        {
+          "heading": "Reading a report critically",
+          "body_markdown": "Check that the pieces fit together. The thesis in the summary should be supported by the industry and financial sections. The forecasts should feed the valuation. The risks should relate to the assumptions that matter most for the target price. The ESG section should address factors that plausibly affect cash flows or risk, not just general statements. The target price upside is simply $P_{target}/P_{current} - 1$, so the header number tells you at a glance how bold the call is."
+        }
+      ],
+      "worked_example": {
+        "problem": "A junior analyst's draft report on a retailer contains: (1) a header with name, ticker and a 'Buy' rating, (2) a long business description, (3) a valuation paragraph that says only 'we set a target price of 52', and (4) a table of last year's financials. The current price is 40. List what is missing or weak and state the upside implied by the header.",
+        "steps": [
+          "Check the header: it lacks the current price date and the target price, and no percentage upside is stated, so these should be added.",
+          "Compute the implied upside: $52/40 - 1 = 0.30$, i.e. 30%.",
+          "Check the investment summary: there is none, so the reader gets a rating without the main reasons behind it.",
+          "Check industry and competitive positioning: absent, so the reader cannot see how the retailer compares with rivals.",
+          "Check valuation: the target is given without a method or assumptions, so the reader cannot judge whether it has a reasonable basis.",
+          "Check financial analysis: only historical numbers are shown, with no projections feeding the valuation.",
+          "Check risks, ESG and disclosures: all missing; the report should flag what could derail the call and any conflicts of interest."
+        ],
+        "answer": "The implied upside is 30%. The draft is missing an investment summary, industry and competitive analysis, a valuation method with assumptions, forecasts, risks, ESG and conflict disclosures.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Implied upside to target price",
+          "latex": "\\text{Upside} = \\frac{P_{target}}{P_{current}} - 1",
+          "where": "$P_{target}$ is the analyst's target price; $P_{current}$ is the market price on the stated date. A negative result means implied downside."
+        }
+      ],
+      "exam_traps": [
+        "Treating the recommendation and target price as the whole report: a target without method, assumptions and risks lacks a reasonable basis.",
+        "Confusing the business description (what the firm does) with industry overview and competitive positioning (how the industry works and where the firm stands against rivals).",
+        "Thinking ESG is a separate ethics statement unrelated to value, when a good ESG section links factors such as governance quality to risk and valuation.",
+        "Mixing up investment risks (things that could make the thesis fail) with conflict-of-interest disclosures (things that could bias the analyst).",
+        "Calculating upside with the target price in the denominator instead of the current price."
+      ],
+      "builds_on": [
+        "Industry and competitive analysis",
+        "Financial statement analysis",
+        "Equity valuation methods",
+        "Corporate governance and ESG"
+      ],
+      "leads_to": [
+        "Sell-side versus buy-side research",
+        "Why analysts' value estimates differ",
+        "Research analyst ethics and conflicts of interest"
+      ],
+      "cited_chunk_ids": [
+        "cfa-research-challenge:1:0",
+        "finra-splits-and-research:4:15",
+        "finra-splits-and-research:4:17",
+        "finra-splits-and-research:2:4"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "What is the main job of the investment summary in a detailed company research report?",
+        "options": [
+          {
+            "text": "To reproduce the full historical financial statements in tabular form",
+            "value": null,
+            "explanation": "Mistake: confusing the summary with the appendix. Detailed financial tables support the report but are not its headline."
+          },
+          {
+            "text": "To state the recommendation and the key reasons that support it",
+            "value": null,
+            "explanation": "Correct: the summary delivers the verdict and the core thesis briefly, so the reader sees the argument before the detail."
+          },
+          {
+            "text": "To list the firm's ownership stakes and fees from the company",
+            "value": null,
+            "explanation": "Mistake: confusing the summary with the conflict-of-interest disclosures, which are a separate element."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A research report header shows a current price of 40.00 and a target price of 46.00. Ignore dividends. What percentage increase to the target does the header imply? Round to two decimals.",
+        "options": [
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Correct: 46/40 − 1 = 0.15, so the upside is 15.00% of the current price."
+          },
+          {
+            "text": "13.04%",
+            "value": 0.1304,
+            "explanation": "Mistake: dividing the gap of 6 by the target price (46) instead of the current price (40)."
+          },
+          {
+            "text": "115.00%",
+            "value": 1.15,
+            "explanation": "Mistake: reporting the price ratio 46/40 as a percentage and forgetting to subtract 1."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":40,\"endPrice\":46,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description best fits the industry overview and competitive positioning section of a research report?",
+        "options": [
+          {
+            "text": "A summary of the analyst's compensation and share holdings",
+            "value": null,
+            "explanation": "Mistake: mixing this section up with the disclosures about conflicts of interest."
+          },
+          {
+            "text": "A list of the company's products, customers and revenue sources",
+            "value": null,
+            "explanation": "Mistake: describing the business description, which covers what the company does rather than how it fits within its industry."
+          },
+          {
+            "text": "An account of industry structure and growth drivers, and how the company compares with rivals",
+            "value": null,
+            "explanation": "Correct: this section places the firm within its industry and shows where its advantages or weaknesses lie."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A report gives a price target of 52 in its header but never says how the target was derived or which assumptions were used. How should a reader judge this report?",
+        "options": [
+          {
+            "text": "Acceptable, because the header already shows a target price",
+            "value": null,
+            "explanation": "Mistake: believing that a stated number is enough. A target needs an explained basis."
+          },
+          {
+            "text": "Deficient, because the reader cannot assess whether the target has a reasonable basis",
+            "value": null,
+            "explanation": "Correct: a credible report explains the valuation method and key assumptions so the target can be tested."
+          },
+          {
+            "text": "Deficient only if the business description section is also missing",
+            "value": null,
+            "explanation": "Mistake: treating the missing valuation explanation as dependent on another section. It is a flaw on its own."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-splits-and-research:4:15"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which approach to the investment risks section is most appropriate in a detailed research report?",
+        "options": [
+          {
+            "text": "Identify specific factors, such as competition or regulation, that could prevent the thesis and target price from playing out",
+            "value": null,
+            "explanation": "Correct: risks should be company-specific and tied to what could undermine the recommendation or target."
+          },
+          {
+            "text": "Include only a generic statement that all share prices can fall",
+            "value": null,
+            "explanation": "Mistake: boilerplate market-risk wording does not give a fair presentation of the risks to this particular thesis."
+          },
+          {
+            "text": "Omit risks if the recommendation is a buy, since the thesis is positive",
+            "value": null,
+            "explanation": "Mistake: assuming risks only matter for negative calls. A buy rating still depends on assumptions that could fail."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-splits-and-research:4:15"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which item is a conflict-of-interest disclosure that a sell-side research report should contain?",
+        "options": [
+          {
+            "text": "The company's main competitors and their market shares",
+            "value": null,
+            "explanation": "Mistake: this is competitive positioning content, not a potential bias in the analyst or firm."
+          },
+          {
+            "text": "The main uncertainties in the analyst's revenue forecast",
+            "value": null,
+            "explanation": "Mistake: this is an investment risk or valuation sensitivity, not a conflict of interest."
+          },
+          {
+            "text": "Whether the firm provided investment banking services to the company in the past 12 months",
+            "value": null,
+            "explanation": "Correct: a banking relationship could bias the firm's view, so readers need to know about it, along with ownership and compensation."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-splits-and-research:4:17"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "What role should the environmental, social and governance (ESG) section play in a detailed company research report?",
+        "options": [
+          {
+            "text": "It replaces the investment risks section when the company has a good ESG record",
+            "value": null,
+            "explanation": "Mistake: ESG factors complement, not replace, the broader risk discussion."
+          },
+          {
+            "text": "It assesses ESG factors, such as board independence, that could affect risk, cash flows or value",
+            "value": null,
+            "explanation": "Correct: the section is useful when it links these factors to the company's risks and valuation."
+          },
+          {
+            "text": "It matters only to funds that follow an explicit ethical mandate",
+            "value": null,
+            "explanation": "Mistake: treating ESG as only an ethics preference. These factors can affect financial outcomes for any investor."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What identifying and pricing details belong in the header of a company research report?",
+        "back": "Company name, exchange, ticker, sector, industry, the recommendation, the current price with its date, and the target price with its percentage change.",
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      },
+      {
+        "front": "List the main sections of a detailed company research report.",
+        "back": "Business description; industry overview and competitive positioning; investment summary; valuation; financial analysis; investment risks; ESG; plus appendices and disclosures.",
+        "cited_chunk_ids": [
+          "cfa-research-challenge:1:0"
+        ]
+      },
+      {
+        "front": "What must a report explain to give a target price a reasonable basis?",
+        "back": "The valuation method used and its key assumptions, together with a fair presentation of the risks that could stop the target from being reached.",
+        "cited_chunk_ids": [
+          "finra-splits-and-research:4:15"
+        ]
+      },
+      {
+        "front": "How do investment risks differ from conflict-of-interest disclosures?",
+        "back": "Risks are things that could make the investment thesis fail. Conflict disclosures reveal circumstances (ownership, fees, banking ties) that could bias the analyst or firm.",
+        "cited_chunk_ids": [
+          "finra-splits-and-research:4:17"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:13:20.163Z",
+      "purpose": "generate",
+      "losId": "equity-11-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8665,
+      "outputTokens": 7439,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.09287619999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

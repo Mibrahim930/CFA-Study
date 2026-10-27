@@ -1,0 +1,803 @@
+{
+  "losId": "equity-08-los2",
+  "losText": "evaluate the construction of an equity valuation model based on characteristics of the subject company",
+  "moduleId": "equity-08",
+  "moduleTitle": "Financial Statement Forecasting in Equity Valuation",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:24:08.872Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:20:16",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Sensitivity Analysis in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:37:28",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 37",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=37",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Discounted Cash Flow (DCF) Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "flatworld-finance-for-managers:235:167",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 235–236",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=235",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:109",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 155–157",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:6.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Advantages and Limitations of DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "damodaran-valn2ed-ch20:8:6",
+      "title": "Investment Valuation, 2nd ed., ch. 20: Revenue Multiples and Sector-Specific Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 8–9",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch20.pdf#page=8",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "os:principles-finance-2e:m00003:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.2 The Role of Finance in an Organization — Financial Planning",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-2-the-role-of-finance-in-an-organization",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Fitting the Valuation Model to the Company",
+      "summary": "A good valuation model is built around the company's own traits, such as its dividend policy, leverage, cyclicality, segments and growth stage. This LOS is about judging whether a model's design suits the firm, because a model that fits poorly gives a precise but misleading value.",
+      "sections": [
+        {
+          "heading": "Start with the company, not the formula",
+          "body_markdown": "Think of a tailor. Before cutting cloth, the tailor measures the customer. An analyst should do the same: first learn how the firm makes money, how its profits move with the economy, how it pays out cash and how it is financed. Only then should the analyst pick a model and decide how to forecast its inputs.\n\nThe main traits to check are:\n- **Business mix**: one product or several segments.\n- **Sensitivity to the economy**: *cyclical* firms rise and fall with the economy, while *defensive* firms hold steady.\n- **Growth stage**: young and fast-growing, or mature and stable.\n- **Payout and leverage policy**: how much cash goes to owners, and whether debt levels are steady or changing."
+        },
+        {
+          "heading": "Choosing the cash flow and the model",
+          "body_markdown": "A **dividend discount model (DDM)** values a share from expected dividends. It works best for a mature firm with a stable, predictable payout policy tied to its earnings. It fits poorly when the firm pays no dividends, or pays much more or much less than it could afford.\n\n**Free cash flow to equity (FCFE)** is the cash left for shareholders after the firm has met debt obligations, capital spending and working-capital needs. It captures what the firm *could* pay out, so it suits firms whose dividends do not reflect their capacity. Where there is a real chance of a takeover or management change, the market price tends to reflect FCFE-type value rather than the dividends actually paid.\n\n**Free cash flow to the firm (FCFF)** is cash available to *all* capital providers, before debt financing flows. Use it when leverage is high or about to change. In that case, net borrowing, which FCFE depends on, is hard to forecast.\n\nYoung companies that pay no dividends are usually valued with a cash-flow model. The forecast has to run long enough for growth and margins to settle before a terminal value is applied."
+        },
+        {
+          "heading": "Building the forecast around the firm's traits",
+          "body_markdown": "- **Top-down vs bottom-up.** A *top-down* forecast starts from the economy or industry and then estimates the firm's share. A *bottom-up* forecast starts from the firm's units, prices and segments and adds them up. Use top-down for firms closely tied to economy-wide drivers. Use bottom-up for firms with distinct divisions.\n- **Multi-segment firms.** Forecast each segment separately, because growth and margins differ. Then aggregate and adjust for corporate costs.\n- **Cyclical firms.** Model the cycle explicitly and avoid extrapolating a peak or trough. Use a normal, mid-cycle margin for the long run.\n- **Margins and ratios.** Historical common-size statements (every line as a percent of sales) show which relationships have been stable and which may change.\n- **Reinvestment.** Capital spending beyond depreciation (net capital expenditure) usually rises with growth. A fast-growing firm should be forecast with heavy reinvestment, not the light reinvestment of a mature firm.\n- **Operating vs per-share growth.** Analysts' per-share earnings forecasts do not equal operating-income growth, so adjust before using them in a firm-level model.\n- **International firms.** Forecast by region in local currency, then translate."
+        },
+        {
+          "heading": "Horizon, terminal value and stress-testing",
+          "body_markdown": "A **multi-stage model** has an explicit forecast period followed by a **terminal value** (TV), the value at the end of the explicit period of all later cash flows. With constant growth afterwards:\n\n$$TV_n=\\frac{CF_{n+1}}{r-g}$$\n\nThe terminal growth rate $g$ must be sustainable. It cannot exceed long-run growth of the economy, and it must stay below $r$. Match the explicit period to the firm. A mature firm needs little of it, and a young firm needs more.\n\nFinally, run **sensitivity analysis**: change one input at a time (sales, margins, tax rate) and see how much the value moves. Spend research effort on the inputs that move value most. Use **scenario analysis** to test several inputs together, for example a weak, base and strong economy."
+        }
+      ],
+      "worked_example": {
+        "problem": "A mature, steady-leverage firm is valued with an FCFE model. Explicit forecasts run five years. Expected FCFE in year 5 is 90 million. After year 5, FCFE grows 4% a year forever. Cost of equity is 10%. Find the present value today of the terminal value (in millions, 2 decimals).",
+        "steps": [
+          "Choose the model: leverage is steady, so FCFE discounted at the cost of equity is appropriate.",
+          "Grow year-5 FCFE one more year to get year-6 FCFE: $90\\times1.04=93.6$.",
+          "Terminal value at end of year 5: $TV_5=93.6/(0.10-0.04)=1560$.",
+          "Discount the TV back five years at 10%: $1560/1.10^5$.",
+          "BA II Plus: 5 [N], 10 [I/Y], 0 [PMT], 1560 [FV], [CPT] [PV] → −968.64 (ignore the sign).",
+          "The PV of the terminal value is about 968.64 million. Add the PV of the year 1–5 FCFE to get equity value."
+        ],
+        "answer": "PV of terminal value ≈ 968.64 million",
+        "answer_value": 968.64,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.10,\"n\":5,\"fv\":1560}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Terminal value (constant growth)",
+          "latex": "TV_n=\\frac{CF_{n+1}}{r-g}",
+          "where": "TV_n = value at end of year n of all later cash flows; CF_{n+1} = cash flow in the first year after the explicit period; r = discount rate; g = perpetual growth rate, with g < r."
+        },
+        {
+          "name": "Free cash flow to equity (building blocks)",
+          "latex": "FCFE=NI+D\\&A-\\text{Capex}-\\Delta WC+\\text{Net borrowing}",
+          "where": "NI = net income; D&A = depreciation and amortization; Capex = capital expenditures; ΔWC = increase in non-cash working capital; Net borrowing = new debt minus repayments."
+        },
+        {
+          "name": "Present value of a terminal value",
+          "latex": "PV=\\frac{TV_n}{(1+r)^n}",
+          "where": "TV_n = terminal value at end of year n; r = discount rate per year; n = number of years in the explicit period."
+        }
+      ],
+      "exam_traps": [
+        "Using a DDM for a firm whose dividends are far below (or above) what it can afford. FCFE or FCFF is a better fit.",
+        "Using FCFE when debt is about to change sharply. Net borrowing is then hard to forecast, so FCFF is preferred.",
+        "Extrapolating the latest growth rate or margin of a cyclical firm. This bakes a peak or trough into every year.",
+        "Forecasting a multi-segment firm with one blended growth rate and margin, which hides segment differences.",
+        "Setting the terminal growth rate above long-run economic growth, or near or above the discount rate."
+      ],
+      "builds_on": [
+        "Purpose and structure of financial statement forecast models",
+        "Dividend discount models",
+        "Free cash flow to equity and to the firm",
+        "Common-size and ratio analysis"
+      ],
+      "leads_to": [
+        "Estimating equity value from forecast model outputs",
+        "Multiples-based valuation using forecast inputs",
+        "Sensitivity and scenario analysis"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00069:1",
+        "damodaran-valn2ed-ch14:1:0",
+        "damodaran-valn2ed-ch14:37:28",
+        "os:principles-finance-2e:m00117:5",
+        "os:principles-finance-2e:m00113:3",
+        "damodaran-valn2ed-ch11:20:16",
+        "os:principles-finance-2e:m00068:6.1"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company plans to raise its debt sharply over the next three years to fund a large buyback, and then repay much of it. Which valuation cash flow is best suited to this company?",
+        "options": [
+          {
+            "text": "FCFE, because it already includes debt flows and so captures the changing leverage automatically.",
+            "value": null,
+            "explanation": "Confuses 'includes' with 'easy to forecast'. FCFE depends on net borrowing, which will swing here, making the forecast and the discount rate unreliable."
+          },
+          {
+            "text": "FCFF, because it is measured before debt financing flows and avoids forecasting uncertain borrowing.",
+            "value": null,
+            "explanation": "Correct. FCFF is the cash available to all capital providers before financing flows. That makes it the more practical choice when leverage is changing."
+          },
+          {
+            "text": "A constant-growth DDM, because dividends are unaffected by the firm's financing decisions.",
+            "value": null,
+            "explanation": "Wrong: dividends and buybacks are strongly affected by financing, and a constant growth rate does not fit a firm changing its capital structure."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst is forecasting revenue for a heavy-equipment maker whose sales rise and fall sharply with the economic cycle. Which construction is most appropriate?",
+        "options": [
+          {
+            "text": "Extend the most recent year's sales growth rate unchanged across every year of the forecast.",
+            "value": null,
+            "explanation": "Extrapolating one point in the cycle builds a peak or trough into every year, which is the classic error for cyclical firms."
+          },
+          {
+            "text": "Hold the margin fixed at its latest peak-year level for the whole forecast and terminal period.",
+            "value": null,
+            "explanation": "Peak margins are not sustainable through the cycle and overstate value."
+          },
+          {
+            "text": "Link sales to economic and industry drivers, model the cycle, and use a mid-cycle margin long term.",
+            "value": null,
+            "explanation": "Correct. A top-down link to macro drivers captures cyclicality, and a normalized mid-cycle margin keeps the terminal value realistic."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A conglomerate has three divisions with very different growth rates and profit margins. Which forecasting approach best reflects the company's characteristics?",
+        "options": [
+          {
+            "text": "Forecast each division from its own growth and margin drivers, aggregate, then adjust for corporate costs.",
+            "value": null,
+            "explanation": "Correct. A segment-level (bottom-up) build keeps each division's economics visible and lets mix shifts flow into the consolidated forecast."
+          },
+          {
+            "text": "Forecast consolidated revenue using one blended growth rate and one blended operating margin.",
+            "value": null,
+            "explanation": "A single blend hides the fact that mix will shift toward faster-growing or higher-margin divisions."
+          },
+          {
+            "text": "Forecast only the largest division and assume the other two simply track its growth and margin.",
+            "value": null,
+            "explanation": "Assumes unlike businesses behave identically, and ignores that smaller divisions may drive future growth or risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A young technology company pays no dividends, has negative free cash flow today, and expects revenue growth well above the economy's for several years. Which model design is most appropriate?",
+        "options": [
+          {
+            "text": "A constant-growth FCFE model that capitalizes this year's negative cash flow at the long-run rate.",
+            "value": null,
+            "explanation": "Capitalizing a negative, temporarily depressed cash flow with a constant rate gives a meaningless or negative value for a firm whose cash flows will change."
+          },
+          {
+            "text": "A single-stage DDM that sets the dividend growth rate equal to the current high revenue growth rate.",
+            "value": null,
+            "explanation": "There are no dividends to grow, and a perpetual growth rate at or above the discount rate makes the model break down."
+          },
+          {
+            "text": "A multi-stage cash-flow model that forecasts explicitly until growth and margins settle, then uses a capped terminal growth.",
+            "value": null,
+            "explanation": "Correct. A young non-dividend firm needs an explicit high-growth period, rising cash flows as margins and reinvestment normalize, and a terminal growth no higher than long-run economic growth."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00069:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "After building a forecast model, an analyst finds that a 1% change in the gross margin assumption changes the estimated value by about 8%. A 1% change in the tax rate assumption changes it by about 0.5%. What is the most sensible next step?",
+        "options": [
+          {
+            "text": "Give every assumption the same amount of research time so that no input is favored.",
+            "value": null,
+            "explanation": "Equal effort ignores what sensitivity analysis reveals: some inputs matter far more than others."
+          },
+          {
+            "text": "Spend more research effort on gross margin and test a plausible range of values for it.",
+            "value": null,
+            "explanation": "Correct. Sensitivity analysis shows which inputs matter most, so the analyst focuses on getting those right and stress-tests them."
+          },
+          {
+            "text": "Fix gross margin at its historical average because history is reliable, and refine the tax rate.",
+            "value": null,
+            "explanation": "Refines the input that barely moves value and freezes the one that matters most. Historical margins may not persist."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company's current revenue is 500 million. An analyst forecasts that revenue will grow at a constant 8% per year, compounded annually. What is forecast revenue five years from now? Round to two decimals (in millions).",
+        "options": [
+          {
+            "text": "700.00 million",
+            "value": 700,
+            "explanation": "Simple growth: adds 8% of the base five times (500 × 1.40) instead of compounding."
+          },
+          {
+            "text": "734.66 million",
+            "value": 734.66,
+            "explanation": "Correct: 500 × 1.08^5 = 734.66. Growth compounds on the previous year's revenue."
+          },
+          {
+            "text": "680.24 million",
+            "value": 680.24,
+            "explanation": "Compounds for only four periods (500 × 1.08^4), miscounting the number of forecast years."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.08,\"n\":5,\"pv\":-500}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A mature firm with steady leverage is valued with a two-stage FCFE model. At the end of year 5 (the last explicit year), FCFE is 120 million. From year 6 onward, FCFE grows at a constant 3% per year forever. The cost of equity is 9%. What is the terminal value at the end of year 5? Round to two decimals (in millions).",
+        "options": [
+          {
+            "text": "2,060.00 million",
+            "value": 2060,
+            "explanation": "Correct: FCFE in year 6 = 120 × 1.03 = 123.6, so TV = 123.6 / (0.09 − 0.03) = 2,060."
+          },
+          {
+            "text": "2,000.00 million",
+            "value": 2000,
+            "explanation": "Uses the year-5 cash flow (120) instead of growing it one year to year 6, so the numerator is too low."
+          },
+          {
+            "text": "1,030.00 million",
+            "value": 1030,
+            "explanation": "Adds g to r in the denominator (0.12) instead of subtracting it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":123.6,\"r\":0.09,\"g\":0.03}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "When is FCFF a better choice than FCFE for a company's valuation?",
+        "back": "When leverage is high or the capital structure is changing. FCFF is measured before debt flows, so you avoid forecasting uncertain net borrowing.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why is a DDM a poor fit for a firm whose dividends are far below what it could afford to pay?",
+        "back": "Dividends then understate its payout capacity. FCFE better measures the cash available to shareholders.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:1:0",
+          "damodaran-valn2ed-ch14:37:28"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How should you forecast revenue and margins for a cyclical company?",
+        "back": "Tie sales to economic or industry drivers, model the cycle explicitly, and use a normalized mid-cycle margin for the long term. Do not extrapolate a peak or trough.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why forecast a multi-segment company by segment (bottom-up) instead of in total?",
+        "back": "Segments have different growth and margins, so a single blended rate hides mix shifts.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What does sensitivity analysis tell the analyst when building a model?",
+        "back": "It shows how much value changes when one input changes, so research effort goes to the inputs that matter most.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:24:01.255Z",
+      "purpose": "blind-solve",
+      "losId": "equity-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1118,
+      "outputTokens": 570,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008053,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:24:08.871Z",
+      "purpose": "grounding",
+      "losId": "equity-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12454,
+      "outputTokens": 1169,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0367672,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0448202
+}

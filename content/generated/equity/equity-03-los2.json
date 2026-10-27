@@ -1,0 +1,403 @@
+{
+  "losId": "equity-03-los2",
+  "losText": "compare exchange, off-exchange, and over-the-counter equities trading",
+  "moduleId": "equity-03",
+  "moduleTitle": "Equity Issuance and Trading",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:41:06.868Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00071:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.5 Efficient Markets — Operational Efficiency",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-5-efficient-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "os:principles-finance-2e:m00006:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.5 Markets and Participants — Key Market Players",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-5-markets-and-participants",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "nasdaq-100-methodology:3:3",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "pp. 3–4",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=3",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-introduction-to-business:726:685",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 726–727",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=726",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-etf-module2:21:20",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "p. 21",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=21",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-etf-module2:21:21",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "pp. 21–22",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=21",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfr-17-240-10b-18:3:5",
+      "title": "17 CFR 240.10b-18 Purchases of certain equity securities by the issuer (issuer repurchases; ADTV volume limit) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 3",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-10b-18.pdf#page=3",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-rf-etf-module1:7:2",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "p. 7",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=7",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfr-17-240-10b-18:1:2",
+      "title": "17 CFR 240.10b-18 Purchases of certain equity securities by the issuer (issuer repurchases; ADTV volume limit) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 1–2",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol4/pdf/CFR-2023-title17-vol4-sec240-10b-18.pdf#page=1",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "russell-us-indexes-methodology:14:14",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 14",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=14",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "nasdaq-100-methodology:2:2",
+      "title": "Nasdaq-100 Index Methodology (Nasdaq, Inc.)",
+      "locator": "pp. 2–3",
+      "url": "https://indexes.nasdaqomx.com/docs/methodology_NDX.pdf#page=2",
+      "license": "© Copyright 2026, Nasdaq, Inc. All Rights Reserved; free to read (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Where Shares Trade: Exchanges, Dark Venues and Dealer Markets",
+      "summary": "Once a share exists, it can change hands in three broad kinds of place: a regulated exchange, a private matching system run away from an exchange, or a dealer network. Knowing how they differ in transparency, rules and who takes the other side helps you judge liquidity and trading cost.",
+      "sections": [
+        {
+          "heading": "Three kinds of trading venue",
+          "body_markdown": "Think of selling a used car. You could list it at a big public auction house with posted rules, hand it to a private broker who quietly matches you with a known buyer, or sell it to a dealer who quotes a price from their own lot. Equity trading has the same three routes.\n\n- **Exchange**: a centralized, regulated marketplace with a published rulebook where orders from many participants meet.\n- **Off-exchange (alternative trading system, ATS)**: a private matching venue that is not an exchange. Many of these are *dark pools*, which do not display orders before trading.\n- **Over-the-counter (OTC)**: a decentralized network in which *dealers* quote prices and trade with clients by phone or electronic link, with no central order book.\n\nA *broker* acts as an agent and brings buyers and sellers together for a commission. A *dealer* trades from its own inventory, as the counterparty. Exchanges and ATSs are mostly broker-routed, while OTC markets are dealer-driven."
+        },
+        {
+          "heading": "Exchanges: the public, rule-bound marketplace",
+          "body_markdown": "An exchange sets **listing requirements**, which are standards a company must meet before its shares are admitted, such as size, governance and disclosure. Investors normally reach an exchange through a member broker.\n\nKey features:\n- **Pre-trade transparency**: bids and offers are displayed, so everyone sees the best prices. Venues like this are called *lit* markets.\n- **Order-driven trading**: orders sit in a *limit order book* and are matched by rules, usually best price first and then earliest time. Many exchanges also use designated market makers or similar liquidity providers.\n- **Continuous trading plus auctions**: trading runs through the day, often with opening and closing call auctions, and the exchange can halt trading or apply circuit breakers.\n- **Strong regulation and surveillance**, which supports investor confidence.\n\nThis is where most large, well-known companies are listed, and it usually offers the deepest visible liquidity."
+        },
+        {
+          "heading": "Off-exchange venues: ATSs, dark pools and internalization",
+          "body_markdown": "An **alternative trading system (ATS)** matches buy and sell orders but does not act as an exchange. In the US it is operated by a registered broker-dealer, and it does **not** set listing standards for issuers. It trades securities that are already listed elsewhere. Examples are electronic communication networks (ECNs) and crossing networks.\n\nA **dark pool** is an ATS (or similar venue) that shows no order book before trades occur, so it has little pre-trade transparency. Trades are usually priced off the best prices visible on lit markets, often at the midpoint of the bid and ask.\n\n**Why institutions like them**: a pension fund selling 800,000 shares on a lit book would signal its intention and could push the price down, which is *market impact*. A hidden order reduces that leakage and may avoid part of the spread.\n\n**Costs**: there is no guarantee an order will be filled, because a match requires a counterparty. If a lot of volume moves into dark venues, the public order book thins and price discovery may suffer. Trades are still reported publicly after execution, which is *post-trade transparency*.\n\nSome brokers also *internalize* orders, meaning they fill a client's order from their own inventory or against another client's order instead of sending it to a venue."
+        },
+        {
+          "heading": "OTC dealer markets and how to compare all three",
+          "body_markdown": "In an OTC market, dealers *make markets*: they post a **bid** (price they will pay) and an **ask** (price they will sell at) and stand ready to trade from their own inventory. They earn the **bid-ask spread**. This is a **quote-driven** market, as opposed to the order-driven book of an exchange. Prices are often negotiated, and there is typically no central location.\n\nOTC trading is common for smaller, thinly traded, or riskier companies that do not meet (or do not seek) an exchange listing. Liquidity can be weaker, so finding a counterparty at a fair price can be harder. Disclosure rules are often lighter for lower tiers of OTC markets.\n\n| Feature | Exchange | Off-exchange ATS / dark pool | OTC dealer market |\n|---|---|---|---|\n| Listing standards | Yes | None (trades listed stocks) | Typically none or minimal |\n| Pre-trade transparency | High | Low (dark) or varies | Varies, quotes from dealers |\n| Who is the counterparty | Other investors, with market makers | Other investors in the venue | Dealer, from own inventory |\n| Price formation | Order book, rules-based | Derived from lit prices or negotiated | Dealer quotes, negotiation |\n\nNote: the line between categories has blurred. Some well-known electronic markets that were once called OTC are now registered exchanges, so decide by structure (listing rules, order book, dealer quotes), not by the name."
+        }
+      ],
+      "worked_example": {
+        "problem": "Three trades happen on the same day. (A) A retail investor buys 100 shares of a large listed company through an online broker, and the order meets displayed sell orders in a central order book. (B) A pension fund sells 800,000 shares of a listed company in a venue that displays no orders and fills at the midpoint of the best bid and ask from the lit market. (C) An investor buys shares of a tiny company with no exchange listing by calling a firm that quotes 1.20 bid and 1.35 ask and sells from its own inventory. Classify each trade and name the defining feature.",
+        "steps": [
+          "Trade A: orders are displayed and matched in one central book under published rules, so this is an exchange trade with high pre-trade transparency.",
+          "Trade B: no displayed orders and prices taken from the lit market, so this is an off-exchange dark pool (a type of ATS). The pension fund is using it to reduce market impact, and it accepts that the order may not be fully filled.",
+          "Trade C: a dealer quotes two-sided prices and takes the other side from its own inventory, so this is an OTC dealer market. The quoted spread is 1.35 − 1.20 = 0.15 per share, which is the dealer's compensation and a cost to the investor.",
+          "Compare: A is lit and order-driven, B is hidden and matches investors, C is quote-driven and dealer-based."
+        ],
+        "answer": "A = exchange (displayed order book); B = off-exchange dark pool/ATS (non-displayed, price from lit market); C = OTC dealer market (dealer quotes, trades from inventory, 0.15 spread).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Calling a dark pool an exchange: an ATS has no listing standards and is not an exchange, even though it matches orders electronically.",
+        "Assuming dark-pool trades are never disclosed. They lack pre-trade transparency, but executed trades are reported afterwards.",
+        "Thinking dealers act as agents. A dealer trades as principal from its own inventory, while a broker is the agent who earns a commission.",
+        "Equating OTC with illegal or unregulated trading. OTC dealer markets are regulated, but they usually have lighter listing and disclosure requirements, and liquidity can be weaker.",
+        "Treating 'electronic' as the same as 'exchange'. Venue type depends on listing rules, order book and dealer role, and some electronic markets are exchanges while others are dealer or ATS venues."
+      ],
+      "builds_on": [
+        "Primary vs secondary markets",
+        "Brokers vs dealers",
+        "Bid-ask spread"
+      ],
+      "leads_to": [
+        "Liquidity measures",
+        "Order types and execution",
+        "Market efficiency"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00006:1",
+        "os:principles-finance-2e:m00073:2.1",
+        "flatworld-introduction-to-business:726:685"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best fits a stock exchange?",
+        "options": [
+          {
+            "text": "A centralized venue with listing standards and a displayed order book",
+            "value": null,
+            "explanation": "Correct. An exchange admits companies that meet its listing standards and matches publicly displayed orders under published rules."
+          },
+          {
+            "text": "A dealer network where prices are negotiated privately by phone",
+            "value": null,
+            "explanation": "This describes an OTC dealer market, not an exchange. It mixes up decentralized quote-driven trading with a central order book."
+          },
+          {
+            "text": "A hidden matching system that displays no orders before execution",
+            "value": null,
+            "explanation": "This describes a dark pool, an off-exchange venue. It confuses non-displayed matching with a lit exchange."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:2.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In an over-the-counter dealer market, the dealer who quotes a bid and an ask typically:",
+        "options": [
+          {
+            "text": "acts only as an agent and earns a commission",
+            "value": null,
+            "explanation": "This confuses a dealer with a broker. A broker is the agent paid a commission, while a dealer takes the other side of the trade."
+          },
+          {
+            "text": "sets the listing standards that companies must meet",
+            "value": null,
+            "explanation": "Setting listing standards is a function of an exchange, not of a dealer quoting prices."
+          },
+          {
+            "text": "trades from its own inventory and earns the bid-ask spread",
+            "value": null,
+            "explanation": "Correct. Dealers make markets as principals: they buy at the bid, sell at the ask and earn the spread."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:1",
+          "flatworld-introduction-to-business:726:685"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A fund must sell a very large block of shares in a listed company and fears that displaying the order will push the price down. Which venue is most likely to appeal, and what is the main trade-off?",
+        "options": [
+          {
+            "text": "An exchange order book; the trade-off is that listing fees are higher",
+            "value": null,
+            "explanation": "A displayed order book is the venue that leaks information about the order. Listing fees are paid by the issuer, not by this seller."
+          },
+          {
+            "text": "An OTC dealer market; the trade-off is that the dealer acts as agent",
+            "value": null,
+            "explanation": "Dealers act as principal, not agent, so the stated trade-off is wrong. It also mixes up the broker and dealer roles."
+          },
+          {
+            "text": "A dark pool; the trade-off is that the order may not be fully filled",
+            "value": null,
+            "explanation": "Correct. Hidden orders reduce information leakage and market impact, but execution is uncertain because a matching counterparty must be present."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly contrasts an alternative trading system (ATS) in the US with a stock exchange?",
+        "options": [
+          {
+            "text": "An ATS matches orders in listed securities but does not set listing standards for issuers",
+            "value": null,
+            "explanation": "Correct. An ATS is a trading venue, operated by a registered broker-dealer, that trades securities already listed elsewhere. Setting listing requirements is an exchange function."
+          },
+          {
+            "text": "An ATS sets listing standards, but an exchange does not",
+            "value": null,
+            "explanation": "This reverses the roles. Exchanges set and enforce listing standards for issuers."
+          },
+          {
+            "text": "An ATS is always a dealer market, while an exchange is always a dark venue",
+            "value": null,
+            "explanation": "Both claims are wrong. An ATS typically matches customer orders, and exchanges normally display their orders (they are lit)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which company's shares are most likely to trade mainly in an OTC dealer market?",
+        "options": [
+          {
+            "text": "A large, widely held company that meets all exchange listing standards",
+            "value": null,
+            "explanation": "Such a company would usually list on an exchange to gain visibility and deep liquidity."
+          },
+          {
+            "text": "A small, thinly traded company that does not meet exchange listing standards",
+            "value": null,
+            "explanation": "Correct. Firms that cannot or choose not to list often trade through dealers who quote bid and ask prices, with weaker liquidity."
+          },
+          {
+            "text": "A company that has just completed a large IPO on a major exchange",
+            "value": null,
+            "explanation": "A newly listed exchange company trades on that exchange. This option confuses an IPO with an unlisted security."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-introduction-to-business:726:685"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A regulator worries that too much volume has moved from exchanges to dark venues. Which concern is most directly related to this shift?",
+        "options": [
+          {
+            "text": "Public price discovery may worsen because fewer orders are displayed",
+            "value": null,
+            "explanation": "Correct. Prices on lit markets reflect displayed interest, and if less volume is visible, the public quotes may become less informative and liquidity can fragment."
+          },
+          {
+            "text": "Dark-pool trades are never reported, so no one can see the prices",
+            "value": null,
+            "explanation": "Incorrect. Dark venues lack pre-trade transparency, but executed trades are reported after the fact."
+          },
+          {
+            "text": "Dark pools must use dealers, who then act as agents for investors",
+            "value": null,
+            "explanation": "Dark pools mainly match customer orders, and dealers act as principals. This confuses the broker and dealer roles."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys a share and sees only that the trade was filled at the midpoint of the national best bid and ask, with no displayed order beforehand. The trade was most likely executed:",
+        "options": [
+          {
+            "text": "through a dealer quoting its own bid and ask in an OTC market",
+            "value": null,
+            "explanation": "A dealer fill would be at the dealer's quoted bid or ask, not typically at the midpoint. It also would not be described as matching with no displayed order."
+          },
+          {
+            "text": "on an exchange through a displayed limit order at the best offer",
+            "value": null,
+            "explanation": "Buying through a displayed offer would execute at the ask, not the midpoint, and the order would have been visible."
+          },
+          {
+            "text": "in a dark pool that references prices from lit markets",
+            "value": null,
+            "explanation": "Correct. Non-displayed venues commonly price trades at the midpoint of the best bid and ask from lit markets, which can save part of the spread."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What distinguishes an exchange from an alternative trading system (ATS)?",
+        "back": "An exchange sets listing standards and typically displays a central order book under published rules. An ATS only matches orders in already-listed securities and sets no listing standards.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What is a dark pool and why do institutions use it?",
+        "back": "A non-displayed trading venue (a kind of ATS) with no pre-trade transparency. Large investors use it to cut market impact, at the cost of uncertain fills.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Broker vs dealer: what is the difference?",
+        "back": "A broker is an agent who brings buyers and sellers together for a commission. A dealer trades as principal from its own inventory and earns the bid-ask spread.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00006:1"
+        ]
+      },
+      {
+        "front": "How does an OTC market differ from an exchange in how prices are formed?",
+        "back": "OTC is quote-driven: dealers post bid and ask prices and trade from inventory, often by negotiation with no central book. An exchange is typically order-driven, matching displayed orders by rules.",
+        "cited_chunk_ids": [
+          "flatworld-introduction-to-business:726:685",
+          "os:principles-finance-2e:m00073:2.1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:41:06.868Z",
+      "purpose": "generate",
+      "losId": "equity-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9326,
+      "outputTokens": 7810,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.0979082,
+      "stopReason": "end_turn"
+    }
+  ]
+}

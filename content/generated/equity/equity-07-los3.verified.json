@@ -1,0 +1,768 @@
+{
+  "losId": "equity-07-los3",
+  "losText": "determine a potential peer group for multiples-based equity valuation based on a company's industry classification or specific drivers of expected return",
+  "moduleId": "equity-07",
+  "moduleTitle": "Relative Value Equity Valuation Approaches",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:23:27.828Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-management:m70711:0.1",
+      "title": "Principles of Management",
+      "locator": "§17.8 The Control- and Involvement-Oriented Approaches to Planning and Controlling — Overview",
+      "url": "https://openstax.org/books/principles-management/pages/17-8-the-control-and-involvement-oriented-approaches-to-planning",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-management:m70627:0",
+      "title": "Principles of Management",
+      "locator": "§5.2 Dimensions of Ethics: The Individual Level — Overview",
+      "url": "https://openstax.org/books/principles-management/pages/5-2-dimensions-of-ethics-the-individual-level",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "census-naics:1:0",
+      "title": "NAICS codes and understanding industry classification systems (U.S. Census Bureau, 2022 Economic Census)",
+      "locator": "Economic Census: NAICS Codes & Understanding Industry Classification Systems",
+      "url": "https://www.census.gov/programs-surveys/economic-census/year/2022/guidance/understanding-naics.html",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "bls-mlr-2025-12-industry-growth:9:15",
+      "title": "Monthly Labor Review, December 2025 (BLS; Industry growth patterns, output, productivity and hours worked, 1990 to 2024), FRASER copy",
+      "locator": "p. 9",
+      "url": "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_20251222.pdf#page=9",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:11:10",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 11–12",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=11",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00080:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§13.3 Measures of Position — Quartiles and Percentiles",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/13-3-measures-of-position",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "msci-gics-methodology:1:0",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 1–3",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=1",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "msci-gics-methodology:48:36",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 48–50",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=48",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "msci-gics-methodology:13:8",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "pp. 13–15",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=13",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-management:m70684:1",
+      "title": "Principles of Management",
+      "locator": "§13.9 Leadership Needs in the 21st Century — Leadership Needs in the 21st Century",
+      "url": "https://openstax.org/books/principles-management/pages/13-9-leadership-needs-in-the-21st-century",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "msci-gics-methodology:13:7",
+      "title": "GICS Methodology 2023 (MSCI and S&P Dow Jones Indices)",
+      "locator": "p. 13",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS+Methodology+2023.pdf#page=13",
+      "license": "© MSCI Inc. and S&P Global; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:2:1",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Choosing Comparable Companies for Multiples",
+      "summary": "A multiple only tells you something if the companies you compare are genuinely alike. This lesson covers two ways to build that list of look-alike companies (the peer group): starting from industry labels, or starting from the things that drive a stock's return.",
+      "sections": [
+        {
+          "heading": "Why the peer group matters",
+          "body_markdown": "Think of pricing your flat. You would not use the sale price of a castle or a studio in another country as a benchmark. You would look at similar flats nearby, with similar size and condition, and compare **price per square metre**.\n\nEquity comparables work the same way. A **multiple** is a price (or value) divided by a fundamental measure such as earnings or sales. To judge whether a company's multiple looks high or low, you compare it with the multiples of a **peer group**, also called comparable companies. Stock prices cannot be compared directly because they depend on how many shares exist, so we standardize them into multiples. The answer you get is only as good as the peers you pick. A badly chosen peer group gives a confident but misleading number."
+        },
+        {
+          "heading": "Route 1: start from industry classification",
+          "body_markdown": "The quickest way to find candidates is an **industry classification system**, which sorts companies into a nested set of groups based on what they do.\n\n- **Commercial systems** are sold or published by data and index firms. **GICS** is one. It has four levels: sector, industry group, industry and sub-industry. A company sits in exactly one group at each level. It is mainly assigned by where its revenue comes from, with earnings and how the market perceives the company as supporting factors. GICS is designed around *market demand*, meaning how customers see the products.\n- **Government systems** include **NAICS**, which statistical agencies use for the North American economy. It has a nested code structure running from 2-digit sectors to 6-digit national industries. It is *production-oriented*, meaning it groups establishments by similarity in the processes used to make goods or services.\n\nThe usual routine is to find the subject company's classification and collect the other companies in the same narrow group. The **narrower** the level (sub-industry rather than sector), the more alike the companies tend to be, but the fewer of them there are. Treat the result as a *candidate list*, not a final answer."
+        },
+        {
+          "heading": "Route 2: start from the drivers of expected return",
+          "body_markdown": "Industry labels are only a shortcut for what really matters. Every multiple is driven by the same three things: **cash-flow generating ability**, **expected growth** and **risk**. Other things equal, higher growth, lower risk and stronger cash flow justify a higher multiple.\n\nSo the second route picks peers that look alike on those drivers, even if the labels differ. Examples:\n\n- similar growth outlook and profitability\n- similar leverage and sensitivity to the economic cycle\n- similar exposure to the same cost or demand factors\n\nA related method is **statistical**: group stocks whose past returns move together (are highly correlated). It ignores what firms actually do, so it is backward-looking. It can also produce groupings that make little economic sense and that differ across regions.\n\nTo see why drivers matter, take a simple stable-growth model. The justified P/E rises with the payout ratio and growth, and falls as the cost of equity rises (see Formulas). Two firms with different growth or risk should *not* be expected to have the same P/E."
+        },
+        {
+          "heading": "Putting it together and avoiding bias",
+          "body_markdown": "In practice, analysts combine the routes:\n\n1. Understand the subject company's business, including its segments and revenue mix.\n2. Pull the classification peers as a first screen.\n3. Check each candidate on business mix, growth, risk (including leverage and cyclicality) and profitability.\n4. Drop firms that differ materially, or keep them only as a cross-check.\n5. Write down the inclusion rules *before* looking at the resulting multiples.\n\nStep 5 matters because an analyst who is free to choose both the multiple and the comparables can justify almost any value. Also remember that a peer group can be wrong *together*: if the market is overpricing the whole group, your valuation will be too high as well."
+        }
+      ],
+      "worked_example": {
+        "problem": "You are valuing Bluewave, a boat manufacturer with expected earnings growth of about 5% a year and moderate debt. About 90% of its revenue comes from building boats and 10% from boat financing. Five candidate peers come from the same broad consumer-discretionary sector. (A) A boat builder with similar growth and moderate debt. (B) A large diversified conglomerate in which boats are 8% of revenue. (C) A yacht builder expecting 15% growth with debt several times its equity. (D) A boat builder with similar growth and moderate debt. (E) A marina operator that earns fees from berths and fuel sales. Decide which firms to use as the peer group.",
+        "steps": [
+          "Identify Bluewave's primary business from its revenue mix. It is boat manufacturing (90%), so the narrow classification should be recreational boat building, not the wider sector.",
+          "Screen on business activity. B earns only 8% from boats, so its multiple mostly reflects other businesses. E earns fees from services rather than building boats. Both are poor matches on business mix.",
+          "Screen on the return drivers. A and D match Bluewave on growth and leverage, so they are strong peers.",
+          "C is in the right business but its growth (15% vs 5%) and leverage are far apart from Bluewave's. A multiple that reflects fast growth and high financial risk would not transfer cleanly, so C is at most a secondary cross-check.",
+          "Record the inclusion rules (main business is boat building, similar growth, similar leverage) before looking at any of the multiples."
+        ],
+        "answer": "Use A and D as the core peer group. Keep C only as a secondary reference if more data points are needed, and exclude B and E.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Justified trailing P/E (stable-growth dividend model)",
+          "latex": "\\frac{P_0}{E_0}=\\frac{\\text{payout}\\,(1+g)}{k_e-g}",
+          "where": "P_0 is the current price, E_0 is the latest earnings per share, payout is the fraction of earnings paid as dividends, g is the stable growth rate of dividends, and k_e is the cost of equity (required return). It shows that growth, risk and cash distribution drive the multiple, so peers should look alike on these."
+        }
+      ],
+      "exam_traps": [
+        "Assuming everyone in the same industry classification is automatically a good peer. Firms in one group can still differ in growth, leverage, business mix or cyclicality, so the list needs checking.",
+        "Mixing up GICS and NAICS. GICS is demand-oriented and assigned mainly by revenue, while NAICS is production-oriented and groups by similarity of production processes.",
+        "Choosing peers by similar share price or size of share price. Prices depend on share count, which is why multiples are used.",
+        "Forgetting that a diversified company may have only a small share of its revenue in the subject's business. Its multiple blends several businesses and is a weak comparison.",
+        "Picking peers after seeing which multiples support a target value. This is analyst bias, and the inclusion rules should be set first."
+      ],
+      "builds_on": [
+        "Method of comparables",
+        "Price multiples (P/E, P/B, P/S)",
+        "Dividend discount model and Gordon growth",
+        "Risk, growth and cash flow as value drivers"
+      ],
+      "leads_to": [
+        "Interpreting multiples relative to the peer group",
+        "Trailing, current and forward multiples",
+        "Enterprise value multiples"
+      ],
+      "cited_chunk_ids": [
+        "msci-gics-methodology:13:7",
+        "msci-gics-methodology:13:8",
+        "census-naics:1:0",
+        "damodaran-valn2ed-ch17:11:10",
+        "damodaran-valn2ed-ch17:2:1"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst plans to value a regional grocery chain using the method of comparables. Which approach is the best starting point for assembling the peer group?",
+        "options": [
+          {
+            "text": "Companies listed on the same exchange that had the highest share price gains in the past year",
+            "value": null,
+            "explanation": "This chases recent performance. Price momentum says nothing about similar business, growth or risk, so these companies are not comparable."
+          },
+          {
+            "text": "Companies in the same narrow industry classification with a similar business mix",
+            "value": null,
+            "explanation": "Correct. A narrow classification group gives candidates with similar activities, which the analyst can then check on growth, risk and profitability."
+          },
+          {
+            "text": "Companies whose share prices are close to the grocery chain's share price",
+            "value": null,
+            "explanation": "Share price depends on the number of shares outstanding, so similar prices say nothing about similar businesses. This is why multiples, not prices, are compared."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:2:1",
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes how the NAICS groups business establishments?",
+        "options": [
+          {
+            "text": "By similarity in the processes used to produce goods or services",
+            "value": null,
+            "explanation": "Correct. NAICS is production-oriented and nests establishments from 2-digit sectors down to 6-digit national industries."
+          },
+          {
+            "text": "By how consumers use and perceive the products, regardless of how they are made",
+            "value": null,
+            "explanation": "This describes the market-demand orientation of GICS, not NAICS."
+          },
+          {
+            "text": "By how closely the past share returns of the companies move together",
+            "value": null,
+            "explanation": "This describes a statistical grouping approach based on return correlation, which is not how NAICS works."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "census-naics:1:0",
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst builds a peer group by taking every company in the same classification sub-industry as the subject company, and does no further screening. Which statement about this approach is most accurate?",
+        "options": [
+          {
+            "text": "It cannot be used when the subject company reports more than one product line.",
+            "value": null,
+            "explanation": "Classification systems assign multi-line companies to one group (mainly by revenue), so this is not a barrier. The mistake is thinking that segments make the system unusable."
+          },
+          {
+            "text": "It only works if every company in the group is listed in the same country.",
+            "value": null,
+            "explanation": "Classification systems like GICS are global and do not require a single country. Country differences are a possible concern, but not a rule that disables the method."
+          },
+          {
+            "text": "It is a useful start, but firms in one group can still differ in growth, leverage or business mix.",
+            "value": null,
+            "explanation": "Correct. The label is only a proxy for the drivers of value, so candidates must be checked against growth, risk and cash-flow characteristics."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:8",
+          "damodaran-valn2ed-ch17:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst forms a peer group by clustering stocks according to how closely their past returns have moved together, without looking at what the companies do. What is the main weakness of this approach?",
+        "options": [
+          {
+            "text": "It is backward-looking and can create groupings that are hard to justify economically.",
+            "value": null,
+            "explanation": "Correct. Correlation clusters rely on past returns, which may not persist and can group unrelated businesses."
+          },
+          {
+            "text": "It forces every company into exactly one sector, so diversified firms are misclassified.",
+            "value": null,
+            "explanation": "This confuses the statistical approach with a strictly hierarchical classification such as GICS, where each company has one place at each level."
+          },
+          {
+            "text": "It relies only on revenue sources, so it ignores how the stocks have performed.",
+            "value": null,
+            "explanation": "Revenue-based assignment is a feature of GICS. The statistical approach is built on returns, not revenue."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about how GICS classifies a company is correct?",
+        "options": [
+          {
+            "text": "Earnings alone decide the classification, and revenue is not considered.",
+            "value": null,
+            "explanation": "GICS uses revenue as the main guide because it is more stable and more widely broken down. Earnings are a secondary consideration, not the sole one."
+          },
+          {
+            "text": "A diversified company is spread across several sub-industries in proportion to its revenue.",
+            "value": null,
+            "explanation": "GICS does not split a company across groups. Each company belongs to only one group at each level."
+          },
+          {
+            "text": "A company belongs to one group at each of the four levels, guided mainly by revenue.",
+            "value": null,
+            "explanation": "Correct. The structure is strictly hierarchical. Revenue is the main guide, with earnings and market perception as supporting factors."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst is valuing Zeta, an online retailer expected to grow earnings at 25% a year with high leverage. The retail industry classification includes two sets of firms. Set X has mature, slow-growth, low-debt retailers. Set Y has fast-growth, high-debt retailers like Zeta. Which peer group is best supported by the drivers of multiples?",
+        "options": [
+          {
+            "text": "Set Y, because its growth and risk profile resembles Zeta's",
+            "value": null,
+            "explanation": "Correct. Multiples depend on growth, risk and cash flow, so peers with similar profiles give a fairer comparison even within one industry."
+          },
+          {
+            "text": "Set X, because mature firms have more stable and reliable earnings data",
+            "value": null,
+            "explanation": "Data stability is not the point. The multiples of low-growth, low-risk firms reflect different drivers and would understate what Zeta should trade at."
+          },
+          {
+            "text": "Both sets combined, because a larger group always cancels out the differences",
+            "value": null,
+            "explanation": "Averaging peers with different growth and risk blends in firms that should not be comparable. A bigger group does not fix a mismatch in the drivers."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which practice most directly exposes a multiples-based valuation to analyst bias?",
+        "options": [
+          {
+            "text": "Writing down peer inclusion criteria before looking at any peer multiples",
+            "value": null,
+            "explanation": "This is good practice that limits bias, because the rules are fixed before the numbers are seen. It is not a source of bias."
+          },
+          {
+            "text": "Selecting comparables after seeing which multiples support the value the analyst wants",
+            "value": null,
+            "explanation": "Correct. Choosing the peers (and the multiple) with the answer in mind lets an analyst justify almost any value."
+          },
+          {
+            "text": "Using a published classification system's sub-industry list as the first screen",
+            "value": null,
+            "explanation": "An external classification is an objective starting point and so reduces, rather than increases, discretion, as long as candidates are then checked."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:2:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a peer group in multiples-based valuation, and what should its members have in common?",
+        "back": "A set of comparable companies whose multiples are used as a benchmark. They should resemble the subject company in business activities and in the drivers of value: growth, risk and cash-flow generating ability.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do GICS and NAICS differ in the way they group companies?",
+        "back": "GICS is market-demand oriented and assigns each company to one group per level, mainly by revenue. NAICS is production-oriented and groups establishments by similarity of production processes.",
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7",
+          "msci-gics-methodology:13:8",
+          "census-naics:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why is a peer group built only from industry labels incomplete?",
+        "back": "Firms in the same classification can still differ in growth, leverage, risk or business mix, which are the true drivers of multiples. Candidates must be checked against these drivers.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the statistical approach to forming peers and its main weakness?",
+        "back": "It groups stocks whose past returns are highly correlated. It is backward-looking and can produce groupings that make little economic sense.",
+        "cited_chunk_ids": [
+          "msci-gics-methodology:13:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:23:19.931Z",
+      "purpose": "blind-solve",
+      "losId": "equity-07-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 944,
+      "outputTokens": 505,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007055,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:23:27.827Z",
+      "purpose": "grounding",
+      "losId": "equity-07-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13356,
+      "outputTokens": 1141,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0382912,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.045346199999999996
+}

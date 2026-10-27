@@ -1,0 +1,787 @@
+{
+  "losId": "equity-06-los4",
+  "losText": "calculate the intrinsic value of a non-callable, non-convertible preferred stock and describe how contingency features affect intrinsic value",
+  "moduleId": "equity-06",
+  "moduleTitle": "Discounted Cash Flow (DCF) and Growth Models",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:22:36.386Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00070:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Features of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Convertible Debt",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "russell-us-indexes-methodology:17:19",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 17",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=17",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Determining the Intrinsic Value of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00061:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.1 Characteristics of Bonds — Types of Bonds",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-1-characteristics-of-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00061:1.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.1 Characteristics of Bonds — Basic Terminology",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-1-characteristics-of-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "russell-us-indexes-methodology:15:16",
+      "title": "Russell US Equity Indexes Construction and Methodology (FTSE Russell / LSEG)",
+      "locator": "p. 15",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/russell-us-indexes-construction-and-methodology.pdf#page=15",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:109",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 155–157",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:3.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Convertible Debt",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Valuing Plain Preferred Shares and the Effect of Embedded Options",
+      "summary": "A plain preferred share pays a fixed dividend forever, so its value is that dividend divided by the return investors demand. Features that give an option to the issuer or the holder (call, put, conversion) push the value down or up from that baseline.",
+      "sections": [
+        {
+          "heading": "What a preferred share is",
+          "body_markdown": "**Preferred stock** is equity that promises a fixed dividend, quoted as a percentage of a stated **par value** (the face amount used to compute the dividend). Think of it as renting out a flat: the rent is fixed in advance and never rises, and the tenant can't skip it without consequences. Preferred dividends must be paid before any common dividend, and preferred holders rank ahead of common holders if the firm is liquidated. There is usually no maturity date, so par is never repaid unless the shares are retired. A **cumulative** issue owes any skipped dividends later. A **non-cumulative** issue loses them for good."
+        },
+        {
+          "heading": "Valuing a plain (non-callable, non-convertible) issue",
+          "body_markdown": "The dividend is constant and lasts indefinitely, so the shares form a **perpetuity**, a never-ending level payment stream. The present value of a perpetuity is the payment divided by the discount rate:\n\n$$V_0=\\frac{D}{r}$$\n\nFirst turn the quoted rate into dollars: $D=\\text{par}\\times\\text{dividend rate}$. Then divide by $r$, the **required return**, which is what the market demands for this level of risk. Par only matters for finding $D$. The market price does not have to equal par. If investors demand a higher return than the dividend rate, the value is below par. If they demand less, it is above par.\n\nRearranging gives the return implied by a market price: $r=D/V_0$. If the market's required return rises, the value falls, as with bonds. If dividends are paid quarterly, add up the four payments to get annual $D$ and use an annual $r$."
+        },
+        {
+          "heading": "A variation: preferred with a fixed life",
+          "body_markdown": "Some issues are redeemed at a set date for a stated amount. Then the shares behave like a bond: value is the present value of the remaining dividends plus the present value of the redemption amount. The perpetuity shortcut no longer applies. This is the same time-value-of-money arithmetic as a bond, with dividends in place of coupons."
+        },
+        {
+          "heading": "Contingency features: who holds the option?",
+          "body_markdown": "A **contingency feature** is a right that is triggered only under certain conditions. The rule is simple: an option that favors the **holder** adds value to the share. An option that favors the **issuer** subtracts value.\n\n- **Callable** (the issuer may buy the shares back at a set price): the issuer will call when rates fall and it can refinance cheaply, so the holder loses the high fixed dividend just when it is most attractive. Value is the non-callable value minus the value of the call option. Price gains when rates fall are capped near the call price.\n- **Convertible** (the holder may swap into common shares): the holder gains an extra right, so value is the non-convertible value plus the value of the conversion option. Options never have negative value to their owner.\n- **Putable** (the holder may sell the shares back to the issuer at a set price): this also favors the holder and adds value.\n\nIn each case, the baseline $D/r$ is the starting point and the option value is added or subtracted."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has issued perpetual, non-callable, non-convertible preferred shares with par value $25 and a 6.4% annual dividend rate. Investors currently require an 8% return on shares of this risk. What is the intrinsic value per share?",
+        "steps": [
+          "Convert the dividend rate to dollars: D = $25 × 0.064 = $1.60 per year.",
+          "Recognise a level, perpetual payment, so use the perpetuity formula V0 = D / r.",
+          "Divide by the required return: V0 = 1.60 / 0.08.",
+          "BA II Plus: press 1.6 ÷ .08 = and read 20.",
+          "Check: the required return (8%) is above the dividend rate (6.4%), so the value must be below par ($25). $20 is below par, which is consistent."
+        ],
+        "answer": "$20.00 per share",
+        "answer_value": 20,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":1.6,\"r\":0.08,\"g\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Plain preferred value (perpetuity)",
+          "latex": "V_0=\\frac{D}{r}",
+          "where": "V_0 = intrinsic value today; D = annual dividend in dollars (par × dividend rate); r = required annual return."
+        },
+        {
+          "name": "Implied required return",
+          "latex": "r=\\frac{D}{V_0}",
+          "where": "r = return implied by price; D = annual dividend in dollars; V_0 = current market price."
+        },
+        {
+          "name": "Fixed-life preferred value",
+          "latex": "V_0=\\sum_{t=1}^{N}\\frac{D}{(1+r)^t}+\\frac{F}{(1+r)^N}",
+          "where": "D = dividend per period; r = required return per period; N = number of periods until redemption; F = redemption amount."
+        },
+        {
+          "name": "Value with an embedded option",
+          "latex": "V_{\\text{callable}}=V_{\\text{plain}}-V_{\\text{call}},\\quad V_{\\text{convertible}}=V_{\\text{plain}}+V_{\\text{conv}}",
+          "where": "V_plain = value of the otherwise identical non-callable, non-convertible share; V_call = value of the issuer's call option; V_conv = value of the holder's conversion option."
+        }
+      ],
+      "exam_traps": [
+        "Dividing par value by r. The numerator must be the dollar dividend (par × dividend rate), not par.",
+        "Using the dividend rate as the discount rate. That always returns par, but the market's required return can differ from the dividend rate.",
+        "Using a quarterly dividend with an annual required return (or the reverse), giving a value four times too small or too large.",
+        "Thinking a call feature helps the investor. Callable shares are worth less than otherwise identical non-callable shares, because the issuer holds the option.",
+        "Applying the perpetuity formula to a preferred issue with a fixed redemption date. Include the present value of the redemption payment."
+      ],
+      "builds_on": [
+        "Present value of a perpetuity",
+        "Time value of money",
+        "Dividend discount model with zero growth",
+        "Required return"
+      ],
+      "leads_to": [
+        "Constant-growth and multistage dividend discount models",
+        "Cost of preferred stock in WACC",
+        "Valuing bonds with embedded options"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00070:0",
+        "os:principles-finance-2e:m00070:1",
+        "os:principles-finance-2e:m00068:2",
+        "os:principles-finance-2e:m00111:3"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A perpetual, non-callable, non-convertible preferred share has par value $100 and pays a 6% annual dividend. The market's required return on this share is 8%. What is its intrinsic value per share, rounded to two decimals?",
+        "options": [
+          {
+            "text": "$75.00",
+            "value": 75,
+            "explanation": "Correct: D = 100 × 0.06 = $6; V0 = 6 / 0.08 = $75.00."
+          },
+          {
+            "text": "$100.00",
+            "value": 100,
+            "explanation": "Uses the 6% dividend rate as the discount rate (6 / 0.06), which returns par rather than reflecting the 8% required return."
+          },
+          {
+            "text": "$133.33",
+            "value": 133.3333,
+            "explanation": "Inverts the roles: divides the required-return dollar amount (100 × 0.08 = $8) by the 6% dividend rate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":6,\"r\":0.08,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A perpetual, non-callable, non-convertible preferred share has par value $50 and a 7.2% annual dividend rate, paid annually. Investors require a 9% annual return. What is the intrinsic value per share, rounded to two decimals?",
+        "options": [
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "Treats par as the value. Par only determines the dividend; the required return determines the value."
+          },
+          {
+            "text": "$43.60",
+            "value": 43.6,
+            "explanation": "Adds one dividend to the perpetuity value (40 + 3.60), as if valuing the share just before a dividend payment rather than at the start of the perpetuity."
+          },
+          {
+            "text": "$40.00",
+            "value": 40,
+            "explanation": "Correct: D = 50 × 0.072 = $3.60; V0 = 3.60 / 0.09 = $40.00."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":3.6,\"r\":0.09,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:1",
+          "os:principles-finance-2e:m00068:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A perpetual, non-callable, non-convertible preferred share pays a fixed $5.00 dividend each year. The market's required return on it rises from 8% to 10%. What is the intrinsic value per share after the change, rounded to two decimals?",
+        "options": [
+          {
+            "text": "$62.50",
+            "value": 62.5,
+            "explanation": "This is the value at the old 8% required return (5 / 0.08). It ignores the rise in required return."
+          },
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "Correct: V0 = 5.00 / 0.10 = $50.00. A higher required return lowers the value of a fixed dividend stream."
+          },
+          {
+            "text": "$41.67",
+            "value": 41.6667,
+            "explanation": "Adds the 2-point rise on top of the new 10% rate (using 12%), double-counting the change."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":5,\"r\":0.1,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00068:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A non-callable, non-convertible preferred share pays a $4.00 dividend at the end of each year and will be redeemed at its $100 par value in exactly 5 years. The required return is 6% per year. Using annual compounding, what is the intrinsic value per share, rounded to two decimals?",
+        "options": [
+          {
+            "text": "$66.67",
+            "value": 66.6667,
+            "explanation": "Treats the share as a perpetuity (4 / 0.06) and ignores the $100 redemption payment."
+          },
+          {
+            "text": "$120.00",
+            "value": 120,
+            "explanation": "Adds the five dividends ($20) and the par value without discounting any of them."
+          },
+          {
+            "text": "$91.58",
+            "value": 91.58,
+            "explanation": "Correct: PV of dividends = 4 × 4.2124 = 16.85; PV of par = 100 / 1.06^5 = 74.73; total ≈ $91.58. On the BA II Plus: N=5, I/Y=6, PMT=4, FV=100, CPT PV."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.06,\"n\":5,\"pmt\":4,\"fv\":100}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Two preferred issues are identical in dividend, par value and credit risk, except that one is callable by the issuer and the other is not. All else equal, the intrinsic value of the callable issue is most likely:",
+        "options": [
+          {
+            "text": "higher, because the issuer is more likely to repay par",
+            "value": null,
+            "explanation": "Confuses a call with a guarantee of repayment. The call is the issuer's right, and exercising it takes away the holder's dividend stream when that stream is most valuable."
+          },
+          {
+            "text": "lower, because the issuer holds an option that works against the holder",
+            "value": null,
+            "explanation": "Correct: callable value = non-callable value minus the value of the call option, since the issuer will redeem when it benefits at the investor's expense."
+          },
+          {
+            "text": "the same, because the dividend is fixed in both cases",
+            "value": null,
+            "explanation": "Assumes a fixed dividend means identical value. The call right can end the dividend stream early, so the cash flows differ in expectation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A convertible preferred share and an otherwise identical non-convertible preferred share have the same dividend and credit risk. The holder of the convertible issue may exchange each share for common stock. Compared with the non-convertible issue, the convertible issue's intrinsic value is most likely:",
+        "options": [
+          {
+            "text": "higher, because the holder owns an additional option",
+            "value": null,
+            "explanation": "Correct: V(convertible) = V(non-convertible) + value of conversion option. Options never have negative value to their holder."
+          },
+          {
+            "text": "lower, because the holder may give up the fixed dividend",
+            "value": null,
+            "explanation": "Treats conversion as a cost. Conversion is the holder's choice, so the holder only converts when it is beneficial."
+          },
+          {
+            "text": "equal, because the option matters only if conversion occurs",
+            "value": null,
+            "explanation": "Ignores that an option has value before it is exercised, since there is a chance it will pay off."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0",
+          "os:principles-finance-2e:m00111:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Market interest rates fall sharply. Compare the price response of a callable preferred share with an otherwise identical non-callable preferred share. The price of the callable share will most likely rise:",
+        "options": [
+          {
+            "text": "by more, because falling rates make a fixed dividend more valuable",
+            "value": null,
+            "explanation": "Applies the baseline effect of lower rates but ignores that the issuer will likely call the shares as rates fall."
+          },
+          {
+            "text": "by the same amount, because the dividend is fixed in both shares",
+            "value": null,
+            "explanation": "Ignores the call option. Both pay the same stated dividend, but the callable share's expected life shortens when calling becomes attractive."
+          },
+          {
+            "text": "by less, because a call becomes more likely and caps the upside",
+            "value": null,
+            "explanation": "Correct: lower rates raise the value of the issuer's call option, so the callable share's price is held back near the call price, while the non-callable share keeps rising."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How do you compute the intrinsic value of a perpetual, non-callable, non-convertible preferred share?",
+        "back": "V0 = D / r, where D = par × dividend rate (in dollars) and r = required return. It is the present value of a perpetuity.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:1",
+          "os:principles-finance-2e:m00068:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why does par value not equal the intrinsic value of a preferred share in general?",
+        "back": "Par only sets the dollar dividend. Value depends on the required return: it is below par when r exceeds the dividend rate and above par when r is lower.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do callable, putable and convertible features change preferred stock value versus a plain issue?",
+        "back": "Callable (issuer's option): value is lower. Putable and convertible (holder's options): value is higher. Start from the plain value, then subtract or add the option's value.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between cumulative and non-cumulative preferred?",
+        "back": "Cumulative: skipped dividends remain owed and must be paid before common dividends. Non-cumulative: skipped dividends are lost forever.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T18:22:27.695Z",
+      "purpose": "blind-solve",
+      "losId": "equity-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 894,
+      "outputTokens": 521,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007115,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:22:36.386Z",
+      "purpose": "grounding",
+      "losId": "equity-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10728,
+      "outputTokens": 1278,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0344052,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.04152019999999999
+}

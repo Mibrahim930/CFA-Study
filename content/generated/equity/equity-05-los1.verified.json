@@ -1,0 +1,869 @@
+{
+  "losId": "equity-05-los1",
+  "losText": "contrast price and value for an equity security",
+  "moduleId": "equity-05",
+  "moduleTitle": "Introduction to Equity Valuation",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:20:40.130Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch12:2:2",
+      "title": "Investment Valuation, 2nd ed., ch. 12: Closure in Valuation: Estimating Terminal Value (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 2–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch12.pdf#page=2",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15433-securityanalysis:4:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 19: Security Analysis",
+      "locator": "pp. 4–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/ffbc3f7faa47ea6af53d2a3efe1e29ee_1543319securityanalysis.pdf#page=4",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00070:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Determining the Intrinsic Value of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–2",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:210:149",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 210–211",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=210",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch18:39:28",
+      "title": "Investment Valuation, 2nd ed., ch. 18: Earnings Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 39–40",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch18.pdf#page=39",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:38:29",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 38–40",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=38",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch9:17:16",
+      "title": "Investment Valuation, 2nd ed., ch. 9: Measuring Earnings (R&D, operating leases, one-time items, adjusted earnings) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 17–18",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch9.pdf#page=17",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch17:20:19",
+      "title": "Investment Valuation, 2nd ed., ch. 17: Fundamentals of Relative Valuation (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch17.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Market Price vs Intrinsic Value of a Share",
+      "summary": "Price is what a share costs in the market right now, while intrinsic value is an analyst's estimate of what the share is truly worth. Comparing the two is the basis of deciding whether a stock looks cheap, expensive or fairly priced.",
+      "sections": [
+        {
+          "heading": "Two different numbers for the same share",
+          "body_markdown": "Think of selling a used car. The **price** is what a buyer actually pays on the day. The **value** is what you believe the car is really worth after looking at its mileage, condition and repair history.\n\nFor a share:\n- **Market price** is the amount at which the share trades now. It is observable and is set by buyers and sellers.\n- **Intrinsic value** is the worth of the share based on a full understanding of the company's cash flows, growth and risk. Nobody can observe it. Analysts can only *estimate* it with a valuation model.\n\nSo price is a fact you look up, and value is an opinion you build."
+        },
+        {
+          "heading": "When do price and value agree?",
+          "body_markdown": "In an **efficient market**, prices quickly reflect all available information correctly. Price then equals intrinsic value, because the market's collective view already accounts for expected cash flows and risk.\n\nReal markets are not perfectly efficient. Prices can drift above or below intrinsic value for a while because of limited information, investor emotion, or mistaken expectations. Analysts do valuation work because they believe such gaps sometimes exist and may close over time.\n\nIf an analyst's estimate differs from the price, two explanations are possible: the market is mispricing the share, or the analyst's estimate is wrong. The analyst cannot know which with certainty."
+        },
+        {
+          "heading": "Reading the gap",
+          "body_markdown": "Compare your estimated value ($V_0$) with the market price ($P_0$):\n- $V_0 > P_0$: the share looks **undervalued**. It is cheap relative to your estimate.\n- $V_0 < P_0$: the share looks **overvalued**. It is expensive relative to your estimate.\n- $V_0 \\approx P_0$: the share looks **fairly valued**.\n\nThe conclusion is only as good as the estimate. Small changes in assumptions, such as the growth rate or required return, can shift an intrinsic value estimate a lot. Two careful analysts using the same company data can reach different values."
+        },
+        {
+          "heading": "Where the estimate comes from",
+          "body_markdown": "A common way to estimate value is to discount expected future cash flows (such as dividends) at the investor's required return. For a dividend growing at a constant rate forever, the value formula is simple (see Formulas). This requires the required return to be greater than the growth rate.\n\nAnother approach is **relative valuation**, which values a share by how similar companies are priced. This yields a *relative* value, not an intrinsic one. If the whole peer group is overpriced, a share can look cheap versus peers yet still be overvalued on a cash-flow basis. Relative values also tend to land closer to current market prices because they borrow the market's mood."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company is expected to pay a dividend of $2.40 per share next year (D1). Dividends are expected to grow 4% per year forever, and your required return on the share is 10%. The share trades at $34.00. Estimate the intrinsic value and say whether the share looks under- or overvalued.",
+        "steps": [
+          "Identify the inputs: $D_1 = 2.40$, $r = 0.10$, $g = 0.04$. Check that $r > g$, so the formula works.",
+          "Apply the constant-growth value formula: $V_0 = D_1/(r-g) = 2.40/(0.10-0.04)$.",
+          "Compute the denominator: $0.10 - 0.04 = 0.06$.",
+          "Calculator: press 2.4 ÷ 0.06 = to get 40.00. (The BA II Plus has no special key for this; ordinary arithmetic is enough.)",
+          "Compare with the market price: $V_0 = 40.00 > P_0 = 34.00$.",
+          "Conclusion: the share looks undervalued by about $6.00, roughly 17.6% of its current price, if the assumptions are right."
+        ],
+        "answer": "Intrinsic value is $40.00 per share, above the $34.00 price, so the share looks undervalued.",
+        "answer_value": 40,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.4,\"r\":0.10,\"g\":0.04}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Constant-growth (Gordon) intrinsic value",
+          "latex": "V_0 = \\frac{D_1}{r - g}",
+          "where": "$V_0$ = estimated intrinsic value today; $D_1$ = dividend expected one year from now; $r$ = required return on the equity; $g$ = constant dividend growth rate forever, with $r > g$."
+        },
+        {
+          "name": "Value vs price decision rule",
+          "latex": "V_0 > P_0 \\Rightarrow \\text{undervalued};\\; V_0 < P_0 \\Rightarrow \\text{overvalued}",
+          "where": "$V_0$ = analyst's estimate of intrinsic value; $P_0$ = current market price."
+        }
+      ],
+      "exam_traps": [
+        "Treating the market price as the intrinsic value. Price is observed; intrinsic value is an estimate and only equals price if the market is efficient.",
+        "Treating an analyst's intrinsic value as a precise fact. It depends on assumptions and models, so it can be wrong.",
+        "Reversing the conclusion: value above price means undervalued (cheap), not overvalued.",
+        "Using the dividend just paid ($D_0$) in $D_1/(r-g)$ without growing it by $(1+g)$ first.",
+        "Assuming a stock that is cheap relative to peers is automatically undervalued intrinsically; the whole peer group may be mispriced."
+      ],
+      "builds_on": [
+        "Time value of money and perpetuities",
+        "Required return and risk",
+        "Market efficiency"
+      ],
+      "leads_to": [
+        "Book value, market capitalization and enterprise value",
+        "Categories of equity valuation models",
+        "Active vs passive management"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-securityanalysis:4:1",
+        "damodaran-valn2ed-ch17:20:19",
+        "damodaran-valn2ed-ch12:2:2"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best contrasts the market price and the intrinsic value of an equity security?",
+        "options": [
+          {
+            "text": "Price is the intrinsic value an analyst estimates, and value is the amount at which the share last traded.",
+            "value": null,
+            "explanation": "This swaps the two terms. Price is the observed trading amount, and intrinsic value is the estimate."
+          },
+          {
+            "text": "Price is observable from trading, while intrinsic value is an estimate based on the security's fundamentals.",
+            "value": null,
+            "explanation": "Correct. Price is a market fact. Intrinsic value must be estimated from cash flows, growth and risk."
+          },
+          {
+            "text": "Price is set by the company's accounting records, and value is set by the stock exchange.",
+            "value": null,
+            "explanation": "This confuses price with book value. Market price comes from trading, not the accounts."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An analyst values a share using the constant-growth model. The dividend expected one year from now is $3.00, dividends will grow 3% a year forever, and the required return is 9%. What is the estimated intrinsic value per share, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$33.33",
+            "value": 33.33,
+            "explanation": "This is $3.00 / 0.09. It ignores growth and treats the dividend as a flat perpetuity."
+          },
+          {
+            "text": "$25.00",
+            "value": 25,
+            "explanation": "This is $3.00 / (0.09 + 0.03). It adds g to r instead of subtracting."
+          },
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "Correct: $3.00 / (0.09 − 0.03) = $3.00 / 0.06 = $50.00."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":3,\"r\":0.09,\"g\":0.03}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst estimates a share's intrinsic value at $55.00. The share trades at $48.00. Assuming the analyst's estimate is correct, how should the share be described?",
+        "options": [
+          {
+            "text": "Undervalued, because estimated value exceeds market price.",
+            "value": null,
+            "explanation": "Correct. When estimated intrinsic value is above price, the share looks cheap, or undervalued."
+          },
+          {
+            "text": "Overvalued, because estimated value exceeds market price.",
+            "value": null,
+            "explanation": "This reverses the rule. Overvalued means price is above estimated value."
+          },
+          {
+            "text": "Fairly valued, because the market price already reflects all information.",
+            "value": null,
+            "explanation": "This applies the efficient-market idea in a way that contradicts the analyst's own estimate. The question says to assume the estimate is correct."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company has just paid an annual dividend of $2.00 per share. The dividend due one year from now is expected to be 5% higher than the dividend just paid, and dividends are then expected to grow 5% per year forever. The required return is 9% per year. Using the constant-growth dividend discount model, what is the estimated intrinsic value per share today, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "This divides the dividend just paid ($2.00) by (r − g) = 0.04. The model needs the dividend expected next year, D1, not the dividend already paid, D0. The error is skipping one year of growth."
+          },
+          {
+            "text": "$52.50",
+            "value": 52.5,
+            "explanation": "Correct. D1 = 2.00 × 1.05 = $2.10, so V0 = D1 / (r − g) = 2.10 / (0.09 − 0.05) = $52.50."
+          },
+          {
+            "text": "$15.00",
+            "value": 15,
+            "explanation": "This computes 2.10 / (0.09 + 0.05) and adds g to r. The model uses r − g in the denominator, so g must be subtracted."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2.1,\"r\":0.09,\"g\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (medium): The stem says the next dividend, paid in one year, is the first to grow 5%, which makes D1 = 2.00*1.05 = 2.10 under the usual reading, giving 2.10/0.04 = $52.50. But the stem states growth starts with the next dividend, so D1 = 2.10 and the value is $52.50 (option A)."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A preferred share pays a fixed dividend of $4.00 per year forever, with the first payment one year from now. The required return is 8%. What is the estimated intrinsic value per share, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$32.00",
+            "value": 32,
+            "explanation": "This multiplies the dividend by the required return in percent (4 × 8). The dividend should be divided by the rate."
+          },
+          {
+            "text": "$50.00",
+            "value": 50,
+            "explanation": "Correct. A level perpetuity is worth D / r = $4.00 / 0.08 = $50.00."
+          },
+          {
+            "text": "$54.00",
+            "value": 54,
+            "explanation": "This is 4.00 × 1.08 / 0.08. It wrongly grows the dividend by the required return even though the dividend is fixed."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":4,\"r\":0.08,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00070:1",
+          "os:principles-finance-2e:m00068:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "If a market were perfectly efficient and prices reflected all information correctly, how would the market price of a share relate to its intrinsic value?",
+        "options": [
+          {
+            "text": "Price would be consistently below intrinsic value to reward buyers for risk.",
+            "value": null,
+            "explanation": "Risk is already built into the required return used to estimate value, so it does not create a persistent discount."
+          },
+          {
+            "text": "Price would fluctuate randomly around a value that no analyst could estimate.",
+            "value": null,
+            "explanation": "Intrinsic value can be estimated in principle. Efficiency does not make it unknowable."
+          },
+          {
+            "text": "Price would equal intrinsic value, apart from estimation error by individual analysts.",
+            "value": null,
+            "explanation": "Correct. With accurate expectations of cash flows and required return, the market price agrees with intrinsic value. Gaps seen by analysts would reflect their own errors."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A share trades at $36.00. An analyst expects next year's dividend to be $2.00 and expects dividends to grow 4% per year forever. The analyst's required return is 10%. What is the estimated intrinsic value per share, rounded to the nearest cent? (Compare it with the price to judge the share.)",
+        "options": [
+          {
+            "text": "$14.29",
+            "value": 14.29,
+            "explanation": "This is 2.00 / (0.10 + 0.04). It adds g to r instead of subtracting."
+          },
+          {
+            "text": "$20.00",
+            "value": 20,
+            "explanation": "This is 2.00 / 0.10. It ignores dividend growth."
+          },
+          {
+            "text": "$33.33",
+            "value": 33.33,
+            "explanation": "Correct: 2.00 / (0.10 − 0.04) = $33.33. This is below the $36.00 price, so the share looks overvalued."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":2,\"r\":0.10,\"g\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A share looks overvalued based on a discounted cash flow estimate of intrinsic value, but looks undervalued when its price multiple is compared with similar companies. Which explanation is most consistent with this result?",
+        "options": [
+          {
+            "text": "The comparable companies are probably all overpriced, so the peer-based comparison inherits their mispricing.",
+            "value": null,
+            "explanation": "Correct. Relative valuation assumes the market prices peers correctly on average. If the whole group is overpriced, a share can look cheap versus peers yet be overvalued intrinsically."
+          },
+          {
+            "text": "Relative valuation always gives the true intrinsic value, so the cash flow estimate must be wrong.",
+            "value": null,
+            "explanation": "Relative valuation gives a relative value, not an intrinsic one, so it cannot be treated as the benchmark of truth."
+          },
+          {
+            "text": "Intrinsic value and market price are the same thing, so the two results cannot differ.",
+            "value": null,
+            "explanation": "Price and intrinsic value can differ, and different methods can disagree for that reason."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch17:20:19",
+          "damodaran-valn2ed-ch12:2:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between a share's market price and its intrinsic value?",
+        "back": "Price is the observed trading amount. Intrinsic value is an estimate of what the share is truly worth, based on its cash flows, growth and risk.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do price and intrinsic value relate in an efficient market?",
+        "back": "They are equal, because the market price already reflects accurate expectations of cash flows and required return.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "If estimated intrinsic value is above market price, how is the share described, and if below?",
+        "back": "Above price: undervalued (cheap). Below price: overvalued (expensive). Roughly equal: fairly valued.",
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the constant-growth formula for intrinsic value, and what must hold for it to work?",
+        "back": "$V_0 = D_1/(r-g)$, where $D_1$ is next year's dividend. It requires $r > g$.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-securityanalysis:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:20:16.532Z",
+      "purpose": "blind-solve",
+      "losId": "equity-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1068,
+      "outputTokens": 619,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008443,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:20:25.889Z",
+      "purpose": "repair",
+      "losId": "equity-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10064,
+      "outputTokens": 963,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.030702,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:20:27.885Z",
+      "purpose": "blind-solve",
+      "losId": "equity-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 159,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001565,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:20:40.130Z",
+      "purpose": "grounding",
+      "losId": "equity-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13011,
+      "outputTokens": 1214,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.038331199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.07904119999999999
+}

@@ -1,0 +1,872 @@
+{
+  "losId": "equity-12-los2",
+  "losText": "describe the arbitrage pricing theory and the importance of multi-factor models used in equity investing",
+  "moduleId": "equity-12",
+  "moduleTitle": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T18:27:36.100Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-capm1:11:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 11–14",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=11",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "flatworld-finance-for-managers:189:137",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 189–190",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=189",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "flatworld-finance-for-managers:203:145",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 203–204",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=203",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-active-management:10:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 10–14",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=10",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-capm1:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 1–5",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-equity:4:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 8: Equity",
+      "locator": "pp. 4–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/804da75d6a54ffb4e5cb11de74d5a917_154338Equity.pdf#page=4",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-capm1:14:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 14–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=14",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch28:8:7",
+      "title": "Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 8–9",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch28.pdf#page=8",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-equity:9:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 8: Equity",
+      "locator": "pp. 9–14",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/804da75d6a54ffb4e5cb11de74d5a917_154338Equity.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:202:144",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 202–203",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=202",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00095:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.3 The Capital Asset Pricing Model (CAPM) — CAPM Equation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-3-the-capital-asset-pricing-model-capm",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Arbitrage Pricing Theory and Multi-Factor Equity Models",
+      "summary": "APT says a stock's expected return depends on how sensitive it is to several broad risk factors, not just to the market as a whole. Multi-factor models put this idea into practice, and analysts use them to estimate required returns and to see where a portfolio's risk and return come from.",
+      "sections": [
+        {
+          "heading": "Starting point: two kinds of risk",
+          "body_markdown": "A stock's return moves for two reasons. **Systematic** (common) risk affects many stocks at once, for example a recession or a jump in interest rates. **Idiosyncratic** (firm-specific) risk hits one company, for example losing a big customer. Holding many stocks washes out idiosyncratic risk, much as one rainy day at one shop barely changes the average sales of a whole chain. Investors should therefore be paid only for systematic risk. The CAPM and APT both start from this idea. The difference is that the CAPM uses **one** systematic source of risk, the market, while APT allows **several**."
+        },
+        {
+          "heading": "What APT says",
+          "body_markdown": "**Arbitrage pricing theory (APT)** is built on three ideas:\n\n1. Returns can be described by a **factor model**. Each asset has a sensitivity (a *factor beta*, or loading) to each common factor, plus an idiosyncratic piece.\n2. Portfolios are well diversified, so idiosyncratic risk is negligible.\n3. **No arbitrage**: two portfolios with the same factor exposures cannot offer different expected returns. If they did, investors could buy the cheap one, short the expensive one and earn a riskless profit. Trading would then push prices back.\n\nThe result is that expected return is the risk-free rate plus a reward for each factor exposure:\n\n$$E(R_p)=R_f+\\lambda_1\\beta_{p,1}+\\lambda_2\\beta_{p,2}+\\dots+\\lambda_k\\beta_{p,k}$$\n\nHere $\\lambda_j$ is the **factor risk premium**, the extra expected return for taking one unit of exposure to factor $j$. APT does **not** say which factors to use or how large the premiums are. You have to supply those. It also does not need a market portfolio or assumptions about investor preferences. The CAPM is the special case with one factor, the market."
+        },
+        {
+          "heading": "Types of multi-factor models",
+          "body_markdown": "- **Macroeconomic factor models** use *surprises* in economy-wide variables such as GDP growth, inflation or interest rates. Only unexpected changes move returns, because expected changes are already priced in.\n- **Fundamental factor models** use company characteristics such as book-to-market, size, earnings growth or leverage.\n- **Statistical factor models** let the data pick the factors, for example with principal components. The factors can be hard to interpret.\n\nThe best-known fundamental model is **Fama–French**. It adds two factors to the market factor:\n- **SMB** (small minus big): the return on small-cap stocks minus the return on large-cap stocks.\n- **HML** (high minus low): the return on high book-to-market (value) stocks minus the return on low book-to-market (growth) stocks.\n\n**Carhart** adds a momentum factor (recent winners minus recent losers). Later Fama–French versions add profitability and investment factors."
+        },
+        {
+          "heading": "Why multi-factor models matter in equity investing",
+          "body_markdown": "Think of a recipe. The CAPM says a dish's flavour depends only on how much salt it has. Multi-factor models admit that spice, acid and sweetness also matter. In practice analysts use them to:\n\n- **Estimate required return on equity** more completely than with the market alone. The cost of equity adds a premium for each factor exposure.\n- **Attribute performance and risk.** They show how much of a fund's return or risk came from market, size, value or momentum tilts, and how much is manager skill (alpha).\n- **Build portfolios.** Investors can tilt toward factors they want or control unintended bets, which is the basis of factor-based and smart-beta strategies.\n- **Check on CAPM.** Evidence that size and value have historically been rewarded suggests market risk alone does not explain all return differences.\n\nA caution: a factor premium is only worth estimating if the factor is a proxy for real, non-diversifiable risk. Estimated premiums are noisy and can change over time."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst models a stock with a two-factor macroeconomic APT model. The risk-free rate is 3.0%. The stock's sensitivity to the GDP-growth surprise factor is 1.2, and that factor's risk premium is 4.0%. Its sensitivity to the inflation-surprise factor is 0.5, and that factor's risk premium is 2.0%. What is the stock's expected return under APT?",
+        "steps": [
+          "Write the APT relationship: $E(R)=R_f+\\lambda_1\\beta_1+\\lambda_2\\beta_2$.",
+          "Compute the GDP-factor contribution: $1.2\\times4.0\\%=4.8\\%$.",
+          "Compute the inflation-factor contribution: $0.5\\times2.0\\%=1.0\\%$.",
+          "Add them to the risk-free rate: $3.0\\%+4.8\\%+1.0\\%=8.8\\%$.",
+          "Calculator note: no special TVM keys are needed. On the BA II Plus type 1.2 × 4 = 4.8, then 0.5 × 2 = 1.0, then add 3 + 4.8 + 1.0 = 8.8 (in percent)."
+        ],
+        "answer": "The expected return is 8.8%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "APT expected return (k factors)",
+          "latex": "E(R_i)=R_f+\\sum_{j=1}^{k}\\lambda_j\\,\\beta_{i,j}",
+          "where": "$E(R_i)$ = expected return of asset or portfolio $i$; $R_f$ = risk-free rate; $\\lambda_j$ = risk premium of factor $j$; $\\beta_{i,j}$ = sensitivity of $i$ to factor $j$."
+        },
+        {
+          "name": "Macroeconomic factor model of returns",
+          "latex": "R_i=E(R_i)+\\sum_{j=1}^{k}b_{i,j}F_j+\\varepsilon_i",
+          "where": "$R_i$ = actual return; $E(R_i)$ = expected return; $b_{i,j}$ = sensitivity to factor $j$; $F_j$ = surprise in factor $j$ (mean zero); $\\varepsilon_i$ = idiosyncratic return (mean zero)."
+        },
+        {
+          "name": "Fama–French three-factor expected return",
+          "latex": "E(R_i)-R_f=\\beta_i\\lambda_{M}+s_i\\lambda_{SMB}+h_i\\lambda_{HML}",
+          "where": "$\\beta_i$, $s_i$, $h_i$ = loadings on market, size and value factors; $\\lambda_M$, $\\lambda_{SMB}$, $\\lambda_{HML}$ = their risk premiums; $R_f$ = risk-free rate."
+        }
+      ],
+      "exam_traps": [
+        "Thinking APT names the factors. It does not; the analyst must choose them and estimate their premiums.",
+        "Adding idiosyncratic risk into expected return. APT rewards only factor exposures, because firm-specific risk is assumed diversifiable.",
+        "Claiming APT needs the market portfolio or CAPM-style investor assumptions. APT rests on no-arbitrage and diversification, and the CAPM is one factor in the APT framework.",
+        "Ignoring the sign of a factor loading. A negative sensitivity times a positive premium lowers expected return.",
+        "Mixing up SMB and HML: SMB is small minus big, and HML is high book-to-market (value) minus low book-to-market (growth). Also forgetting to add the risk-free rate to the sum of factor rewards."
+      ],
+      "builds_on": [
+        "Systematic vs idiosyncratic risk",
+        "Diversification",
+        "CAPM and beta",
+        "Arbitrage"
+      ],
+      "leads_to": [
+        "Cost of equity estimation",
+        "Performance and risk attribution",
+        "Factor-based (smart beta) portfolio construction"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-capm1:11:3",
+        "mit-ocw-15433-capm1:14:4",
+        "mit-ocw-15433-active-management:10:3",
+        "mit-ocw-15433-equity:4:1",
+        "mit-ocw-15433-equity:9:2",
+        "flatworld-finance-for-managers:189:137"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the core logic of arbitrage pricing theory (APT)?",
+        "options": [
+          {
+            "text": "All investors hold the market portfolio, so only market beta determines expected return.",
+            "value": null,
+            "explanation": "This describes the CAPM, which relies on a market portfolio and a single factor. APT does not require either."
+          },
+          {
+            "text": "Expected returns are linked to factor exposures because assets with equal exposures cannot offer different returns without creating arbitrage.",
+            "value": null,
+            "explanation": "Correct. APT combines a factor model, diversified portfolios and no-arbitrage to price factor exposures."
+          },
+          {
+            "text": "Expected returns include a premium for each stock's own firm-specific risk, because it is the main source of price movement.",
+            "value": null,
+            "explanation": "Idiosyncratic risk is assumed diversifiable and unpriced under APT, so this reverses the theory."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:11:3",
+          "mit-ocw-15433-capm1:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Compared with the CAPM, which feature is most characteristic of APT?",
+        "options": [
+          {
+            "text": "It allows several systematic risk factors but does not itself specify what they are.",
+            "value": null,
+            "explanation": "Correct. APT allows multiple factors and leaves their identity and premiums to the analyst."
+          },
+          {
+            "text": "It requires that every investor has identical expectations and holds the same risky portfolio.",
+            "value": null,
+            "explanation": "These are CAPM assumptions, not APT assumptions."
+          },
+          {
+            "text": "It states that exactly three factors (market, size, value) drive all equity returns.",
+            "value": null,
+            "explanation": "This confuses APT with the Fama–French three-factor model, which is one specific multi-factor model."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:10:3",
+          "mit-ocw-15433-capm1:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under a Fama–French three-factor model, the risk-free rate is 3.0%. The market, SMB and HML risk premiums are 6.0%, 2.0% and 4.0%. A stock has loadings of 1.1 on the market, 0.5 on SMB and −0.15 on HML. What is its expected return? Round to one decimal place.",
+        "options": [
+          {
+            "text": "11.2%",
+            "value": null,
+            "explanation": "This treats the negative HML loading as positive (adds 0.6% instead of subtracting it), a sign error."
+          },
+          {
+            "text": "9.6%",
+            "value": null,
+            "explanation": "This is the CAPM-only answer (3.0% + 1.1 × 6.0%). It ignores the SMB and HML terms."
+          },
+          {
+            "text": "10.0%",
+            "value": null,
+            "explanation": "Correct: 3.0% + 1.1×6.0% (6.6%) + 0.5×2.0% (1.0%) + (−0.15)×4.0% (−0.6%) = 10.0%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-equity:9:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): 3.0 + 1.1*6.0 + 0.5*2.0 + (-0.15)*4.0 = 3.0 + 6.6 + 1.0 - 0.6 = 10.0%. This matches option C, not B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In the Fama–French framework, the HML factor is best described as the return on:",
+        "options": [
+          {
+            "text": "small-capitalization stocks minus large-capitalization stocks.",
+            "value": null,
+            "explanation": "This describes SMB (small minus big), not HML."
+          },
+          {
+            "text": "low book-to-market (growth) stocks minus high book-to-market (value) stocks.",
+            "value": null,
+            "explanation": "This reverses the direction. HML is high minus low."
+          },
+          {
+            "text": "high book-to-market (value) stocks minus low book-to-market (growth) stocks.",
+            "value": null,
+            "explanation": "Correct. HML is high minus low book-to-market, so it is the value premium."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-equity:4:1",
+          "mit-ocw-15433-equity:9:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under APT, a well-diversified portfolio has a high exposure to a factor whose risk premium is positive. Which conclusion is most consistent with the theory?",
+        "options": [
+          {
+            "text": "Its expected return is higher than the risk-free rate by an amount that increases with that exposure.",
+            "value": null,
+            "explanation": "Correct. Expected return equals the risk-free rate plus factor premium × exposure, so higher exposure to a positively priced factor raises expected return."
+          },
+          {
+            "text": "Its expected return is unchanged, because only the market portfolio's beta is rewarded.",
+            "value": null,
+            "explanation": "This is the one-factor CAPM view and ignores other priced factors."
+          },
+          {
+            "text": "Its expected return rises mainly because of the firm-specific risk of the securities it holds.",
+            "value": null,
+            "explanation": "Firm-specific risk is diversified away in the portfolio and is not rewarded under APT."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:11:3",
+          "mit-ocw-15433-active-management:10:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A model explains stock returns using unexpected changes in GDP growth, inflation and interest rates. Which type of factor model is this?",
+        "options": [
+          {
+            "text": "A fundamental factor model, because the factors are company attributes such as size and book-to-market.",
+            "value": null,
+            "explanation": "Fundamental models use company characteristics. GDP, inflation and interest rates are economy-wide variables."
+          },
+          {
+            "text": "A statistical factor model, because the factors are extracted from return data without economic labels.",
+            "value": null,
+            "explanation": "Statistical models derive factors from the data (e.g., principal components). Here the factors are named economic variables."
+          },
+          {
+            "text": "A macroeconomic factor model, because the factors are surprises in economy-wide variables.",
+            "value": null,
+            "explanation": "Correct. Macroeconomic models use surprises in variables such as GDP growth and inflation."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:11:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A portfolio manager reports that regressing the fund's excess returns on market, size, value and momentum factors gives a large positive intercept and sizeable positive loadings on value and momentum. What is the most appropriate use of this multi-factor result?",
+        "options": [
+          {
+            "text": "To split the fund's performance into returns from factor tilts and the unexplained part attributed to manager skill.",
+            "value": null,
+            "explanation": "Correct. Multi-factor models support return attribution: factor loadings explain the part from systematic tilts, and the intercept (alpha) measures what remains."
+          },
+          {
+            "text": "To conclude the fund has eliminated systematic risk, because the idiosyncratic term is small.",
+            "value": null,
+            "explanation": "Positive factor loadings show the fund is exposed to systematic risks. A small residual says nothing about removing them."
+          },
+          {
+            "text": "To prove that the intercept is a guaranteed arbitrage profit that will persist in future periods.",
+            "value": null,
+            "explanation": "Estimated alpha is noisy and is not a riskless arbitrage profit. It does not guarantee future returns."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-equity:4:1",
+          "mit-ocw-15433-active-management:10:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under a two-factor APT model, the risk-free rate is 4.0%. A stock has a sensitivity of 0.9 to factor 1 (risk premium 5.0%) and a sensitivity of −0.4 to factor 2 (risk premium 3.0%). What is its expected return? Round to one decimal place.",
+        "options": [
+          {
+            "text": "9.7%",
+            "value": null,
+            "explanation": "This ignores the negative sign on factor 2's sensitivity and adds 1.2% instead of subtracting it."
+          },
+          {
+            "text": "8.5%",
+            "value": null,
+            "explanation": "This uses only factor 1 (4.0% + 0.9 × 5.0%) and omits the second factor."
+          },
+          {
+            "text": "7.3%",
+            "value": null,
+            "explanation": "Correct: 4.0% + 0.9×5.0% (4.5%) + (−0.4)×3.0% (−1.2%) = 7.3%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:11:3",
+          "mit-ocw-15433-active-management:10:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What three ideas underpin arbitrage pricing theory?",
+        "back": "(1) Returns follow a factor model; (2) portfolios are diversified so idiosyncratic risk is negligible; (3) no arbitrage opportunities persist. It does not require a market portfolio.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:11:3",
+          "mit-ocw-15433-capm1:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the APT expected-return formula?",
+        "back": "E(R) = Rf + λ1β1 + λ2β2 + … + λkβk, where each λ is a factor risk premium and each β is the asset's sensitivity to that factor.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:10:3",
+          "mit-ocw-15433-equity:4:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does the CAPM relate to APT, and what does APT leave unspecified?",
+        "back": "The CAPM is the one-factor case, with the market as the only factor. APT does not say which factors to use or what their premiums are.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:10:3",
+          "mit-ocw-15433-equity:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What do SMB and HML measure in the Fama–French model?",
+        "back": "SMB = return on small-cap minus large-cap stocks (size). HML = return on high book-to-market (value) minus low book-to-market (growth) stocks.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-equity:9:2",
+          "mit-ocw-15433-equity:4:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Macroeconomic vs fundamental factor models: what is the difference?",
+        "back": "Macroeconomic models use surprises in economy-wide variables (GDP, inflation). Fundamental models use company attributes (size, book-to-market, earnings growth).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T18:27:26.393Z",
+      "purpose": "blind-solve",
+      "losId": "equity-12-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1176,
+      "outputTokens": 622,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008689,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T18:27:36.099Z",
+      "purpose": "grounding",
+      "losId": "equity-12-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14791,
+      "outputTokens": 1477,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0445212,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0532102
+}

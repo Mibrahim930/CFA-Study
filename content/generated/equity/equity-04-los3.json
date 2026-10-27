@@ -1,0 +1,454 @@
+{
+  "losId": "equity-04-los3",
+  "losText": "calculate price and total return for equity securities",
+  "moduleId": "equity-04",
+  "moduleTitle": "Sources of Equity Returns",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:46:36.376Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00093:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:principles-economics-3e:m63862:4.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§17.2 How Households Supply Financial Capital — Stocks",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/17-2-how-households-supply-financial-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-finance-for-managers:202:144",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 202–203",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=202",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-for-managers:154:107",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 154–155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=154",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:206:147",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 206–207",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=206",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:158:111",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 158–160",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=158",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "mit-ocw-15433-equity:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 8: Equity",
+      "locator": "pp. 1–4",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/804da75d6a54ffb4e5cb11de74d5a917_154338Equity.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:38:29",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 38–40",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=38",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:199:143",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 199–202",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=199",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch19:9:7",
+      "title": "Investment Valuation, 2nd ed., ch. 19: Book Value Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 9–10",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch19.pdf#page=9",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:203:145",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 203–204",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=203",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Price Return and Total Return on Shares",
+      "summary": "Owning a share pays you in two ways: the price can move, and the company can pay cash dividends. This lesson shows how to measure each piece and combine them into a total return, which is the number you need to compare equity investments.",
+      "sections": [
+        {
+          "heading": "Two ways a share pays you",
+          "body_markdown": "Think of a share as a rental flat. You can earn **rent** (the cash dividends the company pays) and you can earn or lose from the **change in the flat's market value** (the share price moving). A fair measure of how the flat did must count both.\n\n- **Price return** counts only the change in price.\n- **Dividend yield** counts only the cash paid out.\n- **Total return** adds the two together."
+        },
+        {
+          "heading": "The three building blocks",
+          "body_markdown": "Let $P_0$ be the price when you buy, $P_1$ the price when you sell (or at the end of the period), and $D_1$ the total dividends per share received in between.\n\n$$\\text{Price return}=\\frac{P_1-P_0}{P_0}$$\n\n$$\\text{Dividend yield}=\\frac{D_1}{P_0}$$\n\n$$\\text{Total return}=\\frac{P_1-P_0+D_1}{P_0}=\\text{price return}+\\text{dividend yield}$$\n\nThe denominator is always the **starting price**, because return answers the question \"how much did I earn per dollar I put in?\". Dividends are the *sum of everything paid during the holding period*, not just one payment."
+        },
+        {
+          "heading": "Dividends can rescue a falling price",
+          "body_markdown": "A share that falls in price can still give a positive total return if its dividends are larger than the price loss. A share that rises in price can give a lower total return than you expected if you forget a dividend, or a higher one if you include it. In dollar terms, the total dollar return per share is $P_1-P_0+D_1$; dividing by $P_0$ turns it into a percentage so different-sized investments can be compared.\n\nPrices must be on the same share basis. If a stock split happened during the period, adjust the prices for the split before computing the price return."
+        },
+        {
+          "heading": "What if dividends are reinvested?",
+          "body_markdown": "If you use each dividend to buy more shares, later price moves apply to a larger number of shares, so the total return is a little different from the simple sum.\n\nA clean way to handle it: split the holding period at each dividend date and compute a total return for each sub-period, treating the dividend as received at the end of that sub-period at the price on that date. Then **compound** the sub-period returns:\n\n$$1+R=(1+R_a)(1+R_b)\\cdots$$\n\nEquivalent view: the dividend buys $D/P$ extra shares at the dividend-date price $P$. At the end, value = (original shares + extra shares) × final price, and the return is that value divided by the starting value, minus 1. With rising prices after the dividend, reinvesting gives a slightly higher return than simply adding the dividend."
+        }
+      ],
+      "worked_example": {
+        "problem": "You buy one share at $48.00. During the year it pays dividends totalling $1.20 per share. At the end of the year you sell it for $52.80. Find the price return, the dividend yield and the total return.",
+        "steps": [
+          "Price change = 52.80 − 48.00 = $4.80.",
+          "Price return = 4.80 ÷ 48.00 = 0.10, or 10.00%.",
+          "Dividend yield = 1.20 ÷ 48.00 = 0.025, or 2.50%.",
+          "Total return = 10.00% + 2.50% = 12.50%. Check: (52.80 − 48.00 + 1.20) ÷ 48.00 = 6.00 ÷ 48.00 = 0.125.",
+          "BA II Plus: press 52.8 − 48 + 1.2 = ÷ 48 = and read 0.125 (multiply by 100 for percent)."
+        ],
+        "answer": "Price return 10.00%, dividend yield 2.50%, total return 12.50%. The total return as a decimal is 0.125.",
+        "answer_value": 0.125,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":48,\"endPrice\":52.8,\"income\":1.2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Price return",
+          "latex": "R_{P}=\\frac{P_1-P_0}{P_0}",
+          "where": "P_0 = price at the start of the period; P_1 = price at the end of the period."
+        },
+        {
+          "name": "Dividend yield",
+          "latex": "DY=\\frac{D_1}{P_0}",
+          "where": "D_1 = total dividends per share received during the period; P_0 = starting price."
+        },
+        {
+          "name": "Total return (no reinvestment)",
+          "latex": "R_{T}=\\frac{P_1-P_0+D_1}{P_0}",
+          "where": "P_0, P_1 = start and end prices; D_1 = total dividends per share received during the period."
+        },
+        {
+          "name": "Total return with reinvested dividends",
+          "latex": "1+R_T=\\prod_{i}(1+R_i)",
+          "where": "R_i = total return of sub-period i, where the sub-periods are split at each dividend date and each dividend is reinvested at that date's price."
+        }
+      ],
+      "exam_traps": [
+        "Dividing by the ending price instead of the beginning price.",
+        "Forgetting dividends entirely and reporting only the price return when the question asks for total return.",
+        "Counting only one dividend payment when the stem lists several (for example four quarterly payments).",
+        "Subtracting a dividend instead of adding it when the price has fallen, or taking the absolute value of a price decline.",
+        "Ignoring a stock split: prices before and after must be on the same per-share basis before computing price return."
+      ],
+      "builds_on": [
+        "Holding period return",
+        "Dividends and share repurchases",
+        "Percentages and ratios"
+      ],
+      "leads_to": [
+        "Annualizing returns",
+        "Time-weighted and money-weighted returns",
+        "Dividend discount model and the components of expected return"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00093:0",
+        "os:principles-finance-2e:m00093:0.1",
+        "mit-ocw-15433-equity:1:0",
+        "flatworld-finance-for-managers:158:111"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An investor buys a share at $40.00 and sells it one year later at $44.20. During the year the share paid dividends of $1.20. What was the price return? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "13.50%",
+            "value": 0.135,
+            "explanation": "This adds the $1.20 dividend: (4.20 + 1.20) ÷ 40 is the total return, not the price return."
+          },
+          {
+            "text": "10.50%",
+            "value": 0.105,
+            "explanation": "Correct: price return = (44.20 − 40.00) ÷ 40.00 = 4.20 ÷ 40.00 = 10.50%. Dividends are excluded from price return."
+          },
+          {
+            "text": "9.50%",
+            "value": 0.095,
+            "explanation": "This divides the $4.20 gain by the ending price ($44.20) instead of the starting price."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":40,\"endPrice\":44.2,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A share is bought at $62.00. Over the next year it pays total dividends of $2.48 per share and is then valued at $58.90. Ignoring reinvestment, what is the total return for the year? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "-5.00%",
+            "value": -0.05,
+            "explanation": "This is only the price return, (58.90 − 62.00) ÷ 62.00, and leaves out the dividends."
+          },
+          {
+            "text": "9.00%",
+            "value": 0.09,
+            "explanation": "This treats the $3.10 price decline as a gain (adds its absolute value) and then adds the dividend: (3.10 + 2.48) ÷ 62."
+          },
+          {
+            "text": "-1.00%",
+            "value": -0.01,
+            "explanation": "Correct: (58.90 − 62.00 + 2.48) ÷ 62.00 = −0.62 ÷ 62.00 = −1.00%. The dividends offset most, but not all, of the price loss."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":62,\"endPrice\":58.9,\"income\":2.48}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0",
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A stock's price falls slightly over a year, but the company pays a sizeable dividend. Which statement about the investor's returns is most accurate?",
+        "options": [
+          {
+            "text": "The price return is negative, but the total return can still be positive if the dividend yield exceeds the price decline.",
+            "value": null,
+            "explanation": "Correct: total return = price return + dividend yield, so a large enough dividend yield can outweigh a negative price return."
+          },
+          {
+            "text": "The total return must be negative, because total return cannot exceed the price return.",
+            "value": null,
+            "explanation": "This ignores that dividends add to return. Total return is price return plus dividend yield, so it can exceed price return."
+          },
+          {
+            "text": "The dividend yield is negative, because it moves with the price change.",
+            "value": null,
+            "explanation": "Dividend yield is dividends divided by the starting price and is not negative because of price moves; the negative piece is the price return."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A share is bought at $80.00 and held for one year. It pays four quarterly dividends of $0.50 each and ends the year at $84.00. Ignoring reinvestment, what is the total return? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "7.50%",
+            "value": 0.075,
+            "explanation": "Correct: total dividends = 4 × 0.50 = $2.00. Total return = (84 − 80 + 2.00) ÷ 80 = 6.00 ÷ 80 = 7.50%."
+          },
+          {
+            "text": "5.63%",
+            "value": 0.0563,
+            "explanation": "This counts only one $0.50 dividend instead of all four: (4.00 + 0.50) ÷ 80."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "This is the price return only, 4.00 ÷ 80, leaving out all dividends."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":80,\"endPrice\":84,\"income\":2}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A share is bought at $50.00. Six months later it pays a $1.00 dividend, when the share price is $52.00. The dividend is immediately used to buy more shares at $52.00. At the end of the year the share price is $55.00. Treat the year as two sub-periods split at the dividend date and compound the sub-period total returns. What is the total return for the year with reinvestment? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "This is the total return without reinvestment: (55 − 50 + 1) ÷ 50. It ignores that the dividend bought extra shares that then rose in price."
+          },
+          {
+            "text": "12.12%",
+            "value": 0.1212,
+            "explanation": "Correct: first sub-period (52 + 1) ÷ 50 − 1 = 6.00%; second sub-period 55 ÷ 52 − 1 ≈ 5.77%. Compounding gives 1.06 × 1.0577 − 1 ≈ 12.12%."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "This is only the price return, (55 − 50) ÷ 50, ignoring the dividend completely."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "twr",
+          "args_json": "{\"subperiodReturns\":[0.06,0.0576923077]}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst computes a share's dividend yield for the year in which the price rose from $50 to $60 and $2 of dividends was paid. Which calculation is correct, and why?",
+        "options": [
+          {
+            "text": "$2 ÷ $60, because the investor can only receive the dividend once the price has risen.",
+            "value": null,
+            "explanation": "This uses the ending price as the denominator, a common error. The investor's money was committed at the starting price."
+          },
+          {
+            "text": "$2 ÷ $55, using the average of the two prices as the base for the year.",
+            "value": null,
+            "explanation": "Using an average price mixes up yield with other measures; return is measured per dollar initially invested."
+          },
+          {
+            "text": "$2 ÷ $50, because returns are measured per dollar invested at the start of the period.",
+            "value": null,
+            "explanation": "Correct: dividend yield = dividends ÷ beginning price = 4.00%, consistent with how price return is measured."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0",
+          "mit-ocw-15433-equity:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor buys a share at $25.00. During the year it pays total dividends of $0.75 and the investor sells it at $21.00. What is the total return? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "-13.00%",
+            "value": -0.13,
+            "explanation": "Correct: (21.00 − 25.00 + 0.75) ÷ 25.00 = −3.25 ÷ 25.00 = −13.00%. The dividend reduces the loss."
+          },
+          {
+            "text": "-16.00%",
+            "value": -0.16,
+            "explanation": "This is only the price return, −4.00 ÷ 25.00, leaving out the dividend."
+          },
+          {
+            "text": "-19.00%",
+            "value": -0.19,
+            "explanation": "This subtracts the dividend instead of adding it: (−4.00 − 0.75) ÷ 25.00, a sign error."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":25,\"endPrice\":21,\"income\":0.75}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1",
+          "mit-ocw-15433-equity:1:0"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How is price return on a share calculated?",
+        "back": "(Ending price − beginning price) ÷ beginning price. Dividends are not included.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0"
+        ]
+      },
+      {
+        "front": "How is total return (no reinvestment) related to price return and dividend yield?",
+        "back": "Total return = price return + dividend yield = (P₁ − P₀ + D₁) ÷ P₀.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0",
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      {
+        "front": "Which price is the denominator for both price return and dividend yield?",
+        "back": "The beginning (purchase) price, because return is measured per dollar invested at the start.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0"
+        ]
+      },
+      {
+        "front": "How do you compute total return when dividends are reinvested?",
+        "back": "Split the period at each dividend date, compute each sub-period's total return, and compound them: 1 + R = (1 + R₁)(1 + R₂)…",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:46:36.376Z",
+      "purpose": "generate",
+      "losId": "equity-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10521,
+      "outputTokens": 8239,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.10458819999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "losId": "equity-10-los2",
+  "losText": "evaluate a company's revenue drivers, operating profitability, and pricing power",
+  "moduleId": "equity-10",
+  "moduleTitle": "Company Analysis: Past, Present, and Future",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:11:05.726Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-business-strategy:29:24",
+      "title": "Business Strategy (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 29–30",
+      "url": "https://2012books.lardbucket.org/pdfs/business-strategy.pdf#page=29",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-for-managers:60:42",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 60–61",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=60",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-creating-services-and-products:59:51",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 59–62",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=59",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch20:25:20",
+      "title": "Investment Valuation, 2nd ed., ch. 20: Revenue Multiples and Sector-Specific Multiples (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 25–26",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch20.pdf#page=25",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-introduction-to-business:669:630",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 669–670",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=669",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-introduction-to-business:661:622",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 661–662",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=661",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "flatworld-business-strategy:30:25",
+      "title": "Business Strategy (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 30–32",
+      "url": "https://2012books.lardbucket.org/pdfs/business-strategy.pdf#page=30",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "flatworld-introduction-to-business:461:439",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 461–463",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=461",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "flatworld-finance-for-managers:253:176",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 253–255",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=253",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "cfa-rf-etf-module1:36:43",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "pp. 36–37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=36",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "os:principles-management:m70730:0.1",
+      "title": "Principles of Management",
+      "locator": "§4.6 Organizing for Change in the 21st Century — Overview",
+      "url": "https://openstax.org/books/principles-management/pages/4-6-organizing-for-change-in-the-21st-century",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Reading a Company's Sales Engine, Margins and Pricing Muscle",
+      "summary": "This lesson shows how to break a company's sales into their underlying drivers, judge how well it turns sales into operating profit, and spot whether it can raise prices without losing customers. These three checks tell you whether past results are likely to repeat in a forecast.",
+      "sections": [
+        {
+          "heading": "1. Where does revenue come from?",
+          "body_markdown": "Revenue is the money a company records from selling goods or services. Start with the simplest breakdown: **revenue = units sold × average price per unit**. Analysts then ask what moves each piece.\n\n- **Volume drivers:** number of customers, how often each buys, number of stores or locations, market growth, market share.\n- **Price and mix drivers:** list-price changes, discounts, and *mix*, meaning the share of sales coming from each product line. Selling more premium items raises the average price even if no list price changes.\n- **Other drivers:** acquisitions, currency translation for foreign sales, and the split between business segments or regions.\n\nA useful habit is to separate **organic growth** (from the existing business) from growth bought through acquisitions or caused by currency moves. For retailers, **same-store sales** (sales at stores open in both periods) strip out the effect of opening new stores. Think of a restaurant: sales can rise because more people come, because each spends more, or because you opened a second branch. Only the first two say much about how loved the original restaurant is.\n\nBecause volume and price multiply, their growth rates combine multiplicatively: $(1+g_{rev}) = (1+g_{vol})(1+g_{price})$. Adding the two rates slightly understates total growth."
+        },
+        {
+          "heading": "2. Turning revenue into operating profit",
+          "body_markdown": "Moving down the income statement: sales minus **cost of goods sold (COGS)** gives **gross profit**. Subtracting operating expenses (selling, administrative, and so on) gives **operating income**, also called EBIT (earnings before interest and tax), the profit of the core business. Dividing each by sales gives margins:\n\n- **Gross margin** = gross profit ÷ sales\n- **Operating margin** = operating income ÷ sales\n\nA single margin tells you little. The value comes from the *trend* over several years and the *comparison with competitors*. Then ask why a margin moved: did selling prices change, did input costs change, did the product mix shift toward lower-margin items, or did overhead grow faster than sales?\n\nCommon-size analysis (every line expressed as a percent of sales) makes these shifts easy to see and gives a starting point for forecasting costs as a percent of future sales."
+        },
+        {
+          "heading": "3. Operating leverage: why profit swings more than sales",
+          "body_markdown": "Some costs are **fixed** (rent, salaried staff, equipment depreciation) and some are **variable** (materials, sales commissions). A company with a high share of fixed costs has high **operating leverage**. Once sales exceed the cost of covering the fixed base, each extra sale adds a large profit; when sales fall, profit falls faster still.\n\nThe **degree of operating leverage (DOL)** is the %change in EBIT divided by the %change in sales. A DOL of 3 means a 5% sales rise lifts EBIT by about 15%.\n\nThe **breakeven quantity** is the sales volume where operating profit is zero: fixed costs divided by the *contribution margin* (price minus variable cost per unit). Think of the contribution margin as the amount each unit sold contributes toward paying off the fixed bills. Economies of scale (unit costs falling as volume grows because fixed costs are spread over more units) are the positive side of the same effect."
+        },
+        {
+          "heading": "4. Pricing power",
+          "body_markdown": "**Pricing power** is the ability to raise prices (or hold them against competitors' cuts) without losing enough volume to hurt profit. In economic terms, customers' demand is relatively insensitive to price.\n\nSources of pricing power include strong brands, high customer switching costs, few close substitutes, a dominant market position, and a product that is a small part of the customer's total spending.\n\nEvidence to look for:\n\n- Price increases followed by **steady volumes** and **stable or rising gross margin**, especially when input costs are rising (costs were passed on).\n- Margins that are persistently higher than competitors' with no cost advantage to explain it.\n- Little need for heavy discounting or promotion to hold share.\n\nBeware of false evidence: revenue growth that came entirely from higher volume, or a margin gain from cheaper inputs, does not show pricing power. Companies may also charge different prices to different customer groups (group pricing) to capture more from those willing to pay more, which can lift average revenue per unit without a headline price change."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company sold 500,000 units at an average price of $20.00 in Year 1. In Year 2 it sold 520,000 units at an average price of $21.00. What was the growth rate of revenue, and how much of it came from volume and from price?",
+        "steps": [
+          "Year 1 revenue = 500,000 × $20 = $10,000,000.",
+          "Year 2 revenue = 520,000 × $21 = $10,920,000.",
+          "Revenue growth = 10,920,000 ÷ 10,000,000 − 1 = 0.092, or 9.2%. On the BA II Plus: 10920000 ÷ 10000000 = then − 1 = gives 0.092; multiply by 100 for percent.",
+          "Volume growth = 520,000 ÷ 500,000 − 1 = 4.0%. Price growth = 21 ÷ 20 − 1 = 5.0%.",
+          "Check: 1.04 × 1.05 = 1.092. Simply adding 4% + 5% = 9% would slightly understate the true 9.2%.",
+          "Interpretation: more than half of the growth came from price. If volume held up despite a 5% price rise, that hints at pricing power, but you would confirm it by checking gross margin and competitors."
+        ],
+        "answer": "Revenue grew 9.2% (about 4% from volume and 5% from price, combined multiplicatively).",
+        "answer_value": 0.092,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":10000000,\"endPrice\":10920000}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Revenue decomposition",
+          "latex": "\\text{Revenue} = Q \\times P",
+          "where": "Q = units sold; P = average selling price per unit (including mix effects)."
+        },
+        {
+          "name": "Combined revenue growth",
+          "latex": "1+g_{rev} = (1+g_{vol})(1+g_{price})",
+          "where": "g_rev = revenue growth; g_vol = growth in units; g_price = growth in average price."
+        },
+        {
+          "name": "Gross margin and operating margin",
+          "latex": "\\text{Gross margin} = \\frac{\\text{Sales}-\\text{COGS}}{\\text{Sales}},\\quad \\text{Operating margin} = \\frac{\\text{EBIT}}{\\text{Sales}}",
+          "where": "COGS = cost of goods sold; EBIT = operating income (earnings before interest and tax)."
+        },
+        {
+          "name": "Degree of operating leverage",
+          "latex": "DOL = \\frac{\\%\\Delta \\text{EBIT}}{\\%\\Delta \\text{Sales}}",
+          "where": "%ΔEBIT = percentage change in operating income; %ΔSales = percentage change in sales."
+        },
+        {
+          "name": "Breakeven quantity",
+          "latex": "Q_{BE} = \\frac{F}{P - V}",
+          "where": "F = total fixed costs; P = price per unit; V = variable cost per unit; P − V = contribution margin per unit."
+        }
+      ],
+      "exam_traps": [
+        "Treating total revenue growth as proof of strong demand when much of it came from acquisitions, new stores, or currency effects rather than organic or same-store growth.",
+        "Adding volume growth and price growth instead of compounding them, or ignoring the effect of changing product mix on the average price.",
+        "Claiming pricing power from a margin increase that was really caused by cheaper inputs, or from higher revenue that was really caused by higher volume at unchanged prices.",
+        "Forgetting that gross margin excludes operating expenses, so a falling operating margin with a steady gross margin points to overhead, not product pricing or COGS.",
+        "Assuming operating leverage is only good news: high fixed costs magnify profit declines when sales fall as much as they magnify gains when sales rise."
+      ],
+      "builds_on": [
+        "Income statement structure (COGS, gross profit, EBIT)",
+        "Common-size analysis",
+        "Fixed versus variable costs"
+      ],
+      "leads_to": [
+        "Forecasting revenue and margins",
+        "Working capital and capital investment analysis",
+        "Earnings-based valuation"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00113:3",
+        "flatworld-business-strategy:29:24",
+        "flatworld-finance-for-managers:60:42",
+        "flatworld-finance-for-managers:253:176",
+        "flatworld-introduction-to-business:661:622"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company sold 800 units at an average price of $50.00 last year. This year it sold 840 units at an average price of $52.50. What was the growth rate of total revenue? Round to two decimal places.",
+        "options": [
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "Adds the 5% volume growth and the 5% price growth instead of compounding them, which ignores the cross-effect of higher price on extra units."
+          },
+          {
+            "text": "10.25%",
+            "value": 0.1025,
+            "explanation": "Revenue rose from $40,000 (800 × 50) to $44,100 (840 × 52.50). 44,100 ÷ 40,000 − 1 = 10.25%, equal to 1.05 × 1.05 − 1."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Counts only one driver (volume or price) and ignores the other."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":40000,\"endPrice\":44100}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-business-strategy:29:24"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which observation provides the strongest evidence that a company has pricing power?",
+        "options": [
+          {
+            "text": "Revenue rose 8% because unit sales grew 8% with prices held constant.",
+            "value": null,
+            "explanation": "Growth came purely from volume with no price increase, so it says nothing about the ability to raise prices."
+          },
+          {
+            "text": "Gross margin rose after a new supplier contract cut input costs, with selling prices unchanged.",
+            "value": null,
+            "explanation": "The margin gain came from lower costs, not from the ability to charge customers more."
+          },
+          {
+            "text": "Prices rose 5% to offset higher input costs, yet unit volume held steady and gross margin stayed stable.",
+            "value": null,
+            "explanation": "Correct. Customers accepted a higher price without cutting purchases, and the cost increase was passed through, keeping gross margin stable."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two companies have the same sales and the same operating income. Company X has mostly fixed costs; Company Y has mostly variable costs. Sales fall 10% at both. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "Company X's operating income falls by a larger percentage because of its higher operating leverage.",
+            "value": null,
+            "explanation": "Correct. With mostly fixed costs, costs do not shrink when sales fall, so operating income drops by more than 10% at X."
+          },
+          {
+            "text": "Company Y's operating income falls by a larger percentage because it has more variable costs.",
+            "value": null,
+            "explanation": "Reverses the logic: variable costs fall along with sales and cushion profit, so Y's decline is smaller."
+          },
+          {
+            "text": "Both companies' operating income falls by the same percentage because sales fell equally.",
+            "value": null,
+            "explanation": "Assumes profit moves one-for-one with sales, ignoring the cost structure that creates operating leverage."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:253:176"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company has fixed costs of $600,000 per year. It sells its product for $40 per unit, and the variable cost is $25 per unit. What is the breakeven quantity in units?",
+        "options": [
+          {
+            "text": "15,000 units",
+            "value": 15000,
+            "explanation": "Divides fixed costs by the price ($600,000 ÷ $40), forgetting to deduct variable cost per unit."
+          },
+          {
+            "text": "24,000 units",
+            "value": 24000,
+            "explanation": "Divides fixed costs by the variable cost ($600,000 ÷ $25) instead of the contribution margin."
+          },
+          {
+            "text": "40,000 units",
+            "value": 40000,
+            "explanation": "Contribution margin = $40 − $25 = $15 per unit. Breakeven = $600,000 ÷ $15 = 40,000 units."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "breakevenQuantity",
+          "args_json": "{\"fixedCosts\":600000,\"price\":40,\"variableCost\":25}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A retailer's total revenue grew 12% this year. Same-store sales, which cover only stores open in both years, grew 1%, and the rest of the growth came from new store openings. What is the best conclusion about revenue drivers?",
+        "options": [
+          {
+            "text": "Demand at existing stores was weak, and growth depends largely on continued store openings.",
+            "value": null,
+            "explanation": "Correct. Only 1% of the growth is organic at existing locations, so the 12% headline mostly reflects expansion."
+          },
+          {
+            "text": "Demand was strong because total revenue growth of 12% is the best measure of underlying health.",
+            "value": null,
+            "explanation": "Relies on total growth without separating the effect of new capacity from demand at existing stores."
+          },
+          {
+            "text": "Same-store sales are irrelevant here because revenue drivers are judged only on the total figure.",
+            "value": null,
+            "explanation": "Ignores that same-store sales exist precisely to isolate organic growth from expansion."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A firm has fixed costs of $900,000 per year and a variable cost of $30 per unit. Its price is currently $50 per unit. Management raises the price to $55 per unit, with no change in fixed or variable costs. What is the new breakeven quantity, rounded to the nearest whole unit?",
+        "options": [
+          {
+            "text": "16,364 units",
+            "value": 16364,
+            "explanation": "Divides fixed costs by the new price alone ($900,000 ÷ $55), ignoring variable cost per unit."
+          },
+          {
+            "text": "36,000 units",
+            "value": 36000,
+            "explanation": "New contribution margin = $55 − $30 = $25. Breakeven = $900,000 ÷ $25 = 36,000 units, down from 45,000 at the old price."
+          },
+          {
+            "text": "45,000 units",
+            "value": 45000,
+            "explanation": "Uses the old price ($900,000 ÷ ($50 − $30)) and so ignores the price increase."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "breakevenQuantity",
+          "args_json": "{\"fixedCosts\":900000,\"price\":55,\"variableCost\":30}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A packaged-food company raised the price of every product by 3%. Unit volumes were flat overall, yet its gross margin percentage fell. Which explanation is most consistent with these facts?",
+        "options": [
+          {
+            "text": "A higher price automatically lowers gross margin percentage because the sales figure in the denominator rises.",
+            "value": null,
+            "explanation": "Wrong logic: a price increase with unchanged unit costs raises gross profit by more than sales in percentage terms, so margin rises."
+          },
+          {
+            "text": "Gross margin reflects operating expenses, which must have risen faster than sales.",
+            "value": null,
+            "explanation": "Confuses gross margin with operating margin; gross margin deducts only COGS, not operating expenses."
+          },
+          {
+            "text": "Sales mix shifted toward lower-margin products, or input costs rose by more than the 3% price increase.",
+            "value": null,
+            "explanation": "Correct. Either a mix shift to lower-margin items or COGS growth exceeding the price rise would push gross margin down even with higher prices and flat volume."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the basic revenue decomposition, and how do volume and price growth combine?",
+        "back": "Revenue = units × average price. Growth combines multiplicatively: (1+g_rev) = (1+g_vol)(1+g_price).",
+        "cited_chunk_ids": [
+          "flatworld-business-strategy:29:24"
+        ]
+      },
+      {
+        "front": "Why use same-store (organic) sales growth rather than total revenue growth?",
+        "back": "It excludes growth from new stores, acquisitions or currency effects, so it shows demand and pricing at the existing business.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What is operating leverage and how is it measured?",
+        "back": "The sensitivity of EBIT to sales caused by fixed costs. DOL = %ΔEBIT ÷ %ΔSales; higher fixed costs mean a larger DOL.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:253:176"
+        ]
+      },
+      {
+        "front": "What is pricing power, and what evidence supports it?",
+        "back": "The ability to raise prices without losing enough volume to hurt profit. Evidence: price rises with steady volume and stable or higher gross margin, especially when input costs are rising.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:11:05.726Z",
+      "purpose": "generate",
+      "losId": "equity-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9525,
+      "outputTokens": 9921,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1194162,
+      "stopReason": "end_turn"
+    }
+  ]
+}
