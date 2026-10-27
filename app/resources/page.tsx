@@ -6,7 +6,9 @@ export const metadata: Metadata = { title: "Free resources" };
 
 const GROUPS = [
   { title: "Official CFA Institute material", kinds: ["official"] },
-  { title: "Question banks and courses", kinds: ["question-bank", "course", "video"] },
+  { title: "Question banks and courses", kinds: ["question-bank", "course"] },
+  { title: "Free video lectures", kinds: ["video"] },
+  { title: "Cheat sheets and formula sheets", kinds: ["notes"] },
   { title: "Time-limited trials", kinds: ["trial"] },
 ] as const;
 

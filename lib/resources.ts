@@ -3,11 +3,12 @@ import type { TopicId } from "./syllabus/topics";
 /**
  * Free outside resources, used on their own sites only. Their content is never ingested into the
  * content pipeline (FreeFellow's terms explicitly prohibit AI training; the rest are proprietary).
- * URLs were checked on 2026-10-10. Terms come from docs/PLAN.md "Free supplements" and
+ * URLs were checked on 2026-10-10; the entries added on 2026-10-27 come from the platform search in
+ * docs/resource-search-2026-10.md. Terms come from docs/PLAN.md "Free supplements" and
  * docs/reliability-research.md "Past-curriculum transfer map".
  */
 
-export type ResourceKind = "official" | "question-bank" | "course" | "trial" | "video";
+export type ResourceKind = "official" | "question-bank" | "course" | "trial" | "video" | "notes";
 
 export interface Resource {
   id: string;
@@ -155,6 +156,85 @@ export const RESOURCES: Resource[] = [
     when: "The last weeks before the exam",
     notes: "Save it for mock exams near the end.",
   },
+  {
+    id: "300hours-mock",
+    name: "300Hours free Level I mock",
+    provider: "300Hours with Salt Solutions",
+    url: "https://300hours.com/free-cfa-level-1-mock-exam/",
+    kind: "question-bank",
+    topics: "all",
+    cost: "Free; the PDF needs no sign-up, scoring needs your email",
+    when: "Your first full-length mock, about 6 weeks out",
+    notes: "90 questions weighted like the real exam, 2 h 15 min, with explanations and a percentile. Says it follows the 2026 curriculum (checked 2026-10-27).",
+    extra: { label: "Mock as a PDF", url: "https://3h.rs/L1MockPDF" },
+  },
+  {
+    id: "300hours-cheat-sheets",
+    name: "300Hours topic cheat sheets",
+    provider: "300Hours",
+    url: "https://300hours.com/cfa-level-1-quantitative-methods-cheat-sheet/",
+    kind: "notes",
+    topics: "all",
+    cost: "Free, no sign-up",
+    when: "At the end of each topic, as a revision summary",
+    notes: "One web page per topic (all 10) with key formulas, decision tables and calculator tips, labelled 2026 and kept updated. Readers report errors in the comments and the author fixes them, so skim the comments too.",
+    extra: { label: "Ethics cheat sheet", url: "https://300hours.com/cfa-level-1-ethics-cheat-sheet/" },
+  },
+  {
+    id: "freefellow-formulas",
+    name: "FreeFellow formula sheet",
+    provider: "FreeFellow",
+    url: "https://freefellow.org/free/cfa-level-1/formula-sheet/",
+    kind: "notes",
+    topics: "all",
+    cost: "Free, no sign-up, web page plus a PDF",
+    when: "Keep it open while doing calculation practice",
+    notes: "97 formulas across 9 topics, labelled for the 2026 syllabus. Every formula in this app is checked by its own calculator engine; use this sheet to spot anything the app is missing.",
+  },
+  {
+    id: "schweser-free",
+    name: "Kaplan Schweser free Level I tools",
+    provider: "Kaplan Schweser",
+    url: "https://www.schweser.com/cfa/level-1/free-study-materials",
+    kind: "question-bank",
+    topics: "all",
+    cost: "Free with your email",
+    when: "Diagnostic early on; the daily question all the way through",
+    notes: "A 60-question diagnostic exam, a question of the day by email until exam day, free flashcards and a formula-sheet eBook. Sign up yourself; the page blocks automated checks, so this listing comes from search results (2026-10-27).",
+  },
+  {
+    id: "fintree-youtube",
+    name: "FinTree lectures",
+    provider: "FinTree (YouTube)",
+    url: "https://www.youtube.com/@fintreeindia",
+    kind: "video",
+    topics: "all",
+    cost: "Free",
+    when: "When a module's own lecture didn't land and you want a second teacher",
+    notes: "About 880 videos; full Level I crash-course sessions by topic dated 2026 and a November 2026 review session. Indian provider, clear and exam-focused; check each video's date against the curriculum year.",
+  },
+  {
+    id: "analystprep-youtube",
+    name: "AnalystPrep mock walkthroughs",
+    provider: "AnalystPrep (YouTube)",
+    url: "https://www.youtube.com/playlist?list=PLIYnk9FMYckv5FKFRDVTAYdt5D6JuX88k",
+    kind: "video",
+    topics: "all",
+    cost: "Free",
+    when: "After your first mock, to see how an instructor works through exam questions",
+    notes: "Playlist working through a full Level I mock question by question. Their channel (about 890 videos) also has topic lectures.",
+  },
+  {
+    id: "meldrum-youtube",
+    name: "Mark Meldrum on YouTube",
+    provider: "Mark Meldrum (YouTube)",
+    url: "https://www.youtube.com/@markmeldrum",
+    kind: "video",
+    topics: "all",
+    cost: "Free videos; the full course is paid ($300–500)",
+    when: "For a topic you find hard, after the app's lesson",
+    notes: "The most-recommended paid Level I instructor; about 970 videos on the free channel, often from earlier curriculum years, so check dates. The paid course isn't needed for this plan.",
+  },
 ];
 
 export const resourcesForTopic = (topicId: TopicId) =>
@@ -166,4 +246,5 @@ export const KIND_LABEL: Record<ResourceKind, string> = {
   course: "Course",
   trial: "Trial",
   video: "Video",
+  notes: "Notes & formulas",
 };
