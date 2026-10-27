@@ -1,0 +1,776 @@
+{
+  "losId": "fsa-10-los8",
+  "losText": "describe accounting warning signs and methods for detecting manipulation of information in financial reports",
+  "moduleId": "fsa-10",
+  "moduleTitle": "Financial Reporting Quality",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:58:23.159Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-rf-earnings-quality:146:161",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 146",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=146",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch9:27:26",
+      "title": "Investment Valuation, 2nd ed., ch. 9: Measuring Earnings (R&D, operating leases, one-time items, adjusted earnings) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 27–28",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch9.pdf#page=27",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:26:26",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 26–27",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=26",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-business-accounting:306:267",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 306–307",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=306",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67931:5",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.3 Prepare the Statement of Cash Flows Using the Indirect Method — Determining Net Cash Flow from Operating Activities (Indirect Method)",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-3-prepare-the-statement-of-cash-flows-using-the-indirect-metho",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67884:0.1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.4 Discuss the Role of Accounting for Receivables in Earnings Management — Overview",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-4-discuss-the-role-of-accounting-for-receivables-in-earnings-m",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-business-accounting:361:315",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 361–362",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=361",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-financial-accounting:m67884:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.4 Discuss the Role of Accounting for Receivables in Earnings Management — Summary",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-4-discuss-the-role-of-accounting-for-receivables-in-earnings-m",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:703:573",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 703–704",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=703",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-business-accounting:502:435",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 502",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=502",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-internal-external-audits:154:200",
+      "title": "Comptroller's Handbook: Internal and External Audits (audit opinions, assurance limits) (OCC)",
+      "locator": "pp. 154–155",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/internal-external-audits/pub-ch-audits.pdf#page=154",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-earnings-quality:76:83",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 76",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=76",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Spotting Red Flags and Detecting Manipulated Reports",
+      "summary": "Reported numbers can be nudged, stretched or invented, and certain patterns in the statements tend to show up when that happens. This lesson covers the common warning signs and the analytical tools (ratio trends, cash-versus-profit comparisons, scoring models) that help you catch them early.",
+      "sections": [
+        {
+          "heading": "Think of it as a smoke detector",
+          "body_markdown": "A smoke detector does not prove there is a fire. It tells you to go and look. Accounting warning signs work the same way: an unusual pattern does not prove manipulation, but it tells the analyst where to dig.\n\nTwo terms to separate first:\n- **Earnings management** stays inside the accounting rules, using choices and estimates to shape results.\n- **Earnings manipulation** breaks or ignores the rules to change results substantially. At the extreme it becomes fraud.\n\nThe warning signs below are the footprints either one leaves behind."
+        },
+        {
+          "heading": "Warning signs in the income statement and working capital",
+          "body_markdown": "Most red flags are *relationships that stop making sense*:\n\n- **Profit growing far faster than sales, year after year.** Some efficiency gains are real, but a persistent, large gap needs an explanation.\n- **Frequent \"one-time\" charges.** If every year brings a new label (inventory charge, then restructuring, then something else), management may be parking ordinary operating costs in non-recurring lines.\n- **An expense ratio that swings wildly.** If SG&A as a % of sales jumps around, the line may contain items that belong elsewhere.\n- **Receivables growing much faster than sales.** Days sales outstanding (DSO) rising can mean aggressive revenue recognition, such as shipping early or selling to weak customers.\n- **Inventory days lengthening.** Goods piling up can mean slow-moving or obsolete stock that has not been written down.\n- **Gross margin moving without a business reason.** Ask whether costs rose, the product mix changed, or something was shifted between cost lines.\n- **Policy and estimate changes** (longer depreciation lives, lower bad-debt percentages) that happen to raise profit.\n\nEach flag raises a question. The answer may be innocent, so always look for the business reason."
+        },
+        {
+          "heading": "Warning signs from cash flow and accruals",
+          "body_markdown": "**Accruals** are the non-cash part of earnings, roughly net income minus cash flow from operations (CFO). Cash is harder to bend than accrual estimates, so a widening gap between profit and operating cash flow is a classic signal.\n\n- Profit rising while CFO stays flat or falls means more of the profit comes from accruals.\n- Research shows the cash component of earnings tends to persist better than the accrual component, so accrual-heavy profits are less likely to repeat.\n- A substantially negative CFO in a profitable company says operations are not paying for themselves.\n\nAlso check whether *cash flow itself* is flattered, for example by delaying payments to suppliers or by one-off classification choices. Strong CFO is only reassuring if its sources are repeatable."
+        },
+        {
+          "heading": "Methods for detecting manipulation",
+          "body_markdown": "No single test is decisive, so analysts combine several:\n\n1. **Trend and ratio analysis**: DSO, days inventory, gross margin and expense ratios over time and against peers.\n2. **Earnings versus cash flow comparison**: accrual ratios and CFO-to-net-income trends.\n3. **Scoring models**: the **Beneish model** blends eight ratios, each comparing this year with last year, into one score. A higher score means a greater likelihood of manipulation. The eight are:\n   - DSRI (receivables days)\n   - GMI (gross margin deterioration)\n   - AQI (asset quality)\n   - SGI (sales growth)\n   - DEPI (depreciation rate)\n   - SGAI (SG&A ratio)\n   - LVGI (leverage)\n   - TATA (total accruals to total assets)\n4. **Reading the fine print**: changes in accounting policies, auditor changes, an added paragraph or modified opinion in the audit report, and reconciliations of non-GAAP figures.\n\nLimits: models produce false alarms and misses, and auditors are not a guarantee. Evidence on their ability to catch earnings management in practice is mixed. Treat any flag as the start of an investigation, not a verdict."
+        }
+      ],
+      "worked_example": {
+        "problem": "Year 1: sales 800 and ending receivables 100 (all in $ millions). Year 2: sales 880 and ending receivables 165. Use 365 days and ending receivables. Compute DSO for each year, round to one decimal, and say what an analyst should conclude.",
+        "steps": [
+          "Year 1 DSO = receivables ÷ (sales ÷ 365). On the BA II Plus: 100 ÷ 800 × 365 = 45.6 days (45.625).",
+          "Year 2 DSO: 165 ÷ 880 × 365 = 68.4 days (68.4375).",
+          "Compare growth: sales rose 10% (880/800 − 1), but receivables rose 65% (165/100 − 1).",
+          "Interpretation: customers are taking about 23 days longer to pay, and receivables are growing far faster than sales.",
+          "Conclusion: this is a red flag for aggressive revenue recognition or weak credit quality. Check revenue policies, the allowance for doubtful accounts, and whether CFO is lagging net income."
+        ],
+        "answer": "DSO rises from 45.6 days to 68.4 days. Receivables grew 65% against 10% sales growth, so investigate revenue recognition and collectability.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Days sales outstanding (receivable days)",
+          "latex": "\\text{DSO}=\\frac{\\text{Receivables}}{\\text{Sales}/365}",
+          "where": "Receivables = accounts receivable balance; Sales = revenue for the year (credit sales if known); 365 = days in the year."
+        },
+        {
+          "name": "Days inventory held",
+          "latex": "\\text{DIO}=\\frac{\\text{Inventory}}{\\text{COGS}/365}",
+          "where": "Inventory = inventory balance (average or ending, used consistently); COGS = cost of goods sold for the year."
+        },
+        {
+          "name": "Accruals (cash-flow approach)",
+          "latex": "\\text{Accruals}=\\text{NI}-\\text{CFO}",
+          "where": "NI = net income; CFO = cash flow from operations. Often scaled by average total assets so firms of different sizes can be compared."
+        },
+        {
+          "name": "Beneish receivables index",
+          "latex": "\\text{DSRI}=\\frac{\\text{Rec}_t/\\text{Sales}_t}{\\text{Rec}_{t-1}/\\text{Sales}_{t-1}}",
+          "where": "Rec = receivables; Sales = revenue; t = current year; t−1 = prior year. A value above 1 means receivables are growing relative to sales."
+        }
+      ],
+      "exam_traps": [
+        "Treating a red flag as proof of fraud. Warning signs prompt investigation; innocent explanations exist.",
+        "Reading rising receivables as a sign of strong demand without checking whether they are outpacing sales.",
+        "Assuming profit is more reliable than cash flow because earnings are, on average, more persistent than cash flows. The accrual component of earnings is the less persistent part.",
+        "Believing a clean audit opinion rules out manipulation. Auditors cannot guarantee detection.",
+        "Mixing up earnings management (within the rules) and manipulation (breaking or ignoring the rules)."
+      ],
+      "builds_on": [
+        "Earnings quality and accruals",
+        "Receivables and inventory ratios",
+        "Cash flow statement analysis"
+      ],
+      "leads_to": [
+        "Equity valuation adjustments",
+        "Credit analysis",
+        "Analyst skepticism in forecasting"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch9:27:26",
+        "os:principles-financial-accounting:m67884:0.1",
+        "os:principles-financial-accounting:m67884:1",
+        "flatworld-business-accounting:361:315",
+        "flatworld-business-accounting:502:435",
+        "cfa-rf-earnings-quality:26:26",
+        "os:principles-financial-accounting:m67931:5",
+        "cfa-rf-earnings-quality:76:83"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation) pp. 26–27: \"earnings are on average more persistent than cash\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Over three years, a company's sales grew about 6% a year while its accounts receivable grew about 25% a year. Which interpretation is most appropriate for an analyst?",
+        "options": [
+          {
+            "text": "Customers are paying faster, so revenue quality has clearly improved.",
+            "value": null,
+            "explanation": "Reverses the signal. Receivables outgrowing sales means collection is slowing, not speeding up."
+          },
+          {
+            "text": "Collections are slowing, which may point to aggressive revenue recognition, so investigate.",
+            "value": null,
+            "explanation": "Correct. DSO is rising. Early recognition or sales to weak customers are possible causes, and the pattern warrants further checks."
+          },
+          {
+            "text": "The pattern is irrelevant because receivables are a balance sheet item only.",
+            "value": null,
+            "explanation": "Ignores the link between revenue recognition and receivables. Revenue booked but not collected sits in receivables."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:361:315",
+          "os:principles-financial-accounting:m67884:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports a \"non-recurring\" charge every year, each time under a different label: inventory write-down, then restructuring, then litigation. What is the most justified concern?",
+        "options": [
+          {
+            "text": "The charges are non-cash, so they inflate operating cash flow.",
+            "value": null,
+            "explanation": "Mistake: assumes any charge raises cash flow. A repeated pattern of one-off charges is about classification, not cash."
+          },
+          {
+            "text": "The auditor must have issued an adverse opinion on the statements.",
+            "value": null,
+            "explanation": "Mistake: confuses a presentation pattern with an audit opinion. Nothing here implies the auditor's opinion was adverse."
+          },
+          {
+            "text": "Ordinary operating costs may be placed in one-off lines to flatter operating profit.",
+            "value": null,
+            "explanation": "Correct. When \"unusual\" items recur under shifting labels, management may be moving regular expenses into non-operating categories."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch9:27:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An analyst reviewing a company whose receivable days have jumped computes its cash conversion cycle (CCC) for the year. Days inventory held is 50, days sales outstanding is 68 and days payables outstanding is 40. What is the CCC in days?",
+        "options": [
+          {
+            "text": "78 days",
+            "value": 78,
+            "explanation": "Correct. CCC = DIO + DSO − DPO = 50 + 68 − 40 = 78."
+          },
+          {
+            "text": "158 days",
+            "value": 158,
+            "explanation": "Mistake: adds payables days instead of subtracting them (50 + 68 + 40)."
+          },
+          {
+            "text": "22 days",
+            "value": 22,
+            "explanation": "Mistake: subtracts receivable days and adds payables days (50 − 68 + 40) instead of the reverse."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":50,\"dso\":68,\"dpo\":40}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes how the Beneish model is used to detect possible manipulation?",
+        "options": [
+          {
+            "text": "A score above zero proves that management has committed fraud.",
+            "value": null,
+            "explanation": "Mistake: treats a statistical score as proof. The score signals likelihood only and produces false positives."
+          },
+          {
+            "text": "It combines eight year-over-year ratios into a score, where a higher score flags greater likelihood of manipulation.",
+            "value": null,
+            "explanation": "Correct. It blends ratios such as DSRI, GMI, AQI and TATA, and a high score is a prompt for deeper analysis."
+          },
+          {
+            "text": "It regresses next year's earnings on current earnings to measure persistence.",
+            "value": null,
+            "explanation": "Mistake: describes an earnings-persistence regression, not the Beneish model."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For two consecutive years a company's net income has risen 30% a year while cash flow from operations has been flat, so the gap between them (accruals) keeps widening. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Growth is accrual-driven, and accruals persist less than cash flows, so earnings quality is a concern.",
+            "value": null,
+            "explanation": "Correct. The cash component of earnings is more persistent than the accrual component, so accrual-heavy growth is less likely to repeat and merits scrutiny."
+          },
+          {
+            "text": "The gap is reassuring because earnings are more persistent than cash flows on average.",
+            "value": null,
+            "explanation": "Mistake: applies the average persistence result for earnings versus CFO while ignoring that the accrual part within earnings is the less persistent part."
+          },
+          {
+            "text": "Accruals only matter when the company reports a net loss, so there is no concern.",
+            "value": null,
+            "explanation": "Mistake: accruals can inflate profits as well as losses. A persistent profit-over-cash gap is a classic warning sign."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:26:26",
+          "os:principles-financial-accounting:m67931:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A manufacturer lengthens the estimated useful life of its equipment from 8 years to 12 years with no change in the equipment held. Which Beneish-model index would rise above 1, and why is that a warning sign?",
+        "options": [
+          {
+            "text": "LVGI, because the change increases the firm's leverage.",
+            "value": null,
+            "explanation": "Mistake: confuses the depreciation index with the leverage index. A change in useful life does not alter debt levels."
+          },
+          {
+            "text": "SGI, because longer lives raise sales growth.",
+            "value": null,
+            "explanation": "Mistake: depreciation estimates affect expenses, not revenue, so the sales growth index is unaffected."
+          },
+          {
+            "text": "DEPI, because the depreciation rate fell, which lifts reported profit.",
+            "value": null,
+            "explanation": "Correct. DEPI compares last year's depreciation rate with this year's. A slower rate pushes it above 1 and raises income without any change in business performance."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A retailer's sales and cost of goods sold are flat for the year, but its inventory balance has risen 40%. Which observation is most relevant to detecting a reporting problem?",
+        "options": [
+          {
+            "text": "Revenue is probably understated because inventory grew.",
+            "value": null,
+            "explanation": "Mistake: inventory growth says nothing about revenue being understated. The issue is on the cost and asset side."
+          },
+          {
+            "text": "Days inventory is lengthening, so slow-moving goods may be carried at too high a value.",
+            "value": null,
+            "explanation": "Correct. Inventory rising against flat COGS lengthens days inventory, which may signal obsolete stock that has not been written down."
+          },
+          {
+            "text": "Gross margin must be improving because more inventory is on hand.",
+            "value": null,
+            "explanation": "Mistake: assumes a link between inventory size and margin. Flat COGS and sales give no basis for that."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:502:435"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does a sharp rise in days sales outstanding (DSO) alert an analyst to?",
+        "back": "Receivables are growing faster than sales. Possible causes are aggressive or early revenue recognition, weak customer credit, or slow collection, so investigate.",
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:361:315",
+          "os:principles-financial-accounting:m67884:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why is a widening gap between net income and operating cash flow a warning sign?",
+        "back": "The gap is accruals. Accruals depend on estimates and are less persistent than cash flows, so accrual-driven profits are less likely to repeat and may be flattered.",
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:26:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the Beneish model and how should its result be treated?",
+        "back": "A statistical score built from eight year-over-year ratios. A higher score means a greater likelihood of manipulation, but it is a flag for further investigation, not proof.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What might frequent \"one-time\" charges with changing labels suggest?",
+        "back": "Management may be moving regular operating expenses into non-recurring lines to flatter operating profit.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch9:27:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "4/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:58:15.349Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-10-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 992,
+      "outputTokens": 545,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007551,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:58:23.159Z",
+      "purpose": "grounding",
+      "losId": "fsa-10-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10520,
+      "outputTokens": 1049,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.031699200000000004,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.039250200000000006
+}

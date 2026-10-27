@@ -1,0 +1,476 @@
+{
+  "losId": "fsa-04-los2",
+  "losText": "describe the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data",
+  "moduleId": "fsa-04",
+  "moduleTitle": "Analyzing Statements of Cash Flows I",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T15:53:14.425Z",
+  "retrieved": [
+    {
+      "id": "lyryx-ifa-vol2:353:349",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 353–354",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=353",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:475:391",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 475–476",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=475",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "flatworld-business-accounting:1042:910",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1042–1043",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1042",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "flatworld-business-accounting:1033:902",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 1033",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1033",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:379:372",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 379–380",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=379",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-business-accounting:1070:933",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1070–1072",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1070",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:339:337",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 339–340",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=339",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67931:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.3 Prepare the Statement of Cash Flows Using the Indirect Method — Prepare the Operating Activities Section of the Statement of Cash Flows Using the Indirect Method",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-3-prepare-the-statement-of-cash-flows-using-the-indirect-metho",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67929:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.1 Explain the Purpose of the Statement of Cash Flows — Approaches to Preparing the Statement of Cash Flows",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-1-explain-the-purpose-of-the-statement-of-cash-flows",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67935:0",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.6 Appendix: Prepare a Completed Statement of Cash Flows Using the Direct Method — Overview",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-6-appendix-prepare-a-completed-statement-of-cash-flows-using-t",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-business-accounting:1044:912",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1044–1045",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1044",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67931:6.1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.3 Prepare the Statement of Cash Flows Using the Indirect Method — Prepare the Investing and Financing Activities Sections of the Statement of Cash Flows",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-3-prepare-the-statement-of-cash-flows-using-the-indirect-metho",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Building the Cash Flow Statement: Direct and Indirect Mechanics",
+      "summary": "Companies keep their books on an accrual basis, so cash flows have to be rebuilt from the income statement and balance sheet. This lesson covers the order of steps for the direct and indirect methods and how to work out individual cash amounts from balance sheet changes.",
+      "sections": [
+        {
+          "heading": "Why a rebuild is needed",
+          "body_markdown": "Think of the income statement as a list of **invoices** (what was earned and what was incurred) and the cash flow statement as your **bank statement** (what actually moved). **Accrual accounting** records revenue when it is earned and expenses when they are incurred, whether or not cash changed hands. The gap between the two views shows up on the balance sheet as changes in receivables, inventory, prepaid items and payables. So the main tool is this: *income statement figure, adjusted for the change in the related balance sheet account, equals the cash figure*. Both methods use this logic. They differ only in whether the adjustment is applied line by line (direct) or to net income as one lump (indirect). Both give the same net cash from operating activities, and the same investing and financing totals."
+        },
+        {
+          "heading": "Indirect method: the steps",
+          "body_markdown": "The indirect method starts from the bottom of the income statement and works toward cash. Steps for the operating section:\n\n1. **Start with net income.**\n2. **Add back non-cash charges** such as depreciation and amortization. They reduced net income but no cash left.\n3. **Remove gains and losses from investing or financing activities.** Subtract gains and add back losses. The cash from the underlying sale belongs in the investing section, not in operating.\n4. **Adjust for changes in operating working capital.** An *increase* in an operating asset (receivables, inventory, prepaids) uses cash, so subtract it. A *decrease* adds cash. An *increase* in an operating liability (payables, accrued items) keeps cash in the company, so add it. A *decrease* is subtracted.\n\nThe result is net cash flow from operating activities. Investing and financing sections follow (see below), and the three subtotals are added to give the net change in cash, which must reconcile to opening and closing cash on the balance sheet."
+        },
+        {
+          "heading": "Direct method: the steps",
+          "body_markdown": "The direct method lists the actual cash receipts and payments by type. First set up the headings (cash from customers, cash to suppliers, cash for operating expenses, interest, taxes). Then convert each income statement line to cash using the related balance sheet account:\n\n- **Cash collected from customers** = sales − increase in receivables (or + decrease).\n- **Cash paid to suppliers** takes two steps. Purchases = cost of goods sold + increase in inventory (or − decrease). Then cash paid = purchases − increase in payables (or + decrease).\n- **Cash paid for operating expenses** = expense + increase in prepaid items (or − decrease) − increase in accrued liabilities (or + decrease).\n- **Taxes and interest paid** = expense − increase in the related payable (or + decrease).\n\nNon-cash items such as depreciation, and investing or financing gains and losses, are simply **left out**. Lines with no related working capital account need no adjustment."
+        },
+        {
+          "heading": "Investing and financing from balance sheet changes",
+          "body_markdown": "For the other two sections, look at the **non-current accounts**.\n\n- **Asset sales:** gain or loss = cash proceeds − net book value, so *proceeds = net book value + gain* (or − loss). Only the proceeds go in investing.\n- **Asset purchases:** use a roll-forward of net PP&E. Ending = beginning + purchases − depreciation − book value of assets sold. Rearranged, purchases = ending − beginning + depreciation + book value sold.\n- **Dividends:** ending retained earnings = beginning + net income − dividends declared. Rearranged, dividends declared = beginning + net income − ending. If a dividends payable account exists, cash paid = declared − increase in payable.\n- **Debt and equity:** changes in bonds, notes and share capital show new issuance or repayment.\n\nTransactions that involve no cash, such as issuing shares to acquire equipment, are **not in the statement body**. They are disclosed separately in the notes. The statement ends by showing that the net change in cash matches the beginning and ending cash balances."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports (in $ thousands): sales 800; cost of goods sold 450; salaries and other operating expenses 120; depreciation 40; interest expense 20; income tax expense 30; net income 140 (no gains or losses). Balance sheet changes: accounts receivable 120 to 150; inventory 90 to 75; prepaid expenses 8 to 11; accounts payable 60 to 70; salaries payable 15 to 12; income taxes payable 10 to 14; interest payable unchanged. Treat interest and taxes as operating cash flows. Find net cash flow from operating activities with the direct method, then confirm with the indirect method.",
+        "steps": [
+          "Cash from customers: receivables rose by 30, so some sales are not yet collected. 800 − 30 = 770.",
+          "Cash to suppliers, purchases first: inventory fell by 15, so less was bought than sold. 450 − 15 = 435. Then payables rose by 10, so part of the purchases is unpaid: 435 − 10 = 425.",
+          "Cash for operating expenses: prepaids rose by 3 (cash paid ahead of expense) and salaries payable fell by 3 (more paid than expensed). 120 + 3 + 3 = 126. Depreciation is ignored.",
+          "Interest paid = 20 (no change in payable). Taxes paid = 30 − 4 = 26 because taxes payable rose by 4.",
+          "Direct total: 770 − 425 − 126 − 20 − 26 = 173.",
+          "Indirect check: net income 140 + depreciation 40 = 180. Receivables −30 → 150. Inventory +15 → 165. Prepaids −3 → 162. Payables +10 → 172. Salaries payable −3 → 169. Taxes payable +4 → 173. Both methods agree.",
+          "Calculator: only basic arithmetic is needed. No time-value-of-money keys are involved."
+        ],
+        "answer": "Net cash flow from operating activities is $173 thousand under both methods.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Cash collected from customers",
+          "latex": "\\text{Cash from customers}=\\text{Sales}-\\Delta\\text{AR}",
+          "where": "Sales is revenue from the income statement; ΔAR is ending minus beginning accounts receivable (a decrease makes ΔAR negative, which raises cash)."
+        },
+        {
+          "name": "Cash paid to suppliers",
+          "latex": "\\text{Cash to suppliers}=\\text{COGS}+\\Delta\\text{Inventory}-\\Delta\\text{AP}",
+          "where": "COGS is cost of goods sold; ΔInventory and ΔAP are ending minus beginning inventory and accounts payable."
+        },
+        {
+          "name": "Proceeds from sale of an asset",
+          "latex": "\\text{Proceeds}=\\text{Net book value}+\\text{Gain}\\;(\\text{or}-\\text{Loss})",
+          "where": "Net book value is cost less accumulated depreciation at the sale date; gain or loss is from the income statement."
+        },
+        {
+          "name": "Cash paid for PP&E purchases",
+          "latex": "\\text{Purchases}=\\text{PPE}_{end}-\\text{PPE}_{beg}+\\text{Depreciation}+\\text{NBV of assets sold}",
+          "where": "PPE is net property, plant and equipment; NBV is net book value of assets disposed of; assumes all purchases were for cash."
+        },
+        {
+          "name": "Dividends declared from retained earnings",
+          "latex": "\\text{Dividends}=RE_{beg}+NI-RE_{end}",
+          "where": "RE is retained earnings at the start and end of the year; NI is net income; assumes no other changes in retained earnings."
+        }
+      ],
+      "exam_traps": [
+        "Getting working capital signs backwards in the indirect method: an increase in a current asset is subtracted, but an increase in a current liability is added.",
+        "Adding gains to net income. A gain is subtracted (and a loss added back), because the full sale proceeds are reported in investing.",
+        "Treating the gain on a sale as the cash received. Proceeds equal net book value plus the gain (or minus the loss).",
+        "Using the change in net PP&E as the purchase amount. Depreciation and the book value of assets sold must be added back first.",
+        "Taking dividends declared from the retained earnings roll-forward as cash paid, without adjusting for a change in dividends payable."
+      ],
+      "builds_on": [
+        "Accrual versus cash accounting",
+        "Income statement and balance sheet linkages",
+        "Depreciation and gains/losses on disposal"
+      ],
+      "leads_to": [
+        "Converting indirect to direct cash flows",
+        "Free cash flow analysis",
+        "Quality of earnings"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-business-accounting:1033:902",
+        "flatworld-business-accounting:1044:912",
+        "os:principles-financial-accounting:m67931:1",
+        "os:principles-financial-accounting:m67929:1",
+        "os:principles-financial-accounting:m67935:0",
+        "os:principles-financial-accounting:m67931:6.1",
+        "lyryx-ifa-vol2:339:337"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Under the indirect method, which figure is the starting point of the operating activities section?",
+        "options": [
+          {
+            "text": "Cash collected from customers during the period",
+            "value": null,
+            "explanation": "This is the first line of the direct method, where cash receipts and payments are listed by type."
+          },
+          {
+            "text": "Net income from the income statement",
+            "value": null,
+            "explanation": "Correct. The indirect method begins with net income and adjusts it for non-cash items, non-operating gains and losses, and working capital changes."
+          },
+          {
+            "text": "Beginning cash balance from the balance sheet",
+            "value": null,
+            "explanation": "Opening cash is used only at the bottom, when the net change in cash is reconciled to the closing balance."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67931:1",
+          "flatworld-business-accounting:1042:910"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company's net income includes a gain on the sale of equipment. When preparing operating cash flow with the indirect method, how is the gain treated?",
+        "options": [
+          {
+            "text": "It is added to net income as a non-cash item.",
+            "value": null,
+            "explanation": "Sign error. Adding it would count the gain twice, since it is already inside net income."
+          },
+          {
+            "text": "It is left in net income because the sale produced cash.",
+            "value": null,
+            "explanation": "The sale cash belongs in investing activities. Leaving the gain in operating would misclassify it."
+          },
+          {
+            "text": "It is subtracted from net income, and the sale proceeds go in investing.",
+            "value": null,
+            "explanation": "Correct. The gain is reversed out of operating cash flow and the full cash proceeds appear as an investing inflow."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:1033:902",
+          "os:principles-financial-accounting:m67931:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Sales for the year were $640,000. Accounts receivable fell from $90,000 to $70,000. All sales are on credit and there were no write-offs. Using the direct method, what was cash collected from customers?",
+        "options": [
+          {
+            "text": "$660,000",
+            "value": null,
+            "explanation": "Correct. Receivables fell by $20,000, so customers paid more than the year's sales: 640,000 + 20,000 = 660,000."
+          },
+          {
+            "text": "$620,000",
+            "value": null,
+            "explanation": "Sign error: the $20,000 decrease in receivables was subtracted instead of added."
+          },
+          {
+            "text": "$640,000",
+            "value": null,
+            "explanation": "Ignores the receivables change and treats sales as if they equal cash collected."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67935:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Cost of goods sold was $300,000. Inventory rose from $60,000 to $85,000, and accounts payable (all for inventory purchases) fell from $50,000 to $35,000. Using the direct method, what was cash paid to suppliers?",
+        "options": [
+          {
+            "text": "$310,000",
+            "value": null,
+            "explanation": "Purchases were computed correctly at $325,000, but the $15,000 fall in payables was subtracted instead of added."
+          },
+          {
+            "text": "$340,000",
+            "value": null,
+            "explanation": "Correct. Purchases = 300,000 + 25,000 = 325,000. Payables fell by 15,000, so more cash was paid than purchased: 325,000 + 15,000 = 340,000."
+          },
+          {
+            "text": "$290,000",
+            "value": null,
+            "explanation": "Reverses the sign on both adjustments: inventory increase was subtracted and the payables decrease was also subtracted from the resulting purchases."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67935:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Net income is $90, depreciation $30 and a loss on sale of equipment $6. Accounts receivable rose by $12, inventory fell by $8 and accounts payable fell by $5 (all in $ thousands). Using the indirect method, what is net cash flow from operating activities?",
+        "options": [
+          {
+            "text": "$135",
+            "value": null,
+            "explanation": "Reverses the sign of every working capital adjustment (adds the receivables increase, subtracts the inventory decrease, adds the payables decrease)."
+          },
+          {
+            "text": "$105",
+            "value": null,
+            "explanation": "Subtracts the loss on sale instead of adding it back."
+          },
+          {
+            "text": "$117",
+            "value": null,
+            "explanation": "Correct. 90 + 30 + 6 (loss added back) − 12 (receivables up) + 8 (inventory down) − 5 (payables down) = 117."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67931:1",
+          "flatworld-business-accounting:1044:912"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Net PP&E rose from $500 to $540 (in $ thousands). Depreciation for the year was $60. Equipment with a net book value of $25 was sold. Assume all PP&E purchases were paid in cash and there were no other changes in PP&E. How much cash was paid to buy PP&E?",
+        "options": [
+          {
+            "text": "$125",
+            "value": null,
+            "explanation": "Correct. Purchases = ending − beginning + depreciation + book value sold = 40 + 60 + 25 = 125."
+          },
+          {
+            "text": "$100",
+            "value": null,
+            "explanation": "Forgets to add back the net book value of the equipment sold: 40 + 60."
+          },
+          {
+            "text": "$65",
+            "value": null,
+            "explanation": "Omits depreciation when rolling forward PP&E: 40 + 25."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67931:6.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Retained earnings were $400 at the start of the year and $480 at the end. Net income was $150, and retained earnings changed only through net income and cash dividends declared. Dividends payable rose from $10 to $16 (in $ thousands). How much cash was paid for dividends?",
+        "options": [
+          {
+            "text": "$70",
+            "value": null,
+            "explanation": "This is dividends declared (400 + 150 − 480). It ignores the increase in dividends payable, so it overstates cash paid."
+          },
+          {
+            "text": "$64",
+            "value": null,
+            "explanation": "Correct. Declared = 400 + 150 − 480 = 70. Payable rose by 6, so 6 remains unpaid: 70 − 6 = 64."
+          },
+          {
+            "text": "$76",
+            "value": null,
+            "explanation": "Adds the increase in dividends payable to declared dividends, a sign error."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company issues common shares directly to a supplier in exchange for equipment, with no cash changing hands. How is this transaction handled in preparing the cash flow statement?",
+        "options": [
+          {
+            "text": "Shown as an investing outflow only",
+            "value": null,
+            "explanation": "No cash was paid, so there is no investing outflow."
+          },
+          {
+            "text": "Shown as an investing outflow and a financing inflow",
+            "value": null,
+            "explanation": "Both amounts would be hypothetical because no cash moved. The statement body only reports actual cash flows."
+          },
+          {
+            "text": "Left out of the statement and disclosed separately",
+            "value": null,
+            "explanation": "Correct. Non-cash investing and financing transactions are excluded from the cash flow statement itself and described in the notes."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:339:337"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "In the indirect method, how do you treat an increase in accounts receivable and an increase in accounts payable?",
+        "back": "Subtract the increase in receivables (cash not yet collected). Add the increase in payables (expenses not yet paid in cash).",
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:1044:912",
+          "os:principles-financial-accounting:m67931:1"
+        ]
+      },
+      {
+        "front": "How do you compute cash collected from customers from the income statement and balance sheet?",
+        "back": "Sales minus the increase in accounts receivable (or plus the decrease).",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67935:0"
+        ]
+      },
+      {
+        "front": "How do you find the cash proceeds from selling a long-term asset?",
+        "back": "Net book value plus the gain (or minus the loss). Only the proceeds appear in investing; the gain or loss is removed from operating cash flow.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67931:6.1"
+        ]
+      },
+      {
+        "front": "What is the main difference between direct and indirect preparation of operating cash flow?",
+        "back": "Direct converts each revenue and expense line to cash and lists receipts and payments. Indirect starts with net income and adjusts it as a whole. Both give the same total.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67935:0",
+          "flatworld-business-accounting:1042:910"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T15:53:14.425Z",
+      "purpose": "generate",
+      "losId": "fsa-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8552,
+      "outputTokens": 11041,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.12867019999999998,
+      "stopReason": "end_turn"
+    }
+  ]
+}

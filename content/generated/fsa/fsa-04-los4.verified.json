@@ -1,0 +1,824 @@
+{
+  "losId": "fsa-04-los4",
+  "losText": "contrast cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP)",
+  "moduleId": "fsa-04",
+  "moduleTitle": "Analyzing Statements of Cash Flows I",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:51:17.024Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "lyryx-ifa-vol2:385:378",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 385",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=385",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-business-accounting:1049:917",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1049–1050",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1049",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:339:337",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 339–340",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=339",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-financial-accounting:m67934:3",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.5 Use Information from the Statement of Cash Flows to Prepare Ratios to Assess Liquidity and Solvency — Cash Flows to Assets",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-5-use-information-from-the-statement-of-cash-flows-to-prepare",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-financial-accounting:m67934:3.1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.5 Use Information from the Statement of Cash Flows to Prepare Ratios to Assess Liquidity and Solvency — Cash Flows to Assets",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-5-use-information-from-the-statement-of-cash-flows-to-prepare",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:129:124",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 129–130",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=129",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:572:546",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 572–574",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=572",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:171:167",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 171",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=171",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "lyryx-ifa-vol2:398:390",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 398–399",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=398",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:381:374",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 381–382",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=381",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:454:372",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 454–455",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=454",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-financial-accounting:m67843:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§3.1 Describe Principles, Assumptions, and Concepts of Accounting and Their Relationship to Financial Statements — Accounting Principles, Assumptions, and Concepts",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/3-1-describe-principles-assumptions-and-concepts-of-accounting-a",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Where Cash Goes: IFRS vs US GAAP Cash Flow Statements",
+      "summary": "Both IFRS and US GAAP split cash flows into operating, investing and financing activities, but they disagree about where interest, dividends and some taxes may be shown. Because of this, two similar companies can report quite different operating cash flow, so you must know the rules to compare them.",
+      "sections": [
+        {
+          "heading": "Three buckets and a few items that don't obviously fit",
+          "body_markdown": "A cash flow statement sorts every cash movement into one of three buckets: **operating** (day-to-day business), **investing** (buying or selling long-term assets and investments) and **financing** (raising or repaying money from lenders and owners).\n\nMost items fit one bucket clearly. A few do not. Interest paid looks like the cost of borrowing, which feels like financing, yet it also reduces profit, which feels operating. Interest and dividends received look like returns on investments, but they also appear in net income. Accounting standard setters had to pick, and IFRS and US GAAP picked differently.\n\nThink of two households sorting receipts. One has a strict rule: every receipt goes in a fixed folder. The other lets you choose between two folders for certain receipts, provided you always choose the same way. US GAAP is the first household. IFRS is the second."
+        },
+        {
+          "heading": "US GAAP: fixed placement",
+          "body_markdown": "Under US GAAP the classification of these items is not up to the company:\n\n- Interest paid: **operating**\n- Interest received: **operating**\n- Dividends received: **operating**\n- Dividends paid: **financing**\n- Income taxes paid: **operating** (generally the whole amount)\n\nA useful memory rule: under US GAAP, anything that flows through net income (interest and dividends received, interest paid, taxes) sits in operating activities. Dividends paid are a distribution to owners, not an expense, so they sit in financing."
+        },
+        {
+          "heading": "IFRS: a choice for some items",
+          "body_markdown": "IFRS lets a company choose among alternatives for several items. The choice should then be applied consistently from period to period.\n\n| Item | US GAAP | IFRS |\n|---|---|---|\n| Interest paid | Operating | Operating or financing |\n| Interest received | Operating | Operating or investing |\n| Dividends paid | Financing | Operating or financing |\n| Dividends received | Operating | Operating or investing |\n| Income taxes paid | Operating | Operating, unless a portion is specifically tied to an investing or financing transaction |\n\nPattern to remember: IFRS moves *paid* items to the financing side (interest and dividends paid) and *received* items to the investing side (interest and dividends received), but operating is always still allowed."
+        },
+        {
+          "heading": "Other differences and why they matter to an analyst",
+          "body_markdown": "**Direct method.** Both frameworks encourage the direct method (listing cash received from customers, cash paid to suppliers and so on) but permit the indirect method. If a US GAAP company uses the direct method, it must also provide a reconciliation from net income to operating cash flow. IFRS does not require that extra reconciliation.\n\n**Bank overdrafts.** Under IFRS, an overdraft that is an integral part of cash management may be netted against cash and cash equivalents. Under US GAAP, overdraft borrowings are treated as financing.\n\n**Non-cash transactions.** Both frameworks keep these out of the statement (for example, buying equipment by issuing a lease or shares) and require disclosure in the notes.\n\n**Comparability.** Total change in cash never depends on the framework; only the *split* between the three sections does. If a company classifies interest paid as financing, its operating cash flow is higher than under US GAAP rules. If it classifies dividends received as investing, its operating cash flow is lower. Measures built on operating cash flow, such as free cash flow, move with these choices. An analyst comparing firms should reclassify items onto a common basis first."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports under IFRS. It classifies interest paid as financing and dividends received as investing. Its reported figures are: operating cash flow 940, investing cash flow −380, financing cash flow −360 (all in $ thousands). Interest paid during the year was 60 and dividends received were 20. Restate the three sections as they would appear under US GAAP rules, and confirm the total change in cash.",
+        "steps": [
+          "Start from the IFRS figures: CFO = 940, CFI = −380, CFF = −360. Total change in cash = 940 − 380 − 360 = 200.",
+          "US GAAP puts interest paid in operating. Move the 60 outflow out of financing and into operating: CFO falls by 60 to 880, and CFF rises by 60 to −300.",
+          "US GAAP puts dividends received in operating. Move the 20 inflow out of investing and into operating: CFO rises by 20 to 900, and CFI falls by 20 to −400.",
+          "Restated US GAAP figures: CFO = 900, CFI = −400, CFF = −300.",
+          "Check the total: 900 − 400 − 300 = 200, the same as before. Reclassification shifts cash between sections but never changes the total.",
+          "No calculator keystrokes are needed; this is simple addition and subtraction."
+        ],
+        "answer": "Under US GAAP rules: CFO = 900, CFI = −400, CFF = −300; the total change in cash is 200 under both frameworks.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Converting IFRS operating cash flow to a US GAAP basis",
+          "latex": "CFO_{\\text{US GAAP}} = CFO_{\\text{IFRS}} - \\text{Interest paid (if shown in financing)} + \\text{Dividends received (if shown in investing)}",
+          "where": "CFO is cash flow from operating activities; 'Interest paid' and 'Dividends received' are the amounts the IFRS company classified outside operating activities; other IFRS-optional items would be adjusted the same way."
+        }
+      ],
+      "exam_traps": [
+        "Treating dividends paid as operating under US GAAP. US GAAP requires financing; only IFRS offers the operating option.",
+        "Getting the direction wrong: moving interest paid to financing makes operating cash flow HIGHER, while moving interest or dividends received to investing makes it LOWER.",
+        "Thinking the choices change total cash. Classification moves cash between sections; the net change in cash is identical.",
+        "Assuming an IFRS company may switch classification freely every year. The choice should be applied consistently.",
+        "Forgetting that income taxes are generally operating under both frameworks; IFRS only allows a portion to be shown elsewhere when it is specifically tied to an investing or financing transaction."
+      ],
+      "builds_on": [
+        "Operating, investing and financing activity classification",
+        "Direct vs indirect method",
+        "Cash and cash equivalents"
+      ],
+      "leads_to": [
+        "Free cash flow analysis",
+        "Comparing companies across reporting frameworks",
+        "Cash flow quality and ratio analysis"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-financial-accounting:m67934:3.1",
+        "os:principles-financial-accounting:m67934:3",
+        "lyryx-ifa-vol2:339:337"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 15+ words from Principles of Accounting, Volume 1: Financial Accounting §16.5 Use Information from the Statement of Cash Flows to Prepare Ratios to Assess Liquidity and Solvency — Cash Flows to Assets: \"us gaap ifrs interest paid operating operating or financing interest received operating operating or investing\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which cash flow classification is permitted under IFRS but is NOT permitted under US GAAP?",
+        "options": [
+          {
+            "text": "Interest received reported within operating activities",
+            "value": null,
+            "explanation": "Not a difference. US GAAP requires interest received in operating activities, and IFRS also permits it there (operating or investing). Choosing this confuses 'allowed under both' with 'allowed only under IFRS'."
+          },
+          {
+            "text": "Interest paid reported within financing activities",
+            "value": null,
+            "explanation": "Correct. IFRS lets a company report interest paid in operating or financing activities. US GAAP requires interest paid to be in operating activities, so the financing choice is IFRS-only."
+          },
+          {
+            "text": "Dividends paid reported within financing activities",
+            "value": null,
+            "explanation": "Not a difference. US GAAP requires dividends paid in financing activities, and IFRS also permits it (operating or financing). Allowed under both frameworks."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): Under US GAAP interest received is operating; IFRS allows operating or investing, and interest paid in financing is allowed under IFRS. But the question asks which is allowed under IFRS but not US GAAP: interest paid in financing (B) is IFRS-only, while interest received in operating is allowed under both. So B is correct."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Under US GAAP, in which section of the cash flow statement are dividends received from an equity investment reported?",
+        "options": [
+          {
+            "text": "Investing, since they are a return on an investment",
+            "value": null,
+            "explanation": "Incorrect. This is an option under IFRS, but US GAAP does not allow it."
+          },
+          {
+            "text": "Financing, mirroring the treatment of dividends paid",
+            "value": null,
+            "explanation": "Incorrect. This confuses dividends received with dividends paid; receipts are not a financing flow for the investor."
+          },
+          {
+            "text": "Operating, since they are included in net income",
+            "value": null,
+            "explanation": "Correct. US GAAP requires dividends received to be in operating activities."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under US GAAP, interest paid and dividends received are both reported in operating activities. A company reporting under IFRS chooses to show interest paid in financing activities and dividends received in investing activities. This year it paid interest of 40 and received dividends of 15. Compared with the operating cash flow it would report under US GAAP, its IFRS operating cash flow is:",
+        "options": [
+          {
+            "text": "lower by 25",
+            "value": null,
+            "explanation": "Sign error. It treats removing the interest outflow as lowering CFO and removing the dividend inflow as raising CFO, which is backwards."
+          },
+          {
+            "text": "higher by 55",
+            "value": null,
+            "explanation": "Adds 40 and 15 together. Removing the dividend inflow from operating lowers CFO by 15; it does not raise it."
+          },
+          {
+            "text": "higher by 25",
+            "value": null,
+            "explanation": "Correct. US GAAP CFO includes −40 and +15. The IFRS policy excludes both, so CFO rises by 40 (outflow removed) and falls by 15 (inflow removed): +40 − 15 = +25."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Under US GAAP, interest paid (40) is a deduction from CFO and dividends received (15) are added to CFO. Under IFRS as presented, neither is in CFO. So US GAAP CFO is 40 - 15 = 25 lower, meaning IFRS CFO is higher by 25."
+          ]
+        },
+        "blind_solve": {
+          "pass": false,
+          "issues": [
+            "solver chose B again: US GAAP CFO is reduced by interest paid (40) and increased by dividends received (15). Under IFRS, interest paid is excluded (+40) and dividends received are excluded (-15), so net difference is +40 - 15 = +25, making IFRS CFO higher by 25. (after repair)"
+          ]
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about the direct method of presenting cash flow from operating activities is correct?",
+        "options": [
+          {
+            "text": "A US GAAP company using the direct method must also give a reconciliation of net income to operating cash flow; IFRS has no such requirement",
+            "value": null,
+            "explanation": "Correct. Both frameworks encourage the direct method but allow the indirect method. Only US GAAP adds the net income reconciliation requirement when the direct method is used."
+          },
+          {
+            "text": "An IFRS company using the direct method must give a net income reconciliation; US GAAP has no such requirement",
+            "value": null,
+            "explanation": "Reverses the frameworks. The extra reconciliation requirement applies to US GAAP, not IFRS."
+          },
+          {
+            "text": "Neither framework allows the direct method because it never starts from net income",
+            "value": null,
+            "explanation": "Wrong. Both IFRS and US GAAP encourage the direct method and permit the indirect method as an alternative."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Part of the income tax paid this year relates specifically to the gain on the sale of equipment, which is an investing transaction. Which statement about the cash flow statement presentation of income taxes paid is correct?",
+        "options": [
+          {
+            "text": "US GAAP lets the tax be split among the three sections; IFRS puts all of it in operating",
+            "value": null,
+            "explanation": "Reverses the frameworks. US GAAP is the rigid one, with all taxes in operating; IFRS is the one that allows a split."
+          },
+          {
+            "text": "IFRS lets an identifiable part be shown in investing; US GAAP puts all taxes in operating",
+            "value": null,
+            "explanation": "Correct. IFRS generally uses operating but permits a portion specifically tied to an investing or financing transaction to be reported there. US GAAP requires all income taxes paid in operating."
+          },
+          {
+            "text": "Under both frameworks, a company may freely choose operating or financing for all taxes paid",
+            "value": null,
+            "explanation": "Wrong. Taxes are not a free choice under either framework. US GAAP is fixed at operating, and IFRS only allows identifiable portions to be moved."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst compares Firm X (US GAAP) with Firm Y (IFRS). Y's reported operating cash flow excludes interest paid (shown in financing) and dividends received (shown in investing). To put Y's operating cash flow on the same basis as X's, the analyst should:",
+        "options": [
+          {
+            "text": "add interest paid to, and add dividends received to, Y's CFO",
+            "value": null,
+            "explanation": "Wrong direction for interest. Moving the interest outflow into operating reduces CFO, so it must be deducted, not added."
+          },
+          {
+            "text": "add interest paid to, and deduct dividends received from, Y's CFO",
+            "value": null,
+            "explanation": "This is the adjustment that converts X-style (US GAAP) CFO into Y's IFRS policy, the opposite of what is needed."
+          },
+          {
+            "text": "deduct interest paid from, and add dividends received to, Y's CFO",
+            "value": null,
+            "explanation": "Correct. US GAAP puts both items in operating. The interest outflow reduces CFO and the dividend inflow increases it, so both must be moved back into Y's CFO."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement about bank overdrafts and the statement of cash flows is most accurate?",
+        "options": [
+          {
+            "text": "IFRS may net an overdraft integral to cash management against cash; US GAAP treats overdraft borrowings as financing",
+            "value": null,
+            "explanation": "Correct. Under IFRS, an overdraft repayable on demand that forms part of cash management can reduce cash and equivalents. US GAAP does not net it that way and reports overdraft borrowings as financing flows."
+          },
+          {
+            "text": "US GAAP may net an overdraft against cash and equivalents; IFRS always treats overdraft borrowings as financing",
+            "value": null,
+            "explanation": "Reverses the two frameworks. It is IFRS that permits the netting in some cases."
+          },
+          {
+            "text": "Under both frameworks an overdraft is reported in investing activities as a short-term balance",
+            "value": null,
+            "explanation": "Wrong. An overdraft is a borrowing, not an investment, so it is not an investing item under either framework."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Which cash flow items does IFRS allow a choice of section for, and what are the choices?",
+        "back": "Interest paid and dividends paid: operating or financing. Interest received and dividends received: operating or investing. Taxes: operating, unless a portion is tied to an investing or financing transaction. The choice should be applied consistently.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1",
+          "lyryx-ifa-vol2:339:337"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Where does US GAAP place interest paid, interest received, dividends received and dividends paid?",
+        "back": "Interest paid, interest received and dividends received: operating. Dividends paid: financing. Taxes paid are generally operating.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What extra disclosure does US GAAP require if a company uses the direct method?",
+        "back": "A reconciliation of net income to operating cash flow. IFRS does not require this reconciliation.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "If an IFRS company puts interest paid in financing, what happens to operating cash flow relative to US GAAP treatment, and to total cash?",
+        "back": "Operating cash flow is higher (the outflow is moved out of operating). The total change in cash is unchanged; only the split between sections differs.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67934:3.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/6 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:50:38.116Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-04-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 896,
+      "outputTokens": 330,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.005209,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:51:05.988Z",
+      "purpose": "repair",
+      "losId": "fsa-04-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12807,
+      "outputTokens": 4278,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.069338,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:51:09.712Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-04-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 901,
+      "outputTokens": 515,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007069,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:51:17.023Z",
+      "purpose": "grounding",
+      "losId": "fsa-04-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11363,
+      "outputTokens": 959,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0324852,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.11410120000000001
+}

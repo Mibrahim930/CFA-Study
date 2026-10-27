@@ -1,0 +1,478 @@
+{
+  "losId": "fsa-11-los3",
+  "losText": "describe relationships among ratios and evaluate a company using ratio analysis",
+  "moduleId": "fsa-11",
+  "moduleTitle": "Financial Analysis Techniques",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T16:29:20.961Z",
+  "retrieved": [
+    {
+      "id": "lyryx-intro-fa-2021a:504:409",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "p. 504",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=504",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:35:36",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 35–37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=35",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:42:42",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 42",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=42",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to Earnings (P/E) Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00040:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.1 Ratios: Condensing Information into Smaller Pieces — Importance of Ratios and Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-1-ratios-condensing-information-into-smaller-pieces",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:37:37",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=37",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch15:40:34",
+      "title": "Investment Valuation, 2nd ed., ch. 15: Firm Valuation: Cost of Capital and APV Approaches (FCFF) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 40–41",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch15.pdf#page=40",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-financial-accounting:m67883:0",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.3 Determine the Efficiency of Receivables Management Using Financial Ratios — Overview",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-3-determine-the-efficiency-of-receivables-management-using-fin",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — The Price-to-Book (P/B) Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Reading Ratios as a Connected System",
+      "summary": "Financial ratios are not isolated numbers: a change in one usually shows up in others, so a sound company evaluation reads them together against history, peers and the business model. This LOS is about spotting those links and building a reasoned overall judgement instead of reacting to one ratio.",
+      "sections": [
+        {
+          "heading": "Why ratios belong together",
+          "body_markdown": "Think of a car dashboard. Speed, fuel and engine temperature each tell you something, but you only understand the trip when you read them together. Financial ratios work the same way.\n\nA **financial ratio** divides one statement figure by another so that companies of different sizes, or the same company in different years, can be compared. Four families are used most often:\n\n- **Activity (efficiency) ratios** show how well assets are used, for example how fast inventory sells.\n- **Liquidity ratios** show the ability to pay near-term bills.\n- **Solvency ratios** show the ability to meet long-term obligations and how much debt is used.\n- **Profitability ratios** show how much profit is earned from sales, assets or owners' money.\n\nRatios highlight where to dig deeper. They do not deliver a verdict by themselves; they must be combined with judgement about the business."
+        },
+        {
+          "heading": "Activity and liquidity are linked through the cash cycle",
+          "body_markdown": "A company ties up cash while goods sit in inventory and while customers have not yet paid. It gets some of that cash back by delaying its own payments to suppliers. Three day-counts capture this:\n\n- **Days of inventory on hand (DIO)**: average days goods sit before being sold.\n- **Days of sales outstanding (DSO)**: average days to collect from customers.\n- **Days of payables outstanding (DPO)**: average days taken to pay suppliers.\n\nThe **cash conversion cycle (CCC)** combines them: $\\text{DIO}+\\text{DSO}-\\text{DPO}$. A longer cycle means more cash is tied up in operations and more financing is needed.\n\nThis explains why slowing activity ratios can damage liquidity. If inventory turnover falls, DIO rises and the CCC lengthens. The current ratio can still look healthy, because slow-moving inventory counts as a current asset, yet that inventory is harder to turn into cash. Always ask what kind of current assets sit behind a liquidity ratio."
+        },
+        {
+          "heading": "Profitability ratios decompose into margin, efficiency and leverage",
+          "body_markdown": "Return on assets (ROA) is profit per dollar of assets. It splits neatly into two pieces:\n\n$$\\text{ROA}=\\text{Net profit margin}\\times\\text{Total asset turnover}$$\n\nA high margin and a high turnover are two different ways to reach the same return. A luxury jeweller earns a fat margin on few sales per dollar of assets; a discount grocer earns thin margins but turns its assets over many times.\n\nReturn on equity (ROE) adds one more link, **financial leverage** (using borrowed money). With the equity multiplier equal to assets divided by equity, $\\text{ROE}=\\text{ROA}\\times\\text{Equity multiplier}$. So ROE can rise because operations improved or simply because the firm borrowed more. Solvency ratios tell you which. More debt also pushes **interest coverage** (EBIT divided by interest expense) down, so a higher ROE built on debt comes with more risk. (The full three-part DuPont analysis is a separate topic; here the point is the connection.)"
+        },
+        {
+          "heading": "Evaluating a company step by step",
+          "body_markdown": "A practical routine for an exam vignette or a real analysis:\n\n1. **Understand the business and strategy** (high-margin or high-volume, capital-heavy or light). This sets what 'good' looks like.\n2. **Compute ratios from every family** and look at the **trend** over several years, not a single year.\n3. **Compare with peers and the industry**. An average from a different industry misleads, because normal levels of margins, turnover and leverage differ by sector.\n4. **Check that the story is consistent.** If margins are up but receivables are ballooning, sales may be recorded aggressively. If ROE is up and ROA is down, leverage is doing the work.\n5. **Check comparability.** Different accounting choices, one-off items and year-end timing can distort ratios.\n6. **Conclude** with strengths, weaknesses and what you would investigate next.\n\nRatios use past data and are only as reliable as the statements behind them, so treat them as clues, not proof."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports an inventory turnover of 5.0, a receivables turnover of 10.0 and a payables turnover of 8.0 (payables turnover is cost of goods sold divided by average payables). Use a 365-day year. Compute the cash conversion cycle, and say what the result means for the company's financing needs.",
+        "steps": [
+          "Convert each turnover into days. Days of inventory on hand: $365 \\div 5.0 = 73.0$ days. BA II Plus: 365 [÷] 5 [=] shows 73.00.",
+          "Days of sales outstanding: $365 \\div 10.0 = 36.5$ days. BA II Plus: 365 [÷] 10 [=] shows 36.50.",
+          "Days of payables outstanding: $365 \\div 8.0 = 45.625$ days. BA II Plus: 365 [÷] 8 [=] shows 45.63 (the calculator keeps 45.625 internally).",
+          "Combine: $\\text{CCC}=73.0+36.5-45.625$. BA II Plus: 73 [+] 36.5 [−] 45.625 [=] shows 63.875.",
+          "Interpret: cash is tied up for roughly 64 days between paying suppliers and collecting from customers. The company must fund that gap, so any lengthening of the cycle (slower inventory or slower collections) raises its financing need."
+        ],
+        "answer": "CCC = 63.875 days (about 63.9 days): the company funds roughly two months of operations before cash comes back.",
+        "answer_value": 63.875,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":73,\"dso\":36.5,\"dpo\":45.625}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Cash conversion cycle",
+          "latex": "\\text{CCC}=\\text{DIO}+\\text{DSO}-\\text{DPO}",
+          "where": "CCC = days cash is tied up in operations; DIO = days of inventory on hand; DSO = days of sales outstanding; DPO = days of payables outstanding."
+        },
+        {
+          "name": "Days from turnover",
+          "latex": "\\text{Days}=\\frac{365}{\\text{Turnover ratio}}",
+          "where": "Turnover ratio = the relevant turnover (inventory, receivables or payables); 365 is the days in the year (use the year length the problem states)."
+        },
+        {
+          "name": "ROA split into margin and turnover",
+          "latex": "\\text{ROA}=\\frac{\\text{Net income}}{\\text{Sales}}\\times\\frac{\\text{Sales}}{\\text{Average total assets}}",
+          "where": "Net income/Sales = net profit margin; Sales/Average total assets = total asset turnover."
+        },
+        {
+          "name": "ROE and leverage",
+          "latex": "\\text{ROE}=\\text{ROA}\\times\\frac{\\text{Average total assets}}{\\text{Average equity}}",
+          "where": "The second factor is the equity multiplier, a measure of financial leverage."
+        },
+        {
+          "name": "Interest coverage",
+          "latex": "\\text{Interest coverage}=\\frac{\\text{EBIT}}{\\text{Interest expense}}",
+          "where": "EBIT = earnings before interest and taxes; a lower value means a thinner cushion for debt payments."
+        }
+      ],
+      "exam_traps": [
+        "Judging a company from one ratio in one year. The exam expects trends over time and comparison with peers.",
+        "Comparing a company to the wrong benchmark, such as an economy-wide or different-industry average, when its business model differs.",
+        "Reading a higher ROE as automatically good: if ROA fell and debt rose, the gain came from leverage and added risk.",
+        "Treating a high current ratio as proof of strong liquidity without checking whether slow inventory or slow receivables inflate it.",
+        "Adding DPO instead of subtracting it in the cash conversion cycle, or forgetting that a longer payables period shortens the cycle."
+      ],
+      "builds_on": [
+        "Activity ratios",
+        "Liquidity ratios",
+        "Solvency ratios",
+        "Profitability ratios",
+        "Common-size statements"
+      ],
+      "leads_to": [
+        "DuPont analysis of ROE",
+        "Industry-specific ratios",
+        "Forecasting earnings"
+      ],
+      "cited_chunk_ids": [
+        "lyryx-intro-fa-2021a:504:409",
+        "os:principles-finance-2e:m00040:1",
+        "os:principles-finance-2e:m00045:4",
+        "os:principles-finance-2e:m00045:4.1",
+        "cfa-rf-earnings-quality:37:37",
+        "damodaran-valn2ed-ch15:40:34"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the role of ratio analysis in evaluating a company?",
+        "options": [
+          {
+            "text": "It gives a final verdict on the company's financial health",
+            "value": null,
+            "explanation": "Ratios alone are not conclusive; treating them as a definitive verdict is the mistake here."
+          },
+          {
+            "text": "It removes the need for judgement about the business",
+            "value": null,
+            "explanation": "Ratios must be combined with informed judgement about strategy, industry and accounting; they do not replace it."
+          },
+          {
+            "text": "It points to areas needing closer investigation alongside judgement",
+            "value": null,
+            "explanation": "Correct. Ratios highlight where to look further and are used with judgement, not on their own."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:504:409"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company has 45 days of inventory on hand, 32 days of sales outstanding and 40 days of payables outstanding. What is its cash conversion cycle, in days?",
+        "options": [
+          {
+            "text": "77 days",
+            "value": 77,
+            "explanation": "This ignores payables altogether (45 + 32), so it omits the offsetting financing from suppliers."
+          },
+          {
+            "text": "37 days",
+            "value": 37,
+            "explanation": "Correct: 45 + 32 − 40 = 37 days."
+          },
+          {
+            "text": "117 days",
+            "value": 117,
+            "explanation": "This adds DPO (45 + 32 + 40) instead of subtracting it, a sign error."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":45,\"dso\":32,\"dpo\":40}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Firm A has a net profit margin of 5% and total asset turnover of 3.0. Firm B has a net profit margin of 15% and total asset turnover of 1.0. Both use the same amount of leverage. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Both earn a 15% ROA, A through turnover and B through margin",
+            "value": null,
+            "explanation": "Correct: ROA = margin × turnover, so A = 5% × 3.0 = 15% and B = 15% × 1.0 = 15%."
+          },
+          {
+            "text": "B earns the higher ROA because its margin is three times larger",
+            "value": null,
+            "explanation": "This looks only at margin and ignores that A turns its assets three times as fast."
+          },
+          {
+            "text": "A earns the higher ROA because its turnover is three times larger",
+            "value": null,
+            "explanation": "This looks only at turnover and ignores that B's margin is three times larger."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4",
+          "cfa-rf-earnings-quality:37:37"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company has 60 days of inventory on hand and 28 days of sales outstanding. It negotiates longer terms with suppliers and now takes 65 days of payables outstanding. Holding the other two measures constant, what is the new cash conversion cycle, in days?",
+        "options": [
+          {
+            "text": "38 days",
+            "value": 38,
+            "explanation": "This is the cycle with a 50-day payables period (60 + 28 − 50); it ignores the stated change to 65 days."
+          },
+          {
+            "text": "153 days",
+            "value": 153,
+            "explanation": "This adds all three measures (60 + 28 + 65) instead of subtracting payables days."
+          },
+          {
+            "text": "23 days",
+            "value": 23,
+            "explanation": "Correct: 60 + 28 − 65 = 23 days. Stretching payables shortens the cycle."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":60,\"dso\":28,\"dpo\":65}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Over two years a company's ROE rose from 12% to 15%, while its ROA fell from 6.0% to 5.0%. Its liabilities-to-equity ratio rose from 1.0 to 2.0. Which interpretation is most reasonable?",
+        "options": [
+          {
+            "text": "Better operating efficiency lifted the return to shareholders",
+            "value": null,
+            "explanation": "Operating returns on assets actually fell, so efficiency did not drive the gain."
+          },
+          {
+            "text": "More borrowing drove ROE up even though asset returns weakened",
+            "value": null,
+            "explanation": "Correct: the equity multiplier rose from 2 to 3, so 5.0% × 3 = 15% against 6.0% × 2 = 12%. Leverage did the work, and it adds risk."
+          },
+          {
+            "text": "Financial risk fell as shareholder returns improved",
+            "value": null,
+            "explanation": "Rising liabilities relative to equity signals higher financial risk, not lower."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's receivables turnover falls from 10 to 8 with no change in sales, inventory days or payables days. Using a 365-day year, which outcome follows?",
+        "options": [
+          {
+            "text": "DSO rises and the cash conversion cycle lengthens",
+            "value": null,
+            "explanation": "Correct: DSO moves from 36.5 to about 45.6 days, and with DIO and DPO unchanged the cycle lengthens by about 9 days."
+          },
+          {
+            "text": "DSO rises but the cash conversion cycle shortens",
+            "value": null,
+            "explanation": "DSO is added in the cycle, so a longer DSO cannot shorten it; this confuses DSO with DPO."
+          },
+          {
+            "text": "DSO falls and the cash conversion cycle shortens",
+            "value": null,
+            "explanation": "A lower turnover means slower collection and more days, not fewer; this reads the turnover direction backwards."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Use a 360-day year. A company has an inventory turnover of 9, a receivables turnover of 12 and a payables turnover of 6. Convert each turnover to days and compute the cash conversion cycle, in days.",
+        "options": [
+          {
+            "text": "15 days",
+            "value": 15,
+            "explanation": "This combines the turnover ratios directly (9 + 12 − 6) instead of converting to days first."
+          },
+          {
+            "text": "10 days",
+            "value": 10,
+            "explanation": "Correct: DIO = 360/9 = 40, DSO = 360/12 = 30, DPO = 360/6 = 60, so 40 + 30 − 60 = 10 days."
+          },
+          {
+            "text": "70 days",
+            "value": 70,
+            "explanation": "This leaves out payables (40 + 30), so it overstates the cycle by ignoring supplier financing."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":40,\"dso\":30,\"dpo\":60}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst finds that a retailer's operating margin is below the industry median. Which next step is most consistent with sound ratio analysis?",
+        "options": [
+          {
+            "text": "Conclude that management is inefficient and end the analysis",
+            "value": null,
+            "explanation": "One ratio against one benchmark is not enough; a low margin may reflect strategy, such as high volume at low prices."
+          },
+          {
+            "text": "Compare the margin with the average of all listed companies",
+            "value": null,
+            "explanation": "A cross-industry average is the wrong benchmark because normal margins and turnover differ by sector."
+          },
+          {
+            "text": "Check its trend, similar peers, turnover and accounting differences",
+            "value": null,
+            "explanation": "Correct: context from history, relevant peers, the offsetting role of asset turnover and comparability of accounting policies is needed before concluding."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4.1",
+          "os:principles-finance-2e:m00040:1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How is the cash conversion cycle built from days measures?",
+        "back": "CCC = days of inventory on hand + days of sales outstanding − days of payables outstanding. A longer cycle means more cash tied up and more financing needed.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Two companies earn the same ROA. How can their margins and turnovers differ?",
+        "back": "ROA = net margin × asset turnover, so a high-margin, low-turnover firm and a low-margin, high-turnover firm can earn the same ROA.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4",
+          "cfa-rf-earnings-quality:37:37"
+        ]
+      },
+      {
+        "front": "ROE rises while ROA falls and debt increases. What is the likely driver?",
+        "back": "Financial leverage (a higher equity multiplier), not better operations. The higher ROE comes with more financial risk and weaker interest coverage.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4"
+        ]
+      },
+      {
+        "front": "Why compare ratios with history and similar peers rather than one number or a broad average?",
+        "back": "Ratio levels depend on the business model and industry, so a ratio is only meaningful in context of the company's trend and relevant competitors.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:4.1",
+          "os:principles-finance-2e:m00040:1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T16:29:20.961Z",
+      "purpose": "generate",
+      "losId": "fsa-11-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10077,
+      "outputTokens": 11419,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.13550020000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

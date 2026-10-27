@@ -1,0 +1,891 @@
+{
+  "losId": "fsa-09-los2",
+  "losText": "explain how deferred tax liabilities and assets are created and the factors that determine how a company's deferred tax liabilities and assets should be treated for the purposes of financial analysis",
+  "moduleId": "fsa-09",
+  "moduleTitle": "Analysis of Income Taxes",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:55:48.764Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-rf-earnings-quality:120:135",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 120",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=120",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:158:153",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 158–159",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=158",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:156:150",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 156–157",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=156",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-rf-earnings-quality:16:14",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:175:172",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 175–176",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=175",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:170:166",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 170–171",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=170",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:158:152",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 158",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=158",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00069:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.3 Discounted Cash Flow (DCF) Model — Understanding How the DCF Model Differs from DDMs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-3-discounted-cash-flow-dcf-model",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:499:486",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 499–500",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=499",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-lease-financing:41:57",
+      "title": "Comptroller's Handbook: Lease Financing (finance vs operating leases, lessor accounting) (OCC)",
+      "locator": "pp. 41–42",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/lease-financing/pub-ch-lease-financing.pdf#page=41",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch10:1:1",
+      "title": "Investment Valuation, 2nd ed., ch. 10: From Earnings to Cash Flows (taxes, working capital, FCFF and FCFE inputs) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 1–3",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch10.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-business-accounting:907:789",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 907–908",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=907",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Deferred Taxes Arise and How Analysts Should Treat Them",
+      "summary": "Deferred tax assets and liabilities appear when the tax authority and the accountant recognise the same income or expense in different periods. Analysts must decide whether each balance is a real future claim or cash drain, or something to treat as equity or disregard, because that choice changes leverage and earnings assessments.",
+      "sections": [
+        {
+          "heading": "Two sets of books, one timing gap",
+          "body_markdown": "A company keeps one set of records for its shareholders (financial reporting) and works out a second figure for the tax authority. Both count the same total revenue and expense over a project's life, but they can place them in different years. Think of paying for a gym membership: you may pay the whole year up front (the tax return view) while the gym recognises the service month by month (the accounting view). The gap closes with time, so it is called a **temporary difference**. A **deferred tax** balance records the tax effect of that gap, i.e. tax that will be paid later or that has been paid ahead of the accounting recognition."
+        },
+        {
+          "heading": "Where DTLs and DTAs come from",
+          "body_markdown": "Two terms help here. The **carrying amount** is what the balance sheet shows. The **tax base** is what the tax authority will still let the company deduct (for an asset) or treat as taxable or deductible later (for a liability). - **Deferred tax liability (DTL):** created when a taxable temporary difference exists. Typical case: an asset's carrying amount is higher than its tax base, e.g. the tax return uses faster depreciation than the books. Early on, taxable income is lower than accounting profit, so cash tax is deferred and will be higher later. Revenue recognised for accounting before it is taxable (e.g. percentage-of-completion revenue taxed only on completion) also creates a DTL. - **Deferred tax asset (DTA):** created when a deductible temporary difference exists. Typical case: a liability's carrying amount exceeds its tax base, e.g. a warranty accrual expensed now but deductible only when repairs are paid, or advance customer payments taxed on receipt but recognised as revenue later. Unused tax losses carried forward also create a DTA. - **Size:** the temporary difference multiplied by the tax rate that applies when it is expected to reverse (in practice the enacted rate). Permanent differences, such as non-deductible fines, create no deferred tax."
+        },
+        {
+          "heading": "Remeasurement and the valuation allowance",
+          "body_markdown": "Deferred tax balances are restated when tax rates change. A rate cut shrinks both DTLs and DTAs: a net DTL produces a one-off drop in tax expense, which can flatter earnings. A DTA is only worth something if the company will have enough future taxable profit to use it. Under US GAAP, a DTA is recorded and then reduced by a **valuation allowance** if it is more likely than not that part of it will not be realised. Under IFRS, a DTA is recognised only to the extent that realisation is probable. Raising an allowance increases tax expense and is a warning sign about future profitability. Both frameworks present deferred tax balances as non-current items on the balance sheet."
+        },
+        {
+          "heading": "Analyst treatment of a DTL",
+          "body_markdown": "The key question is **will the DTL reverse, i.e. turn into actual tax payments?** - **Expected to reverse** (e.g. the asset base is stable or shrinking, so old differences unwind): treat the DTL as a liability. If payment is far off, discounting it to present value is a reasonable refinement. - **Not expected to reverse** (e.g. the company keeps investing, so new differences keep replacing the ones that unwind, and the aggregate balance does not decline): treat the DTL as part of equity, since no cash outflow is anticipated. - **Unclear timing:** this needs judgement. Read the tax footnote, look at the capex trend, and be consistent. Do not simply ignore the item without a reason. The choice moves leverage ratios: moving a DTL from liabilities to equity lowers debt-to-equity and raises equity."
+        },
+        {
+          "heading": "Analyst treatment of a DTA",
+          "body_markdown": "For a DTA, the issue is **realisability**. Ask whether future taxable profit is likely, how large the valuation allowance is and whether it has changed, when loss carryforwards expire, and what the company's earnings history is. A DTA resting on loss carryforwards at a company that keeps losing money is questionable, so an analyst may write it down (reducing assets and equity). A DTA that clearly reverses against near-term taxable profit is a genuine reduction of future taxes. Large swings in the allowance also distort reported earnings and the effective tax rate, so adjust for them when comparing years."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company buys equipment for $80,000. For financial reporting it uses straight-line depreciation over 4 years with no residual value. For tax, it deducts 40%, 30%, 20% and 10% of cost in years 1 to 4. The tax rate is 25%, and there are no other differences. What is the deferred tax balance at the end of year 2, and what happens to it afterwards?",
+        "steps": [
+          "Accounting depreciation is $80,000 / 4 = $20,000 per year. Carrying amount: end of year 1 = $60,000, end of year 2 = $40,000.",
+          "Tax deductions: year 1 = $32,000, year 2 = $24,000. Tax base: end of year 1 = $80,000 − $32,000 = $48,000; end of year 2 = $48,000 − $24,000 = $24,000.",
+          "Temporary difference at end of year 2 = carrying amount − tax base = $40,000 − $24,000 = $16,000. Carrying amount exceeds tax base, so it is a taxable temporary difference and creates a DTL.",
+          "DTL = $16,000 × 25% = $4,000. Calculator: 16000 × .25 = 4000. (For comparison, end of year 1: $60,000 − $48,000 = $12,000, giving a DTL of $3,000, so the DTL rose by $1,000 in year 2.)",
+          "Afterwards the differences reverse: year 3 tax base = $8,000 vs carrying amount $20,000 gives a DTL of $3,000, and by the end of year 4 both are zero, so the DTL is zero. The deferral has become cash tax paid in the later years."
+        ],
+        "answer": "The DTL at the end of year 2 is $4,000. It then declines to $3,000 in year 3 and $0 in year 4 as the temporary difference reverses.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "DTL from an asset",
+          "latex": "DTL=(CA-TB)\\times t",
+          "where": "CA = carrying amount of the asset, TB = its tax base, t = tax rate expected to apply when the difference reverses; positive result means a DTL."
+        },
+        {
+          "name": "DTA from a liability",
+          "latex": "DTA=(CL-TB_L)\\times t",
+          "where": "CL = carrying amount of the liability, TB_L = its tax base, t = applicable tax rate; positive result means a DTA."
+        },
+        {
+          "name": "DTA from a tax loss carryforward",
+          "latex": "DTA=L\\times t",
+          "where": "L = unused tax loss that can be deducted against future taxable income, t = applicable tax rate."
+        },
+        {
+          "name": "Effect of a tax rate change on a deferred tax balance",
+          "latex": "\\Delta DT=TD\\times(t_{new}-t_{old})",
+          "where": "TD = net temporary difference, t_old = rate used previously, t_new = newly enacted rate; the change flows through income tax expense."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up the direction: an asset whose carrying amount exceeds its tax base gives a DTL, but a liability whose carrying amount exceeds its tax base gives a DTA.",
+        "Treating all DTLs as automatically debt-like. If the balance is not expected to reverse, e.g. because capex keeps growing, the analyst may treat it as equity instead.",
+        "Forgetting that deferred tax is the temporary difference times the tax rate, not the difference itself.",
+        "Treating a DTA as a certain asset. Its value depends on future taxable profit, so check the valuation allowance and the loss history.",
+        "Assuming a tax rate change has no effect on existing balances; it remeasures DTAs and DTLs and moves tax expense and the effective tax rate."
+      ],
+      "builds_on": [
+        "Temporary vs permanent differences",
+        "Carrying amount vs tax base",
+        "Accelerated depreciation"
+      ],
+      "leads_to": [
+        "Effective vs statutory vs cash tax rate",
+        "Tax footnote and rate reconciliation analysis",
+        "Solvency ratios and leverage adjustments"
+      ],
+      "cited_chunk_ids": [
+        "lyryx-ifa-vol2:158:152",
+        "lyryx-ifa-vol2:158:153",
+        "lyryx-ifa-vol2:156:150",
+        "flatworld-business-accounting:907:789",
+        "cfa-rf-earnings-quality:120:135"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which situation will give rise to a deferred tax liability?",
+        "options": [
+          {
+            "text": "A warranty cost is expensed when products are sold but deducted for tax only when repairs are paid.",
+            "value": null,
+            "explanation": "This is a deductible temporary difference, which creates a deferred tax asset, not a liability. Candidates confuse the direction of the timing gap."
+          },
+          {
+            "text": "The company deducts depreciation for tax faster than it does in its financial statements.",
+            "value": null,
+            "explanation": "Correct. Early tax deductions are larger, so taxable income is lower than accounting profit now and higher later. The carrying amount exceeds the tax base, creating a DTL."
+          },
+          {
+            "text": "The company pays a fine for a regulatory breach that the tax authority never allows as a deduction.",
+            "value": null,
+            "explanation": "This is a permanent difference. It never reverses, so no deferred tax is recorded. Candidates wrongly assume every accounting-tax gap creates a deferred balance."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:156:150"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company's balance sheet shows an accrued liability whose carrying amount exceeds its tax base, because the related cost will be deductible only when paid. This situation most likely results in:",
+        "options": [
+          {
+            "text": "a deferred tax asset, because the future deduction will lower taxes payable.",
+            "value": null,
+            "explanation": "Correct. A liability with carrying amount above tax base is a deductible temporary difference, which yields a deferred tax asset."
+          },
+          {
+            "text": "a deferred tax liability, because an expense was recorded before it was paid.",
+            "value": null,
+            "explanation": "This applies the asset rule to a liability. For a liability, carrying amount above tax base produces a DTA."
+          },
+          {
+            "text": "no deferred tax, because accrued costs are permanent differences.",
+            "value": null,
+            "explanation": "An item deductible in a later period is temporary, not permanent. Only items never taxable or deductible are permanent."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:158:152"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A machine has a carrying amount of $90,000 and a tax base of $70,000. The enacted tax rate expected to apply when the difference reverses is 30%. There are no other temporary differences. What deferred tax balance should be recorded?",
+        "options": [
+          {
+            "text": "Deferred tax liability of $27,000",
+            "value": null,
+            "explanation": "This multiplies the full carrying amount ($90,000) by 30% instead of applying the rate to the temporary difference."
+          },
+          {
+            "text": "Deferred tax liability of $20,000",
+            "value": null,
+            "explanation": "This reports the temporary difference itself and omits the tax rate."
+          },
+          {
+            "text": "Deferred tax liability of $6,000",
+            "value": null,
+            "explanation": "Correct. Temporary difference = $90,000 − $70,000 = $20,000, and $20,000 × 30% = $6,000. Carrying amount above tax base gives a DTL."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:158:152"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company has taxable temporary differences of $500,000 and no deferred tax assets. The enacted tax rate falls from 30% to 25% in a year. Which statement is correct about the effect on the financial statements?",
+        "options": [
+          {
+            "text": "The DTL falls from $150,000 to $125,000, and income tax expense is $25,000 lower.",
+            "value": null,
+            "explanation": "Correct. Deferred tax balances are remeasured at the newly enacted rate: $500,000 × 5% = $25,000 less liability, which reduces tax expense for the year."
+          },
+          {
+            "text": "The DTL stays at $150,000 because balances are fixed at the rate in force when they arose.",
+            "value": null,
+            "explanation": "This is the old pre-remeasurement approach. Current practice restates deferred tax balances when rates change."
+          },
+          {
+            "text": "The DTL falls from $150,000 to $125,000, and income tax expense is $25,000 higher.",
+            "value": null,
+            "explanation": "The balance moves the right way, but the sign of the earnings effect is wrong. A lower liability is a credit to tax expense, so expense decreases."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:120:135"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst reviewing a company's deferred tax liability would be most justified in treating it as equity rather than as a liability when:",
+        "options": [
+          {
+            "text": "the temporary differences relate to assets that will be fully depreciated within a few years and not replaced.",
+            "value": null,
+            "explanation": "Here the differences will unwind and become cash tax payments, so the DTL behaves like a liability."
+          },
+          {
+            "text": "the company has recorded a large valuation allowance against its deferred tax assets.",
+            "value": null,
+            "explanation": "A valuation allowance concerns DTAs, not whether a DTL will reverse. Mixing up the two sides of deferred tax leads to this choice."
+          },
+          {
+            "text": "the company keeps expanding its asset base, so new taxable differences replace those that reverse and the balance is not expected to decline.",
+            "value": null,
+            "explanation": "Correct. If the DTL is not expected to reverse into actual tax payments, an analyst can treat it as equity rather than as a liability."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports a large increase in the valuation allowance against its deferred tax assets. The most likely implication is that:",
+        "options": [
+          {
+            "text": "taxable income exceeded accounting profit during the year, raising taxes payable.",
+            "value": null,
+            "explanation": "A valuation allowance is about the realisability of DTAs, not about the current year's taxes payable."
+          },
+          {
+            "text": "management now doubts it will have enough future taxable profit to use part of the deferred tax assets.",
+            "value": null,
+            "explanation": "Correct. The allowance reduces the DTA to the amount expected to be realised, and the charge increases tax expense. It signals weaker profit prospects."
+          },
+          {
+            "text": "the company's deferred tax liabilities have grown and must be offset by an allowance.",
+            "value": null,
+            "explanation": "Valuation allowances apply to DTAs only; DTLs are not reduced this way."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:120:135"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company has been loss-making for several years and has a large deferred tax asset from tax loss carryforwards. It has recorded no valuation allowance. Which analyst response is most appropriate?",
+        "options": [
+          {
+            "text": "Question whether the asset will really be realised and consider writing it down, because it depends on future taxable profit.",
+            "value": null,
+            "explanation": "Correct. Loss carryforwards only help if there are future profits, so with a loss history the DTA may be overstated and equity too high."
+          },
+          {
+            "text": "Accept the asset at face value because deferred tax assets are always equivalent to cash.",
+            "value": null,
+            "explanation": "A DTA is only an expected reduction in future tax, not cash, and requires taxable profit to be used."
+          },
+          {
+            "text": "Reclassify the asset as a reduction of equity, because it arises from past losses.",
+            "value": null,
+            "explanation": "Reclassifying to equity is an approach for DTLs unlikely to reverse. A doubtful DTA is written down or discounted, not moved into equity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A growing company buys more equipment every year and claims faster depreciation for tax than for accounting on each purchase. Which statement best describes its aggregate deferred tax liability?",
+        "options": [
+          {
+            "text": "It falls to zero each year because every asset's differences reverse by the end of its life.",
+            "value": null,
+            "explanation": "This ignores new purchases. Each asset's difference reverses, but they are replaced by new differences."
+          },
+          {
+            "text": "It may keep growing or stay high, because new differences from recent purchases can outweigh the reversals on older assets.",
+            "value": null,
+            "explanation": "Correct. Each asset's DTL eventually reverses, but continual investment can keep the total balance from declining. This supports considering equity treatment."
+          },
+          {
+            "text": "It becomes a deferred tax asset, because faster tax depreciation reduces taxable income.",
+            "value": null,
+            "explanation": "Lower early taxable income means tax is deferred, which is a DTL, not a DTA. This confuses the effect on cash taxes with the balance sheet classification."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:158:153"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q9",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following creates a deferred tax asset?",
+        "options": [
+          {
+            "text": "Advance customer payments are taxed when received but recognised as revenue in later periods.",
+            "value": null,
+            "explanation": "Correct. Tax was paid before the accounting revenue appears, so there is a deductible temporary difference and a DTA."
+          },
+          {
+            "text": "Revenue on a long-term contract is recognised as work progresses but taxed only when the contract is complete.",
+            "value": null,
+            "explanation": "Accounting recognises income before the tax return, which is a taxable temporary difference and creates a DTL."
+          },
+          {
+            "text": "A non-deductible penalty is expensed in the income statement.",
+            "value": null,
+            "explanation": "A penalty that is never deductible is a permanent difference, so no deferred tax arises."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:158:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What kind of temporary difference creates a deferred tax liability, and what is a classic example?",
+        "back": "A taxable temporary difference: an asset's carrying amount exceeds its tax base, so more tax will be payable later. Example: faster depreciation on the tax return than in the books.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:156:150",
+          "lyryx-ifa-vol2:158:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What kind of temporary difference creates a deferred tax asset?",
+        "back": "A deductible temporary difference (a liability's carrying amount exceeds its tax base), or unused tax losses. It lowers future taxes. Examples: warranty accruals, advance payments taxed when received.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:158:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "When should an analyst treat a deferred tax liability as equity rather than debt?",
+        "back": "When it is not expected to reverse into actual tax payments, for example because continued investment keeps replacing the differences that unwind. If it is expected to reverse, treat it as a liability.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does a valuation allowance on a DTA tell an analyst?",
+        "back": "Management expects that some of the DTA will not be realised for lack of future taxable profit. An increase raises tax expense and is a warning about profit prospects.",
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:120:135"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "9 MCQs (want 6–8)",
+    "4/9 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:55:37.600Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1337,
+      "outputTokens": 724,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.010031,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:55:48.763Z",
+      "purpose": "grounding",
+      "losId": "fsa-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13909,
+      "outputTokens": 1688,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044867199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.054898199999999994
+}

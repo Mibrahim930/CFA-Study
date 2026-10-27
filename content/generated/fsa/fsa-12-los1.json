@@ -1,0 +1,465 @@
+{
+  "losId": "fsa-12-los1",
+  "losText": "demonstrate the development of a sales-based pro forma company model",
+  "moduleId": "fsa-12",
+  "moduleTitle": "Introduction to Financial Statement Modeling",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T16:34:02.409Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00117:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Sensitivity Analysis in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00115:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.3 Pro Forma Financials — Purpose of a Forecast",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-3-pro-forma-financials",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:42:42",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 42",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=42",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00005:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.4 Careers in Finance — Financial Analyst Roles",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-4-careers-in-finance",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:127:142",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 127–128",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=127",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Scenarios in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:43:44",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 43–44",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=43",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:20:16",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:125:141",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 125–127",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=125",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:43:37",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 43–44",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=43",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch10:20:19",
+      "title": "Investment Valuation, 2nd ed., ch. 10: From Earnings to Cash Flows (taxes, working capital, FCFF and FCFE inputs) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch10.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00118:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.6 Using Excel to Create the Long-Term Forecast — Using Excel to Create the Long-Term Forecast",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-6-using-excel-to-create-the-long-term-forecast",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Building a Sales-Driven Pro Forma Model",
+      "summary": "A pro forma model projects a company's future financial statements, and in a sales-based model almost every line is tied back to a forecast of revenue. This matters because the quality of the revenue forecast and of the links to it decides whether the projected profit, cash needs and financing are believable.",
+      "sections": [
+        {
+          "heading": "Why sales sit at the top of the model",
+          "body_markdown": "A **pro forma** statement is a forward-looking statement built from assumptions rather than reported results. Think of a recipe written for 4 guests that you scale up for 10: once you decide how many guests come, the quantities of everything else follow. In a **sales-based model**, the forecast of sales is the 'number of guests'. Costs, receivables, inventory and the investment needed to support growth are linked to it by explicit ratios.\n\nThe point is not just to produce a net income number. A good model shows whether growth creates profit and whether the cash arrives in time to pay bills. Sales growth that lowers profit, or profit that arrives too late as cash, is a warning sign the model should expose."
+        },
+        {
+          "heading": "Forecasting the sales line itself",
+          "body_markdown": "There are three common ways to get to next year's revenue:\n\n- **Growth-rate approach:** $\\text{Sales}_t=\\text{Sales}_{t-1}\\times(1+g)$. Growth compounds, so a multi-year projection multiplies by $(1+g)$ once per year.\n- **Top-down approach:** estimate the size of the whole market, then multiply by the share you expect the company to hold. Here the main judgments are market growth and share.\n- **Bottom-up approach:** build revenue from units, such as number of stores times sales per store, or units sold times price.\n\nAlways sanity-check the result. If the market-share route implies a growth rate far above anything the company or its peers have achieved, one of the assumptions needs a second look. Revenue growth that comes from acquisitions must also be paired with the cost of those acquisitions, or the model overstates value."
+        },
+        {
+          "heading": "Linking the income statement to sales",
+          "body_markdown": "Once sales are set, each line gets a driver:\n\n- **Cost of goods sold (COGS):** usually a percentage of sales, i.e. one minus the **gross margin** (the share of each sales dollar left after direct costs).\n- **Selling, general and administrative (SG&A) expense:** split into a **variable** part that moves with sales and a **fixed** part (rent, salaried staff) that does not, at least over a short horizon.\n- **Depreciation:** tied to the asset base (existing property, plant and equipment plus new capital spending), not to sales directly.\n- **Interest expense:** driven by debt balances and the interest rate, not by sales.\n- **Income tax:** the effective tax rate times pre-tax income.\n\nThe fixed/variable split matters. If every cost is forced to be a fixed percentage of sales, the model hides **operating leverage**: when sales fall, fixed costs do not fall with them, so profit falls proportionally more than sales."
+        },
+        {
+          "heading": "Balance sheet, cash and the financing plug",
+          "body_markdown": "Growth needs funding. The balance sheet items that depend on activity are linked with turnover or day-count assumptions:\n\n- **Receivables** from days sales outstanding (DSO), applied to sales.\n- **Inventory** from days inventory outstanding (DIO), applied to COGS.\n- **Payables** from days payable outstanding (DPO), applied to COGS.\n- **Capital expenditure (capex)** and property, plant and equipment, linked to the growth the company plans to support.\n\nWhen working capital grows, cash is tied up and operating cash flow shrinks. After projecting assets, liabilities and retained earnings, the balance sheet may not balance. The gap is the **external financing need**: new debt or equity the company must raise. That new debt creates extra interest, which feeds back into net income, so well-built models update interest after the financing is set. A spreadsheet with formula links lets one changed assumption flow through every statement and also helps confirm that the statements still balance."
+        },
+        {
+          "heading": "Stress-testing the forecast",
+          "body_markdown": "A first draft is rarely final. Analysts refine it and then ask 'what if?' in two ways:\n\n- **Scenario analysis** changes several assumptions at once to describe a coherent state of the world, e.g. base case, recession, expansion.\n- **Sensitivity analysis** changes one input at a time (sales 10% lower, COGS 10% higher) to see which assumptions move the output most. This shows where extra research effort is worth the cost.\n\nIn one textbook example, a recession scenario cut sales to 60% of the prior year, a 40% fall, yet net income fell by about two thirds (from 47,653 to 16,391). The bigger percentage drop in profit is the operating-leverage effect from costs that do not fall proportionally."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company had sales of 500 million in the base year. An analyst forecasts 10% sales growth for next year, COGS at 60% of sales, SG&A at 15% of sales, depreciation of 20 million, interest expense of 10 million and a 25% tax rate. Build next year's pro forma net income (in millions).",
+        "steps": [
+          "Forecast sales: $500\\times1.10=550$. (Calculator for multi-year growth: N=2, I/Y=10, PV=−500, CPT FV gives 605 for year 2.)",
+          "COGS: $0.60\\times550=330$.",
+          "Gross profit: $550-330=220$.",
+          "SG&A: $0.15\\times550=82.5$.",
+          "Operating income (EBIT): $220-82.5-20=117.5$ after subtracting depreciation of 20.",
+          "Pre-tax income: $117.5-10=107.5$ after subtracting interest.",
+          "Tax: $0.25\\times107.5=26.875$.",
+          "Net income: $107.5-26.875=80.625$, about 80.6 million."
+        ],
+        "answer": "Pro forma net income is about 80.6 million (80.625 before rounding).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Growth-based sales forecast",
+          "latex": "S_t=S_{t-1}\\times(1+g)",
+          "where": "S_t is forecast sales in year t, S_{t-1} is prior-year sales, g is the expected growth rate."
+        },
+        {
+          "name": "Top-down sales forecast",
+          "latex": "S=M\\times s",
+          "where": "S is company sales, M is total market sales, s is the company's expected market share."
+        },
+        {
+          "name": "Cost of goods sold from gross margin",
+          "latex": "\\text{COGS}=(1-GM)\\times S",
+          "where": "GM is the forecast gross margin as a decimal, S is forecast sales."
+        },
+        {
+          "name": "Working-capital balances from day counts",
+          "latex": "AR=\\frac{DSO}{365}\\times S,\\quad Inv=\\frac{DIO}{365}\\times \\text{COGS},\\quad AP=\\frac{DPO}{365}\\times \\text{COGS}",
+          "where": "AR is receivables, Inv is inventory, AP is payables, DSO/DIO/DPO are the day counts, S is sales."
+        },
+        {
+          "name": "Income tax expense",
+          "latex": "\\text{Tax}=t\\times EBT",
+          "where": "t is the effective tax rate, EBT is earnings before tax (income after interest)."
+        },
+        {
+          "name": "External financing need",
+          "latex": "EFN=\\text{Total assets}-(\\text{Liabilities}+\\text{Equity})",
+          "where": "Computed before new financing; a positive value is the amount of debt or equity the company must raise."
+        }
+      ],
+      "exam_traps": [
+        "Compounding growth by multiplying by (1 + g) once per year, not adding g × n; simple addition understates multi-year sales.",
+        "Treating every cost as a constant percentage of sales, which hides fixed costs and overstates profit when sales fall.",
+        "Linking depreciation to sales instead of to the asset base and capital spending.",
+        "Using sales for every working-capital item; inventory and payables normally use COGS, while receivables use sales.",
+        "Letting the balance sheet 'balance' by forcing retained earnings or cutting assets, instead of recognising the gap as external financing and updating interest.",
+        "Extrapolating past acquisition-driven growth while ignoring the cost of making acquisitions."
+      ],
+      "builds_on": [
+        "Income statement and common-size analysis",
+        "Working-capital ratios and cash conversion cycle",
+        "Effective tax rate",
+        "Fixed vs variable costs and operating leverage"
+      ],
+      "leads_to": [
+        "Forecasting with inflation and deflation",
+        "Choosing a forecast horizon",
+        "Valuation from forecast cash flows"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00115:1",
+        "os:principles-finance-2e:m00117:4",
+        "os:principles-finance-2e:m00117:5",
+        "damodaran-valn2ed-ch11:43:37",
+        "os:principles-finance-2e:m00118:3"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst forecasts next year's sales for a regional retailer by estimating the total revenue of its industry and multiplying by the share of that revenue the retailer is expected to capture. Which forecasting approach is this?",
+        "options": [
+          {
+            "text": "A top-down approach built on market size and market share",
+            "value": null,
+            "explanation": "Correct. Starting from the whole market and applying an expected share is the top-down method."
+          },
+          {
+            "text": "A bottom-up approach built on store counts and sales per store",
+            "value": null,
+            "explanation": "Bottom-up builds from company-level units such as stores or products, not from industry totals. Confusing the two directions is the mistake here."
+          },
+          {
+            "text": "A trend approach that extends the company's historical growth rate",
+            "value": null,
+            "explanation": "Trend extrapolation applies the firm's own past growth rate and never uses an industry total or a share assumption."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:43:37"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A pro forma model starts with base-year sales of 200 million. Sales are forecast to grow 8% per year, compounded annually. What is forecast sales in year 3, in millions, rounded to two decimals?",
+        "options": [
+          {
+            "text": "248.00",
+            "value": 248,
+            "explanation": "Adds 8% three times to get 24% simple growth (200 × 1.24). Growth compounds, so this understates sales."
+          },
+          {
+            "text": "251.94",
+            "value": 251.94,
+            "explanation": "Correct: 200 × 1.08³ = 200 × 1.259712 = 251.94."
+          },
+          {
+            "text": "233.28",
+            "value": 233.28,
+            "explanation": "Compounds for only two years (200 × 1.08²), forgetting that year 3 involves three years of growth."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.08,\"n\":3,\"pv\":-200}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst models a recession scenario in which sales fall to 60% of the prior year. The model forecasts every cost, including rent and salaried payroll that are largely fixed in the short run, as a constant percentage of sales. Compared with a model that separates fixed and variable costs, this model will most likely:",
+        "options": [
+          {
+            "text": "understate net income, because costs shrink more than sales",
+            "value": null,
+            "explanation": "Reverses the effect. Costs forced to a percentage of sales fall with sales, so they do not fall by more than sales."
+          },
+          {
+            "text": "show the same net income, because the cost percentages are unchanged",
+            "value": null,
+            "explanation": "Holding percentages constant keeps margins constant, but real fixed costs do not scale down, so true profit is not the same."
+          },
+          {
+            "text": "overstate net income, because fixed costs are cut along with sales",
+            "value": null,
+            "explanation": "Correct. Fixed costs do not fall when sales fall, so forcing them to fall with sales hides operating leverage and makes profit look better than it would be."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A model projects working capital using day counts: days inventory outstanding of 60, days sales outstanding of 45 and days payables outstanding of 30. What is the cash conversion cycle in days?",
+        "options": [
+          {
+            "text": "75",
+            "value": 75,
+            "explanation": "Correct: 60 + 45 − 30 = 75 days. Payables financing reduces the cycle."
+          },
+          {
+            "text": "105",
+            "value": 105,
+            "explanation": "Adds only inventory and receivable days (60 + 45) and leaves out the payables period."
+          },
+          {
+            "text": "135",
+            "value": 135,
+            "explanation": "Adds the payables days instead of subtracting them (60 + 45 + 30), a sign error."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":60,\"dso\":45,\"dpo\":30}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a first-pass pro forma balance sheet, projected total assets are 1,200 and projected liabilities plus equity are 1,050 before any new financing. Which treatment is most appropriate?",
+        "options": [
+          {
+            "text": "Increase retained earnings by 150 so the statement balances",
+            "value": null,
+            "explanation": "Retained earnings come from forecast net income and dividends. Plugging them hides the shortfall and breaks the link to the income statement."
+          },
+          {
+            "text": "Treat 150 as external financing need, add debt or equity, and update interest",
+            "value": null,
+            "explanation": "Correct. The gap shows how much funding growth requires. New debt creates interest expense that flows back to net income."
+          },
+          {
+            "text": "Leave the sheet unbalanced because projected statements need not balance",
+            "value": null,
+            "explanation": "Linked statements should balance; an imbalance signals a missing financing assumption or a modelling error."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00115:1",
+          "os:principles-finance-2e:m00118:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company's sales grew 10%, 20% and −10% in three consecutive years. Using these growth rates as periodic returns, what is the compound (geometric) average annual sales growth, as a percentage rounded to two decimals?",
+        "options": [
+          {
+            "text": "6.67%",
+            "value": 0.0667,
+            "explanation": "Takes the simple arithmetic average of the three growth rates, which overstates compound growth when the rates vary."
+          },
+          {
+            "text": "6.27%",
+            "value": 0.0627,
+            "explanation": "Divides total cumulative growth (18.8%) by 3 instead of taking the third root of the growth factor."
+          },
+          {
+            "text": "5.91%",
+            "value": 0.0591,
+            "explanation": "Correct: (1.10 × 1.20 × 0.90)^(1/3) − 1 = 1.188^(1/3) − 1 ≈ 5.91%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.1,0.2,-0.1]}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A pro forma model includes new equipment costing 800 million with an expected salvage value of 100 million and a 7-year life, depreciated straight-line. What is annual depreciation expense, in millions, rounded to two decimals?",
+        "options": [
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Correct: (800 − 100) / 7 = 100.00."
+          },
+          {
+            "text": "114.29",
+            "value": 114.29,
+            "explanation": "Ignores salvage value (800 / 7); depreciable cost is cost minus salvage."
+          },
+          {
+            "text": "128.57",
+            "value": 128.57,
+            "explanation": "Adds salvage value to cost (900 / 7) instead of subtracting it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":800,\"salvage\":100,\"life\":7}"
+        },
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "In a sales-based pro forma model, why is the sales forecast built first?",
+        "back": "Most other lines (COGS, variable SG&A, receivables, inventory, funding needs) are tied to sales by ratios, so the sales forecast drives the whole model.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00115:1"
+        ]
+      },
+      {
+        "front": "How does a top-down sales forecast differ from a bottom-up one?",
+        "back": "Top-down: market size × expected market share. Bottom-up: build from company-level units, such as stores or products × sales per unit.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:43:37"
+        ]
+      },
+      {
+        "front": "What is the difference between scenario analysis and sensitivity analysis?",
+        "back": "Scenario analysis changes several assumptions together to describe a state of the world (e.g. recession). Sensitivity analysis changes one input at a time to see which matters most.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:4",
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      {
+        "front": "If a pro forma balance sheet has assets greater than liabilities plus equity, what does the gap represent?",
+        "back": "The external financing need: new debt or equity required to fund the projected assets. Adding debt also raises interest expense in the model.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Which base is used for forecasting receivables, inventory and payables from day counts?",
+        "back": "Receivables use sales (DSO); inventory and payables use COGS (DIO and DPO).",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T16:34:02.409Z",
+      "purpose": "generate",
+      "losId": "fsa-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9121,
+      "outputTokens": 11432,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1337182,
+      "stopReason": "end_turn"
+    }
+  ]
+}

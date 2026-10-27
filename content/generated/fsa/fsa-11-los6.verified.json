@@ -1,0 +1,795 @@
+{
+  "losId": "fsa-11-los6",
+  "losText": "describe how ratio analysis and other techniques can be used to model and forecast earnings",
+  "moduleId": "fsa-11",
+  "moduleTitle": "Financial Analysis Techniques",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:00:05.111Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Balance Sheet Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:533:438",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 533–534",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=533",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:17:16",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 17–18",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=17",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:22:22",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 22–23",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=22",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00117:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.5 Forecasting Cash Flow and Assessing the Value of Growth — Sensitivity Analysis in Forecasting",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-5-forecasting-cash-flow-and-assessing-the-value-of-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67884:0.4",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.4 Discuss the Role of Accounting for Receivables in Earnings Management — Overview",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-4-discuss-the-role-of-accounting-for-receivables-in-earnings-m",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Overview",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:35:36",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 35–37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=35",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:20:17",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:443:441",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 443–444",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=443",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:445:443",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 445–446",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=445",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Building an Earnings Forecast from Ratios and Other Tools",
+      "summary": "Analysts turn past financial statements into a forecast of future earnings by projecting sales and then applying cost relationships learned from history. Because forecasts rest on assumptions, analysts also stress-test them and check whether past earnings are a clean starting point.",
+      "sections": [
+        {
+          "heading": "The forecasting chain: start with sales",
+          "body_markdown": "Think of an earnings forecast like a recipe where **sales** is the main ingredient. Almost every other line on the income statement is estimated *relative to* sales, so an error in the sales forecast flows through to everything below it.\n\nTwo common ways to forecast sales:\n- **Top-down:** start with the big picture (economy or industry growth), estimate the company's market share, and work down to company sales.\n- **Bottom-up:** start with the company's own pieces (products, regions, stores, prices × volumes, capacity) and add them up.\n\nMany analysts use both and compare. If the two disagree sharply, one of the assumptions needs a second look.\n\nThe historical financial statements are the starting point. Ratios, common-size statements and trends are used to fine-tune the forecast, and then judgment about the company, its competitors and the economy adjusts it further."
+        },
+        {
+          "heading": "Using ratios and common-size statements to fill in the rest",
+          "body_markdown": "A **common-size income statement** expresses each line as a percentage of sales. If cost of goods sold (COGS) has been about 60% of sales for several years, a simple forecast assumes it stays near 60% of *forecast* sales. The same idea works for gross margin, SG&A (selling, general and administrative expense) as a % of sales, and operating margin.\n\nGuidelines for turning percentages into forecasts:\n- **Costs that vary with sales** (materials, sales commissions) can be projected as a % of sales.\n- **Fixed costs** (rent, salaried staff) do not move automatically with sales. Projecting them as a % of sales would understate how much profit swings.\n- **Interest expense** comes from the debt balance times the interest rate, not from sales.\n- **Taxes** are usually projected from the expected effective tax rate applied to pretax income.\n- **EPS** (earnings per share) is net income divided by the expected share count.\n\nBalance sheet ratios (turnover ratios, debt levels, capital spending and depreciation relationships) link the statements. For example, forecast debt drives interest, and forecast assets drive depreciation. Projected figures should stay consistent across the income statement, balance sheet and cash flow statement."
+        },
+        {
+          "heading": "Other techniques: sensitivity, scenarios, simulation, trends",
+          "body_markdown": "A single point forecast hides uncertainty, so analysts add tools:\n- **Sensitivity analysis:** change *one* input at a time (for example, sales 10% lower, or COGS 10% higher) and see how much earnings move. This shows which assumptions are most important to get right.\n- **Scenario analysis:** change several related inputs together to describe a coherent situation, such as a recession case, a base case and a boom case. Probabilities can be attached to the scenarios.\n- **Simulation (for example Monte Carlo):** draw inputs randomly from assumed distributions many times to see a whole range of possible earnings.\n- **Trend and regression models:** fit past data (such as sales against GDP or earnings against time) to project forward. They assume the old relationship continues to hold.\n- **Pro forma statements:** projected statements built from the assumptions above. They are only as good as those assumptions, and a biased preparer can make them look rosier than reality.\n\nAnalyst consensus forecasts can also be an input. They include recent company-specific information, and a wide spread of opinions suggests the consensus is less reliable."
+        },
+        {
+          "heading": "Quality of the starting point and limits of forecasting",
+          "body_markdown": "Forecasts begin with reported earnings, so the quality of those earnings matters.\n- **Persistent** earnings (likely to recur) are better forecasting bases than **transitory** items such as restructuring charges or gains on asset sales. Analysts often adjust the base to remove one-time items, so the forecast starts from a normalized level.\n- Accounting choices and estimates (inventory method, depreciation, revenue timing) can distort a trend. A ratio change deserves investigation before it is projected forward.\n- Forecasting is subjective. Ratios from the past may stop holding when the business, pricing, competition, input costs or currencies change.\n- Pressure on management to hit targets can bias forecasts, so the source and reliability of the data and the reasonableness of assumptions should always be checked."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company had sales of $800 million last year. An analyst forecasts sales growth of 5%. Historically COGS has been 60% of sales and SG&A 22% of sales; assume both stay at those percentages. Interest expense is fixed at $12 million because the debt is unchanged. The effective tax rate is 25% and 50 million shares are outstanding. Forecast net income and EPS.",
+        "steps": [
+          "Forecast sales: $800 million × 1.05 = $840 million (calculator: 800 × 1.05 = 840).",
+          "Operating margin = 100% − 60% − 22% = 18% of sales.",
+          "Operating income = 0.18 × 840 = $151.2 million.",
+          "Subtract the fixed interest expense: 151.2 − 12 = $139.2 million pretax income.",
+          "Apply tax: 139.2 × (1 − 0.25) = 139.2 × 0.75 = $104.4 million net income.",
+          "EPS = 104.4 ÷ 50 = $2.088, which rounds to $2.09."
+        ],
+        "answer": "Forecast net income is $104.4 million and EPS is about $2.09.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Sales forecast from growth",
+          "latex": "S_{1}=S_{0}\\times(1+g)",
+          "where": "S_0 = current-year sales, g = expected sales growth rate, S_1 = forecast sales."
+        },
+        {
+          "name": "Forecast net income from margins",
+          "latex": "NI=\\left(S_{1}\\times m_{op}-I\\right)\\times(1-t)",
+          "where": "S_1 = forecast sales, m_op = forecast operating margin (operating income ÷ sales), I = forecast interest expense, t = expected tax rate, NI = forecast net income."
+        },
+        {
+          "name": "Forecast EPS",
+          "latex": "EPS=\\dfrac{NI}{N}",
+          "where": "NI = forecast net income, N = expected weighted average shares outstanding."
+        }
+      ],
+      "exam_traps": [
+        "Projecting every expense as a constant % of sales, including fixed costs and interest. This understates how much earnings swing when sales miss the forecast.",
+        "Starting from reported earnings that include one-time gains or charges without normalizing them first.",
+        "Mixing up sensitivity analysis (one input changed at a time) with scenario analysis (several related inputs changed together).",
+        "Treating a pro forma forecast as fact. It is only as reliable as its assumptions, and the preparer may be biased.",
+        "Subtracting interest after applying tax, or forgetting interest altogether, when walking from operating income to net income."
+      ],
+      "builds_on": [
+        "Common-size statements",
+        "Income statement structure",
+        "Activity and profitability ratios",
+        "Operating and financial leverage"
+      ],
+      "leads_to": [
+        "Earnings quality",
+        "Equity valuation using earnings multiples",
+        "Scenario and sensitivity analysis in valuation"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00113:0",
+        "os:principles-finance-2e:m00113:3",
+        "os:principles-finance-2e:m00117:5",
+        "lyryx-ifa-vol2:443:441",
+        "damodaran-valn2ed-ch11:20:17",
+        "cfa-rf-earnings-quality:22:22"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst forecasts a retailer's sales by first estimating growth in overall consumer spending, then the retailer's likely market share, and then multiplying. This approach is best described as:",
+        "options": [
+          {
+            "text": "A bottom-up forecast built from store-level data",
+            "value": null,
+            "explanation": "Confuses bottom-up with top-down. A bottom-up forecast starts with company pieces such as stores, products or prices × volumes."
+          },
+          {
+            "text": "A top-down forecast starting from the economy or industry",
+            "value": null,
+            "explanation": "Correct. It starts with the macro or industry level and works down to the company through market share."
+          },
+          {
+            "text": "A sensitivity analysis of one input at a time",
+            "value": null,
+            "explanation": "Confuses a way of building a forecast with a way of stress-testing one. Sensitivity analysis changes one input to see the effect on the output."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes why an analyst uses a common-size income statement when forecasting earnings?",
+        "options": [
+          {
+            "text": "It shows historical expense-to-sales relationships that can be applied to forecast sales",
+            "value": null,
+            "explanation": "Correct. Expressing each line as a % of sales shows relationships that can be projected on forecast sales."
+          },
+          {
+            "text": "It removes the effect of accounting policy choices from past results",
+            "value": null,
+            "explanation": "Common-size statements rescale numbers but do not undo accounting choices, so distortions remain."
+          },
+          {
+            "text": "It guarantees that expenses will stay the same % of sales",
+            "value": null,
+            "explanation": "Percentages are only a starting assumption. They can change with pricing, costs or mix, so nothing is guaranteed."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst wants to see how much forecast net income changes if COGS turns out 10% higher than expected, while all other assumptions stay unchanged. This is an example of:",
+        "options": [
+          {
+            "text": "Scenario analysis, because several outcomes are examined",
+            "value": null,
+            "explanation": "Scenario analysis changes a set of related inputs together (for example a recession case), not just one input."
+          },
+          {
+            "text": "Simulation, because the output is recalculated",
+            "value": null,
+            "explanation": "Simulation draws many random input values from assumed distributions. A single 10% change is not a simulation."
+          },
+          {
+            "text": "Sensitivity analysis, because one input is changed at a time",
+            "value": null,
+            "explanation": "Correct. Changing a single input and observing the effect on net income shows which assumptions matter most."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A manufacturer has a large share of fixed costs. Its analyst cuts the sales forecast by 8% and keeps the fixed costs the same. Compared with the original forecast, operating earnings are most likely to:",
+        "options": [
+          {
+            "text": "Fall by exactly 8%, since margins are held constant",
+            "value": null,
+            "explanation": "Assumes every cost falls in proportion to sales. Fixed costs do not, so this ignores operating leverage."
+          },
+          {
+            "text": "Fall by less than 8%, since costs adjust downward",
+            "value": null,
+            "explanation": "Only variable costs fall with sales. Fixed costs stay, so profit drops by more, not less."
+          },
+          {
+            "text": "Fall by more than 8%, since fixed costs do not shrink",
+            "value": null,
+            "explanation": "Correct. Fixed costs stay the same while revenue falls, so operating earnings fall by a larger percentage than sales."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst forecasts sales of $500 million. COGS is 62% of sales and SG&A is 18% of sales. Interest expense is fixed at $10 million and the tax rate is 30%. Forecast net income, in $ millions, is closest to:",
+        "options": [
+          {
+            "text": "$70.0 million",
+            "value": null,
+            "explanation": "Applies tax to operating income of $100 million (100 × 0.7) but omits the $10 million interest expense."
+          },
+          {
+            "text": "$60.0 million",
+            "value": null,
+            "explanation": "Taxes operating income first (100 × 0.7 = 70) and then subtracts interest, so interest gets no tax shield."
+          },
+          {
+            "text": "$63.0 million",
+            "value": null,
+            "explanation": "Correct. Operating margin is 100% − 62% − 18% = 20%, so operating income is $100 million. Less interest of $10 million gives $90 million pretax, and × 0.70 = $63.0 million."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Last year's reported earnings include a large one-time gain from selling a factory. When using last year's earnings as the base for a forecast, the analyst should most appropriately:",
+        "options": [
+          {
+            "text": "Carry the full amount forward, since it is part of reported earnings",
+            "value": null,
+            "explanation": "Treats a transitory item as if it will recur, which overstates future earnings."
+          },
+          {
+            "text": "Adjust the base to remove the gain before projecting forward",
+            "value": null,
+            "explanation": "Correct. One-time items are transitory, so they are removed to start from a normalized, persistent level of earnings."
+          },
+          {
+            "text": "Discard earnings entirely and forecast only the balance sheet",
+            "value": null,
+            "explanation": "Overreaction. Earnings remain useful once their persistent components are separated from transitory items."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:22:22"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst is considering the consensus earnings forecast for a company. Which observation would most justify placing LESS weight on that consensus?",
+        "options": [
+          {
+            "text": "Many analysts follow the stock and recently revised estimates",
+            "value": null,
+            "explanation": "More analysts and recent information generally make a consensus more informative, not less."
+          },
+          {
+            "text": "The company recently restructured and analysts have updated for it",
+            "value": null,
+            "explanation": "Analysts' recent information is an advantage over models based only on history, especially after major changes."
+          },
+          {
+            "text": "Individual analysts' forecasts differ widely from one another",
+            "value": null,
+            "explanation": "Correct. A large dispersion signals disagreement and uncertainty, so the consensus is less reliable."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:20:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How do top-down and bottom-up sales forecasts differ?",
+        "back": "Top-down starts with economy or industry growth and applies market share to reach company sales. Bottom-up starts with company pieces (products, regions, prices × volumes) and adds them up.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is a common-size income statement used in forecasting earnings?",
+        "back": "Each line is shown as a % of sales. Stable historical percentages (COGS, SG&A, margins) are applied to forecast sales to project the expense lines.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3",
+          "os:principles-finance-2e:m00113:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the difference between sensitivity analysis and scenario analysis?",
+        "back": "Sensitivity analysis changes one input at a time to see its effect on earnings. Scenario analysis changes several related inputs together to describe a coherent situation (for example a recession case).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00117:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why should a forecast not treat interest expense and fixed costs as a constant % of sales?",
+        "back": "Interest depends on debt and its rate, and fixed costs do not move with sales. Treating them as % of sales hides operating leverage and understates how much earnings swing if sales miss.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why do analysts normalize past earnings before forecasting?",
+        "back": "Transitory items such as one-time gains or restructuring charges will not recur. Removing them leaves persistent earnings as a better base for projection.",
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:22:22"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:59:55.672Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-11-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 885,
+      "outputTokens": 504,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006927,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:00:05.110Z",
+      "purpose": "grounding",
+      "losId": "fsa-11-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12678,
+      "outputTokens": 1457,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0400952,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0470222
+}

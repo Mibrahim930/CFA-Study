@@ -1,0 +1,839 @@
+{
+  "losId": "fsa-02-los3",
+  "losText": "describe the financial reporting treatment and analysis of non-recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies",
+  "moduleId": "fsa-02",
+  "moduleTitle": "Analyzing Income Statements",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:41:26.952Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-nongaap:41:34",
+      "title": "Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting (CFA Institute)",
+      "locator": "pp. 41–42",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/bridging-the-gap-ensuring-non-gaap-and-performance-reporting.pdf#page=41",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "cfa-nongaap:44:37",
+      "title": "Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting (CFA Institute)",
+      "locator": "pp. 44–45",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/bridging-the-gap-ensuring-non-gaap-and-performance-reporting.pdf#page=44",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "ey-us-gaap-vs-ifrs-2026:4:4",
+      "title": "US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY)",
+      "locator": "pp. 4–5",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf#page=4",
+      "license": "© EY; free public PDF on ey.com, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "lyryx-ifa-vol2:416:409",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 416–417",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=416",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "cfa-nongaap:29:25",
+      "title": "Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting (CFA Institute)",
+      "locator": "pp. 29–30",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/bridging-the-gap-ensuring-non-gaap-and-performance-reporting.pdf#page=29",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "ey-us-gaap-vs-ifrs-2026:18:23",
+      "title": "US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY)",
+      "locator": "p. 18",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf#page=18",
+      "license": "© EY; free public PDF on ey.com, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "lyryx-ifa-vol2:382:375",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 382–383",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=382",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:415:408",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 415–416",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=415",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:414:407",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 414–415",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=414",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-nongaap:45:38",
+      "title": "Bridging the Gap: Ensuring Effective Non-GAAP and Performance Reporting (CFA Institute)",
+      "locator": "p. 45",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/bridging-the-gap-ensuring-non-gaap-and-performance-reporting.pdf#page=45",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:470:385",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "p. 470",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=470",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "cfa-rf-earnings-quality:122:138",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 122–123",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=122",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "One-Offs and Accounting Changes: What to Keep in Earnings and What to Strip Out",
+      "summary": "Companies sometimes report gains, losses or restatements that will not repeat, and they sometimes change how they account for things. This lesson shows how each of these is presented, so you can separate lasting earning power from noise and compare years fairly.",
+      "sections": [
+        {
+          "heading": "Why analysts care about one-offs",
+          "body_markdown": "Imagine a restaurant owner who sells her food truck this year. Profit jumps. A fair forecast of next year's profit should not assume she sells a truck every year. Analysts value a company mainly on **earnings that will repeat**, so the first job is to sort income-statement items into *recurring* (likely to continue) and *non-recurring* (unlikely to continue).\n\nThe second job is **comparability**. If a company changes the way it accounts for something, this year's numbers may not be comparable with last year's. The reporting rules for accounting changes are designed to fix that, in different ways depending on the type of change."
+        },
+        {
+          "heading": "Discontinued operations",
+          "body_markdown": "A **discontinued operation** is a component of the business that has been disposed of or is classified as *held for sale*, and that is big enough to matter. Under IFRS it is a separate major line of business or geographical area, or a subsidiary bought only to resell. US GAAP asks for a disposal that is a *strategic shift* with a major effect on the entity.\n\nPresentation:\n- Results of the discontinued component, plus any gain or loss on disposal, appear on **one separate line, after income from continuing operations, net of tax**.\n- Prior-period statements are re-presented so the component is treated as discontinued in the comparatives as well.\n- While held for sale, the assets are measured at the **lower of carrying amount and fair value less costs to sell**, are **not depreciated**, and are shown separately on the balance sheet.\n\nAnalyst takeaway: because the component is leaving, its results have little predictive value. Forecast from **income from continuing operations**, and do not carry the discontinued line into future earnings."
+        },
+        {
+          "heading": "Unusual or infrequent items",
+          "body_markdown": "Some items arise in ordinary operations but are odd in size or timing, such as a gain on selling a building, a legal settlement or an impairment. They are called **unusual** (not typical of the business) or **infrequent** (not expected to recur soon), or both.\n\nThey stay **inside continuing operations, before tax**. They are shown on their own line or explained in the notes if material. Neither IFRS nor US GAAP now permits the old category of *extraordinary items* shown below continuing operations, because companies kept labelling recurring costs as extraordinary.\n\nAnalyst takeaway: decide for yourself whether each item will repeat. Restructuring charges and impairments that show up year after year are effectively **recurring**, whatever label management uses. Regulators such as IOSCO and ESMA say the same: such items should not be called non-recurring, infrequent or unusual without good reason. When you remove an item, remove its tax effect too, and remove both gains and losses consistently."
+        },
+        {
+          "heading": "Three kinds of accounting change",
+          "body_markdown": "| Type | Example | Treatment |\n|---|---|---|\n| **Change in accounting policy** | FIFO to weighted-average inventory costing | **Retrospective**: restate prior periods as if the new policy had always applied; disclose reasons and effects |\n| **Change in accounting estimate** | New useful life or salvage value; also a change in depreciation method | **Prospective**: apply to the current and future periods only; no restatement |\n| **Error correction** | Mistake in a prior-year calculation | **Retrospective**: restate comparatives and opening equity |\n\nA voluntary policy change is allowed only if the new policy gives reliable and *more relevant* information. If retrospective application is impracticable for a policy change, the company must explain why. Standards also have transition rules when a new standard is adopted.\n\nWhy the difference? A policy change is a choice about *method*, so old figures are redone to stay comparable. An estimate is a best guess that was reasonable with the information available then, so old figures are left alone and the new guess applies from now on.\n\nAnalyst takeaway: restated prior periods are comparable with the current year, so trends are reliable. A prospective estimate change creates a break in comparability, so read the note to see how much this year's profit is affected."
+        },
+        {
+          "heading": "Putting it together as an analyst",
+          "body_markdown": "A practical routine:\n1. Start from **income from continuing operations** and drop discontinued operations from the forecast base.\n2. Read the notes for unusual or infrequent items. Decide if each is truly one-off, and adjust pre-tax amounts for tax if you remove them.\n3. Check for accounting changes. Policy changes and error corrections mean restated comparatives; estimate changes mean a one-time shift in the current year's expense.\n4. Be sceptical of company-defined adjusted (non-GAAP) earnings. Management has wide discretion, and excluding recurring costs flatters results."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company bought equipment for 120,000 with a 10-year life and a 10,000 salvage value, using straight-line depreciation. After 4 full years, management revises the remaining useful life to 8 years and keeps the 10,000 salvage value. Under IFRS and US GAAP this is a change in estimate. What is the annual depreciation expense from year 5 onward?",
+        "steps": [
+          "Original annual depreciation: (120,000 − 10,000) / 10 = 11,000.",
+          "Accumulated depreciation after 4 years: 4 × 11,000 = 44,000, so carrying amount = 120,000 − 44,000 = 76,000.",
+          "A change in estimate is applied prospectively, so do NOT restate years 1–4. Spread the remaining depreciable amount over the remaining life.",
+          "Remaining depreciable amount = 76,000 − 10,000 = 66,000.",
+          "New annual depreciation = 66,000 / 8 = 8,250.",
+          "BA II Plus: 76000 − 10000 = ÷ 8 = shows 8,250. The TVM keys are not needed."
+        ],
+        "answer": "Annual depreciation from year 5 onward is 8,250. Prior-year statements are not restated.",
+        "answer_value": 8250,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":76000,\"salvage\":10000,\"life\":8}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Revised depreciation after a change in estimate",
+          "latex": "D_{new}=\\frac{CA-S_{new}}{N_{rem}}",
+          "where": "D_new = annual depreciation going forward; CA = carrying amount at the date of change; S_new = revised salvage value; N_rem = remaining useful life in years."
+        },
+        {
+          "name": "Net income with a discontinued operation",
+          "latex": "NI=IncomeContOps+Disc_{pre}\\times(1-t)",
+          "where": "IncomeContOps = income from continuing operations after tax; Disc_pre = pre-tax result of the discontinued component including any gain or loss on disposal (a loss is negative); t = tax rate. The discontinued line is shown net of tax."
+        }
+      ],
+      "exam_traps": [
+        "Restating prior years for a change in estimate. Estimates are prospective only; policy changes and error corrections are retrospective.",
+        "Treating a change in depreciation method as a change in policy. Both IAS 8 and US GAAP treat it as a change in estimate, applied prospectively.",
+        "Assuming an item labelled 'unusual' or 'non-recurring' will not repeat. A charge that appears every year is recurring and belongs in a forecast.",
+        "Forgetting that discontinued operations are shown net of tax on a separate line after continuing operations, while unusual or infrequent items stay in continuing operations before tax.",
+        "Thinking extraordinary items are still reported below continuing operations. That category is no longer permitted under IFRS or US GAAP."
+      ],
+      "builds_on": [
+        "Income statement structure and subtotals",
+        "Expense recognition and depreciation",
+        "Revenue recognition choices"
+      ],
+      "leads_to": [
+        "Earnings per share (continuing vs net income)",
+        "Common-size and ratio analysis of adjusted earnings",
+        "Earnings quality and non-GAAP measures"
+      ],
+      "cited_chunk_ids": [
+        "ey-us-gaap-vs-ifrs-2026:4:4",
+        "ey-us-gaap-vs-ifrs-2026:18:23",
+        "lyryx-ifa-vol2:416:409",
+        "lyryx-ifa-vol2:415:408",
+        "lyryx-intro-fa-2021a:470:385",
+        "cfa-nongaap:29:25",
+        "cfa-nongaap:44:37"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) pp. 4–5: \"a separate major line of business or geographical\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company sells a major division that qualifies as a discontinued operation. How is the division's result, including the gain or loss on disposal, presented on the income statement?",
+        "options": [
+          {
+            "text": "Within operating expenses, before tax, so that operating income reflects the sale",
+            "value": null,
+            "explanation": "Incorrect. This treats the item like an unusual or infrequent item inside continuing operations. Discontinued operations are kept out of continuing results."
+          },
+          {
+            "text": "On a separate line after income from continuing operations, net of tax",
+            "value": null,
+            "explanation": "Correct. Discontinued operations are shown separately, net of tax, below continuing operations, so analysts can forecast from continuing results."
+          },
+          {
+            "text": "In the notes only, with net income left unchanged by the division's result",
+            "value": null,
+            "explanation": "Incorrect. The result is part of net income. It is shown on the face of the income statement, not hidden in the notes."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:470:385",
+          "ey-us-gaap-vs-ifrs-2026:4:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A manufacturer records a large pre-tax gain on selling a surplus factory building. The gain is judged unusual but is not part of a discontinued operation. Under current IFRS and US GAAP, how is it reported?",
+        "options": [
+          {
+            "text": "Within continuing operations before tax, on a separate line or disclosed in the notes",
+            "value": null,
+            "explanation": "Correct. Unusual or infrequent items stay in continuing operations and are separately shown or disclosed if material."
+          },
+          {
+            "text": "As an extraordinary item below continuing operations, shown net of tax",
+            "value": null,
+            "explanation": "Incorrect. This was the older practice. Extraordinary classification is no longer permitted, partly because recurring items were being mislabelled."
+          },
+          {
+            "text": "Directly in equity, bypassing the income statement entirely",
+            "value": null,
+            "explanation": "Incorrect. A gain on disposal of an asset goes through profit or loss, not straight to equity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-nongaap:29:25"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company voluntarily changes its inventory costing method from FIFO to weighted average because the new method gives more relevant information. Which treatment applies?",
+        "options": [
+          {
+            "text": "Apply prospectively, affecting only the current and future periods",
+            "value": null,
+            "explanation": "Incorrect. This is the treatment for a change in estimate, not for a change in accounting policy."
+          },
+          {
+            "text": "Report the cumulative effect as a one-time item in the current year and leave prior years unchanged",
+            "value": null,
+            "explanation": "Incorrect. A one-time current-year catch-up would break comparability. Policy changes are applied to prior periods too."
+          },
+          {
+            "text": "Apply retrospectively, restating prior periods as if the new method had always been used",
+            "value": null,
+            "explanation": "Correct. Voluntary policy changes are applied retrospectively with comparatives restated, and the reasons and effects are disclosed."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:415:408",
+          "lyryx-ifa-vol2:416:409"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A machine cost 90,000 and was depreciated straight-line over 10 years with zero salvage value. After 3 full years, management revises the remaining useful life to 9 years and the salvage value to 9,000. The change is treated as a change in estimate. What is annual depreciation from year 4 onward? Round to the nearest whole currency unit.",
+        "options": [
+          {
+            "text": "9,000",
+            "value": 9000,
+            "explanation": "Mistake: ignoring the revision and continuing the original depreciation of 90,000 / 10."
+          },
+          {
+            "text": "6,000",
+            "value": 6000,
+            "explanation": "Correct. Carrying amount after 3 years = 90,000 − 27,000 = 63,000. Then (63,000 − 9,000) / 9 = 6,000, applied prospectively."
+          },
+          {
+            "text": "7,000",
+            "value": 7000,
+            "explanation": "Mistake: dividing the carrying amount of 63,000 by 9 years and forgetting to deduct the revised 9,000 salvage value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":63000,\"salvage\":9000,\"life\":9}"
+        },
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:416:409",
+          "ey-us-gaap-vs-ifrs-2026:18:23"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose C (high): Annual depreciation is 7,000: accumulated depreciation after 3 years is 27,000, so the book value is 63,000; subtracting the 9,000 salvage leaves 54,000, and 54,000 / 9 years = 6,000. That works out to 6,000, so the correct choice is B (index 1)."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "critic_review": {
+          "pass": true,
+          "issues": [
+            "flag overturned on second review: Annual depreciation is 9,000 per year for 3 years, so accumulated depreciation is 27,000 and carrying amount is 63,000. Then (63,000 − 9,000)/9 = 6,000, which matches the key and engine value. The 9-year remaining life is an explicitly stated revised estimate, so there is no inconsistency, and the distractors A (9,000) and C (63,000/9 = 7,000) are correctly explained."
+          ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company changes its depreciation method from straight-line to declining balance because it now believes the asset's benefits are used up faster in early years. How should this be classified and treated under IFRS and US GAAP?",
+        "options": [
+          {
+            "text": "As a change in accounting policy, with prior periods restated retrospectively",
+            "value": null,
+            "explanation": "Incorrect. Depreciation method looks like a policy choice, but the standards treat it as an estimate because it reflects the expected pattern of benefits."
+          },
+          {
+            "text": "As an error correction, with prior periods restated and opening equity adjusted",
+            "value": null,
+            "explanation": "Incorrect. An error is an omission or misstatement in earlier statements. A better judgement about future benefits is not an error."
+          },
+          {
+            "text": "As a change in accounting estimate, applied prospectively to current and future periods",
+            "value": null,
+            "explanation": "Correct. Changes in depreciation method, residual value and useful life are all changes in estimate, applied prospectively with no restatement."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ey-us-gaap-vs-ifrs-2026:18:23",
+          "lyryx-ifa-vol2:416:409"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 18: \"changes in depreciation method residual value and useful\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For each of the last four years a company has reported a restructuring charge described as 'unusual' within continuing operations. An analyst is forecasting next year's earnings. What is the most appropriate approach?",
+        "options": [
+          {
+            "text": "Treat the charges as recurring and include a typical level of restructuring cost in the forecast",
+            "value": null,
+            "explanation": "Correct. A charge that repeats every year is effectively recurring, regardless of management's label, so ignoring it overstates sustainable earnings."
+          },
+          {
+            "text": "Exclude the charges because management has labelled them unusual",
+            "value": null,
+            "explanation": "Mistake: relying on management's label. Regulators warn against describing repeated restructuring costs as non-recurring or unusual."
+          },
+          {
+            "text": "Exclude the charges because items inside continuing operations are non-recurring by definition",
+            "value": null,
+            "explanation": "Mistake: continuing operations include both recurring and non-recurring items. Being in continuing operations says nothing about whether an item repeats."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-nongaap:44:37",
+          "cfa-nongaap:45:38"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company decides to sell a business unit and classifies its assets as held for sale. Which statement about those assets is correct?",
+        "options": [
+          {
+            "text": "They are measured at the higher of carrying amount and fair value less costs to sell, and depreciation continues",
+            "value": null,
+            "explanation": "Mistake: reversing the measurement rule and continuing depreciation. Assets held for sale use the lower amount and are no longer depreciated."
+          },
+          {
+            "text": "They are measured at the lower of carrying amount and fair value less costs to sell, are not depreciated, and are shown separately on the balance sheet",
+            "value": null,
+            "explanation": "Correct. This is the held-for-sale treatment under both IFRS 5 and US GAAP."
+          },
+          {
+            "text": "They stay at carrying amount with depreciation continuing, and are shown within property, plant and equipment",
+            "value": null,
+            "explanation": "Mistake: ignoring the reclassification. Held-for-sale assets are presented separately and depreciation stops."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ey-us-gaap-vs-ifrs-2026:18:23"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Where do discontinued operations appear on the income statement, and how are they measured?",
+        "back": "On a separate line after income from continuing operations, net of tax. They are excluded when forecasting future earnings.",
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:470:385",
+          "ey-us-gaap-vs-ifrs-2026:4:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Where are unusual or infrequent items reported, and what about extraordinary items?",
+        "back": "Inside continuing operations, pre-tax, separately shown or disclosed. The extraordinary category is no longer permitted under IFRS or US GAAP.",
+        "cited_chunk_ids": [
+          "cfa-nongaap:29:25"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Contrast the treatment of a change in accounting policy with a change in accounting estimate.",
+        "back": "Policy change: retrospective, restate prior periods. Estimate change: prospective, current and future periods only. Error corrections are also retrospective.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:416:409",
+          "lyryx-ifa-vol2:415:408"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How is a change in depreciation method, useful life or residual value treated?",
+        "back": "As a change in estimate, applied prospectively. Spread the carrying amount less revised salvage over the remaining life.",
+        "cited_chunk_ids": [
+          "ey-us-gaap-vs-ifrs-2026:18:23"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "How should an analyst treat a charge labelled 'non-recurring' that appears every year?",
+        "back": "As recurring. Include a normal level of it in forecasts, since management's label does not make it one-off.",
+        "cited_chunk_ids": [
+          "cfa-nongaap:44:37"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/6 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:41:14.945Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-02-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 892,
+      "outputTokens": 499,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006891,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:41:23.345Z",
+      "purpose": "grounding",
+      "losId": "fsa-02-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10718,
+      "outputTokens": 1290,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0345052,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:41:26.951Z",
+      "purpose": "confirm",
+      "losId": "fsa-02-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 510,
+      "outputTokens": 179,
+      "cacheWriteTokens": 540,
+      "cacheReadTokens": 0,
+      "costUsd": 0.00416,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0455562
+}

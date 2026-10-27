@@ -1,0 +1,456 @@
+{
+  "losId": "fsa-02-los4",
+  "losText": "describe how earnings per share is calculated and calculate and interpret a company's basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities",
+  "moduleId": "fsa-02",
+  "moduleTitle": "Analyzing Income Statements",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T15:42:22.276Z",
+  "retrieved": [
+    {
+      "id": "lyryx-ifa-vol2:323:323",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 323",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=323",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.22
+    },
+    {
+      "id": "lyryx-ifa-vol2:308:308",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 308",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=308",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "lyryx-ifa-vol2:312:312",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 312–313",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=312",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "lyryx-ifa-vol2:305:304",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 305",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=305",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "lyryx-ifa-vol2:311:311",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 311–312",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=311",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "lyryx-ifa-vol2:318:318",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 318–319",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=318",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "lyryx-ifa-vol2:298:297",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 298",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=298",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:321:321",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 321–322",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=321",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:552:530",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 552–553",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=552",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:308:309",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 308–310",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=308",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:322:322",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "p. 322",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=322",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "lyryx-ifa-vol2:313:313",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 313–314",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=313",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Earnings per Share: Basic, Diluted and Antidilution",
+      "summary": "EPS shows how much profit belongs to each ordinary share. Basic EPS uses only shares already outstanding, while diluted EPS asks what would happen if options and convertible securities turned into shares, so you can judge how fragile the number is.",
+      "sections": [
+        {
+          "heading": "EPS as a slice of the pie",
+          "body_markdown": "Think of net income as a pie and each common share as one slice. **Earnings per share (EPS)** tells you how much pie each slice gets. Only common shareholders are measured, so anything owed to **preferred shareholders** (holders with a priority claim on dividends) is taken out first.\n\n$$\\text{Basic EPS}=\\frac{\\text{Net income}-\\text{Preferred dividends}}{\\text{Weighted average common shares}}$$\n\nFor **cumulative** preferred, deduct the dividend entitlement for the year even if the board did not declare it. For **non-cumulative** preferred, deduct only dividends declared. Dividends in arrears from earlier years are not deducted again."
+        },
+        {
+          "heading": "Weighted average shares",
+          "body_markdown": "The share count changes during the year, so we use a **weighted average**: each block of shares counts for the fraction of the year it was outstanding. Shares issued on April 1 count for $9/12$ of the year. Shares bought back reduce the count from the buyback date.\n\n**Stock splits and stock dividends are different.** They give owners more shares without bringing in new resources, so they are applied *retroactively*, as if they had happened on day one. Every earlier share count is multiplied by the split factor, and the time weights stay as they were. A 2-for-1 split on October 1 doubles the January share count too.\n\nPlain issuances and buybacks are *not* restated, because they really change the company's resources."
+        },
+        {
+          "heading": "Simple versus complex capital structure",
+          "body_markdown": "A company has a **simple capital structure** if it has no securities that could become common shares, so it reports only basic EPS. A company with **convertible bonds, convertible preferred, stock options or warrants** has a **complex capital structure** and must also report **diluted EPS**.\n\n**Dilution** means more shares could exist without a matching increase in earnings. Diluted EPS is a conservative, worst-case view. It assumes every potentially dilutive security has already been converted or exercised at the start of the period (or at issue, if later).\n\nTwo methods apply:\n- **If-converted method** (convertible preferred and convertible bonds). Assume conversion. Add back the preferred dividends (no tax effect) or the **after-tax** interest saved on the bonds to the numerator. Add the new shares to the denominator.\n- **Treasury stock method** (options and warrants). Assume the holders exercise and the company uses the cash to buy back shares at the *average market price*. Only the net new shares count: $\\text{new shares}-\\frac{\\text{cash received}}{\\text{average price}}$. Options only matter if the average market price is above the exercise price."
+        },
+        {
+          "heading": "Antidilutive securities",
+          "body_markdown": "A security is **antidilutive** if including it would *raise* EPS (or lower a loss per share). Diluted EPS should never be flattering, so antidilutive securities are left out.\n\nFor a convertible security, compute its *incremental EPS*, meaning the numerator add-back divided by the new shares. Compare it with basic EPS:\n- Incremental EPS **below** basic EPS: dilutive, so include it.\n- Incremental EPS **above** basic EPS: antidilutive, so exclude it.\n\nOptions are antidilutive when out of the money on average (average price below exercise price). Because of this, diluted EPS is never higher than basic EPS. If several securities are dilutive, include them starting with the most dilutive and confirm each still lowers EPS. A company with a complex capital structure still reports both numbers even when they come out equal.\n\nAnalyst's view: a large gap between basic and diluted EPS means existing shareholders face significant potential dilution."
+        }
+      ],
+      "worked_example": {
+        "problem": "Halden Corp reports net income of $12,000,000 for the year. It pays a $1,000,000 cumulative, non-convertible preferred dividend. It had 4,000,000 common shares at the start of the year and issued 600,000 new shares on April 1. It also has (i) convertible bonds with face value $10,000,000, a 5% coupon and a 30% tax rate, convertible into 200,000 shares and outstanding all year, and (ii) 100,000 options with a $30 exercise price. The average market price was $40. Calculate basic and diluted EPS, rounded to two decimals.",
+        "steps": [
+          "Weighted average shares: $4{,}000{,}000+600{,}000\\times 9/12=4{,}450{,}000$.",
+          "Basic EPS: $(12{,}000{,}000-1{,}000{,}000)\\div 4{,}450{,}000$. On the BA II Plus press 11000000 ÷ 4450000 = to get 2.4719, so basic EPS is $2.47.",
+          "Options (treasury stock method): proceeds are $100{,}000\\times 30=3{,}000{,}000$. Shares repurchased are $3{,}000{,}000\\div 40=75{,}000$. Net new shares are $100{,}000-75{,}000=25{,}000$. There is no income effect, so these are dilutive because the exercise price is below the average price.",
+          "Convertible bonds (if-converted): interest is $10{,}000{,}000\\times 5\\%=500{,}000$. After tax it is $500{,}000\\times(1-0.30)=350{,}000$. Incremental EPS is $350{,}000\\div 200{,}000=\\$1.75$. This is below $2.47, so the bonds are dilutive.",
+          "Diluted numerator: $11{,}000{,}000+350{,}000=11{,}350{,}000$. Diluted denominator: $4{,}450{,}000+200{,}000+25{,}000=4{,}675{,}000$.",
+          "Diluted EPS: 11350000 ÷ 4675000 = 2.4278, which rounds to $2.43."
+        ],
+        "answer": "Basic EPS is $2.47 and diluted EPS is $2.43.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Basic EPS",
+          "latex": "\\text{Basic EPS}=\\frac{NI-PD}{\\bar{S}}",
+          "where": "NI = net income; PD = preferred dividends deducted (cumulative: entitlement for the year; non-cumulative: declared only); \\bar{S} = weighted average common shares outstanding."
+        },
+        {
+          "name": "Weighted average shares",
+          "latex": "\\bar{S}=\\sum_i S_i\\times t_i",
+          "where": "S_i = shares outstanding in block i (restated for splits and stock dividends); t_i = fraction of the year that block was outstanding."
+        },
+        {
+          "name": "Diluted EPS",
+          "latex": "\\text{Diluted EPS}=\\frac{NI-PD+PD_c+I_c(1-T)}{\\bar{S}+S_c+S_o}",
+          "where": "PD_c = dividends on convertible preferred added back; I_c = interest on convertible bonds; T = tax rate; S_c = shares from assumed conversion; S_o = net new shares from options (treasury stock method). Include only dilutive items."
+        },
+        {
+          "name": "Treasury stock method",
+          "latex": "S_o=N\\left(1-\\frac{K}{P_{avg}}\\right)",
+          "where": "N = options outstanding; K = exercise price; P_{avg} = average market price. Applies only if P_{avg}>K."
+        },
+        {
+          "name": "Antidilution test for convertibles",
+          "latex": "\\frac{\\text{numerator add-back}}{\\text{new shares}}<\\text{basic EPS}\\Rightarrow\\text{dilutive}",
+          "where": "The add-back is after-tax interest for bonds, or the preferred dividend for convertible preferred."
+        }
+      ],
+      "exam_traps": [
+        "Not deducting cumulative preferred dividends just because the board did not declare them. Cumulative entitlements are always deducted for the year.",
+        "Applying a stock split only to the period after it happened. Splits and stock dividends are restated back to the start of the year, but ordinary issuances are not.",
+        "Adding back the pre-tax interest on convertible bonds. It must be after tax, while convertible preferred dividends are added back with no tax adjustment.",
+        "Using the year-end price or the full option count in the treasury stock method. Use the average market price, and count only the net new shares.",
+        "Including a security that raises EPS. If incremental EPS exceeds basic EPS, leave the security out, and remember that diluted EPS is never higher than basic EPS."
+      ],
+      "builds_on": [
+        "Income statement structure",
+        "Net income and preferred dividends",
+        "Weighted averages",
+        "Time value of money for convertible bonds (basic idea)"
+      ],
+      "leads_to": [
+        "Common-size income statements and ratios",
+        "P/E and equity valuation",
+        "Quality of earnings and share buybacks"
+      ],
+      "cited_chunk_ids": [
+        "lyryx-ifa-vol2:298:297",
+        "lyryx-ifa-vol2:322:322",
+        "lyryx-ifa-vol2:305:304",
+        "lyryx-ifa-vol2:308:309",
+        "lyryx-ifa-vol2:552:530"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company has net income of $8,000,000 and a weighted average of 4,000,000 common shares. It has cumulative, non-convertible preferred stock with an annual dividend entitlement of $1,200,000, and the board declared no dividends this year. What is basic EPS?",
+        "options": [
+          {
+            "text": "$2.00",
+            "value": null,
+            "explanation": "This ignores the preferred dividend because it was not declared. That is the non-cumulative treatment; cumulative preferred must be deducted."
+          },
+          {
+            "text": "$1.70",
+            "value": null,
+            "explanation": "Correct. Cumulative preferred is deducted whether or not it is declared: (8,000,000 − 1,200,000) ÷ 4,000,000 = $1.70."
+          },
+          {
+            "text": "$2.30",
+            "value": null,
+            "explanation": "This adds the preferred dividend to net income instead of subtracting it: (8,000,000 + 1,200,000) ÷ 4,000,000."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:322:322",
+          "lyryx-ifa-vol2:298:297"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company starts the year with 1,000,000 common shares. It issues 200,000 shares for cash on July 1, and on October 1 it carries out a 2-for-1 stock split. What is the weighted average number of shares for the year?",
+        "options": [
+          {
+            "text": "1,100,000 shares",
+            "value": null,
+            "explanation": "This ignores the split completely: 1,000,000 + 200,000 × 6/12."
+          },
+          {
+            "text": "1,400,000 shares",
+            "value": null,
+            "explanation": "This applies the split only from October 1 onward instead of restating the whole year, so the earlier periods are left unadjusted."
+          },
+          {
+            "text": "2,200,000 shares",
+            "value": null,
+            "explanation": "Correct. Restate for the split from day one: 2,000,000 opening shares plus 400,000 issued shares × 6/12 = 2,200,000."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:552:530",
+          "lyryx-ifa-vol2:322:322"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company has 60,000 options outstanding with an exercise price of $20. The average market price during the year was $25 and the year-end price was $30. Using the treasury stock method, how many incremental shares are added to the diluted EPS denominator?",
+        "options": [
+          {
+            "text": "12,000 shares",
+            "value": null,
+            "explanation": "Correct. Proceeds of 1,200,000 buy back 1,200,000 ÷ 25 = 48,000 shares at the average price, so the net new shares are 60,000 − 48,000 = 12,000."
+          },
+          {
+            "text": "20,000 shares",
+            "value": null,
+            "explanation": "This uses the year-end price of $30 for the buyback (40,000 shares repurchased) instead of the average price."
+          },
+          {
+            "text": "60,000 shares",
+            "value": null,
+            "explanation": "This counts all the options as new shares and ignores the assumed buyback with the exercise proceeds."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:308",
+          "lyryx-ifa-vol2:305:304"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's basic EPS is $3.00. It has convertible preferred stock paying total dividends of $400,000 a year, convertible into 100,000 common shares. How should the preferred stock be treated in diluted EPS?",
+        "options": [
+          {
+            "text": "Include it, because conversion adds shares to the denominator",
+            "value": null,
+            "explanation": "This looks only at the share count. The dividend add-back must also be considered: incremental EPS is $4.00, so conversion would raise EPS."
+          },
+          {
+            "text": "Exclude it, because preferred dividends are not tax deductible",
+            "value": null,
+            "explanation": "The tax treatment is irrelevant to the decision. The deciding factor is the incremental EPS compared with basic EPS."
+          },
+          {
+            "text": "Exclude it, because incremental EPS of $4.00 exceeds basic EPS",
+            "value": null,
+            "explanation": "Correct. The add-back of $400,000 over 100,000 new shares is $4.00, above $3.00. The security is antidilutive and is left out."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:309",
+          "lyryx-ifa-vol2:311:311"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which company has a complex capital structure and must therefore report diluted EPS as well as basic EPS?",
+        "options": [
+          {
+            "text": "A company with common shares and non-convertible, cumulative preferred shares",
+            "value": null,
+            "explanation": "Non-convertible preferred cannot become common shares, so this company has a simple structure. It only reduces the numerator."
+          },
+          {
+            "text": "A company with common shares and convertible bonds outstanding",
+            "value": null,
+            "explanation": "Correct. Convertible bonds could become common shares, which makes the capital structure complex."
+          },
+          {
+            "text": "A company with common shares and ordinary non-convertible bonds",
+            "value": null,
+            "explanation": "Straight debt has no conversion right, so the structure is simple. Interest expense is already in net income."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:298:297",
+          "lyryx-ifa-vol2:322:322"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Net income is $5,000,000, there are no preferred dividends, and the weighted average share count is 2,000,000, so basic EPS is $2.50. The company has convertible bonds with face value $2,000,000 and a 6% coupon, convertible into 60,000 shares and outstanding all year. The tax rate is 25%. Using the if-converted method, what is diluted EPS, rounded to two decimals?",
+        "options": [
+          {
+            "text": "$2.43",
+            "value": null,
+            "explanation": "This adds the 60,000 shares but forgets to add back the interest saved: 5,000,000 ÷ 2,060,000."
+          },
+          {
+            "text": "$2.49",
+            "value": null,
+            "explanation": "This adds back the pre-tax interest of $120,000 instead of the after-tax $90,000: 5,120,000 ÷ 2,060,000."
+          },
+          {
+            "text": "$2.47",
+            "value": null,
+            "explanation": "Correct. After-tax interest is 120,000 × 0.75 = 90,000, and incremental EPS is 1.50, below 2.50, so the bonds are dilutive. Diluted EPS is 5,090,000 ÷ 2,060,000 = 2.47."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:308",
+          "lyryx-ifa-vol2:552:530"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company's options have an exercise price of $50. The average market price during the year was $42, and the year-end price was $55. How are these options treated in diluted EPS?",
+        "options": [
+          {
+            "text": "Excluded, because they were out of the money on average and would be antidilutive",
+            "value": null,
+            "explanation": "Correct. With an average price below the exercise price, the treasury stock method gives no dilution, and including the options would be antidilutive."
+          },
+          {
+            "text": "Included, using the year-end price of $55 in the buyback calculation",
+            "value": null,
+            "explanation": "This uses the year-end price. The treasury stock method uses the average market price, which here is below the exercise price."
+          },
+          {
+            "text": "Included in full, adding all option shares with no assumed buyback",
+            "value": null,
+            "explanation": "This ignores the buyback of shares with the exercise proceeds. Only net new shares are added, and only when the options are in the money on average."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:308",
+          "lyryx-ifa-vol2:313:313"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How is basic EPS calculated, and how are preferred dividends handled?",
+        "back": "(Net income − preferred dividends) ÷ weighted average common shares. Cumulative preferred: deduct the year's entitlement even if undeclared. Non-cumulative: deduct only if declared.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:322:322",
+          "lyryx-ifa-vol2:298:297"
+        ]
+      },
+      {
+        "front": "How do stock splits differ from share issuances in the weighted average share count?",
+        "back": "Splits and stock dividends are restated retroactively to the start of the year. Ordinary issuances and buybacks are weighted only from the date they occur.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:322:322",
+          "lyryx-ifa-vol2:552:530"
+        ]
+      },
+      {
+        "front": "What is the treasury stock method for options?",
+        "back": "Assume exercise and use the proceeds to buy back shares at the average market price. Add only the net new shares, N × (1 − K ÷ average price), and only if the average price exceeds the exercise price.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:308",
+          "lyryx-ifa-vol2:313:313"
+        ]
+      },
+      {
+        "front": "What is the if-converted method, and how do you test for antidilution?",
+        "back": "Assume convertible bonds or preferred were converted at the start of the period. Add back after-tax interest (bonds) or the preferred dividends (no tax), and add the new shares. If add-back ÷ new shares exceeds basic EPS, the security is antidilutive and excluded.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:308:309",
+          "lyryx-ifa-vol2:311:311",
+          "lyryx-ifa-vol2:305:304"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T15:42:22.276Z",
+      "purpose": "generate",
+      "losId": "fsa-02-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10326,
+      "outputTokens": 10542,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.12722819999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

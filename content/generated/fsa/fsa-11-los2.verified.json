@@ -1,0 +1,944 @@
+{
+  "losId": "fsa-11-los2",
+  "losText": "calculate and interpret activity, liquidity, solvency, and profitability ratios",
+  "moduleId": "fsa-11",
+  "moduleTitle": "Financial Analysis Techniques",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:58:55.765Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "lyryx-ifa-vol2:444:442",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 444–445",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=444",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "strathmore-analyzing-financial-statements:44:7",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 44–48",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=44",
+      "license": "University course handout; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "cfa-rf-earnings-quality:35:36",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 35–37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=35",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.4",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-earnings-quality:42:42",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 42",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=42",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — Profit Margin",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:532:437",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 532–533",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=532",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:39:40",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 39–41",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=39",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.6",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Reading a Company's Vital Signs: Activity, Liquidity, Solvency and Profitability Ratios",
+      "summary": "Ratios turn raw financial statement numbers into comparable measures of how efficiently a firm uses assets, whether it can pay its near-term bills, how heavily it relies on borrowing, and how much profit it earns. Knowing how each ratio is built, and what a high or low value signals, is core to every other topic in financial statement analysis.",
+      "sections": [
+        {
+          "heading": "Why ratios: a check-up for a business",
+          "body_markdown": "A single number such as net income of 5 million says little unless you know how big the firm is. A **ratio** divides one financial statement item by another, so firms of different sizes, or the same firm in different years, can be compared.\n\nThink of a medical check-up. Pulse, blood pressure, cholesterol and weight each look at a different aspect of health. Ratios do the same for a company and fall into four families:\n\n- **Activity ratios** show how efficiently the firm turns its assets into sales (how fast it sells inventory and collects cash).\n- **Liquidity ratios** show whether it can pay bills due in the near term.\n- **Solvency ratios** show how much it relies on borrowed money and whether it can carry that debt over the long run.\n- **Profitability ratios** show how much profit it earns from sales and from the capital invested.\n\nWhenever a ratio uses a balance sheet item (a snapshot at one date) against an income statement item (a flow over a period), the usual practice is to use the **average** of the beginning and ending balance, because the flow happened across the whole period."
+        },
+        {
+          "heading": "Activity ratios: how hard are the assets working?",
+          "body_markdown": "A **turnover** ratio counts how many times per year a balance is \"used up and replaced\". Dividing 365 by the turnover converts it into **days**, which is easier to picture.\n\n- **Inventory turnover** $=\\text{COGS}/\\text{average inventory}$. **Days of inventory on hand (DOH)** $=365/\\text{turnover}$, the average time inventory sits before it is sold. COGS (cost of goods sold) is the cost of the items sold, so it is the matching income statement item for inventory.\n- **Receivables turnover** $=\\text{revenue}/\\text{average receivables}$. **Days of sales outstanding (DSO)** $=365/\\text{turnover}$, the average time to collect cash from customers.\n- **Payables turnover** $=\\text{purchases}/\\text{average payables}$ (COGS is often used when purchases are not given). **Number of days of payables (DPO)** $=365/\\text{turnover}$, the average time taken to pay suppliers.\n- **Total asset turnover** $=\\text{revenue}/\\text{average total assets}$ and **fixed asset turnover** $=\\text{revenue}/\\text{average net fixed assets}$ show how much revenue each unit of assets produces.\n\nAnalogy: a corner shop that restocks and sells out its shelves every 10 days is working its stock harder than one that takes 60 days. Higher turnover (fewer days) usually means better efficiency, but extremes can signal trouble, for example stock-outs when inventory is too lean."
+        },
+        {
+          "heading": "Liquidity ratios: can it pay this year's bills?",
+          "body_markdown": "**Liquidity** is the ability to meet short-term obligations as they come due. **Current assets** are things expected to turn into cash within a year (cash, securities, receivables, inventory); **current liabilities** are obligations due within a year.\n\n- **Current ratio** $=\\text{current assets}/\\text{current liabilities}$.\n- **Quick ratio** $=(\\text{cash}+\\text{short-term marketable securities}+\\text{receivables})/\\text{current liabilities}$. It leaves out inventory, which can be slow to turn into cash.\n- **Cash ratio** $=(\\text{cash}+\\text{short-term marketable securities})/\\text{current liabilities}$, the strictest test.\n- **Defensive interval ratio** $=(\\text{cash}+\\text{securities}+\\text{receivables})/\\text{daily cash expenditures}$, the number of days the firm could keep operating without any new cash coming in.\n- **Cash conversion cycle (CCC)** $=\\text{DOH}+\\text{DSO}-\\text{DPO}$, the days between paying suppliers and collecting from customers. Shorter is generally better; a negative value means suppliers finance the business.\n\nThe ordering is current ratio $\\ge$ quick ratio $\\ge$ cash ratio, because each step removes something from the numerator."
+        },
+        {
+          "heading": "Solvency ratios: how much borrowing, and can it be serviced?",
+          "body_markdown": "**Solvency** is the ability to meet long-term obligations. Two kinds of ratios are used.\n\n**Leverage (balance sheet) ratios** compare debt with other funding. Here **total debt** means interest-bearing borrowings (short-term plus long-term), not every liability.\n\n- Debt-to-assets $=\\text{total debt}/\\text{total assets}$\n- Debt-to-capital $=\\text{total debt}/(\\text{total debt}+\\text{total equity})$\n- Debt-to-equity $=\\text{total debt}/\\text{total equity}$\n- Financial leverage $=\\text{average total assets}/\\text{average total equity}$\n\n**Coverage ratios** compare earnings with the cost of debt.\n\n- Interest coverage $=\\text{EBIT}/\\text{interest expense}$, where EBIT is earnings before interest and taxes.\n- Fixed charge coverage $=(\\text{EBIT}+\\text{lease payments})/(\\text{interest}+\\text{lease payments})$.\n\nAnalogy: leverage is like the size of your mortgage relative to your home's value, while coverage is how many times over your salary can pay the monthly mortgage instalment."
+        },
+        {
+          "heading": "Profitability ratios: how much is left for owners?",
+          "body_markdown": "**Return-on-sales** ratios show how much of each unit of revenue becomes profit at different levels of the income statement:\n\n- Gross margin $=\\text{gross profit}/\\text{revenue}$\n- Operating margin $=\\text{operating income}/\\text{revenue}$\n- Net margin $=\\text{net income}/\\text{revenue}$\n\n**Return-on-investment** ratios compare profit with the capital used to earn it:\n\n- Return on assets (ROA) $=\\text{net income}/\\text{average total assets}$\n- Return on equity (ROE) $=\\text{net income}/\\text{average total equity}$\n- Return on common equity $=(\\text{net income}-\\text{preferred dividends})/\\text{average common equity}$, because preferred shareholders are paid before common shareholders.\n\nA ratio only means something against a benchmark: the firm's own history, its competitors and its industry. The same ROE can be impressive in one industry and mediocre in another. How these ratios link together (for example through DuPont analysis) is covered in later lessons."
+        }
+      ],
+      "worked_example": {
+        "problem": "A manufacturer reports annual revenue of 1,460,000 (all sales on credit) and cost of goods sold (COGS) of 730,000. Average inventory is 100,000, average accounts receivable is 160,000 and average accounts payable is 60,000. Assume purchases equal COGS and use a 365-day year. Calculate days of inventory on hand, days of sales outstanding, number of days of payables and the cash conversion cycle.",
+        "steps": [
+          "Inventory turnover = COGS / average inventory = 730,000 / 100,000 = 7.3. Keystrokes: 730000 ÷ 100000 = 7.3.",
+          "DOH = 365 / 7.3 = 50 days. Keystrokes: 365 ÷ 7.3 = 50.",
+          "Receivables turnover = revenue / average receivables = 1,460,000 / 160,000 = 9.125. DSO = 365 / 9.125 = 40 days. Keystrokes: 365 ÷ 9.125 = 40.",
+          "Payables turnover = purchases / average payables = 730,000 / 60,000 = 12.1667. DPO = 365 / 12.1667 = 30 days. Keystrokes: 365 ÷ ( 730000 ÷ 60000 ) = 30.",
+          "Cash conversion cycle = DOH + DSO − DPO = 50 + 40 − 30 = 60 days."
+        ],
+        "answer": "DOH = 50 days, DSO = 40 days, DPO = 30 days, so the cash conversion cycle is 60 days.",
+        "answer_value": 60,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":50,\"dso\":40,\"dpo\":30}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Inventory turnover and days of inventory on hand",
+          "latex": "\\text{Inv. turnover}=\\frac{\\text{COGS}}{\\text{Avg. inventory}},\\quad \\text{DOH}=\\frac{365}{\\text{Inv. turnover}}",
+          "where": "COGS = cost of goods sold for the year; Avg. inventory = (beginning + ending inventory)/2; DOH = days of inventory on hand."
+        },
+        {
+          "name": "Receivables turnover and days of sales outstanding",
+          "latex": "\\text{Rec. turnover}=\\frac{\\text{Revenue}}{\\text{Avg. receivables}},\\quad \\text{DSO}=\\frac{365}{\\text{Rec. turnover}}",
+          "where": "Revenue = annual sales (credit sales if given); Avg. receivables = (beginning + ending)/2; DSO = days of sales outstanding."
+        },
+        {
+          "name": "Payables turnover and number of days of payables",
+          "latex": "\\text{Pay. turnover}=\\frac{\\text{Purchases}}{\\text{Avg. payables}},\\quad \\text{DPO}=\\frac{365}{\\text{Pay. turnover}}",
+          "where": "Purchases = COGS + ending inventory − beginning inventory (COGS is used if purchases are not given); Avg. payables = (beginning + ending)/2; DPO = days of payables."
+        },
+        {
+          "name": "Cash conversion cycle",
+          "latex": "\\text{CCC}=\\text{DOH}+\\text{DSO}-\\text{DPO}",
+          "where": "CCC = days from paying suppliers to collecting cash from customers; DOH, DSO, DPO as defined above."
+        },
+        {
+          "name": "Total asset turnover",
+          "latex": "\\text{Total asset turnover}=\\frac{\\text{Revenue}}{\\text{Avg. total assets}}",
+          "where": "Revenue = annual sales; Avg. total assets = (beginning + ending total assets)/2."
+        },
+        {
+          "name": "Current ratio",
+          "latex": "\\text{Current ratio}=\\frac{\\text{Current assets}}{\\text{Current liabilities}}",
+          "where": "Current assets and current liabilities are balance sheet totals at the same date."
+        },
+        {
+          "name": "Quick ratio",
+          "latex": "\\text{Quick ratio}=\\frac{\\text{Cash}+\\text{ST marketable securities}+\\text{Receivables}}{\\text{Current liabilities}}",
+          "where": "ST marketable securities = short-term marketable securities; inventory and prepaid items are excluded."
+        },
+        {
+          "name": "Cash ratio",
+          "latex": "\\text{Cash ratio}=\\frac{\\text{Cash}+\\text{ST marketable securities}}{\\text{Current liabilities}}",
+          "where": "Same symbols as the quick ratio; receivables are also excluded."
+        },
+        {
+          "name": "Defensive interval ratio",
+          "latex": "\\text{DIR}=\\frac{\\text{Cash}+\\text{ST securities}+\\text{Receivables}}{\\text{Daily cash expenditures}}",
+          "where": "DIR = number of days the firm can pay its expenses from liquid assets; daily cash expenditures = annual cash operating expenses / 365."
+        },
+        {
+          "name": "Debt-to-assets",
+          "latex": "\\text{D/A}=\\frac{\\text{Total debt}}{\\text{Total assets}}",
+          "where": "Total debt = interest-bearing short- and long-term borrowings."
+        },
+        {
+          "name": "Debt-to-equity",
+          "latex": "\\text{D/E}=\\frac{\\text{Total debt}}{\\text{Total equity}}",
+          "where": "Total debt = interest-bearing borrowings; Total equity = shareholders' equity."
+        },
+        {
+          "name": "Financial leverage",
+          "latex": "\\text{Fin. leverage}=\\frac{\\text{Avg. total assets}}{\\text{Avg. total equity}}",
+          "where": "Averages of beginning and ending balances; a value above 1 means assets are partly financed by liabilities."
+        },
+        {
+          "name": "Interest coverage",
+          "latex": "\\text{Interest coverage}=\\frac{\\text{EBIT}}{\\text{Interest expense}}",
+          "where": "EBIT = earnings before interest and taxes; interest expense for the same period."
+        },
+        {
+          "name": "Fixed charge coverage",
+          "latex": "\\text{FCC}=\\frac{\\text{EBIT}+\\text{Lease payments}}{\\text{Interest}+\\text{Lease payments}}",
+          "where": "Lease payments = lease expense on leases; interest = interest expense."
+        },
+        {
+          "name": "Profit margins",
+          "latex": "\\text{Gross margin}=\\frac{\\text{Gross profit}}{\\text{Revenue}},\\ \\text{Net margin}=\\frac{\\text{Net income}}{\\text{Revenue}}",
+          "where": "Gross profit = revenue − COGS; the operating margin uses operating income in the numerator."
+        },
+        {
+          "name": "Return on assets and return on equity",
+          "latex": "\\text{ROA}=\\frac{\\text{Net income}}{\\text{Avg. total assets}},\\quad \\text{ROE}=\\frac{\\text{Net income}}{\\text{Avg. total equity}}",
+          "where": "Averages of beginning and ending balances; for return on common equity, subtract preferred dividends from net income and use average common equity."
+        }
+      ],
+      "exam_traps": [
+        "Using the ending balance instead of the average balance when the question gives beginning and ending figures, which changes every turnover and return ratio.",
+        "Mixing up the CCC signs: it is DOH + DSO − DPO. Adding DPO, or subtracting DSO, gives the wrong answer.",
+        "Treating a higher turnover or a higher current ratio as automatically better. Very high inventory turnover can mean stock-outs, and a very high current ratio can mean idle cash or bloated inventory.",
+        "Putting inventory, or even prepaid items, into the quick ratio numerator, or using total liabilities when a question defines debt as interest-bearing borrowings.",
+        "Forgetting to subtract preferred dividends when calculating return on common equity, or using interest-before-tax confusion: interest coverage uses EBIT, not net income."
+      ],
+      "builds_on": [
+        "Income statement and balance sheet structure",
+        "Average balances and annualisation",
+        "Working capital"
+      ],
+      "leads_to": [
+        "Ratio relationships and company evaluation",
+        "DuPont analysis of ROE",
+        "Industry-specific ratios",
+        "Forecasting earnings"
+      ],
+      "cited_chunk_ids": [
+        "lyryx-ifa-vol2:444:442",
+        "os:principles-finance-2e:m00120:2.3",
+        "os:principles-finance-2e:m00120:2.4",
+        "os:principles-finance-2e:m00045:1",
+        "strathmore-analyzing-financial-statements:44:7",
+        "lyryx-intro-fa-2021a:532:437"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A firm has cash of 40, short-term marketable securities of 20, accounts receivable of 60, inventory of 80 and prepaid expenses of 10. Current liabilities are 100. Define the quick ratio as (cash + short-term marketable securities + receivables) / current liabilities. What is the quick ratio?",
+        "options": [
+          {
+            "text": "1.20",
+            "value": null,
+            "explanation": "Correct: (40 + 20 + 60) / 100 = 1.20. Inventory and prepaid expenses are excluded because they are not quickly convertible to cash."
+          },
+          {
+            "text": "0.60",
+            "value": null,
+            "explanation": "This is the cash ratio, (40 + 20) / 100. It also leaves out receivables, which the quick ratio includes."
+          },
+          {
+            "text": "2.10",
+            "value": null,
+            "explanation": "This is the current ratio, 210 / 100, which includes inventory and prepaid expenses and so overstates liquidity on a quick basis."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A retailer has days of inventory on hand of 45 days, days of sales outstanding of 38 days and number of days of payables of 52 days. What is its cash conversion cycle, in days?",
+        "options": [
+          {
+            "text": "59 days",
+            "value": 59,
+            "explanation": "Mistake: adding DPO instead of subtracting it (45 − 38 + 52); this also wrongly subtracts DSO."
+          },
+          {
+            "text": "31 days",
+            "value": 31,
+            "explanation": "Correct: CCC = DOH + DSO − DPO = 45 + 38 − 52 = 31 days."
+          },
+          {
+            "text": "135 days",
+            "value": 135,
+            "explanation": "Mistake: adding all three components. Time that suppliers finance reduces the cycle, so DPO must be subtracted."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":45,\"dso\":38,\"dpo\":52}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3",
+          "os:principles-finance-2e:m00120:2.4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): CCC = DIO + DSO − DPO = 45 + 38 − 52 = 31 days. That is option B, not A."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports EBIT of 480, interest expense of 60 and a tax rate of 30%. Interest coverage is defined as EBIT / interest expense. What is the interest coverage ratio?",
+        "options": [
+          {
+            "text": "4.9 times",
+            "value": null,
+            "explanation": "Mistake: using net income (after interest and 30% tax = 294) in the numerator. Net income is already after interest, so it is not the coverage numerator."
+          },
+          {
+            "text": "7.0 times",
+            "value": null,
+            "explanation": "Mistake: subtracting interest from EBIT (420) before dividing. That double-counts interest; EBIT is already before interest."
+          },
+          {
+            "text": "8.0 times",
+            "value": null,
+            "explanation": "Correct: 480 / 60 = 8.0 times. Earnings before interest and taxes cover interest expense eight times."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:532:437"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm earned net income of 54. Total assets were 600 at the beginning of the year and 700 at the end. Compute return on assets as net income divided by average total assets, rounded to two decimals in percent. What is it?",
+        "options": [
+          {
+            "text": "8.31%",
+            "value": null,
+            "explanation": "Correct: average assets = (600 + 700) / 2 = 650, and 54 / 650 = 8.31%."
+          },
+          {
+            "text": "7.71%",
+            "value": null,
+            "explanation": "Mistake: using ending assets (54 / 700) instead of the average balance."
+          },
+          {
+            "text": "9.00%",
+            "value": null,
+            "explanation": "Mistake: using beginning assets (54 / 600) instead of the average balance."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:444:442"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Average assets = 650; 54/650 = 8.31%. That is option A."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company's receivables turnover falls from 9.0 to 7.0 over a year, while its credit terms are unchanged. Which interpretation is most appropriate?",
+        "options": [
+          {
+            "text": "Collections are speeding up, so days of sales outstanding has fallen",
+            "value": null,
+            "explanation": "Mistake: reading the direction backwards. A lower turnover means a higher DSO (about 52 days versus about 41 days), not a lower one."
+          },
+          {
+            "text": "Customers are paying more slowly, so days of sales outstanding has risen",
+            "value": null,
+            "explanation": "Correct: DSO rises from 365/9 ≈ 40.6 days to 365/7 ≈ 52.1 days, so cash is being collected more slowly than before."
+          },
+          {
+            "text": "Receivables grew more slowly than sales, which signals tighter credit policy",
+            "value": null,
+            "explanation": "Mistake: reversing the relationship. Turnover falls when receivables grow faster than sales, which points to looser collection, not tighter."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:444:442",
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company has total assets of 800, total equity of 400, interest-bearing debt of 300 and other (non-interest-bearing) liabilities of 100. Debt-to-equity is defined here as interest-bearing debt / total equity. Round to two decimals. What is the debt-to-equity ratio?",
+        "options": [
+          {
+            "text": "0.38",
+            "value": null,
+            "explanation": "Mistake: this is debt-to-assets (300 / 800 = 0.375), dividing by total assets instead of equity."
+          },
+          {
+            "text": "1.00",
+            "value": null,
+            "explanation": "Mistake: using total liabilities (400) rather than interest-bearing debt in the numerator, contrary to the stated definition."
+          },
+          {
+            "text": "0.75",
+            "value": null,
+            "explanation": "Correct: 300 / 400 = 0.75. Only interest-bearing debt is in the numerator and total equity in the denominator."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A retailer's inventory turnover is much higher than that of its closest peers. Which is the most appropriate conclusion for an analyst to draw?",
+        "options": [
+          {
+            "text": "It may manage inventory efficiently, but the analyst should check for stock-outs and lost sales",
+            "value": null,
+            "explanation": "Correct: a high turnover can reflect efficiency, but very lean inventory may also cause stock-outs, so it must be investigated rather than assumed good."
+          },
+          {
+            "text": "It holds inventory for longer than peers, so days of inventory on hand must be higher",
+            "value": null,
+            "explanation": "Mistake: reversing the relationship. Higher turnover means fewer days of inventory on hand (DOH = 365 / turnover)."
+          },
+          {
+            "text": "It must be more profitable than peers, because higher turnover always means higher margins",
+            "value": null,
+            "explanation": "Mistake: turnover is an activity measure and does not guarantee profitability. A firm can turn inventory fast with thin margins."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An online grocer has days of inventory on hand of 30 days, days of sales outstanding of 5 days and number of days of payables of 45 days. What is its cash conversion cycle, in days?",
+        "options": [
+          {
+            "text": "80 days",
+            "value": 80,
+            "explanation": "Mistake: adding all three components. DPO must be subtracted because suppliers are financing the business for those days."
+          },
+          {
+            "text": "-10 days",
+            "value": -10,
+            "explanation": "Correct: 30 + 5 − 45 = −10 days. The firm collects cash 10 days before it must pay suppliers, a favourable negative cycle."
+          },
+          {
+            "text": "-20 days",
+            "value": -20,
+            "explanation": "Mistake: subtracting DSO as well as DPO (30 − 5 − 45). Receivable days lengthen the cycle and must be added."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":30,\"dso\":5,\"dpo\":45}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3",
+          "os:principles-finance-2e:m00120:2.6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is the cash conversion cycle calculated, and what does a shorter cycle mean?",
+        "back": "CCC = days of inventory on hand + days of sales outstanding − number of days of payables. A shorter cycle means cash is tied up in operations for fewer days.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3",
+          "os:principles-finance-2e:m00120:2.4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Which items does the quick ratio include, and what does it leave out compared with the current ratio?",
+        "back": "Quick ratio = (cash + short-term marketable securities + receivables) / current liabilities. It leaves out inventory and prepaid items.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you turn inventory turnover into days of inventory on hand?",
+        "back": "DOH = 365 / inventory turnover, where turnover = COGS / average inventory.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between a leverage ratio and a coverage ratio?",
+        "back": "Leverage ratios (debt-to-assets, debt-to-equity) compare debt with the funding base on the balance sheet. Coverage ratios (interest coverage = EBIT / interest) compare earnings with the cost of debt.",
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:532:437"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "How does return on common equity differ from ROE based on total equity?",
+        "back": "Return on common equity = (net income − preferred dividends) / average common equity, because preferred holders have a prior claim on earnings.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:444:442"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T16:58:42.105Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-11-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 961,
+      "outputTokens": 501,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007049,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:58:55.764Z",
+      "purpose": "grounding",
+      "losId": "fsa-11-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 16722,
+      "outputTokens": 1439,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.048003199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.055052199999999996
+}

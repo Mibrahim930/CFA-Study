@@ -1,0 +1,901 @@
+{
+  "losId": "fsa-02-los2",
+  "losText": "describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred",
+  "moduleId": "fsa-02",
+  "moduleTitle": "Analyzing Income Statements",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:41:10.360Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ey-us-gaap-vs-ifrs-2026:20:26",
+      "title": "US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY)",
+      "locator": "p. 20",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf#page=20",
+      "license": "© EY; free public PDF on ey.com, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-earnings-quality:119:133",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 119",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=119",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-rf-earnings-quality:111:123",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 111–112",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=111",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-earnings-quality:69:75",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 69–70",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=69",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-financial-accounting:m67882:1.3",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.2 Account for Uncollectible Accounts Using the Balance Sheet and Income Statement Approaches — Fundamentals of Bad Debt Expenses and Allowances for Doubtful Accounts",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-2-account-for-uncollectible-accounts-using-the-balance-sheet-a",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:352:281",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 352–353",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=352",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-financial-accounting:m67897:11",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§11.3 Explain and Apply Depreciation Methods to Allocate Capitalized Costs — Multiple Choice",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/11-3-explain-and-apply-depreciation-methods-to-allocate-capitaliz",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-business-accounting:642:562",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 642–643",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=642",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-financial-accounting:m67882:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§9.2 Account for Uncollectible Accounts Using the Balance Sheet and Income Statement Approaches — Fundamentals of Bad Debt Expenses and Allowances for Doubtful Accounts",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/9-2-account-for-uncollectible-accounts-using-the-balance-sheet-a",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch10:16:15",
+      "title": "Investment Valuation, 2nd ed., ch. 10: From Earnings to Cash Flows (taxes, working capital, FCFF and FCFE inputs) (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 16",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch10.pdf#page=16",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-business-accounting:589:509",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 589",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=589",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-earnings-quality:94:103",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 94",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=94",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "When Costs Become Expenses: Expense Recognition and Capitalization",
+      "summary": "Spending turns into an expense on the income statement only when the benefit is used up, and some spending is instead parked on the balance sheet as an asset first. Which route a company picks changes reported profit, assets, cash-flow classification and ratios, so an analyst must be able to see and undo those choices.",
+      "sections": [
+        {
+          "heading": "Expenses follow benefits, not cash",
+          "body_markdown": "An **expense** is a cost whose benefit has been used up in earning revenue. Recognizing it lowers equity, apart from payouts to owners. Under accrual accounting, the *timing of cash* does not decide the *timing of the expense*.\n\nThink of a food truck owner who pays $12,000 cash for a grill that will serve for six years. Charging all $12,000 to the first month would make that month look terrible and the next 71 months look great. So the cost is spread over the years the grill helps make sales.\n\nThis is the **matching principle**: where a cost clearly relates to particular revenue, record it in the same period as that revenue. Examples are cost of goods sold (COGS) and sales commissions. Costs that cannot be tied to specific sales, such as office rent or administrative salaries, are **period costs**. They are expensed in the period they are incurred or used. Costs that become part of inventory are **product costs**. They reach the income statement as COGS only when the goods are sold."
+        },
+        {
+          "heading": "Common expense applications",
+          "body_markdown": "**Inventory and COGS.** Cost flow assumptions decide which purchase costs are treated as sold. *FIFO* (first in, first out) treats the oldest costs as sold. *LIFO* (last in, first out) treats the newest costs as sold; it is allowed under US GAAP but not under IFRS. *Weighted average* uses an average unit cost. *Specific identification* tracks the actual item. When prices are rising and inventory quantities are stable, LIFO gives higher COGS, lower profit and lower ending inventory than FIFO.\n\n**Long-lived assets.** Depreciation spreads the capitalized cost of tangible assets over their useful lives. *Straight-line* gives equal charges each year. *Accelerated* methods, such as double-declining balance, charge more early on. *Units-of-production* ties the charge to usage. Every method needs estimates of useful life and salvage (residual) value, and those estimates are judgments.\n\n**Intangibles.** Intangible assets with a finite life are amortized over that life. Those with an indefinite life are not amortized. Goodwill is not amortized either; it is tested for impairment instead.\n\n**Estimated expenses.** Credit sales will not all be collected. Under the *allowance method*, the company estimates bad debt expense in the period of the sale, for example as a percentage of credit sales or from an aging of receivables. The *direct write-off method* waits until a specific account is judged uncollectible. It breaks the matching principle, so it is not acceptable in financial reporting. Warranty costs work the same way: estimate and accrue them when the product is sold, not when repairs happen."
+        },
+        {
+          "heading": "Capitalize or expense?",
+          "body_markdown": "A cost is **capitalized** when it is expected to give benefits beyond the current period. It goes on the balance sheet as an asset and reaches the income statement later through depreciation or amortization. A cost is **expensed** when it is charged to the income statement right away.\n\nCosts needed to get an asset ready for use are capitalized. These include purchase price, freight and installation. Staff training, repairs and routine maintenance are expensed.\n\nResearch and development (R&D) shows how standards differ:\n- **US GAAP:** R&D is generally expensed as incurred. There are narrow exceptions, such as certain software development costs once technological feasibility is established.\n- **IFRS:** research-phase costs are expensed. Development costs are capitalized once all specified criteria are met, including technical feasibility, intent to complete the asset and ability to use or sell it. They are then amortized.\n\nStandard-setters accept this trade-off: capitalizing can match costs to revenues better, but the resulting asset may not reflect any real market value."
+        },
+        {
+          "heading": "What it means for analysis",
+          "body_markdown": "Compare capitalizing a cost with expensing the same cost.\n\n**In the year of spending, capitalizing leads to:**\n- Higher net income, because no immediate charge is taken.\n- Higher operating cash flow, because the outflow is reported in investing activities instead.\n- Higher assets and equity.\n\n**In later years:**\n- Depreciation or amortization lowers net income.\n- Total cash flow is the same either way. Only the *classification* and the *timing of profit* change.\n\nThis affects ratios. Capitalizers tend to show better early margins, higher coverage ratios and lower debt-to-equity. Expensers look worse early on but create a hidden \"reserve\": once growth slows, their earnings rise because past spending is still producing sales while new spending falls.\n\nBecause useful lives, salvage values, bad debt rates and warranty rates are estimates, an analyst should ask whether they are aggressive or conservative, whether they are consistent over time, and how they compare with peers. Analysts often adjust statements. For example, they may add back R&D as capital expenditure and subtract a notional amortization, so that firms with different policies can be compared."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company buys a machine for a total capitalized cost of 480,000. It expects a 7-year useful life and a salvage value of 60,000, and uses straight-line depreciation. Compute annual depreciation expense and the net book value at the end of year 2.",
+        "steps": [
+          "Identify the depreciable base: cost minus salvage = 480,000 − 60,000 = 420,000.",
+          "Divide by the useful life: 420,000 ÷ 7 = 60,000 per year.",
+          "BA II Plus keystrokes: 480000 − 60000 = then ÷ 7 = shows 60,000.",
+          "Accumulated depreciation after 2 years = 2 × 60,000 = 120,000.",
+          "Net book value at end of year 2 = 480,000 − 120,000 = 360,000."
+        ],
+        "answer": "Annual straight-line depreciation expense is 60,000; net book value after two years is 360,000.",
+        "answer_value": 60000,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":480000,\"salvage\":60000,\"life\":7}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Straight-line depreciation",
+          "latex": "\\text{Depreciation}=\\frac{C-S}{L}",
+          "where": "C = capitalized cost of the asset, S = estimated salvage (residual) value, L = estimated useful life in years."
+        },
+        {
+          "name": "Cost of goods sold",
+          "latex": "\\text{COGS}=\\text{BI}+P-\\text{EI}",
+          "where": "BI = beginning inventory, P = purchases during the period, EI = ending inventory."
+        },
+        {
+          "name": "Bad debt expense (percentage-of-credit-sales)",
+          "latex": "\\text{Bad debt expense}=r\\times \\text{Credit sales}",
+          "where": "r = estimated uncollectible percentage of credit sales."
+        }
+      ],
+      "exam_traps": [
+        "Equating expense timing with cash payment: an expense is recognized when the benefit is used, which can be before or after cash moves.",
+        "Forgetting that capitalizing raises operating cash flow because the outflow moves to investing, while total cash is unchanged.",
+        "Subtracting salvage value from the depreciable base only sometimes: straight-line uses cost minus salvage, but double-declining balance applies its rate to book value without subtracting salvage first.",
+        "Assuming development costs are always expensed (US GAAP view) or always capitalized (IFRS view): IFRS expenses research and capitalizes development only after the criteria are met.",
+        "Treating the direct write-off method as acceptable for financial reporting; it violates matching, and only the allowance method estimates bad debts in the sale period."
+      ],
+      "builds_on": [
+        "Accrual accounting",
+        "Income statement structure",
+        "Balance sheet: PPE and intangible assets",
+        "Inventory cost flow methods"
+      ],
+      "leads_to": [
+        "Non-recurring items and accounting changes",
+        "Earnings per share",
+        "Common-size analysis and margins",
+        "Long-lived asset analysis"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-financial-accounting:m67882:1",
+        "os:principles-financial-accounting:m67897:11",
+        "lyryx-intro-fa-2021a:352:281",
+        "ey-us-gaap-vs-ifrs-2026:20:26",
+        "flatworld-business-accounting:642:562",
+        "cfa-rf-earnings-quality:111:123",
+        "damodaran-valn2ed-ch10:16:15"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 20: \"technical feasibility intent to complete the asset and\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the matching principle in expense recognition?",
+        "options": [
+          {
+            "text": "Expenses are recorded in the period in which cash is paid to suppliers.",
+            "value": null,
+            "explanation": "This confuses accrual accounting with cash-basis accounting; the cash payment date does not decide the expense period."
+          },
+          {
+            "text": "Expenses are recorded when the supplier's invoice is received, regardless of use.",
+            "value": null,
+            "explanation": "Invoice timing is not the test; the cost must relate to the revenue or period it benefited."
+          },
+          {
+            "text": "Costs tied to particular revenue are recognized in the same period as that revenue.",
+            "value": null,
+            "explanation": "Correct: matching links costs such as COGS to the revenue they helped earn, regardless of when cash moved."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67882:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company buys equipment with a capitalized cost of 900,000. Its estimated useful life is 10 years and its estimated salvage value is 90,000. Using straight-line depreciation, what is annual depreciation expense? Round to the nearest whole number.",
+        "options": [
+          {
+            "text": "90,000",
+            "value": 90000,
+            "explanation": "Ignores salvage value: 900,000 ÷ 10. Straight-line depreciates cost minus salvage."
+          },
+          {
+            "text": "81,000",
+            "value": 81000,
+            "explanation": "Correct: (900,000 − 90,000) ÷ 10 = 81,000."
+          },
+          {
+            "text": "99,000",
+            "value": 99000,
+            "explanation": "Adds salvage value to cost instead of subtracting it: (900,000 + 90,000) ÷ 10."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":900000,\"salvage\":90000,\"life\":10}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67897:11"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company pays a large cash outlay this year. It capitalizes the outlay, whereas a peer firm would expense the same outlay in full. Ignore taxes, and assume the depreciation or amortization charged this year on the capitalized amount is smaller than the outlay. All else equal, compared with expensing the outlay, capitalizing it results in this year's:",
+        "options": [
+          {
+            "text": "lower net income and higher operating cash flow.",
+            "value": null,
+            "explanation": "Gets the income effect backwards. Capitalizing defers most of the charge to later years, so current net income is higher, not lower."
+          },
+          {
+            "text": "higher net income and higher operating cash flow.",
+            "value": null,
+            "explanation": "Correct. Only the small depreciation or amortization charge hits this year's income, so net income is higher. The cash paid is reported in investing activities, not operating activities, so operating cash flow is higher than under expensing."
+          },
+          {
+            "text": "higher net income and unchanged operating cash flow.",
+            "value": null,
+            "explanation": "Reasons that the cash leaves the company either way, so operating cash flow cannot change. But the classification changes. An expensed outlay reduces operating cash flow, while a capitalized one is an investing outflow, so operating cash flow is higher."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:111:123"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (medium): Capitalizing defers the expense, so net income is higher this year. The cash outlay is classified as investing rather than operating, so operating cash flow is higher than if expensed; but among the options, 'unchanged' is not accurate. Reconsidering: expensing reduces CFO, capitalizing does not, so capitalizing gives higher CFO."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports under IFRS. In one year it incurs costs in the research phase of a project and, later, development costs on the same project after meeting every capitalization criterion. Which treatment applies?",
+        "options": [
+          {
+            "text": "Both research and development costs are expensed as incurred.",
+            "value": null,
+            "explanation": "This is the general US GAAP approach to R&D; IFRS allows capitalization of development costs once the criteria are met."
+          },
+          {
+            "text": "Research costs are expensed; development costs are capitalized and amortized.",
+            "value": null,
+            "explanation": "Correct: IFRS expenses research but capitalizes qualifying development costs and amortizes them over the useful life."
+          },
+          {
+            "text": "Both research and development costs are capitalized and then amortized.",
+            "value": null,
+            "explanation": "Over-generalizes the IFRS development rule; research-phase costs cannot be capitalized."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:642:562",
+          "ey-us-gaap-vs-ifrs-2026:20:26"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company sells goods on credit in November of Year 1 and decides in March of Year 2 that the customer will never pay. The company uses the allowance method. When is the related bad debt expense recognized?",
+        "options": [
+          {
+            "text": "In Year 2, when the specific account is identified as uncollectible.",
+            "value": null,
+            "explanation": "This describes the direct write-off method, which delays the expense and breaks the matching principle."
+          },
+          {
+            "text": "In Year 2, only if the customer later pays part of the balance.",
+            "value": null,
+            "explanation": "Invents a link to later collections; a recovery would reverse the write-off but does not create the expense."
+          },
+          {
+            "text": "In Year 1, as an estimate made when the credit sale is recorded.",
+            "value": null,
+            "explanation": "Correct: the allowance method estimates uncollectibles in the period of sale; the later write-off only removes the receivable against the allowance."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67882:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company buys a machine. The invoice price is 340,000. Freight and installation needed to make the machine ready for use cost 20,000, and training of staff to operate it costs 6,000. Estimated salvage value is 40,000 and useful life is 8 years. Training is not a cost of getting the machine to working condition. Using straight-line depreciation and capitalizing only the costs that belong in the asset, what is annual depreciation expense? Round to the nearest whole number.",
+        "options": [
+          {
+            "text": "37,500",
+            "value": 37500,
+            "explanation": "Capitalizes only the invoice price and omits freight and installation: (340,000 − 40,000) ÷ 8."
+          },
+          {
+            "text": "40,000",
+            "value": 40000,
+            "explanation": "Correct. Capitalized cost is 340,000 + 20,000 = 360,000, since freight and installation are needed to get the asset ready for use. Training is expensed. (360,000 − 40,000) ÷ 8 = 40,000."
+          },
+          {
+            "text": "40,750",
+            "value": 40750,
+            "explanation": "Wrongly capitalizes the training cost: (366,000 − 40,000) ÷ 8."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "straightLineDepreciation",
+          "args_json": "{\"cost\":360000,\"salvage\":40000,\"life\":8}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Capitalized cost = 340,000 + 20,000 = 360,000; training is expensed. (360,000 - 40,000)/8 = 40,000."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company lengthens the estimated useful life of its equipment, with no change in the equipment's cost or salvage value. Ignore taxes. Compared with the old estimate, what is the most likely effect in the current year?",
+        "options": [
+          {
+            "text": "Lower depreciation expense and higher operating cash flow.",
+            "value": null,
+            "explanation": "Treats depreciation as a cash cost. It is non-cash, so the estimate change does not alter operating cash flow when taxes are ignored."
+          },
+          {
+            "text": "Lower depreciation expense and unchanged operating cash flow.",
+            "value": null,
+            "explanation": "Correct: spreading the same depreciable base over more years lowers annual expense and raises income, but no cash changes hands."
+          },
+          {
+            "text": "Higher depreciation expense and unchanged operating cash flow.",
+            "value": null,
+            "explanation": "Reverses the direction: a longer life divides the depreciable base by a larger number."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Prices of a company's inventory purchases are rising and inventory quantities are stable. Compared with FIFO, how does LIFO (allowed under US GAAP) affect reported results?",
+        "options": [
+          {
+            "text": "Higher net income and lower ending inventory.",
+            "value": null,
+            "explanation": "Reverses the income effect: LIFO charges the newest, higher costs to COGS, which lowers income."
+          },
+          {
+            "text": "Lower net income and higher ending inventory.",
+            "value": null,
+            "explanation": "Gets income right but ending inventory wrong: LIFO leaves the oldest, cheaper costs on the balance sheet."
+          },
+          {
+            "text": "Lower net income and lower ending inventory.",
+            "value": null,
+            "explanation": "Correct: LIFO matches the newest, higher costs to COGS, and leaves the older, cheaper costs in ending inventory."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the matching principle, and which costs does it apply to most directly?",
+        "back": "Costs are recognized in the same period as the revenue they helped generate, such as COGS and commissions. Costs with no clear link to revenue are period costs, expensed when incurred or used.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67882:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Capitalizing a cost instead of expensing it: what happens to net income, operating cash flow, and total cash in the year of spending?",
+        "back": "Net income and operating cash flow are higher, because the outflow is classified as investing. Total cash is unchanged. Later years carry depreciation or amortization, so profit is lower then.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch10:16:15"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do US GAAP and IFRS differ on development costs?",
+        "back": "US GAAP generally expenses R&D as incurred, with narrow exceptions such as certain software costs. IFRS expenses research but capitalizes development costs once the specified criteria are met.",
+        "cited_chunk_ids": [
+          "ey-us-gaap-vs-ifrs-2026:20:26",
+          "flatworld-business-accounting:642:562"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why is the allowance method required instead of direct write-off for bad debts?",
+        "back": "The allowance method estimates uncollectibles in the period of the credit sale, so the expense matches the revenue. Direct write-off waits until a specific account is judged uncollectible and so breaks matching.",
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67882:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "With rising prices and stable inventory quantities, how does LIFO compare with FIFO?",
+        "back": "LIFO gives higher COGS, lower net income and lower ending inventory. LIFO is not permitted under IFRS.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T16:40:42.736Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1086,
+      "outputTokens": 597,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008259,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:40:58.178Z",
+      "purpose": "repair",
+      "losId": "fsa-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9503,
+      "outputTokens": 1895,
+      "cacheWriteTokens": 4720,
+      "cacheReadTokens": 0,
+      "costUsd": 0.049756,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:41:00.218Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 370,
+      "outputTokens": 190,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002757,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:41:10.360Z",
+      "purpose": "grounding",
+      "losId": "fsa-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10362,
+      "outputTokens": 1508,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0359732,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0967452
+}

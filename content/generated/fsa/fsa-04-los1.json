@@ -1,0 +1,443 @@
+{
+  "losId": "fsa-04-los1",
+  "losText": "describe how the cash flow statement is linked to the income statement and the balance sheet",
+  "moduleId": "fsa-04",
+  "moduleTitle": "Analyzing Statements of Cash Flows I",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T15:51:58.551Z",
+  "retrieved": [
+    {
+      "id": "lyryx-intro-fa-2021a:474:390",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 474–475",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=474",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "lyryx-ifa-vol2:339:337",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 339–340",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=339",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00035:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.5 The Statement of Cash Flows — Operating Activities",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-5-the-statement-of-cash-flows",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:379:372",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 379–380",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=379",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:354:350",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 354–355",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=354",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00035:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.5 The Statement of Cash Flows — Financing Activities",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-5-the-statement-of-cash-flows",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-business-accounting:1046:914",
+      "title": "Business Accounting (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1046–1047",
+      "url": "https://2012books.lardbucket.org/pdfs/business-accounting.pdf#page=1046",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67931:1",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.3 Prepare the Statement of Cash Flows Using the Indirect Method — Prepare the Operating Activities Section of the Statement of Cash Flows Using the Indirect Method",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-3-prepare-the-statement-of-cash-flows-using-the-indirect-metho",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-ifa-vol2:337:335",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 337–339",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=337",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67840:5",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§2.3 Prepare an Income Statement, Statement of Owner’s Equity, and Balance Sheet — Multiple Choice",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/2-3-prepare-an-income-statement-statement-of-owner-s-equity-and",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-financial-accounting:m67931:6",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§16.3 Prepare the Statement of Cash Flows Using the Indirect Method — Prepare the Investing and Financing Activities Sections of the Statement of Cash Flows",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/16-3-prepare-the-statement-of-cash-flows-using-the-indirect-metho",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:580:480",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 580–581",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=580",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "How the Cash Flow Statement Connects to the Other Two Statements",
+      "summary": "The cash flow statement is built from numbers in the income statement and the balance sheet, and its bottom line ties back to the cash on the balance sheet. Seeing these links lets you check whether the three statements agree and judge how much of reported profit turned into actual cash.",
+      "sections": [
+        {
+          "heading": "Three statements, one story",
+          "body_markdown": "Think of a bank account. The **balance sheet** is a photo of what the company owns (assets) and owes (liabilities) plus the owners' stake (equity) on one date. The **income statement** and the **cash flow statement** are films covering a period, such as a year.\n\nThe income statement uses *accrual accounting*: revenue is recorded when earned and expenses when incurred, even if cash has not moved. The cash flow statement strips out that timing and reports only real cash movements, sorted into **operating**, **investing** and **financing** activities. Its last line ties to the cash and cash equivalents on the balance sheet: it starts from the prior balance sheet's cash and ends at the new balance sheet's cash. *Cash equivalents* are very short-term, highly liquid investments that are treated like cash."
+        },
+        {
+          "heading": "What comes from the income statement",
+          "body_markdown": "Under the **indirect method**, the operating section starts with **net income** from the income statement. Net income mixes cash and non-cash items, so the statement adjusts it.\n\n- **Non-cash expenses** such as depreciation and amortization lowered net income but no cash left the company that period. They are *added back*.\n- **Gains and losses on selling long-term assets** are removed from operating cash flow. The whole cash proceeds of the sale belong in investing, so a gain is *subtracted* and a loss is *added back* in the operating section.\n\nSo every adjustment in this part of the statement traces to a line on the income statement."
+        },
+        {
+          "heading": "What comes from the balance sheet",
+          "body_markdown": "Comparing two balance sheets (opening and closing) shows how each account changed, and each change is a clue about cash.\n\n- **Current assets and current liabilities (working capital)** feed the rest of the operating section. A higher receivable means sales were booked but not yet collected, so cash is lower than profit suggests. A higher payable means an expense was booked but not yet paid, so cash is higher than profit suggests. Rule of thumb: an **asset increase reduces cash; a liability increase raises cash**.\n- **Non-current assets** (equipment, land, long-term investments) explain **investing** cash flows, such as buying or selling them.\n- **Non-current liabilities and equity** (bonds, loans, share capital, retained earnings) explain **financing** cash flows. Dividends can be worked out from retained earnings: beginning retained earnings + net income − dividends = ending retained earnings."
+        },
+        {
+          "heading": "Reconciliation, non-cash deals and what it tells you",
+          "body_markdown": "Add operating, investing and financing cash flows to get the **net change in cash**. Beginning cash plus that change must equal the ending cash on the balance sheet. If it does not, something was missed.\n\nSome deals involve no cash, for example buying land by issuing shares or a note. They do not appear in the body of the cash flow statement. They are **disclosed separately in the notes**.\n\nBecause the statement leaves out accruals, comparing operating cash flow with net income helps you judge earnings quality. Profit far above operating cash flow, year after year, deserves a closer look."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports net income of 50,000 and depreciation of 12,000. Over the year, accounts receivable rose by 8,000, inventory fell by 5,000 and accounts payable rose by 3,000. It paid 40,000 cash for equipment and issued 20,000 of new notes payable for cash. Retained earnings were 100,000 at the start and 135,000 at the end. Assume all dividends declared were paid in cash and no dividends payable exist. Beginning cash was 30,000. Find the ending cash that must appear on the balance sheet.",
+        "steps": [
+          "Operating (indirect): start with net income 50,000 from the income statement. Add back depreciation +12,000. Receivables rose, which is a use of cash: −8,000. Inventory fell, which releases cash: +5,000. Payables rose, which is a source of cash: +3,000. CFO = 50,000 + 12,000 − 8,000 + 5,000 + 3,000 = 62,000.",
+          "Investing: the cash purchase of equipment gives CFI = −40,000.",
+          "Financing, dividends: use the retained earnings link. Dividends = beginning RE + net income − ending RE = 100,000 + 50,000 − 135,000 = 15,000 paid.",
+          "Financing, total: notes issued +20,000 and dividends −15,000 give CFF = +5,000.",
+          "Net change in cash = 62,000 − 40,000 + 5,000 = 27,000. Ending cash = 30,000 + 27,000 = 57,000, which must equal cash on the closing balance sheet. No financial calculator is needed; this is simple addition and subtraction."
+        ],
+        "answer": "Ending cash = 57,000 (net change in cash of +27,000 added to beginning cash of 30,000).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Net change in cash",
+          "latex": "\\Delta \\text{Cash} = CFO + CFI + CFF",
+          "where": "CFO = cash flow from operating activities; CFI = cash flow from investing activities; CFF = cash flow from financing activities; each can be positive or negative."
+        },
+        {
+          "name": "Cash reconciliation to the balance sheet",
+          "latex": "\\text{Cash}_{end} = \\text{Cash}_{begin} + \\Delta \\text{Cash}",
+          "where": "Cash_begin = cash and cash equivalents on the opening balance sheet; Cash_end = the same item on the closing balance sheet; ΔCash = net change from the cash flow statement."
+        },
+        {
+          "name": "Retained earnings roll-forward",
+          "latex": "RE_{end} = RE_{begin} + NI - D",
+          "where": "RE = retained earnings; NI = net income for the period; D = dividends declared. Rearranged, D = RE_begin + NI − RE_end."
+        },
+        {
+          "name": "Indirect operating cash flow (outline)",
+          "latex": "CFO = NI + \\text{non-cash expenses} - \\text{gains} + \\text{losses} - \\Delta \\text{operating assets} + \\Delta \\text{operating liabilities}",
+          "where": "NI = net income; non-cash expenses include depreciation and amortization; gains and losses are those on sales of long-term assets; Δ means closing balance minus opening balance for non-cash working capital accounts."
+        }
+      ],
+      "exam_traps": [
+        "Adding an increase in accounts receivable (or inventory) to net income. Increases in operating assets use cash and are subtracted; increases in operating liabilities are added.",
+        "Treating depreciation as a source of cash. It is added back only because it reduced net income without any cash leaving.",
+        "Leaving a gain on sale of equipment inside operating cash flow and also showing the full proceeds in investing. That counts the gain twice; subtract the gain in operating and show the full proceeds in investing.",
+        "Showing a non-cash deal, such as shares issued for land, as an inflow and an outflow in the statement. These are disclosed in the notes instead.",
+        "Assuming the change in retained earnings equals dividends. Net income also moves retained earnings, so dividends = beginning RE + net income − ending RE."
+      ],
+      "builds_on": [
+        "Accrual accounting vs cash accounting",
+        "Balance sheet and income statement basics",
+        "Working capital accounts"
+      ],
+      "leads_to": [
+        "Preparing direct and indirect cash flow statements",
+        "Converting indirect to direct method",
+        "Free cash flow and earnings quality analysis"
+      ],
+      "cited_chunk_ids": [
+        "lyryx-intro-fa-2021a:474:390",
+        "lyryx-ifa-vol2:339:337",
+        "lyryx-ifa-vol2:337:335",
+        "os:principles-finance-2e:m00035:2",
+        "os:principles-finance-2e:m00035:4",
+        "flatworld-business-accounting:1046:914",
+        "os:principles-financial-accounting:m67931:1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which balance sheet item must agree with the final figure produced by the cash flow statement's reconciliation (beginning cash plus net change in cash)?",
+        "options": [
+          {
+            "text": "Total assets at the end of the period",
+            "value": null,
+            "explanation": "Wrong: total assets include receivables, inventory and equipment as well as cash, so they are not what the cash flow statement reconciles to."
+          },
+          {
+            "text": "Cash and cash equivalents at the end of the period",
+            "value": null,
+            "explanation": "Correct: the three sections sum to the net change in cash, which added to opening cash gives the closing cash and cash equivalents on the balance sheet."
+          },
+          {
+            "text": "Retained earnings at the end of the period",
+            "value": null,
+            "explanation": "Wrong: retained earnings link to net income and dividends, not to the cash total. This confuses the equity roll-forward with the cash reconciliation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:474:390",
+          "os:principles-finance-2e:m00035:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company recorded depreciation expense of 20,000 in the income statement. Why is it added back to net income in the operating section under the indirect method?",
+        "options": [
+          {
+            "text": "It reduced net income but involved no cash payment in the period",
+            "value": null,
+            "explanation": "Correct: depreciation spreads the cost of an asset over time, so it lowers profit without any cash leaving this period. Adding it back moves net income toward cash flow."
+          },
+          {
+            "text": "It is a cash inflow generated by using the asset",
+            "value": null,
+            "explanation": "Wrong: depreciation is not cash received. This treats the add-back as a source of cash instead of a reversal of a non-cash deduction."
+          },
+          {
+            "text": "It is an investing outflow that belongs elsewhere",
+            "value": null,
+            "explanation": "Wrong: the cash for the asset was paid when it was bought (investing). Depreciation itself is not a cash flow in any section."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00035:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Using the indirect method, net income is 80,000 and depreciation is 10,000. During the year accounts receivable increased by 6,000, inventory increased by 3,000 and accounts payable decreased by 4,000. What is cash flow from operating activities?",
+        "options": [
+          {
+            "text": "89,000",
+            "value": null,
+            "explanation": "Wrong: this adds the 6,000 increase in receivables instead of subtracting it. An increase in an operating asset uses cash."
+          },
+          {
+            "text": "85,000",
+            "value": null,
+            "explanation": "Wrong: this adds the 4,000 decrease in payables instead of subtracting it. Paying down payables uses cash."
+          },
+          {
+            "text": "77,000",
+            "value": null,
+            "explanation": "Correct: 80,000 + 10,000 − 6,000 (receivables up) − 3,000 (inventory up) − 4,000 (payables down) = 77,000."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:1046:914",
+          "os:principles-finance-2e:m00035:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company sold equipment with a book value of 30,000 for 38,000 cash, so net income includes an 8,000 gain. Under the indirect method, how is the sale presented?",
+        "options": [
+          {
+            "text": "Add 8,000 in operating; show 8,000 as an investing inflow",
+            "value": null,
+            "explanation": "Wrong: adding the gain doubles it in operating cash flow, and only the gain, not the full proceeds, is shown in investing."
+          },
+          {
+            "text": "Subtract 8,000 in operating; show 38,000 as an investing inflow",
+            "value": null,
+            "explanation": "Correct: the gain is not an operating cash flow, so it is removed from net income. The full 38,000 cash proceeds are an investing inflow."
+          },
+          {
+            "text": "Make no operating adjustment; show 38,000 as an investing inflow",
+            "value": null,
+            "explanation": "Wrong: leaving the gain in net income counts 8,000 of it in both operating and investing, overstating total cash."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67931:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Retained earnings were 200,000 at the start of the year and 245,000 at the end. Net income was 70,000. Assume the only other change in retained earnings was dividends declared, all paid in cash during the year, with no dividends payable at either date. What was the cash dividend shown in financing activities?",
+        "options": [
+          {
+            "text": "25,000",
+            "value": null,
+            "explanation": "Correct: dividends = 200,000 + 70,000 − 245,000 = 25,000, shown as a financing outflow."
+          },
+          {
+            "text": "45,000",
+            "value": null,
+            "explanation": "Wrong: this is the change in retained earnings (245,000 − 200,000). It ignores that net income also raised retained earnings."
+          },
+          {
+            "text": "115,000",
+            "value": null,
+            "explanation": "Wrong: this computes 245,000 + 70,000 − 200,000, reversing the roll-forward and adding net income to the ending balance."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00035:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company's balance sheet at the start of the year shows cash of 40,000. For the year, cash flow from operating activities is +55,000, from investing activities is −70,000 and from financing activities is +25,000. What cash balance should appear on the closing balance sheet?",
+        "options": [
+          {
+            "text": "10,000",
+            "value": null,
+            "explanation": "Wrong: this is only the net change in cash (55,000 − 70,000 + 25,000 = 10,000). It forgets to add the opening cash balance."
+          },
+          {
+            "text": "190,000",
+            "value": null,
+            "explanation": "Wrong: this adds the investing outflow as if it were positive (40,000 + 55,000 + 70,000 + 25,000). Outflows must be subtracted."
+          },
+          {
+            "text": "50,000",
+            "value": null,
+            "explanation": "Correct: net change = 55,000 − 70,000 + 25,000 = 10,000, and 40,000 + 10,000 = 50,000, which must match closing cash."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00035:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which transaction would be left out of the body of the cash flow statement and disclosed in the notes instead?",
+        "options": [
+          {
+            "text": "Selling land for cash at a price above its book value",
+            "value": null,
+            "explanation": "Wrong: this involves cash, so it appears in investing. The mistake is treating any gain-related transaction as non-cash."
+          },
+          {
+            "text": "Acquiring land by issuing common shares to the seller",
+            "value": null,
+            "explanation": "Correct: no cash changes hands, so it is a non-cash investing and financing deal, disclosed separately in the notes."
+          },
+          {
+            "text": "Repaying part of a bank loan with cash",
+            "value": null,
+            "explanation": "Wrong: the repayment is a cash outflow in financing. The mistake is thinking all financing items are disclosed only in the notes."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:339:337"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Which closing balance sheet figure must equal beginning cash plus the net change in cash from the cash flow statement?",
+        "back": "Cash and cash equivalents. If it does not match, the statement has an error.",
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:474:390",
+          "os:principles-finance-2e:m00035:4"
+        ]
+      },
+      {
+        "front": "Why is depreciation added back to net income in the indirect operating section?",
+        "back": "It lowered net income but was not a cash payment this period, so adding it back moves net income toward cash flow.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00035:2"
+        ]
+      },
+      {
+        "front": "What is the direction rule for working capital changes in the indirect method?",
+        "back": "An increase in an operating asset reduces cash (subtract). An increase in an operating liability raises cash (add). Decreases do the opposite.",
+        "cited_chunk_ids": [
+          "flatworld-business-accounting:1046:914",
+          "os:principles-finance-2e:m00035:2"
+        ]
+      },
+      {
+        "front": "Which balance sheet changes feed which cash flow sections?",
+        "back": "Current assets and liabilities feed operating. Non-current assets feed investing. Non-current liabilities and equity (shares, dividends) feed financing.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:339:337"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T15:51:58.551Z",
+      "purpose": "generate",
+      "losId": "fsa-04-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9127,
+      "outputTokens": 9106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.11047019999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

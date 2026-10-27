@@ -1,0 +1,820 @@
+{
+  "losId": "fsa-12-los5",
+  "losText": "explain considerations in the choice of an explicit forecast horizon and an analyst's choices in developing projections beyond the short-term forecast horizon",
+  "moduleId": "fsa-12",
+  "moduleTitle": "Introduction to Financial Statement Modeling",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:01:15.678Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch11:20:16",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 20",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:19:15",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 19",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=19",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "damodaran-valn2ed-ch11:20:17",
+      "title": "Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch11.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:27:20",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 27–29",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=27",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-rf-earnings-quality:37:38",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 37–38",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=37",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:12:10",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 12–13",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=12",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:17:15",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=17",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfr-17-229-10:2:3",
+      "title": "17 CFR 229.10 (Item 10) General, including use of non-GAAP financial measures (Regulation S-K) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 2–3",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title17-vol3/pdf/CFR-2023-title17-vol3-sec229-10.pdf#page=2",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch14:24:19",
+      "title": "Investment Valuation, 2nd ed., ch. 14: Free Cash Flow to Equity Discount Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 24–27",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch14.pdf#page=24",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00113:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Overview",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-earnings-quality:38:39",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "pp. 38–39",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=38",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-earnings-quality:37:37",
+      "title": "Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation)",
+      "locator": "p. 37",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2004/rf-v2004-n3-3927-pdf.pdf#page=37",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Far to Forecast, and What to Do After That",
+      "summary": "A financial model can only be built in detail for a limited number of years, so the analyst must decide how long that explicit period should be and how to value everything after it. This matters because the value beyond the explicit period is often most of a company's estimated value, and sloppy choices there can distort the answer.",
+      "sections": [
+        {
+          "heading": "Why there is a cut-off at all",
+          "body_markdown": "Think of a weather forecast. Tomorrow's is detailed and fairly reliable. Next week's is rougher, and next month's is little better than the seasonal average. Company forecasts behave the same way.\n\nAn **explicit forecast horizon** is the number of years for which the analyst projects each line item (sales, margins, capex, working capital and so on). Everything after that is handled with a simpler, summary assumption. Each extra detailed year costs effort and adds more guesswork, so the analyst has to decide where extra detail stops paying off.\n\nEvidence on analyst forecasts supports this. Analysts tend to beat purely historical models for the next one to two quarters, but that edge shrinks as the horizon lengthens. Over three to five years it is surprisingly small, and past growth rates still heavily influence what analysts forecast."
+        },
+        {
+          "heading": "What drives the choice of explicit horizon",
+          "body_markdown": "No single number of years is correct. These considerations decide it:\n\n- **Purpose of the model.** A long-term investor, or a valuation that depends heavily on the later years, needs a longer detailed forecast than a quick check on the next year's earnings.\n- **Cyclicality.** In a cyclical industry the horizon should be long enough to reach a normal, mid-cycle level of sales and margins. Otherwise the final year, which becomes the base for everything afterward, may sit at a peak or a trough.\n- **Time to a steady state.** A young, fast-growing company needs a longer horizon than a mature one. The explicit period should last until growth, margins and reinvestment look sustainable for the long run.\n- **Company-specific events.** Restructurings, patent expiries, big contracts or acquisitions can make some years behave unusually. The horizon should be long enough to work through them.\n- **Visibility and cost versus benefit.** If the analyst cannot reasonably forecast far ahead, stretching the detailed period adds false precision rather than information.\n\nA useful reality check is **mean reversion**, the tendency of extreme results to drift back toward the average. In the research, companies with very high sales growth saw it fall sharply within a couple of years and come close to the typical level by year three. Extreme returns on operating assets and profit margins also tended to revert, largely because unusual items and competition erode them. Assuming extreme growth or margins persist for long is usually unrealistic."
+        },
+        {
+          "heading": "Choices for the period beyond the explicit horizon",
+          "body_markdown": "After the last explicit year the analyst needs a **terminal (continuing) value**, a single number summarizing everything the company is worth from then on. Common choices:\n\n1. **Fade or converge.** Keep the model going, but let growth, margins and returns drift toward industry or economy-wide averages. This is simple extrapolation tempered by mean reversion.\n2. **Perpetuity growth (Gordon growth).** Take a normalized cash flow for the year after the horizon and capitalize it with a constant growth rate:\n\n$$TV_N=\\frac{CF_{N+1}}{r-g}$$\n\n3. **Market multiple (exit multiple).** Apply a price or enterprise-value multiple, taken from comparable mature companies or the company's own history, to the final-year metric.\n\nThe perpetuity method requires the company to be in a **steady state** at the horizon. If it is not, the analyst should lengthen the explicit period or add a fade stage before applying the formula."
+        },
+        {
+          "heading": "Keeping the terminal assumptions consistent",
+          "body_markdown": "The terminal value is often the largest part of total value, so small errors there matter a lot. Check these points:\n\n- **Normalize the base year.** Start from mid-cycle, not peak or trough, earnings and cash flow, with unusual items removed.\n- **Cap the growth rate.** A perpetual growth rate should be modest, generally no higher than the long-run nominal growth of the economy. A company cannot outgrow the economy forever.\n- **Match reinvestment to growth.** If the company grows forever it must keep investing. Assuming capex only equals depreciation, with no working capital growth, means zero net investment, which does not fit perpetual growth. As growth slows, the gap between capex and depreciation should narrow but not vanish.\n- **Keep risk and margins plausible.** A steady-state company should have average-type risk and margins and returns close to industry norms, not permanently abnormal ones.\n- **Pick the method that matches the situation.** If the terminal value looks too high or too low, check these assumptions before trusting the number.\n\nIn short, the analyst models detail where there is information, then lets fundamentals and averages take over where there is not."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst forecasts free cash flow explicitly for 5 years. Year-5 free cash flow is 200 (in millions). After year 5 the analyst assumes a constant growth rate of 3% forever, with a discount rate of 9%. What is the terminal value at the end of year 5, and what is it worth today?",
+        "steps": [
+          "Identify the method: the company is assumed to be in steady state after year 5, so use the perpetuity growth formula.",
+          "Compute the cash flow for the first year after the horizon: $CF_6 = 200 \\times 1.03 = 206$.",
+          "Apply $TV_5 = CF_6/(r-g) = 206/(0.09-0.03) = 206/0.06 = 3{,}433.33$.",
+          "Discount that value back 5 years to today. BA II Plus: 5 [N], 9 [I/Y], 3433.33 [FV], 0 [PMT], [CPT] [PV], which shows about -2,231.43. Ignore the sign.",
+          "Interpretation: the terminal value is a value as of year 5, so it is discounted over 5 periods, not 6 and not 4."
+        ],
+        "answer": "Terminal value at the end of year 5 is about 3,433.33 million, which has a present value of about 2,231.43 million.",
+        "answer_value": 3433.33,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":206,\"r\":0.09,\"g\":0.03}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Terminal value by perpetuity growth",
+          "latex": "TV_N=\\frac{CF_{N+1}}{r-g}=\\frac{CF_N(1+g)}{r-g}",
+          "where": "$TV_N$ = value at the end of the explicit horizon (year N); $CF_N$ = cash flow in year N; $CF_{N+1}$ = cash flow in the following year; $g$ = constant perpetual growth rate; $r$ = discount rate; requires $r>g$."
+        },
+        {
+          "name": "Present value of the terminal value",
+          "latex": "PV(TV)=\\frac{TV_N}{(1+r)^N}",
+          "where": "$TV_N$ = terminal value at the end of year N; $r$ = discount rate per period; $N$ = number of years in the explicit horizon."
+        },
+        {
+          "name": "Terminal value by exit multiple",
+          "latex": "TV_N=M\\times X_N",
+          "where": "$M$ = chosen multiple (for example EV/EBITDA) from comparable mature companies or history; $X_N$ = the matching metric in the final explicit year."
+        }
+      ],
+      "exam_traps": [
+        "Capitalizing the final explicit year's cash flow without growing it one more year: the formula needs the first cash flow after the horizon, $CF_{N+1}$.",
+        "Discounting the terminal value by the wrong number of years. A value computed at the end of year N is discounted over N periods.",
+        "Using peak-cycle or trough-cycle earnings as the terminal base instead of normalized mid-cycle figures.",
+        "Choosing a perpetual growth rate above the long-run growth of the economy, or extrapolating very high recent growth, ignoring mean reversion.",
+        "Assuming capex equals depreciation and no working capital growth in the terminal year while still growing forever, which implies zero net reinvestment."
+      ],
+      "builds_on": [
+        "Free cash flow and DCF valuation basics",
+        "Mean reversion of growth and margins",
+        "Sales-based pro forma modeling"
+      ],
+      "leads_to": [
+        "Terminal value in equity and firm valuation",
+        "Sensitivity analysis of valuation assumptions",
+        "Analyst bias and forecast overconfidence"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch11:19:15",
+        "damodaran-valn2ed-ch11:20:16",
+        "cfa-rf-earnings-quality:37:37",
+        "cfa-rf-earnings-quality:37:38",
+        "cfa-rf-earnings-quality:38:39",
+        "damodaran-valn2ed-ch14:12:10",
+        "damodaran-valn2ed-ch14:24:19",
+        "damodaran-valn2ed-ch14:27:20"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst is modeling a manufacturer in a highly cyclical industry. A full boom-and-bust cycle lasts about seven years, and current earnings are near a cyclical trough. Which approach to the explicit forecast horizon is best supported?",
+        "options": [
+          {
+            "text": "Run the explicit forecast long enough for earnings to reach a normalized, mid-cycle level before valuing the later years.",
+            "value": null,
+            "explanation": "Correct. The final explicit year becomes the base for the terminal value, so it should reflect normal conditions, not a trough or peak."
+          },
+          {
+            "text": "End the explicit forecast immediately so that trough earnings become the base for perpetual growth.",
+            "value": null,
+            "explanation": "This capitalizes depressed trough earnings forever, which understates value and ignores the cycle."
+          },
+          {
+            "text": "Limit the explicit forecast to one year because cyclical companies cannot be forecast beyond that.",
+            "value": null,
+            "explanation": "Cyclicality calls for a horizon that covers the cycle or reaches a normalized level, not for abandoning forecasts."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's sales grew 60% this year, while typical long-run sales growth for firms like it is about 15%. The analyst is building an eight-year explicit forecast. Which growth assumption is most consistent with the evidence on mean reversion?",
+        "options": [
+          {
+            "text": "Hold growth near 60% for all eight years, because the latest result is the best predictor.",
+            "value": null,
+            "explanation": "This ignores mean reversion. Extreme growth rates have tended to fall back quickly toward the average."
+          },
+          {
+            "text": "Set growth to zero after year 1, because extreme growth always reverses completely.",
+            "value": null,
+            "explanation": "This overcorrects. Growth tends to move back toward the average, not collapse below it."
+          },
+          {
+            "text": "Let growth fade from its high level toward the long-run average over the forecast period.",
+            "value": null,
+            "explanation": "Correct. Studies show very high growth drops substantially within a year or two and nears the average by about year three, so a fade is realistic."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:37:38"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An analyst forecasts free cash flow to equity (FCFE) explicitly for 5 years. FCFE in year 5 is 150, and it is expected to grow 3% per year forever after that. The cost of equity is 10%. Using the constant-growth formula, what is the terminal value at the end of year 5? Round to two decimals.",
+        "options": [
+          {
+            "text": "2,142.86",
+            "value": 2142.86,
+            "explanation": "Capitalizes the year-5 cash flow of 150 without growing it one more year: 150/(0.10 − 0.03). The formula needs year-6 cash flow."
+          },
+          {
+            "text": "2,207.14",
+            "value": 2207.14,
+            "explanation": "Correct. Year-6 FCFE = 150 × 1.03 = 154.5; TV = 154.5/(0.10 − 0.03) = 2,207.14."
+          },
+          {
+            "text": "1,188.46",
+            "value": 1188.46,
+            "explanation": "Adds g to r in the denominator: 154.5/(0.10 + 0.03). The denominator is r − g."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":154.5,\"r\":0.1,\"g\":0.03}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:12:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a terminal-value calculation, an analyst assumes capital expenditures equal depreciation and no change in working capital, while cash flow grows 3% a year forever. What is the best criticism of this setup?",
+        "options": [
+          {
+            "text": "Zero net reinvestment is inconsistent with growth in perpetuity, so terminal value is likely overstated.",
+            "value": null,
+            "explanation": "Correct. Sustained growth requires net investment. Assuming none boosts free cash flow and inflates the terminal value."
+          },
+          {
+            "text": "Capex should be below depreciation in stable growth, so terminal value is likely understated.",
+            "value": null,
+            "explanation": "Capex below depreciation would shrink the asset base, which does not fit a growing firm."
+          },
+          {
+            "text": "Capex equal to depreciation is acceptable only when growth exceeds the growth of the economy.",
+            "value": null,
+            "explanation": "Growth above the economy's cannot be sustained forever, and the zero-net-investment problem does not depend on that."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:24:19",
+          "damodaran-valn2ed-ch14:27:20"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An analyst estimates a terminal value of 3,000 as of the end of year 5 of an explicit forecast. The discount rate is 8% per year, compounded annually. What is the present value today of this terminal value? Round to two decimals.",
+        "options": [
+          {
+            "text": "2,205.09",
+            "value": 2205.09,
+            "explanation": "Discounts over 4 years instead of 5, treating the year-5 value as if it arrived one year earlier."
+          },
+          {
+            "text": "1,890.51",
+            "value": 1890.51,
+            "explanation": "Discounts over 6 years, wrongly using the year of the first post-horizon cash flow rather than the date of the terminal value."
+          },
+          {
+            "text": "2,041.75",
+            "value": 2041.75,
+            "explanation": "Correct. PV = 3,000/1.08^5 = 3,000/1.469328 = 2,041.75."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.08,\"n\":5,\"fv\":3000}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): PV = 3000/1.08^5 = 3000/1.469328 = 2,041.75, which is option C, not A. Check: 1.08^5 = 1.469328; 3000/1.469328 = 2041.75."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "At the end of its explicit forecast, a company is still growing much faster than the economy and its margins are still well above the industry norm. What is the most appropriate way to handle the period after the horizon?",
+        "options": [
+          {
+            "text": "Apply the constant-growth formula using the current high growth rate as the perpetual rate, to stay consistent with recent results.",
+            "value": null,
+            "explanation": "A perpetual rate far above the economy's growth is unsustainable and can even exceed the discount rate."
+          },
+          {
+            "text": "Lengthen the explicit period or add a fade stage so growth and margins converge before applying a constant-growth terminal value.",
+            "value": null,
+            "explanation": "Correct. The perpetuity formula assumes a steady state, so the company should reach one first."
+          },
+          {
+            "text": "Shorten the explicit period so that the terminal value begins earlier, while growth is still high.",
+            "value": null,
+            "explanation": "This moves the terminal value date to a point where the steady-state assumption is even less valid."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:12:10",
+          "cfa-rf-earnings-quality:38:39"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Research shows that analysts' forecasting advantage over purely historical models is clear for the next quarter or two but small over three to five years. What is the most sensible implication for building a model?",
+        "options": [
+          {
+            "text": "Always extend the detailed forecast as far as possible, because analysts' information makes long-range forecasts reliable.",
+            "value": null,
+            "explanation": "This ignores the evidence that the information edge fades with horizon. Extra years add false precision."
+          },
+          {
+            "text": "Treat analyst forecasts as useless at every horizon and rely only on past growth rates.",
+            "value": null,
+            "explanation": "Analysts do add value at short horizons, and past growth already heavily influences their long-term numbers."
+          },
+          {
+            "text": "Make detailed forecasts where information is strongest, then rely on simpler, fundamentals-based assumptions further out.",
+            "value": null,
+            "explanation": "Correct. Detail pays off where there is an information edge. Beyond that, fade, normalization or terminal assumptions are more defensible."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch11:19:15",
+          "damodaran-valn2ed-ch11:20:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is an explicit forecast horizon, and what happens after it ends?",
+        "back": "The explicit horizon is the number of years for which each line item is projected in detail. After it, a terminal (continuing) value summarizes all later value using a simpler method such as fade, perpetuity growth or an exit multiple.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "List the main factors in choosing the length of an explicit forecast horizon.",
+        "back": "Purpose of the model, industry cyclicality (cover a cycle or reach normal levels), time for the company to reach a steady state, company-specific events, and how reliably the analyst can forecast.",
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:37:38",
+          "damodaran-valn2ed-ch11:20:16"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the perpetuity-growth terminal value formula, and which cash flow goes in the numerator?",
+        "back": "$TV_N = CF_{N+1}/(r-g)$. Use the first cash flow after the horizon, $CF_N(1+g)$, and discount the result over N periods.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:12:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why should growth and margins usually fade toward averages over a long forecast?",
+        "back": "Extreme sales growth, margins and returns tend to mean-revert because competition and the loss of unusual items pull them back toward industry or economy norms.",
+        "cited_chunk_ids": [
+          "cfa-rf-earnings-quality:37:37",
+          "cfa-rf-earnings-quality:37:38",
+          "cfa-rf-earnings-quality:38:39"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Name two consistency checks on a terminal-value assumption set.",
+        "back": "Perpetual growth should not exceed the economy's long-run growth, and net reinvestment must be positive to support that growth (capex cannot just equal depreciation).",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch14:12:10",
+          "damodaran-valn2ed-ch14:24:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T17:01:04.436Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-12-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1194,
+      "outputTokens": 577,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008275,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:01:15.678Z",
+      "purpose": "grounding",
+      "losId": "fsa-12-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13721,
+      "outputTokens": 1560,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0432112,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.051486199999999996
+}

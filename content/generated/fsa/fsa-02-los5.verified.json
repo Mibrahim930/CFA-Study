@@ -1,0 +1,800 @@
+{
+  "losId": "fsa-02-los5",
+  "losText": "evaluate a company's financial performance using common-size income statements and financial ratios based on the income statement",
+  "moduleId": "fsa-02",
+  "moduleTitle": "Analyzing Income Statements",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T16:42:02.502Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00113:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§18.1 The Importance of Forecasting — Income Statement Analysis",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/18-1-the-importance-of-forecasting",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "lyryx-ifa-vol2:445:443",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 445–446",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=445",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:533:438",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 533–534",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=533",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — The DuPont Method",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00037:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.7 Common-Size Statements — Analyzing Organizational Performance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-7-common-size-statements",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — Profit Margin",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:528:433",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 528–529",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=528",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:530:435",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 530–531",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=530",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "lyryx-intro-fa-2021a:526:432",
+      "title": "Introduction to Financial Accounting, 2021A (Dauderis & Annand, Lyryx / Athabasca University)",
+      "locator": "pp. 526–527",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/890/3/DauderisAnnand-IntroFinAcct-2021A.pdf#page=526",
+      "license": "CC BY-NC-SA 3.0 (book copyright page: \"available under the Creative Commons license (CC BY-NC-SA)\", linked to creativecommons.org/licenses/by-nc-sa/3.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "strathmore-analyzing-financial-statements:33:5",
+      "title": "Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout)",
+      "locator": "pp. 33–37",
+      "url": "https://sbselearning.strathmore.edu/pluginfile.php?file=%2F8192%2Fmod_resource%2Fcontent%2F1%2FAnalyzing+Financial+Statements.pdf#page=33",
+      "license": "University course handout; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-financial-accounting:m67866:7",
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "locator": "§6.6 Describe and Prepare Multi-Step and Simple Income Statements for Merchandising Companies — Questions",
+      "url": "https://openstax.org/books/principles-financial-accounting/pages/6-6-describe-and-prepare-multi-step-and-simple-income-statements",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "lyryx-ifa-vol2:446:444",
+      "title": "Intermediate Financial Accounting, Volume 2, 2021A (Arnold & Kyle, Lyryx / Athabasca University)",
+      "locator": "pp. 446–447",
+      "url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/892/3/ArnoldKyle-IntermFinAcct-Vol2-2021A.pdf#page=446",
+      "license": "CC BY 4.0 (book copyright page: \"available under the Creative Commons license (CC BY)\")",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Reading an Income Statement Through Percentages and Margins",
+      "summary": "Turning every income statement line into a percentage of revenue, and computing profit margins, lets you compare a company with its own past and with rivals of any size. It shows where each revenue dollar goes and which cost line is driving a change in profitability.",
+      "sections": [
+        {
+          "heading": "Why raw dollars are not enough",
+          "body_markdown": "Suppose a small bakery earns \\$50,000 of profit and a supermarket chain earns \\$5,000,000. The chain is not necessarily better run. It is just bigger. Dollar amounts hide efficiency because they mix size with skill.\n\nThe fix is to divide by something that captures size. On the income statement the natural choice is **revenue** (net sales), because every cost is incurred to earn it. Once each line is a share of revenue, a bakery and a supermarket can sit side by side."
+        },
+        {
+          "heading": "Common-size income statement",
+          "body_markdown": "A **common-size income statement** (also called *vertical analysis*) restates every line as a percentage of revenue, so revenue is 100%.\n\n$$\\text{Common-size item}=\\frac{\\text{Line item}}{\\text{Revenue}}$$\n\nIf cost of goods sold (COGS, the direct cost of the products sold) is 60% of revenue, then 60 cents of each sales dollar is used up before anything else is paid for. You can read the statement top to bottom as a story of where the dollar goes: COGS, then operating costs, then interest, then tax, leaving the net profit.\n\nUses:\n- **Time-series comparison**: the same company across years. If COGS rose from 57% to 60% of revenue, something changed in production costs, pricing, or product mix.\n- **Cross-sectional comparison**: one company against competitors or an industry average, regardless of size.\n- **Forecasting**: historical percentages are a starting point for projecting future costs from forecast revenue.\n\nA related tool, *horizontal analysis*, compares each line with a base year (base year = 100%). That tracks growth. Common-size tracks structure."
+        },
+        {
+          "heading": "The margin ladder",
+          "body_markdown": "A **margin** is a profit measure divided by revenue. Each rung of the income statement gives one:\n\n- **Gross profit margin** = (revenue − COGS) ÷ revenue. It measures how much is left after the direct cost of the product, to cover everything else.\n- **Operating profit margin** = operating profit ÷ revenue, where operating profit is gross profit less operating expenses such as selling and administrative costs, before interest and income tax.\n- **Pretax margin** = earnings before tax ÷ revenue. Interest expense is now deducted.\n- **Net profit margin** = net income ÷ revenue. Income tax is now deducted as well.\n\nThe gap between two neighbouring margins shows what the step between them costs. A large drop from gross to operating margin means heavy overhead. A large drop from operating to pretax margin points to heavy borrowing costs. A large drop from pretax to net margin reflects a high tax burden. Each margin is also just the sum of the common-size lines above it, which is why a common-size statement and a margin analysis are two views of the same data."
+        },
+        {
+          "heading": "Evaluating performance and avoiding over-reading",
+          "body_markdown": "When a margin changes, work down the common-size statement to find *which* line moved. A company can show rising dollar profit while its margin shrinks, because costs grew faster than sales. Also note that an improving ratio on one line can hide a deteriorating one elsewhere. A lower overhead percentage may offset a higher COGS percentage and leave the operating margin flat.\n\nRatios show *what* changed, not *why*. Management chooses some accounting policies and estimates (for example inventory costing or depreciation), and these influence reported costs. So changes should be investigated, and comparisons with competitors are only meaningful if their accounting policies and business models are reasonably similar. Differences in a margin can come from real economics, such as pricing power or cost control, or from reporting choices.\n\nWhen describing changes, say *percentage points* for differences between two percentages (a margin moving from 42.5% to 40.0% is a fall of 2.5 percentage points)."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports the following (in thousands). Year 1: revenue 800, COGS 460, operating expenses 160, interest expense 16, income tax 32.8, net income 131.2. Year 2: revenue 1,000, COGS 600, operating expenses 190, interest expense 20, income tax 38, net income 152. Build the Year 2 common-size income statement, compare its margins with Year 1, and explain why the net profit margin fell even though revenue and net income both grew.",
+        "steps": [
+          "Year 2 gross profit = 1,000 − 600 = 400. Gross margin = 400 ÷ 1,000 = 40.0%. On the BA II Plus: 400 [÷] 1000 [=] gives 0.4.",
+          "Year 2 operating profit = 400 − 190 = 210. Operating margin = 210 ÷ 1,000 = 21.0%.",
+          "Year 2 pretax income = 210 − 20 = 190. Pretax margin = 19.0%. Tax = 38, which is 3.8% of revenue and 38 ÷ 190 = 20% of pretax income.",
+          "Year 2 net margin = 152 ÷ 1,000 = 15.2%. Common-size lines for Year 2: COGS 60.0%, operating expenses 19.0%, interest 2.0%, tax 3.8%, net income 15.2%.",
+          "Year 1 common-size: gross margin 340 ÷ 800 = 42.5%; operating expenses 20.0%; operating margin 180 ÷ 800 = 22.5%; interest 2.0%; pretax margin 164 ÷ 800 = 20.5%; net margin 131.2 ÷ 800 = 16.4%.",
+          "Compare. Gross margin fell 2.5 percentage points (42.5% to 40.0%). Operating expenses improved by 1 point (20.0% to 19.0%), so the operating margin fell only 1.5 points (22.5% to 21.0%). Interest was unchanged at 2.0% of revenue, so the pretax margin also fell 1.5 points (20.5% to 19.0%). The effective tax rate was 20% in both years, so the net margin fell 1.2 points (16.4% to 15.2%).",
+          "Diagnosis: revenue grew 25% (1,000 ÷ 800) but COGS grew about 30.4% (600 ÷ 460). Costs of production rose faster than sales, which is the main reason margins shrank. The next step is to investigate why, for example input prices, discounting, or product mix."
+        ],
+        "answer": "Year 2 net profit margin is 15.2% (down from 16.4%). The main cause is gross margin compression: COGS rose from 57.5% to 60.0% of revenue, only partly offset by lower operating expenses as a share of revenue.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Common-size line item",
+          "latex": "\\text{Common-size}_i=\\frac{\\text{Line item}_i}{\\text{Revenue}}\\times 100\\%",
+          "where": "Line item_i is any income statement line (COGS, operating expenses, interest, tax, net income); Revenue is net sales for the same period."
+        },
+        {
+          "name": "Gross profit margin",
+          "latex": "\\text{Gross margin}=\\frac{\\text{Revenue}-\\text{COGS}}{\\text{Revenue}}",
+          "where": "Revenue is net sales; COGS is cost of goods sold."
+        },
+        {
+          "name": "Operating profit margin",
+          "latex": "\\text{Operating margin}=\\frac{\\text{Operating profit}}{\\text{Revenue}}",
+          "where": "Operating profit is gross profit minus operating expenses, before interest and income tax."
+        },
+        {
+          "name": "Pretax margin",
+          "latex": "\\text{Pretax margin}=\\frac{\\text{Earnings before tax}}{\\text{Revenue}}",
+          "where": "Earnings before tax is operating profit minus interest expense (plus any non-operating income)."
+        },
+        {
+          "name": "Net profit margin",
+          "latex": "\\text{Net margin}=\\frac{\\text{Net income}}{\\text{Revenue}}",
+          "where": "Net income is profit after interest and income tax."
+        },
+        {
+          "name": "Effective tax rate",
+          "latex": "\\text{Effective tax rate}=\\frac{\\text{Income tax expense}}{\\text{Earnings before tax}}",
+          "where": "Income tax expense is the tax charge on the income statement; earnings before tax is pretax income."
+        }
+      ],
+      "exam_traps": [
+        "Using total assets (or net income) as the base for a common-size income statement. The base is revenue; total assets is the base only for the balance sheet.",
+        "Dividing gross profit by COGS instead of by revenue. That gives a markup, not a margin, and overstates the figure.",
+        "Calling a change from 42.5% to 40.0% a 2.5% decline. It is 2.5 percentage points (about a 5.9% relative decline).",
+        "Applying the tax rate to revenue or to operating profit instead of to pretax income after interest, which gives the wrong net income and net margin.",
+        "Concluding from a stable operating margin that nothing changed. Offsetting movements (higher COGS ratio, lower overhead ratio) can hide a real deterioration in gross margin.",
+        "Treating cross-company margin gaps as proof of better management without checking whether accounting policies and business models are comparable."
+      ],
+      "builds_on": [
+        "Income statement format and line items",
+        "Revenue and expense recognition",
+        "Cost of goods sold and gross profit"
+      ],
+      "leads_to": [
+        "DuPont decomposition of ROE",
+        "Horizontal (trend) analysis",
+        "Forecasting income statements from revenue",
+        "Quality of earnings"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00037:2",
+        "lyryx-ifa-vol2:445:443",
+        "os:principles-finance-2e:m00045:1",
+        "os:principles-finance-2e:m00113:3",
+        "lyryx-intro-fa-2021a:530:435"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst is preparing a common-size income statement. Which figure is normally used as the base (100%) for every line?",
+        "options": [
+          {
+            "text": "Net revenue (net sales)",
+            "value": null,
+            "explanation": "Correct. Every cost is incurred to earn revenue, so expressing each line as a share of revenue shows where each sales dollar goes."
+          },
+          {
+            "text": "Total assets",
+            "value": null,
+            "explanation": "This is the usual base for a common-size balance sheet, not the income statement. It confuses the two statements."
+          },
+          {
+            "text": "Net income",
+            "value": null,
+            "explanation": "Net income is the bottom line, not the starting point, so all lines would be expressed relative to the smallest figure and sales would exceed 100%. This is not the standard base."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:445:443",
+          "lyryx-intro-fa-2021a:533:438"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company has revenue of 500 and cost of goods sold of 320. What is its gross profit margin, rounded to one decimal place?",
+        "options": [
+          {
+            "text": "64.0%",
+            "value": null,
+            "explanation": "This is COGS ÷ revenue (320 ÷ 500), the cost ratio rather than the margin. It ignores that the margin is what remains after COGS."
+          },
+          {
+            "text": "36.0%",
+            "value": null,
+            "explanation": "Correct. Gross profit = 500 − 320 = 180, and 180 ÷ 500 = 36.0%."
+          },
+          {
+            "text": "56.3%",
+            "value": null,
+            "explanation": "This is gross profit ÷ COGS (180 ÷ 320), a markup on cost. The denominator should be revenue."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-financial-accounting:m67866:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports revenue of 2,000, COGS of 1,200, operating expenses of 400 and interest expense of 60. Income tax is 25% of earnings before tax. What is the net profit margin, rounded to two decimal places?",
+        "options": [
+          {
+            "text": "17.00%",
+            "value": null,
+            "explanation": "This is the pretax margin (340 ÷ 2,000). It omits the income tax deduction."
+          },
+          {
+            "text": "15.00%",
+            "value": null,
+            "explanation": "This applies the 25% tax to operating profit (400 × 0.75 = 300) and ignores interest, so tax and interest are both mishandled."
+          },
+          {
+            "text": "12.75%",
+            "value": null,
+            "explanation": "Correct. Operating profit = 800 − 400 = 400; pretax = 400 − 60 = 340; tax = 85; net income = 255; 255 ÷ 2,000 = 12.75%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00045:1",
+          "os:principles-finance-2e:m00113:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Common-size statements for a company show COGS rising from 55% to 58% of revenue between two years, while operating expenses fall from 25% to 22% of revenue. Interest and tax effects are unchanged. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Cost control improved overall, because operating expenses fell as a share of revenue.",
+            "value": null,
+            "explanation": "This looks only at the overhead line and ignores the 3-point rise in COGS, which offsets it completely."
+          },
+          {
+            "text": "Operating margin is unchanged at 20%, but gross margin fell and the cause of the higher COGS ratio should be investigated.",
+            "value": null,
+            "explanation": "Correct. Gross margin went from 45% to 42%, operating margin stayed at 20% (45 − 25 and 42 − 22), so the lower overhead ratio masked weaker gross profitability."
+          },
+          {
+            "text": "Profitability deteriorated at every level, because gross margin fell by three percentage points.",
+            "value": null,
+            "explanation": "This stops at the gross margin and ignores the offsetting fall in operating expenses. Operating margin did not decline."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00037:2",
+          "lyryx-intro-fa-2021a:530:435"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why are common-size income statements useful when comparing a small manufacturer with a much larger competitor?",
+        "options": [
+          {
+            "text": "They show the absolute dollar growth of each cost line over time.",
+            "value": null,
+            "explanation": "Absolute growth is horizontal (trend) analysis, and it is distorted by company size. Common-size removes size, not shows dollar growth."
+          },
+          {
+            "text": "They remove differences in accounting policies between the two firms.",
+            "value": null,
+            "explanation": "Common-size percentages are computed from reported numbers, so differences in inventory costing, depreciation or similar policies remain in them."
+          },
+          {
+            "text": "They express each line relative to revenue, so firms of different size can be compared.",
+            "value": null,
+            "explanation": "Correct. Scaling by revenue removes the effect of size and shows each firm's cost structure proportionally."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00037:2",
+          "lyryx-ifa-vol2:446:444"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company's revenue grew 10% and its COGS as a percentage of revenue was unchanged, yet its net profit margin fell. Which explanation is consistent with these facts?",
+        "options": [
+          {
+            "text": "Gross profit margin must have declined, because COGS rose.",
+            "value": null,
+            "explanation": "COGS rose in dollars with sales, but its share of revenue was unchanged, so the gross margin is unchanged. Confuses dollar growth with ratio change."
+          },
+          {
+            "text": "Costs below gross profit, or the effective tax rate, rose faster than revenue.",
+            "value": null,
+            "explanation": "Correct. With gross margin fixed, a lower net margin must come from higher operating expenses, interest or tax as a share of revenue."
+          },
+          {
+            "text": "Revenue growth must have come entirely from price increases.",
+            "value": null,
+            "explanation": "The source of the revenue growth cannot be determined from margins alone, and price increases would normally raise margins rather than lower them."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00037:2",
+          "lyryx-intro-fa-2021a:530:435"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A common-size income statement shows net income of 8% of revenue, interest expense of 3%, operating expenses of 22%, and an effective tax rate of 20% of pretax income. What is the gross profit margin?",
+        "options": [
+          {
+            "text": "35%",
+            "value": null,
+            "explanation": "Correct. Pretax = 8 ÷ 0.80 = 10%; operating margin = 10 + 3 = 13%; gross margin = 13 + 22 = 35%."
+          },
+          {
+            "text": "33%",
+            "value": null,
+            "explanation": "This adds net income, interest and operating expenses (8 + 3 + 22), skipping the tax gross-up from net income to pretax income."
+          },
+          {
+            "text": "32%",
+            "value": null,
+            "explanation": "This grosses up for tax (pretax 10%) but then adds only operating expenses (10 + 22), forgetting to add back interest to reach operating profit."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the base figure for a common-size income statement, and what is the base for a common-size balance sheet?",
+        "back": "Income statement: revenue (net sales). Balance sheet: total assets (or total liabilities and equity).",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:445:443",
+          "lyryx-intro-fa-2021a:533:438"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "List the four income statement margins in order from top to bottom of the statement.",
+        "back": "Gross margin (after COGS), operating margin (after operating expenses), pretax margin (after interest), net margin (after tax), each divided by revenue.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00113:3",
+          "os:principles-finance-2e:m00045:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Contrast vertical (common-size) and horizontal analysis of an income statement.",
+        "back": "Vertical: each line as a percentage of revenue in one period, showing structure. Horizontal: each line versus a base year (base = 100%), showing growth over time.",
+        "cited_chunk_ids": [
+          "lyryx-intro-fa-2021a:533:438",
+          "lyryx-ifa-vol2:446:444"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why must a change in a margin be investigated rather than taken at face value?",
+        "back": "Ratios show what changed, not why. The cause may be real economics (prices, costs) or management's accounting policies and estimates, and comparisons need similar policies.",
+        "cited_chunk_ids": [
+          "lyryx-ifa-vol2:445:443",
+          "lyryx-ifa-vol2:446:444"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "4/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T16:41:52.017Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-02-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 813,
+      "outputTokens": 543,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007173,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T16:42:02.501Z",
+      "purpose": "grounding",
+      "losId": "fsa-02-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13808,
+      "outputTokens": 1309,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0408752,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0480482
+}
