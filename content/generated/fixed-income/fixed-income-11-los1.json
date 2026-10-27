@@ -1,0 +1,492 @@
+{
+  "losId": "fixed-income-11-los1",
+  "losText": "define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)",
+  "moduleId": "fixed-income-11",
+  "moduleTitle": "Yield-Based Bond Duration Measures and Properties",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:06:32.884Z",
+  "retrieved": [
+    {
+      "id": "ftse-fixed-income-indices-guide:132:153",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 132",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:8:5",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 8–10",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=8",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:13:8",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 13–14",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=13",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:33:21",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 33–34",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=33",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:13:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 13–16",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:37:24",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 37–38",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=37",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "slcg-cmo-primer:15:14",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 15–16",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=15",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "occ-interest-rate-risk:12:14",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "p. 12",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:12:7",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 12–13",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=12",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Modified Duration, Money Duration and PVBP",
+      "summary": "These three numbers tell you how much a bond's price moves when its yield to maturity changes a little: as a percentage (modified duration), in currency for the whole position (money duration), and in currency per one basis point (PVBP). They are the everyday tools for measuring interest rate risk.",
+      "sections": [
+        {
+          "heading": "Start with the seesaw",
+          "body_markdown": "Bond prices and yields move in opposite directions, like the two ends of a seesaw. **Yield to maturity (YTM)** is the single annual discount rate that makes the present value of a bond's promised cash flows equal to its price. When YTM rises, price falls, and vice versa.\n\nThe question for risk management is *how far* the price moves. A **basis point (bp)** is 0.01% (so 100 bp = 1%, and 1 bp = 0.0001 as a decimal). We want a number that converts a yield change in bp into a price change.\n\n**Macaulay duration** is the weighted-average time, in years, until a bond's cash flows arrive, with weights equal to each cash flow's share of the bond's present value. It is a *time* measure. It becomes a *sensitivity* measure after one small adjustment."
+        },
+        {
+          "heading": "Modified duration: the percentage sensitivity",
+          "body_markdown": "**Modified duration** converts Macaulay duration into price sensitivity by dividing by one plus the periodic yield:\n\n$$\\text{ModDur}=\\frac{\\text{MacDur}}{1+\\text{YTM}/m}$$\n\nHere $m$ is the number of coupon periods per year, and the YTM is the *annual stated* yield. For a semiannual bond with a 6% YTM you divide by $1.03$, not $1.06$.\n\nThe estimate it gives is\n\n$$\\%\\Delta P \\approx -\\text{ModDur}\\times\\Delta\\text{YTM}$$\n\nA modified duration of 5 means: if yield changes by 1 percentage point (100 bp), the price moves by roughly 5% in the opposite direction. The minus sign reflects the seesaw.\n\nYou can also estimate modified duration directly from two re-priced values, one with the yield lowered by $\\Delta y$ ($V_-$) and one with it raised ($V_+$):\n\n$$\\text{ModDur}\\approx\\frac{V_- - V_+}{2\\,V_0\\,\\Delta y}$$\n\nThe 2 appears because you are averaging the move over a total yield swing of $2\\Delta y$.\n\n**Limits:** this is a straight-line (tangent) estimate on a curved price–yield relationship. It works well for small yield changes. For big changes it overstates the price fall and understates the price rise for an option-free bond, because of convexity (a separate topic)."
+        },
+        {
+          "heading": "Money duration: sensitivity in currency",
+          "body_markdown": "A percentage is not much use if you need to know how many dollars a portfolio could lose. **Money duration** multiplies modified duration by the bond's *full price* (the price including accrued interest) or by the market value of the position:\n\n$$\\text{MoneyDur}=\\text{ModDur}\\times V_0$$\n\nThen $\\Delta V \\approx -\\text{MoneyDur}\\times\\Delta y$. Money duration can be quoted per 100 of par or for the whole holding; just keep the base consistent. Think of modified duration as 'percent per 1%' and money duration as 'currency per 100%' of yield change, which is a scale factor you shrink by the size of the actual yield move."
+        },
+        {
+          "heading": "PVBP: currency per one basis point",
+          "body_markdown": "The **price value of a basis point (PVBP)**, also called DV01 or BPV, is the price change for a 1 bp change in yield. It can be computed from re-priced values:\n\n$$\\text{PVBP}=\\frac{V_- - V_+}{2}\\quad(\\Delta y = 1\\text{ bp})$$\n\nor approximated from money duration:\n\n$$\\text{PVBP}\\approx\\text{MoneyDur}\\times 0.0001$$\n\nPVBP is quoted as a positive amount (the size of the move). Because it depends on price level, two bonds with the same modified duration can have different PVBPs, and a bond with lower modified duration but a much higher price can have the larger PVBP. Compare *percentage* risk with modified duration and *currency* risk with money duration or PVBP."
+        }
+      ],
+      "worked_example": {
+        "problem": "An annual-pay bond has a Macaulay duration of 7.80 years and a YTM of 6.00% (annual). Its full price is 98.50 per 100 of par. An investor holds 5,000,000 of par value. (a) Find the modified duration. (b) Estimate the percentage price change if the YTM rises by 25 bp. (c) Find the position's money duration. (d) Find the position's PVBP.",
+        "steps": [
+          "Modified duration: divide Macaulay duration by $1+0.06/1=1.06$. BA II Plus: 7.8 ÷ 1.06 = → 7.358491. So ModDur ≈ 7.36.",
+          "Percentage change for +25 bp: 25 bp = 0.0025. $\\%\\Delta P\\approx -7.358491\\times0.0025=-0.018396$, about −1.84%.",
+          "Market value of the position: 5,000,000 × 0.985 = 4,925,000 (full price used, not par). BA II Plus: 5000000 × 0.985 = .",
+          "Money duration: 7.358491 × 4,925,000 = 36,240,568 (about 36.24 million). BA II Plus: 7.358491 × 4925000 = .",
+          "PVBP ≈ money duration × 0.0001 = 36,240,568 × 0.0001 = 3,624.06.",
+          "Cross-check: a 25 bp rise changes value by about −36,240,568 × 0.0025 ≈ −90,601, which equals 25 × 3,624 and also 1.84% of 4,925,000."
+        ],
+        "answer": "Modified duration ≈ 7.36; a 25 bp rise implies ≈ −1.84%; money duration ≈ 36.24 million; PVBP ≈ 3,624 per basis point for the position.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Modified duration from Macaulay duration",
+          "latex": "\\text{ModDur}=\\dfrac{\\text{MacDur}}{1+\\text{YTM}/m}",
+          "where": "MacDur = Macaulay duration in years; YTM = annual stated yield to maturity (decimal); m = coupon periods per year."
+        },
+        {
+          "name": "Duration estimate of percentage price change",
+          "latex": "\\%\\Delta P\\approx -\\text{ModDur}\\times\\Delta\\text{YTM}",
+          "where": "ModDur = modified duration; ΔYTM = change in annual yield as a decimal (50 bp = 0.005). Valid for small changes."
+        },
+        {
+          "name": "Approximate modified duration from re-pricing",
+          "latex": "\\text{ModDur}\\approx\\dfrac{V_- - V_+}{2\\,V_0\\,\\Delta y}",
+          "where": "V₋ = price after yield falls by Δy; V₊ = price after yield rises by Δy; V₀ = starting price; Δy = yield shift as a decimal."
+        },
+        {
+          "name": "Money duration",
+          "latex": "\\text{MoneyDur}=\\text{ModDur}\\times V_0",
+          "where": "V₀ = full price (per 100 par) or market value of the position, including accrued interest."
+        },
+        {
+          "name": "PVBP",
+          "latex": "\\text{PVBP}=\\dfrac{V_- - V_+}{2}\\approx\\text{MoneyDur}\\times 0.0001",
+          "where": "V₋ and V₊ = values after a 1 bp fall and 1 bp rise in yield; MoneyDur in the same currency base as the values."
+        }
+      ],
+      "exam_traps": [
+        "Treating Macaulay duration (a time measure) as the price-sensitivity number; you must divide by $1+\\text{YTM}/m$ first.",
+        "Dividing by $1+$ the *annual* yield for a semiannual (or quarterly) bond instead of $1+\\text{YTM}/m$.",
+        "Mixing units: 50 bp is 0.005 as a decimal (0.50%), not 0.05 or 0.5.",
+        "Dropping the 2 in the approximate formula $(V_- - V_+)/(2V_0\\Delta y)$, which doubles the answer, or using only one side of the price change.",
+        "Assuming a higher modified duration always means a higher PVBP; PVBP also scales with the bond's price, and quoting money duration with par instead of full price.",
+        "Forgetting the minus sign: a yield rise means a price fall."
+      ],
+      "builds_on": [
+        "Bond pricing and yield to maturity",
+        "Macaulay duration",
+        "Time value of money",
+        "Basis points and percentage arithmetic"
+      ],
+      "leads_to": [
+        "Effective duration",
+        "Convexity and the duration-plus-convexity estimate",
+        "How maturity, coupon and yield affect duration",
+        "Portfolio duration and hedging"
+      ],
+      "cited_chunk_ids": [
+        "ritchken-measures-of-price-sensitivity:8:5",
+        "ritchken-measures-of-price-sensitivity:13:8",
+        "mit-ocw-15433-fixedincome1:13:3",
+        "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+        "sfu-poitras-duration-convexity:9:3",
+        "fed-feds-2006-28:11:7"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best fits modified duration?",
+        "options": [
+          {
+            "text": "The weighted-average time in years until a bond's cash flows are received",
+            "value": null,
+            "explanation": "This describes Macaulay duration, a time measure. Modified duration is derived from it but is a price-sensitivity measure."
+          },
+          {
+            "text": "The approximate percentage price change for a 1-percentage-point yield change, in the opposite direction",
+            "value": null,
+            "explanation": "Correct. Modified duration is the approximate percentage price sensitivity, e.g. a value of 5 means about a 5% price move for a 100 bp yield move."
+          },
+          {
+            "text": "The currency amount a bond's price changes for a one-basis-point change in yield",
+            "value": null,
+            "explanation": "This describes PVBP, a currency measure, not modified duration, which is a percentage measure."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "frbsf-el-2000-mbs-interest-rate-risk:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 5-year zero-coupon bond (face 100) has a stated annual YTM of 6.00% with semiannual compounding (3.00% per half-year). Its Macaulay duration equals its maturity of 5.00 years. What is its modified duration in years, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.85",
+            "value": 4.8544,
+            "explanation": "Correct. ModDur = 5.00 / (1 + 0.06/2) = 5.00 / 1.03 = 4.85."
+          },
+          {
+            "text": "5.00",
+            "value": 5,
+            "explanation": "This is Macaulay duration; the candidate forgot to divide by (1 + YTM/m)."
+          },
+          {
+            "text": "4.72",
+            "value": 4.717,
+            "explanation": "Divided by 1.06 (one plus the annual yield) instead of 1.03; the semiannual compounding was ignored."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "modifiedDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":5,\"freq\":2},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year bond with face value 100 pays a 5.00% annual coupon and is priced at par to yield 5.00% (annual compounding). What is its modified duration in years, rounded to two decimals?",
+        "options": [
+          {
+            "text": "3.00",
+            "value": 3.0024,
+            "explanation": "Multiplied Macaulay duration (2.86) by 1.05 instead of dividing, which gives about 3.00."
+          },
+          {
+            "text": "2.72",
+            "value": 2.7232,
+            "explanation": "Correct. For a par bond, ModDur = (1/y)(1 − 1/(1+y)^n) = 20 × (1 − 0.86384) = 2.72. Equivalently Macaulay 2.86 ÷ 1.05."
+          },
+          {
+            "text": "2.86",
+            "value": 2.8594,
+            "explanation": "This is the Macaulay duration; the candidate did not divide by 1.05."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "modifiedDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":3,\"freq\":1},\"ytm\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond has a modified duration of 6.2. Using modified duration alone (no convexity adjustment), estimate the percentage price change if its YTM rises by 50 basis points. Round to two decimals.",
+        "options": [
+          {
+            "text": "+3.10%",
+            "value": 0.031,
+            "explanation": "Sign error: a yield increase lowers the price, so the estimate must be negative."
+          },
+          {
+            "text": "−0.31%",
+            "value": -0.0031,
+            "explanation": "Treated 50 bp as 0.05% (0.0005) instead of 0.50% (0.005), shrinking the answer tenfold."
+          },
+          {
+            "text": "−3.10%",
+            "value": -0.031,
+            "explanation": "Correct. %ΔP ≈ −6.2 × 0.005 = −0.031, i.e. −3.10%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":6.2,\"convexity\":0,\"dy\":0.005}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "sfu-poitras-duration-convexity:9:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio holds a bond position with a full market value of 2,000,000 and a modified duration of 5.0. Using the approximation PVBP ≈ money duration × 0.0001, what is the position's PVBP?",
+        "options": [
+          {
+            "text": "1,000",
+            "value": null,
+            "explanation": "Correct. Money duration = 5.0 × 2,000,000 = 10,000,000; PVBP ≈ 10,000,000 × 0.0001 = 1,000 per basis point."
+          },
+          {
+            "text": "100,000",
+            "value": null,
+            "explanation": "This is money duration × 0.01, the approximate loss for a 100 bp yield rise, not a 1 bp move."
+          },
+          {
+            "text": "10,000",
+            "value": null,
+            "explanation": "Used 0.001 (10 bp) instead of 0.0001 (1 bp) when converting money duration."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:13:8",
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Per 100 of par, Bond A has a full price of 100 and a modified duration of 4.0. Bond B has a full price of 60 and a modified duration of 6.0. Which statement is correct?",
+        "options": [
+          {
+            "text": "Bond B has the larger PVBP because its modified duration is higher",
+            "value": null,
+            "explanation": "Ignores price level. PVBP ≈ ModDur × price × 0.0001, so B = 6.0 × 60 × 0.0001 = 0.036."
+          },
+          {
+            "text": "Bond A has the larger PVBP, although Bond B is more sensitive in percentage terms",
+            "value": null,
+            "explanation": "Correct. A: 4.0 × 100 × 0.0001 = 0.040; B: 6.0 × 60 × 0.0001 = 0.036. B's percentage sensitivity is higher, but A's currency move per bp is larger."
+          },
+          {
+            "text": "The two bonds have equal PVBPs because both face the same one-basis-point yield change",
+            "value": null,
+            "explanation": "Confuses the size of the yield shock with the size of the price response; PVBP depends on both duration and price."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:13:8",
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bond is priced at 100. If its YTM falls by 0.50% (50 bp) the price rises to 102.60, and if the YTM rises by 0.50% the price falls to 97.50. Using the two-sided re-pricing approximation, what is its modified duration, rounded to two decimals?",
+        "options": [
+          {
+            "text": "5.20",
+            "value": null,
+            "explanation": "Used only the price rise (102.60 − 100) over 100 × 0.005, ignoring the other side of the move."
+          },
+          {
+            "text": "10.20",
+            "value": null,
+            "explanation": "Omitted the 2 in the denominator: 5.10 / (100 × 0.005) = 10.20."
+          },
+          {
+            "text": "5.10",
+            "value": null,
+            "explanation": "Correct. (102.60 − 97.50) / (2 × 100 × 0.005) = 5.10 / 1.00 = 5.10."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:11:7",
+          "sfu-poitras-duration-convexity:9:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An option-free bond has a modified duration of 8.58. For a 200 bp yield increase, duration alone predicts a −17.16% price change, but the actual change is −15.05%. What is the best explanation?",
+        "options": [
+          {
+            "text": "The price–yield curve is convex, so the straight-line estimate overstates the loss from a large yield rise",
+            "value": null,
+            "explanation": "Correct. Modified duration is a tangent-line estimate; the curve bends above it, so the actual fall is smaller for a rise (and the actual gain larger for a fall)."
+          },
+          {
+            "text": "Modified duration ignores the principal repayment, so it overstates the price decline",
+            "value": null,
+            "explanation": "Wrong: duration is built from all cash flows, including principal. The gap comes from curvature, not missing cash flows."
+          },
+          {
+            "text": "For changes larger than 100 bp the analyst should have used money duration instead",
+            "value": null,
+            "explanation": "Confuses units: money duration is just modified duration × price in currency terms and carries the same linear error."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:9:3",
+          "fed-feds-2006-28:11:7"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do you turn Macaulay duration into modified duration?",
+        "back": "Divide by (1 + YTM/m), where YTM is the annual stated yield and m is the number of coupon periods per year.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      {
+        "front": "What does a modified duration of 5 tell you?",
+        "back": "Roughly a 5% price change, in the opposite direction, for a 1-percentage-point (100 bp) change in yield; accurate for small changes.",
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+          "ritchken-measures-of-price-sensitivity:8:5"
+        ]
+      },
+      {
+        "front": "What is money duration and how is it calculated?",
+        "back": "The currency sensitivity of a bond or position: modified duration × full price (or market value). Then ΔV ≈ −MoneyDur × Δy.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      {
+        "front": "What is PVBP, and how is it approximated?",
+        "back": "The price change for a 1 bp yield change (also called DV01 or BPV): (V₋ − V₊)/2, or about money duration × 0.0001.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:13:8"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:06:32.884Z",
+      "purpose": "generate",
+      "losId": "fixed-income-11-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11160,
+      "outputTokens": 15198,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1754562,
+      "stopReason": "end_turn"
+    }
+  ]
+}

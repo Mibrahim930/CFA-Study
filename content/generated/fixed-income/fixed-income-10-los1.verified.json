@@ -1,0 +1,841 @@
+{
+  "losId": "fixed-income-10-los1",
+  "losText": "calculate and interpret the sources of return from investing in a fixed-rate bond;",
+  "moduleId": "fixed-income-10",
+  "moduleTitle": "Interest Rate Risk and Return",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:45:06.401Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ritchken-measures-of-price-sensitivity:19:13",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 19",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=19",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:17:11",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 17",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=17",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Concepts of Bond Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:92:81",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 92–93",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=92",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00075:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.3 Historical Picture of Returns to Bonds — Corporate Bond Behavior, Discussion, Charts, and Graphs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-3-historical-picture-of-returns-to-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00093:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.1 Risk and Return to an Individual Asset — Measuring Historical Returns",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-1-risk-and-return-to-an-individual-asset",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Bond Risks",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-sr674-mortgage-spreads:22:26",
+      "title": "Understanding Mortgage Spreads (FRBNY Staff Report 674, option-adjusted spread)",
+      "locator": "pp. 22–23",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr674.pdf#page=22",
+      "license": "Federal Reserve Bank of New York staff report; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "utah-fcs5510-bond-market:7:9",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 7",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=7",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:19:14",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 19–22",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=19",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "finra-bonds:1:19",
+      "title": "Investment Products: Bonds (FINRA investor education)",
+      "locator": "Bonds",
+      "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+      "license": "© FINRA; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00075:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.3 Historical Picture of Returns to Bonds — Federal Government Bond Behavior, Discussion, Charts, and Graphs",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-3-historical-picture-of-returns-to-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Where a Fixed-Rate Bond's Return Comes From",
+      "summary": "A bond investor is paid from three places: the promised cash flows, the interest earned by reinvesting coupons, and any price gain or loss if the bond is sold early. Splitting the return this way shows why a change in interest rates can hurt one part and help another.",
+      "sections": [
+        {
+          "heading": "Think of a bond as a rental property",
+          "body_markdown": "Imagine you buy a flat to rent out. You get **rent** each month, you can put that rent into a savings account where it **earns more**, and when you sell the flat its price may be **higher or lower** than what you paid.\n\nA fixed-rate bond works the same way:\n\n1. **Coupons and principal.** The issuer promises fixed interest payments (*coupons*) and the *par value* (face amount) at maturity. This is the bond's contractual cash flow.\n2. **Reinvestment income (interest on interest).** Each coupon you receive can be invested again at whatever rate is available. The interest it earns is extra return.\n3. **Capital gain or loss.** If you sell before maturity, you receive the market price at that moment. This can be above or below the amount you would expect from the bond's original yield path."
+        },
+        {
+          "heading": "Rates move price and reinvestment in opposite directions",
+          "body_markdown": "Suppose market yields rise just after you buy and stay higher.\n\n- The **price** of your bond falls, because new bonds pay more than your fixed coupon. Selling before maturity then produces a capital loss.\n- The **coupons** you receive can be reinvested at the higher rate, so reinvestment income rises.\n\nIf yields fall, the opposite happens: price gain, lower reinvestment income. These two effects pull against each other, and which one wins depends on how long you hold the bond. The coupon amounts themselves never change.\n\nIf you hold to maturity, the price risk disappears because par is paid back. Reinvestment risk remains for any bond that pays coupons. A zero-coupon bond has no coupons to reinvest."
+        },
+        {
+          "heading": "Capital gain or loss is measured against carrying value",
+          "body_markdown": "The **carrying value** is the bond's price on a given date if its yield stayed at the purchase yield. A bond bought at a discount drifts up toward par over time, and a bond bought at a premium drifts down toward par. This drift is called *amortization* and is part of the return at the original yield.\n\n$$\\text{Capital gain/loss} = \\text{Sale price} - \\text{Carrying value at sale}$$\n\nIf the bond sells exactly at its carrying value, there is no capital gain or loss in this breakdown. The gain comes only from yields differing from the purchase yield.\n\nSale prices are normally quoted *flat*, meaning without accrued interest. The *full price* adds accrued interest, the coupon earned since the last payment date. Capital gain is judged on the flat price. Accrued interest is interest income."
+        },
+        {
+          "heading": "Horizon yield and the yield-to-maturity assumption",
+          "body_markdown": "To get one number for the whole investment, add up the **ending value**: the sale price (or par at maturity) plus the coupons with their reinvestment growth. Then find the annual rate that grows the purchase price into that ending value. This is the *horizon yield*, also called the realized return.\n\nYield to maturity (YTM) equals the realized return only if three things hold: the bond is held to maturity, the issuer pays in full, and every coupon is reinvested at the YTM. If coupons are reinvested below the YTM, the realized return over a hold-to-maturity horizon falls below the YTM. If they are reinvested above it, the realized return is higher."
+        }
+      ],
+      "worked_example": {
+        "problem": "An investor buys a 5-year, 6% annual-pay bond at par (100). She holds it for 3 years and reinvests each coupon at 4% per year, with the first coupon received at the end of year 1. Right after the third coupon, the bond (now 2 years from maturity) is sold at a market yield of 4%. Find the sale price, the reinvested coupons' value, and the annualized horizon return. Round money to 4 decimals and the rate to two decimals in percent.",
+        "steps": [
+          "Coupon = 6% × 100 = 6 per year, received at the end of years 1, 2 and 3.",
+          "Sale price: the bond has 2 years left, with coupons of 6 and a final payment of 106, discounted at 4%: $6/1.04 + 106/1.04^2 = 5.7692 + 98.0030 = 103.7722$. BA II Plus: N=2, I/Y=4, PMT=6, FV=100, CPT PV → −103.7722.",
+          "Reinvested coupons at year 3: $6\\times\\frac{1.04^3-1}{0.04} = 6\\times 3.1216 = 18.7296$. BA II Plus: N=3, I/Y=4, PV=0, PMT=−6, CPT FV → 18.7296.",
+          "Ending value = 103.7722 + 18.7296 = 122.5018.",
+          "Breakdown of the 22.5018 total gain: coupons received 18.0000, interest on interest 0.7296, capital gain 3.7722 (sale price 103.7722 versus a carrying value of 100, since the bond was bought at par at a 6% yield).",
+          "Horizon return: $(122.5018/100)^{1/3}-1 \\approx 0.0700$. BA II Plus: N=3, PV=−100, PMT=0, FV=122.5018, CPT I/Y → 7.00."
+        ],
+        "answer": "Sale price 103.7722; reinvested coupons 18.7296; annualized horizon return about 7.00%, higher than the 6% purchase yield because yields fell to 4% and produced a capital gain that outweighed the lower reinvestment income.",
+        "answer_value": 0.06999,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":3,\"pmt\":0,\"pv\":-100,\"fv\":122.5018}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Future value of reinvested coupons",
+          "latex": "FV_{\\text{coupons}} = C\\times\\frac{(1+r)^{n}-1}{r}",
+          "where": "C = coupon per period; r = reinvestment rate per period; n = number of coupons received up to the horizon."
+        },
+        {
+          "name": "Capital gain or loss",
+          "latex": "\\text{Gain/loss} = P_{\\text{sale}} - P_{\\text{carrying}}",
+          "where": "P_sale = flat sale price at the horizon; P_carrying = constant-yield (carrying) value of the bond on the sale date."
+        },
+        {
+          "name": "Horizon (realized) yield per period",
+          "latex": "r_{h} = \\left(\\frac{P_{\\text{sale}} + FV_{\\text{coupons}}}{P_{0}}\\right)^{1/n}-1",
+          "where": "P_0 = purchase price; P_sale = sale price; FV_coupons = reinvested coupons at the horizon; n = number of periods held."
+        },
+        {
+          "name": "Single-period holding period return",
+          "latex": "HPR = \\frac{P_{1}-P_{0}+C}{P_{0}}",
+          "where": "P_0 = beginning price; P_1 = ending price; C = coupon income received during the period."
+        }
+      ],
+      "exam_traps": [
+        "Measuring capital gain against the purchase price instead of the carrying value. A discount bond sold at its carrying value has no capital gain in this breakdown.",
+        "Believing that holding to maturity removes all interest rate risk. It removes price risk but not reinvestment risk on coupons.",
+        "Forgetting that rising yields lower the sale price but raise reinvestment income, and that falling yields do the reverse.",
+        "Treating accrued interest in the full price as capital gain. Gain or loss is judged on the flat price.",
+        "Reporting a multi-year total return without annualizing it, or averaging it instead of taking the geometric root."
+      ],
+      "builds_on": [
+        "Bond pricing and yield to maturity",
+        "Time value of money",
+        "Coupon rate versus yield"
+      ],
+      "leads_to": [
+        "Macaulay duration",
+        "Holding period return versus investment horizon",
+        "Immunization of interest rate risk"
+      ],
+      "cited_chunk_ids": [
+        "utah-fcs5510-bond-market:7:9",
+        "ritchken-measures-of-price-sensitivity:17:11",
+        "os:principles-finance-2e:m00064:2"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor buys a 10-year fixed-rate bond and plans to sell it after 5 years. Right after purchase, market yields for similar bonds rise and stay higher. Compared with yields staying unchanged, how are the bond's sources of return affected?",
+        "options": [
+          {
+            "text": "The sale price is higher and the reinvestment income is lower.",
+            "value": null,
+            "explanation": "Reverses both effects. Higher yields push bond prices down, not up, and raise the rate at which coupons are reinvested."
+          },
+          {
+            "text": "The sale price is lower and the reinvestment income is also lower.",
+            "value": null,
+            "explanation": "Gets the price effect right but assumes reinvestment income moves with price. Coupons are reinvested at the new, higher rate, so reinvestment income rises."
+          },
+          {
+            "text": "The sale price is lower and the reinvestment income is higher.",
+            "value": null,
+            "explanation": "Correct. Existing fixed coupons are less attractive, so price falls and a capital loss appears at sale. Coupons received afterward are reinvested at higher rates, which increases interest on interest."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:17:11",
+          "os:principles-finance-2e:m00064:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond pays an annual coupon of 5 per 100 of par. An investor holds it for 4 years and reinvests each coupon, received at the end of each year, at 3% per year. What is the value of the reinvested coupons at the end of year 4 (coupons plus interest on interest)? Round to two decimals.",
+        "options": [
+          {
+            "text": "20.92",
+            "value": 20.92,
+            "explanation": "Correct. $5\\times\\frac{1.03^4-1}{0.03} = 5\\times4.1836 = 20.92$, which is 20.00 of coupons plus about 0.92 of interest on interest."
+          },
+          {
+            "text": "20.00",
+            "value": 20,
+            "explanation": "Adds up the four coupons (4 × 5) and ignores the interest earned on reinvestment."
+          },
+          {
+            "text": "21.55",
+            "value": 21.55,
+            "explanation": "Treats the coupons as received at the start of each year (annuity due) and so compounds one extra period. Coupons are received at year-end."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.03,\"n\":4,\"pmt\":-5,\"pv\":0}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 10-year bond with a 4% annual coupon (par 100) was bought at issue. After exactly 4 years, just after the coupon is paid, the investor sells it when the market yield for the remaining term is 5% (annual compounding). Ignoring accrued interest, what is the sale price? Round to two decimals.",
+        "options": [
+          {
+            "text": "92.28",
+            "value": 92.28,
+            "explanation": "Discounts 10 years of cash flows, the original maturity, instead of the 6 years actually remaining at the sale date."
+          },
+          {
+            "text": "94.92",
+            "value": 94.92,
+            "explanation": "Correct. With 6 years left: $4\\times\\frac{1-1.05^{-6}}{0.05} + \\frac{100}{1.05^6} = 20.30 + 74.62 = 94.92$."
+          },
+          {
+            "text": "95.67",
+            "value": 95.67,
+            "explanation": "Uses 5 years remaining instead of 6, a counting slip in the number of periods left."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.04,\"years\":6,\"freq\":1},\"ytm\":0.05}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys a bond at a discount to par at a yield of 6%. Two years later, before maturity, she sells it at a price exactly equal to its carrying value on that date, which is the price the bond would have if its yield had stayed at 6%. How should the capital gain or loss component be described?",
+        "options": [
+          {
+            "text": "There is no capital gain or loss, because the sale price equals the carrying value.",
+            "value": null,
+            "explanation": "Correct. Capital gain or loss is the sale price minus carrying value. The rise from the purchase price toward par is amortization of the discount, which is part of earning the original 6% yield."
+          },
+          {
+            "text": "There is a capital gain, because the sale price exceeds the original purchase price.",
+            "value": null,
+            "explanation": "Measures the gain against the purchase price. That double counts the discount accretion, which is already built into the carrying value."
+          },
+          {
+            "text": "There is a capital loss, because the sale price is still below par.",
+            "value": null,
+            "explanation": "Compares the sale price with par. Before maturity a discount bond is expected to be below par, so this shortfall is not a loss."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor buys a bond for 98 and holds it for exactly 2 years. At the end of year 2, the sale proceeds plus all reinvested coupons total 110 per 98 invested. What is the annualized horizon return, using annual compounding? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "6.12%",
+            "value": 0.0612,
+            "explanation": "Divides the total two-year return of 12.24% by 2, which is simple averaging. It ignores compounding."
+          },
+          {
+            "text": "12.24%",
+            "value": 0.1224,
+            "explanation": "This is the two-year return, (110 − 98)/98. It has not been annualized."
+          },
+          {
+            "text": "5.95%",
+            "value": 0.0595,
+            "explanation": "Correct. $(110/98)^{1/2}-1 = 1.1224^{0.5}-1 \\approx 0.0595$, the compound annual rate that turns 98 into 110 in two years."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":2,\"pmt\":0,\"pv\":-98,\"fv\":110}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A 10-year, 5% annual-coupon bond is bought at par, so its YTM is 5%. The issuer does not default. The investor holds it to maturity but can reinvest every coupon only at 3%. Compared with 5%, what will the annualized realized return be?",
+        "options": [
+          {
+            "text": "Exactly 5%, because holding to maturity removes price risk.",
+            "value": null,
+            "explanation": "Confuses price risk with reinvestment risk. Holding to maturity fixes the final payment but does not fix the rate earned on coupons."
+          },
+          {
+            "text": "Below 5%, because the coupons earn less than the YTM.",
+            "value": null,
+            "explanation": "Correct. YTM implicitly assumes reinvestment at the YTM. At 3% the interest on interest is smaller, and since par is repaid at maturity there is no capital gain to offset it."
+          },
+          {
+            "text": "Above 5%, because lower market rates raise the bond's price.",
+            "value": null,
+            "explanation": "Applies a price gain that does not exist here. At maturity the bond is redeemed at par whatever happened to rates."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:7:9",
+          "ritchken-measures-of-price-sensitivity:17:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An investor buys a bond for 102. One year later she receives a coupon of 5 and sells the bond at a flat price of 100.5. Ignore accrued interest and taxes. What is the one-year holding period return? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "-1.47%",
+            "value": -0.0147,
+            "explanation": "Counts only the capital loss (100.5 − 102) and leaves out the 5 coupon received."
+          },
+          {
+            "text": "3.48%",
+            "value": 0.0348,
+            "explanation": "Uses the correct total gain of 3.5 but divides by the ending price (100.5) instead of the beginning price."
+          },
+          {
+            "text": "3.43%",
+            "value": 0.0343,
+            "explanation": "Correct. $(100.5 - 102 + 5)/102 = 3.5/102 \\approx 0.0343$. The coupon more than offsets the 1.5 capital loss."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":102,\"endPrice\":100.5,\"income\":5}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00093:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Three 10-year bonds are each bought at par and held to maturity, and the issuers will not default. Which bond has the largest share of its total return exposed to the rate at which coupons are reinvested?",
+        "options": [
+          {
+            "text": "A bond with an 8% annual coupon.",
+            "value": null,
+            "explanation": "Correct. It pays the largest coupons, so the most return depends on how those coupons are reinvested."
+          },
+          {
+            "text": "A zero-coupon bond.",
+            "value": null,
+            "explanation": "Confuses a long maturity with high reinvestment risk. A zero-coupon bond has no coupons to reinvest, so it has none of this exposure."
+          },
+          {
+            "text": "A bond with a 2% annual coupon.",
+            "value": null,
+            "explanation": "It has some reinvestment exposure but less than the 8% bond, because its coupons are much smaller."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:17:11",
+          "os:principles-finance-2e:m00064:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the three sources of return from a fixed-rate bond held with coupons reinvested?",
+        "back": "(1) Receipt of coupons and principal, (2) reinvestment income on the coupons (interest on interest), and (3) capital gain or loss if the bond is sold before maturity.",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:7:9",
+          "ritchken-measures-of-price-sensitivity:17:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "If market yields rise after purchase and stay high, what happens to price and to reinvestment income?",
+        "back": "The bond's price falls (capital loss if sold) but reinvestment income rises, because coupons are reinvested at higher rates. If yields fall, the opposite happens.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:17:11",
+          "os:principles-finance-2e:m00064:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is capital gain or loss defined for a bond sold before maturity?",
+        "back": "Flat sale price minus carrying value (the constant-yield price on the sale date), not minus the original purchase price.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "When does the realized return from a bond equal its YTM?",
+        "back": "Only if the bond is held to maturity, there is no default, and all coupons are reinvested at the YTM. If reinvestment rates are lower, realized return is below YTM.",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:7:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:44:47.063Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-10-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1149,
+      "outputTokens": 1022,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.012635,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:45:06.401Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-10-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14476,
+      "outputTokens": 2695,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.056071199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0687062
+}

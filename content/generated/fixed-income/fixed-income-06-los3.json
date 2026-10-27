@@ -1,0 +1,433 @@
+{
+  "losId": "fixed-income-06-los3",
+  "losText": "describe matrix pricing",
+  "moduleId": "fixed-income-06",
+  "moduleTitle": "Fixed-Income Bond Valuation: Prices and Yields",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:47:40.176Z",
+  "retrieved": [
+    {
+      "id": "duffee-treasury-yields-spreads:2:2",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 2–3",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=2",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "occ-asset-securitization:56:53",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 56–57",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=56",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p1:38:59",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 38",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=38",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "utah-fcs5510-bond-market:3:3",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 3",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=3",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:74:122",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 74–75",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=74",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:80:133",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 80–81",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=80",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:4:5",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 4–5",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=4",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:92:152",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 92–93",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=92",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:3:3",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "p. 3",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=3",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:89:146",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 89",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=89",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2006-28:5:3",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 5–7",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=5",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Matrix Pricing: Valuing a Bond That Doesn't Trade",
+      "summary": "Matrix pricing estimates the yield, and therefore the price, of a bond with no reliable market price by borrowing yields from similar bonds that do trade. It matters because many bonds trade rarely or are brand new, yet still need a value.",
+      "sections": [
+        {
+          "heading": "The problem and the house-appraisal analogy",
+          "body_markdown": "Many bonds sit in portfolios for months without a trade, and a newly planned bond has no trading history at all. With no market quote, how do you value one?\n\nThink of appraising a house nobody has sold recently. You look at **comparable** sales: similar size, similar neighbourhood, similar condition. You then adjust for any differences. Matrix pricing does the same for bonds. You find *comparable* bonds that do trade, read off their yields, and infer a yield for the bond you need to value. A price then follows from that yield.\n\nThe idea is that a bond's discount rate is the return investors can earn on comparable securities. Regulators and data vendors list matrix pricing among the standard valuation techniques when quoted prices are missing. Some bond databases fill in a computed matrix price when no dealer will quote a bid."
+        },
+        {
+          "heading": "Building the 'matrix'",
+          "body_markdown": "The name comes from a grid of observed yields. One axis is **credit quality** (for example AAA, AA, A, BBB rows). The other axis is **maturity** (for example 2-year, 5-year, 10-year columns). Every cell holds a yield observed on a liquid bond with that rating and maturity.\n\nThe bond you want to value usually falls *between* columns. Say it matures in 4 years and you only have 3-year and 5-year comparables. Two ideas apply:\n\n- **Match credit quality first.** Comparables should be about as risky of default as your bond, and ideally similar in other features such as coupon and whether it is callable.\n- **Interpolate on maturity.** Estimate your bond's yield from a point between the two surrounding observed yields. Straight-line interpolation is the usual approach.\n\nYou can also work in *spreads*. A spread is the extra yield over a benchmark such as a government bond of the same maturity. Take the spread that comparable bonds earn, then add it to the benchmark yield at your bond's maturity: $\\text{yield} = \\text{benchmark yield} + \\text{spread}$."
+        },
+        {
+          "heading": "From estimated yield to estimated price",
+          "body_markdown": "Matrix pricing gives you a **yield**, not a price. The price comes from a second step: discount the bond's *own* promised cash flows (its coupons and its principal) at the estimated yield, using the usual bond-pricing formula.\n\n1. Choose comparables with similar credit quality.\n2. Interpolate between the surrounding maturities to get the estimated yield-to-maturity.\n3. Discount the target bond's coupons and principal at that yield.\n\nA common slip is to average the *prices* of comparables. Their coupons and maturities differ, so their prices cannot be averaged. Yields are the comparable quantity."
+        },
+        {
+          "heading": "Limits of matrix pricing and where it is used",
+          "body_markdown": "A matrix price is an **estimate**, not a transaction price. Nobody has actually traded the bond at that level. A quote from a trader is generally treated as better evidence than a matrix price.\n\nThe estimate can be off in a few ways:\n\n- The comparables may not be truly alike in credit quality, coupon, or embedded options.\n- Straight-line interpolation is only an approximation of the real yield curve.\n- A rarely traded bond may need **extra yield for poor liquidity** that heavily traded comparables do not include. The matrix yield is then too low and the price too high.\n\nTypical uses are valuing thinly traded holdings, and getting a starting yield and price for a **new bond issue** that is about to be sold."
+        }
+      ],
+      "worked_example": {
+        "problem": "An A-rated corporate bond has 4 years to maturity and pays a 5% annual coupon (face value 100). It rarely trades, so you use matrix pricing. Comparable A-rated bonds that do trade have these yields to maturity: 3 years at 4.0% and 5 years at 5.0%. Estimate the 4-year yield by straight-line interpolation, then estimate the bond's price per 100 of face value.",
+        "steps": [
+          "Check the comparables: both are A-rated, so credit quality matches the target. The target's 4-year maturity lies between 3 and 5 years.",
+          "Interpolate: $y = 4.0\\% + \\frac{4-3}{5-3}\\times(5.0\\%-4.0\\%) = 4.0\\% + 0.5\\times1.0\\% = 4.5\\%$.",
+          "Price the bond's own cash flows at 4.5%: four annual coupons of 5 and a principal of 100.",
+          "BA II Plus: press 2ND CLR TVM, then N = 4, I/Y = 4.5, PMT = 5, FV = 100, then CPT PV. The display shows −101.79; the negative sign only means cash paid out.",
+          "Cross-check: the coupon (5%) is above the yield (4.5%), so the price should be above 100, which it is."
+        ],
+        "answer": "The estimated yield is 4.5% and the estimated price is about 101.79 per 100 of face value.",
+        "answer_value": 101.79,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":4,\"freq\":1},\"ytm\":0.045}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Straight-line interpolation of yield",
+          "latex": "y_T = y_S + \\frac{T - T_S}{T_L - T_S}\\,\\left(y_L - y_S\\right)",
+          "where": "$y_T$ = estimated yield for the target bond; $T$ = target maturity; $T_S, T_L$ = maturities of the shorter and longer comparable bonds; $y_S, y_L$ = their yields to maturity."
+        },
+        {
+          "name": "Spread-based yield estimate",
+          "latex": "y = y_{\\text{benchmark}} + s",
+          "where": "$y$ = estimated yield of the target bond; $y_{\\text{benchmark}}$ = benchmark (e.g. government) yield at the target's maturity; $s$ = yield spread observed on comparable bonds."
+        },
+        {
+          "name": "Price from the estimated yield",
+          "latex": "P = \\sum_{t=1}^{N}\\frac{C}{(1+y)^t} + \\frac{F}{(1+y)^N}",
+          "where": "$P$ = estimated price; $C$ = coupon per period; $F$ = face value; $N$ = number of periods to maturity; $y$ = estimated yield per period."
+        }
+      ],
+      "exam_traps": [
+        "Averaging or interpolating the comparables' prices instead of their yields. Prices depend on each bond's own coupon and maturity, so only yields are comparable.",
+        "Using comparables of a different credit quality, such as a government bond of the same maturity, without adding a credit spread.",
+        "Stopping after interpolation. The yield is an intermediate result; the price still needs the target bond's own cash flows discounted at that yield.",
+        "Interpolating with only one comparable, or using the nearest maturity instead of the two that surround the target.",
+        "Treating a matrix price as an observed trade price. It is a model estimate, and it can miss a liquidity premium for a rarely traded bond."
+      ],
+      "builds_on": [
+        "Bond pricing with yield to maturity",
+        "Yield curve and benchmark yields",
+        "Yield spreads and credit quality"
+      ],
+      "leads_to": [
+        "Yield spread analysis",
+        "Credit risk and credit spreads",
+        "Valuing new bond issues"
+      ],
+      "cited_chunk_ids": [
+        "occ-asset-securitization:56:53",
+        "duffee-treasury-yields-spreads:2:2",
+        "utah-fcs5510-bond-market:3:3"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "What is the main purpose of matrix pricing?",
+        "options": [
+          {
+            "text": "To compute a bond's duration from its coupon and maturity",
+            "value": null,
+            "explanation": "Wrong: this confuses valuation with interest-rate risk measurement. Matrix pricing estimates a yield and price, not duration."
+          },
+          {
+            "text": "To estimate the yield and price of a bond that lacks a reliable market quote",
+            "value": null,
+            "explanation": "Correct: it borrows yields from similar, actively traded bonds to value a bond that rarely trades or is newly issued."
+          },
+          {
+            "text": "To convert a bond's quoted clean price into its dirty price",
+            "value": null,
+            "explanation": "Wrong: this describes the accrued-interest adjustment, which is a separate calculation unrelated to estimating a yield from comparables."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:56:53",
+          "duffee-treasury-yields-spreads:2:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst must matrix-price a 7-year, A-rated corporate bond that rarely trades. Which set of comparables is the most appropriate starting point?",
+        "options": [
+          {
+            "text": "A single AAA-rated government bond maturing in 7 years",
+            "value": null,
+            "explanation": "Wrong: matching only maturity ignores credit quality. A government bond yield omits the credit spread an A-rated corporate bond must pay."
+          },
+          {
+            "text": "BB-rated corporate bonds that trade actively at 7 years",
+            "value": null,
+            "explanation": "Wrong: the maturity matches but the credit quality does not. Lower-rated bonds carry higher spreads and would understate the price."
+          },
+          {
+            "text": "A-rated corporate bonds maturing in about 5 and 10 years",
+            "value": null,
+            "explanation": "Correct: the credit quality matches and the maturities surround the target, so interpolation can estimate the 7-year yield."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Two actively traded bonds from issuers of the same credit quality have yields to maturity of 3.20% (3-year) and 4.40% (7-year). An unquoted bond of the same credit quality matures in exactly 5 years. Using straight-line interpolation on maturity, what is the estimated 5-year yield?",
+        "options": [
+          {
+            "text": "3.80%",
+            "value": 0.038,
+            "explanation": "Correct: 5 years is halfway between 3 and 7, so the estimate is the simple average, (3.20% + 4.40%) / 2 = 3.80%."
+          },
+          {
+            "text": "3.20%",
+            "value": 0.032,
+            "explanation": "Mistake: using only the shorter-maturity comparable instead of interpolating between the two."
+          },
+          {
+            "text": "4.40%",
+            "value": 0.044,
+            "explanation": "Mistake: using only the longer-maturity comparable instead of interpolating between the two."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[0.032,0.044]}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An unquoted A-rated bond has 4 years to maturity and pays a 5% annual coupon on a face value of 100. A-rated comparables yield 4.0% at 3 years and 5.0% at 5 years. Interpolate the 4-year yield in a straight line, then price the bond using annual compounding. What is the estimated price per 100 of face value, rounded to two decimals?",
+        "options": [
+          {
+            "text": "103.63",
+            "value": 103.63,
+            "explanation": "Mistake: discounting at the 3-year comparable's 4.0% yield instead of the interpolated 4.5%, which overstates the price."
+          },
+          {
+            "text": "101.79",
+            "value": 101.79,
+            "explanation": "Correct: the interpolated yield is 4.5%, and discounting four 5% coupons and the principal at 4.5% gives about 101.79."
+          },
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Mistake: discounting at the 5-year comparable's 5.0% yield. Because it equals the coupon rate, the price comes out at par."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":4,\"freq\":1},\"ytm\":0.045}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "After an analyst has interpolated a yield from comparable bonds, what is the next step in matrix pricing the target bond?",
+        "options": [
+          {
+            "text": "Discount the target bond's own coupons and principal at the estimated yield",
+            "value": null,
+            "explanation": "Correct: the interpolated yield is the discount rate. The price is the present value of the target bond's own promised cash flows."
+          },
+          {
+            "text": "Average the market prices of the comparable bonds",
+            "value": null,
+            "explanation": "Mistake: comparables have different coupons and maturities, so their prices are not comparable. Only yields carry over."
+          },
+          {
+            "text": "Set the target bond's price equal to par because the yield is known",
+            "value": null,
+            "explanation": "Mistake: a bond prices at par only when its coupon rate equals its yield, which is generally not the case."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:3:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Comparable bonds of the same credit quality as a target bond trade at a spread of 1.20% over the government yield of the same maturity. The 5-year government yield is 3.00%. The target bond has 5 years to maturity and pays a 4% annual coupon on a face value of 100. Estimate its yield as the benchmark yield plus the comparables' spread, and price it using annual compounding. What is the estimated price per 100 of face value, rounded to two decimals?",
+        "options": [
+          {
+            "text": "104.58",
+            "value": 104.58,
+            "explanation": "Mistake: discounting at the 3.00% government yield and ignoring the credit spread. This overstates the price."
+          },
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Mistake: discounting at the 4% coupon rate rather than at the estimated yield of 4.20%, which gives par."
+          },
+          {
+            "text": "99.11",
+            "value": 99.11,
+            "explanation": "Correct: the estimated yield is 3.00% + 1.20% = 4.20%. Discounting five 4% coupons and the principal at 4.20% gives about 99.11, below par because the yield exceeds the coupon."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.04,\"years\":5,\"freq\":1},\"ytm\":0.042}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst matrix-prices a bond using yields from similar bonds that trade very frequently. The target bond itself trades only a few times a year. Compared with a price at which investors would actually be willing to transact, the matrix price is most likely:",
+        "options": [
+          {
+            "text": "Too low, because rarely traded bonds should have lower yields",
+            "value": null,
+            "explanation": "Mistake: reversing the liquidity effect. Poor liquidity makes investors demand higher yields, not lower."
+          },
+          {
+            "text": "Too high, because the comparables' yields include no liquidity premium",
+            "value": null,
+            "explanation": "Correct: investors want extra yield for holding a hard-to-trade bond. Heavily traded comparables carry no such premium, so the matrix yield is too low and the price too high."
+          },
+          {
+            "text": "Accurate, because the method uses the bond's own recent trades",
+            "value": null,
+            "explanation": "Mistake: matrix pricing relies on other bonds' yields, not on the target bond's own trades, so it cannot capture the bond's own liquidity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "duffee-treasury-yields-spreads:2:2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is matrix pricing?",
+        "back": "Estimating the yield (and then price) of a bond that lacks a reliable market price, using yields of comparable, actively traded bonds with similar credit quality and maturity.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:56:53"
+        ]
+      },
+      {
+        "front": "In matrix pricing, what are the two key matching criteria for comparable bonds?",
+        "back": "Similar credit quality and similar maturity (with similar coupon and option features where possible). Interpolate between the maturities that surround the target.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Matrix pricing: do you interpolate prices or yields, and what do you do afterwards?",
+        "back": "Interpolate yields. Then discount the target bond's own coupons and principal at that estimated yield to get its price.",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:3:3"
+        ]
+      },
+      {
+        "front": "Why can a matrix price differ from where a thinly traded bond would actually trade?",
+        "back": "It is an estimate from comparables, not a transaction. If the target is less liquid than the comparables, the comparable yields omit a liquidity premium, so the matrix yield is too low and the price too high.",
+        "cited_chunk_ids": [
+          "duffee-treasury-yields-spreads:2:2"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:47:40.176Z",
+      "purpose": "generate",
+      "losId": "fixed-income-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10007,
+      "outputTokens": 11343,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1346002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

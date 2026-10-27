@@ -1,0 +1,451 @@
+{
+  "losId": "fixed-income-12-los2",
+  "losText": "calculate the percentage price change of a bond for a specified change in yield, given the bond's duration and convexity",
+  "moduleId": "fixed-income-12",
+  "moduleTitle": "Yield-Based Bond Convexity and Portfolio Properties",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:10:51.659Z",
+  "retrieved": [
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.21
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:18:12",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 18",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=18",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:25:6",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 25–30",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=25",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:1:0",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 1–2",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=1",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec02:18:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 18–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=18",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "slcg-cmo-primer:15:14",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 15–16",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=15",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:18:5",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 18–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=18",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:131:152",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=131",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:31:7",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 31–34",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=31",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Estimating a Bond's Price Move from Duration and Convexity",
+      "summary": "Modified duration gives a straight-line guess of how much a bond's price changes when its yield moves, and convexity fixes the error in that guess. Combining the two gives a more accurate percentage price change, which exam questions test constantly.",
+      "sections": [
+        {
+          "heading": "The curve versus the straight line",
+          "body_markdown": "A bond's price and its yield move in opposite directions, but not along a straight line. The relationship is a **curve** that bows toward the origin.\n\n**Modified duration** is the slope of the straight line that just touches the curve at today's yield (a *tangent* line). It tells you roughly what percentage of price you lose per 1 percentage point rise in yield. Think of standing on a curved hill and using only the slope under your feet to predict your height 100 metres ahead. For a tiny step the prediction is excellent; for a big step the hill's curvature makes you wrong.\n\nSource passages describe duration as a first (linear) approximation that is good only for small yield changes, and convexity as the second approximation that picks up what duration misses."
+        },
+        {
+          "heading": "The two-part estimate",
+          "body_markdown": "The estimate has two pieces added together:\n\n1. **Duration effect:** $-\\text{ModDur}\\times\\Delta y$. The minus sign means price falls when yield rises.\n2. **Convexity adjustment:** $\\tfrac12\\times\\text{Convexity}\\times(\\Delta y)^2$.\n\n$$\\frac{\\Delta P}{P}\\approx -\\text{ModDur}\\,\\Delta y+\\tfrac12\\,\\text{Convexity}\\,(\\Delta y)^2$$\n\nHere $\\Delta y$ is the change in yield **as a decimal** (a 50 bp move is $0.005$). Use the *annualized* modified duration and *annualized* convexity together with an *annual* yield change. The result is a decimal fraction of the bond's full price, so multiply by 100 for a percentage."
+        },
+        {
+          "heading": "Why the adjustment always helps the investor",
+          "body_markdown": "Because $\\Delta y$ is **squared**, the convexity term is positive whether yields rise or fall (for a bond with positive convexity, such as an option-free bond). So you always **add** it.\n\n- **Yield falls:** duration says price rises; convexity adds a bit more gain.\n- **Yield rises:** duration says price falls; convexity shrinks that loss.\n\nThis matches the idea that the capital gain from a yield drop exceeds the capital loss from an equal yield rise. One source passage gives a 20-year par bond: a 200 bp rise estimated by duration alone is a 17.16% drop, yet the actual drop is only about 15.05%. The convexity term closes much of that gap.\n\nThe convexity adjustment grows with $(\\Delta y)^2$, so it is tiny for small moves and large for big moves."
+        },
+        {
+          "heading": "Putting it into practice",
+          "body_markdown": "A reliable routine:\n\n1. Convert the yield change to a decimal and keep its sign (rise = $+$, fall = $-$).\n2. Compute the duration piece: $-\\text{ModDur}\\times\\Delta y$.\n3. Compute the convexity piece: $0.5\\times\\text{Convexity}\\times(\\Delta y)^2$, always positive.\n4. Add them. Convert to a percentage if asked.\n5. For a currency change, multiply the percentage by the bond's full price.\n\nEven the combined estimate is still an approximation. It is better than duration alone but does not match the exact repriced bond for very large yield moves."
+        }
+      ],
+      "worked_example": {
+        "problem": "A bond has an annual modified duration of 7.20 and an annual convexity of 68.0. Its yield to maturity rises by 100 basis points. Estimate the percentage price change using duration and convexity.",
+        "steps": [
+          "Convert the yield change to a decimal: 100 bp = 1.00% = 0.01, and it is positive because yield rises.",
+          "Duration effect: $-7.20\\times0.01=-0.0720$, i.e. $-7.20\\%$. Keystrokes: 7.2 × 0.01 = 0.072, then change the sign.",
+          "Square the yield change: $0.01^2=0.0001$ (keystrokes: 0.01 × 0.01 =).",
+          "Convexity adjustment: $0.5\\times68.0\\times0.0001=0.0034$, i.e. $+0.34\\%$. Keystrokes: 0.0001 × 68 × 0.5 =.",
+          "Add the pieces: $-0.0720+0.0034=-0.0686$.",
+          "Express as a percentage: $-6.86\\%$."
+        ],
+        "answer": "The bond's price is estimated to fall by about 6.86% (duration alone would say 7.20%).",
+        "answer_value": -0.0686,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":7.2,\"convexity\":68,\"dy\":0.01}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Duration plus convexity price-change estimate",
+          "latex": "\\frac{\\Delta P}{P}\\approx -\\text{ModDur}\\times\\Delta y+\\tfrac12\\times\\text{Convexity}\\times(\\Delta y)^2",
+          "where": "ΔP/P = approximate percentage change in the bond's full price (decimal); ModDur = annual modified duration; Convexity = annual convexity; Δy = change in yield to maturity as a decimal (rise positive)."
+        },
+        {
+          "name": "Convexity adjustment term",
+          "latex": "\\tfrac12\\times\\text{Convexity}\\times(\\Delta y)^2",
+          "where": "Convexity = annual convexity; Δy = yield change as a decimal. Always positive for a bond with positive convexity."
+        },
+        {
+          "name": "Approximate dollar price change",
+          "latex": "\\Delta P\\approx P\\times\\left[-\\text{ModDur}\\,\\Delta y+\\tfrac12\\,\\text{Convexity}\\,(\\Delta y)^2\\right]",
+          "where": "P = current full price of the bond; other symbols as above."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting the ½ in front of convexity and so doubling the adjustment.",
+        "Entering Δy in percent or basis points (for example 1 or 100) instead of a decimal (0.01).",
+        "Subtracting the convexity adjustment when yields rise; it is added whichever way yields move.",
+        "Dropping the minus sign on the duration term, so the price moves the same direction as yield.",
+        "Using Macaulay duration instead of modified duration, or mixing a semiannual duration with an annual yield change."
+      ],
+      "builds_on": [
+        "Modified duration",
+        "Price–yield relationship (convex curve)",
+        "Basis points and decimal conversion"
+      ],
+      "leads_to": [
+        "Portfolio duration and convexity",
+        "Limitations of duration and convexity measures",
+        "Effective duration and convexity for bonds with options"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-fixedincome1:18:5",
+        "sfu-poitras-duration-convexity:9:3",
+        "mpra-key-rate-duration:6:4",
+        "fed-feds-2006-28:11:7"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond has an annual modified duration of 5.50 and an annual convexity of 40.0. Its yield to maturity falls by 50 basis points. Using both duration and convexity, the estimated percentage change in the bond's price is closest to:",
+        "options": [
+          {
+            "text": "+2.75%",
+            "value": 0.0275,
+            "explanation": "This uses duration alone ($5.50\\times0.005$) and ignores the convexity adjustment."
+          },
+          {
+            "text": "+2.85%",
+            "value": 0.0285,
+            "explanation": "This leaves out the ½ factor, so the convexity adjustment is 0.10% instead of 0.05%."
+          },
+          {
+            "text": "+2.80%",
+            "value": 0.028,
+            "explanation": "Duration effect: $-5.50\\times(-0.005)=+2.75\\%$. Convexity: $0.5\\times40\\times0.005^2=+0.05\\%$. Total $+2.80\\%$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":5.5,\"convexity\":40,\"dy\":-0.005}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bond has positive convexity. Compared with the duration-only estimate, how does the duration-plus-convexity estimate of the percentage price change behave for a +50 bp yield move and a −50 bp yield move?",
+        "options": [
+          {
+            "text": "It is lower for the yield rise and higher for the yield fall",
+            "value": null,
+            "explanation": "This treats the convexity term as taking the sign of the yield move. Since Δy is squared, the term is never negative for positive convexity."
+          },
+          {
+            "text": "It is higher in both cases, since the adjustment is positive",
+            "value": null,
+            "explanation": "Correct. The term $\\tfrac12 C(\\Delta y)^2$ is positive whichever way yield moves, so it raises the estimate for both a rise (smaller loss) and a fall (bigger gain)."
+          },
+          {
+            "text": "It is lower in both cases, since the adjustment is negative",
+            "value": null,
+            "explanation": "This subtracts the convexity term in both cases. For positive convexity the term is added, not subtracted."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "slcg-cmo-primer:15:14"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond has an annual modified duration of 8.00 and an annual convexity of 90.0. Its yield to maturity rises by 200 basis points. Using duration and convexity, the estimated percentage price change is closest to:",
+        "options": [
+          {
+            "text": "−12.40%",
+            "value": -0.124,
+            "explanation": "This omits the ½ and so adds 3.60% instead of 1.80% for convexity."
+          },
+          {
+            "text": "−14.20%",
+            "value": -0.142,
+            "explanation": "Duration: $-8.00\\times0.02=-16.00\\%$. Convexity: $0.5\\times90\\times0.02^2=+1.80\\%$. Total $-14.20\\%$."
+          },
+          {
+            "text": "−17.80%",
+            "value": -0.178,
+            "explanation": "This subtracts the convexity adjustment because yield rose. The adjustment is always added."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":8,\"convexity\":90,\"dy\":0.02}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "sfu-poitras-duration-convexity:9:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond has an annual modified duration of 10.0 and an annual convexity of 150. Its yield to maturity falls by 300 basis points. Using duration and convexity, the estimated percentage price change is closest to:",
+        "options": [
+          {
+            "text": "+36.75%",
+            "value": 0.3675,
+            "explanation": "Duration: $+10.0\\times0.03=+30.00\\%$. Convexity: $0.5\\times150\\times0.03^2=+6.75\\%$. Total $+36.75\\%$."
+          },
+          {
+            "text": "+30.00%",
+            "value": 0.3,
+            "explanation": "This uses only the duration effect; for a large yield move the convexity term is substantial."
+          },
+          {
+            "text": "+23.25%",
+            "value": 0.2325,
+            "explanation": "This subtracts the convexity adjustment ($30.00\\%-6.75\\%$) instead of adding it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":10,\"convexity\":150,\"dy\":-0.03}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An option-free bond with positive convexity has its yield rise by 200 bp. Relative to the bond's actual percentage price change, the duration-only estimate will most likely:",
+        "options": [
+          {
+            "text": "Understate the size of the price decline",
+            "value": null,
+            "explanation": "This reverses the direction of the error. The straight tangent line lies below the convex curve, so it predicts too large a fall, not too small."
+          },
+          {
+            "text": "Match the actual change closely, since duration is exact",
+            "value": null,
+            "explanation": "Duration is only a linear approximation, accurate for small yield changes. A 200 bp move is large enough for visible error."
+          },
+          {
+            "text": "Overstate the size of the price decline",
+            "value": null,
+            "explanation": "Correct. The tangent line lies below the convex price curve, so duration alone predicts too big a loss (for example 17.16% estimated versus about 15.05% actual in a source example)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:9:3",
+          "fed-feds-2006-28:11:7",
+          "slcg-cmo-primer:15:14"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 30-year bond has an annual modified duration of 14.0 and an annual convexity of 280. Its yield to maturity rises by 100 basis points. Using duration and convexity, the estimated percentage price change is closest to:",
+        "options": [
+          {
+            "text": "−12.60%",
+            "value": -0.126,
+            "explanation": "Duration: $-14.0\\times0.01=-14.00\\%$. Convexity: $0.5\\times280\\times0.01^2=+1.40\\%$. Total $-12.60\\%$."
+          },
+          {
+            "text": "−14.00%",
+            "value": -0.14,
+            "explanation": "This uses duration alone and ignores the convexity adjustment."
+          },
+          {
+            "text": "−11.20%",
+            "value": -0.112,
+            "explanation": "This omits the ½, giving a 2.80% convexity adjustment instead of 1.40%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":14,\"convexity\":280,\"dy\":0.01}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A bond's yield rises by 75 bp. Its annual modified duration is 6.4 and its annual convexity is 52. Which expression gives the duration-plus-convexity estimate of the percentage price change (as a decimal)?",
+        "options": [
+          {
+            "text": "$-6.4\\times0.75+\\tfrac12\\times52\\times0.75^2$",
+            "value": null,
+            "explanation": "This enters Δy as 0.75 (percent) instead of 0.0075, so the result is 100 times too large for the first term and 10,000 times for the second."
+          },
+          {
+            "text": "$-6.4\\times0.0075+\\tfrac12\\times52\\times0.0075$",
+            "value": null,
+            "explanation": "This forgets to square Δy in the convexity term."
+          },
+          {
+            "text": "$-6.4\\times0.0075+\\tfrac12\\times52\\times0.0075^2$",
+            "value": null,
+            "explanation": "Correct. Δy is a decimal (75 bp = 0.0075), duration carries a minus sign, and the convexity term uses the squared change with a ½."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the formula for the estimated percentage price change using modified duration and convexity?",
+        "back": "ΔP/P ≈ −ModDur × Δy + ½ × Convexity × (Δy)², with Δy as a decimal.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "front": "Why is the convexity adjustment positive for a yield rise and for a yield fall?",
+        "back": "Δy is squared, so the term is always positive when convexity is positive. It adds to the gain when yields fall and cuts the loss when yields rise.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "slcg-cmo-primer:15:14"
+        ]
+      },
+      {
+        "front": "Does a duration-only estimate overstate or understate the price move for a large yield change on a positively convex bond?",
+        "back": "It understates the price gain when yields fall and overstates the price loss when yields rise, because the tangent line lies below the convex price curve.",
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:9:3",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      {
+        "front": "How do you enter a 25 bp yield change into the duration-plus-convexity formula?",
+        "back": "As a decimal: 0.0025 (positive if yield rises, negative if it falls). Never as 25 or 0.25.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:10:51.659Z",
+      "purpose": "generate",
+      "losId": "fixed-income-12-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11005,
+      "outputTokens": 9543,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1185962,
+      "stopReason": "end_turn"
+    }
+  ]
+}

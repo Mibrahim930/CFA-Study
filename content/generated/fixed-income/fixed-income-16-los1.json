@@ -1,0 +1,441 @@
+{
+  "losId": "fixed-income-16-los1",
+  "losText": "describe the qualitative and quantitative factors used to evaluate a corporate borrower's creditworthiness",
+  "moduleId": "fixed-income-16",
+  "moduleTitle": "Credit Analysis for Corporate Issuers",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:23:12.341Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00123:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.4 Receivables Management — Overview",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-4-receivables-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "occ-leveraged-lending:62:53",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 62–63",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=62",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-based-lending:75:97",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 75–76",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=75",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:40:63",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 40",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=40",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "occ-asset-based-lending:25:36",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 25–26",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=25",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "occ-commercial-real-estate-lending:26:35",
+      "title": "Comptroller's Handbook: Commercial Real Estate Lending (OCC)",
+      "locator": "p. 26",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/commercial-real-estate-lending/pub-ch-commercial-real-estate.pdf#page=26",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:2:2",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "pp. 2–3",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=2",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-installment-lending:13:17",
+      "title": "Comptroller's Handbook: Installment Lending (auto and student loans, securitization) (OCC)",
+      "locator": "pp. 13–14",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/installment-lending/pub-ch-installment-lending.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "cfa-rf-alt-credit:25:30",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 25–26",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=25",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-installment-lending:66:95",
+      "title": "Comptroller's Handbook: Installment Lending (auto and student loans, securitization) (OCC)",
+      "locator": "p. 66",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/installment-lending/pub-ch-installment-lending.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "os:principles-finance-2e:m00036:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.6 Operating Cash Flow and Free Cash Flow to the Firm (FCFF) — Free Cash Flow",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-6-operating-cash-flow-and-free-cash-flow-to-the-firm-fcff",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "How Lenders Judge a Corporate Borrower: The Qualitative and Quantitative Toolkit",
+      "summary": "Credit analysis asks how likely a company is to fail to pay its debt and how much a lender would lose if it did. This LOS covers the non-numeric and numeric evidence analysts combine to answer that, which matters because bond prices, spreads and ratings all hinge on it.",
+      "sections": [
+        {
+          "heading": "The core question: will they pay, and what if they don't?",
+          "body_markdown": "Imagine lending money to a friend. You would ask two things: *how likely is it that they pay me back?* and *if they don't, how much will I be out of pocket?* Credit analysis of a company asks exactly the same two questions.\n\n- **Probability of default (PD):** the chance the borrower fails to make a promised payment in full and on time.\n- **Loss given default (LGD):** the share of the exposure the lender loses if default happens. It equals 1 minus the **recovery rate**, which is the share recovered.\n\nCombining them gives **expected loss** = PD × LGD (× the amount owed, if you want a currency figure). A strong borrower has a low PD. A well-protected lender has a low LGD. Everything else in this lesson is a way to estimate one of these two quantities."
+        },
+        {
+          "heading": "Qualitative factors: the four Cs",
+          "body_markdown": "Not everything that drives repayment shows up in a spreadsheet. A common checklist is the **four Cs**: capacity, collateral, covenants and character. Retail lending often also adds *capital* and *conditions* to the list (the 'five Cs').\n\n- **Capacity** is the ability to generate the cash needed to service debt. It has three layers:\n  - *Industry structure*: how intense is competition, how easy is entry, how much bargaining power do suppliers and customers have? Porter's five forces is the usual framework.\n  - *Industry fundamentals*: is demand cyclical or stable, is the industry growing or mature, how sensitive is it to the economy?\n  - *Company fundamentals*: competitive position, cost structure, track record, and the strategy management is following.\n- **Collateral** is the quality and value of the assets that could be sold or pledged to repay lenders. It matters more when default is a real possibility.\n- **Covenants** are the rules written into the loan or bond agreement. They protect lenders by limiting risky behaviour and by giving early warning signals.\n- **Character** is management's integrity, reputation, governance quality and record of treating creditors fairly and meeting its own targets. ESG-type governance issues belong here too.\n\nThe five-Cs idea in lending guides also treats *capital* (how much of their own money owners have at stake) and *conditions* (outside circumstances such as industry and economy) as separate items. Those map closely onto parts of capacity."
+        },
+        {
+          "heading": "Covenants as a credit tool",
+          "body_markdown": "Covenants come in two flavours:\n\n- **Affirmative covenants** say what the borrower *must do*: pay interest on time, keep assets insured, deliver audited financial statements, comply with laws.\n- **Negative covenants** say what the borrower *must not do* without consent: take on debt beyond a limit, pay out excessive dividends, sell key assets, pledge assets to other lenders.\n\nTwo related ideas appear in practice:\n\n- **Maintenance covenants** are tested regularly (for example each quarter) against a ratio such as debt/EBITDA. Falling short because earnings dropped is a breach, even if the borrower did nothing.\n- **Incurrence covenants** are tested only when the borrower *takes an action*, such as issuing debt or paying a dividend. If earnings slip and leverage drifts above the limit with no action taken, there is no breach.\n\nCovenants help a lender because a breach is an early trigger to negotiate or restructure before cash runs out. **Covenant headroom** is how far performance can deteriorate before a covenant would be tripped. **Cross-default** clauses make a default on one obligation a default on this one too."
+        },
+        {
+          "heading": "Quantitative factors and how they combine with the qualitative picture",
+          "body_markdown": "The numeric side looks at the borrower's financial statements, past and projected:\n\n- **Cash flow and earnings**: operating cash flow, EBITDA, and **free cash flow** (operating cash flow minus capital expenditure), which shows cash left over to repay debt or pay dividends.\n- **Leverage**: how much debt compared with earnings or cash flow (for example debt/EBITDA). Higher means riskier.\n- **Coverage**: how comfortably earnings or cash flow cover interest and other fixed charges.\n- **Liquidity**: cash and available credit lines compared with near-term obligations.\n- **Trends and peers**: the direction of these figures over time, projections under stress scenarios, and comparison with similar companies.\n\n(How to compute and interpret the specific ratios is a separate topic.)\n\nAnalysts blend both sides. Rating agencies, for example, use financial history and projections, industry data and peer comparisons together with judgement about governance, financial strategy and management credibility. For lower-quality (high-yield) issuers, where default is more plausible, analysts tend to lean harder on liquidity, cash flow, covenant protection and likely recovery. A published rating is a useful shortcut but can lag changes in the firm's real condition, so lenders still do their own analysis."
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund holds a bond issue with a face exposure of $5,000,000 to a manufacturer. The analyst estimates a 3% probability of default over the next year. If default occurs, she expects to recover 40% of the exposure. What is the one-year expected loss?",
+        "steps": [
+          "Identify the two inputs: probability of default PD = 0.03 and recovery rate = 0.40.",
+          "Convert recovery into loss given default: LGD = 1 − 0.40 = 0.60 (60% of the exposure is lost if default happens).",
+          "Apply expected loss = PD × LGD × exposure = 0.03 × 0.60 × $5,000,000.",
+          "BA II Plus keystrokes: 0.03 × 0.6 × 5000000 = displays 90,000.",
+          "Interpret: on average, about $90,000 of the $5,000,000 is at risk of being lost over the year, a credit cost that the bond's yield should compensate for."
+        ],
+        "answer": "$90,000",
+        "answer_value": 90000,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Expected loss",
+          "latex": "EL = PD \\times LGD \\times \\text{Exposure}",
+          "where": "EL is expected loss in currency; PD is probability of default over the horizon (decimal); LGD is loss given default as a fraction of the exposure; Exposure is the amount owed at default."
+        },
+        {
+          "name": "Loss given default",
+          "latex": "LGD = 1 - RR",
+          "where": "LGD is the fraction of exposure lost if default occurs; RR is the recovery rate, the fraction of exposure recovered (decimal)."
+        },
+        {
+          "name": "Free cash flow",
+          "latex": "FCF = OCF - CapEx",
+          "where": "FCF is free cash flow; OCF is operating cash flow; CapEx is capital expenditure."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up the recovery rate and loss given default: LGD is 1 minus recovery, so a 40% recovery means a 60% loss.",
+        "Treating a rating as a complete analysis. Ratings blend quantitative and qualitative inputs but can lag real changes in the issuer's condition.",
+        "Classifying covenants wrongly: 'must do' items (insure assets, supply statements) are affirmative; 'must not do' items (limit debt, restrict dividends) are negative.",
+        "Assuming any rise in leverage breaches every covenant. Incurrence covenants are tested only when the borrower takes an action, unlike maintenance covenants.",
+        "Putting capacity and collateral together. Capacity is about generating cash to pay; collateral is a fallback source of recovery if cash flow fails."
+      ],
+      "builds_on": [
+        "Bond basics and the indenture",
+        "Porter's five forces and industry analysis",
+        "Reading financial statements and cash flow"
+      ],
+      "leads_to": [
+        "Financial ratios used in credit analysis",
+        "Seniority and priority of claims",
+        "Credit spreads and ratings"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00123:0",
+        "occ-installment-lending:13:17",
+        "os:principles-finance-2e:m00073:1.3",
+        "occ-asset-based-lending:25:36",
+        "occ-asset-based-lending:75:97",
+        "occ-leveraged-lending:62:53",
+        "fed-trading-4000-p1:40:63",
+        "os:principles-finance-2e:m00036:1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which pair of components determines the expected credit loss on a corporate bond?",
+        "options": [
+          {
+            "text": "Probability of default and loss given default",
+            "value": null,
+            "explanation": "Correct. Expected loss combines how likely default is with how much would be lost if it happens."
+          },
+          {
+            "text": "Probability of default and the bond's coupon rate",
+            "value": null,
+            "explanation": "The coupon is compensation for bearing risk, not a measure of how much is lost in default."
+          },
+          {
+            "text": "Loss given default and the bond's duration",
+            "value": null,
+            "explanation": "Duration measures interest-rate sensitivity, not credit loss, and the pair omits the likelihood of default."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:1.3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst reviews whether a borrower's management has met its past targets, how it treated creditors in earlier restructurings, and the strength of its corporate governance. Which of the four Cs is the analyst mainly assessing?",
+        "options": [
+          {
+            "text": "Capacity",
+            "value": null,
+            "explanation": "Capacity concerns the ability to generate cash for debt service (industry and company fundamentals), not management's integrity and record with creditors."
+          },
+          {
+            "text": "Collateral",
+            "value": null,
+            "explanation": "Collateral concerns the quality and value of assets backing the debt, which is not what is being examined here."
+          },
+          {
+            "text": "Character",
+            "value": null,
+            "explanation": "Correct. Character covers management's reputation, governance and record of dealing fairly with creditors."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-installment-lending:13:17",
+          "os:principles-finance-2e:m00073:1.3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A lender has a $1,000,000 exposure to a company. The analyst estimates a 2% probability of default over one year and a 40% recovery rate if default occurs. What is the one-year expected loss?",
+        "options": [
+          {
+            "text": "$8,000",
+            "value": null,
+            "explanation": "This multiplies PD by the recovery rate (0.02 × 0.40 × $1,000,000), treating the recovered share as if it were the loss."
+          },
+          {
+            "text": "$20,000",
+            "value": null,
+            "explanation": "This is PD × exposure only, ignoring that 40% is recovered; it overstates the loss."
+          },
+          {
+            "text": "$12,000",
+            "value": null,
+            "explanation": "Correct. LGD = 1 − 0.40 = 0.60, so EL = 0.02 × 0.60 × $1,000,000 = $12,000."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following is an example of a negative covenant in a bond indenture?",
+        "options": [
+          {
+            "text": "The issuer must keep its main assets insured",
+            "value": null,
+            "explanation": "Keeping assets insured is something the issuer must do, so it is an affirmative covenant."
+          },
+          {
+            "text": "The issuer may not borrow additional debt that would push leverage above a set limit",
+            "value": null,
+            "explanation": "Correct. It restricts an action the issuer might otherwise take, which defines a negative covenant."
+          },
+          {
+            "text": "The issuer must deliver audited financial statements every year",
+            "value": null,
+            "explanation": "Providing statements is a required action, so it is an affirmative covenant."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-based-lending:25:36",
+          "occ-asset-based-lending:75:97"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A loan has an incurrence covenant limiting debt to 5 times cash flow. Because earnings fell, the borrower's debt now equals 5.5 times cash flow, although it has issued no new debt and taken no other action. Which statement is correct?",
+        "options": [
+          {
+            "text": "No breach has occurred; the test applies only if the borrower takes an action such as issuing debt",
+            "value": null,
+            "explanation": "Correct. Incurrence covenants are tested when an action is taken, so a ratio slipping because earnings fell is not a violation."
+          },
+          {
+            "text": "A breach has occurred because leverage exceeds the 5x limit on any date",
+            "value": null,
+            "explanation": "This treats the covenant as a maintenance covenant, which is tested regularly regardless of any action."
+          },
+          {
+            "text": "A breach occurs only once a rating agency downgrades the borrower",
+            "value": null,
+            "explanation": "Covenant compliance is set by the agreement's terms, not by rating actions."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-based-lending:75:97",
+          "occ-leveraged-lending:62:53"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why should a bond investor perform independent credit analysis rather than rely only on an agency rating?",
+        "options": [
+          {
+            "text": "Agencies disregard qualitative factors such as management quality and governance",
+            "value": null,
+            "explanation": "Agencies do consider qualitative factors alongside financial data, so this is not a valid reason."
+          },
+          {
+            "text": "A rating can change more slowly than the issuer's actual financial condition",
+            "value": null,
+            "explanation": "Correct. Rating changes may lag deterioration or improvement in the issuer, so periodic own analysis is needed."
+          },
+          {
+            "text": "Ratings measure only recovery in default and say nothing about default likelihood",
+            "value": null,
+            "explanation": "Ratings reflect creditworthiness, including default likelihood, so this misdescribes what they capture."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:40:63",
+          "os:principles-finance-2e:m00073:1.3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company reports operating cash flow of $80 million and capital expenditures of $50 million. Using free cash flow = operating cash flow − capital expenditures, what is its free cash flow, and what does it indicate for a lender?",
+        "options": [
+          {
+            "text": "$30 million, cash left after maintaining its asset base that can go toward debt repayment or dividends",
+            "value": null,
+            "explanation": "Correct. 80 − 50 = 30, the cash remaining after funding operations and capital assets."
+          },
+          {
+            "text": "$130 million, cash generated before any asset investment is counted",
+            "value": null,
+            "explanation": "This adds capital expenditures instead of subtracting them, a sign error."
+          },
+          {
+            "text": "$80 million, cash available once the capital investment is ignored",
+            "value": null,
+            "explanation": "This ignores capital expenditures altogether, overstating the cash truly available for creditors."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00036:1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What two quantities combine to give expected credit loss, and how?",
+        "back": "Probability of default and loss given default: expected loss = PD × LGD (× exposure for a currency amount).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What are the four Cs of credit analysis?",
+        "back": "Capacity (ability to generate cash), collateral (asset backing), covenants (agreement rules) and character (management integrity and governance).",
+        "cited_chunk_ids": [
+          "occ-installment-lending:13:17"
+        ]
+      },
+      {
+        "front": "Affirmative vs negative covenants: what is the difference?",
+        "back": "Affirmative covenants require the borrower to do things (pay on time, supply statements, keep insurance). Negative covenants forbid actions (excess debt, large dividends, asset sales).",
+        "cited_chunk_ids": [
+          "occ-asset-based-lending:25:36"
+        ]
+      },
+      {
+        "front": "Maintenance vs incurrence covenant: when is each tested?",
+        "back": "A maintenance covenant is tested regularly against a ratio. An incurrence covenant is tested only when the borrower takes an action such as issuing debt or paying a dividend.",
+        "cited_chunk_ids": [
+          "occ-asset-based-lending:75:97",
+          "occ-leveraged-lending:62:53"
+        ]
+      },
+      {
+        "front": "What three layers make up the capacity assessment?",
+        "back": "Industry structure (competition and bargaining power), industry fundamentals (cyclicality, growth) and company fundamentals (competitive position, track record, strategy).",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:23:12.341Z",
+      "purpose": "generate",
+      "losId": "fixed-income-16-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9600,
+      "outputTokens": 10217,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1225262,
+      "stopReason": "end_turn"
+    }
+  ]
+}

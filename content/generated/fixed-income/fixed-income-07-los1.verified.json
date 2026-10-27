@@ -1,0 +1,878 @@
+{
+  "losId": "fixed-income-07-los1",
+  "losText": "calculate annual yield on a bond for varying compounding periods in a year",
+  "moduleId": "fixed-income-07",
+  "moduleTitle": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:42:40.816Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00055:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.4 Stated versus Effective Rates — Effective Rates and Period of Compounding",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-4-stated-versus-effective-rates",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00055:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.4 Stated versus Effective Rates — The Difference between Stated and Effective Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-4-stated-versus-effective-rates",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:3:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 3–8",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=3",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:8:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 8–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00056:0.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.5 Equal Payments with a Financial Calculator and Excel — Solving Time Value of Money Problems Using a Financial Calculator",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-5-equal-payments-with-a-financial-calculator-and-excel",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2006-28:4:2",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:79:70",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 79–80",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=79",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfr-31-356:28:63",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 28",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfr-31-356:21:44",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 21",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=21",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00055:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.4 Stated versus Effective Rates — Stated versus Effective Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-4-stated-versus-effective-rates",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:9:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 9–13",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Same Bond, Different Compounding: Turning Periodic Yields into Annual Yields",
+      "summary": "A bond's yield is first found per payment period, and it can be quoted as an annual figure in different ways depending on how often interest compounds. This LOS shows you how to move between a stated annual yield and an effective annual yield, and between different compounding frequencies, so that yields can be compared fairly.",
+      "sections": [
+        {
+          "heading": "Why 'annual yield' is not one number",
+          "body_markdown": "Imagine two savings accounts that both advertise 8% a year. One pays all its interest on December 31. The other pays 2% at the end of each quarter, and that interest then earns interest itself. The second account leaves you with more money, even though both say 8%.\n\nBonds have the same issue. Interest accrues and is reinvested at some frequency, called the **compounding frequency** or **periodicity** ($m$ periods per year). Bonds that pay annually, semiannually, quarterly or monthly will quote a yield on different bases unless you convert them to a common one.\n\nA yield quote therefore has two parts: the number, and the frequency it is compounded at. Never read one without the other."
+        },
+        {
+          "heading": "Periodic yield and the stated annual yield",
+          "body_markdown": "Everything starts with the **periodic yield**, which is the yield for one compounding period. It is the discount rate per period that makes the present value of the bond's cash flows equal its price.\n\nThe usual way to quote an annual figure is to multiply the periodic yield by the number of periods per year. The result is the **stated annual rate** (also called the annual percentage rate, APR, or nominal rate):\n\n$$\\text{stated annual yield} = \\text{periodic yield} \\times m$$\n\nFor a semiannual-pay bond ($m=2$), the periodic yield is the yield per six months. Doubling it gives the **bond-equivalent yield** (BEY), the standard convention for US-style bonds. A periodic yield of 2.8% per half-year is therefore quoted as 5.6%.\n\nThe stated rate is only a label. It does not measure what you actually earn over a full year, because it ignores interest earned on interest within the year."
+        },
+        {
+          "heading": "Effective annual yield",
+          "body_markdown": "The **effective annual rate (EAR)**, or effective annual yield, is the true one-year growth rate after allowing for compounding. Growing $1 for one year at periodic rate $y/m$ for $m$ periods gives $(1+y/m)^m$. Subtract the original $1 to get the rate:\n\n$$\\text{EAR}=\\left(1+\\frac{y}{m}\\right)^{m}-1$$\n\nExample: a stated 12% compounded monthly means 1% per month, so $1.01^{12}-1 = 12.68\\%$, which is more than 12%.\n\nThree facts to remember:\n- With annual compounding ($m=1$), the stated rate and the EAR are equal.\n- For a fixed stated rate, a higher $m$ gives a higher EAR, but with diminishing gains.\n- The limit as $m$ grows without bound is **continuous compounding**, where $\\text{EAR}=e^{y}-1$. For a 5% stated rate, $1$ grows to about 1.276 with annual compounding, 1.280 with semiannual and 1.284 with continuous over five years."
+        },
+        {
+          "heading": "Converting between compounding frequencies",
+          "body_markdown": "To restate a yield on a different frequency, find the periodic growth factors that give the same EAR. Two quotes are equivalent when\n\n$$\\left(1+\\frac{y_m}{m}\\right)^{m}=\\left(1+\\frac{y_n}{n}\\right)^{n}$$\n\nTo convert a stated rate $y_m$ to the equivalent stated rate $y_n$:\n1. Compute the growth factor for one year: $(1+y_m/m)^m$.\n2. Raise it to the power $1/n$ to get the per-period factor for the new frequency, then subtract 1.\n3. Multiply by $n$ to restate it as an annual figure.\n\nYou can go the other way too. Starting from a bond's price, you can work out the periodic yield for whatever frequency you choose. For a zero-coupon bond (no coupons, one payment at maturity) held $T$ years, the periodic yield is $(\\text{FV}/P)^{1/(mT)}-1$, and the stated annual yield is $m$ times that.\n\nBefore comparing two bonds, put both yields on the same basis. The simplest way is to convert both to EAR."
+        }
+      ],
+      "worked_example": {
+        "problem": "A semiannual-pay bond is priced to give a yield of 3.4% per six-month period. (a) What is its stated annual yield on a bond-equivalent basis? (b) What is its effective annual yield? Round to two decimals in percent.",
+        "steps": [
+          "Identify the periodic yield: 3.4% per half-year, with $m = 2$ periods per year.",
+          "(a) Stated annual yield (BEY) $= 3.4\\% \\times 2 = 6.8\\%$.",
+          "(b) Growth of $1 over a year: $(1+0.068/2)^2 = 1.034^2 = 1.069156$.",
+          "Subtract 1: $1.069156 - 1 = 0.069156$, which is 6.92% when rounded to two decimals.",
+          "BA II Plus, direct method: `1.034` `y^x` `2` `=` gives 1.0692, then `-` `1` `=` gives 0.0692 (6.92%).",
+          "BA II Plus, interest-conversion worksheet: `2ND` `ICONV` (the shifted `2` key), set NOM = 6.8 and C/Y = 2, then move to EFF and press `CPT` to get 6.92."
+        ],
+        "answer": "The stated annual yield is 6.80% (BEY) and the effective annual yield is 6.92%.",
+        "answer_value": 0.069156,
+        "calc_spec": {
+          "fn": "effectiveAnnualRate",
+          "args_json": "{\"statedRate\":0.068,\"m\":2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Stated annual yield from periodic yield",
+          "latex": "y_{m}=m\\times y_{\\text{periodic}}",
+          "where": "$y_m$ = stated annual yield compounded $m$ times a year; $m$ = compounding periods per year; $y_{\\text{periodic}}$ = yield per period."
+        },
+        {
+          "name": "Effective annual rate",
+          "latex": "\\text{EAR}=\\left(1+\\frac{y_m}{m}\\right)^{m}-1",
+          "where": "$y_m$ = stated annual yield as a decimal; $m$ = periods per year."
+        },
+        {
+          "name": "Equivalent yields at different frequencies",
+          "latex": "\\left(1+\\frac{y_m}{m}\\right)^{m}=\\left(1+\\frac{y_n}{n}\\right)^{n}",
+          "where": "$y_m$, $y_n$ = stated annual yields compounded $m$ and $n$ times a year; both sides equal $1+\\text{EAR}$."
+        },
+        {
+          "name": "Continuous compounding",
+          "latex": "\\text{EAR}=e^{y_c}-1",
+          "where": "$y_c$ = stated annual yield compounded continuously; $e \\approx 2.71828$."
+        },
+        {
+          "name": "Zero-coupon stated yield",
+          "latex": "y_m=m\\left[\\left(\\frac{\\text{FV}}{P}\\right)^{\\frac{1}{mT}}-1\\right]",
+          "where": "FV = amount paid at maturity; $P$ = price today; $T$ = years to maturity; $m$ = periods per year."
+        }
+      ],
+      "exam_traps": [
+        "Treating the stated (periodic × m) yield as if it were the effective annual yield. They are equal only with annual compounding.",
+        "Doubling or multiplying a periodic yield by $m$ when the question asks for the EAR. Multiplying gives the stated rate, while compounding gives the EAR.",
+        "Converting between frequencies by keeping the same percentage (6% semiannual 'equals' 6% quarterly). The equivalent stated rate must change.",
+        "Comparing a semiannual BEY with an annual-pay bond's yield without converting both to a common basis. A quote that looks lower can have the higher EAR.",
+        "Using the wrong number of periods, such as years instead of $m \\times$ years, or dividing the stated rate by the wrong $m$."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "Present value and discounting",
+        "Bond price as the PV of coupons and principal"
+      ],
+      "leads_to": [
+        "Yield to maturity and bond-equivalent yield",
+        "Yield spread measures",
+        "Current yield, yield to call and other yield measures"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00055:0",
+        "os:principles-finance-2e:m00055:1",
+        "flatworld-finance-banking-and-money:79:70",
+        "mit-ocw-15433-fixedincome1:3:1",
+        "mit-ocw-15433-fixedincome1:9:2",
+        "mit-ocw-15401-review_mid:8:1"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond's yield is quoted as 6.00% per year, stated annually but compounded semiannually (3.00% per six-month period). What is the bond's effective annual yield? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "Treats the stated rate as the effective rate and ignores the interest earned on interest within the year."
+          },
+          {
+            "text": "6.09%",
+            "value": 0.0609,
+            "explanation": "Correct: $(1+0.06/2)^2-1 = 1.0609-1 = 6.09\\%$."
+          },
+          {
+            "text": "6.14%",
+            "value": 0.0614,
+            "explanation": "Uses quarterly compounding ($m=4$): $1.015^4-1$. The bond compounds only twice a year."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "effectiveAnnualRate",
+          "args_json": "{\"statedRate\":0.06,\"m\":2}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00055:1",
+          "mit-ocw-15401-review_mid:8:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A semiannual-pay bond has a yield of 2.80% per six-month period. Which figure is its annual yield quoted on the usual bond-equivalent basis?",
+        "options": [
+          {
+            "text": "2.80%",
+            "value": null,
+            "explanation": "This is only the periodic (six-month) yield, not an annual figure."
+          },
+          {
+            "text": "5.68%",
+            "value": null,
+            "explanation": "This is the effective annual yield, $1.028^2-1$. The bond-equivalent quote does not compound."
+          },
+          {
+            "text": "5.60%",
+            "value": null,
+            "explanation": "Correct: the bond-equivalent yield is the periodic yield times the number of periods per year, $2.80\\% \\times 2$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:9:2",
+          "mit-ocw-15433-fixedincome1:3:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond makes interest payments monthly, and its yield is quoted as 9.00% per year compounded monthly (0.75% per month). What is the effective annual yield? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "9.38%",
+            "value": 0.0938,
+            "explanation": "Correct: $(1+0.09/12)^{12}-1 = 1.0075^{12}-1 \\approx 9.38\\%$."
+          },
+          {
+            "text": "9.00%",
+            "value": 0.09,
+            "explanation": "Reads the stated rate as the effective rate and ignores monthly compounding."
+          },
+          {
+            "text": "9.20%",
+            "value": 0.092,
+            "explanation": "Uses semiannual compounding ($m=2$): $1.045^2-1$. The bond compounds monthly, so $m=12$."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "effectiveAnnualRate",
+          "args_json": "{\"statedRate\":0.09,\"m\":12}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00055:1",
+          "flatworld-finance-banking-and-money:79:70"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A zero-coupon bond with a face value of 100 matures in exactly 5 years and is priced at 80. Using semiannual compounding (10 periods), what is its annual yield on a bond-equivalent (stated, semiannual) basis? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "4.56%",
+            "value": 0.0456,
+            "explanation": "Finds the yield with annual compounding, $(100/80)^{1/5}-1$, rather than semiannual."
+          },
+          {
+            "text": "2.26%",
+            "value": 0.0226,
+            "explanation": "Finds the correct semiannual yield, $1.25^{1/10}-1$, but forgets to multiply by 2 to annualise it."
+          },
+          {
+            "text": "4.51%",
+            "value": 0.0451,
+            "explanation": "Correct: the semiannual yield is $(100/80)^{1/10}-1 \\approx 2.2565\\%$, and doubling it gives about 4.51%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":5,\"freq\":2},\"price\":80}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:9:2",
+          "mit-ocw-15433-fixedincome1:3:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): (100/80)^(1/10) = 1.25^0.1; ln1.25 = 0.223144, /10 = 0.0223144, exp = 1.022565, so 2.2565% per period ×2 = 4.51%. This gives 4.51%, which is option C, not A. Correcting: answer is C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Bond X offers a yield of 5.05% with annual compounding. Bond Y offers a yield of 5.00% on a semiannual bond-equivalent basis (2.50% per half-year). Which bond has the higher effective annual yield?",
+        "options": [
+          {
+            "text": "Bond X, because 5.05% is higher than 5.00%",
+            "value": null,
+            "explanation": "Compares the headline numbers without adjusting for compounding frequency."
+          },
+          {
+            "text": "Bond Y, since its effective annual yield is about 5.06%",
+            "value": null,
+            "explanation": "Correct: $1.025^2-1 = 5.0625\\%$, which exceeds Bond X's 5.05%."
+          },
+          {
+            "text": "Neither, because different frequencies cannot be compared",
+            "value": null,
+            "explanation": "Yields on different bases can be compared once converted to a common basis such as EAR."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00055:0",
+          "mit-ocw-15401-review_mid:8:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bond's yield is 6.00% stated annually with semiannual compounding. Rounded to two decimals, what is the equivalent stated annual yield compounded quarterly?",
+        "options": [
+          {
+            "text": "5.96%",
+            "value": null,
+            "explanation": "Correct: $1.03^2 = 1.0609$; the quarterly factor is $1.0609^{1/4} = 1.03^{1/2} \\approx 1.014889$, and $1.4889\\% \\times 4 \\approx 5.96\\%$."
+          },
+          {
+            "text": "6.00%",
+            "value": null,
+            "explanation": "Keeps the same stated rate. Different compounding frequencies need different stated rates to be equivalent."
+          },
+          {
+            "text": "6.09%",
+            "value": null,
+            "explanation": "This is the effective annual rate, not the quarterly stated rate. The EAR must still be divided back into four periods."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-review_mid:8:1",
+          "os:principles-finance-2e:m00055:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A zero-coupon bond with a face value of 100 matures in exactly 3 years and is priced at 85. Using quarterly compounding (12 periods), what is its stated annual yield? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "5.57%",
+            "value": 0.0557,
+            "explanation": "Uses annual compounding, $(100/85)^{1/3}-1$, instead of quarterly."
+          },
+          {
+            "text": "5.45%",
+            "value": 0.0545,
+            "explanation": "Correct: the quarterly yield is $(100/85)^{1/12}-1 \\approx 1.3635\\%$, and $\\times 4 \\approx 5.45\\%$."
+          },
+          {
+            "text": "5.49%",
+            "value": 0.0549,
+            "explanation": "Uses semiannual compounding with 6 periods and multiplies by 2. The question specifies quarterly."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":3,\"freq\":4},\"price\":85}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:9:2",
+          "flatworld-finance-banking-and-money:79:70"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (medium): (100/85)^(1/12): ln(1.17647)=0.162519, /12=0.013543, exp−1=1.3635% per quarter, ×4 = 5.45%. That is option B, so correcting to B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Holding the stated annual rate fixed, the compounding frequency of a bond's yield is increased from annual to quarterly to monthly to continuous. What happens to the effective annual yield?",
+        "options": [
+          {
+            "text": "It rises, but toward a ceiling of $e^{y}-1$",
+            "value": null,
+            "explanation": "Correct: each extra compounding adds a little more interest on interest, but the gains shrink and approach the continuous-compounding limit."
+          },
+          {
+            "text": "It falls, because each period's rate is smaller",
+            "value": null,
+            "explanation": "Confuses the smaller periodic rate with the lower annual outcome. More periods of compounding more than offset the smaller rate per period."
+          },
+          {
+            "text": "It stays the same, since the stated rate is unchanged",
+            "value": null,
+            "explanation": "Assumes the stated rate equals the effective rate. They coincide only for annual compounding."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:79:70",
+          "mit-ocw-15433-fixedincome1:3:1",
+          "os:principles-finance-2e:m00055:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is a bond's stated annual yield (e.g. bond-equivalent yield) built from its periodic yield?",
+        "back": "Multiply the yield per period by the number of periods per year, $m$. For a semiannual bond, double the six-month yield. There is no compounding in this step.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:9:2",
+          "mit-ocw-15433-fixedincome1:3:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the formula for the effective annual rate from a stated annual yield $y$ compounded $m$ times a year?",
+        "back": "$\\text{EAR}=(1+y/m)^m-1$. It equals the stated rate only when $m=1$ and is higher for any $m>1$.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00055:1",
+          "mit-ocw-15401-review_mid:8:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you convert a stated yield compounded $m$ times a year into the equivalent stated yield compounded $n$ times a year?",
+        "back": "Set $(1+y_m/m)^m=(1+y_n/n)^n$. Solve for $y_n = n\\left[(1+y_m/m)^{m/n}-1\\right]$. The two stated rates differ even though the EARs are the same.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-review_mid:8:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "With a fixed stated rate, what happens to EAR as compounding gets more frequent, and what is the limit?",
+        "back": "EAR rises with diminishing gains. The limit is continuous compounding, $\\text{EAR}=e^{y}-1$.",
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:79:70",
+          "mit-ocw-15433-fixedincome1:3:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:42:31.113Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 918,
+      "outputTokens": 649,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008443,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:42:40.815Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14589,
+      "outputTokens": 1491,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0442572,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.052700199999999996
+}

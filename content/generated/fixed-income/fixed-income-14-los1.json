@@ -1,0 +1,436 @@
+{
+  "losId": "fixed-income-14-los1",
+  "losText": "describe credit risk and its components, probability of default and loss given default",
+  "moduleId": "fixed-income-14",
+  "moduleTitle": "Credit Risk",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:18:04.380Z",
+  "retrieved": [
+    {
+      "id": "nyfed-securitization:43:54",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 43",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=43",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "occ-credit-card-lending:162:211",
+      "title": "Comptroller's Handbook: Credit Card Lending (securitization) (OCC)",
+      "locator": "pp. 162–163",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/credit-card-lending/pub-ch-credit-card.pdf#page=162",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "occ-rating-credit-risk:52:49",
+      "title": "Comptroller's Handbook: Rating Credit Risk (OCC)",
+      "locator": "pp. 52–53",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/rating-credit-risk/pub-ch-rating-credit-risk.pdf#page=52",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "nyfed-securitization:45:58",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 45–46",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=45",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-rating-credit-risk:53:50",
+      "title": "Comptroller's Handbook: Rating Credit Risk (OCC)",
+      "locator": "pp. 53–55",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/rating-credit-risk/pub-ch-rating-credit-risk.pdf#page=53",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-creditrisk1:9:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 17: Credit Risk part 1",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/08ceba70b1a9e8969c47f667a7a3de11_1543317creditrisk1.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:16:18",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "p. 16",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=16",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:43:55",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 43–44",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=43",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-creditrisk1:12:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 17: Credit Risk part 1",
+      "locator": "pp. 12–15",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/08ceba70b1a9e8969c47f667a7a3de11_1543317creditrisk1.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:46:59",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 46–47",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=46",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:5:5",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "p. 5",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=5",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:30:39",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 30–31",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=30",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Credit Risk: How Likely a Default Is and How Much Is Lost",
+      "summary": "Credit risk is the chance that a lender or bondholder loses money because a borrower does not pay as promised. It splits into two questions, how likely a default is and how bad the loss would be if it happens, and together these give the expected loss on a bond.",
+      "sections": [
+        {
+          "heading": "The lending intuition",
+          "body_markdown": "Imagine lending money to an acquaintance. You worry about two separate things: **will they fail to pay me back?** and **if they don't, how much will I be out of pocket?** If they pledged their car as security, the second worry shrinks even if the first stays the same.\n\nBond investors face the same two worries. **Credit risk** (also called default risk) is the risk of loss because a borrower fails to pay interest or principal in full and on time. It is different from *interest rate risk*, where a bond's price moves because market rates change and the issuer pays everything it promised."
+        },
+        {
+          "heading": "Component 1: probability of default (PD)",
+          "body_markdown": "**Probability of default (PD)** is the likelihood that the borrower will fail to make a required payment in full and on time over a stated horizon, such as one year or five years. The horizon matters: a longer horizon gives a higher cumulative PD.\n\nPD is driven by the borrower's *capacity* to pay, such as cash flow relative to debt, leverage, liquidity and the stability of revenue. It also depends on the borrower's *willingness* to pay. PD is not fixed. It rises as the borrower weakens and falls as it strengthens, and it can also move with the economy."
+        },
+        {
+          "heading": "Component 2: loss given default (LGD) and recovery",
+          "body_markdown": "If default happens, creditors usually get some money back through collateral sales, restructuring or bankruptcy payouts. The **recovery rate (RR)** is the share of the exposure recovered. **Loss given default (LGD)**, also called loss severity, is the part that is *not* recovered:\n\n$$\\text{LGD (as % of exposure)} = 1 - RR$$\n\nIn currency terms, LGD $=$ exposure $\\times (1-RR)$. LGD is *conditional on default*: it describes the loss if default occurs, not the chance that it occurs. It depends on things like the seniority of the claim (senior debt is repaid before subordinated debt), collateral or guarantees, covenants and the value of the issuer's assets at the time."
+        },
+        {
+          "heading": "Putting them together: expected loss",
+          "body_markdown": "**Expected loss (EL)** is the probability-weighted loss. Multiply the chance of default by the loss if default occurs:\n\n$$EL = PD \\times LGD$$\n\nUse LGD in currency to get EL in currency, or LGD as a percentage to get EL as a percentage of exposure. Because the two parts are multiplied, a high PD can be offset by a low LGD and vice versa. A well-secured loan to a shaky borrower can carry the same expected loss as an unsecured loan to a stronger one. Remember that expected loss is an average. In any single case the bond either defaults or it does not."
+        }
+      ],
+      "worked_example": {
+        "problem": "A fund holds a bond position with an exposure of 2,000,000 at the time of any default. Analysts estimate a one-year probability of default of 3%. If default occurs, they expect to recover 40% of the exposure. Find the loss given default in currency and the one-year expected loss.",
+        "steps": [
+          "Identify the inputs: exposure = 2,000,000; PD = 0.03; recovery rate = 0.40.",
+          "Loss severity (share not recovered) = 1 − 0.40 = 0.60.",
+          "LGD in currency = 2,000,000 × 0.60 = 1,200,000. On the BA II Plus: 2000000 [×] 0.6 [=] shows 1,200,000.",
+          "Expected loss = PD × LGD = 0.03 × 1,200,000. Continue on the calculator: [×] 0.03 [=] shows 36,000.",
+          "Check by percentage: EL = 0.03 × 0.60 = 1.8% of exposure, and 1.8% × 2,000,000 = 36,000."
+        ],
+        "answer": "LGD is 1,200,000 and the one-year expected loss is 36,000 (1.8% of exposure).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Loss given default",
+          "latex": "LGD = EAD \\times (1 - RR)",
+          "where": "LGD = loss if default occurs (currency); EAD = exposure at the time of default; RR = recovery rate as a decimal share of exposure."
+        },
+        {
+          "name": "Loss severity as a percentage",
+          "latex": "\\text{Severity} = 1 - RR",
+          "where": "RR = recovery rate as a decimal; severity is LGD expressed as a fraction of exposure."
+        },
+        {
+          "name": "Expected loss",
+          "latex": "EL = PD \\times LGD",
+          "where": "EL = expected loss; PD = probability of default over the stated horizon (decimal); LGD = loss given default, in currency or as a fraction of exposure."
+        }
+      ],
+      "exam_traps": [
+        "Using the recovery rate where the loss severity belongs. If RR is 40%, LGD is 60%, not 40%.",
+        "Treating PD alone as the whole of credit risk. A high PD with high recoveries can be less costly than a low PD with near-zero recoveries.",
+        "Forgetting that LGD is conditional on default, then multiplying by PD a second time or skipping PD entirely.",
+        "Adding PD and LGD instead of multiplying them to get expected loss.",
+        "Confusing credit risk with interest rate risk or liquidity risk. Credit risk is about the borrower not paying, not about market rates or trading ease."
+      ],
+      "builds_on": [
+        "Bond basics: coupon, principal and maturity",
+        "Seniority of claims and collateral",
+        "Probability and expected value"
+      ],
+      "leads_to": [
+        "Credit ratings and their limitations",
+        "Yield spreads and what drives them",
+        "Credit analysis of issuers"
+      ],
+      "cited_chunk_ids": [
+        "occ-rating-credit-risk:52:49",
+        "occ-rating-credit-risk:53:50",
+        "occ-credit-card-lending:162:211"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes credit risk for a bondholder?",
+        "options": [
+          {
+            "text": "The chance that market interest rates rise and push down the price of a fixed-rate bond",
+            "value": null,
+            "explanation": "This is interest rate risk. The issuer can pay everything it promised and the price still falls, so it is not credit risk."
+          },
+          {
+            "text": "The chance that the borrower fails to pay interest or principal in full and on time, causing a loss",
+            "value": null,
+            "explanation": "Correct. Credit risk is the risk of loss from the borrower not meeting its payment obligations as promised."
+          },
+          {
+            "text": "The chance that a bond cannot be sold quickly without accepting a lower price",
+            "value": null,
+            "explanation": "This is liquidity risk, the cost of trading quickly, which is separate from the borrower's ability to pay."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:52:49"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Credit risk is commonly broken into two components. Which pair is correct?",
+        "options": [
+          {
+            "text": "Probability of default and loss given default",
+            "value": null,
+            "explanation": "Correct. PD is how likely default is and LGD is how much is lost if it happens. Together they give expected loss."
+          },
+          {
+            "text": "Probability of default and the bond's yield spread",
+            "value": null,
+            "explanation": "The yield spread is the compensation investors demand for credit risk, not a component of the risk. Mixing up the risk with its price is the mistake here."
+          },
+          {
+            "text": "Loss given default and the bond's duration",
+            "value": null,
+            "explanation": "Duration measures sensitivity to interest rate changes, which is interest rate risk, not a credit risk component."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50",
+          "occ-credit-card-lending:162:211"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A lender has an exposure of 500,000 at default. The one-year probability of default is 4%, and the lender expects to recover 30% of the exposure if default occurs. What is the one-year expected loss?",
+        "options": [
+          {
+            "text": "6,000",
+            "value": null,
+            "explanation": "This uses the recovery rate (30%) instead of the loss severity (70%): 0.04 × 500,000 × 0.30 = 6,000."
+          },
+          {
+            "text": "20,000",
+            "value": null,
+            "explanation": "This ignores recoveries (LGD treated as 100% of exposure): 0.04 × 500,000 = 20,000."
+          },
+          {
+            "text": "14,000",
+            "value": null,
+            "explanation": "Correct. LGD = 500,000 × (1 − 0.30) = 350,000, so EL = 0.04 × 350,000 = 14,000."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50",
+          "occ-credit-card-lending:162:211"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Holding the borrower's probability of default constant, which change would most directly increase the loss given default on a bond?",
+        "options": [
+          {
+            "text": "The bond becomes backed by additional collateral",
+            "value": null,
+            "explanation": "More collateral raises expected recoveries and so lowers LGD, the opposite direction."
+          },
+          {
+            "text": "The bond's claim ranks below other debt instead of senior to it",
+            "value": null,
+            "explanation": "Correct. A lower-ranking claim is repaid later and typically recovers less in default, which raises LGD."
+          },
+          {
+            "text": "The issuer's cash flow coverage of its interest payments improves",
+            "value": null,
+            "explanation": "Better coverage reduces the likelihood of default (PD), not the loss severity. This confuses a PD driver with an LGD driver."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst expects creditors to recover 55% of the exposure if a borrower defaults. Expressed as a percentage of exposure, the loss given default is closest to:",
+        "options": [
+          {
+            "text": "55%",
+            "value": null,
+            "explanation": "This reports the recovery rate itself as the LGD, a mix-up between the amount recovered and the amount lost."
+          },
+          {
+            "text": "145%",
+            "value": null,
+            "explanation": "This adds the recovery rate to 100% instead of subtracting it. A loss cannot exceed the exposure here."
+          },
+          {
+            "text": "45%",
+            "value": null,
+            "explanation": "Correct. LGD = 1 − recovery rate = 1 − 0.55 = 0.45, or 45% of exposure."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-credit-card-lending:162:211"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Issuer X has a one-year PD of 2% and an LGD of 60% of exposure. Issuer Y has a one-year PD of 6% and an LGD of 20% of exposure. The exposures are identical. Which statement about expected loss is correct?",
+        "options": [
+          {
+            "text": "They are equal, at 1.2% of exposure each",
+            "value": null,
+            "explanation": "Correct. X: 0.02 × 0.60 = 1.2%. Y: 0.06 × 0.20 = 1.2%. The higher PD at Y is offset by its lower LGD."
+          },
+          {
+            "text": "Y is higher, because its default probability is three times as large",
+            "value": null,
+            "explanation": "This looks at PD only and ignores that X's LGD is three times as large."
+          },
+          {
+            "text": "X is higher, because its loss given default is three times as large",
+            "value": null,
+            "explanation": "This looks at LGD only and ignores that Y's PD is three times as large."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about probability of default (PD) and loss given default (LGD) is correct?",
+        "options": [
+          {
+            "text": "PD describes the size of the loss after default, and LGD describes how likely default is",
+            "value": null,
+            "explanation": "The definitions are swapped. PD is the likelihood of default and LGD is the loss severity."
+          },
+          {
+            "text": "PD is set when the bond is issued and does not change if the issuer's leverage or cash flow changes",
+            "value": null,
+            "explanation": "PD is not fixed. Weaker cash flow or higher leverage raises it, and improvement lowers it."
+          },
+          {
+            "text": "LGD is the loss if default occurs, and it depends on factors such as collateral and the seniority of the claim",
+            "value": null,
+            "explanation": "Correct. LGD is conditional on default and is affected by collateral, guarantees, seniority and expected recoveries."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:52:49",
+          "occ-rating-credit-risk:53:50"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is credit risk?",
+        "back": "The risk of loss because a borrower fails to pay interest or principal in full and on time. It is not the same as interest rate risk or liquidity risk.",
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:52:49"
+        ]
+      },
+      {
+        "front": "What does probability of default (PD) measure, and what mainly drives it?",
+        "back": "The likelihood of default over a stated horizon. It is driven by the borrower's capacity and willingness to pay, such as cash flow, leverage and liquidity.",
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:52:49",
+          "occ-credit-card-lending:162:211"
+        ]
+      },
+      {
+        "front": "What is loss given default (LGD), and how does it relate to the recovery rate?",
+        "back": "The loss if default occurs, net of recoveries. LGD (% of exposure) = 1 − recovery rate. It is lower with collateral and higher for junior claims.",
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50",
+          "occ-credit-card-lending:162:211"
+        ]
+      },
+      {
+        "front": "How is expected loss calculated from PD and LGD?",
+        "back": "EL = PD × LGD. For example, PD 3% and LGD of 1,200,000 gives EL of 36,000. Multiply, do not add.",
+        "cited_chunk_ids": [
+          "occ-rating-credit-risk:53:50",
+          "nyfed-securitization:43:55"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:18:04.380Z",
+      "purpose": "generate",
+      "losId": "fixed-income-14-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9699,
+      "outputTokens": 9487,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.11542419999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

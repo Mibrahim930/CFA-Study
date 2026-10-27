@@ -1,0 +1,795 @@
+{
+  "losId": "fixed-income-08-los2",
+  "losText": "calculate and interpret yield measures for money market instruments",
+  "moduleId": "fixed-income-08",
+  "moduleTitle": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:43:45.953Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfr-31-356:21:44",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 21",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=21",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "fed-feds-2006-28:4:2",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-trading-4000-p1:28:42",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 28–29",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:71:64",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 71–73",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=71",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:52:59",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 52–53",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=52",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:47:75",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 47–48",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=47",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:7:8",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 7",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=7",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:1:1",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 1",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=1",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:19:23",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 19–20",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=19",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2006-28:5:3",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 5–7",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=5",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:89:146",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 89",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=89",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:14:20",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 14–15",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Money Market Yields: Discount Rate, Add-On Rate, MM Yield and Bond Equivalent Yield",
+      "summary": "Short-term instruments such as T-bills, commercial paper and bank deposits quote their returns in different ways, so the quoted numbers cannot be compared directly. This lesson shows how to turn each quote into an actual return and then into a yield on a common basis.",
+      "sections": [
+        {
+          "heading": "Why money market quotes look different",
+          "body_markdown": "The **money market** is where debt with a maturity of up to about one year is issued and traded. Two pricing styles dominate.\n\n- **Discount instruments** (T-bills, commercial paper) are sold below **face value** (the amount repaid at maturity). Your interest is the gap between the price paid and the face value. Dealers quote a *discount rate*.\n- **Add-on instruments** (bank deposits, certificates of deposit, Eurodollar deposits) are bought at their principal. The interest is added on top at maturity. Dealers quote an *add-on rate*.\n\nThink of two shops. One says \"20% off the sticker price\". The other says \"pay $100, get back $102\". Both describe a return, but the percentages sit on different bases, so you cannot compare them until you convert them."
+        },
+        {
+          "heading": "The discount rate and why it understates your return",
+          "body_markdown": "The **discount rate (DR)** expresses the dollar discount as a percentage of the **face value**, scaled to a year:\n\n$$DR=\\frac{Year}{Days}\\times\\frac{FV-PV}{FV}$$\n\nTo get the price back from a quoted DR, take the discount off the face value:\n\n$$PV=FV\\left(1-\\frac{Days}{Year}\\times DR\\right)$$\n\nMost money market quotes use a 360-day year, so $Year=360$. The catch is that you did not invest the face value. You invested the *price*, which is smaller. Dividing the same dollar gain by the larger number (FV) gives a smaller percentage. So the discount rate is **not** a true yield and always understates the return."
+        },
+        {
+          "heading": "From discount rate to a real yield: HPR, MM yield and BEY",
+          "body_markdown": "The **holding period return (HPR)** is the actual return for owning the instrument until maturity:\n\n$$HPR=\\frac{FV-PV}{PV}$$\n\nFor an add-on instrument, $HPR=AOR\\times\\frac{Days}{Year}$. To compare instruments of different lengths, annualize this HPR **without compounding**, by scaling it up in proportion to time. The choice of year length gives two standard yields:\n\n- **Money market yield** (360-day basis): $r_{MM}=HPR\\times\\frac{360}{Days}$. This is the add-on-style yield on a 360-day year, such as a LIBOR-style deposit.\n- **Bond equivalent yield** (365-day basis): $r_{BEY}=HPR\\times\\frac{365}{Days}$. This puts the instrument on the same footing as a coupon bond.\n\nBecause only the year length differs, $r_{BEY}=r_{MM}\\times\\frac{365}{360}$. A shortcut from discount rate to MM yield is $r_{MM}=\\frac{360\\,DR}{360-Days\\times DR}$."
+        },
+        {
+          "heading": "Comparing instruments the exam way",
+          "body_markdown": "Follow the same routine every time:\n\n1. Identify the quote type (discount rate or add-on rate) and its year basis (360 or 365).\n2. If it is a discount rate, get the price from $PV=FV(1-\\frac{Days}{Year}DR)$.\n3. Compute the HPR, which is gain divided by price.\n4. Annualize with 360 (MM yield) or 365 (BEY), whichever matches the other instrument you are comparing against.\n\nA useful ordering: for the same instrument, the yield is higher than the discount rate. The bond equivalent yield is slightly higher than the MM yield because 365 > 360. Only compare yields that share the same basis."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 120-day Treasury bill with face value 100 is quoted at a discount rate of 4.80% on a 360-day year. Find (a) the price, (b) the holding period return, (c) the money market yield and (d) the bond equivalent yield (365-day year).",
+        "steps": [
+          "Price: $PV=100\\times\\left(1-\\frac{120}{360}\\times0.048\\right)=100\\times(1-0.016)=98.40$. BA II Plus: 120 ÷ 360 × 0.048 = 0.016; then 1 − 0.016 = 0.984; × 100 = 98.40.",
+          "HPR: $\\frac{100-98.40}{98.40}=0.016260$ (1.6260%). BA II Plus: 100 ÷ 98.4 = 1.016260; − 1 = 0.016260.",
+          "Money market yield: $0.016260\\times\\frac{360}{120}=0.048780$ (4.878%). Keystrokes: × 360 ÷ 120 =. Cross-check with the shortcut: $\\frac{360\\times0.048}{360-120\\times0.048}=\\frac{17.28}{354.24}=0.04878$.",
+          "Bond equivalent yield: $0.016260\\times\\frac{365}{120}=0.049458$ (4.946%). Keystrokes: × 365 ÷ 120 =.",
+          "Interpretation: the 4.80% discount rate understates the return. The real yield is 4.878% on a 360-day basis and 4.946% on a 365-day basis."
+        ],
+        "answer": "Price = 98.40 per 100 face; HPR = 1.626%; money market yield = 4.878%; bond equivalent yield = 4.946%.",
+        "answer_value": 98.4,
+        "calc_spec": {
+          "fn": "priceFromDiscountRate",
+          "args_json": "{\"fv\":100,\"discountRate\":0.048,\"days\":120,\"year\":360}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Price from discount rate",
+          "latex": "PV=FV\\left(1-\\frac{Days}{Year}\\times DR\\right)",
+          "where": "PV = price paid; FV = face value repaid at maturity; Days = days to maturity; Year = 360 (or 365 if the market convention says so); DR = quoted discount rate as a decimal."
+        },
+        {
+          "name": "Discount rate",
+          "latex": "DR=\\frac{Year}{Days}\\times\\frac{FV-PV}{FV}",
+          "where": "Symbols as above; the dollar discount is measured relative to face value."
+        },
+        {
+          "name": "Holding period return",
+          "latex": "HPR=\\frac{FV-PV}{PV}=AOR\\times\\frac{Days}{Year}",
+          "where": "HPR = return over the instrument's life; AOR = add-on rate (for add-on instruments)."
+        },
+        {
+          "name": "Money market yield",
+          "latex": "r_{MM}=HPR\\times\\frac{360}{Days}=\\frac{360\\,DR}{360-Days\\times DR}",
+          "where": "r_MM = simple annualized yield on a 360-day year; DR = discount rate as a decimal."
+        },
+        {
+          "name": "Bond equivalent yield",
+          "latex": "r_{BEY}=HPR\\times\\frac{365}{Days}=r_{MM}\\times\\frac{365}{360}",
+          "where": "r_BEY = simple annualized yield on a 365-day year."
+        },
+        {
+          "name": "Maturity value of an add-on instrument",
+          "latex": "FV=PV\\left(1+AOR\\times\\frac{Days}{Year}\\right)",
+          "where": "PV = amount deposited; AOR = add-on rate as a decimal; Year = 360 or 365 per convention."
+        }
+      ],
+      "exam_traps": [
+        "Treating the discount rate as a true yield. It is based on face value, so it understates the return. Always go through price and HPR.",
+        "Mixing day-count bases. A 360-day MM yield and a 365-day BEY must be put on the same basis (multiply MM by 365/360) before you rank them.",
+        "Dividing the gain by face value instead of by price when computing HPR, which just reproduces the discount-rate logic.",
+        "Annualizing by compounding. Money market yields scale the HPR by Year/Days with simple interest, not by raising (1 + HPR) to a power.",
+        "Flipping the time fraction: use Days/Year to shrink a quoted annual rate to the holding period, and Year/Days to scale an HPR up to an annual rate."
+      ],
+      "builds_on": [
+        "Time value of money",
+        "Holding period return",
+        "Day-count conventions"
+      ],
+      "leads_to": [
+        "Yield spread measures for floating-rate instruments",
+        "Reference rates and money market curves",
+        "Term structure of interest rates"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:7:8",
+        "fed-trading-4000-p1:47:75",
+        "ftse-fixed-income-indices-guide:52:59"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A dealer quotes a 90-day T-bill at a discount rate of 3.00%. Compared with the money market yield on the same bill, the discount rate is:",
+        "options": [
+          {
+            "text": "Lower, because it measures the gain against face value rather than the price paid",
+            "value": null,
+            "explanation": "Correct. The gain is divided by the face value, which is larger than the price paid. The percentage is therefore smaller than the true return on the amount invested."
+          },
+          {
+            "text": "Higher, because it is annualized using a shorter year than the yield",
+            "value": null,
+            "explanation": "Wrong. Both measures can use 360 days. The gap comes from the base (FV versus price), not the year length, and it goes in the opposite direction."
+          },
+          {
+            "text": "Identical, because both annualize the same dollar discount over 90 days",
+            "value": null,
+            "explanation": "Wrong. This ignores that the two measures divide by different bases (face value versus price)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 90-day Treasury bill with a face value of $1,000,000 is quoted at a discount rate of 3.60%. Use a 360-day year. What price does the investor pay? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$991,080.28",
+            "value": 991080.28,
+            "explanation": "Mistake: treating the discount rate as an add-on rate and computing FV ÷ (1 + 0.036 × 90/360) = 1,000,000 ÷ 1.009."
+          },
+          {
+            "text": "$991,000.00",
+            "value": 991000,
+            "explanation": "Correct. PV = 1,000,000 × (1 − 0.036 × 90/360) = 1,000,000 × 0.991 = $991,000."
+          },
+          {
+            "text": "$991,123.29",
+            "value": 991123.29,
+            "explanation": "Mistake: using a 365-day year for the discount, 1,000,000 × (1 − 0.036 × 90/365), when the quote is on a 360-day basis."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "priceFromDiscountRate",
+          "args_json": "{\"fv\":1000000,\"discountRate\":0.036,\"days\":90,\"year\":360}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": false,
+          "issues": [
+            "distractor 0 (991080.28) equals the engine value 991000",
+            "distractor 2 (991123.29) equals the engine value 991000"
+          ]
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An investor buys a 180-day bill for 97.50 per 100 of face value and holds it to maturity, when it pays 100. There is no other income. What is the holding period return? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "5.13%",
+            "value": 0.051282,
+            "explanation": "Mistake: reporting the annualized figure (HPR × 360/180) when the question asks for the return over the holding period."
+          },
+          {
+            "text": "2.50%",
+            "value": 0.025,
+            "explanation": "Mistake: dividing the 2.50 gain by the face value of 100 instead of by the price paid of 97.50."
+          },
+          {
+            "text": "2.56%",
+            "value": 0.025641,
+            "explanation": "Correct. HPR = (100 − 97.50) ÷ 97.50 = 0.025641, which is 2.56%. The base is the amount actually invested."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":97.5,\"endPrice\":100,\"income\":0}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A 60-day bill is quoted at a discount rate of 5.00% on a 360-day year. What is its money market yield (360-day basis, simple annualization)? Round to two decimal places.",
+        "options": [
+          {
+            "text": "5.04%",
+            "value": null,
+            "explanation": "Correct. The price is 100 × (1 − 0.05 × 60/360) = 99.1667. HPR = 0.8333/99.1667 = 0.8403%. × 360/60 = 5.04%. Equivalently, 360 × 0.05 ÷ (360 − 60 × 0.05) = 18/357 = 5.04%."
+          },
+          {
+            "text": "5.00%",
+            "value": null,
+            "explanation": "Mistake: treating the quoted discount rate as the yield, without converting the base from face value to price."
+          },
+          {
+            "text": "5.11%",
+            "value": null,
+            "explanation": "Mistake: annualizing on a 365-day year. That produces the bond equivalent yield, not the 360-day money market yield."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:52:59"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Two bills have the same maturity and credit quality. Bill A has a money market yield (360-day basis) of 4.00%. Bill B has a bond equivalent yield (365-day basis) of 4.05%. Which statement is correct?",
+        "options": [
+          {
+            "text": "Bill B offers the higher return because 4.05% exceeds 4.00%",
+            "value": null,
+            "explanation": "Mistake: comparing numbers on different day-count bases without converting them."
+          },
+          {
+            "text": "Bill A offers the higher return because its BEY is about 4.06%",
+            "value": null,
+            "explanation": "Correct. BEY = MM yield × 365/360 = 4.00% × 1.01389 = 4.056%, which is above Bill B's 4.05%. The two must be put on the same basis before ranking."
+          },
+          {
+            "text": "The two bills offer the same return because both are simple annualized yields",
+            "value": null,
+            "explanation": "Mistake: assuming that any simple annualized yield is comparable. The 360-day and 365-day bases scale the same HPR differently."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:52:59"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company issues 270-day commercial paper with a face value of 100 at a discount rate of 4.20%. Use a 360-day year. What is the issue price per 100 of face value? Round to two decimal places.",
+        "options": [
+          {
+            "text": "96.89",
+            "value": 96.89,
+            "explanation": "Mistake: using a 365-day year, 100 × (1 − 0.042 × 270/365), although commercial paper is quoted with a 360-day year."
+          },
+          {
+            "text": "96.95",
+            "value": 96.95,
+            "explanation": "Mistake: treating the discount rate as an add-on rate and computing 100 ÷ (1 + 0.042 × 270/360)."
+          },
+          {
+            "text": "96.85",
+            "value": 96.85,
+            "explanation": "Correct. Price = 100 × (1 − 0.042 × 270/360) = 100 × (1 − 0.0315) = 96.85."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "priceFromDiscountRate",
+          "args_json": "{\"fv\":100,\"discountRate\":0.042,\"days\":270,\"year\":360}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": false,
+          "issues": [
+            "distractor 0 (96.89) equals the engine value 96.85000000000001"
+          ]
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor places $2,000,000 in a 180-day Eurodollar deposit quoted at an add-on rate of 4.00% on an actual/360 basis. What amount is repaid at maturity? Round to the nearest dollar.",
+        "options": [
+          {
+            "text": "$2,040,000",
+            "value": null,
+            "explanation": "Correct. FV = 2,000,000 × (1 + 0.04 × 180/360) = 2,000,000 × 1.02 = $2,040,000."
+          },
+          {
+            "text": "$2,039,452",
+            "value": null,
+            "explanation": "Mistake: using a 365-day year, 2,000,000 × (1 + 0.04 × 180/365), when the deposit is quoted actual/360."
+          },
+          {
+            "text": "$2,039,608",
+            "value": null,
+            "explanation": "Mistake: compounding the annual rate for half a year, 2,000,000 × 1.04^0.5. Add-on rates accrue simple interest over the period."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:47:75"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Why does the discount rate understate a T-bill's true return?",
+        "back": "It divides the dollar discount by face value, which is larger than the price actually paid. The true return divides by the price.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you get the price of a discount instrument from its quoted discount rate?",
+        "back": "PV = FV × (1 − Days/Year × DR), with Year usually 360.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How are money market yield and bond equivalent yield each computed from the HPR?",
+        "back": "MM yield = HPR × 360/Days. BEY = HPR × 365/Days. So BEY = MM yield × 365/360.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:52:59"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between a discount instrument and an add-on instrument?",
+        "back": "A discount instrument is sold below face value and repays face, as with T-bills and commercial paper. An add-on instrument is bought at principal and repays principal plus interest, as with deposits and CDs.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:7:8",
+          "fed-trading-4000-p1:47:75"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:43:33.210Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 621,
+      "outputTokens": 640,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007759,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:43:45.952Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13467,
+      "outputTokens": 1289,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0399932,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0477522
+}

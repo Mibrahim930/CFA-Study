@@ -1,0 +1,456 @@
+{
+  "losId": "fixed-income-13-los2",
+  "losText": "calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond's effective duration and convexity",
+  "moduleId": "fixed-income-13",
+  "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:14:32.358Z",
+  "retrieved": [
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.2
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:25:6",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 25–30",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=25",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "slcg-cmo-primer:16:15",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 16–17",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=16",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:131:152",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=131",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:1:0",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 1–2",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=1",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:132:153",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 132",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:1:0",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 1–2",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=1",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-interest-rate-risk:78:92",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 78–79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:18:5",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 18–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=18",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Estimating a Bond's Price Move from Duration and Convexity",
+      "summary": "Effective duration gives a quick straight-line estimate of how much a bond's price changes when the benchmark yield curve shifts, and convexity corrects that estimate for the curve in the price-yield relationship. Exam questions give you both numbers and a yield shift, and you combine them into one percentage price change.",
+      "sections": [
+        {
+          "heading": "Why a straight line is not enough",
+          "body_markdown": "A bond's price falls when yields rise and rises when yields fall, but the relationship is a **curve**, not a straight line. Think of driving over a rounded hill and judging the drop ahead by the slope where you are standing. For a short distance, the slope is a fine guide. Over a long stretch, the road bends away from your straight-line prediction.\n\n**Effective duration** is that slope. It tells you the approximate percentage price change for a 1-percentage-point (100 bp) move in the benchmark curve. It is called *effective* because the price changes behind it come from repricing the bond after shifting the benchmark curve up and down, so any cash-flow changes from embedded options are captured. **Convexity** measures how much the slope itself changes as yields move, and it repairs the error from using the straight line alone."
+        },
+        {
+          "heading": "The duration piece",
+          "body_markdown": "The duration-only estimate is\n\n$$\\%\\Delta P \\approx -D_E \\times \\Delta y$$\n\nwhere $D_E$ is effective duration and $\\Delta y$ is the change in the benchmark yield **written as a decimal** (a rise of 50 bp is $+0.005$).\n\nThe minus sign is there because price and yield move in opposite directions. A duration of 6 means roughly a 6% price change for a 1% (0.01) yield move. For small shifts, this estimate lands close to the truth. For large shifts, it is noticeably off. Source lecture notes show that a duration-only estimate for a 200 bp rise on a long bond gave about a 17.2% fall, while the true fall was about 15.1%."
+        },
+        {
+          "heading": "The convexity piece",
+          "body_markdown": "The correction is\n\n$$\\tfrac{1}{2}\\times C_E \\times (\\Delta y)^2$$\n\nwhere $C_E$ is effective convexity. Two features matter on the exam:\n\n- Because $\\Delta y$ is **squared**, the term is always positive when convexity is positive. It does not flip sign with the direction of the yield move. It helps in both directions: it makes a price gain bigger and a price loss smaller than the duration-only estimate says.\n- Option-free bonds have positive convexity. Bonds with embedded options (a callable bond, for example) can have **negative convexity** at some yield levels. Then $C_E < 0$ and the correction *reduces* the estimate in both directions.\n\nThe convexity term is small for small shifts (a 50 bp move squares to $0.000025$) and grows quickly for large ones."
+        },
+        {
+          "heading": "Putting it together",
+          "body_markdown": "The full estimate adds the two pieces:\n\n$$\\%\\Delta P \\approx -D_E\\,\\Delta y + \\tfrac{1}{2}\\,C_E\\,(\\Delta y)^2$$\n\nChecklist for any question:\n1. Convert the shift to a decimal and keep its sign (up is $+$, down is $-$).\n2. Compute the duration term, $-D_E \\times \\Delta y$.\n3. Compute the convexity term, $\\tfrac12 C_E (\\Delta y)^2$, with the sign of $C_E$ and a positive squared shift.\n4. Add them and express the answer as a percentage.\n\nThe effective duration and convexity are themselves found by repricing the bond with the benchmark curve shifted down and up by the same amount. This LOS only asks you to *use* those two numbers. The estimate assumes a parallel shift in the benchmark curve and works best for small to moderate moves."
+        }
+      ],
+      "worked_example": {
+        "problem": "A bond has an effective duration of 6.50 and an effective convexity of 52.0. The benchmark yield curve shifts up in parallel by 100 basis points. Estimate the percentage price change.",
+        "steps": [
+          "Convert the shift to a decimal: +100 bp = +1.00% = +0.01.",
+          "Duration term: $-6.50 \\times 0.01 = -0.0650$, which is -6.50%.",
+          "Convexity term: $\\tfrac12 \\times 52.0 \\times (0.01)^2 = 26 \\times 0.0001 = +0.0026$, which is +0.26%.",
+          "Add the two: $-0.0650 + 0.0026 = -0.0624$, which is -6.24%.",
+          "BA II Plus: 6.5 [+/-] [×] 0.01 [=] gives -0.065. Then 0.5 [×] 52 [×] 0.01 [x²] [=] gives 0.0026 (the [x²] key squares the 0.01 entered just before it). Add: -0.065 [+] 0.0026 [=] -0.0624."
+        ],
+        "answer": "The bond's price is estimated to fall by about 6.24%.",
+        "answer_value": -0.0624,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":6.5,\"convexity\":52,\"dy\":0.01}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Duration plus convexity price change estimate",
+          "latex": "\\%\\Delta P \\approx -D_E\\,\\Delta y + \\tfrac{1}{2}\\,C_E\\,(\\Delta y)^2",
+          "where": "$D_E$ = effective duration; $C_E$ = effective convexity; $\\Delta y$ = change in the benchmark yield as a decimal (positive for a rise); $\\%\\Delta P$ = approximate percentage price change as a decimal."
+        },
+        {
+          "name": "Effective duration (from repricing)",
+          "latex": "D_E = \\dfrac{PV_- - PV_+}{2\\,PV_0\\,\\Delta \\text{curve}}",
+          "where": "$PV_-$ = bond value after the benchmark curve shifts down; $PV_+$ = value after it shifts up; $PV_0$ = starting value; $\\Delta\\text{curve}$ = size of each shift as a decimal."
+        },
+        {
+          "name": "Effective convexity (from repricing)",
+          "latex": "C_E = \\dfrac{PV_- + PV_+ - 2\\,PV_0}{PV_0\\,(\\Delta \\text{curve})^2}",
+          "where": "Same symbols as for effective duration. The convexity adjustment in the estimate is $\\tfrac12 C_E(\\Delta y)^2$."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting the ½ in front of the convexity term, which doubles the adjustment.",
+        "Using the shift in percent or basis points instead of as a decimal (1% entered as 1 or 100 instead of 0.01) when squaring.",
+        "Giving the convexity term the sign of the yield change. For positive convexity the term is positive whether yields rise or fall, because $\\Delta y$ is squared.",
+        "Ignoring the sign of negative convexity on a callable bond. The term then subtracts from the duration estimate.",
+        "Dropping the minus sign on the duration term, so a yield rise is shown as a price gain."
+      ],
+      "builds_on": [
+        "Price-yield relationship",
+        "Modified and Macaulay duration",
+        "Effective duration and effective convexity",
+        "Bonds with embedded options"
+      ],
+      "leads_to": [
+        "Key rate duration",
+        "Empirical vs analytical duration",
+        "Portfolio duration and convexity",
+        "Immunization and hedging"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-fixedincome1:18:5",
+        "sfu-poitras-duration-convexity:9:3",
+        "sfu-poitras-duration-convexity:14:4",
+        "mpra-key-rate-duration:6:4"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond has an effective duration of 5.00 and an effective convexity of 40.0. The benchmark yield curve falls by 50 basis points in a parallel shift. Using the duration-plus-convexity estimate, what is the approximate percentage price change? Round to the nearest 0.01%.",
+        "options": [
+          {
+            "text": "+2.50%",
+            "value": 0.025,
+            "explanation": "This is the duration-only estimate (5.00 × 0.005). It leaves out the convexity adjustment."
+          },
+          {
+            "text": "+2.55%",
+            "value": 0.0255,
+            "explanation": "Duration term: -5.00 × (-0.005) = +0.0250. Convexity term: ½ × 40 × (0.005)² = +0.0005. Total = +0.0255, or +2.55%."
+          },
+          {
+            "text": "+2.60%",
+            "value": 0.026,
+            "explanation": "This omits the ½ in the convexity term (40 × 0.000025 = 0.001), which doubles the adjustment."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":5,\"convexity\":40,\"dy\":-0.005}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond has an effective duration of 8.40 and an effective convexity of 95.0. The benchmark yield curve rises by 75 basis points in a parallel shift. Estimate the percentage price change using both duration and convexity. Round to the nearest 0.01%.",
+        "options": [
+          {
+            "text": "-6.30%",
+            "value": -0.063,
+            "explanation": "This is the duration-only result (-8.40 × 0.0075). It ignores that convexity softens the price decline."
+          },
+          {
+            "text": "-6.57%",
+            "value": -0.0657,
+            "explanation": "This subtracts the convexity term instead of adding it. With positive convexity the adjustment is positive even when yields rise."
+          },
+          {
+            "text": "-6.03%",
+            "value": -0.0603,
+            "explanation": "Duration term: -8.40 × 0.0075 = -0.0630. Convexity term: ½ × 95 × (0.0075)² = +0.00267. Total = -0.0603, or -6.03%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":8.4,\"convexity\":95,\"dy\":0.0075}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "sfu-poitras-duration-convexity:14:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A callable bond has an effective duration of 3.80 and an effective convexity of -150. The benchmark yield curve falls by 100 basis points in a parallel shift. Using the duration-plus-convexity estimate, what is the approximate percentage price change? Round to the nearest 0.01%.",
+        "options": [
+          {
+            "text": "+3.05%",
+            "value": 0.0305,
+            "explanation": "Duration term: -3.80 × (-0.01) = +0.0380. Convexity term: ½ × (-150) × (0.01)² = -0.0075. Total = +0.0305, or +3.05%."
+          },
+          {
+            "text": "+3.80%",
+            "value": 0.038,
+            "explanation": "This is the duration-only estimate. It misses the negative convexity, which cuts into the gain when yields fall."
+          },
+          {
+            "text": "+4.55%",
+            "value": 0.0455,
+            "explanation": "This treats the convexity term as positive (+0.0075) and ignores the negative sign of the bond's convexity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":3.8,\"convexity\":-150,\"dy\":-0.01}"
+        },
+        "cited_chunk_ids": [
+          "slcg-cmo-primer:16:15",
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond has an effective duration of 10.20 and an effective convexity of 130. The benchmark yield curve rises by 200 basis points in a parallel shift. Using the duration-plus-convexity estimate, what is the approximate percentage price change? Round to the nearest 0.01%.",
+        "options": [
+          {
+            "text": "-20.40%",
+            "value": -0.204,
+            "explanation": "This is the duration-only estimate (-10.20 × 0.02). For a large move, it overstates the fall because it omits the convexity adjustment."
+          },
+          {
+            "text": "-23.00%",
+            "value": -0.23,
+            "explanation": "This subtracts the convexity term (-0.204 - 0.026) instead of adding it. With positive convexity the term reduces the loss."
+          },
+          {
+            "text": "-17.80%",
+            "value": -0.178,
+            "explanation": "Duration term: -10.20 × 0.02 = -0.2040. Convexity term: ½ × 130 × (0.02)² = +0.0260. Total = -0.1780, or -17.80%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "priceChangeEstimate",
+          "args_json": "{\"modDur\":10.2,\"convexity\":130,\"dy\":0.02}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "sfu-poitras-duration-convexity:9:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A straight (option-free) bond has positive effective convexity. Compared with the duration-only estimate, how does the convexity term ½ × C × (Δy)² change the estimated price change?",
+        "options": [
+          {
+            "text": "It adds a positive amount whether the yield rises or falls",
+            "value": null,
+            "explanation": "Correct. The yield change is squared, so the term is positive whenever convexity is positive. It enlarges a price gain and shrinks a price loss."
+          },
+          {
+            "text": "It adds when yields fall and subtracts when yields rise",
+            "value": null,
+            "explanation": "This gives the convexity term the direction of the yield move, as duration does. Squaring removes the sign of Δy."
+          },
+          {
+            "text": "It applies only when yields rise, since it measures downside risk",
+            "value": null,
+            "explanation": "Convexity works in both directions. Positive convexity improves the outcome for rising and falling yields alike."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:11:7",
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond has effective duration of 6.0 and effective convexity of 50. The benchmark curve rises by 25 basis points. In the formula −D × Δy + ½ × C × (Δy)², which value of Δy should be used?",
+        "options": [
+          {
+            "text": "0.25, the shift in percentage points",
+            "value": null,
+            "explanation": "This uses percent units. Squaring 0.25 inflates the convexity term and the duration term by a factor of 100."
+          },
+          {
+            "text": "25, the shift in basis points",
+            "value": null,
+            "explanation": "This uses raw basis points. The result would be absurd, such as a price change of -150 for the duration term alone."
+          },
+          {
+            "text": "0.0025, the shift written as a decimal",
+            "value": null,
+            "explanation": "Correct. 25 bp = 0.25% = 0.0025. The duration and convexity quoted this way assume the shift is in decimal form."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For an option-free bond with positive convexity, the benchmark yield rises by 200 basis points. Compared with the actual price change, the duration-only estimate is most likely to:",
+        "options": [
+          {
+            "text": "understate the price decline, because convexity makes losses larger",
+            "value": null,
+            "explanation": "This reverses the effect. Positive convexity makes the actual loss smaller than a straight-line estimate, not larger."
+          },
+          {
+            "text": "overstate the price decline, because the price-yield curve bends above its tangent line",
+            "value": null,
+            "explanation": "Correct. The actual price lies above the tangent line, so the real loss is smaller than the duration-only figure. The source example showed an estimated fall of about 17.2% versus an actual fall of about 15.1%."
+          },
+          {
+            "text": "be exact, because effective duration already includes second-order effects",
+            "value": null,
+            "explanation": "Duration is only a first-order (linear) approximation. The second-order effect is the job of the convexity term."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:9:3",
+          "fed-feds-2006-28:11:7",
+          "mpra-key-rate-duration:6:4"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the formula for the estimated percentage price change from effective duration and convexity?",
+        "back": "%ΔP ≈ −D × Δy + ½ × C × (Δy)², with Δy as a decimal (up is positive).",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      {
+        "front": "Why is the convexity adjustment positive for a bond with positive convexity, whether yields rise or fall?",
+        "back": "Because Δy is squared, so ½ × C × (Δy)² is positive. It enlarges gains and shrinks losses relative to the duration-only estimate.",
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:11:7",
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      {
+        "front": "What does negative convexity do to the duration-plus-convexity estimate?",
+        "back": "The convexity term is negative, so it reduces the estimate for both yield rises and yield falls. It is typical of callable bonds and some mortgage securities.",
+        "cited_chunk_ids": [
+          "slcg-cmo-primer:16:15"
+        ]
+      },
+      {
+        "front": "Why is a duration-only estimate less accurate for large yield changes?",
+        "back": "Duration is a linear (first-order) approximation of a curved price-yield relationship, so the error grows with the size of the yield change. Convexity corrects part of that error.",
+        "cited_chunk_ids": [
+          "mpra-key-rate-duration:6:4",
+          "fed-feds-2006-28:11:7"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:14:32.358Z",
+      "purpose": "generate",
+      "losId": "fixed-income-13-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9850,
+      "outputTokens": 9874,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1195962,
+      "stopReason": "end_turn"
+    }
+  ]
+}

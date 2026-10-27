@@ -1,0 +1,905 @@
+{
+  "losId": "fixed-income-02-los1",
+  "losText": "describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors",
+  "moduleId": "fixed-income-02",
+  "moduleTitle": "Fixed-Income Cash Flows and Types",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:38:50.915Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p1:37:58",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 37–38",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=37",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "occ-leveraged-lending:63:54",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 63–64",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=63",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:17:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 17–20",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:3:3",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 3",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=3",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Convertible Debt",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-residential-real-estate-lending:68:102",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "pp. 68–69",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=68",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:38:59",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 38",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=38",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-leveraged-lending:62:53",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 62–63",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=62",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:130:151",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 130–131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=130",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "imf-wb-debt-mgmt-2002:137:173",
+      "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
+      "locator": "p. 137",
+      "url": "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf#page=137",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-residential-real-estate-lending:126:180",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "p. 126",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=126",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "fed-trading-4000-p1:50:79",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 50",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Bonds Pay: Cash Flow Patterns and Embedded Options",
+      "summary": "Bonds can return your money in very different ways, such as one lump sum, level instalments, or accruing interest. Many bonds also carry built-in options that favor either the issuer or the investor. Knowing who holds each option tells you how the bond's yield and risk will differ from a plain bond.",
+      "sections": [
+        {
+          "heading": "Two streams of cash: interest and principal",
+          "body_markdown": "Every bond promises two things: **interest** (the coupon, a periodic payment based on a stated rate) and **principal** (the amount borrowed, repaid over time or at the end). The way these two are scheduled is the bond's **cash flow structure**.\n\n- **Bullet bond**: only interest is paid until maturity, then all principal comes back in one lump sum.\n- **Fully amortizing loan**: each payment is level and contains both interest and some principal, so the balance reaches zero at maturity. Think of a car loan or a standard mortgage.\n- **Partially amortizing loan**: level payments pay down only part of the balance. The remainder is due at maturity as a **balloon payment**.\n- **Sinking fund**: the issuer retires part of the issue on a schedule before maturity. This lowers default risk because the debt shrinks gradually.\n\nEach amortizing payment is part interest on the remaining balance and part principal. Early payments are mostly interest, and later ones are mostly principal."
+        },
+        {
+          "heading": "Different ways the coupon itself can behave",
+          "body_markdown": "Coupons need not be a fixed cash amount.\n\n- **Zero-coupon bond**: no periodic interest. You buy at a discount and receive face value at maturity. The whole return is the price rise.\n- **Step-up coupon**: the coupon rises on pre-set dates.\n- **Floating-rate note (FRN)**: the coupon is a reference rate plus a fixed spread, and it resets periodically. It can have a **cap** (maximum coupon) and a **floor** (minimum coupon).\n- **Deferred coupon**: little or no interest early on, with higher coupons later.\n- **Payment-in-kind (PIK)**: interest is paid by adding to the principal instead of in cash. The balance compounds.\n- **Inflation-linked (capital-indexed)**: the principal is adjusted for inflation, and the coupon rate applies to the adjusted principal.\n\nA cap helps the issuer, because it limits the cost when rates surge. A floor helps the investor, because it guarantees a minimum income when rates collapse."
+        },
+        {
+          "heading": "Embedded options: who owns the right?",
+          "body_markdown": "A **contingency provision** is an option built into the bond. The key question is always *who holds the right to act*.\n\n**Benefit the issuer**\n- **Call provision**: the issuer may redeem the bond early, typically at a premium to par that declines over time. The issuer is most likely to call when market rates fall below the coupon, so it can refinance more cheaply. The investor faces reinvestment risk and gets a **higher yield** as compensation.\n- **Make-whole call**: the call price is the present value of the remaining payments at a low benchmark rate plus a small spread. This price rises when rates fall, so calling to refinance saves the issuer little. It protects the investor more than a fixed-price call.\n- **Contingent convertible (CoCo)**: a bond that converts into equity or is written down when a trigger event hits, such as a capital shortfall at a bank. This helps the issuer absorb losses.\n\n**Benefit the investor**\n- **Put provision**: the investor may sell the bond back to the issuer at a set price, usually when rates have risen. The coupon is **lower** because the investor owns this protection.\n- **Convertible bond**: the investor may swap the bond for a fixed number of shares (the **conversion ratio**). The **conversion price** is face value ÷ conversion ratio. Because the holder owns a valuable option, the coupon and yield are below those of a similar straight bond.\n- **Warrants**: attached rights to buy shares at a set price. They are often detachable and can be traded separately.\n\n**Exercise style**: *American* means exercisable at any time after the first date, *European* means only on one date, and *Bermudan* means only on specified dates."
+        },
+        {
+          "heading": "Putting it together",
+          "body_markdown": "A simple rule: **the party that owns the option pays for it through the bond's yield.**\n\n| Feature | Who holds it | Effect on coupon/yield vs. straight bond | Triggered when |\n|---|---|---|---|\n| Call | Issuer | Higher | Rates fall |\n| Put | Investor | Lower | Rates rise |\n| Conversion | Investor | Lower | Share price rises |\n| FRN cap | Issuer | Higher | Reference rate rises sharply |\n| FRN floor | Investor | Lower | Reference rate falls sharply |\n\nSo when you read a bond description, ask two questions: how and when is principal repaid, and who can change that timetable, and under what condition?"
+        }
+      ],
+      "worked_example": {
+        "problem": "A company borrows $250,000 on a fully amortizing loan with 4 equal end-of-year payments. The interest rate is 6% per year. Find the annual payment, and split the first payment into interest and principal.",
+        "steps": [
+          "Identify the structure: fully amortizing, so a level payment pays off the whole balance, which means the future value (balloon) is 0.",
+          "Set the BA II Plus to 1 payment per year and END mode (2nd, P/Y: 1; 2nd, BGN/END: END).",
+          "Enter: 4 [N], 6 [I/Y], 250000 [PV], 0 [FV].",
+          "Press [CPT] [PMT]. The display shows -72,147.87. The negative sign only means cash paid out, so the payment is $72,147.87.",
+          "Year 1 interest = 250,000 × 0.06 = $15,000.",
+          "Year 1 principal repaid = 72,147.87 − 15,000 = $57,147.87.",
+          "Balance after year 1 = 250,000 − 57,147.87 = $192,852.13. Later interest is calculated on this smaller balance, so more of each payment goes to principal."
+        ],
+        "answer": "The level payment is $72,147.87. In year 1, $15,000 is interest and $57,147.87 is principal.",
+        "answer_value": 72147.87,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.06,\"n\":4,\"pv\":250000}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Level payment on a fully amortizing loan",
+          "latex": "PMT=\\frac{PV\\cdot r}{1-(1+r)^{-n}}",
+          "where": "PMT = level payment per period; PV = amount borrowed; r = interest rate per period; n = number of payment periods."
+        },
+        {
+          "name": "Level payment with a balloon",
+          "latex": "PMT=\\frac{PV-B(1+r)^{-n}}{\\dfrac{1-(1+r)^{-n}}{r}}",
+          "where": "PV = amount borrowed; B = balloon paid at the end of period n; r = rate per period; n = number of periods. The balloon is discounted because it is paid at the end."
+        },
+        {
+          "name": "Zero-coupon bond price",
+          "latex": "P=\\frac{F}{(1+y)^{n}}",
+          "where": "P = price today; F = face value paid at maturity; y = yield per period; n = number of periods."
+        },
+        {
+          "name": "PIK principal growth",
+          "latex": "\\text{Principal}_n=P_0(1+c)^n",
+          "where": "P_0 = original principal; c = PIK rate per period; n = number of periods of interest added to principal."
+        },
+        {
+          "name": "Conversion price",
+          "latex": "\\text{Conversion price}=\\frac{\\text{Face value}}{\\text{Conversion ratio}}",
+          "where": "Face value = bond's par amount; conversion ratio = number of shares received per bond. Conversion is attractive when the share price is above this value."
+        }
+      ],
+      "exam_traps": [
+        "Calculating an amortizing payment as principal ÷ n. This ignores interest on the outstanding balance, so the payment is too low.",
+        "Mixing up bullet and balloon: a bullet repays all principal at maturity with no amortization, whereas a balloon is the leftover after some amortization.",
+        "Assuming every option protects the investor. Calls and FRN caps favor the issuer, so the investor is compensated with higher yield. Puts, conversions and floors favor the investor and come with lower yield.",
+        "Forgetting to discount the balloon payment (or to treat it as a separate cash outflow) when solving for the level payment.",
+        "Treating a sinking fund as an investor put. It reduces credit risk, but the issuer may retire bonds at a special call price when rates are low, so the investor still faces call-like risk.",
+        "Believing a convertible's lower coupon makes it cheaper financing for the issuer. The investor is paying for a valuable option through the lower coupon."
+      ],
+      "builds_on": [
+        "Time value of money",
+        "Bond coupon and principal basics",
+        "Interest rate risk and reinvestment risk"
+      ],
+      "leads_to": [
+        "Pricing bonds with embedded options",
+        "Yield measures such as yield to call and yield to worst",
+        "Credit risk and covenants",
+        "Mortgage and asset-backed securities"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:37:58",
+        "fed-trading-4000-p1:38:59",
+        "os:principles-finance-2e:m00111:3",
+        "utah-fcs5510-bond-market:3:3",
+        "occ-leveraged-lending:62:53",
+        "occ-residential-real-estate-lending:68:102"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A borrower takes a $100,000 loan that is fully amortizing, with five equal payments made at the end of each year. The interest rate is 6% per year, compounded annually. What is the annual payment, rounded to the nearest dollar?",
+        "options": [
+          {
+            "text": "$20,000",
+            "value": 20000,
+            "explanation": "Divides principal by the number of years and ignores interest on the outstanding balance."
+          },
+          {
+            "text": "$23,740",
+            "value": 23740,
+            "explanation": "Correct: PMT = 100,000 × 0.06 / (1 − 1.06^−5) ≈ 23,739.64, which rounds to $23,740. The level payment covers interest plus principal so the balance ends at zero."
+          },
+          {
+            "text": "$26,765",
+            "value": 26765,
+            "explanation": "Grows the loan at 6% for five years (about 133,823) and divides by 5, which compounds interest on a balance that is actually shrinking."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.06,\"n\":5,\"pv\":100000}"
+        },
+        "cited_chunk_ids": [
+          "occ-residential-real-estate-lending:68:102"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company issues a 3-year payment-in-kind (PIK) note with $100 of principal. The 8% annual interest is not paid in cash. It is added to principal at the end of each year, so interest compounds annually. The full accreted amount is repaid at maturity. What is due at maturity, to two decimals?",
+        "options": [
+          {
+            "text": "$124.00",
+            "value": 124,
+            "explanation": "Adds 8% of the original principal each year, which is simple interest. It ignores interest earned on the interest added to principal."
+          },
+          {
+            "text": "$116.64",
+            "value": 116.64,
+            "explanation": "Compounds for only two years (100 × 1.08²). Interest is added at the end of each of the three years."
+          },
+          {
+            "text": "$125.97",
+            "value": 125.97,
+            "explanation": "Correct: 100 × 1.08³ = 125.9712. Each year's interest is added to principal and earns interest in later years."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.08,\"n\":3,\"pv\":-100}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Market interest rates have fallen well below the coupon rate on a bond. Which embedded feature is most likely to be exercised, and by whom?",
+        "options": [
+          {
+            "text": "The call option, exercised by the issuer to refinance at lower cost",
+            "value": null,
+            "explanation": "Correct: when market rates fall below the coupon, the issuer gains by redeeming the bond and borrowing again more cheaply. The investor is left reinvesting at lower rates."
+          },
+          {
+            "text": "The put option, exercised by the investor to reinvest at higher rates",
+            "value": null,
+            "explanation": "Reverses the rate direction. A put is valuable when rates rise, because the investor can sell back and reinvest at the higher rate."
+          },
+          {
+            "text": "The conversion option, exercised by the investor to receive shares",
+            "value": null,
+            "explanation": "Conversion depends on the issuer's share price relative to the conversion price, not on market interest rates falling."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:37:58"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 5-year zero-coupon bond has a face value of $100. Assume annual compounding and a yield to maturity of 6% per year. What is the bond's price today, to two decimals?",
+        "options": [
+          {
+            "text": "$70.00",
+            "value": 70,
+            "explanation": "Subtracts 6% of face value for each of five years (100 − 30). Discounting divides by a growth factor and does not subtract a flat amount."
+          },
+          {
+            "text": "$76.92",
+            "value": 76.92,
+            "explanation": "Uses simple interest, 100 / (1 + 0.06 × 5), instead of compounding the discount factor."
+          },
+          {
+            "text": "$74.73",
+            "value": 74.73,
+            "explanation": "Correct: 100 / 1.06⁵ = 74.7258. A zero-coupon bond has a single cash flow at maturity, discounted at the compounded yield."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":5,\"freq\":1},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:3:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A floating-rate note pays a reference rate plus a spread and includes both a cap and a floor on the coupon. The reference rate then rises far above the level that triggers the cap. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "The investor benefits, because the coupon keeps rising with the reference rate",
+            "value": null,
+            "explanation": "Ignores the cap. Once the cap binds, the coupon stops increasing even though market rates keep rising."
+          },
+          {
+            "text": "The issuer benefits, because the coupon it pays is limited at the cap",
+            "value": null,
+            "explanation": "Correct: a cap sets a maximum coupon, which protects the issuer from rising interest costs. The investor accepts this limit in exchange for a higher spread or yield."
+          },
+          {
+            "text": "Neither party is affected, because the cap changes only the principal",
+            "value": null,
+            "explanation": "Confuses coupon limits with principal. Caps and floors restrict the interest rate, not the principal repaid."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:37:58"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A $200,000 loan is partially amortizing. The borrower makes 10 equal end-of-year payments at 5% per year, compounded annually. A $100,000 balloon payment is also due at the end of year 10, in addition to the 10th level payment. What is the level annual payment, rounded to the nearest dollar?",
+        "options": [
+          {
+            "text": "$17,950",
+            "value": 17950,
+            "explanation": "Correct: PMT = (200,000 − 100,000 × 1.05⁻¹⁰) / 7.7217 ≈ 17,950.46. The balloon is discounted because it is paid at the end, so the level payments need to cover the present value of 200,000 − 61,391 = 138,609."
+          },
+          {
+            "text": "$25,901",
+            "value": 25901,
+            "explanation": "Ignores the balloon and fully amortizes the $200,000, which gives a larger payment than needed."
+          },
+          {
+            "text": "$12,950",
+            "value": 12950,
+            "explanation": "Subtracts the balloon without discounting it (using 100,000 as the amount to amortize). This leaves out the interest of 5,000 per year the borrower owes on the unpaid balloon amount."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.05,\"n\":10,\"pv\":200000,\"fv\":-100000}"
+        },
+        "cited_chunk_ids": [
+          "occ-residential-real-estate-lending:68:102"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "critic_review": {
+          "pass": true,
+          "issues": [
+            "flag overturned on second review: Recomputed: 1.05^-10 = 0.613913, so the balloon PV is 61,391 and the amount to amortize is 138,609. The annuity factor is 7.72173, giving PMT ≈ 17,950. Distractor B is 200,000/7.7217 ≈ 25,901 and C is 100,000/7.7217 ≈ 12,950. The key and explanations are correct, and the flag itself concedes the item is correct."
+          ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A convertible bond has a $1,000 face value and can be exchanged for 25 shares of the issuer's common stock at maturity. At maturity the stock trades at $45 per share. Which statement is correct?",
+        "options": [
+          {
+            "text": "The conversion price is $40, and the holder should keep the bond and collect $1,000",
+            "value": null,
+            "explanation": "Reverses the decision rule. The holder converts when the share price is above the conversion price, and $45 is above $40."
+          },
+          {
+            "text": "The conversion price is $40, and the holder should convert into shares worth $1,125",
+            "value": null,
+            "explanation": "Correct: conversion price = 1,000 / 25 = $40. Shares are worth 25 × 45 = $1,125, which is more than the $1,000 cash, so converting is better."
+          },
+          {
+            "text": "The conversion price is $25, and the holder should convert into shares worth $1,125",
+            "value": null,
+            "explanation": "Mistakes the conversion ratio (25 shares) for the conversion price. Price is face value divided by ratio."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement best describes a sinking fund provision from a bondholder's viewpoint?",
+        "options": [
+          {
+            "text": "It lets the holder sell the bond back to the issuer at par at any time",
+            "value": null,
+            "explanation": "Describes a put option, which belongs to the investor. A sinking fund obligates the issuer to retire debt on a schedule."
+          },
+          {
+            "text": "It lets the issuer exchange its unpaid debt for shares if cash runs short",
+            "value": null,
+            "explanation": "Describes a debt/equity swap or conversion feature, not a sinking fund."
+          },
+          {
+            "text": "Orderly retirement lowers default risk, but bonds can be retired at a set price when rates are low",
+            "value": null,
+            "explanation": "Correct: scheduled retirement reduces the amount outstanding at maturity and so lowers credit risk. However, if retirement happens at a special call price (possibly par) while rates are low, the investor loses the above-par value and has to reinvest at lower rates."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:37:58",
+          "fed-trading-4000-p1:38:59"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Which party benefits from a call provision, a put provision, and a conversion option, and how does each affect yield versus a straight bond?",
+        "back": "Call: issuer benefits, so yield is higher. Put: investor benefits, so yield is lower. Conversion: investor benefits, so yield is lower. The option holder pays for the option through the yield.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:37:58",
+          "fed-trading-4000-p1:38:59"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do bullet, fully amortizing, and partially amortizing (balloon) structures differ in principal repayment?",
+        "back": "Bullet: all principal at maturity, interest only before. Fully amortizing: level payments retire the whole balance by maturity. Partially amortizing: level payments retire part, and a balloon payment covers the rest at maturity.",
+        "cited_chunk_ids": [
+          "occ-residential-real-estate-lending:68:102"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is a convertible bond's conversion price calculated, and when should the holder convert?",
+        "back": "Conversion price = face value ÷ conversion ratio. Convert when the share price is above the conversion price.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What do a cap and a floor on a floating-rate note do, and who does each help?",
+        "back": "A cap sets a maximum coupon and helps the issuer. A floor sets a minimum coupon and helps the investor.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:37:58"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What is a make-whole call, and how does it differ from a fixed-price call?",
+        "back": "The call price is the present value of remaining payments at a benchmark rate plus a small spread. It rises as rates fall, so calling to refinance saves the issuer little. A fixed-price call has a set price (often a premium to par) that stays the same, and so is more valuable to the issuer.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:38:34.376Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1047,
+      "outputTokens": 706,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009271,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:38:46.234Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13739,
+      "outputTokens": 1708,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044727199999999995,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:38:50.915Z",
+      "purpose": "confirm",
+      "losId": "fixed-income-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 553,
+      "outputTokens": 432,
+      "cacheWriteTokens": 540,
+      "cacheReadTokens": 0,
+      "costUsd": 0.006776,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.060774199999999994
+}

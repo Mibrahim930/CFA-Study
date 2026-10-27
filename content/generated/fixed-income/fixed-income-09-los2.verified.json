@@ -1,0 +1,827 @@
+{
+  "losId": "fixed-income-09-los2",
+  "losText": "define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates",
+  "moduleId": "fixed-income-09",
+  "moduleTitle": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:44:22.582Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-fixedincome3:19:7",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 19–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-rec02:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec04:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 13–20",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:11:10",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 11–12",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=11",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:122:140",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 122",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=122",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome3:20:8",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 20–22",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=20",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:8:14",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 8",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "mit-ocw-15401-rec02:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 6–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:10:9",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 10–11",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=10",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:122:141",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 122–123",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=122",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Par Rates and Forward Rates: Building Them From Spot Rates",
+      "summary": "Spot rates describe the cost of borrowing from today to one future date. From them you can derive forward rates (rates for a loan starting later) and par rates (the coupon that makes a bond sell at face value). You can also work backwards from forward rates to spot rates and bond prices, and exam questions ask for all of these.",
+      "sections": [
+        {
+          "heading": "Three kinds of rate, one idea",
+          "body_markdown": "A **spot rate** $S_T$ is today's annual rate for a single payment received exactly $T$ years from now. Think of it as the price tag on money delivered at one date. All the other rates in this lesson are built from the spot rates.\n\nA **forward rate** is a rate you agree on **today** for a loan or investment that starts at a **future** date. Analogy: you book a hotel room today for a stay next year at a price fixed now. A **par rate** is the coupon rate that would make a bond of a given maturity sell for exactly its face value.\n\nNotation used here: $f_{j,k}$ is the forward rate for a loan that starts $j$ years from now and lasts $k$ years (annualized). So $f_{2,1}$ is the one-year rate starting in two years."
+        },
+        {
+          "heading": "Forward rates from spot rates: two roads to the same place",
+          "body_markdown": "Suppose you have money to invest for 3 years. **Road 1:** buy a 3-year zero-coupon bond at the 3-year spot rate. **Road 2:** buy a 2-year zero-coupon bond, and lock in today a one-year investment starting in two years. If both roads are to give the same ending wealth (no free lunch), then\n\n$$(1+S_3)^3=(1+S_2)^2\\,(1+f_{2,1})$$\n\nSolve for the forward rate and you get the 'extra' growth needed in year 3. In general, for a forward starting at $j$ lasting $k$ years:\n\n$$(1+S_{j+k})^{j+k}=(1+S_j)^j\\,(1+f_{j,k})^k$$\n\nTwo exam-relevant ideas:\n- The forward rate is a **break-even rate**. If the actual future spot rate turns out equal to the forward rate, both roads earn the same. An investor who expects rates to rise by less than the forwards imply would expect bonds to do better than the break-even.\n- Forward rates are **not forecasts** that must come true. Actual future spot rates are usually different from today's forwards.\n\nWhen the spot curve slopes upward, forward rates lie above the spot rates, because each spot rate is a kind of geometric average of the forwards before it."
+        },
+        {
+          "heading": "Going backwards: spot rates and bond prices from forward rates",
+          "body_markdown": "Chain the one-year forward rates together and you recover a spot rate:\n\n$$(1+S_T)^T=(1+f_{0,1})(1+f_{1,1})\\cdots(1+f_{T-1,1})$$\n\nNote $f_{0,1}=S_1$. So $S_T$ is the **geometric mean** of the one-year forwards (take the product of the $(1+f)$ terms, then the $T$-th root, then subtract 1). It is not the simple average.\n\nTo **price a bond with forward rates**, discount each cash flow by the *whole chain* of forwards up to its date. The discount factor for the cash flow at time $t$ is\n\n$$\\frac{1}{(1+f_{0,1})(1+f_{1,1})\\cdots(1+f_{t-1,1})}$$\n\nThis is exactly the same as discounting at the spot rate $S_t$ for $t$ years, so the price is identical either way. The common error is to discount a year-3 cash flow by only the year-3 forward rate."
+        },
+        {
+          "heading": "Par rates",
+          "body_markdown": "A par bond sells at face value, so its coupon rate equals the rate the market demands. Using spot rates, let the discount factor for year $t$ be $Z_t=\\frac{1}{(1+S_t)^t}$. For an $N$-year annual-pay bond with face value 1 and coupon rate $c$ (the par rate):\n\n$$1=c\\sum_{t=1}^{N}Z_t+Z_N \\quad\\Rightarrow\\quad c=\\frac{1-Z_N}{\\sum_{t=1}^{N}Z_t}$$\n\nIn words: the face value minus the present value of the face value is the amount the coupons must be worth, divided by what one unit of coupon is worth today. If the spot curve is flat, the par rate equals that flat rate. If the spot curve slopes upward, the par rate is a little below the spot rate of the same maturity, because the early (lower-rate) coupons pull the average down."
+        }
+      ],
+      "worked_example": {
+        "problem": "Annual-compounding spot rates are 2-year: 4.00% and 3-year: 5.00%. Find the one-year forward rate two years from now, $f_{2,1}$. Round to two decimals of a percent.",
+        "steps": [
+          "Write the no-arbitrage link: $(1+S_3)^3=(1+S_2)^2(1+f_{2,1})$.",
+          "Rearrange: $1+f_{2,1}=\\dfrac{(1.05)^3}{(1.04)^2}$.",
+          "Compute the numerator: $1.05^3=1.157625$. Compute the denominator: $1.04^2=1.0816$.",
+          "Divide: $1.157625/1.0816=1.070289$.",
+          "Subtract 1: $f_{2,1}=0.070289$, about 7.03%.",
+          "BA II Plus keystrokes: 1.05 [y^x] 3 [÷] 1.04 [y^x] 2 [=] shows 1.0703; then [−] 1 [=] shows 0.0703. (The year-3 forward is far above both spot rates because the curve slopes upward.)"
+        ],
+        "answer": "f(2,1) ≈ 7.03%",
+        "answer_value": 0.0703,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.04,\"a\":2,\"spotB\":0.05,\"b\":3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Forward rate from spot rates",
+          "latex": "f_{j,k}=\\left[\\frac{(1+S_{j+k})^{j+k}}{(1+S_j)^{j}}\\right]^{1/k}-1",
+          "where": "$f_{j,k}$ = annualized forward rate for a loan starting in $j$ years and lasting $k$ years; $S_{j}$ and $S_{j+k}$ = annual spot rates for maturities $j$ and $j+k$ years."
+        },
+        {
+          "name": "Spot rate from one-year forward rates",
+          "latex": "S_T=\\left[\\prod_{i=0}^{T-1}(1+f_{i,1})\\right]^{1/T}-1",
+          "where": "$S_T$ = $T$-year spot rate; $f_{i,1}$ = one-year forward rate starting in $i$ years (with $f_{0,1}=S_1$); $T$ = number of years."
+        },
+        {
+          "name": "Bond price using forward rates",
+          "latex": "P=\\sum_{t=1}^{N}\\frac{CF_t}{\\prod_{i=0}^{t-1}(1+f_{i,1})}",
+          "where": "$P$ = bond price; $CF_t$ = cash flow at year $t$ (coupon, plus face value at $N$); $f_{i,1}$ = one-year forward rate starting in $i$ years; $N$ = years to maturity."
+        },
+        {
+          "name": "Par rate from spot rates",
+          "latex": "c_N=\\frac{1-Z_N}{\\sum_{t=1}^{N}Z_t},\\quad Z_t=\\frac{1}{(1+S_t)^t}",
+          "where": "$c_N$ = par rate (annual coupon rate) for an $N$-year bond; $Z_t$ = discount factor for year $t$; $S_t$ = $t$-year spot rate."
+        }
+      ],
+      "exam_traps": [
+        "Averaging instead of compounding: the forward rate is NOT $(S_{j+k}(j+k)-S_j\\,j)/k$ and the spot rate is NOT the simple mean of forwards. Those shortcuts land close to the right answer, which is why they tempt, but the answer choices are built to punish them.",
+        "Using the wrong exponents: the numerator uses $(j+k)$ and the denominator uses $j$, then you take the $1/k$ root. Forgetting the final root gives a rate over the whole forward period, not an annualized rate.",
+        "Discounting a later cash flow by only one forward rate. A year-2 cash flow needs $(1+f_{0,1})(1+f_{1,1})$, not just $(1+f_{1,1})$.",
+        "Treating the par rate as the spot rate or as a yield to maturity of a zero-coupon bond. The par rate is a coupon rate, found from a whole set of discount factors.",
+        "Reading forward rates as forecasts that must be realized. They are break-even rates implied by today's spot curve."
+      ],
+      "builds_on": [
+        "Spot rates and the spot curve",
+        "Present value and discounting",
+        "Zero-coupon bond pricing",
+        "Geometric versus arithmetic mean"
+      ],
+      "leads_to": [
+        "Comparing spot, par and forward curves",
+        "Bootstrapping spot rates from par rates",
+        "Yield curve strategies and expected-return breakevens",
+        "Pricing swaps and forwards"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-fixedincome3:19:7",
+        "mit-ocw-15433-fixedincome3:20:8",
+        "mit-ocw-15401-rec02:1:0",
+        "oxford-winkel-duration-immunisation:11:10",
+        "oxford-winkel-duration-immunisation:10:9",
+        "fed-trading-4000-p2:34:60"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the forward rate $f_{2,1}$ derived from today's spot curve?",
+        "options": [
+          {
+            "text": "The yield to maturity today on a three-year coupon bond.",
+            "value": null,
+            "explanation": "Confuses a forward rate with a yield to maturity. A YTM is a single rate for a bond's cash flows starting today, not a rate for a future period."
+          },
+          {
+            "text": "The rate fixed today for a one-year loan beginning two years from now.",
+            "value": null,
+            "explanation": "Correct. $f_{2,1}$ starts in 2 years and lasts 1 year. It is the rate that makes a 3-year zero equal to a 2-year zero rolled into the forward loan."
+          },
+          {
+            "text": "A guaranteed prediction of the one-year spot rate two years from now.",
+            "value": null,
+            "explanation": "Treats the forward rate as a forecast. Future spot rates usually differ from today's forwards; the forward is only a break-even rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7",
+          "mit-ocw-15401-rec02:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Annual-compounding spot rates are 3.00% for 3 years and 5.00% for 4 years. What is the one-year forward rate three years from now, $f_{3,1}$? Round to two decimals of a percent.",
+        "options": [
+          {
+            "text": "11.24%",
+            "value": 0.1124,
+            "explanation": "Correct: $(1.05^4/1.03^3)-1=1.21551/1.09273-1\\approx 11.24\\%$."
+          },
+          {
+            "text": "11.00%",
+            "value": 0.11,
+            "explanation": "Subtracts total spot returns arithmetically: $4(5\\%)-3(3\\%)=11\\%$. This ignores compounding."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Reports the longer spot rate instead of the forward rate. A forward rate for year 4 alone must be higher than the 4-year spot on an upward-sloping curve."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.03,\"a\":3,\"spotB\":0.05,\"b\":4}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Annual-compounding spot rates are 1-year: 3.00%, 2-year: 4.00%, 3-year: 5.00%. Using these spot rates, what is the 3-year par rate (annual coupons)? Round to two decimals of a percent.",
+        "options": [
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Equates the par rate with the 3-year spot rate. They are equal only if the spot curve is flat."
+          },
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "Takes the simple average of the three spot rates instead of solving for the coupon that prices the bond at par."
+          },
+          {
+            "text": "4.93%",
+            "value": 0.0493,
+            "explanation": "Correct: discount factors are 0.97087, 0.92456 and 0.86384. Par rate = $(1-0.86384)/2.75927\\approx 4.93\\%$, a bit below the 3-year spot rate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "parRate",
+          "args_json": "{\"spots\":[0.03,0.04,0.05]}"
+        },
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Today's one-year forward rates, with annual compounding, are $f_{0,1}=2.00\\%$, $f_{1,1}=5.00\\%$ and $f_{2,1}=11.00\\%$. What is the three-year spot rate? Round to two decimals of a percent.",
+        "options": [
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "Takes the simple arithmetic average of the three forward rates. A spot rate is the geometric average, which is slightly lower here."
+          },
+          {
+            "text": "5.93%",
+            "value": 0.0593,
+            "explanation": "Correct: $(1.02)(1.05)(1.11)=1.18881$; the cube root is 1.05934, so $S_3\\approx 5.93\\%$."
+          },
+          {
+            "text": "11.00%",
+            "value": 0.11,
+            "explanation": "Reports only the last forward rate, as if the spot rate for 3 years equalled the latest one-year forward."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "geometricMeanReturn",
+          "args_json": "{\"returns\":[0.02,0.05,0.11]}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:20:8"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Today's one-year forward rates are $f_{0,1}=3.00\\%$ and $f_{1,1}=5.00\\%$. A two-year bond has face value 100 and pays a 6% annual coupon (6 at the end of each year, plus the face value at the end of year 2). Using forward rates for discounting, what is its price, rounded to two decimals?",
+        "options": [
+          {
+            "text": "103.84",
+            "value": null,
+            "explanation": "Correct: $6/1.03+106/(1.03\\times1.05)=5.83+98.01=103.84$. The year-2 cash flow is discounted through both forward rates."
+          },
+          {
+            "text": "101.97",
+            "value": null,
+            "explanation": "Discounts the year-2 cash flow at 5% twice ($1.05^2$), skipping the first forward rate of 3%."
+          },
+          {
+            "text": "106.78",
+            "value": null,
+            "explanation": "Discounts the year-2 cash flow with only the second forward rate ($106/1.05$), without chaining the first year's forward."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:34:60",
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Annual-compounding spot rates are 2.00% for 2 years and 5.00% for 5 years. What is the annualized three-year forward rate starting two years from now, $f_{2,3}$? Round to two decimals of a percent.",
+        "options": [
+          {
+            "text": "7.00%",
+            "value": 0.07,
+            "explanation": "Uses the arithmetic shortcut $(5\\times5\\%-2\\times2\\%)/3$, ignoring compounding."
+          },
+          {
+            "text": "22.67%",
+            "value": 0.2267,
+            "explanation": "Computes $1.05^5/1.02^2-1$ but forgets to take the $1/3$ root, so the result covers all three years rather than being annualized."
+          },
+          {
+            "text": "7.05%",
+            "value": 0.0705,
+            "explanation": "Correct: $(1.05^5/1.02^2)^{1/3}-1=(1.22672)^{1/3}-1\\approx 7.05\\%$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.02,\"a\":2,\"spotB\":0.05,\"b\":5}"
+        },
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best matches an N-year par rate derived from the spot curve?",
+        "options": [
+          {
+            "text": "The annualized rate on an N-year zero-coupon bond bought today.",
+            "value": null,
+            "explanation": "This describes the N-year spot rate, not the par rate."
+          },
+          {
+            "text": "The coupon rate that makes an N-year bond's price equal its face value.",
+            "value": null,
+            "explanation": "Correct. When the coupon rate equals the par rate, the present value of the coupons and face value, discounted at spot rates, equals par."
+          },
+          {
+            "text": "The rate for an N-year loan agreed today but starting in the future.",
+            "value": null,
+            "explanation": "This describes a forward rate, which concerns a future starting date, not a par bond."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a forward rate, and what does $f_{j,k}$ mean?",
+        "back": "A rate agreed today for a loan starting in the future. $f_{j,k}$ is the annualized rate for a $k$-year loan beginning $j$ years from now.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7",
+          "mit-ocw-15401-rec02:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you compute $f_{j,k}$ from spot rates?",
+        "back": "$f_{j,k}=\\left[\\frac{(1+S_{j+k})^{j+k}}{(1+S_j)^j}\\right]^{1/k}-1$",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7",
+          "oxford-winkel-duration-immunisation:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you get a T-year spot rate from one-year forward rates?",
+        "back": "Take the geometric mean: $S_T=\\left[(1+f_{0,1})(1+f_{1,1})\\cdots(1+f_{T-1,1})\\right]^{1/T}-1$.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:20:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is an N-year par rate and how is it found from spot rates?",
+        "back": "The coupon rate at which an N-year bond prices at par: $c=(1-Z_N)/\\sum Z_t$, where $Z_t=1/(1+S_t)^t$.",
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "When pricing a bond with forward rates, how is a year-3 cash flow discounted?",
+        "back": "By the full chain: divide by $(1+f_{0,1})(1+f_{1,1})(1+f_{2,1})$, which equals $(1+S_3)^3$.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:44:12.782Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 853,
+      "outputTokens": 1324,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.015063,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:44:22.581Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 16012,
+      "outputTokens": 1370,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.045893199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.060956199999999995
+}

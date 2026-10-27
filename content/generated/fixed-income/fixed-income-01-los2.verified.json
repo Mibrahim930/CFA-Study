@@ -1,0 +1,821 @@
+{
+  "losId": "fixed-income-01-los2",
+  "losText": "describe the contents of a bond indenture and contrast affirmative and negative covenants",
+  "moduleId": "fixed-income-01",
+  "moduleTitle": "Fixed-Income Instrument Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:38:29.150Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-leveraged-lending:62:53",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 62–63",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=62",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "occ-asset-based-lending:25:36",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 25–26",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=25",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "utah-fcs5510-bond-market:1:0",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 1",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=1",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-accts-rec-inventory-financing:28:30",
+      "title": "Comptroller's Handbook: Accounts Receivable and Inventory Financing (factoring) (OCC)",
+      "locator": "pp. 28–29",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/accts-rec-inventory-financing/pub-ch-accts-rec-inventory-financing.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-commercial-real-estate-lending:26:35",
+      "title": "Comptroller's Handbook: Commercial Real Estate Lending (OCC)",
+      "locator": "p. 26",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/commercial-real-estate-lending/pub-ch-commercial-real-estate.pdf#page=26",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-leveraged-lending:65:56",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "p. 65",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=65",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-based-lending:76:99",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 76–77",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=76",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:36:55",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 36",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=36",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-leveraged-lending:66:58",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 66–67",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "usc-15-trust-indenture-act:16:45",
+      "title": "15 U.S.C. ch. 2A, subch. III: Trust Indentures (Trust Indenture Act of 1939; indenture trustee duties) (U.S. GPO / govinfo, U.S. Code 2022)",
+      "locator": "p. 16",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title15/pdf/USCODE-2022-title15-chap2A-subchapIII.pdf#page=16",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:176:155",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 176",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=176",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-commercial-real-estate-lending:45:65",
+      "title": "Comptroller's Handbook: Commercial Real Estate Lending (OCC)",
+      "locator": "pp. 45–46",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/commercial-real-estate-lending/pub-ch-commercial-real-estate.pdf#page=45",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Bond Indentures and Covenants: The Rulebook Behind a Bond",
+      "summary": "A bond indenture is the legal contract that sets out what the issuer owes and what it may or may not do while the bonds are outstanding. Covenants are the behavioural rules inside it, and they are a main way lenders protect themselves.",
+      "sections": [
+        {
+          "heading": "Why a bond needs a rulebook",
+          "body_markdown": "When you lend a friend money you may rely on trust. A bond is different: hundreds of strangers lend to one company, and none of them can sit across the table to negotiate or check up on it. So the terms are written into one **bond indenture** (also called a trust deed): the legal contract between the issuer (the borrower) and the bondholders (the lenders). Think of it as the lease for a loan. Everyone signs up to the same terms. Failing to meet them puts the issuer in **default**, which means it has broken the contract and lenders gain remedies."
+        },
+        {
+          "heading": "What is inside an indenture",
+          "body_markdown": "The indenture covers, broadly:\n- **Basic terms**: who the issuer is (the legal obligor), the principal amount (the face value owed), the coupon rate and payment dates, the maturity date, and the currency.\n- **Source of repayment**: where the cash will come from, such as the issuer's general cash flows, tax revenue or project revenue.\n- **Collateral and credit enhancements**: any assets pledged to bondholders if the issuer fails to pay, plus other support such as guarantees. Secured bonds usually carry a lower yield than comparable unsecured ones because bondholders have more protection.\n- **Covenants**: the promises and restrictions described below.\n- **Events of default and remedies**: what counts as a breach and what bondholders can do about it.\n- **The trustee**: an independent party, usually a commercial bank, appointed to represent bondholders and see that the indenture is upheld.\n\nOther features, such as call or conversion provisions, can also be spelled out there."
+        },
+        {
+          "heading": "Affirmative covenants: the 'you must' list",
+          "body_markdown": "**Covenants** are clauses that bind the issuer's behaviour. **Affirmative (positive) covenants** require the issuer to *do* certain things. They are usually routine and cost little. Typical examples:\n- pay interest and principal on time;\n- keep pledged assets insured and in good condition;\n- comply with laws and regulations and pay taxes;\n- deliver financial statements and other information to the trustee or bondholders.\n\nThe last item matters: information duties cut the cost of lenders monitoring the borrower."
+        },
+        {
+          "heading": "Negative covenants: the 'you must not' list",
+          "body_markdown": "**Negative covenants** restrict actions the issuer might otherwise take that would hurt bondholders. These are the ones that really limit management. Typical examples:\n- limits on taking on additional debt, since more debt means more claims on the same cash flows;\n- limits on paying dividends or buying back shares, which move cash from the company to its owners;\n- limits on selling major assets, or on merging or changing the nature of the business without creditor consent;\n- a **negative pledge**: the issuer may not pledge its assets as security to other lenders in a way that weakens bondholders' position.\n\nA related protection is a **cross-default** clause: if the issuer defaults on another obligation, it is treated as in default on this bond too.\n\nLenders may test covenants in two ways. A *maintenance* covenant is checked every reporting period, so a drop in earnings can breach it. An *incurrence* covenant is checked only when the issuer takes an action, such as borrowing more."
+        },
+        {
+          "heading": "The trade-off to remember",
+          "body_markdown": "Both kinds of covenant protect bondholders. Stronger protection lowers credit risk, so investors may accept a lower yield. The cost falls on the issuer, who loses flexibility to borrow, pay out cash or restructure. A breach is not just an embarrassment: it can be an event of default, and in many loan agreements the debt may become due immediately. Covenants that are too loose leave bondholders exposed. Covenants that are too tight can stop a healthy company from operating normally."
+        }
+      ],
+      "worked_example": {
+        "problem": "The indenture for a manufacturer's 10-year bonds contains these five clauses: (1) deliver audited annual financial statements to the trustee; (2) do not sell more than a stated share of total assets in any year without bondholder consent; (3) keep all property pledged as collateral insured and in good repair; (4) do not issue additional debt that would push debt-to-EBITDA above a stated limit; (5) pay interest and principal on the dates specified. Classify each clause as an affirmative or a negative covenant.",
+        "steps": [
+          "Use one test: does the clause make the issuer DO something (affirmative) or STOP the issuer from doing something (negative)?",
+          "Clause 1 requires the issuer to deliver statements, so it is an action it must take: affirmative.",
+          "Clause 2 prohibits large asset sales without consent: negative.",
+          "Clause 3 requires keeping collateral insured and in repair: affirmative.",
+          "Clause 4 prohibits extra borrowing beyond a limit: negative.",
+          "Clause 5 requires timely payment of interest and principal: affirmative.",
+          "No calculator is needed for this item."
+        ],
+        "answer": "Affirmative: clauses 1, 3 and 5. Negative: clauses 2 and 4.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Reading 'negative' as 'bad for bondholders'. Negative covenants are the restrictions, and they protect bondholders.",
+        "Assuming only negative covenants protect lenders. Affirmative covenants (insurance, reporting, timely payment) are protections too.",
+        "Calling the trustee a guarantor. The trustee represents bondholders and monitors compliance, but does not repay the bonds from its own funds.",
+        "Treating a covenant breach as harmless unless a payment is missed. A breach of the indenture can itself be a default.",
+        "Forgetting the issuer's side of the trade-off: covenants reduce management flexibility, so tighter covenants are not automatically better."
+      ],
+      "builds_on": [
+        "Features of a fixed-income security",
+        "Issuer, principal, coupon and maturity",
+        "Secured versus unsecured debt"
+      ],
+      "leads_to": [
+        "Credit risk and credit analysis",
+        "Events of default and creditor priority",
+        "Bond contingency provisions (call, put, conversion)"
+      ],
+      "cited_chunk_ids": [
+        "utah-fcs5510-bond-market:1:0",
+        "fed-trading-4000-p1:36:55",
+        "occ-leveraged-lending:62:53",
+        "occ-leveraged-lending:65:56",
+        "occ-leveraged-lending:66:58",
+        "flatworld-finance-banking-and-money:176:155"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes a bond indenture?",
+        "options": [
+          {
+            "text": "A summary of the issuer's financial results prepared by its auditors",
+            "value": null,
+            "explanation": "Confuses the indenture with financial statements. Audited statements report performance; they do not set out the contractual terms of the bond."
+          },
+          {
+            "text": "A legal contract setting out the issuer's obligations and bondholders' rights",
+            "value": null,
+            "explanation": "Correct. The indenture is the contract between issuer and bondholders. It covers terms such as coupon, maturity, collateral, covenants and default."
+          },
+          {
+            "text": "A pricing document issued by underwriters to set the offering yield",
+            "value": null,
+            "explanation": "Confuses the indenture with the underwriting and pricing process. Underwriters help sell the bonds but do not write the bondholders' contract."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is an affirmative covenant?",
+        "options": [
+          {
+            "text": "The issuer may not issue more debt above a stated debt-to-EBITDA ratio",
+            "value": null,
+            "explanation": "This is a restriction on borrowing, so it is a negative covenant. It tells the issuer what it cannot do."
+          },
+          {
+            "text": "The issuer may not pledge its assets as security to other lenders",
+            "value": null,
+            "explanation": "This is a negative pledge, a negative covenant. The mistake is to see it as protective and therefore 'positive'."
+          },
+          {
+            "text": "The issuer must keep pledged property insured and in good condition",
+            "value": null,
+            "explanation": "Correct. It requires the issuer to take an action (maintain and insure assets), which is the defining feature of an affirmative covenant."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:176:155",
+          "utah-fcs5510-bond-market:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which clause in a bond indenture is a negative covenant?",
+        "options": [
+          {
+            "text": "The issuer may not pay dividends above a set share of earnings",
+            "value": null,
+            "explanation": "Correct. It limits cash leaving the company for shareholders, which is a classic restriction and so a negative covenant."
+          },
+          {
+            "text": "The issuer must send annual audited statements to bondholders",
+            "value": null,
+            "explanation": "This requires an action (reporting), so it is an affirmative covenant. The mistake is to assume any clause that helps lenders monitor is 'negative'."
+          },
+          {
+            "text": "The issuer must comply with all applicable laws and regulations",
+            "value": null,
+            "explanation": "Compliance with laws is a requirement to act properly, so it is affirmative. The mistake is to treat a compliance duty as a restriction."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0",
+          "flatworld-finance-banking-and-money:176:155"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "What is the role of the trustee named in a bond indenture?",
+        "options": [
+          {
+            "text": "It guarantees the bonds and repays holders from its own capital if the issuer fails",
+            "value": null,
+            "explanation": "Confuses a trustee with a guarantor or insurer. The trustee does not take on the issuer's credit risk."
+          },
+          {
+            "text": "It acts for bondholders and is responsible for seeing that the indenture terms are upheld",
+            "value": null,
+            "explanation": "Correct. The trustee, often a commercial bank, represents bondholders collectively and monitors the issuer's compliance with the indenture."
+          },
+          {
+            "text": "It sets the coupon rate each period according to current market yields",
+            "value": null,
+            "explanation": "Confuses the trustee with a calculation agent. The coupon is set by the bond's terms, not by the trustee."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "From the issuer's point of view, what is the main drawback of tight negative covenants?",
+        "options": [
+          {
+            "text": "They transfer a share of the company's equity to bondholders",
+            "value": null,
+            "explanation": "Confuses covenants with conversion rights or equity features. Negative covenants restrict actions; they do not hand over ownership."
+          },
+          {
+            "text": "They raise the principal that must be repaid at maturity",
+            "value": null,
+            "explanation": "Mixes up covenants with the principal amount. Covenants do not change the face value owed."
+          },
+          {
+            "text": "They reduce management's freedom to borrow, pay out cash or restructure",
+            "value": null,
+            "explanation": "Correct. Restrictions on debt, dividends and asset sales protect lenders but limit flexibility. That cost is the trade-off for a lower yield."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0",
+          "flatworld-finance-banking-and-money:176:155"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An indenture states that the issuer will not grant security over its assets to other lenders that would weaken the bondholders' claim. How is this clause best classified?",
+        "options": [
+          {
+            "text": "A negative covenant, known as a negative pledge",
+            "value": null,
+            "explanation": "Correct. It prohibits an action (pledging assets to other lenders), so it is a negative covenant. Its purpose is to protect bondholders' claim on the assets."
+          },
+          {
+            "text": "An affirmative covenant, because it protects bondholders",
+            "value": null,
+            "explanation": "Mistakes the clause's purpose for its form. Affirmative or negative depends on whether the issuer must act or must refrain, not on who benefits."
+          },
+          {
+            "text": "A cross-default provision, because it involves other lenders",
+            "value": null,
+            "explanation": "Cross-default means a default on another obligation triggers default here. A negative pledge is a restriction on granting security."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:62:53"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bond indenture contains a cross-default provision. Which statement describes its effect?",
+        "options": [
+          {
+            "text": "The issuer is put in default on this bond if it defaults on another obligation",
+            "value": null,
+            "explanation": "Correct. Cross-default links the obligations, so a default elsewhere also counts as a default here. This gives bondholders extra security."
+          },
+          {
+            "text": "The issuer is in default only if it misses a payment on this specific bond",
+            "value": null,
+            "explanation": "Describes a narrow default definition and ignores the cross-default link to other obligations."
+          },
+          {
+            "text": "The trustee must repay bondholders as soon as any other lender is repaid",
+            "value": null,
+            "explanation": "Invents a trustee repayment duty. Cross-default concerns when the issuer is in default, not trustee payments."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:62:53"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which item is least likely to be specified in a bond indenture?",
+        "options": [
+          {
+            "text": "The maturity date and the principal amount owed",
+            "value": null,
+            "explanation": "These are core indenture terms, so this is not the answer. The mistake is to think the indenture covers only covenants."
+          },
+          {
+            "text": "The source of repayment and any collateral pledged",
+            "value": null,
+            "explanation": "Collateral and the source of repayment are normally described in the indenture, so this is not the answer."
+          },
+          {
+            "text": "The issuer's projected earnings for the next quarter",
+            "value": null,
+            "explanation": "Correct. Earnings forecasts are not contractual terms. The indenture sets terms and covenants, not performance projections."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0",
+          "fed-trading-4000-p1:36:55"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a bond indenture and who is named in it to look after bondholders?",
+        "back": "The legal contract between issuer and bondholders setting out the bond's terms, collateral, covenants and default provisions. A trustee, usually a commercial bank, is named to represent bondholders and see that the terms are upheld.",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the difference between affirmative and negative covenants?",
+        "back": "Affirmative covenants say what the issuer MUST do (pay on time, insure collateral, report, obey laws). Negative covenants say what it must NOT do (take on extra debt, overpay dividends, sell key assets, pledge assets to others).",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:1:0",
+          "flatworld-finance-banking-and-money:176:155"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is a negative pledge?",
+        "back": "A negative covenant under which the issuer promises not to pledge its assets as security to other lenders in a way that weakens the bondholders' claim.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does a cross-default provision do?",
+        "back": "It treats the issuer as in default on this bond if it defaults on another of its obligations, giving lenders extra security.",
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:62:53"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:38:19.558Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 831,
+      "outputTokens": 544,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007219,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:38:29.149Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12364,
+      "outputTokens": 1354,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0384372,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.045656199999999994
+}

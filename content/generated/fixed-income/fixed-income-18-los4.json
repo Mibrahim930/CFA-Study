@@ -1,0 +1,435 @@
+{
+  "losId": "fixed-income-18-los4",
+  "losText": "describe collateralized debt obligations, including their cash flows and risks",
+  "moduleId": "fixed-income-18",
+  "moduleTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:32:00.605Z",
+  "retrieved": [
+    {
+      "id": "cfa-rf-alt-credit:43:55",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 43–44",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=43",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "fed-risk-retention-2010:26:30",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 26–27",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=26",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-risk-retention-2010:51:50",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "p. 51",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=51",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:34:44",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 34–35",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=34",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-credit:44:56",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "p. 44",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=44",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Issuing New Common Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-credit:39:50",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 39–40",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=39",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-credit:6:4",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "p. 6",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=6",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-finance-2e:m00107:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.2 The Costs of Debt and Equity Capital — Cost of Equity Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-2-the-costs-of-debt-and-equity-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Collateralized Debt Obligations: Pooled Debt Sliced Into Layers",
+      "summary": "A CDO bundles a portfolio of debt into a special-purpose vehicle and sells layered claims on its cash flows. Knowing who gets paid first and what can go wrong lets you judge the risk of each layer.",
+      "sections": [
+        {
+          "heading": "The big idea: one pool, many layers",
+          "body_markdown": "A **collateralized debt obligation (CDO)** is a securitization whose collateral is itself debt: corporate loans, corporate bonds, other asset-backed securities, or credit exposure taken through derivatives. A separate legal entity, the **special-purpose entity (SPE)**, buys the pool. It pays for the pool by selling notes in layers called **tranches**.\n\nThink of a **champagne tower**. Cash from the collateral pours in at the top and fills the highest glass first, which is the senior tranche. Only when that glass is full does the flow spill to the next glass, the mezzanine. The bottom glass is the **equity tranche**. It gets whatever is left, but when losses occur it is emptied first.\n\nSenior tranches have the safest claim, so they earn the lowest yield and carry the highest ratings. Equity is the riskiest and has the highest potential return. Losses on the pool are absorbed from the bottom up."
+        },
+        {
+          "heading": "Flavors of CDO by collateral",
+          "body_markdown": "The name tells you what is in the pool:\n\n- **Collateralized loan obligation (CLO):** mostly senior secured loans to corporate borrowers.\n- **Collateralized bond obligation (CBO):** mostly corporate bonds.\n- **Structured finance CDO:** collateral is tranches of other securitizations, such as mortgage-backed or asset-backed securities. Credit problems in the underlying pools can be compounded because the layers are stacked.\n- **Synthetic CDO:** the vehicle holds no cash assets that create the exposure. It gains credit exposure through **credit default swaps (CDS)**, which are contracts that pay out if a borrower defaults. Credit losses from those contracts are then allocated to the tranches from the bottom up.\n\nCDOs also differ in purpose. A *balance sheet* CDO lets a bank move loans off its books. An *arbitrage* CDO is built by a manager who earns the gap between what the collateral yields and what the notes cost."
+        },
+        {
+          "heading": "How the cash flows work",
+          "body_markdown": "The SPE sells the notes and uses the proceeds to buy the collateral. A **collateral manager** usually picks the assets and, unlike in a typical static ABS, trades the portfolio during a **reinvestment period**, often around five years. During that time principal that comes in from maturing, sold or refinanced loans is mostly used to buy new collateral. Afterward, principal is used to repay the notes, usually from the most senior tranche down.\n\nCash is typically split into two streams, each with its own waterfall:\n\n1. **Interest waterfall:** interest collected from the pool pays senior fees (trustee and senior manager fee) first. Next comes interest on the senior notes, then on each mezzanine note in order of seniority. After that come subordinated fees, and whatever is left is the **residual** paid to the equity tranche.\n2. **Principal waterfall:** principal is reinvested during the reinvestment period, then repays the tranches in order of seniority.\n\nEquity has no promised coupon. Its return is the excess of asset income over fees and note interest. That makes it highly sensitive to defaults, and it works like a leveraged position in the pool."
+        },
+        {
+          "heading": "Protection for senior holders: coverage tests",
+          "body_markdown": "The structure includes tests that redirect cash toward senior investors when the pool weakens. The two main ones are:\n\n- **Overcollateralization (OC) test:** compares the par value of the collateral with the balance of a given tranche plus all tranches senior to it. It checks that enough collateral stands behind the debt.\n- **Interest coverage (IC) test:** compares interest collected, after senior fees, with interest owed on a given tranche and those senior to it.\n\nIf a test **fails**, cash that would have gone to the junior notes and the equity is instead used to repay the senior notes. Paying down senior principal shrinks the denominator of both ratios, which can cure the breach. Lower-rated notes may be allowed to defer interest and add it to their balance (called PIK, pay in kind). Asset-quality limits on ratings, industry and borrower concentration also restrict what the manager may buy."
+        },
+        {
+          "heading": "Main risks",
+          "body_markdown": "- **Credit risk of the collateral:** defaults and downgrades reduce cash flow. The equity and junior notes absorb losses first.\n- **Leverage and tranche risk:** thin lower tranches can be wiped out by moderate losses. Correlated defaults hurt more than diversification suggests.\n- **Manager risk:** an actively traded pool depends on the manager's skill and incentives.\n- **Interest rate mismatch:** if the collateral pays fixed rates but the notes pay floating rates (or the reverse), a rate move can squeeze the spread available to the lower tranches.\n- **Reinvestment risk:** the assets bought during the reinvestment period may yield less or be riskier than the original ones.\n- **Complexity and model risk:** structured finance CDOs and synthetic CDOs are hard to value, and ratings can fail badly when the underlying assumptions are wrong.\n- **Liquidity risk:** junior tranches trade thinly.\n\nCLOs backed by corporate loans have a better record than the subprime-mortgage CDOs that caused heavy losses in the 2008 crisis, but they still carry the risks above."
+        }
+      ],
+      "worked_example": {
+        "problem": "A CLO holds collateral with par value of $200 million. It has Class A notes of $120 million, Class B notes of $40 million, and equity of $40 million. The OC test for Class B compares collateral par with the balance of Class A plus Class B, and the trigger is 120%. (a) Compute the Class B OC ratio at closing. (b) Defaults reduce collateral par to $186 million. Does the test pass? (c) How much Class A principal must be repaid from diverted cash to restore a ratio of exactly 120%? Assume collateral par stays at $186 million.",
+        "steps": [
+          "Class B OC ratio = collateral par ÷ (Class A + Class B). The equity is not in the denominator because it is junior to Class B.",
+          "(a) Denominator = 120 + 40 = $160 million. Ratio = 200 ÷ 160 = 1.25 = 125%. On the BA II Plus press 200 ÷ 160 = to get 1.25. The test passes because 125% is above 120%.",
+          "(b) After the defaults: 186 ÷ 160 = 1.1625 = 116.25%. This is below 120%, so the test fails. Cash flow that would have gone to Class C or lower, to any deferrable junior interest, and to the equity is redirected to pay down Class A.",
+          "(c) Let x be the Class A repayment. We need 186 ÷ (160 − x) = 1.20, so 160 − x = 186 ÷ 1.20 = 155. On the calculator press 186 ÷ 1.2 = to get 155.",
+          "So x = 160 − 155 = $5 million. Once $5 million of Class A is repaid, the ratio returns to 120%, the test is cured, and cash flow resumes down the waterfall."
+        ],
+        "answer": "(a) 125%; (b) 116.25%, so the test fails; (c) $5 million of Class A must be repaid.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Overcollateralization ratio for a tranche",
+          "latex": "\\text{OC}_k=\\frac{\\text{Par value of collateral}}{\\text{Balance of tranche }k+\\text{balances of all tranches senior to }k}",
+          "where": "k is the tranche being tested. Par value of collateral is the principal amount of the performing assets (often adjusted for defaulted or heavily discounted assets). The denominator excludes tranches junior to k."
+        },
+        {
+          "name": "Interest coverage ratio for a tranche",
+          "latex": "\\text{IC}_k=\\frac{\\text{Interest collected}-\\text{senior fees}}{\\text{Interest due on tranche }k+\\text{interest due on all senior tranches}}",
+          "where": "Interest collected is the interest received from the collateral in the period. Senior fees are the senior fees and expenses paid ahead of note interest. Interest due is the scheduled coupon on each note in the denominator."
+        }
+      ],
+      "exam_traps": [
+        "Treating all CDOs as having the same collateral. A CLO holds loans, a CBO holds bonds, a structured finance CDO holds securitization tranches, and a synthetic CDO gets exposure through credit default swaps.",
+        "Thinking the equity tranche gets a fixed coupon. It receives the residual after fees and interest on the debt tranches, so it can receive nothing.",
+        "Assuming a failed coverage test hurts senior notes. It does the opposite: cash is diverted from junior tranches and equity to repay senior notes, which protects them.",
+        "Including junior tranches in the OC denominator. Only the tested tranche and the tranches senior to it are counted.",
+        "Assuming the pool is static like a typical ABS. A managed CDO is traded during the reinvestment period, so manager risk and reinvestment risk apply."
+      ],
+      "builds_on": [
+        "Securitization and special-purpose entities",
+        "Tranching and subordination",
+        "Credit enhancement",
+        "Credit risk and default",
+        "Credit default swaps"
+      ],
+      "leads_to": [
+        "Structured credit analysis",
+        "Evaluating tranche risk and return",
+        "Credit derivatives"
+      ],
+      "cited_chunk_ids": [
+        "cfa-rf-alt-credit:43:55",
+        "cfa-rf-alt-credit:44:56",
+        "fed-risk-retention-2010:26:30",
+        "fed-risk-retention-2010:51:50",
+        "nyfed-securitization:34:44",
+        "cfa-rf-alt-credit:39:50"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In the interest waterfall of a typical CDO, which party receives the residual cash flow after senior fees, interest on all the debt tranches and subordinated fees have been paid?",
+        "options": [
+          {
+            "text": "The senior tranche investors",
+            "value": null,
+            "explanation": "Senior investors are paid early in the waterfall, ahead of the junior notes and the equity. Confusing the top of the waterfall with the bottom is the mistake."
+          },
+          {
+            "text": "The equity tranche investors",
+            "value": null,
+            "explanation": "Correct. Equity has no stated coupon. It is paid whatever is left after fees and debt interest, which is why it is the first to lose and the one with the highest upside."
+          },
+          {
+            "text": "The mezzanine tranche investors",
+            "value": null,
+            "explanation": "Mezzanine notes have a stated coupon and are paid before the equity. Treating them as the residual claim confuses mezzanine with equity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:43:55",
+          "cfa-rf-alt-credit:44:56"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A collateralized debt obligation that is backed mainly by a portfolio of senior secured loans to corporate borrowers is most accurately called a:",
+        "options": [
+          {
+            "text": "collateralized bond obligation",
+            "value": null,
+            "explanation": "A CBO is backed mainly by bonds, not loans. The mistake is mixing up the two names."
+          },
+          {
+            "text": "synthetic CDO",
+            "value": null,
+            "explanation": "A synthetic CDO gets its credit exposure through credit default swaps rather than by holding the loans. It is a different structure."
+          },
+          {
+            "text": "collateralized loan obligation",
+            "value": null,
+            "explanation": "Correct. A CDO backed mainly by corporate loans is a CLO."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:39:50"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CLO fails its overcollateralization test for a mezzanine tranche. Which outcome is most likely?",
+        "options": [
+          {
+            "text": "Cash flow that would have gone to junior notes and equity is redirected to repay senior notes.",
+            "value": null,
+            "explanation": "Correct. Diverting cash to repay senior principal lowers the balance in the OC denominator, which can cure the breach and shields senior holders."
+          },
+          {
+            "text": "Cash flow to the senior notes is cut so more can go to the equity tranche.",
+            "value": null,
+            "explanation": "This reverses the logic. Coverage tests exist to protect the senior investors, not to move cash to the equity."
+          },
+          {
+            "text": "Cash flow is split pro rata among all tranches until the test is cured.",
+            "value": null,
+            "explanation": "CDO waterfalls are sequential by seniority, not pro rata, and the breach changes who is paid first, not how it is shared."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:43:55",
+          "cfa-rf-alt-credit:44:56",
+          "fed-risk-retention-2010:51:50"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CDO has collateral par value of 300, Class A notes of 180, Class B notes of 60 and equity of 60 (all in millions). The OC ratio for Class B is collateral par divided by the balance of Class B plus all senior tranches. What is the Class B OC ratio, rounded to one decimal place?",
+        "options": [
+          {
+            "text": "166.7%",
+            "value": null,
+            "explanation": "This is 300 ÷ 180. It leaves out the Class B balance and counts only the senior tranche."
+          },
+          {
+            "text": "100.0%",
+            "value": null,
+            "explanation": "This is 300 ÷ 300. It wrongly includes the junior equity tranche in the denominator."
+          },
+          {
+            "text": "125.0%",
+            "value": null,
+            "explanation": "Correct. The denominator is Class A plus Class B = 180 + 60 = 240, and 300 ÷ 240 = 1.25."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:44:56"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CLO's collateral consists mostly of fixed-rate loans, while its notes pay a floating rate. If short-term interest rates rise sharply, what is the most direct effect?",
+        "options": [
+          {
+            "text": "The collateral's interest income rises with the notes, so the equity return is unaffected.",
+            "value": null,
+            "explanation": "Fixed-rate collateral income does not reset upward. Assuming income adjusts with rates ignores the mismatch."
+          },
+          {
+            "text": "The principal amount of the senior notes is reduced because the coupon has risen.",
+            "value": null,
+            "explanation": "Higher coupons raise interest due. They do not reduce the principal balance of the notes."
+          },
+          {
+            "text": "Interest due on the notes rises while collateral income does not, which squeezes the excess spread and the IC cushion.",
+            "value": null,
+            "explanation": "Correct. This interest rate mismatch lowers excess interest available to the junior tranches and equity and can push the IC test toward a breach."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "During the reinvestment period of a managed CLO, principal received from loans that mature or are refinanced is typically:",
+        "options": [
+          {
+            "text": "used mostly to buy new loans, subject to portfolio limits and covenants.",
+            "value": null,
+            "explanation": "Correct. Active reinvestment during this period is what separates a managed CDO from a static ABS, and it exposes holders to manager and reinvestment risk."
+          },
+          {
+            "text": "paid immediately to the equity tranche as a return of capital.",
+            "value": null,
+            "explanation": "Equity does not receive principal paydowns first. The structure is sequential by seniority and reinvests during this period."
+          },
+          {
+            "text": "paid out pro rata to every tranche according to its share of the notes.",
+            "value": null,
+            "explanation": "Pro rata principal payment is not how a CDO works. After the reinvestment period, principal amortizes the senior notes first."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:43:55",
+          "fed-risk-retention-2010:26:30"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement about a synthetic CDO is most accurate?",
+        "options": [
+          {
+            "text": "It gains credit exposure to a reference portfolio through credit default swaps and does not need to buy the underlying loans or bonds.",
+            "value": null,
+            "explanation": "Correct. Credit events on the reference entities produce losses that are allocated to the tranches from the bottom up."
+          },
+          {
+            "text": "It has no tranches because credit losses are shared equally by all investors.",
+            "value": null,
+            "explanation": "Synthetic CDOs also tranche the credit exposure, with the equity absorbing first losses. They do not share losses equally."
+          },
+          {
+            "text": "It avoids counterparty risk because no derivative contracts are used in the structure.",
+            "value": null,
+            "explanation": "Credit default swaps are the defining feature of a synthetic CDO. The claim contradicts that, so counterparty risk is present."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a CDO, and how are the notes arranged?",
+        "back": "A securitization whose collateral is a pool of debt (loans, bonds, other ABS, or CDS exposure) held by an SPE. Claims are sold as tranches: senior, mezzanine and equity. Losses hit the lowest tranche first.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:39:50",
+          "nyfed-securitization:34:44"
+        ]
+      },
+      {
+        "front": "In a CDO interest waterfall, who gets paid in what order?",
+        "back": "Senior fees, then interest on the senior notes, then interest on each junior note in order of seniority, then subordinated fees. The equity tranche receives whatever is left.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-credit:43:55",
+          "cfa-rf-alt-credit:44:56"
+        ]
+      },
+      {
+        "front": "What do the OC and IC coverage tests do, and what happens when one fails?",
+        "back": "OC checks that collateral par covers the tranche and all senior tranches. IC checks that interest income covers fees and note interest. On a failure, cash is diverted from junior notes and equity to repay senior notes.",
+        "cited_chunk_ids": [
+          "fed-risk-retention-2010:51:50",
+          "cfa-rf-alt-credit:44:56"
+        ]
+      },
+      {
+        "front": "Name key risks of investing in a CDO.",
+        "back": "Collateral credit risk (defaults), leverage and correlation in the tranches, manager risk, interest rate mismatch, reinvestment risk, complexity and model risk, and low liquidity in the junior tranches.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:32:00.605Z",
+      "purpose": "generate",
+      "losId": "fixed-income-18-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10057,
+      "outputTokens": 9157,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1128402,
+      "stopReason": "end_turn"
+    }
+  ]
+}

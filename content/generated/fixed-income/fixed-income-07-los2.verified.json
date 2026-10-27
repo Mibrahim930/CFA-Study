@@ -1,0 +1,855 @@
+{
+  "losId": "fixed-income-07-los2",
+  "losText": "compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds",
+  "moduleId": "fixed-income-07",
+  "moduleTitle": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:42:58.799Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ftse-fixed-income-indices-guide:132:154",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 132–133",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:18:19",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 18–19",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=18",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:98:113",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 98–99",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=98",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:132:153",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 132",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:3:3",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "p. 3",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=3",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:3:4",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 3–4",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=3",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2006-28:4:2",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:16:18",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "p. 16",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=16",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "finra-bonds:1:18",
+      "title": "Investment Products: Bonds (FINRA investor education)",
+      "locator": "Bonds",
+      "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+      "license": "© FINRA; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-sr674-mortgage-spreads:16:17",
+      "title": "Understanding Mortgage Spreads (FRBNY Staff Report 674, option-adjusted spread)",
+      "locator": "p. 16",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr674.pdf#page=16",
+      "license": "Federal Reserve Bank of New York staff report; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:113:132",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 113",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=113",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:5:7",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "pp. 5–6",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=5",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Reading Yields and Yield Spreads on Fixed-Rate Bonds",
+      "summary": "A bond has several yield numbers, and each answers a different question about the return you might earn. Spreads then show how much extra yield a bond offers over a benchmark, so you can tell what the extra yield pays you for.",
+      "sections": [
+        {
+          "heading": "One bond, several yield numbers",
+          "body_markdown": "A **yield** is an annualised return implied by what you pay and what the bond promises. Different yields make different assumptions.\n\n- **Current yield** = annual coupon ÷ price. It is like rent divided by what you paid for the flat. It ignores any gain or loss when the bond is redeemed at par, and it ignores reinvestment.\n- **Simple yield** = (annual coupon + straight-line share of the discount, or minus the premium) ÷ price. It adds a rough allowance for the pull to par.\n- **Yield to maturity (YTM)** is the single discount rate that makes the present value of all promised coupons and the principal equal to the price. It is the internal rate of return of buying and holding to maturity. It assumes you hold to maturity, the issuer pays everything on time, and coupons are reinvested at the YTM itself.\n\nBecause YTM uses every promised cash flow, it is the most complete of the three. Quoted yields also depend on day-count and holiday conventions. The *street convention* yield assumes payments arrive on their scheduled dates even if that falls on a weekend. The *true yield* moves payments to the actual business day, so it is slightly lower."
+        },
+        {
+          "heading": "Premium, par and discount: the ordering rule",
+          "body_markdown": "Compare the coupon rate, the current yield and the YTM.\n\n- **Discount bond** (price below par): you collect the coupons and also gain when the bond is redeemed at par. So coupon rate < current yield < YTM.\n- **Premium bond** (price above par): you overpay and lose that premium by maturity. So coupon rate > current yield > YTM.\n- **Par bond:** all three are equal.\n\nExample: a 4% coupon bond priced at 92 has a current yield of 4/92 = 4.35%, which is above 4%. The YTM is higher still because of the gain to par."
+        },
+        {
+          "heading": "Callable bonds: yield to call and yield to worst",
+          "body_markdown": "If the issuer may redeem a bond early, you cannot be sure of holding to maturity. The **yield to call** is calculated like the YTM, with two swaps: the call date replaces the maturity date, and the **call price** (par plus any call premium) replaces the principal.\n\nA callable bond may have several call dates, so you can compute a yield to each one. The **yield to worst (YTW)** is the lowest of the YTM and all the yields to call. It is the most conservative return you could realise without a default.\n\nRule of thumb: a bond bought at a *premium* is likely to be called, so YTW is usually a yield to call. A bond bought at a *discount* is unlikely to be called, since the issuer would pay more than the market price, so YTW is usually the YTM. A putable bond works the same way: you compute a yield to put."
+        },
+        {
+          "heading": "Yield spreads: what extra yield is paying you for",
+          "body_markdown": "A **yield spread** is a bond's yield minus a benchmark yield, quoted in **basis points** (1 bp = 0.01%). A wider spread means more compensation for credit risk, illiquidity and any embedded option risk.\n\n- **G-spread:** bond yield minus the government bond yield at the same maturity (interpolated between two government bonds if necessary).\n- **I-spread:** bond yield minus the swap rate at the same maturity, where the swap rate is the swap fixed rate for that maturity.\n- **Z-spread (zero-volatility spread):** one constant spread added to *every* spot rate on the benchmark curve so that the discounted cash flows equal the bond's price. It uses the whole curve, not one maturity point.\n- **Option-adjusted spread (OAS):** the Z-spread after removing the value of the embedded option. For a **callable** bond, OAS < Z-spread. The gap, Z-spread − OAS, is the **option cost**. It is what the investor gives up because the issuer holds the call right. For a **putable** bond, the investor owns the option, so OAS > Z-spread.\n\nUse OAS to compare a bond with an option against one without, because it strips the option out and leaves credit and liquidity compensation."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 2-year bond with face value 100 pays a 5% annual coupon (5.00 at the end of each year). Its price is 98.17. Find the current yield and the yield to maturity, and say how they rank against the coupon rate. Round to two decimals in percent.",
+        "steps": [
+          "Current yield = annual coupon ÷ price = 5.00 ÷ 98.17 = 0.05093, or 5.09%.",
+          "The price is below par, so this is a discount bond. Expect coupon rate (5.00%) < current yield < YTM.",
+          "Find YTM on the BA II Plus. Clear the TVM worksheet with [2ND][FV]. Then enter [2][N], [98.17][+/−][PV], [5][PMT], [100][FV].",
+          "Press [CPT][I/Y]. The display shows about 6.00, so the YTM is 6.00%.",
+          "Check the ranking: 5.00% < 5.09% < 6.00%. The ranking matches the discount-bond rule."
+        ],
+        "answer": "Current yield ≈ 5.09% and YTM ≈ 6.00%, so coupon rate 5.00% < current yield 5.09% < YTM 6.00%.",
+        "answer_value": 0.06,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":2,\"freq\":1},\"price\":98.17}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Current yield",
+          "latex": "CY=\\frac{C}{P}",
+          "where": "C = annual coupon payment in currency; P = bond price (clean)."
+        },
+        {
+          "name": "Simple yield",
+          "latex": "SY=\\frac{C+\\frac{F-P}{N}}{P}",
+          "where": "C = annual coupon; F = par value; P = price; N = years to maturity. (F − P)/N is the straight-line yearly amortisation of a discount, negative for a premium."
+        },
+        {
+          "name": "Yield to maturity (price equation)",
+          "latex": "P=\\sum_{t=1}^{N}\\frac{C}{(1+y)^t}+\\frac{F}{(1+y)^N}",
+          "where": "P = price; C = coupon per period; F = par; N = number of periods; y = YTM per period."
+        },
+        {
+          "name": "Yield to call",
+          "latex": "P=\\sum_{t=1}^{M}\\frac{C}{(1+y)^t}+\\frac{CP}{(1+y)^M}",
+          "where": "P = price; C = coupon per period; M = periods until the call date; CP = call price; y = yield to call per period."
+        },
+        {
+          "name": "G-spread and I-spread",
+          "latex": "\\text{G-spread}=y_{bond}-y_{govt},\\quad \\text{I-spread}=y_{bond}-r_{swap}",
+          "where": "y_bond = bond yield; y_govt = government yield at the same maturity; r_swap = swap rate at the same maturity."
+        },
+        {
+          "name": "Z-spread",
+          "latex": "P=\\sum_{t=1}^{N}\\frac{CF_t}{(1+s_t+Z)^t}",
+          "where": "P = price; CF_t = cash flow at time t; s_t = benchmark spot rate for maturity t; Z = constant Z-spread."
+        },
+        {
+          "name": "Option cost",
+          "latex": "\\text{Option cost}=Z\\text{-spread}-\\text{OAS}",
+          "where": "Positive for a callable bond and negative for a putable bond. Both spreads are in the same units, such as bp."
+        }
+      ],
+      "exam_traps": [
+        "Treating current yield as the full return. It ignores the gain or loss at maturity, so it only equals YTM for a par bond.",
+        "Reversing the ordering for premium and discount bonds. Discount: coupon rate < current yield < YTM. Premium: the opposite.",
+        "Computing yield to call with par as the redemption amount. The call price, which can be above par, goes in as the future value.",
+        "Reporting the yield to the first call date as the YTW without checking the others. YTW is the lowest of the YTM and every yield to call.",
+        "Mixing up G-spread and I-spread. G-spread uses a government yield and I-spread uses the swap rate. Always take bond yield minus benchmark.",
+        "Treating the Z-spread as a spread over one maturity point, or adding Z-spread and OAS. Option cost is Z-spread minus OAS for a callable bond."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Bond pricing and the price-yield relationship",
+        "Bond features: call and put provisions",
+        "Spot rates and the yield curve"
+      ],
+      "leads_to": [
+        "Duration and convexity",
+        "Credit analysis and credit spreads",
+        "Term structure of interest rates",
+        "Valuation of bonds with embedded options"
+      ],
+      "cited_chunk_ids": [
+        "utah-fcs5510-bond-market:5:7",
+        "finra-bonds:1:18",
+        "ftse-fixed-income-indices-guide:132:153",
+        "ftse-fixed-income-indices-guide:132:154"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond with face value 100 pays an annual coupon of 6.00 (coupon rate 6%) and has 10 years to maturity. It trades at a price of 95.00. What is its current yield, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "6.84%",
+            "value": 0.0684,
+            "explanation": "This adds the straight-line discount amortisation (0.50 per year) to the coupon: (6.00 + 0.50) ÷ 95.00. That is the simple yield, not the current yield."
+          },
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "This is the coupon rate, found by dividing the coupon by par (6 ÷ 100) instead of by the market price."
+          },
+          {
+            "text": "6.32%",
+            "value": 0.0632,
+            "explanation": "Current yield = annual coupon ÷ price = 6.00 ÷ 95.00 = 6.32%. It ignores the gain to par at maturity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "currentYield",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":10,\"freq\":1},\"price\":95}"
+        },
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:5:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 5-year bond with face value 100 pays a 6% annual coupon (one payment of 6.00 per year). It is priced at 103.67. Assume the bond is held to maturity and not callable. What is its yield to maturity, as an annual rate rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "This assumes YTM equals the coupon rate, which is only true for a bond priced at par. At a premium the YTM is lower than the coupon rate."
+          },
+          {
+            "text": "5.15%",
+            "value": 0.0515,
+            "explanation": "Solve 103.67 = 6/(1+y) + 6/(1+y)^2 + ... + 106/(1+y)^5. On the BA II Plus: N=5, PV=−103.67, PMT=6, FV=100, CPT I/Y gives about 5.15%."
+          },
+          {
+            "text": "5.79%",
+            "value": 0.0579,
+            "explanation": "This is the current yield, 6.00 ÷ 103.67. It ignores the loss of the 3.67 premium by maturity, so it overstates the YTM."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "ytm",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":5,\"freq\":1},\"price\":103.67}"
+        },
+        "cited_chunk_ids": [
+          "finra-bonds:1:18",
+          "utah-fcs5510-bond-market:5:7"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "The bond from the previous item (face value 100, 6% annual coupon, price 103.67) is callable. The first call date is exactly 2 years from today, immediately after the second annual coupon is paid, and the call price is 102. What is the yield to first call, as an annual rate rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "5.15%",
+            "value": 0.0515,
+            "explanation": "This is the yield to maturity. It ignores the call and uses 5 years and a redemption of 100."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Cash flows are 6.00 at year 1 and 6.00 + 102 = 108.00 at year 2. On the BA II Plus: N=2, PV=−103.67, PMT=6, FV=102, CPT I/Y gives about 5.00%."
+          },
+          {
+            "text": "4.05%",
+            "value": 0.0405,
+            "explanation": "This uses par (100) as the redemption amount instead of the call price of 102. That understates the cash received at the call date."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":2,\"pmt\":6,\"pv\":-103.67,\"fv\":102,\"type\":0}"
+        },
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:5:7",
+          "finra-bonds:1:18"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A bond with a 4% annual coupon has six years to maturity and trades at 92 per 100 of par. Which ranking of its yield measures is correct?",
+        "options": [
+          {
+            "text": "Yield to maturity > current yield > coupon rate",
+            "value": null,
+            "explanation": "Correct. The price is below par. Current yield is 4/92 = 4.35%, above the 4% coupon rate. YTM is higher still because it also counts the gain to par at maturity."
+          },
+          {
+            "text": "Coupon rate > current yield > yield to maturity",
+            "value": null,
+            "explanation": "This is the ranking for a premium bond. Here the bond is at a discount, so the order reverses."
+          },
+          {
+            "text": "Current yield > yield to maturity > coupon rate",
+            "value": null,
+            "explanation": "This ignores that YTM includes the 8-point gain to par on top of the coupon income. YTM must exceed current yield for a discount bond."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:5:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A callable bond with a 7% coupon trades at 108 per 100 of par. The annual yields are: to maturity in 10 years, 5.92%; to the first call date in 3 years at a call price of 103, 5.01%; to a par call date in 6 years at a call price of 100, 5.40%. What is the bond's yield to worst?",
+        "options": [
+          {
+            "text": "5.92%",
+            "value": null,
+            "explanation": "This is the YTM only. It assumes the bond is never called, which the issuer is likely to avoid for a premium bond. YTW must consider the call dates."
+          },
+          {
+            "text": "5.40%",
+            "value": null,
+            "explanation": "This is the yield to the par call date. It is not the lowest of the available yields."
+          },
+          {
+            "text": "5.01%",
+            "value": null,
+            "explanation": "Correct. YTW is the minimum of the YTM and all the yields to call. The lowest of 5.92%, 5.01% and 5.40% is 5.01%, the first-call yield."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "finra-bonds:1:18",
+          "ftse-fixed-income-indices-guide:132:154"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A 5-year corporate bond yields 5.40%. The interpolated 5-year government yield is 4.60%, and the 5-year swap rate is 4.85%. Which pair correctly gives the bond's G-spread and I-spread?",
+        "options": [
+          {
+            "text": "G-spread 55 bp; I-spread 80 bp",
+            "value": null,
+            "explanation": "The benchmarks are swapped. 80 bp is the spread over the government yield and 55 bp is the spread over the swap rate."
+          },
+          {
+            "text": "G-spread 80 bp; I-spread 55 bp",
+            "value": null,
+            "explanation": "Correct. G-spread = 5.40% − 4.60% = 80 bp. I-spread = 5.40% − 4.85% = 55 bp."
+          },
+          {
+            "text": "G-spread 80 bp; I-spread 25 bp",
+            "value": null,
+            "explanation": "This computes the I-spread as swap rate minus government yield (4.85% − 4.60%). The I-spread is the bond yield minus the swap rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A callable corporate bond has a Z-spread of 135 bp and an option-adjusted spread (OAS) of 90 bp over the same benchmark spot curve. Which interpretation is correct?",
+        "options": [
+          {
+            "text": "The call option costs the holder about 45 bp, and the OAS reflects compensation for credit and liquidity risk alone.",
+            "value": null,
+            "explanation": "Correct. Option cost = Z-spread − OAS = 45 bp. The investor gives up this spread because the issuer holds the call right. OAS strips it out."
+          },
+          {
+            "text": "The call option adds about 45 bp, and the OAS understates compensation for credit and liquidity risk.",
+            "value": null,
+            "explanation": "This has the direction wrong. A call option is held by the issuer and reduces the investor's value, so OAS is below the Z-spread, not above."
+          },
+          {
+            "text": "The call option accounts for about 225 bp, the sum of the two spreads, as the total value of the issuer's right.",
+            "value": null,
+            "explanation": "This adds the spreads. Option cost is the difference between Z-spread and OAS, not the sum."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which set of assumptions underlies the usual interpretation of a bond's yield to maturity as the return an investor earns?",
+        "options": [
+          {
+            "text": "The bond is held to maturity, all payments are made as scheduled, and coupons are reinvested at the coupon rate.",
+            "value": null,
+            "explanation": "The reinvestment assumption is wrong. YTM assumes coupons are reinvested at the YTM, not at the coupon rate."
+          },
+          {
+            "text": "The bond is held until the first call date, all payments are made as scheduled, and coupons are reinvested at the risk-free rate.",
+            "value": null,
+            "explanation": "This describes a yield-to-call style horizon. YTM assumes the bond is held to maturity, and the reinvestment rate is the YTM itself."
+          },
+          {
+            "text": "The bond is held to maturity, all payments are made as scheduled, and coupons are reinvested at the YTM.",
+            "value": null,
+            "explanation": "Correct. YTM is an internal rate of return, which implicitly requires reinvestment at the same rate. It also requires holding to maturity and no default."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "For a bond priced at a discount, how do coupon rate, current yield and YTM rank?",
+        "back": "Coupon rate < current yield < YTM. The discount adds a gain at maturity that only YTM fully counts. A premium bond reverses the order.",
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:5:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is yield to worst for a callable bond?",
+        "back": "The lowest of the yield to maturity and the yields to every call date. It is the most conservative return assuming no default.",
+        "cited_chunk_ids": [
+          "finra-bonds:1:18",
+          "ftse-fixed-income-indices-guide:132:154"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do Z-spread, OAS and option cost relate for a callable bond?",
+        "back": "Option cost = Z-spread − OAS, which is positive for a callable bond. OAS removes the option and isolates credit and liquidity compensation. For a putable bond, OAS is above the Z-spread.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between G-spread and I-spread?",
+        "back": "Both are bond yield minus a benchmark at the same maturity. G-spread uses a government yield and I-spread uses the swap rate.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:42:48.613Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1173,
+      "outputTokens": 1153,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.013993,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:42:58.799Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13507,
+      "outputTokens": 1498,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0421632,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.056156199999999996
+}

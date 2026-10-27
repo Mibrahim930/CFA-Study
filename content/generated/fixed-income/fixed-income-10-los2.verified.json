@@ -1,0 +1,927 @@
+{
+  "losId": "fixed-income-10-los2",
+  "losText": "describe the relationships among a bond's holding period return, its Macaulay duration, and the investment horizon;",
+  "moduleId": "fixed-income-10",
+  "moduleTitle": "Interest Rate Risk and Return",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:45:35.852Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ritchken-measures-of-price-sensitivity:19:13",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 19",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=19",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:17:11",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 17",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=17",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:6:4",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 6–8",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=6",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:24:16",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 24–26",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=24",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-interest-rate-risk:78:92",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 78–79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "finra-bonds:1:9",
+      "title": "Investment Products: Bonds (FINRA investor education)",
+      "locator": "Bonds",
+      "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+      "license": "© FINRA; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:26:17",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 26–29",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=26",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:19:14",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 19–22",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=19",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:1:0",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 1–3",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=1",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Horizon, Duration and the Tug-of-War Inside a Bond's Realized Return",
+      "summary": "A bond's realized return over your holding period depends on two opposing effects of an interest rate change: the sale price and the income from reinvested coupons. Comparing the bond's Macaulay duration with your investment horizon tells you which effect wins, and when they cancel.",
+      "sections": [
+        {
+          "heading": "Two forces inside one return",
+          "body_markdown": "The **holding period return (HPR)** is your total gain over the time you own the bond, divided by what you paid. The gain has three pieces: the price you sell at, the coupons you receive, and the interest you earn by reinvesting those coupons.\n\nThe **investment horizon** is the date you plan to sell (or need the money). Two risks matter:\n\n- **Price risk**: the sale price at the horizon differs from what you expected because market yields moved.\n- **Reinvestment risk**: the coupons are reinvested at rates different from the yield you bought at.\n\nThink of a seesaw. If yields rise right after purchase, the bond's price falls (bad for you) but each coupon is reinvested at a higher rate (good for you). If yields fall, the reverse happens. The two effects always push in opposite directions."
+        },
+        {
+          "heading": "Which side of the seesaw is heavier?",
+          "body_markdown": "How big each effect is depends on how long you hold the bond.\n\n- Hold only briefly: the coupons have little time to compound, so the **price effect** is the bigger one. You sell a bond that still has a long life left, and its price is very sensitive to yields.\n- Hold for a long time: the coupons have many years to compound, and the bond you sell is near maturity and barely sensitive to yields. The **reinvestment effect** is bigger.\n- Hold exactly to maturity: no price risk remains, because the bond is redeemed at face value. Only reinvestment risk is left for a coupon bond.\n\nSomewhere between 'too short' and 'too long' there is a balance point. The balance point is the bond's Macaulay duration."
+        },
+        {
+          "heading": "Macaulay duration as the balance point",
+          "body_markdown": "**Macaulay duration** is the average time until the bond's cash flows arrive, where each payment is weighted by its share of the bond's present value. (How to compute it is a separate topic; here we only use it.) A zero-coupon bond has one payment at maturity, so its Macaulay duration equals its maturity. A coupon bond has early payments, so its Macaulay duration is shorter than its maturity.\n\nDefine the **duration gap** as Macaulay duration minus the investment horizon, $D_{Mac}-H$. Suppose yields shift once, immediately after purchase, and then stay put (a parallel shift). Then:\n\n| Situation | Dominant risk | Rates rise → realized return vs. purchase yield | Rates fall → realized return vs. purchase yield |\n|---|---|---|---|\n| Gap > 0 (duration longer than horizon) | Price risk | Lower | Higher |\n| Gap < 0 (duration shorter than horizon) | Reinvestment risk | Higher | Lower |\n| Gap ≈ 0 | Offsetting | About the same | About the same |\n\nWhen the gap is about zero, the realized return over the horizon is close to the yield you originally bought at, almost regardless of the shift. This is the idea behind matching assets to a liability that is due on a known date."
+        },
+        {
+          "heading": "Limits of the rule",
+          "body_markdown": "The zero-gap result is an approximation and holds under specific conditions:\n\n- The yield change is a **one-time, immediate, parallel shift**. Changes that twist the curve or arrive later break the balance.\n- The bond is default-free and has no embedded options that alter its cash flows.\n- Convexity leaves a small leftover. In the textbook example, the matched portfolio ends slightly above the target.\n\nTime also matters. As you hold the bond, the horizon shrinks by exactly one year per year. For a coupon bond at a constant yield, Macaulay duration typically shrinks by *less* than one year per year. So a gap that starts at zero drifts away from zero, and the investor must rebalance. A zero-coupon bond held to maturity is the special case with no gap at all: its duration equals its maturity, which equals the horizon, so there is no reinvestment risk or price risk."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 5-year, 12% annual-coupon bond (face 100) is bought at par, so its yield is 12%. Its Macaulay duration is about 4.04 years. The investor plans to sell after 4 years. Right after purchase, yields fall to 11% and stay there. Coupons are annual and are reinvested at 11%. Find the cumulative 4-year HPR per 100 invested and compare it with the 57.35% that would result if yields had stayed at 12%.",
+        "steps": [
+          "Compare duration with horizon: the gap is about 4.04 − 4 = 0.04 years, nearly zero. We expect price gain and reinvestment loss to nearly cancel.",
+          "Sale price at the end of year 4: one year remains, with a final payment of 112 discounted at 11%. BA II Plus: [2ND][CLR TVM], N = 1, I/Y = 11, PMT = 12, FV = 100, CPT PV → −100.90. The sale price is 100.9009.",
+          "Future value of the four coupons reinvested at 11%: [2ND][CLR TVM], N = 4, I/Y = 11, PV = 0, PMT = −12, CPT FV → 56.52 (56.5168).",
+          "Total end value = 100.9009 + 56.5168 = 157.4177. HPR = (157.4177 − 100) / 100 = 57.42%.",
+          "Benchmark: with yields unchanged at 12%, 1.12^4 − 1 = 57.35%. The two results are almost identical. The annualized return is about 12.0%, close to the purchase yield, so the bond is approximately immunized for a 4-year horizon."
+        ],
+        "answer": "The 4-year HPR is 57.42% (about 12.0% a year), nearly identical to the 57.35% under unchanged yields. The price gain and the reinvestment shortfall almost exactly offset.",
+        "answer_value": 0.574177,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":100,\"endPrice\":100.9009,\"income\":56.5168}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Duration gap",
+          "latex": "\\text{Duration gap}=D_{Mac}-H",
+          "where": "$D_{Mac}$ is the bond's Macaulay duration in years; $H$ is the investment horizon in years. A positive gap means price risk dominates, a negative gap means reinvestment risk dominates, and zero means they roughly offset."
+        },
+        {
+          "name": "Cumulative holding period return",
+          "latex": "\\text{HPR}=\\frac{P_H+FV_{c}-P_0}{P_0}",
+          "where": "$P_0$ is the purchase price; $P_H$ is the sale price at the horizon; $FV_c$ is the horizon value of all coupons including interest earned from reinvesting them."
+        },
+        {
+          "name": "Annualized horizon return",
+          "latex": "r_{ann}=(1+\\text{HPR})^{1/H}-1",
+          "where": "HPR is the cumulative return over the horizon; $H$ is the horizon in years (annual periods)."
+        }
+      ],
+      "exam_traps": [
+        "Matching the bond's maturity to the horizon instead of its Macaulay duration. Maturity equal to horizon removes price risk but leaves reinvestment risk on a coupon bond.",
+        "Reversing the direction: when duration is longer than the horizon, price risk dominates (rates up → return falls short). When duration is shorter, reinvestment risk dominates (rates up → return exceeds the purchase yield).",
+        "Believing a zero gap protects against every yield move. It works only approximately, for a single immediate parallel shift, and without defaults or embedded options.",
+        "Comparing the realized return with the new market yield. The benchmark in the zero-gap case is the yield at purchase.",
+        "Forgetting that the gap changes with time, so a once-matched coupon bond needs rebalancing as the horizon approaches."
+      ],
+      "builds_on": [
+        "Bond price and yield inverse relationship",
+        "Reinvestment risk and price risk",
+        "Sources of return from a fixed-rate bond",
+        "Macaulay duration"
+      ],
+      "leads_to": [
+        "Liability-driven investing and immunization",
+        "Duration gap and rebalancing",
+        "Convexity",
+        "Non-parallel yield curve shifts (twist risk)"
+      ],
+      "cited_chunk_ids": [
+        "ritchken-measures-of-price-sensitivity:17:11",
+        "ritchken-measures-of-price-sensitivity:19:13",
+        "ritchken-measures-of-price-sensitivity:24:16",
+        "ritchken-measures-of-price-sensitivity:6:4"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor buys a default-free, option-free 7-year fixed-rate bond with a Macaulay duration of 5.8 years and plans to sell it after 4 years. Immediately after purchase, market yields rise once and stay at the higher level. Compared with the yield at purchase, the realized return over the 4-year horizon is most likely:",
+        "options": [
+          {
+            "text": "Higher, because extra reinvestment income outweighs the fall in the sale price.",
+            "value": null,
+            "explanation": "This reverses the case. Reinvestment risk dominates only when the horizon is longer than the Macaulay duration. Here the duration (5.8) exceeds the horizon (4)."
+          },
+          {
+            "text": "Lower, because the fall in the sale price outweighs the extra reinvestment income.",
+            "value": null,
+            "explanation": "Correct. The duration gap is positive (5.8 − 4 = 1.8), so price risk dominates. A yield rise cuts the sale price by more than the higher reinvestment rate adds."
+          },
+          {
+            "text": "About equal, because price loss and reinvestment gain roughly cancel.",
+            "value": null,
+            "explanation": "Cancellation needs the Macaulay duration to be about equal to the horizon. With a gap of 1.8 years, the two effects do not offset."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:24:16",
+          "ritchken-measures-of-price-sensitivity:17:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A default-free, option-free coupon bond has a Macaulay duration of 4.0 years. An investor plans to hold it for 6 years. Right after purchase, yields fall once and stay lower. Compared with the yield at purchase, the realized 6-year return is most likely:",
+        "options": [
+          {
+            "text": "Higher, because the price gain exceeds the lost reinvestment income.",
+            "value": null,
+            "explanation": "This is the result for a horizon shorter than the duration. Here the horizon (6) exceeds the duration (4), so reinvestment risk dominates."
+          },
+          {
+            "text": "About the same, because a yield change always cancels out over the holding period.",
+            "value": null,
+            "explanation": "Offsetting requires duration ≈ horizon. A 2-year gap leaves a net effect."
+          },
+          {
+            "text": "Lower, because reinvesting coupons at lower rates outweighs the price gain.",
+            "value": null,
+            "explanation": "Correct. The gap is negative (4 − 6 = −2), so reinvestment risk dominates. Lower reinvestment rates for a long time cost more than the price gain at sale adds."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:24:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor buys at par a 5-year, 6% annual-coupon bond (face value 100) with a 6% yield. She plans to sell after 3 years. Immediately after purchase, yields rise to 7% and stay there. Coupons are paid annually. What is the bond's sale price at the end of year 3, per 100 face, rounded to 2 decimals?",
+        "options": [
+          {
+            "text": "98.19",
+            "value": 98.19,
+            "explanation": "Correct. After 3 years, 2 years remain: 6/1.07 + 106/1.07² ≈ 98.19."
+          },
+          {
+            "text": "97.38",
+            "value": 97.38,
+            "explanation": "Mistake: using the 3 years already held as the remaining life, instead of the 2 years left."
+          },
+          {
+            "text": "95.90",
+            "value": 95.9,
+            "explanation": "Mistake: pricing the bond with its full 5 years remaining, ignoring that 3 years have passed."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":2,\"freq\":1},\"ytm\":0.07}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Using the same investment, the bond pays an annual coupon of 6 at the end of years 1, 2 and 3 (the coupons before the sale at the end of year 3). After the yield rise, each coupon is reinvested at 7% per year, compounded annually. What is the value at the end of year 3 of the three coupons including interest earned on them, rounded to 2 decimals?",
+        "options": [
+          {
+            "text": "19.10",
+            "value": 19.1,
+            "explanation": "Mistake: reinvesting the coupons at the original 6% instead of the new 7% rate."
+          },
+          {
+            "text": "19.29",
+            "value": 19.29,
+            "explanation": "Correct. FV of an ordinary annuity: 6 × (1.07³ − 1)/0.07 ≈ 19.29."
+          },
+          {
+            "text": "18.00",
+            "value": 18,
+            "explanation": "Mistake: adding the three coupons (3 × 6) and ignoring interest earned from reinvestment."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.07,\"n\":3,\"pmt\":-6,\"pv\":0,\"type\":0}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Same investment: a 100 purchase price, a sale price of 98.19 at the end of year 3, and reinvested coupons worth 19.29 at the end of year 3. What is the cumulative 3-year holding period return as a percentage of the purchase price, rounded to 2 decimals?",
+        "options": [
+          {
+            "text": "16.19%",
+            "value": 0.1619,
+            "explanation": "Mistake: counting the coupons at face (18) with no reinvestment interest: 98.19 + 18 − 100."
+          },
+          {
+            "text": "19.10%",
+            "value": 0.191,
+            "explanation": "Mistake: reporting the return as if yields had stayed at 6% (price 100, coupons reinvested at 6%), ignoring the rate rise."
+          },
+          {
+            "text": "17.48%",
+            "value": 0.1748,
+            "explanation": "Correct. (98.19 + 19.29 − 100)/100 = 17.48%. This is below the 19.10% earned at an unchanged 6% yield because the duration (about 4.47) exceeds the 3-year horizon, so price risk dominated."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":100,\"endPrice\":98.19,\"income\":19.29}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor buys a default-free zero-coupon bond and holds it to maturity. Which statement is correct?",
+        "options": [
+          {
+            "text": "Macaulay duration equals the horizon, so the realized return equals the purchase yield whatever happens to rates.",
+            "value": null,
+            "explanation": "Correct. A zero's Macaulay duration equals its maturity, which equals the horizon. There are no coupons to reinvest and the redemption value is fixed, so the return is locked in."
+          },
+          {
+            "text": "Reinvestment risk is present because the bond's duration is shorter than its maturity.",
+            "value": null,
+            "explanation": "Mistake: a zero-coupon bond's Macaulay duration equals its maturity (only coupon bonds have shorter duration), and it has no coupons to reinvest."
+          },
+          {
+            "text": "Price risk is present at maturity because the redemption amount depends on market yields.",
+            "value": null,
+            "explanation": "Mistake: at maturity the bond is redeemed at face value regardless of market yields, so there is no price risk when held to maturity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor with a 6-year horizon wants the realized return to be insensitive to a single parallel yield shift right after purchase. All bonds are fixed-rate, default-free and option-free. Which bond best serves that goal?",
+        "options": [
+          {
+            "text": "A coupon bond that matures in exactly 6 years.",
+            "value": null,
+            "explanation": "Mistake: matching maturity to horizon removes price risk but leaves reinvestment risk on a coupon bond. Its Macaulay duration is below 6, so a negative gap remains."
+          },
+          {
+            "text": "A coupon bond whose Macaulay duration is 6 years.",
+            "value": null,
+            "explanation": "Correct. A duration gap near zero means price risk and reinvestment risk roughly offset for an immediate parallel shift. Such a bond matures after the 6-year horizon."
+          },
+          {
+            "text": "A coupon bond whose Macaulay duration is 9 years.",
+            "value": null,
+            "explanation": "Mistake: believing a higher duration is safer because of bigger price gains. A positive gap leaves price risk dominant, so a yield rise hurts the realized return."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:17:11",
+          "ritchken-measures-of-price-sensitivity:19:13",
+          "mpra-key-rate-duration:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor buys a coupon bond whose Macaulay duration equals her horizon. Two years later, yields have not changed and she still holds the bond. Which statement about the duration gap is most likely correct?",
+        "options": [
+          {
+            "text": "The gap is still zero, because duration and horizon both fell by two years.",
+            "value": null,
+            "explanation": "Mistake: assuming a coupon bond's Macaulay duration falls one-for-one with time. It typically falls by less, so the gap does not stay at zero."
+          },
+          {
+            "text": "The gap is still zero, because a coupon bond's duration always equals its remaining maturity.",
+            "value": null,
+            "explanation": "Mistake: only a zero-coupon bond has Macaulay duration equal to maturity. A coupon bond's duration is shorter."
+          },
+          {
+            "text": "The gap is now positive, because duration typically fell by less than two years while the horizon fell by two.",
+            "value": null,
+            "explanation": "Correct. The horizon shrinks exactly one year per year, but a coupon bond's Macaulay duration shrinks more slowly. The gap drifts positive, so the position needs rebalancing."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q9",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A coupon bond is held for a horizon shorter than its Macaulay duration. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "Price risk dominates, so a yield increase lowers the realized return below the purchase yield.",
+            "value": null,
+            "explanation": "Correct. With a positive duration gap, the sale price is the larger effect, and a rise in yields reduces the price by more than reinvestment adds."
+          },
+          {
+            "text": "Reinvestment risk dominates, so a yield increase lowers the realized return below the purchase yield.",
+            "value": null,
+            "explanation": "Mistake: reinvestment risk dominates when the horizon is longer than duration, and a yield increase helps (not hurts) reinvestment income."
+          },
+          {
+            "text": "Neither risk matters, because the coupons are known at purchase.",
+            "value": null,
+            "explanation": "Mistake: known coupon amounts do not fix the sale price or the rate at which coupons are reinvested; both are uncertain."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:24:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does the holding period return of a fixed-rate bond include?",
+        "back": "The sale price (or redemption value) plus all coupons plus interest earned by reinvesting those coupons, minus the purchase price, all divided by the purchase price.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:17:11"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "If Macaulay duration is greater than the investment horizon, which risk dominates, and what does a yield rise do to the realized return?",
+        "back": "Price risk dominates. A yield rise leaves the realized return below the purchase yield; a yield fall leaves it above.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:24:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "If Macaulay duration is less than the horizon, which risk dominates, and what does a yield fall do to the realized return?",
+        "back": "Reinvestment risk dominates. A yield fall leaves the realized return below the purchase yield; a yield rise leaves it above.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:24:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "When do price risk and reinvestment risk approximately offset on a fixed-rate bond?",
+        "back": "When Macaulay duration is about equal to the horizon (duration gap ≈ 0) and yields shift once, immediately and in parallel. The realized return then stays near the purchase yield.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:19:13",
+          "mpra-key-rate-duration:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why is a zero-coupon bond held to maturity free of both price risk and reinvestment risk?",
+        "back": "There are no coupons to reinvest, and it is redeemed at face value on the horizon date. Its Macaulay duration equals its maturity, which equals the horizon.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "9 MCQs (want 6–8)",
+    "1/9 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:45:15.175Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1428,
+      "outputTokens": 1263,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.015603,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:45:35.852Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14851,
+      "outputTokens": 2710,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0569712,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0725742
+}

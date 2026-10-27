@@ -1,0 +1,771 @@
+{
+  "losId": "fixed-income-13-los1",
+  "losText": "explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options",
+  "moduleId": "fixed-income-13",
+  "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:47:46.647Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "slcg-cmo-primer:16:15",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 16–17",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=16",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.21
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "occ-interest-rate-risk:78:92",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 78–79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "mpra-key-rate-duration:10:7",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 10–11",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=10",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "mpra-key-rate-duration:7:5",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 7–8",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=7",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:131:152",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=131",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:132:154",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 132–133",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:2:1",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 2–3",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=2",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "occ-interest-rate-risk:79:93",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "p. 79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=79",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:1:1",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 1–2",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=1",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:18:19",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 18–19",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=18",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Rate Risk When a Bond's Cash Flows Can Change",
+      "summary": "Some bonds contain options that let the issuer or the investor change the timing of cash flows, depending on where interest rates go. For these bonds, ordinary duration and convexity give misleading answers, so you need measures that re-value the bond after a yield-curve shift.",
+      "sections": [
+        {
+          "heading": "The problem: cash flows that move with rates",
+          "body_markdown": "An **embedded option** is a right written into a bond. A **callable bond** lets the issuer repay early. A **putable bond** lets the investor sell it back early at a set price. Mortgage-backed securities carry a similar option, because borrowers can prepay.\n\nThe key point is that **the cash flows are not fixed**. When rates fall, an issuer is more likely to call and refinance. When rates rise, a putable bond is more likely to be put back. Which cash flows you receive, and when, depends on the rate path.\n\nThink of a rental contract where the landlord can end the lease early whenever the market rent drops. You cannot know how long you will be paying, so you cannot measure the cost with a single fixed schedule."
+        },
+        {
+          "heading": "Why modified and Macaulay duration fall short",
+          "body_markdown": "**Macaulay duration** is the weighted-average time until a bond's promised cash flows arrive. **Modified duration** rescales it into a price sensitivity to the bond's own yield-to-maturity. Both are built on one assumption: the **expected cash flows stay the same** when yield changes.\n\nThat holds for an option-free bond such as a plain government bond. It breaks for a bond with an embedded option, because a yield move changes the chance the option is exercised and so changes the cash flows. Using modified duration on such a bond ignores half of what is happening."
+        },
+        {
+          "heading": "Effective duration and effective convexity",
+          "body_markdown": "**Effective duration** and **effective convexity** are found by re-pricing the bond. A valuation model, usually an interest-rate tree, shifts the **benchmark yield curve** down by a small amount and then up by the same amount. The model keeps the bond's **option-adjusted spread (OAS)** unchanged, which is the constant spread over the benchmark curve. It lets the option's exercise behaviour, and so the cash flows, change in each scenario. The three resulting prices are $PV_-$ (curve down), $PV_+$ (curve up) and $PV_0$ (no shift).\n\n- **Effective duration** is the average price response to the curve moving down versus up. It tells you the first-order, roughly linear, sensitivity.\n- **Effective convexity** measures how much that sensitivity changes, meaning the curvature of the price–yield relationship.\n\nBecause the cash flows are re-estimated in each scenario, the measures capture the option. For an option-free bond the cash flows do not change, so effective and modified duration come out nearly equal."
+        },
+        {
+          "heading": "What the option does to the price curve",
+          "body_markdown": "A plain bond has a price–yield curve that bows toward the origin: **positive convexity**. Gains from falling yields exceed losses from rising yields.\n\n**Callable bond.** When yields are low, the call becomes likely, so price gains are capped near the call price. The curve flattens or bends the other way, which gives **negative convexity**. Effective duration also *shortens* as yields fall, because the expected life shrinks. Price rises less than an otherwise identical option-free bond would. When yields are high and the call is far out of the money, the bond behaves much like an option-free bond.\n\n**Putable bond.** When yields rise, the investor can sell back at the put price, which cushions the price drop. Convexity is positive, and typically higher than for the option-free equivalent.\n\nOnly a measure that lets cash flows respond to yields can reveal this behaviour. That is the reason effective duration and effective convexity are the right tools for bonds with embedded options."
+        }
+      ],
+      "worked_example": {
+        "problem": "A callable bond has a full price of 100.70. A valuation model that holds the OAS constant gives a price of 101.90 when the benchmark curve shifts down 50 bp in parallel, and 99.40 when it shifts up 50 bp. Calculate the effective duration and effective convexity, and say what the sign of convexity tells you.",
+        "steps": [
+          "Write the inputs: $PV_- = 101.90$, $PV_+ = 99.40$, $PV_0 = 100.70$, $\\Delta Curve = 0.005$ (50 bp as a decimal).",
+          "Duration numerator: $PV_- - PV_+ = 101.90 - 99.40 = 2.50$. On the BA II Plus: 101.9 − 99.4 = 2.5.",
+          "Duration denominator: $2 \\times PV_0 \\times \\Delta Curve = 2 \\times 100.70 \\times 0.005 = 1.007$. Keystrokes: 2 × 100.7 × 0.005 = 1.007.",
+          "Effective duration: $2.50 / 1.007 = 2.48$.",
+          "Convexity numerator: $PV_- + PV_+ - 2PV_0 = 101.90 + 99.40 - 201.40 = -0.10$.",
+          "Convexity denominator: $PV_0 \\times \\Delta Curve^2 = 100.70 \\times 0.005 \\times 0.005 = 0.0025175$.",
+          "Effective convexity: $-0.10 / 0.0025175 = -39.72$.",
+          "Interpretation: the negative sign means the price gain from a 50 bp fall (+1.20) is smaller than the loss from a 50 bp rise (−1.30). The call option is capping the upside, which is typical of a callable bond."
+        ],
+        "answer": "Effective duration ≈ 2.48; effective convexity ≈ −39.72 (negative convexity).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Effective duration",
+          "latex": "EffDur = \\frac{PV_- - PV_+}{2 \\times PV_0 \\times \\Delta Curve}",
+          "where": "$PV_-$ = bond value after the benchmark curve shifts down, $PV_+$ = value after it shifts up, $PV_0$ = starting value, $\\Delta Curve$ = size of the parallel benchmark shift as a decimal (50 bp = 0.005). The OAS is held constant and cash flows are re-estimated in each scenario."
+        },
+        {
+          "name": "Effective convexity",
+          "latex": "EffCon = \\frac{PV_- + PV_+ - 2PV_0}{PV_0 \\times (\\Delta Curve)^2}",
+          "where": "Same symbols as above. A negative result means the price–yield curve bends the 'wrong' way, as for a callable bond when the call is in play."
+        }
+      ],
+      "exam_traps": [
+        "Using modified duration for a callable or putable bond. It assumes the cash flows stay fixed, which the option violates.",
+        "Treating the curve shift in effective duration as a change in the bond's own yield-to-maturity. The shift is applied to the benchmark curve, with the OAS held constant and cash flows re-estimated.",
+        "Assuming all bonds have positive convexity. Callable bonds (and many mortgage securities) can show negative convexity when yields are low.",
+        "Confusing the two options: a callable bond's price upside is capped, while a putable bond's downside is cushioned.",
+        "Forgetting that the denominator of effective convexity uses $\\Delta Curve$ squared, and that effective duration's denominator includes the factor 2."
+      ],
+      "builds_on": [
+        "Macaulay and modified duration",
+        "Convexity of option-free bonds",
+        "Embedded options (call, put)",
+        "Option-adjusted spread and binomial interest-rate trees"
+      ],
+      "leads_to": [
+        "Percentage price change from effective duration and convexity",
+        "Key rate duration",
+        "Empirical vs analytical duration"
+      ],
+      "cited_chunk_ids": [
+        "occ-interest-rate-risk:78:92",
+        "occ-interest-rate-risk:79:93",
+        "ftse-fixed-income-indices-guide:18:19",
+        "ftse-fixed-income-indices-guide:131:152",
+        "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+        "slcg-cmo-primer:16:15"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best explains why modified duration is a poor measure of interest rate risk for a callable bond?",
+        "options": [
+          {
+            "text": "It assumes expected cash flows stay the same when yield changes",
+            "value": null,
+            "explanation": "Correct. Modified duration treats cash flows as fixed, but the call option makes them depend on the level of yields."
+          },
+          {
+            "text": "It ignores the coupon rate when measuring price sensitivity",
+            "value": null,
+            "explanation": "Mistake: the coupon is part of the duration calculation. The problem is the fixed-cash-flow assumption, not a missing coupon."
+          },
+          {
+            "text": "It measures sensitivity to slope changes rather than level changes",
+            "value": null,
+            "explanation": "Mistake: this confuses duration with a yield-curve shape measure such as key rate duration. Modified duration concerns a yield level change."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:79:93",
+          "occ-interest-rate-risk:78:92"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Effective duration estimates a bond's price sensitivity to which of the following?",
+        "options": [
+          {
+            "text": "A change in the bond's own yield-to-maturity, with cash flows fixed",
+            "value": null,
+            "explanation": "Mistake: this describes modified duration, which keeps cash flows unchanged."
+          },
+          {
+            "text": "A change in the credit spread, with the benchmark curve unchanged",
+            "value": null,
+            "explanation": "Mistake: effective duration shifts the benchmark curve and holds the spread (OAS) constant, so it does not measure spread changes."
+          },
+          {
+            "text": "A shift in the benchmark curve, with cash flows re-estimated by a model",
+            "value": null,
+            "explanation": "Correct. The bond is re-valued after the curve moves, with option exercise and the resulting cash flows updated in each scenario."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:78:92",
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Yields have fallen well below the coupon rate on a callable bond, so a call is likely. Compared with an otherwise identical option-free bond, the callable bond's price response to a further fall in yields is best described as:",
+        "options": [
+          {
+            "text": "larger, because the bond has greater positive convexity",
+            "value": null,
+            "explanation": "Mistake: this describes a putable bond or an option-free bond with long maturity. The call limits upside, so convexity is lower, not higher."
+          },
+          {
+            "text": "negative, because a call becomes more likely at lower yields",
+            "value": null,
+            "explanation": "Mistake: prices of callable bonds do not fall when yields fall, they simply rise by less. Confusing smaller gains with a price decline."
+          },
+          {
+            "text": "smaller, with effective convexity that may be negative",
+            "value": null,
+            "explanation": "Correct. The likely call caps the price, so gains are smaller than for the option-free bond and the price–yield curve can bend the wrong way (negative convexity)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152",
+          "slcg-cmo-primer:16:15",
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor compares a putable bond with an otherwise identical option-free bond. When yields rise sharply, the putable bond's price most likely:",
+        "options": [
+          {
+            "text": "falls by about the same amount, since both have the same coupon",
+            "value": null,
+            "explanation": "Mistake: ignores the put option, which changes the cash flows and the price behaviour once yields are high."
+          },
+          {
+            "text": "falls more, because the put option loses value as yields rise",
+            "value": null,
+            "explanation": "Mistake: the put gains value as yields rise, since the holder can sell back at the put price."
+          },
+          {
+            "text": "falls less, because the holder can sell it back at the put price",
+            "value": null,
+            "explanation": "Correct. The put sets a floor on the price, which cushions the decline and supports positive convexity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A callable bond has a full price of 100.70. A model holding the OAS constant gives 101.90 after a 50 bp parallel downward shift of the benchmark curve and 99.40 after a 50 bp parallel upward shift. What is the effective duration, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.97",
+            "value": null,
+            "explanation": "Mistake: dividing by $PV_0 \\times \\Delta Curve$ without the factor of 2 in the denominator doubles the result."
+          },
+          {
+            "text": "2.38",
+            "value": null,
+            "explanation": "Mistake: using only the downward move, $(101.90 - 100.70) / (100.70 \\times 0.005)$, instead of the two-sided formula."
+          },
+          {
+            "text": "2.48",
+            "value": null,
+            "explanation": "Correct. $(101.90 - 99.40) / (2 \\times 100.70 \\times 0.005) = 2.50 / 1.007 = 2.48$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Using the same data (full price 100.70; 101.90 after a 50 bp parallel downward shift of the benchmark curve; 99.40 after a 50 bp upward shift; OAS constant), what is the effective convexity, rounded to two decimals?",
+        "options": [
+          {
+            "text": "−39.72",
+            "value": null,
+            "explanation": "Correct. $(101.90 + 99.40 - 2 \\times 100.70) / (100.70 \\times 0.005^2) = -0.10 / 0.0025175 = -39.72$, which signals negative convexity."
+          },
+          {
+            "text": "−0.20",
+            "value": null,
+            "explanation": "Mistake: dividing by $PV_0 \\times \\Delta Curve$ instead of $PV_0 \\times \\Delta Curve^2$ (forgetting to square the shift)."
+          },
+          {
+            "text": "+39.72",
+            "value": null,
+            "explanation": "Mistake: a sign error in the numerator. Because the down-shift price gain is smaller than the up-shift price loss, convexity must be negative."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "As benchmark yields fall toward and below a callable bond's coupon rate, its effective duration generally decreases. The best explanation is that:",
+        "options": [
+          {
+            "text": "coupons are reinvested at lower rates, which shortens the cash flow timing",
+            "value": null,
+            "explanation": "Mistake: reinvestment rates do not enter effective duration. The change comes from the option, not from reinvestment."
+          },
+          {
+            "text": "the bond's yield-to-maturity rises as the call price is approached",
+            "value": null,
+            "explanation": "Mistake: yields to maturity fall with the benchmark yields, and a higher YTM would not explain a shorter duration."
+          },
+          {
+            "text": "a call becomes more likely, so the expected remaining life shortens",
+            "value": null,
+            "explanation": "Correct. Greater call likelihood pulls expected cash flows earlier, so price sensitivity declines. Only effective duration captures this."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+          "ftse-fixed-income-indices-guide:18:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Why is effective duration preferred to modified duration for bonds with embedded options?",
+        "back": "Modified duration assumes cash flows do not change when yields change. An embedded option makes cash flows depend on yields, and effective duration re-values the bond with those changes included.",
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:78:92",
+          "occ-interest-rate-risk:79:93"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is held constant and what is shifted when computing effective duration?",
+        "back": "The benchmark yield curve is shifted up and down in parallel, and the OAS is held constant. Cash flows are re-estimated by a model in each scenario.",
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:78:92"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What does negative effective convexity indicate for a callable bond?",
+        "back": "The price–yield curve bends the 'wrong' way. As yields fall, price gains are capped by the likely call, so prices rise by less than they fall when yields rise by the same amount.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152",
+          "slcg-cmo-primer:16:15"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do the convexity profiles of callable and putable bonds differ?",
+        "back": "Callable: capped upside and possibly negative convexity at low yields. Putable: price floor when yields rise, giving positive convexity that is usually higher than for an option-free bond.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:47:38.813Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-13-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 744,
+      "outputTokens": 615,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007755,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:47:46.647Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-13-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12829,
+      "outputTokens": 1150,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0373272,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.045082199999999996
+}

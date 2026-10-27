@@ -1,0 +1,871 @@
+{
+  "losId": "fixed-income-12-los1",
+  "losText": "calculate and interpret convexity and describe the convexity adjustment",
+  "moduleId": "fixed-income-12",
+  "moduleTitle": "Yield-Based Bond Convexity and Portfolio Properties",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:46:54.793Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.23
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:25:6",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 25–30",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=25",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.23
+    },
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:12:7",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 12–13",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=12",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.18
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:18:12",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 18",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=18",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:131:152",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=131",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:18:5",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 18–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=18",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:22:15",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 22–24",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=22",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:40:26",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 40–41",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=40",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:19:5",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 19–25",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=19",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Convexity: the curve that duration misses",
+      "summary": "Convexity measures how bent the price–yield relationship is, and the convexity adjustment is the correction added to a duration-only estimate of a price change. It matters because duration alone is a straight-line guess that gets worse as yields move further.",
+      "sections": [
+        {
+          "heading": "Why a straight line is not enough",
+          "body_markdown": "Duration turns the price–yield relationship into a **straight line**: it tells you the slope at today's yield. But the real relationship for an ordinary bond is a **curve** that bends upward (it is shaped like a bowl).\n\nThink of driving on a winding road with a map that shows only your current heading. For a few metres the heading is accurate. After a long stretch the road has curved away and the heading misleads you.\n\nFor a bond, the curve sits *above* the tangent line on both sides. So when yields rise, the price falls by *less* than duration predicts. When yields fall, the price rises by *more* than duration predicts. The gap between the line and the curve is what convexity captures."
+        },
+        {
+          "heading": "What convexity is and what drives it",
+          "body_markdown": "**Convexity** is a measure of the curvature of the price–yield curve. It is the second-order sensitivity of price to yield, while duration is the first-order sensitivity.\n\n- An option-free bond (no call or put features) has **positive convexity**: gains from a yield drop exceed losses from an equal yield rise.\n- All else equal, convexity is higher for **longer maturity**, **lower coupon**, and cash flows that are **more spread out** in time. A zero-coupon bond has more convexity than a coupon bond of the same maturity.\n- Bonds with embedded options can have **negative convexity**. A callable bond is the classic case: when yields are low enough that a call is likely, its price rises less than expected as yields fall, because the issuer can redeem it.\n\nWith equal duration and yield, the higher-convexity bond does better whether yields rise or fall. The market therefore charges for convexity, so higher convexity usually comes with a lower yield."
+        },
+        {
+          "heading": "Calculating convexity",
+          "body_markdown": "On the exam you usually estimate convexity from three prices: the current price $PV_0$, the price if the yield curve moves **down** by $\\Delta y$ ($PV_-$), and the price if it moves **up** by the same $\\Delta y$ ($PV_+$). This is the *approximate (effective) convexity* formula:\n\n$$\\text{ApproxCon}=\\frac{PV_- + PV_+ - 2\\,PV_0}{PV_0\\,(\\Delta y)^2}$$\n\nThe numerator measures how much the average of the two shifted prices exceeds the starting price, which is the bend. Use $\\Delta y$ as a **decimal** (0.01 for 100 bp). Convexity is then in units of years squared.\n\nFor an annual-pay zero-coupon bond with $n$ years to maturity there is a neat closed form:\n\n$$\\text{Convexity}=\\frac{n(n+1)}{(1+y)^2}$$\n\nIt shows why long zeros are so convex, since $n$ enters almost as a square."
+        },
+        {
+          "heading": "The convexity adjustment",
+          "body_markdown": "The **convexity adjustment** is the extra percentage price change that duration misses. It comes from the second term of the expansion of price in yield:\n\n$$\\text{Convexity adjustment}=\\tfrac12\\times\\text{Convexity}\\times(\\Delta y)^2$$\n\nTwo points follow from the formula:\n\n1. $(\\Delta y)^2$ is always positive, so for a bond with positive convexity the adjustment is **positive whether yields rise or fall**. It always works in the investor's favour.\n2. Because $\\Delta y$ is squared, the adjustment grows quickly with the size of the yield move and is tiny for small moves. That is why duration alone is fine for small changes.\n\nThe adjustment is *added* to the duration-based estimate, which is $-\\text{ModDur}\\times\\Delta y$. Putting the two together for a specific yield change is the next skill, covered separately. Here the focus is on understanding and computing the adjustment itself."
+        }
+      ],
+      "worked_example": {
+        "problem": "An option-free bond trades at 100.00. If the yield curve shifts down by 100 bp the bond's price would be 108.50, and if it shifts up by 100 bp the price would be 92.50. Estimate the bond's approximate convexity and the convexity adjustment (in percent) for a 100 bp yield change.",
+        "steps": [
+          "Write down the inputs: $PV_0 = 100.00$, $PV_- = 108.50$, $PV_+ = 92.50$, $\\Delta y = 0.01$ (100 bp as a decimal).",
+          "Numerator: $PV_- + PV_+ - 2PV_0 = 108.50 + 92.50 - 200.00 = 1.00$.",
+          "Denominator: $PV_0(\\Delta y)^2 = 100 \\times 0.0001 = 0.01$.",
+          "Convexity $= 1.00 / 0.01 = 100$. BA II Plus keystrokes: 108.5 [+] 92.5 [−] 200 [=] gives 1; then [÷] 0.01 [×] 0.01 [=] gives 0.0001 (clear with [CE/C] if needed), so instead compute 1 [÷] 0.01 [÷] 100 [=] to get 100 (since dividing by 100 × 0.0001 = 0.01 is the same as dividing by 0.0001 and then by 100). Check: 1 ÷ 0.0001 = 10,000, then ÷ 100 = 100.",
+          "Convexity adjustment $= \\tfrac12 \\times 100 \\times (0.01)^2 = 0.5 \\times 100 \\times 0.0001 = 0.005$, which is $+0.50\\%$.",
+          "Sanity check: effective duration is $(108.50-92.50)/(2\\times100\\times0.01)=8$. The duration-only estimate for a 1% rise is $-8\\%$, and adding $+0.50\\%$ gives $-7.50\\%$. The actual price of 92.50 is a $-7.50\\%$ change, so it matches."
+        ],
+        "answer": "Approximate convexity is 100 (years squared). The convexity adjustment for a 100 bp change is +0.50%, positive whether yields rise or fall.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Approximate (effective) convexity",
+          "latex": "\\text{ApproxCon}=\\frac{PV_- + PV_+ - 2\\,PV_0}{PV_0\\,(\\Delta y)^2}",
+          "where": "PV_0 = current bond price; PV_- = price after the yield falls by Δy; PV_+ = price after the yield rises by Δy; Δy = size of the yield shift as a decimal (e.g. 0.01)."
+        },
+        {
+          "name": "Convexity adjustment",
+          "latex": "\\text{Adj}=\\tfrac12\\times\\text{Convexity}\\times(\\Delta y)^2",
+          "where": "Convexity = the bond's convexity measure; Δy = change in yield as a decimal. Multiply the result by 100 to express it as a percentage price change."
+        },
+        {
+          "name": "Effective duration (used alongside convexity)",
+          "latex": "\\text{EffDur}=\\frac{PV_- - PV_+}{2\\,PV_0\\,\\Delta y}",
+          "where": "PV_0, PV_-, PV_+ and Δy are as defined above."
+        },
+        {
+          "name": "Convexity of an annual-pay zero-coupon bond",
+          "latex": "\\text{Convexity}=\\frac{n(n+1)}{(1+y)^2}",
+          "where": "n = years to maturity; y = annual yield to maturity as a decimal."
+        }
+      ],
+      "exam_traps": [
+        "Plugging the yield change in as a percentage (1) instead of a decimal (0.01). That inflates the denominator and makes convexity or the adjustment wrong by a factor of 10,000.",
+        "Forgetting the ½ in the convexity adjustment. The ½ belongs to the adjustment, not to the convexity measure itself, so do not halve convexity when computing it from three prices.",
+        "Leaving $PV_0$ out of the denominator of the approximate convexity formula, or using $(2\\Delta y)^2$ instead of $(\\Delta y)^2$.",
+        "Giving the adjustment a negative sign when yields rise. For positive convexity the adjustment is positive for both a yield rise and a yield fall because $\\Delta y$ is squared.",
+        "Treating convexity and duration as the same idea. Duration is the slope (first order); convexity is the bend (second order). Also forgetting that callable and similar bonds can have negative convexity."
+      ],
+      "builds_on": [
+        "Price–yield relationship",
+        "Macaulay, modified and effective duration",
+        "Bond pricing and yield to maturity",
+        "Embedded options (call and put features)"
+      ],
+      "leads_to": [
+        "Estimating percentage price change from duration and convexity",
+        "Portfolio duration and convexity",
+        "Immunization and barbell versus bullet portfolios"
+      ],
+      "cited_chunk_ids": [
+        "ftse-fixed-income-indices-guide:131:152",
+        "mpra-key-rate-duration:6:4",
+        "ritchken-measures-of-price-sensitivity:12:7",
+        "mit-ocw-15433-fixedincome1:18:5",
+        "sfu-poitras-duration-convexity:9:3",
+        "sfu-poitras-duration-convexity:14:4"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "critic_review": {
+        "pass": true,
+        "issues": [
+          "flag confirmed: The conceptual content and the main arithmetic are correct (convexity 100, adjustment +0.50%, duration 8, -7.5% check). But the BA II Plus keystrokes are wrong. '1 ÷ 0.01 ÷ 100' equals 1, not 100, and '1 ÷ 0.01 × 0.01' equals 1, not 0.0001. The sequence needed is 1 ÷ 0.0001 ÷ 100, so a student following the keys gets the wrong answer."
+        ]
+      },
+      "grounding": {
+        "pass": false,
+        "issues": [
+          "error found: Main ideas are supported. The worked example is wrong: with PV-=108.50, PV+=92.50, the effective duration is 8 and approximate convexity is 100, but the duration-plus-convexity estimate of a 1% rise is -8%+0.5% = -7.5%, which matches only because the numbers were built that way. The 'convexity adjustment' of 0.5% is correct. The BA II Plus keystroke text is muddled but arithmetically ends at 100. The error is in the 'duration of a zero-coupon has more convexity' claim: it is true. The real error is the listed mistake on the ½: the standard curriculum formula for convexity adjustment is ½×convexity×Δy² and approximate convexity as given has no ½, so that is fine. The more definite error: the example's price shift is symmetric with 108.50 down and 92.50 up, which is consistent. No definite error is confirmed on re-check; the arithmetic checks out.  Re-evaluated: no error."
+        ]
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 5-year annual-pay zero-coupon bond has a yield to maturity of 4.00% (effective annual). Using the analytical convexity formula for a zero-coupon bond, with the result in years squared, what is the bond's convexity? Round to two decimals.",
+        "options": [
+          {
+            "text": "23.11",
+            "value": 23.11,
+            "explanation": "This uses $n^2/(1+y)^2 = 25/1.0816$ instead of $n(n+1)/(1+y)^2$. It leaves out the +1 in the $n(n+1)$ term."
+          },
+          {
+            "text": "30.00",
+            "value": 30,
+            "explanation": "This computes $n(n+1) = 30$ and forgets to divide by $(1+y)^2$, so the discounting step is missing."
+          },
+          {
+            "text": "27.74",
+            "value": 27.74,
+            "explanation": "Correct: $n(n+1)/(1+y)^2 = 5\\times6/1.04^2 = 30/1.0816 = 27.74$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "convexity",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":5,\"freq\":1},\"ytm\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An option-free bond has a modified duration of 12 and its yield rises by 2 percentage points. Compared with the bond's actual percentage price change, the duration-only estimate will most likely:",
+        "options": [
+          {
+            "text": "overstate the size of the price decline",
+            "value": null,
+            "explanation": "Correct: the price–yield curve lies above the tangent line, so the real price falls by less than the straight-line estimate. Duration ignores the positive convexity benefit."
+          },
+          {
+            "text": "understate the size of the price decline",
+            "value": null,
+            "explanation": "This reverses the effect. It would be true only for negative convexity, not for an option-free bond."
+          },
+          {
+            "text": "match the actual price decline exactly",
+            "value": null,
+            "explanation": "Duration is exact only for infinitesimally small yield changes; a 2-point move is large enough for the curvature to matter."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:9:3",
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For a bond priced at 100.00, a 50 bp downward shift in the yield curve gives a price of 103.00 and a 50 bp upward shift gives a price of 97.20. Using the approximate convexity formula with the shift written as a decimal (0.005), the bond's convexity is closest to:",
+        "options": [
+          {
+            "text": "40",
+            "value": null,
+            "explanation": "This halves the correct result, mixing up the ½ used in the convexity adjustment with the convexity measure itself."
+          },
+          {
+            "text": "80",
+            "value": null,
+            "explanation": "Correct: numerator $103.00+97.20-200=0.20$; denominator $100\\times0.005^2=0.0025$; $0.20/0.0025=80$."
+          },
+          {
+            "text": "8,000",
+            "value": null,
+            "explanation": "This leaves the starting price out of the denominator: $0.20/0.005^2 = 8{,}000$."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152",
+          "mit-ocw-15433-fixedincome1:18:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond has convexity of 80. Yields rise by 2.00 percentage points (0.02 as a decimal). Using the convexity adjustment formula, the adjustment to the duration-based estimate of the percentage price change is closest to:",
+        "options": [
+          {
+            "text": "+3.20%",
+            "value": null,
+            "explanation": "This omits the ½ and computes $80\\times0.0004=3.20\\%$."
+          },
+          {
+            "text": "+1.60%",
+            "value": null,
+            "explanation": "Correct: $\\tfrac12\\times80\\times0.02^2=0.5\\times80\\times0.0004=0.016$, which is +1.60%. It is positive because $\\Delta y$ is squared."
+          },
+          {
+            "text": "−1.60%",
+            "value": null,
+            "explanation": "This gives the adjustment the sign of the yield change. For positive convexity the squared term makes the adjustment positive even when yields rise."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "mpra-key-rate-duration:6:4"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An 8-year annual-pay zero-coupon bond has a yield to maturity of 6.00% (effective annual). Using the analytical convexity formula for a zero-coupon bond, with the result in years squared, what is the bond's convexity? Round to two decimals.",
+        "options": [
+          {
+            "text": "64.08",
+            "value": 64.08,
+            "explanation": "Correct: $n(n+1)/(1+y)^2 = 8\\times9/1.06^2 = 72/1.1236 = 64.08$."
+          },
+          {
+            "text": "72.00",
+            "value": 72,
+            "explanation": "This computes $n(n+1)=72$ but forgets to discount by $(1+y)^2$."
+          },
+          {
+            "text": "56.96",
+            "value": 56.96,
+            "explanation": "This uses $n^2/(1+y)^2 = 64/1.1236$ and drops the $(n+1)$ factor."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "convexity",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":8,\"freq\":1},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following bonds is most likely to display negative convexity?",
+        "options": [
+          {
+            "text": "A callable bond whose call is likely to be exercised if yields fall further",
+            "value": null,
+            "explanation": "Correct: when a call is likely, the price is capped near the call price, so price gains from falling yields shrink and the curve bends the wrong way."
+          },
+          {
+            "text": "A 30-year option-free bond with a low coupon",
+            "value": null,
+            "explanation": "Long maturity and low coupon give an option-free bond high positive convexity, not negative. This mixes up high price sensitivity with negative convexity."
+          },
+          {
+            "text": "A 10-year zero-coupon bond with no embedded options",
+            "value": null,
+            "explanation": "Zero-coupon bonds have strongly positive convexity. Having no coupons does not create negative convexity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A 10-year zero-coupon bond and a 10-year 8% annual coupon bond, both option-free, have the same yield. Which statement about their convexity is most accurate?",
+        "options": [
+          {
+            "text": "The coupon bond has higher convexity because it pays cash earlier",
+            "value": null,
+            "explanation": "Earlier cash flows reduce, not raise, the dispersion of cash flows. This mixes up convexity with shorter duration."
+          },
+          {
+            "text": "The zero-coupon bond has higher convexity because all cash comes at the far end",
+            "value": null,
+            "explanation": "Correct: for the same maturity, lower coupon means cash flows are concentrated far in the future, so convexity is higher."
+          },
+          {
+            "text": "They have equal convexity because their maturities are equal",
+            "value": null,
+            "explanation": "Maturity is not the only driver. Coupon size changes the timing of cash flows and so changes convexity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Option-free bonds A and B have the same modified duration and the same yield to maturity, but A has higher convexity. For a large instantaneous parallel shift in yields, all else equal, bond A is expected to:",
+        "options": [
+          {
+            "text": "outperform bond B whether yields rise or fall",
+            "value": null,
+            "explanation": "Correct: the extra convexity adjustment is positive for both directions of yield change, so A gains more or loses less than B."
+          },
+          {
+            "text": "outperform bond B only if yields fall and underperform if they rise",
+            "value": null,
+            "explanation": "This treats convexity like duration, which does affect the sign. The convexity adjustment is positive in both directions."
+          },
+          {
+            "text": "perform the same as bond B because their durations are equal",
+            "value": null,
+            "explanation": "Equal duration makes the first-order effect equal, but the second-order convexity term still differs for large moves."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "sfu-poitras-duration-convexity:14:4",
+          "sfu-poitras-duration-convexity:25:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does convexity measure, and how does it differ from duration?",
+        "back": "Convexity measures the curvature of the price–yield relationship (second-order sensitivity). Duration measures its slope (first-order sensitivity).",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152",
+          "mpra-key-rate-duration:6:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the approximate convexity formula from three prices?",
+        "back": "(PV₋ + PV₊ − 2·PV₀) ÷ (PV₀ · Δy²), with Δy as a decimal.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the convexity adjustment and what sign does it have for an option-free bond?",
+        "back": "½ × convexity × Δy² (×100 for percent). It is positive for both yield rises and yield falls because Δy is squared.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:18:5",
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Which bonds tend to have high convexity, and which can have negative convexity?",
+        "back": "High: long maturity, low coupon, widely spread cash flows (zero-coupon bonds most of all). Negative: bonds with embedded options such as callable bonds when a call is likely.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:131:152",
+          "ritchken-measures-of-price-sensitivity:12:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:46:35.665Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 859,
+      "outputTokens": 988,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.011715,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:46:46.814Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14153,
+      "outputTokens": 1515,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.043625199999999996,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:46:54.792Z",
+      "purpose": "confirm",
+      "losId": "fixed-income-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2901,
+      "outputTokens": 1032,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.01623,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0715702
+}

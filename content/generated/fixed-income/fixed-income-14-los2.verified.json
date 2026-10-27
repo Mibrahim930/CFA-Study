@@ -1,0 +1,772 @@
+{
+  "losId": "fixed-income-14-los2",
+  "losText": "describe the uses of ratings from credit rating agencies and their limitations",
+  "moduleId": "fixed-income-14",
+  "moduleTitle": "Credit Risk",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:48:53.961Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "nyfed-securitization:43:54",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 43",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=43",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "nyfed-securitization:42:53",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 42–43",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=42",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-securitization:4:3",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 4",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=4",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:81:100",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 81–82",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=81",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "philfed-credit-card-abs:12:13",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 12–13",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=12",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.4",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:81:99",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 81",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=81",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "philfed-credit-card-abs:13:14",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 13–16",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=13",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Optimal Capital Structure",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:16:20",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 16",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=16",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:40:63",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 40",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=40",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Credit Ratings: What They Are Used For and Where They Fall Short",
+      "summary": "Credit rating agencies publish letter grades that give a quick opinion on how likely an issuer or bond is to meet its debt payments. Investors, issuers and regulators all lean on these grades, so you need to know both their uses and their weaknesses (lag, imprecision, conflicts of interest, and uneven meaning across product types).",
+      "sections": [
+        {
+          "heading": "1. A rating is a short, standardized opinion about credit risk",
+          "body_markdown": "Think of a rating as a restaurant-inspection grade for a borrower. It will not tell you everything about the restaurant, but it gives you a fast signal. Agencies such as S&P, Moody's and Fitch study an issuer's financial statements, industry, management and legal terms, and then summarize their opinion as a letter grade.\n\n- **Investment grade:** BBB− / Baa3 and above (the AAA/Aaa to BBB/Baa families).\n- **Speculative grade (also called high-yield or \"junk\"):** BB+ / Ba1 and below.\n- Within a letter category, **modifiers** (+/− at S&P and Fitch, 1/2/3 at Moody's) split the grade into finer **notches**.\n\nA rating is an opinion about **credit (default) risk only**. It is not a forecast of price, and it does not measure liquidity or interest-rate risk. Strictly, ratings attach to **instruments** (a specific bond), not just to the company. For ordinary senior unsecured corporate bonds the issuer rating and the bond rating match, but a subordinated bond or a structured-product tranche from the same sponsor can carry a different rating.\n\nAt a minimum, ratings give an **ordinal** ranking: AAA is safer than AA, which is safer than A, and so on.\n\nThe default probabilities attached to those rankings rise roughly exponentially as you move down the scale."
+        },
+        {
+          "heading": "2. How ratings are used",
+          "body_markdown": "**Investors** use ratings as a quick screen and as a starting point for their own analysis. Doing a full credit review of every bond is expensive, so the rating is a shortcut that also helps a client or board judge whether a manager is taking acceptable risk.\n\n**Investment mandates and regulation** often hard-wire ratings. Examples:\n- A pension fund may be allowed to hold only investment-grade bonds.\n- Insured banks may be barred from speculative-grade securities, or face capital charges that depend on rating.\n- A managed CDO may have to keep its average portfolio rating above a floor and limit the fraction of low-rated holdings.\n\nBecause such rules exist, a downgrade across the investment-grade/speculative line can force selling and shrink the pool of eligible buyers. That hurts the bond's liquidity and price.\n\n**Issuers** care because a higher rating usually means a lower borrowing cost. Issuers may even add a guarantee or insurance (**credit enhancement**) to lift the rating of a bond issue and so cut the interest they must pay.\n\n**Pricing and monitoring:** ratings sort bonds into risk classes, so yield spreads over a benchmark are usually wider for lower-rated classes."
+        },
+        {
+          "heading": "3. Limitations: ratings are a useful tool, not the whole analysis",
+          "body_markdown": "1. **Lag.** A rating can trail changes in the issuer's true financial health, so it is only a quick indicator and not a replacement for ongoing analysis. Agencies usually aim for a **through-the-cycle** view (a long-run, cycle-neutral opinion rather than one that swings with each economic wobble). That makes ratings more stable but slower to react than market prices.\n2. **Event risk.** Sudden events such as a leveraged buyout, restructuring or court ruling can damage credit quality before any rating action.\n3. **Imprecision.** The default rates behind rating categories are noisy estimates. Among investment-grade notches the historical estimates overlap so much that it is hard to tell AA from A statistically. Finer notches can therefore give a *false sense of accuracy*. Speculative-grade categories are easier to distinguish.\n4. **Not uniform across products.** Agencies say an AAA rating should mean the same thing everywhere, but actual outcomes differ across countries, industries and especially between corporate bonds and structured products such as CDO tranches. Agencies also differ on what exactly is measured: some ratings lean toward probability of default, others also reflect expected recovery.\n5. **Conflict of interest and model risk.** The issuer or arranger typically pays the agency, not the investors who rely on the opinion. Ratings rely on models the investor cannot inspect, so honest or dishonest errors are possible. Reputation and public disclosure are the main safeguards.\n6. **Narrow scope.** A rating says nothing directly about liquidity, market price or whether the bond is cheap. Two bonds with the same rating can trade at different spreads, so analysts should add their own credit work and look at market spreads."
+        }
+      ],
+      "worked_example": {
+        "problem": "Using the smoothed one-year default probabilities (grade level) from a study of S&P's 1981–2006 history: A = 2.1 bp, BBB = 8.5 bp, BB = 51.9 bp (1 bp = 0.01%). A pension fund may hold only investment-grade bonds. (a) How many times larger is the default probability of a BB issuer than that of a BBB issuer, compared with BBB versus A? (b) What does this say about the use and limits of the investment-grade cutoff?",
+        "steps": [
+          "Step 1: Convert to the same unit. All values are already in basis points, so no conversion is needed (51.9 bp = 0.519%, 8.5 bp = 0.085%, 2.1 bp = 0.021%).",
+          "Step 2: BB versus BBB: 51.9 ÷ 8.5 ≈ 6.1. A BB issuer has roughly 6 times the one-year default probability of a BBB issuer.",
+          "Step 3: BBB versus A: 8.5 ÷ 2.1 ≈ 4.0. A BBB issuer has roughly 4 times that of an A issuer.",
+          "Step 4: Interpret. Default probability rises non-linearly as ratings fall, and the step across the investment-grade line (BBB to BB) is large. This is why mandates use the line as a cutoff, and why a downgrade across it can force selling.",
+          "Step 5: Note the limits. The figures are historical averages that differ by agency, period and product type, and a rating can lag real credit changes. The cutoff is therefore a blunt screen; the fund still needs its own credit analysis."
+        ],
+        "answer": "BB default probability is about 6.1 times BBB's, versus about 4.0 times for BBB against A. Ratings rank risk usefully and the investment-grade line matters for mandates, but the numbers are historical averages and the cutoff is only a rough screen.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating a rating as a measure of price, value or liquidity. It addresses credit risk only, and same-rated bonds can trade at very different spreads.",
+        "Assuming ratings update instantly. They often lag financial deterioration and event risk, and through-the-cycle ratings move less than market prices.",
+        "Assuming the same letter grade behaves identically for corporate bonds and structured products. Evidence shows differences across countries, industries and product types.",
+        "Getting the investment-grade cutoff wrong. It is BBB− / Baa3 and above; BB+ / Ba1 is already speculative grade.",
+        "Forgetting that issuers or arrangers, not investors, usually pay the agencies, which creates a conflict of interest."
+      ],
+      "builds_on": [
+        "Credit risk, probability of default and loss given default",
+        "Bond indenture and credit enhancement",
+        "Yield spreads over benchmark"
+      ],
+      "leads_to": [
+        "Factors affecting yield spreads",
+        "Credit analysis of corporate issuers",
+        "Structured finance and securitization risk"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00073:1.3",
+        "os:principles-finance-2e:m00073:1.4",
+        "nyfed-securitization:42:53",
+        "nyfed-securitization:43:54",
+        "nyfed-securitization:4:3",
+        "nyfed-securitization:16:20",
+        "nyfed-securitization:81:99",
+        "nyfed-securitization:81:100",
+        "fed-trading-4000-p1:40:63",
+        "philfed-credit-card-abs:13:14"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes how credit ratings are commonly used in investment mandates and regulation?",
+        "options": [
+          {
+            "text": "A rating sets the coupon an issuer is legally required to pay.",
+            "value": null,
+            "explanation": "Ratings influence borrowing cost through investor demand, but they do not legally set the coupon. This confuses a cost effect with a legal requirement."
+          },
+          {
+            "text": "A rating removes the need to review a bond's contract terms.",
+            "value": null,
+            "explanation": "This overstates reliance on ratings. Ratings are a quick indicator, and analysts still need to examine terms and the issuer's finances."
+          },
+          {
+            "text": "A rule may cap holdings rated below a stated level.",
+            "value": null,
+            "explanation": "Correct. Pension mandates, bank rules and CDO covenants often restrict holdings below investment grade or limit the average or share of low-rated securities."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:16:20",
+          "os:principles-finance-2e:m00073:1.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "On the S&P and Moody's scales, which pair is the lowest rating still classed as investment grade?",
+        "options": [
+          {
+            "text": "BB+ / Ba1",
+            "value": null,
+            "explanation": "This is the top of speculative grade. Treating BB+ as investment grade misplaces the cutoff by one category."
+          },
+          {
+            "text": "BBB− / Baa3",
+            "value": null,
+            "explanation": "Correct. Investment grade runs from AAA/Aaa down to BBB−/Baa3, and anything below is speculative grade."
+          },
+          {
+            "text": "BBB+ / Baa1",
+            "value": null,
+            "explanation": "This is the top of the BBB/Baa category. It is investment grade but not the lowest. This mistake ignores the lower notches in the category."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:1.4",
+          "philfed-credit-card-abs:13:14"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature of the rating business is most often cited as a source of conflict of interest?",
+        "options": [
+          {
+            "text": "The issuer or arranger usually pays the agency, not the investors relying on the rating.",
+            "value": null,
+            "explanation": "Correct. Because the party being rated or arranging the deal pays, the agency may face pressure to be generous. Investors cannot easily check the models behind the opinion."
+          },
+          {
+            "text": "Investors pay for each rating, so agencies may rate issuers too generously.",
+            "value": null,
+            "explanation": "This reverses who pays. Under the common model the issuer or arranger is the payer, so this is not the standard conflict."
+          },
+          {
+            "text": "Agencies trade the bonds they rate for their own accounts.",
+            "value": null,
+            "explanation": "This confuses rating agencies with dealers or banks. The usual concern is the fee arrangement, not proprietary trading."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:4:3",
+          "nyfed-securitization:16:20"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company announces a large debt-funded leveraged buyout. Its bonds fall sharply in price, but the agencies leave the rating unchanged for several weeks. Which limitation of ratings does this best illustrate?",
+        "options": [
+          {
+            "text": "Ratings include liquidity risk, so price drops are already built in.",
+            "value": null,
+            "explanation": "Ratings focus on credit risk only and do not capture liquidity or market-price risk. This misdescribes what a rating covers."
+          },
+          {
+            "text": "Ratings give exact default probabilities that are updated daily.",
+            "value": null,
+            "explanation": "Ratings are ordinal opinions with noisy default estimates behind them, and they are not updated daily. This treats a rating as a precise, real-time number."
+          },
+          {
+            "text": "Ratings can lag financial changes, and event risk can strike first.",
+            "value": null,
+            "explanation": "Correct. A rating is a quick indicator but can trail the issuer's real condition. Events such as leveraged buyouts can hurt credit quality before any rating action."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:40:63"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Rating agencies generally aim for a through-the-cycle view. What is the main consequence for a bond investor?",
+        "options": [
+          {
+            "text": "Ratings fall immediately in each recession and rise in each expansion.",
+            "value": null,
+            "explanation": "This describes a point-in-time approach. Through-the-cycle ratings deliberately avoid reacting to every swing in the economy."
+          },
+          {
+            "text": "Ratings move less with short-term swings, so they may lag market-implied credit risk.",
+            "value": null,
+            "explanation": "Correct. A cycle-neutral opinion is more stable, which helps with mandates but means market spreads can signal trouble before a rating change."
+          },
+          {
+            "text": "Ratings reflect only the next quarter's expected earnings.",
+            "value": null,
+            "explanation": "This confuses a through-the-cycle view with a very short-term earnings view. The approach is a long-run opinion."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:43:54",
+          "nyfed-securitization:16:20"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Historical default data show that default probabilities for adjacent investment-grade notches (e.g., AA and A) are statistically hard to tell apart. What is the best conclusion about using finer rating modifiers?",
+        "options": [
+          {
+            "text": "Notch-level differences in investment grade may suggest more precision than the data support.",
+            "value": null,
+            "explanation": "Correct. Estimates are noisy and overlap heavily in investment grade, so fine notches can give a false sense of accuracy even though the ordering is still informative."
+          },
+          {
+            "text": "Notch-level differences are equally unreliable in speculative grade.",
+            "value": null,
+            "explanation": "Over-generalization. The evidence says speculative-grade categories are more clearly distinguishable than investment-grade ones."
+          },
+          {
+            "text": "All investment-grade bonds have equal default risk, so ratings cannot rank them.",
+            "value": null,
+            "explanation": "This overstates the finding. The ranking is still informative at the category level; only fine notch differences are hard to verify."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:81:99",
+          "nyfed-securitization:81:100"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A manager whose mandate is written only in terms of credit rating buys an AAA-rated structured-finance tranche instead of an AAA-rated corporate bond because the tranche pays a higher coupon. What is the main weakness in relying on the rating alone here?",
+        "options": [
+          {
+            "text": "Ratings exist only for corporate bonds, so the tranche's AAA is not valid.",
+            "value": null,
+            "explanation": "Wrong. Agencies do rate structured products. The problem is comparability of the grade, not whether a rating exists."
+          },
+          {
+            "text": "The same letter grade may not behave alike across product types, and the extra yield may pay for risk the rating missed.",
+            "value": null,
+            "explanation": "Correct. Agencies claim a uniform scale, but outcomes differ between corporate bonds and structured products. A mandate that ignores this lets managers reach for yield at the same nominal rating."
+          },
+          {
+            "text": "The higher coupon shows the agency gave the tranche a lower rating.",
+            "value": null,
+            "explanation": "Both are stated to be AAA. The coupon difference reflects market pricing of the risk, not a hidden lower rating."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:43:54",
+          "nyfed-securitization:42:53",
+          "nyfed-securitization:4:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does a credit rating measure, and what does it NOT measure?",
+        "back": "It is an agency's opinion of default (credit) risk, giving at least an ordinal ranking. It does not measure liquidity, price or relative value.",
+        "cited_chunk_ids": [
+          "nyfed-securitization:42:53",
+          "nyfed-securitization:81:99"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Name three ways ratings are used by market participants.",
+        "back": "Investors screen and monitor risk. Mandates, regulators and CDO covenants set rating limits. Issuers face lower borrowing costs when rated higher (and may add credit enhancement).",
+        "cited_chunk_ids": [
+          "nyfed-securitization:16:20",
+          "os:principles-finance-2e:m00073:1.3",
+          "fed-trading-4000-p1:40:63"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "List the main limitations of credit ratings.",
+        "back": "They lag real changes and event risk, are noisy (false precision at fine notches), may not mean the same across product types, involve issuer-pays conflicts and model error, and ignore liquidity and price.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:40:63",
+          "nyfed-securitization:81:99",
+          "nyfed-securitization:4:3",
+          "nyfed-securitization:43:54"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the investment-grade cutoff, and why does it matter?",
+        "back": "BBB− (S&P/Fitch) or Baa3 (Moody's) is the lowest investment grade. Many mandates and rules use this line, so a downgrade below it can force selling and hurt liquidity and price.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:1.4",
+          "os:principles-finance-2e:m00073:1.3",
+          "nyfed-securitization:16:20"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:48:45.038Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-14-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 940,
+      "outputTokens": 473,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006727,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:48:53.961Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-14-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13353,
+      "outputTokens": 1270,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0395752,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0463022
+}

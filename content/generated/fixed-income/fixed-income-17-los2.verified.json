@@ -1,0 +1,769 @@
+{
+  "losId": "fixed-income-17-los2",
+  "losText": "describe securitization, including the parties and the roles they play",
+  "moduleId": "fixed-income-17",
+  "moduleTitle": "Fixed-Income Securitization",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:50:49.506Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "philfed-credit-card-abs:4:3",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 4–5",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=4",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-securitization:15:12",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 15–16",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=15",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-installment-lending:43:63",
+      "title": "Comptroller's Handbook: Installment Lending (auto and student loans, securitization) (OCC)",
+      "locator": "pp. 43–44",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/installment-lending/pub-ch-installment-lending.pdf#page=43",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-mortgage-banking:184:232",
+      "title": "Comptroller's Handbook: Mortgage Banking (OCC)",
+      "locator": "pp. 184–185",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/mortgage-banking/pub-ch-mortgage-banking.pdf#page=184",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-alt-credit:65:83",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 65–66",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=65",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-sr423-cpff:5:3",
+      "title": "The Federal Reserve's Commercial Paper Funding Facility (FRBNY Staff Report 423; commercial paper market description)",
+      "locator": "pp. 5–6",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr423.pdf#page=5",
+      "license": "Federal Reserve Bank of New York staff report; no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-risk-retention-2010:71:68",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 71–72",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=71",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-asset-securitization:4:1",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 4–5",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=4",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-asset-securitization:10:6",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "p. 10",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=10",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:50:79",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 50",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "philfed-credit-card-abs:12:12",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "p. 12",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=12",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-lease-financing:14:19",
+      "title": "Comptroller's Handbook: Lease Financing (finance vs operating leases, lessor accounting) (OCC)",
+      "locator": "p. 14",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/lease-financing/pub-ch-lease-financing.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Securitization: the pipeline and the cast of characters",
+      "summary": "Securitization turns a pool of loans or receivables into tradable bonds by moving the assets into a separate legal entity that funds itself by selling securities. Knowing who does what (originator, special purpose entity, servicer, trustee, underwriter, rating agency, credit enhancer, investors) is essential because the roles determine who bears which risk.",
+      "sections": [
+        {
+          "heading": "The big idea: loans in, bonds out",
+          "body_markdown": "A bank that makes loans normally holds them for years and funds them with deposits and its own borrowing. In **securitization** the lender instead gathers many similar loans (car loans, mortgages, credit card balances) into a **pool**. It sells the pool to a separate legal entity, and that entity raises the money to pay for it by issuing bonds. These bonds are called **asset-backed securities (ABS)**.\n\nThe interest and principal that borrowers pay on the pool become the cash flows that repay the bondholders. Think of a farm that sells its future harvest income to a separate company. That company pays for it by selling shares in the harvest to outside buyers. The buyers care about the harvest, not about the farmer's other debts.\n\nThe pooled loans are the **collateral**. The ABS holders look to the collateral's cash flows for repayment."
+        },
+        {
+          "heading": "The special purpose entity and the true sale",
+          "body_markdown": "The central piece is the **special purpose entity (SPE)**, also called a **special purpose vehicle (SPV)**. It is a legal entity created for one narrow job: to own the pool and issue the securities against it. It is often set up as a trust, and it may also be called the **issuer**.\n\nThe originator must make a **true sale**. This is a genuine legal transfer of the assets to the SPE, so the assets leave the originator's ownership. If the originator later goes bankrupt, its creditors cannot seize the pool, because it is no longer the originator's property. This protection is called being **bankruptcy remote**.\n\nThe result is that ABS investors depend mainly on the quality of the *pool*, not on the financial health of the company that created the loans. Compare an ordinary corporate bond, where bondholders have a general claim on everything the company owns and share it with other creditors.\n\nThe rules of the deal are written in legal documents (for example a pooling and servicing agreement or a trust indenture). These documents set out each party's duties."
+        },
+        {
+          "heading": "Who does what",
+          "body_markdown": "Securitization splits what a traditional bank does into specialised jobs:\n\n- **Borrowers (obligors):** the people or firms whose loan payments fund everything.\n- **Originator / seller (depositor):** makes the loans and sells the pool to the SPE. It receives cash now, which it can use to lend again.\n- **SPE (issuer):** buys the pool and issues the ABS to investors.\n- **Servicer:** handles the day-to-day loan administration. It collects payments, chases late payers, manages defaults and passes cash on. It earns a fee. The originator often keeps this role.\n- **Trustee:** an independent party that acts for the investors. It holds or oversees the assets, checks that the deal documents are followed and makes sure cash reaches investors correctly.\n- **Underwriter / arranger:** an investment bank that structures the deal, helps design the securities and sells them to investors.\n- **Credit rating agency:** analyses the pool, the servicer, the structure and the loss protection, then assigns ratings to the securities.\n- **Credit enhancer:** a party (such as a guarantor or insurer) that provides loss protection beyond the pool itself. Credit enhancement can also be built into the structure.\n- **Investors:** buy the ABS and receive the cash flows, taking the credit and prepayment risk of the pool."
+        },
+        {
+          "heading": "Following the money and the overlap of roles",
+          "body_markdown": "The usual cash flow is: borrowers pay the **servicer**, the servicer passes the collections (after its fee) to the **trustee/SPE**, and these funds are distributed to the **investors** under the deal's rules.\n\nOne institution can wear several hats. A bank may be originator, servicer, administrator of the trust, and credit enhancer, and may even act as underwriter. It typically earns a fee for each service. This matters because retaining a role (such as absorbing first losses) means the originator may not have fully passed the credit risk on to investors.\n\nA useful exam habit is to ask, for any task in a question, *which party does this?* Collecting payments points to the servicer. Policing compliance for investors points to the trustee. Assessing loss protection and assigning ratings points to the rating agency. Owning the pool and issuing the securities points to the SPE."
+        }
+      ],
+      "worked_example": {
+        "problem": "A regional bank has made $400 million of auto loans. It sells the whole pool to a newly created trust. The trust pays for the pool by issuing ABS, which an investment bank sells to institutional investors. The bank continues to collect the monthly loan payments for a fee. An independent financial institution oversees compliance with the deal documents on behalf of the bondholders, and a rating agency assigns ratings to the ABS. Identify each party's role and trace one borrower's monthly payment to the investors.",
+        "steps": [
+          "Identify the party that made the loans and sold the pool: the regional bank is the originator (seller).",
+          "Identify the legal entity that bought the pool and issued the ABS: the trust is the SPE (issuer). Because the sale is a true sale, the pool is bankruptcy remote from the bank.",
+          "Identify the party that sold the ABS to investors: the investment bank is the underwriter (arranger).",
+          "Identify the party that collects payments for a fee: the bank also acts as servicer, so it holds two roles.",
+          "Identify the independent overseer acting for bondholders: this is the trustee. The rating agency assesses the pool and structure and assigns ratings. The institutional investors are the ABS holders.",
+          "Trace one payment: the borrower pays the servicer (the bank), the bank passes the collections, net of its fee, to the trustee/trust, and the cash is distributed to the ABS investors under the deal's rules."
+        ],
+        "answer": "Bank = originator and servicer; trust = SPE/issuer; investment bank = underwriter; independent overseer = trustee; rating agency = rater; buyers = investors. Payment path: borrower → servicer → trustee/SPE → investors.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating the originator and the SPE as the same thing. The SPE is a separate legal entity that owns the pool and issues the securities; the originator only sells to it.",
+        "Believing securitization always removes all credit risk from the originator. If the originator keeps a first-loss piece or provides support, it still bears some risk.",
+        "Mixing up the servicer and the trustee. The servicer administers and collects the loans; the trustee is an independent party looking after investors' interests under the documents.",
+        "Mixing up the credit rating agency and the credit enhancer. The rating agency only assesses and rates the securities; the enhancer actually provides loss protection.",
+        "Assuming one institution cannot hold several roles. Banks commonly act as originator, servicer and more, and exam scenarios often test this overlap."
+      ],
+      "builds_on": [
+        "Bonds and the credit risk of the issuer",
+        "Collateral and secured lending",
+        "Bankruptcy and creditor claims"
+      ],
+      "leads_to": [
+        "Benefits of securitization for issuers, investors and markets",
+        "Credit enhancement and tranching",
+        "Mortgage-backed securities and other ABS structures"
+      ],
+      "cited_chunk_ids": [
+        "occ-asset-securitization:10:6",
+        "fed-trading-4000-p1:50:79",
+        "philfed-credit-card-abs:4:3",
+        "nyfed-sr423-cpff:5:3",
+        "occ-asset-securitization:15:12",
+        "occ-asset-securitization:4:1"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In a securitization, the originator transfers a pool of loans to a special purpose entity in a true sale. The main purpose of this transfer is to:",
+        "options": [
+          {
+            "text": "stop borrowers from repaying their loans early, so cash flows are predictable",
+            "value": null,
+            "explanation": "Wrong: confuses the legal transfer with prepayment protection. The sale does nothing to restrict borrowers' right to prepay."
+          },
+          {
+            "text": "place the assets beyond the reach of the originator's creditors if the originator fails",
+            "value": null,
+            "explanation": "Correct: the true sale makes the SPE bankruptcy remote, so the pool is not part of the originator's bankruptcy estate and investors rely mainly on the pool's quality."
+          },
+          {
+            "text": "guarantee that investors will receive full repayment of principal",
+            "value": null,
+            "explanation": "Wrong: isolation from the originator's bankruptcy is not a guarantee. Investors still bear the credit risk of the pool unless credit enhancement covers it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "philfed-credit-card-abs:4:3",
+          "nyfed-sr423-cpff:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which party in a securitization is mainly responsible for collecting payments from borrowers, pursuing delinquent accounts and passing the cash on, in return for a fee?",
+        "options": [
+          {
+            "text": "The servicer",
+            "value": null,
+            "explanation": "Correct: the servicer handles day-to-day administration of the loan pool, including collections and delinquencies."
+          },
+          {
+            "text": "The trustee",
+            "value": null,
+            "explanation": "Wrong: the trustee oversees compliance with the documents and protects investors; it does not do the routine loan collection work."
+          },
+          {
+            "text": "The credit rating agency",
+            "value": null,
+            "explanation": "Wrong: the rating agency only analyses the transaction and assigns ratings; it has no role in collecting payments."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:10:6",
+          "fed-trading-4000-p1:50:79"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description best fits the role of the trustee in an ABS transaction?",
+        "options": [
+          {
+            "text": "It structures the securities and sells them to investors for a fee",
+            "value": null,
+            "explanation": "Wrong: this describes the underwriter/arranger, not the trustee."
+          },
+          {
+            "text": "It analyses the pool and structure and assigns a rating to each security",
+            "value": null,
+            "explanation": "Wrong: this describes the credit rating agency."
+          },
+          {
+            "text": "It acts for investors by overseeing compliance with the deal documents and seeing that cash is distributed correctly",
+            "value": null,
+            "explanation": "Correct: the trustee is an independent party safeguarding investors' interests under the governing agreements."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:15:12",
+          "occ-asset-securitization:10:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys ABS issued by a special purpose entity that holds a pool of credit card receivables. The investor's primary claim is on:",
+        "options": [
+          {
+            "text": "all of the originating bank's assets, shared equally with its other creditors",
+            "value": null,
+            "explanation": "Wrong: this is the claim of an ordinary corporate bondholder. ABS investors do not have a general claim on the originator."
+          },
+          {
+            "text": "the cash flows generated by the receivables pool held by the SPE",
+            "value": null,
+            "explanation": "Correct: the SPE owns the pool, and the ABS are repaid from the cash flows it generates."
+          },
+          {
+            "text": "the servicer's own balance sheet, because the servicer collects the payments",
+            "value": null,
+            "explanation": "Wrong: the servicer is a fee-earning administrator, and investors have no claim on its balance sheet for repayment."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "philfed-credit-card-abs:4:3",
+          "nyfed-sr423-cpff:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which sequence best describes the normal flow of a borrower's loan payment in a securitization?",
+        "options": [
+          {
+            "text": "Borrower → underwriter → SPE → investors",
+            "value": null,
+            "explanation": "Wrong: the underwriter sells the securities at issuance. It does not collect ongoing loan payments."
+          },
+          {
+            "text": "Borrower → rating agency → servicer → investors",
+            "value": null,
+            "explanation": "Wrong: the rating agency only assesses the deal. It does not handle cash and is not in the payment chain."
+          },
+          {
+            "text": "Borrower → servicer → trustee/SPE → investors",
+            "value": null,
+            "explanation": "Correct: the servicer collects from borrowers, passes the cash (net of its fee) to the trustee/SPE, and it is distributed to investors under the deal's rules."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:15:12",
+          "fed-trading-4000-p1:50:79"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bank originates a pool of student loans and sells it to a trust. The bank keeps collecting the borrowers' payments for a fee and does not sell or arrange the securities. Which pair of roles does the bank play?",
+        "options": [
+          {
+            "text": "Underwriter and credit rating agency",
+            "value": null,
+            "explanation": "Wrong: the stem says the bank does not sell or arrange the securities, and a rating agency must be independent of the seller."
+          },
+          {
+            "text": "Originator (seller) and servicer",
+            "value": null,
+            "explanation": "Correct: the bank made the loans and sold them to the trust, and it now administers collections for a fee. One institution can hold both roles."
+          },
+          {
+            "text": "Originator (seller) and trustee",
+            "value": null,
+            "explanation": "Wrong: the trustee is an independent party acting for investors, so the seller collecting its own loans is not the trustee. Servicing is the role described."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:50:79",
+          "occ-asset-securitization:10:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In an ABS deal, a third-party insurer agrees to absorb losses on the loan pool up to a stated amount, giving investors extra protection. Which role is the insurer performing?",
+        "options": [
+          {
+            "text": "Credit enhancer",
+            "value": null,
+            "explanation": "Correct: a party that provides loss protection beyond the pool's own cash flows is acting as a credit enhancer."
+          },
+          {
+            "text": "Servicer",
+            "value": null,
+            "explanation": "Wrong: confuses managing and collecting the loans with absorbing losses. A servicer does not insure investors."
+          },
+          {
+            "text": "Credit rating agency",
+            "value": null,
+            "explanation": "Wrong: confuses assessing the loss protection with providing it. The rating agency evaluates it but takes no losses."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:10:6",
+          "fed-trading-4000-p1:50:79"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a special purpose entity (SPE) in securitization, and what does it do?",
+        "back": "A separate legal entity, often a trust, created to buy the pool of assets from the originator and issue the asset-backed securities. Also called an SPV or the issuer.",
+        "cited_chunk_ids": [
+          "nyfed-sr423-cpff:5:3",
+          "fed-risk-retention-2010:71:68"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What does 'bankruptcy remote' mean for an ABS structure?",
+        "back": "Because of a true sale to the SPE, the pooled assets are not part of the originator's bankruptcy estate, so the originator's creditors cannot claim them.",
+        "cited_chunk_ids": [
+          "philfed-credit-card-abs:4:3",
+          "nyfed-sr423-cpff:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Servicer vs trustee: how do their roles differ?",
+        "back": "The servicer administers the loans (collects payments, handles delinquencies) for a fee. The trustee is an independent party that acts for investors and oversees compliance with the deal documents and the distribution of cash.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:10:6",
+          "occ-asset-securitization:15:12"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Name the main parties in a securitization.",
+        "back": "Borrowers, originator/seller, SPE (issuer), servicer, trustee, underwriter/arranger, credit rating agency, credit enhancer and investors. One institution can hold several of these roles.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:10:6",
+          "fed-trading-4000-p1:50:79"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:50:37.994Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-17-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 794,
+      "outputTokens": 492,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006625,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:50:49.506Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-17-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12554,
+      "outputTokens": 1439,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0396672,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0462922
+}

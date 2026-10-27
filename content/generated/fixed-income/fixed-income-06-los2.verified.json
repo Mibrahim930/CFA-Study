@@ -1,0 +1,857 @@
+{
+  "losId": "fixed-income-06-los2",
+  "losText": "identify the relationships among a bond's price, coupon rate, maturity, and yield-to-maturity",
+  "moduleId": "fixed-income-06",
+  "moduleTitle": "Fixed-Income Bond Valuation: Prices and Yields",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:42:01.251Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00062:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — The Relationship of Yield to Maturity and Coupon Rate to Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:2:1",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 2–3",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=2",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:5:3",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 5–6",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=5",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:3:2",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 3–5",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=3",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:17:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 17–18",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "finra-bonds:1:18",
+      "title": "Investment Products: Bonds (FINRA investor education)",
+      "locator": "Bonds",
+      "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+      "license": "© FINRA; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:9:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 9–13",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "frbsf-mbs-letter-1996:3:4",
+      "title": "Innovations and Recent Developments in Mortgage-Backed Securities (FRBSF Economic Letter, 1996)",
+      "locator": "p. 3",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/frbsf/frbsf_let/frbsf_let_19960105.pdf#page=3",
+      "license": "Federal Reserve Bank of San Francisco publication (FRASER copy); no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:5:6",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 5",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=5",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "utah-fcs5510-bond-market:5:7",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "pp. 5–6",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=5",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "utah-fcs5510-bond-market:7:10",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "pp. 7–8",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=7",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Bond Prices Respond to Coupon, Maturity and Yield",
+      "summary": "A bond's price moves in the opposite direction to its yield-to-maturity (YTM), and the gap between coupon rate and YTM decides whether it trades above, at, or below face value. Coupon size and time to maturity also determine how violently the price reacts to a yield change, which is the basis of interest rate risk.",
+      "sections": [
+        {
+          "heading": "The seesaw: price and yield move in opposite directions",
+          "body_markdown": "A bond's coupons and face value are **fixed promises**. The only thing that can move is the rate investors use to discount those promises. The **yield-to-maturity (YTM)** is that discount rate: the single rate at which the present value of all remaining coupons plus the principal equals the market price, assuming the bond is held to maturity.\n\nIf the market's required yield goes up, the same fixed cash flows are discounted harder, so the price falls. If the required yield goes down, the price rises. Think of a fixed rent contract: if renters can get similar flats for less elsewhere, your fixed-rent lease becomes more valuable.\n\nThis **inverse relationship** is the single most tested idea in this LOS."
+        },
+        {
+          "heading": "Coupon rate versus YTM: premium, par, discount",
+          "body_markdown": "The coupon rate is set by the issuer and is fixed. The YTM is what the market demands today. Comparing them tells you where the price sits relative to the face value (par):\n\n- **Coupon rate > YTM**: the bond pays more than the market requires, so buyers bid the price **above par** (a *premium bond*).\n- **Coupon rate = YTM**: the bond sells **at par**.\n- **Coupon rate < YTM**: the bond pays less than the market requires, so the price is **below par** (a *discount bond*).\n\nA **zero-coupon bond** has a coupon rate of 0%, so at any positive YTM it sells at a discount.\n\n**Pull to par:** if the YTM stays constant, a premium bond's price drifts down and a discount bond's price drifts up as time passes, and both reach par at maturity. At maturity you receive exactly the face value, so the price has nowhere else to go."
+        },
+        {
+          "heading": "The price-yield curve bends (convexity)",
+          "body_markdown": "Plot price against YTM and you do not get a straight line. You get a curve that bows toward the origin, which is called **convex**. The practical result is an asymmetry: for the same size of yield move, the **price gain when yields fall is larger than the price loss when yields rise**.\n\nExample from a 4-year 8% annual-coupon bond priced at par: if the yield falls 2 percentage points the price rises by about 6.9%, but if the yield rises 2 percentage points it falls by only about 6.3%.\n\nDuration is a straight-line estimate of price sensitivity. Convexity is the correction for the curve, and it matters more as yield changes get bigger. Both are covered in later modules; here you only need the direction of the asymmetry."
+        },
+        {
+          "heading": "Which bonds are more sensitive to yield changes?",
+          "body_markdown": "Holding other features equal, for the same change in YTM:\n\n- **Longer maturity → larger percentage price change.** More of the cash flow sits far in the future, where discounting does the most damage or the most good.\n- **Lower coupon → larger percentage price change.** A high-coupon bond returns more of its value early, so less of its value is exposed to the new discount rate. A zero-coupon bond is the most sensitive for its maturity.\n- **Lower starting yield level → larger price reaction** to a given change in yield, because of the curve's convexity.\n\nAt a fixed coupon rate and a fixed YTM that differs from the coupon rate, maturity also changes how far the price sits from par: a longer-maturity premium bond sells at a higher premium, and a longer-maturity discount bond at a deeper discount. At YTM equal to the coupon rate, maturity does not change the price, which is par.\n\nThe measure that combines coupon and maturity into one risk number is duration."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 4-year bond has a 5% annual coupon, face value 100, and annual payments. When its YTM is 8% it is priced at about 90.06. The YTM rises to 10%. What is the new price, and by what percentage did the price change?",
+        "steps": [
+          "Direction check: the YTM rose, so the price must fall. The coupon rate (5%) is below both yields, so the bond is a discount bond before and after.",
+          "Enter on the BA II Plus: 2ND CLR TVM, then N = 4, I/Y = 10, PMT = 5, FV = 100.",
+          "Press CPT PV. The display shows -84.15 (negative sign because the price is a cash outflow for the buyer). The new price is 84.15.",
+          "Percentage change: $(84.15 - 90.06)/90.06 = -0.0657$, about -6.57%.",
+          "Sanity check: the result agrees with the direction in step 1 and is a plausible size for a 4-year low-coupon bond."
+        ],
+        "answer": "The new price is about 84.15 per 100 of par, a decline of about 6.57%.",
+        "answer_value": 84.15,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":4,\"freq\":1},\"ytm\":0.1}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Bond price as the present value of cash flows",
+          "latex": "P_0=\\sum_{t=1}^{N}\\frac{PMT}{(1+r)^t}+\\frac{FV}{(1+r)^N}",
+          "where": "P_0 = price today; PMT = coupon payment per period (coupon rate × face value ÷ payments per year); FV = face (par) value repaid at maturity; r = YTM per period; N = number of periods remaining."
+        },
+        {
+          "name": "Price versus par rule",
+          "latex": "\\text{coupon rate}>r \\Rightarrow P_0>FV;\\quad \\text{coupon rate}=r \\Rightarrow P_0=FV;\\quad \\text{coupon rate}<r \\Rightarrow P_0<FV",
+          "where": "r = YTM expressed per the same period as the coupon rate; P_0 = price; FV = par value."
+        }
+      ],
+      "exam_traps": [
+        "Reversing the direction: a higher yield means a LOWER price. A bond with a coupon below the YTM sells at a discount, not a premium.",
+        "Assuming price changes are symmetric. A 1-point fall in yield raises the price by more than a 1-point rise lowers it, because the price-yield curve is convex.",
+        "Confusing dollar change with percentage change. A high-coupon bond may move more in currency units, but the low-coupon bond moves more in percentage terms for the same yield change.",
+        "Thinking a premium or discount is permanent. With a constant YTM, the price moves toward par as maturity approaches (pull to par), and a bond sitting exactly at par stays at par.",
+        "Using the coupon rate as the discount rate. The discount rate is the YTM; the coupon rate only sets the size of the cash payments."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Bond features: coupon, face value, maturity",
+        "Yield-to-maturity as the discount rate"
+      ],
+      "leads_to": [
+        "Duration and convexity",
+        "Interest rate risk",
+        "Matrix pricing",
+        "Yield spreads"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00062:4",
+        "ritchken-measures-of-price-sensitivity:2:1",
+        "ritchken-measures-of-price-sensitivity:3:2",
+        "ritchken-measures-of-price-sensitivity:5:3",
+        "utah-fcs5510-bond-market:5:6"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "critic_review": {
+        "pass": true,
+        "issues": [
+          "flag overturned on second review: Recomputed: the price at 8% is 90.0636 and at 10% is 84.1506, so the change is -5.913/90.0636 = -6.57%, which matches the lesson. The convexity example (+6.93% and -6.34%) and the other claims about maturity, coupon, pull to par and zero-coupon bonds are correct. The reviewer found no definite error, and a rounding difference of 0.01 percentage points is not one."
+        ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A 10-year bond pays a 6% annual coupon. The market's required YTM for bonds of similar risk is 7%. How will this bond be priced relative to its par value?",
+        "options": [
+          {
+            "text": "Above par, because a lower coupon makes the bond more valuable",
+            "value": null,
+            "explanation": "Wrong: this reverses the relationship. A coupon below the market yield makes the bond less attractive, so its price is pushed down, not up."
+          },
+          {
+            "text": "At par, because the coupon rate is fixed by the contract",
+            "value": null,
+            "explanation": "Wrong: the fixed coupon only sets the cash flows. The price depends on the gap between the coupon rate and the YTM, and here they differ."
+          },
+          {
+            "text": "Below par, because the coupon is under the required yield",
+            "value": null,
+            "explanation": "Correct: the bond pays less than the market requires, so buyers pay less than face value so that their return rises to the 7% YTM."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year bond has a face value of 100 and pays a 6% annual coupon (one payment per year). Its YTM is 8% (annual). What is its price per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "94.85",
+            "value": 94.85,
+            "explanation": "Correct: discounting 6, 6 and 106 at 8% gives about 94.85, below par because the coupon is under the YTM."
+          },
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Mistake: treating the bond as priced at par because it pays its face value back, ignoring that the coupon rate is below the YTM."
+          },
+          {
+            "text": "105.15",
+            "value": 105.15,
+            "explanation": "Mistake: reversing the direction of the discount, adding the discount amount to par instead of subtracting it, which would be a premium bond."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":3,\"freq\":1},\"ytm\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 4-year bond with face value 100 pays an 8% annual coupon (one payment per year). When its YTM is 6% its price is 106.93. What is the price per 100 of par if the YTM instead rises to 10% (annual)? Round to two decimals.",
+        "options": [
+          {
+            "text": "92.00",
+            "value": 92,
+            "explanation": "Mistake: treating the price change as linear, subtracting 2 points of yield times 4 years of maturity from par."
+          },
+          {
+            "text": "93.66",
+            "value": 93.66,
+            "explanation": "Correct: discounting 8, 8, 8 and 108 at 10% gives about 93.66. The price drops by 6.34 from par, less than the 6.93 gain when the yield fell by the same 2 points, which reflects convexity."
+          },
+          {
+            "text": "93.07",
+            "value": 93.07,
+            "explanation": "Mistake: assuming a symmetric move, mirroring the 6.93 gain around par (100 − 6.93). The curve is convex, so the loss is smaller than the gain."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.08,\"years\":4,\"freq\":1},\"ytm\":0.1}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:2:1",
+          "ritchken-measures-of-price-sensitivity:3:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 10-year zero-coupon bond has a face value of 100. Assume annual compounding and a YTM of 6%. What is its price per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "40.00",
+            "value": 40,
+            "explanation": "Mistake: using simple interest, subtracting 6% × 10 years from par, instead of discounting with compound interest."
+          },
+          {
+            "text": "55.37",
+            "value": 55.37,
+            "explanation": "Mistake: compounding semiannually (3% for 20 periods) when the stem specifies annual compounding."
+          },
+          {
+            "text": "55.84",
+            "value": 55.84,
+            "explanation": "Correct: $100/1.06^{10}\\approx 55.84$. A zero-coupon bond has a 0% coupon, so at a positive YTM it sells at a deep discount."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":10,\"freq\":1},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:17:24"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Bond A and Bond B both pay a 5% annual coupon and both currently have a YTM of 8%. Bond A matures in 4 years and Bond B in 8 years. If the YTM on both rises to 10%, which statement is correct?",
+        "options": [
+          {
+            "text": "Bond B's price falls by a larger percentage than Bond A's price",
+            "value": null,
+            "explanation": "Correct: with the same coupon, the longer-maturity bond has more of its cash flow far in the future, so a rise in yield cuts its price more (about 11.4% versus 6.6%)."
+          },
+          {
+            "text": "Bond A's price falls by a larger percentage because it is closer to maturity",
+            "value": null,
+            "explanation": "Mistake: shorter time to maturity means less exposure to discounting, so shorter bonds are less sensitive, not more."
+          },
+          {
+            "text": "Both prices fall by the same percentage because the coupon and yields are the same",
+            "value": null,
+            "explanation": "Mistake: ignoring maturity. Same coupon and yield do not imply the same sensitivity; time to maturity changes how much of the value is discounted over long periods."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:3:2",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two bonds have the same maturity (10 years), the same credit quality and the same YTM. Bond X has a 4% annual coupon and Bond Y has an 8% annual coupon. The YTM on both falls by 1 percentage point. Which bond has the larger percentage increase in price?",
+        "options": [
+          {
+            "text": "Bond Y, because its larger coupons produce a larger gain in currency terms",
+            "value": null,
+            "explanation": "Mistake: mixing up currency change and percentage change. Bond Y's price is higher, so the same currency gain is a smaller percentage."
+          },
+          {
+            "text": "They are equal, because the yield change and maturity are the same",
+            "value": null,
+            "explanation": "Mistake: ignoring coupon size. With maturity and yield change equal, the coupon still affects sensitivity."
+          },
+          {
+            "text": "Bond X, because less of its value is returned early through coupons",
+            "value": null,
+            "explanation": "Correct: the low-coupon bond has more of its value tied up in the distant principal repayment, so the new discount rate affects a larger share of its value."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:5:3",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond with 5 years to maturity has a 7% coupon, and its YTM is 5%. Assume the YTM stays at 5% and no default occurs. What happens to the bond's price over the following year?",
+        "options": [
+          {
+            "text": "It rises, because the bond earns more coupon income each month",
+            "value": null,
+            "explanation": "Mistake: confusing accrued interest or coupon income with price. Coupons are paid out separately and do not push the price up; a premium bond's price drifts toward par."
+          },
+          {
+            "text": "It falls, moving closer to par",
+            "value": null,
+            "explanation": "Correct: this is a premium bond, and with a constant YTM its price converges to par as the maturity date approaches (pull to par)."
+          },
+          {
+            "text": "It stays at the same premium, because the YTM has not changed",
+            "value": null,
+            "explanation": "Mistake: a constant yield does not imply a constant price. As the remaining life shortens, the premium shrinks and the price moves to par."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bond's YTM changes by exactly 1 percentage point in either direction from its current level. Which statement about the resulting price changes is correct?",
+        "options": [
+          {
+            "text": "The price increase from a 1-point fall exceeds the price decrease from a 1-point rise",
+            "value": null,
+            "explanation": "Correct: the price-yield curve is convex, so prices rise at an increasing rate as yields fall and decline at a decreasing rate as yields rise."
+          },
+          {
+            "text": "The price decrease from a 1-point rise exceeds the price increase from a 1-point fall",
+            "value": null,
+            "explanation": "Mistake: assuming losses are larger than gains, which is the opposite of what convexity implies for an ordinary bond."
+          },
+          {
+            "text": "The two price changes are equal in size and opposite in sign, because the yield changes are equal",
+            "value": null,
+            "explanation": "Mistake: assuming a straight-line relationship. Equal and opposite yield changes do not produce equal and opposite price changes."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:2:1",
+          "ritchken-measures-of-price-sensitivity:3:2",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University) pp. 2–3: \"at an increasing rate as yields fall and\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How does a bond's coupon rate compared with its YTM determine whether it trades at a premium, at par, or at a discount?",
+        "back": "Coupon rate > YTM: premium (price above par). Coupon rate = YTM: par. Coupon rate < YTM: discount (price below par).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00062:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the relationship between a bond's price and its YTM, and what is the shape of the price-yield curve?",
+        "back": "They move in opposite directions (inverse). The curve is convex, so a yield fall raises the price by more than an equal yield rise lowers it.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:2:1",
+          "ritchken-measures-of-price-sensitivity:3:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Holding other features constant, which bond's price is more sensitive in percentage terms to a given yield change: lower or higher coupon, longer or shorter maturity?",
+        "back": "Lower coupon and longer maturity both mean greater percentage price sensitivity. Zero-coupon bonds are the most sensitive for their maturity.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:5:3",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is 'pull to par' for a bond whose YTM stays constant?",
+        "back": "A premium bond's price falls and a discount bond's price rises toward face value as maturity approaches. The price equals par at maturity.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:41:43.080Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 923,
+      "outputTokens": 867,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.010633,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:41:54.098Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13270,
+      "outputTokens": 1498,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041689199999999996,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:42:01.250Z",
+      "purpose": "confirm",
+      "losId": "fixed-income-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2355,
+      "outputTokens": 828,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.013098,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0654202
+}

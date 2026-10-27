@@ -1,0 +1,820 @@
+{
+  "losId": "fixed-income-12-los3",
+  "losText": "calculate portfolio duration and convexity and explain the limitations of these measures",
+  "moduleId": "fixed-income-12",
+  "moduleTitle": "Yield-Based Bond Convexity and Portfolio Properties",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:47:33.919Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.18
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:14:4",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 14–19",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=14",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:18:12",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 18",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=18",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "mpra-key-rate-duration:7:5",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 7–8",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=7",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:14:9",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 14–16",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=14",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:22:15",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 22–24",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=22",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:1:0",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 1–2",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=1",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "occ-interest-rate-risk:78:92",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 78–79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:40:26",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 40–41",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=40",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:31:7",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 31–34",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=31",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:25:6",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 25–30",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=25",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mpra-key-rate-duration:3:1",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "p. 3",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=3",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Duration and Convexity of a Bond Portfolio, and Where They Fall Short",
+      "summary": "A portfolio's interest-rate sensitivity can be estimated by value-weighting the duration and convexity of its bonds. The shortcut rests on assumptions, such as parallel curve shifts, small yield moves and fixed cash flows, that can make it misleading.",
+      "sections": [
+        {
+          "heading": "Think of a basket, not a single bond",
+          "body_markdown": "A single bond has a **modified duration** (the approximate percentage price change for a 1-unit change in yield) and a **convexity** (a measure of how that sensitivity itself changes as yields move). A portfolio is just a basket of bonds, and its total value is the sum of the bond values.\n\nSo if every bond's yield moves by the same amount, each bond contributes to the portfolio's percentage change in proportion to the share of the portfolio it makes up. A bond that is 40% of the portfolio contributes 40% of its own percentage price change. Think of a fruit basket: its average weight is the weighted average of the fruit, with weights set by how much of each fruit you hold."
+        },
+        {
+          "heading": "Calculating portfolio duration and convexity",
+          "body_markdown": "First find each bond's **weight**: its current market value divided by the portfolio's total market value. Use the full price (clean price plus accrued interest) times the amount held, not face value.\n\nThen multiply each bond's measure by its weight and add up:\n\n$$D_p=\\sum_i w_i D_i \\qquad C_p=\\sum_i w_i C_i$$\n\nThe weights add to 1, so the result always lies between the smallest and largest bond figures. You never add the durations together, and you never simply average them unless the market values are equal. A $90 million holding of a 2-year-duration bond and a $10 million holding of a 12-year-duration bond gives $0.9\\times2+0.1\\times12=3.0$ years, not 7 years."
+        },
+        {
+          "heading": "Why the shortcut works, and its first big limitation",
+          "body_markdown": "The weighted average is exact when every bond's yield changes by the same amount, because the portfolio value is the sum of the bond values. The problem is that this assumption is rarely true.\n\n- **Parallel-shift assumption.** Short-maturity yields often move more than long-maturity yields, and the curve can steepen, flatten or twist. Two portfolios with the same weighted-average duration can then earn quite different returns.\n- **Different bonds, different yields.** The bonds in a portfolio sit at different points on the curve and have different yields, so a single number cannot describe how they all react.\n\nA more refined tool is **key rate duration**. It measures sensitivity to a change in one chosen point on the curve at a time, and it is useful when the curve does not shift in parallel."
+        },
+        {
+          "heading": "Other limitations to keep in mind",
+          "body_markdown": "- **Small changes only.** Duration is a straight-line (first-order) estimate. Adding convexity improves it, but both estimates get worse for large yield changes.\n- **Fixed cash flows.** Modified duration and yield-based convexity assume the cash flows do not change when yields change. A callable or putable bond can have its cash flows altered by exercise, so **effective duration and effective convexity** (based on repricing the bond with the curve shifted) are needed for those bonds.\n- **Convexity is not free.** For the same duration, a portfolio with more spread-out cash flows (a **barbell**: very short and very long bonds) has higher convexity than a **bullet** (bonds clustered around one maturity). Higher convexity helps price performance, but such portfolios usually give up some yield, and the market tends to price convexity as an advantage. Matching duration alone does not make two portfolios equivalent."
+        }
+      ],
+      "worked_example": {
+        "problem": "A portfolio holds three option-free bonds. Bond A: market value $40 million, modified duration 3.0, convexity 14. Bond B: market value $35 million, modified duration 6.0, convexity 50. Bond C: market value $25 million, modified duration 10.0, convexity 140. Find the portfolio's weighted-average modified duration and convexity.",
+        "steps": [
+          "Total market value = 40 + 35 + 25 = $100 million.",
+          "Weights: A = 40/100 = 0.40; B = 35/100 = 0.35; C = 25/100 = 0.25 (they add to 1).",
+          "Duration: 0.40 × 3.0 = 1.20; 0.35 × 6.0 = 2.10; 0.25 × 10.0 = 2.50. Sum = 5.80. (Plain calculator arithmetic: 0.4 [×] 3 [+] 0.35 [×] 6 [+] 0.25 [×] 10 [=] 5.8. No TVM keys are needed.)",
+          "Convexity: 0.40 × 14 = 5.60; 0.35 × 50 = 17.50; 0.25 × 140 = 35.00. Sum = 58.10.",
+          "Sanity check: 5.8 lies between 3.0 and 10.0, and 58.1 lies between 14 and 140, as a weighted average must."
+        ],
+        "answer": "Portfolio modified duration = 5.8; portfolio convexity = 58.1 (valid for a parallel, small yield change on option-free bonds).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Market-value weight",
+          "latex": "w_i=\\frac{MV_i}{\\sum_{j=1}^{K} MV_j}",
+          "where": "$w_i$ = weight of bond $i$; $MV_i$ = full market value of the position in bond $i$; $K$ = number of bonds."
+        },
+        {
+          "name": "Portfolio duration",
+          "latex": "D_p=\\sum_{i=1}^{K} w_i D_i",
+          "where": "$D_p$ = portfolio duration; $D_i$ = duration of bond $i$; $w_i$ = its market-value weight."
+        },
+        {
+          "name": "Portfolio convexity",
+          "latex": "C_p=\\sum_{i=1}^{K} w_i C_i",
+          "where": "$C_p$ = portfolio convexity; $C_i$ = convexity of bond $i$; $w_i$ = its market-value weight."
+        }
+      ],
+      "exam_traps": [
+        "Using par (face) value or equal weights instead of market-value weights when the positions differ in price or size.",
+        "Adding the bond durations (or convexities) together instead of taking a weighted average.",
+        "Treating the weighted-average figures as exact for any yield-curve move; they assume every bond's yield changes by the same amount.",
+        "Using yield-based modified duration for callable or putable bonds; effective duration is needed when cash flows change with yields.",
+        "Assuming two portfolios with equal duration have equal risk, ignoring differences in convexity and in how the curve shifts."
+      ],
+      "builds_on": [
+        "Modified duration of a single bond",
+        "Convexity of a single bond",
+        "Parallel versus non-parallel yield-curve shifts"
+      ],
+      "leads_to": [
+        "Key rate duration",
+        "Effective duration for bonds with embedded options",
+        "Liability matching and immunization"
+      ],
+      "cited_chunk_ids": [
+        "ritchken-measures-of-price-sensitivity:14:9",
+        "sfu-poitras-duration-convexity:14:4",
+        "mpra-key-rate-duration:7:5",
+        "mpra-key-rate-duration:3:1",
+        "occ-interest-rate-risk:78:92",
+        "ritchken-measures-of-price-sensitivity:22:15"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "When computing a bond portfolio's duration as a weighted average of the individual bond durations, which weights are appropriate?",
+        "options": [
+          {
+            "text": "Each bond's par value divided by the portfolio's total par value",
+            "value": null,
+            "explanation": "Wrong: par weights ignore that bonds trade at different prices. A deep-discount bond would be overweighted relative to the value actually exposed to rate risk."
+          },
+          {
+            "text": "Each bond's annual coupon income divided by total coupon income",
+            "value": null,
+            "explanation": "Wrong: coupon weights ignore the principal and the price level, so they do not reflect how much of the portfolio's value sits in each bond."
+          },
+          {
+            "text": "Each bond's market value divided by the portfolio's total market value",
+            "value": null,
+            "explanation": "Correct: the portfolio's percentage price change is the value-weighted sum of the bonds' percentage changes, so the weights are market-value proportions."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:14:9",
+          "sfu-poitras-duration-convexity:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio has $30 million in a bond with modified duration 4.0 and $70 million in a bond with modified duration 8.0. Both are option-free. What is the portfolio's weighted-average modified duration?",
+        "options": [
+          {
+            "text": "6.8",
+            "value": null,
+            "explanation": "Correct: 0.30 × 4.0 + 0.70 × 8.0 = 1.2 + 5.6 = 6.8."
+          },
+          {
+            "text": "6.0",
+            "value": null,
+            "explanation": "Mistake: taking the simple average of 4.0 and 8.0, which ignores that 70% of the value is in the longer-duration bond."
+          },
+          {
+            "text": "5.2",
+            "value": null,
+            "explanation": "Mistake: swapping the weights (0.70 × 4.0 + 0.30 × 8.0), which puts the larger weight on the wrong bond."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:14:9",
+          "sfu-poitras-duration-convexity:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A portfolio holds three bonds with equal market values ($10 million each). Their modified durations are 2.4, 5.1 and 7.5 years. Using the weighted-average approach, what is the portfolio's modified duration? Round to one decimal place.",
+        "options": [
+          {
+            "text": "15.0 years",
+            "value": 15,
+            "explanation": "Mistake: adding the durations instead of averaging them. Weights must sum to 1."
+          },
+          {
+            "text": "5.0 years",
+            "value": 5,
+            "explanation": "Correct: with equal weights of 1/3 each, (2.4 + 5.1 + 7.5) / 3 = 15.0 / 3 = 5.0."
+          },
+          {
+            "text": "5.1 years",
+            "value": 5.1,
+            "explanation": "Mistake: using the middle bond's duration (the median) rather than the weighted average of all three."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[2.4,5.1,7.5]}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:14:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A portfolio holds four option-free bonds with equal market values. Their convexities are 12, 28, 55 and 105. Using the weighted-average approach, what is the portfolio's convexity? Round to one decimal place.",
+        "options": [
+          {
+            "text": "200.0",
+            "value": 200,
+            "explanation": "Mistake: summing the convexities rather than weighting them (each weight is 0.25)."
+          },
+          {
+            "text": "41.5",
+            "value": 41.5,
+            "explanation": "Mistake: using the median of the four values, (28 + 55) / 2, instead of the weighted average."
+          },
+          {
+            "text": "50.0",
+            "value": 50,
+            "explanation": "Correct: 0.25 × (12 + 28 + 55 + 105) = 0.25 × 200 = 50.0."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "arithmeticMean",
+          "args_json": "{\"xs\":[12,28,55,105]}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:14:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Equal weights: (12+28+55+105)/4 = 200/4 = 50.0, but check options: 50.0 is option C, so the correct answer is C, not B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes a key limitation of estimating a bond portfolio's interest-rate sensitivity with its weighted-average duration?",
+        "options": [
+          {
+            "text": "It is only valid when all the bonds in the portfolio mature on the same date.",
+            "value": null,
+            "explanation": "Wrong: the weighted average is built precisely to handle bonds with different maturities. The issue is how yields move, not whether maturities match."
+          },
+          {
+            "text": "It assumes all bond yields change by the same amount, so non-parallel curve shifts can make it misleading.",
+            "value": null,
+            "explanation": "Correct: the portfolio estimate relies on a common (parallel) yield change; steepening, flattening or twists affect bonds at different maturities differently."
+          },
+          {
+            "text": "It ignores coupon payments, so it is only valid for portfolios of zero-coupon bonds.",
+            "value": null,
+            "explanation": "Mistake: each bond's duration already reflects its coupons; the limitation is not about coupon omission."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mpra-key-rate-duration:7:5",
+          "mpra-key-rate-duration:3:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Portfolio A (all bonds clustered near one maturity) and Portfolio B (very short and very long bonds) have the same weighted-average duration and the same starting yield. B has the higher convexity. For a large parallel change in all yields, which statement is most accurate?",
+        "options": [
+          {
+            "text": "B's price outperforms the duration-only estimate relative to A, whether yields rise or fall.",
+            "value": null,
+            "explanation": "Correct: for equal duration, the higher-convexity portfolio has a better percentage price change for a large parallel move in either direction, because duration alone leaves out the convexity term."
+          },
+          {
+            "text": "A and B change by the same percentage, because their durations are equal.",
+            "value": null,
+            "explanation": "Mistake: duration is only a first-order estimate. For large yield changes the convexity difference matters."
+          },
+          {
+            "text": "A gains more when yields fall and loses less when yields rise, because lower convexity means lower risk.",
+            "value": null,
+            "explanation": "Mistake: higher convexity is favourable to the holder in both directions. Lower convexity is not lower risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:22:15",
+          "sfu-poitras-duration-convexity:14:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio contains several callable bonds whose cash flows may change as yields change. Which input is most appropriate for estimating the portfolio's duration by value-weighting?",
+        "options": [
+          {
+            "text": "Each bond's modified duration, since it automatically captures exercise of the call option.",
+            "value": null,
+            "explanation": "Mistake: modified duration assumes cash flows are fixed and do not respond to yield changes, so it misses option exercise."
+          },
+          {
+            "text": "Each bond's effective duration, since it allows cash flows to change when yields change.",
+            "value": null,
+            "explanation": "Correct: effective duration comes from repricing the bond under shifted curves and so reflects changing cash flows, as needed for embedded options."
+          },
+          {
+            "text": "Each bond's Macaulay duration, since it is measured in years and so avoids option effects.",
+            "value": null,
+            "explanation": "Mistake: Macaulay duration is a weighted-average time to receipt of cash flows, which also assumes fixed cash flows; its units do not address option behaviour."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:78:92"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How do you calculate the duration and convexity of a bond portfolio using the standard shortcut?",
+        "back": "Take the market-value-weighted average of the individual bonds' durations and convexities: $D_p=\\sum w_iD_i$ and $C_p=\\sum w_iC_i$, with weights equal to each bond's share of total portfolio market value.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:14:9",
+          "sfu-poitras-duration-convexity:14:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What curve assumption sits behind the weighted-average portfolio duration, and what happens when it fails?",
+        "back": "It assumes yields on all the bonds change by the same amount (a parallel shift). With steepening, flattening or twists, portfolios with equal duration can earn different returns; key rate duration addresses this.",
+        "cited_chunk_ids": [
+          "mpra-key-rate-duration:7:5",
+          "mpra-key-rate-duration:3:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why is duration plus convexity still only an approximation of a portfolio's price change?",
+        "back": "They are low-order estimates that work best for small yield changes. Large changes bring in higher-order effects the estimates ignore.",
+        "cited_chunk_ids": [
+          "mpra-key-rate-duration:7:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Which duration measure should be used for bonds with embedded options, and why?",
+        "back": "Effective duration (and effective convexity), because they reprice the bond with shifted curves and so allow cash flows to change; yield-based measures assume fixed cash flows.",
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:78:92"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Barbell versus bullet with the same duration: which has higher convexity, and why?",
+        "back": "The barbell, because its cash flows are more spread out in time. Equal duration does not mean equal risk.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:22:15"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:47:23.203Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-12-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 947,
+      "outputTokens": 508,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007091,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:47:33.918Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-12-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13333,
+      "outputTokens": 1536,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.042195199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.049286199999999995
+}

@@ -1,0 +1,833 @@
+{
+  "losId": "fixed-income-05-los2",
+  "losText": "contrast the issuance and trading of government and corporate fixed-income instruments",
+  "moduleId": "fixed-income-05",
+  "moduleTitle": "Fixed-Income Markets for Government Issuers",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:41:16.929Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ftse-fixed-income-indices-guide:44:50",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 44",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=44",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p1:83:136",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 83–84",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=83",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:38:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 38–39",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=38",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-risk-retention-2010:38:39",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 38–40",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=38",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "imf-wb-debt-mgmt-2002:104:133",
+      "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
+      "locator": "pp. 104–105",
+      "url": "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf#page=104",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:14:19",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Equity Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "treasury-iawg-2015:13:15",
+      "title": "Recent Disruptions and Potential Reforms in the U.S. Treasury Market: A Staff Progress Report (Treasury, Federal Reserve, FRBNY, SEC, CFTC, 2015)",
+      "locator": "pp. 13–14",
+      "url": "https://home.treasury.gov/system/files/136/IAWG-Treasury-Report.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-risk-retention-2010:30:34",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 30–31",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=30",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:80:133",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 80–81",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=80",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:40:63",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 40",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=40",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:80:91",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 80",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=80",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Government vs Corporate Bonds: How They Are Sold and How They Trade",
+      "summary": "Governments and companies both borrow by issuing bonds, but they reach investors through different channels. Governments mostly use auctions and taps, while companies mostly use investment-bank underwriting. Their secondary markets also differ in liquidity and in how prices are quoted. Exam questions often ask you to match each feature to the right issuer type.",
+      "sections": [
+        {
+          "heading": "Same promise, different sellers",
+          "body_markdown": "A bond is a loan split into tradable pieces. The **primary market** is where the issuer sells new bonds for the first time. The **secondary market** is where investors trade existing bonds among themselves.\n\nThink of a national government as a huge wholesaler that sells the same standardised product on a fixed calendar. A company is more like a business selling a one-off, custom product. It needs a specialist partner to find buyers and has to convince them of its credit quality each time. This difference in regularity and credit risk drives most of the contrasts below."
+        },
+        {
+          "heading": "Primary market: how new bonds are sold",
+          "body_markdown": "**Government issuers**\n- **Auction**: the government announces a size and bidders submit offers. *Competitive* bidders name a price or yield and may win nothing. *Noncompetitive* bidders accept whatever the auction produces and are filled at the average or cutoff result. In a **single-price auction** every winner pays the same price, which is the lowest accepted price. In a **multiple-price auction** each winner pays the price it bid.\n- **Tap**: the government sells additional units of an existing bond, or a fixed amount, when conditions look favourable, often through primary dealers. It is useful when demand is uncertain and the issuer wants to avoid the risk of a weak auction.\n- **Private placement**: occasionally used when money is needed urgently and there is no time to prepare a public issue. The bonds are later sold on in the secondary market.\n\n**Corporate issuers**\n- **Underwritten public offering**: an investment bank (the *underwriter*) helps design the deal and sells it. In a *firm commitment* the underwriter buys the whole issue and bears the resale risk. In a *best efforts* deal it only tries to sell the bonds and takes no price risk.\n- **Shelf registration**: the company registers a programme once and then issues bonds in pieces over time when market conditions suit.\n- **Private placement (for example Rule 144A in the US)**: bonds are sold to a limited set of institutions. Disclosure requirements are lighter, but secondary-market liquidity is generally lower."
+        },
+        {
+          "heading": "Secondary market: how they trade",
+          "body_markdown": "Both kinds of bond trade mostly **over the counter (OTC)**, meaning through dealers who quote prices rather than on a single central exchange. A **dealer** trades from its own inventory and bears the risk of reselling at a loss. A **broker** is an agent who matches buyers and sellers for a commission.\n\n**Government bonds** are the most liquid. The most recently auctioned issue of a given maturity is called **on-the-run**. It trades heavily and has the narrowest bid-ask spread. Older issues are **off-the-run**. They trade less, so investors typically demand a slightly higher yield on them than on a similar-maturity on-the-run bond. In stressed markets liquidity can deteriorate even for government bonds, as bid-ask spreads widen.\n\n**Corporate bonds** vary a great deal. Large, well-known issues trade actively, but many issues trade rarely and have wide bid-ask spreads. A narrow spread signals good liquidity and a wide one signals poor liquidity. Corporate bonds also carry **credit risk** (the issuer may not pay) and **event risk** (a sudden event such as a leveraged buyout that damages the issuer's ability to pay). Because of this, a corporate bond's yield is often described as a **spread over a government benchmark** of similar maturity."
+        },
+        {
+          "heading": "The contrast in one view",
+          "body_markdown": "| Feature | Government | Corporate |\n|---|---|---|\n| Typical primary method | Auctions, taps | Underwritten offerings, shelf, private placement |\n| Intermediaries | Primary dealers | Investment banks as underwriters |\n| Issue pattern | Regular, standardised | Irregular, deal by deal |\n| Secondary liquidity | Highest, especially on-the-run | Varies, often lower |\n| Main extra risk | Mostly interest-rate risk (plus sovereign credit risk for weaker issuers) | Credit and event risk |\n| Price quoting | Price or yield | Often yield spread to a government benchmark |\n\nSettlement of government trades is often quicker than for corporate trades, but conventions differ by market, so do not rely on a specific number of days."
+        }
+      ],
+      "worked_example": {
+        "problem": "A government sells 100 million face value of bonds in an auction (ignore noncompetitive bids). The competitive bids, as prices per 100 face, are: A: 40 million at 100.20; B: 30 million at 100.10; C: 30 million at 100.00; D: 20 million at 99.90. Compare the cash raised under a single-price auction and under a multiple-price auction, assuming bidders bid the same way in both formats.",
+        "steps": [
+          "Rank bids from the highest price (lowest yield) to the lowest, because the government wants the best price.",
+          "Fill the 100 million: A takes 40 million, B takes 30 million, C takes 30 million. The total is 100 million, so D wins nothing. The lowest accepted price is 100.00.",
+          "Multiple-price: each winner pays its own bid. Proceeds = 40 × 1.0020 + 30 × 1.0010 + 30 × 1.0000 = 40.08 + 30.03 + 30.00 = 100.11 million.",
+          "Single-price: every winner pays the lowest accepted price of 100.00. Proceeds = 100 × 1.0000 = 100.00 million.",
+          "Difference: the multiple-price format raises 0.11 million more with identical bids. In practice bidders tend to bid more cautiously in multiple-price auctions, so the extra revenue is not guaranteed."
+        ],
+        "answer": "Multiple-price auction raises 100.11 million; single-price auction raises 100.00 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Corporate yield spread",
+          "latex": "\\text{Spread}=y_{\\text{corp}}-y_{\\text{gov}}",
+          "where": "y_corp is the yield on the corporate bond; y_gov is the yield on a government benchmark bond of similar maturity. The spread compensates for extra credit and liquidity risk."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up the two auction formats: in a single-price auction all winners pay the lowest accepted price, not their own bid and not the average.",
+        "Assuming all government bonds are equally liquid. On-the-run issues are far more liquid than off-the-run issues, which usually yield a bit more.",
+        "Believing that corporate bonds trade on exchanges and government bonds trade OTC. Both trade mainly OTC, with dealers in the middle.",
+        "Treating a private placement as having the same disclosure and resale liquidity as a public offering. It has lighter disclosure and generally lower liquidity.",
+        "Confusing firm commitment with best efforts: in firm commitment the underwriter keeps the resale risk, in best efforts it does not."
+      ],
+      "builds_on": [
+        "Bond basics and indenture terms",
+        "Credit risk and yield spreads",
+        "Primary versus secondary markets"
+      ],
+      "leads_to": [
+        "Government funding choices",
+        "Credit analysis of corporate bonds",
+        "Liquidity and bid-ask spreads"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:14:19",
+        "fed-trading-4000-p1:83:136",
+        "imf-wb-debt-mgmt-2002:104:133",
+        "fed-trading-4000-p1:38:60",
+        "fed-trading-4000-p1:40:63",
+        "fed-risk-retention-2010:30:34",
+        "os:principles-finance-2e:m00073:2.2",
+        "treasury-iawg-2015:13:15",
+        "fed-trading-4000-p1:80:133"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best contrasts how a national government and a typical corporation bring new bonds to the primary market?",
+        "options": [
+          {
+            "text": "Governments rely mainly on underwriting syndicates, while corporations mainly use regular public auctions.",
+            "value": null,
+            "explanation": "Reverses the two channels. Auctions are the standard government channel; underwriting is the standard corporate channel."
+          },
+          {
+            "text": "Governments commonly sell by auction or tap, while corporations commonly use investment-bank underwriting.",
+            "value": null,
+            "explanation": "Correct. Governments issue regularly through auctions and taps, often via primary dealers, while companies depend on underwriters to place deal-by-deal issues."
+          },
+          {
+            "text": "Both sell exclusively through private placements to a small group of institutional buyers.",
+            "value": null,
+            "explanation": "Private placements exist for both but are not the main channel for either. This overgeneralises one method."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:14:19",
+          "fed-trading-4000-p1:38:60",
+          "imf-wb-debt-mgmt-2002:104:133"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A government sells 100 million of bonds in a single-price auction. Accepted competitive bids were at prices of 100.20, 100.10 and 100.00 per 100 face, and 100.00 was the lowest accepted price. How much per 100 face does the bidder who bid 100.20 pay?",
+        "options": [
+          {
+            "text": "100.20, the price it bid.",
+            "value": null,
+            "explanation": "This is the multiple-price rule, where each winner pays its own bid."
+          },
+          {
+            "text": "100.10, the average of accepted bids.",
+            "value": null,
+            "explanation": "Averaging is how noncompetitive bids are priced, not how winning competitive bids are priced in a single-price auction."
+          },
+          {
+            "text": "100.00, the lowest accepted price.",
+            "value": null,
+            "explanation": "Correct. In a single-price auction every successful bidder pays the same price, which is the lowest accepted price."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:14:19"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A national debt office needs to sell more government bonds, but it is unsure how strong investor demand will be. It wants to avoid putting the bonds into a public bidding process in which a weak result would be exposed. Among the three government issuance methods below, which one fits this concern best?",
+        "options": [
+          {
+            "text": "A single-price auction, where all winning bidders pay the same yield.",
+            "value": null,
+            "explanation": "Changing the pricing rule does not remove demand uncertainty. The bonds still go to a public bidding process, and a weak turnout would still show up in the cutoff yield."
+          },
+          {
+            "text": "A tap, selling a set amount of an existing bond when conditions look favourable.",
+            "value": null,
+            "explanation": "Correct. With a tap the issuer chooses the timing and size of each sale and sells only when conditions look good. It avoids the price-discovery risk of a public auction, so it suits uncertain demand. The source passages note taps are used when demand is uncertain."
+          },
+          {
+            "text": "A multiple-price auction, where winning bidders pay their own bid yields.",
+            "value": null,
+            "explanation": "This is the same mistake as the single-price auction. A different payment format still puts the issue through public bidding, so the demand uncertainty remains."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "imf-wb-debt-mgmt-2002:104:133",
+          "fed-trading-4000-p1:83:136"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): A firm-commitment underwriting transfers the risk of a poorly received issue to the underwriters, who guarantee the sale."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor compares two government bonds of the same issuer with similar maturities. One was auctioned last week (on-the-run) and the other was auctioned two years ago (off-the-run). Which outcome is most likely?",
+        "options": [
+          {
+            "text": "The off-the-run bond has a lower yield because older bonds are safer.",
+            "value": null,
+            "explanation": "Age does not make a bond safer. This confuses seasoning with credit quality."
+          },
+          {
+            "text": "The two bonds have identical yields because they share the same issuer.",
+            "value": null,
+            "explanation": "Ignores liquidity. Same credit risk does not mean the same yield when trading activity differs."
+          },
+          {
+            "text": "The off-the-run bond has a slightly higher yield because it is less liquid.",
+            "value": null,
+            "explanation": "Correct. The on-the-run issue trades more actively, so investors accept a lower yield for it, while less liquid off-the-run issues must offer a bit more."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:14:19",
+          "fed-trading-4000-p1:80:133"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description of secondary-market trading is most accurate when comparing a large government bond with a typical corporate bond?",
+        "options": [
+          {
+            "text": "Corporate bonds usually have narrower bid-ask spreads because corporate issuers pay higher coupons.",
+            "value": null,
+            "explanation": "Coupon size does not determine spread. Spreads reflect trading volume and liquidity, which are generally lower for corporate bonds."
+          },
+          {
+            "text": "Government bonds trade only on exchanges, while corporate bonds trade only over the counter.",
+            "value": null,
+            "explanation": "Both trade mainly OTC through dealers. Neither statement about exclusive venues is correct."
+          },
+          {
+            "text": "Corporate bonds often trade less actively and are commonly priced as a yield spread over a government benchmark.",
+            "value": null,
+            "explanation": "Correct. Many corporate issues trade infrequently with wider bid-ask spreads, and their yields are expressed relative to a government benchmark of similar maturity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:40:63",
+          "fed-trading-4000-p1:38:60",
+          "treasury-iawg-2015:13:15"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company chooses a private placement (such as Rule 144A) instead of a registered public offering for a bond issue. Which consequence is most likely?",
+        "options": [
+          {
+            "text": "Lighter disclosure requirements, but generally less secondary-market liquidity for the bonds.",
+            "value": null,
+            "explanation": "Correct. Private placements trade lighter disclosure for a narrower investor base, which usually means less liquidity when investors want to sell."
+          },
+          {
+            "text": "Heavier disclosure requirements, and generally greater secondary-market liquidity for the bonds.",
+            "value": null,
+            "explanation": "Reverses both effects. Private placements have lighter, not heavier, disclosure, and typically less liquidity."
+          },
+          {
+            "text": "Lighter disclosure requirements, and generally greater secondary-market liquidity for the bonds.",
+            "value": null,
+            "explanation": "Gets the disclosure right but wrongly assumes better liquidity. A restricted investor base normally reduces liquidity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-risk-retention-2010:30:34"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In the secondary market for corporate bonds, an investment bank acts as a dealer in one trade and as a broker in another. Which statement is correct?",
+        "options": [
+          {
+            "text": "As a broker it buys from its own account and bears the risk of reselling at a loss.",
+            "value": null,
+            "explanation": "This describes a dealer. Brokers are agents who do not take the inventory risk."
+          },
+          {
+            "text": "As a dealer it earns a commission and does not hold the bond in inventory.",
+            "value": null,
+            "explanation": "This describes a broker. A dealer earns the bid-ask spread and holds inventory."
+          },
+          {
+            "text": "As a dealer it trades from its own account and bears the risk of reselling at a loss.",
+            "value": null,
+            "explanation": "Correct. Dealers buy and sell for their own account and bear inventory risk. Brokers act as agents and are paid a commission."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:38:60"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between a single-price and a multiple-price government bond auction?",
+        "back": "Single-price: all winning bidders pay the same price, the lowest accepted price. Multiple-price: each winning bidder pays the price it bid.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:14:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is a tap issue, and when is it attractive to a government?",
+        "back": "A tap is a sale of a fixed amount of an existing bond when conditions look favourable, often via primary dealers. It suits uncertain demand because it avoids the risk of a weak auction.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:83:136",
+          "imf-wb-debt-mgmt-2002:104:133"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why do off-the-run government bonds usually yield more than similar on-the-run bonds?",
+        "back": "They trade less actively, so they are less liquid. Investors demand extra yield for that lower liquidity.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:14:19",
+          "fed-trading-4000-p1:80:133"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How is a corporate bond's yield often expressed relative to government bonds?",
+        "back": "As a yield spread over a government benchmark of similar maturity. It compensates for credit, event and liquidity risk.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:38:60",
+          "fed-trading-4000-p1:40:63"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Firm commitment versus best efforts underwriting: what is the difference?",
+        "back": "In a firm commitment the underwriter buys the whole issue and bears the resale risk. In best efforts it only tries to sell the bonds and bears no price risk.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:40:57.051Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1060,
+      "outputTokens": 490,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007137,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:41:05.805Z",
+      "purpose": "repair",
+      "losId": "fixed-income-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10686,
+      "outputTokens": 981,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.032126,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:41:07.713Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 182,
+      "outputTokens": 111,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001591,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:41:16.929Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14531,
+      "outputTokens": 1484,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0440712,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0849252
+}

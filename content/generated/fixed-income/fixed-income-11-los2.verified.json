@@ -1,0 +1,798 @@
+{
+  "losId": "fixed-income-11-los2",
+  "losText": "explain how a bond's maturity, coupon, and yield level affect its interest rate risk",
+  "moduleId": "fixed-income-11",
+  "moduleTitle": "Yield-Based Bond Duration Measures and Properties",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:46:28.665Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ritchken-measures-of-price-sensitivity:5:3",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 5–6",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=5",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:8:5",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 8–10",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=8",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:10:11",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 10–11",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=10",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:17:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 17–18",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:7:9",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 7",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=7",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:7:10",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "pp. 7–8",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=7",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec04:36:7",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 36–41",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=36",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "slcg-cmo-primer:15:14",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 15–16",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=15",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "utah-fcs5510-bond-market:5:6",
+      "title": "Chapters 13 and 14: The Bond Market (bond basics, yield to maturity, indenture; University of Utah FCS 5510 slides)",
+      "locator": "p. 5",
+      "url": "https://content.csbs.utah.edu/~fan/fcs5510/OnlinePowerPoint/FCS5510SmallUnit07.pdf#page=5",
+      "license": "Course slides on a university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "What Makes a Bond Swing More or Less When Rates Move",
+      "summary": "A bond's interest rate risk depends on three things you can see in advance: how far away its cash flows are (maturity), how big its early cash flows are (coupon), and the yield it is discounted at. Knowing the direction of each effect lets you rank bonds quickly without any calculation.",
+      "sections": [
+        {
+          "heading": "Interest rate risk and the duration gauge",
+          "body_markdown": "**Interest rate risk** is the chance that a bond's price changes because market yields change. When yields rise, existing bond prices fall, and when yields fall, prices rise.\n\nTwo duration measures gauge this risk:\n\n- **Macaulay duration** is the weighted-average time (in years) until you receive the bond's cash flows. Each payment is weighted by its present value. Think of a friend repaying a loan in instalments. The average wait for your money is the loan's 'duration'.\n- **Modified duration** is Macaulay duration divided by $(1+y/m)$. It gives the approximate % price change for a 1% (100 bp) change in yield.\n\nBoth move in the same direction as the factors below. A bigger duration means bigger price swings, so the question becomes: what makes duration bigger or smaller?"
+        },
+        {
+          "heading": "Maturity: a longer wait means more exposure",
+          "body_markdown": "A bond that pays you back far in the future has its value tied up in distant cash flows. Distant cash flows are affected most by a change in the discount rate, because the rate compounds over more years.\n\n- A **zero-coupon bond** has one payment, at maturity. Its Macaulay duration **equals its maturity**.\n- A **coupon bond** hands back some money early, so its Macaulay duration is **shorter than its maturity**.\n- Holding coupon and yield constant, a longer maturity **generally** gives a higher duration and more price sensitivity. For par and premium bonds this always holds. The only odd case is a very long, deep-discount, low-coupon bond, where the effect can weaken or reverse. Treat 'longer maturity means higher duration' as the standard rule."
+        },
+        {
+          "heading": "Coupon: early cash is less exposed cash",
+          "body_markdown": "Take two bonds with the same maturity and yield, but different coupons. The higher-coupon bond pays more of its value early. Less of its value sits in far-off payments, so a rate change has less to work on.\n\n**Lower coupon → higher duration → larger % price change.**\n\nExample (4-year annual bonds, yield moves from 8% to 10%): a 5% coupon bond falls about 6.6% and a 10% coupon bond falls about 6.2%. The gap looks small here, but the direction is what matters.\n\nA zero-coupon bond is the extreme case. It has no early cash at all, so it has the highest duration for its maturity.\n\nThe same logic explains why premium bonds, which carry high coupons relative to market yields, are less sensitive than discount bonds, all else equal."
+        },
+        {
+          "heading": "Yield level: heavier discounting shrinks the far end",
+          "body_markdown": "When the yield is high, each distant cash flow is discounted by a large factor. Its present value shrinks, so it carries less weight in the weighted-average time. The weights shift toward early payments and duration falls.\n\n**Higher yield → lower duration → smaller % price change** for a given yield move.\n\nA common slip is thinking a high-yield bond is riskier in the interest-rate sense. High yields may signal credit risk, but that is a different topic. For rate sensitivity, low-yield environments mean higher durations."
+        },
+        {
+          "heading": "Putting the three effects together",
+          "body_markdown": "| Factor (others fixed) | Change | Effect on duration / rate risk |\n|---|---|---|\n| Maturity | longer | higher (generally) |\n| Coupon | lower | higher |\n| Yield | lower | higher |\n\nThe highest rate risk belongs to a **long-maturity, low-coupon bond at a low yield**. The lowest belongs to a **short-maturity, high-coupon bond at a high yield**. When two bonds differ in only one factor, the table decides. When they differ in several factors that point in opposite directions, you must compute the durations rather than guess."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 3-year zero-coupon bond is priced to yield 5% per year (annual compounding). (a) What are its Macaulay and modified durations? (b) By roughly what % does its price change if its yield rises by 100 bp?",
+        "steps": [
+          "A zero-coupon bond pays only at maturity, so its Macaulay duration equals its maturity: 3.00 years.",
+          "Modified duration = Macaulay duration ÷ (1 + y) = 3 ÷ 1.05.",
+          "BA II Plus: 3 ÷ 1.05 = 2.857 (about 2.857 years).",
+          "Approximate % price change = −modified duration × change in yield = −2.857 × 0.01 = −0.02857, which is about −2.86%.",
+          "Check against the rules: a coupon bond with the same 3-year maturity would have a shorter duration, so it would fall by less than 2.86%."
+        ],
+        "answer": "Macaulay duration = 3.00 years; modified duration ≈ 2.857; the price falls about 2.86% for a +100 bp yield change.",
+        "answer_value": 2.857,
+        "calc_spec": {
+          "fn": "modifiedDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":3,\"freq\":1},\"ytm\":0.05}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Modified duration from Macaulay duration",
+          "latex": "\\text{ModDur}=\\dfrac{\\text{MacDur}}{1+y/m}",
+          "where": "ModDur = modified duration (years); MacDur = Macaulay duration (years); y = annual yield to maturity as a decimal; m = number of coupon periods per year."
+        },
+        {
+          "name": "Approximate price change",
+          "latex": "\\%\\Delta P\\approx -\\text{ModDur}\\times\\Delta y",
+          "where": "%ΔP = approximate percentage change in bond price; ModDur = modified duration; Δy = change in yield as a decimal (100 bp = 0.01). Reliable only for small yield changes."
+        },
+        {
+          "name": "Macaulay duration of a zero-coupon bond",
+          "latex": "\\text{MacDur}_{\\text{zero}}=T",
+          "where": "T = years to maturity. A coupon bond's Macaulay duration is below its maturity."
+        }
+      ],
+      "exam_traps": [
+        "Thinking a higher coupon means more rate risk because the bond pays more cash. Higher coupons shorten duration and reduce sensitivity.",
+        "Thinking a higher yield means more interest rate risk. All else equal, a higher yield lowers duration.",
+        "Treating a coupon bond's Macaulay duration as equal to its maturity. Only a zero-coupon bond has duration equal to maturity.",
+        "Ranking bonds by maturity alone. A short-maturity zero can have more duration than a longer-maturity bond with a large coupon.",
+        "Reading 'longer maturity means higher duration' as an unbreakable law. It is a general rule that can fail for long, deep-discount, low-coupon bonds."
+      ],
+      "builds_on": [
+        "Bond pricing and yield to maturity",
+        "Macaulay and modified duration",
+        "Present value and discounting"
+      ],
+      "leads_to": [
+        "Convexity",
+        "Duration matching and immunization",
+        "Effective duration for bonds with embedded options"
+      ],
+      "cited_chunk_ids": [
+        "ritchken-measures-of-price-sensitivity:5:3",
+        "ritchken-measures-of-price-sensitivity:8:5",
+        "utah-fcs5510-bond-market:5:6",
+        "mit-ocw-15401-lec04:36:7",
+        "fed-feds-2006-28:11:7",
+        "fed-trading-4000-p1:17:24"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Bond X and Bond Y each have 10 years to maturity, pay annual coupons and yield 5%. Bond X has a 3% coupon and Bond Y has a 7% coupon. Which statement about their interest rate risk is correct?",
+        "options": [
+          {
+            "text": "Bond Y has more risk, because its larger coupons make its price move more.",
+            "value": null,
+            "explanation": "Confuses bigger cash flows with bigger sensitivity. Larger coupons return value earlier and lower duration."
+          },
+          {
+            "text": "Bond X has more risk, because its lower coupon gives it a longer duration.",
+            "value": null,
+            "explanation": "Correct. With a lower coupon, more of the value comes from the distant principal, so duration and price sensitivity are higher."
+          },
+          {
+            "text": "They have equal risk, because maturity and yield are identical.",
+            "value": null,
+            "explanation": "Ignores the coupon. Maturity and yield are two of three drivers, and the coupon also changes duration."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:5:3",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A fixed-rate annual-pay coupon bond is evaluated at two market yields, 3% and 7%. Holding coupon and maturity constant, how does the bond's duration at 7% compare with its duration at 3%?",
+        "options": [
+          {
+            "text": "Higher, because larger yield changes are more damaging to prices.",
+            "value": null,
+            "explanation": "Confuses the level of yield with the size of yield moves. A higher yield lowers duration."
+          },
+          {
+            "text": "The same, because the cash flows and maturity are unchanged.",
+            "value": null,
+            "explanation": "Cash flows are the same, but their present-value weights depend on the discount rate, so duration changes."
+          },
+          {
+            "text": "Lower, because heavier discounting shrinks the weight of distant cash flows.",
+            "value": null,
+            "explanation": "Correct. A higher yield cuts the present value of far-off payments the most, shifting weight to early cash flows and shortening duration."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "mit-ocw-15401-lec04:36:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A 7-year zero-coupon bond and a 7-year bond paying a 6% annual coupon have the same yield to maturity. Which statement is correct?",
+        "options": [
+          {
+            "text": "The zero has a Macaulay duration of 7 years, and the coupon bond's is shorter.",
+            "value": null,
+            "explanation": "Correct. The zero has a single payment at year 7, so its duration equals its maturity. Coupons arrive earlier and pull the other bond's duration below 7."
+          },
+          {
+            "text": "Both have a Macaulay duration of 7 years, because their maturities are equal.",
+            "value": null,
+            "explanation": "Equates maturity with duration for every bond. That is true only for zero-coupon bonds."
+          },
+          {
+            "text": "The coupon bond has the longer duration, because it pays more total cash.",
+            "value": null,
+            "explanation": "Confuses total cash received with the timing of cash. Duration is a time-weighted average, and coupons shorten it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:17:24",
+          "fed-feds-2006-28:11:7",
+          "slcg-cmo-primer:15:14"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A 5-year zero-coupon bond is priced to yield 4% per year with annual compounding. Its Macaulay duration is 5 years. What is its modified duration? Round to two decimals.",
+        "options": [
+          {
+            "text": "5.00",
+            "value": 5,
+            "explanation": "Reports the Macaulay duration. The question asks for the modified duration, which must be divided by (1 + y)."
+          },
+          {
+            "text": "4.81",
+            "value": 4.81,
+            "explanation": "Correct. Modified duration = 5 ÷ 1.04 = 4.8077, which rounds to 4.81."
+          },
+          {
+            "text": "5.20",
+            "value": 5.2,
+            "explanation": "Multiplies by (1 + y) instead of dividing: 5 × 1.04 = 5.20."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "modifiedDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0,\"years\":5,\"freq\":1},\"ytm\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:11:7",
+          "ritchken-measures-of-price-sensitivity:8:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "All three bonds pay annual coupons and are priced at par, so each one's yield equals its coupon rate. Which has the greatest interest rate risk?\n\nBond A: 10 years to maturity, 8% coupon.\nBond B: 10 years to maturity, 3% coupon.\nBond C: 20 years to maturity, 3% coupon.",
+        "options": [
+          {
+            "text": "Bond A, because a high coupon rate adds the most cash flow.",
+            "value": null,
+            "explanation": "Reverses the coupon effect. Bond A has the highest coupon and yield, both of which lower duration."
+          },
+          {
+            "text": "Bond B, because a low coupon and low yield outweigh maturity.",
+            "value": null,
+            "explanation": "Bond B matches Bond C on coupon and yield but has half the maturity. Longer maturity raises Bond C's duration further."
+          },
+          {
+            "text": "Bond C, because it combines the longest maturity with a low coupon and low yield.",
+            "value": null,
+            "explanation": "Correct. For par bonds duration rises with maturity, and the low coupon and low yield also push it up. Bond C is highest on all three factors."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "mit-ocw-15401-lec04:36:7",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 2-year bond has a face value of 100 and pays a 6% annual coupon. It is priced to yield 5% per year with annual compounding. What is its Macaulay duration in years? Round to two decimals.",
+        "options": [
+          {
+            "text": "1.94",
+            "value": 1.94,
+            "explanation": "Correct. Price ≈ 101.86. Time-weighted PVs: (1 × 5.714 + 2 × 96.145) ÷ 101.86 ≈ 1.944, which rounds to 1.94. It is below 2 because the coupon arrives early."
+          },
+          {
+            "text": "1.85",
+            "value": 1.85,
+            "explanation": "Divides the Macaulay duration by (1 + y), which gives the modified duration (1.944 ÷ 1.05)."
+          },
+          {
+            "text": "2.00",
+            "value": 2,
+            "explanation": "Treats the bond like a zero-coupon bond and uses maturity, ignoring the year-1 coupon."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":2,\"freq\":1},\"ytm\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "utah-fcs5510-bond-market:7:9",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why does a higher coupon rate reduce a bond's sensitivity to yield changes, holding maturity and yield constant?",
+        "options": [
+          {
+            "text": "Coupons are reinvested at the bond's yield, and that income offsets any price change.",
+            "value": null,
+            "explanation": "Mixes up reinvestment income with price risk. Duration describes the price response to a yield change, not reinvestment income."
+          },
+          {
+            "text": "A larger share of the value arrives early, so less is exposed to heavy discounting.",
+            "value": null,
+            "explanation": "Correct. High-coupon bonds return value sooner. Less of their present value sits in distant payments, so they need smaller price adjustments."
+          },
+          {
+            "text": "A higher coupon shortens the bond's maturity, so the bond is exposed for fewer years.",
+            "value": null,
+            "explanation": "Confuses duration with maturity. A coupon does not change the maturity date, only the timing-weighted average of cash flows."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How does a bond's coupon rate affect its interest rate risk, all else equal?",
+        "back": "A lower coupon means a longer duration and a larger % price change for a given yield move. A higher coupon returns value sooner and lowers sensitivity.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:5:3",
+          "utah-fcs5510-bond-market:5:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the Macaulay duration of a zero-coupon bond, and how does a coupon bond compare?",
+        "back": "A zero's duration equals its maturity, because there is a single payment at maturity. A coupon bond of the same maturity has a shorter duration.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:17:24",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does the yield level affect duration, and why?",
+        "back": "A higher yield lowers duration. Heavier discounting shrinks the present value of distant cash flows, so early cash flows get more weight.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:8:5",
+          "mit-ocw-15401-lec04:36:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How does maturity affect interest rate risk, and what is the caveat?",
+        "back": "Generally a longer maturity gives a higher duration and more price sensitivity. This always holds for par and premium bonds. The exception is long, deep-discount, low-coupon bonds, where the effect can reverse.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:36:7",
+          "ritchken-measures-of-price-sensitivity:8:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:46:19.449Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-11-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1032,
+      "outputTokens": 701,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009191,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:46:28.664Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-11-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14760,
+      "outputTokens": 1184,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041529199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.05072019999999999
+}

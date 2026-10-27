@@ -1,0 +1,815 @@
+{
+  "losId": "fixed-income-09-los1",
+  "losText": "define spot rates and the spot curve, and calculate the price of a bond using spot rates",
+  "moduleId": "fixed-income-09",
+  "moduleTitle": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:44:03.011Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-fixedincome3:20:8",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 20–22",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=20",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome3:19:7",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 19–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15401-rec02:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15401-rec02:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 6–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:11:10",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 11–12",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=11",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:10:9",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 10–11",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=10",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec04:24:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 24–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=24",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:33:59",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 33–34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=33",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:31:19",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 31–32",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=31",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:90:167",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 90",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=90",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-feds-2006-28:4:2",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 4–5",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=4",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Spot Rates and Pricing Bonds Cash Flow by Cash Flow",
+      "summary": "A spot rate is the yield for a single payment received at one future date, and the spot curve plots these rates across maturities. You price a bond by discounting each of its cash flows at the spot rate for that cash flow's own date, which is the pricing method that works when the yield curve is not flat.",
+      "sections": [
+        {
+          "heading": "Spot rate: the price of one payment at one date",
+          "body_markdown": "A **spot rate** $S_t$ is the annualized yield today on a single payment due in $t$ years, with no payments in between. The cleanest example is a **zero-coupon bond**, which pays only its face value at maturity and nothing before. Its price is the face value discounted at that bond's yield, so the spot rate is that yield. Think of a spot rate as the price tag for money delivered on one specific date: money arriving in 1 year and money arriving in 10 years can carry different price tags.\n\nBecause a zero-coupon price depends only on the date and the rate, you can move between the two:\n\n$$P_t = \\frac{FV}{(1+S_t)^t} \\qquad S_t = \\left(\\frac{FV}{P_t}\\right)^{1/t} - 1$$"
+        },
+        {
+          "heading": "The spot curve",
+          "body_markdown": "The **spot curve** (also called the zero curve or term structure of spot rates) plots $S_t$ against maturity $t$. It can be upward-sloping, downward-sloping, humped (middle maturities highest) or flat. In practice it is not read straight from the market for every maturity. It is built from Treasury bills, notes and bonds, often by *bootstrapping*. Strips (traded zero-coupon Treasuries) are directly observable but can carry liquidity and tax distortions, so they are not always the preferred input.\n\nEach point on the curve says: *this is the annual rate the market requires for a single payment arriving at exactly that horizon, for a given credit quality.*"
+        },
+        {
+          "heading": "Pricing a coupon bond with spot rates",
+          "body_markdown": "A coupon bond is a bundle of separate payments, each of which is its own little zero-coupon bond. Value each payment at the spot rate for its own date and add them up:\n\n$$P_0 = \\frac{C}{(1+S_1)^1} + \\frac{C}{(1+S_2)^2} + \\cdots + \\frac{C+FV}{(1+S_N)^N}$$\n\nThe $1/(1+S_t)^t$ factors are **discount factors**. The year-1 coupon uses $S_1$, the year-2 coupon uses $S_2$, and the last coupon plus principal uses $S_N$. Do not discount every cash flow at the bond's maturity spot rate.\n\nFor a semiannual bond, each period is six months. Use the annual spot rate for each date divided by 2 as the per-period rate, with the number of half-years as the exponent."
+        },
+        {
+          "heading": "Why this beats a single yield to maturity",
+          "body_markdown": "The yield to maturity (YTM) is one rate that makes the bond's discounted cash flows equal its price. It is a complicated average of the spot rates up to maturity, and it assumes every cash flow is discounted (and reinvested) at that same rate. When the curve is not flat this is inconsistent, because a payment in 1 year and a payment in 5 years have different market required yields.\n\nTwo practical consequences:\n- **Different bonds, different YTMs, same spot curve.** Two bonds with the same maturity but different coupons have different YTMs, yet both are priced from the same spot rates.\n- **Upward-sloping curve:** a coupon bond's YTM sits *below* the spot rate for its maturity, because earlier cash flows are discounted at lower spot rates and pull the average down. If the curve is flat, the spot rates and the YTM coincide.\n\nIf a bond's market price differs from its spot-rate value, you could in principle strip it into zero-coupon pieces and capture the difference, which is why spot-rate pricing is the arbitrage-free benchmark."
+        }
+      ],
+      "worked_example": {
+        "problem": "A government issuer's annual-pay spot rates are $S_1 = 3\\%$, $S_2 = 4\\%$ and $S_3 = 5\\%$. Find the arbitrage-free price of a 3-year bond with face value 100 and an annual coupon rate of 5%, rounded to two decimals.",
+        "steps": [
+          "List the cash flows: 5 at t = 1, 5 at t = 2, and 105 at t = 3 (final coupon plus face value).",
+          "Discount the t = 1 flow at $S_1$: $5 / 1.03 = 4.8544$. On the BA II Plus: 5 ÷ 1.03 = .",
+          "Discount the t = 2 flow at $S_2$: first 1.04 [y^x] 2 = gives 1.0816, then 5 ÷ 1.0816 = 4.6228.",
+          "Discount the t = 3 flow at $S_3$: first 1.05 [y^x] 3 = gives 1.157625, then 105 ÷ 1.157625 = 90.7030.",
+          "Add the three present values: 4.8544 + 4.6228 + 90.7030 = 100.1802, which rounds to 100.18. (The CF/NPV keys cannot be used directly because the discount rate changes for each cash flow.)"
+        ],
+        "answer": "The bond is worth about 100.18 per 100 of face value.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Zero-coupon price from a spot rate",
+          "latex": "P_t = \\frac{FV}{(1+S_t)^t}",
+          "where": "$P_t$ = price today of a zero-coupon bond maturing in $t$ years; $FV$ = face value paid at maturity; $S_t$ = $t$-year spot rate (annual compounding); $t$ = years to maturity."
+        },
+        {
+          "name": "Spot rate from a zero-coupon price",
+          "latex": "S_t = \\left(\\frac{FV}{P_t}\\right)^{1/t} - 1",
+          "where": "$S_t$ = $t$-year spot rate; $FV$ = face value; $P_t$ = zero-coupon price today; $t$ = years to maturity."
+        },
+        {
+          "name": "Coupon bond price using spot rates",
+          "latex": "P_0 = \\sum_{t=1}^{N} \\frac{C}{(1+S_t)^t} + \\frac{FV}{(1+S_N)^N}",
+          "where": "$P_0$ = bond price today; $C$ = coupon per period; $S_t$ = spot rate for the date of the $t$-th cash flow; $N$ = number of periods to maturity; $FV$ = face value repaid at $N$."
+        }
+      ],
+      "exam_traps": [
+        "Discounting every cash flow at the maturity-date spot rate (for example, all of a 3-year bond's cash flows at $S_3$). Each flow needs the spot rate for its own date.",
+        "Confusing a spot rate with the bond's YTM or its coupon rate. A spot rate belongs to a single payment at one date and is not the yield on a coupon bond.",
+        "Forgetting to divide the annual spot rate by 2 and double the number of periods for a semiannual bond.",
+        "Treating simple interest as compounding, for example pricing a 3-year zero at $100/(1+3S)$ instead of $100/(1+S)^3$.",
+        "Assuming that when the spot curve is upward-sloping the bond's YTM is above the maturity spot rate. It is below, because YTM is an average of lower earlier spot rates and the maturity spot rate."
+      ],
+      "builds_on": [
+        "Time value of money and discounting",
+        "Zero-coupon bonds",
+        "Bond pricing with yield to maturity"
+      ],
+      "leads_to": [
+        "Par rates and forward rates",
+        "Bootstrapping the spot curve",
+        "Comparing spot, par and forward curves",
+        "Duration and non-parallel curve shifts"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-rec02:1:0",
+        "mit-ocw-15433-fixedincome3:19:7",
+        "mit-ocw-15433-fixedincome3:20:8",
+        "fed-trading-4000-p2:33:59",
+        "oxford-winkel-duration-immunisation:10:9",
+        "mit-ocw-15401-lec04:24:5"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the 4-year spot rate?",
+        "options": [
+          {
+            "text": "The coupon rate that would make a 4-year bond trade at par",
+            "value": null,
+            "explanation": "This describes a par rate, not a spot rate. A spot rate is tied to one payment, not to a coupon that prices a bond at par."
+          },
+          {
+            "text": "The rate for year 4 alone, agreed today for borrowing then",
+            "value": null,
+            "explanation": "This describes a forward rate (the rate between year 3 and year 4). A spot rate always starts today."
+          },
+          {
+            "text": "The annualized yield today on a single payment due in 4 years",
+            "value": null,
+            "explanation": "Correct. A spot rate is the yield for one cash flow received at one future date, with no interim payments, as on a 4-year zero-coupon bond."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec02:1:0",
+          "mit-ocw-15401-lec04:24:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The 3-year spot rate is 4.5% (annual compounding). What is the price today of a 3-year zero-coupon bond with a face value of 100? Round to two decimals.",
+        "options": [
+          {
+            "text": "91.57",
+            "value": 91.57,
+            "explanation": "Discounts for only 2 years ($100/1.045^2$). The bond matures in 3 years, so the exponent must be 3."
+          },
+          {
+            "text": "87.63",
+            "value": 87.63,
+            "explanation": "Correct. $100/1.045^3 = 100/1.141166 = 87.63$."
+          },
+          {
+            "text": "88.11",
+            "value": 88.11,
+            "explanation": "Uses simple interest, $100/(1+0.045\\times 3)$. Spot rates compound annually, so the discount factor is $(1.045)^3$."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.045,\"n\":3,\"fv\":100}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec02:1:0",
+          "fed-feds-2006-28:4:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A 2-year bond has face value 100 and pays an annual coupon of 6. The 1-year spot rate is 4% and the 2-year spot rate is 5%, both with annual compounding. Using spot rates, what is the bond's price, rounded to two decimals?",
+        "options": [
+          {
+            "text": "101.91",
+            "value": null,
+            "explanation": "Correct. $6/1.04 + 106/1.05^2 = 5.77 + 96.15 = 101.91$. Each cash flow is discounted at the spot rate for its own date."
+          },
+          {
+            "text": "101.86",
+            "value": null,
+            "explanation": "Discounts the year-1 coupon at the 2-year spot rate of 5% as well. The first coupon should use $S_1 = 4\\%$."
+          },
+          {
+            "text": "103.77",
+            "value": null,
+            "explanation": "Discounts every cash flow at the 1-year spot rate of 4%. The final 106 arrives in year 2 and needs $S_2$."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The 5-year spot rate is quoted as 6% per year, compounded semiannually. What is the price today of a 5-year zero-coupon bond with face value 100? Use 3% per half-year for 10 half-years and round to two decimals.",
+        "options": [
+          {
+            "text": "55.84",
+            "value": 55.84,
+            "explanation": "Uses 10 periods but applies the full 6% to each one, $100/1.06^{10}$. The per-period rate should be 3% for half-year periods."
+          },
+          {
+            "text": "74.73",
+            "value": 74.73,
+            "explanation": "Treats 6% as an annual-compounding rate for 5 years, $100/1.06^5$. The quote is semiannual, so the periods and rate must be halved and doubled."
+          },
+          {
+            "text": "74.41",
+            "value": 74.41,
+            "explanation": "Correct. $100/1.03^{10} = 100/1.343916 = 74.41$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.03,\"n\":10,\"fv\":100}"
+        },
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:4:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "When the yield curve is not flat, why is discounting each of a bond's cash flows at its own spot rate more appropriate than discounting all of them at one yield to maturity?",
+        "options": [
+          {
+            "text": "Spot rates are always lower than the YTM, so the resulting price is more conservative.",
+            "value": null,
+            "explanation": "Spot rates are not always lower than the YTM. The relationship depends on the curve shape, and conservatism is not the reason."
+          },
+          {
+            "text": "Payments at different dates carry different required yields, and a single YTM ignores that.",
+            "value": null,
+            "explanation": "Correct. Cash flows at different dates have different market required yields when the curve is not flat, so each should be discounted at the spot rate for its own date."
+          },
+          {
+            "text": "Spot rates avoid discounting the coupons, so only the principal needs a present value.",
+            "value": null,
+            "explanation": "Spot-rate pricing discounts every cash flow, coupons included. It does not skip the coupons."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7",
+          "fed-trading-4000-p2:33:59"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 2-year zero-coupon bond with face value 100 trades at 90. Assuming annual compounding, what is the 2-year spot rate? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "5.41%",
+            "value": 0.0541,
+            "explanation": "Correct. $(100/90)^{1/2} - 1 = 1.05409 - 1 = 5.41\\%$."
+          },
+          {
+            "text": "5.56%",
+            "value": 0.0556,
+            "explanation": "Takes the 2-year total return $100/90 - 1 = 11.11\\%$ and divides by 2. This ignores compounding; the root should be taken instead."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Divides the 10 gain by the face value of 100 (10%) and then by 2. The gain should be measured relative to the price paid, 90, and compounded."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":2,\"pv\":-90,\"fv\":100}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec02:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The spot curve is upward-sloping, and all spot rates are positive. A 5-year bond pays an annual coupon of 6%. How does its yield to maturity compare with the 5-year spot rate?",
+        "options": [
+          {
+            "text": "The YTM is lower, because it averages in the lower spot rates of earlier cash flows.",
+            "value": null,
+            "explanation": "Correct. The YTM is a complex average of spot rates for the bond's cash flows, and the earlier ones are lower on an upward-sloping curve, so the YTM is below $S_5$."
+          },
+          {
+            "text": "The YTM is higher, because the coupons are discounted at more than the final spot rate.",
+            "value": null,
+            "explanation": "Coupons arriving earlier are discounted at lower spot rates on an upward curve, not higher ones. This reverses the effect."
+          },
+          {
+            "text": "The YTM equals the 5-year spot rate, because both refer to the same maturity date.",
+            "value": null,
+            "explanation": "They are equal only for a zero-coupon bond or a flat curve. A coupon bond's YTM mixes several spot rates."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:24:5",
+          "mit-ocw-15401-rec02:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a spot rate?",
+        "back": "The annualized yield today on a single payment received at one future date with no interim cash flows, such as the yield on a zero-coupon bond of that maturity.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec02:1:0",
+          "mit-ocw-15401-lec04:24:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you price a coupon bond using spot rates?",
+        "back": "Discount each cash flow at the spot rate for its own date, $C/(1+S_t)^t$, with the face value added to the final coupon, then sum the present values.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the spot curve?",
+        "back": "The plot of spot rates against maturity. It can be upward-sloping, downward-sloping, humped or flat.",
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why is a single YTM a weak pricing tool when the curve is not flat?",
+        "back": "It discounts all cash flows at one rate (and assumes reinvestment at that rate), although payments at different dates have different required yields.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "How do you get a spot rate from a zero-coupon bond price?",
+        "back": "$S_t = (FV/P_t)^{1/t} - 1$, using annual compounding with $t$ in years.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec02:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:43:51.166Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 846,
+      "outputTokens": 691,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008719,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:44:03.010Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 15552,
+      "outputTokens": 1839,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0496632,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.058382199999999995
+}

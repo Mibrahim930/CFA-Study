@@ -1,0 +1,772 @@
+{
+  "losId": "fixed-income-15-los1",
+  "losText": "explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues",
+  "moduleId": "fixed-income-15",
+  "moduleTitle": "Credit Analysis for Government Issuers",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:49:28.477Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "nyfed-sovereign-ratings:1:0",
+      "title": "Determinants and Impact of Sovereign Credit Ratings (Cantor & Packer, FRBNY EPR)",
+      "locator": "p. 1",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf#page=1",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "occ-country-risk-management:5:5",
+      "title": "Comptroller's Handbook: Country Risk Management (sovereign and transfer risk) (OCC)",
+      "locator": "p. 5",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/country-risk-management/pub-ch-country-risk.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "nyfed-sovereign-ratings:14:21",
+      "title": "Determinants and Impact of Sovereign Credit Ratings (Cantor & Packer, FRBNY EPR)",
+      "locator": "p. 14",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf#page=14",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "fed-trading-4000-p1:41:65",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 41–42",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=41",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:130:151",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "pp. 130–131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=130",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "nyfed-sovereign-ratings:3:4",
+      "title": "Determinants and Impact of Sovereign Credit Ratings (Cantor & Packer, FRBNY EPR)",
+      "locator": "pp. 3–4",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf#page=3",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "occ-country-risk-management:5:6",
+      "title": "Comptroller's Handbook: Country Risk Management (sovereign and transfer risk) (OCC)",
+      "locator": "pp. 5–6",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/country-risk-management/pub-ch-country-risk.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "nyfed-sovereign-ratings:3:3",
+      "title": "Determinants and Impact of Sovereign Credit Ratings (Cantor & Packer, FRBNY EPR)",
+      "locator": "p. 3",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf#page=3",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:38:43",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 38",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=38",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "msrb-infrastructure-primer:6:5",
+      "title": "Municipal Securities: Financing the Nation's Infrastructure (Municipal Securities Rulemaking Board primer)",
+      "locator": "p. 6",
+      "url": "https://www.msrb.org/sites/default/files/MSRB-Infrastructure-Primer.pdf#page=6",
+      "license": "© MSRB; free to read on msrb.org, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:99:114",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 99",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=99",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "nyfed-sovereign-ratings:1:1",
+      "title": "Determinants and Impact of Sovereign Credit Ratings (Cantor & Packer, FRBNY EPR)",
+      "locator": "pp. 1–2",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/96v02n2/9610cant.pdf#page=1",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Government Borrowers: Why Their Credit Analysis Is Different",
+      "summary": "Lending to a government is not like lending to a company: a sovereign cannot be forced into liquidation, and regional governments, agencies and supranationals each depend on a different source of support. This lesson shows what extra questions you must ask for each type of government issuer and each type of government bond.",
+      "sections": [
+        {
+          "heading": "Can it pay, and will it pay?",
+          "body_markdown": "A company that stops paying can be taken to court and its assets sold. A national government (a **sovereign**) is not exposed to that in the same way, so creditors mostly depend on the government's own choices. Credit analysis therefore asks two separate questions. **Ability to pay** is about resources: the tax base, economic growth, existing debt, and foreign currency available. **Willingness to pay** is about politics and institutions: a government might choose to default or restructure even when it could pay, for example for political reasons. Think of lending to a landlord who also writes the rules of the building. Having the money is one question, and whether he chooses to honour his promise is another. Default also covers more than a missed payment. It includes building up arrears and forcing a restructuring or rollover of the debt."
+        },
+        {
+          "heading": "What drives a sovereign's credit quality",
+          "body_markdown": "Analysts group the drivers into a few themes. **Institutions and politics**: stable governance, rule of law, and a record of honouring debt (a recent default damages a country's reputation for a long time). **Economy**: a high income per person, a broad tax base, and steady growth make existing debt easier to carry. **Fiscal position**: size of the deficit and the debt burden relative to the economy, and how much room the government has to raise taxes or cut spending. **External position**: a persistent current account deficit, large foreign currency debt compared with export earnings, and thin foreign exchange reserves all signal vulnerability. **Monetary flexibility**: an independent central bank, low inflation, and a currency that is widely accepted (a reserve currency) make borrowing easier. Heavy inflation can signal that a government is financing its spending by printing money instead of taxing. Developed countries are not immune; several have restructured debt in recent years."
+        },
+        {
+          "heading": "Local versus foreign currency debt",
+          "body_markdown": "A government can always create more of its own currency, so it is usually better placed to repay debt issued in that currency. Foreign currency must be earned through exports, borrowed, or drawn from reserves. This is why a sovereign's **local currency rating** is typically at or above its **foreign currency rating**. Foreign currency obligations also tend to carry more weight in the rating. The catch is that printing money to repay debt creates inflation, so the ability to pay in local currency does not remove the risk of default or of a restructuring that hurts investors. Because a sovereign sits at the top of its country's credit hierarchy, borrowers in that country are rarely rated above it, since they share the same economy, laws, and currency risks."
+        },
+        {
+          "heading": "Non-sovereign government issuers",
+          "body_markdown": "**Non-sovereign** issuers include states, provinces and cities (sub-sovereign), government agencies and government-sponsored entities (quasi-government), and **supranationals** such as the World Bank, which are owned by several countries. Each has its own source of support. **Local governments** issue two main kinds of bond. **General obligation (GO) bonds** rest on the issuer's general taxing power, so the analyst studies the size and wealth of the tax base, the legal ability to raise taxes, budget balance, and debt and pension obligations. **Revenue bonds** are paid only from a specific project or system, such as a toll road or water utility, so the analyst studies whether that project earns enough cash. Key measures are the **debt service coverage ratio** and protections in the bond contract, such as a rate covenant that requires charges to be set high enough, a debt service reserve fund, and limits on issuing more bonds with an equal claim on the revenue. **Agencies** are analysed on how strongly the government stands behind them, from an explicit guarantee down to implied support. **Supranationals** are judged on the strength of their member countries' backing, including capital the members have promised to provide if needed, plus their prudent lending and their preferred status when borrowers repay."
+        }
+      ],
+      "worked_example": {
+        "problem": "A regional transport authority issues a revenue bond secured only by toll income. Next year it expects toll revenue of 90 million, operating expenses of 50 million, and debt service of 32 million. The bond contract has a rate covenant requiring net revenue of at least 1.30 times debt service. Does the authority meet the covenant, and what does that say about the bond's credit?",
+        "steps": [
+          "Identify the relevant measure. For a revenue bond, the debt service coverage ratio compares cash available for debt service with the debt service due.",
+          "Net revenue = revenue minus operating expenses = 90 − 50 = 40 million.",
+          "Debt service coverage ratio = net revenue ÷ debt service = 40 ÷ 32 = 1.25 times.",
+          "Compare with the covenant: 1.25 is below the required 1.30, so the covenant would be breached on these forecasts.",
+          "To meet it, net revenue must be at least 1.30 × 32 = 41.6 million, so tolls must rise or costs fall by about 1.6 million.",
+          "Credit view: the cushion is thin and depends on a single project. Unlike a GO bond, the authority cannot fall back on general taxes, so the bond relies on tolls, traffic demand, and its ability to raise charges."
+        ],
+        "answer": "Coverage is 1.25 times, below the 1.30 times covenant, so the covenant would be breached unless net revenue rises by about 1.6 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Debt service coverage ratio (revenue bonds)",
+          "latex": "\\text{DSCR}=\\frac{\\text{Net revenue available for debt service}}{\\text{Debt service}}",
+          "where": "Net revenue is project revenue less operating expenses; debt service is the interest plus scheduled principal due in the period. A higher ratio means a larger safety cushion."
+        }
+      ],
+      "exam_traps": [
+        "Treating a sovereign like a company: assuming bondholders can force a sale of assets. Creditors have little legal recourse, so willingness to pay matters as much as ability to pay.",
+        "Assuming a sovereign's local currency debt is risk-free because it can print money. Inflation and restructuring risk remain, and the local currency rating is only usually higher, not always safe.",
+        "Mixing up GO and revenue bonds: GO bonds depend on the issuer's taxing power and general finances, while revenue bonds depend only on the pledged project or system's cash flow.",
+        "Assuming a regional government or company in a country is usually rated above its sovereign because it has its own revenues. They share the national economy, laws, and transfers, so the sovereign rating normally acts as a ceiling.",
+        "Believing a supranational has taxing power over households. Its strength comes from the capital and support of its member countries and from the way its loans are managed."
+      ],
+      "builds_on": [
+        "Credit risk and credit ratings",
+        "Investment-grade versus speculative-grade bonds",
+        "Bond features and covenants"
+      ],
+      "leads_to": [
+        "Credit spreads and yield analysis",
+        "Corporate credit analysis",
+        "Municipal and structured finance credit analysis"
+      ],
+      "cited_chunk_ids": [
+        "occ-country-risk-management:5:5",
+        "occ-country-risk-management:5:6",
+        "nyfed-sovereign-ratings:1:1",
+        "nyfed-sovereign-ratings:3:3",
+        "nyfed-sovereign-ratings:3:4",
+        "nyfed-sovereign-ratings:14:21",
+        "fed-trading-4000-p1:41:65",
+        "msrb-infrastructure-primer:6:5",
+        "ftse-fixed-income-indices-guide:130:151"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from Municipal Securities: Financing the Nation's Infrastructure (Municipal Securities Rulemaking Board primer) p. 6: \"from a specific project or system such as\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A country has a lower credit rating on its foreign currency bonds than on its local currency bonds. Which explanation is most consistent with standard sovereign credit analysis?",
+        "options": [
+          {
+            "text": "The country's central bank guarantees all local currency bonds, but not foreign ones.",
+            "value": null,
+            "explanation": "Wrong: a central bank guarantee is not what drives the gap, which comes from the government's ability to create its own currency."
+          },
+          {
+            "text": "The government can create its own currency to service local debt but must obtain foreign currency to service the rest.",
+            "value": null,
+            "explanation": "Correct: the ability to tax and issue local currency supports repayment of local debt, whereas foreign currency must be earned or borrowed, so foreign currency debt is riskier."
+          },
+          {
+            "text": "Domestic investors accept lower legal protection, so agencies assign local debt a higher rating.",
+            "value": null,
+            "explanation": "Wrong: ratings reflect default likelihood, not investors' willingness to accept weaker protection."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-sovereign-ratings:1:1",
+          "nyfed-sovereign-ratings:14:21"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes why willingness to pay is a distinct consideration for sovereign borrowers compared with corporate borrowers?",
+        "options": [
+          {
+            "text": "Creditors have limited legal means to compel repayment, so a government may choose to default for political reasons even if it has resources.",
+            "value": null,
+            "explanation": "Correct: a sovereign cannot be liquidated, so repayment depends partly on political choice and institutional strength."
+          },
+          {
+            "text": "A sovereign's assets can be sold at once, so willingness matters only when asset values are uncertain.",
+            "value": null,
+            "explanation": "Wrong: this treats a sovereign like a company; a sovereign's assets are not simply sold to repay creditors."
+          },
+          {
+            "text": "Sovereign bonds are always senior to corporate debt, so the issuer's choice has no effect on recovery.",
+            "value": null,
+            "explanation": "Wrong: seniority does not remove the sovereign's discretion over whether to pay or restructure."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-country-risk-management:5:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst reviews two bonds from the same city: a general obligation (GO) bond and a revenue bond financing a municipal water system. Which pairing of the main analytical focus is most appropriate?",
+        "options": [
+          {
+            "text": "GO bond: water system coverage ratio; revenue bond: the city's overall tax base and budget.",
+            "value": null,
+            "explanation": "Wrong: this reverses the two. The coverage ratio of the system is the focus for the revenue bond."
+          },
+          {
+            "text": "GO bond: the city's foreign currency reserves; revenue bond: the national sovereign rating.",
+            "value": null,
+            "explanation": "Wrong: this borrows sovereign concepts; a city does not manage foreign currency reserves in this way."
+          },
+          {
+            "text": "GO bond: tax base and capacity to raise taxes; revenue bond: net water system revenue relative to debt service.",
+            "value": null,
+            "explanation": "Correct: a GO bond is backed by general taxing power, while a revenue bond relies on the cash flow of the pledged project."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:41:65",
+          "msrb-infrastructure-primer:6:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which feature most directly supports the typically strong credit quality of a supranational issuer such as a multilateral development bank?",
+        "options": [
+          {
+            "text": "It has the power to levy taxes directly on residents of its member countries.",
+            "value": null,
+            "explanation": "Wrong: this confuses a supranational with a sovereign. It has no taxing power over households."
+          },
+          {
+            "text": "It is backed by the capital and support of multiple member countries and typically receives preferred treatment when borrowers repay.",
+            "value": null,
+            "explanation": "Correct: member capital, including promised callable capital, plus preferred creditor status, underpin its credit quality."
+          },
+          {
+            "text": "It is guaranteed in full by its single largest shareholder country.",
+            "value": null,
+            "explanation": "Wrong: support comes from the membership as a whole, not a guarantee from one country."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:130:151"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Country A's currency is widely held by foreign central banks as a reserve currency, and most of its government debt is denominated in that currency. Compared with a similar country whose currency is not a reserve currency, how would an analyst most likely view Country A's sovereign credit?",
+        "options": [
+          {
+            "text": "More favourably, because wide acceptance of its currency eases external financing and gives the government more monetary flexibility.",
+            "value": null,
+            "explanation": "Correct: reserve currency status is a form of monetary flexibility and lowers external financing and currency risk."
+          },
+          {
+            "text": "Unchanged, because currency status is irrelevant to the likelihood of default.",
+            "value": null,
+            "explanation": "Wrong: currency status affects external financing and monetary flexibility, which feed into ability to pay."
+          },
+          {
+            "text": "Less favourably, because the country must hold larger foreign exchange reserves against its own debt.",
+            "value": null,
+            "explanation": "Wrong: this confuses the needs of a country that borrows in foreign currency with those of a reserve currency issuer."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-country-risk-management:5:5",
+          "nyfed-sovereign-ratings:3:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A revenue bond's contract requires the issuer to set user charges so that net revenue is at least 1.25 times annual debt service. What does this provision represent?",
+        "options": [
+          {
+            "text": "A negative pledge that restricts the issuer from granting security to other lenders.",
+            "value": null,
+            "explanation": "Wrong: a negative pledge limits secured borrowing, not the level of charges."
+          },
+          {
+            "text": "A general obligation pledge that makes the issuer's taxing power the backup source of repayment.",
+            "value": null,
+            "explanation": "Wrong: revenue bonds are paid only from the pledged revenue, not from general taxing power."
+          },
+          {
+            "text": "A rate covenant that forces the issuer to raise charges if coverage falls short, protecting bondholders.",
+            "value": null,
+            "explanation": "Correct: a rate covenant sets a minimum coverage level and requires the issuer to adjust charges to maintain it."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:41:65",
+          "msrb-infrastructure-primer:6:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A country is rated BBB by a rating agency. A regional government within that country, which relies on national transfers and shares the national economy and legal system, is being rated. Which rating outcome is most likely?",
+        "options": [
+          {
+            "text": "A rating above BBB, because the region's own taxes are separate from national finances.",
+            "value": null,
+            "explanation": "Wrong: this ignores the dependence of regions on the national economy, laws and transfers, which makes the sovereign rating a typical ceiling."
+          },
+          {
+            "text": "A rating at or below BBB, since the region's credit is tied to the sovereign's economy and support.",
+            "value": null,
+            "explanation": "Correct: sub-sovereign issuers are normally rated no higher than their sovereign because they share its economic and institutional risks."
+          },
+          {
+            "text": "A rating of exactly BBB, because the agency always sets it equal to the sovereign's.",
+            "value": null,
+            "explanation": "Wrong: the rating can be lower, reflecting the region's own finances, so it is not automatically equal."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-sovereign-ratings:1:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What two questions must an analyst answer when assessing sovereign credit risk?",
+        "back": "Is the government able to pay (tax base, growth, debt burden, external position) and is it willing to pay (politics, institutions, track record)? Willingness matters because creditors have little legal recourse.",
+        "cited_chunk_ids": [
+          "occ-country-risk-management:5:5",
+          "nyfed-sovereign-ratings:3:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why is a sovereign's local currency rating usually at or above its foreign currency rating?",
+        "back": "The government can tax and create its own currency to service local debt, but must earn or borrow foreign currency to service foreign currency debt.",
+        "cited_chunk_ids": [
+          "nyfed-sovereign-ratings:1:1",
+          "nyfed-sovereign-ratings:14:21"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do GO bonds and revenue bonds differ in what the analyst studies?",
+        "back": "GO bonds: the issuer's taxing power, tax base, budget, debt and pension burden. Revenue bonds: cash flow of the specific project, summarised by the debt service coverage ratio, and protections such as rate covenants and reserve funds.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:41:65",
+          "msrb-infrastructure-primer:6:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What underpins the credit quality of a supranational issuer?",
+        "back": "The capital and support of its several member countries (including callable capital) and its preferred creditor status. It has no taxing power of its own.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:130:151"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "5/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:49:20.518Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-15-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1175,
+      "outputTokens": 516,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007627,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:49:28.477Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-15-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11130,
+      "outputTokens": 1265,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0350792,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0427062
+}

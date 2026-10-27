@@ -1,0 +1,869 @@
+{
+  "losId": "fixed-income-19-los3",
+  "losText": "describe types and characteristics of residential mortgage-backed securities, including mortgage pass-through securities and collateralized mortgage obligations, and explain the cash flows and risks for each type",
+  "moduleId": "fixed-income-19",
+  "moduleTitle": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:52:45.084Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p1:59:96",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 59–60",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=59",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "fed-trading-4000-p1:61:99",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 61–62",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=61",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "frbsf-mbs-letter-1996:1:1",
+      "title": "Innovations and Recent Developments in Mortgage-Backed Securities (FRBSF Economic Letter, 1996)",
+      "locator": "pp. 1–2",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/frbsf/frbsf_let/frbsf_let_19960105.pdf#page=1",
+      "license": "Federal Reserve Bank of San Francisco publication (FRASER copy); no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p1:60:97",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 60",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=60",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "slcg-cmo-primer:5:4",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "p. 5",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=5",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:57:93",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 57–58",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=57",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:58:95",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 58–59",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=58",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:66:110",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 66–67",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-mortgage-banking:74:104",
+      "title": "Comptroller's Handbook: Mortgage Banking (OCC)",
+      "locator": "p. 74",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/mortgage-banking/pub-ch-mortgage-banking.pdf#page=74",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "slcg-cmo-primer:16:15",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "pp. 16–17",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=16",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00100:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§16.2 Net Present Value (NPV) Method — Net Present Value (NPV) Calculation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/16-2-net-present-value-npv-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:58:94",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 58",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=58",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Residential MBS: Pass-Throughs and CMO Tranches",
+      "summary": "Residential mortgage-backed securities pool home loans and pass the borrowers' payments to investors, either as one shared slice (pass-through) or split into tranches (CMO) that carry different amounts of prepayment risk. Knowing who gets which cash flows, and who bears the risk when borrowers repay early or late, is the core of valuing and comparing these securities.",
+      "sections": [
+        {
+          "heading": "Pass-throughs: a shared pipe",
+          "body_markdown": "A **mortgage pass-through security** is built by pooling many similar home loans (same loan type, similar rates and maturities) and selling investors an undivided share of the pool. Think of a water pipe: whatever flows in from borrowers flows out to holders, split pro rata by ownership.  Each month an investor receives a share of (1) **interest** at the *pass-through rate*, (2) **scheduled principal**, and (3) **prepayments**, which are principal that borrowers pay back early. The **pass-through rate** is lower than the pool's **weighted average coupon (WAC)**, the average rate borrowers pay, because the servicer and the guarantor take fees first.  Pass-throughs from the three U.S. agencies (Ginnie Mae, Fannie Mae, Freddie Mac) are called **agency** securities and carry a guarantee against borrower default. Pools issued without that guarantee are **non-agency**, so investors also bear credit risk, usually softened by credit enhancement such as subordination. Agency pass-throughs commonly trade **to-be-announced (TBA)**: buyer and seller agree on coupon, face value, price and settlement date, and the seller names the actual pools shortly before settlement."
+        },
+        {
+          "heading": "Prepayment risk in a pass-through",
+          "body_markdown": "A pass-through repackages the loans but does not unbundle their risks, so every holder shares the pool's **prepayment risk**, which is uncertainty about how fast principal comes back.  - **Contraction risk**: rates fall, borrowers refinance, principal returns early and must be reinvested at lower yields. The security's average life shortens. - **Extension risk**: rates rise, refinancing slows, less cash comes back to reinvest at the higher rates, and the average life lengthens.  Both hurt: the investor gets cash back when it is least welcome and waits longer when better rates are available. This is why mortgage securities show **negative convexity**: when yields fall, their price rises more slowly than a regular bond's because prepayments speed up, and when yields rise their price falls faster because the life extends. An agency guarantee removes default risk but does **not** remove prepayment risk."
+        },
+        {
+          "heading": "CMOs: slicing the pool into tranches",
+          "body_markdown": "A **collateralized mortgage obligation (CMO)** takes pass-throughs or mortgage loans as collateral and issues several bond classes, called **tranches**, with rules for who receives principal first. Prepayment risk is not removed; it is **redistributed** so that some tranches are stable and others absorb the shocks. (Most CMOs are issued as REMICs, a tax designation that avoids double taxation of the issuer.)  The earliest design is **sequential-pay**. Tranche A gets all principal until it is fully repaid, then B, then C, and so on. Later tranches receive interest only in the meantime. This produces short, medium and long maturities from one pool. An **accrual (Z) tranche** gets no cash interest while earlier tranches are outstanding: its interest is added to its principal balance, and it is paid only after the earlier tranches retire. Because it sits last, its average life is the longest and it is very sensitive to prepayment speed."
+        },
+        {
+          "heading": "PACs, support tranches and TACs",
+          "body_markdown": "A **planned amortization class (PAC)** tranche has a scheduled principal paydown that is kept stable as long as prepayment speeds stay inside a range (the *collar* or *PAC band*, e.g., 80%-250% of the PSA benchmark prepayment speed). Within the band, a PAC is protected against both contraction and extension risk.  The protection comes from **support tranches** (also called companion tranches). They take any principal in excess of the schedule when prepayments are fast and give up principal when prepayments are slow. So support tranches carry a concentrated, larger share of prepayment risk, and the bigger the PACs, the more concentrated that risk. If prepayments are extreme or very volatile for long enough that the support tranches are used up, the PAC is **busted** and its schedule fails.  A **targeted amortization class (TAC)** is built around a single prepayment speed. It is typically protected against contraction risk (extra principal is absorbed) but not extension risk, since there is no shield if prepayments slow."
+        },
+        {
+          "heading": "Floaters, inverse floaters and IO/PO strips",
+          "body_markdown": "Because the collateral pays fixed rates, a CMO can split into a **floater** and an **inverse floater**. A floater's coupon moves with a reference rate (such as LIBOR) plus a spread, usually with a cap. An **inverse floater's** coupon moves the opposite way, roughly a constant minus a multiple of the reference rate, so it falls when rates rise and its price is very volatile. Floaters are not risk-free: if rates rise, their caps can bind, and slowing prepayments extend their lives, especially when they are backed by a support tranche.  **Stripped** MBS split a pool's cash flows into an **interest-only (IO)** class and a **principal-only (PO)** class. Faster prepayments help the PO (principal arrives sooner) and hurt the IO (interest stops sooner); slower prepayments do the reverse.  Overall pattern: PACs and short sequential tranches are the low-risk end; support tranches, Z tranches, inverse floaters, and IO/PO strips are the high-risk end, with sharp price swings and poor liquidity."
+        }
+      ],
+      "worked_example": {
+        "problem": "A $200,000,000 pool of fixed-rate mortgages backs an agency pass-through with a pass-through rate of 4.50% (the pool WAC is 5.00%). In month 1 the pool's scheduled principal is $300,000 and borrowers prepay an additional $1,200,000 of principal. Ignoring rounding and timing details, what total cash flow do pass-through investors receive in month 1, and what is the pool balance afterwards?",
+        "steps": [
+          "Interest uses the pass-through rate (not the WAC), because the 0.50% difference goes to servicing and guarantee fees. Monthly interest = 200,000,000 × 0.045 ÷ 12.",
+          "Calculator: 200,000,000 × 0.045 ÷ 12 = 750,000.",
+          "Add scheduled principal: 750,000 + 300,000 = 1,050,000.",
+          "Add the prepayments, which are passed through to investors: 1,050,000 + 1,200,000 = 2,250,000.",
+          "New pool balance = 200,000,000 − 300,000 − 1,200,000 = 198,500,000.",
+          "Next month's interest will be based on the lower 198,500,000 balance, which is why prepayments shrink future interest as well as shortening the life."
+        ],
+        "answer": "Investors receive $2,250,000 in month 1 ($750,000 interest + $300,000 scheduled principal + $1,200,000 prepayments), and the pool balance falls to $198,500,000.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Monthly interest to pass-through investors",
+          "latex": "\\text{Interest}_t = B_{t-1}\\times \\frac{r_{PT}}{12}",
+          "where": "B_{t-1} is the pool balance at the start of the month and r_{PT} is the annual pass-through rate (WAC minus servicing and guarantee fees)."
+        },
+        {
+          "name": "Total monthly pass-through cash flow",
+          "latex": "CF_t = \\text{Interest}_t + SP_t + PP_t",
+          "where": "SP_t is scheduled principal and PP_t is prepaid principal in month t."
+        }
+      ],
+      "exam_traps": [
+        "Treating the agency guarantee as protection against prepayment risk. It covers borrower default only; contraction and extension risk remain.",
+        "Mixing up contraction and extension: falling rates cause faster prepayments (contraction), rising rates cause slower prepayments (extension).",
+        "Thinking a CMO removes prepayment risk. It only redistributes the risk, so support tranches and similar classes hold more of it than the collateral does.",
+        "Computing investor interest with the WAC instead of the lower pass-through rate.",
+        "Assuming a PAC is safe at any speed; protection holds only inside the band and can fail (busted PAC) with extreme or very volatile prepayments."
+      ],
+      "builds_on": [
+        "Prepayment risk and time tranching",
+        "Residential mortgage loan features",
+        "Bond duration and convexity"
+      ],
+      "leads_to": [
+        "Commercial mortgage-backed securities",
+        "Effective duration and option-adjusted analysis",
+        "Asset-backed security structures"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:57:93",
+        "fed-trading-4000-p1:58:94",
+        "fed-trading-4000-p1:58:95",
+        "fed-trading-4000-p1:59:96",
+        "fed-trading-4000-p1:60:97",
+        "fed-trading-4000-p1:61:99",
+        "fed-trading-4000-p1:66:110",
+        "frbsf-mbs-letter-1996:1:1",
+        "slcg-cmo-primer:16:15"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A mortgage pass-through security is backed by a pool of fixed-rate residential loans. Which description best fits the monthly cash flow an investor receives?",
+        "options": [
+          {
+            "text": "A fixed coupon on original face value, with all principal returned in one payment at maturity",
+            "value": null,
+            "explanation": "This treats the pass-through like a bullet bond. Principal is paid gradually, with scheduled amortization and prepayments, not in a lump sum."
+          },
+          {
+            "text": "A pro rata share of interest at the pass-through rate, scheduled principal, and any prepayments",
+            "value": null,
+            "explanation": "Correct. Pool payments are passed through unaltered, net of servicing and guarantee fees, and include early principal repayments."
+          },
+          {
+            "text": "A pro rata share of scheduled interest and principal only, with prepayments kept by the servicer",
+            "value": null,
+            "explanation": "This ignores that prepayments are passed on to investors; that is exactly why the security carries prepayment risk."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1",
+          "fed-trading-4000-p1:57:93"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Market interest rates fall sharply. For holders of a pass-through backed by fixed-rate mortgages, what is the most likely consequence?",
+        "options": [
+          {
+            "text": "Refinancing accelerates, the average life shortens, and returned principal must be reinvested at lower yields",
+            "value": null,
+            "explanation": "Correct. This is contraction risk: faster prepayments return cash early when reinvestment rates are lower."
+          },
+          {
+            "text": "Refinancing slows, the average life lengthens, and the holder misses the chance to reinvest at higher yields",
+            "value": null,
+            "explanation": "This describes extension risk, which arises when rates rise, not fall. The direction is reversed."
+          },
+          {
+            "text": "Refinancing accelerates, but the agency guarantee lets holders keep the original coupon on all returned principal",
+            "value": null,
+            "explanation": "This confuses the credit guarantee with prepayment protection. Returned principal is cash back at par; the holder must reinvest it at current rates."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A pool of residential mortgages has a weighted average coupon (WAC) of 5.0%. How does the pass-through rate paid to investors in an agency pass-through backed by this pool compare with the WAC?",
+        "options": [
+          {
+            "text": "It equals 5.0%, because all of the borrowers' interest is passed to investors",
+            "value": null,
+            "explanation": "This ignores the fees. Part of the borrowers' interest pays the servicer and the guarantor before investors are paid."
+          },
+          {
+            "text": "It is above 5.0%, because prepayments add extra interest for investors",
+            "value": null,
+            "explanation": "Prepayments return principal, not extra interest, and they reduce future interest by shrinking the balance."
+          },
+          {
+            "text": "It is below 5.0%, because servicing and guarantee fees are deducted first",
+            "value": null,
+            "explanation": "Correct. The pass-through rate is the WAC less servicing and guarantee fees."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:57:93"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a three-tranche sequential-pay CMO (tranches A, B and C, with no accrual tranche), how is principal from the underlying collateral allocated?",
+        "options": [
+          {
+            "text": "It is shared pro rata among A, B and C each month, as in a pass-through",
+            "value": null,
+            "explanation": "Pro rata sharing is how a pass-through works. The point of a sequential structure is to direct principal in order."
+          },
+          {
+            "text": "Tranche A receives all principal until it is retired, then B, then C; B and C get only interest meanwhile",
+            "value": null,
+            "explanation": "Correct. Principal is applied by priority, which creates short, intermediate and long maturities from one pool."
+          },
+          {
+            "text": "Tranche C receives principal first because it has the longest legal maturity, then B, then A",
+            "value": null,
+            "explanation": "This reverses the priority. Higher-priority (earlier) tranches are repaid first, and later tranches wait."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:58:95",
+          "slcg-cmo-primer:5:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CMO contains PAC tranches and support tranches. Which statement about their prepayment risk is accurate?",
+        "options": [
+          {
+            "text": "Support tranches have the steadiest average lives because they are paid ahead of the PAC tranches",
+            "value": null,
+            "explanation": "This reverses the roles. Support tranches take the excess or shortfall so the PAC can stay on schedule."
+          },
+          {
+            "text": "PAC tranches keep their scheduled paydown at every possible prepayment speed",
+            "value": null,
+            "explanation": "Protection holds only within the PAC band. Extreme or very volatile prepayments can break the schedule."
+          },
+          {
+            "text": "PAC tranches follow a stable schedule within a range of speeds, and support tranches absorb the variation",
+            "value": null,
+            "explanation": "Correct. The PAC's protection comes at the cost of concentrating prepayment risk in the support tranches."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:59:96",
+          "fed-trading-4000-p1:60:97",
+          "slcg-cmo-primer:5:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CMO's collateral pays a fixed rate, and a floater tranche and an inverse floater tranche are created from it. If the reference rate on which both are based rises, what happens to their coupons?",
+        "options": [
+          {
+            "text": "The floater coupon rises and the inverse floater coupon falls",
+            "value": null,
+            "explanation": "Correct. A floater's coupon moves with the reference rate (subject to its cap), while an inverse floater's coupon moves against it."
+          },
+          {
+            "text": "Both coupons rise because both are linked to the same reference rate",
+            "value": null,
+            "explanation": "This ignores the inverse relationship; an inverse floater's coupon is a constant minus a multiple of the reference rate."
+          },
+          {
+            "text": "The floater coupon falls and the inverse floater coupon rises",
+            "value": null,
+            "explanation": "This swaps the two. The floater moves with the reference rate, the inverse floater against it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:61:99",
+          "slcg-cmo-primer:5:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with an agency residential pass-through, a non-agency residential pass-through exposes investors to which additional risk?",
+        "options": [
+          {
+            "text": "Extension risk, because non-agency loans cannot be refinanced",
+            "value": null,
+            "explanation": "Non-agency loans can still prepay, so contraction and extension risk exist for both. Refinancing ability does not depend on agency status."
+          },
+          {
+            "text": "Credit risk from borrower defaults, often managed with credit enhancement such as subordination",
+            "value": null,
+            "explanation": "Correct. Agency securities carry a guarantee that covers default; non-agency securities do not, so credit enhancement is used instead."
+          },
+          {
+            "text": "Interest-rate risk, which agency pass-throughs avoid entirely",
+            "value": null,
+            "explanation": "Agency pass-throughs still have interest-rate and prepayment risk. The guarantee only covers credit."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A PAC tranche is protected between 80% and 250% PSA. Prepayments then run far above 250% PSA for a long time, until the support tranches in the deal have been completely retired. What is the most likely outcome for the PAC?",
+        "options": [
+          {
+            "text": "It continues to follow its schedule, because the band is fixed when the deal is issued",
+            "value": null,
+            "explanation": "The band only works while support tranches remain to absorb the excess principal. Once they are gone, the protection fails."
+          },
+          {
+            "text": "Its average life lengthens, because support tranches now take priority over the PAC",
+            "value": null,
+            "explanation": "This gets the direction wrong. Very fast prepayments push principal to the PAC early and shorten its life; priority does not switch."
+          },
+          {
+            "text": "Its schedule fails (a busted PAC) and it takes on prepayment risk much like the underlying collateral",
+            "value": null,
+            "explanation": "Correct. With no support tranche left to absorb the excess principal, the PAC receives the faster paydown."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1",
+          "fed-trading-4000-p1:60:97"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a mortgage pass-through security, and what does the investor receive each month?",
+        "back": "A pool of similar mortgages sold as undivided shares. Investors get a pro rata share of interest at the pass-through rate (WAC less servicing and guarantee fees), scheduled principal, and prepayments.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:57:93",
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Contraction risk versus extension risk in mortgage securities?",
+        "back": "Contraction: rates fall, prepayments speed up, the life shortens and cash is reinvested at lower rates. Extension: rates rise, prepayments slow, the life lengthens and cash is stuck at lower-than-market yields.",
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do PAC and support tranches share prepayment risk in a CMO?",
+        "back": "A PAC has a scheduled paydown that is stable within a prepayment band (protected from both contraction and extension). Support tranches absorb the excess or shortfall, so they carry concentrated prepayment risk.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:59:96",
+          "slcg-cmo-primer:5:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How does a CMO differ from a pass-through in handling prepayment risk?",
+        "back": "A pass-through shares prepayment risk pro rata among all holders. A CMO redistributes it across tranches (sequential, PAC, support, etc.), so some tranches are protected and others bear disproportionate risk.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:58:94"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What happens to an inverse floater's coupon and price when the reference rate rises?",
+        "back": "Its coupon falls (a constant minus a multiple of the reference rate) and its price is very volatile, typically dropping sharply, making it a high-risk CMO class.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:66:110",
+          "slcg-cmo-primer:16:15"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:52:34.380Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-19-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1253,
+      "outputTokens": 585,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008473,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:52:45.084Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-19-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14817,
+      "outputTokens": 1537,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0451732,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0536462
+}

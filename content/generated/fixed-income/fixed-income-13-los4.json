@@ -1,0 +1,437 @@
+{
+  "losId": "fixed-income-13-los4",
+  "losText": "describe the difference between empirical duration and analytical duration",
+  "moduleId": "fixed-income-13",
+  "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:16:59.915Z",
+  "retrieved": [
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.3
+    },
+    {
+      "id": "feds-2024-039-reaching-for-duration:26:30",
+      "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+      "locator": "pp. 26–27",
+      "url": "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf#page=26",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.29
+    },
+    {
+      "id": "mpra-key-rate-duration:4:2",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 4–5",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=4",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.23
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:10:11",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "pp. 10–11",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=10",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.18
+    },
+    {
+      "id": "feds-2024-039-reaching-for-duration:52:56",
+      "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+      "locator": "p. 52",
+      "url": "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf#page=52",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "feds-2024-039-reaching-for-duration:28:32",
+      "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+      "locator": "pp. 28–29",
+      "url": "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "feds-2024-039-reaching-for-duration:27:31",
+      "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+      "locator": "pp. 27–28",
+      "url": "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "feds-2024-039-reaching-for-duration:29:33",
+      "title": "Reaching for Duration and Leverage in the Treasury Market (Barth, Kahn, Monin, Sokolinskiy; FEDS 2024-039, Federal Reserve Board; empirical duration by regression)",
+      "locator": "pp. 29–30",
+      "url": "https://www.federalreserve.gov/econres/feds/files/2024039pap.pdf#page=29",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:4",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "duffee-treasury-yields-spreads:13:14",
+      "title": "The Relation Between Treasury Yields and Corporate Bond Yield Spreads (G. Duffee, Journal of Finance 1998)",
+      "locator": "p. 13",
+      "url": "http://www.econ2.jhu.edu/people/duffee/jf_spreads.pdf#page=13",
+      "license": "Journal of Finance article, author-hosted copy at Johns Hopkins; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mpra-key-rate-duration:7:5",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 7–8",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=7",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "sfu-poitras-duration-convexity:3:1",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 3–6",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=3",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Empirical vs Analytical Duration: Measured from Data or Built from a Model",
+      "summary": "Analytical duration is computed from a bond's promised cash flows and a pricing model. Empirical duration is estimated from how the bond's price has actually moved when benchmark yields moved. The two can differ a lot when credit spreads or embedded options make real price behaviour depart from the model.",
+      "sections": [
+        {
+          "heading": "Two ways to learn how sensitive a bond is",
+          "body_markdown": "Think of a car's fuel economy. The manufacturer publishes a lab figure from a standard test. You can also work out your *real* economy from your own fill-up log. The two numbers are related but rarely identical.\n\nBond duration works the same way. **Analytical duration** is the lab figure: it comes from a formula or valuation model. **Empirical duration** is the driving log: it comes from observed market prices. Both answer the same question: *by roughly what percentage does the bond's price change when the benchmark yield changes by 1 percentage point?*"
+        },
+        {
+          "heading": "Analytical duration: built from cash flows and a model",
+          "body_markdown": "Macaulay, modified and effective durations are all analytical. You start with the bond's cash flows, discount them with a yield or a curve, and compute how value responds to a hypothetical yield change. Effective duration is the version used for bonds with embedded options. Its model reprices the bond after shifting the benchmark curve up and down.\n\nThe result depends on the model's assumptions:\n- The cash flows are known, or can be modelled.\n- The bond's own yield moves one-for-one with the benchmark yield, so the credit spread stays fixed.\n- The curve shift is parallel, or follows whatever shift you specify.\n\nIf reality breaks those assumptions, the analytical number can mislead."
+        },
+        {
+          "heading": "Empirical duration: read off the historical data",
+          "body_markdown": "To estimate empirical duration you collect a history of the bond's (or portfolio's) percentage price changes and of changes in a benchmark yield, such as a Treasury yield. Then you run a regression of price changes on yield changes.\n\n$$\\%\\Delta P_t = a + b\\,\\Delta y_t + \\varepsilon_t$$\n\nThe slope $b$ is negative, because prices fall when yields rise. **Empirical duration is $-b$**. Researchers use this approach on funds, indexes and mortgage-backed securities. It needs no cash-flow model; it only needs enough observed prices. (On a BA II Plus the two-variable statistics worksheet returns the slope $b$, with yield changes as X and price changes as Y.)"
+        },
+        {
+          "heading": "Why the two can disagree",
+          "body_markdown": "Consider a corporate bond. When Treasury yields rise, the credit spread often *narrows*, because rising yields tend to accompany a stronger economy. The bond's own yield therefore rises by less than the Treasury yield, and its price falls by less than an analytical duration (which holds the spread fixed) predicts. The effect is stronger for lower-quality bonds. So the empirical duration of a high-yield bond is typically well below its analytical duration, and for investment-grade corporates it is somewhat below.\n\nEmbedded options matter too. For mortgage passthroughs, prepayments speed up or slow down as yields change, so duration itself shifts with market conditions. Empirical duration captures how prices actually responded, including prepayment behaviour that is hard to model."
+        },
+        {
+          "heading": "Limits of the empirical approach",
+          "body_markdown": "Empirical duration is a statistical estimate, so it inherits statistical weaknesses:\n- It depends on the **sample period**. Different windows can give different answers, because relationships change across market regimes.\n- It depends on the **benchmark chosen** and the **data frequency**.\n- Stale or infrequently updated prices can distort the slope.\n- It describes the past, and gives no guarantee about future sensitivity.\n\nAnalytical duration, by contrast, is forward-looking and transparent, but only as good as its assumptions. Good practice uses both and understands why they differ."
+        }
+      ],
+      "worked_example": {
+        "problem": "An analyst regresses a corporate bond portfolio's weekly percentage price changes on weekly changes in the 10-year Treasury yield (in percentage points, so 0.50 means 50 bp). The estimated slope is −3.1. The portfolio's analytical modified duration is 5.4. (a) What is the empirical duration? (b) For a 50 bp rise in the 10-year Treasury yield, what percentage price change does each measure imply? (c) Why might they differ?",
+        "steps": [
+          "Empirical duration is the negative of the regression slope: $-(-3.1) = 3.1$.",
+          "Empirical estimate: $\\%\\Delta P \\approx -3.1 \\times 0.50 = -1.55\\%$.",
+          "Analytical estimate: $\\%\\Delta P \\approx -5.4 \\times 0.50 = -2.70\\%$.",
+          "Compare: the observed relationship shows a smaller price drop than the model implies.",
+          "Likely reason: the analytical figure assumes the bonds' yields rise one-for-one with the Treasury yield. In the data, credit spreads have tended to narrow when Treasury yields rose, which cushions the price decline."
+        ],
+        "answer": "Empirical duration is 3.1. A +50 bp move implies about −1.55% on the empirical measure versus about −2.70% on the analytical one. The gap most likely reflects spreads narrowing as Treasury yields rise.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Regression for empirical duration",
+          "latex": "\\%\\Delta P_t = a + b\\,\\Delta y_t + \\varepsilon_t,\\quad D_{emp} = -b",
+          "where": "%ΔP_t is the bond's percentage price change in period t; Δy_t is the change in the benchmark yield in period t; a is the intercept; b is the slope; ε_t is the error term; D_emp is empirical duration."
+        },
+        {
+          "name": "Duration price approximation",
+          "latex": "\\%\\Delta P \\approx -D \\times \\Delta y",
+          "where": "D is the duration measure used (analytical or empirical); Δy is the change in the benchmark yield, in decimal form."
+        }
+      ],
+      "exam_traps": [
+        "Describing empirical duration as a formula or model output. It is a regression estimate from observed prices and yields.",
+        "Forgetting the sign: the regression slope is negative, and empirical duration is the negative of that slope.",
+        "Assuming empirical and analytical durations should be equal. For bonds with credit risk or embedded options they commonly differ, with high-yield bonds showing a lower empirical duration.",
+        "Treating empirical duration as stable. It depends on the sample period, data frequency and benchmark, and can change across market regimes.",
+        "Saying empirical duration cannot be used for bonds with embedded options. It is often most useful for them, because it reflects actual observed price behaviour."
+      ],
+      "builds_on": [
+        "Modified and Macaulay duration",
+        "Effective duration for bonds with embedded options",
+        "Credit spreads and benchmark yields",
+        "Basic linear regression"
+      ],
+      "leads_to": [
+        "Key rate duration",
+        "Interest rate risk for mortgage-backed securities",
+        "Duration of credit-risky and high-yield bonds"
+      ],
+      "cited_chunk_ids": [
+        "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+        "feds-2024-039-reaching-for-duration:26:30",
+        "feds-2024-039-reaching-for-duration:28:32",
+        "duffee-treasury-yields-spreads:13:14"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes how empirical duration is obtained?",
+        "options": [
+          {
+            "text": "From a regression of observed bond price changes on changes in a benchmark yield",
+            "value": null,
+            "explanation": "Correct. Empirical duration comes from the observed co-movement of actual prices and benchmark yields; it is the negative of the regression slope."
+          },
+          {
+            "text": "As the present-value-weighted average time to receipt of the bond's cash flows",
+            "value": null,
+            "explanation": "This describes Macaulay duration, which is analytical and built from cash flows, not from observed price data."
+          },
+          {
+            "text": "By repricing the bond with a model after shifting the benchmark curve up and down",
+            "value": null,
+            "explanation": "This describes effective duration, an analytical measure based on a valuation model, not empirical estimation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is the key distinction between analytical duration and empirical duration?",
+        "options": [
+          {
+            "text": "Analytical duration uses a pricing model; empirical duration uses historical market prices",
+            "value": null,
+            "explanation": "Correct. Analytical measures come from cash flows and a valuation model; empirical measures come from observed price and yield data."
+          },
+          {
+            "text": "Analytical duration applies only to bonds with options; empirical duration applies only to option-free bonds",
+            "value": null,
+            "explanation": "Reverses and invents a restriction. Analytical measures cover both kinds of bonds (effective duration handles options), and empirical duration is often used for bonds with options and credit risk."
+          },
+          {
+            "text": "Analytical duration is estimated from past data; empirical duration is computed from the cash flows",
+            "value": null,
+            "explanation": "Swaps the two definitions. Analytical duration is model-based; empirical duration is data-based."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "feds-2024-039-reaching-for-duration:28:32"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A high-yield corporate bond has an analytical modified duration of 6.0. A regression of its monthly percentage price changes on monthly changes in a Treasury yield gives an empirical duration of about 2.5. Which explanation is most consistent with the gap?",
+        "options": [
+          {
+            "text": "Credit spreads on the bond tend to move opposite to Treasury yields, offsetting part of the yield change",
+            "value": null,
+            "explanation": "Correct. When Treasury yields rise, spreads on lower-quality bonds often narrow. The bond's own yield rises by less, so the price falls by less than the analytical figure implies."
+          },
+          {
+            "text": "Regression slopes are always about 40% of true duration because yield changes are measured in percentage points",
+            "value": null,
+            "explanation": "Invented rule. Units affect how you scale the slope but do not systematically shrink duration, and the stated gap is explained by spread behaviour."
+          },
+          {
+            "text": "Analytical duration omits the bond's coupons, so it overstates sensitivity to yield changes",
+            "value": null,
+            "explanation": "Wrong: coupons are included in analytical duration. Higher coupons lower duration but are already captured, and this does not explain the data-based gap."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "duffee-treasury-yields-spreads:13:14"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst regresses a bond fund's weekly percentage price changes on weekly changes in a Treasury yield measured in percentage points. The estimated slope is −4.8. What is the fund's empirical duration?",
+        "options": [
+          {
+            "text": "−4.8, because empirical duration equals the slope",
+            "value": null,
+            "explanation": "Sign error. Prices fall when yields rise, so the slope is negative, but duration is quoted as a positive number equal to the negative of the slope."
+          },
+          {
+            "text": "0.21, because empirical duration is the reciprocal of the slope",
+            "value": null,
+            "explanation": "Confuses the slope with a reciprocal relationship. Duration is the price sensitivity itself, not its inverse."
+          },
+          {
+            "text": "4.8, because empirical duration is the negative of the slope",
+            "value": null,
+            "explanation": "Correct. A 1 percentage point rise in yield is associated with about a 4.8% fall in price, so duration is 4.8."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following is a recognised limitation of empirical duration?",
+        "options": [
+          {
+            "text": "It requires the bond's cash flows to be known with certainty",
+            "value": null,
+            "explanation": "Wrong. Empirical duration needs no cash-flow model; that requirement belongs to analytical duration."
+          },
+          {
+            "text": "It cannot be estimated for bonds with embedded options",
+            "value": null,
+            "explanation": "Wrong. It is often used precisely for mortgage-backed securities and other bonds whose option exposure makes modelling difficult."
+          },
+          {
+            "text": "The estimate depends on the sample period, benchmark and data frequency chosen",
+            "value": null,
+            "explanation": "Correct. It is a statistical estimate, so different windows, benchmarks or frequencies can give different values, and stale prices can distort it."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "For which security is an empirical duration estimate most likely to add information beyond a simple analytical duration?",
+        "options": [
+          {
+            "text": "A mortgage passthrough security whose prepayments respond to interest rates",
+            "value": null,
+            "explanation": "Correct. Prepayment behaviour changes duration as yields move and is hard to model, so observed price co-movement with yields is informative."
+          },
+          {
+            "text": "A zero-coupon Treasury strip with a known maturity date",
+            "value": null,
+            "explanation": "Its cash flow is single and certain, with no spread or option effects, so analytical duration is already accurate."
+          },
+          {
+            "text": "A non-callable government bond one day from maturity",
+            "value": null,
+            "explanation": "Its price barely depends on yields and its cash flows are certain, so empirical estimation adds little."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+          "frbsf-el-2000-mbs-interest-rate-risk:1:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst estimates a corporate bond index's empirical duration using two different five-year windows. The results are 3.0 and 5.2. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "The regression is mis-specified, because true duration must be identical in every window",
+            "value": null,
+            "explanation": "Wrong. Nothing requires an empirical estimate to be identical across windows, since it reflects whatever relationship held in each period."
+          },
+          {
+            "text": "The analytical duration must equal the average of the two empirical estimates",
+            "value": null,
+            "explanation": "Wrong. There is no rule linking analytical duration to an average of empirical estimates; they come from different methods and assumptions."
+          },
+          {
+            "text": "The observed price-yield relationship changed across regimes, so the estimate depends on the sample used",
+            "value": null,
+            "explanation": "Correct. Spread behaviour, option exposure and market conditions vary over time, so empirical duration is sample-dependent and should be interpreted with care."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:4",
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is empirical duration and how is it estimated?",
+        "back": "A duration measure estimated from observed data: regress a bond's (or portfolio's) percentage price changes on changes in a benchmark yield. Empirical duration is the negative of the slope.",
+        "cited_chunk_ids": [
+          "frbsf-el-2000-mbs-interest-rate-risk:1:3",
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      },
+      {
+        "front": "What is analytical duration, and what does it rely on?",
+        "back": "Duration computed from a bond's cash flows and a pricing model (Macaulay, modified, effective). It relies on model assumptions such as known cash flows and a fixed credit spread.",
+        "cited_chunk_ids": [
+          "feds-2024-039-reaching-for-duration:28:32",
+          "mpra-key-rate-duration:7:5"
+        ]
+      },
+      {
+        "front": "Why is a high-yield bond's empirical duration usually lower than its analytical duration?",
+        "back": "Its credit spread tends to narrow when Treasury yields rise, so its yield rises by less than the benchmark's and its price falls by less than the model predicts.",
+        "cited_chunk_ids": [
+          "duffee-treasury-yields-spreads:13:14"
+        ]
+      },
+      {
+        "front": "Name two limitations of empirical duration.",
+        "back": "It depends on the sample period, benchmark and data frequency, and it can be distorted by stale prices. It is backward-looking and may not hold in future market regimes.",
+        "cited_chunk_ids": [
+          "feds-2024-039-reaching-for-duration:26:30"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:16:59.915Z",
+      "purpose": "generate",
+      "losId": "fixed-income-13-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10409,
+      "outputTokens": 8418,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.10615419999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

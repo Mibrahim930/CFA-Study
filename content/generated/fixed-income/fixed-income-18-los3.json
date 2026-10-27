@@ -1,0 +1,479 @@
+{
+  "losId": "fixed-income-18-los3",
+  "losText": "describe types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type",
+  "moduleId": "fixed-income-18",
+  "moduleTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:30:55.804Z",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p1:50:80",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 50–51",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-risk-retention-2010:10:10",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 10–11",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=10",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "philfed-credit-card-abs:2:1",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 2–3",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=2",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "fed-risk-retention-2010:37:38",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 37–38",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=37",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-risk-retention-2010:30:34",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 30–31",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=30",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "frbsf-mbs-letter-1996:1:1",
+      "title": "Innovations and Recent Developments in Mortgage-Backed Securities (FRBSF Economic Letter, 1996)",
+      "locator": "pp. 1–2",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/frbsf/frbsf_let/frbsf_let_19960105.pdf#page=1",
+      "license": "Federal Reserve Bank of San Francisco publication (FRASER copy); no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-risk-retention-2010:50:49",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 50–51",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=50",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-risk-retention-2010:24:27",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 24–25",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=24",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-asset-securitization:29:26",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 29–30",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=29",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-asset-securitization:27:25",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 27–29",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-risk-retention-2010:51:50",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "p. 51",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=51",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-risk-retention-2010:61:60",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 61–62",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=61",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Non-Mortgage ABS: Auto Loans, Credit Cards and Other Collateral",
+      "summary": "Many securitizations are backed by consumer and business loans other than home mortgages. Each collateral type pays investors in a different pattern and carries different risks, and this is a staple of Level I fixed-income questions.",
+      "sections": [
+        {
+          "heading": "Two families: amortizing pools and revolving pools",
+          "body_markdown": "An **asset-backed security (ABS)** is a bond paid from the cash flows of a pool of loans or receivables. The pool is held in a separate legal entity (a trust), not on the originating company's own balance sheet.\n\nNon-mortgage collateral falls into two families:\n\n- **Installment (closed-end) loans**, such as auto loans, leases and student loans. Each loan has a fixed term and a repayment schedule, like a car loan with 60 equal monthly payments. The pool shrinks steadily as borrowers pay.\n- **Revolving credit**, such as credit cards. Borrowers can charge more and pay down at will, subject to a credit limit and a minimum payment. There is no fixed schedule, so the pool can refresh itself every few months.\n\nThe family decides how the ABS pays investors, so keep this split in mind for everything else."
+        },
+        {
+          "heading": "Auto loan ABS",
+          "body_markdown": "The pool holds car loans (sometimes leases), and the car itself is the collateral for each loan.\n\n**Cash flows:** each month borrowers pay interest plus scheduled principal. Investors receive those payments, minus servicing and other fees, so the cash flow follows the loans' **amortization schedule** and is fairly predictable. The ABS coupon is usually set a little below the pool's weighted average loan rate, and the gap pays for servicing and credit losses.\n\n**Prepayments** (principal paid ahead of schedule) happen mostly because the vehicle is sold or traded in and the loan is paid off. Defaults and insurance payouts after accidents also return principal early. Prepayments on auto pools are modest and fairly stable compared with mortgage prepayments, which respond strongly to refinancing.\n\n**Main risk:** credit risk (borrower default, with repossessed cars often worth less than the loan balance), plus some prepayment risk.\n\n**Structure:** deals are often split into senior and subordinate tranches. The senior tranches are often paid in sequence, shortest maturity first (**time tranching**). Because the loans pay down quickly, the subordinated cushion behind the senior tranches grows over time, which has helped senior auto ABS perform well."
+        },
+        {
+          "heading": "Credit card ABS and the excess spread",
+          "body_markdown": "Credit card receivables have no amortization schedule, so the ABS cash flow has two phases:\n\n1. **Revolving (lockout) period.** Investors receive interest only, at the coupon. Principal collected from cardholders is not paid out. It is used to buy new receivables so the pool balance stays level.\n2. **Amortization (pay-down) period.** Principal collections are paid to investors. This can be done as received, or accumulated in an account and paid as one lump sum (a **bullet**).\n\nA **hard bullet** has a third-party guarantee covering any shortfall at the scheduled maturity. In a **soft bullet** the investors simply receive whatever the account holds and the rest as it is collected, after an expected maturity date and before a later final maturity date.\n\n**Excess spread** is the cushion. The pool's gross yield comes from finance charges, fees and interchange. It first pays the investor coupon, then servicing costs and charge-offs (loans written off as uncollectible). Whatever remains is excess spread, and it is the first line of defence against credit losses.\n\n**Early amortization triggers (payout events)** protect investors. If the yield falls, charge-offs rise or the servicer fails, the lockout ends and all principal collections go straight to investors. This protects against credit-quality decline but means the investor receives principal sooner than expected and must reinvest it.\n\n**Main risks:** credit risk (charge-offs), a falling portfolio yield or payment rate, and early amortization. There is no conventional prepayment risk during the revolving period."
+        },
+        {
+          "heading": "Other non-mortgage collateral",
+          "body_markdown": "**Student loans.** Some are backed by a government guarantee of most of the principal and interest (the guarantee covered 97–100% under the federal FFELP program), so credit risk is low. Private loans have no guarantee, so credit risk is real. Students can defer payments while enrolled, so the pool may not generate enough cash to pay coupons early on. Deals therefore often have a *capitalized interest account* funded at closing.\n\n**Equipment loans and leases.** Credit enhancements typically include reserve accounts, subordination and overcollateralization. The residual value of leased equipment adds risk.\n\n**Many others** exist: dealer floorplan loans, trade receivables, aircraft and tower leases, royalties and so on.\n\nCLOs (loans to companies) and covered bonds are separate topics, covered elsewhere in the module.\n\n**Quick comparison:** auto and student ABS are amortizing, so their cash flows follow schedules and are affected by prepayments and defaults. Credit card ABS are revolving, so their cash flows are governed by the lockout, the excess spread and the triggers."
+        }
+      ],
+      "worked_example": {
+        "problem": "A credit card ABS trust earns a gross portfolio yield of 18.0% a year on the receivables backing the securities. This is 15.0% finance charges and 3.0% fees and interchange. Annual expenses, as a percentage of the same receivables, are: investor coupon 6.0%, servicing 2.0% and charge-offs 5.0%. (a) What is the excess spread? (b) If charge-offs rise to 12.0% with everything else unchanged, what happens to the excess spread and what is the likely consequence?",
+        "steps": [
+          "Start with the gross portfolio yield: 15.0% + 3.0% = 18.0%.",
+          "Add the expenses paid out of the yield: 6.0% + 2.0% + 5.0% = 13.0%.",
+          "Excess spread = 18.0% − 13.0% = 5.0%. This stays in the structure (or goes to the seller) and absorbs credit losses.",
+          "Repeat with charge-offs of 12.0%: expenses = 6.0% + 2.0% + 12.0% = 20.0%.",
+          "Excess spread = 18.0% − 20.0% = −2.0%. The yield no longer covers the costs.",
+          "Negative or shrinking excess spread is a typical early amortization trigger. The revolving period would end, and principal collections would go straight to investors."
+        ],
+        "answer": "(a) Excess spread is 5.0%. (b) It falls to −2.0%, which would likely trigger early amortization.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Excess spread (annualized, % of receivables)",
+          "latex": "\\text{Excess spread}=Y-C-S-L",
+          "where": "Y = gross portfolio yield (finance charges, fees, interchange); C = investor coupon; S = servicing expense; L = charge-offs. All as a % of outstanding receivables."
+        },
+        {
+          "name": "Level installment payment (auto loan)",
+          "latex": "PMT=\\dfrac{PV\\cdot r}{1-(1+r)^{-n}}",
+          "where": "PV = loan amount; r = periodic (monthly) rate = annual rate ÷ 12; n = number of payments."
+        },
+        {
+          "name": "Seller's interest",
+          "latex": "\\text{Seller's interest}=\\text{Principal receivables in trust}-\\text{Securities issued by trust}",
+          "where": "The seller's share of the pool above the investors' securities. It is generally not credit enhancement for investors."
+        }
+      ],
+      "exam_traps": [
+        "Treating credit card ABS like amortizing loans. During the revolving period, principal collections are reinvested in new receivables rather than paid to investors.",
+        "Mixing up hard and soft bullets. The hard bullet has the third-party guarantee. In a soft bullet, investors get what is available and the rest later.",
+        "Assuming early amortization is purely good. It protects against credit deterioration, but investors receive principal sooner than planned and face reinvestment risk.",
+        "Forgetting charge-offs when computing excess spread, or treating the seller's interest as credit enhancement.",
+        "Thinking a government guarantee on student loans removes all risk. Only the guaranteed part is covered, and only if the loan is serviced properly."
+      ],
+      "builds_on": [
+        "Securitization and the special purpose entity",
+        "Amortizing loans and time value of money",
+        "Credit risk and prepayment risk"
+      ],
+      "leads_to": [
+        "Credit enhancement in securitizations",
+        "Collateralized debt obligations",
+        "Covered bonds vs ABS"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:50:80",
+        "philfed-credit-card-abs:2:1",
+        "occ-asset-securitization:27:25",
+        "occ-asset-securitization:29:26",
+        "fed-risk-retention-2010:24:27",
+        "fed-risk-retention-2010:50:49",
+        "fed-risk-retention-2010:61:60",
+        "fed-risk-retention-2010:51:50"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about the principal repayment of an ABS backed by a pool of closed-end auto loans is most accurate?",
+        "options": [
+          {
+            "text": "Principal follows a contractual schedule, with early repayments mostly linked to vehicle sales",
+            "value": null,
+            "explanation": "Correct. Auto loans amortize on a schedule, and early repayment is driven mainly by vehicle disposal, so cash flows are fairly predictable."
+          },
+          {
+            "text": "Principal is reinvested in new loans during a lockout period before pay-down",
+            "value": null,
+            "explanation": "This describes revolving collateral such as credit cards. Auto loans are closed-end, so the pool simply amortizes."
+          },
+          {
+            "text": "Principal is accumulated and repaid in a single payment at final maturity",
+            "value": null,
+            "explanation": "Confuses installment loans with a bullet structure. Auto ABS pay principal along with interest each month."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:50:80",
+          "occ-asset-securitization:27:25"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "During the revolving (lockout) period of a credit card ABS, the principal collected from cardholders is typically:",
+        "options": [
+          {
+            "text": "paid to investors as soon as it is received",
+            "value": null,
+            "explanation": "This describes the amortization phase, not the revolving period."
+          },
+          {
+            "text": "held in a cash reserve until the final maturity date",
+            "value": null,
+            "explanation": "Principal can be accumulated in an account during certain pay-down structures, but not during the revolving period."
+          },
+          {
+            "text": "used to buy new receivables to keep the pool size level",
+            "value": null,
+            "explanation": "Correct. In the lockout period investors receive only interest, and principal collections are used to purchase new receivables."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:27:25",
+          "philfed-credit-card-abs:2:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An auto loan pool contains a $20,000 loan with a stated annual rate of 6%, repaid in 60 equal end-of-month payments. What is the level monthly payment, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$333.33",
+            "value": 333.33,
+            "explanation": "Principal only: $20,000 ÷ 60. This ignores interest entirely."
+          },
+          {
+            "text": "$386.66",
+            "value": 386.66,
+            "explanation": "Correct. Monthly rate 0.5%, n = 60, PV = 20,000: PMT = 20,000 × 0.005 ÷ (1 − 1.005^−60) ≈ $386.66. On the BA II Plus: N=60, I/Y=0.5, PV=20000, FV=0, CPT PMT."
+          },
+          {
+            "text": "$433.33",
+            "value": 433.33,
+            "explanation": "Simple interest: ($20,000 + 20,000 × 6% × 5) ÷ 60. This ignores that interest falls as the balance amortizes."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.005,\"n\":60,\"pv\":20000}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:50:80"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "What is the main purpose of an early amortization trigger (payout event) in a revolving ABS?",
+        "options": [
+          {
+            "text": "To return principal to investors quickly if pool performance or the servicer deteriorates",
+            "value": null,
+            "explanation": "Correct. Once triggered, the revolving period ends and investors' share of principal collections is paid out as received."
+          },
+          {
+            "text": "To allow the seller more time to add new receivables to the trust",
+            "value": null,
+            "explanation": "This is the opposite. A trigger stops the replenishment of the pool."
+          },
+          {
+            "text": "To raise the coupon paid to investors when portfolio yield increases",
+            "value": null,
+            "explanation": "Triggers are not a performance-sharing feature. They are protective, and the coupon does not change as a result."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:29:26"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A credit card trust has a gross portfolio yield of 19.0% of receivables. Annual investor coupon is 6.5%, servicing expense is 2.0%, and charge-offs are 5.5%, all as a percentage of receivables. What is the excess spread?",
+        "options": [
+          {
+            "text": "7.0%",
+            "value": null,
+            "explanation": "Subtracts the coupon and charge-offs but forgets the servicing expense (19.0 − 6.5 − 5.5)."
+          },
+          {
+            "text": "5.0%",
+            "value": null,
+            "explanation": "Correct. 19.0% − 6.5% − 2.0% − 5.5% = 5.0%."
+          },
+          {
+            "text": "10.5%",
+            "value": null,
+            "explanation": "Subtracts only the coupon and servicing and ignores charge-offs (19.0 − 6.5 − 2.0)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:27:25"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An auto ABS pool contains a $15,000 loan with a stated annual rate of 4.8% (monthly compounding) repaid in 36 equal end-of-month payments. What is the level monthly payment, rounded to the nearest dollar?",
+        "options": [
+          {
+            "text": "$477",
+            "value": 477,
+            "explanation": "Simple interest: ($15,000 + 15,000 × 4.8% × 3) ÷ 36. This treats interest as if the full balance were outstanding for the whole term."
+          },
+          {
+            "text": "$417",
+            "value": 417,
+            "explanation": "Principal only: $15,000 ÷ 36, which leaves out the interest."
+          },
+          {
+            "text": "$448",
+            "value": 448,
+            "explanation": "Correct. Monthly rate 0.4%, n = 36: PMT = 15,000 × 0.004 ÷ (1 − 1.004^−36) ≈ $448. BA II Plus: N=36, I/Y=0.4, PV=15000, FV=0, CPT PMT."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.004,\"n\":36,\"pv\":15000}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:50:80"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A credit card ABS has a soft bullet structure. At the expected maturity date the accumulation account holds less than the full principal owed. Which outcome is most accurate?",
+        "options": [
+          {
+            "text": "A third-party maturity guarantor pays the shortfall immediately",
+            "value": null,
+            "explanation": "This describes a hard bullet. Soft bullets have no such guarantee."
+          },
+          {
+            "text": "The account is distributed to investors and the remainder is paid as it is collected, up to the final maturity",
+            "value": null,
+            "explanation": "Correct. The soft bullet pays out whatever is available and the rest as received, with a later final maturity date."
+          },
+          {
+            "text": "Investors receive nothing until the shortfall has been fully rebuilt",
+            "value": null,
+            "explanation": "Wrong. The entire accumulation account is distributed rather than withheld."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:29:26"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why does a student loan ABS commonly include a capitalized interest account funded at closing?",
+        "options": [
+          {
+            "text": "To protect against investors' principal being repaid early when interest rates fall",
+            "value": null,
+            "explanation": "That is prepayment risk, which this account does not address."
+          },
+          {
+            "text": "To cover the unguaranteed part of defaulted private loans",
+            "value": null,
+            "explanation": "Credit protection comes from structures like subordination and overcollateralization. This account is for timing of cash flow."
+          },
+          {
+            "text": "To pay investor interest while students are in school and may defer their payments",
+            "value": null,
+            "explanation": "Correct. Deferral can leave the pool producing too little cash early on, and the account fills the gap."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-risk-retention-2010:50:49"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What distinguishes the cash flows of credit card ABS from auto loan ABS?",
+        "back": "Credit card ABS are revolving: a lockout period where principal is reinvested in new receivables, followed by amortization. Auto loan ABS amortize on a contractual schedule from the start.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:27:25",
+          "philfed-credit-card-abs:2:1"
+        ]
+      },
+      {
+        "front": "What is excess spread in a credit card ABS?",
+        "back": "Gross portfolio yield minus investor coupon, servicing expense and charge-offs. It is the first cushion against credit losses.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:27:25"
+        ]
+      },
+      {
+        "front": "Hard bullet vs soft bullet?",
+        "back": "Hard bullet: a third-party guarantee covers any shortfall at the scheduled maturity. Soft bullet: investors receive whatever the accumulation account holds and the rest as collected, up to the final maturity date.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:29:26"
+        ]
+      },
+      {
+        "front": "What triggers early amortization and what does it do?",
+        "back": "A payout event, such as falling yield, rising charge-offs or servicer failure. It ends the revolving period so all principal collections go to investors immediately.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:29:26"
+        ]
+      },
+      {
+        "front": "What is the main reason for early repayment in auto loan ABS?",
+        "back": "Disposal of the vehicle (sale or trade-in) which pays off the loan. Defaults and insurance payouts also return principal early.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:50:80"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:30:55.804Z",
+      "purpose": "generate",
+      "losId": "fixed-income-18-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10465,
+      "outputTokens": 10620,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1282862,
+      "stopReason": "end_turn"
+    }
+  ]
+}

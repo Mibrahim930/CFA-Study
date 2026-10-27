@@ -1,0 +1,464 @@
+{
+  "losId": "fixed-income-18-los1",
+  "losText": "describe characteristics and risks of covered bonds and how they differ from other asset-backed securities",
+  "moduleId": "fixed-income-18",
+  "moduleTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:28:34.629Z",
+  "retrieved": [
+    {
+      "id": "treasury-covered-bonds:7:3",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 7–8",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=7",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "treasury-covered-bonds:8:4",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 8–9",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "treasury-covered-bonds:18:12",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 18–20",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=18",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "treasury-covered-bonds:31:27",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 31–32",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=31",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "treasury-covered-bonds:10:6",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 10–12",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=10",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "treasury-covered-bonds:14:9",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 14–15",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "treasury-covered-bonds:12:7",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 12–13",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "treasury-covered-bonds:13:8",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 13–14",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "treasury-covered-bonds:15:10",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 15–16",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=15",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "philfed-credit-card-abs:4:3",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 4–5",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=4",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "treasury-covered-bonds:30:25",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "p. 30",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=30",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "philfed-credit-card-abs:12:13",
+      "title": "An Overview of Credit Card Asset-Backed Securities (M. Furletti, Federal Reserve Bank of Philadelphia, 2002)",
+      "locator": "pp. 12–13",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/conference-summaries/CreditCardSecuritization_012002.pdf#page=12",
+      "license": "Federal Reserve Bank of Philadelphia publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Covered Bonds: Bank Debt With a Pledged Asset Pool",
+      "summary": "A covered bond is a bank's own debt that is backed by a ring-fenced pool of assets, so investors can look to both the pool and the bank. Knowing how this differs from an ABS, where assets are sold to a separate trust, is a core fixed-income distinction.",
+      "sections": [
+        {
+          "heading": "Start with an everyday analogy",
+          "body_markdown": "Imagine borrowing money from a friend. In one version you pledge your car as security **and** you personally promise to repay. If you default, your friend takes the car first and, if it sells for too little, can still chase you for the rest.\n\nThat is a **covered bond**: a bond issued by a bank (the **issuer**) and secured by a designated basket of loans called the **cover pool**. Investors get two sources of repayment, the pool and the issuer. This is called **dual recourse**."
+        },
+        {
+          "heading": "How a covered bond is built",
+          "body_markdown": "- **Issuer and payments:** the bank pays interest and principal out of its own general cash flows. The cover pool is collateral, not the day-to-day payment source.\n- **Cover pool:** usually high-quality loans such as residential mortgages (public-sector loans are also common in some countries). The assets stay on the issuer's balance sheet, and the issuer keeps their credit risk.\n- **Dynamic pool:** if a loan stops performing or is prepaid, the issuer must swap in a performing one. The pool is actively managed rather than frozen.\n- **Overcollateralization:** the pool must be worth more than the bonds outstanding, which creates a cushion. A US Treasury best-practices template, for example, asked for at least 5%.\n- **Safeguards:** an independent monitor tests compliance with coverage rules, and a trustee protects investors. Swaps and deposit-type contracts can keep scheduled payments going after an issuer failure, so the bonds are not simply accelerated and prepaid.\n- **Legal protection:** investors need a first-priority, perfected claim on the pool that no other lien competes with. Many countries use dedicated covered bond laws. Nothing here is a government guarantee."
+        },
+        {
+          "heading": "Covered bonds versus ABS",
+          "body_markdown": "| Feature | Covered bond | Typical ABS |\n|---|---|---|\n| Who owns the assets | Issuing bank (on its balance sheet) | A special purpose vehicle (SPV)/trust after a sale |\n| Source of payments | Issuer's general cash flows, with the pool as collateral | Cash flows from the securitized assets and credit enhancement |\n| Recourse | Pool first, then an unsecured claim on the issuer | Generally only the pool and its enhancements |\n| Pool composition | Dynamic: bad or prepaid assets replaced | Usually static; assets stay until they pay off |\n| Credit risk of originator | Investors remain exposed to the issuer | Trust is meant to be bankruptcy remote, which insulates investors from the originator |\n| Prepayment effect | Largely shielded, since the issuer owes the scheduled payments | Passed through to investors |\n\n**Bankruptcy remote** means the SPV's assets are not part of the originator's bankruptcy estate. That is the ABS way of protecting investors, while covered bonds rely on dual recourse and a perfected security interest."
+        },
+        {
+          "heading": "Risks to keep in mind",
+          "body_markdown": "- **Issuer credit risk:** payments depend on the bank, so its deterioration matters even though the pool backs the bonds.\n- **Cover pool quality and cushion erosion:** falling property values, delinquencies or heavy concentration can shrink the overcollateralization cushion. Regular coverage tests and monitors exist to catch this.\n- **Mismatch risk:** timing, interest-rate or currency mismatches between pool cash flows and bond payments. Swaps are used to reduce this.\n- **Legal and structural risk:** protection depends on the claim being properly perfected and on the covered bond law or contract framework. If a coverage test is breached and not cured in time, the program can be terminated.\n- **Shared pool:** if several issuances share one pool, any losses are shared across them.\n\nBecause investors have both a pool claim and an issuer claim, covered bonds are generally regarded as safer than the issuer's plain unsecured debt."
+        }
+      ],
+      "worked_example": {
+        "problem": "A bank has covered bonds with 300 million principal outstanding, backed by a cover pool of performing mortgages worth 330 million. Overcollateralization is the pool's excess over bond principal, divided by bond principal. (a) What is it? (b) Loans worth 15 million become non-performing and are removed. What is it if the bank has not yet replaced them? (c) What happens once the bank substitutes 15 million of performing loans?",
+        "steps": [
+          "Write the definition: OC = (pool − bonds) ÷ bonds.",
+          "(a) Pool 330 million, bonds 300 million: (330 − 300) ÷ 300 = 30 ÷ 300 = 0.10, which is 10%. On a BA II Plus: 330 ÷ 300 − 1 = 0.10.",
+          "(b) Remove the bad loans: pool = 330 − 15 = 315 million. OC = (315 − 300) ÷ 300 = 15 ÷ 300 = 0.05, which is 5%.",
+          "(c) A covered bond pool is dynamic, so the issuer must add 15 million of performing loans. The pool returns to 330 million and OC to 10%.",
+          "Note that the bond payments themselves never changed. The issuer still owes the same scheduled interest and principal throughout."
+        ],
+        "answer": "(a) 10%. (b) 5% before replacement. (c) Back to 10% after the issuer substitutes performing loans, because the pool is dynamic and the issuer bears the pool's credit risk.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Overcollateralization ratio",
+          "latex": "\\text{OC} = \\frac{\\text{Cover pool value} - \\text{Covered bonds outstanding}}{\\text{Covered bonds outstanding}}",
+          "where": "Cover pool value is the (credited) value of performing assets in the pool; covered bonds outstanding is their principal amount. The result is the cushion as a share of bond principal."
+        }
+      ],
+      "exam_traps": [
+        "Treating the cover pool as off-balance-sheet. The assets stay with the issuer, which keeps their credit risk; only in an ABS are they sold to an SPV.",
+        "Saying investors can claim only the pool. Covered bondholders have dual recourse: the pool first, then an unsecured claim on the issuer for any shortfall.",
+        "Assuming the pool is static like most ABS/MBS pools. Covered bond pools are dynamic, with non-performing or prepaid assets replaced.",
+        "Saying payments come from the pool's cash flows. Payments come from the issuer's general cash flows, and the pool is collateral.",
+        "Reading a covered bond's structure or its regulatory template as a government guarantee. There is none."
+      ],
+      "builds_on": [
+        "Bonds and secured vs unsecured debt",
+        "Mortgage loans",
+        "Securitization and SPVs"
+      ],
+      "leads_to": [
+        "Credit enhancement in securitizations",
+        "Non-mortgage ABS",
+        "Collateralized debt obligations"
+      ],
+      "cited_chunk_ids": [
+        "treasury-covered-bonds:7:3",
+        "treasury-covered-bonds:8:4",
+        "treasury-covered-bonds:12:7",
+        "treasury-covered-bonds:13:8",
+        "treasury-covered-bonds:14:9",
+        "philfed-credit-card-abs:4:3"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A bank defaults on its covered bonds, and the cover pool is liquidated for less than the par amount of the bonds. What is the covered bondholders' position?",
+        "options": [
+          {
+            "text": "They can claim the cover pool only, with no further recourse to the bank",
+            "value": null,
+            "explanation": "This confuses covered bonds with ABS. Covered bondholders keep an unsecured claim on the issuer for any shortfall."
+          },
+          {
+            "text": "They claim the cover pool first, then rank with unsecured creditors for any shortfall",
+            "value": null,
+            "explanation": "Correct. Dual recourse means the pool comes first, and any remaining loss is an unsecured claim on the issuer ranking pari passu with other unsecured creditors."
+          },
+          {
+            "text": "They claim the bank's general assets first, then the cover pool for any shortfall",
+            "value": null,
+            "explanation": "This reverses the order. The cover pool is the first recourse, and the unsecured claim on the issuer comes second."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature most clearly distinguishes a covered bond from a typical asset-backed security?",
+        "options": [
+          {
+            "text": "Investors are paid solely from the cash flows generated by the underlying assets",
+            "value": null,
+            "explanation": "This describes a typical ABS or MBS, not a covered bond, whose payments come from the issuer's cash flows."
+          },
+          {
+            "text": "The underlying assets are legally sold to a bankruptcy-remote trust at issuance",
+            "value": null,
+            "explanation": "This describes securitization. In a covered bond the assets generally remain with the issuing bank."
+          },
+          {
+            "text": "The assets stay on the issuer's balance sheet, which keeps their credit risk",
+            "value": null,
+            "explanation": "Correct. The issuer retains the cover pool and its credit risk, whereas in an ABS the assets move to an SPV."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In the normal course of a covered bond's life, from what source are interest and principal paid to investors?",
+        "options": [
+          {
+            "text": "The issuer's general cash flows, with the cover pool serving as collateral",
+            "value": null,
+            "explanation": "Correct. The cover pool backs the promise but is not the routine payment source."
+          },
+          {
+            "text": "Pool cash flows passed straight through a trust to investors",
+            "value": null,
+            "explanation": "This is the ABS/MBS pass-through model, not a covered bond."
+          },
+          {
+            "text": "A government agency that guarantees the covered bond program",
+            "value": null,
+            "explanation": "Covered bond frameworks do not imply any government guarantee."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4",
+          "treasury-covered-bonds:10:6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A mortgage in a covered bond's cover pool stops performing. Which statement describes the typical treatment and contrasts with a typical mortgage-backed security (MBS)?",
+        "options": [
+          {
+            "text": "The loan stays in the pool until maturity and its losses pass through to investors",
+            "value": null,
+            "explanation": "This is how a static MBS pool works, not a dynamic cover pool."
+          },
+          {
+            "text": "The issuer must replace it with a performing asset so the pool stays compliant",
+            "value": null,
+            "explanation": "Correct. Cover pools are dynamic, with non-performing assets substituted."
+          },
+          {
+            "text": "Bondholders' principal is reduced pro rata as soon as the loan stops paying",
+            "value": null,
+            "explanation": "The bonds are the issuer's obligation and are not written down because one pool asset weakens."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4",
+          "treasury-covered-bonds:12:7"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why are covered bond investors usually less exposed to prepayment uncertainty than investors in a typical MBS?",
+        "options": [
+          {
+            "text": "The pool is static, so prepayments simply shorten the bonds' lives",
+            "value": null,
+            "explanation": "A static pool is the MBS feature that creates prepayment risk. Cover pools are dynamic."
+          },
+          {
+            "text": "Investors have no claim on the cover pool, so pool prepayments are irrelevant",
+            "value": null,
+            "explanation": "Investors do have a first-priority claim on the pool. The point is that the issuer owes the payments."
+          },
+          {
+            "text": "Prepaid or defaulted loans are replaced, and the issuer owes the scheduled payments",
+            "value": null,
+            "explanation": "Correct. Substitution keeps the pool intact, and the issuer's obligation is a fixed schedule that is not driven by borrower prepayments."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:8:4",
+          "treasury-covered-bonds:13:8"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A covered bond program has 600 million of bonds outstanding and a cover pool of performing mortgages worth 630 million. Overcollateralization is defined as the pool's excess over bond principal, divided by bond principal. What is it, rounded to one decimal place?",
+        "options": [
+          {
+            "text": "4.8%",
+            "value": null,
+            "explanation": "This divides the excess by the pool value (30 ÷ 630) instead of by the bond principal."
+          },
+          {
+            "text": "5.0%",
+            "value": null,
+            "explanation": "Correct. (630 − 600) ÷ 600 = 0.05, or 5.0%."
+          },
+          {
+            "text": "105.0%",
+            "value": null,
+            "explanation": "This is pool ÷ bonds (630 ÷ 600), the coverage ratio, and forgets to subtract the bond principal."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:13:8"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a direct-issuance covered bond, the bank still owns the cover pool. What principally protects bondholders from the bank's other creditors competing for those loans?",
+        "options": [
+          {
+            "text": "A sale of the loans to a bankruptcy-remote trust that holds them for investors",
+            "value": null,
+            "explanation": "That is the ABS approach. In direct issuance the assets are not sold, so this does not apply."
+          },
+          {
+            "text": "A guarantee from the government that backs the program's payments",
+            "value": null,
+            "explanation": "Covered bond templates explicitly provide no government guarantee."
+          },
+          {
+            "text": "A perfected, first-priority security interest, free of any other lien, on the pool",
+            "value": null,
+            "explanation": "Correct. The pool must be clearly identified and pledged to bondholders under a perfected first-priority claim with no competing liens."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:12:7",
+          "treasury-covered-bonds:10:6",
+          "philfed-credit-card-abs:4:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which risk do covered bond investors face that investors in a typical ABS with a bankruptcy-remote trust are designed to avoid?",
+        "options": [
+          {
+            "text": "The issuing bank's own credit quality, since it pays the bonds from general cash flows",
+            "value": null,
+            "explanation": "Correct. Covered bond investors depend on the issuer until recourse to the pool is needed, whereas an ABS trust is meant to insulate investors from the originator's credit risk."
+          },
+          {
+            "text": "Credit losses on the assets being allocated to tranche holders",
+            "value": null,
+            "explanation": "This is an ABS risk through tranching, not something a covered bond investor faces in the same way, since the issuer owes the bonds."
+          },
+          {
+            "text": "Prepayments of the pool assets shortening the investors' average life",
+            "value": null,
+            "explanation": "This is the pass-through risk of MBS/ABS. Covered bonds are designed to avoid it by replacing assets and keeping the payment schedule."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:8:4",
+          "philfed-credit-card-abs:4:3"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does 'dual recourse' mean for covered bond investors?",
+        "back": "They have a first claim on the cover pool and, if the pool falls short, an unsecured claim on the issuer ranking with other unsecured creditors.",
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4"
+        ]
+      },
+      {
+        "front": "Covered bond vs typical ABS: where do the assets sit, and what pays the investors?",
+        "back": "Covered bond: assets stay on the issuer's balance sheet, and the issuer pays from its general cash flows. ABS: assets are sold to an SPV, and the asset cash flows pay investors.",
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:8:4",
+          "philfed-credit-card-abs:4:3"
+        ]
+      },
+      {
+        "front": "What is a dynamic cover pool?",
+        "back": "A pool the issuer manages actively: non-performing or prepaid assets must be replaced with performing ones, unlike the static pool of a typical MBS or ABS.",
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:8:4"
+        ]
+      },
+      {
+        "front": "What is overcollateralization in a covered bond, and how is it measured?",
+        "back": "The cover pool is kept worth more than the bonds outstanding. OC = (pool value − bonds) ÷ bonds.",
+        "cited_chunk_ids": [
+          "treasury-covered-bonds:7:3",
+          "treasury-covered-bonds:13:8"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:28:34.629Z",
+      "purpose": "generate",
+      "losId": "fixed-income-18-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9824,
+      "outputTokens": 10574,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1265442,
+      "stopReason": "end_turn"
+    }
+  ]
+}

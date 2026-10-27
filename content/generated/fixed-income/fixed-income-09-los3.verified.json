@@ -1,0 +1,793 @@
+{
+  "losId": "fixed-income-09-los3",
+  "losText": "compare the spot curve, par curve, and forward curve",
+  "moduleId": "fixed-income-09",
+  "moduleTitle": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:44:39.015Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "oxford-winkel-duration-immunisation:11:10",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 11–12",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=11",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.17
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome3:20:8",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 20–22",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=20",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-rec02:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 6–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome3:19:7",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 15: Fixed Income part 3",
+      "locator": "pp. 19–20",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/abfe7b1a57a66c6daf4c6380b8ef617e_1543315fixedincome3.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "oxford-winkel-duration-immunisation:10:9",
+      "title": "Lectures 11-14: Duration, convexity and immunisation (M. Winkel, University of Oxford)",
+      "locator": "pp. 10–11",
+      "url": "https://www.stats.ox.ac.uk/~winkel/bs4a11_l11-14.pdf#page=10",
+      "license": "Course notes on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p2:90:167",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 90",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=90",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2006-28:9:6",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 9–11",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=9",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "mit-ocw-15401-lec04:24:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 24–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=24",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:131:152",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 131",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=131",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "fed-feds-2006-28:7:4",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 7–8",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=7",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "fed-feds-2006-28:23:18",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 23–24",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=23",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Spot, Par and Forward Curves Side by Side",
+      "summary": "The spot, par and forward curves are three different ways to describe the same market discount factors, and their relative positions follow predictable rules. Knowing the ordering for upward-sloping, inverted and flat curves lets you answer comparison questions quickly and check your own calculations.",
+      "sections": [
+        {
+          "heading": "One market, three descriptions",
+          "body_markdown": "Every bond price in a market can be derived from one set of **discount factors**, one for each future date. The three curves are three ways to summarise those same factors.\n- **Spot curve**: the yield on a zero-coupon bond (no interim payments) for each maturity. It is the annualised return for lending from today until date $T$.\n- **Forward curve**: the rate for lending over a specific future period, agreed today. A common version is the one-year rate starting at each future date.\n- **Par curve**: the coupon rate at which a bond of each maturity would be priced exactly at its face value.\n\nThink of a road trip. The spot rate is your *average speed since leaving home*. The forward rate is your speed on *one particular leg*. The par rate is a *single steady speed* that summarises the whole trip in a different way. If the later legs are faster than your average so far, your average keeps creeping up but stays below those later legs.\n\nBecause all three come from the same discount factors, none of them carries extra information. If you know one curve completely, you can compute the other two."
+        },
+        {
+          "heading": "How the curves are linked",
+          "body_markdown": "**Spot vs forward.** A spot rate for $T$ years is a geometric average of the one-period forward rates up to $T$. When the spot curve rises, the forward rate for a period must be above the spot rate to pull the average up. The forward curve therefore lies above the spot curve when spot rates are rising. It lies below the spot curve when spot rates are falling, and the forward curve also moves further and faster than the spot curve.\n\n**Spot vs par.** A par rate is a weighted average of the spot rates for every payment date of the bond, with the discount factors as weights. A 3-year par bond pays coupons in years 1, 2 and 3, and the year-1 and year-2 coupons are discounted at the lower early spot rates in an upward-sloping market. The par rate is therefore dragged *below* the 3-year spot rate. On an inverted curve the early spot rates are the higher ones, so the par rate sits *above* the final-date spot rate.\n\nIn short, the par curve is a smoothed, blended version of the spot curve, while the forward curve is a sharpened version of it."
+        },
+        {
+          "heading": "The ordering rules",
+          "body_markdown": "At a given longer maturity:\n- **Upward-sloping spot curve**: forward > spot > par.\n- **Downward-sloping (inverted) spot curve**: par > spot > forward.\n- **Flat spot curve**: forward = spot = par, all at the same level.\n- **Humped spot curve**: forwards are above spot rates while the spot curve is rising, equal to the spot rate at its peak, and below it once it starts falling.\n\nThe ordering is a mirror image: whichever direction the spot curve slopes, the forward curve is pushed further in that direction and the par curve is pulled back toward the middle. Nothing here says which of the three is the 'best' predictor of future rates. They are just alternative, mathematically linked summaries."
+        },
+        {
+          "heading": "Which curve for which job",
+          "body_markdown": "- To **value each cash flow** of a bond at the rate that matches its own date, use the **spot curve**.\n- To find the **coupon rate** that makes a new bond of a given maturity sell at par (as when new bonds are issued), use the **par curve**.\n- To see the **market-implied rate for a future period**, or to find the break-even rate for comparing a longer bond with a shorter bond plus reinvestment, use the **forward curve**.\n\nIn practice, par yields on coupon bonds are often the observable inputs, and spot rates are extracted from them step by step (bootstrapping). That is possible because the three curves are equivalent descriptions of one set of discount factors."
+        }
+      ],
+      "worked_example": {
+        "problem": "Annual-pay spot rates are 3% for 1 year, 4% for 2 years and 5% for 3 years. Compute the 3-year par rate and the forward rate for the one-year period starting at the end of year 2. Then rank the 3-year par, spot and forward rates and say what that ranking shows. Round to two decimals in percent.",
+        "steps": [
+          "Discount factors: $d_1=1/1.03=0.970874$, $d_2=1/1.04^2=0.924556$, $d_3=1/1.05^3=0.863838$. Calculator: 1.03 [1/x]; then 1.04 [y^x] 2 [+/−] [=]; then 1.05 [y^x] 3 [+/−] [=].",
+          "Sum the factors: $0.970874+0.924556+0.863838=2.759268$.",
+          "Par rate: $(1-d_3)/\\sum d_t=(1-0.863838)/2.759268=0.136162/2.759268=0.04935$, which is about 4.93%.",
+          "Forward rate for year 3: $(1.05^3)/(1.04^2)-1$. Calculator: 1.05 [y^x] 3 [÷] 1.04 [y^x] 2 [=] gives 1.070289; then [−] 1 [=] gives 0.070289, or 7.03%.",
+          "Rank at 3 years: forward 7.03% > spot 5.00% > par 4.93%. This is the expected ordering for an upward-sloping spot curve."
+        ],
+        "answer": "The 3-year par rate is about 4.93%, the year-3 forward rate is about 7.03%, and the 3-year spot rate is 5.00%. The ranking forward > spot > par is consistent with an upward-sloping spot curve.",
+        "answer_value": 0.0493,
+        "calc_spec": {
+          "fn": "parRate",
+          "args_json": "{\"spots\":[0.03,0.04,0.05]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Discount factor from a spot rate",
+          "latex": "d_t=\\frac{1}{(1+z_t)^t}",
+          "where": "$d_t$ is the present value of 1 paid at time $t$; $z_t$ is the $t$-year spot rate (annual compounding); $t$ is the number of years."
+        },
+        {
+          "name": "Par rate for an N-year bond",
+          "latex": "PAR_N=\\frac{1-d_N}{\\sum_{t=1}^{N}d_t}",
+          "where": "$PAR_N$ is the annual coupon rate at which the N-year bond prices at par; $d_t$ are the discount factors; $N$ is the maturity in years."
+        },
+        {
+          "name": "Spot rate as a geometric average of forwards",
+          "latex": "(1+z_T)^T=(1+f_{0,1})(1+f_{1,1})\\cdots(1+f_{T-1,1})",
+          "where": "$z_T$ is the $T$-year spot rate; $f_{t,1}$ is the one-year forward rate starting at time $t$, so $f_{0,1}=z_1$."
+        },
+        {
+          "name": "Forward rate from two spot rates",
+          "latex": "(1+z_B)^B=(1+z_A)^A(1+f_{A,B-A})^{B-A}",
+          "where": "$z_A, z_B$ are spot rates for $A$ and $B$ years ($B>A$); $f_{A,B-A}$ is the annualised forward rate for the $(B-A)$ years starting at year $A$."
+        }
+      ],
+      "exam_traps": [
+        "Reversing the ordering on an inverted curve. Forward > spot > par is only for upward slopes; with inversion it flips to par > spot > forward.",
+        "Estimating a par rate with a simple average of spot rates. Par rates use discount-factor weights, so early cash flows count for more.",
+        "Using linear shortcuts for forward rates, such as (5 × 7.5% − 3 × 6%) / 2, instead of compounding. The result is close but not equal to the correct answer.",
+        "Treating the three curves as carrying different information. They are equivalent summaries of one set of discount factors, so one determines the others.",
+        "Mixing up the par rate with the yield of an existing bond. A par rate is the coupon that makes a bond of a given maturity price at 100 on the curve."
+      ],
+      "builds_on": [
+        "Spot rates and discount factors",
+        "Yield to maturity and bond pricing",
+        "Compounding and geometric averages"
+      ],
+      "leads_to": [
+        "Bootstrapping spot rates from par yields",
+        "Theories of the term structure",
+        "Yield curve shape and bond return strategies"
+      ],
+      "cited_chunk_ids": [
+        "oxford-winkel-duration-immunisation:11:10",
+        "mit-ocw-15433-fixedincome3:19:7",
+        "mit-ocw-15433-fixedincome3:20:8",
+        "mit-ocw-15401-lec04:24:5",
+        "fed-feds-2006-28:23:18"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "The spot curve slopes upward across all maturities. Which ranking of the three curves at a long maturity is correct?",
+        "options": [
+          {
+            "text": "Spot above forward, forward above par",
+            "value": null,
+            "explanation": "Wrong: this places the spot curve at the top. Forward rates must exceed spot rates for the spot average to keep rising."
+          },
+          {
+            "text": "Forward above spot, spot above par",
+            "value": null,
+            "explanation": "Correct: forward rates sit above spot rates because spot is an average of forwards, and the par rate blends in the lower early spot rates, so it sits below spot."
+          },
+          {
+            "text": "Par above spot, spot above forward",
+            "value": null,
+            "explanation": "Wrong: this is the ordering for an inverted curve, not an upward-sloping one."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10",
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "On an upward-sloping spot curve, why does the par rate for a given maturity lie below the spot rate for that maturity?",
+        "options": [
+          {
+            "text": "Par yields come from forward rates, which lie below spot rates when the curve slopes up.",
+            "value": null,
+            "explanation": "Wrong: forward rates lie above spot rates on an upward curve, and par yields are not built from forwards alone."
+          },
+          {
+            "text": "Coupon bonds mature sooner than zero-coupon bonds, so their yields carry less liquidity premium.",
+            "value": null,
+            "explanation": "Wrong: this confuses maturity with duration and with liquidity premia. Both bonds have the same stated maturity."
+          },
+          {
+            "text": "A par rate blends the spot rates of all payment dates, so the lower early spot rates pull it down.",
+            "value": null,
+            "explanation": "Correct: the par rate is a discount-factor-weighted average of spot rates for each payment date, and the earlier, lower spot rates reduce it below the final-date spot rate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10",
+          "mit-ocw-15401-lec04:24:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Annual-pay spot rates are 2% for 1 year, 3% for 2 years and 4% for 3 years. Calculate the 3-year par rate (annual coupons, annual compounding) and round to two decimals in percent. Which statement is correct?",
+        "options": [
+          {
+            "text": "3.95%, below the 3-year spot rate",
+            "value": 0.0395,
+            "explanation": "Correct: discount factors are 0.9804, 0.9426 and 0.8890 (sum 2.8120), so par = (1 − 0.8890)/2.8120 ≈ 3.95%, just under the 4% spot, as expected on an upward curve."
+          },
+          {
+            "text": "4.00%, equal to the 3-year spot rate",
+            "value": 0.04,
+            "explanation": "Mistake: treating the par rate as equal to the final spot rate. It ignores the lower early spot rates that discount the first two coupons."
+          },
+          {
+            "text": "3.00%, the simple average of the spots",
+            "value": 0.03,
+            "explanation": "Mistake: taking an equal-weighted average of the three spot rates. Par uses discount-factor weights and is not a simple average."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "parRate",
+          "args_json": "{\"spots\":[0.02,0.03,0.04]}"
+        },
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Annual-compounding spot rates are 6% for 3 years and 7.5% for 5 years. Calculate the annualised forward rate for the 2-year period that starts 3 years from now, and round to two decimals in percent. How does it compare with the 5-year spot rate?",
+        "options": [
+          {
+            "text": "9.75%, above the 5-year spot rate",
+            "value": 0.0975,
+            "explanation": "Mistake: using the linear shortcut (5 × 7.5% − 3 × 6%)/2 and ignoring compounding."
+          },
+          {
+            "text": "9.79%, above the 5-year spot rate",
+            "value": 0.0979,
+            "explanation": "Correct: (1.075^5)/(1.06^3) = 1.43563/1.19102 = 1.2054, and its square root minus 1 is 9.79%. This is above the spot rate, as expected on an upward curve."
+          },
+          {
+            "text": "7.50%, equal to the 5-year spot rate",
+            "value": 0.075,
+            "explanation": "Mistake: confusing the forward rate with the spot rate. The forward rate covers only years 4 and 5, which must earn more than the average to lift the spot rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.06,\"a\":3,\"spotB\":0.075,\"b\":5}"
+        },
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10",
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The spot curve is downward sloping (inverted) at all maturities. Which ranking of the three curves at a long maturity is correct?",
+        "options": [
+          {
+            "text": "Forward above spot, spot above par",
+            "value": null,
+            "explanation": "Mistake: carrying over the upward-curve ordering. With inversion, forward rates fall below the spot rates."
+          },
+          {
+            "text": "Spot above par, par above forward",
+            "value": null,
+            "explanation": "Mistake: assuming the spot curve is always the highest. On an inverted curve the par rate is lifted above spot because the early spot rates are higher."
+          },
+          {
+            "text": "Par above spot, spot above forward",
+            "value": null,
+            "explanation": "Correct: the forward curve is pushed furthest down and the par curve is pulled up, because the par rate blends in the higher early spot rates."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10",
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Annual-pay spot rates are 6% for 1 year, 5% for 2 years and 4% for 3 years (an inverted curve). Calculate the 3-year par rate (annual coupons, annual compounding), rounded to two decimals in percent. Which statement is correct?",
+        "options": [
+          {
+            "text": "4.05%, above the 3-year spot rate",
+            "value": 0.0405,
+            "explanation": "Correct: discount factors are 0.9434, 0.9070 and 0.8890 (sum 2.7394), so par = (1 − 0.8890)/2.7394 ≈ 4.05%, above the 4% spot because the higher early spot rates feed into it."
+          },
+          {
+            "text": "4.00%, equal to the 3-year spot rate",
+            "value": 0.04,
+            "explanation": "Mistake: setting the par rate equal to the final spot rate and ignoring the other spot rates."
+          },
+          {
+            "text": "5.00%, the simple average of the spots",
+            "value": 0.05,
+            "explanation": "Mistake: using an equal-weighted average of 6%, 5% and 4%, instead of weights based on discount factors."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "parRate",
+          "args_json": "{\"spots\":[0.06,0.05,0.04]}"
+        },
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst wants the coupon rate at which a newly issued 5-year bond would be priced exactly at its face value. Which curve gives this directly?",
+        "options": [
+          {
+            "text": "The spot curve, which gives zero-coupon yields",
+            "value": null,
+            "explanation": "Mistake: the spot curve gives zero-coupon yields for discounting single cash flows, not the coupon that prices a bond at par."
+          },
+          {
+            "text": "The par curve, which gives par coupon rates",
+            "value": null,
+            "explanation": "Correct: the par curve is defined as the coupon rate at which a bond of each maturity trades at par."
+          },
+          {
+            "text": "The forward curve, which gives future-period rates",
+            "value": null,
+            "explanation": "Mistake: forward rates describe borrowing or lending over a future period, not the coupon of a bond issued today."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "When the spot curve slopes upward, how do the forward, spot and par curves rank? What about when it is inverted?",
+        "back": "Upward: forward > spot > par. Inverted: par > spot > forward. Flat: all three are equal.",
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10",
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why does the forward curve lie above the spot curve when spot rates are rising?",
+        "back": "A spot rate is a geometric average of the forward rates up to that date. For the average to keep rising, each later forward rate must be above the spot rate before it.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7",
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is a par rate, and how does it relate to spot rates?",
+        "back": "It is the coupon rate at which a bond of a given maturity prices at par. It is a weighted average of the spot rates for the bond's payment dates, with the discount factors as weights.",
+        "cited_chunk_ids": [
+          "oxford-winkel-duration-immunisation:11:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Which curve do you use to discount each of a bond's cash flows, and which to find a future-period rate?",
+        "back": "Spot curve to discount each cash flow at the rate for its own date. Forward curve for the rate implied for a specific future period.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome3:19:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:44:29.722Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-09-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 936,
+      "outputTokens": 1002,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.012009,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:44:39.015Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-09-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 15220,
+      "outputTokens": 1313,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0437392,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0557482
+}

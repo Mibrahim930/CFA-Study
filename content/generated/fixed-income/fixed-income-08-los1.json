@@ -1,0 +1,425 @@
+{
+  "losId": "fixed-income-08-los1",
+  "losText": "calculate and interpret yield spread measures for floating-rate instruments",
+  "moduleId": "fixed-income-08",
+  "moduleTitle": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:53:35.776Z",
+  "retrieved": [
+    {
+      "id": "cfr-31-356:13:25",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 13",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "treasurydirect-pricing:2:6",
+      "title": "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Glossary for Treasury Marketable Securities — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/help-center/glossary/glossary-for-marketable-securities/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "cfr-31-356:4:6",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 4",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=4",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "cfr-31-356:32:73",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 32–33",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=32",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "cfr-31-356:5:9",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 5",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "cfr-31-356:13:26",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 13–14",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "treasurydirect-securities:2:2",
+      "title": "Treasury Bills, Notes and Floating Rate Notes (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Treasury Notes — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/marketable-securities/treasury-notes/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfr-31-356:8:16",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 8–9",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "treasurydirect-pricing:2:7",
+      "title": "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Glossary for Treasury Marketable Securities — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/help-center/glossary/glossary-for-marketable-securities/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "treasurydirect-pricing:2:9",
+      "title": "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Glossary for Treasury Marketable Securities — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/help-center/glossary/glossary-for-marketable-securities/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "cfr-31-356:4:7",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 4",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=4",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "treasurydirect-pricing:1:2",
+      "title": "Understanding pricing, interest rates and the marketable securities glossary (TreasuryDirect, U.S. Department of the Treasury)",
+      "locator": "Understanding Pricing and Interest Rates — TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "license": "Public domain (U.S. federal government work, 17 U.S.C. 105)",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Margins on Floating-Rate Notes: Quoted Margin, Required Margin and Discount Margin",
+      "summary": "A floating-rate note (FRN) pays a coupon that moves with a short-term market rate plus a fixed spread, so its price depends on how that fixed spread compares with the spread investors now demand. This lesson shows how to compare the two spreads, price an FRN with them, and read the result as above, at or below par.",
+      "sections": [
+        {
+          "heading": "Why a floater's coupon moves",
+          "body_markdown": "A **floating-rate note (FRN)** is a bond whose coupon is rebuilt every period from two pieces: a **reference rate** (an index such as a 3-month market rate) plus a fixed spread. The date on which the new coupon is set is the **reset date**.\n\nThink of a variable-rate mortgage: the bank's benchmark moves, and your payment moves with it, but the bank's markup over the benchmark is written into the contract and stays put.\n\nThe fixed markup in the contract is the **quoted margin (QM)**. For a note paying the reference rate plus 0.50%, the QM is 0.50%. Treasury FRNs work this way: the interest rate is an index rate (tied to the 13-week bill auction) plus a spread. The spread is set at the first auction and stays the same for the life of the note, and interest is paid quarterly."
+        },
+        {
+          "heading": "The second margin: what investors demand today",
+          "body_markdown": "The QM is a contract term. The market, however, keeps re-pricing how much extra yield over the reference rate it wants for holding this particular issuer's paper. That demanded spread is the **required margin**, also called the **discount margin (DM)**.\n\n- The DM depends on the issuer's credit risk, the note's liquidity and how long it has to run.\n- It is a *spread*, not a full yield. The full discount rate for the note is the reference rate plus the DM.\n- In the Treasury auction, bidders bid on the discount margin. For a brand-new note the DM accepted at auction equals the spread, so the note starts out priced at par.\n\nSo there are two numbers to compare: the margin the issuer *promises* (QM) and the margin the market *requires* (DM)."
+        },
+        {
+          "heading": "Reading the price from the two margins",
+          "body_markdown": "On a reset date, the coupon already reflects the current reference rate, so the only thing that can push the price away from par (100) is the gap between the two margins:\n\n- $DM = QM$: the coupon pays exactly what the market requires, so price $\\approx$ par.\n- $DM > QM$: the note pays less spread than investors want, so it must sell at a **discount** (below par).\n- $DM < QM$: the note pays more spread than investors want, so it sells at a **premium** (above par).\n\nThis is also why FRNs have little interest-rate risk between resets: if the reference rate rises, the coupon *and* the discount rate both rise, and the effect cancels. What does move the price is a change in the required margin, for example because the issuer's credit quality changes."
+        },
+        {
+          "heading": "Putting a price on it",
+          "body_markdown": "Pricing is ordinary present value with two ground rules. First, assume the reference rate stays at today's level for all future periods. Second, divide every annual rate by $m$, the number of payments per year.\n\n1. Coupon per period $= (\\text{Index} + QM)/m \\times FV$.\n2. Discount rate per period $= (\\text{Index} + DM)/m$.\n3. Discount the coupons and the face value at that per-period rate.\n\nThe coupon uses the **quoted** margin; the discount rate uses the **required** margin. If you put the QM in both places, you will always get par and learn nothing. A handy shortcut: the distance from par equals $(QM - DM)/m \\times FV$ multiplied by the annuity factor at the discount rate. The sign of $QM - DM$ tells you premium or discount before you calculate anything."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 2-year FRN with face value 100 pays quarterly interest at the 3-month reference rate plus a quoted margin of 0.50% (annual). On a reset date the reference rate is 2.00% and is assumed to stay there. Investors currently require a discount margin of 0.80%. What is the price per 100 of face value (round to 2 decimals)?",
+        "steps": [
+          "Quarterly payments, so $m = 4$ and $N = 2 \\times 4 = 8$ periods.",
+          "Coupon per period $= (2.00\\% + 0.50\\%)/4 \\times 100 = 0.625$.",
+          "Discount rate per period $= (2.00\\% + 0.80\\%)/4 = 0.70\\%$.",
+          "BA II Plus: set P/Y to 1 first (2ND P/Y, 1, ENTER, then CE/C). Then 2ND CLR TVM, then N = 8, I/Y = 0.7, PMT = 0.625, FV = 100, CPT PV. The display shows −99.42; the minus sign only means cash paid out.",
+          "Check the direction: DM (0.80%) is greater than QM (0.50%), so the price should be below par. 99.42 is below 100, as expected."
+        ],
+        "answer": "The price is about 99.42 per 100 of face value, a discount of roughly 0.58 to par.",
+        "answer_value": 99.42,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.007,\"n\":8,\"pmt\":0.625,\"fv\":100}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "FRN price on a reset date",
+          "latex": "PV=\\sum_{t=1}^{N}\\frac{\\dfrac{(\\text{Index}+QM)}{m}\\,FV}{\\left(1+\\dfrac{\\text{Index}+DM}{m}\\right)^{t}}+\\frac{FV}{\\left(1+\\dfrac{\\text{Index}+DM}{m}\\right)^{N}}",
+          "where": "PV = price; Index = reference rate (annual, assumed constant); QM = quoted margin (annual); DM = discount (required) margin (annual); m = payments per year; N = total number of periods; FV = face value."
+        },
+        {
+          "name": "Distance from par shortcut",
+          "latex": "PV-FV=\\frac{QM-DM}{m}\\,FV\\cdot\\frac{1-\\left(1+\\frac{\\text{Index}+DM}{m}\\right)^{-N}}{\\frac{\\text{Index}+DM}{m}}",
+          "where": "Same symbols as above; the last fraction is the annuity factor at the per-period discount rate. A positive result means premium, a negative result means discount."
+        }
+      ],
+      "exam_traps": [
+        "Using the quoted margin in the discount rate as well as in the coupon. Both sides then match and the price comes out at exactly par.",
+        "Forgetting to divide the index, QM and DM by $m$ (or entering annual rates with quarterly or semiannual periods).",
+        "Getting the direction backwards: a required margin above the quoted margin means a price below par, not above.",
+        "Assuming an FRN always trades at par because its coupon floats. A change in the issuer's credit spread moves the DM and therefore the price.",
+        "Treating the discount margin as a full yield. It is only the spread added to the reference rate to form the discount rate."
+      ],
+      "builds_on": [
+        "Time value of money and bond pricing",
+        "Coupon and bond price relationship to yield",
+        "Credit spread basics"
+      ],
+      "leads_to": [
+        "Money market instrument yields",
+        "Interest rate risk of floaters versus fixed-rate bonds",
+        "Credit spread analysis"
+      ],
+      "cited_chunk_ids": [
+        "cfr-31-356:4:6",
+        "cfr-31-356:5:9",
+        "treasurydirect-securities:2:2",
+        "treasurydirect-pricing:1:2",
+        "cfr-31-356:32:73"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An FRN is issued with a coupon of the 3-month reference rate plus 0.75%. Which statement about the 0.75% is correct?",
+        "options": [
+          {
+            "text": "It is the quoted margin, written into the terms and unchanged by daily market moves.",
+            "value": null,
+            "explanation": "Correct. The spread in the note's terms is the quoted margin, and it stays fixed (as with the spread on a Treasury FRN)."
+          },
+          {
+            "text": "It is the required margin, which investors reset every day as conditions change.",
+            "value": null,
+            "explanation": "This confuses the quoted margin with the required margin. The required margin moves with the market; the contractual spread does not."
+          },
+          {
+            "text": "It is the discount margin, which is recalculated from the note's market price.",
+            "value": null,
+            "explanation": "The discount margin is the market-implied spread and does change with price. The 0.75% in the contract is not recalculated."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:5:9",
+          "treasurydirect-securities:2:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 1-year FRN has face value 100 and pays quarterly interest at the 3-month reference rate plus a quoted margin of 0.80% (annual). On a reset date the reference rate is 3.00% and is assumed to stay at 3.00% for all remaining periods. Investors require a discount margin of 1.20% (annual). No accrued interest is involved. What is the price per 100 of face value? Round to 2 decimals.",
+        "options": [
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Assumes a floater is always worth par because its coupon floats. This ignores that the required margin (1.20%) differs from the quoted margin (0.80%)."
+          },
+          {
+            "text": "100.39",
+            "value": 100.39,
+            "explanation": "Sign error: treats the 0.40% shortfall in spread as if the note paid extra, so the price lands above par instead of below."
+          },
+          {
+            "text": "99.61",
+            "value": 99.61,
+            "explanation": "Correct. Coupon = (3.00% + 0.80%)/4 × 100 = 0.95; discount rate = (3.00% + 1.20%)/4 = 1.05% per quarter; N = 4. PV ≈ 99.61, below par because DM > QM."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.0105,\"n\":4,\"pmt\":0.95,\"fv\":100}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "On a reset date, an FRN has a quoted margin of 0.60% while investors require a margin of 0.35%. Compared with par, the price is most likely:",
+        "options": [
+          {
+            "text": "above par, since the note pays more spread than investors require.",
+            "value": null,
+            "explanation": "Correct. When QM > DM the coupon is more generous than the market demands, so buyers pay a premium."
+          },
+          {
+            "text": "below par, since the required margin is the smaller of the two numbers.",
+            "value": null,
+            "explanation": "Direction error. A lower required margin than quoted margin makes the note more attractive, not less."
+          },
+          {
+            "text": "at par, since a floating coupon always resets to match the market.",
+            "value": null,
+            "explanation": "Only the reference-rate part resets. The margin gap between QM and DM is not reset, so the price departs from par."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year FRN has face value 100 and pays semiannual interest at the 6-month reference rate plus a quoted margin of 1.00% (annual). On a reset date the reference rate is 5.00% and is assumed to remain there. Investors require a discount margin of 0.70% (annual). No accrued interest is involved. What is the price per 100 of face value? Round to 2 decimals.",
+        "options": [
+          {
+            "text": "98.92",
+            "value": 98.92,
+            "explanation": "Adds the full annual 0.70% to the semiannual index rate (discount rate 3.20% per period) instead of dividing the margin by 2. This overstates the discount rate and drives the price below par."
+          },
+          {
+            "text": "100.82",
+            "value": 100.82,
+            "explanation": "Correct. Coupon = 6.00%/2 × 100 = 3.00; discount rate = 5.70%/2 = 2.85% per period; N = 6. Since QM > DM the price is a premium: about 100.82."
+          },
+          {
+            "text": "99.18",
+            "value": 99.18,
+            "explanation": "Sign error: right size of the adjustment but applied as a discount, even though the quoted margin exceeds the required margin."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.0285,\"n\":6,\"pmt\":3,\"fv\":100}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An FRN's issuer has unchanged credit quality. Just before a reset date, the 3-month reference rate rises by 100 basis points. Right after the coupon resets, which outcome is most likely for the FRN's price?",
+        "options": [
+          {
+            "text": "It drops well below par, as a fixed-rate bond would when yields rise.",
+            "value": null,
+            "explanation": "Treats the FRN like a fixed-rate bond. A fixed coupon cannot follow rates up, but a floater's coupon does."
+          },
+          {
+            "text": "It rises above par, since the next coupon will be 100 basis points higher.",
+            "value": null,
+            "explanation": "Counts the higher coupon but ignores that the discount rate rises by the same amount."
+          },
+          {
+            "text": "It stays close to par, since the coupon and discount rate rise together and the margins are unchanged.",
+            "value": null,
+            "explanation": "Correct. Index + QM and Index + DM both increase by 1%, so the gap between them, which drives the price, does not change."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 18-month FRN has face value 1,000,000 and pays semiannual interest at the 6-month reference rate plus a quoted margin of 0.50% (annual). On a reset date the reference rate is 4.00% and is assumed to stay there. Investors require a discount margin of 0.90% (annual). No accrued interest is involved. What is the market value of the note? Round to the nearest whole currency unit.",
+        "options": [
+          {
+            "text": "994,282",
+            "value": 994282,
+            "explanation": "Correct. Coupon = 4.50%/2 × 1,000,000 = 22,500; discount rate = 4.90%/2 = 2.45% per period; N = 3. PV ≈ 994,282, below par because DM > QM."
+          },
+          {
+            "text": "1,005,718",
+            "value": 1005718,
+            "explanation": "Sign error: the 0.40% spread shortfall is applied as a premium rather than a discount."
+          },
+          {
+            "text": "1,000,000",
+            "value": 1000000,
+            "explanation": "Assumes the floating coupon keeps the note at par, ignoring that the required margin exceeds the quoted margin."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.0245,\"n\":3,\"pmt\":22500,\"fv\":1000000}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "After issuance, the issuer of an FRN with a quoted margin of 1.00% suffers a deterioration in credit quality. Which statement best describes the effect?",
+        "options": [
+          {
+            "text": "The quoted margin rises automatically to compensate, so the price stays at par.",
+            "value": null,
+            "explanation": "The quoted margin is a contractual term and does not adjust to credit news."
+          },
+          {
+            "text": "The required margin rises above 1.00%, so the price falls below par.",
+            "value": null,
+            "explanation": "Correct. Investors now demand more spread than the note pays (DM > QM), so the price drops below par."
+          },
+          {
+            "text": "The required margin falls below 1.00%, so the price rises above par.",
+            "value": null,
+            "explanation": "Reverses the credit effect. Worse credit increases the spread investors demand rather than lowering it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the quoted margin of an FRN?",
+        "back": "The fixed spread in the note's terms that is added to the reference rate to set each coupon. It does not change with market conditions.",
+        "cited_chunk_ids": [
+          "cfr-31-356:5:9",
+          "treasurydirect-securities:2:2"
+        ]
+      },
+      {
+        "front": "What is the discount margin (required margin) of an FRN?",
+        "back": "The spread over the reference rate that investors currently demand; it is the margin that makes the PV of the note's cash flows equal its price.",
+        "cited_chunk_ids": [
+          "cfr-31-356:4:6"
+        ]
+      },
+      {
+        "front": "How does the price of an FRN on a reset date compare with par when DM > QM, DM = QM and DM < QM?",
+        "back": "DM > QM: below par (discount). DM = QM: at par. DM < QM: above par (premium).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "In FRN pricing, which margin goes in the coupon and which in the discount rate?",
+        "back": "Coupon = (Index + quoted margin)/m × FV. Discount rate per period = (Index + discount margin)/m. Remember to divide by m.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:53:35.776Z",
+      "purpose": "generate",
+      "losId": "fixed-income-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9886,
+      "outputTokens": 16243,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1833582,
+      "stopReason": "end_turn"
+    }
+  ]
+}

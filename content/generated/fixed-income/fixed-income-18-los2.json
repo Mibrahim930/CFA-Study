@@ -1,0 +1,443 @@
+{
+  "losId": "fixed-income-18-los2",
+  "losText": "describe typical credit enhancement structures used in securitizations",
+  "moduleId": "fixed-income-18",
+  "moduleTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:29:42.846Z",
+  "retrieved": [
+    {
+      "id": "occ-asset-securitization:23:21",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 23–24",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=23",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-securitization:46:59",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 46–47",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=46",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-asset-securitization:27:25",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 27–29",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:71:132",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 71–72",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=71",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-lec04:55:12",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 55–61",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=55",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "cfa-rf-alt-credit:43:55",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 43–44",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=43",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "nyfed-securitization:51:65",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 51–52",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=51",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-asset-securitization:22:20",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 22–23",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=22",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "nyfed-securitization:34:44",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 34–35",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=34",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-asset-securitization:24:22",
+      "title": "Comptroller's Handbook: Asset Securitization (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "occ-credit-card-lending:86:124",
+      "title": "Comptroller's Handbook: Credit Card Lending (securitization) (OCC)",
+      "locator": "pp. 86–87",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/credit-card-lending/pub-ch-credit-card.pdf#page=86",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "fed-risk-retention-2010:14:16",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 14–16",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=14",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Credit Enhancement in Securitizations: Cushions for the Investor",
+      "summary": "Credit enhancement is any feature that makes a securitized bond less likely to lose money than the underlying loan pool would suggest. It matters because a tranche's rating, and therefore its price, depends on how much enhancement sits beneath or around it.",
+      "sections": [
+        {
+          "heading": "Why enhancement exists",
+          "body_markdown": "A pool of loans will always have some defaults. If every investor shared those losses equally, the bonds would carry the same credit quality as the pool. Securitization lets the issuer **engineer a better rating** for some bonds by adding protection, called **credit enhancement**.\n\nThink of a row of buckets under a leaky roof. The bucket at the front catches the first drips, and only a heavy storm reaches the last bucket. The more cushion in front of a tranche, the lower its chance of loss and the higher its rating. Cushion is costly, though. Beyond the coupon, it is one of the biggest expenses of building the deal, so issuers try to use as little as will earn the rating they want.\n\nCredit enhancement is usually split into two families:\n- **Internal**: built into the deal's structure and cash flows.\n- **External**: supplied by a third party (or the seller) outside the pool."
+        },
+        {
+          "heading": "Internal enhancement: the structure protects itself",
+          "body_markdown": "**Subordination (senior/subordinate structure).** The pool's cash is split into tranches with a payment priority, the *waterfall*. Losses hit the most junior tranche first and move upward only when that tranche is wiped out. Senior investors are paid interest and principal ahead of juniors. A common way to describe the cushion is the share of collateral sitting beneath a tranche.\n\n**Overcollateralization (OC).** The pool's principal is larger than the principal of all the securities issued. That extra collateral is the first thing used up by losses, and it acts as a thin equity-like layer at the bottom.\n\n**Excess spread.** The loans earn interest. After the trust pays investor coupons, servicing fees and expected losses, any leftover interest is the excess spread. Normally it goes back to the seller as profit, but it can instead be used to absorb losses, which makes it a first line of defense.\n\n**Reserve and spread accounts.** Cash can be set aside to cover shortfalls. In a *spread account* (a type of cash collateral account), excess spread is **trapped** inside the trust when pool performance deteriorates, building a larger buffer for later. A *cash collateral account* is funded at the start of the deal and drawn on if interest, principal or servicing falls short.\n\n**Performance triggers and coverage tests.** These are rules that react to weak pool performance, for example when overcollateralization or interest coverage ratios fall too low. When tripped, cash is redirected away from equity and junior classes and toward paying down senior tranches."
+        },
+        {
+          "heading": "External enhancement: someone else stands behind the deal",
+          "body_markdown": "Here a party outside the pool adds credit strength:\n- **Surety bond (financial guaranty / monoline insurance).** A highly rated insurer guarantees, or *wraps*, the interest and principal payments on the bonds.\n- **Letter of credit.** A third party, typically a bank, promises to cover losses up to a stated amount. Draws are often repaid from excess cash flow later.\n- **Seller recourse / limited guarantee.** The originator agrees to cover losses on the pool up to a stated cap. Nonbank issuers use this most often.\n\nThe big weakness is **dependence on the enhancer**. If the guarantor's credit rating is cut, the security's rating can be cut too, even though the loans are unchanged. This is why issuers have leaned more on internal structures over time."
+        },
+        {
+          "heading": "How much is enough? Putting it together for the exam",
+          "body_markdown": "**A better rating needs more enhancement.** A AAA tranche requires a bigger cushion than a BBB tranche from the same pool, because the AAA tranche must survive far worse loss scenarios.\n\n**Enhancement must move with risk.** When economic conditions worsen, the pool's loss distribution shifts toward higher losses. Holding the same cushion would leave a tranche riskier than its rating implies. Rating agencies therefore ask for more enhancement in bad times and accept less in good times (*pro-cyclical* enhancement).\n\n**What enhancement does not do.** It protects against *credit loss*. It does not remove prepayment risk or interest rate risk, and the seller's residual interest in a revolving trust is generally not treated as enhancement for investors.\n\nQuick sorting guide: structure inside the deal (subordination, OC, excess spread, reserve accounts, triggers) is **internal**. A guarantee, letter of credit, surety bond or seller recourse is **external**.\n\nIn practice the two types are combined. Collateralized loan obligations, for instance, mostly use the internal tools and sometimes add third-party insurance."
+        }
+      ],
+      "worked_example": {
+        "problem": "A securitization trust holds $500 million of loans. It issues $400 million of senior notes and $70 million of junior notes. The remainder of the collateral is overcollateralization. (a) How large is the OC? (b) What percentage of collateral lies beneath the senior notes? (c) If cumulative credit losses reach $45 million, how are they allocated, and what is each tranche's remaining principal? Ignore excess spread.",
+        "steps": [
+          "Compute the OC: collateral minus all notes issued = $500m − ($400m + $70m) = $30m.",
+          "Cushion beneath the senior notes = OC + junior notes = $30m + $70m = $100m. As a share of collateral: $100m ÷ $500m = 20%.",
+          "Allocate the $45m loss from the bottom up. The OC absorbs the first $30m, which leaves $15m of loss.",
+          "The junior notes absorb the remaining $15m, so their principal falls from $70m to $55m.",
+          "The senior notes lose nothing: they would first lose principal only when cumulative losses exceed $100m.",
+          "No catalog function or BA II Plus keystrokes are needed here; this is simple arithmetic."
+        ],
+        "answer": "OC = $30 million; senior subordination = 20% of collateral; with $45 million of losses the OC is exhausted, the junior notes fall to $55 million, and the senior notes remain at $400 million.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Overcollateralization",
+          "latex": "\\text{OC}=\\text{Collateral principal}-\\text{Principal of securities issued}",
+          "where": "OC is the amount by which the pool's principal exceeds the principal of all securities issued; it is the first layer to absorb losses."
+        },
+        {
+          "name": "Subordination beneath a tranche (as % of collateral)",
+          "latex": "\\text{Subordination}=\\frac{\\text{OC}+\\text{Principal of junior tranches}}{\\text{Collateral principal}}",
+          "where": "Junior tranches are all classes ranking below the tranche being analyzed; the result is the loss level the tranche can survive without any loss of principal or interest."
+        },
+        {
+          "name": "Excess spread",
+          "latex": "\\text{Excess spread}=\\text{Portfolio yield}-\\text{Investor coupon}-\\text{Servicing cost}-\\text{Charge-offs}",
+          "where": "All terms are expressed as a percentage of the pool balance over the same period; a positive result is cash left over after expenses and losses."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up internal and external: a cash reserve or spread account funded from the pool's own cash flow is internal, while a surety bond, letter of credit or seller guarantee is external.",
+        "Assuming losses are shared pro rata. In a senior/subordinate structure losses go to the most junior class first, and OC sits below even that.",
+        "Forgetting charge-offs (or servicing) when computing excess spread, which overstates the cushion.",
+        "Thinking enhancement removes all risks. It addresses credit loss only, not prepayment or interest rate risk, and an external guarantee is only as strong as the guarantor.",
+        "Believing a higher rating means less enhancement. The opposite is true: a more senior, higher-rated tranche needs a larger cushion beneath it."
+      ],
+      "builds_on": [
+        "Securitization and the special purpose entity",
+        "Tranching and the cash flow waterfall",
+        "Credit risk and default loss severity"
+      ],
+      "leads_to": [
+        "Covered bonds versus ABS",
+        "Non-mortgage ABS risks",
+        "CDO and CLO structures and coverage tests"
+      ],
+      "cited_chunk_ids": [
+        "occ-asset-securitization:22:20",
+        "occ-asset-securitization:23:21",
+        "occ-asset-securitization:24:22",
+        "nyfed-securitization:34:44",
+        "nyfed-securitization:46:59",
+        "nyfed-securitization:51:65",
+        "occ-asset-securitization:27:25",
+        "cfa-rf-alt-credit:43:55"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is an example of internal credit enhancement in a securitization?",
+        "options": [
+          {
+            "text": "A surety bond issued by a monoline insurer",
+            "value": null,
+            "explanation": "A surety bond is a guarantee from a third party outside the pool, so it is external enhancement. Choosing it confuses a third-party wrap with structural protection."
+          },
+          {
+            "text": "A senior/subordinate tranche structure",
+            "value": null,
+            "explanation": "Correct. Subordination is built into the deal's payment priority: junior classes absorb losses before senior classes, with no outside party involved."
+          },
+          {
+            "text": "A bank letter of credit covering part of pool losses",
+            "value": null,
+            "explanation": "A letter of credit is supplied by a third-party bank, so it is external. Choosing it overlooks who provides the support."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:22:20",
+          "occ-asset-securitization:23:21"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In a securitization, overcollateralization means that:",
+        "options": [
+          {
+            "text": "the pool's principal balance exceeds the principal of the securities issued against it",
+            "value": null,
+            "explanation": "Correct. The extra collateral beyond the issued securities is the first layer to absorb losses."
+          },
+          {
+            "text": "the principal of the securities issued exceeds the pool's principal balance",
+            "value": null,
+            "explanation": "This reverses the relationship. It would leave investors less than fully backed, not more protected."
+          },
+          {
+            "text": "a third party guarantees full repayment of the securities issued",
+            "value": null,
+            "explanation": "This describes a surety bond or guarantee, which is external enhancement, not overcollateralization."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:34:44"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A trust holds $200 million of loans and has issued $150 million of senior notes and $40 million of junior notes; the rest of the collateral is overcollateralization. Cumulative credit losses on the pool are $25 million, and excess spread is ignored. Which outcome is correct?",
+        "options": [
+          {
+            "text": "The junior notes lose the full $25 million and the senior notes are unaffected",
+            "value": null,
+            "explanation": "This ignores the overcollateralization. The $10 million of OC absorbs losses before the junior notes do."
+          },
+          {
+            "text": "All notes share the $25 million loss in proportion to their principal",
+            "value": null,
+            "explanation": "This treats the deal like a pro rata pass-through. In a senior/subordinate structure losses are allocated from the bottom up, not shared."
+          },
+          {
+            "text": "The OC absorbs $10 million, the junior notes lose $15 million and the senior notes are unaffected",
+            "value": null,
+            "explanation": "Correct. OC = 200 − (150 + 40) = $10 million, which absorbs the first losses. The remaining $15 million hits the junior notes, and the senior notes are untouched."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:34:44",
+          "fed-risk-retention-2010:14:16"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For one month, a pool earns a portfolio yield of 9.0% of its balance (annualized). The investor coupon costs 5.0%, servicing costs 1.0% and charge-offs are 2.0%, all on the same annualized basis. What is the excess spread?",
+        "options": [
+          {
+            "text": "2.0%",
+            "value": null,
+            "explanation": "This subtracts the coupon and charge-offs but omits servicing costs (9 − 5 − 2)."
+          },
+          {
+            "text": "1.0%",
+            "value": null,
+            "explanation": "Correct. Excess spread = 9.0 − 5.0 − 1.0 − 2.0 = 1.0%, the cash left after the coupon, servicing and losses."
+          },
+          {
+            "text": "3.0%",
+            "value": null,
+            "explanation": "This subtracts the coupon and servicing but forgets charge-offs (9 − 5 − 1)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:24:22",
+          "occ-asset-securitization:27:25"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description best fits a spread account in a securitization trust?",
+        "options": [
+          {
+            "text": "A senior tranche that is paid ahead of all subordinate classes",
+            "value": null,
+            "explanation": "This describes a senior class in the waterfall, which is subordination, not a spread account."
+          },
+          {
+            "text": "A guarantee by a monoline insurer of all interest and principal payments",
+            "value": null,
+            "explanation": "This describes a surety bond, which is external enhancement."
+          },
+          {
+            "text": "A trust account where excess spread is held back when performance weakens, to cover future losses",
+            "value": null,
+            "explanation": "Correct. The excess spread is trapped in the account rather than returned to the seller, forming a growing internal cushion."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:24:22"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "What is a key risk of relying on a third-party guarantor for a securitization's credit enhancement?",
+        "options": [
+          {
+            "text": "The guarantee shifts the first losses onto the senior investors",
+            "value": null,
+            "explanation": "A guarantee supports investors and does not reorder the loss priority. First losses still fall on junior positions."
+          },
+          {
+            "text": "A downgrade of the guarantor can lead to a downgrade of the security",
+            "value": null,
+            "explanation": "Correct. The security's rating partly rests on the guarantor's credit strength, so its downgrade can lower the rating even if the pool is unchanged."
+          },
+          {
+            "text": "The guarantee raises the pool's prepayment risk",
+            "value": null,
+            "explanation": "Credit enhancement does not change borrowers' prepayment behavior. This confuses credit risk protection with prepayment risk."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-asset-securitization:23:21"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A rating agency sets the enhancement for a AAA-rated tranche when economic conditions are strong. Conditions then deteriorate, so a given probability now corresponds to larger pool losses. To keep the tranche's default probability consistent with a AAA rating, the agency should require:",
+        "options": [
+          {
+            "text": "more credit enhancement, such as greater subordination beneath the tranche",
+            "value": null,
+            "explanation": "Correct. Pool losses are expected to be larger, so a bigger cushion is needed to keep default probability at the AAA level. Enhancement is pro-cyclical."
+          },
+          {
+            "text": "less credit enhancement, because weaker conditions lower the price of the tranche",
+            "value": null,
+            "explanation": "This reverses the logic. Weaker conditions raise expected losses, and price does not reduce the cushion needed."
+          },
+          {
+            "text": "the same credit enhancement, because the rating target has not changed",
+            "value": null,
+            "explanation": "Keeping enhancement fixed lets the tranche's real default probability drift toward a lower rating, which causes downgrades in a downturn."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:51:65",
+          "nyfed-securitization:46:59"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is subordination in a securitization, and who is hurt first by losses?",
+        "back": "A payment-priority structure in which junior tranches rank below senior ones. Losses hit the most junior class first, then move upward, so senior tranches are protected by everything beneath them.",
+        "cited_chunk_ids": [
+          "nyfed-securitization:34:44",
+          "fed-risk-retention-2010:14:16"
+        ]
+      },
+      {
+        "front": "Define excess spread.",
+        "back": "Pool interest income left over after paying investor coupons, servicing fees and expected losses. It can go to the seller or be kept in the trust as a loss buffer.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:24:22",
+          "nyfed-securitization:46:59"
+        ]
+      },
+      {
+        "front": "Contrast internal and external credit enhancement, with examples.",
+        "back": "Internal: built into the deal (subordination, overcollateralization, excess spread, reserve accounts, triggers). External: from outside parties (surety bonds, letters of credit, guarantees, seller recourse), which adds dependence on the provider's credit quality.",
+        "cited_chunk_ids": [
+          "occ-asset-securitization:22:20",
+          "occ-asset-securitization:23:21"
+        ]
+      },
+      {
+        "front": "What is overcollateralization?",
+        "back": "Pool principal exceeds the principal of the securities issued. The excess is the first layer to absorb losses, acting like an equity cushion.",
+        "cited_chunk_ids": [
+          "nyfed-securitization:34:44"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:29:42.846Z",
+      "purpose": "generate",
+      "losId": "fixed-income-18-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9954,
+      "outputTokens": 9477,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1158342,
+      "stopReason": "end_turn"
+    }
+  ]
+}

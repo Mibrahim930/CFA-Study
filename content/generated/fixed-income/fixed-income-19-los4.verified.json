@@ -1,0 +1,842 @@
+{
+  "losId": "fixed-income-19-los4",
+  "losText": "describe characteristics and risks of commercial mortgage-backed securities",
+  "moduleId": "fixed-income-19",
+  "moduleTitle": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:53:09.578Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-cmbs-cohen-2011:3:3",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "pp. 3–4",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=3",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:4:4",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "pp. 4–5",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=4",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:14:16",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "pp. 14–15",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=14",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p1:49:77",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 49",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=49",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:6:6",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "p. 6",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=6",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:16:18",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "p. 16",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=16",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "nyfed-sr674-mortgage-spreads:3:2",
+      "title": "Understanding Mortgage Spreads (FRBNY Staff Report 674, option-adjusted spread)",
+      "locator": "pp. 3–4",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr674.pdf#page=3",
+      "license": "Federal Reserve Bank of New York staff report; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-commercial-real-estate-lending:45:65",
+      "title": "Comptroller's Handbook: Commercial Real Estate Lending (OCC)",
+      "locator": "pp. 45–46",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/commercial-real-estate-lending/pub-ch-commercial-real-estate.pdf#page=45",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-risk-retention-2010:48:47",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "pp. 48–49",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=48",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "nyfed-securitization:37:46",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "p. 37",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=37",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "treasury-covered-bonds:8:4",
+      "title": "Best Practices for Residential Covered Bonds (U.S. Department of the Treasury)",
+      "locator": "pp. 8–9",
+      "url": "https://home.treasury.gov/system/files/2011/USCoveredBondBestPractices.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "fed-cmbs-cohen-2011:17:19",
+      "title": "Rating Shopping in the CMBS Market (A. Cohen, 2011 conference paper hosted by the Federal Reserve Board)",
+      "locator": "p. 17",
+      "url": "http://www.federalreserve.gov/events/conferences/2011/rsr/papers/Cohen.pdf#page=17",
+      "license": "Author copyright; conference paper hosted on federalreserve.gov, not an agency publication (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Commercial Mortgage-Backed Securities: Property-Driven Credit and Balloon Risk",
+      "summary": "CMBS are bonds backed by loans on income-producing commercial property, not homes. Their risk comes less from borrowers prepaying and more from whether each property can cover its debt and refinance a large final payment, so this LOS matters for judging the credit risk of these bonds.",
+      "sections": [
+        {
+          "heading": "What backs a CMBS",
+          "body_markdown": "A **commercial mortgage-backed security (CMBS)** is a bond whose payments come from a pool of loans on commercial real estate: apartment buildings (multifamily), offices, shops (retail), warehouses (industrial), hotels and similar properties. The pool is usually made up of a **relatively small number of large loans**, so a single bad loan can matter much more than in a pool of thousands of home mortgages.\n\nThe loans are typically **non-recourse**. If the borrower defaults, the lender can seize and sell the property, but it **cannot go after the borrower's other assets**. Think of it like a pawn shop: the item you pawned is the only thing the shop can keep. So the investor's real protection is the property itself: how much income it produces and what it is worth."
+        },
+        {
+          "heading": "Judging credit: DSCR and LTV",
+          "body_markdown": "Because the property is the only source of repayment, analysts focus on two ratios.\n\n- **Net operating income (NOI)** is the property's rental income minus operating expenses, before debt payments and taxes on the owner.\n- **Debt service coverage ratio (DSCR)** = NOI ÷ the loan's scheduled payments (interest plus principal). A higher DSCR means more cushion. A DSCR below 1 means the property does not earn enough to pay the loan.\n- **Loan-to-value ratio (LTV)** = loan balance ÷ property value. A lower LTV means the owner has more equity and the lender is better protected if the property is sold.\n\nProperty value is often estimated as NOI ÷ the **capitalization (cap) rate**, a market rate of return for that kind of property. So if NOI falls, DSCR falls *and* value falls, which pushes LTV up. Weak DSCR points to trouble paying during the loan's life; weak LTV points to trouble refinancing and to bigger losses after default."
+        },
+        {
+          "heading": "Call protection: why prepayment risk is low",
+          "body_markdown": "In residential pools, borrowers can usually repay early with little cost. Commercial loans are different, because lenders write **call protection** into them. This is protection against early repayment, and it works at two levels.\n\n**Loan-level call protection** (written into each loan):\n- **Prepayment lockout**: no early repayment allowed for a set period.\n- **Defeasance**: the borrower buys Treasury securities whose payments replicate the loan's remaining payments and puts them into the trust, so investors still receive the scheduled cash flows.\n- **Prepayment penalty points / yield maintenance charge**: a fee set to compensate investors for the interest they lose by being repaid early.\n\n**Structure-level protection** comes from the bond structure itself: tranches are paid in order of seniority and losses hit the bottom first. The most junior tranche (the **B piece**) is often bought by specialist firms, which may also act as **special servicer**, the party that handles loans in trouble (workout or liquidation)."
+        },
+        {
+          "heading": "The main risks: balloon, extension and credit",
+          "body_markdown": "Many commercial loans are scheduled as if they would be repaid over about 30 years, but the loan actually **matures in roughly 5–10 years**. At maturity a large unpaid balance, the **balloon payment**, comes due. Interest-only loans make the balloon even larger because nothing was repaid along the way.\n\n- **Balloon risk (refinancing risk)**: the borrower may be unable to refinance the lump sum, usually because the LTV is too high or rates or property values have moved against them. Then the loan is **extended or goes into default**.\n- **Extension risk**: late repayment lengthens the bond's life beyond what investors expected. This is the opposite problem to prepayment.\n- **Credit (default) risk**: the dominant risk, driven by DSCR (term default: payments can't be met during the loan) and LTV (balloon default and size of loss).\n- **Concentration risk**: few, large loans mean property type and location diversification matter.\n\nRating agencies re-underwrite the loans with their own more conservative NOI and values before deciding how much subordination each tranche needs."
+        }
+      ],
+      "worked_example": {
+        "problem": "A commercial loan of $10,000,000 has a fixed stated rate of 6% a year, monthly payments, and a 30-year amortization schedule, with a balloon due after 10 years. The property's stabilized NOI is $1,080,000 a year and the market cap rate is 7%. Find the annual debt service, the DSCR, and the LTV (value estimated as NOI ÷ cap rate).",
+        "steps": [
+          "Monthly rate = 6% ÷ 12 = 0.5%; number of payments for amortization = 30 × 12 = 360.",
+          "BA II Plus: press 2ND, CLR TVM. Enter 360 N, 0.5 I/Y, 10000000 PV, 0 FV, then CPT PMT. The display shows about −59,955.05, so the monthly payment is $59,955.05.",
+          "Annual debt service = 12 × 59,955.05 ≈ $719,461.",
+          "DSCR = NOI ÷ debt service = 1,080,000 ÷ 719,461 ≈ 1.50.",
+          "Estimated value = NOI ÷ cap rate = 1,080,000 ÷ 0.07 ≈ $15,428,571.",
+          "LTV = loan ÷ value = 10,000,000 ÷ 15,428,571 ≈ 0.648, or 64.8%."
+        ],
+        "answer": "Annual debt service ≈ $719,461; DSCR ≈ 1.50; LTV ≈ 64.8%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Debt service coverage ratio",
+          "latex": "\\text{DSCR}=\\frac{\\text{NOI}}{\\text{Debt service}}",
+          "where": "NOI = net operating income per year; Debt service = scheduled interest plus principal payments per year on the loan."
+        },
+        {
+          "name": "Loan-to-value ratio",
+          "latex": "\\text{LTV}=\\frac{\\text{Loan balance}}{\\text{Property value}}",
+          "where": "Loan balance = outstanding principal of the loan; Property value = appraised or estimated market value of the property."
+        },
+        {
+          "name": "Direct capitalization value",
+          "latex": "\\text{Value}=\\frac{\\text{NOI}}{\\text{Cap rate}}",
+          "where": "NOI = stabilized net operating income; Cap rate = market rate of return required for that type of property, as a decimal."
+        }
+      ],
+      "exam_traps": [
+        "Treating CMBS prepayment risk like residential MBS risk. Commercial loans have lockouts, defeasance or penalty charges, so prepayment risk is low; the bigger timing risk is extension.",
+        "Reading balloon risk as early repayment. It is the risk that the lump sum at maturity cannot be refinanced, which delays repayment.",
+        "Forgetting non-recourse. The lender looks to the property, so DSCR and LTV matter far more than the borrower's personal credit.",
+        "Mixing up the ratio directions: a higher DSCR is safer, but a higher LTV is riskier.",
+        "Forgetting that lower NOI hurts both ratios at once: it lowers DSCR and, through a lower value, raises LTV."
+      ],
+      "builds_on": [
+        "Time value of money and loan amortization",
+        "Credit risk and credit ratings",
+        "Subordination and tranching in securitizations"
+      ],
+      "leads_to": [
+        "Residential MBS and prepayment risk (contrast)",
+        "Structured finance and credit enhancement",
+        "Real estate valuation by capitalization rate"
+      ],
+      "cited_chunk_ids": [
+        "fed-cmbs-cohen-2011:3:3",
+        "fed-cmbs-cohen-2011:4:4",
+        "fed-cmbs-cohen-2011:6:6",
+        "fed-cmbs-cohen-2011:14:16",
+        "occ-commercial-real-estate-lending:45:65",
+        "fed-risk-retention-2010:48:47"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Why is prepayment risk generally lower for CMBS than for residential mortgage-backed securities?",
+        "options": [
+          {
+            "text": "Commercial loans amortize fully over their lives, so no balance remains that could be repaid early.",
+            "value": null,
+            "explanation": "Incorrect. This mistakes the loan structure: many commercial loans are balloon loans that still owe a large balance at maturity."
+          },
+          {
+            "text": "Commercial borrowers are legally barred from repaying any loan before its scheduled maturity date.",
+            "value": null,
+            "explanation": "Incorrect. This is too absolute: early repayment is allowed but made costly or restricted, not prohibited outright."
+          },
+          {
+            "text": "Loan terms often include lockouts, defeasance or penalty charges that make early repayment restricted or costly.",
+            "value": null,
+            "explanation": "Correct. Loan-level call protection discourages early repayment, so cash flows are more predictable than in residential pools."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3",
+          "fed-cmbs-cohen-2011:4:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Commercial mortgage loans in a CMBS pool are typically non-recourse. What is the main consequence for investors' credit analysis?",
+        "options": [
+          {
+            "text": "The focus is on the property's income and value, meaning cash flow coverage and leverage.",
+            "value": null,
+            "explanation": "Correct. With non-recourse loans the property is the only source of repayment, so DSCR and LTV drive the analysis."
+          },
+          {
+            "text": "Investors can claim the borrower's other assets after default, so the property matters little.",
+            "value": null,
+            "explanation": "Incorrect. This reverses the meaning of non-recourse: the lender cannot pursue the borrower's other assets."
+          },
+          {
+            "text": "The focus is on the borrower's personal credit score, as in most residential mortgage pools.",
+            "value": null,
+            "explanation": "Incorrect. This carries over the residential approach; for non-recourse commercial loans the borrower's personal credit is secondary."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3",
+          "occ-commercial-real-estate-lending:45:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A commercial property's NOI falls by 20%. The loan balance, the loan's scheduled payments and the market cap rate are all unchanged, and property value is estimated as NOI ÷ cap rate. What happens to the loan's DSCR and LTV?",
+        "options": [
+          {
+            "text": "DSCR falls and LTV is unchanged, because the loan balance did not change.",
+            "value": null,
+            "explanation": "Incorrect. This ignores that value is based on NOI: lower NOI lowers the estimated value, which changes LTV."
+          },
+          {
+            "text": "DSCR falls and LTV rises, because lower NOI reduces coverage and also reduces estimated value.",
+            "value": null,
+            "explanation": "Correct. DSCR = NOI ÷ unchanged debt service falls; value = NOI ÷ cap rate falls, so loan ÷ value rises."
+          },
+          {
+            "text": "DSCR is unchanged and LTV rises, because the loan's scheduled payments did not change.",
+            "value": null,
+            "explanation": "Incorrect. This confuses fixed debt service with a fixed ratio: the numerator of DSCR (NOI) fell, so the ratio falls."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:14:16",
+          "fed-cmbs-cohen-2011:6:6",
+          "occ-commercial-real-estate-lending:45:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CMBS contains a loan with a 30-year amortization schedule and a balloon payment due in 10 years. What is balloon risk?",
+        "options": [
+          {
+            "text": "The borrower repays the loan far ahead of schedule, shortening the CMBS's expected life.",
+            "value": null,
+            "explanation": "Incorrect. This describes prepayment risk, not balloon risk."
+          },
+          {
+            "text": "The loan's coupon resets higher at maturity, so CMBS investors receive larger interest payments.",
+            "value": null,
+            "explanation": "Incorrect. The loans carry fixed rates; balloon risk concerns repayment of principal, not a coupon reset."
+          },
+          {
+            "text": "The borrower may be unable to refinance the lump sum at maturity, so repayment is delayed and the life extends.",
+            "value": null,
+            "explanation": "Correct. Balloon (refinancing) risk can lead to extension or default, often because a high LTV blocks refinancing."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:14:16"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes the most junior tranche (the B piece) in a typical CMBS deal?",
+        "options": [
+          {
+            "text": "Specialist firms, often special servicers, usually buy it, and it absorbs losses before other tranches.",
+            "value": null,
+            "explanation": "Correct. B-piece buyers focus on loan credit risk, may do due diligence, and take first losses."
+          },
+          {
+            "text": "The seller of the loans usually keeps it, and it is the last tranche to absorb any losses.",
+            "value": null,
+            "explanation": "Incorrect. Sellers normally do not retain an interest, and the junior tranche takes losses first, not last."
+          },
+          {
+            "text": "It receives principal ahead of senior tranches as compensation for its higher credit risk.",
+            "value": null,
+            "explanation": "Incorrect. This confuses compensation with priority: higher yield pays for risk, but principal is paid in order of seniority."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-risk-retention-2010:48:47",
+          "fed-cmbs-cohen-2011:3:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A commercial borrower wants to repay a CMBS loan early and uses defeasance. What happens?",
+        "options": [
+          {
+            "text": "The borrower pays a fee, and investors receive the remaining principal immediately at par.",
+            "value": null,
+            "explanation": "Incorrect. This describes a plain prepayment with a penalty; under defeasance investors do not receive early principal."
+          },
+          {
+            "text": "The borrower places Treasuries in the trust whose cash flows replicate the loan's scheduled payments.",
+            "value": null,
+            "explanation": "Correct. Defeasance replaces the loan's cash flows with Treasury cash flows, so investors keep the scheduled payments and prepayment risk is avoided."
+          },
+          {
+            "text": "The borrower substitutes a different property as collateral, and the loan continues unchanged.",
+            "value": null,
+            "explanation": "Incorrect. This confuses defeasance with collateral substitution; the Treasuries replace the loan's cash flows, not the property."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:4:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A $10,000,000 commercial loan in a CMBS pool has a fixed stated annual rate of 6%, with level monthly payments (end of month) based on a 30-year amortization schedule. The balloon is due earlier, but ignore it here. What is the monthly payment, rounded to the nearest dollar?",
+        "options": [
+          {
+            "text": "$59,955",
+            "value": 59955,
+            "explanation": "Correct. With 0.5% a month, n = 360 and PV = 10,000,000, the level payment is about $59,955."
+          },
+          {
+            "text": "$50,000",
+            "value": 50000,
+            "explanation": "Incorrect. This is the interest-only payment (10,000,000 × 0.06 ÷ 12), which ignores the principal amortization."
+          },
+          {
+            "text": "$60,541",
+            "value": 60541,
+            "explanation": "Incorrect. This computes the annual payment using 6% annual compounding for 30 years and divides by 12, instead of using monthly compounding."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.005,\"n\":360,\"pv\":10000000}"
+        },
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A $10,000,000 commercial loan has a fixed stated annual rate of 6% and level monthly payments of $59,955.05 (end of month) based on a 30-year amortization schedule. The balloon payment is due immediately after the 120th payment. Using monthly compounding, what is the balloon payment (remaining loan balance), rounded to the nearest $1,000?",
+        "options": [
+          {
+            "text": "$10,000,000",
+            "value": 10000000,
+            "explanation": "Incorrect. This assumes no principal is ever repaid, as in an interest-only loan, even though the payments here amortize the loan."
+          },
+          {
+            "text": "$8,369,000",
+            "value": 8369000,
+            "explanation": "Correct. The balance is the future value of the loan after 120 payments at 0.5% per month, about $8.369 million."
+          },
+          {
+            "text": "$6,667,000",
+            "value": 6667000,
+            "explanation": "Incorrect. This assumes straight-line paydown (10 of 30 years repaid), ignoring that early payments are mostly interest."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.005,\"n\":120,\"pmt\":-59955.05,\"pv\":10000000}"
+        },
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does 'non-recourse' mean for a CMBS loan, and why does it matter?",
+        "back": "On default the lender can take only the property, not the borrower's other assets. So credit analysis centers on the property's cash flow and value.",
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Define DSCR and LTV for a commercial loan. Which direction is safer?",
+        "back": "DSCR = NOI ÷ debt service (higher is safer). LTV = loan balance ÷ property value (lower is safer).",
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:14:16",
+          "fed-cmbs-cohen-2011:6:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Name the forms of loan-level call protection in commercial mortgages.",
+        "back": "Prepayment lockout, defeasance (borrower funds Treasuries that replicate the loan's payments), and prepayment penalty points or yield maintenance charges.",
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:3:3",
+          "fed-cmbs-cohen-2011:4:4"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is balloon risk in CMBS, and what does it lead to?",
+        "back": "The risk that the borrower cannot refinance the large lump sum due at maturity. It leads to delayed repayment (extension risk) or default.",
+        "cited_chunk_ids": [
+          "fed-cmbs-cohen-2011:14:16"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:52:52.596Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-19-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1242,
+      "outputTokens": 1035,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.012951,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:53:09.577Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-19-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14591,
+      "outputTokens": 2428,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0536312,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0665822
+}

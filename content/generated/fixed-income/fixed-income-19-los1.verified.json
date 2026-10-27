@@ -1,0 +1,776 @@
+{
+  "losId": "fixed-income-19-los1",
+  "losText": "define prepayment risk and describe time tranching structures in securitizations and their purpose",
+  "moduleId": "fixed-income-19",
+  "moduleTitle": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:52:09.716Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p1:66:110",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 66–67",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "fed-trading-4000-p1:58:95",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 58–59",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=58",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-trading-4000-p1:59:96",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 59–60",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=59",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-trading-4000-p1:58:94",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 58",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=58",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "slcg-cmo-primer:5:4",
+      "title": "A CMO Primer: The Law of Conservation of Structured Securities Risk (C. McCann, Securities Litigation and Consulting Group)",
+      "locator": "p. 5",
+      "url": "https://www.slcg.com/files/research-papers/A_Collateralized_Mortgage_Obligation_Primer_final.pdf#page=5",
+      "license": "Research paper on slcg.com; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "frbsf-mbs-letter-1996:1:1",
+      "title": "Innovations and Recent Developments in Mortgage-Backed Securities (FRBSF Economic Letter, 1996)",
+      "locator": "pp. 1–2",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/frbsf/frbsf_let/frbsf_let_19960105.pdf#page=1",
+      "license": "Federal Reserve Bank of San Francisco publication (FRASER copy); no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p1:60:97",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 60",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=60",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "nyfed-tba-trading:5:10",
+      "title": "TBA Trading and Liquidity in the Agency MBS Market (Vickery & Wright, FRBNY Economic Policy Review)",
+      "locator": "p. 5",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2013/1212vick.pdf#page=5",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:61:99",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 61–62",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=61",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:60:98",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 60–61",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=60",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:65:108",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 65–66",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=65",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:62:102",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 62–63",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=62",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Prepayment Risk and Time Tranching in Securitizations",
+      "summary": "Mortgage borrowers can repay early, so investors in mortgage securities never know exactly when they will get their principal back. Time tranching slices the pooled cash flows into classes that are paid in order, so investors can choose the maturity profile that suits them.",
+      "sections": [
+        {
+          "heading": "Why early repayment is a problem for the lender",
+          "body_markdown": "A **mortgage** is a loan secured by a home, and in most markets the borrower may repay all or part of it ahead of schedule. Any principal paid earlier than the contractual schedule is called a **prepayment**.\n\nThink of lending a friend money for 10 years at a good rate. If your friend can hand the cash back whenever they like, you cannot plan around the 10 years. Mortgage investors are in this position.\n\n**Prepayment risk** is the uncertainty about *when* principal will come back, because borrowers hold an early-repayment option. That uncertainty makes the security's life, and therefore its duration, uncertain too. Borrowers mainly prepay when mortgage rates fall and they can refinance cheaply. Other reasons are job moves, home sales, divorce or default, none of which depend on interest rates."
+        },
+        {
+          "heading": "Two faces of prepayment risk",
+          "body_markdown": "The risk shows up in two directions.\n\n- **Contraction risk**: market rates fall, borrowers refinance, and principal returns *faster* than expected. The investor must reinvest at the new, lower rates, and the security's effective life shortens. Price gains are also capped because borrowers can repay at par.\n- **Extension risk**: market rates rise, borrowers hold on to their cheap loans, and principal returns *slower* than expected. The investor is stuck with a below-market coupon for longer, and the effective life lengthens.\n\nBoth directions hurt the holder. When rates fall the investor loses the high coupon early. When rates rise the investor keeps the low coupon too long. Mortgage securities therefore behave as if the investor had sold the borrower a call option."
+        },
+        {
+          "heading": "From pass-through to tranches",
+          "body_markdown": "In a plain **pass-through** security, the pool's payments, including prepayments, are forwarded to all holders **pro rata**. Every holder gets the same slice of every payment, so everyone has the same prepayment risk as the pool.\n\nSecuritizers can instead divide the pool's cash flows into several classes called **tranches** (French for \"slice\"). A **time tranching** structure sets rules on *when* each class gets principal, so that the collateral's prepayment risk is redistributed among classes.\n\nIn the simplest design, a **sequential-pay** structure, all principal collected (scheduled plus prepaid) goes first to Tranche A until its balance is zero. Then it goes to Tranche B, then to C, and so on. Interest is paid on each tranche's outstanding balance. Think of a row of buckets under one tap: the first bucket fills completely before water reaches the second."
+        },
+        {
+          "heading": "Purpose, and what tranching cannot do",
+          "body_markdown": "**Purpose.** Sequential tranching turns one pool with a long and uncertain life into short, intermediate and long classes with more targeted maturities. This works like a small yield curve of mortgage investments. A bank funding itself with short-term deposits can buy the early tranche. A pension fund with long liabilities can buy a late one. Appealing to different buyers is the main reason for slicing the pool.\n\n**Limit.** Tranching *redistributes* prepayment risk and does not remove it. The pool as a whole still prepays at whatever speed borrowers choose. If prepayments speed up or slow down, every tranche's timing changes, and the **longer-dated tranches' average lives move the most**. Average life here means the weighted-average number of years each principal dollar stays outstanding. Other structures that shield some classes by loading risk onto others, such as planned amortization classes, belong to the next learning objective."
+        }
+      ],
+      "worked_example": {
+        "problem": "A sequential-pay deal is backed by a $300 million pool and has three tranches: A ($120 million), B ($100 million) and C ($80 million). Total principal received from the pool (scheduled plus prepaid) is $90 million in Year 1 and $150 million in Year 2. How is the principal allocated each year, and what is outstanding after Year 2?",
+        "steps": [
+          "Year 1: all $90 million goes to Tranche A, because A must be fully repaid first. A's balance falls from $120 million to $30 million. B and C receive no principal.",
+          "Year 2: the $150 million is applied in order. First $30 million retires A completely, leaving $120 million.",
+          "Next, B needs $100 million to be retired. It receives that, leaving $20 million.",
+          "The final $20 million goes to C, so C's balance falls from $80 million to $60 million.",
+          "Check: $90 + $150 = $240 million of principal paid, and $300 − $240 = $60 million is still outstanding, all in C.",
+          "Interpretation: if prepayments had been slower, C (and possibly B) would stay outstanding longer. This is extension risk, and it is felt most by the later tranches."
+        ],
+        "answer": "Year 1: A receives $90m. Year 2: A receives $30m, B $100m, C $20m. After Year 2, only Tranche C remains, with a $60 million balance.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Weighted average life (average life) of a tranche",
+          "latex": "\\text{WAL}=\\frac{\\sum_{t} t\\times P_t}{\\sum_{t} P_t}",
+          "where": "WAL is the average life in years; t is the time (in years) at which a principal payment is received; P_t is the principal received by the tranche at time t; the denominator is the tranche's total principal."
+        }
+      ],
+      "exam_traps": [
+        "Treating prepayment risk as default risk. Prepayment risk is about the timing of principal; credit risk is about whether the borrower pays at all. Agency-guaranteed pass-throughs still carry prepayment risk.",
+        "Mixing up contraction and extension. Falling rates lead to faster prepayments and contraction; rising rates lead to slower prepayments and extension.",
+        "Believing tranching eliminates prepayment risk. The pool's total prepayment risk is unchanged; it is only reallocated among classes.",
+        "Assuming principal is shared pro rata in a sequential-pay deal. Pro rata sharing is the pass-through feature; sequential tranches are paid strictly in order.",
+        "Assuming the shortest tranche is completely safe. Its timing still changes with prepayment speed, although in absolute terms the longer tranches move more."
+      ],
+      "builds_on": [
+        "Fixed-rate level-payment mortgages",
+        "Reinvestment risk",
+        "Average life and duration"
+      ],
+      "leads_to": [
+        "Mortgage pass-through securities",
+        "Collateralized mortgage obligations (PAC and support tranches)",
+        "Negative convexity",
+        "Commercial MBS call and extension protections"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p1:65:108",
+        "frbsf-mbs-letter-1996:1:1",
+        "fed-trading-4000-p1:58:94",
+        "fed-trading-4000-p1:58:95",
+        "fed-trading-4000-p1:59:96",
+        "slcg-cmo-primer:5:4"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes prepayment risk for an investor in a mortgage-backed security?",
+        "options": [
+          {
+            "text": "The risk that borrowers stop making payments, so principal is never fully returned",
+            "value": null,
+            "explanation": "This describes credit (default) risk, not prepayment risk. Prepayment risk concerns timing even when every borrower pays in full."
+          },
+          {
+            "text": "The uncertainty about when principal is returned, because borrowers may repay early",
+            "value": null,
+            "explanation": "Correct. Borrowers hold an early-repayment option, so the timing of principal, and hence the security's life, is uncertain."
+          },
+          {
+            "text": "The risk that the coupon is reset below market because the index rate falls",
+            "value": null,
+            "explanation": "This describes floating-rate coupon reset risk. It is not about early repayment of principal."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:65:108",
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A holder of a mortgage pass-through security experiences extension risk. Which scenario most likely caused it?",
+        "options": [
+          {
+            "text": "Market mortgage rates fall and many borrowers refinance",
+            "value": null,
+            "explanation": "This produces faster prepayments, which is contraction risk, not extension risk."
+          },
+          {
+            "text": "Prepayments occur at exactly the speed the investor assumed",
+            "value": null,
+            "explanation": "If actual speeds equal expectations there is no timing surprise, so neither contraction nor extension occurs."
+          },
+          {
+            "text": "Market mortgage rates rise and borrowers keep their cheaper loans",
+            "value": null,
+            "explanation": "Correct. Slower-than-expected prepayments lengthen the security's life, leaving the investor with a below-market coupon for longer."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1",
+          "fed-trading-4000-p1:65:108"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In an ordinary mortgage pass-through security (no tranching), how are prepayments allocated among the security holders?",
+        "options": [
+          {
+            "text": "Pro rata, so every holder shares the pool's prepayment risk equally",
+            "value": null,
+            "explanation": "Correct. Pass-throughs forward the pool's cash flows, prepayments included, proportionally to all holders, so risk is not redistributed."
+          },
+          {
+            "text": "To the holder who bought first, until that holder is fully repaid",
+            "value": null,
+            "explanation": "This confuses pass-throughs with a sequential-pay structure, where classes are paid in a set order. Purchase date does not matter."
+          },
+          {
+            "text": "To the holders with the lowest credit risk before anyone else",
+            "value": null,
+            "explanation": "Pass-throughs have no priority ranking for prepayments. Confuses prepayment allocation with credit seniority."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1",
+          "fed-trading-4000-p1:58:94"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A securitization has three sequential-pay tranches, A, B and C, listed in order of priority. All principal collected from the pool (scheduled and prepaid) is applied according to which rule?",
+        "options": [
+          {
+            "text": "Shared among A, B and C in proportion to their balances each period",
+            "value": null,
+            "explanation": "Pro rata sharing is the pass-through approach. Sequential-pay deals apply principal by priority."
+          },
+          {
+            "text": "Paid entirely to A until A is retired, then to B, then to C",
+            "value": null,
+            "explanation": "Correct. Each tranche must be paid off before the next one receives any principal."
+          },
+          {
+            "text": "Paid to C first, since it has the longest maturity and needs most time",
+            "value": null,
+            "explanation": "This reverses the order. The earliest-priority tranche gets principal first, which is what makes it the short maturity class."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "slcg-cmo-primer:5:4",
+          "fed-trading-4000-p1:58:95"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A sequential-pay deal has Tranche A ($50 million), Tranche B ($40 million) and Tranche C ($30 million). A has been paid down to a zero balance by earlier principal. This month the pool delivers $65 million of principal (scheduled plus prepaid). Ignoring interest, how much principal does Tranche B receive this month?",
+        "options": [
+          {
+            "text": "$40.0 million",
+            "value": null,
+            "explanation": "Correct only if B's original $40m is untouched: A is stated as already retired, so B's first $40m is paid in full and the remaining $25m goes to C."
+          },
+          {
+            "text": "$32.5 million",
+            "value": null,
+            "explanation": "This splits the $65m equally between B and C, ignoring the priority rule."
+          },
+          {
+            "text": "$21.7 million",
+            "value": null,
+            "explanation": "This allocates $65m pro rata by balance (65 × 40/120), which is a pass-through method, not sequential pay."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "slcg-cmo-primer:5:4",
+          "fed-trading-4000-p1:58:95"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "What is the main purpose of creating time tranches (such as sequential-pay classes) from a pool of mortgages?",
+        "options": [
+          {
+            "text": "To eliminate the prepayment risk of the underlying mortgage pool",
+            "value": null,
+            "explanation": "Tranching cannot change how borrowers behave. The pool's total prepayment risk remains and is only redistributed among classes."
+          },
+          {
+            "text": "To raise the total cash flow produced by the pool of mortgages",
+            "value": null,
+            "explanation": "Tranching divides the same cash flows; it does not create additional cash."
+          },
+          {
+            "text": "To offer classes with different expected maturities to suit different investors",
+            "value": null,
+            "explanation": "Correct. Short, intermediate and long tranches let investors with different horizons choose a suitable maturity profile."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:58:95",
+          "fed-trading-4000-p1:58:94",
+          "slcg-cmo-primer:5:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a four-tranche sequential-pay structure, prepayments unexpectedly double because market rates fall. Which outcome is most consistent with how the structure behaves?",
+        "options": [
+          {
+            "text": "Only the first tranche is affected, and the later tranches keep their original average lives",
+            "value": null,
+            "explanation": "All tranches are affected because every dollar of prepaid principal retires the queue sooner. The later tranches are not insulated."
+          },
+          {
+            "text": "Every tranche's average life shortens, and the longest tranche's average life changes by the most",
+            "value": null,
+            "explanation": "Correct. Faster prepayments pull all payoff dates forward, and the longest tranche moves most in absolute terms (for example, from 280 to 180 months compared with 35 to 25 months for the first tranche)."
+          },
+          {
+            "text": "Every tranche's average life lengthens, because faster prepayments delay later cash flows",
+            "value": null,
+            "explanation": "This reverses the direction. Faster prepayments shorten average lives (contraction); slower prepayments lengthen them (extension)."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:59:96",
+          "fed-trading-4000-p1:58:95"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is prepayment risk in mortgage-backed securities?",
+        "back": "Uncertainty about the timing of principal repayment, because borrowers can repay mortgages early. It makes the security's life and duration uncertain.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:65:108",
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Contraction risk vs. extension risk: what triggers each?",
+        "back": "Contraction: rates fall, prepayments speed up, life shortens and cash is reinvested at lower rates. Extension: rates rise, prepayments slow down, life lengthens and the investor holds a below-market coupon longer.",
+        "cited_chunk_ids": [
+          "frbsf-mbs-letter-1996:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does a sequential-pay tranche structure allocate principal?",
+        "back": "All principal (scheduled and prepaid) goes to the first tranche until it is fully retired, then to the second, and so on. Interest is paid on each tranche's outstanding balance.",
+        "cited_chunk_ids": [
+          "slcg-cmo-primer:5:4",
+          "fed-trading-4000-p1:58:95"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why do issuers split mortgage pools into time tranches, and what can tranching not do?",
+        "back": "To create classes with different expected maturities for investors with different horizons. It redistributes prepayment risk among tranches but does not remove the pool's total prepayment risk.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:58:94",
+          "fed-trading-4000-p1:58:95"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:52:01.302Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-19-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 926,
+      "outputTokens": 736,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009329,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:52:09.715Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-19-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14362,
+      "outputTokens": 1256,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041453199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0507822
+}

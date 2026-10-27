@@ -1,0 +1,847 @@
+{
+  "losId": "fixed-income-19-los2",
+  "losText": "describe fundamental features of residential mortgage loans that are securitized",
+  "moduleId": "fixed-income-19",
+  "moduleTitle": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:52:26.955Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-residential-real-estate-lending:68:101",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "p. 68",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=68",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-risk-retention-2010:95:96",
+      "title": "Report to the Congress on Risk Retention (Federal Reserve Board, Oct. 2010; ABS, CMBS, CLO, credit card, auto and student loan securitization)",
+      "locator": "p. 95",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.pdf#page=95",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-mortgage-banking:27:32",
+      "title": "Comptroller's Handbook: Mortgage Banking (OCC)",
+      "locator": "p. 27",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/mortgage-banking/pub-ch-mortgage-banking.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-securitization:22:30",
+      "title": "Understanding the Securitization of Subprime Mortgage Credit (FRBNY Staff Report 318)",
+      "locator": "pp. 22–23",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr318.pdf#page=22",
+      "license": "© Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:82:73",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 82–83",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=82",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00054:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§8.3 Loan Amortization — Calculating Loan Payments Using Simple Amortization",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/8-3-loan-amortization",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-mortgage-banking:27:33",
+      "title": "Comptroller's Handbook: Mortgage Banking (OCC)",
+      "locator": "pp. 27–28",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/mortgage-banking/pub-ch-mortgage-banking.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-residential-real-estate-lending:7:8",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "pp. 7–8",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=7",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-residential-real-estate-lending:68:102",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "pp. 68–69",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=68",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-residential-real-estate-lending:84:126",
+      "title": "Comptroller's Handbook: Residential Real Estate Lending (OCC)",
+      "locator": "pp. 84–85",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/residential-real-estate-lending/pub-ch-residential-real-estate.pdf#page=84",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-interest-rate-risk:40:51",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 40–41",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=40",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-mortgage-banking:99:131",
+      "title": "Comptroller's Handbook: Mortgage Banking (OCC)",
+      "locator": "pp. 99–100",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/mortgage-banking/pub-ch-mortgage-banking.pdf#page=99",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Anatomy of a Securitized Home Loan",
+      "summary": "A residential mortgage is a loan to a home buyer that is backed by the house itself. How the loan's term, repayment schedule, interest rate and borrower protections work determines the cash flows that mortgage-backed security investors receive.",
+      "sections": [
+        {
+          "heading": "The basic deal: borrower, lender and collateral",
+          "body_markdown": "A **mortgage loan** is a loan secured by real estate. The **collateral** is the property that backs the loan. The lender takes a **lien**, a legal claim on that property. A **first-lien** loan is paid first from the sale proceeds, and a **second-lien** loan is paid only after the first.\n\nIf the borrower stops paying, the lender can **foreclose**: take and sell the property to recover what it is owed. Two ideas describe how safe the lender is:\n\n- **Loan-to-value (LTV)** = loan amount ÷ property value. A low LTV means the borrower has a big equity cushion and less reason to walk away. A high LTV is riskier for the lender.\n- **Recourse vs non-recourse.** In a *recourse* loan the lender can go after the borrower's other assets if the sale proceeds fall short. In a *non-recourse* loan the lender's claim is limited to the collateral, so any shortfall is the lender's (and ultimately the investor's) loss. Which applies varies by jurisdiction. Many US residential loans are effectively non-recourse.\n\nThink of the house as a security deposit that you cannot take back until the loan is repaid."
+        },
+        {
+          "heading": "How the balance gets paid down",
+          "body_markdown": "Most home loans have a term of 15, 20 or 30 years, and sometimes 40. The **amortization** pattern says how principal is repaid:\n\n- **Fully amortizing:** every payment is the same, and the balance reaches zero at maturity. Early payments are mostly interest and later payments are mostly principal, because the balance shrinks slowly at first and then faster.\n- **Partially amortizing (balloon):** payments are sized as if the loan were longer, for example a 30-year schedule, but the loan matures sooner, for example in 7 years. A large **balloon payment** of the remaining balance is due at maturity.\n- **Interest-only (IO):** for a set period, such as five years, the borrower pays only interest and the balance does not fall. After that, payments rise because the same principal must now be repaid over a shorter remaining term. This jump is called **payment shock**.\n- **Negative amortization:** the payment is less than the interest due, so the unpaid interest is added to the balance and the loan grows.\n\nFor a fully amortizing loan the level payment comes from the annuity formula, using the monthly rate $r$ (annual stated rate ÷ 12) and the number of monthly payments $n$."
+        },
+        {
+          "heading": "The interest rate: fixed, adjustable or hybrid",
+          "body_markdown": "With a **fixed-rate mortgage** the rate and the payment stay the same for the whole term.\n\nWith an **adjustable-rate mortgage (ARM)** the rate resets periodically. The new **fully indexed rate** is a published **index** rate plus a fixed **margin**. Limits protect the borrower:\n\n- **Periodic cap:** the most the rate can rise at one reset.\n- **Lifetime cap:** the highest rate allowed over the life of the loan.\n- **Floor:** the lowest rate allowed.\n\nA **hybrid ARM** is fixed for an initial period and then adjusts. A 5/1 ARM is fixed for 5 years and then resets every year. Some subprime hybrids, such as 2/28 loans, start with a low \"teaser\" rate that jumps at the first reset, which is another source of payment shock.\n\nThe lender-side arithmetic is: new rate = the smaller of (index + margin) and (old rate + cap), and never below the floor."
+        },
+        {
+          "heading": "Prepayment and conformity: why securitizers care",
+          "body_markdown": "Borrowers can usually repay some or all of the loan early, for example when they sell the house or refinance. A **prepayment penalty** is a fee for doing so within a set window, often the first few years. It makes early payoff less attractive and so makes the loan's cash flows more predictable. Prepayment risk itself is covered in a separate topic.\n\nLoans are also sorted by **conformity**. A **conforming** loan meets the size and underwriting limits of the government-sponsored agencies, so the agencies can buy or guarantee it. A **non-conforming** loan falls outside those limits (for example, it is too large or has weaker credit features) and is securitized privately.\n\nRegulators also single out \"qualified\" mortgages as safer. These generally rule out features such as negative amortization and interest-only payments, and limit balloon payments and prepayment penalties. That shows which features are seen as raising default risk."
+        }
+      ],
+      "worked_example": {
+        "problem": "A borrower takes a USD 500,000 fully amortizing, fixed-rate mortgage with a 30-year term and a 6.00% stated annual rate, with monthly payments made at the end of each month. Find the level monthly payment, and show how much of the first payment is interest and how much reduces principal.",
+        "steps": [
+          "Convert to monthly terms: r = 6.00% ÷ 12 = 0.5% per month, and n = 30 × 12 = 360 payments.",
+          "Use the level-payment (annuity) formula: PMT = PV × r ÷ [1 − (1 + r)^−n] = 500,000 × 0.005 ÷ (1 − 1.005^−360).",
+          "1.005^−360 ≈ 0.166042, so the denominator is about 0.833958 and PMT = 2,500 ÷ 0.833958 ≈ 2,997.75.",
+          "BA II Plus: press 2ND [P/Y] 12 ENTER, then 2ND [QUIT]. Then 2ND [CLR TVM], 360 [N], 6 [I/Y], 500000 [PV], 0 [FV], CPT [PMT]. The display shows −2,997.75, negative because it is cash paid out.",
+          "First month's interest = 500,000 × 0.005 = 2,500.00.",
+          "Principal repaid in month 1 = 2,997.75 − 2,500.00 = 497.75, so the balance after payment 1 is about 499,502.25. Early payments are mostly interest."
+        ],
+        "answer": "The level monthly payment is about USD 2,997.75. In the first payment, USD 2,500.00 is interest and USD 497.75 reduces principal.",
+        "answer_value": 2997.75,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.005,\"n\":360,\"pv\":500000}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Level payment on a fully amortizing loan",
+          "latex": "PMT = PV \\times \\frac{r}{1-(1+r)^{-n}}",
+          "where": "PMT = level payment per period; PV = original loan amount; r = periodic rate (annual stated rate ÷ 12 for monthly payments); n = total number of payments."
+        },
+        {
+          "name": "Interest portion of a payment",
+          "latex": "\\text{Interest}_t = B_{t-1} \\times r",
+          "where": "B_{t-1} = loan balance after the previous payment; r = periodic rate. Principal repaid = PMT − interest."
+        },
+        {
+          "name": "Loan-to-value ratio",
+          "latex": "LTV = \\frac{\\text{Loan amount}}{\\text{Property value}}",
+          "where": "Loan amount = outstanding mortgage balance; Property value = appraised (or purchase) value of the collateral."
+        },
+        {
+          "name": "Fully indexed ARM rate",
+          "latex": "\\text{Rate} = \\text{Index} + \\text{Margin}",
+          "where": "Index = published reference rate at the reset date; Margin = fixed spread set in the loan contract. The result is then limited by the periodic cap, lifetime cap and floor."
+        }
+      ],
+      "exam_traps": [
+        "Using the annual rate with the number of years (or the monthly rate with the wrong number of payments) when computing a monthly payment. Convert both rate and term to monthly.",
+        "Treating a balloon loan as fully amortizing. Its payments are sized on a longer schedule, but a lump sum is still due at maturity.",
+        "Reading LTV upside down (value ÷ loan) or confusing it with the down-payment percentage (1 − LTV).",
+        "Mixing up recourse and non-recourse. In a non-recourse loan the lender's recovery is limited to the collateral, so the investor bears any shortfall.",
+        "Forgetting the margin or the cap on an ARM reset: the new rate is index + margin, but limited by the periodic cap, lifetime cap and floor.",
+        "Assuming the payment stays flat after an interest-only period. It rises because principal must be repaid over the shorter remaining term."
+      ],
+      "builds_on": [
+        "Time value of money and annuities",
+        "Bond cash flows and amortization",
+        "Credit risk basics"
+      ],
+      "leads_to": [
+        "Prepayment risk and time tranching",
+        "Mortgage pass-through securities",
+        "Collateralized mortgage obligations"
+      ],
+      "cited_chunk_ids": [
+        "occ-mortgage-banking:27:32",
+        "occ-mortgage-banking:27:33",
+        "nyfed-securitization:22:30",
+        "flatworld-finance-banking-and-money:82:73",
+        "os:principles-finance-2e:m00054:1",
+        "fed-risk-retention-2010:95:96"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A borrower takes a fully amortizing, fixed-rate mortgage of USD 300,000 with a 30-year term and a 6.00% stated annual rate. Payments are monthly, made at the end of each month, with monthly compounding. What is the level monthly payment, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "USD 1,500.00",
+            "value": 1500,
+            "explanation": "Wrong: this is the interest-only payment (300,000 × 0.005). It ignores the principal that a fully amortizing loan must also repay."
+          },
+          {
+            "text": "USD 1,798.65",
+            "value": 1798.65,
+            "explanation": "Correct: r = 0.5% per month and n = 360, so PMT = 300,000 × 0.005 ÷ (1 − 1.005^−360) ≈ 1,798.65."
+          },
+          {
+            "text": "USD 833.33",
+            "value": 833.33,
+            "explanation": "Wrong: this is 300,000 ÷ 360, which repays principal evenly and leaves out all interest."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.005,\"n\":360,\"pv\":300000}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:82:73",
+          "os:principles-finance-2e:m00054:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement correctly describes a non-recourse residential mortgage loan?",
+        "options": [
+          {
+            "text": "The lender can claim only the foreclosed property, so any shortfall is the lender's loss",
+            "value": null,
+            "explanation": "Correct: in a non-recourse loan the lender's claim is limited to the collateral, so a shortfall after foreclosure falls on the lender (and the investors who hold the loan)."
+          },
+          {
+            "text": "The lender can pursue the borrower's other assets to cover any shortfall after foreclosure",
+            "value": null,
+            "explanation": "Wrong: this describes a recourse loan, where the borrower stays personally liable beyond the collateral."
+          },
+          {
+            "text": "The lender cannot foreclose and can only sue the borrower for missed payments",
+            "value": null,
+            "explanation": "Wrong: non-recourse loans are still secured, and foreclosure on the collateral is the lender's main remedy."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A hybrid ARM currently has a fixed rate of 3.50%. At its first reset the index is 4.00% and the loan margin is 2.50%. The periodic cap limits any single increase to 2.00 percentage points, and the floor is not relevant. What is the rate after the reset?",
+        "options": [
+          {
+            "text": "6.50%",
+            "value": null,
+            "explanation": "Wrong: this is the fully indexed rate (4.00% + 2.50%) but ignores the periodic cap, which limits the rate to 3.50% + 2.00%."
+          },
+          {
+            "text": "4.00%",
+            "value": null,
+            "explanation": "Wrong: this uses only the index and leaves out the margin that is added at each reset."
+          },
+          {
+            "text": "5.50%",
+            "value": null,
+            "explanation": "Correct: the fully indexed rate is 6.50%, but the cap limits the increase to 2.00 points above 3.50%, so the new rate is 5.50%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-securitization:22:30",
+          "occ-mortgage-banking:27:32"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A mortgage loan of USD 240,000 is secured by a property appraised at USD 300,000. What is the loan-to-value (LTV) ratio?",
+        "options": [
+          {
+            "text": "125%",
+            "value": null,
+            "explanation": "Wrong: this inverts the ratio (300,000 ÷ 240,000). LTV is loan divided by value."
+          },
+          {
+            "text": "80%",
+            "value": null,
+            "explanation": "Correct: LTV = 240,000 ÷ 300,000 = 80%. The borrower's equity cushion is 20%."
+          },
+          {
+            "text": "20%",
+            "value": null,
+            "explanation": "Wrong: this is the borrower's equity share, 1 − LTV, not the LTV itself."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best fits a conforming residential mortgage loan?",
+        "options": [
+          {
+            "text": "Any first-lien loan with a fixed rate and a 30-year term",
+            "value": null,
+            "explanation": "Wrong: rate type and term alone do not make a loan conforming. A fixed-rate 30-year loan can still be non-conforming."
+          },
+          {
+            "text": "Any loan whose LTV is below 80% at origination",
+            "value": null,
+            "explanation": "Wrong: a low LTV is only one underwriting factor. Conformity depends on meeting the agencies' overall size and underwriting limits."
+          },
+          {
+            "text": "A loan within agency size and underwriting limits, so agencies can buy or guarantee it",
+            "value": null,
+            "explanation": "Correct: conforming loans meet the standards set by the government-sponsored agencies. Others are non-conforming and are securitized privately."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-mortgage-banking:27:32"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A borrower takes a fully amortizing, fixed-rate mortgage of USD 100,000 with a 15-year term and a 6.00% stated annual rate. Payments are monthly, made at the end of each month, with monthly compounding. What is the level monthly payment, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "USD 843.86",
+            "value": 843.86,
+            "explanation": "Correct: r = 0.5% per month and n = 180, so PMT = 100,000 × 0.005 ÷ (1 − 1.005^−180) ≈ 843.86."
+          },
+          {
+            "text": "USD 599.55",
+            "value": 599.55,
+            "explanation": "Wrong: this is the payment for a 30-year term (360 payments). It uses the wrong number of payments."
+          },
+          {
+            "text": "USD 555.56",
+            "value": 555.56,
+            "explanation": "Wrong: this is 100,000 ÷ 180, which repays only principal and ignores interest."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "pmt",
+          "args_json": "{\"rate\":0.005,\"n\":180,\"pv\":100000}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:82:73",
+          "os:principles-finance-2e:m00054:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A 30-year fixed-rate mortgage has a 6% rate and a five-year interest-only period. The rate never changes. Why is the required monthly payment higher in year 6 than in years 1–5?",
+        "options": [
+          {
+            "text": "The interest rate automatically resets upward when the interest-only period ends",
+            "value": null,
+            "explanation": "Wrong: the stem says the rate is fixed. Rate resets belong to ARMs and hybrids, not to a fixed-rate IO loan."
+          },
+          {
+            "text": "No principal was repaid early, so the full balance must now be repaid over the remaining 25 years",
+            "value": null,
+            "explanation": "Correct: the balance is unchanged after five years of interest-only payments, and amortizing it over only 25 years raises the payment. This is payment shock."
+          },
+          {
+            "text": "The lender adds a balloon payment to each monthly payment after year 5",
+            "value": null,
+            "explanation": "Wrong: a balloon payment is a single lump sum due at maturity. It is not spread across monthly payments."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-mortgage-banking:27:33",
+          "nyfed-securitization:22:30"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A residential mortgage includes a prepayment penalty that applies during the first three years. What is its main effect on the loan's cash flows?",
+        "options": [
+          {
+            "text": "It compensates the lender for losses if the borrower defaults",
+            "value": null,
+            "explanation": "Wrong: this confuses a prepayment penalty with default protection such as mortgage insurance or credit enhancement. The penalty applies to early payoff, not default losses."
+          },
+          {
+            "text": "It lets the borrower pay less than the interest due while the balance grows",
+            "value": null,
+            "explanation": "Wrong: this describes negative amortization, a different feature that has nothing to do with early payoff fees."
+          },
+          {
+            "text": "It discourages early payoff, so the expected cash flows are more likely to stay in place",
+            "value": null,
+            "explanation": "Correct: the fee makes refinancing or early repayment more costly within the penalty window, which makes the scheduled payments more predictable."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:40:51",
+          "nyfed-securitization:22:30"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the three main amortization patterns of residential mortgage loans, and what happens at maturity for each?",
+        "back": "Fully amortizing: level payments and the balance reaches zero. Partially amortizing (balloon): payments sized on a longer schedule, with a lump sum due at maturity. Interest-only: only interest is paid for a period, then payments rise to repay principal over the remaining term.",
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:82:73",
+          "occ-mortgage-banking:27:33"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How does a recourse mortgage differ from a non-recourse mortgage?",
+        "back": "Recourse: the lender can pursue the borrower's other assets if foreclosure proceeds fall short. Non-recourse: the lender's claim is limited to the collateral, so any shortfall is the lender's loss.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is the new rate on an ARM reset determined, and what limits it?",
+        "back": "New rate = index + margin. It is limited by the periodic cap (maximum change per reset), the lifetime cap (highest rate allowed) and the floor (lowest rate allowed).",
+        "cited_chunk_ids": [
+          "occ-mortgage-banking:27:32",
+          "nyfed-securitization:22:30"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does a 5/1 hybrid ARM mean?",
+        "back": "The rate is fixed for the first 5 years, then adjusts once a year (index + margin, subject to caps) for the rest of the term.",
+        "cited_chunk_ids": [
+          "occ-mortgage-banking:27:32"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T19:52:16.255Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-19-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1019,
+      "outputTokens": 692,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009075,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:52:26.954Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-19-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13834,
+      "outputTokens": 1511,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0429472,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0520222
+}

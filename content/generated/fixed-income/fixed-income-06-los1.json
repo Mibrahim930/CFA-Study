@@ -1,0 +1,478 @@
+{
+  "losId": "fixed-income-06-los1",
+  "losText": "calculate a bond's price given a yield-to-maturity on or between coupon dates",
+  "moduleId": "fixed-income-06",
+  "moduleTitle": "Fixed-Income Bond Valuation: Prices and Yields",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T18:44:56.418Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-rec02:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 2: Fixed-Income Securities",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfr-31-356:28:63",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 28",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfr-31-356:27:61",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "p. 27",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:17:11",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "p. 17",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=17",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Yields and Coupon Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:3.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — Yields and Coupon Rates",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00062:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.2 Bond Valuation — The Relationship of Yield to Maturity and Coupon Rate to Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-2-bond-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-lec04:24:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 24–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=24",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00061:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.1 Characteristics of Bonds — Basic Terminology",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-1-characteristics-of-bonds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:13:8",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 13–14",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=13",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfr-31-356:30:69",
+      "title": "31 CFR Part 356 Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Uniform Offering Circular; auctions) (U.S. GPO / govinfo, CFR 2023)",
+      "locator": "pp. 30–31",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title31-vol2/pdf/CFR-2023-title31-vol2-part356.pdf#page=30",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Pricing a Bond at Any Date: Full Price, Accrued Interest and Flat Price",
+      "summary": "A bond's price is the present value of its remaining cash flows discounted at the market yield, and when you buy between coupon dates you must also handle the interest already earned by the seller. This LOS teaches you to compute the full price, the accrued interest and the quoted (flat) price, which are the building blocks for almost every later fixed-income calculation.",
+      "sections": [
+        {
+          "heading": "Start with the simple case: a coupon date",
+          "body_markdown": "A bond is a stream of promised payments: a **coupon** every period (par value × coupon rate ÷ number of payments per year) and the **par value** (face value) at maturity. The **yield to maturity (YTM)** is the single discount rate the market applies to those payments.\n\nTwo conventions matter:\n- A YTM is quoted as an annual rate with the same payment frequency as the coupons. For a semiannual bond with a 6% YTM, the rate per period is $r = 6\\%/2 = 3\\%$.\n- The number of periods $N$ is the number of coupons still to be paid (years × payments per year).\n\nOn a coupon date (just after a coupon has been paid), the price is simply the present value of an annuity of coupons plus the present value of par:\n\n$$PV = \\frac{PMT}{(1+r)^1}+\\frac{PMT}{(1+r)^2}+\\dots+\\frac{PMT+FV}{(1+r)^N}$$\n\nOn the BA II Plus, set P/Y = 1 so that I/Y is entered as the *per-period* rate, then enter N, I/Y, PMT, FV and compute PV. The answer shows as negative (money you pay out); quote its magnitude."
+        },
+        {
+          "heading": "Buying between coupon dates: the seller has earned some interest",
+          "body_markdown": "Imagine you buy a rental flat halfway through the month. The tenant's rent for the month will be paid to whoever owns the flat on payday, but half of it was earned while the previous owner held it, so you hand over that half to the seller.\n\nBonds work the same way. If you settle a purchase part-way through a coupon period, you will receive the *whole* next coupon, yet the seller earned part of it. So you compensate the seller with **accrued interest (AI)**.\n\nThree prices appear:\n- **Full price** (also called dirty or invoice price): what you actually pay, i.e. the present value of all remaining cash flows at settlement.\n- **Accrued interest**: the part of the next coupon earned by the seller.\n- **Flat price** (also called clean price): the price quoted in the market, which excludes accrued interest.\n\n$$\\text{Full price} = \\text{Flat price} + AI$$"
+        },
+        {
+          "heading": "Computing the full price between coupon dates",
+          "body_markdown": "Let $t$ be the number of days from the last coupon date to the settlement date, and $T$ the number of days in the whole coupon period. The fraction $t/T$ tells you how far through the period you are.\n\n**Method:** (1) Value the bond *as if* it were the last coupon date, with $N$ coupons still to come (that is the ordinary annuity-plus-par calculation). (2) Move that value forward by the fraction of a period that has passed:\n\n$$PV^{Full}=PV_0\\times(1+r)^{t/T}$$\n\nwhere $r$ is the yield per period. Equivalently, discount each cash flow by an exponent that starts at the *remaining* fraction of the first period, $1-t/T$, and then increases by 1 per coupon. Both give the same number.\n\nAnalogy: the value on the last coupon date is a photo taken earlier; because time has passed and no coupon has been paid since, the bond's value has grown at the yield rate for $t/T$ of a period."
+        },
+        {
+          "heading": "Accrued interest, flat price and day counts",
+          "body_markdown": "Accrued interest is the coupon *for one period* scaled by the fraction of the period elapsed:\n\n$$AI=\\frac{t}{T}\\times PMT$$\n\nThen the quoted price is\n\n$$PV^{Flat}=PV^{Full}-AI$$\n\nThe day count used for $t$ and $T$ depends on the market. As a rule of thumb, government bonds typically use actual/actual (actual days elapsed over actual days in the period), while many corporate bonds use 30/360 (every month counted as 30 days, so a semiannual period has $T=180$). Under 30/360, days between two dates are $30\\times(\\text{months})+(\\text{day difference})$. The problem will tell you which convention to use.\n\nWhy quote flat prices? Because the full price creeps up every day as interest accrues and then drops when the coupon is paid. The flat price strips that sawtooth out, so price changes you see in the market reflect changes in yield, not just the passing of time.\n\nOn a coupon date itself, $t=0$, so $AI=0$ and the full price equals the flat price."
+        }
+      ],
+      "worked_example": {
+        "problem": "A corporate bond has a 4% annual coupon paid semiannually, par value 100, and exactly 3 coupon payments remain. The last coupon was paid 60 days ago; use a 30/360 day count so the coupon period has 180 days. The YTM is 5% (annual, semiannual compounding). Find the full price, the accrued interest and the flat price per 100 of par.",
+        "steps": [
+          "Set up the period inputs: $r = 5\\%/2 = 2.5\\%$ per period, $PMT = 100\\times4\\%/2 = 2$, $N = 3$, $FV = 100$, and $t/T = 60/180 = 1/3$.",
+          "Value the bond as of the last coupon date. BA II Plus: 2nd [P/Y] 1 ENTER (once, to make I/Y per period); 3 [N], 2.5 [I/Y], 2 [PMT], 100 [FV], [CPT] [PV] gives -98.5720, so $PV_0 = 98.5720$.",
+          "Move forward by the elapsed fraction: $PV^{Full}=98.5720\\times1.025^{1/3}$. Compute $1.025^{1/3}\\approx1.008265$ (keys: 1.025 [y^x] ( 1 ÷ 3 ) =).",
+          "Multiply: $98.5720\\times1.008265\\approx99.3867$. This is the full price.",
+          "Accrued interest: $AI=\\frac{60}{180}\\times2=0.6667$.",
+          "Flat price: $99.3867-0.6667=98.7200$."
+        ],
+        "answer": "Full price ≈ 99.3867, accrued interest ≈ 0.6667, flat (quoted) price ≈ 98.7200 per 100 of par.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Price on a coupon date",
+          "latex": "PV=\\sum_{k=1}^{N}\\frac{PMT}{(1+r)^k}+\\frac{FV}{(1+r)^N}",
+          "where": "PV = bond price; PMT = coupon per period (par × annual coupon rate ÷ payments per year); r = YTM per period (annual YTM ÷ payments per year); N = number of coupons remaining; FV = par value."
+        },
+        {
+          "name": "Full price between coupon dates",
+          "latex": "PV^{Full}=PV_0\\times(1+r)^{t/T}",
+          "where": "PV_0 = value of the remaining cash flows as of the last coupon date (N coupons ahead); r = YTM per period; t = days from last coupon date to settlement; T = days in the coupon period."
+        },
+        {
+          "name": "Accrued interest",
+          "latex": "AI=\\frac{t}{T}\\times PMT",
+          "where": "t = days since last coupon; T = days in the coupon period; PMT = coupon per period."
+        },
+        {
+          "name": "Flat price",
+          "latex": "PV^{Flat}=PV^{Full}-AI",
+          "where": "PV^{Full} = full (invoice) price; AI = accrued interest; the flat price is the quoted price."
+        }
+      ],
+      "exam_traps": [
+        "Using the annual YTM as the discount rate for a semiannual bond; the rate per period is the annual YTM divided by the payments per year, and the coupon is halved too.",
+        "Mixing up the exponent: it is $t/T$ (the fraction already elapsed), not the fraction remaining.",
+        "Treating the quoted price as what you pay. The buyer pays flat price plus accrued interest, so subtract AI to get from full to flat, never add.",
+        "Computing accrued interest with the annual coupon instead of the coupon for one period, which overstates AI by the number of payments per year.",
+        "Ignoring the stated day-count convention: 30/360 gives $T=180$ for semiannual bonds, whereas actual/actual uses actual days."
+      ],
+      "builds_on": [
+        "Time value of money (annuities and lump sums)",
+        "Bond terminology: par, coupon rate, maturity",
+        "Yield to maturity as a discount rate"
+      ],
+      "leads_to": [
+        "Price-yield relationships",
+        "Matrix pricing",
+        "Duration and convexity",
+        "Yield measures and spreads"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00061:1",
+        "os:principles-finance-2e:m00062:3",
+        "cfr-31-356:27:61",
+        "cfr-31-356:28:63"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor buys a bond between two coupon dates. Which statement correctly relates the flat (quoted) price, the accrued interest and the amount the buyer actually pays at settlement?",
+        "options": [
+          {
+            "text": "The flat price equals the full price plus accrued interest",
+            "value": null,
+            "explanation": "Reverses the relationship. The flat price is the full price with accrued interest stripped out, so it is the smaller number."
+          },
+          {
+            "text": "The full price equals the flat price plus accrued interest",
+            "value": null,
+            "explanation": "Correct. The buyer pays the quoted flat price and also compensates the seller for the interest earned since the last coupon, so full price = flat price + AI."
+          },
+          {
+            "text": "The amount paid equals the flat price, since accrued interest is already inside it",
+            "value": null,
+            "explanation": "Confuses flat with full. The flat price excludes accrued interest, so paying only the flat price would leave the seller uncompensated."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A bond has par value 100, a 5% annual coupon paid once a year, and exactly 3 years to maturity. It is priced on a coupon date (just after a coupon has been paid) at a YTM of 6% with annual compounding. What is the price per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "97.33",
+            "value": 97.33,
+            "explanation": "Correct. Price = 5 × [(1 − 1.06^−3)/0.06] + 100/1.06^3 = 13.37 + 83.96 = 97.33, below par because the YTM exceeds the coupon rate."
+          },
+          {
+            "text": "98.96",
+            "value": 98.96,
+            "explanation": "Discounts only the par value (83.96) and adds the three coupons undiscounted (15), forgetting that each coupon must also be discounted."
+          },
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "Discounts at the 5% coupon rate instead of the 6% YTM, so the bond appears to sell at par."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":3,\"freq\":1},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00061:1",
+          "os:principles-finance-2e:m00062:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A bond has par value 100, a 6% coupon paid semiannually, and 2 years to maturity. It is priced on a coupon date at a YTM of 8%, quoted as an annual rate with semiannual compounding. What is the price per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "83.44",
+            "value": 83.44,
+            "explanation": "Halves the coupon and uses 4 periods but discounts at the full 8% per period instead of 4%, which badly understates the price."
+          },
+          {
+            "text": "96.43",
+            "value": 96.43,
+            "explanation": "Treats the bond as annual-pay (n = 2, PMT = 6, 8%), ignoring semiannual coupons and compounding."
+          },
+          {
+            "text": "96.37",
+            "value": 96.37,
+            "explanation": "Correct. Per period: r = 4%, PMT = 3, N = 4, FV = 100. Price = 3 × 3.6299 + 100/1.04^4 = 10.89 + 85.48 = 96.37."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":2,\"freq\":2},\"ytm\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00061:1",
+          "os:principles-finance-2e:m00062:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond pays a 6% annual coupon semiannually on par of 100. Use a 30/360 day count, so each coupon period has 180 days. Settlement is 45 days after the last coupon date, and the full price at settlement is 101.20. What is the flat price, rounded to two decimals?",
+        "options": [
+          {
+            "text": "101.95",
+            "value": null,
+            "explanation": "Adds the accrued interest (0.75) to the full price instead of subtracting it."
+          },
+          {
+            "text": "99.70",
+            "value": null,
+            "explanation": "Uses the annual coupon of 6 rather than the semiannual coupon of 3, giving AI = 1.50 instead of 0.75."
+          },
+          {
+            "text": "100.45",
+            "value": null,
+            "explanation": "Correct. AI = (45/180) × 3 = 0.75, so flat price = 101.20 − 0.75 = 100.45."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A semiannual-pay bond is valued as of its last coupon date at 97.00 per 100 of par, using the YTM per semiannual period, r. Settlement occurs 120 days after that coupon date in a 180-day coupon period (30/360). Which expression gives the full price at settlement?",
+        "options": [
+          {
+            "text": "97.00 × (1 + r)^(2/3)",
+            "value": null,
+            "explanation": "Correct. The elapsed fraction is 120/180 = 2/3, and the value grows forward at the period yield for that fraction of a period."
+          },
+          {
+            "text": "97.00 × (1 + r)^(1/3)",
+            "value": null,
+            "explanation": "Uses the fraction of the period remaining (60/180) instead of the fraction elapsed."
+          },
+          {
+            "text": "97.00 ÷ (1 + r)^(2/3)",
+            "value": null,
+            "explanation": "Discounts instead of compounding forward. Time has passed since the valuation date, so the value must increase, not decrease."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:28:63"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A bond has par value 100, a 7% coupon paid semiannually, and 3 years to maturity. It is priced on a coupon date at a YTM of 5%, quoted as an annual rate with semiannual compounding. What is the price per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "124.79",
+            "value": 124.79,
+            "explanation": "Uses the full annual coupon of 7 each half-year while discounting at 2.5% per period, doubling the coupon stream."
+          },
+          {
+            "text": "105.51",
+            "value": 105.51,
+            "explanation": "Correct. Per period: r = 2.5%, PMT = 3.5, N = 6. Price = 3.5 × 5.5081 + 100/1.025^6 = 19.28 + 86.23 = 105.51, a premium because coupon rate exceeds YTM."
+          },
+          {
+            "text": "92.39",
+            "value": 92.39,
+            "explanation": "Uses the annual 5% as the rate per semiannual period (r = 5%, N = 6), over-discounting the cash flows."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "bondPrice",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.07,\"years\":3,\"freq\":2},\"ytm\":0.05}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00061:1",
+          "os:principles-finance-2e:m00062:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A corporate bond has par 100 and a 6% coupon paid semiannually. The last coupon was paid on March 1 and settlement is June 16 of the same year. Use the 30/360 convention, so the coupon period has 180 days. What is the accrued interest per 100 of par, rounded to two decimals?",
+        "options": [
+          {
+            "text": "1.75",
+            "value": null,
+            "explanation": "Correct. 30/360 days from March 1 to June 16 = 3 × 30 + 15 = 105. AI = (105/180) × 3 = 1.75."
+          },
+          {
+            "text": "1.78",
+            "value": null,
+            "explanation": "Counts 107 actual days but keeps the 180-day period, mixing actual day counting with the 30/360 convention."
+          },
+          {
+            "text": "3.50",
+            "value": null,
+            "explanation": "Multiplies the elapsed fraction by the annual coupon of 6 instead of the semiannual coupon of 3."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A semiannual-pay bond has a constant yield to maturity. Compare settling one day before a coupon is paid with settling one day after it is paid (the coupon goes to the holder on the payment date). Which outcome is expected?",
+        "options": [
+          {
+            "text": "The flat price falls by about the coupon amount while the full price barely changes",
+            "value": null,
+            "explanation": "Reverses the roles. Accrued interest is nearly the whole coupon just before payment, so the flat price is almost unaffected while the full price drops."
+          },
+          {
+            "text": "Both the full price and the flat price fall by about the coupon amount",
+            "value": null,
+            "explanation": "Forgets that the flat price excludes accrued interest. Accrued interest resets to near zero after the payment, offsetting the drop in the flat price."
+          },
+          {
+            "text": "The full price falls by about the coupon amount while the flat price barely changes",
+            "value": null,
+            "explanation": "Correct. The buyer after the payment no longer receives that coupon, so the full price drops by about its size. Accrued interest falls by about the same amount, so the flat price (full minus AI) hardly moves."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the full price, accrued interest and flat price of a bond, and how do they relate?",
+        "back": "Full (dirty/invoice) price is what the buyer pays; AI is the seller's share of the next coupon; flat (clean) price is the quoted price. Full price = flat price + AI.",
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      },
+      {
+        "front": "How do you get the full price of a bond between coupon dates from its value on the last coupon date?",
+        "back": "Multiply that value by $(1+r)^{t/T}$, where $r$ is the yield per period, $t$ the days since the last coupon and $T$ the days in the coupon period.",
+        "cited_chunk_ids": [
+          "cfr-31-356:28:63"
+        ]
+      },
+      {
+        "front": "What is the formula for accrued interest, and what does the 30/360 convention assume?",
+        "back": "$AI=(t/T)\\times PMT$, the coupon for one period times the fraction elapsed. 30/360 treats every month as 30 days, so a semiannual period has $T=180$ days.",
+        "cited_chunk_ids": [
+          "cfr-31-356:27:61"
+        ]
+      },
+      {
+        "front": "For a semiannual bond with a stated annual YTM, what are the per-period inputs for pricing?",
+        "back": "Rate per period = YTM ÷ 2, coupon per period = par × coupon rate ÷ 2, and N = number of remaining coupon payments (years × 2).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00061:1",
+          "os:principles-finance-2e:m00062:3"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T18:44:56.418Z",
+      "purpose": "generate",
+      "losId": "fixed-income-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11046,
+      "outputTokens": 15047,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.17371820000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

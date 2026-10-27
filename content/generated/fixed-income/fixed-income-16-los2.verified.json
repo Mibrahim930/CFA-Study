@@ -1,0 +1,831 @@
+{
+  "losId": "fixed-income-16-los2",
+  "losText": "calculate and interpret financial ratios used in credit analysis",
+  "moduleId": "fixed-income-16",
+  "moduleTitle": "Credit Analysis for Corporate Issuers",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:50:05.650Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00067:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "occ-leveraged-lending:5:3",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 5–6",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "cfa-rf-alt-credit:25:30",
+      "title": "An Introduction to Alternative Credit (CFA Institute Research Foundation)",
+      "locator": "pp. 25–26",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/rf-brief/introduction-to-alt-credit.pdf#page=25",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00031:5",
+      "title": "Principles of Finance 2e",
+      "locator": "§5.1 The Income Statement — EBITDA (Earnings before Interest, Taxes, Depreciation, and Amortization)",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/5-1-the-income-statement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00043:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.4 Solvency Ratios — Times Interest Earned (TIE) Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-4-solvency-ratios",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00067:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.1 Multiple Approaches to Stock Valuation — Alternative Multipliers",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-1-multiple-approaches-to-stock-valuation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-based-lending:75:97",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 75–76",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=75",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00042:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.3 Liquidity Ratios — Cash Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-3-liquidity-ratios",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-based-lending:65:82",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 65–66",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=65",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-accts-rec-inventory-financing:69:68",
+      "title": "Comptroller's Handbook: Accounts Receivable and Inventory Financing (factoring) (OCC)",
+      "locator": "pp. 69–70",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/accts-rec-inventory-financing/pub-ch-accts-rec-inventory-financing.pdf#page=69",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-accts-rec-inventory-financing:66:66",
+      "title": "Comptroller's Handbook: Accounts Receivable and Inventory Financing (factoring) (OCC)",
+      "locator": "pp. 66–67",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/accts-rec-inventory-financing/pub-ch-accts-rec-inventory-financing.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-leveraged-lending:63:54",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 63–64",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=63",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Credit Ratios: Reading a Borrower's Debt Load and Repayment Cushion",
+      "summary": "Credit ratios turn financial statements into a few numbers that show how heavily a company is borrowed and how comfortably its earnings and cash flow cover its debt payments. Bond investors use them to judge default risk and to compare issuers.",
+      "sections": [
+        {
+          "heading": "Why lenders use ratios",
+          "body_markdown": "A bond investor's main worry is not how much profit the company makes, but whether it can keep paying interest and repay principal. Think of a household with a mortgage. The bank cares about two things: how big the loan is relative to income (**leverage**), and how many times over monthly income covers the monthly payment (**coverage**).\n\nCredit analysis uses the same two families of ratios:\n\n- **Leverage ratios** compare the amount of debt to earnings, cash flow or capital. *Lower is safer.*\n- **Coverage ratios** compare earnings or cash flow to interest (or other fixed payments). *Higher is safer.*"
+        },
+        {
+          "heading": "The building blocks: EBIT, EBITDA, FFO and FCF",
+          "body_markdown": "**EBIT** is earnings before interest and taxes, roughly operating profit. **EBITDA** adds back depreciation and amortization, which are *non-cash* charges that spread the cost of assets over their lives:\n\n$$\\text{EBITDA} = \\text{EBIT} + \\text{depreciation} + \\text{amortization}$$\n\nEBITDA is popular because it ignores financing and accounting choices. Its weakness is that it ignores the cash a business must spend on **capital expenditures** (capex, money for new or replacement equipment) and on working capital. So it can flatter a capital-hungry company.\n\nTwo cash-flow measures try to fix this:\n\n- **Funds from operations (FFO)**: net income plus depreciation, amortization, deferred taxes and other non-cash charges. It is cash earnings before changes in working capital.\n- **Free cash flow (FCF)**: cash flow from operations minus capex. It shows cash left after keeping the asset base going. In the common credit version it is measured *before* dividends. Subtracting dividends as well gives what is often called retained cash flow."
+        },
+        {
+          "heading": "Leverage ratios",
+          "body_markdown": "These answer the question: *how big is the debt compared with what the company earns or owns?*\n\n- **Debt/EBITDA**: roughly the number of years of EBITDA needed to repay debt. A reading of 3.0x means debt equals three years of EBITDA.\n- **Debt/capital**: debt divided by total capital, where capital = debt + shareholders' equity. It is a share, so it is always between 0% and 100% when equity is positive.\n- **FFO/debt** and **FCF/debt**: the share of debt that one year of cash flow could repay. Here a *higher* number is better, because debt sits in the denominator.\n\nDirection matters. A rise in Debt/EBITDA or Debt/capital is bad news, while a rise in FFO/debt or FCF/debt is good news. Analysts often also use *net debt* (debt minus cash) to credit the company for cash it could use to repay borrowings, and they adjust debt for items such as leases and underfunded pensions, since these work like borrowing."
+        },
+        {
+          "heading": "Coverage ratios",
+          "body_markdown": "These answer: *how many times could earnings pay this year's interest?*\n\n- **EBITDA/interest**: the more lenient version, since it adds back non-cash charges.\n- **EBIT/interest** (also called times interest earned): the stricter version. Depreciation is a rough stand-in for the cost of replacing assets, so EBIT is the tougher test. It is never higher than EBITDA/interest when depreciation and amortization are positive.\n\nA coverage ratio near 1.0x means all operating earnings go to interest, with no cushion. Lenders also write covenants (promises in the loan agreement) around such ratios, for example a minimum EBIT/interest. Some lenders use broader *fixed charge coverage*, which compares cash earnings to interest plus other required payments such as debt repayments."
+        },
+        {
+          "heading": "Interpreting ratios sensibly",
+          "body_markdown": "No ratio is good or bad in isolation. Compare the company with its own history (trend), with industry peers, and with the ratio levels typical for each credit rating. Stronger ratios generally go with higher ratings and tighter spreads. Capital-intensive and cyclical businesses usually need lower leverage than stable, asset-light ones to feel equally safe. Always check *how* the ratio was defined, since issuers and agencies adjust EBITDA, debt and interest differently."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company reports EBITDA of 500, depreciation and amortization of 200, interest expense of 60, total debt of 1,800, cash of 300 and shareholders' equity of 2,200 (all in millions). Calculate EBITDA/interest, EBIT/interest, Debt/EBITDA and Debt/capital.",
+        "steps": [
+          "EBIT = EBITDA − depreciation and amortization = 500 − 200 = 300.",
+          "EBITDA/interest = 500 ÷ 60 = 8.33x. On the BA II Plus press 500 ÷ 60 = .",
+          "EBIT/interest = 300 ÷ 60 = 5.00x. Press 300 ÷ 60 = .",
+          "Debt/EBITDA = 1,800 ÷ 500 = 3.60x. Press 1800 ÷ 500 = .",
+          "Capital = debt + equity = 1,800 + 2,200 = 4,000. Debt/capital = 1,800 ÷ 4,000 = 0.45, or 45%.",
+          "Interpret: interest is covered 5 times even on the stricter EBIT basis, debt equals 3.6 years of EBITDA, and debt funds 45% of capital. Using net debt, (1,800 − 300) ÷ 500 = 3.0x. These look moderate; the rating depends on industry norms and on the trend."
+        ],
+        "answer": "EBITDA/interest = 8.33x; EBIT/interest = 5.00x; Debt/EBITDA = 3.60x; Debt/capital = 45%.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "EBITDA",
+          "latex": "\\text{EBITDA}=\\text{EBIT}+D+A",
+          "where": "EBIT = earnings before interest and taxes; D = depreciation expense; A = amortization expense."
+        },
+        {
+          "name": "EBITDA interest coverage",
+          "latex": "\\frac{\\text{EBITDA}}{\\text{Interest expense}}",
+          "where": "EBITDA = earnings before interest, taxes, depreciation and amortization; interest expense = the period's interest cost."
+        },
+        {
+          "name": "EBIT interest coverage (times interest earned)",
+          "latex": "\\frac{\\text{EBIT}}{\\text{Interest expense}}",
+          "where": "EBIT = operating earnings before interest and taxes."
+        },
+        {
+          "name": "Debt/EBITDA",
+          "latex": "\\frac{\\text{Total debt}}{\\text{EBITDA}}",
+          "where": "Total debt = short-term plus long-term borrowings (adjusted for items such as leases if the analyst chooses); EBITDA as defined above."
+        },
+        {
+          "name": "Debt/capital",
+          "latex": "\\frac{\\text{Total debt}}{\\text{Total debt}+\\text{Shareholders' equity}}",
+          "where": "Total debt = borrowings; shareholders' equity = book value of equity."
+        },
+        {
+          "name": "Funds from operations",
+          "latex": "\\text{FFO}=NI+D+A+\\text{deferred taxes}+\\text{other non-cash charges}",
+          "where": "NI = net income; D and A = depreciation and amortization; other non-cash charges = items such as impairments that did not use cash."
+        },
+        {
+          "name": "Free cash flow (before dividends)",
+          "latex": "\\text{FCF}=\\text{CFO}-\\text{Capex}",
+          "where": "CFO = cash flow from operations; Capex = capital expenditures."
+        },
+        {
+          "name": "FFO/debt and FCF/debt",
+          "latex": "\\frac{\\text{FFO}}{\\text{Total debt}},\\quad \\frac{\\text{FCF}}{\\text{Total debt}}",
+          "where": "FFO and FCF as defined above; total debt = borrowings. Higher values indicate a stronger credit."
+        },
+        {
+          "name": "Return on capital",
+          "latex": "\\text{ROC}=\\frac{\\text{EBIT}}{\\text{Average (debt + equity)}}",
+          "where": "EBIT = operating earnings; average (debt + equity) = mean of beginning and ending capital."
+        }
+      ],
+      "exam_traps": [
+        "Reading leverage and coverage in the same direction: a higher Debt/EBITDA is worse, but a higher EBITDA/interest or FFO/debt is better.",
+        "Computing EBIT/interest when the question asks for EBITDA/interest, or the reverse. EBITDA coverage is always the larger of the two when depreciation and amortization are positive.",
+        "Building capital from debt alone or from debt-to-equity: Debt/capital divides by debt plus equity, not by equity.",
+        "Treating EBITDA as cash flow available to repay debt. It ignores capex and working-capital needs, so FCF is the cash measure.",
+        "Forgetting that FFO adds back non-cash charges such as depreciation, deferred taxes and impairments, and starting from EBITDA instead of net income."
+      ],
+      "builds_on": [
+        "Income statement and EBITDA",
+        "Statement of cash flows",
+        "Capital structure (debt vs equity)"
+      ],
+      "leads_to": [
+        "Credit ratings and spreads",
+        "Seniority and priority of claims",
+        "Bond covenants"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00043:3",
+        "os:principles-finance-2e:m00031:5",
+        "occ-leveraged-lending:63:54",
+        "occ-asset-based-lending:75:97"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst compares a company's credit ratios across two years. Which combination of changes indicates an improving credit profile?",
+        "options": [
+          {
+            "text": "EBITDA/interest rises and Debt/EBITDA rises",
+            "value": null,
+            "explanation": "Higher Debt/EBITDA means debt is growing relative to earnings, which is a weaker credit. Treating every ratio increase as good is the mistake here."
+          },
+          {
+            "text": "EBITDA/interest falls and Debt/EBITDA falls",
+            "value": null,
+            "explanation": "Falling coverage means less cushion for interest payments, which is a weaker credit, even though lower leverage is positive. It gets the direction of coverage wrong."
+          },
+          {
+            "text": "EBITDA/interest rises and Debt/EBITDA falls",
+            "value": null,
+            "explanation": "Correct. Higher coverage means more earnings per unit of interest, and lower leverage means less debt per unit of earnings. Both point to stronger credit quality."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00043:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company has total debt of 1,200, EBITDA of 400, and depreciation and amortization of 100. What is its Debt/EBITDA ratio?",
+        "options": [
+          {
+            "text": "0.33x",
+            "value": null,
+            "explanation": "This inverts the ratio (EBITDA ÷ debt = 400 ÷ 1,200). The question asks for debt over EBITDA."
+          },
+          {
+            "text": "3.00x",
+            "value": null,
+            "explanation": "Correct. Debt/EBITDA = 1,200 ÷ 400 = 3.00x; depreciation and amortization are not needed because EBITDA is already given."
+          },
+          {
+            "text": "4.00x",
+            "value": null,
+            "explanation": "This divides debt by EBIT (400 − 100 = 300, so 1,200 ÷ 300 = 4.00x) instead of EBITDA."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:5:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company reports EBITDA of 900, depreciation and amortization of 300, and interest expense of 150, all in the same currency units. EBIT equals EBITDA minus depreciation and amortization. What is the company's EBIT interest coverage ratio (EBIT divided by interest expense)? Round to one decimal place.",
+        "options": [
+          {
+            "text": "3.0x",
+            "value": null,
+            "explanation": "This deducts interest from EBIT before dividing ((600 − 150) ÷ 150). Coverage uses EBIT before interest in the numerator, so this understates the ratio."
+          },
+          {
+            "text": "4.0x",
+            "value": null,
+            "explanation": "Correct. EBIT = 900 − 300 = 600, so EBIT interest coverage = 600 ÷ 150 = 4.0x."
+          },
+          {
+            "text": "6.0x",
+            "value": null,
+            "explanation": "This divides EBITDA by interest (900 ÷ 150). That is EBITDA coverage, not EBIT coverage, because it ignores depreciation and amortization."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00043:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): EBIT = 900 - 300 = 600; 600/150 = 4.0x."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm has total debt of 600 and shareholders' equity of 1,400 (book values). What is its Debt/capital ratio?",
+        "options": [
+          {
+            "text": "30.0%",
+            "value": null,
+            "explanation": "Correct. Capital = 600 + 1,400 = 2,000, so Debt/capital = 600 ÷ 2,000 = 30.0%."
+          },
+          {
+            "text": "42.9%",
+            "value": null,
+            "explanation": "This is debt-to-equity (600 ÷ 1,400), which leaves debt out of the denominator."
+          },
+          {
+            "text": "70.0%",
+            "value": null,
+            "explanation": "This is equity divided by capital (1,400 ÷ 2,000), the equity share instead of the debt share."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:5:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company has net income of 200, depreciation and amortization of 120, deferred income tax expense of 30 (non-cash), and a non-cash impairment charge of 50. Total debt is 2,000. Using FFO = net income plus non-cash charges, what is FFO/debt?",
+        "options": [
+          {
+            "text": "17.5%",
+            "value": null,
+            "explanation": "This adds back depreciation and deferred taxes but forgets the non-cash impairment (350 ÷ 2,000)."
+          },
+          {
+            "text": "20.0%",
+            "value": null,
+            "explanation": "Correct. FFO = 200 + 120 + 30 + 50 = 400, and 400 ÷ 2,000 = 20.0%."
+          },
+          {
+            "text": "10.0%",
+            "value": null,
+            "explanation": "This uses net income alone (200 ÷ 2,000) and skips all non-cash add-backs."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why can EBITDA give a misleadingly favorable picture of a capital-intensive borrower's ability to service debt?",
+        "options": [
+          {
+            "text": "It leaves out the cash needed for capital spending and working capital.",
+            "value": null,
+            "explanation": "Correct. EBITDA adds back depreciation but does not subtract the cash actually spent replacing equipment or funding working capital, so it overstates cash available for debt service."
+          },
+          {
+            "text": "It is reduced by interest, so it understates operating strength.",
+            "value": null,
+            "explanation": "EBITDA is measured before interest, so it is not reduced by it. This confuses EBITDA with net income."
+          },
+          {
+            "text": "It changes when the firm alters its mix of debt and equity.",
+            "value": null,
+            "explanation": "Because EBITDA is before interest, it is unaffected by financing choices. This is actually a reason analysts like it, not a weakness."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:63:54",
+          "os:principles-finance-2e:m00031:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm reports cash flow from operations of 500, capital expenditures of 350, dividends of 80 and total debt of 1,500. Define FCF as cash flow from operations minus capital expenditures (before dividends). What is FCF/debt?",
+        "options": [
+          {
+            "text": "4.7%",
+            "value": null,
+            "explanation": "This also subtracts dividends ((500 − 350 − 80) ÷ 1,500), which gives retained cash flow rather than FCF under the stated definition."
+          },
+          {
+            "text": "56.7%",
+            "value": null,
+            "explanation": "This adds capex to operating cash flow ((500 + 350) ÷ 1,500) instead of subtracting it, a sign error."
+          },
+          {
+            "text": "10.0%",
+            "value": null,
+            "explanation": "Correct. FCF = 500 − 350 = 150, and 150 ÷ 1,500 = 10.0%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between EBITDA/interest and EBIT/interest, and which is stricter?",
+        "back": "EBITDA/interest adds back depreciation and amortization; EBIT/interest does not. EBIT/interest is stricter (never higher when D&A is positive) because depreciation roughly reflects the cost of replacing assets.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00043:3",
+          "os:principles-finance-2e:m00031:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is Debt/capital calculated?",
+        "back": "Total debt ÷ (total debt + shareholders' equity). Higher means more of the financing comes from borrowing, which is a weaker credit.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Which credit ratios are 'higher is better' and which are 'lower is better'?",
+        "back": "Higher is better: coverage ratios (EBITDA/interest, EBIT/interest), FFO/debt and FCF/debt. Lower is better: Debt/EBITDA and Debt/capital.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do FFO and FCF differ from EBITDA as credit measures?",
+        "back": "FFO starts from net income and adds back non-cash charges. FCF is operating cash flow minus capex. Both are closer to real cash than EBITDA, which ignores capex and working capital.",
+        "cited_chunk_ids": [
+          "occ-leveraged-lending:63:54"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:49:45.389Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-16-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 753,
+      "outputTokens": 446,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006083,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:49:54.986Z",
+      "purpose": "repair",
+      "losId": "fixed-income-16-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9612,
+      "outputTokens": 1205,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.032218,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:49:56.281Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-16-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 146,
+      "outputTokens": 77,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001179,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:50:05.649Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-16-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13441,
+      "outputTokens": 1393,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.040981199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.08046119999999998
+}

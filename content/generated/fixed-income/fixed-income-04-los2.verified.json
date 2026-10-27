@@ -1,0 +1,873 @@
+{
+  "losId": "fixed-income-04-los2",
+  "losText": "describe repurchase agreements (repos), their uses, and their benefits and risks",
+  "moduleId": "fixed-income-04",
+  "moduleTitle": "Fixed-Income Markets for Corporate Issuers",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:40:24.844Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p1:9:12",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 9–10",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=9",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "imf-wb-debt-mgmt-2002:175:223",
+      "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
+      "locator": "p. 175",
+      "url": "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf#page=175",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "nyfed-sr740-repo-guide:35:35",
+      "title": "Reference Guide to U.S. Repo and Securities Lending Markets (FRBNY Staff Report 740; Baklanova, Copeland, McCaughrin)",
+      "locator": "p. 35",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr740.pdf#page=35",
+      "license": "Federal Reserve Bank of New York staff report (with OFR); no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-sr740-repo-guide:41:41",
+      "title": "Reference Guide to U.S. Repo and Securities Lending Markets (FRBNY Staff Report 740; Baklanova, Copeland, McCaughrin)",
+      "locator": "pp. 41–42",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr740.pdf#page=41",
+      "license": "Federal Reserve Bank of New York staff report (with OFR); no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:10:14",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 10–11",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=10",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-sr740-repo-guide:22:22",
+      "title": "Reference Guide to U.S. Repo and Securities Lending Markets (FRBNY Staff Report 740; Baklanova, Copeland, McCaughrin)",
+      "locator": "pp. 22–23",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr740.pdf#page=22",
+      "license": "Federal Reserve Bank of New York staff report (with OFR); no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch6:4:5",
+      "title": "Instruments of the Money Market, ch. 6: Repurchase Agreements (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 4–5",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_06.pdf#page=4",
+      "license": "Federal Reserve Bank of Richmond publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "nyfed-sr740-repo-guide:35:36",
+      "title": "Reference Guide to U.S. Repo and Securities Lending Markets (FRBNY Staff Report 740; Baklanova, Copeland, McCaughrin)",
+      "locator": "pp. 35–37",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr740.pdf#page=35",
+      "license": "Federal Reserve Bank of New York staff report (with OFR); no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch6:1:1",
+      "title": "Instruments of the Money Market, ch. 6: Repurchase Agreements (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 1–2",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_06.pdf#page=1",
+      "license": "Federal Reserve Bank of Richmond publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nyfed-sr740-repo-guide:21:21",
+      "title": "Reference Guide to U.S. Repo and Securities Lending Markets (FRBNY Staff Report 740; Baklanova, Copeland, McCaughrin)",
+      "locator": "pp. 21–22",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr740.pdf#page=21",
+      "license": "Federal Reserve Bank of New York staff report (with OFR); no open licence stated and not public domain, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch6:3:4",
+      "title": "Instruments of the Money Market, ch. 6: Repurchase Agreements (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 3–4",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_06.pdf#page=3",
+      "license": "Federal Reserve Bank of Richmond publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch6:1:0",
+      "title": "Instruments of the Money Market, ch. 6: Repurchase Agreements (Federal Reserve Bank of Richmond)",
+      "locator": "p. 1",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_06.pdf#page=1",
+      "license": "Federal Reserve Bank of Richmond publication; no open licence stated and not public domain (Reserve Banks are not federal agencies), so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Repos: Borrowing Cash Against Securities",
+      "summary": "A repo is a short-term loan that is secured by securities. It lets dealers and other firms raise cheap cash and lets cash-rich investors earn a modest, collateral-backed return. You need to know how it is priced, who uses it and why, and where it can fail.",
+      "sections": [
+        {
+          "heading": "A pawn shop for bonds",
+          "body_markdown": "Picture pawning a watch: you hand it over, get cash, and later pay back slightly more to get it back. A **repurchase agreement (repo)** is the same idea with securities. One party sells securities for cash today and, in the same agreement, commits to buy the same or similar securities back on a set date at a higher price. The extra amount is the interest, and the annualised rate it implies is the **repo rate**. The securities act as **collateral**, meaning assets the lender can fall back on. Legally the deal is a sale plus a repurchase, but economically it is a secured loan. The party that sells the securities and receives cash is the cash borrower. Its side of the deal is called a **repo**. The same transaction seen from the cash lender's side (the securities buyer) is called a **reverse repo**. Most repos are **overnight**, meaning one day. A **term repo** runs for a fixed, longer period, usually under a month. An **open repo** has no fixed end date, and either side can close it at any time. The seller still receives the coupons and principal paid on the securities during the repo."
+        },
+        {
+          "heading": "Pricing the loan and protecting the lender",
+          "body_markdown": "Repo interest uses simple interest on an actual/360 day count: $\\text{interest}=\\text{cash lent}\\times r\\times\\text{days}/360$. The repurchase price is the cash lent plus that interest. The rate depends on the quality of the collateral and on the term. Overnight repos against government securities usually trade a little below the federal funds rate, because the collateral lowers the lender's risk. Lenders also protect themselves in two ways. First, they lend less than the collateral is worth. The gap is called the **haircut** (or margin), and it acts as a cushion if prices fall. Haircuts are bigger for collateral with more price volatility (longer maturity) and for weaker credit quality. Second, the collateral is **marked to market** daily, meaning revalued at current prices. If its value drops, the borrower must post more collateral or return some cash. If its value rises, the lender hands back the excess."
+        },
+        {
+          "heading": "Why firms use repos: uses and benefits",
+          "body_markdown": "**Dealers** (firms that trade securities for a living) hold large bond inventories. They fund these by repoing the bonds at a short-term rate that is typically low. The difference between the bond's coupon rate and the repo rate is called **carry**. It is positive when the coupon exceeds the repo rate and negative when it does not. A dealer can also do a reverse repo to borrow a bond it needs, for example to deliver on a short sale. If a particular bond is in heavy demand it trades **on special**. The owner of that bond can then borrow cash at a repo rate below the normal rate, which is how the owner is paid for lending the scarce bond. **Cash investors**, such as money market funds, use repos to earn a small return with a security backing the cash. The main benefits are low cost (because of the collateral), flexible maturities from overnight upwards, and a large, liquid market. Central banks also use repos to add or drain short-term cash in the financial system."
+        },
+        {
+          "heading": "What can go wrong: risks",
+          "body_markdown": "- **Credit (counterparty) risk:** if the borrower fails to repurchase, the lender must sell the collateral. If the collateral has fallen below the cash lent, the lender takes a loss. The haircut and daily mark-to-market reduce this risk but do not remove it, and selling collateral after a default can involve legal delay. The borrower faces credit risk too, because the lender may fail to return the securities. - **Collateral (market) risk:** collateral prices can fall, and rates can move against a position funded with repos. - **Rollover and funding risk:** funding a long-dated asset with overnight repos means the financing must be renewed every day. If lenders refuse, or the repo rate jumps above the asset's fixed coupon, the borrower is squeezed. - **Systemic risk:** in stress, lenders often cut funding to a weak dealer. The dealer then has to sell assets quickly (a fire sale), which pushes prices down and spreads losses to others."
+        }
+      ],
+      "worked_example": {
+        "problem": "A dealer needs cash. It sells Treasury notes with a market value of $20,400,000 and receives $20,000,000 in cash. It agrees to repurchase the notes in 7 days at a repo rate of 4.20% (actual/360). (a) What is the haircut? (b) What is the repo interest and the repurchase price? (c) What is the 7-day return to the cash lender, as a percentage of the cash lent?",
+        "steps": [
+          "Haircut = 1 − cash lent ÷ collateral value = 1 − 20,000,000 ÷ 20,400,000 = 1 − 0.98039 = 0.0196, or 1.96%.",
+          "Repo interest = 20,000,000 × 0.042 × 7 ÷ 360. On the BA II Plus type 20000000 × 0.042 × 7 ÷ 360 = to get 16,333.33.",
+          "Repurchase price = 20,000,000 + 16,333.33 = 20,016,333.33.",
+          "Period return = interest ÷ cash lent = 16,333.33 ÷ 20,000,000 = 0.000816667. This is the same as a holding period return from 20,000,000 to 20,016,333.33.",
+          "Express as a percentage: 0.000816667 × 100 ≈ 0.0817% for the 7 days. This is not annualised."
+        ],
+        "answer": "Haircut ≈ 1.96%; repo interest ≈ $16,333.33; repurchase price ≈ $20,016,333.33; 7-day return ≈ 0.0817% (0.000817 as a decimal).",
+        "answer_value": 0.00081667,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":20000000,\"endPrice\":20016333.33,\"income\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Repo interest",
+          "latex": "\\text{Interest}=\\text{Cash lent}\\times r_{\\text{repo}}\\times\\frac{\\text{days}}{360}",
+          "where": "Cash lent is the amount received at the start; r_repo is the annualised repo rate (decimal); days is the actual number of days in the repo term; 360 is the money-market day-count basis."
+        },
+        {
+          "name": "Repurchase price",
+          "latex": "\\text{Repurchase price}=\\text{Cash lent}+\\text{Interest}",
+          "where": "Cash lent is the initial sale price; Interest is the repo interest for the term."
+        },
+        {
+          "name": "Haircut",
+          "latex": "\\text{Haircut}=1-\\frac{\\text{Cash lent}}{\\text{Collateral market value}}",
+          "where": "Cash lent is the loan amount; Collateral market value is the current value of the securities pledged."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up repo and reverse repo. The label depends on perspective: the cash borrower (securities seller) does a repo, and the cash lender (securities buyer) does a reverse repo.",
+        "Treating a repo as risk-free because it is collateralised. Counterparty, collateral-value, rollover and fire-sale risks all remain.",
+        "Reading a bigger haircut as more risk for the lender. A bigger haircut means more cushion, and it is demanded for volatile, long-maturity or lower-quality collateral.",
+        "Forgetting that the repo rate is a simple, annualised rate. Interest for the term needs days/360, and the period return is not the same as the annual rate.",
+        "Getting the rate direction wrong for a security on special. The borrower of cash against a scarce bond receives a lower repo rate, not a higher one."
+      ],
+      "builds_on": [
+        "Simple interest and day-count conventions",
+        "Holding period return",
+        "Collateralised (secured) lending"
+      ],
+      "leads_to": [
+        "Short-term funding alternatives for corporations and banks",
+        "Securities lending",
+        "Leverage, carry and funding liquidity risk"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch6:1:0",
+        "fed-trading-4000-p1:9:12",
+        "fed-trading-4000-p1:10:14",
+        "nyfed-sr740-repo-guide:21:21",
+        "richmondfed-money-market-ch6:4:5",
+        "nyfed-sr740-repo-guide:41:41"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A securities dealer sells Treasury notes to a money market fund today for cash. It agrees to buy the same notes back in 3 days at a slightly higher price. Which description of the two parties is correct?",
+        "options": [
+          {
+            "text": "The dealer is lending cash in a repo, and the fund is borrowing cash against the notes.",
+            "value": null,
+            "explanation": "This reverses the roles. The party that sells the securities receives cash, so it is the borrower, not the lender."
+          },
+          {
+            "text": "The dealer is borrowing cash in a repo, and the fund is on the reverse repo side.",
+            "value": null,
+            "explanation": "Correct. The securities seller raises cash and agrees to repurchase, which is a repo. The securities buyer lends the cash, which is a reverse repo."
+          },
+          {
+            "text": "The dealer is lending out the notes for a fee, and the fund is the repo seller.",
+            "value": null,
+            "explanation": "This confuses a repo with securities lending. In a repo the dealer receives cash, and the price difference is interest on that cash."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch6:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A borrower sells securities for $10,000,000 in a 90-day term repo and agrees to repurchase them for $10,150,000. What is the 90-day return to the cash lender, as a percentage of the cash lent? Round to two decimals in percent. Do not annualise.",
+        "options": [
+          {
+            "text": "1.50%",
+            "value": 0.015,
+            "explanation": "Correct. Interest of $150,000 divided by the $10,000,000 cash lent gives 1.50% for the 90-day period."
+          },
+          {
+            "text": "1.48%",
+            "value": 0.0148,
+            "explanation": "This divides the interest by the repurchase price ($10,150,000) instead of the cash lent."
+          },
+          {
+            "text": "6.00%",
+            "value": 0.06,
+            "explanation": "This annualises the 90-day return (1.50% × 360/90), but the question asks for the period return."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":10000000,\"endPrice\":10150000,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A lender provides $19,000,000 in cash against collateral with a market value of $20,000,000. Define the haircut as one minus cash lent divided by collateral value. What is the haircut?",
+        "options": [
+          {
+            "text": "5.26%, the $1,000,000 gap divided by the cash lent.",
+            "value": null,
+            "explanation": "This uses the cash lent as the base. The stated definition divides by the collateral value."
+          },
+          {
+            "text": "95.00%, the cash lent divided by collateral value.",
+            "value": null,
+            "explanation": "This is the cash-to-collateral ratio. The haircut is one minus this ratio."
+          },
+          {
+            "text": "5.00%, one minus 19 million over 20 million.",
+            "value": null,
+            "explanation": "Correct. 1 − 19/20 = 0.05, so the lender is over-collateralised by 5% of the collateral value."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "nyfed-sr740-repo-guide:21:21"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A cash lender in a repo is worried about the borrower defaulting. Which statement best describes the lender's main exposure and the usual protection?",
+        "options": [
+          {
+            "text": "The borrower keeps the coupons on the collateral, so the lender earns nothing; a higher repo rate removes this problem.",
+            "value": null,
+            "explanation": "The repo rate is the lender's return on the cash. Who receives the coupons is not the credit exposure."
+          },
+          {
+            "text": "Collateral may be worth less than the cash lent at default; a haircut and daily mark-to-market reduce this.",
+            "value": null,
+            "explanation": "Correct. The lender recovers cash by selling collateral, so a price fall below the loan is the key risk. Over-collateralisation and daily revaluation limit it."
+          },
+          {
+            "text": "The repo rate may rise during the term and cut the lender's interest; a haircut offsets this.",
+            "value": null,
+            "explanation": "This has the direction backwards. A rising repo rate would help a lender in a rolled-over or floating deal. A haircut is a credit cushion, not a rate hedge."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14",
+          "nyfed-sr740-repo-guide:21:21",
+          "richmondfed-money-market-ch6:3:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A lender must choose collateral for a repo and wants the biggest cushion where the risk is highest. For which collateral would it typically demand the largest haircut?",
+        "options": [
+          {
+            "text": "A 25-year bond issued by a lower-rated corporation.",
+            "value": null,
+            "explanation": "Correct. Haircuts rise with price volatility (longer maturity) and with credit risk, and this bond has both."
+          },
+          {
+            "text": "A 3-month Treasury bill issued by the government.",
+            "value": null,
+            "explanation": "Short maturity and top credit quality make this the safest collateral, so it needs the smallest haircut. Choosing it confuses safety with risk."
+          },
+          {
+            "text": "A 2-year Treasury note issued by the government.",
+            "value": null,
+            "explanation": "Government credit quality and a short maturity mean little price volatility and little credit risk, so only a small haircut is needed."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch6:4:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A dealer sells securities for $50,000,000 in a 30-day repo and agrees to repurchase them for $50,200,000. What is the 30-day return to the cash lender, as a percentage of the cash lent? Round to three decimals in percent. Do not annualise.",
+        "options": [
+          {
+            "text": "0.398%",
+            "value": 0.00398,
+            "explanation": "This divides the $200,000 interest by the repurchase price ($50,200,000) instead of the cash lent."
+          },
+          {
+            "text": "4.800%",
+            "value": 0.048,
+            "explanation": "This annualises the return (0.400% × 360/30), but the question asks for the 30-day period return."
+          },
+          {
+            "text": "0.400%",
+            "value": 0.004,
+            "explanation": "Correct. Interest of $200,000 divided by the $50,000,000 cash lent gives 0.400% for the 30-day period."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":50000000,\"endPrice\":50200000,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14",
+          "richmondfed-money-market-ch6:3:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A particular Treasury note is in unusually high demand because many market participants need it to deliver on short sales. It is said to be trading on special in the repo market. How is the repo rate on cash lent against this note most likely to compare with the rate on ordinary collateral?",
+        "options": [
+          {
+            "text": "Higher, because the scarce note makes the loan riskier for the cash lender.",
+            "value": null,
+            "explanation": "Scarcity does not raise credit risk. This ignores that the note's owner is lending a scarce security and is paid for it."
+          },
+          {
+            "text": "The same, because the note's credit quality has not changed.",
+            "value": null,
+            "explanation": "Credit quality is not the only driver. Demand for the specific security also moves the repo rate."
+          },
+          {
+            "text": "Lower, because the owner is compensated for lending the scarce note.",
+            "value": null,
+            "explanation": "Correct. The owner borrows cash and accepts a below-market rate on it, which is how the owner earns a premium for supplying the in-demand security."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:9:12"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A dealer finances a 10-year fixed-coupon bond with a series of overnight repos. Which risk is a direct result of this funding structure?",
+        "options": [
+          {
+            "text": "The repo rate may rise or lenders may refuse to roll over, while the bond's coupon stays fixed.",
+            "value": null,
+            "explanation": "Correct. Long-dated fixed-rate assets funded overnight face rate risk on the funding cost and rollover (funding) risk if lenders pull back."
+          },
+          {
+            "text": "The dealer gives up the bond's coupons, so its interest income falls to zero.",
+            "value": null,
+            "explanation": "The seller continues to receive the coupons and principal during the repo. Assuming the lender keeps them is a common mistake."
+          },
+          {
+            "text": "The dealer permanently loses ownership of the bond after the first overnight repo settles.",
+            "value": null,
+            "explanation": "The agreement obliges the dealer to repurchase the bond. A repo is economically a secured loan, not an outright sale."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14",
+          "nyfed-sr740-repo-guide:41:41"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "In a repo, who is the cash borrower, and what is the same deal called from the cash lender's side?",
+        "back": "The cash borrower is the securities seller, who agrees to repurchase later at a higher price. The lender's side of the identical transaction is a reverse repo.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch6:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is repo interest calculated for a term of d days?",
+        "back": "Interest = cash lent × repo rate × d/360. The repurchase price is the cash lent plus this interest.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14",
+          "richmondfed-money-market-ch6:3:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is a haircut in a repo, and when is it larger?",
+        "back": "It is the cushion between collateral value and cash lent, equal to 1 − cash lent ÷ collateral value. It is larger for volatile, longer-maturity or lower-credit-quality collateral.",
+        "cited_chunk_ids": [
+          "nyfed-sr740-repo-guide:21:21",
+          "richmondfed-money-market-ch6:4:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does it mean when a bond is 'on special', and what happens to its repo rate?",
+        "back": "Demand for that specific bond is unusually high. The bond's owner, who borrows cash against it, gets a below-market repo rate as payment for lending the scarce bond.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:9:12"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Name the main risks of repos for the parties involved.",
+        "back": "Counterparty credit risk (collateral may be worth less than the loan at default), market and interest-rate risk, rollover and funding risk on short-term funding, and systemic fire-sale risk in stress.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:10:14",
+          "nyfed-sr740-repo-guide:41:41"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:40:16.857Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1188,
+      "outputTokens": 551,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008003,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:40:24.844Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13559,
+      "outputTokens": 1153,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.038817199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.04682019999999999
+}

@@ -1,0 +1,886 @@
+{
+  "losId": "fixed-income-10-los3",
+  "losText": "define, calculate, and interpret Macaulay duration.",
+  "moduleId": "fixed-income-10",
+  "moduleTitle": "Interest Rate Risk and Return",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T19:45:58.346Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "sfu-poitras-duration-convexity:9:3",
+      "title": "Lecture 6: Fixed Income Portfolio Management, Duration and Convexity (G. Poitras, Simon Fraser University)",
+      "locator": "pp. 9–14",
+      "url": "https://www.sfu.ca/~poitras/411_lec6.pdf#page=9",
+      "license": "Course lecture on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:6:4",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 6–8",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=6",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec04:36:7",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 4-6: Fixed-Income Securities",
+      "locator": "pp. 36–41",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/df418b972d36cd53ae5c375b8af61e53_MIT15_401F08_lec04.pdf#page=36",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-interest-rate-risk:78:92",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 78–79",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-feds-2006-28:11:7",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=11",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:1:0",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 1–2",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=1",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-fixedincome1:13:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 13: Fixed Income part 1",
+      "locator": "pp. 13–16",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/0c35d86c9526748cf02516deb8bbb450_1543313fixedincome1.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "frbsf-el-2000-mbs-interest-rate-risk:1:0",
+      "title": "Measuring Interest Rate Risk for Mortgage-Related Assets (FRBSF Economic Letter, January 2000; empirical duration)",
+      "locator": "Measuring Interest Rate Risk for Mortgage-Related Assets - San Francisco Fed",
+      "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2000/01/measuring-interest-rate-risk-for-mortgage-related-assets/",
+      "license": "Federal Reserve Bank of San Francisco publication; no open licence stated, so treated as all rights reserved",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "ritchken-measures-of-price-sensitivity:37:24",
+      "title": "Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University)",
+      "locator": "pp. 37–38",
+      "url": "https://faculty.weatherhead.case.edu/ritchken/documents/Chap_9.pdf#page=37",
+      "license": "Course chapter on the author's university page; no licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "ftse-fixed-income-indices-guide:132:153",
+      "title": "FTSE Fixed Income Indices Guide (FTSE Russell / LSEG)",
+      "locator": "p. 132",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-fixed-income-indices-guide.pdf#page=132",
+      "license": "© 2026 London Stock Exchange Group plc; free to read, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "mpra-key-rate-duration:6:4",
+      "title": "Key rate duration paper (Zeballos, Banco Central de Bolivia staff paper, MPRA 46057)",
+      "locator": "pp. 6–7",
+      "url": "https://mpra.ub.uni-muenchen.de/46057/1/MPRA_paper_46057.pdf#page=6",
+      "license": "Author/institution copyright; posted openly in the MPRA repository, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "fed-feds-2006-28:9:6",
+      "title": "The U.S. Treasury Yield Curve: 1961 to the Present (Gürkaynak, Sack & Wright, FEDS 2006-28)",
+      "locator": "pp. 9–11",
+      "url": "https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf#page=9",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Macaulay Duration: The Bond's Average Waiting Time",
+      "summary": "Macaulay duration is the average time, in years, an investor waits to collect a bond's cash flows, with each payment weighted by its present value. It condenses a bond's payment schedule into one number and is the base for later interest-rate-risk tools.",
+      "sections": [
+        {
+          "heading": "Maturity is a poor summary of a coupon bond",
+          "body_markdown": "Think of a bond as a bundle of IOUs, each paid on a different date. A 10-year bond with big coupons hands back a lot of your money in years 1 to 9, so you do not really wait 10 years for your money. Only a **zero-coupon bond** (one that pays nothing until the end) makes you wait the full term. Maturity alone therefore overstates how long your money is tied up. We need an *average* waiting time that reflects when the money actually arrives."
+        },
+        {
+          "heading": "Building the weighted average",
+          "body_markdown": "A plain average of payment dates ignores that some payments are worth far more than others. Macaulay duration weights each date by how much of the bond's price that payment represents.\n\n1. Discount each cash flow to today at the yield to maturity (YTM): $PV_t = CF_t/(1+y)^t$.\n2. Divide each present value by the bond's price. That is the weight $w_t$. The weights sum to 1.\n3. Multiply each time $t$ by its weight and add everything up.\n\nThe final payment includes the principal, so it usually carries most of the weight. That is why duration sits fairly close to maturity yet below it. The weights use *present values over price*, not raw cash flows, and the price is the sum of those present values."
+        },
+        {
+          "heading": "Units, periods and the shortcut cases",
+          "body_markdown": "The sum $\\sum t\\,w_t$ comes out in the units of $t$. If the bond pays semiannually, $t$ counts half-years, so you must **divide by the number of payments per year** to express duration in years. For example, 6.89 half-years is 3.45 years.\n\nTwo anchor facts:\n- A **zero-coupon bond** has all its weight on the last date, so Macaulay duration equals its maturity.\n- A **coupon bond** has early payments that pull the average earlier, so its duration is less than its maturity.\n\nAs a result, the duration of a fixed-rate bond is always between 0 and its time to maturity."
+        },
+        {
+          "heading": "What moves duration, and how to read the number",
+          "body_markdown": "Holding the other features constant, for a bond of a given maturity:\n- **Higher coupon rate → shorter duration**, because more money arrives early.\n- **Higher YTM → shorter duration**, because heavier discounting shrinks the value of distant cash flows relative to near ones.\n- **Longer maturity → usually longer duration.** For par and premium bonds it always rises with maturity. For deep-discount bonds it can occasionally fall.\n\n**Reading the number:** a duration of 4.5 means the cash-flow-weighted average wait is 4.5 years. It is a measure of *time*. It is *not* itself a percentage price change. Dividing it by $(1+y)$, or by $(1+y/m)$ for $m$ payments a year, gives a related measure (modified duration) that links to price sensitivity. That step belongs to a later topic."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 3-year bond has a face value of 100 and pays a 6% annual coupon, with the next coupon exactly one year away. Its yield to maturity is 5% (annual compounding). Calculate its Macaulay duration in years.",
+        "steps": [
+          "Cash flows: year 1 = 6, year 2 = 6, year 3 = 106 (final coupon plus principal).",
+          "Discount each at 5%. Discount factors are 1/1.05 = 0.952381, 1/1.05² = 0.907029, 1/1.05³ = 0.863838. On the BA II Plus you can get each PV by entering N = t, I/Y = 5, PMT = 0, FV = −CF, then CPT PV.",
+          "Present values: 6 × 0.952381 = 5.7143; 6 × 0.907029 = 5.4422; 106 × 0.863838 = 91.5668.",
+          "Price = 5.7143 + 5.4422 + 91.5668 = 102.7233.",
+          "Weights (PV ÷ price): 0.05563, 0.05298, 0.89139. They sum to 1.",
+          "Time-weighted PVs (t × PV): 1 × 5.7143 = 5.7143; 2 × 5.4422 = 10.8844; 3 × 91.5668 = 274.7005. Sum = 291.2991.",
+          "Macaulay duration = 291.2991 ÷ 102.7233 = 2.8358 years, shorter than the 3-year maturity because of the coupons."
+        ],
+        "answer": "Macaulay duration is about 2.84 years (2.8358).",
+        "answer_value": 2.8358,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":3,\"freq\":1},\"ytm\":0.05}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Present-value weight of a cash flow",
+          "latex": "w_t = \\frac{CF_t/(1+y)^t}{P}",
+          "where": "w_t = weight of the cash flow at period t; CF_t = cash flow at period t (coupon, or coupon plus principal at the end); y = yield to maturity per period; P = bond price, the sum of all discounted cash flows."
+        },
+        {
+          "name": "Macaulay duration",
+          "latex": "\\text{MacDur}_{\\text{years}} = \\frac{1}{m}\\sum_{t=1}^{N} t\\,w_t",
+          "where": "t = period number; w_t = present-value weight from above; N = total number of periods; m = payments per year (1 for annual, 2 for semiannual), so dividing by m converts periods to years."
+        }
+      ],
+      "exam_traps": [
+        "Reporting duration in half-years (or quarters) for a semiannual bond. Divide the period-based result by the number of payments per year.",
+        "Weighting times by raw cash flows, or dividing by face value instead of price. The weights must be present values divided by the bond's price, so that they sum to 1.",
+        "Thinking duration equals maturity for any bond. That holds only for zero-coupon bonds; a coupon bond's duration is shorter.",
+        "Reading a Macaulay duration of, say, 4.5 as 'the price falls 4.5% for a 1% rise in yield'. That is a different measure, so Macaulay duration is a time measure in years.",
+        "Mixing up the direction of the effects. A higher coupon or a higher yield shortens duration; it does not lengthen it."
+      ],
+      "builds_on": [
+        "Bond pricing as the present value of cash flows",
+        "Yield to maturity",
+        "Zero-coupon bonds vs coupon bonds",
+        "Weighted averages"
+      ],
+      "leads_to": [
+        "Modified duration",
+        "Price change estimates from duration",
+        "Convexity",
+        "Duration and the investment horizon",
+        "Immunization"
+      ],
+      "cited_chunk_ids": [
+        "ritchken-measures-of-price-sensitivity:6:4",
+        "mit-ocw-15433-fixedincome1:13:3",
+        "fed-feds-2006-28:9:6",
+        "fed-feds-2006-28:11:7",
+        "mit-ocw-15401-lec04:36:7",
+        "ftse-fixed-income-indices-guide:132:153"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A 2-year bond with a face value of 100 pays a 4% annual coupon and is priced to yield 4% (annual compounding). Calculate its Macaulay duration in years, rounded to two decimals.",
+        "options": [
+          {
+            "text": "2.00 years",
+            "value": 2,
+            "explanation": "Uses the bond's maturity as its duration. That is correct only for a zero-coupon bond; the year-1 coupon pulls the average earlier."
+          },
+          {
+            "text": "1.96 years",
+            "value": 1.96,
+            "explanation": "Correct. PVs are 3.846 and 96.154 (price = 100). Weighted sum = 1 × 3.846 + 2 × 96.154 = 196.154, and 196.154 ÷ 100 = 1.96."
+          },
+          {
+            "text": "1.50 years",
+            "value": 1.5,
+            "explanation": "Takes the simple average of the payment times 1 and 2, ignoring that the final payment carries almost all of the present value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.04,\"years\":2,\"freq\":1},\"ytm\":0.04}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "When calculating Macaulay duration, the weight applied to the time of each cash flow is best described as:",
+        "options": [
+          {
+            "text": "the cash flow divided by the sum of all undiscounted cash flows",
+            "value": null,
+            "explanation": "Ignores discounting, so near and distant payments are not valued at today's prices. The weights would not be present-value weights."
+          },
+          {
+            "text": "the present value of the cash flow divided by face value",
+            "value": null,
+            "explanation": "Dividing by face value is wrong unless the bond is priced at par, and the weights then do not sum to 1 for premium or discount bonds."
+          },
+          {
+            "text": "the present value of the cash flow divided by the bond's price",
+            "value": null,
+            "explanation": "Correct. Each discounted cash flow is a share of the price, so the weights sum to 1 and the result is a present-value-weighted average time."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 2-year bond with a face value of 100 pays a 6% coupon semiannually and is priced at par to yield 6% (stated annual rate, compounded semiannually). Calculate its Macaulay duration in years, rounded to two decimals.",
+        "options": [
+          {
+            "text": "3.83 years",
+            "value": 3.83,
+            "explanation": "This is the duration in half-year periods. The sum of t × w_t was not divided by 2 payments per year to convert to years."
+          },
+          {
+            "text": "1.94 years",
+            "value": 1.94,
+            "explanation": "Treats the bond as paying one 6% coupon a year (annual flows at 6%). The semiannual payment pattern shortens the duration further."
+          },
+          {
+            "text": "1.91 years",
+            "value": 1.91,
+            "explanation": "Correct. With 4 periods at 3% per period, duration is about 3.8286 half-years. Dividing by 2 gives 1.91 years."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.06,\"years\":2,\"freq\":2},\"ytm\":0.06}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "mit-ocw-15401-lec04:36:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor holds an 8-year zero-coupon bond. Compared with the bond's time to maturity, its Macaulay duration is:",
+        "options": [
+          {
+            "text": "equal to 8 years, because the only cash flow arrives at maturity",
+            "value": null,
+            "explanation": "Correct. All the weight sits on year 8, so the weighted average time equals the maturity."
+          },
+          {
+            "text": "shorter than 8 years, because discounting lowers the average time",
+            "value": null,
+            "explanation": "Confuses discounting with timing. Discounting changes the size of the weights, but with a single cash flow its weight is 100%, so the time does not change."
+          },
+          {
+            "text": "longer than 8 years, because interest compounds until maturity",
+            "value": null,
+            "explanation": "Duration cannot exceed the time of the last cash flow, since it is a weighted average of the payment dates."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year bond with a face value of 100 pays a 5% annual coupon. Its yield to maturity is 8% (annual compounding), so it trades at a discount (price about 92.27). Calculate its Macaulay duration in years, rounded to two decimals.",
+        "options": [
+          {
+            "text": "2.85 years",
+            "value": 2.85,
+            "explanation": "Correct. The weighted sum of PVs is 263.26 and the price is 92.27, so the duration is 263.26 ÷ 92.27 = 2.85."
+          },
+          {
+            "text": "2.63 years",
+            "value": 2.63,
+            "explanation": "Divides the time-weighted present values (263.26) by the face value of 100 instead of by the bond's price."
+          },
+          {
+            "text": "3.00 years",
+            "value": 3,
+            "explanation": "Uses maturity as duration. Coupons paid in years 1 and 2 make the duration shorter than 3 years."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.05,\"years\":3,\"freq\":1},\"ytm\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-fixedincome1:13:3",
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A 6-year bond with annual coupons has a Macaulay duration of 5.4 years. Which statement best explains why the duration is below 6 years?",
+        "options": [
+          {
+            "text": "Cash flows are discounted at the yield, which pulls every payment date earlier",
+            "value": null,
+            "explanation": "Discounting changes the value of each payment, not the date it is received. A zero-coupon bond is discounted too, yet its duration equals its maturity."
+          },
+          {
+            "text": "Coupons arrive before maturity, so the present-value-weighted average time falls below 6",
+            "value": null,
+            "explanation": "Correct. Early coupons carry some of the weight at dates earlier than year 6, which lowers the weighted average."
+          },
+          {
+            "text": "Duration is the percentage price fall for a 1% rise in yield, so it need not equal 6",
+            "value": null,
+            "explanation": "Mixes up Macaulay duration with price sensitivity. Macaulay duration is a weighted average time in years, not a percentage."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-feds-2006-28:9:6",
+          "fed-feds-2006-28:11:7",
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Bond X and Bond Y both mature in 10 years and have the same yield to maturity. Bond X pays a 3% coupon and Bond Y pays a 7% coupon. Which statement about their Macaulay durations is correct?",
+        "options": [
+          {
+            "text": "Bond Y has the longer duration because it pays more total interest",
+            "value": null,
+            "explanation": "Reverses the effect. Bigger coupons mean more money arrives early, which shortens the weighted average time."
+          },
+          {
+            "text": "The two durations are equal because maturity and yield are the same",
+            "value": null,
+            "explanation": "Duration depends on the pattern of cash flows as well as maturity and yield, so the coupon rate matters."
+          },
+          {
+            "text": "Bond X has the longer duration because less of its value arrives early",
+            "value": null,
+            "explanation": "Correct. A lower coupon shifts more weight to the final payment, so Bond X's duration is longer (closer to 10 years)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:36:7",
+          "fed-feds-2006-28:11:7",
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A 5-year bond with a face value of 100 pays a 12% annual coupon and is priced at par to yield 12% (annual compounding). Calculate its Macaulay duration in years, rounded to two decimals.",
+        "options": [
+          {
+            "text": "4.04 years",
+            "value": 4.04,
+            "explanation": "Correct. Duration is (1.12/0.12) × (1 − 1/1.12^5) = 9.3333 × 0.43257 = 4.04 years, below the 5-year maturity because of the large coupons."
+          },
+          {
+            "text": "5.00 years",
+            "value": 5,
+            "explanation": "Uses maturity as duration. This holds only for a zero-coupon bond."
+          },
+          {
+            "text": "3.00 years",
+            "value": 3,
+            "explanation": "Takes the simple average of the payment times 1 through 5, ignoring the heavy present-value weight of the final payment."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "macaulayDuration",
+          "args_json": "{\"bond\":{\"face\":100,\"couponRate\":0.12,\"years\":5,\"freq\":1},\"ytm\":0.12}"
+        },
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does Macaulay duration measure, and in what units?",
+        "back": "The present-value-weighted average time until a bond's cash flows are received. It is measured in years.",
+        "cited_chunk_ids": [
+          "ftse-fixed-income-indices-guide:132:153",
+          "occ-interest-rate-risk:78:92",
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How are the weights built in the Macaulay duration calculation?",
+        "back": "Weight = present value of a cash flow ÷ the bond's price. The weights sum to 1. Each payment time t is multiplied by its weight and the products are added.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "mit-ocw-15433-fixedincome1:13:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does Macaulay duration compare with maturity for a zero-coupon bond versus a coupon bond?",
+        "back": "Zero-coupon: duration equals maturity. Coupon bond: duration is less than maturity, because coupons are received early.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "For a bond of a given maturity, how do the coupon rate and YTM affect Macaulay duration?",
+        "back": "A higher coupon rate shortens duration, and a higher YTM shortens duration. A lower coupon or lower YTM lengthens it.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec04:36:7",
+          "fed-feds-2006-28:11:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Your Macaulay duration calculation for a semiannual bond gives 6.89. What must you do before reporting it?",
+        "back": "6.89 is in half-year periods. Divide by 2 payments per year to get 3.45 years.",
+        "cited_chunk_ids": [
+          "ritchken-measures-of-price-sensitivity:6:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T19:45:44.186Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1002,
+      "outputTokens": 1128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.013401,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T19:45:58.346Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-10-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14547,
+      "outputTokens": 2088,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0501432,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0635442
+}
