@@ -1,0 +1,437 @@
+{
+  "losId": "derivatives-01-los2",
+  "losText": "describe the basic features of derivative markets, and contrast over-the-counter and exchange-traded derivative markets",
+  "moduleId": "derivatives-01",
+  "moduleTitle": "Derivative Instrument and Derivative Market Features",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:55:29.606Z",
+  "retrieved": [
+    {
+      "id": "chicagofed-derivatives-1:8:8",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 8–9",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=8",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p2:57:103",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 57",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=57",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-1:1:1",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 1–2",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:60:110",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 60–61",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=60",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-3:6:6",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 6–7",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=6",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-3:5:5",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 5–6",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=5",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:41:43",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "p. 41",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=41",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-3:7:7",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 7–8",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=7",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-1:7:7",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 7–8",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=7",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:19:34",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 19–20",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=19",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-3:3:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 3–4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=3",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-4:4:4",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 4: Hedging (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 4–5",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-4-hedging-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.04
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Exchange-Traded vs Over-the-Counter Derivative Markets",
+      "summary": "Derivatives trade in two kinds of markets: organized exchanges with standard contracts, and private dealer networks with custom contracts. Knowing how they differ in standardization, credit risk, transparency, regulation and liquidity lets you pick the right market for a hedging or trading need, and it is a regular exam topic.",
+      "sections": [
+        {
+          "heading": "Where derivatives trade: two venues",
+          "body_markdown": "A **derivative market** is a place where people buy and sell contracts whose value depends on something else, such as a stock index, an interest rate or a commodity price. Participants use these markets for three broad purposes:\n\n- **Hedging**: reducing an existing risk.\n- **Speculating**: taking a risk in the hope of profit.\n- **Dealing (market making)**: standing between hedgers and speculators and earning a spread.\n\nThere are two main venues:\n\n1. **Exchange-traded (listed) markets**: contracts are traded on an organized exchange. Futures and many options are listed this way.\n2. **Over-the-counter (OTC) markets**: two parties deal directly, usually through a dealer such as a large bank. Forwards, swaps and many options trade this way.\n\nThink of the difference as buying a standard-size shirt in a store with posted prices (exchange) versus ordering a suit from a tailor (OTC).\n\nNote that OTC trading is not unique to derivatives. Bonds, loans and currencies also trade OTC.\n\n**What is common to both:** a contract can only exist if one side's gain is the other side's loss. Both venues serve hedgers, speculators and dealers.\n\nIn the exam, \"OTC\" and \"private\" are linked. \"Exchange\" and \"public\" are linked.\n\nThis lesson covers the market features only. The definition of a derivative instrument is a separate topic.\n\n**Section checklist:** venues, purposes, tailor-vs-store analogy.\n\n(Primary focus: the venue comparison.)"
+        },
+        {
+          "heading": "Exchange-traded markets: standard, transparent, cleared",
+          "body_markdown": "On an exchange, the contract terms (what the underlying is, quantity or contract size, quality, delivery or expiry date) are set by the exchange. This is **standardization**. Buyers and sellers then only need to agree on the price.\n\nFeatures that follow from standardization:\n\n- **Liquidity and many participants**: many professional and retail traders trade the same contract, so it is usually easy to find a counterparty.\n- **Transparency and price discovery**: trades are reported, and prices are visible. The large volume of trades produces reliable market prices.\n- **Fungibility**: any one contract is interchangeable with another of the same type. You can open a position and later close it with an *offsetting trade* without dealing with the original counterparty. For example, a buyer of a futures contract later sells the same contract.\n- **Regulation**: in the U.S., futures trade on regulated contract markets overseen by the CFTC.\n- **Margin**: each party posts a good-faith deposit called **margin** to cover potential losses. The exchange's clearinghouse sets and administers it. Positions are also marked to market regularly, a point covered in the futures modules.\n\n**Open interest** is the number of contracts that are still outstanding (neither closed out nor delivered). It differs from trading *volume*, which counts contracts traded in a period. Open interest is one gauge of how liquid a contract is.\n\nLiquidity is not guaranteed everywhere. Some listed contracts trade rarely, and most of the trading in active ones tends to be in shorter-dated contracts."
+        },
+        {
+          "heading": "The clearinghouse and counterparty credit risk",
+          "body_markdown": "A **clearinghouse** (central counterparty, or CCP) sits in the middle of every exchange-traded trade. Through a legal process called **novation**, the original buyer–seller contract is replaced by two contracts: one between the buyer and the clearinghouse, and one between the seller and the clearinghouse.\n\nThe CCP therefore does three things:\n\n1. Acts as **buyer to every seller and seller to every buyer**.\n2. Acts as **guarantor**, taking on the credit risk of the cleared trades.\n3. Provides **multilateral netting**, offsetting positions across members.\n\nOnly clearing members deal with the CCP directly. Other firms go through a member. Because every gain at the CCP has an equal and opposite loss, the CCP does not take on price risk in normal times.\n\n**Result:** counterparty credit risk (the risk the other side fails to pay) is very low in listed markets, and traders stay anonymous to each other.\n\nContrast this with OTC trades that are not centrally cleared. There the two parties hold the position **bilaterally**, so each is exposed to the other's default. Parties often post collateral to reduce this risk."
+        },
+        {
+          "heading": "OTC markets: customized, private, credit-sensitive",
+          "body_markdown": "In the OTC market a dealer and a client negotiate the contract privately. Terms such as amount, date and settlement can be tailored, so the contract can match a particular risk exactly. This is why firms sometimes choose OTC to hedge: a standard contract may leave a mismatch in size or date (basis or quantity risk).\n\nTypical OTC features:\n\n- **Customization**, though within limits. Each OTC market also has generic, \"vanilla\" contracts that are more liquid than special ones.\n- **Fewer participants**, mostly institutions rather than retail investors, and **a relatively small number of large transactions**.\n- **Less transparency**: terms are not widely disclosed, so market prices are not readily available. Many contracts are valued with models.\n- **Counterparty credit risk** when not cleared.\n- **Harder to exit**: an OTC contract generally can be cancelled only by agreement with the counterparty or by assigning it. A common workaround is to enter a second, offsetting contract. That reduces price risk but adds a new counterparty's credit risk.\n- **Dealer dependence**: liquidity relies on willingness to face major dealers, so worries about a dealer's credit can dry up trading.\n\n**Post-2008 reforms.** After the financial crisis, the G-20 pushed for standardized OTC derivatives to be centrally cleared, traded on platforms (swap execution facilities) where appropriate, and reported to trade repositories. Non-cleared trades face higher capital and margin requirements. The reforms narrowed the gap between the two markets. Swap futures are a related development: listed contracts designed to mimic OTC swap terms.\n\n**Summary table (mental model)**\n\n| Feature | Exchange-traded | OTC |\n|---|---|---|\n| Terms | Standardized | Customized |\n| Counterparty credit risk | Low (CCP) | Higher unless cleared |\n| Transparency | High | Lower |\n| Closing out | Offsetting trade | Negotiate/assign/offset |"
+        }
+      ],
+      "worked_example": {
+        "problem": "A food manufacturer must hedge the price of a commodity input. It needs coverage for an unusual quantity on a specific date that does not match any listed contract. A dealer offers to write a tailored forward-type contract with no central clearing. The treasurer asks you to compare the two routes and recommend one. What are the key trade-offs?",
+        "steps": [
+          "Identify the need: an exact match for quantity and date. Standardized contracts have fixed sizes and dates, so a listed contract would hedge only approximately and leave some residual mismatch.",
+          "Evaluate the OTC route: a customized contract can match the exposure exactly, which removes that mismatch.",
+          "Identify the cost of the OTC route: with no CCP, the manufacturer faces the dealer's default risk (counterparty credit risk). It may need to post collateral, and the contract's terms and price are less visible to others.",
+          "Evaluate the exchange route: it offers low credit risk through the clearinghouse, high transparency, easy exit through an offsetting trade and margin requirements. However, it gives only an imperfect hedge here.",
+          "Check exit flexibility: if the firm later wants out of the OTC contract, it must agree terms with the dealer or take an offsetting contract, which adds a new credit exposure.",
+          "Conclude: the choice depends on how important the exact match is relative to credit risk and liquidity."
+        ],
+        "answer": "The OTC contract gives an exact hedge but brings counterparty credit risk and harder exit. The exchange contract gives low credit risk, transparency and easy exit but only an approximate hedge.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Saying exchange-traded contracts are customized. Standardization is their defining feature. Customization belongs to OTC.",
+        "Believing OTC contracts always carry more counterparty risk than listed ones after the reforms. The correct statement is that non-cleared OTC trades carry bilateral credit risk. Cleared OTC trades face the CCP.",
+        "Mixing up open interest (contracts still outstanding) with trading volume (contracts traded in a period).",
+        "Assuming OTC markets are only for derivatives or are unregulated. Many non-derivative instruments trade OTC, and reforms now require clearing, reporting and margin for many OTC derivatives.",
+        "Thinking the clearinghouse eliminates all risk. It removes counterparty credit risk for the two parties but depends on margin and the CCP's own strength, and it does not remove price risk from the traders."
+      ],
+      "builds_on": [
+        "Definition of a derivative",
+        "Hedging vs speculation",
+        "Counterparty credit risk"
+      ],
+      "leads_to": [
+        "Forward contracts vs futures contracts",
+        "Margin and daily settlement",
+        "Swaps and options",
+        "Central clearing and credit risk"
+      ],
+      "cited_chunk_ids": [
+        "chicagofed-derivatives-1:8:8",
+        "chicagofed-derivatives-1:1:1",
+        "chicagofed-derivatives-1:7:7",
+        "chicagofed-derivatives-3:5:5",
+        "chicagofed-derivatives-3:6:6",
+        "chicagofed-derivatives-3:3:3",
+        "occ-risk-mgmt-derivatives:41:43",
+        "fed-trading-4000-p2:19:34",
+        "chicagofed-derivatives-4:4:4"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the role of the clearinghouse in an exchange-traded derivatives market?",
+        "options": [
+          {
+            "text": "It sets the price of each contract so that buyers and sellers do not have to negotiate.",
+            "value": null,
+            "explanation": "Prices come from trading among participants. The clearinghouse does not set them, so this confuses price discovery with clearing."
+          },
+          {
+            "text": "It acts as buyer to every seller and seller to every buyer, guaranteeing performance.",
+            "value": null,
+            "explanation": "Correct. Through novation the clearinghouse becomes the counterparty to each side, which assumes the credit risk of cleared trades."
+          },
+          {
+            "text": "It matches the two original parties so that each remains exposed to the other's default.",
+            "value": null,
+            "explanation": "This describes a bilateral (non-cleared OTC) arrangement. Novation removes the direct exposure between the original parties."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:1",
+          "chicagofed-derivatives-1:7:7"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company must hedge an exposure whose size and date do not match any listed contract. Which market is most likely to provide an exact hedge, and what is the main drawback?",
+        "options": [
+          {
+            "text": "The OTC market, because contracts can be customized, but the company bears counterparty credit risk.",
+            "value": null,
+            "explanation": "Correct. Tailoring is the key OTC advantage, and a non-cleared contract exposes each party to the other's default."
+          },
+          {
+            "text": "The exchange market, because contracts can be customized, but the company must pay higher margin.",
+            "value": null,
+            "explanation": "Exchange contracts are standardized, not customized. This mixes up the key feature of the two markets."
+          },
+          {
+            "text": "The exchange market, because the clearinghouse tailors terms, but liquidity is always poor.",
+            "value": null,
+            "explanation": "The clearinghouse guarantees trades but does not tailor terms. Listed contracts are typically liquid, so the stated drawback is also wrong."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-4:4:4",
+          "chicagofed-derivatives-1:8:8"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In exchange-traded derivatives markets, open interest is best defined as the:",
+        "options": [
+          {
+            "text": "number of contracts traded during the most recent trading session.",
+            "value": null,
+            "explanation": "This is trading volume, a flow measure of activity in a period, not the stock of outstanding contracts."
+          },
+          {
+            "text": "total value of the underlying assets that all contracts reference.",
+            "value": null,
+            "explanation": "This confuses open interest with notional value. Open interest counts contracts, not their underlying value."
+          },
+          {
+            "text": "number of contracts that remain outstanding, neither closed out nor delivered.",
+            "value": null,
+            "explanation": "Correct. Open interest is the count of open positions and is one indicator of a contract's liquidity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:8:8",
+          "occ-risk-mgmt-derivatives:41:43"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with exchange-traded markets, over-the-counter derivative markets are best characterized by:",
+        "options": [
+          {
+            "text": "standardized contracts and a large number of mostly retail participants.",
+            "value": null,
+            "explanation": "This describes exchange-traded markets, not OTC markets."
+          },
+          {
+            "text": "customized contracts and a smaller number of large trades among mostly institutions.",
+            "value": null,
+            "explanation": "Correct. OTC markets rely on negotiated, tailored deals with institutional dealers and clients, typically in large size."
+          },
+          {
+            "text": "extensive public price reporting that leads to strong price discovery.",
+            "value": null,
+            "explanation": "Extensive trade reporting and price discovery are typical of exchange markets. OTC terms are generally not disclosed."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:8:8",
+          "chicagofed-derivatives-3:5:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following best reflects the aim of the post-2008 regulatory reforms for OTC derivatives?",
+        "options": [
+          {
+            "text": "Standardized OTC contracts should be centrally cleared and trades reported to trade repositories.",
+            "value": null,
+            "explanation": "Correct. The clearing mandate targeted standardized contracts, alongside reporting, platform trading where appropriate and higher capital or margin for non-cleared trades."
+          },
+          {
+            "text": "All OTC derivatives should be banned and replaced by listed futures contracts.",
+            "value": null,
+            "explanation": "The reforms did not ban OTC trading. Customized contracts remain, though under higher requirements."
+          },
+          {
+            "text": "Counterparties to OTC trades should be required to keep all contract terms confidential.",
+            "value": null,
+            "explanation": "The reforms pushed toward more transparency through reporting, not more secrecy."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-3:6:6",
+          "chicagofed-derivatives-3:5:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor holds a long position in an exchange-traded futures contract and wants to exit before expiration. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "She must wait until expiration, because futures positions cannot be ended earlier.",
+            "value": null,
+            "explanation": "Early exit is possible and common in listed markets. Waiting is not required."
+          },
+          {
+            "text": "She must negotiate a cancellation with the original counterparty, as in an OTC deal.",
+            "value": null,
+            "explanation": "This is the OTC procedure. In a listed market the counterparty is the clearinghouse and the trader does not negotiate with the original party."
+          },
+          {
+            "text": "She can place an offsetting trade, because contracts are fungible and standardized.",
+            "value": null,
+            "explanation": "Correct. Fungibility lets a position opened by one trade be closed by an equal and opposite trade."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:8:8",
+          "occ-risk-mgmt-derivatives:41:43"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A dealer holds a large customized OTC contract that it cannot easily cancel. It enters a second OTC contract with a different counterparty that has offsetting characteristics. What is the most likely effect?",
+        "options": [
+          {
+            "text": "Price risk and counterparty credit risk are both eliminated, because the two contracts cancel.",
+            "value": null,
+            "explanation": "The contracts offset price exposure but are with different counterparties, so credit risk is not eliminated."
+          },
+          {
+            "text": "Price risk is reduced, but additional counterparty credit risk is introduced.",
+            "value": null,
+            "explanation": "Correct. The offset hedges market exposure, but the dealer now depends on a second party to perform."
+          },
+          {
+            "text": "Counterparty credit risk is reduced, but price risk is increased by the new contract.",
+            "value": null,
+            "explanation": "This reverses the effects. The offsetting contract reduces price risk and adds credit exposure."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:41:43"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the main differences between exchange-traded and OTC derivatives in contract terms?",
+        "back": "Exchange-traded: standardized terms set by the exchange. OTC: customized, privately negotiated terms (with some generic vanilla contracts).",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:8:8",
+          "fed-trading-4000-p2:19:34"
+        ]
+      },
+      {
+        "front": "What three functions does a clearinghouse (CCP) perform?",
+        "back": "It acts as buyer to every seller and seller to every buyer (novation), guarantees cleared trades (assumes credit risk), and nets positions across members.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:7:7"
+        ]
+      },
+      {
+        "front": "What is open interest, and how does it differ from volume?",
+        "back": "Open interest is the number of contracts still outstanding (not closed or delivered). Volume is the number of contracts traded in a period.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:8:8"
+        ]
+      },
+      {
+        "front": "Why is counterparty credit risk typically higher in non-cleared OTC trades?",
+        "back": "The two parties hold the position bilaterally, so each depends on the other to perform. There is no clearinghouse guarantee, though collateral may reduce the risk.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-3:5:5",
+          "occ-risk-mgmt-derivatives:41:43"
+        ]
+      },
+      {
+        "front": "What did the post-2008 OTC reforms target?",
+        "back": "Central clearing of standardized contracts, reporting to trade repositories, platform trading where appropriate, and higher capital or margin for non-cleared trades.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-3:6:6"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:55:29.606Z",
+      "purpose": "generate",
+      "losId": "derivatives-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9959,
+      "outputTokens": 7909,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1001642,
+      "stopReason": "end_turn"
+    }
+  ]
+}

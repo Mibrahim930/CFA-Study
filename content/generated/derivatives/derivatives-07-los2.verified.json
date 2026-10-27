@@ -1,0 +1,820 @@
+{
+  "losId": "derivatives-07-los2",
+  "losText": "contrast the value and price of swaps",
+  "moduleId": "derivatives-07",
+  "moduleTitle": "Pricing and Valuation of Interest Rate and Other Swaps",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:26:18.380Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p2:35:62",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 35",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=35",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:50:92",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 50–51",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "richmondfed-money-market-ch16:8:9",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 8–9",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=8",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:27:47",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 27",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:36:65",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 36–37",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=36",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00068:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.2 Dividend Discount Models (DDMs) — Zero Growth Dividend Discount Model",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-2-dividend-discount-models-ddms",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:50:91",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 50",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:10:11",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 10–11",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=10",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:9:10",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 9–10",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=9",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:36:64",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 36",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=36",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:6:6",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 6–7",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.04
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Swap Price vs. Swap Value",
+      "summary": "A swap's price is the fixed rate agreed at the start, which stays the same for the life of the contract. Its value is the money-amount worth of the remaining payments to one side, and it moves as interest rates change. Mixing up the two is a classic source of wrong answers.",
+      "sections": [
+        {
+          "heading": "Two different questions about one contract",
+          "body_markdown": "Think of a lease on an apartment. The **monthly rent** written in the lease is a fixed number that does not change after you sign. The **value of the lease to you** depends on what similar apartments rent for today. If the market rent has jumped, your locked-in lower rent is worth real money to you. If market rents have dropped, you are overpaying and the lease is a burden.\n\nSwaps work the same way. The **price** of a swap is the fixed interest rate written into the contract (the *swap fixed rate*, or swap rate). The **value** is the amount of currency the contract is worth to a party at a given date, i.e. what one side would pay or receive to exit."
+        },
+        {
+          "heading": "Price: the fixed rate that makes the start fair",
+          "body_markdown": "When a standard swap is created at market terms, neither side pays the other anything up front. That works only if the fixed rate is chosen so that the present value (PV) of the fixed payments equals the PV of the expected floating payments. So **the swap's value at initiation is zero to both sides**, but its price (the fixed rate) is not zero.\n\nIf $Z_i$ are the discount factors (the PV of 1 received at each payment date) and the last payment is at date $N$, the fixed rate that makes the swap worth zero is\n\n$$FS=\\frac{1-Z_N}{\\sum_{i=1}^{N} Z_i}$$\n\nThis rate is then locked in. It is the contract's price for the rest of its life."
+        },
+        {
+          "heading": "Value: what the remaining payments are worth now",
+          "body_markdown": "After the swap starts, market rates move. The contract's fixed rate stays put, but a new swap with the same remaining term would carry a different fixed rate. The value reflects the gap.\n\nFor the **fixed-rate payer**:\n\n- Value = PV of the floating payments to be received − PV of the fixed payments to be made.\n- Equivalent shortcut: value ≈ notional × (current market swap rate − original fixed rate) × the PV of an annuity of 1 per period over the remaining term.\n\nIf market rates have risen, the fixed payer is paying less than the going rate, so the swap has positive value to it and negative value to the floating payer. If rates have fallen, the signs reverse. The two sides' values are equal in size and opposite in sign. A fixed-rate payer behaves like someone who is short a fixed-rate bond, which is why it gains when rates rise."
+        },
+        {
+          "heading": "Why the distinction matters",
+          "body_markdown": "- **Termination**: to exit early, the party with negative value pays that value (and the party with positive value receives it). The fixed rate alone does not tell you this amount.\n- **Credit risk**: only the party with a *positive* value stands to lose if the other side defaults. Its loss is roughly the PV of the rate gap over the remaining term, often called replacement cost.\n- **Quoting**: dealers quote swap *prices* as fixed rates (often as a spread over a government yield). They report swap *values* in currency.\n\nExam shorthand: **price = fixed rate, constant after inception; value = currency amount, zero at inception and changing afterwards.**"
+        }
+      ],
+      "worked_example": {
+        "problem": "A company entered a 3-year, annual-pay interest rate swap as the fixed-rate payer at a fixed rate of 4.0% on a notional of $20 million. One year later, 2 years remain. The market fixed rate on a new 2-year swap is 4.8%, and you may treat the discount curve as flat at 4.8% with annual compounding. What is the swap's value to the company, and what is the swap's price?",
+        "steps": [
+          "Separate the two ideas: the price is the contract's fixed rate, 4.0%, which never changes. The value must be computed from today's rates.",
+          "Find the annual rate gap: 4.8% − 4.0% = 0.8%. The company pays 4.0% when a new swap would cost 4.8%, so the swap is worth something positive to it.",
+          "Convert the gap to dollars per year: $20,000,000 × 0.008 = $160,000 per year saved for 2 more years.",
+          "Discount these two payments at 4.8%. BA II Plus: clear the TVM registers (2ND, CLR TVM), then 2 N, 4.8 I/Y, 160000 PMT, 0 FV, CPT PV.",
+          "The display shows −298,351. The negative sign is just the calculator's cash-flow convention, so the magnitude is the value.",
+          "The swap is worth about $298,351 to the company (the fixed payer), and −$298,351 to the floating payer."
+        ],
+        "answer": "Value to the fixed payer ≈ $298,351 (positive); the price remains the fixed rate of 4.0%.",
+        "answer_value": 298351,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.048,\"n\":2,\"pmt\":160000,\"fv\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Swap fixed rate (price) from discount factors",
+          "latex": "FS=\\dfrac{1-Z_N}{\\sum_{i=1}^{N} Z_i}",
+          "where": "FS = periodic fixed swap rate that makes the swap worth zero at initiation; Z_i = discount factor (PV of 1) for payment date i; Z_N = discount factor for the final payment date; N = number of payment dates."
+        },
+        {
+          "name": "Value to the fixed-rate payer (decomposition)",
+          "latex": "V_{\\text{fixed payer}}=PV(\\text{floating leg})-PV(\\text{fixed leg})",
+          "where": "V = value of the swap to the fixed-rate payer in currency; the floating-rate payer's value is the same amount with the opposite sign."
+        },
+        {
+          "name": "Value to the fixed-rate payer (rate-gap shortcut)",
+          "latex": "V_{\\text{fixed payer}}=NP\\times\\left(FS_{\\text{new}}-FS_{0}\\right)\\times\\sum_{i=1}^{N} Z_i",
+          "where": "NP = notional principal; FS_new = current market fixed rate for a swap with the same remaining term; FS_0 = fixed rate in the existing contract; Z_i = discount factors for the remaining payment dates; N = number of remaining payments."
+        }
+      ],
+      "exam_traps": [
+        "Calling the swap's value 'the fixed rate' (or the other way round). Price is the fixed rate; value is a currency amount.",
+        "Thinking a new market-rate swap has a positive or negative value at the start. It is zero to both sides, even though the fixed rate is not zero.",
+        "Getting the sign backwards after rates move: when market rates rise, the fixed-rate payer gains and the floating-rate payer loses (and vice versa when rates fall).",
+        "Forgetting to discount the stream of rate-gap payments, or discounting at the old contract rate instead of current market rates.",
+        "Believing the contract's fixed rate changes as rates move. The rate is locked in, and only the value changes."
+      ],
+      "builds_on": [
+        "Present value and annuities",
+        "Fixed-rate bond and floating-rate note valuation",
+        "Forward rates and discount factors",
+        "Interest rate swap mechanics"
+      ],
+      "leads_to": [
+        "Swap termination and replacement cost (credit exposure)",
+        "Equity, currency and other swap valuation",
+        "Hedging a swap book"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p2:35:62",
+        "richmondfed-money-market-ch16:9:10",
+        "richmondfed-money-market-ch16:10:11",
+        "fed-trading-4000-p2:34:60",
+        "fed-trading-4000-p2:36:65"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A dealer and a client enter a standard interest rate swap at current market terms. Which statement best describes the swap's value to each party at the moment of initiation?",
+        "options": [
+          {
+            "text": "Positive for the fixed-rate payer and negative for the floating-rate payer, because the fixed rate exceeds zero.",
+            "value": null,
+            "explanation": "This confuses the size of the fixed rate with the value of the contract. A non-zero fixed rate does not make the swap valuable at inception."
+          },
+          {
+            "text": "Zero for both, because the fixed rate is set so the PV of the fixed leg equals the PV of the floating leg.",
+            "value": null,
+            "explanation": "Correct. A market-priced swap needs no up-front payment: the fixed rate (the price) is chosen to equalize the PVs of the two legs, so the value is zero."
+          },
+          {
+            "text": "Equal to the notional principal for the fixed-rate payer, because the fixed leg is valued at par.",
+            "value": null,
+            "explanation": "This mixes up the par value of the hypothetical bonds with the swap's value. Notional is not exchanged and is not the swap's worth."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:9:10",
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly contrasts the price and the value of an interest rate swap after it has been outstanding for some time?",
+        "options": [
+          {
+            "text": "The price is the swap's current worth in currency, while the value is the fixed rate, which is locked in at the start.",
+            "value": null,
+            "explanation": "This reverses the two terms. The fixed rate is the price; the currency worth is the value."
+          },
+          {
+            "text": "Both are reset at every payment date, because the fixed rate is recalculated each period to keep the swap at zero.",
+            "value": null,
+            "explanation": "The fixed rate in a given contract is not recalculated. Only the value is reassessed as market rates change."
+          },
+          {
+            "text": "The price is the fixed rate set at initiation and unchanged; the value is the PV of remaining payments and moves with rates.",
+            "value": null,
+            "explanation": "Correct. The price is fixed for the contract's life, while the value is zero at initiation and then changes as the remaining cash flows are re-discounted at current rates."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:35:62",
+          "richmondfed-money-market-ch16:10:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year interest rate swap has annual payments. The discount factors for the three payment dates are 0.96, 0.92 and 0.88. What periodic fixed rate (the swap price) makes the swap's value zero at initiation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "4.35%",
+            "value": 0.0435,
+            "explanation": "Correct. FS = (1 − 0.88) / (0.96 + 0.92 + 0.88) = 0.12 / 2.76 ≈ 4.35%."
+          },
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "This divides (1 − 0.88) by the number of periods (3) instead of by the sum of the discount factors."
+          },
+          {
+            "text": "6.38%",
+            "value": 0.0638,
+            "explanation": "This leaves the final discount factor out of the denominator: 0.12 / (0.96 + 0.92) ≈ 6.38%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "swapFixedRate",
+          "args_json": "{\"discountFactors\":[0.96,0.92,0.88]}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor is the fixed-rate payer on a 3-year, annual-pay swap with a notional of $10 million and a contract fixed rate of 4%. The current market fixed rate on a 3-year swap is 5%, and the discount curve is flat at 5% with annual compounding. What is the swap's value to the fixed-rate payer? Round to the nearest dollar.",
+        "options": [
+          {
+            "text": "$300,000",
+            "value": 300000,
+            "explanation": "This adds up the three $100,000 rate-gap payments without discounting them."
+          },
+          {
+            "text": "$277,509",
+            "value": 277509,
+            "explanation": "This discounts the rate-gap payments at the old 4% contract rate instead of the current 5% market rate."
+          },
+          {
+            "text": "$272,325",
+            "value": 272325,
+            "explanation": "Correct. The annual gap is $10,000,000 × 1% = $100,000. Its PV over 3 years at 5% is about 100,000 × 2.7232 ≈ $272,325, positive to the fixed payer."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.05,\"n\":3,\"pmt\":100000,\"fv\":0}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:35:62",
+          "richmondfed-money-market-ch16:9:10"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Shortly after a plain-vanilla swap is initiated, market interest rates for all maturities rise. Which statement about the fixed-rate payer's position is correct?",
+        "options": [
+          {
+            "text": "Its value is zero, because the fixed rate written in the contract has not changed.",
+            "value": null,
+            "explanation": "This confuses price with value. The price (the fixed rate) is unchanged, but the value changes when market rates move."
+          },
+          {
+            "text": "Its value is negative, because the fixed-rate bond component of the swap has lost value.",
+            "value": null,
+            "explanation": "Sign error. The fixed payer is effectively short the fixed-rate bond, so a fall in that bond's value benefits the fixed payer."
+          },
+          {
+            "text": "Its value is positive, because it pays a fixed rate below the new market swap rate.",
+            "value": null,
+            "explanation": "Correct. The fixed payer locked in a rate that is now below market, so the PV of the floating receipts exceeds the PV of its fixed payments."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:9:10",
+          "fed-trading-4000-p2:36:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company is the fixed-rate payer on a swap with 2 annual payments remaining, a notional of $50 million, and a contract fixed rate of 6%. The market fixed rate on a new 2-year swap is now 5%, and the discount curve is flat at 5% with annual compounding. How much (absolute amount) must the company pay to terminate the swap? Round to the nearest dollar.",
+        "options": [
+          {
+            "text": "$476,190",
+            "value": 476190,
+            "explanation": "This counts only one year's $500,000 rate-gap payment (discounted once) and ignores the second payment."
+          },
+          {
+            "text": "$929,705",
+            "value": 929705,
+            "explanation": "Correct. Rates fell, so the swap has negative value to the fixed payer. The gap is $50,000,000 × 1% = $500,000 per year, and its PV over 2 years at 5% is 500,000 × 1.8594 ≈ $929,705, which the fixed payer must pay."
+          },
+          {
+            "text": "$1,000,000",
+            "value": 1000000,
+            "explanation": "This adds the two $500,000 rate-gap payments without discounting them."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.05,\"n\":2,\"pmt\":500000,\"fv\":0}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:35:62",
+          "fed-trading-4000-p2:36:65"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Six months after initiation, market rates have fallen, so a swap now has negative value to the fixed-rate payer. No notional principal is exchanged in this swap. Which statement about credit exposure is correct?",
+        "options": [
+          {
+            "text": "The floating-rate payer is exposed, because it holds the positive value and would lose it if the counterparty defaulted.",
+            "value": null,
+            "explanation": "Correct. Only the in-the-money party can suffer a credit loss, roughly the PV of the rate gap over the remaining term (replacement cost)."
+          },
+          {
+            "text": "The fixed-rate payer is exposed, because it has the negative value and is paying the larger net amounts.",
+            "value": null,
+            "explanation": "This confuses the party that owes money with the party that is owed. A party with negative value does not lose from the other side's default."
+          },
+          {
+            "text": "Neither party is exposed, because without an exchange of principal a default can never cause a loss.",
+            "value": null,
+            "explanation": "Credit risk is lower than on loans but not zero. The party with positive value can lose that value, which is why replacement cost matters."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:36:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the 'price' of an interest rate swap, and does it change after initiation?",
+        "back": "The price is the fixed swap rate agreed at initiation. It stays constant for the life of that contract.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:6:6",
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the value of a market-priced swap at initiation, and why?",
+        "back": "Zero to both sides. The fixed rate is set so the PV of the fixed leg equals the PV of the floating leg.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:9:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you compute the value of a swap to the fixed-rate payer after initiation?",
+        "back": "PV of the floating leg minus PV of the fixed leg. Shortcut: notional × (current swap rate − original fixed rate) × the PV annuity factor of the remaining payments.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:35:62"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "If market rates rise after initiation, who gains, the fixed payer or the floating payer?",
+        "back": "The fixed-rate payer gains (positive value), because it is paying below the new market rate. The floating-rate payer's value is negative by the same amount.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:9:10",
+          "fed-trading-4000-p2:36:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Which party in a swap is exposed to counterparty credit risk, and how large is the exposure?",
+        "back": "The party with positive value. Its exposure is roughly the PV of the rate gap over the remaining term (replacement cost).",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:36:65"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T20:26:08.873Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1128,
+      "outputTokens": 833,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.010703,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:26:18.380Z",
+      "purpose": "grounding",
+      "losId": "derivatives-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13866,
+      "outputTokens": 1431,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0422112,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.052914199999999995
+}

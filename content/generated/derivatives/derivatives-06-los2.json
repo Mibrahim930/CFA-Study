@@ -1,0 +1,429 @@
+{
+  "losId": "derivatives-06-los2",
+  "losText": "explain why forward and futures prices differ",
+  "moduleId": "derivatives-06",
+  "moduleTitle": "Pricing and Valuation of Futures Contracts",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:09:59.520Z",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch14:23:27",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 23",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=23",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-lec08:12:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 12–17",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:269:237",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 269–271",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=269",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:27:34",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 27–28",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=27",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch16:1:0",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "p. 1",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=1",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch16:13:14",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 13–14",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=13",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-4:8:8",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 4: Hedging (Federal Reserve Bank of Chicago)",
+      "locator": "p. 8",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-4-hedging-pdf.pdf#page=8",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch14:6:7",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 6",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch16:14:15",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 14–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=14",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Why a Futures Price Can Differ from a Forward Price",
+      "summary": "A forward and a futures contract on the same asset with the same expiry make the same basic promise, yet their prices are not always identical. The gap comes from how and when cash changes hands, and it matters because it shows where the standard pricing formula is only an approximation.",
+      "sections": [
+        {
+          "heading": "Same promise, different cash timing",
+          "body_markdown": "A **forward contract** is a private deal to buy or sell an asset at a set price on a future date. Nothing is paid until the end. A **futures contract** makes the same promise, but it trades on an exchange and is **marked to market** every day. That means each day's gain or loss is settled in cash through a clearinghouse (the exchange's middleman) and the futures price is effectively reset.\n\nAn everyday analogy: a forward is like owing a single lump sum on the due date. A futures contract is like paying or collecting installments every evening. The total may be similar, but the installments can be invested or borrowed against along the way."
+        },
+        {
+          "heading": "Why the daily cash flows matter",
+          "body_markdown": "The daily cash settled is called **variation margin**. A gain is received and can be invested at the current interest rate. A loss must be paid right away, and the money has to be borrowed or taken out of savings at the current rate.\n\nIf interest rates were constant and known, the interest earned on gains would exactly offset the interest cost of losses, and the futures price would equal the forward price. In reality rates move randomly, so the *interest rate at the time you receive or pay each daily amount* becomes an extra source of gains or losses that a forward holder never faces."
+        },
+        {
+          "heading": "The correlation rule",
+          "body_markdown": "What matters is how futures prices move **relative to interest rates**.\n\n- **Positive correlation** (futures prices tend to rise when rates rise): a long holder collects gains when rates are high, so they are invested at attractive rates. Losses come when rates are low, so they are cheap to finance. The long futures position is more attractive than a long forward at the same price, so the **futures price is higher than the forward price**.\n- **Negative correlation** (futures prices tend to rise when rates fall): gains arrive when rates are low and losses when rates are high. The long futures position is less attractive, so the **futures price is lower than the forward price**.\n- **Zero correlation, or constant rates:** no effect, so the **two prices are equal**.\n\nA typical negative case is a futures contract on a bond. Bond prices usually fall when rates rise, so the futures price tends to sit slightly below the comparable forward price."
+        },
+        {
+          "heading": "How big is the gap, and what is not the cause?",
+          "body_markdown": "In practice the gap is usually small, particularly for short-dated contracts, which is why the same cost-of-carry formula, $F_0(T)=S_0(1+r)^T$ when the asset has no benefits or costs, is used for both. The gap can grow for long-dated contracts or when rate volatility is high.\n\nCredit risk and standardization differ between the two instruments, but the *pricing* difference tested here is the daily settlement combined with uncertain interest rates."
+        }
+      ],
+      "worked_example": {
+        "problem": "A trader holds a long futures position that earns a variation margin gain of $4,000 on a day when interest rates are high. The trader can invest the cash at 6% per year, compounded annually, for 2 years. A forward holder with the same price move receives nothing until expiry. How much will the $4,000 be worth after 2 years, and what does this suggest about the futures price if gains tend to occur when rates are high?",
+        "steps": [
+          "Identify the idea: the futures gain is received now and can be reinvested, whereas the forward gain is only realized at expiry.",
+          "Set up the future value: $FV = 4000 \\times (1.06)^2$.",
+          "BA II Plus: press 2 [N], 6 [I/Y], 4000 [+/−] [PV], 0 [PMT], then [CPT] [FV]. Make sure P/Y is 1.",
+          "The display shows 4,494.40, so the reinvested gain earns $494.40 of interest.",
+          "Interpretation: if futures gains tend to arrive when rates are high, this extra interest is a systematic advantage for long futures holders. The futures price should be somewhat higher than the forward price."
+        ],
+        "answer": "The $4,000 grows to $4,494.40 after 2 years. This reinvestment benefit is why, under positive correlation with rates, the futures price exceeds the forward price.",
+        "answer_value": 4494.4,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.06,\"n\":2,\"pv\":-4000}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Cost-of-carry forward price (no benefits or costs)",
+          "latex": "F_0(T)=S_0\\,(1+r)^T",
+          "where": "F_0(T) is the forward price agreed today for delivery at time T; S_0 is the spot price today; r is the annual risk-free rate; T is the time to expiry in years. Futures are priced with the same formula as an approximation."
+        },
+        {
+          "name": "Future value of a reinvested settlement",
+          "latex": "FV = PV\\,(1+r)^n",
+          "where": "PV is a variation margin amount received today; r is the reinvestment rate per period; n is the number of periods; FV is its value at the end."
+        }
+      ],
+      "exam_traps": [
+        "Saying futures and forwards must always have identical prices. They are equal only if rates are constant or uncorrelated with futures prices (or if there are no interim cash flows).",
+        "Reversing the direction: positive correlation with interest rates makes the futures price HIGHER, negative correlation makes it LOWER.",
+        "Blaming the difference mainly on counterparty credit risk or exchange fees. The tested reason is daily settlement combined with uncertain interest rates.",
+        "Forgetting that the effect relates to the correlation between futures prices and interest rates, not the size of the spot price or its volatility on its own.",
+        "Assuming a bond futures price must exceed the forward price because bonds are interest-rate products. Bond prices usually move against rates, so the correlation is negative."
+      ],
+      "builds_on": [
+        "No-arbitrage forward pricing",
+        "Marking to market and variation margin",
+        "Time value of money"
+      ],
+      "leads_to": [
+        "Futures pricing with carry costs and benefits",
+        "Hedging and basis risk",
+        "Interest rate and bond futures"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch14:23:27",
+        "richmondfed-money-market-ch14:6:7",
+        "mit-ocw-15401-lec08:17:4",
+        "mit-ocw-15401-rec04:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature of futures contracts is the main reason a futures price can differ from the price of an otherwise identical forward contract?",
+        "options": [
+          {
+            "text": "Futures contracts always have a longer time to expiry than forward contracts",
+            "value": null,
+            "explanation": "Expiry dates can be matched, and the question assumes an otherwise identical forward. Contract length is not the cause."
+          },
+          {
+            "text": "Daily settlement creates interim cash flows that are invested or financed at uncertain rates",
+            "value": null,
+            "explanation": "Correct. Marking to market produces daily gains and losses that must be reinvested or financed at changing interest rates, which a forward holder does not face."
+          },
+          {
+            "text": "Futures contracts involve no credit risk while forwards involve much more",
+            "value": null,
+            "explanation": "Credit risk does differ, but it is not the pricing mechanism that drives the futures–forward gap. This confuses a risk difference with a pricing difference."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A futures contract and a forward contract have the same underlying asset and the same expiry date. Futures prices are positively correlated with interest rates. Which statement best describes the relationship between the two prices?",
+        "options": [
+          {
+            "text": "The futures price tends to be higher than the forward price",
+            "value": null,
+            "explanation": "Correct. Long futures gains arrive when rates are high, so they are reinvested at high rates, and losses arrive when rates are low and are cheap to finance. The long position is more valuable, so the futures price is bid up."
+          },
+          {
+            "text": "The futures price tends to be lower than the forward price",
+            "value": null,
+            "explanation": "This reverses the correlation effect, which is the result for negative correlation."
+          },
+          {
+            "text": "The futures price equals the forward price",
+            "value": null,
+            "explanation": "This ignores the effect of daily settlement. Equality holds only with constant rates or zero correlation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An asset has a spot price of 80 and pays no income and has no storage cost. The annual risk-free rate is 4%, compounded annually. Using the no-arbitrage cost-of-carry formula, what is the price of a forward contract expiring in exactly 2 years? Round to two decimals.",
+        "options": [
+          {
+            "text": "86.40",
+            "value": 86.4,
+            "explanation": "Uses simple interest, 80 × (1 + 2 × 0.04). It ignores compounding in the second year."
+          },
+          {
+            "text": "83.20",
+            "value": 83.2,
+            "explanation": "Compounds for only one year, 80 × 1.04, ignoring that the horizon is 2 years."
+          },
+          {
+            "text": "86.53",
+            "value": 86.53,
+            "explanation": "Correct. 80 × 1.04² = 80 × 1.0816 = 86.528, which rounds to 86.53. Futures are priced with this same formula as an approximation."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":80,\"r\":0.04,\"T\":2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond futures contract and a forward contract have the same underlying bond and the same expiry. The bond's price usually falls when interest rates rise, so the futures price is negatively correlated with rates. Compared with the forward price, the futures price is most likely:",
+        "options": [
+          {
+            "text": "higher, because bond contracts always carry a risk premium",
+            "value": null,
+            "explanation": "This invents a risk premium and ignores the direction of the correlation. Positive correlation, not negative, would give a higher futures price."
+          },
+          {
+            "text": "lower, because gains arrive when rates are low",
+            "value": null,
+            "explanation": "Correct. A long futures holder collects gains when rates are low (poor reinvestment) and pays losses when rates are high (costly financing). The long futures position is less attractive, so its price is lower."
+          },
+          {
+            "text": "equal, because bonds are priced from interest rates anyway",
+            "value": null,
+            "explanation": "Confuses the fact that bond prices depend on rates with the question of how daily settlement interacts with rate changes. The correlation creates a gap."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which circumstance would make the price of a futures contract equal to the price of an otherwise identical forward contract?",
+        "options": [
+          {
+            "text": "The futures contract is traded on an exchange with a clearinghouse guarantee",
+            "value": null,
+            "explanation": "Exchange trading and clearinghouse guarantees reduce credit risk but do not remove the effect of daily settlement on pricing."
+          },
+          {
+            "text": "The underlying asset has a highly volatile spot price",
+            "value": null,
+            "explanation": "Spot volatility does not eliminate the reinvestment effect. If anything it makes the daily flows larger."
+          },
+          {
+            "text": "Interest rates are constant and known throughout the life of the contract",
+            "value": null,
+            "explanation": "Correct. With known constant rates the interest on daily gains and losses is predictable and offsets, so marking to market does not change the price."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A long futures holder receives a variation margin gain of 10,000 today. A forward holder would receive nothing until expiry. The gain is invested for 3 years at 5% per year, compounded annually. What is the value of the invested gain after 3 years? Round to two decimals.",
+        "options": [
+          {
+            "text": "11,576.25",
+            "value": 11576.25,
+            "explanation": "Correct. 10,000 × 1.05³ = 11,576.25. This is the benefit of receiving the gain early, which the forward holder lacks."
+          },
+          {
+            "text": "11,500.00",
+            "value": 11500,
+            "explanation": "Uses simple interest, 10,000 × (1 + 3 × 0.05), and misses compounding."
+          },
+          {
+            "text": "12,155.06",
+            "value": 12155.06,
+            "explanation": "Compounds for 4 periods instead of 3, an off-by-one error in the number of years."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "fv",
+          "args_json": "{\"rate\":0.05,\"n\":3,\"pv\":-10000}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst prices a short-dated futures contract using the same cost-of-carry formula she uses for forwards, even though she knows interest rates are not perfectly constant. Which statement best justifies this approach?",
+        "options": [
+          {
+            "text": "Futures contracts have no daily cash flows, so the formulas are identical in theory",
+            "value": null,
+            "explanation": "Futures are marked to market daily, so they do have interim cash flows. The statement is factually wrong."
+          },
+          {
+            "text": "The gap caused by daily settlement is usually small, so the formula is a close approximation",
+            "value": null,
+            "explanation": "Correct. Daily settlement with uncertain rates makes the formula only approximate, but the effect is typically small, especially for short-dated contracts."
+          },
+          {
+            "text": "Forward prices are always set equal to futures prices by the clearinghouse",
+            "value": null,
+            "explanation": "Forwards are private OTC contracts and are not priced by a clearinghouse. Their prices come from no-arbitrage reasoning."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Why can a futures price differ from an otherwise identical forward price?",
+        "back": "Futures are marked to market daily, so gains and losses are reinvested or financed at uncertain interest rates. A forward has no interim cash flows.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      {
+        "front": "If futures prices are positively correlated with interest rates, how does the futures price compare with the forward price?",
+        "back": "The futures price is higher. Gains come when rates are high (invested well) and losses come when rates are low (cheap to finance).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "If futures prices are negatively correlated with interest rates (e.g., bond futures), how does the futures price compare with the forward price?",
+        "back": "The futures price is lower. Gains come when rates are low and losses when rates are high, so the long position is less attractive.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "When are forward and futures prices equal?",
+        "back": "When interest rates are constant and known, or futures prices are uncorrelated with rates. The reinvestment effect then disappears.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:09:59.520Z",
+      "purpose": "generate",
+      "losId": "derivatives-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11050,
+      "outputTokens": 9005,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1133062,
+      "stopReason": "end_turn"
+    }
+  ]
+}

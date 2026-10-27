@@ -1,0 +1,467 @@
+{
+  "losId": "derivatives-05-los2",
+  "losText": "explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates.",
+  "moduleId": "derivatives-05",
+  "moduleTitle": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:07:28.043Z",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p2:16:30",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 16–17",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=16",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-summary:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Course Summary",
+      "locator": "pp. 6–11",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/55322b0a932baa9a97c5603eeab0d766_MIT15_401F08_summary.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "fed-trading-4000-p2:15:28",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=15",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "fed-trading-4000-p2:12:22",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 12",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-lec08:21:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 21–25",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=21",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p1:64:106",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 64–65",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=64",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:12:23",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 12–13",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch16:1:1",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 1–2",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=1",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:17:31",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 17–18",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:2:2",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 2–3",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=2",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch14:19:23",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 19–20",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=19",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Implied Forward Rates and Their Uses",
+      "summary": "A forward rate is the interest rate for a future period that is locked in by today's spot (zero-coupon) rates, so that no arbitrage is possible. It prices forward rate agreements and gives you the breakeven rate for comparing investment choices and hedging future borrowing or lending.",
+      "sections": [
+        {
+          "heading": "Two routes to the same destination",
+          "body_markdown": "Suppose you need to park money for two years. **Route 1:** buy a 2-year zero-coupon bond today (a *spot rate* is the yield on such a bond bought now and held to maturity). **Route 2:** buy a 1-year bond now and, in a year, buy another 1-year bond.\n\nRoute 2 has an unknown part: the 1-year rate one year from today. Think of booking a two-night hotel package at a fixed price versus booking night one now and night two later. You are indifferent only if the price you expect for night two matches what the package implies.\n\nThe **forward rate** is exactly that implied price of the second night: the future-period rate that makes both routes finish with the same wealth. Because anyone can lock it in today using spot-rate instruments, it is set by no-arbitrage rather than by anyone's opinion."
+        },
+        {
+          "heading": "Computing a forward rate from spot rates",
+          "body_markdown": "Write $z_A$ and $z_B$ for the annual spot rates to times $A$ and $B$ years (with $B>A$). The forward rate that applies for the $B-A$ years starting at time $A$ is written $f_{A,\\,B-A}$. For example, $f_{2,1}$ is the 1-year rate starting 2 years from now (a '2y1y' rate).\n\nEqual wealth on both routes means\n\n$$(1+z_A)^A\\,(1+f_{A,B-A})^{B-A}=(1+z_B)^B$$\n\nSolve by dividing and then taking the root that matches the length of the *forward* period, $B-A$ (not $A$ or $B$). Rates compound, so do not just subtract spot rates.\n\n**Calculator tip (BA II Plus):** the chain-calculation mode works left to right. Compute the denominator first and store it (`1.04 [y^x] 2 [=] [STO] 1`), then do `1.045 [y^x] 3 [=] [÷] [RCL] 1 [=]`. For a multi-year forward period, finish with `[y^x] 3 [1/x] [=]`, which takes a cube root, then subtract 1."
+        },
+        {
+          "heading": "Forward rates and the shape of the yield curve",
+          "body_markdown": "A long spot rate is a kind of average (geometric) of the short rate today and the forward rates that follow it. This gives two handy facts:\n\n- If the spot curve slopes **upward**, the forward rate for the later period lies **above** the longer spot rate.\n- If the spot curve slopes **downward**, forward rates lie **below** the longer spot rate.\n\nSo forward rates are read straight off today's bond prices. That is why one key idea in fixed income is that current bond prices contain information about future interest rates. Be careful, though: a forward rate is a *breakeven* implied by prices, not a promise of where rates will actually go."
+        },
+        {
+          "heading": "Forward rate agreements (FRAs) and naming",
+          "body_markdown": "A **forward rate agreement** is an over-the-counter contract in which two parties fix an interest rate today for a deposit or loan that starts later. The notional principal is never exchanged; only an interest difference is paid in cash.\n\nThe quote 'm x n' means the rate period **starts in m months** and **ends n months** from today, so the tenor is $n-m$ months. A 3x9 FRA fixes a 6-month rate beginning in 3 months; a 2x5 FRA fixes a 3-month rate beginning in 2 months.\n\nThe FRA rate is the implied forward rate from the spot curve. It is set so that the contract has zero value at the start, so no money changes hands. The **buyer (long)** gains if the reference rate at settlement ends above the FRA rate (the buyer is protected against rising rates). The **seller (short)** gains if it ends below."
+        },
+        {
+          "heading": "What forward rates are used for",
+          "body_markdown": "1. **Hedging:** a borrower who will need floating-rate funds later buys an FRA to lock in the cost; a lender or investor who will place money later sells an FRA to lock in the yield. Banks also use forwards to lock spreads between borrowing and lending rates.\n2. **Breakeven comparison:** if you expect the future spot rate to be *above* the implied forward rate, rolling over short-term investments beats a long bond bought today; if below, the long bond wins.\n3. **Pricing and valuation:** forward rates price FRAs and other forward contracts, and discounting cash flows with them is consistent with spot-rate valuation.\n4. **Arbitrage and market making:** dealers quote FRAs from implied forwards. If an FRA's rate strays from the one implied by deposit rates, arbitrageurs lock in a profit, which keeps the two aligned."
+        }
+      ],
+      "worked_example": {
+        "problem": "Annual-compounding spot rates are 4.0% for 2 years and 4.5% for 3 years. Find the implied 1-year forward rate starting 2 years from now (the 2y1y rate). Round to two decimals in percent.",
+        "steps": [
+          "Identify the pieces: $z_2=4.0\\%$, $z_3=4.5\\%$, $A=2$, $B=3$, so the forward period is $B-A=1$ year.",
+          "Set up equal wealth: $(1.04)^2\\,(1+f_{2,1})=(1.045)^3$.",
+          "Compute $(1.045)^3=1.141166$ and $(1.04)^2=1.0816$.",
+          "Divide: $1.141166/1.0816=1.055072$. Because the forward period is 1 year, no root is needed.",
+          "Subtract 1: $f_{2,1}=0.055072\\approx5.51\\%$.",
+          "BA II Plus: `1.04 [y^x] 2 [=] [STO] 1`, then `1.045 [y^x] 3 [=] [÷] [RCL] 1 [=] [−] 1 [=]` gives 0.0551, i.e. 5.51%.",
+          "Sanity check: the curve slopes upward, so the forward rate (5.51%) is above the 3-year spot rate (4.5%). It is."
+        ],
+        "answer": "The implied 2y1y forward rate is about 5.51%.",
+        "answer_value": 0.0551,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.04,\"a\":2,\"spotB\":0.045,\"b\":3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Implied forward rate from spot rates",
+          "latex": "f_{A,B-A}=\\left[\\frac{(1+z_B)^B}{(1+z_A)^A}\\right]^{\\frac{1}{B-A}}-1",
+          "where": "$z_A$ and $z_B$ are annual spot rates for maturities $A$ and $B$ years ($B>A$); $f_{A,B-A}$ is the annual forward rate that applies for $B-A$ years beginning at time $A$."
+        },
+        {
+          "name": "No-arbitrage link between spot and forward rates",
+          "latex": "(1+z_B)^B=(1+z_A)^A\\,(1+f_{A,B-A})^{B-A}",
+          "where": "Same symbols as above; the left side is wealth from holding the $B$-year zero, the right side is wealth from the $A$-year zero followed by the forward-rate investment."
+        },
+        {
+          "name": "Forward price of a zero-coupon bond",
+          "latex": "P_{A,B-A}=\\frac{(1+z_A)^A}{(1+z_B)^B}=\\frac{1}{(1+f_{A,B-A})^{B-A}}",
+          "where": "$P_{A,B-A}$ is the forward price, per 1 of face value, of a zero-coupon bond maturing at time $B$ to be bought at time $A$; other symbols as above."
+        }
+      ],
+      "exam_traps": [
+        "Subtracting spot rates (or averaging them) instead of compounding. The forward rate comes from a ratio of growth factors, not a difference of rates.",
+        "Taking the wrong root: the exponent is $1/(B-A)$, the length of the forward period, not $1/A$ or $1/B$.",
+        "Reading 'm x n' FRA quotes as an n-month rate. The tenor is $n-m$ months and the period starts in m months.",
+        "Mixing up the FRA buyer and seller: the buyer (long) benefits when the reference rate rises above the FRA rate.",
+        "Treating the forward rate as a forecast of the future spot rate. It is a breakeven rate; the future spot rate may land above or below it."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "Spot rates and zero-coupon bonds",
+        "Shape of the yield curve",
+        "No-arbitrage pricing"
+      ],
+      "leads_to": [
+        "Forward rate agreement valuation",
+        "Interest rate swaps",
+        "Bond valuation with the forward curve",
+        "Term structure of interest rates"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p2:16:30",
+        "fed-trading-4000-p2:17:31",
+        "fed-trading-4000-p2:12:22",
+        "richmondfed-money-market-ch16:1:1",
+        "richmondfed-money-market-ch16:2:2",
+        "mit-ocw-15401-summary:6:1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The 1-year spot rate is 2.00% and the 2-year spot rate is 5.00%, both annual effective rates. What is the implied 1-year forward rate starting one year from now (the 1y1y rate)? Round to two decimals.",
+        "options": [
+          {
+            "text": "3.00%",
+            "value": 0.03,
+            "explanation": "Subtracts the two spot rates (5% − 2%). Rates compound, so the forward rate must come from a ratio of growth factors."
+          },
+          {
+            "text": "8.09%",
+            "value": 0.0809,
+            "explanation": "Correct: $(1.05)^2/(1.02)-1=1.1025/1.02-1=0.0809$, so 8.09%."
+          },
+          {
+            "text": "3.50%",
+            "value": 0.035,
+            "explanation": "Averages the two spot rates. A forward rate is the rate that, together with the 1-year spot, produces the 2-year spot; it is not an average."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.02,\"a\":1,\"spotB\":0.05,\"b\":2}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30",
+          "fed-trading-4000-p2:17:31"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A bank quotes a 2x5 forward rate agreement. What interest-rate period does the contract fix?",
+        "options": [
+          {
+            "text": "A 5-month rate that starts in 2 months",
+            "value": null,
+            "explanation": "Treats the second number as the length of the period. It is the end date, measured from today."
+          },
+          {
+            "text": "A 2-month rate that starts in 5 months",
+            "value": null,
+            "explanation": "Reverses the two numbers. The first number is the start date and the second is the end date."
+          },
+          {
+            "text": "A 3-month rate that starts in 2 months",
+            "value": null,
+            "explanation": "Correct: the rate period starts at month 2 and ends at month 5, so its tenor is 5 − 2 = 3 months."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:2:2",
+          "fed-trading-4000-p2:15:28"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The 2-year spot rate is 3.00% and the 3-year spot rate is 3.50%, both annual effective rates. What is the implied 1-year forward rate starting two years from now (the 2y1y rate)? Round to two decimals.",
+        "options": [
+          {
+            "text": "4.51%",
+            "value": 0.0451,
+            "explanation": "Correct: $(1.035)^3/(1.03)^2-1=1.108718/1.0609-1=0.0451$. The forward period is 1 year, so no root is needed."
+          },
+          {
+            "text": "3.50%",
+            "value": 0.035,
+            "explanation": "Uses the 3-year spot rate as if it were the forward rate. The 3-year spot is an average over three years, not the rate for year 3 alone."
+          },
+          {
+            "text": "2.23%",
+            "value": 0.0223,
+            "explanation": "Takes a square root of the growth-factor ratio (using the 2 years of the earlier spot) even though the forward period is only 1 year."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.03,\"a\":2,\"spotB\":0.035,\"b\":3}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30",
+          "fed-trading-4000-p2:17:31"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The spot yield curve is upward sloping: the 1-year spot rate is below the 2-year spot rate. How does the implied 1-year forward rate one year from now (1y1y) compare with the 2-year spot rate?",
+        "options": [
+          {
+            "text": "It is below the 2-year spot rate, because later cash flows are discounted more heavily.",
+            "value": null,
+            "explanation": "Confuses discounting with compounding. The wealth equation $(1+z_2)^2=(1+z_1)(1+f)$ pushes the forward rate above the 2-year spot."
+          },
+          {
+            "text": "It is above the 2-year spot rate, because the 2-year spot blends the lower 1-year rate with it.",
+            "value": null,
+            "explanation": "Correct: the 2-year spot is a geometric average of the 1-year spot and the forward rate. Since the 1-year spot is lower than the average, the forward must be higher."
+          },
+          {
+            "text": "It equals the 2-year spot rate, because no-arbitrage forces the two to match.",
+            "value": null,
+            "explanation": "No-arbitrage links the forward rate to both spot rates through a compounding equation; it does not make the forward equal to the longer spot rate unless the curve is flat."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "The 2-year spot rate is 3.00% and the 5-year spot rate is 4.00%, both annual effective rates. What is the implied annual forward rate that applies for the three years beginning two years from now (the 2y3y rate)? Round to two decimals.",
+        "options": [
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "Uses the 5-year spot rate as the forward rate. That spot rate also contains the first two years at the lower 3% spot rate."
+          },
+          {
+            "text": "2.78%",
+            "value": 0.0278,
+            "explanation": "Takes the fifth root of $(1.04)^5/(1.03)^2$ (total years) instead of the cube root for the 3-year forward period, understating the rate."
+          },
+          {
+            "text": "4.67%",
+            "value": 0.0467,
+            "explanation": "Correct: $[(1.04)^5/(1.03)^2]^{1/3}-1=(1.146814)^{1/3}-1=0.0467$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.03,\"a\":2,\"spotB\":0.04,\"b\":5}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30",
+          "fed-trading-4000-p2:17:31"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A corporate treasurer knows the firm will borrow for three months at a floating reference rate starting six months from now, and wants to fix the cost today with a forward rate agreement. Which position and payoff direction fits?",
+        "options": [
+          {
+            "text": "Long (buy) the FRA, which pays the firm if the reference rate ends above the FRA rate",
+            "value": null,
+            "explanation": "Correct: the buyer receives a payment when the reference rate exceeds the FRA rate, offsetting the higher borrowing cost."
+          },
+          {
+            "text": "Short (sell) the FRA, which pays the firm if the reference rate ends above the FRA rate",
+            "value": null,
+            "explanation": "Confuses the sides. The seller pays when the reference rate ends above the FRA rate, so a borrower would lose twice."
+          },
+          {
+            "text": "Long (buy) the FRA, which pays the firm if the reference rate ends below the FRA rate",
+            "value": null,
+            "explanation": "Reverses the payoff direction. The buyer gains when rates rise and pays when they fall."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:1:1",
+          "fed-trading-4000-p2:12:22"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The 1-year spot rate is 4.00% and the implied 1y1y forward rate is 6.00%. An investor with a 2-year horizon believes the 1-year spot rate in one year will be 7.00%. Compared with buying a 2-year zero-coupon bond and holding it, which strategy does she expect to do better, and why?",
+        "options": [
+          {
+            "text": "Hold the 2-year zero, because its yield is locked in and so beats any alternative",
+            "value": null,
+            "explanation": "Being locked in does not make it better. The 2-year zero earns only the rate implied by the forward-rate breakeven."
+          },
+          {
+            "text": "Buy a 1-year zero and reinvest, because the expected 7% exceeds the 6% breakeven",
+            "value": null,
+            "explanation": "Correct: the forward rate is the breakeven reinvestment rate. An expected rate above 6% makes rolling over worth more than the 2-year zero."
+          },
+          {
+            "text": "Neither, because the forward rate is the market's forecast, so the two must tie",
+            "value": null,
+            "explanation": "Treats the forward rate as a forecast that must match her view. It is only a breakeven; if her expectation differs from it, the strategies differ in expected value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-summary:6:1",
+          "fed-trading-4000-p2:16:30"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is an implied forward rate?",
+        "back": "The interest rate for a future period that, combined with today's shorter spot rate, gives the same wealth as holding a longer spot instrument. It is determined by no-arbitrage from the spot curve.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30"
+        ]
+      },
+      {
+        "front": "How do you compute the forward rate from year A to year B from spot rates?",
+        "back": "$f=[(1+z_B)^B/(1+z_A)^A]^{1/(B-A)}-1$. Divide the growth factors, then take the root equal to the length of the forward period, $B-A$.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What does a 3x9 FRA fix?",
+        "back": "A 6-month rate that starts 3 months from now and ends 9 months from now (the second number is the end date, measured from today).",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:2:2",
+          "fed-trading-4000-p2:15:28"
+        ]
+      },
+      {
+        "front": "Who should buy an FRA, and who gains from it?",
+        "back": "A future borrower buys (goes long) to lock in the cost. The buyer receives a payment if the reference rate at settlement ends above the FRA rate; the seller receives it if the rate ends below.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:1:1",
+          "fed-trading-4000-p2:12:22"
+        ]
+      },
+      {
+        "front": "In an upward-sloping spot curve, how does a forward rate compare with the longer spot rate, and how should you use it as a breakeven?",
+        "back": "The forward rate is above the longer spot rate. If you expect the future spot rate to be above the forward rate, rolling over short-term investments beats the longer bond; if below, the longer bond wins.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:16:30",
+          "mit-ocw-15401-summary:6:1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:07:28.043Z",
+      "purpose": "generate",
+      "losId": "derivatives-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10683,
+      "outputTokens": 16027,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.18279220000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

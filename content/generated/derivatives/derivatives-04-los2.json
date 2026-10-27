@@ -1,0 +1,493 @@
+{
+  "losId": "derivatives-04-los2",
+  "losText": "explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset",
+  "moduleId": "derivatives-04",
+  "moduleTitle": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:03:57.848Z",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch14:16:18",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=16",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:90:168",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 90–91",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=90",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:90:167",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 90",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=90",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "fed-trading-4000-p2:23:40",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 23",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=23",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec08:21:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 21–25",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=21",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "richmondfed-money-market-ch14:15:17",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 15–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=15",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:19:22",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 19",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=19",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:23:41",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 23–24",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=23",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch14:17:19",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 17",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=17",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:208:206",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 208–209",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=208",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Spot Price, Expected Future Spot Price, and the Cost of Carry",
+      "summary": "A derivative's price is tied to today's spot price plus what it costs (net of benefits) to hold the underlying until delivery. It is not tied to what people expect the spot price to be later. Separating these ideas is the basis for pricing forwards and futures.",
+      "sections": [
+        {
+          "heading": "Three different prices that are easy to mix up",
+          "body_markdown": "The **spot price** $S_0$ is what you pay today to get the asset right now, such as a barrel of oil bought and delivered today.\n\nThe **expected future spot price**, written $E(S_T)$, is the market's best guess of what the spot price will be at a later date $T$. It is a forecast, and it can turn out wrong.\n\nA **forward price** $F_0(T)$ is a price you lock in today for delivery at $T$. It is a contract term, not a forecast.\n\nThink of a concert ticket. The price at the box office today is the spot price. Your guess of what scalpers will charge on the night is the expected future spot price. A price you agree with a friend today for them to sell you their ticket next month is the forward price. Pricing derivatives mostly means linking the spot price to the forward price, and the link is not the forecast."
+        },
+        {
+          "heading": "What is the cost of carry?",
+          "body_markdown": "The **cost of carry** is the net cost of holding the underlying asset from now until a future date. It has two sides.\n\n**Costs of holding:**\n- *Financing cost*: the interest you pay on borrowed money, or the interest you give up on your own cash, to buy the asset.\n- *Storage and insurance*: warehouse fees, transport and insurance. These are mainly relevant for physical commodities.\n\n**Benefits of holding:**\n- Dividends on a stock, or coupons or interest on a bond.\n- *Convenience yield*: a non-cash benefit of having the physical item on hand. A miller with grain in the silo keeps the mill running even if supply dries up.\n\n$$\\text{net cost of carry} = \\text{financing} + \\text{storage and insurance} - \\text{benefits}$$\n\nThink of owning a rental flat. The mortgage interest and maintenance are costs, and the rent you collect is a benefit. The net amount decides whether holding it is expensive or cheap."
+        },
+        {
+          "heading": "From carry to the forward price",
+          "body_markdown": "There are two ways to be sure of having the asset at date $T$:\n1. Enter a forward contract today and pay $F_0(T)$ at $T$.\n2. Borrow, buy the asset now, and hold it until $T$.\n\nIf no cash is paid up front, both routes end with you owning the asset at $T$. Under the no-arbitrage idea from the previous LOS, they must therefore cost the same. Route 2 costs the spot price grown at the interest rate, plus storage, minus the benefits. In the discrete-compounding form used at Level I:\n\n$$F_0(T) = \\left(S_0 - PV_{\\text{benefits}} + PV_{\\text{costs}}\\right)(1+r)^T$$\n\nwhere the benefits and costs are measured in present-value terms. With no benefits or costs, this reduces to $F_0(T)=S_0(1+r)^T$. The forward price is the spot price plus the **future value of the net carry**. Positive net carry puts the forward price above the spot price. If benefits such as dividends or convenience yield exceed financing and storage costs, the forward price can sit **below** the spot price."
+        },
+        {
+          "heading": "Why the forward price is not the expected future spot price",
+          "body_markdown": "A common mistake is to think the forward price is the market's forecast of the future spot price. It is not. The forward price is set by arbitrage, using today's spot price and carry. If it drifted away from that level, traders could earn a risk-free profit by buying the asset and selling the forward, or the reverse.\n\nThe expected future spot price comes from views about supply, demand and risk. Observed forward prices have not proven to be accurate predictions of later spot prices, and a forward price can sit above or below the expected spot price. For example, hedgers who badly want to lock in a price can push forward prices away from expectations.\n\nTwo things always hold:\n- The forward price is pinned down by $S_0$ and carry, whatever anyone expects.\n- At maturity the forward price converges to the spot price, because at $T$ the contract means delivery now."
+        }
+      ],
+      "worked_example": {
+        "problem": "The spot price of a storable commodity is $200 per unit. The annual interest rate is 5% (annual compounding). Storage and insurance for the next year have a present value of $6 per unit. The commodity pays no benefits and has no convenience yield. What is the one-year forward price, and how large is the net carry embedded in it?",
+        "steps": [
+          "Identify the inputs: $S_0=200$, $r=5\\%$, $T=1$, $PV_{benefits}=0$, $PV_{costs}=6$.",
+          "Add the present value of the costs and subtract the benefits: $200 - 0 + 6 = 206$.",
+          "Grow that amount to the delivery date: $206 \\times (1.05)^1$.",
+          "BA II Plus: press 206 × 1.05 = and read 216.30. For a fractional or multi-year $T$, compute 1.05 [y^x] T = first, then multiply by 206.",
+          "Carry check: the forward price minus the spot price is $216.30 - 200 = 16.30$. This is $10$ of interest ($200\\times 5\\%$) plus $6\\times1.05=6.30$ of storage, which is the future value of the net carry."
+        ],
+        "answer": "The one-year forward price is $216.30 per unit.",
+        "answer_value": 216.3,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":200,\"r\":0.05,\"T\":1,\"pvBenefits\":0,\"pvCosts\":6}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Forward price with no costs or benefits",
+          "latex": "F_0(T)=S_0(1+r)^T",
+          "where": "$F_0(T)$ = forward price agreed today for delivery at $T$; $S_0$ = spot price today; $r$ = annual risk-free rate with annual compounding; $T$ = years to delivery."
+        },
+        {
+          "name": "Forward price with carry costs and benefits",
+          "latex": "F_0(T)=\\left(S_0-PV_{\\text{benefits}}+PV_{\\text{costs}}\\right)(1+r)^T",
+          "where": "$PV_{\\text{benefits}}$ = present value of dividends, coupons or convenience yield received while holding; $PV_{\\text{costs}}$ = present value of storage and insurance; other symbols as above."
+        },
+        {
+          "name": "Net cost of carry",
+          "latex": "\\text{Carry}=\\text{financing}+\\text{storage}-\\text{benefits}",
+          "where": "Financing = interest paid or forgone on funds tied up in the asset; storage = storage and insurance costs; benefits = dividends, interest or convenience yield earned from holding."
+        }
+      ],
+      "exam_traps": [
+        "Treating the forward price as the market's forecast of the future spot price. It is set by the spot price and the cost of carry, and can differ from the expected spot price.",
+        "Adding dividends or convenience yield to the spot price. Benefits of holding must be subtracted, and storage costs added.",
+        "Dropping the compounding. Present-value benefits and costs go inside the bracket before it is grown by $(1+r)^T$. Subtracting an undiscounted dividend after compounding gives the wrong number.",
+        "Assuming the forward price must always exceed the spot price. When benefits of holding exceed financing and storage costs, the forward price is below spot.",
+        "Forgetting that the forward price converges to the spot price at maturity, and that today's spot price is not the same as the expected future spot price."
+      ],
+      "builds_on": [
+        "Arbitrage and replication",
+        "Time value of money and compounding",
+        "Present value of cash flows"
+      ],
+      "leads_to": [
+        "Forward pricing for equities, bonds and currencies",
+        "Valuing forward contracts after initiation",
+        "Futures pricing and the basis"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch14:15:17",
+        "richmondfed-money-market-ch14:16:18",
+        "richmondfed-money-market-ch14:17:19",
+        "richmondfed-money-market-ch14:19:22",
+        "mit-ocw-15401-lec08:17:4",
+        "fed-trading-4000-p2:90:167"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement correctly distinguishes the spot price from the expected future spot price of an asset?",
+        "options": [
+          {
+            "text": "The spot price is for immediate delivery today; the expected future spot price is a forecast of the spot price at a later date.",
+            "value": null,
+            "explanation": "Correct. The spot price is observable now, while the expected future spot price is a forecast that may turn out wrong."
+          },
+          {
+            "text": "The spot price is for delivery at a future date; the expected future spot price is the price quoted for immediate delivery.",
+            "value": null,
+            "explanation": "This swaps the two definitions. A price agreed today for later delivery is a forward price, not the spot price."
+          },
+          {
+            "text": "The spot price is the price in a forward contract; the expected future spot price is that price grown at the risk-free rate.",
+            "value": null,
+            "explanation": "This confuses the spot price with the forward price, and assumes the expected spot price is simply the spot price compounded at the risk-free rate, which is not a general rule."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:90:167",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor buys and holds an asset until a forward delivery date. Which of the following would reduce the net cost of carry?",
+        "options": [
+          {
+            "text": "Insurance premiums paid on the asset while held",
+            "value": null,
+            "explanation": "Insurance is an explicit cost of holding, so it raises the cost of carry rather than lowering it."
+          },
+          {
+            "text": "Interest forgone on the cash used to buy the asset",
+            "value": null,
+            "explanation": "Forgone interest is the financing cost, which raises the cost of carry."
+          },
+          {
+            "text": "Dividends received on the asset while held",
+            "value": null,
+            "explanation": "Correct. Dividends, coupons and convenience yield are benefits of holding the asset and are subtracted from financing and storage costs, which lowers net carry."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:15:17",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An asset has a spot price of $50. It pays no income and has no storage cost. The risk-free rate is 6% per year with annual compounding. What is the no-arbitrage forward price for delivery in 2 years? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$56.00",
+            "value": 56,
+            "explanation": "This uses simple interest, $50\\times(1+0.06\\times2)$, instead of compounding."
+          },
+          {
+            "text": "$56.18",
+            "value": 56.18,
+            "explanation": "Correct. $F_0=50\\times(1.06)^2=50\\times1.1236=56.18$."
+          },
+          {
+            "text": "$44.50",
+            "value": 44.5,
+            "explanation": "This discounts the spot price, $50/1.06^2$, instead of growing it forward to the delivery date."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":50,\"r\":0.06,\"T\":2,\"pvBenefits\":0,\"pvCosts\":0}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:17:19",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at $100. It will pay dividends with a present value of $3 before a forward contract expires in one year. The risk-free rate is 4% per year with annual compounding. What is the no-arbitrage forward price? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$101.00",
+            "value": 101,
+            "explanation": "This subtracts the $3 dividend after compounding the spot price, $100\\times1.04-3$. The present value of the dividend must be removed before compounding."
+          },
+          {
+            "text": "$107.12",
+            "value": 107.12,
+            "explanation": "This adds the dividend, $(100+3)\\times1.04$. A benefit of holding lowers the forward price."
+          },
+          {
+            "text": "$100.88",
+            "value": 100.88,
+            "explanation": "Correct. $F_0=(100-3)\\times1.04=100.88$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":100,\"r\":0.04,\"T\":1,\"pvBenefits\":3,\"pvCosts\":0}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:15:17",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A commodity has a spot price of $80 per unit. Over the next year, storage and insurance have a present value of $1 per unit, and the convenience yield from holding the physical commodity has a present value of $2 per unit. The risk-free rate is 3% per year with annual compounding. What is the no-arbitrage one-year forward price per unit? Round to the nearest cent.",
+        "options": [
+          {
+            "text": "$81.37",
+            "value": 81.37,
+            "explanation": "Correct. Net carry adjustment is $-2+1=-1$, so $F_0=(80-2+1)\\times1.03=79\\times1.03=81.37$."
+          },
+          {
+            "text": "$83.43",
+            "value": 83.43,
+            "explanation": "This reverses the signs, adding the convenience yield and subtracting storage: $(80+2-1)\\times1.03$."
+          },
+          {
+            "text": "$80.34",
+            "value": 80.34,
+            "explanation": "This subtracts the convenience yield but leaves out the storage cost: $(80-2)\\times1.03$."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":80,\"r\":0.03,\"T\":1,\"pvBenefits\":2,\"pvCosts\":1}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:19:22",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A analyst expects the spot price of a commodity to be $98 in one year. The no-arbitrage forward price for one-year delivery, based on today's spot price and carry, is $105. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "Arbitrageurs will push the forward price down to $98, because the forward price must equal the expected future spot price.",
+            "value": null,
+            "explanation": "This treats the forward price as a forecast of the future spot price. Arbitrage ties it to the spot price and carry, not to expectations."
+          },
+          {
+            "text": "The forward price is set by the spot price and the cost of carry, so it can differ from the expected future spot price.",
+            "value": null,
+            "explanation": "Correct. Replicating the forward by buying and holding the asset fixes the forward price at spot plus net carry, regardless of the forecast."
+          },
+          {
+            "text": "The forward price must equal today's spot price, because a forward contract costs nothing to enter.",
+            "value": null,
+            "explanation": "Entering a forward costs nothing up front, but the forward price still includes net carry. It equals the spot price only when net carry is zero."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:90:167",
+          "richmondfed-money-market-ch14:15:17"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "For which asset is the no-arbitrage forward price most likely to be below the current spot price?",
+        "options": [
+          {
+            "text": "A metal with large storage costs and no income",
+            "value": null,
+            "explanation": "High storage costs and no benefits make net carry strongly positive, so the forward price is above the spot price."
+          },
+          {
+            "text": "A non-dividend-paying stock when interest rates are high",
+            "value": null,
+            "explanation": "High interest rates and no benefits raise financing costs, so the forward price is above spot."
+          },
+          {
+            "text": "A stock whose dividend yield exceeds the risk-free rate",
+            "value": null,
+            "explanation": "Correct. When benefits of holding exceed financing (and storage) costs, net carry is negative, so the forward price falls below the spot price."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:15:17",
+          "richmondfed-money-market-ch14:19:22",
+          "fed-trading-4000-p2:23:41"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An asset trades at $100 and pays no income and has no storage cost. The risk-free rate is 6% per year with annual compounding. What is the no-arbitrage forward price for delivery in 0.5 years? Use $(1+r)^T$ with $T=0.5$ and round to the nearest cent.",
+        "options": [
+          {
+            "text": "$102.96",
+            "value": 102.96,
+            "explanation": "Correct. $F_0=100\\times(1.06)^{0.5}=100\\times1.02956=102.96$."
+          },
+          {
+            "text": "$103.00",
+            "value": 103,
+            "explanation": "This uses simple interest for the half year, $100\\times(1+0.06\\times0.5)$, rather than annual compounding raised to $T=0.5$."
+          },
+          {
+            "text": "$106.00",
+            "value": 106,
+            "explanation": "This applies the full annual rate and ignores that the contract runs for only half a year."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":100,\"r\":0.06,\"T\":0.5,\"pvBenefits\":0,\"pvCosts\":0}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the cost of carry of an underlying asset?",
+        "back": "The net cost of holding the asset until a future date: financing cost plus storage and insurance, minus benefits such as dividends, interest or convenience yield.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:15:17",
+          "richmondfed-money-market-ch14:16:18"
+        ]
+      },
+      {
+        "front": "Spot price versus expected future spot price: what is the difference?",
+        "back": "The spot price is the price for immediate delivery today and is observable. The expected future spot price is a forecast of the spot price at a later date.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:90:167"
+        ]
+      },
+      {
+        "front": "What is the no-arbitrage forward price when the asset has storage costs and benefits?",
+        "back": "$F_0(T)=(S_0-PV_{benefits}+PV_{costs})(1+r)^T$. Benefits are subtracted and costs are added before compounding.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "richmondfed-money-market-ch14:16:18"
+        ]
+      },
+      {
+        "front": "Is the forward price an accurate forecast of the future spot price?",
+        "back": "No. It is set by the spot price and the cost of carry through arbitrage. It can sit above or below the expected future spot price.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:90:167"
+        ]
+      },
+      {
+        "front": "When can a forward price be below the spot price?",
+        "back": "When the benefits of holding the asset (dividends, interest, convenience yield) exceed financing and storage costs, so net carry is negative.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:19:22",
+          "fed-trading-4000-p2:23:41"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:03:57.848Z",
+      "purpose": "generate",
+      "losId": "derivatives-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10282,
+      "outputTokens": 10803,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1297502,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "losId": "derivatives-07-los1",
+  "losText": "describe how swap contracts are similar to but different from a series of forward contracts",
+  "moduleId": "derivatives-07",
+  "moduleTitle": "Pricing and Valuation of Interest Rate and Other Swaps",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:11:34.653Z",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p2:32:58",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 32–33",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=32",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "richmondfed-money-market-ch16:21:21",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 21–22",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=21",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.15
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "richmondfed-money-market-ch16:8:8",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "p. 8",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=8",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "richmondfed-money-market-ch16:3:3",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 3–4",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=3",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "fed-trading-4000-p2:24:42",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 24",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "fed-trading-4000-p2:28:49",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 28",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p2:50:92",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 50–51",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p2:6:10",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 6",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:12:23",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 12–13",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:15:28",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=15",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:48:87",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 48",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=48",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Swaps as Bundles of Forward Contracts, and Where the Analogy Breaks",
+      "summary": "An interest rate swap behaves like a package of forward-style trades, one for each payment date, but with a single fixed rate across all dates. Seeing both the likeness and the gap helps you understand swap pricing, implicit loans and credit exposure.",
+      "sections": [
+        {
+          "heading": "The intuition: a season ticket versus single tickets",
+          "body_markdown": "A **forward contract** is an agreement made today to trade something at a fixed price on one future date. For interest rates, the 'thing' is a floating rate such as a reference interbank rate that will be observed later.\n\nAn **interest rate swap** is an agreement to exchange payments on several future dates. One side (the **fixed-rate payer**) pays a fixed rate and receives a floating rate. The other side does the opposite. Payments are computed on a **notional principal**, a reference amount that is not actually exchanged in a plain interest rate swap. Each payment date is a **settlement**. Usually only the net difference changes hands.\n\nThink of buying single tickets to a show on five different nights, each at that night's own price, versus buying one season pass at one flat price. The season pass covers the same nights, but the price is blended into a single number."
+        },
+        {
+          "heading": "What is the same",
+          "body_markdown": "- **Each settlement date looks like a forward.** On each date, a known fixed amount is traded for a floating amount that is only observed shortly before that date. That is the structure of a forward rate agreement (FRA), which is a forward on an interest rate.\n- **Zero value at the start.** A fairly priced forward has zero value when it is agreed, and so does a fairly priced swap. Nobody pays to enter either one.\n- **Same pricing logic.** Forward rates can be observed or derived from the yield curve, and a swap can be priced from them. The swap's fixed rate is essentially a blend of the forward rates for the floating reset dates.\n- **Dealers hedge swaps with forward-type instruments**, because they can be matched to the swap's cash flows.\n\nSo a pay-fixed swap can be thought of as a bundle of FRAs, one per period."
+        },
+        {
+          "heading": "What is different",
+          "body_markdown": "**1. One rate instead of many.** If you bought separate forwards for years 1, 2 and 3, each would be priced at its own forward rate and each would have zero value at the start. The swap instead uses **one** fixed rate for every period. Unless the forward curve is flat, that single rate differs from most of the individual forward rates.\n\n**2. Individual periods are not zero-valued.** Because of the single rate, a swap is better seen as a series of *off-market* forwards. Some periods are worth something to the fixed payer (positive) and others are worth something negative. The present values add up to exactly zero at initiation.\n\n**3. Implicit loans.** Suppose the curve slopes upward. Early forward rates are below the swap fixed rate, so early on the fixed payer pays more than the forwards imply. Later forward rates are above the fixed rate, so the fixed payer gets that back. The fixed payer is effectively **lending** early and being repaid later. This is why a swap can be viewed as a pair of mutual loans, and it matters for credit risk.\n\n**4. One contract, not many.** A swap is a single agreement with one counterparty and one set of documentation, and payments are netted. Recreating it with separate forwards would mean many contracts, each priced separately. In practice, the swap's replacement cost after a default is the value of the remaining off-market forward-like components."
+        },
+        {
+          "heading": "The swap fixed rate as a weighted average of forwards",
+          "body_markdown": "Use **discount factors**: $DF_t$ is today's value of 1 received at time $t$. The forward rate for period $i$ is $f_i = DF_{i-1}/DF_i - 1$, with $DF_0=1$.\n\nThe floating leg of a swap (per 1 of notional) is worth $1-DF_n$ at the start. The fixed leg must be worth the same, so:\n\n$$SFR=\\frac{1-DF_n}{\\sum_{i=1}^{n}DF_i}=\\frac{\\sum_{i=1}^{n}DF_i f_i}{\\sum_{i=1}^{n}DF_i}$$\n\nThe right-hand form shows that the fixed rate is a **discount-factor-weighted average** of the forward rates. Earlier forwards get a bit more weight because they are discounted less. This is the 'blend' that separate forwards do not have."
+        }
+      ],
+      "worked_example": {
+        "problem": "A 3-year interest rate swap has annual settlements. The discount factors from the curve are DF1 = 0.9700, DF2 = 0.9400 and DF3 = 0.9000. (a) Find the implied forward rate for each year. (b) Find the fair swap fixed rate. (c) Say whether the fixed payer gains or loses in each year relative to separate forwards. Round rates to two decimals in percent.",
+        "steps": [
+          "Forward rate year 1: $1/0.97-1=3.09\\%$. Keystrokes: 1 [÷] 0.97 [−] 1 [=] gives 0.0309.",
+          "Forward rate year 2: $0.97/0.94-1=3.19\\%$. Keystrokes: 0.97 [÷] 0.94 [−] 1 [=].",
+          "Forward rate year 3: $0.94/0.90-1=4.44\\%$. Keystrokes: 0.94 [÷] 0.90 [−] 1 [=].",
+          "Floating leg value per 1 of notional: $1-DF_3=1-0.90=0.10$.",
+          "Sum of discount factors: $0.97+0.94+0.90=2.81$.",
+          "Fixed rate: $0.10/2.81=0.03559$, or 3.56%. Keystrokes: 0.10 [÷] 2.81 [=].",
+          "Compare: the 3.56% fixed rate is above the year 1 forward (3.09%) and the year 2 forward (3.19%), so the fixed payer overpays in years 1 and 2. It is below the year 3 forward (4.44%), so the fixed payer gains in year 3. The present values of these gains and losses net to zero at the start."
+        ],
+        "answer": "The fair swap fixed rate is 3.56%. It blends forwards of 3.09%, 3.19% and 4.44%. The fixed payer implicitly lends in years 1–2 and is repaid in year 3.",
+        "answer_value": 0.0356,
+        "calc_spec": {
+          "fn": "swapFixedRate",
+          "args_json": "{\"discountFactors\":[0.97,0.94,0.90]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Discount factor from a spot rate",
+          "latex": "DF_t=\\frac{1}{(1+S_t)^t}",
+          "where": "$DF_t$ = present value of 1 paid at time $t$; $S_t$ = annually compounded spot rate for maturity $t$ years; $t$ = years."
+        },
+        {
+          "name": "Implied forward rate",
+          "latex": "(1+S_b)^b=(1+S_a)^a\\,(1+f)^{\\,b-a}",
+          "where": "$S_a, S_b$ = spot rates for $a$ and $b$ years ($b>a$); $f$ = annual forward rate for the period from year $a$ to year $b$."
+        },
+        {
+          "name": "Swap fixed rate (annual settlements)",
+          "latex": "SFR=\\frac{1-DF_n}{\\sum_{i=1}^{n}DF_i}",
+          "where": "$SFR$ = fair fixed rate at initiation; $DF_i$ = discount factor for settlement date $i$; $n$ = number of settlements (last one is the maturity date)."
+        }
+      ],
+      "exam_traps": [
+        "Assuming each period of a swap has zero value at the start. Only the sum of present values is zero. The individual periods are off-market.",
+        "Treating the swap fixed rate as the final forward rate, or as the long-term spot rate. It is a blend (discount-factor-weighted average) of the forward rates.",
+        "Reversing who is the implicit lender. With an upward-sloping curve, the fixed payer overpays early and so lends early.",
+        "Confusing an interest rate swap with a foreign-exchange swap (buy and sell a currency on two dates), or assuming notional principal is exchanged in a plain interest rate swap.",
+        "Forgetting that forwards in a bundle each have their own price, so 'a series of forwards' is an analogy, not an identical contract."
+      ],
+      "builds_on": [
+        "Forward contracts and forward rate agreements",
+        "Spot rates, forward rates and discount factors",
+        "Zero value at initiation"
+      ],
+      "leads_to": [
+        "Value versus price of a swap",
+        "Valuing a swap after initiation",
+        "Swap credit risk and replacement cost",
+        "Swaptions"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p2:32:58",
+        "richmondfed-money-market-ch16:21:21",
+        "fed-trading-4000-p2:34:60",
+        "richmondfed-money-market-ch16:8:8"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature of a pay-fixed, receive-floating interest rate swap makes it resemble a series of forward contracts?",
+        "options": [
+          {
+            "text": "At the end of the swap, both parties deliver the full notional principal to each other.",
+            "value": null,
+            "explanation": "Mistake: assuming notional principal is exchanged. In a plain interest rate swap it is only a reference amount and is not exchanged."
+          },
+          {
+            "text": "On each settlement date, a fixed rate agreed today is traded for a floating rate observed later.",
+            "value": null,
+            "explanation": "Correct. Each date is a forward-style exchange of a pre-agreed rate for a rate set later, like an FRA, repeated over several dates."
+          },
+          {
+            "text": "The contract trades on an exchange and is marked to market and settled every day.",
+            "value": null,
+            "explanation": "Mistake: confusing a swap with a futures contract. Swaps are over-the-counter and are not settled daily."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58",
+          "richmondfed-money-market-ch16:21:21"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A dealer prices a 3-year swap on a floating rate. A client could instead buy three separate forward contracts on the same rate, one for each year. Which statement describes a key difference?",
+        "options": [
+          {
+            "text": "The swap fixed rate is set at the highest of the three forward rates to compensate the dealer.",
+            "value": null,
+            "explanation": "Mistake: the fixed rate is a blend (discount-factor-weighted average) of the forward rates, not the maximum."
+          },
+          {
+            "text": "The swap floating payments are tied to a different reference rate than the forwards would be.",
+            "value": null,
+            "explanation": "Mistake: the floating leg can reference the same rate as the forwards. The reference rate is not what distinguishes the two."
+          },
+          {
+            "text": "Each forward is priced at its own rate, whereas the swap uses a single fixed rate for all three years.",
+            "value": null,
+            "explanation": "Correct. Separate forwards each carry their own forward rate, but the swap blends them into one rate, so individual swap periods are off-market."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A 3-year interest rate swap has annual settlements. The discount factors are 0.9700 for year 1, 0.9400 for year 2 and 0.9000 for year 3. What is the fair fixed rate at initiation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "3.56%",
+            "value": 0.0356,
+            "explanation": "Correct: $(1-0.90)/(0.97+0.94+0.90)=0.10/2.81=3.56\\%$. This is the blend of the forward rates."
+          },
+          {
+            "text": "3.70%",
+            "value": 0.037,
+            "explanation": "Mistake: dividing the 3-year growth $(1/0.90-1=11.11\\%)$ by 3, which ignores the different discounting of each payment."
+          },
+          {
+            "text": "4.44%",
+            "value": 0.0444,
+            "explanation": "Mistake: using only the last forward rate $(0.94/0.90-1)$ instead of blending all the forward rates."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "swapFixedRate",
+          "args_json": "{\"discountFactors\":[0.97,0.94,0.90]}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58",
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The yield curve is upward sloping, so forward rates rise with maturity. A newly agreed fair pay-fixed swap is viewed as a bundle of off-market forwards. Which party is effectively lending to the other in the early periods?",
+        "options": [
+          {
+            "text": "The fixed-rate receiver, because it receives fixed payments that are below the early forward-implied amounts.",
+            "value": null,
+            "explanation": "Mistake: reversing the direction. The fixed rate exceeds the early forwards, so the fixed receiver is being overpaid early and is the borrower."
+          },
+          {
+            "text": "The fixed-rate payer, because it pays a fixed rate above the early forwards and is repaid in later periods.",
+            "value": null,
+            "explanation": "Correct. Early on the fixed payer overpays relative to the forwards, which is like a loan. Later fixed is below the forwards, so the loan is repaid."
+          },
+          {
+            "text": "Neither party, because the swap has zero value at the start and so no period has an implicit loan.",
+            "value": null,
+            "explanation": "Mistake: confusing a zero total value with zero value in each period. Only the sum of present values is zero."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:8:8",
+          "richmondfed-money-market-ch16:21:21"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Annually compounded spot rates are 3.00% for 1 year and 4.00% for 2 years. What is the implied 1-year forward rate starting one year from now? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "3.50%",
+            "value": 0.035,
+            "explanation": "Mistake: averaging the two spot rates. A forward rate must satisfy $(1.03)(1+f)=(1.04)^2$."
+          },
+          {
+            "text": "5.01%",
+            "value": 0.0501,
+            "explanation": "Correct: $(1.04)^2/1.03-1=1.0816/1.03-1=5.01\\%$."
+          },
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "Mistake: using the 2-year spot rate as if it were the forward rate for year 2 only."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardRate",
+          "args_json": "{\"spotA\":0.03,\"a\":1,\"spotB\":0.04,\"b\":2}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:34:60"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compare a fairly priced swap at initiation with a bundle of separate forwards, each priced at its own forward rate. Which statement is correct?",
+        "options": [
+          {
+            "text": "The present values of all swap settlements net to zero, but individual period settlements usually do not have zero value.",
+            "value": null,
+            "explanation": "Correct. The single fixed rate makes the periods off-market, but the total is zero so nobody pays to enter."
+          },
+          {
+            "text": "Each swap settlement has zero value on its own, exactly like each separately priced forward.",
+            "value": null,
+            "explanation": "Mistake: applying the forward result to each swap period. Separate forwards are individually zero-valued, but a swap's periods are not unless the curve is flat."
+          },
+          {
+            "text": "The fixed payer starts with a positive value whenever floating rates are expected to rise over the life of the swap.",
+            "value": null,
+            "explanation": "Mistake: expected rising rates are already built into the forward rates and the swap fixed rate, so the initial value is zero."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58",
+          "richmondfed-money-market-ch16:21:21"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Annually compounded spot rates are 2.00% for 1 year and 5.00% for 2 years. What is the 2-year par swap rate (the fixed rate that gives a swap zero value, with annual settlements)? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "4.93%",
+            "value": 0.0493,
+            "explanation": "Correct: $DF_1=0.9804$, $DF_2=0.9070$, and $(1-0.9070)/(0.9804+0.9070)=4.93\\%$."
+          },
+          {
+            "text": "5.00%",
+            "value": 0.05,
+            "explanation": "Mistake: setting the par rate equal to the 2-year spot rate. The par rate blends the cash flows at both dates, so it is lower here."
+          },
+          {
+            "text": "3.50%",
+            "value": 0.035,
+            "explanation": "Mistake: taking the simple average of the two spot rates, ignoring the discounting weights."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "parRate",
+          "args_json": "{\"spots\":[0.02,0.05]}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:34:60"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "In what sense is an interest rate swap like a series of forward contracts?",
+        "back": "Each settlement date is a forward-style exchange of a rate agreed today for a floating rate observed later. A pay-fixed swap is like a bundle of FRAs.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58",
+          "richmondfed-money-market-ch16:21:21"
+        ]
+      },
+      {
+        "front": "What is the key difference between a swap and a set of separately priced forwards?",
+        "back": "Separate forwards each use their own forward rate and each has zero value at the start. A swap uses one fixed rate for all periods, so individual periods are off-market, and only the total value is zero.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58"
+        ]
+      },
+      {
+        "front": "Why can a swap be seen as having implicit loans?",
+        "back": "With one fixed rate, one party overpays relative to the forward rates in some periods and is repaid in others. With an upward-sloping curve the fixed payer lends early and is repaid later.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:8:8"
+        ]
+      },
+      {
+        "front": "How is the swap fixed rate related to forward rates, and what is the formula using discount factors?",
+        "back": "It is a discount-factor-weighted average of the forward rates: $SFR=(1-DF_n)/\\sum DF_i$.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:32:58",
+          "fed-trading-4000-p2:34:60"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:11:34.653Z",
+      "purpose": "generate",
+      "losId": "derivatives-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9939,
+      "outputTokens": 13232,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.15335420000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

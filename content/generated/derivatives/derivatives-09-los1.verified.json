@@ -1,0 +1,906 @@
+{
+  "losId": "derivatives-09-los1",
+  "losText": "explain put-call parity for European options",
+  "moduleId": "derivatives-09",
+  "moduleTitle": "Option Replication Using Put–Call Parity",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:27:45.390Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch15:13:12",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 13–14",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=13",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "richmondfed-money-market-ch15:12:11",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 12–13",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=12",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:22:17",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 22–24",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=22",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 28–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:21:37",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 21–22",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=21",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:12:23",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 12–13",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:28:22",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 28–29",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=28",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:4:3",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 4–5",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=4",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "richmondfed-money-market-ch15:20:19",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 20",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=20",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:11:8",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 11–13",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=11",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Put-Call Parity: Why a Call and a Put Are Tied Together",
+      "summary": "Put-call parity says that for European options with the same strike, expiry and underlying, a call and a put cannot be priced independently, because certain combinations give identical payoffs. It lets you back out a missing option price and spot arbitrage.",
+      "sections": [
+        {
+          "heading": "The intuition: two routes to the same destination",
+          "body_markdown": "Think of two travel routes that always arrive at the same place at the same time. They must cost the same, or everyone would book only the cheaper one.\n\nIn options, a **call** is the right to buy the underlying at a fixed **strike** $X$ on the expiry date. A **put** is the right to sell at $X$. A **European** option can only be exercised at expiry, not earlier. Put-call parity comes from building two portfolios that end up with the same value at expiry."
+        },
+        {
+          "heading": "The two portfolios",
+          "body_markdown": "**Fiduciary call** = a European call + a risk-free zero-coupon bond that pays exactly $X$ at expiry. The bond costs $X/(1+r)^T$ today, where $r$ is the annual risk-free rate and $T$ is the time to expiry in years.\n\n**Protective put** = a European put + one share of the underlying. The put sets a floor under the share.\n\nAt expiry, with the share worth $S_T$:\n- If $S_T > X$, the call is exercised. The fiduciary call is worth $(S_T - X) + X = S_T$. The put expires worthless, so the protective put is worth $S_T$.\n- If $S_T \\le X$, the call expires worthless and the bond pays $X$. The put pays $X - S_T$, and with the share the protective put is worth $X$.\n\nBoth portfolios are worth $\\max(S_T, X)$ in every outcome."
+        },
+        {
+          "heading": "From equal payoffs to equal prices",
+          "body_markdown": "Identical payoffs at expiry force identical costs today, otherwise there is a risk-free profit (an **arbitrage**). Using $c_0$ and $p_0$ for today's call and put prices and $S_0$ for the spot price:\n\n$$c_0 + \\frac{X}{(1+r)^T} = p_0 + S_0$$\n\nThe parity must hold with the **same strike, same expiry and same underlying** for the call and the put. If you know three of the four items (call, put, spot, PV of strike), you can solve for the fourth. Rearranging gives $p_0 = c_0 - S_0 + X/(1+r)^T$.\n\nThis version assumes the underlying pays no income during the option's life. Adjustments for cash flows and the forward-based form belong to the next learning objective."
+        },
+        {
+          "heading": "Rearranging: synthetic positions and arbitrage",
+          "body_markdown": "Moving terms around shows that each instrument can be rebuilt from the others:\n- **Long call** = long put + long stock + borrow $X/(1+r)^T$ (short the bond).\n- **Long put** = long call + short stock + buy the bond with face $X$.\n- **Long call, short put** has the payoff $S_T - X$, like a forward-style purchase at $X$.\n\nIf the two sides of the parity equation differ, sell the expensive portfolio, buy the cheap one, and pocket the difference today with no risk at expiry.\n\n**Why only European?** An American option can be exercised early, so the two portfolios need not match at every date. The exact equality is a European-option result."
+        }
+      ],
+      "worked_example": {
+        "problem": "A European call on a non-dividend-paying stock has a price of $9.00. The stock trades at $80.00. The call and a European put on the same stock share a strike of $85.00 and a one-year expiry. The annual risk-free rate is 4% (annual compounding). What is the put price, rounded to the nearest cent?",
+        "steps": [
+          "Write parity: $c_0 + X/(1+r)^T = p_0 + S_0$, so $p_0 = c_0 - S_0 + X/(1+r)^T$.",
+          "Discount the strike: $85/1.04 = 81.7308$. On the BA II Plus, press 1 [N], 4 [I/Y], 0 [PMT], 85 [FV], then [CPT] [PV] to get -81.73 (ignore the sign).",
+          "Substitute: $p_0 = 9.00 - 80.00 + 81.7308$.",
+          "Compute: $p_0 = 10.7308$, which rounds to $10.73$."
+        ],
+        "answer": "The put is worth about $10.73.",
+        "answer_value": 10.73,
+        "calc_spec": {
+          "fn": "putFromParity",
+          "args_json": "{\"call\":9,\"spot\":80,\"strike\":85,\"r\":0.04,\"T\":1}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Put-call parity (European, no income on the underlying)",
+          "latex": "c_0 + \\frac{X}{(1+r)^T} = p_0 + S_0",
+          "where": "$c_0$ = European call price today; $p_0$ = European put price today; $S_0$ = spot price of the underlying; $X$ = common strike; $r$ = annual risk-free rate; $T$ = years to expiry."
+        },
+        {
+          "name": "Put from call",
+          "latex": "p_0 = c_0 - S_0 + \\frac{X}{(1+r)^T}",
+          "where": "Symbols as above; a synthetic long put is a long call, short stock and a long bond with face $X$."
+        },
+        {
+          "name": "Call from put",
+          "latex": "c_0 = p_0 + S_0 - \\frac{X}{(1+r)^T}",
+          "where": "Symbols as above; a synthetic long call is a long put, long stock and borrowing $X/(1+r)^T$."
+        },
+        {
+          "name": "Payoff of long call plus short put at expiry",
+          "latex": "\\max(0,S_T-X)-\\max(0,X-S_T)=S_T-X",
+          "where": "$S_T$ = underlying price at expiry; $X$ = strike."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting to discount the strike: using $X$ instead of $X/(1+r)^T$ in the parity equation.",
+        "Putting the stock on the wrong side. The stock pairs with the put (protective put), and the bond pairs with the call (fiduciary call).",
+        "Applying parity to options with different strikes or expiries, or to American options, where parity is not an exact equality.",
+        "Sign errors when rearranging: $p_0 = c_0 - S_0 + PV(X)$, not $c_0 + S_0 - PV(X)$.",
+        "Using the wrong discount period, for example not converting a 6-month expiry into years when the rate is annual."
+      ],
+      "builds_on": [
+        "Option payoffs at expiry",
+        "Present value and discounting",
+        "No-arbitrage pricing"
+      ],
+      "leads_to": [
+        "Put-call forward parity",
+        "Synthetic option and stock positions",
+        "Binomial and Black-Scholes pricing"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-rec05:1:0",
+        "damodaran-valn2ed-ch5:22:17",
+        "richmondfed-money-market-ch15:12:11"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An investor holds a European call plus a zero-coupon bond whose face value equals the call's strike and which matures on the expiry date. Which holding in a put and the underlying stock has the same payoff at expiry?",
+        "options": [
+          {
+            "text": "A long put combined with a short position in the stock",
+            "value": null,
+            "explanation": "Wrong: this flips the sign on the stock. Short stock loses when the price rises, so the payoff is not max(S_T, X)."
+          },
+          {
+            "text": "A long put combined with a long position in the stock",
+            "value": null,
+            "explanation": "Correct: the protective put pays max(S_T, X), the same as the fiduciary call (call plus bond with face X)."
+          },
+          {
+            "text": "A short put combined with a long position in the stock",
+            "value": null,
+            "explanation": "Wrong: this confuses a protective put with a position that sells the put. The short put adds downside risk instead of a floor."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond) pp. 13–14: \"put combined with a short position in the\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A European put is priced at $4.00. The underlying stock, which pays no dividends, trades at $50.00. A European call on the same stock has the same $50.00 strike and a one-year expiry. The annual risk-free rate is 4% with annual compounding. Using put-call parity, what is the call price, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$5.92",
+            "value": 5.92,
+            "explanation": "Correct: c = p + S - X/(1+r)^T = 4.00 + 50.00 - 48.08 = 5.92."
+          },
+          {
+            "text": "$4.00",
+            "value": 4,
+            "explanation": "Wrong: the strike is not discounted (4 + 50 - 50), so the time value of money is ignored."
+          },
+          {
+            "text": "$2.08",
+            "value": 2.08,
+            "explanation": "Wrong: this uses p - S + PV(X) = 4 - 50 + 48.08, the put-from-call rearrangement, instead of the call-from-put one."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "callFromParity",
+          "args_json": "{\"put\":4,\"spot\":50,\"strike\":50,\"r\":0.04,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:22:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For European options with the same strike and expiry on the same stock, the fiduciary call currently costs more than the protective put. Which action locks in a risk-free profit?",
+        "options": [
+          {
+            "text": "Buy the fiduciary call and sell the protective put",
+            "value": null,
+            "explanation": "Wrong: this buys the more expensive portfolio and sells the cheaper one, locking in a certain loss."
+          },
+          {
+            "text": "Do nothing, because both portfolios carry market risk",
+            "value": null,
+            "explanation": "Wrong: both portfolios have identical payoffs, so the risk is the same and the price gap is a pure mispricing."
+          },
+          {
+            "text": "Sell the fiduciary call and buy the protective put",
+            "value": null,
+            "explanation": "Correct: selling the expensive portfolio and buying the cheap one gives a positive cash flow now and exactly offsetting payoffs at expiry."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:22:17"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A European call is priced at $7.50. The non-dividend-paying stock trades at $60.00. A European put on the same stock has a $65.00 strike and a one-year expiry, matching the call. The annual risk-free rate is 5% with annual compounding. Using put-call parity, what is the put price, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$12.50",
+            "value": 12.5,
+            "explanation": "Wrong: the strike is not discounted (7.50 - 60 + 65), which ignores the time value of money."
+          },
+          {
+            "text": "$9.40",
+            "value": 9.4,
+            "explanation": "Correct: p = c - S + X/(1+r)^T = 7.50 - 60.00 + 61.90 = 9.40."
+          },
+          {
+            "text": "$15.75",
+            "value": 15.75,
+            "explanation": "Wrong: the strike is compounded forward (65 x 1.05 = 68.25) instead of discounted back to today."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "putFromParity",
+          "args_json": "{\"call\":7.5,\"spot\":60,\"strike\":65,\"r\":0.05,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:22:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which combination of positions creates a synthetic long European put?",
+        "options": [
+          {
+            "text": "Long a call, short the stock, and buy a zero-coupon bond with face value equal to the strike",
+            "value": null,
+            "explanation": "Correct: rearranging parity gives p = c - S + PV(X), so the put is a long call, short stock and long bond."
+          },
+          {
+            "text": "Long a call, long the stock, and borrow the present value of the strike",
+            "value": null,
+            "explanation": "Wrong: this reverses the stock and bond signs. It is closer to a leveraged long stock position than a put."
+          },
+          {
+            "text": "Short a call, short the stock, and lend the present value of the strike",
+            "value": null,
+            "explanation": "Wrong: the call sign is flipped, so the position has the opposite exposure to the call leg of the synthetic put."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:13:12",
+          "damodaran-valn2ed-ch5:22:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Why is put-call parity an exact no-arbitrage relationship for European options but not necessarily for American options?",
+        "options": [
+          {
+            "text": "American options always cost less than European options, so the equation is shifted by a fixed amount",
+            "value": null,
+            "explanation": "Wrong: the right to exercise early generally makes American options worth at least as much, not less."
+          },
+          {
+            "text": "Parity requires the call and put to have different strikes, which American options cannot have",
+            "value": null,
+            "explanation": "Wrong: parity requires the same strike for both options. American options can have the same strike."
+          },
+          {
+            "text": "Early exercise of an American option can break the equal-payoff link between the two portfolios",
+            "value": null,
+            "explanation": "Correct: with exercise possible before expiry, the portfolios no longer have identical payoffs on every date, so exact equality need not hold."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A European put option with a $42.00 strike and one year to expiry is priced at $2.50. The underlying stock pays no dividends and trades at $40.00. A European call on the same stock has the same $42.00 strike and the same expiry. The annual risk-free rate is 3% with annual compounding. Using put-call parity, what is the call price, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "$3.28",
+            "value": 3.28,
+            "explanation": "Uses the put-from-call rearrangement, p - S + PV(X) = 2.50 - 40.00 + 40.78, with the signs on S and PV(X) flipped. The correct call-from-put form adds the stock price and subtracts the discounted strike."
+          },
+          {
+            "text": "$1.72",
+            "value": 1.72,
+            "explanation": "Correct. Parity gives c = p + S - X/(1+r)^T. The discounted strike is 42/1.03 = 40.7767, so c = 2.50 + 40.00 - 40.7767 = 1.7233, which rounds to $1.72."
+          },
+          {
+            "text": "$0.50",
+            "value": 0.5,
+            "explanation": "Leaves the strike undiscounted (2.50 + 40.00 - 42.00), so it ignores the time value of money. The strike is paid a year from now and must be discounted at the risk-free rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "callFromParity",
+          "args_json": "{\"put\":2.5,\"spot\":40,\"strike\":42,\"r\":0.03,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:22:17",
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): C = P + S - X/1.03 = 2.50 + 40 - 40.7767 = 1.7233... wait: 42/1.03 = 40.7767, so C = 1.72."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "At expiry, an investor is long a European call and short a European put, both with strike X on the same underlying. The underlying price at expiry is S_T. What is the payoff of this combined position?",
+        "options": [
+          {
+            "text": "max(S_T, X)",
+            "value": null,
+            "explanation": "Wrong: this is the payoff of a protective put or fiduciary call, not of a long call combined with a short put."
+          },
+          {
+            "text": "X - S_T",
+            "value": null,
+            "explanation": "Wrong: this reverses the sign; it is the payoff of a short call combined with a long put."
+          },
+          {
+            "text": "S_T - X",
+            "value": null,
+            "explanation": "Correct: if S_T > X the call pays S_T - X; if S_T < X the short put loses X - S_T. Either way the total is S_T - X."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "State put-call parity for European options on a stock paying no income.",
+        "back": "c0 + X/(1+r)^T = p0 + S0, with the same strike X and expiry T for the call and the put.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0",
+          "damodaran-valn2ed-ch5:22:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What are the two portfolios with identical payoffs in put-call parity?",
+        "back": "Fiduciary call (call + zero-coupon bond with face X) and protective put (put + share). Both pay max(S_T, X) at expiry.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you build a synthetic long put from other instruments?",
+        "back": "Long call + short stock + long zero-coupon bond with face X, since p0 = c0 - S0 + X/(1+r)^T.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:13:12"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why does put-call parity hold exactly only for European options?",
+        "back": "American options can be exercised early, so the two portfolios need not have the same payoff at every date.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "If the fiduciary call is priced above the protective put, what is the arbitrage?",
+        "back": "Sell the fiduciary call, buy the protective put, and keep the price difference. The payoffs cancel at expiry.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T20:27:24.079Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 894,
+      "outputTokens": 546,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007365,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:27:32.284Z",
+      "purpose": "repair",
+      "losId": "derivatives-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11210,
+      "outputTokens": 1106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.034424,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:27:33.995Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 159,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001595,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:27:45.389Z",
+      "purpose": "grounding",
+      "losId": "derivatives-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14250,
+      "outputTokens": 1374,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.042409199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0857932
+}

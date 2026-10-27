@@ -1,0 +1,491 @@
+{
+  "losId": "derivatives-10-los1",
+  "losText": "explain how to value a derivative using a one-period binomial model",
+  "moduleId": "derivatives-10",
+  "moduleTitle": "Valuing a Derivative Using a One-Period Binomial Model",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:21:14.741Z",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch15:13:12",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 13–14",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=13",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:5:4",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 5–6",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=5",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:165:157",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 165–166",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=165",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:24:18",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 24–25",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=24",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:10:7",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:17:13",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 17–18",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=17",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:6:5",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 6–7",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=6",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-rec05:8:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 8–14",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:43:79",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 43–44",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=43",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:20:15",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 20–21",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=20",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:22:17",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 22–24",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=22",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:42:77",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 42–43",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=42",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Pricing an Option with a One-Step Binomial Tree",
+      "summary": "A one-period binomial model assumes a stock can end the period at only one of two prices, so an option's payoff can be copied with shares plus borrowing or lending. Because the copy and the option pay the same, they must cost the same today, and that cost is the option's value.",
+      "sections": [
+        {
+          "heading": "The two-state world",
+          "body_markdown": "A **binomial model** assumes that over one period the underlying asset can go to only two prices. Think of tomorrow's weather being either sunny or rainy, with nothing in between.\n\nStart from today's price $S_0$. The **up factor** $u$ and the **down factor** $d$ are multipliers, so the two possible prices are $S^+ = S_0 u$ and $S^- = S_0 d$. A stock at 100 with $u=1.20$ and $d=0.80$ ends at 120 or 80.\n\nAt expiry a European call (exercisable only at expiry) pays $\\max(S-K,0)$ and a European put pays $\\max(K-S,0)$. Here $K$ is the **exercise (strike) price**. Compute the option payoff at each of the two nodes first. Those two payoffs are the raw material for everything else. This lesson assumes no dividends and a single risk-free rate $r$ for the period."
+        },
+        {
+          "heading": "Copy the option with shares and a loan",
+          "body_markdown": "Suppose you can build a portfolio of $\\Delta$ shares plus a risk-free loan or deposit that pays exactly what the option pays in both states. That portfolio is a **replicating portfolio** (or hedge portfolio). Because the option and the portfolio have identical payoffs, they must have the same price. Otherwise there would be a risk-free profit.\n\n**Step 1: the number of shares.** The option's payoffs differ by $C^+ - C^-$ across the two states, and the shares' payoffs differ by $S^+ - S^-$. Matching these gives\n\n$$\\Delta=\\frac{C^+-C^-}{S^+-S^-}$$\n\n$\\Delta$ is the **hedge ratio** (the option's delta in this model). It is the number of shares that mimics one option.\n\n**Step 2: the loan.** For a call, $\\Delta$ is positive and the portfolio is long shares financed partly by borrowing. Choose the loan so the portfolio pays $C^-$ in the down state. The amount you must repay is $\\Delta S^- - C^-$, and its present value is that amount divided by $(1+r)$.\n\n**Step 3: the value.**\n\n$$C_0=\\Delta S_0-\\frac{\\Delta S^- - C^-}{1+r}$$\n\nIn words: the call is worth the cost of the shares minus the present value of the debt owed. Using the up state instead gives the same answer."
+        },
+        {
+          "heading": "The weighting shortcut",
+          "body_markdown": "The replication algebra can be rearranged into a one-line formula. Define a weight\n\n$$q=\\frac{1+r-d}{u-d}$$\n\nThen\n\n$$C_0=\\frac{q\\,C^+ + (1-q)\\,C^-}{1+r}$$\n\nThis is just a weighted average of the two payoffs, discounted one period at the risk-free rate. It gives exactly the same number as the shares-plus-loan method, so use whichever is quicker. $q$ comes out of the replication algebra using only $u$, $d$ and $r$. It is **not** the real-world chance that the stock rises, and that real-world chance is not an input at all. (Why $q$ behaves like a probability is a separate topic.)\n\nFor a put, replace the call payoffs by put payoffs $P^+$ and $P^-$. A put's delta is negative: replicating a long put means *short-selling* shares and *lending* at the risk-free rate."
+        },
+        {
+          "heading": "Why the price must match: arbitrage",
+          "body_markdown": "If the market price of the call is above the replicating portfolio's cost, sell the call and buy the replicating portfolio (buy $\\Delta$ shares and borrow). You collect the difference today, and at expiry the portfolio exactly covers what you owe on the call. If the market price is below the cost, do the reverse: buy the call and short the replicating portfolio. Either way the profit is risk-free, so trading pushes the option price to the replication cost.\n\nA check on puts and calls: with the same $K$, the values must satisfy $C_0-P_0=S_0-\\dfrac{K}{1+r}$. In the worked example below, $11.90-7.14=4.76$ and $100-95.24=4.76$."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at 100. Over one period it will either rise by a factor of 1.20 or fall by a factor of 0.80. The risk-free rate for the period is 5%. Value a European call with strike 100 expiring at the end of the period.",
+        "steps": [
+          "Find the two stock prices: $S^+=100\\times1.20=120$ and $S^-=100\\times0.80=80$.",
+          "Find the call payoffs: $C^+=\\max(120-100,0)=20$ and $C^-=\\max(80-100,0)=0$.",
+          "Hedge ratio: $\\Delta=(20-0)/(120-80)=0.50$ shares.",
+          "Debt to repay at expiry: $\\Delta S^- - C^- = 0.5\\times80-0=40$. Its present value is $40/1.05=38.10$.",
+          "Call value $=\\Delta S_0-38.10=0.5\\times100-38.10=11.90$.",
+          "Check with the shortcut: $q=(1.05-0.80)/(1.20-0.80)=0.625$. Then $C_0=(0.625\\times20+0.375\\times0)/1.05=11.90$.",
+          "BA II Plus keystrokes for the shortcut: 1.05 − 0.8 = ÷ 0.4 = (shows 0.625). Then × 20 ÷ 1.05 = (shows 11.9048)."
+        ],
+        "answer": "The call is worth about $11.90.",
+        "answer_value": 11.9,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":100,\"strike\":100,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Hedge ratio (delta)",
+          "latex": "\\Delta=\\frac{V^+-V^-}{S^+-S^-}",
+          "where": "V^+ and V^- are the option's values (call or put) in the up and down states; S^+ and S^- are the stock prices in those states. Delta is positive for a call and negative for a put."
+        },
+        {
+          "name": "Option value by replication (call)",
+          "latex": "C_0=\\Delta S_0-\\frac{\\Delta S^- - C^-}{1+r}",
+          "where": "S_0 is today's stock price; r is the risk-free rate per period; C^- is the call payoff in the down state. The second term is the present value of the loan repaid at expiry."
+        },
+        {
+          "name": "Weighting factor",
+          "latex": "q=\\frac{1+r-d}{u-d}",
+          "where": "u and d are the up and down price factors (for example 1.20 and 0.80, not 20% and -20%); r is the risk-free rate per period as a decimal."
+        },
+        {
+          "name": "Option value by weighted payoffs",
+          "latex": "V_0=\\frac{q\\,V^+ + (1-q)\\,V^-}{1+r}",
+          "where": "V^+ and V^- are the option payoffs in the up and down states; q is the weighting factor above. The same formula works for calls and puts."
+        }
+      ],
+      "exam_traps": [
+        "Typing u and d as percentage changes (0.20 and -0.20) instead of factors (1.20 and 0.80), which gives wrong stock prices.",
+        "Forgetting to discount by $(1+r)$ at the end, which overstates the option value.",
+        "Using the weight $q$ on the down payoff and $(1-q)$ on the up payoff, or putting a 50/50 or real-world probability in place of $q$.",
+        "Setting an option's payoff to a negative number. A call or put payoff at expiry is never below zero, so use $\\max(\\cdot,0)$ at each node.",
+        "Forgetting that a put's delta is negative, so replicating a long put means shorting shares and lending, not buying shares and borrowing."
+      ],
+      "builds_on": [
+        "Call and put payoffs at expiry",
+        "Present value and discounting at the risk-free rate",
+        "No-arbitrage pricing",
+        "Put-call parity"
+      ],
+      "leads_to": [
+        "Risk-neutral probabilities and risk neutrality",
+        "Multi-period binomial trees",
+        "Black-Scholes-Merton model",
+        "Delta hedging"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch5:6:5",
+        "mit-ocw-15401-rec05:8:1",
+        "damodaran-valn2ed-ch5:5:4"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A non-dividend-paying stock is priced at 80. In one period it will either be multiplied by 1.25 (up) or by 0.80 (down). The risk-free rate for the period is 4%. Using a one-period binomial model, what is the value of a European call with strike price 80? Round to two decimals.",
+        "options": [
+          {
+            "text": "10.67",
+            "value": 10.67,
+            "explanation": "Forgets to discount. The weighted payoff 0.5333 × 20 = 10.67 is a value at expiry, not today."
+          },
+          {
+            "text": "10.26",
+            "value": 10.26,
+            "explanation": "Correct. The up price is 100, so $C^+=20$ and $C^-=0$. $q=(1.04-0.80)/(1.25-0.80)=0.5333$, and $C_0=0.5333\\times20/1.04=10.26$."
+          },
+          {
+            "text": "9.62",
+            "value": 9.62,
+            "explanation": "Uses a 50/50 weighting instead of $q$: $0.5\\times20/1.04=9.62$. The weight must come from $u$, $d$ and $r$."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":80,\"strike\":80,\"u\":1.25,\"d\":0.8,\"r\":0.04,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A non-dividend-paying stock is priced at 100. In one period it will either be multiplied by 1.10 (up) or by 0.90 (down). The risk-free rate for the period is 3%. Using a one-period binomial model, what is the value of a European put with strike price 105? Round to two decimals.",
+        "options": [
+          {
+            "text": "5.10",
+            "value": 5.1,
+            "explanation": "Correct. The put pays 0 if the stock is 110 and 15 if it is 90. $q=(1.03-0.90)/0.20=0.65$, so $P_0=0.35\\times15/1.03=5.10$."
+          },
+          {
+            "text": "9.47",
+            "value": 9.47,
+            "explanation": "Weights the put's down-state payoff by $q$ instead of $1-q$: $0.65\\times15/1.03=9.47$. The down payoff takes weight $1-q$."
+          },
+          {
+            "text": "5.25",
+            "value": 5.25,
+            "explanation": "Omits discounting: $0.35\\times15=5.25$ is the expiry value, not today's value."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":100,\"strike\":105,\"u\":1.1,\"d\":0.9,\"r\":0.03,\"kind\":\"put\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A stock is priced at 100 and will be either 120 or 80 after one period. A European call with strike 90 will therefore pay 30 or 0. How many shares are in the replicating portfolio for one call (the hedge ratio)?",
+        "options": [
+          {
+            "text": "0.75 shares",
+            "value": null,
+            "explanation": "Correct. $\\Delta=(C^+-C^-)/(S^+-S^-)=(30-0)/(120-80)=0.75$."
+          },
+          {
+            "text": "1.33 shares",
+            "value": null,
+            "explanation": "Inverts the ratio, computing $(S^+-S^-)/(C^+-C^-)=40/30$. That is the number of options needed to hedge one share, not the shares per option."
+          },
+          {
+            "text": "0.25 shares",
+            "value": null,
+            "explanation": "Divides the up-state call payoff by the up-state stock price, $30/120$, instead of dividing payoff spread by stock-price spread."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In a one-period binomial model, which portfolio replicates a long position in a call option?",
+        "options": [
+          {
+            "text": "Short shares of the stock and lend at the risk-free rate",
+            "value": null,
+            "explanation": "This has the wrong signs for a call. It is the replicating structure for a long put, whose delta is negative."
+          },
+          {
+            "text": "Buy shares of the stock and borrow at the risk-free rate",
+            "value": null,
+            "explanation": "Correct. A call's delta is positive, and the call's payoff is the shares' payoff minus the repayment of the loan, so the call is worth $\\Delta S_0$ minus the loan's present value."
+          },
+          {
+            "text": "Buy shares of the stock and lend at the risk-free rate",
+            "value": null,
+            "explanation": "Gets the share position right but the bond position wrong. Adding a deposit would make the portfolio pay more than the call in both states."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A non-dividend-paying stock is priced at 60. In one period it will either be multiplied by 1.20 (up) or by 0.90 (down). The risk-free rate for the period is 5%. Using a one-period binomial model, what is the value of a European call with strike price 50? Round to two decimals.",
+        "options": [
+          {
+            "text": "13.00",
+            "value": 13,
+            "explanation": "Omits discounting. The weighted payoff $0.5\\times22+0.5\\times4=13.00$ is an expiry value."
+          },
+          {
+            "text": "10.48",
+            "value": 10.48,
+            "explanation": "Sets the down-state payoff to 0 as if the call were out of the money. At 54 the call is in the money and pays 4, so $C^-=4$ and the value is higher."
+          },
+          {
+            "text": "12.38",
+            "value": 12.38,
+            "explanation": "Correct. The stock is 72 or 54, so $C^+=22$ and $C^-=4$. $q=(1.05-0.90)/0.30=0.5$, and $C_0=(0.5\\times22+0.5\\times4)/1.05=12.38$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":60,\"strike\":50,\"u\":1.2,\"d\":0.9,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a one-period binomial setting, a European call is trading in the market above the cost of its replicating portfolio. Which strategy earns a risk-free profit?",
+        "options": [
+          {
+            "text": "Buy the call, short the replicating shares and lend the proceeds",
+            "value": null,
+            "explanation": "This is the strategy for a call that is too cheap. Here the call is overpriced, so buying it locks in a loss."
+          },
+          {
+            "text": "Sell the call, buy the replicating shares and borrow",
+            "value": null,
+            "explanation": "Correct. You receive the high call price and pay the lower replication cost today, and at expiry the share-plus-loan portfolio exactly covers the call's payoff."
+          },
+          {
+            "text": "Buy the call, buy the replicating shares and borrow",
+            "value": null,
+            "explanation": "Buys the overpriced call and also takes the replicating position on the same side. The payoffs do not offset, so the position is risky and not an arbitrage."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A non-dividend-paying stock is priced at 60. In one period it will either be multiplied by 1.30 (up) or by 0.85 (down). The risk-free rate for the period is 2%. Using a one-period binomial model, what is the value of a European call with strike price 55? Round to two decimals.",
+        "options": [
+          {
+            "text": "8.52",
+            "value": 8.52,
+            "explanation": "Correct. The stock is 78 or 51, so $C^+=23$ and $C^-=0$. $q=(1.02-0.85)/0.45=0.3778$, and $C_0=0.3778\\times23/1.02=8.52$."
+          },
+          {
+            "text": "8.69",
+            "value": 8.69,
+            "explanation": "Forgets to discount: $0.3778\\times23=8.69$ is the expiry value."
+          },
+          {
+            "text": "8.86",
+            "value": 8.86,
+            "explanation": "Multiplies by $(1+r)$ instead of dividing, which moves the value forward in time rather than discounting it back."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":60,\"strike\":55,\"u\":1.3,\"d\":0.85,\"r\":0.02,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A stock is priced at 100 and will be either 120 or 80 after one period. A European put with strike 100 will therefore pay 0 or 20. What is the hedge ratio for replicating one long put, and what does it imply?",
+        "options": [
+          {
+            "text": "+0.50, so buy half a share",
+            "value": null,
+            "explanation": "Drops the sign. The put's payoff is higher when the stock is lower, so the ratio is negative, not positive."
+          },
+          {
+            "text": "−0.25, so short a quarter share",
+            "value": null,
+            "explanation": "Divides the 20 payoff spread by the down price (80) instead of by the stock-price spread of 40."
+          },
+          {
+            "text": "−0.50, so short half a share",
+            "value": null,
+            "explanation": "Correct. $\\Delta=(P^+-P^-)/(S^+-S^-)=(0-20)/(120-80)=-0.50$. A long put is replicated by short-selling shares and lending."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the two ingredients of a replicating portfolio for an option in a one-period binomial model?",
+        "back": "Delta shares of the underlying asset plus risk-free borrowing or lending, chosen to give the option's payoff in both the up and down states.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "front": "How do you compute the hedge ratio (delta) in a one-period binomial tree?",
+        "back": "Option payoff in the up state minus payoff in the down state, divided by stock price up minus stock price down: $\\Delta=(V^+-V^-)/(S^+-S^-)$.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "front": "What is the one-line formula for an option's value in the one-period binomial model?",
+        "back": "$V_0=[qV^++(1-q)V^-]/(1+r)$ with $q=(1+r-d)/(u-d)$. It gives the same value as replication.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "front": "Why must an option's price equal the cost of its replicating portfolio?",
+        "back": "If it did not, you could trade the option against the replicating portfolio for a risk-free profit (arbitrage), and that trading would push the price back.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:6:5"
+        ]
+      },
+      {
+        "front": "How does the replicating portfolio for a put differ from that of a call?",
+        "back": "A put has a negative delta, so replicating a long put means shorting shares and lending at the risk-free rate. A call is replicated by buying shares and borrowing.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:21:14.741Z",
+      "purpose": "generate",
+      "losId": "derivatives-10-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10186,
+      "outputTokens": 11990,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1414282,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "losId": "derivatives-08-los3",
+  "losText": "identify the factors that determine the value of an option and describe how each factor affects the value of an option",
+  "moduleId": "derivatives-08",
+  "moduleTitle": "Pricing and Valuation of Options",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:17:13.377Z",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch5:4:3",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 4–5",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=4",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.16
+    },
+    {
+      "id": "richmondfed-money-market-ch15:11:10",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 11–12",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=11",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15401-lec10:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 10-11: Options",
+      "locator": "pp. 1–9",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/c40ecc0cc0dce0fbf2d229bc4027c43b_MIT15_401F08_lec10.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:4",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 4–5",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:16:12",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 16–17",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=16",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:3:2",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 3–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=3",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-review_fin:11:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Final Exam Review Session",
+      "locator": "pp. 11–15",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d28223e0ac8822df9538f33b1542881e_MIT15_401F08_review_fin.pdf#page=11",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:5:4",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 5–6",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=5",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "fed-trading-4000-p2:39:70",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 39–40",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=39",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch15:12:11",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 12–13",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=12",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "What Moves an Option's Price: The Six Inputs",
+      "summary": "An option's price depends on six inputs: the underlying price, the strike, volatility, time to expiration, the risk-free rate and any cash flows the underlying pays or costs it incurs. The key skill is knowing whether each input pushes a call or a put up or down. This is the foundation for every option pricing model.",
+      "sections": [
+        {
+          "heading": "Start with the intuition: an option is a one-sided bet",
+          "body_markdown": "An **option** is a contract that gives its buyer the *right*, but not the obligation, to buy (a **call**) or sell (a **put**) an **underlying** asset at a fixed **strike price**. The buyer pays an up-front price called the **premium**.\n\nThink of a call as a non-refundable deposit on a house at an agreed price. If the house gains value, you use the deposit. If it loses value, you walk away and lose only the deposit. The deposit's worth depends on how the house is priced today, the agreed price, how long the deposit lasts, how uncertain the market is, and what it costs you to wait.\n\nThere are six inputs. Each pushes calls and puts in a predictable direction. Memorise the directions through the logic below, not as a bare list."
+        },
+        {
+          "heading": "Underlying price and strike price",
+          "body_markdown": "**Underlying price ($S$).** A call pays off when the underlying finishes *above* the strike, so a higher $S$ makes a call worth more. A put pays off when the underlying finishes *below* the strike, so a higher $S$ makes a put worth less.\n\n**Strike price ($X$).** This works the other way round. A call lets you buy at $X$, so a higher $X$ means a worse purchase price and a *lower* call value. A put lets you sell at $X$, so a higher $X$ means a better selling price and a *higher* put value.\n\nA simple check: a higher $S$ and a lower $X$ both make the call more in-the-money, and both hurt the put."
+        },
+        {
+          "heading": "Volatility and time to expiration",
+          "body_markdown": "**Volatility** measures how widely the underlying's price tends to swing. Higher volatility *raises* the value of both calls and puts. The option buyer's loss is capped at the premium, while the gain on the favourable side has no cap for a call and a large one for a put. Wide swings therefore add more upside than they take away. A bigger move up helps a call, a bigger move down helps a put, and the downside the buyer fears is truncated at zero.\n\n**Time to expiration ($T$).** More time gives the underlying more chance to move in your favour, so for most options longer life means a higher value. There is one subtlety on the exam. A **European** option can be exercised only at expiration. For a *European put*, a longer life also pushes out the date on which you receive the strike, which lowers the present value of that strike. For a deep in-the-money European put this second effect can outweigh the extra chance of a move, so the put can actually be worth *less* with more time. An **American** option can be exercised at any time up to expiration, so extra time can never hurt it."
+        },
+        {
+          "heading": "Interest rates and cash flows on the underlying",
+          "body_markdown": "**Risk-free rate ($r$).** Think of the option as a way to control the underlying without paying for it now. A call buyer pays the strike only at expiration, so at higher rates that deferred payment is worth less in today's money and the call is *worth more*. A put buyer receives the strike only at expiration, so at higher rates that deferred receipt is worth less today and the put is *worth less*.\n\n**Cash flows on the underlying (e.g., dividends).** If the underlying pays dividends during the option's life, its price is expected to drop by about that amount. The holder of a call does not receive them, because only the owner of the share does. A call therefore *loses* value and a put *gains* value when expected dividends are higher. Costs of holding the underlying (such as storage for a commodity) work in the opposite way to benefits.\n\n| Increase in | Call | Put |\n|---|---|---|\n| Underlying price | Up | Down |\n| Strike price | Down | Up |\n| Volatility | Up | Up |\n| Time to expiration | Up | Up (but can fall for a deep ITM European put) |\n| Risk-free rate | Up | Down |\n| Dividends / benefits of holding underlying | Down | Up |"
+        },
+        {
+          "heading": "Putting it together on exam questions",
+          "body_markdown": "Exam items usually change *one* input and ask for the direction of the effect, holding the rest constant. Work from the logic, not from memory:\n\n1. Ask: does this change make the right-side payoff (finishing above the strike for a call, below it for a put) more or less likely or larger?\n2. For rates and time, ask what happens to the present value of the strike.\n3. For volatility, remember the buyer's loss is capped, so more uncertainty never hurts.\n\nThe worked example below uses a simple one-period binomial tree (the underlying can go to only one of two prices) to show the volatility effect with real numbers."
+        }
+      ],
+      "worked_example": {
+        "problem": "A non-dividend-paying stock trades at 50. Over one year it will either rise to 60 or fall to 40 (u = 1.2, d = 0.8). The one-year risk-free rate is 5%. A European call with strike 50 is worth 5.95 under this tree. Now suppose the stock is more volatile: it will go to 65 or 35 (u = 1.3, d = 0.7), with everything else unchanged. What is the call worth, rounded to two decimals, and what does this show?",
+        "steps": [
+          "Compute the call payoffs in the new tree: up state = max(65 − 50, 0) = 15; down state = max(35 − 50, 0) = 0.",
+          "Compute the risk-neutral probability of an up move: $\\pi = (1 + r - d)/(u - d) = (1.05 - 0.70)/(1.30 - 0.70) = 0.35/0.60 = 0.58333$.",
+          "Compute the expected payoff: $0.58333 \\times 15 + 0.41667 \\times 0 = 8.75$.",
+          "Discount one year at 5%: $8.75 / 1.05 = 8.3333$. BA II Plus: 0.35 ÷ 0.6 = × 15 = ÷ 1.05 =.",
+          "For comparison, the original tree gave $\\pi = 0.25/0.40 = 0.625$, expected payoff 6.25, and value $6.25/1.05 = 5.95$.",
+          "The wider range of outcomes raises the call from 5.95 to 8.33. The extra upside adds value, while the call can never pay less than zero in the down state. Higher volatility increases the call's value."
+        ],
+        "answer": "The call is worth 8.33, up from 5.95, which shows that higher volatility increases an option's value.",
+        "answer_value": 8.33,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":50,\"u\":1.3,\"d\":0.7,\"r\":0.05,\"kind\":\"call\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "One-period binomial option value (calculation tool)",
+          "latex": "c=\\frac{\\pi\\,c^{+}+(1-\\pi)\\,c^{-}}{1+r},\\quad \\pi=\\frac{1+r-d}{u-d}",
+          "where": "c = option value today; c⁺ and c⁻ = option payoffs after an up move and a down move; π = risk-neutral probability of an up move; r = one-period risk-free rate; u and d = up and down price factors (new price = S × u or S × d)."
+        }
+      ],
+      "exam_traps": [
+        "Treating volatility like a risk that lowers value. For options, higher volatility raises the value of both calls and puts because the buyer's loss is limited to the premium.",
+        "Mixing up the direction of the interest-rate effect: a rate increase raises calls and lowers puts. Reason from the present value of the strike (paid by the call buyer, received by the put buyer).",
+        "Assuming more time always raises every option's value. A deep in-the-money European put can lose value with a longer life because the present value of the strike received falls.",
+        "Getting dividends backwards. Larger expected dividends lower the underlying's price, so calls fall and puts rise. The call holder does not receive the dividends.",
+        "Confusing the effect of the underlying price with the effect of the strike price. They act in opposite directions: a higher underlying price helps calls, but a higher strike hurts calls."
+      ],
+      "builds_on": [
+        "Exercise value and moneyness",
+        "Call and put payoffs at expiration",
+        "Present value and discounting",
+        "American vs European exercise"
+      ],
+      "leads_to": [
+        "Put-call parity",
+        "Binomial option pricing",
+        "Black-Scholes-Merton model",
+        "Option Greeks (delta, vega, rho)"
+      ],
+      "cited_chunk_ids": [
+        "damodaran-valn2ed-ch5:3:2",
+        "damodaran-valn2ed-ch5:4:3",
+        "richmondfed-money-market-ch15:11:10",
+        "mit-ocw-15401-review_fin:11:2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Holding all other inputs constant, how do an increase in the strike price of an option and no other change affect the values of a call and a put on the same underlying?",
+        "options": [
+          {
+            "text": "The call falls in value and the put rises in value.",
+            "value": null,
+            "explanation": "Correct. A higher strike means the call buyer must pay more to purchase the asset, so the call is worth less. The put seller receives more, so the put is worth more."
+          },
+          {
+            "text": "The call rises in value and the put falls in value.",
+            "value": null,
+            "explanation": "This reverses the strike effect. It is the pattern for a rise in the underlying price, not for a rise in the strike."
+          },
+          {
+            "text": "Both the call and the put rise in value.",
+            "value": null,
+            "explanation": "This confuses the strike effect with the volatility or time effect, which raise both. A higher strike makes the call less favourable."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:4:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Holding everything else constant, which single change would increase the value of both a call option and a put option on the same underlying?",
+        "options": [
+          {
+            "text": "A higher strike price",
+            "value": null,
+            "explanation": "A higher strike helps the put but lowers the call, so it does not raise both. It is a common mix-up with the volatility effect."
+          },
+          {
+            "text": "A higher risk-free interest rate",
+            "value": null,
+            "explanation": "A higher rate lowers the present value of the strike. That helps the call but hurts the put, so the two move in opposite directions."
+          },
+          {
+            "text": "Higher volatility of the underlying",
+            "value": null,
+            "explanation": "Correct. The buyer's loss is capped at the premium, so greater price swings add upside for a call (or for a put on the downside) without adding extra loss. Both rise."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2",
+          "richmondfed-money-market-ch15:11:10"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Other inputs are unchanged and the risk-free rate rises. What is the effect on a European call and a European put on a non-dividend-paying stock?",
+        "options": [
+          {
+            "text": "The call falls in value and the put rises in value.",
+            "value": null,
+            "explanation": "This reverses the effect. Candidates reason that higher rates are bad for the call, but the call buyer's deferred strike payment becomes cheaper in present value terms."
+          },
+          {
+            "text": "The call rises in value and the put falls in value.",
+            "value": null,
+            "explanation": "Correct. The call buyer pays the strike later, and a higher rate makes that deferred payment worth less today. The put buyer receives the strike later, and a higher rate makes that deferred receipt worth less today."
+          },
+          {
+            "text": "Both the call and the put rise in value.",
+            "value": null,
+            "explanation": "This treats interest rates like volatility or time, which raise both. Rates affect the present value of the strike, which hurts the put."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:4:3",
+          "mit-ocw-15401-review_fin:11:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company announces a higher dividend that will be paid before an option's expiration. All other inputs are unchanged. How does this announcement affect the values of a call and a put on that stock?",
+        "options": [
+          {
+            "text": "The call rises in value and the put falls in value.",
+            "value": null,
+            "explanation": "This treats dividends as a benefit the option holder receives. Only the shareholder receives dividends, and the stock price is expected to fall when they are paid."
+          },
+          {
+            "text": "Both the call and the put fall in value.",
+            "value": null,
+            "explanation": "This treats dividends as a general negative. The expected price drop helps the put, because the right to sell at a fixed price becomes more valuable."
+          },
+          {
+            "text": "The call falls in value and the put rises in value.",
+            "value": null,
+            "explanation": "Correct. The dividend lowers the expected underlying price and the call holder does not receive it. The call is worth less and the put is worth more."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2",
+          "damodaran-valn2ed-ch5:4:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A European put on a non-dividend-paying stock is deep in-the-money. All other inputs are held constant and the time to expiration is lengthened considerably. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "The put must rise in value because more time lets the stock move further.",
+            "value": null,
+            "explanation": "This applies the general time rule without allowing for the European exercise restriction. The put holder cannot exercise early and must wait longer to receive the strike."
+          },
+          {
+            "text": "The put may fall in value because the present value of the strike received shrinks.",
+            "value": null,
+            "explanation": "Correct. For a deep in-the-money European put, the lower present value of the delayed strike receipt can outweigh the benefit of extra time for the stock to move."
+          },
+          {
+            "text": "The put is unchanged because a deep in-the-money put holds only exercise value.",
+            "value": null,
+            "explanation": "This wrongly assumes time cannot affect a deep in-the-money option. Delaying the receipt of the strike still changes the option's present value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at 50. Over one period it will either rise to 60 or fall to 40. The risk-free rate is 5% for the period. A European call with strike 50 is worth 5.95. Using a one-period binomial tree, what is the value of a European call on the same stock with a strike of 55? Round to two decimals.",
+        "options": [
+          {
+            "text": "2.98",
+            "value": 2.98,
+            "explanation": "Correct. The up payoff is 60 − 55 = 5 and the down payoff is 0. With π = 0.625, the value is 0.625 × 5 / 1.05 = 2.98. A higher strike lowers the call from 5.95."
+          },
+          {
+            "text": "3.13",
+            "value": 3.13,
+            "explanation": "This skips discounting: 0.625 × 5 = 3.125. The expected payoff must be discounted at the risk-free rate."
+          },
+          {
+            "text": "2.38",
+            "value": 2.38,
+            "explanation": "This uses an up probability of 0.5 instead of the risk-neutral probability 0.625. The result is 0.5 × 5 / 1.05 = 2.38."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":55,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:4:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock trades at 50. Over one period it will either rise to 60 (u = 1.2) or fall to 40 (d = 0.8). The risk-free rate is 5% for the period. A European put with strike 50 is worth 3.57. Using a one-period binomial tree, what is the value of a European put on the same stock with a strike of 55? Round to two decimals.",
+        "options": [
+          {
+            "text": "8.93",
+            "value": 8.93,
+            "explanation": "This applies the up-move probability (0.625) to the down-state payoff of 15: 0.625 × 15 / 1.05 = 8.93. The put pays off in the down state, so the down probability 0.375 applies."
+          },
+          {
+            "text": "5.63",
+            "value": 5.63,
+            "explanation": "This omits discounting: 0.375 × 15 = 5.625. The expected payoff must be divided by 1.05."
+          },
+          {
+            "text": "5.36",
+            "value": 5.36,
+            "explanation": "Correct. The up payoff is max(55 − 60, 0) = 0 and the down payoff is 55 − 40 = 15. With the down probability 0.375, the value is 0.375 × 15 / 1.05 = 5.36. A higher strike raises the put from 3.57."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":55,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"put\"}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:4:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A European call with strike 50 on a stock currently at 50 is worth 5.95 in a one-period binomial tree (u = 1.2, d = 0.8, risk-free rate 5% for the period). Now the stock price is 55 instead, with the same strike, u, d and rate. What is the call worth? Round to two decimals.",
+        "options": [
+          {
+            "text": "10.00",
+            "value": 10,
+            "explanation": "This skips discounting: the expected payoff is 0.625 × 16 = 10.00. It must be divided by 1.05."
+          },
+          {
+            "text": "9.52",
+            "value": 9.52,
+            "explanation": "Correct. The stock goes to 66 or 44, so the up payoff is 16 and the down payoff is 0. With π = 0.625, the value is 0.625 × 16 / 1.05 = 9.52. A higher underlying price raises the call from 5.95."
+          },
+          {
+            "text": "7.62",
+            "value": 7.62,
+            "explanation": "This uses an up probability of 0.5 instead of the risk-neutral probability 0.625: 0.5 × 16 / 1.05 = 7.62."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":55,\"strike\":50,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How does a rise in the underlying price affect call and put values, and how does a rise in the strike price affect them?",
+        "back": "A higher underlying price raises calls and lowers puts. A higher strike price lowers calls and raises puts. The two inputs act in opposite directions.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2",
+          "damodaran-valn2ed-ch5:4:3"
+        ]
+      },
+      {
+        "front": "Why does higher volatility increase the value of both calls and puts?",
+        "back": "The option buyer's loss is capped at the premium, while the favourable move adds value without limit (calls) or to a large extent (puts). Greater swings therefore add upside without adding extra downside for the buyer.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2",
+          "richmondfed-money-market-ch15:11:10"
+        ]
+      },
+      {
+        "front": "What is the effect of a higher risk-free rate on a call and a put, and why?",
+        "back": "A higher rate raises the call and lowers the put. A higher rate cuts the present value of the strike, which the call buyer pays and the put buyer receives, both at expiration.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:4:3",
+          "mit-ocw-15401-review_fin:11:2"
+        ]
+      },
+      {
+        "front": "How do larger expected dividends on the underlying affect call and put values, and what is the exception to 'more time raises option value'?",
+        "back": "Larger dividends lower calls and raise puts. The time exception is a deep in-the-money European put, which can lose value with a longer life because the present value of the strike received shrinks.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:3:2"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:17:13.377Z",
+      "purpose": "generate",
+      "losId": "derivatives-08-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10546,
+      "outputTokens": 12440,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1466482,
+      "stopReason": "end_turn"
+    }
+  ]
+}

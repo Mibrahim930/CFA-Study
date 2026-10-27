@@ -1,0 +1,507 @@
+{
+  "losId": "derivatives-04-los1",
+  "losText": "explain how the concepts of arbitrage and replication are used in pricing derivatives",
+  "moduleId": "derivatives-04",
+  "moduleTitle": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:02:43.284Z",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch14:16:18",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=16",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "richmondfed-money-market-ch14:22:26",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 22–23",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=22",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "richmondfed-money-market-ch14:17:19",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 17",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=17",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:19:23",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 19–20",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=19",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:17:20",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 17–18",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=17",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec04:10:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 10–17",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=10",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "fed-trading-4000-p1:32:50",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 32–33",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=32",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "richmondfed-money-market-ch14:15:17",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 15–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=15",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:143:121",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 143–144",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=143",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:23:40",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 23",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=23",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:8:6",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 8–10",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=8",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Arbitrage and Replication: The Engine Behind Derivative Pricing",
+      "summary": "Derivatives are priced by asking what it would cost to build the same payoff from other assets, and by ruling out riskless free profits. This is the core logic behind every forward, futures, swap and option price you will meet later in the curriculum.",
+      "sections": [
+        {
+          "heading": "Start with one price for one payoff",
+          "body_markdown": "Imagine two coffee shops on the same street selling an identical cup. One charges $2 and the other $5. You would buy at the cheap shop and hand the cup over at the expensive one, and demand would soon close the gap. Finance calls this the **law of one price**: two assets or portfolios that deliver exactly the same future cash flows in every possible state of the world should sell for the same price today.\n\nA derivative is a contract whose value comes from an **underlying** (a stock, bond, commodity, rate or index). Its payoff is fully determined by the underlying. That is why we can often find another portfolio that delivers the same payoff, and the law of one price then fixes the derivative's price."
+        },
+        {
+          "heading": "Arbitrage: a free lunch that markets erase",
+          "body_markdown": "**Arbitrage** is a set of trades that needs no net investment of your own money, carries no risk of loss, and still earns a profit. It exists only when equivalent positions are priced differently.\n\nTwo forms are worth knowing:\n- **Same asset, two prices:** buy where it is cheap, sell where it is dear.\n- **Same payoff, two prices:** buy the cheaper of two equivalent packages and sell the dearer one. The payoffs cancel and the price gap is your profit.\n\nArbitrageurs' own trades remove the gap. Buying pushes the cheap price up and selling pushes the expensive price down, so mispricings are fleeting. Real markets have costs such as commissions and bid-ask spreads, and tiny gaps inside those costs can survive. Exam problems normally assume no such frictions.\n\nThe **no-arbitrage principle** says that prices will settle where no arbitrage is available. Derivative pricing uses this principle to find the one price that leaves no free lunch."
+        },
+        {
+          "heading": "Replication: building the payoff from other pieces",
+          "body_markdown": "**Replication** means constructing a portfolio of the underlying plus borrowing or lending at the risk-free rate (and sometimes other instruments) that produces the same payoff as the derivative.\n\n- **A long forward** pays $S_T - F_0(T)$ at expiry, where $S_T$ is the underlying's price then and $F_0(T)$ is the agreed forward price. You can copy it by buying the underlying today and financing it by borrowing the present value of the forward price. You hold the asset worth $S_T$ and owe $F_0(T)$, which is the same payoff.\n- **A call option** can be copied by holding some shares funded partly with borrowing. The share quantity is adjusted to match the option's sensitivity to the share price. The one-period binomial model uses exactly this idea.\n\nIf replication is possible, the derivative's fair price equals the cost of setting up the replicating portfolio. Any other price lets an arbitrageur buy the cheaper side and sell the dearer side."
+        },
+        {
+          "heading": "Putting it together: pricing a forward by cash-and-carry",
+          "body_markdown": "A forward contract costs nothing to enter, so its price is the delivery price $F_0(T)$ that makes the position worth zero at the start. Compare two ways to own the asset at time $T$:\n1. Buy a forward and set aside the present value of the forward price in a risk-free investment.\n2. Buy the asset now with borrowed money.\n\nNeither route has risk and both end with you owning the asset, so they must cost the same. For an asset with no income and no storage costs this gives $F_0(T) = S_0(1+r)^T$. Income paid by the asset, such as dividends, lowers the forward price, because the forward buyer misses that income. Storage costs raise it.\n\n**If the forward is too high** (above $S_0(1+r)^T$), run a **cash-and-carry arbitrage**: borrow, buy the asset, sell the forward, and deliver the asset at expiry. You lock in the excess.\n\n**If the forward is too low**, run a **reverse cash-and-carry**: short the asset, lend the proceeds at the risk-free rate, and buy the forward. At expiry you take delivery, return the asset, and keep the difference.\n\nNotice that none of this needs a forecast of the future spot price or knowledge of anyone's attitude toward risk. The price comes from the cost of the replicating strategy. In the binomial model the same logic gives an option value that uses current prices and no-arbitrage relationships, not investors' forecasts."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at 50 today and is expected to pay no dividends. The risk-free rate is 4% per year, compounded annually. (a) What is the no-arbitrage price of a 2-year forward on the stock? (b) The forward is actually quoted at 56. Describe the arbitrage and the profit at expiry.",
+        "steps": [
+          "Identify the pieces: S0 = 50, r = 4% = 0.04, T = 2 years, no income and no storage cost.",
+          "Apply the cash-and-carry result F0 = S0 × (1 + r)^T = 50 × 1.04^2.",
+          "BA II Plus, option 1: press 1.04 [y^x] 2 [=] to get 1.0816, then [×] 50 [=] to get 54.08.",
+          "BA II Plus, option 2 (TVM): set N = 2, I/Y = 4, PV = −50, PMT = 0, then CPT FV, giving 54.08.",
+          "So the fair forward price is 54.08.",
+          "For (b), the quoted forward of 56 is above 54.08, so the forward is overpriced. Sell the forward at 56, borrow 50 at 4%, and buy the stock.",
+          "At expiry (2 years): deliver the stock and receive 56. Repay the loan, which has grown to 50 × 1.04^2 = 54.08. Profit = 56 − 54.08 = 1.92 with no initial outlay and no risk."
+        ],
+        "answer": "The fair 2-year forward price is 54.08. At a quoted price of 56, a cash-and-carry arbitrage (sell forward, buy stock with borrowed funds) locks in 1.92 at expiry.",
+        "answer_value": 54.08,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":50,\"r\":0.04,\"T\":2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "No-arbitrage forward price (no income or costs)",
+          "latex": "F_0(T) = S_0\\,(1+r)^T",
+          "where": "F_0(T) = forward price agreed today for delivery at time T; S_0 = current spot price of the underlying; r = annual risk-free rate (annual compounding); T = time to delivery in years."
+        },
+        {
+          "name": "Forward price with income and storage costs",
+          "latex": "F_0(T) = \\left(S_0 - PV_{benefits} + PV_{costs}\\right)(1+r)^T",
+          "where": "PV_benefits = present value of income paid by the asset (e.g. dividends) over the life of the contract; PV_costs = present value of storage or similar costs; other symbols as above."
+        },
+        {
+          "name": "Arbitrage profit on an overpriced forward",
+          "latex": "\\text{Profit at } T = F_{market} - S_0(1+r)^T",
+          "where": "F_market = forward price actually quoted; S_0(1+r)^T = cost at time T of buying the asset with borrowed funds (no income or costs); a positive value means sell the forward and buy the asset."
+        },
+        {
+          "name": "Replication of a call using put-call parity",
+          "latex": "C_0 = P_0 + S_0 - \\frac{K}{(1+r)^T}",
+          "where": "C_0 = European call price; P_0 = European put price with the same strike and expiry; S_0 = current price of the underlying (no income); K = strike price; r = risk-free rate; T = time to expiry in years."
+        },
+        {
+          "name": "One-period binomial option value (risk-neutral form)",
+          "latex": "V_0 = \\frac{\\pi V_u + (1-\\pi) V_d}{1+r},\\quad \\pi = \\frac{1+r-d}{u-d}",
+          "where": "V_0 = option value today; V_u, V_d = option payoffs in the up and down states; u, d = up and down price factors for the underlying; r = risk-free rate for the period; π = risk-neutral probability of the up move (a pricing device, not a forecast)."
+        }
+      ],
+      "exam_traps": [
+        "Calling any high-return, low-risk trade an arbitrage. True arbitrage needs no net investment and no risk of loss; a strategy that is only likely to profit is not arbitrage.",
+        "Discounting when you should compound. The forward price of an asset with no income is above spot (S0 grows at the risk-free rate), not below it.",
+        "Forgetting that income paid by the asset lowers the forward price and storage costs raise it. Subtract the PV of dividends from spot before compounding.",
+        "Treating the forward price as a forecast of the future spot price or letting risk aversion enter the price. No-arbitrage prices depend on replication cost, not on expectations or risk preferences.",
+        "Mixing up the two arbitrage trades: an overpriced derivative is sold and the replicating portfolio bought; an underpriced derivative is bought and the replicating portfolio sold (shorted)."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "Risk-free borrowing and lending",
+        "Forward contract payoffs",
+        "Short selling"
+      ],
+      "leads_to": [
+        "Spot price, expected future price and cost of carry",
+        "Forward and futures pricing",
+        "Put-call parity and option pricing",
+        "Binomial option valuation",
+        "Swap pricing"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch14:16:18",
+        "richmondfed-money-market-ch14:17:19",
+        "richmondfed-money-market-ch14:17:20",
+        "richmondfed-money-market-ch14:15:17",
+        "flatworld-finance-banking-and-money:143:121",
+        "damodaran-valn2ed-ch5:8:6",
+        "fed-trading-4000-p2:23:40",
+        "mit-ocw-15401-rec05:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description best captures arbitrage as it is used in pricing derivatives?",
+        "options": [
+          {
+            "text": "Earning more than the risk-free rate by accepting extra risk",
+            "value": null,
+            "explanation": "This describes a risk premium. Arbitrage involves no risk of loss, so it is not compensation for bearing risk."
+          },
+          {
+            "text": "Locking in a riskless profit with no net investment by trading equivalent positions priced differently",
+            "value": null,
+            "explanation": "Correct. Arbitrage needs no net outlay, no risk of loss, and a positive profit, which arises only when equivalent payoffs have different prices."
+          },
+          {
+            "text": "Profiting by forecasting the future price of the underlying better than other investors",
+            "value": null,
+            "explanation": "This is speculation. It relies on being right about the future and can lose money, so it is not arbitrage."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:143:121"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An asset trades at 200 today. It pays no income and has no storage cost. The risk-free rate is 5% per year, compounded annually. Using no-arbitrage pricing, what is the fair price of a forward contract to buy the asset in 2 years? Round to two decimals.",
+        "options": [
+          {
+            "text": "220.50",
+            "value": 220.5,
+            "explanation": "Correct. F0 = 200 × 1.05^2 = 220.50. Buying the asset with borrowed funds costs this much at expiry, so the forward must match it."
+          },
+          {
+            "text": "220.00",
+            "value": 220,
+            "explanation": "This uses simple interest (200 × (1 + 0.05 × 2)) and ignores compounding on the interest."
+          },
+          {
+            "text": "181.41",
+            "value": 181.41,
+            "explanation": "This divides by 1.05^2 instead of multiplying. Discounting gives a present value, but a forward price is a future amount that grows at the risk-free rate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":200,\"r\":0.05,\"T\":2}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:16:18",
+          "richmondfed-money-market-ch14:17:19"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A forward contract on a non-dividend-paying asset is quoted above S0(1 + r)^T, the price implied by no-arbitrage. Which set of trades produces an arbitrage profit?",
+        "options": [
+          {
+            "text": "Buy the forward, sell the asset short, and lend the proceeds at the risk-free rate",
+            "value": null,
+            "explanation": "This is the reverse cash-and-carry, which works when the forward is too low. Here it would lock in a loss because you would buy the forward at too high a price."
+          },
+          {
+            "text": "Sell the forward, sell the asset short, and lend the proceeds at the risk-free rate",
+            "value": null,
+            "explanation": "Selling the forward and shorting the asset puts you short twice. The positions do not offset, so the result is risky and there is no locked-in gain."
+          },
+          {
+            "text": "Sell the forward, buy the asset with borrowed money, and deliver the asset at expiry",
+            "value": null,
+            "explanation": "Correct. This is cash-and-carry arbitrage. You receive the high forward price and your cost at expiry is only S0(1 + r)^T, so the difference is a riskless profit."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:17:19",
+          "richmondfed-money-market-ch14:17:20"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at 60. Over the next year it will pay dividends whose present value is 2.00, and there are no other benefits or costs of holding it. The risk-free rate is 5% per year, compounded annually. What is the no-arbitrage price of a 1-year forward on the stock? Round to two decimals.",
+        "options": [
+          {
+            "text": "63.00",
+            "value": 63,
+            "explanation": "This ignores the dividends. A forward buyer does not receive them, so the forward price must be lower than 60 × 1.05."
+          },
+          {
+            "text": "60.90",
+            "value": 60.9,
+            "explanation": "Correct. F0 = (60 − 2.00) × 1.05 = 60.90. Dividends reduce the net cost of holding the stock, so subtract their present value before compounding."
+          },
+          {
+            "text": "65.10",
+            "value": 65.1,
+            "explanation": "This adds the PV of dividends to spot ((60 + 2) × 1.05) instead of subtracting it. Income lowers the forward price; only storage costs raise it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":60,\"r\":0.05,\"T\":1,\"pvBenefits\":2}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:15:17",
+          "fed-trading-4000-p2:23:40"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A call option trades for less than the cost of a replicating portfolio, which is a long position in the stock partly financed by borrowing at the risk-free rate. Which strategy earns an arbitrage profit?",
+        "options": [
+          {
+            "text": "Buy the call; short the stock and lend the proceeds at the risk-free rate",
+            "value": null,
+            "explanation": "Correct. Buying the cheap call and selling the replicating portfolio (short stock plus lending) cancels all future payoffs and keeps the price difference as a certain profit."
+          },
+          {
+            "text": "Sell the call; buy the stock and borrow at the risk-free rate",
+            "value": null,
+            "explanation": "This reverses the trade. You would sell the underpriced call and buy the expensive replicating portfolio, which locks in a loss."
+          },
+          {
+            "text": "Buy the call; also buy the stock and borrow at the risk-free rate",
+            "value": null,
+            "explanation": "This holds the call and the replicating portfolio together, so the exposures add up instead of offsetting. The result is risky and not an arbitrage."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:8:6",
+          "fed-trading-4000-p1:32:50"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock trades at 50. Over one period it will either rise by a factor of 1.20 (to 60) or fall by a factor of 0.80 (to 40). The risk-free rate is 5% for the period. Using a one-period binomial model, what is the value today of a European call with strike price 50 expiring at the end of the period? Round to two decimals.",
+        "options": [
+          {
+            "text": "4.76",
+            "value": 4.76,
+            "explanation": "This uses a 50% chance of an up move and discounts: (0.5 × 10)/1.05. The arbitrage-free probability is the risk-neutral value 0.625, not a real-world guess."
+          },
+          {
+            "text": "6.25",
+            "value": 6.25,
+            "explanation": "This computes the risk-neutral expected payoff, 0.625 × 10, but forgets to discount it by 1.05."
+          },
+          {
+            "text": "5.95",
+            "value": 5.95,
+            "explanation": "Correct. π = (1.05 − 0.80)/(1.20 − 0.80) = 0.625. The call pays 10 if up and 0 if down, so V0 = 0.625 × 10 / 1.05 ≈ 5.95. This equals the cost of the replicating portfolio: 0.5 share (25.00) less borrowing of 19.05."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":50,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:8:6"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A European put with a strike of 50 and one year to expiry sells for 5.00. The underlying stock trades at 48 and pays no dividends. The risk-free rate is 5% per year, compounded annually. A call has the same strike and expiry, and a call can be replicated by combining the put, the stock and risk-free borrowing. What is the call's no-arbitrage price? Round to two decimals.",
+        "options": [
+          {
+            "text": "5.38",
+            "value": 5.38,
+            "explanation": "Correct. C = P + S − K/(1+r)^T = 5.00 + 48 − 50/1.05 = 5.00 + 48 − 47.62 ≈ 5.38."
+          },
+          {
+            "text": "3.00",
+            "value": 3,
+            "explanation": "This subtracts the strike without discounting it (5 + 48 − 50). The bond leg of the replication costs the present value of the strike."
+          },
+          {
+            "text": "4.62",
+            "value": 4.62,
+            "explanation": "This reverses the signs on the put and the stock (P − S + PV of K). A call is replicated by long put, long stock, and a short bond."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "callFromParity",
+          "args_json": "{\"put\":5,\"spot\":48,\"strike\":50,\"r\":0.05,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about pricing derivatives by arbitrage and replication is correct?",
+        "options": [
+          {
+            "text": "The forward price rises whenever investors become more risk averse toward the underlying asset",
+            "value": null,
+            "explanation": "Risk aversion does not enter the replication cost. Moving the price away from the replicating cost would simply create an arbitrage."
+          },
+          {
+            "text": "The forward price must equal the market consensus forecast of the underlying's future spot price",
+            "value": null,
+            "explanation": "This confuses a no-arbitrage price with a forecast. The forward price is set by current spot, financing and carrying costs, even if the forecast differs."
+          },
+          {
+            "text": "The price follows from the cost of replicating the payoff, so it does not depend on investors' risk attitudes",
+            "value": null,
+            "explanation": "Correct. If a derivative's price differed from its replicating portfolio's cost, arbitrageurs would trade it away regardless of how they feel about risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:8:6",
+          "richmondfed-money-market-ch14:16:18"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is arbitrage?",
+        "back": "Trades that require no net investment, carry no risk of loss, and earn a positive profit, which are possible only when equivalent payoffs have different prices.",
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:143:121"
+        ]
+      },
+      {
+        "front": "How do you replicate a long forward position on an asset?",
+        "back": "Buy the asset today and borrow the present value of the forward price. At expiry you hold the asset and owe the forward price, which is the same payoff as the forward.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:17:19",
+          "fed-trading-4000-p2:23:40"
+        ]
+      },
+      {
+        "front": "What is the no-arbitrage forward price for an asset with no income or storage costs?",
+        "back": "F0(T) = S0 × (1 + r)^T: spot compounded at the risk-free rate over the life of the contract.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:16:18",
+          "richmondfed-money-market-ch14:17:19"
+        ]
+      },
+      {
+        "front": "A derivative is priced above the cost of its replicating portfolio. What is the arbitrage?",
+        "back": "Sell the derivative and buy the replicating portfolio. The payoffs cancel and you keep the price difference. If it is priced below, do the reverse.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:8:6"
+        ]
+      },
+      {
+        "front": "Cash-and-carry versus reverse cash-and-carry: when is each used?",
+        "back": "Cash-and-carry (sell forward, buy asset with borrowing) is used when the forward is too high. Reverse cash-and-carry (buy forward, short asset, lend proceeds) is used when the forward is too low.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:17:19",
+          "richmondfed-money-market-ch14:17:20"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:02:43.284Z",
+      "purpose": "generate",
+      "losId": "derivatives-04-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10207,
+      "outputTokens": 14183,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.16340020000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "losId": "derivatives-08-los2",
+  "losText": "contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims",
+  "moduleId": "derivatives-08",
+  "moduleTitle": "Pricing and Valuation of Options",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:15:44.566Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-summary:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Course Summary",
+      "locator": "pp. 6–11",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/55322b0a932baa9a97c5603eeab0d766_MIT15_401F08_summary.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p1:32:50",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 32–33",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=32",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p2:12:22",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 12",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec05:8:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 8–14",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "fed-trading-4000-p1:64:106",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 64–65",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=64",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:12:23",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 12–13",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec08:31:7",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 31–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=31",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Arbitrage and Replication: Pricing Forwards vs Options",
+      "summary": "Derivatives are priced by building the same payoff from the underlying asset and risk-free borrowing or lending, then insisting that no riskless profit exists. For forward commitments this pins down the contract price. For contingent claims such as options it pins down the premium, and the replicating position must keep changing.",
+      "sections": [
+        {
+          "heading": "Two families, one pricing idea",
+          "body_markdown": "A **forward commitment** is an obligation to trade an asset later at a price fixed today. Forwards, futures and swaps belong here, and both sides must perform. A **contingent claim** has a payoff that depends on an uncertain outcome, and the holder keeps a choice. Options are the main example: the buyer has a right, the seller has a conditional obligation.\n\nTwo tools price both families:\n- **Arbitrage** is a way to earn a riskless profit with no net investment. If markets allow none, prices are called *arbitrage-free*.\n- **Replication** means building the same payoff from other instruments, usually the underlying asset plus a risk-free loan or deposit. By the *law of one price*, two things with identical payoffs must cost the same.\n\nThink of pricing a cake by adding up the grocery-store cost of its ingredients. If the bakery charges much more or less than that, you can profit by buying one and selling the other."
+        },
+        {
+          "heading": "Forward commitments: arbitrage fixes the contract price",
+          "body_markdown": "There are two ways to own an asset at date $T$: buy a forward now and pay at $T$, or buy the asset now with borrowed money and hold it. Both end with the asset in hand, so they must cost the same at $T$. This gives the *cash-and-carry* price:\n\n$$F_0(T)=S_0(1+r)^T$$\n\nHolding the asset can bring benefits (dividends) or costs (storage). Benefits lower the forward price and costs raise it.\n\n**Example:** $S_0=100$, $r=5\\%$, $T=1$ gives $F_0=105$. If the forward trades at 108, sell the forward, borrow 100 and buy the asset. At $T$ you deliver it for 108, repay 105 and keep 3 with no risk. If the forward trades at 102, do the reverse: buy the forward and short the asset.\n\nThe key point is that a forward costs nothing to enter, so its **value at initiation is zero**. Arbitrage therefore tells you which *price* makes the value zero. The replicating position (asset plus loan) is set once and held, so it is static."
+        },
+        {
+          "heading": "Contingent claims: replication fixes the premium",
+          "body_markdown": "An option is different. The buyer pays a **premium** at the start, and the payoff is nonlinear because the holder only exercises when it helps. We cannot simply solve for a price that makes the value zero. We need the *value itself*, and we get it as the cost of a replicating portfolio.\n\nIn a **one-period binomial model** the stock goes to $S^+=uS_0$ or $S^-=dS_0$. Hold $h$ shares and borrow at the risk-free rate so that the portfolio pays exactly what the option pays in both states. The **hedge ratio** is\n\n$$h=\\frac{c^+-c^-}{S^+-S^-}$$\n\nThe option value is the cost of that portfolio today, shares minus the present value of the loan. An equivalent shortcut uses the **risk-neutral probability**\n\n$$\\pi=\\frac{1+r-d}{u-d}$$\n\nand discounts at the risk-free rate: $c_0=\\dfrac{\\pi c^++(1-\\pi)c^-}{1+r}$.\n\n$\\pi$ is a mathematical device that makes the stock earn the risk-free rate. It is *not* the real-world chance of an up move. The real-world probability and investors' risk appetite never enter the price, because the replication argument already covers every state.\n\nThe replicating position is also **dynamic**. As the stock price and time change, $h$ changes, so the position must be rebalanced."
+        },
+        {
+          "heading": "Side-by-side contrast",
+          "body_markdown": "| | Forward commitments | Contingent claims (options) |\n|---|---|---|\n| What arbitrage solves for | The forward price (fixed rate or price) | The option premium (value) |\n| Value at initiation | Zero, nothing paid | Positive, premium paid by the buyer |\n| Payoff shape | Linear, symmetric | Nonlinear, asymmetric |\n| Replicating position | Asset plus borrowing, held static | Shares plus borrowing, adjusted dynamically |\n| Probabilities needed | None | None for the price (risk-neutral weights are only a shortcut) |\n\nPut-call parity shows replication at work in options. A call plus a bond paying the strike at expiry matches a put plus the stock, so the two packages must cost the same: $c+\\dfrac{K}{(1+r)^T}=p+S_0$. Any one of these four instruments can be built synthetically from the other three."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at $40. Over one period it will either rise by 25% or fall by 20%. The risk-free rate is 5% per period. A one-period European call has a strike of $42. Find its arbitrage-free value by building a replicating portfolio, then confirm with risk-neutral probabilities. Round to four decimals.",
+        "steps": [
+          "Terminal stock prices: $S^+=40\\times1.25=50$ and $S^-=40\\times0.80=32$.",
+          "Call payoffs: $c^+=\\max(50-42,0)=8$ and $c^-=\\max(32-42,0)=0$.",
+          "Hedge ratio: $h=(8-0)/(50-32)$. On the BA II Plus press 8 ÷ 18 = to get 0.4444 shares.",
+          "Down state: the shares are worth $0.4444\\times32=14.2222$. The call pays 0, so the loan repayment must equal 14.2222. Borrow today $14.2222/1.05$: press 14.2222 ÷ 1.05 = to get 13.5450.",
+          "Up-state check: $0.4444\\times50=22.2222$, minus 14.2222 repayment, gives 8, which matches the call.",
+          "Cost of the replicating portfolio: $0.4444\\times40-13.5450=17.7778-13.5450=4.2328$, which is the call value.",
+          "Risk-neutral check: $\\pi=(1.05-0.80)/(1.25-0.80)=0.5556$. Then $c_0=(0.5556\\times8+0.4444\\times0)/1.05=4.2328$, the same answer."
+        ],
+        "answer": "The call is worth $4.2328 (about $4.23). If it traded elsewhere, buying the cheaper of the call and its replicating portfolio and selling the dearer would earn a riskless profit.",
+        "answer_value": 4.2328,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":40,\"strike\":42,\"u\":1.25,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Forward price (discrete, cost of carry)",
+          "latex": "F_0(T)=(S_0-PV_{benefits}+PV_{costs})(1+r)^T",
+          "where": "$F_0(T)$ is the forward price agreed today for delivery at $T$; $S_0$ is the spot price; $PV_{benefits}$ is the present value of dividends or other benefits from holding the asset; $PV_{costs}$ is the present value of storage or holding costs; $r$ is the annual risk-free rate; $T$ is the time to delivery in years."
+        },
+        {
+          "name": "Hedge ratio (one-period binomial)",
+          "latex": "h=\\frac{c^+-c^-}{S^+-S^-}",
+          "where": "$h$ is the number of shares in the replicating portfolio; $c^+,c^-$ are the option values after an up and a down move; $S^+,S^-$ are the stock prices after an up and a down move."
+        },
+        {
+          "name": "Risk-neutral probability",
+          "latex": "\\pi=\\frac{1+r-d}{u-d}",
+          "where": "$\\pi$ is the risk-neutral probability of an up move; $r$ is the risk-free rate per period; $u$ and $d$ are the up and down gross factors for the stock price."
+        },
+        {
+          "name": "Option value by risk-neutral discounting",
+          "latex": "c_0=\\frac{\\pi c^++(1-\\pi)c^-}{1+r}",
+          "where": "$c_0$ is the call value today; $c^+,c^-$ are the next-period call values; $\\pi$ is the risk-neutral probability; $r$ is the risk-free rate per period."
+        },
+        {
+          "name": "Put-call parity",
+          "latex": "c_0+\\frac{K}{(1+r)^T}=p_0+S_0",
+          "where": "$c_0,p_0$ are the European call and put values with the same strike and expiry; $K$ is the strike; $r$ is the annual risk-free rate; $T$ is the time to expiry in years; $S_0$ is the spot price (no dividends)."
+        }
+      ],
+      "exam_traps": [
+        "Treating a forward as having an upfront cost. At initiation its value is zero and arbitrage determines the price, whereas an option's arbitrage-free calculation gives the premium.",
+        "Weighting option payoffs with real-world probabilities, or discounting at the stock's expected return. Only the risk-neutral weights with the risk-free rate (or the replicating portfolio) give the arbitrage-free price.",
+        "Believing that an optimistic view about the stock raises the arbitrage-free option value. Replication means the real-world probability of an up move does not enter the price.",
+        "Forgetting that holding the asset can pay benefits or incur costs. Ignoring dividends or storage costs gives the wrong forward price.",
+        "Calling an option's replicating position static. Because the payoff is nonlinear, the hedge ratio changes with the stock price and time, so it must be rebalanced.",
+        "Mixing up the direction of the arbitrage trade. If the forward is overpriced, sell it, buy the asset and borrow. If it is underpriced, buy it and short the asset."
+      ],
+      "builds_on": [
+        "No-arbitrage and law of one price",
+        "Time value of money and risk-free rate",
+        "Forward contracts and cost of carry",
+        "Option payoffs and put-call parity"
+      ],
+      "leads_to": [
+        "Binomial option valuation",
+        "Risk-neutral valuation",
+        "Black-Scholes-Merton model",
+        "Option sensitivities (delta and hedging)",
+        "Swap pricing"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-rec05:8:1",
+        "mit-ocw-15401-lec08:17:4",
+        "mit-ocw-15401-rec04:1:0",
+        "mit-ocw-15401-summary:6:1",
+        "mit-ocw-15401-lec08:31:7",
+        "mit-ocw-15401-rec05:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best contrasts what no-arbitrage pricing determines for a forward contract and for an option?",
+        "options": [
+          {
+            "text": "For a forward it determines the upfront premium, and for an option it determines the fixed price that makes the contract worth zero.",
+            "value": null,
+            "explanation": "This reverses the two. A forward costs nothing at initiation, so no-arbitrage solves for the price; an option's premium is the quantity found."
+          },
+          {
+            "text": "For a forward it determines the price that makes initial value zero, and for an option it determines the premium paid at the start.",
+            "value": null,
+            "explanation": "Correct. A forward is entered at no cost, so arbitrage fixes the contract price. An option has a positive value, so replication cost gives the premium."
+          },
+          {
+            "text": "For both it determines the expected payoff using real-world probabilities, discounted at the underlying asset's required return.",
+            "value": null,
+            "explanation": "This confuses arbitrage pricing with expected-value pricing. Arbitrage-free prices come from replication and risk-free discounting, not from real-world probabilities."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-summary:6:1",
+          "mit-ocw-15401-lec08:31:7"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at 60. A forward contract on it matures in 2 years. The stock will pay dividends whose present value is 3 over that period, and there are no other holding costs. The annual risk-free rate is 4%, compounded annually. Using the no-arbitrage (cost-of-carry) approach, what is the forward price, rounded to two decimals?",
+        "options": [
+          {
+            "text": "61.65",
+            "value": 61.65,
+            "explanation": "Correct: (60 − 3) × 1.04² = 57 × 1.0816 = 61.65. Dividends the long forgoes are subtracted from the spot price before compounding."
+          },
+          {
+            "text": "64.90",
+            "value": 64.9,
+            "explanation": "This ignores the dividends: 60 × 1.04² = 64.90. A forward holder does not receive the dividends, so the forward price must be lower."
+          },
+          {
+            "text": "68.14",
+            "value": 68.14,
+            "explanation": "This adds the PV of dividends instead of subtracting it: (60 + 3) × 1.04² = 68.14. Benefits of holding the asset reduce the forward price."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":60,\"r\":0.04,\"T\":2,\"pvBenefits\":3}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "mit-ocw-15401-rec04:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly contrasts the replicating positions used to price a forward contract and an option on the same stock?",
+        "options": [
+          {
+            "text": "The option's replicating portfolio holds a fixed number of shares to expiry, while the forward's replicating position must be rebalanced often.",
+            "value": null,
+            "explanation": "This reverses the two. A forward's payoff is linear, so a static position works. The option's nonlinear payoff forces changes."
+          },
+          {
+            "text": "Both use the same stock-and-loan mix, so both replications are static and never need rebalancing before delivery or expiry.",
+            "value": null,
+            "explanation": "This ignores nonlinearity. The option's hedge ratio changes as the stock price and time move, so its replication is not static."
+          },
+          {
+            "text": "The forward is replicated by a static asset-plus-loan position, while the option's hedge ratio must be revised as conditions change.",
+            "value": null,
+            "explanation": "Correct. Buying the asset with borrowed money matches a forward's linear payoff once and for all. An option's sensitivity to the stock changes, so the replicating portfolio is dynamic."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock is priced at 50. After one period it will be either 60 (u = 1.2) or 40 (d = 0.8). The risk-free rate is 5% per period. A one-period European call on the stock has a strike of 50. Using replication (equivalently, risk-neutral valuation), what is the call's arbitrage-free value, rounded to two decimals?",
+        "options": [
+          {
+            "text": "6.25",
+            "value": 6.25,
+            "explanation": "This uses the risk-neutral probability 0.625 correctly (0.625 × 10) but forgets to discount the expected payoff by 1.05."
+          },
+          {
+            "text": "5.95",
+            "value": 5.95,
+            "explanation": "Correct: π = (1.05 − 0.80)/(1.2 − 0.8) = 0.625, so c = (0.625 × 10 + 0.375 × 0)/1.05 = 5.95. Replication gives the same value."
+          },
+          {
+            "text": "4.76",
+            "value": 4.76,
+            "explanation": "This weights the payoffs with a 50% chance each (5 ÷ 1.05) instead of the risk-neutral probability of 0.625."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":50,\"u\":1.2,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A forward contract on a non-dividend-paying stock with no storage costs is quoted above its no-arbitrage price. Which trade locks in a riskless profit?",
+        "options": [
+          {
+            "text": "Sell the forward, buy the stock with borrowed money, deliver the stock at maturity and repay the loan.",
+            "value": null,
+            "explanation": "Correct. This is cash-and-carry arbitrage. The forward sale price exceeds the cost of carrying the stock, so the gap is locked in."
+          },
+          {
+            "text": "Buy the forward, sell the stock short, and invest the short-sale proceeds at the risk-free rate.",
+            "value": null,
+            "explanation": "This is the trade for an underpriced forward. Applied to an overpriced forward it loses money."
+          },
+          {
+            "text": "Sell the forward and sell the stock short, investing the proceeds at the risk-free rate.",
+            "value": null,
+            "explanation": "Both legs lose if the stock rises, so the position is not hedged and no riskless profit is locked in. The forward must be offset by owning the asset."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec04:1:0",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a one-period binomial model, the real-world probability of an up move is raised from 40% to 70%, while the up factor, the down factor and the risk-free rate are unchanged. What happens to the arbitrage-free value of a European call?",
+        "options": [
+          {
+            "text": "It rises, because a higher chance of an up move makes in-the-money exercise more likely.",
+            "value": null,
+            "explanation": "This applies real-world expected-value thinking. The replicating portfolio costs the same regardless of the real-world probabilities."
+          },
+          {
+            "text": "It rises, but only if the discount rate is also raised to reflect the higher expected stock return.",
+            "value": null,
+            "explanation": "Arbitrage-free pricing discounts at the risk-free rate with risk-neutral weights. No risk-adjusted discount rate is needed."
+          },
+          {
+            "text": "It is unchanged, because the replicating portfolio's cost depends on u, d and r, not on real-world probabilities.",
+            "value": null,
+            "explanation": "Correct. The hedge ratio and loan depend only on the payoffs in each state and the risk-free rate. The risk-neutral probability π is a pricing device unrelated to the real probability."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A European call on a non-dividend-paying stock has a strike of 50 and one year to expiry, and is priced at 4.50. The stock trades at 50. The annual risk-free rate is 4%, compounded annually. Using put-call parity (a put replicated by a call, a bond and a short stock position), what is the arbitrage-free price of the European put with the same strike and expiry, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.50",
+            "value": 4.5,
+            "explanation": "This treats the strike as if it needed no discounting: 4.50 − 50 + 50. The bond leg must be worth K/(1.04) = 48.08."
+          },
+          {
+            "text": "2.58",
+            "value": 2.58,
+            "explanation": "Correct: p = c + K/(1+r)^T − S = 4.50 + 48.08 − 50 = 2.58."
+          },
+          {
+            "text": "6.42",
+            "value": 6.42,
+            "explanation": "This swaps the signs on the stock and bond legs: 4.50 + 50 − 48.08. In parity the put is the call plus the bond minus the stock."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "putFromParity",
+          "args_json": "{\"call\":4.5,\"spot\":50,\"strike\":50,\"r\":0.04,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A forward contract is entered into at its no-arbitrage forward price. Which statement describes its value and payment immediately after initiation?",
+        "options": [
+          {
+            "text": "The long pays the forward price upfront, so the contract has a value equal to that price.",
+            "value": null,
+            "explanation": "This confuses the forward price with a premium. The forward price is paid only at delivery, not at initiation."
+          },
+          {
+            "text": "The long holds a positive-value contract, equal to the premium an option on the asset would cost.",
+            "value": null,
+            "explanation": "This mixes up forwards and options. Only the option buyer pays a premium, because the option's rights are one-sided."
+          },
+          {
+            "text": "The contract is worth zero to both parties and no money changes hands at the start.",
+            "value": null,
+            "explanation": "Correct. The forward price is set so that the contract has zero value at initiation. Its value can turn positive or negative afterwards as the spot price moves."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:31:7",
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is an arbitrage opportunity, and what does the law of one price say?",
+        "back": "Arbitrage is a way to earn a riskless profit with no net investment. The law of one price says two assets or portfolios with identical payoffs must have the same price, otherwise arbitrage exists.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      {
+        "front": "Contrast what arbitrage solves for in a forward versus an option.",
+        "back": "Forward: the contract price that makes its initial value zero, with no cash paid at the start. Option: the premium, which is the positive cost of the replicating portfolio.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-summary:6:1",
+          "mit-ocw-15401-lec08:31:7"
+        ]
+      },
+      {
+        "front": "How is an option replicated in a one-period binomial model, and what is the hedge ratio?",
+        "back": "Hold h shares and borrow at the risk-free rate so the payoff matches the option in both states. The hedge ratio is h = (c⁺ − c⁻)/(S⁺ − S⁻). The option's value is the cost of this portfolio.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "front": "What is the risk-neutral probability, and does the real-world up-move probability affect the option price?",
+        "back": "π = (1 + r − d)/(u − d), and c₀ = [π c⁺ + (1 − π) c⁻]/(1 + r). The real-world probability does not affect the arbitrage-free price.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      {
+        "front": "Why is a forward's replication static but an option's dynamic?",
+        "back": "A forward has a linear payoff, so buying the asset with a loan once matches it. An option has a nonlinear payoff, so its hedge ratio changes with price and time and the replicating portfolio must be rebalanced.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:15:44.566Z",
+      "purpose": "generate",
+      "losId": "derivatives-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11493,
+      "outputTokens": 14976,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1739022,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,867 @@
+{
+  "losId": "derivatives-06-los1",
+  "losText": "compare the value and price of forward and futures contracts",
+  "moduleId": "derivatives-06",
+  "moduleTitle": "Pricing and Valuation of Futures Contracts",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:25:20.215Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p2:11:21",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 11–12",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=11",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec08:12:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 12–17",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:207:205",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 207–208",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=207",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch14:23:27",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 23",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=23",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:269:237",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 269–271",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=269",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-4:8:8",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 4: Hedging (Federal Reserve Bank of Chicago)",
+      "locator": "p. 8",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-4-hedging-pdf.pdf#page=8",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch14:11:14",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 11–12",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=11",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec08:21:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 21–25",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=21",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:14:25",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Price vs. Value: Forwards and Futures Side by Side",
+      "summary": "The \"price\" of a forward or futures contract is the number written into the contract, while its \"value\" is what the position is worth right now to its holder. Keeping the two apart is essential because they behave differently for forwards and for futures.",
+      "sections": [
+        {
+          "heading": "Two different numbers: the price tag and the worth",
+          "body_markdown": "Think of a pre-order ticket. The **price** is the amount printed on the ticket, fixed on the day you commit. The **value** is what that ticket would fetch if you resold it today. If demand surges, the printed price stays the same but the ticket's value rises.\n\nDerivative contracts work the same way:\n- **Price** of a forward or futures contract = the delivery price (the forward price or futures price) that applies to the asset to be exchanged at expiration.\n- **Value** = the current worth of holding the contract, i.e. what the position would be worth if you closed it out now.\n\nNo cash changes hands when a forward or futures contract is opened. The price is set so that the value is zero to both sides at that moment."
+        },
+        {
+          "heading": "Forwards: a fixed price and a moving value",
+          "body_markdown": "A **forward contract** is a customised, over-the-counter agreement to buy or sell an asset at a price fixed today, with delivery and payment at a future date. The fixed price is $F_0(T)$.\n\nFor an asset with no income and no storage costs, no-arbitrage pricing says buying forward must cost the same as buying the asset now and financing it:\n\n$$F_0(T)=S_0(1+r)^T$$\n\nIf the asset pays income (like dividends) the forward price is lower; if it has storage costs, it is higher. Subtract the present value of benefits and add the present value of costs before compounding.\n\nAfter initiation the contract price $F_0(T)$ **never changes**, but the market's forward price for the same expiry does. Thus the **value** of a long forward at time $t$ is the present value of the gain locked in:\n\n$$V_t(T)=\\frac{F_t(T)-F_0(T)}{(1+r)^{T-t}}$$\n\nFor an asset with no income or costs this equals $S_t-\\dfrac{F_0(T)}{(1+r)^{T-t}}$. The short's value is the negative of the long's. Value is **not** settled along the way; it sits as an unrealised gain or loss until expiration (or until the contract is closed out). At expiration the long's value is simply $S_T-F_0(T)$."
+        },
+        {
+          "heading": "Futures: a moving price and a value reset to zero",
+          "body_markdown": "A **futures contract** is a standardised, exchange-traded, forward-like contract guaranteed by a clearing house. It is **marked to market** every day: the day's gain or loss is moved into or out of each trader's margin account (the collateral deposit) right away.\n\nBecause gains and losses are paid out daily, a futures contract's **value is reset to zero after each settlement**. What changes is the **futures price**, and the daily cash flow to a long is:\n\n$$\\text{Gain/loss}=(f_t-f_{t-1})\\times\\text{multiplier}\\times\\text{contracts}$$\n\nExample from the market: if a long position in 10 contracts of 40,000 lb of cattle sees the futures price fall by $0.002 per lb, the long loses $800 that day, and the contract starts the next day at zero value again.\n\nAt expiration, the futures price converges to the spot price of the underlying."
+        },
+        {
+          "heading": "Putting them side by side",
+          "body_markdown": "| | Forward | Futures |\n|---|---|---|\n| Venue | Over the counter, customised | Exchange, standardised |\n| Price | Fixed at initiation, stays the contract price | Changes every day as the market moves |\n| Value | Zero at start; drifts away from zero; settled at expiry | Zero after each daily settlement |\n| Cash flows before expiry | None | Daily mark-to-market |\n| Credit exposure | Party with positive value is exposed to default | Reduced by margin and the clearing house |\n\nBecause a forward's value is not paid out until the end, the side with a positive value carries credit risk on the other party. Futures' daily settlement keeps this exposure small."
+        }
+      ],
+      "worked_example": {
+        "problem": "An asset pays no income and has no storage costs. The annual rate is 4%, compounded annually. A 2-year forward is signed when the spot price is 50, so the forward price is 50 × 1.04² = 54.08. One year later, the spot price is 55. What is the value of the long forward position at that time (to two decimals)?",
+        "steps": [
+          "Time remaining is 1 year. The new forward price for the same asset and expiry is $55\\times1.04=57.20$.",
+          "The long locked in 54.08, so on expiry day the gain over today's forward price is $57.20-54.08=3.12$.",
+          "That gain is paid in 1 year, so discount it: $V=3.12/1.04$.",
+          "BA II Plus: 1 [N], 4 [I/Y], 3.12 [FV], 0 [PMT], [CPT] [PV] shows −3.00; the magnitude is 3.00 (the sign is only the calculator's cash-flow convention).",
+          "Check with the spot-based formula: $55-54.08/1.04=55-52.00=3.00$."
+        ],
+        "answer": "The long forward is worth 3.00 (and the short's value is −3.00). The contract price is still 54.08; only the value changed.",
+        "answer_value": 3,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.04,\"n\":1,\"fv\":3.12}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Forward price (no income or costs)",
+          "latex": "F_0(T)=S_0(1+r)^T",
+          "where": "F_0(T) = forward price agreed at time 0 for delivery at T; S_0 = spot price today; r = annual risk-free rate (annual compounding); T = time to expiry in years."
+        },
+        {
+          "name": "Forward price with income and costs",
+          "latex": "F_0(T)=\\left[S_0-PV_0(\\text{benefits})+PV_0(\\text{costs})\\right](1+r)^T",
+          "where": "PV_0(benefits) = present value of income (such as dividends) over the life; PV_0(costs) = present value of storage or holding costs; other symbols as above."
+        },
+        {
+          "name": "Value of a long forward at time t",
+          "latex": "V_t(T)=\\frac{F_t(T)-F_0(T)}{(1+r)^{T-t}}",
+          "where": "V_t(T) = value to the long at time t; F_t(T) = current forward price for the same expiry; F_0(T) = original contract price; T-t = remaining time in years; r = risk-free rate."
+        },
+        {
+          "name": "Value of a long forward at expiration",
+          "latex": "V_T(T)=S_T-F_0(T)",
+          "where": "S_T = spot price at expiration; F_0(T) = original forward price."
+        },
+        {
+          "name": "Daily futures gain or loss (long)",
+          "latex": "\\text{Gain/loss}=(f_t-f_{t-1})\\times\\text{multiplier}\\times N",
+          "where": "f_t = settlement price today; f_{t-1} = previous settlement price; multiplier = units per contract; N = number of contracts. A short's gain/loss has the opposite sign."
+        }
+      ],
+      "exam_traps": [
+        "Treating price and value as the same thing: the forward price is a fixed contract term, whereas value is the current worth of the position and changes.",
+        "Saying a forward's value stays at zero after initiation. It is zero only at the start; it drifts as the market's forward price moves away from the contract price.",
+        "Forgetting to discount: the gain on a forward is realised at expiry, so its present value is the price difference divided by $(1+r)^{T-t}$.",
+        "Using the original forward price instead of the current forward price for the remaining term (or mixing spot with the wrong discounting) when valuing the contract midway.",
+        "Claiming a futures contract carries a large accumulated value; after each daily mark-to-market its value is zero and only the price has changed."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "No-arbitrage and the law of one price",
+        "Basics of forwards, futures and margin"
+      ],
+      "leads_to": [
+        "Why forward and futures prices can differ",
+        "Pricing with dividends, storage costs and convenience yield",
+        "Futures basis and hedging"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec08:9:2",
+        "mit-ocw-15401-lec08:12:3",
+        "mit-ocw-15401-lec08:17:4",
+        "fed-trading-4000-p2:13:24",
+        "fed-trading-4000-p2:14:25",
+        "richmondfed-money-market-ch14:23:27",
+        "chicagofed-derivatives-4:8:8"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A forward contract is signed today and no cash is exchanged. Which statement about its price and value at initiation is correct?",
+        "options": [
+          {
+            "text": "The forward price equals the spot price, and the contract is worth a positive amount to the buyer.",
+            "value": null,
+            "explanation": "Wrong: the forward price normally differs from spot because of financing and carry, and the value is zero for both sides, not positive for the buyer."
+          },
+          {
+            "text": "The forward price is fixed in the contract, and the contract is worth zero to each party.",
+            "value": null,
+            "explanation": "Correct: the delivery price is set so that neither side has an advantage, so the initial value is zero and no payment is needed."
+          },
+          {
+            "text": "The forward price is zero because nothing is paid, and the contract is worth the spot price.",
+            "value": null,
+            "explanation": "Wrong: this confuses the absence of an upfront payment with the delivery price, and it confuses the value with the asset's spot price."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "fed-trading-4000-p2:14:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An asset pays no income and has no storage cost. Its spot price is 40. The risk-free rate is 3% per year, compounded annually. What is the no-arbitrage price of a forward contract that expires in 2 years? Round to two decimals.",
+        "options": [
+          {
+            "text": "42.44",
+            "value": 42.44,
+            "explanation": "Correct: $40\\times1.03^2=42.436$, which rounds to 42.44."
+          },
+          {
+            "text": "42.40",
+            "value": 42.4,
+            "explanation": "Mistake: using simple interest, $40\\times(1+0.03\\times2)$, instead of compounding."
+          },
+          {
+            "text": "41.20",
+            "value": 41.2,
+            "explanation": "Mistake: compounding for only one year, $40\\times1.03$, instead of two."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":40,\"r\":0.03,\"T\":2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A trader holds a long futures position that has just been marked to market at the end of the trading day. Which statement about the position's value is correct?",
+        "options": [
+          {
+            "text": "It equals the settlement price minus the original trade price, carried forward until expiration.",
+            "value": null,
+            "explanation": "Mistake: this treats a futures contract like a forward, where the gain accumulates unsettled. Futures gains are paid out daily."
+          },
+          {
+            "text": "It equals the present value of the difference between today's and the original price.",
+            "value": null,
+            "explanation": "Mistake: this is the forward valuation formula. Futures have no remaining unsettled gain to discount."
+          },
+          {
+            "text": "It is zero, because the day's gain or loss has just been moved through the margin account.",
+            "value": null,
+            "explanation": "Correct: daily settlement resets the contract's value to zero; only the futures price changes."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock has a spot price of 60. It will pay dividends with a present value of 2 over the next year. The risk-free rate is 5% per year, compounded annually. What is the no-arbitrage price of a 1-year forward contract on the stock? Round to two decimals.",
+        "options": [
+          {
+            "text": "63.00",
+            "value": 63,
+            "explanation": "Mistake: ignoring the dividends, $60\\times1.05$. The holder of the stock receives dividends, so the forward price must be lower."
+          },
+          {
+            "text": "61.00",
+            "value": 61,
+            "explanation": "Mistake: subtracting the dividend's present value after compounding, $60\\times1.05-2$. The present value must be removed from spot first, then compounded."
+          },
+          {
+            "text": "60.90",
+            "value": 60.9,
+            "explanation": "Correct: $(60-2)\\times1.05=60.90$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":60,\"r\":0.05,\"T\":1,\"pvBenefits\":2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "You are long a forward that was agreed some time ago at a price of 102. Today, the market forward price for the same asset and the same expiry, which is exactly 1 year from now, is 106. The risk-free rate is 5% per year, compounded annually. What is the value of your long forward today? Round to two decimals.",
+        "options": [
+          {
+            "text": "4.00",
+            "value": 4,
+            "explanation": "Mistake: using the undiscounted price difference. The gain is received in 1 year, so it must be discounted."
+          },
+          {
+            "text": "3.81",
+            "value": 3.81,
+            "explanation": "Correct: $(106-102)/1.05=3.81$."
+          },
+          {
+            "text": "4.20",
+            "value": 4.2,
+            "explanation": "Mistake: compounding the difference, $4\\times1.05$, instead of discounting it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.05,\"n\":1,\"fv\":4}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A trader is long 5 futures contracts, each covering 100 units. The settlement price falls from 250.0 on one day to 247.4 the next. What is the trader's gain or loss for that day, which is credited or debited to the margin account?",
+        "options": [
+          {
+            "text": "A gain of 1,300",
+            "value": null,
+            "explanation": "Mistake: sign error. A long position loses when the futures price falls."
+          },
+          {
+            "text": "A loss of 1,300",
+            "value": null,
+            "explanation": "Correct: $(247.4-250.0)\\times100\\times5=-1{,}300$, so a loss of 1,300."
+          },
+          {
+            "text": "A loss of 260",
+            "value": null,
+            "explanation": "Mistake: multiplying by only one contract's units, $2.6\\times100$, and ignoring the 5 contracts."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:12:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose C (high): The price change is −2.6 per unit, and 5 contracts × 100 units = 500 units, so the loss is 2.6 × 500 = 1,300; however, that figure appears as option B, not C. Rechecking: 250.0 − 247.4 = 2.6, and 2.6 × 500 = 1,300, so the loss of 1,300 is correct and the answer is B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A long forward was agreed at a price of 80. On the delivery date the spot price of the asset is 85. Which statement is correct at expiration?",
+        "options": [
+          {
+            "text": "The forward's value to the long is 5, and a futures price for the same date would equal the spot price of 85.",
+            "value": null,
+            "explanation": "Correct: at expiry the long's value is $S_T-F_0(T)=5$, and futures prices converge to spot at expiration."
+          },
+          {
+            "text": "The forward's price is now 85, and its value to the long is zero because it has expired.",
+            "value": null,
+            "explanation": "Mistake: the contract price stays at 80. Value is the spot price minus that fixed price, so it is 5, not zero."
+          },
+          {
+            "text": "The forward's value to the long is 85, and a futures price for the same date would be 80.",
+            "value": null,
+            "explanation": "Mistake: confusing value with the asset's price level; the value is 5. A futures price converges to spot rather than staying at the old level."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24",
+          "chicagofed-derivatives-4:8:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Six months after a forward contract was signed, the price of the underlying asset has risen well above the original forward price. Nothing has been settled. Which party bears credit risk from default, and why?",
+        "options": [
+          {
+            "text": "The short, because it must deliver an asset that is now worth more than the contract price.",
+            "value": null,
+            "explanation": "Mistake: the short's position has negative value, which is a liability. Credit risk lies with the party owed money, not the party that owes."
+          },
+          {
+            "text": "Both parties equally, because the contract is bilateral and has no clearing house.",
+            "value": null,
+            "explanation": "Mistake: credit exposure depends on which side has positive value. The party with negative value has nothing to lose if the other defaults."
+          },
+          {
+            "text": "The long, because the contract now has positive value and the short might fail to perform.",
+            "value": null,
+            "explanation": "Correct: the long would lose its positive value if the counterparty defaulted. Forwards are not settled daily, so this exposure builds up."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:14:25",
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between the price and the value of a forward contract?",
+        "back": "Price is the delivery price fixed in the contract at initiation and never changes. Value is the current worth of the position, zero at the start and changing as the market's forward price moves.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:14:25",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is the value of a long forward at time t calculated?",
+        "back": "The present value of the difference between the current forward price and the original one: $V_t(T)=\\frac{F_t(T)-F_0(T)}{(1+r)^{T-t}}$. At expiry it is $S_T-F_0(T)$.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the value of a futures contract right after daily settlement, and why?",
+        "back": "Zero. Gains and losses are moved through the margin account every day (marked to market), so the contract restarts at zero value while only the futures price changes.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "richmondfed-money-market-ch14:23:27"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What happens to the futures price relative to the spot price at expiration?",
+        "back": "They converge: the futures price equals the spot price of the underlying at expiry.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-4:8:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T20:25:10.224Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1056,
+      "outputTokens": 607,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008299,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:25:20.214Z",
+      "purpose": "grounding",
+      "losId": "derivatives-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14443,
+      "outputTokens": 1495,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044005199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.052304199999999995
+}

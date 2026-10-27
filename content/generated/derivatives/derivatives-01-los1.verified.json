@@ -1,0 +1,804 @@
+{
+  "losId": "derivatives-01-los1",
+  "losText": "define a derivative and describe basic features of a derivative instrument",
+  "moduleId": "derivatives-01",
+  "moduleTitle": "Derivative Instrument and Derivative Market Features",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:22:31.121Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "chicagofed-derivatives-1:8:8",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 8–9",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=8",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "richmondfed-money-market-ch14:9:11",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "p. 9",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=9",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:40:71",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 40",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=40",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:89:165",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 89",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=89",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:60:110",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 60–61",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=60",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch15:6:6",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 6–8",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-3:3:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 3–4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=3",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-1:1:0",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 1",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:24:25",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-1:1:1",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 1–2",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:6:4",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 6–7",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:21:21",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 21–22",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=21",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Derivatives: What They Are and How They Work",
+      "summary": "A derivative is a contract whose value comes from something else, called the underlying. Knowing its core features (underlying, long and short sides, notional amount, settlement, leverage, risk transfer) lets you recognise and reason about every derivative you meet later.",
+      "sections": [
+        {
+          "heading": "A contract that borrows its value",
+          "body_markdown": "Think of a ticket that pays you money if a particular football team wins the final. The ticket is not the team and not the trophy; its worth depends entirely on how the team does. A **derivative** works the same way: it is a financial contract whose value is *derived* from the performance of something else, the **underlying**.\n\nThe underlying can be an asset such as a share, a bond, a commodity (oil, wheat) or a currency. It can also be a variable that is not an asset: an interest rate, a stock index, a credit event such as a default, or even a spread between two prices. The derivative is only a contract about the underlying, and it is a different thing from the underlying."
+        },
+        {
+          "heading": "Basic features of a derivative contract",
+          "body_markdown": "Every derivative has two sides. The **long** side gains if the underlying's price rises after the deal is struck, and the **short** side gains if it falls. These are roughly like a buyer and a seller, but with a key difference: **agreeing to a derivative normally does not transfer ownership of the underlying**. You can hold a contract on oil without ever owning a barrel.\n\nOther features you should recognise:\n- **Expiration**: most contracts end on a set date.\n- **Notional amount**: the reference size (for example $1 million) used to *calculate* payments. In many contracts this amount is never paid or received.\n- **Settlement**: *physical settlement* means the underlying is actually delivered; *cash settlement* means only the money value of the gain or loss is paid.\n- **Low upfront cost relative to exposure**: you post a small premium or margin (a good-faith deposit) rather than the full value of the underlying."
+        },
+        {
+          "heading": "Leverage and lopsided payoffs",
+          "body_markdown": "Because the upfront cost is small compared with the exposure it gives you, a derivative is **leveraged**: a modest move in the underlying can cause a large *percentage* change in the derivative's value, in either direction.\n\nOptions add another twist. The buyer of an option has the *right but not the obligation* to act, so the buyer's worst case is losing the **premium** (the price paid), while the upside can be large. The seller (writer) is in the opposite position: a limited reward (the premium received) but potentially large losses. This is called an **asymmetric payoff**. A long futures or forward position is different: gains and losses move roughly one-for-one with the underlying in both directions.\n\nFor a long call with strike $K$ and underlying price $S_T$ at expiry, the value is $\\max(0, S_T-K)$, since the holder only exercises when it pays to do so."
+        },
+        {
+          "heading": "What derivatives do with risk",
+          "body_markdown": "Underlying assets usually bundle several risks. A bond carries interest rate risk and credit (default) risk, and possibly currency risk. A derivative typically **isolates and transfers one** of them. Suppose a bondholder buys a **credit default swap (CDS)**: the dealer who sold it compensates the holder if the issuer defaults. Credit risk moves to the dealer, but the holder keeps the bond's interest rate risk and gains a new worry: the dealer itself might fail to pay (counterparty risk).\n\nDerivatives can also move risk across time, for example by locking in today a price for a future purchase.\n\nFinally, between the two parties a derivative is essentially **zero-sum**: ignoring costs and default, what one side gains the other loses. The contract redistributes risk and money rather than creating wealth."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at $100. An investor buys a call option on it with strike $100 for a premium of $3. At expiry the stock is $105. The option pays no income. Compare the stock's return with the option's holding period return, and state the option's HPR.",
+        "steps": [
+          "Stock return: (105 − 100) ÷ 100 = 0.05, which is 5%.",
+          "Option value at expiry: it is in the money, so value = max(0, 105 − 100) = $5.",
+          "Option gain = 5 − 3 = $2 on a cost of $3.",
+          "Option HPR = (5 − 3) ÷ 3. BA II Plus keystrokes: 5 [−] 3 [=] [÷] 3 [=] gives 0.6667.",
+          "Convert to a percentage: 0.6667 × 100 = 66.67%.",
+          "Interpretation: a 5% move in the underlying produced about a 67% return on the option. That is leverage. The same logic works against the holder: if the stock had finished at or below $100, the option would be worth $0 and the HPR would be −100%."
+        ],
+        "answer": "The option's HPR is 66.67%, compared with 5% for the stock.",
+        "answer_value": 0.6667,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":3,\"endPrice\":5}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Holding period return",
+          "latex": "HPR=\\frac{P_1-P_0+I}{P_0}",
+          "where": "P_0 = price paid at the start; P_1 = value at the end; I = income received during the holding period (zero for most options)."
+        },
+        {
+          "name": "Long call value at expiry",
+          "latex": "\\max(0,\\;S_T-K)",
+          "where": "S_T = price of the underlying at expiry; K = strike (exercise) price. The long call holder's profit is this value minus the premium paid."
+        }
+      ],
+      "exam_traps": [
+        "Confusing the derivative with its underlying: owning a contract on a share does not make you a shareholder, and ownership of the underlying generally does not change hands when the deal is made.",
+        "Thinking the notional amount is paid or exchanged. In cash-settled contracts it is only a yardstick for computing the payment.",
+        "Believing a derivative moves all of an asset's risks. It usually transfers one risk (for example credit) and leaves others (interest rate) with the holder.",
+        "Saying an option buyer can lose more than the premium. The buyer's maximum loss is the premium; it is the option seller whose loss can be very large.",
+        "Calculating a holding period return by dividing the gain by the ending value instead of the beginning price."
+      ],
+      "builds_on": [
+        "Basic asset types: stocks, bonds, commodities, currencies",
+        "Return concepts (holding period return)",
+        "Risk types: interest rate, credit, price"
+      ],
+      "leads_to": [
+        "Over-the-counter vs exchange-traded derivative markets",
+        "Forward commitments and contingent claims",
+        "Forwards, futures, swaps and options",
+        "Derivative pricing and arbitrage"
+      ],
+      "cited_chunk_ids": [
+        "chicagofed-derivatives-1:1:0",
+        "chicagofed-derivatives-1:1:1",
+        "occ-risk-mgmt-derivatives:24:25",
+        "richmondfed-money-market-ch14:9:11",
+        "richmondfed-money-market-ch15:6:6"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes a derivative?",
+        "options": [
+          {
+            "text": "A claim on a firm's residual assets, with value set by the firm's profits",
+            "value": null,
+            "explanation": "This describes common equity, not a derivative. It confuses an ownership claim in a company with a contract based on another instrument."
+          },
+          {
+            "text": "A contract whose value is based on an underlying asset or variable",
+            "value": null,
+            "explanation": "Correct. A derivative gets its value from the performance of an underlying, which can be an asset (share, bond, commodity) or a variable (rate, index, credit event)."
+          },
+          {
+            "text": "A debt security whose payments are fixed at issue, whatever markets do",
+            "value": null,
+            "explanation": "This describes a plain fixed-rate bond, which is itself an underlying instrument. It confuses a cash instrument with a contract written on one."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor owns a corporate bond and buys credit default protection on it from a swap dealer. Ignoring any possibility that the dealer fails, which risk of the bond does the investor mainly still bear?",
+        "options": [
+          {
+            "text": "None, since a derivative moves every risk of the bond to the dealer",
+            "value": null,
+            "explanation": "Wrong: this assumes derivatives transfer the entire bundle of risks. A CDS typically transfers a single risk."
+          },
+          {
+            "text": "Credit risk, since the CDS only covers changes in market interest rates",
+            "value": null,
+            "explanation": "Wrong: this reverses the roles. The CDS compensates for issuer default, so credit risk is the risk that moves to the dealer."
+          },
+          {
+            "text": "Interest rate risk, since the CDS covers only the default risk",
+            "value": null,
+            "explanation": "Correct. The CDS transfers credit risk but the bond's value still moves with interest rates, so the investor keeps interest rate risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0",
+          "chicagofed-derivatives-1:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock is at $40. An investor pays a premium of $1.60 for a call option on it. The stock rises to $44 (a 10% gain), and the investor sells the option for $4.00. The option paid no income. What is the option's holding period return, as a simple (non-annualised) percentage rounded to the nearest whole percent?",
+        "options": [
+          {
+            "text": "150%",
+            "value": 1.5,
+            "explanation": "Correct: (4.00 − 1.60) ÷ 1.60 = 1.50. The option gained 150% while the stock gained only 10%, which illustrates leverage."
+          },
+          {
+            "text": "60%",
+            "value": 0.6,
+            "explanation": "Mistake: dividing the $2.40 gain by the ending value ($4.00) instead of the beginning price ($1.60)."
+          },
+          {
+            "text": "240%",
+            "value": 2.4,
+            "explanation": "Mistake: reporting the dollar gain ($2.40) as if it were a rate of return, without dividing by the amount invested."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":1.6,\"endPrice\":4,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys a call option on a share and pays a premium of $3. Which statement about the position's risk and reward is correct?",
+        "options": [
+          {
+            "text": "The most the investor can gain is the premium, while losses are potentially unlimited",
+            "value": null,
+            "explanation": "Mistake: this describes the option seller (writer), who receives a limited premium and faces large potential losses."
+          },
+          {
+            "text": "The most the investor can lose is the premium, while the gain is potentially large",
+            "value": null,
+            "explanation": "Correct. The holder has a right but no obligation, so the downside is capped at the premium paid and the upside rises as the underlying rises."
+          },
+          {
+            "text": "Gains and losses move one-for-one with the share price in both directions",
+            "value": null,
+            "explanation": "Mistake: this describes a long forward or futures position. An option's payoff is asymmetric because the holder can walk away."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A cash-settled derivative contract is written on a notional principal of $1 million. What is the role of the $1 million at settlement?",
+        "options": [
+          {
+            "text": "The losing party pays the full $1 million to the winning party",
+            "value": null,
+            "explanation": "Mistake: treating the notional as the amount at stake. Only the gain or loss calculated from it changes hands."
+          },
+          {
+            "text": "The $1 million is paid in exchange for delivery of the underlying",
+            "value": null,
+            "explanation": "Mistake: this describes physical settlement. In a cash-settled contract the underlying is never delivered."
+          },
+          {
+            "text": "It only measures the size of the exposure used to compute payments",
+            "value": null,
+            "explanation": "Correct. The notional is a reference amount used to calculate the cash settlement and is never actually paid or received."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:9:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An investor buys a call option for $2.50. At expiry the underlying finishes only slightly above the strike price and the option is worth $1.00. The option paid no income. What is the investor's holding period return on the option, as a simple percentage rounded to the nearest whole percent?",
+        "options": [
+          {
+            "text": "-60%",
+            "value": -0.6,
+            "explanation": "Correct: (1.00 − 2.50) ÷ 2.50 = −0.60. The option had some value at expiry, so only part of the premium was lost."
+          },
+          {
+            "text": "-150%",
+            "value": -1.5,
+            "explanation": "Mistake: dividing the $1.50 loss by the ending value ($1.00) instead of the cost ($2.50). A long option cannot lose more than 100% of the premium."
+          },
+          {
+            "text": "-40%",
+            "value": -0.4,
+            "explanation": "Mistake: reporting the ratio of ending value to cost (1.00 ÷ 2.50) and forgetting to subtract 1 to turn it into a return."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":2.5,\"endPrice\":1,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Two parties enter a derivative contract directly with each other. Ignoring transaction costs and the chance that either party defaults, which statement is correct?",
+        "options": [
+          {
+            "text": "One party's gain equals the other party's loss, so the contract is zero-sum",
+            "value": null,
+            "explanation": "Correct. A derivative between two parties redistributes money; what one side gains the other side loses, before costs."
+          },
+          {
+            "text": "Both parties can gain, because the contract creates new value in the underlying",
+            "value": null,
+            "explanation": "Mistake: a derivative does not change the value of the underlying, so it cannot create wealth for both sides."
+          },
+          {
+            "text": "The short side must lose whenever the price of the underlying moves at all",
+            "value": null,
+            "explanation": "Mistake: the short side gains when the underlying's price falls. Which side gains depends on the direction of the price move."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a derivative, and what is its underlying?",
+        "back": "A derivative is a contract whose value is derived from something else. The underlying can be an asset (share, bond, commodity, currency) or a variable (interest rate, index, credit event).",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Contrast the long and short sides of a derivative.",
+        "back": "The long side benefits if the underlying's price rises after the deal; the short side benefits if it falls. Entering the contract normally does not transfer ownership of the underlying.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why are derivatives described as leveraged?",
+        "back": "A small premium or margin gives exposure to a much larger amount of the underlying, so small price moves in the underlying cause large percentage changes in the derivative's value.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "In a cash-settled contract, what is the notional amount used for?",
+        "back": "It is only a reference size for calculating the payment. It is not paid or received, and the underlying is not delivered.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch14:9:11"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What does a credit default swap transfer, and what does the bondholder keep?",
+        "back": "It transfers the bond's credit (default) risk to the protection seller. The holder keeps interest rate risk and takes on the risk that the seller fails to pay.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T20:22:22.324Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 879,
+      "outputTokens": 431,
+      "cacheWriteTokens": 585,
+      "cacheReadTokens": 0,
+      "costUsd": 0.0075305,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:22:31.120Z",
+      "purpose": "grounding",
+      "losId": "derivatives-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12992,
+      "outputTokens": 1333,
+      "cacheWriteTokens": 846,
+      "cacheReadTokens": 0,
+      "costUsd": 0.041429,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0489595
+}

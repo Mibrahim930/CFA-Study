@@ -1,0 +1,426 @@
+{
+  "losId": "derivatives-03-los2",
+  "losText": "compare the use of derivatives among issuers and investors",
+  "moduleId": "derivatives-03",
+  "moduleTitle": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:01:05.887Z",
+  "retrieved": [
+    {
+      "id": "chicagofed-derivatives-1:1:0",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 1",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:201:197",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 201–202",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=201",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:50:79",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 50",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=50",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:30:45",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 30",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=30",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:54:98",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 54",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=54",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-4:5:5",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 4: Hedging (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 5–6",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-4-hedging-pdf.pdf#page=5",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:200:195",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 200",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=200",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00106:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.1 The Concept of Capital Structure — The Basic Balance Sheet",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-1-the-concept-of-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:264:233",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 264–266",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=264",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p1:98:160",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 98",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=98",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Impact of Taxes",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Interest Rate Movements and Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Who Uses Derivatives and Why: Issuers versus Investors",
+      "summary": "Companies and governments that raise money (issuers) and people or funds that hold assets (investors) both use derivatives, but their goals and starting exposures differ. Knowing which side you are looking at tells you which derivative position makes sense and why.",
+      "sections": [
+        {
+          "heading": "One toolbox, two starting points",
+          "body_markdown": "A **derivative** is a contract whose value depends on something else (the *underlying*), such as an interest rate, a currency, a commodity price or a stock index. It lets one party pass a risk to another. Think of a thermostat: the same device can warm a room or cool it depending on the setting. In the same way, one derivative contract can reduce or increase risk depending on who uses it.\n\nThe two groups differ in **where their risk comes from**:\n- **Issuers** (corporations, banks, governments that sell bonds, borrow or sell shares) are exposed through *running a business and funding it*: the interest on their loans, the currencies of their sales and costs, and the prices of their inputs.\n- **Investors** (funds, pension plans, insurers, individuals) are exposed through *the assets they choose to hold*: stocks, bonds, currencies and commodities."
+        },
+        {
+          "heading": "How issuers use derivatives",
+          "body_markdown": "For most issuers the dominant motive is **risk management (hedging)**, which means taking a derivative position that offsets an exposure the firm already has. Typical cases:\n- **Interest rate risk:** a firm with a floating-rate loan fears rising rates. It enters a *pay-fixed, receive-floating* swap, so its net cost becomes fixed. The reverse swap turns fixed-rate debt into floating-rate debt.\n- **Currency risk:** a firm that will receive foreign currency in the future sells that currency forward and locks in a home-currency amount.\n- **Commodity risk:** a firm that buys fuel or metal takes a long futures position to fix its input cost.\n- **Funding cost and debt design:** issuers may sell options embedded in structured notes, or sell call-related options on their own debt (for example through swaptions), to obtain a lower all-in cost of funds or an upfront premium.\n\nSurveys of large companies show that firms in nearly every industry hedge interest rate and currency risk, and many also hedge commodity risk. Issuers generally want their *core business results* to be less volatile, not to bet on markets."
+        },
+        {
+          "heading": "How investors use derivatives",
+          "body_markdown": "Investors' uses are wider because they have no operating business to protect. Common aims:\n- **Hedging:** reduce the risk of a portfolio that already exists, for example selling index futures against a stock portfolio instead of selling the stocks.\n- **Speculation:** deliberately take a view on prices. Derivatives need little cash up front relative to the exposure, so gains and losses are magnified.\n- **Adjusting exposure efficiently:** change a portfolio's market, duration or currency exposure quickly and cheaply, often at lower transaction cost than trading the underlying assets.\n- **Arbitrage:** exploit a price gap between a derivative and its underlying.\n- **Yield enhancement:** for example a *covered call*, in which an investor sells call options on shares already owned to collect premium, giving up some upside.\n\nSpeculators matter to everyone else: a hedger can only offload risk if someone is willing to take it."
+        },
+        {
+          "heading": "Comparing the two",
+          "body_markdown": "| | Issuers | Investors |\n|---|---|---|\n| Source of exposure | Operations and financing | Portfolio holdings |\n| Dominant motive | Hedging; lowering funding cost | Hedging, speculating, adjusting exposure, arbitrage, yield enhancement |\n| Typical instruments | Interest rate and currency swaps, forwards, commodity futures, embedded options | All of these plus index futures, options strategies and credit derivatives |\n\nKey point: the *instrument* does not decide whether a position is a hedge or a speculation. The *relationship to an existing exposure* does. A long fuel futures contract is a hedge for an airline and a speculation for a fund with no fuel exposure.\n\nHedging is not free or perfect. Brokerage and dealing costs, margin funds tied up, mismatches between the hedge and the exposure (basis risk) and poor management understanding can all reduce the benefit."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has a $50 million floating-rate loan that costs the reference rate plus 1.00% per year. To remove interest rate risk, it enters a 1-year swap on $50 million notional in which it pays a fixed 4.50% and receives the reference rate. Find its net annual interest cost, in dollars and as a percentage, if the reference rate is 3.00%. Then check that the answer does not depend on the reference rate by repeating with a reference rate of 5.00%.",
+        "steps": [
+          "Loan interest at 3.00% reference: (3.00% + 1.00%) = 4.00% × $50 million = $2,000,000 paid to the lender.",
+          "Swap payments: pay fixed 4.50% × $50 million = $2,250,000; receive floating 3.00% × $50 million = $1,500,000; net swap payment = $750,000.",
+          "Total cost = $2,000,000 + $750,000 = $2,750,000, which is $2.75 million ÷ $50 million = 5.50%.",
+          "Check with a 5.00% reference rate: loan interest = 6.00% × $50 million = $3,000,000; swap: pay $2,250,000, receive $2,500,000, so net swap receipt = $250,000.",
+          "Total cost = $3,000,000 − $250,000 = $2,750,000 = 5.50% again. The floating rate cancels, leaving fixed 4.50% + 1.00% spread.",
+          "No calculator is needed; this is simple multiplication."
+        ],
+        "answer": "Net annual cost is $2.75 million, which is 5.50% of notional, whatever the reference rate turns out to be.",
+        "answer_value": 0.055,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Net borrowing rate after a pay-fixed swap (matching notional and floating index)",
+          "latex": "r_{net} = k + s",
+          "where": "$r_{net}$ is the all-in annual borrowing rate, $k$ is the fixed rate paid on the swap, and $s$ is the spread the borrower pays over the floating reference rate on its loan."
+        }
+      ],
+      "exam_traps": [
+        "Assuming issuers only hedge and investors only speculate. Both groups hedge, and both can speculate; the difference is mainly where their exposures originate.",
+        "Mixing up swap direction. A borrower with floating-rate debt who fears higher rates pays fixed and receives floating, not the other way round.",
+        "Labelling a position a hedge or a speculation from the instrument alone. Look at whether it offsets an existing exposure.",
+        "Treating a hedge as risk-free. Costs, margin requirements and imperfect matching (basis risk) remain.",
+        "Thinking issuers can use derivatives only for interest rates. Currency and commodity hedging are very common for issuers too."
+      ],
+      "builds_on": [
+        "Basic derivative types: forwards, futures, options, swaps",
+        "Hedging versus speculation",
+        "Interest rate, currency and commodity risk"
+      ],
+      "leads_to": [
+        "Forward and futures pricing",
+        "Swap valuation",
+        "Options strategies such as covered calls",
+        "Portfolio risk management"
+      ],
+      "cited_chunk_ids": [
+        "chicagofed-derivatives-1:1:0",
+        "flatworld-enterprise-and-individual-risk-management:200:195",
+        "fed-trading-4000-p1:30:45",
+        "fed-trading-4000-p2:54:98",
+        "chicagofed-derivatives-4:5:5",
+        "flatworld-finance-banking-and-money:264:233",
+        "fed-trading-4000-p1:98:160"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the main reason a manufacturing company that issues debt typically uses derivatives?",
+        "options": [
+          {
+            "text": "To reduce the volatility of cash flows created by its operations and financing",
+            "value": null,
+            "explanation": "Correct. Issuers mainly hedge exposures such as interest rates, currencies and input prices that arise from running and funding the business."
+          },
+          {
+            "text": "To take large positions in markets unrelated to its business",
+            "value": null,
+            "explanation": "This describes speculation, which is not the dominant issuer motive. Most issuers use derivatives to offset existing exposures."
+          },
+          {
+            "text": "To transfer ownership of its assets to a counterparty at inception",
+            "value": null,
+            "explanation": "Derivatives generally do not transfer ownership of the underlying when the contract is agreed. This confuses a derivative with an asset sale."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:200:195",
+          "chicagofed-derivatives-4:5:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company has a large floating-rate bank loan and is worried that interest rates will rise. Which interest rate swap position would reduce this risk?",
+        "options": [
+          {
+            "text": "Pay floating and receive fixed",
+            "value": null,
+            "explanation": "This adds to the exposure: the firm would pay more as rates rise and receive a fixed amount. It reverses the swap direction."
+          },
+          {
+            "text": "Pay fixed and receive floating",
+            "value": null,
+            "explanation": "Correct. The floating payments received offset the floating interest owed on the loan, leaving the firm with a net fixed cost."
+          },
+          {
+            "text": "Sell a currency forward",
+            "value": null,
+            "explanation": "This addresses currency risk, not interest rate risk. It confuses the type of exposure being hedged."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:200:195"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investment manager holds a diversified equity portfolio and wants to cut market exposure for a few weeks without selling the shares, to avoid transaction costs. Which action is most consistent with that goal?",
+        "options": [
+          {
+            "text": "Buy equity index futures",
+            "value": null,
+            "explanation": "A long futures position increases market exposure, the opposite of the goal. It is a direction error."
+          },
+          {
+            "text": "Sell put options on the equity index",
+            "value": null,
+            "explanation": "Selling puts loses money when the market falls, so it adds equity risk rather than reducing it."
+          },
+          {
+            "text": "Sell equity index futures",
+            "value": null,
+            "explanation": "Correct. A short futures position gains when the market falls, offsetting losses on the portfolio while the shares remain in place."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement most accurately compares derivative use by issuers and by investors?",
+        "options": [
+          {
+            "text": "Issuers' exposures mainly come from operations and funding, while investors' come from the assets they hold",
+            "value": null,
+            "explanation": "Correct. This difference in the source of risk explains why the typical positions and motives differ."
+          },
+          {
+            "text": "Issuers can hedge only interest rate risk, while investors can hedge any type of risk",
+            "value": null,
+            "explanation": "Issuers also hedge currency and commodity risk, as industry survey data show. This wrongly narrows issuer use."
+          },
+          {
+            "text": "Issuers use derivatives only to speculate, while investors use them only to hedge",
+            "value": null,
+            "explanation": "This reverses the usual pattern. Issuers mostly hedge, and investors use derivatives for several purposes, including speculation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-4:5:5",
+          "fed-trading-4000-p1:98:160"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A highly rated bank issues a structured note whose payoff includes an embedded derivative. Why might this lower the bank's funding cost compared with a plain bond?",
+        "options": [
+          {
+            "text": "The embedded derivative removes the bank's obligation to repay principal",
+            "value": null,
+            "explanation": "Structured notes are still debt obligations of the issuer. Believing the derivative cancels repayment is a misunderstanding of the product."
+          },
+          {
+            "text": "The embedded derivative guarantees investors will never lose value on the note",
+            "value": null,
+            "explanation": "Structured notes can carry significant price risk even when issuer credit risk is low. No such guarantee exists."
+          },
+          {
+            "text": "Investors who want the tailored payoff may accept a lower return, reducing the issuer's all-in cost",
+            "value": null,
+            "explanation": "Correct. Investors sometimes give up some return to get a particular payoff pattern, which can make the issuer's all-in funding rate lower than straight debt."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:30:45"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An airline buys jet fuel futures to lock in next year's fuel cost. A hedge fund with no fuel-related business buys the same contract expecting fuel prices to rise. Which statement is correct?",
+        "options": [
+          {
+            "text": "Both are hedges because both positions are long futures",
+            "value": null,
+            "explanation": "This judges purpose by position direction alone. A hedge must offset an existing exposure, and the fund has none."
+          },
+          {
+            "text": "Both positions are long, but only the airline's reduces an existing risk",
+            "value": null,
+            "explanation": "Correct. The airline offsets a genuine exposure to fuel prices. The fund adds a new exposure, which is speculation."
+          },
+          {
+            "text": "The airline is speculating because it does not yet own the fuel",
+            "value": null,
+            "explanation": "Not owning the underlying at the start does not make a position speculative. The airline's future fuel purchases are the exposure being hedged."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:264:233",
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor owns shares in a company and sells call options on those same shares. What is the primary goal and trade-off of this strategy?",
+        "options": [
+          {
+            "text": "Earn premium income while accepting a cap on gains from price rises",
+            "value": null,
+            "explanation": "Correct. This is a covered call: the premium enhances income, but if the share price rises sharply the call will be exercised and gains above the strike are given up."
+          },
+          {
+            "text": "Fully protect the position against any decline in the share price",
+            "value": null,
+            "explanation": "The premium only cushions a fall slightly. Full downside protection would require buying put options, which confuses the two strategies."
+          },
+          {
+            "text": "Increase participation in gains if the share price rises sharply",
+            "value": null,
+            "explanation": "Selling calls limits upside, not increases it. This reverses the effect of the option sale."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What mainly creates the derivative exposures of an issuer, compared with those of an investor?",
+        "back": "Issuers' exposures come from operations and financing (loans, foreign sales, input costs). Investors' exposures come from the assets they hold.",
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:200:195"
+        ]
+      },
+      {
+        "front": "Which swap position does a borrower with floating-rate debt use to fix its cost?",
+        "back": "Pay fixed, receive floating. The floating receipts offset the loan's floating interest, leaving a net fixed cost.",
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:200:195"
+        ]
+      },
+      {
+        "front": "Name four reasons investors use derivatives.",
+        "back": "Hedging, speculation, adjusting exposure cheaply and quickly, arbitrage (and yield enhancement, such as covered calls).",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p1:98:160",
+          "flatworld-finance-banking-and-money:264:233"
+        ]
+      },
+      {
+        "front": "What makes a derivative position a hedge rather than a speculation?",
+        "back": "It offsets an existing exposure. The same contract can be a hedge for one party and speculation for another.",
+        "cited_chunk_ids": [
+          "flatworld-finance-banking-and-money:264:233"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:01:05.887Z",
+      "purpose": "generate",
+      "losId": "derivatives-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9218,
+      "outputTokens": 10271,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1223022,
+      "stopReason": "end_turn"
+    }
+  ]
+}

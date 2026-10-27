@@ -1,0 +1,832 @@
+{
+  "losId": "derivatives-10-los2",
+  "losText": "describe the concept of risk neutrality in derivatives pricing",
+  "moduleId": "derivatives-10",
+  "moduleTitle": "Valuing a Derivative Using a One-Period Binomial Model",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:29:05.708Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-18366-lec12:5:3",
+      "title": "MIT OpenCourseWare 18.366 (Fall 2006), Lecture 12: Black-Scholes-Merton, dynamic hedging and risk-neutral valuation",
+      "locator": "p. 5",
+      "url": "https://ocw.mit.edu/courses/18-366-random-walks-and-diffusion-fall-2006/837a728eb6a6bfa3ac5b91bb9b044e30_lec12.pdf#page=5",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-18s096-risk-neutral:1:0",
+      "title": "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "mit-ocw-15401-rec05:8:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 8–14",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:118:119",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 118–119",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=118",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:6:5",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 6–7",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=6",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-18s096-risk-neutral:8:1",
+      "title": "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)",
+      "locator": "pp. 8–17",
+      "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:165:157",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 165–166",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=165",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "chicagofed-derivatives-2:4:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 2: Central Counterparty Clearing (Federal Reserve Bank of Chicago)",
+      "locator": "p. 4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-2-central-counterparty-clearing-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-18366-lec12:1:0",
+      "title": "MIT OpenCourseWare 18.366 (Fall 2006), Lecture 12: Black-Scholes-Merton, dynamic hedging and risk-neutral valuation",
+      "locator": "p. 1",
+      "url": "https://ocw.mit.edu/courses/18-366-random-walks-and-diffusion-fall-2006/837a728eb6a6bfa3ac5b91bb9b044e30_lec12.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:90:92",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 90–91",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=90",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-final:19:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Sample Final Examination",
+      "locator": "pp. 19–23",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/f8870d5f537f04e75e7ecc243416e02a_MIT15_401F08_final.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:140:140",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 140",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=140",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Risk Neutrality: Pricing Derivatives Without Pricing Risk Appetite",
+      "summary": "Risk-neutral valuation is a shortcut that prices a derivative as if everyone were indifferent to risk. It works because the derivative can be replicated with the underlying asset and a risk-free bond, so no one's real risk preferences enter the price.",
+      "sections": [
+        {
+          "heading": "Three attitudes toward risk",
+          "body_markdown": "Offer someone a coin-flip gamble. A **risk-averse** person needs extra expected payoff to accept it. A **risk-seeking** person will take it even at a poor price. A **risk-neutral** person looks only at the *average* outcome and is indifferent to how uncertain it is. In utility terms, a risk-neutral person has a straight-line utility of wealth, so every extra dollar adds the same satisfaction.\n\nReal investors are mostly risk-averse. That is why a risky stock is expected to earn more than a risk-free bill. The surprise is that, for pricing derivatives, we can *pretend* investors are risk neutral and still get the right price."
+        },
+        {
+          "heading": "Why we are allowed to pretend",
+          "body_markdown": "In a one-period binomial model the underlying asset can move to only two prices. Because of that, a **replicating portfolio** (some shares of the underlying plus some risk-free borrowing or lending) can reproduce the derivative's payoff in *both* outcomes. If the derivative sold for anything other than the cost of that portfolio, someone could earn a riskless profit (**arbitrage**).\n\nThe replication argument never uses the real-world chance of an up move or any investor's taste for risk. Those things are already baked into today's stock price. The derivative's price is pinned down by the stock price, the possible future prices and the risk-free rate.\n\n*Analogy:* if a shop sells a bundle of two items, the bundle's price must equal the sum of the parts, whatever you feel about the items."
+        },
+        {
+          "heading": "Risk-neutral probabilities",
+          "body_markdown": "Since the answer does not depend on risk attitudes, we may compute it in a made-up world where everyone is risk neutral. There, every asset is expected to earn the risk-free rate. The up-move probability that makes this true for the underlying is the **risk-neutral probability**, written $q$ (often $\\pi$ in curricula). With gross up factor $u$ and down factor $d$ (price multiplies by $u$ or $d$) and per-period risk-free rate $r$:\n\n$$q=\\frac{1+r-d}{u-d}$$\n\nThe derivative's value is then its **expected payoff using $q$, discounted at the risk-free rate**. It gives exactly the same number as the replicating portfolio.\n\nTwo key facts: (1) $q$ is a mathematical device, **not** a forecast of how likely an up move is; (2) with $q$, the expected underlying price next period equals today's price grown at the risk-free rate."
+        },
+        {
+          "heading": "Risk-neutral versus real-world probabilities",
+          "body_markdown": "The real-world up probability $p$ is the true chance of an up move. If investors demand a risk premium, the stock's real-world expected return exceeds $r$, so with the same $u$ and $d$ we have $p>q$. The risk-neutral world puts *less* weight on the up state, because the extra return that risk-averse investors demand has been \"removed\".\n\nA good way to remember it: **risk neutral = adjust the probabilities, then discount at the risk-free rate**. The alternative, using real-world probabilities, would require a risk-adjusted discount rate for the option that is hard to know and changes with the stock price. Replication avoids that problem entirely.\n\nRisk-neutral valuation is exact in the binomial setup because a perfect hedge exists. In practice hedging is imperfect, so it is a very useful approximation rather than a literal description of markets."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at 80. Over one period it will either rise by a factor of 1.25 or fall by a factor of 0.80. The risk-free rate is 5% per period. Analysts believe the real-world probability of an up move is 65%. Value a one-period European call option with strike 80 using risk-neutral valuation. Round to two decimals.",
+        "steps": [
+          "Compute the possible stock prices: up = 80 × 1.25 = 100; down = 80 × 0.80 = 64.",
+          "Compute the call payoffs: up = max(100 − 80, 0) = 20; down = max(64 − 80, 0) = 0.",
+          "Compute the risk-neutral probability: q = (1 + 0.05 − 0.80)/(1.25 − 0.80) = 0.25/0.45 = 0.5556. On the BA II Plus: 1.05 − 0.8 = ÷ 0.45 = then STO 1. The 65% real-world probability is not used.",
+          "Check: expected stock price under q = 0.5556 × 100 + 0.4444 × 64 = 84.00, which equals 80 × 1.05. The underlying earns the risk-free rate in the risk-neutral world.",
+          "Expected call payoff under q = 0.5556 × 20 + 0.4444 × 0 = 11.11.",
+          "Discount at the risk-free rate: 11.11 / 1.05 = 10.58. On the BA II Plus: 20 × RCL 1 ÷ 1.05 =."
+        ],
+        "answer": "The call is worth about 10.58. The 65% real-world probability plays no role.",
+        "answer_value": 10.58,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":80,\"strike\":80,\"u\":1.25,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Risk-neutral probability of an up move",
+          "latex": "q=\\frac{1+r-d}{u-d}",
+          "where": "q = risk-neutral probability of the up move; r = risk-free rate per period; u = gross up factor (up price ÷ current price); d = gross down factor (down price ÷ current price)."
+        },
+        {
+          "name": "Derivative value (risk-neutral form)",
+          "latex": "V_0=\\frac{q\\,V_u+(1-q)\\,V_d}{1+r}",
+          "where": "V_0 = value today; V_u and V_d = derivative payoffs in the up and down states; q = risk-neutral probability; r = risk-free rate per period."
+        },
+        {
+          "name": "Underlying earns the risk-free rate under q",
+          "latex": "S_0(1+r)=q\\,S_u+(1-q)\\,S_d",
+          "where": "S_0 = current price; S_u and S_d = up-state and down-state prices; q = risk-neutral probability; r = risk-free rate per period."
+        }
+      ],
+      "exam_traps": [
+        "Using the real-world probability of an up move as if it were $q$. The real-world probability never enters the no-arbitrage derivative value.",
+        "Believing risk-neutral valuation assumes investors really are risk neutral. It only says the price is the same as it would be in such a world, because replication fixes the price.",
+        "Forgetting to discount at the risk-free rate after taking the expected payoff, or discounting at the stock's expected return instead.",
+        "Treating $q$ as the true likelihood of the up move. It is a pricing weight, and with risk-averse investors it is below the real-world probability.",
+        "Swapping the weights, applying $q$ to the down-state payoff and $1-q$ to the up-state payoff."
+      ],
+      "builds_on": [
+        "No-arbitrage and replicating portfolios",
+        "Expected value and probability",
+        "Risk aversion and risk premium",
+        "Time value of money"
+      ],
+      "leads_to": [
+        "Multi-period binomial trees",
+        "Black-Scholes-Merton model",
+        "Pricing forwards and swaps by no-arbitrage"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-18s096-risk-neutral:8:1",
+        "mit-ocw-15401-rec05:8:1",
+        "mit-ocw-18366-lec12:5:3",
+        "flatworld-enterprise-and-individual-risk-management:118:119"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes risk-neutral valuation of a derivative?",
+        "options": [
+          {
+            "text": "Investors are assumed to hold only risk-free assets, so the derivative's required return equals the risk-free rate.",
+            "value": null,
+            "explanation": "Confuses risk-neutral valuation with a world where investors buy only risk-free assets. The method does not assume that."
+          },
+          {
+            "text": "The derivative is valued as if investors were indifferent to risk, which gives the same price that replication gives.",
+            "value": null,
+            "explanation": "Correct. Replication fixes the price without using risk preferences, so a risk-neutral world is a convenient device that reproduces it."
+          },
+          {
+            "text": "Payoffs are weighted by real-world probabilities and discounted at the underlying's expected return.",
+            "value": null,
+            "explanation": "Describes a real-world expected-value approach, which would need a risk-adjusted discount rate for the option. It is not risk-neutral valuation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-18366-lec12:5:3",
+          "mit-ocw-18s096-risk-neutral:8:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock is priced at 100. Over one period it will move to 125 (up factor 1.25) or to 80 (down factor 0.80). The risk-free rate is 5% per period, and the real-world probability of an up move is 60%. Using risk-neutral valuation, what is the value of a one-period European call with strike 100? Round to two decimals.",
+        "options": [
+          {
+            "text": "13.23",
+            "value": 13.23,
+            "explanation": "Correct. q = (1.05 − 0.80)/0.45 = 0.5556; value = 0.5556 × 25 / 1.05 = 13.23. The 60% is irrelevant."
+          },
+          {
+            "text": "14.29",
+            "value": 14.29,
+            "explanation": "Used the real-world probability of 60% instead of q: 0.60 × 25 / 1.05 = 14.29."
+          },
+          {
+            "text": "13.89",
+            "value": 13.89,
+            "explanation": "Used q correctly but forgot to discount at the risk-free rate: 0.5556 × 25 = 13.89."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":100,\"strike\":100,\"u\":1.25,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1",
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): q=(1.05-0.80)/(1.25-0.80)=0.25/0.45=0.5556. The call pays 25 in the up state and 0 in the down state. Value=0.5556*25/1.05=13.889/1.05=13.23. So the answer is A, index 0."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a one-period binomial model, the expected return on the underlying asset, computed using the risk-neutral probabilities, equals:",
+        "options": [
+          {
+            "text": "the underlying's real-world expected return.",
+            "value": null,
+            "explanation": "That return uses the real-world probability $p$, not $q$. With a risk premium it is higher than the risk-free rate."
+          },
+          {
+            "text": "the required return implied by the CAPM.",
+            "value": null,
+            "explanation": "The CAPM return includes a market risk premium, which the risk-neutral world removes."
+          },
+          {
+            "text": "the risk-free rate.",
+            "value": null,
+            "explanation": "Correct. $q$ is defined so that $qS_u+(1-q)S_d=S_0(1+r)$, so the underlying earns the risk-free rate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why does the real-world probability of an up move not appear in the one-period binomial formula for a derivative's value?",
+        "options": [
+          {
+            "text": "Up and down moves are assumed to be equally likely in every binomial model.",
+            "value": null,
+            "explanation": "No such assumption exists. The probability is simply not needed, and it can take any value between 0 and 1."
+          },
+          {
+            "text": "A replicating portfolio of the underlying and a risk-free bond gives the payoff in both states, so no-arbitrage fixes the price.",
+            "value": null,
+            "explanation": "Correct. Because the payoff is replicated state by state, the probability of each state does not affect the cost of replication."
+          },
+          {
+            "text": "Option holders are assumed to be risk averse and therefore ignore probabilities when valuing payoffs.",
+            "value": null,
+            "explanation": "Wrongly ties the result to a risk attitude. The price does not rest on any assumption about the holders' preferences."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1",
+          "mit-ocw-18366-lec12:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock is priced at 50. Over one period it will either rise by a factor of 1.20 (to 60) or fall by a factor of 0.90 (to 45). The risk-free rate is 2% for the period, and the real-world probability of an up move is 70%. Using risk-neutral valuation, what is the value today of a one-period European put option on the stock with strike 50? Round to two decimals.",
+        "options": [
+          {
+            "text": "3.00",
+            "value": 3,
+            "explanation": "Uses the correct risk-neutral weight on the down state (1 − q = 0.60) but forgets to discount the expected payoff: 0.60 × 5 = 3.00. The risk-neutral expectation must be discounted at the risk-free rate."
+          },
+          {
+            "text": "2.94",
+            "value": 2.94,
+            "explanation": "Correct. The risk-neutral up probability is q = (1.02 − 0.90)/(1.20 − 0.90) = 0.40, so the down probability is 0.60. The put pays 0 if the stock goes to 60 and 5 if it goes to 45. Value = 0.60 × 5 / 1.02 = 2.94."
+          },
+          {
+            "text": "1.47",
+            "value": 1.47,
+            "explanation": "Weights the down payoff with the real-world probability of 30% instead of the risk-neutral 60%: 0.30 × 5 / 1.02 = 1.47. Real-world probabilities play no role in risk-neutral pricing."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":50,\"strike\":50,\"u\":1.2,\"d\":0.9,\"r\":0.02,\"kind\":\"put\"}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): q=(1.02-0.90)/(1.20-0.90)=0.12/0.30=0.4. Up price=60, down price=45. The put pays 0 in the up state and 5 in the down state. Value=0.6*5/1.02=3/1.02=2.94."
+          ]
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key (after repair). Solver chose C: Risk-neutral up probability π = (1.02 − 0.90)/(1.20 − 0.90) = 0.12/0.30 = 0.40. The put pays 0 in the up state (60) and 5 in the down state (45). Value = (0.60 × 5)/1.02 = 3/1.02 = 2.94. This matches option B, not C (1.47 is half of that)."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In a one-period binomial model, the up and down factors $u$ and $d$ are fixed with $d<1+r<u$. If the risk-free rate rises, what happens to the risk-neutral probability of the up move?",
+        "options": [
+          {
+            "text": "It increases, because $q=(1+r-d)/(u-d)$ rises with $r$.",
+            "value": null,
+            "explanation": "Correct. With $u$ and $d$ fixed, a higher $r$ raises the numerator, so $q$ rises. The underlying must grow faster in the risk-neutral world, so the up state needs more weight."
+          },
+          {
+            "text": "It decreases, because a higher rate makes the up state less valuable.",
+            "value": null,
+            "explanation": "Reverses the relationship. A higher risk-free rate requires a higher expected growth of the underlying under $q$, which means more weight on the up state."
+          },
+          {
+            "text": "It is unchanged, because $q$ depends only on the real-world probability.",
+            "value": null,
+            "explanation": "Confuses $q$ with $p$. $q$ is built from $r$, $u$ and $d$ and does not use the real-world probability."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Investors demand a risk premium, so the underlying's real-world expected return exceeds the risk-free rate. Using the same up and down factors, how does the risk-neutral probability $q$ of the up move compare with the real-world probability $p$?",
+        "options": [
+          {
+            "text": "$q$ is higher than $p$, because the risk-neutral world is more optimistic.",
+            "value": null,
+            "explanation": "Backwards. The risk-neutral world has a lower expected return for the underlying, so it needs less weight on the up state."
+          },
+          {
+            "text": "$q$ is lower than $p$, because the risk-neutral expected return is only the risk-free rate.",
+            "value": null,
+            "explanation": "Correct. With the same $u$ and $d$, a lower expected return means less weight on the up state, so $q<p$."
+          },
+          {
+            "text": "$q$ equals $p$, because both probabilities describe the same price moves.",
+            "value": null,
+            "explanation": "They are equal only if the underlying's real-world expected return equals the risk-free rate, which is not the case here."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1",
+          "mit-ocw-18366-lec12:5:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does it mean for an investor to be risk neutral?",
+        "back": "Indifferent to risk: judges a gamble only by its expected payoff, with no extra reward required for bearing uncertainty (linear utility of wealth).",
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:118:119"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why can derivatives be priced as if investors were risk neutral?",
+        "back": "The derivative's payoff can be replicated with the underlying and a risk-free bond, so no-arbitrage fixes its price regardless of anyone's risk preferences.",
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1",
+          "mit-ocw-18366-lec12:5:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Formula for the risk-neutral probability of an up move in a one-period binomial model?",
+        "back": "$q=\\dfrac{1+r-d}{u-d}$, with $u$ and $d$ the gross up and down factors and $r$ the risk-free rate per period.",
+        "cited_chunk_ids": [
+          "mit-ocw-18s096-risk-neutral:8:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Risk-neutral probability versus real-world probability: what is the difference?",
+        "back": "The real-world probability is the true chance of an up move. The risk-neutral probability is a pricing weight that makes the underlying earn the risk-free rate. Only the risk-neutral one is used to value the derivative.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:8:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T20:28:45.557Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1035,
+      "outputTokens": 621,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008397,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:28:55.062Z",
+      "purpose": "repair",
+      "losId": "derivatives-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11478,
+      "outputTokens": 1217,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.03607,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:28:57.028Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 165,
+      "outputTokens": 166,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002107,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:29:05.707Z",
+      "purpose": "grounding",
+      "losId": "derivatives-10-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14977,
+      "outputTokens": 1285,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.042973199999999996,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0895472
+}

@@ -1,0 +1,827 @@
+{
+  "losId": "derivatives-08-los1",
+  "losText": "explain the exercise value, moneyness, and time value of an option",
+  "moduleId": "derivatives-08",
+  "moduleTitle": "Pricing and Valuation of Options",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:26:30.682Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "damodaran-valn2ed-ch5:4:3",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 4–5",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=4",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.19
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:16:12",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 16–17",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=16",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:22:17",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 22–24",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=22",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:5:4",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 5–6",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=5",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:166:158",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 166–167",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=166",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:26:20",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 26–27",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=26",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch15:12:11",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 12–13",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=12",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch15:10:9",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 10–11",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=10",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:3:2",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 3–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=3",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch15:11:10",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 11–12",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=11",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "What an Option Is Worth Right Now: Exercise Value, Moneyness and Time Value",
+      "summary": "An option's market price splits into two parts: what you would pocket by exercising immediately, and an extra amount paid for the chance of things improving before expiry. Knowing which part is which, and how moneyness labels the situation, is the base for every other option-pricing idea.",
+      "sections": [
+        {
+          "heading": "Two ingredients in every option price",
+          "body_markdown": "Picture a coupon that lets you buy a concert ticket for $50, and the ticket now sells for $56. The coupon is worth at least $6 because you could use it and resell the ticket. If the concert is still months away and the ticket price might jump, people may pay more than $6 for it, because it could get even better.\n\nOptions work this way. The **premium** (the market price of the option) has two parts:\n\n- **Exercise value** (also called intrinsic value): what the option would pay if exercised right now. It can never be negative, because exercising is a right, not an obligation.\n- **Time value** (also called speculative value): the rest of the premium, paid for the chance that the option becomes more valuable before it expires.\n\nSo $\\text{Premium} = \\text{Exercise value} + \\text{Time value}$."
+        },
+        {
+          "heading": "Exercise value and moneyness",
+          "body_markdown": "Let $S$ be the current price of the underlying asset and $K$ the **strike price**, the fixed price at which the holder may buy (call) or sell (put).\n\n- A **call** is worth exercising only if $S > K$, because you buy below the market price. Exercise value $=\\max(0, S-K)$.\n- A **put** is worth exercising only if $K > S$, because you sell above the market price. Exercise value $=\\max(0, K-S)$.\n\n**Moneyness** is a label for where $S$ sits relative to $K$:\n\n| | Call | Put |\n|---|---|---|\n| In the money | $S>K$ | $S<K$ |\n| At the money | $S=K$ | $S=K$ |\n| Out of the money | $S<K$ | $S>K$ |\n\nAn in-the-money option has positive exercise value. At-the-money and out-of-the-money options have an exercise value of exactly zero, so their whole premium is time value."
+        },
+        {
+          "heading": "Time value and how it behaves",
+          "body_markdown": "Time value $=$ premium $-$ exercise value. An out-of-the-money option still sells for a positive price because there is always some chance it moves into the money before expiry.\n\nThree patterns to know:\n\n1. **Longer life, more time value** (all else equal), because there is more time for the underlying to move favourably.\n2. **Time value shrinks as expiry approaches** and is **zero at expiration**. At that moment the option is worth only its exercise value. This steady erosion is often called time decay.\n3. **Time value is largest when the option is at the money** and gets smaller the further the option is in or out of the money. For a deep in-the-money option the price is mostly exercise value. For a deep out-of-the-money option the chance of ever paying off is slim.\n\nThe time value of an option is a premium over what exercising would yield, not a separate product you buy."
+        },
+        {
+          "heading": "Why this matters for exercising early",
+          "body_markdown": "An American option can be exercised at any time before expiry; a European option only at expiry. An in-the-money holder who exercises early collects only the exercise value and throws away the time value. Usually it is better to sell the option and keep both parts. There are exceptions, such as a call just before a large dividend, but they are not the main point of this LOS.\n\nFor an American option the price cannot fall below exercise value, so its time value is never negative. For European options there are unusual cases (for example a deep in-the-money European put) where the price can sit slightly below exercise value, but in routine exam questions treat time value as non-negative."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at $56. A call with strike $50 trades at $8.20, and a put with the same strike $50 trades at $1.10. For each option, state the moneyness, exercise value and time value.",
+        "steps": [
+          "Call moneyness: $S=56 > K=50$, so the call is in the money.",
+          "Call exercise value: $\\max(0, 56-50)=6.00$.",
+          "Call time value: premium minus exercise value $=8.20-6.00=2.20$.",
+          "Put moneyness: a put is in the money only when $S<K$. Here $56>50$, so the put is out of the money.",
+          "Put exercise value: $\\max(0, 50-56)=\\max(0,-6)=0$.",
+          "Put time value: $1.10-0=1.10$. The entire put premium is time value.",
+          "No calculator keystrokes are needed; this is simple subtraction."
+        ],
+        "answer": "Call: in the money, exercise value $6.00$, time value $2.20$. Put: out of the money, exercise value $0$, time value $1.10$.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Call exercise value",
+          "latex": "\\max(0,\\,S-K)",
+          "where": "S = current price of the underlying asset; K = strike (exercise) price."
+        },
+        {
+          "name": "Put exercise value",
+          "latex": "\\max(0,\\,K-S)",
+          "where": "S = current price of the underlying asset; K = strike (exercise) price."
+        },
+        {
+          "name": "Time value",
+          "latex": "\\text{Time value}=\\text{Option premium}-\\text{Exercise value}",
+          "where": "Option premium = current market price of the option; Exercise value = payoff if exercised immediately."
+        }
+      ],
+      "exam_traps": [
+        "Using the call formula for a put (or the reverse): a put is in the money when the asset price is BELOW the strike.",
+        "Allowing a negative exercise value. An out-of-the-money option has an exercise value of zero, not $S-K$ as a negative number.",
+        "Calling the whole premium the 'intrinsic value'. Only the part you could capture by exercising now is intrinsic; the remainder is time value.",
+        "Thinking an out-of-the-money option is worthless before expiry. It has zero exercise value but usually a positive time value.",
+        "Believing time value is highest for deep in-the-money options. It is highest near at-the-money, and it is zero at expiration for every option."
+      ],
+      "builds_on": [
+        "Call and put payoffs at expiration",
+        "Strike price and underlying asset",
+        "American vs European exercise"
+      ],
+      "leads_to": [
+        "Factors that determine option value",
+        "Put-call parity",
+        "Binomial option pricing",
+        "Option Greeks such as theta"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch15:10:9",
+        "damodaran-valn2ed-ch5:1:0",
+        "damodaran-valn2ed-ch5:16:12",
+        "damodaran-valn2ed-ch5:5:4"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A call option has a strike price of $40 and sells for a premium of $7. The underlying stock currently trades at $45. What is the exercise value of the call?",
+        "options": [
+          {
+            "text": "$2",
+            "value": null,
+            "explanation": "This is the time value (premium minus exercise value, 7 − 5). It is not the exercise value."
+          },
+          {
+            "text": "$5",
+            "value": null,
+            "explanation": "Correct. A call's exercise value is max(0, S − K) = 45 − 40 = $5."
+          },
+          {
+            "text": "$7",
+            "value": null,
+            "explanation": "This is the full premium. It mixes exercise value and time value together."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A put option has a strike price of $60, and the underlying stock currently trades at $52. How would this put be described?",
+        "options": [
+          {
+            "text": "Out of the money, because the stock price is below the strike",
+            "value": null,
+            "explanation": "This applies the call rule to a put. For a put, a stock price below the strike is in the money."
+          },
+          {
+            "text": "At the money, because the two prices are close together",
+            "value": null,
+            "explanation": "At the money means S equals K exactly. A gap of $8 is not at the money."
+          },
+          {
+            "text": "In the money, because the strike is above the stock price",
+            "value": null,
+            "explanation": "Correct. A put is in the money when K > S, since the holder can sell at $60 something worth $52."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A put has a strike of $60 and trades at a premium of $10.50 while the underlying stock is at $52. What is the time value of the put?",
+        "options": [
+          {
+            "text": "$2.50",
+            "value": null,
+            "explanation": "Correct. The exercise value is max(0, 60 − 52) = $8, so the time value is 10.50 − 8 = $2.50."
+          },
+          {
+            "text": "$8.00",
+            "value": null,
+            "explanation": "This is the exercise value, not the time value."
+          },
+          {
+            "text": "$18.50",
+            "value": null,
+            "explanation": "This comes from using S − K = −8 as the exercise value and subtracting it, which adds 8. Exercise value is never negative and here equals +8."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A call option with a strike of $45 is at its expiration date, and the underlying stock is at $48. Which value is consistent with the option's price at that moment?",
+        "options": [
+          {
+            "text": "$0, because options lose all value on the expiry date",
+            "value": null,
+            "explanation": "This ignores that an in-the-money option is still exercisable at expiry and pays the difference."
+          },
+          {
+            "text": "$3, because only exercise value remains",
+            "value": null,
+            "explanation": "Correct. At expiration time value is zero, so the price equals the exercise value: 48 − 45 = $3."
+          },
+          {
+            "text": "$48, because the call gives ownership of the stock",
+            "value": null,
+            "explanation": "This forgets to subtract the strike the holder must pay to obtain the stock."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A call option has a strike of $80 while the underlying asset trades at $70, and the call has several months to expiry. Which statement about its value is correct?",
+        "options": [
+          {
+            "text": "Its exercise value is zero and any premium is entirely time value",
+            "value": null,
+            "explanation": "Correct. It is out of the money, so max(0, S − K) = 0, but there is a chance it will move into the money, so the premium is positive and all time value."
+          },
+          {
+            "text": "Its exercise value is −$10, so its price must be below zero",
+            "value": null,
+            "explanation": "Exercise value cannot be negative, and the holder is never forced to exercise, so the price cannot be negative."
+          },
+          {
+            "text": "Its price must be zero because exercising now would lose money",
+            "value": null,
+            "explanation": "This ignores time value. With time left there is a chance of finishing in the money, so the option has positive value."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Three calls on the same asset have the same strike of $100 and the same time to expiry, but different current asset prices. All else equal, which call would typically have the largest time value?",
+        "options": [
+          {
+            "text": "The call when the asset trades at $70, far out of the money",
+            "value": null,
+            "explanation": "Far out of the money, the chance of finishing in the money is small, so time value is small."
+          },
+          {
+            "text": "The call when the asset trades at $130, deep in the money",
+            "value": null,
+            "explanation": "Deep in the money, the price is mostly exercise value and tracks the asset closely, leaving little extra time value."
+          },
+          {
+            "text": "The call when the asset trades at $100, at the money",
+            "value": null,
+            "explanation": "Correct. Time value is greatest near the money, where exercise value is zero but the uncertainty about finishing in or out of the money is largest."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two calls on the same stock have a strike of $50, and the stock trades at $56. One call has 3 months to expiry and the other has 9 months. Which statement is correct?",
+        "options": [
+          {
+            "text": "The 3-month call has the larger time value because it is closer to exercise",
+            "value": null,
+            "explanation": "Proximity to expiry shrinks time value. Less time means less chance for favourable moves."
+          },
+          {
+            "text": "Both have an exercise value of $6, and the 9-month call has the larger time value",
+            "value": null,
+            "explanation": "Correct. Exercise value depends only on S and K, so both equal $6. The longer-lived call carries more time value."
+          },
+          {
+            "text": "The 9-month call has the larger exercise value because it lasts longer",
+            "value": null,
+            "explanation": "Exercise value does not depend on time to expiry; only on S and K."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A holder owns an in-the-money American call with several weeks left and no dividend is expected before expiry. Why is it usually better to sell the call than to exercise it now?",
+        "options": [
+          {
+            "text": "Selling captures exercise value plus the remaining time value",
+            "value": null,
+            "explanation": "Correct. The market price exceeds exercise value because of time value, while exercising yields only the exercise value."
+          },
+          {
+            "text": "Exercising gives the holder less than the strike price paid",
+            "value": null,
+            "explanation": "Exercise value is what is left after paying the strike. That is not the reason sale is preferred; the issue is forgone time value."
+          },
+          {
+            "text": "Selling is required because American calls cannot be exercised early",
+            "value": null,
+            "explanation": "American options can be exercised at any time before expiry. This confuses American with European style."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:16:12",
+          "damodaran-valn2ed-ch5:5:4"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern) pp. 4–5: \"american options can be exercised at any time\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "How is the exercise value of a call calculated, and how is it for a put?",
+        "back": "Call: max(0, S − K). Put: max(0, K − S). It is never negative.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the time value of an option?",
+        "back": "The option's premium minus its exercise value. It is the amount paid for the chance of a better outcome before expiry, and it is zero at expiration.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:10:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "When is a call in the money, at the money and out of the money? How does it differ for a put?",
+        "back": "Call: in the money if S > K, at the money if S = K, out of the money if S < K. Put: reversed, so in the money if S < K and out of the money if S > K.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why does exercising an in-the-money option early usually waste value?",
+        "back": "Exercising yields only the exercise value, while selling the option also captures the remaining time value.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch5:16:12",
+          "damodaran-valn2ed-ch5:5:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T20:26:21.813Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 757,
+      "outputTokens": 476,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006391,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:26:30.682Z",
+      "purpose": "grounding",
+      "losId": "derivatives-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13252,
+      "outputTokens": 1250,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0391732,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0455642
+}

@@ -1,0 +1,473 @@
+{
+  "losId": "derivatives-02-los1",
+  "losText": "define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics",
+  "moduleId": "derivatives-02",
+  "moduleTitle": "Forward Commitment and Contingent Claim Features and Instruments",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T19:56:38.721Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec10:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 10-11: Options",
+      "locator": "pp. 1–9",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/c40ecc0cc0dce0fbf2d229bc4027c43b_MIT15_401F08_lec10.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch16:1:1",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 1–2",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=1",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:24:42",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 24",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:4",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 4–5",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:14:15",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 14–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=14",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:66:122",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 66",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=66",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:39:69",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 39",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=39",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:21:21",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 21–22",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=21",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:63:115",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 63",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=63",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "The Five Basic Derivative Families: Forwards, Futures, Swaps, Options and Credit Derivatives",
+      "summary": "A derivative is a contract whose value depends on something else, such as a commodity price, an interest rate or a borrower's creditworthiness. This lesson sorts the main contract types by who is obligated, where they trade, and when cash moves, so you can recognise each one on the exam.",
+      "sections": [
+        {
+          "heading": "Derivatives in one idea",
+          "body_markdown": "A **derivative** is a financial contract whose value is derived from another asset, rate or event. That other item is the **underlying**: a stock, a barrel of oil, an interest rate, an exchange rate, or a borrower's ability to repay a loan.\n\nThink of a ticket for a concert that is not yet held: the ticket is not the concert, but its value moves with the concert's popularity. Derivatives work the same way. Two broad ideas organise this whole topic:\n\n- Some contracts are **obligations** for both sides (forwards, futures, swaps).\n- Others give one side a **choice** (options, and many credit derivatives that pay only if something bad happens).\n\nTwo more terms: **long** means the buyer side of the contract and **short** means the seller side. Contracts also differ in where they trade: **over the counter (OTC)** means a private deal between two parties, while an **exchange** is an organised, regulated marketplace."
+        },
+        {
+          "heading": "Forwards and futures: lock in a price today",
+          "body_markdown": "A **forward contract** is an agreement to buy or sell a set amount of an asset at a future date for a price fixed today (the **forward price**). The long side must buy and the short side must sell. Nobody can walk away.\n\nTypical forward features:\n- **Customised**: quantity, date and terms are negotiated.\n- **OTC**: private deal, not on an exchange.\n- **No money changes hands at the start**, and the settlement happens at maturity, either by delivering the asset or by paying the cash difference.\n- **Counterparty (default) risk**: the other side might simply fail to pay.\n\nA **futures contract** is a forward-like contract that is **standardised** (set asset, quantity and maturity) and **exchange-traded**. A **clearinghouse** stands between buyer and seller, which makes default risk very small. Gains and losses are settled every day, which is called **marking to market**. Traders post a **margin** deposit (a good-faith performance bond, not a purchase price) to support this daily settlement.\n\nAnalogy: a forward is like a tailor-made agreement with a local supplier. A futures contract is like buying a standard product from a big retailer that guarantees delivery."
+        },
+        {
+          "heading": "Swaps: a string of exchanges",
+          "body_markdown": "A **swap** is an OTC agreement to exchange cash flows at regular intervals over an agreed period, on terms fixed today. You can think of it as a **sequence of forwards** bundled into one contract.\n\nThe most common example is a **fixed-for-floating interest rate swap**. One side pays a fixed rate and the other pays a floating rate (for example, a short-term benchmark rate), each applied to a **notional principal**. The notional is called that because in a plain interest rate swap it is only used to calculate the payments. It is not itself handed over. Payments are usually netted, so only the difference moves.\n\nLike forwards, swaps are customised, OTC and carry counterparty risk, and both sides have obligations."
+        },
+        {
+          "heading": "Options: a right, not an obligation",
+          "body_markdown": "An **option** gives its buyer (the **holder**, who is long) the right, but not the obligation, to trade the underlying at a fixed price called the **strike** (or exercise) price.\n\n- A **call** gives the right to **buy**.\n- A **put** gives the right to **sell**.\n- The buyer pays a **premium** to the seller (the **writer**, who is short) at the start. This is the price of the option.\n- The writer has a **contingent obligation**: if the buyer exercises, the writer must perform (sell for a call, buy for a put).\n- **American-style** options can be exercised any time up to expiration; **European-style** options only at expiration.\n\nThe holder exercises only when it pays to do so, so the rights and duties are **asymmetric**. This contrasts with forwards and futures, where both sides are symmetrically bound. A put works a bit like insurance: you pay a premium for protection against a price fall."
+        },
+        {
+          "heading": "Credit derivatives: trading default risk",
+          "body_markdown": "A **credit derivative** transfers credit risk (the risk a borrower fails to pay) from one party to another without selling the underlying loan or bond. The best-known type is the **credit default swap (CDS)**.\n\nIn a CDS there are:\n- a **reference entity** or reference obligation (the borrower or bond whose credit is at issue),\n- a **protection buyer**, who pays a periodic premium (often called the spread),\n- a **protection seller**, who pays compensation if a defined **credit event** (such as default) occurs.\n\nSo the buyer is like someone holding insurance on a bond, and the seller is like the insurer. The payout is **contingent** on the credit event, which gives a CDS an option-like feature despite the word 'swap'. Payouts may be based on market prices after default or fixed as a percentage of the notional. CDS contracts are usually OTC, so the protection buyer also faces counterparty risk that the seller cannot pay."
+        }
+      ],
+      "worked_example": {
+        "problem": "A manufacturer enters a forward to buy 500 tons of copper in three months at $8,000 per ton. At settlement the market price is $8,400 per ton. The forward is cash-settled. What does the long side receive, and what does the short side pay? Does money change hands at initiation?",
+        "steps": [
+          "At initiation a forward normally involves no payment between the parties, because the forward price is set so that the contract has no value to either side at the start.",
+          "At settlement, compare the market price to the agreed price: $8,400 − $8,000 = $400 per ton in favour of the long side (who buys cheaply relative to the market).",
+          "Multiply by the quantity: $400 × 500 = $200,000.",
+          "The long side receives $200,000 and the short side pays $200,000 (a zero-sum transfer).",
+          "Check the manufacturer's net cost: it buys copper at market, 500 × $8,400 = $4,200,000, receives $200,000, so net outflow is $4,000,000 = 500 × $8,000. The price is locked in.",
+          "No calculator keystrokes are needed beyond simple multiplication."
+        ],
+        "answer": "The long side receives $200,000 and the short side pays $200,000. No cash changes hands at initiation. The manufacturer's effective cost stays at $8,000 per ton.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Cash settlement of a long forward at maturity",
+          "latex": "N \\times (S_T - F_0)",
+          "where": "N = quantity of the underlying; S_T = market (spot) price at settlement; F_0 = forward price agreed at initiation. A positive result is received by the long side and paid by the short side; a negative result reverses this."
+        },
+        {
+          "name": "Net payment in a fixed-for-floating interest rate swap (one period, payer of fixed)",
+          "latex": "\\text{Notional} \\times (r_{\\text{floating}} - r_{\\text{fixed}}) \\times \\frac{\\text{days}}{360}",
+          "where": "Notional = principal used to compute payments (not exchanged); r_floating = floating rate for the period; r_fixed = fixed swap rate; days/360 = fraction of the year (a typical money-market day-count). A positive result is received by the fixed-rate payer."
+        }
+      ],
+      "exam_traps": [
+        "Calling margin in futures a 'premium' or a purchase price. Margin is a performance deposit; an option premium is the actual price of the option.",
+        "Believing the option writer has a choice. Only the buyer chooses whether to exercise; the writer must perform if the buyer exercises.",
+        "Assuming a forward and a futures contract are identical. Futures are standardised, exchange-traded, cleared and marked to market daily; forwards are customised, OTC and settle at maturity.",
+        "Thinking the notional principal in a plain interest rate swap changes hands. It is only a reference amount for computing payments.",
+        "Mixing up the CDS sides: the protection buyer pays the periodic premium and receives the payout on a credit event; the protection seller does the opposite."
+      ],
+      "builds_on": [
+        "Time value of money and interest rates",
+        "Bonds and credit risk basics",
+        "Spot (cash) markets for assets"
+      ],
+      "leads_to": [
+        "Option payoffs and profit at expiration",
+        "Forward commitments vs contingent claims",
+        "Pricing and valuation of forwards, futures and swaps",
+        "Hedging and arbitrage"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec08:9:2",
+        "chicagofed-derivatives-1:4:3",
+        "chicagofed-derivatives-1:4:4",
+        "fed-trading-4000-p2:39:69",
+        "fed-trading-4000-p2:63:115",
+        "fed-trading-4000-p2:66:122",
+        "fed-trading-4000-p2:24:42"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following best describes a forward contract?",
+        "options": [
+          {
+            "text": "A standardised exchange-traded agreement whose gains and losses are settled each day",
+            "value": null,
+            "explanation": "This describes a futures contract. Daily settlement (marking to market) and standardisation are futures features, not forward features."
+          },
+          {
+            "text": "A customised OTC agreement to trade an asset at a price set today, settled at maturity",
+            "value": null,
+            "explanation": "Correct. A forward is a private, tailored commitment for both sides to transact at the agreed price, with settlement at the end and no cash exchanged at the start."
+          },
+          {
+            "text": "A contract giving the holder the right, but not the obligation, to trade at a set price",
+            "value": null,
+            "explanation": "This describes an option. A forward binds both parties, so neither has a free choice."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following contracts typically carries the lowest counterparty credit risk, and why?",
+        "options": [
+          {
+            "text": "A futures contract, because a clearinghouse stands between the two parties",
+            "value": null,
+            "explanation": "Correct. The clearinghouse guarantees performance and positions are settled daily, so default risk is minimal."
+          },
+          {
+            "text": "A forward contract, because no cash changes hands until maturity",
+            "value": null,
+            "explanation": "Mistake: delayed payment actually lets exposure build up, and a private counterparty could default. Forwards carry meaningful counterparty risk."
+          },
+          {
+            "text": "A swap, because payments are made at regular intervals",
+            "value": null,
+            "explanation": "Mistake: regular payments do not remove default risk. Swaps are OTC with counterparty risk, which can be significant."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "fed-trading-4000-p2:24:42"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes a swap?",
+        "options": [
+          {
+            "text": "A single exchange of an asset for cash on one future date at a price set today",
+            "value": null,
+            "explanation": "This describes a single forward. A swap involves several exchanges over time."
+          },
+          {
+            "text": "A right to exchange two assets at a set ratio, bought for a premium",
+            "value": null,
+            "explanation": "This confuses a swap with an option. A swap is an obligation, not a purchased right."
+          },
+          {
+            "text": "An OTC agreement to exchange cash flows at set intervals, like a series of forwards",
+            "value": null,
+            "explanation": "Correct. A swap is a customised agreement for repeated exchanges of cash flows over an agreed period, which can be viewed as a bundle of forwards."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A investor writes (sells) a call option on a stock. If the buyer exercises, which of the following is true of the writer?",
+        "options": [
+          {
+            "text": "The writer decides whether the exchange of the stock takes place",
+            "value": null,
+            "explanation": "Mistake: confusing the writer with the holder. Only the buyer of the option holds the right to decide on exercise."
+          },
+          {
+            "text": "The writer must buy the stock from the holder at the strike price",
+            "value": null,
+            "explanation": "Mistake: this is the obligation of a put writer. A call gives the holder the right to buy, so the call writer is the one who delivers."
+          },
+          {
+            "text": "The writer must sell the stock to the holder at the strike price",
+            "value": null,
+            "explanation": "Correct. The call writer has a contingent obligation to sell the underlying at the strike price if the holder exercises. The writer keeps the premium received up front."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "fed-trading-4000-p2:39:69"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a credit default swap, which description of the protection buyer is correct?",
+        "options": [
+          {
+            "text": "Pays a periodic premium and is compensated if a specified credit event hits the reference entity",
+            "value": null,
+            "explanation": "Correct. The buyer pays for protection, much like insurance premiums, and receives a payout only when a defined credit event such as a default occurs."
+          },
+          {
+            "text": "Receives a periodic premium and must compensate the seller if the reference entity defaults",
+            "value": null,
+            "explanation": "Mistake: this reverses the roles. The party receiving the premium and paying on default is the protection seller."
+          },
+          {
+            "text": "Pays a periodic premium and is compensated whenever the reference bond's price falls, credit event or not",
+            "value": null,
+            "explanation": "Mistake: the payout is contingent on a defined credit event such as default, not on any price decline."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:63:115",
+          "fed-trading-4000-p2:66:122"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two parties enter a plain-vanilla fixed-for-floating interest rate swap with a notional principal of $10 million. What happens to the notional principal?",
+        "options": [
+          {
+            "text": "It is exchanged at initiation and returned at maturity",
+            "value": null,
+            "explanation": "Mistake: principal exchange is not a feature of a plain interest rate swap, because both sides' principal is in the same currency and would cancel out."
+          },
+          {
+            "text": "It is only a reference amount used to calculate the interest payments",
+            "value": null,
+            "explanation": "Correct. The notional is hypothetical in a plain interest rate swap. It sizes the fixed and floating payments, which are usually netted."
+          },
+          {
+            "text": "It is paid by the fixed-rate payer to the floating-rate payer at maturity",
+            "value": null,
+            "explanation": "Mistake: no principal is paid by either side. Only interest-type cash flows, usually netted, are exchanged."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "richmondfed-money-market-ch16:1:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst compares a long futures position, a long forward position and a long call option on the same asset. Which statement about initial payments and obligations is most accurate?",
+        "options": [
+          {
+            "text": "Only the forward buyer pays a premium at the start, and only the option buyer can walk away at maturity",
+            "value": null,
+            "explanation": "Mistake: a forward involves no premium at initiation, and the premium belongs to the option buyer."
+          },
+          {
+            "text": "The futures buyer pays a premium and is bound, while the option buyer posts margin and is free to walk away",
+            "value": null,
+            "explanation": "Mistake: this swaps the concepts. Futures involve a margin deposit, not a premium, while the option buyer pays the premium."
+          },
+          {
+            "text": "Only the call buyer pays a premium at the start and has no obligation to transact at maturity",
+            "value": null,
+            "explanation": "Correct. The forward and futures buyers are bound to transact (futures post margin, not a premium), while the call buyer pays a premium for a right that need not be used."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A copper user and a dealer agree to a three-month OTC forward on 1,000 metric tons at $6,000 per ton. Which feature of this deal would be different if the same trade were done on an exchange as a futures contract?",
+        "options": [
+          {
+            "text": "The price would be fixed by the clearinghouse, so neither side would face price risk",
+            "value": null,
+            "explanation": "Mistake: the clearinghouse guarantees performance, but it does not remove price risk. Futures prices still move, and gains and losses are settled daily."
+          },
+          {
+            "text": "Gains and losses would be settled daily, and the terms would be standardised",
+            "value": null,
+            "explanation": "Correct. Futures are marked to market daily, use standard contract sizes and maturities, and are guaranteed by a clearinghouse, unlike a customised OTC forward."
+          },
+          {
+            "text": "The long side would gain the right but not the obligation to take delivery",
+            "value": null,
+            "explanation": "Mistake: futures, like forwards, are obligations for both sides. A right without an obligation is an option."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:4",
+          "mit-ocw-15401-lec08:9:2",
+          "mit-ocw-15401-rec04:1:0"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "How do forward contracts and futures contracts differ?",
+        "back": "Forwards are customised, OTC and settled at maturity, with counterparty risk. Futures are standardised, exchange-traded, cleared by a clearinghouse and marked to market daily.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "mit-ocw-15401-rec04:1:0"
+        ]
+      },
+      {
+        "front": "What is a swap, in terms of simpler contracts?",
+        "back": "An OTC agreement to exchange cash flows at regular intervals over an agreed period. It can be viewed as a sequence of forwards.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "richmondfed-money-market-ch16:21:21"
+        ]
+      },
+      {
+        "front": "What rights and obligations do the buyer and the writer of an option have?",
+        "back": "The buyer pays a premium and has the right, not the obligation, to buy (call) or sell (put) at the strike price. The writer receives the premium and must perform if the buyer exercises.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "fed-trading-4000-p2:39:69"
+        ]
+      },
+      {
+        "front": "In a credit default swap, who pays what?",
+        "back": "The protection buyer pays a periodic premium. The protection seller pays compensation if a defined credit event (such as default) hits the reference entity.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:63:115",
+          "fed-trading-4000-p2:66:122"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T19:56:38.721Z",
+      "purpose": "generate",
+      "losId": "derivatives-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10998,
+      "outputTokens": 9701,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1201622,
+      "stopReason": "end_turn"
+    }
+  ]
+}

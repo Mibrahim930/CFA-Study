@@ -1,0 +1,887 @@
+{
+  "losId": "derivatives-03-los1",
+  "losText": "describe benefits and risks of derivative instruments",
+  "moduleId": "derivatives-03",
+  "moduleTitle": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:23:39.292Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-risk-mgmt-derivatives:24:25",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:91:95",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 91–92",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=91",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:47:50",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 47–48",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=47",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "chicagofed-derivatives-1:1:0",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 1",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=1",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:68:73",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 68–69",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=68",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "chicagofed-derivatives-3:3:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 3: Over-the-Counter Derivatives (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 3–4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-3-over-the-counter-derivatives-pdf.pdf#page=3",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "mit-ocw-15401-summary:15:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Course Summary",
+      "locator": "pp. 15–16",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/55322b0a932baa9a97c5603eeab0d766_MIT15_401F08_summary.pdf#page=15",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:82:89",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 82–83",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=82",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:240:239",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 240–241",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=240",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:11:10",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 11–12",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=11",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "richmondfed-money-market-ch16:20:19",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "p. 20",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=20",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "fed-trading-4000-p1:25:36",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 25–26",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=25",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Why derivatives help markets, and where they can hurt",
+      "summary": "Derivatives let people move, reshape and price risk cheaply, but the same features (leverage, complexity, counterparty promises) can magnify losses and spread trouble. This LOS is about weighing both sides.",
+      "sections": [
+        {
+          "heading": "A derivative is a risk-moving contract",
+          "body_markdown": "A **derivative** is a contract whose value depends on something else, called the **underlying** (a stock, bond, interest rate, currency, commodity or index). Think of home insurance: you pay a small amount and a party better able to bear a rare large loss takes on that risk. Derivatives work in the same spirit. A derivative does not make risk disappear. It **transfers** it from one party to another. The *long* side gains when the underlying rises; the *short* side gains when it falls. Usually no ownership of the underlying changes hands when the contract is signed."
+        },
+        {
+          "heading": "The benefits",
+          "body_markdown": "**1. Risk allocation, transfer and management.** An airline worried about fuel prices can pass that risk to a party that wants it, such as a speculator or a fuel producer. Each party can end up holding the amount of risk it prefers.\n\n**2. Information discovery.** Derivative prices, such as futures prices, are watched by many participants and reflect their combined expectations about future prices of the underlying. That helps others judge where prices are heading.\n\n**3. Operational advantages.** Compared with trading the underlying directly, derivatives often have lower transaction costs, are often more liquid (easier to enter and exit), and make it simple to take a short position or to gain a large exposure with a small cash outlay.\n\n**4. Market efficiency.** Because derivatives are cheap to trade, mispricing between a derivative and its underlying is quickly exploited by arbitrageurs, which pushes prices back into line."
+        },
+        {
+          "heading": "The risks: leverage and asymmetry",
+          "body_markdown": "**Leverage** in a derivative does not mean borrowing. It means that a small outlay (an option *premium* or a futures *margin* deposit) gives exposure to a much larger amount of the underlying. A small percentage move in the underlying is then a **large percentage** move in the money you put up. This works for gains and losses, and it makes derivatives attractive for **speculation** (betting on price moves) as well as hedging.\n\nOptions also have **asymmetric payoffs**. An option buyer has the right but not the obligation to transact, so the most the buyer can lose is the premium, while the upside can be large. The option writer (seller) collects the premium and faces the reverse: a capped gain with a potentially very large loss (unlimited for an uncovered call writer).\n\nA surprising consequence: an option buyer can lose 100% of the money invested even when the underlying moves in the buyer's favour, if the move is too small to cover the premium."
+        },
+        {
+          "heading": "The risks: credit, liquidity, complexity and basis",
+          "body_markdown": "**Counterparty credit risk.** Many derivatives are private (over-the-counter, OTC) contracts. If the other side defaults you may not receive what you are owed. Only the party whose contract currently has **positive value** is exposed to loss from the other party's default. A contract that is currently negative for you can still turn positive later, so it carries *potential* credit exposure. Exchange-traded contracts typically pass through a clearinghouse, which greatly reduces this risk.\n\n**Liquidity risk.** Customized OTC contracts have no standard terms and no deep pool of buyers, so they can be hard to unwind or value in stressed markets.\n\n**Complexity and lack of transparency.** Exotic OTC derivatives are harder to value, because inputs such as volatility may not be directly observable. Their risks can be hidden from boards and investors, which is why strong, independent risk control is stressed.\n\n**Basis risk.** A hedge is rarely perfect. If the derivative's price does not move one-for-one with the exposure being hedged (for example, hedging jet fuel with crude oil futures), a residual risk remains.\n\n**Systemic risk.** Because large institutions are linked by many derivative contracts, trouble at one can spread to others. Regulators have also noted that derivatives can help institutions manage risk and stabilize markets in turbulent periods, so the net effect depends on how they are used and controlled."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at $40. An investor buys a one-period call option on it with a strike of $40 for a premium of $2. At expiration the stock is at $46, so the call is worth its intrinsic value of $6. Ignoring transaction costs and dividends, compare the holding period return on the call with the return on the stock.",
+        "steps": [
+          "Stock return: the stock went from 40 to 46, so the return is (46 − 40) / 40 = 0.15, or 15%.",
+          "Call investment: the investor paid 2 (the premium), so the beginning value is 2 and the ending value is 6.",
+          "Call return: (6 − 2) / 2 = 2.00, or 200%.",
+          "BA II Plus: press 6 − 2 = ÷ 2 = and the display shows 2. Multiply by 100 to express it as 200%.",
+          "Interpretation: a 15% move in the stock produced a 200% return on the amount invested in the option. That is leverage. The reverse is also true: if the stock had ended at or below 40, the call would have lost the full $2 premium (−100%)."
+        ],
+        "answer": "The call returned 200%, versus 15% for the stock.",
+        "answer_value": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":2,\"endPrice\":6,\"income\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Holding period return (used here for an option bought at the premium)",
+          "latex": "HPR = \\frac{P_1 - P_0 + I}{P_0}",
+          "where": "P_0 = amount paid at the start (the premium for an option); P_1 = value at the end (intrinsic value at expiration for an option held to expiry); I = income received during the period (zero for an option)."
+        }
+      ],
+      "exam_traps": [
+        "Saying derivatives eliminate or create risk. They move or reshape risk between parties; the risk is still in the system.",
+        "Believing an option buyer can lose more than the premium, or that every option seller has unlimited loss. The buyer's loss is capped at the premium; unlimited loss applies to an uncovered call writer.",
+        "Reading derivative leverage as borrowed money. It is a small outlay controlling a large exposure, so percentage gains and losses on the outlay are magnified.",
+        "Assuming the party with a negative contract value faces credit risk. Current credit exposure belongs to the party whose contract is worth a positive amount.",
+        "Treating a hedge as risk-free. Basis risk, counterparty risk and liquidity risk can remain."
+      ],
+      "builds_on": [
+        "Forward, futures, swap and option basics",
+        "Holding period return",
+        "Hedging vs speculation"
+      ],
+      "leads_to": [
+        "Use of derivatives by issuers and investors",
+        "Credit risk and clearinghouses",
+        "Hedging and basis risk in forwards and futures"
+      ],
+      "cited_chunk_ids": [
+        "occ-risk-mgmt-derivatives:24:25",
+        "occ-risk-mgmt-derivatives:47:50",
+        "richmondfed-money-market-ch16:20:19",
+        "chicagofed-derivatives-1:1:0",
+        "occ-risk-mgmt-derivatives:68:73",
+        "occ-risk-mgmt-derivatives:11:10"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is a recognized benefit of derivatives?",
+        "options": [
+          {
+            "text": "They remove price risk from the economy as a whole",
+            "value": null,
+            "explanation": "Mistake: believing derivatives destroy risk. They only transfer it from one party to another."
+          },
+          {
+            "text": "They move risk to parties more willing to bear it",
+            "value": null,
+            "explanation": "Correct. Risk allocation and transfer is a core benefit: hedgers shed risk and others who want it take it on."
+          },
+          {
+            "text": "They keep underlying prices equal to intrinsic value",
+            "value": null,
+            "explanation": "Mistake: derivatives help prices adjust quickly through arbitrage and information discovery, but they do not guarantee prices equal intrinsic value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor buys a call option, and a different investor writes an uncovered (naked) call option on the same stock. Which statement about their risk and reward is correct?",
+        "options": [
+          {
+            "text": "The buyer's loss is capped at the premium; the writer's loss is potentially unlimited",
+            "value": null,
+            "explanation": "Correct. The buyer has a right, not an obligation, so the most lost is the premium. The naked call writer receives only the premium but is exposed to unlimited loss if the stock rises sharply."
+          },
+          {
+            "text": "Both parties' losses are capped at the premium amount",
+            "value": null,
+            "explanation": "Mistake: ignoring that the writer is obligated to deliver if exercised, so the writer's loss is not limited to the premium."
+          },
+          {
+            "text": "The buyer's loss is potentially unlimited; the writer's loss is capped",
+            "value": null,
+            "explanation": "Mistake: reversing the asymmetry between buyer and writer."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at $100. An investor pays a $5 premium for a one-period call option with a $100 strike. At expiration the stock is at $110, so the call is worth its intrinsic value of $10. Ignore transaction costs and dividends. The call's holding period return is its net gain (ending value minus premium paid) divided by the premium paid. What is this return, rounded to the nearest whole percent?",
+        "options": [
+          {
+            "text": "200%",
+            "value": 2,
+            "explanation": "Mistake: dividing the ending value by the premium (10 / 5 = 2.00) and reporting that ratio as the return. This is the ending value as a multiple of the premium, so it leaves out the subtraction of the premium paid. The return is that ratio minus 1."
+          },
+          {
+            "text": "10%",
+            "value": 0.1,
+            "explanation": "Mistake: reporting the stock's return (110 / 100 − 1) instead of the call's return on the premium invested. This misses the leverage in the option."
+          },
+          {
+            "text": "100%",
+            "value": 1,
+            "explanation": "Correct. HPR = (10 − 5) / 5 = 1.00 = 100%. The net gain of $5 on a $5 outlay doubles the money. A 10% move in the stock produced a 100% return on the premium, which illustrates leverage."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":5,\"endPrice\":10,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): Profit = 10 − 5 = 5; return = 5/5 = 100% net. But the HPR on premium is (10−5)/5 = 100%... checking: value 10 vs cost 5 gives 10/5 − 1 = 100%."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Party A and Party B enter an OTC forward contract. Several months later, the contract has a market value of −$2 million to Party A, and therefore +$2 million to Party B. Which statement about current credit exposure is correct?",
+        "options": [
+          {
+            "text": "Party A is exposed, because its contract has negative value",
+            "value": null,
+            "explanation": "Mistake: confusing who owes money with who is owed. A party with a negative-value contract would be the one that would owe on settlement, not suffer a loss from the other's default."
+          },
+          {
+            "text": "Party B is exposed, because its contract has positive value",
+            "value": null,
+            "explanation": "Correct. Default loss requires the counterparty to default while the contract has positive value to you. Party A's default would cost Party B the contract's value."
+          },
+          {
+            "text": "Neither is exposed, because no principal was exchanged at the start",
+            "value": null,
+            "explanation": "Mistake: assuming no exchange of principal means no credit risk. Many derivatives carry replacement-cost exposure when their value is positive."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:47:50"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An airline hedges its jet fuel costs by buying exchange-traded crude oil futures, which are guaranteed by a clearinghouse. Jet fuel and crude oil prices sometimes move by different amounts. Which risk does this mismatch describe?",
+        "options": [
+          {
+            "text": "Settlement risk",
+            "value": null,
+            "explanation": "Mistake: settlement risk concerns failure of a payment or delivery at settlement, not a mismatch in price movements between the hedge and the exposure."
+          },
+          {
+            "text": "Counterparty credit risk",
+            "value": null,
+            "explanation": "Mistake: the clearinghouse largely addresses default risk here, and the issue described is not default."
+          },
+          {
+            "text": "Basis risk",
+            "value": null,
+            "explanation": "Correct. The derivative's price does not move exactly with the exposure being hedged, so some risk remains after the hedge."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature of customized OTC derivatives most directly explains why they can be hard to unwind in stressed markets?",
+        "options": [
+          {
+            "text": "Their non-standard terms mean there is no deep pool of buyers",
+            "value": null,
+            "explanation": "Correct. Without contract standardization, OTC derivatives tend to be less liquid than exchange-traded ones, especially when volatility is high or a counterparty's credit is in doubt."
+          },
+          {
+            "text": "Their positions are marked to market daily by a clearinghouse",
+            "value": null,
+            "explanation": "Mistake: daily mark-to-market through a clearinghouse is an exchange-traded feature and does not make unwinding harder."
+          },
+          {
+            "text": "Their trades are guaranteed by a central counterparty",
+            "value": null,
+            "explanation": "Mistake: a central guarantee mainly reduces credit risk and is typical of exchange-traded contracts; traditional OTC contracts lack it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch16:20:19"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond) p. 20: \"otc derivatives tend to be less liquid than\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A stock trades at $50. An investor pays a $2.50 premium for a one-period call option with a $50 strike. At expiration the stock is at $52, so the call is worth its intrinsic value of $2. Ignore transaction costs and dividends. What is the holding period return on the call, based on the premium paid and rounded to the nearest whole percent?",
+        "options": [
+          {
+            "text": "+80%",
+            "value": 0.8,
+            "explanation": "Mistake: dividing the ending value by the premium (2 / 2.5) and treating that ratio as a return, ignoring that the investor lost part of the premium."
+          },
+          {
+            "text": "−20%",
+            "value": -0.2,
+            "explanation": "Correct. HPR = (2 − 2.5) / 2.5 = −0.20. Even though the stock rose, the gain was too small to cover the premium."
+          },
+          {
+            "text": "+4%",
+            "value": 0.04,
+            "explanation": "Mistake: using the stock's return (52 / 50 − 1) instead of the option's own return."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":2.5,\"endPrice\":2,\"income\":0}"
+        },
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor takes a long futures position with a notional value of $100,000 and posts $5,000 of margin. The underlying then falls 8%. Which statement is correct, ignoring interest?",
+        "options": [
+          {
+            "text": "The loss is $400, which is 8% of the margin deposit",
+            "value": null,
+            "explanation": "Mistake: applying the 8% price move to the margin instead of to the full notional exposure."
+          },
+          {
+            "text": "The loss is capped at the $5,000 margin deposit",
+            "value": null,
+            "explanation": "Mistake: assuming margin is a loss limit. Futures losses are based on the full exposure and can exceed the initial deposit."
+          },
+          {
+            "text": "The loss is $8,000, which is above the $5,000 deposit",
+            "value": null,
+            "explanation": "Correct. The investor is exposed to the full $100,000, so an 8% fall costs $8,000, which is 160% of the margin. This shows the magnifying effect of leverage."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Name the main benefits of derivatives.",
+        "back": "Risk allocation and transfer, information discovery (prices reflect expectations), operational advantages (lower costs, liquidity, easy shorting, leverage) and greater market efficiency.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why does an option buyer face an asymmetric payoff, and how does the writer's differ?",
+        "back": "The buyer's loss is capped at the premium while upside can be large. The writer earns only the premium and can face large (for an uncovered call, unlimited) losses.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Which party in an OTC derivative has current credit exposure to the other?",
+        "back": "The party whose contract has a positive market value, because the other side's default would cost it that value.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:47:50"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What does leverage mean for a derivative, and what is its danger?",
+        "back": "A small outlay (premium or margin) gives exposure to a much larger underlying amount, so small price moves cause large percentage gains or losses on the outlay.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What is basis risk?",
+        "back": "The risk that a hedging derivative's price does not move exactly with the exposure being hedged, leaving some risk after the hedge.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T20:23:20.579Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 924,
+      "outputTokens": 548,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007445,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:23:29.022Z",
+      "purpose": "repair",
+      "losId": "derivatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9034,
+      "outputTokens": 1033,
+      "cacheWriteTokens": 4720,
+      "cacheReadTokens": 0,
+      "costUsd": 0.040198,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:23:30.486Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 164,
+      "outputTokens": 79,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001235,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:23:39.291Z",
+      "purpose": "grounding",
+      "losId": "derivatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12363,
+      "outputTokens": 1330,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0381952,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.08707319999999999
+}

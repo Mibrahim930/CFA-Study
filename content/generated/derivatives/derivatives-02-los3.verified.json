@@ -1,0 +1,781 @@
+{
+  "losId": "derivatives-02-los3",
+  "losText": "contrast forward commitments with contingent claims",
+  "moduleId": "derivatives-02",
+  "moduleTitle": "Forward Commitment and Contingent Claim Features and Instruments",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:23:16.598Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:3",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "p. 4",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch16:14:15",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 14–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=14",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:24:25",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 24–25",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:63:115",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 63",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=63",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00129:3.9",
+      "title": "Principles of Finance 2e",
+      "locator": "§20.3 Exchange Rates and Risk — Hedging",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/20-3-exchange-rates-and-risk",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:24:42",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 24",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=24",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fed-trading-4000-p2:5:8",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 5",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch16:1:1",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 1–2",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=1",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00043:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.4 Solvency Ratios — Debt-to-Assets Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-4-solvency-ratios",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:69:70",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 69–70",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=69",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "richmondfed-money-market-ch15:8:7",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 8–9",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=8",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Obligations versus Options: Forward Commitments and Contingent Claims",
+      "summary": "Derivatives fall into two broad families. In one, both sides are locked into a future transaction. In the other, a payoff happens only if some condition is met. Knowing which family a contract belongs to tells you who pays what up front, who can walk away, and how the payoff behaves.",
+      "sections": [
+        {
+          "heading": "Two kinds of promises",
+          "body_markdown": "Think of two ways to secure a concert ticket. In the first, you sign a deal today to buy a ticket next month at $80, and the seller signs to deliver it. Both of you **must** go through with it, whatever the ticket's market price turns out to be. In the second, you pay a small fee today for a coupon that lets you buy at $80 if you want to. If tickets are selling for $60 next month you simply tear the coupon up.\n\nThe first deal is a **forward commitment**: a contract that obliges both parties to carry out a transaction at a future date at a price fixed today. The second is a **contingent claim**: a contract whose payoff depends on something happening, such as the underlying price ending above or below a set level, or a borrower defaulting."
+        },
+        {
+          "heading": "What belongs in each family",
+          "body_markdown": "**Forward commitments** are forward contracts, futures contracts and swaps.\n- A *forward* is a customized, over-the-counter (OTC, privately negotiated) agreement to buy or sell something later at a price agreed now.\n- A *futures* contract is a standardized, exchange-traded relative of the forward. It is settled for gains and losses every day (*marked to market*) and is guaranteed by a clearing house.\n- A *swap* is an agreement to exchange a series of cash flows. It can be seen as a string of forwards.\n\n**Contingent claims** are options (calls and puts) and credit derivatives such as credit default swaps. A *credit default swap* (CDS) pays the protection buyer only if a specified credit event, such as a default by the reference borrower, occurs. Despite the word \"swap\" in its name, it is a contingent claim, because the main payment is triggered by an event.\n\nA *call* gives the buyer the right to buy at a fixed *strike* (exercise) price. A *put* gives the buyer the right to sell at the strike."
+        },
+        {
+          "heading": "Rights, obligations and who pays up front",
+          "body_markdown": "The most important contrast is about **obligation**.\n\n- In a forward commitment the rights and duties of the two sides are symmetrical. Each side must perform. Nobody pays the other a premium to enter a forward, and its value at the start is effectively zero. The agreed price is set to make that so. Swaps work similarly: the fixed rate is set so the swap starts with zero value.\n- In an option the sides are asymmetrical. The buyer has a *right* and no obligation. The seller (the *writer*) has a *contingent obligation*: to perform only if the buyer chooses to exercise. Because the buyer receives this valuable choice, the buyer pays the seller a **premium** at the outset.\n- A credit default swap resembles an option in this respect. The protection seller's large payment is contingent on a credit event, and the buyer pays for that protection, usually through regular premium payments."
+        },
+        {
+          "heading": "Payoff shape and what it means for risk",
+          "body_markdown": "Because forward commitments force the transaction, their payoff changes one-for-one with the underlying price. The payoff is roughly **linear** and can be large in either direction: the long gains when the price rises and loses when it falls, and the short is the mirror image. A forward therefore *locks in* a price, removing both the bad outcome and the good outcome of price moves.\n\nOptions have **nonlinear (asymmetric)** payoffs. The buyer can lose at most the premium but can gain a lot (for a call, the potential gain is unlimited). The writer is the reverse: the gain is capped at the premium, while the potential loss can be very large. An option works like insurance: you pay a premium, you are protected against the bad outcome, and you keep the benefit of the good one.\n\nA related point is credit risk. With an OTC forward each side worries about the other defaulting. A futures contract has little counterparty risk because the clearing house stands behind it. For an option, once the premium has been paid, only the buyer is exposed to the seller failing to perform."
+        }
+      ],
+      "worked_example": {
+        "problem": "A food company needs 1,000 units of an input in three months. It considers two alternatives. (1) Enter a long forward at a price of $50 per unit. (2) Buy a call option with a strike of $50 per unit, paying a premium of $3 per unit. Ignore financing costs and transaction costs. At expiration the market price turns out to be (a) $58 or (b) $44. Compare the profit or loss on the two positions for the 1,000 units.",
+        "steps": [
+          "Forward payoff per unit = market price at expiration − $50. It has no upfront cost, and the company must buy whatever the price.",
+          "Call profit per unit = max(0, market price − $50) − $3 premium. The company exercises only if the market price is above $50.",
+          "Case (a), price $58: forward = 58 − 50 = +$8 per unit, so +$8,000 for 1,000 units.",
+          "Case (a), call: exercise, gain 58 − 50 = 8, minus 3 premium = +$5 per unit, so +$5,000.",
+          "Case (b), price $44: forward = 44 − 50 = −$6 per unit, so −$6,000. The company is still obliged to buy at $50.",
+          "Case (b), call: do not exercise (buying at 50 when the market is 44 makes no sense). The loss is only the premium, −$3 per unit, so −$3,000.",
+          "Compare: the forward gains more when the price rises (no premium paid) but loses more when it falls. The call has a floor on its loss equal to the premium."
+        ],
+        "answer": "At $58: forward +$8,000, call +$5,000. At $44: forward −$6,000, call −$3,000. The forward's payoff is symmetric and linear, while the call's loss is limited to the premium.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Long forward payoff at expiration",
+          "latex": "S_T - F_0",
+          "where": "S_T is the underlying price at expiration; F_0 is the forward price agreed at the start. The short forward payoff is the negative of this. The payoff can be positive or negative without limit on either side of F_0."
+        },
+        {
+          "name": "Long call profit at expiration (contingent claim)",
+          "latex": "\\max(0,\\,S_T - X) - c_0",
+          "where": "S_T is the underlying price at expiration; X is the strike price; c_0 is the call premium paid at the start. The most the buyer can lose is c_0."
+        }
+      ],
+      "exam_traps": [
+        "Treating a credit default swap as a forward commitment because of the word \"swap\". Interest rate and currency swaps are forward commitments, but a CDS pays on a credit event, so it is a contingent claim.",
+        "Assuming an option is a forward commitment because it also involves a future date and a fixed price. The key difference is that the buyer is not obliged to trade.",
+        "Saying that both parties to a forward pay a premium or that the option buyer pays nothing. Forwards start with no payment between the parties, while option buyers pay the premium at the outset.",
+        "Believing the option seller (writer) can choose whether to perform. Only the buyer has the choice. The seller must perform if the buyer exercises.",
+        "Forgetting that a forward locks in the price and removes the upside as well as the downside, whereas an option keeps the favorable side at the cost of the premium."
+      ],
+      "builds_on": [
+        "Definitions of forwards, futures, swaps, options and credit derivatives",
+        "Long and short positions",
+        "Underlying asset and strike price"
+      ],
+      "leads_to": [
+        "Option payoffs and profit at expiration",
+        "Pricing and valuation of forwards, futures and swaps",
+        "Option pricing and put-call parity",
+        "Hedging with forwards versus options"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec08:9:2",
+        "chicagofed-derivatives-1:4:3",
+        "occ-risk-mgmt-derivatives:24:25",
+        "os:principles-finance-2e:m00129:3.9",
+        "fed-trading-4000-p2:63:115",
+        "richmondfed-money-market-ch15:8:7"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following lists contains only forward commitments?",
+        "options": [
+          {
+            "text": "Forward contracts, call options and interest rate swaps",
+            "value": null,
+            "explanation": "Call options are contingent claims: the buyer has a right, not an obligation. Including them is the mistake of grouping all derivatives with a future date together."
+          },
+          {
+            "text": "Forward contracts, futures contracts and interest rate swaps",
+            "value": null,
+            "explanation": "Correct. Forwards, futures and swaps all oblige both parties to transact at terms fixed today, so they are forward commitments."
+          },
+          {
+            "text": "Futures contracts, put options and forward contracts",
+            "value": null,
+            "explanation": "Put options are contingent claims. The error is assuming that anything with a fixed strike price is a commitment."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "chicagofed-derivatives-1:4:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about payments at the start of the contract correctly distinguishes a contingent claim such as an option from a forward contract?",
+        "options": [
+          {
+            "text": "The option buyer pays the seller a premium, whereas no premium is paid to enter a forward",
+            "value": null,
+            "explanation": "Correct. The option buyer receives a valuable right and pays for it. A forward is entered at a price set so that no money changes hands up front."
+          },
+          {
+            "text": "The option seller pays the buyer a premium for taking on the obligation to perform",
+            "value": null,
+            "explanation": "This reverses the direction of payment. The party holding the right (the buyer) pays; the writer is compensated for the contingent obligation."
+          },
+          {
+            "text": "Both the option buyer and the option seller pay a premium, as the forward parties do",
+            "value": null,
+            "explanation": "Forward parties do not pay each other a premium, and option premiums flow only from buyer to seller. This confuses margin or collateral with a premium."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Investor A is long a forward contract to buy an asset at 100 per unit. Investor B is long a call option on the same asset with a strike of 100, bought for a premium of 4 per unit. Both contracts expire on the same date, when the asset price is 92. Ignore financing costs. Which statement is correct?",
+        "options": [
+          {
+            "text": "A loses 4 per unit and B loses 8 per unit",
+            "value": null,
+            "explanation": "This swaps the two positions. The forward holder has no premium to lose but faces the full price shortfall, while the call buyer's loss is capped at the premium."
+          },
+          {
+            "text": "Both investors lose 8 per unit, since each must buy at 100",
+            "value": null,
+            "explanation": "This treats the call as an obligation. The call buyer will not exercise at 100 when the market price is 92 and simply loses the premium."
+          },
+          {
+            "text": "A loses 8 per unit, while B loses only the 4 premium",
+            "value": null,
+            "explanation": "Correct. The forward holder is obliged to buy at 100 an asset worth 92, losing 8. The call buyer lets the option expire and loses only the 4 premium."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which pairing of instrument type and payoff shape is correct?",
+        "options": [
+          {
+            "text": "Forward commitments have nonlinear payoffs and contingent claims have linear payoffs",
+            "value": null,
+            "explanation": "This reverses the two families. Forwards move one-for-one with the underlying, while options bend at the strike price."
+          },
+          {
+            "text": "Forward commitments have roughly linear payoffs and contingent claims have nonlinear payoffs",
+            "value": null,
+            "explanation": "Correct. Forced transactions give payoffs that move one-for-one with the underlying price. The buyer's right to walk away makes option payoffs asymmetric and kinked."
+          },
+          {
+            "text": "Both have linear payoffs because both depend on the same underlying asset price",
+            "value": null,
+            "explanation": "Depending on the same underlying does not imply the same payoff shape. The option's right-not-obligation feature creates the nonlinearity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A protection buyer makes regular payments to a protection seller. The seller makes a large payment only if a specified borrower defaults. How should this credit default swap be classified?",
+        "options": [
+          {
+            "text": "A forward commitment, because the word swap means both sides exchange cash flows",
+            "value": null,
+            "explanation": "The name misleads. Interest rate swaps exchange cash flows that are certain by terms, but this contract's main payment depends on whether default occurs."
+          },
+          {
+            "text": "A forward commitment, because the buyer must keep paying regularly without any choice",
+            "value": null,
+            "explanation": "The buyer's regular payments are like a premium. This ignores that the seller's payoff is conditional on an event, which is what defines a contingent claim."
+          },
+          {
+            "text": "A contingent claim, because the seller's main payment depends on a credit event occurring",
+            "value": null,
+            "explanation": "Correct. The payout is triggered only by a specified credit event, so the CDS is a contingent claim like an option."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:63:115"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement correctly contrasts the obligations of the short side of a forward contract and the writer of a call option?",
+        "options": [
+          {
+            "text": "The short forward party must perform at settlement whatever the price; the call writer must perform only if the buyer exercises",
+            "value": null,
+            "explanation": "Correct. In a forward both sides are bound. In an option the buyer decides, so the writer's obligation is contingent on exercise."
+          },
+          {
+            "text": "Both the short forward party and the call writer must perform whatever happens to the price",
+            "value": null,
+            "explanation": "This ignores that the option's obligation is contingent. The writer is bound only if the holder chooses to exercise."
+          },
+          {
+            "text": "The call writer may decide whether to deliver, while the short forward party is bound to deliver",
+            "value": null,
+            "explanation": "This gives the choice to the wrong party. Only the option buyer holds the right to exercise or not."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "os:principles-finance-2e:m00129:3.9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A manufacturer wants to protect against a rise in the price of an input it will buy in six months. It also wants to benefit if the price falls, and it is willing to pay an up-front cost for this. Which position best fits these aims?",
+        "options": [
+          {
+            "text": "Sell a put option on the input, so it collects a premium",
+            "value": null,
+            "explanation": "A short put obliges the manufacturer to buy if prices fall, and it gives no protection against a price rise beyond the premium received."
+          },
+          {
+            "text": "Buy a call option on the input, paying a premium",
+            "value": null,
+            "explanation": "Correct. The call caps the effective purchase price at the strike plus the premium, while the manufacturer can still buy cheaper in the market if the price falls."
+          },
+          {
+            "text": "Enter a long forward at today's forward price, paying nothing now",
+            "value": null,
+            "explanation": "A forward does protect against a rise, but it also locks in the price, so the manufacturer gives up the benefit of any fall. The no-cost feature does not match the stated aim."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:24:25",
+          "mit-ocw-15401-lec08:9:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Which derivatives are forward commitments, and what defines them?",
+        "back": "Forwards, futures and swaps. Both parties are obliged to transact at terms agreed today, with symmetrical rights and duties.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "chicagofed-derivatives-1:4:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Which derivatives are contingent claims, and what defines them?",
+        "back": "Options (calls and puts) and credit derivatives such as CDS. The payoff depends on a future condition, and the buyer has a right rather than an obligation.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "fed-trading-4000-p2:63:115"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Who pays what at the start: forward versus option?",
+        "back": "A forward needs no payment between the parties at the start. An option buyer pays the seller a premium up front for the right.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:9:2",
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do the payoff shapes of forward commitments and contingent claims differ?",
+        "back": "Forward commitments have roughly linear, symmetric payoffs that can be large either way. Contingent claims have asymmetric, nonlinear payoffs: the option buyer's loss is limited to the premium, and the writer's gain is limited to the premium.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:3",
+          "occ-risk-mgmt-derivatives:24:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T20:23:07.162Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-02-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 971,
+      "outputTokens": 498,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007039,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:23:16.598Z",
+      "purpose": "grounding",
+      "losId": "derivatives-02-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13416,
+      "outputTokens": 1331,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0403112,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.047350199999999995
+}

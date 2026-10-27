@@ -1,0 +1,917 @@
+{
+  "losId": "derivatives-05-los1",
+  "losText": "explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration",
+  "moduleId": "derivatives-05",
+  "moduleTitle": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T20:24:46.648Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec08:17:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 17–21",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=17",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "richmondfed-money-market-ch15:6:6",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 6–8",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:14:25",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-lec08:12:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 12–17",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-18s096-risk-neutral:8:1",
+      "title": "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)",
+      "locator": "pp. 8–17",
+      "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "mit-ocw-15401-lec08:21:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 21–25",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=21",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "richmondfed-money-market-ch14:15:17",
+      "title": "Instruments of the Money Market, ch. 14: Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 15–16",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_14.pdf#page=15",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "damodaran-valn2ed-ch5:4:3",
+      "title": "Investment Valuation, 2nd ed., ch. 5: Option Pricing Theory and Models (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 4–5",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch5.pdf#page=4",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "chicagofed-derivatives-1:4:4",
+      "title": "Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago)",
+      "locator": "pp. 4–5",
+      "url": "https://www.chicagofed.org/-/media/publications/understanding-derivatives/understanding-derivatives-chapter-1-derivatives-overview-pdf.pdf#page=4",
+      "license": "© Federal Reserve Bank of Chicago",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:23:40",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 23",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=23",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "arrc-sofr-guide:17:19",
+      "title": "A User's Guide to SOFR (Alternative Reference Rates Committee)",
+      "locator": "pp. 17–18",
+      "url": "https://www.newyorkfed.org/medialibrary/Microsites/arrc/files/2019/Users_Guide_to_SOFR.pdf#page=17",
+      "license": "© ARRC / Federal Reserve Bank of New York",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "richmondfed-money-market-ch15:12:11",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 12–13",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=12",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "What a Forward Costs, and What It Is Worth, Over Its Life",
+      "summary": "A forward's price is the delivery price fixed in the contract. Its value is what the contract is worth to one side at a given moment. They are different numbers: the price is set so the value starts at zero, then the value moves as the market moves and ends at the gap between spot and the agreed price.",
+      "sections": [
+        {
+          "heading": "Price versus value: two different numbers",
+          "body_markdown": "A **forward contract** is a deal made today to buy or sell an asset (the **underlying**) at a set date $T$ for a price agreed today. That agreed price is the **forward price**, written $F_0(T)$. It is written into the contract and does not change.\n\nThe **value** of the contract is different: it is what the contract would be worth if you closed it out right now. Think of agreeing today to buy a concert ticket in six months at a fixed price. The fixed price is the forward price. If tickets later sell for much more, your agreement is worth something. That worth is the value.\n\nThe two sides mirror each other. Whatever the **long** (the buyer) gains, the **short** (the seller) loses, so the short's value is the negative of the long's. Forwards usually involve no cash at the start, so no money changes hands at initiation."
+        },
+        {
+          "heading": "At initiation: the price that makes value zero",
+          "body_markdown": "The forward price comes from **no-arbitrage** reasoning. Arbitrage means a risk-free profit with no net investment. There are two ways to own the asset at date $T$:\n\n1. Enter a forward and pay $F_0(T)$ at $T$.\n2. Borrow money today, buy the asset now, hold it, and repay the loan at $T$.\n\nBoth give you the asset at $T$, so they must cost the same. If they did not, traders would buy the cheap route and sell the dear one.\n\nWith no benefits or costs from holding the asset, the loan repayment is the spot price grown at the risk-free rate $r$:\n\n$$F_0(T)=S_0(1+r)^T$$\n\nHolding the asset can also bring **benefits** (dividends, coupons, a convenience yield) and **costs** (storage, insurance). Owning the asset directly collects the benefits and pays the costs. The forward buyer gets neither, so the forward price must adjust:\n\n$$F_0(T)=\\big(S_0-PV_0(\\text{benefits})+PV_0(\\text{costs})\\big)(1+r)^T$$\n\nBenefits lower the forward price and costs raise it. This is the **cost-of-carry** idea: financing cost plus storage cost, minus the income from holding the asset.\n\nBecause the price is set this way, the contract has **zero value to both sides at initiation**."
+        },
+        {
+          "heading": "During the life: value comes from the price gap",
+          "body_markdown": "After initiation, $F_0(T)$ stays fixed in the contract, but the market moves. The spot price changes, and time passes. Say time $t$ has passed, so $T-t$ remains.\n\nThe long still has to pay $F_0(T)$ at $T$. Today that obligation is worth $F_0(T)/(1+r)^{T-t}$. The long's claim on the asset is worth the spot price today, less the present value of any benefits still to come and plus the present value of any remaining costs:\n\n$$V_t=S_t-PV_t(\\text{benefits})+PV_t(\\text{costs})-\\frac{F_0(T)}{(1+r)^{T-t}}$$\n\nThere is an equivalent view. A new forward on the same asset and expiry would today be priced at $F_t(T)$. The long holds an older contract at $F_0(T)$, so the value is the discounted difference:\n\n$$V_t=\\frac{F_t(T)-F_0(T)}{(1+r)^{T-t}}$$\n\nSo if the spot rises, the long's value rises and the short's falls. If the risk-free rate rises, $F_0(T)$ is discounted more heavily, and the long's value also rises.\n\nA contract with positive value is an asset to its holder. That holder faces credit risk if the counterparty could default."
+        },
+        {
+          "heading": "At expiration: spot minus the agreed price",
+          "body_markdown": "At $T$ there is no time left to discount, and any benefits have been paid. The long pays $F_0(T)$ and receives an asset worth $S_T$:\n\n$$V_T=S_T-F_0(T)$$\n\nThe short's value is $F_0(T)-S_T$. Say you agreed to buy copper at 6,000 per ton and the market price at settlement is 6,500. The long gains 500 per ton and the short loses 500 per ton. This is called **convergence**: at expiry the forward price on a new contract equals the spot price, so $F_T(T)=S_T$.\n\nSummary of the life cycle:\n- **Initiation:** the price is set by no-arbitrage and the value is 0.\n- **During:** the price in the contract is fixed, but the value moves with $S_t$, with $r$ and with the remaining time.\n- **Expiration:** the value is $S_T-F_0(T)$ for the long."
+        }
+      ],
+      "worked_example": {
+        "problem": "A stock trades at 100. A 2-year forward on it is agreed today. The stock will pay one dividend of 3.15 in exactly 1 year, and no other dividends. The risk-free rate is 5% per year, compounded annually. (a) Find the no-arbitrage forward price at initiation. (b) One year later, just after the dividend is paid, the stock trades at 104 and the rate is still 5%. Find the value of the long forward at that point.",
+        "steps": [
+          "Part (a). Find the present value of the dividend: $PV=3.15/1.05=3.00$. On the BA II Plus: N=1, I/Y=5, FV=3.15, CPT PV gives -3.00, so use 3.00.",
+          "Subtract the dividend's PV from the spot price: $100-3.00=97.00$. The forward buyer does not receive this dividend.",
+          "Compound at the risk-free rate for 2 years: $97.00\\times1.05^2$. Keystrokes: 1.05 [y^x] 2 [=] gives 1.1025, then × 97 [=] gives 106.9425.",
+          "So $F_0(2)=106.94$.",
+          "Part (b). One year remains and no more dividends are due, so $V_1=S_1-F_0/(1.05)^1$.",
+          "Discount the contract price: $106.9425/1.05=101.85$.",
+          "Value of the long: $104-101.85=2.15$. The short's value is -2.15."
+        ],
+        "answer": "(a) The forward price is 106.94. (b) After one year the long forward is worth 2.15, and the short's is -2.15.",
+        "answer_value": 106.9425,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":100,\"r\":0.05,\"T\":2,\"pvBenefits\":3,\"pvCosts\":0}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Forward price, no benefits or costs",
+          "latex": "F_0(T)=S_0(1+r)^T",
+          "where": "$F_0(T)$ is the forward price agreed at time 0 for delivery at $T$; $S_0$ is today's spot price; $r$ is the annual risk-free rate (discrete compounding); $T$ is the time to delivery in years."
+        },
+        {
+          "name": "Forward price with benefits and costs",
+          "latex": "F_0(T)=\\big(S_0-PV_0(B)+PV_0(C)\\big)(1+r)^T",
+          "where": "$PV_0(B)$ is the present value of benefits from holding the asset (dividends, coupons); $PV_0(C)$ is the present value of holding costs (storage, insurance); other symbols as above."
+        },
+        {
+          "name": "Value of a long forward during its life",
+          "latex": "V_t=S_t-PV_t(B)+PV_t(C)-\\frac{F_0(T)}{(1+r)^{T-t}}",
+          "where": "$V_t$ is the value to the long at time $t$; $S_t$ is the spot price at $t$; $PV_t(B)$ and $PV_t(C)$ are present values at $t$ of the remaining benefits and costs; $T-t$ is the time left; $F_0(T)$ is the original contract price."
+        },
+        {
+          "name": "Value as discounted price difference",
+          "latex": "V_t=\\frac{F_t(T)-F_0(T)}{(1+r)^{T-t}}",
+          "where": "$F_t(T)$ is the forward price a new contract with the same expiry would carry at time $t$; other symbols as above."
+        },
+        {
+          "name": "Value at expiration",
+          "latex": "V_T=S_T-F_0(T)",
+          "where": "$S_T$ is the spot price at expiry; $F_0(T)$ is the contract price. This is the value to the long; the short's value is the negative of it."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up price and value. The forward price is not zero at initiation (the value is), and the contract price does not change over the life (the value does).",
+        "Getting the direction wrong on benefits and costs. Dividends and coupons are subtracted from the spot price, and storage costs are added. Candidates often reverse these.",
+        "Applying the adjustment after compounding without matching it to the same timing. Benefits and costs enter as present values inside the bracket, and the compounding is applied to the whole bracket.",
+        "Using the original term $T$ instead of the remaining time $T-t$ when valuing a contract mid-life.",
+        "Forgetting to discount $F_0(T)$ during the life. $S_t-F_0(T)$ is only correct at expiry.",
+        "Assuming the short's value has the same sign as the long's. It is the mirror image."
+      ],
+      "builds_on": [
+        "Time value of money and compounding",
+        "No-arbitrage principle",
+        "Basic forward contracts and long/short positions"
+      ],
+      "leads_to": [
+        "Forward rates and interest rate forwards",
+        "Futures versus forwards",
+        "Swap valuation",
+        "Option pricing and put-call parity"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec08:17:4",
+        "richmondfed-money-market-ch14:15:17",
+        "fed-trading-4000-p2:14:25",
+        "chicagofed-derivatives-1:4:4"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A long forward contract on a stock is agreed between two counterparties today. Which statement best describes the contract at the moment it is initiated?",
+        "options": [
+          {
+            "text": "The long has a positive value because the contract locks in today's spot price.",
+            "value": null,
+            "explanation": "Mistake: confusing locking in a price with having positive value. The forward price already reflects financing and holding costs, so there is no advantage to either side."
+          },
+          {
+            "text": "The forward price is set so the contract is worth zero to both sides, and no cash is exchanged.",
+            "value": null,
+            "explanation": "Correct. No-arbitrage sets the forward price so that buying forward and buying with borrowed money cost the same, which makes the initial value zero to both parties."
+          },
+          {
+            "text": "The long's value equals the spot price because the asset will be received at delivery.",
+            "value": null,
+            "explanation": "Mistake: treating the value of the asset as the value of the contract. The long must also pay the forward price, so the contract's value is net of that payment."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:14:25",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A stock trades at 80 today, pays no dividends and has no holding costs. The risk-free rate is 3% per year, compounded annually. What is the no-arbitrage forward price for delivery in 2 years? Round to two decimals.",
+        "options": [
+          {
+            "text": "84.87",
+            "value": 84.87,
+            "explanation": "Correct. $80\\times1.03^2=80\\times1.0609=84.87$."
+          },
+          {
+            "text": "84.80",
+            "value": 84.8,
+            "explanation": "Mistake: using simple interest ($80\\times(1+2\\times0.03)$) instead of compounding the rate each year."
+          },
+          {
+            "text": "82.40",
+            "value": 82.4,
+            "explanation": "Mistake: compounding for only one year and ignoring that delivery is in 2 years."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":80,\"r\":0.03,\"T\":2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A stock trades at 60. The present value of the dividends expected before delivery is 2.00. The risk-free rate is 5% per year, compounded annually, and the forward contract expires in 1 year. There are no holding costs. What is the no-arbitrage forward price? Round to two decimals.",
+        "options": [
+          {
+            "text": "61.00",
+            "value": 61,
+            "explanation": "Mistake: compounding the full spot price first ($60\\times1.05=63$) and then subtracting the present value of dividends, which mixes a future value with a present value."
+          },
+          {
+            "text": "65.10",
+            "value": 65.1,
+            "explanation": "Mistake: adding the dividends instead of subtracting them. The forward buyer does not receive dividends, so the forward price is lower."
+          },
+          {
+            "text": "60.90",
+            "value": 60.9,
+            "explanation": "Correct. Remove the present value of dividends from the spot price, then compound: $(60-2)\\times1.05=60.90$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":60,\"r\":0.05,\"T\":1,\"pvBenefits\":2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:21:5",
+          "richmondfed-money-market-ch14:15:17"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A commodity trades at a spot price of 200. The present value of the storage costs over the next year is 5. There are no benefits from holding the commodity. The risk-free rate is 4% per year, compounded annually, and a forward contract expires in 1 year. What is the no-arbitrage forward price? Round to two decimals.",
+        "options": [
+          {
+            "text": "202.80",
+            "value": 202.8,
+            "explanation": "Mistake: subtracting the storage costs as if they were benefits. $(200-5)\\times1.04=202.80$."
+          },
+          {
+            "text": "213.20",
+            "value": 213.2,
+            "explanation": "Correct. Storage costs raise the cost of carry, so add their present value to spot, then compound: $(200+5)\\times1.04=213.20$."
+          },
+          {
+            "text": "208.00",
+            "value": 208,
+            "explanation": "Mistake: ignoring storage costs and using only the financing cost, $200\\times1.04$."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":200,\"r\":0.04,\"T\":1,\"pvCosts\":5}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "richmondfed-money-market-ch14:15:17"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A long forward on an asset with no benefits or holding costs was initiated at forward price $F_0(T)$ and expires at $T$. At a time $t$ before expiry, the spot price is $S_t$ and the risk-free rate is $r$ per year (discrete compounding). Which expression gives the value of the long forward at time $t$?",
+        "options": [
+          {
+            "text": "$S_t-F_0(T)$",
+            "value": null,
+            "explanation": "Mistake: using the expiration payoff mid-life. This ignores that $F_0(T)$ is paid later and must be discounted."
+          },
+          {
+            "text": "$S_t(1+r)^{T-t}-F_0(T)$",
+            "value": null,
+            "explanation": "Mistake: this is a value at date $T$, not today. It is not discounted back to $t$."
+          },
+          {
+            "text": "$S_t-F_0(T)/(1+r)^{T-t}$",
+            "value": null,
+            "explanation": "Correct. The long holds a claim worth $S_t$ today and owes $F_0(T)$ at $T$, whose present value is $F_0(T)/(1+r)^{T-t}$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A forward contract to buy an asset was agreed at a forward price of 45. At expiration, the spot price is 48. Which statement about the contract's value at expiration is correct?",
+        "options": [
+          {
+            "text": "The long's value is +3 and the short's value is -3.",
+            "value": null,
+            "explanation": "Correct. At expiry the long's value is $S_T-F_0=48-45=3$, and the short's value is the negative of that."
+          },
+          {
+            "text": "The long's value is -3 and the short's value is +3.",
+            "value": null,
+            "explanation": "Mistake: sign error. The long pays 45 for something worth 48, so the long gains."
+          },
+          {
+            "text": "Both values are zero because the contract started at zero value.",
+            "value": null,
+            "explanation": "Mistake: assuming the initial value of zero persists. Value changes as the spot price moves away from the contract price."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A long forward on a non-dividend-paying stock was just initiated at forward price $F_0$, so its value was zero. Immediately afterward, the risk-free rate rises sharply. The spot price is unchanged, no time passes, and the contract keeps its original price $F_0$. What happens to the value of the long position?",
+        "options": [
+          {
+            "text": "It turns negative, because the long's financing cost rises.",
+            "value": null,
+            "explanation": "Mistake: assuming higher rates hurt the long. The long does not borrow under the contract. The effect comes through the present value of the fixed price $F_0$ that the long will pay at expiration."
+          },
+          {
+            "text": "It turns positive, because the fixed price $F_0$ is discounted more heavily.",
+            "value": null,
+            "explanation": "Correct. The long's value is $S_0 - F_0/(1+r)^T$. With $S_0$ and $F_0$ unchanged, a higher $r$ lowers the present value of the price the long will pay. The value therefore rises above zero. A new forward would now be priced above $F_0$, so the old contract is worth more to the long."
+          },
+          {
+            "text": "It stays at zero, because the contract price was set at initiation.",
+            "value": null,
+            "explanation": "Mistake: confusing a fixed forward price with a fixed value. The price stays at $F_0$, but the value moves whenever spot, rates or time to expiration change."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (medium): Value of the long = S0 − F0/(1+r)^T. A higher r lowers the PV of F0, so the value rises and becomes positive. A new forward would be priced above the original forward price, so the old contract is worth more to the long. Option B is correct."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A forward contract on a stock was originally agreed with 2 years to expiry. One year has now passed, so 1 year remains. The stock currently trades at 52, pays no dividends and has no holding costs. The risk-free rate is 6% per year, compounded annually. What forward price would a new contract with the same expiry date carry today? Round to two decimals.",
+        "options": [
+          {
+            "text": "58.43",
+            "value": 58.43,
+            "explanation": "Mistake: compounding for the original 2-year term instead of the remaining 1 year."
+          },
+          {
+            "text": "49.06",
+            "value": 49.06,
+            "explanation": "Mistake: discounting the spot price instead of compounding it. A forward price is the future value of the spot price."
+          },
+          {
+            "text": "55.12",
+            "value": 55.12,
+            "explanation": "Correct. Only 1 year remains, so $F_t(T)=52\\times1.06=55.12$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardPrice",
+          "args_json": "{\"spot\":52,\"r\":0.06,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the value of a forward contract at initiation, and why?",
+        "back": "Zero for both sides. The forward price is set by no-arbitrage so that buying forward costs the same as buying the asset with borrowed money.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:14:25",
+          "mit-ocw-15401-lec08:17:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Forward price formula when the asset has benefits and costs?",
+        "back": "$F_0(T)=(S_0-PV(\\text{benefits})+PV(\\text{costs}))(1+r)^T$. Benefits lower the price and costs raise it.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec08:17:4",
+          "richmondfed-money-market-ch14:15:17"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Value of a long forward at time t during its life (no benefits or costs)?",
+        "back": "$V_t=S_t-F_0(T)/(1+r)^{T-t}$. Equivalently, the discounted difference between today's forward price for the same expiry and the original price.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Forward price versus forward value: what is the difference?",
+        "back": "The price is the delivery price fixed in the contract and does not change. The value is what the contract is worth now. It starts at zero and moves with spot, rates and time.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:14:25"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Value of a long forward at expiration?",
+        "back": "$S_T-F_0(T)$. The short's value is the negative, $F_0(T)-S_T$.",
+        "cited_chunk_ids": [
+          "chicagofed-derivatives-1:4:4",
+          "richmondfed-money-market-ch15:6:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T20:24:24.709Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1137,
+      "outputTokens": 574,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008131,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:24:34.579Z",
+      "purpose": "repair",
+      "losId": "derivatives-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11726,
+      "outputTokens": 1212,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.036516,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:24:36.619Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 191,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001889,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T20:24:46.648Z",
+      "purpose": "grounding",
+      "losId": "derivatives-05-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 16122,
+      "outputTokens": 1442,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0468332,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0933692
+}

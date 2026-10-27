@@ -1,0 +1,470 @@
+{
+  "losId": "derivatives-09-los2",
+  "losText": "explain put-call forward parity for European options",
+  "moduleId": "derivatives-09",
+  "moduleTitle": "Option Replication Using Put–Call Parity",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:19:55.584Z",
+  "retrieved": [
+    {
+      "id": "richmondfed-money-market-ch15:13:12",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 13–14",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=13",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "richmondfed-money-market-ch15:12:11",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 12–13",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=12",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-18s096-risk-neutral:1:0",
+      "title": "MIT OpenCourseWare 18.S096 (Fall 2013), Lecture 19: Risk Neutral Pricing, Black-Scholes Formula (V. Strela)",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15401-rec05:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 5: Options",
+      "locator": "pp. 1–8",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/d0734e7fec7b333f1255a6dc3dff389c_MIT15_401F08_rec05.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15401-rec04:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 4: Forwards and Futures",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a82f353a447437317e3762d51d572558_MIT15_401F08_rec04.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "richmondfed-money-market-ch15:6:6",
+      "title": "Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 6–8",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_15.pdf#page=6",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "richmondfed-money-market-ch16:17:17",
+      "title": "Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond)",
+      "locator": "pp. 17–18",
+      "url": "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_16.pdf#page=17",
+      "license": "© Federal Reserve Bank of Richmond",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:34:60",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 34",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=34",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:64:106",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 64–65",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=64",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-review_mid:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Midterm Review Session",
+      "locator": "pp. 28–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ebd2475a5012fed087965c776cef84d0_MIT15_401F08_review_mid.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec08:9:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 8-9: Forward and Futures Contracts",
+      "locator": "pp. 9–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Put–Call Forward Parity: Pricing Options Off the Forward Price",
+      "summary": "For European options, the call-minus-put price gap is pinned down by the forward price and the strike. This matters because you can swap one position for another and spot mispricing whenever the relationship fails.",
+      "sections": [
+        {
+          "heading": "Start with a promise you can lock in today",
+          "body_markdown": "A **forward contract** is an agreement made today to buy an asset at a fixed price on a future date. That fixed price is the **forward price**, written $F_0(T)$, where $T$ is the time to delivery in years. Nobody pays anything when the forward is signed, so its starting value is zero. At delivery, the long side's gain is $S_T - F_0(T)$, where $S_T$ is the asset's price at that time.\n\nA **European option** can be exercised only on its expiration date. A call gives the right to buy at the **strike** $X$. A put gives the right to sell at $X$. The price paid for either is its **premium**, written $c_0$ for the call and $p_0$ for the put.\n\nThink of the forward as a price tag fixed today. The options let you walk away from that deal when it goes against you."
+        },
+        {
+          "heading": "Why a call minus a put is a forward in disguise",
+          "body_markdown": "Take a European call and put with the **same strike $X$ and same expiration**. Buy the call and sell the put.\n\n- If $S_T > X$, the call pays $S_T - X$ and the put expires worthless.\n- If $S_T < X$, the call expires worthless and you owe $X - S_T$ on the short put, which is a payoff of $S_T - X$.\n\nSo in every case the payoff is $S_T - X$. That is exactly what a long forward with price $X$ would pay. But the real forward has price $F_0(T)$, not $X$, so the two payoffs differ by a **known, certain amount**: $F_0(T) - X$ at time $T$.\n\nAnything certain in the future is worth its present value, found by discounting at the risk-free rate $r$:\n\n$$c_0 - p_0 = \\frac{F_0(T) - X}{(1+r)^T}$$\n\nIf the forward price is above the strike, the call is worth more than the put. If it is below, the put is worth more."
+        },
+        {
+          "heading": "The two-portfolio view",
+          "body_markdown": "The same result comes from comparing two portfolios that pay the same thing at expiration.\n\n**Portfolio 1 (fiduciary call):** a call plus a risk-free zero-coupon bond that pays $X$ at $T$. Its cost is $c_0 + \\frac{X}{(1+r)^T}$.\n\n**Portfolio 2 (put plus forward):** a put, a long forward at $F_0(T)$, and a risk-free bond paying $F_0(T)$ at $T$. The forward costs nothing today, so the cost is $p_0 + \\frac{F_0(T)}{(1+r)^T}$. At expiration the bond and the forward combine to give $S_T$, so this is the put-protected position.\n\nBoth portfolios finish worth $\\max(S_T, X)$:\n- If $S_T > X$, portfolio 1 gives $S_T$ (the call is exercised). Portfolio 2 gives $0 + F_0 + (S_T - F_0) = S_T$.\n- If $S_T < X$, portfolio 1 gives $X$. Portfolio 2 gives $(X - S_T) + S_T = X$.\n\nIdentical payoffs must cost the same, or someone could earn a risk-free profit (**arbitrage**). So:\n\n$$c_0 + \\frac{X}{(1+r)^T} = p_0 + \\frac{F_0(T)}{(1+r)^T}$$"
+        },
+        {
+          "heading": "Using it to build synthetic positions",
+          "body_markdown": "Rearranging gives $c_0 = p_0 + \\frac{F_0(T) - X}{(1+r)^T}$. In words, a **synthetic long call** is built from:\n\n1. a long put at strike $X$,\n2. a long forward at price $F_0(T)$,\n3. a risk-free bond that pays $F_0(T) - X$ at expiration.\n\nYou can also solve for a missing premium. Given the call, the strike, the forward price, $r$ and $T$, the put is $p_0 = c_0 - \\frac{F_0(T) - X}{(1+r)^T}$.\n\nThis is the forward version of put–call parity. The spot version replaces the PV of the forward price with the current asset price $S_0$, which works when the asset has no income or holding costs. In that case the forward price is $F_0(T) = S_0(1+r)^T$ and the two versions agree. The forward version is more general because it still works when the forward price reflects dividends, storage costs or other carrying items.\n\n**Special case:** if $F_0(T) = X$, then $c_0 = p_0$."
+        }
+      ],
+      "worked_example": {
+        "problem": "A European call and put on the same asset share a strike of 48 and a 6-month expiration. The put trades at 1.20. The 6-month forward price on the asset is 50.00, and the annual risk-free rate is 5% (effective annual compounding, so $T = 0.5$). Find the no-arbitrage call premium, rounded to two decimals.",
+        "steps": [
+          "Identify: $F_0(T) = 50$, $X = 48$, $r = 5\\%$, $T = 0.5$, $p_0 = 1.20$.",
+          "Compute the certain gap at expiration: $F_0(T) - X = 50 - 48 = 2.00$.",
+          "Discount it for half a year: $2.00 / 1.05^{0.5}$. On the BA II Plus: 1.05 [y^x] 0.5 [=] gives 1.0247, then 2 [÷] 1.0247 [=] gives 1.95. (TVM alternative: N = 0.5, I/Y = 5, PMT = 0, FV = 2, CPT PV = −1.95, so the magnitude is 1.95.)",
+          "So $c_0 - p_0 = 1.95$.",
+          "Add the put premium: $c_0 = 1.20 + 1.95 = 3.15$."
+        ],
+        "answer": "The call premium is about 3.15.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Put–call forward parity",
+          "latex": "c_0 + \\frac{X}{(1+r)^T} = p_0 + \\frac{F_0(T)}{(1+r)^T}",
+          "where": "$c_0$ = European call premium, $p_0$ = European put premium (same strike and expiry), $X$ = strike, $F_0(T)$ = forward price today for delivery at time $T$, $r$ = annual risk-free rate, $T$ = time to expiration in years."
+        },
+        {
+          "name": "Call–put difference",
+          "latex": "c_0 - p_0 = \\frac{F_0(T) - X}{(1+r)^T}",
+          "where": "Same symbols as above; positive when $F_0(T) > X$, negative when $F_0(T) < X$."
+        },
+        {
+          "name": "Synthetic call",
+          "latex": "c_0 = p_0 + \\frac{F_0(T) - X}{(1+r)^T}",
+          "where": "A long put, a long forward at $F_0(T)$ (zero initial cost) and a risk-free bond with face value $F_0(T) - X$ replicate a long call."
+        }
+      ],
+      "exam_traps": [
+        "Discounting the wrong amount: the PV term applies to the **difference** $F_0(T) - X$ (or to $X$ and $F_0(T)$ separately), never to just one of them while the other is left undiscounted.",
+        "Treating the forward as costing $F_0(T)$ upfront. A forward is priced so that its initial value is zero, so only the bond leg carries a cost today.",
+        "Reversing the sign: when $F_0(T) < X$, the put is worth more than the call. Do not force a positive call–put gap.",
+        "Mixing up which option the forward price favours. A forward price above the strike favours the call. Call and put are worth the same only when $F_0(T) = X$.",
+        "Using the parity with different strikes or expirations for the call and put, or assuming it holds exactly for American options."
+      ],
+      "builds_on": [
+        "Forward contracts and forward price",
+        "Present value and risk-free discounting",
+        "European call and put payoffs",
+        "Arbitrage and the law of one price"
+      ],
+      "leads_to": [
+        "Synthetic options and put–call parity with the spot price",
+        "Replicating portfolios and binomial option valuation",
+        "Option strategies such as protective puts and fiduciary calls"
+      ],
+      "cited_chunk_ids": [
+        "richmondfed-money-market-ch15:12:11",
+        "richmondfed-money-market-ch15:13:12",
+        "mit-ocw-15401-rec05:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A European call and a European put have the same strike of 100 and the same expiration. The forward price for delivery on the expiration date is 104, and the risk-free rate is positive. Which statement is correct under put–call forward parity?",
+        "options": [
+          {
+            "text": "The call is worth less than the put.",
+            "value": null,
+            "explanation": "This reverses the sign. With the forward price above the strike, the call (not the put) carries the higher premium."
+          },
+          {
+            "text": "The call is worth more than the put by the present value of 4.",
+            "value": null,
+            "explanation": "Correct. $c_0 - p_0 = (104 - 100)/(1+r)^T$, which is positive and equals the PV of the 4 gap."
+          },
+          {
+            "text": "The call and the put have the same value.",
+            "value": null,
+            "explanation": "This holds only when the forward price equals the strike. Here the forward price is 4 above the strike, so the values differ."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which equation expresses put–call forward parity for European options with the same strike $X$ and expiration, where $F_0(T)$ is the forward price and $r$ is the risk-free rate over time $T$?",
+        "options": [
+          {
+            "text": "$c_0 + F_0(T)/(1+r)^T = p_0 + X/(1+r)^T$",
+            "value": null,
+            "explanation": "This swaps the forward price and the strike. The call side must be paired with the strike, as in the fiduciary call."
+          },
+          {
+            "text": "$c_0 + X = p_0 + F_0(T)/(1+r)^T$",
+            "value": null,
+            "explanation": "This forgets to discount the strike. Both bond legs are future amounts and must be brought back to today."
+          },
+          {
+            "text": "$c_0 + X/(1+r)^T = p_0 + F_0(T)/(1+r)^T$",
+            "value": null,
+            "explanation": "Correct. The fiduciary call (call plus bond paying $X$) costs the same as the put plus forward-based position (put plus bond paying $F_0(T)$)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11",
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A European call and put share the same strike of 75 and expiration. The forward price for the same delivery date is exactly 75. According to put–call forward parity, which is true?",
+        "options": [
+          {
+            "text": "The call and the put have the same premium.",
+            "value": null,
+            "explanation": "Correct. $c_0 - p_0 = (F_0(T) - X)/(1+r)^T = 0$, so the two premiums are equal."
+          },
+          {
+            "text": "Both the call and the put are worth zero.",
+            "value": null,
+            "explanation": "This confuses the zero initial value of a forward with the value of the options. Options keep time value and carry positive premiums."
+          },
+          {
+            "text": "The put is worth more than the call by the present value of the strike.",
+            "value": null,
+            "explanation": "This uses $X$ instead of the gap $F_0(T) - X$ in the difference. The gap here is zero, not the strike."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Using put–call forward parity, which combination replicates the expiration payoff of a long European call with strike $X$, given a forward price $F_0(T)$ for the same expiration date?",
+        "options": [
+          {
+            "text": "A long put at strike $X$, a short forward at $F_0(T)$, and a risk-free bond paying $F_0(T) - X$ at expiration",
+            "value": null,
+            "explanation": "The forward sign is wrong. A short forward pays $F_0(T) - S_T$, so the combination does not rise with the asset price like a call does."
+          },
+          {
+            "text": "A long put at strike $X$, a long forward at $F_0(T)$, and a risk-free bond paying $F_0(T) - X$ at expiration",
+            "value": null,
+            "explanation": "Correct. The payoff is $\\max(X - S_T, 0) + (S_T - F_0) + (F_0 - X) = \\max(S_T - X, 0)$, which matches $c_0 = p_0 + PV(F_0(T) - X)$."
+          },
+          {
+            "text": "A long put at strike $X$, a long forward at $F_0(T)$, and a risk-free bond paying $X$ at expiration",
+            "value": null,
+            "explanation": "The bond face value is wrong. The bond must pay $F_0(T) - X$, the gap between the forward price and the strike, not the strike itself."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:13:12"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under which condition does put–call forward parity become the same as put–call parity written with the current asset price $S_0$?",
+        "options": [
+          {
+            "text": "When the strike equals the forward price, so the call and put have equal values",
+            "value": null,
+            "explanation": "This describes a special case of forward parity ($c_0 = p_0$), not the condition that turns the forward price into $S_0(1+r)^T$."
+          },
+          {
+            "text": "When the options are at-the-money, so the strike equals the current asset price",
+            "value": null,
+            "explanation": "Moneyness does not link the forward price to the spot price. The forward price depends on $r$, $T$ and any carrying items."
+          },
+          {
+            "text": "When the asset has no income or holding costs, so the forward price is $S_0(1+r)^T$",
+            "value": null,
+            "explanation": "Correct. Then $F_0(T)/(1+r)^T = S_0$, and the PV of the forward price is simply the current asset price."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec05:1:0",
+          "mit-ocw-15401-rec04:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A European call and put have the same strike of 100 and a one-year expiration. The one-year forward price for the underlying is 105, and the annual risk-free rate is 4% (annual compounding). What is the call premium minus the put premium, rounded to two decimals?",
+        "options": [
+          {
+            "text": "4.81",
+            "value": 4.81,
+            "explanation": "Correct. $(105 - 100)/1.04 = 5/1.04 = 4.81$."
+          },
+          {
+            "text": "5.00",
+            "value": 5,
+            "explanation": "This skips the discounting step. The gap of 5 occurs at expiration and must be discounted to today."
+          },
+          {
+            "text": "5.20",
+            "value": 5.2,
+            "explanation": "This multiplies by $(1+r)$ instead of dividing, compounding the gap forward instead of discounting it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.04,\"n\":1,\"fv\":5}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A European call and put have the same strike of 100 and expire in 3 months ($T = 0.25$ year). The 3-month forward price is 96. The annual risk-free rate is 5% with annual compounding, so discount by $1.05^{0.25}$. By how much does the put premium exceed the call premium? Round to two decimals.",
+        "options": [
+          {
+            "text": "4.00",
+            "value": 4,
+            "explanation": "This ignores discounting. The 4 gap between the strike and forward price is a future amount and must be discounted over 0.25 year."
+          },
+          {
+            "text": "3.81",
+            "value": 3.81,
+            "explanation": "This discounts for a full year ($4/1.05$) instead of 0.25 year, forgetting that $T$ is a fraction of a year."
+          },
+          {
+            "text": "3.95",
+            "value": 3.95,
+            "explanation": "Correct. $p_0 - c_0 = (100 - 96)/1.05^{0.25} = 4/1.01227 = 3.95$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.05,\"n\":0.25,\"fv\":4}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "To build the put-plus-forward portfolio in put–call forward parity, an investor buys a risk-free zero-coupon bond whose face value equals the forward price of 52.00, paid at the end of 2 years. The annual risk-free rate is 3% with annual compounding. What does this bond cost today, rounded to two decimals?",
+        "options": [
+          {
+            "text": "52.00",
+            "value": 52,
+            "explanation": "This is the face value with no discounting. The bond pays 52 only in two years, so it costs less today."
+          },
+          {
+            "text": "49.01",
+            "value": 49.01,
+            "explanation": "Correct. $52/1.03^2 = 52/1.0609 = 49.01$."
+          },
+          {
+            "text": "50.49",
+            "value": 50.49,
+            "explanation": "This discounts for only one year ($52/1.03$) instead of two, using the wrong number of periods."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "pv",
+          "args_json": "{\"rate\":0.03,\"n\":2,\"fv\":52}"
+        },
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "State put–call forward parity for European options with the same strike and expiry.",
+        "back": "$c_0 + X/(1+r)^T = p_0 + F_0(T)/(1+r)^T$, equivalently $c_0 - p_0 = (F_0(T) - X)/(1+r)^T$.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11",
+          "mit-ocw-15401-rec05:1:0"
+        ]
+      },
+      {
+        "front": "What does a long call plus a short put (same strike $X$ and expiry) pay at expiration?",
+        "back": "$S_T - X$ in every case. It behaves like a long forward struck at $X$, which differs from the true forward only by a known amount.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      },
+      {
+        "front": "How do you build a synthetic long call using forward parity?",
+        "back": "Long put (strike $X$) + long forward at $F_0(T)$ + risk-free bond paying $F_0(T) - X$ at expiration.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:13:12"
+        ]
+      },
+      {
+        "front": "When are a European call and put (same strike and expiry) worth the same under forward parity?",
+        "back": "When the strike equals the forward price, $X = F_0(T)$. Then the discounted gap is zero, so $c_0 = p_0$.",
+        "cited_chunk_ids": [
+          "richmondfed-money-market-ch15:12:11"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:19:55.584Z",
+      "purpose": "generate",
+      "losId": "derivatives-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11685,
+      "outputTokens": 13118,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.15570620000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}
