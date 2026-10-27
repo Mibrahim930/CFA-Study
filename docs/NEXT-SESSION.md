@@ -65,7 +65,7 @@ Rules learned this session:
 4. **Later milestones** (docs/PLAN.md):
    - Supabase sync and auth;
    - the "L1 expert" skill and tutor;
-   - golden test vectors (TI BA II Plus guidebook, SOA FM).
+   - golden test vectors (TI BA II Plus guidebook, SOA FM). An outside cross-check against an open CC BY formula dataset passed 36/36 on 2026-10-27 (`docs/formula-crosscheck-2026-10.md`); it found 3 engine gaps to add before generating Equity/Portfolio/Alternatives: margin call price, Treynor + Jensen's alpha, 2-and-20 fee.
 
 ## Gotchas
 - **"Fact-Forcing Gate" hook (ECC plugin)** blocks the first edit to each file, and the first Bash command of a session, until you state facts (callers, data, the user's instruction). Batch writes to new files, or pre-touch them with a tiny placeholder.
