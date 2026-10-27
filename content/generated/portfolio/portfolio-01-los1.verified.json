@@ -1,0 +1,763 @@
+{
+  "losId": "portfolio-01-los1",
+  "losText": "describe characteristics of the major asset classes that investors consider in forming portfolios",
+  "moduleId": "portfolio-01",
+  "moduleTitle": "Portfolio Risk and Return: Part I",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:49:16.292Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-ips-institutional:14:7",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 14–15",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=14",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-rf-alt-primer:17:17",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=17",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-etf-module1:12:9",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation)",
+      "locator": "p. 12",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/hill_rf_brief_2025_etfs-evolving_module-1_2ed_online.v2.pdf#page=12",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-alt-primer:55:66",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 55–56",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=55",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "cfa-rf-alt-primer:13:12",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 13–14",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=13",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "cfa-ips-individual:15:7",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 15–16",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=15",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-rf-alt-primer:10:8",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 10",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=10",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-alt-primer:103:125",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 103–104",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=103",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-alt-primer:166:201",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 166",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=166",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-alt-primer:169:205",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 169",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=169",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-individual-finance:389:352",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 389–390",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=389",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-alt-primer:77:93",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 77–78",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=77",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Meet the Major Asset Classes",
+      "summary": "Every portfolio is built from a few broad families of investments, and each family has its own typical sources of return, risks, liquidity and role in a portfolio. Knowing these traits lets you judge which asset class fits a given investor need and why.",
+      "sections": [
+        {
+          "heading": "What an asset class is and why we sort investments this way",
+          "body_markdown": "An **asset class** is a group of investments that trade in the same kind of market and behave in broadly similar ways. Think of a supermarket: produce, dairy and frozen food are different aisles because they are stored, priced and spoiled differently. Investments work the same way.\n\nThe broad aisles are:\n- **cash and cash equivalents**\n- **public equity** (shares of listed companies)\n- **fixed income** (bonds and other debt)\n- **real estate**\n- **commodities** (oil, gold, grain and similar goods)\n- **alternatives** such as hedge funds, private equity and digital assets\n\nFiner subgroups sit inside each aisle, for example large-cap vs small-cap stocks, or short-term vs long-term bonds. A good asset class description also comes with a benchmark, meaning an index that is investable, defined in advance, representative of the class, and readily measured."
+        },
+        {
+          "heading": "Traditional classes: cash, equity and fixed income",
+          "body_markdown": "**Cash and equivalents** are very short-term, high-quality instruments. They have the lowest risk and highest liquidity (ease of selling quickly near fair value). The price of that safety is a low return that may not keep up with inflation.\n\n**Public equity** gives the holder a residual claim: shareholders are paid only after creditors. Returns come from dividends and price changes. Expected return and volatility are higher than for bonds, but trading is liquid and cheap.\n\n**Fixed income** promises contractual payments, typically coupons and the return of principal. Two main risks are *interest rate risk* (bond prices fall when market yields rise) and *credit risk* (the issuer may fail to pay). Bonds generally have lower volatility than stocks, and higher-quality bonds usually carry lower expected returns."
+        },
+        {
+          "heading": "Real assets: real estate and commodities",
+          "body_markdown": "**Real estate** earns rent (income) plus any change in property value. Directly owned property is illiquid, because each building is unique and finding a buyer takes time. Values are often based on periodic *appraisals* rather than daily trades. Appraisals tend to **smooth** reported returns, so measured volatility looks lower than the true economic risk. Listed vehicles such as REITs trade daily and are far more liquid.\n\n**Commodities** are physical goods. They produce **no income**, so return comes almost entirely from price changes. Investors often access them through futures. They can help protect against inflation and often move differently from stocks and bonds, but their prices can swing sharply.\n\nGroups of real assets, such as farmland, timberland and commercial property, tend to have weak correlation with equities, which is why they are used as diversifiers."
+        },
+        {
+          "heading": "Alternatives: hedge funds, private equity and digital assets",
+          "body_markdown": "**Hedge funds** are lightly regulated pooled vehicles with flexible strategies. They may use leverage, short selling and derivatives, charge higher fees, and often limit withdrawals through lock-ups or notice periods. Their returns can look quite unlike those of traditional long-only stocks and bonds.\n\n**Private equity** means ownership in companies that are not publicly listed (venture capital, buyouts). It is illiquid, with long holding periods and infrequent, estimated valuations. Its benchmarks are usually peer-group based, which makes comparison harder.\n\n**Digital assets** such as cryptocurrencies are newer, very volatile and typically have no underlying cash flows, so their value rests on market demand.\n\nOne reason to hold alternatives is diversification: low correlation with stocks and bonds can reduce portfolio risk without giving up a proportionate amount of expected return. Be careful, though: the line between traditional and alternative is blurry, and illiquidity and valuation uncertainty are costs."
+        }
+      ],
+      "worked_example": {
+        "problem": "An investor buys one share of a listed REIT for 40.00. One year later the share is worth 43.00, and during the year it paid dividends of 1.60. Find the holding period return, and say which two sources of return this asset class shows.",
+        "steps": [
+          "Identify the two components: price gain = 43.00 − 40.00 = 3.00, and income = 1.60 of dividends.",
+          "Total gain = 3.00 + 1.60 = 4.60.",
+          "Divide by the beginning price: 4.60 / 40.00 = 0.115.",
+          "BA II Plus: key 43 [+] 1.6 [−] 40 [=] to see 4.6, then [÷] 40 [=] to see 0.115, which is 11.5%.",
+          "Interpretation: of the 11.5%, 7.5% came from price appreciation and 4.0% from income, the two return sources typical of real estate and equity."
+        ],
+        "answer": "The holding period return is 11.5%: 7.5% from price appreciation and 4.0% from income.",
+        "answer_value": 0.115,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":40,\"endPrice\":43,\"income\":1.6}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Holding period return",
+          "latex": "HPR=\\frac{P_1-P_0+I}{P_0}",
+          "where": "P_0 is the beginning price, P_1 is the ending price, and I is income (dividends, coupons or rent) received during the period."
+        }
+      ],
+      "exam_traps": [
+        "Treating appraisal-based real estate or private equity returns as if they were true market volatility. Smoothing makes measured risk look lower than reality.",
+        "Assuming commodities earn income. Their return comes from price changes (and futures roll effects), not from dividends or coupons.",
+        "Assuming bonds are risk-free. They carry interest rate risk and credit risk, and only high-quality, short-term cash equivalents come close to low risk.",
+        "Calling every real-estate or natural-resource stock a real asset. If a company's value is driven mainly by management skill, it behaves like an ordinary operating company.",
+        "Ignoring illiquidity and fees when judging the attractive diversification of hedge funds and private equity."
+      ],
+      "builds_on": [
+        "Return and risk basics",
+        "Time value of money"
+      ],
+      "leads_to": [
+        "Risk aversion",
+        "Correlation and diversification",
+        "Efficient frontier",
+        "Strategic asset allocation"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-individual-finance:389:352",
+        "cfa-rf-alt-primer:77:93",
+        "cfa-rf-alt-primer:10:8",
+        "cfa-rf-alt-primer:13:12",
+        "cfa-rf-alt-primer:17:17",
+        "cfa-rf-alt-primer:55:66",
+        "cfa-ips-institutional:14:7"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which asset class produces return almost entirely from price changes, with no dividends, coupons or rent?",
+        "options": [
+          {
+            "text": "Investment-grade corporate bonds",
+            "value": null,
+            "explanation": "Bonds pay contractual coupons, so a large part of their return is income. This confuses fixed income with commodities."
+          },
+          {
+            "text": "Commodities such as oil or gold",
+            "value": null,
+            "explanation": "Correct. Physical commodities pay no income, so return comes from price changes (and, via futures, roll effects)."
+          },
+          {
+            "text": "Dividend-paying public equity",
+            "value": null,
+            "explanation": "Stocks provide dividends in addition to price changes. This mistakes a residual claim on a business for a physical good."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:389:352"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst notes that directly held commercial real estate shows a lower standard deviation of returns than listed REITs. Which is the most likely explanation?",
+        "options": [
+          {
+            "text": "Property cash flows are contractually guaranteed, which removes risk",
+            "value": null,
+            "explanation": "Rents and values are not guaranteed. This treats real estate as if it were a risk-free bond."
+          },
+          {
+            "text": "Property is highly liquid, so prices adjust smoothly each day",
+            "value": null,
+            "explanation": "Direct property is illiquid, not liquid. Liquidity is a trait of listed REITs, not of direct holdings."
+          },
+          {
+            "text": "Appraisal-based values are infrequent and smoothed, so reported risk is understated",
+            "value": null,
+            "explanation": "Correct. Appraisals lag and smooth market movements, so measured volatility understates true economic risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:77:93"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Market yields on comparable bonds rise sharply. What is the most likely immediate effect on an existing fixed-rate government bond held by an investor?",
+        "options": [
+          {
+            "text": "Its market price falls, reflecting interest rate risk",
+            "value": null,
+            "explanation": "Correct. Higher required yields lower the present value of the fixed payments, so the price falls."
+          },
+          {
+            "text": "Its market price rises, because it now pays more than before",
+            "value": null,
+            "explanation": "The coupon is fixed and does not rise. This reverses the inverse price-yield relationship."
+          },
+          {
+            "text": "Its price is unchanged, because coupon and principal are contractual",
+            "value": null,
+            "explanation": "Contractual payments protect the cash flows but not the market price before maturity. This ignores interest rate risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with an investment in a large listed company's shares, which feature is most characteristic of a private equity fund?",
+        "options": [
+          {
+            "text": "Daily pricing from a competitive market",
+            "value": null,
+            "explanation": "Daily market pricing belongs to public equity. Private holdings have no continuous market price."
+          },
+          {
+            "text": "Illiquidity, long holding periods and infrequent estimated valuations",
+            "value": null,
+            "explanation": "Correct. Private equity cannot readily be sold and is typically valued by estimates at intervals."
+          },
+          {
+            "text": "Residual claim status that public shareholders lack",
+            "value": null,
+            "explanation": "Both public and private equity are residual claims on company assets. Claiming a difference confuses ownership rank with liquidity."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:10:8"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes hedge funds as an asset class?",
+        "options": [
+          {
+            "text": "They use flexible strategies, possibly with leverage and short sales, and may restrict redemptions",
+            "value": null,
+            "explanation": "Correct. Strategy flexibility, leverage, short selling and limited liquidity are standard hedge fund features."
+          },
+          {
+            "text": "They hold only long positions in listed stocks, so they behave like index funds",
+            "value": null,
+            "explanation": "Hedge funds are not restricted to long-only positions. This confuses them with traditional mutual funds."
+          },
+          {
+            "text": "They offer daily liquidity and low fees because they are heavily regulated",
+            "value": null,
+            "explanation": "Hedge funds are lightly regulated, generally charge higher fees, and often limit withdrawals. This reverses their key traits."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:13:12"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A long-horizon investor holds the entire portfolio in cash equivalents to avoid any risk of loss in nominal terms. What is the main risk the investor still bears?",
+        "options": [
+          {
+            "text": "Credit risk from long-maturity corporate issuers",
+            "value": null,
+            "explanation": "Cash equivalents are short-term, high-quality instruments, so long-maturity credit exposure is not their defining risk."
+          },
+          {
+            "text": "Appraisal smoothing that hides true volatility",
+            "value": null,
+            "explanation": "Appraisal smoothing relates to real estate and private assets, not to cash instruments with observable prices."
+          },
+          {
+            "text": "Inflation eroding purchasing power because returns are low",
+            "value": null,
+            "explanation": "Correct. Cash returns are low and may trail inflation, so real purchasing power can shrink over a long horizon."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor buys one share of a listed REIT for 50.00. At year-end the share trades at 52.00, and during the year it paid dividends of 2.50. What is the holding period return? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "4.00%",
+            "value": 0.04,
+            "explanation": "This counts only the price gain (2.00 / 50.00) and ignores the 2.50 of dividend income."
+          },
+          {
+            "text": "9.00%",
+            "value": 0.09,
+            "explanation": "Correct: (52.00 − 50.00 + 2.50) / 50.00 = 4.50 / 50.00 = 0.09."
+          },
+          {
+            "text": "8.65%",
+            "value": 0.0865,
+            "explanation": "This divides total gain by the ending price (4.50 / 52.00) instead of the beginning price."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":50,\"endPrice\":52,\"income\":2.5}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Why can appraisal-based real estate returns understate risk?",
+        "back": "Appraisals are infrequent and lag the market, so they smooth reported returns and make measured volatility look lower than the true economic risk.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:77:93"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What are the two main risks of fixed income?",
+        "back": "Interest rate risk (prices fall when market yields rise) and credit risk (the issuer may fail to make promised payments).",
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the main source of return on commodities, and how does it differ from equities?",
+        "back": "Price changes only. Commodities pay no income, whereas equities also provide dividends.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:389:352"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why do investors add alternative investments to a traditional portfolio?",
+        "back": "Mainly for diversification, since many alternatives have low correlation with stocks and bonds, and sometimes for alpha. The costs are illiquidity, fees and valuation uncertainty.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:17:17",
+          "cfa-rf-alt-primer:55:66"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "4/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T21:49:07.309Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 801,
+      "outputTokens": 470,
+      "cacheWriteTokens": 585,
+      "cacheReadTokens": 0,
+      "costUsd": 0.0077645,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:49:16.291Z",
+      "purpose": "grounding",
+      "losId": "portfolio-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12700,
+      "outputTokens": 1307,
+      "cacheWriteTokens": 846,
+      "cacheReadTokens": 0,
+      "costUsd": 0.040585,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.048349500000000004
+}

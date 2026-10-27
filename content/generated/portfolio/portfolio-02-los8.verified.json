@@ -1,0 +1,936 @@
+{
+  "losId": "portfolio-02-los8",
+  "losText": "describe and demonstrate applications of the CAPM and the SML",
+  "moduleId": "portfolio-02",
+  "moduleTitle": "Portfolio Risk and Return: Part II",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:54:02.590Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-rec07:12:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 12–18",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=12",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec07:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 6–12",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-active-management:38:14",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 38–41",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=38",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Applications in Performance Measurement",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-active-management:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 6–8",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:151:183",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 151–152",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=151",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-capm1:14:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 14–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=14",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:156:189",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 156–157",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=156",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-capm1:1:0",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 6: CAPM part 1",
+      "locator": "pp. 1–5",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Putting the CAPM and the SML to Work",
+      "summary": "The CAPM turns an asset's beta into a required return, and the security market line (SML) lets you compare that required return with a forecast return. This is used to pick discount rates, spot mispriced securities, adjust portfolio risk and set benchmarks.",
+      "sections": [
+        {
+          "heading": "The CAPM as a price tag for risk",
+          "body_markdown": "Think of the CAPM as a price list. Each unit of market risk has a price, and an asset's **beta** says how many units it carries.\n\n- The **risk-free rate** ($R_f$) is the return for waiting, with no risk.\n- **Beta** ($\\beta$) measures how strongly an asset moves with the overall market. It is the asset's systematic (non-diversifiable) risk.\n- The **market risk premium** is $E(R_m)-R_f$, the extra return investors demand for holding the whole market instead of the risk-free asset.\n\nThe **required return** is what the asset should offer for its beta: $R_f+\\beta\\,[E(R_m)-R_f]$. Plotted against beta, this is a straight line called the **security market line (SML)**. Only systematic risk earns a premium, because firm-specific risk can be diversified away."
+        },
+        {
+          "heading": "Application 1: Choosing a discount rate",
+          "body_markdown": "The most common use of the CAPM is to estimate the return that equity investors require. This is the **cost of equity**. It is the discount rate for cash flows that belong to shareholders, and part of the hurdle rate in capital budgeting.\n\nA **hurdle rate** is the minimum return a project must offer to be worth taking. It should match the *project's* systematic risk. A project that is riskier than the firm's usual business needs a higher rate, even if the firm's own beta is low. Discounting a risky project at the risk-free rate, or at the firm's average rate, makes it look better than it is."
+        },
+        {
+          "heading": "Application 2: Spotting mispriced securities",
+          "body_markdown": "The SML gives the return an asset *should* earn for its beta. An analyst's **forecast (expected) return** is what they actually think it will earn. Compare the two:\n\n- Forecast **above** the SML (forecast > required): the asset offers more than its risk demands. It is **undervalued**, with a positive expected alpha, so it is a buy candidate.\n- Forecast **below** the SML: the asset is **overvalued**, with a negative alpha, so it is a sell or underweight candidate.\n- Forecast **on** the SML: it is **fairly valued**.\n\nAn undervalued asset is one whose price is too low, which is why its forecast return is too high. If buyers push the price up, the forecast return falls back toward the SML. Do not compare the forecast with the risk-free rate or the market return. Only the beta-adjusted required return is the right yardstick. Use the SML, not the capital market line (CML), for individual assets. The CML uses total risk and applies only to efficient portfolios."
+        },
+        {
+          "heading": "Application 3: Portfolio construction and benchmarks",
+          "body_markdown": "A portfolio's beta is the weighted average of its holdings' betas, and the risk-free asset has a beta of 0. So a manager can raise or lower market exposure by shifting money between stocks and the risk-free asset. A manager who expects the market to rise might increase beta. One who expects a fall might cut it.\n\nThe CAPM also gives each asset or portfolio a **benchmark return** that depends only on its beta. Portfolio performance can then be judged against that benchmark. Performance ratios are a separate topic.\n\n**Limits.** The theoretical market portfolio cannot be observed, so a broad index is used as a proxy. Beta is estimated with error, and the CAPM rests on strong simplifying assumptions. For illiquid or alternative assets, a one-factor model often explains returns poorly. Treat CAPM results as a disciplined estimate, not a guarantee."
+        }
+      ],
+      "worked_example": {
+        "problem": "The risk-free rate is 3%, the expected return on the market is 9%, and a stock has a beta of 1.3. An analyst forecasts that the stock will return 11%. Find the stock's required return from the CAPM, and say whether the stock plots above, on, or below the SML and what that implies.",
+        "steps": [
+          "Market risk premium: 9% − 3% = 6%. BA II Plus: 9 [−] 3 [=] gives 6.",
+          "Beta-adjusted premium: 1.3 × 6% = 7.8%. BA II Plus: [×] 1.3 [=] gives 7.8.",
+          "Required return: 3% + 7.8% = 10.8%. BA II Plus: [+] 3 [=] gives 10.8.",
+          "Compare: forecast 11% − required 10.8% = +0.2 percentage points.",
+          "Because the forecast exceeds the required return, the stock plots above the SML. It is slightly undervalued, with a small positive expected alpha."
+        ],
+        "answer": "Required return = 10.8%. The 11% forecast is above it, so the stock plots above the SML and looks slightly undervalued.",
+        "answer_value": 0.108,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.03,\"beta\":1.3,\"marketReturn\":0.09}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "CAPM / SML (required return)",
+          "latex": "E(R_i)=R_f+\\beta_i\\,[E(R_m)-R_f]",
+          "where": "E(R_i) is the required return on asset i; R_f is the risk-free rate; \\beta_i is the asset's beta; E(R_m) is the expected market return; E(R_m)-R_f is the market risk premium."
+        },
+        {
+          "name": "Expected alpha versus the SML",
+          "latex": "\\alpha_i=\\text{Forecast}(R_i)-\\{R_f+\\beta_i\\,[E(R_m)-R_f]\\}",
+          "where": "Forecast(R_i) is the analyst's expected return for asset i. A positive alpha means above the SML (undervalued); a negative alpha means below the SML (overvalued)."
+        },
+        {
+          "name": "Portfolio beta",
+          "latex": "\\beta_p=\\sum_{i=1}^{N} w_i\\,\\beta_i",
+          "where": "w_i is the weight of asset i in the portfolio (weights sum to 1) and \\beta_i is its beta. The risk-free asset has \\beta=0."
+        }
+      ],
+      "exam_traps": [
+        "Comparing a stock's forecast return with the risk-free rate or the market return. The correct yardstick is the beta-adjusted required return on the SML.",
+        "Calling an asset above the SML overvalued because it offers a high return. Above the SML means the price is too low, so it is undervalued.",
+        "Using the CML to judge a single stock. Individual assets are judged on the SML, where only beta matters.",
+        "Forgetting to subtract the risk-free rate from the market return, which gives R_f + β×R_m instead of R_f + β×(R_m − R_f).",
+        "Discounting a project at the firm's average cost of equity when the project's systematic risk is clearly different."
+      ],
+      "builds_on": [
+        "CAPM assumptions",
+        "Beta and systematic risk",
+        "Security market line",
+        "Expected return from the CAPM"
+      ],
+      "leads_to": [
+        "Jensen's alpha and risk-adjusted performance measures",
+        "Cost of equity and WACC",
+        "Equity valuation discount rates"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-rec07:6:1",
+        "mit-ocw-15401-rec07:12:2",
+        "os:principles-finance-2e:m00096:2",
+        "mit-ocw-15433-active-management:6:1",
+        "cfa-rf-alt-primer:156:189",
+        "mit-ocw-15433-capm1:1:0"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An analyst's forecast return for a stock is higher than the return the SML requires for the stock's beta. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "The stock is overvalued, because its forecast return is high.",
+            "value": null,
+            "explanation": "Reverses the logic. A high forecast return relative to the required return means the price is too low, not too high."
+          },
+          {
+            "text": "The stock is undervalued and has a positive expected alpha.",
+            "value": null,
+            "explanation": "Correct. The forecast exceeds the return needed for its systematic risk, so it plots above the SML and the price is too low."
+          },
+          {
+            "text": "The stock is fairly valued, because the forecast reflects its risk.",
+            "value": null,
+            "explanation": "A fairly valued stock plots on the SML, where forecast equals required return. Here the forecast is higher, so it is not on the line."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:6:1",
+          "mit-ocw-15433-active-management:6:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The risk-free rate is 4%, the expected market return is 10%, and a stock has a beta of 0.8. Using the CAPM, what is the stock's required return? Round to one decimal place of a percent.",
+        "options": [
+          {
+            "text": "8.8%",
+            "value": 0.088,
+            "explanation": "Correct. 4% + 0.8 × (10% − 4%) = 4% + 4.8% = 8.8%."
+          },
+          {
+            "text": "12.0%",
+            "value": 0.12,
+            "explanation": "Applies beta to the full market return instead of the premium: 4% + 0.8 × 10% = 12.0%."
+          },
+          {
+            "text": "4.8%",
+            "value": 0.048,
+            "explanation": "Gives only the risk premium, 0.8 × 6%, and leaves out the risk-free rate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.04,\"beta\":0.8,\"marketReturn\":0.1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:1:0",
+          "cfa-rf-alt-primer:156:189"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A firm will use the CAPM to set a discount rate for an all-equity project. The risk-free rate is 2.5%, the expected market return is 8.5%, and the project's beta is 1.4. What discount rate should be used? Round to one decimal place of a percent.",
+        "options": [
+          {
+            "text": "14.4%",
+            "value": 0.144,
+            "explanation": "Multiplies beta by the market return rather than the premium: 2.5% + 1.4 × 8.5% = 14.4%."
+          },
+          {
+            "text": "8.5%",
+            "value": 0.085,
+            "explanation": "Uses the market return as the discount rate and ignores the project's beta."
+          },
+          {
+            "text": "10.9%",
+            "value": 0.109,
+            "explanation": "Correct. 2.5% + 1.4 × (8.5% − 2.5%) = 2.5% + 8.4% = 10.9%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.025,\"beta\":1.4,\"marketReturn\":0.085}"
+        },
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:156:189",
+          "mit-ocw-15401-rec07:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): Required return = 2.5% + 1.4 × (8.5% − 2.5%) = 2.5% + 8.4% = 10.9%. Option C is 10.9%, so the answer is C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The risk-free rate is 3% and the expected market return is 8%. An analyst forecasts a 7% return for a stock with a beta of 1.2. Which conclusion is correct?",
+        "options": [
+          {
+            "text": "The stock is overvalued: the required return is 9%, above the 7% forecast.",
+            "value": null,
+            "explanation": "Correct. Required return = 3% + 1.2 × 5% = 9%. The forecast is below it, so the stock plots below the SML."
+          },
+          {
+            "text": "The stock is undervalued, because its 7% forecast exceeds the 3% risk-free rate.",
+            "value": null,
+            "explanation": "Compares the forecast with the risk-free rate. That ignores the premium needed for beta."
+          },
+          {
+            "text": "The stock is fairly valued, because 7% lies between 3% and 8%.",
+            "value": null,
+            "explanation": "Checks only that the forecast sits between the risk-free rate and the market return. Fair value needs the forecast to equal the beta-adjusted required return."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:6:1",
+          "os:principles-finance-2e:m00096:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst wants to judge whether a single stock with a lot of firm-specific risk is fairly priced under the CAPM. Which approach is appropriate?",
+        "options": [
+          {
+            "text": "Use the CML, because every asset in equilibrium must plot on it.",
+            "value": null,
+            "explanation": "Wrongly applies the CML to individual assets. Only efficient portfolios of the risk-free asset and the market portfolio lie on the CML."
+          },
+          {
+            "text": "Use the SML, because only systematic risk, measured by beta, earns a premium.",
+            "value": null,
+            "explanation": "Correct. Firm-specific risk can be diversified away and earns no premium, so a single stock's required return depends only on its beta."
+          },
+          {
+            "text": "Use the CML, because total standard deviation is the risk investors are paid for.",
+            "value": null,
+            "explanation": "Confuses total risk with priced risk. Under the CAPM, diversifiable risk is not rewarded."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:1:0",
+          "mit-ocw-15401-rec07:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The risk-free rate rises by 1 percentage point while the market risk premium, E(R_m) − R_f, is unchanged. By how much does the CAPM required return of a stock with a beta of 0.5 change?",
+        "options": [
+          {
+            "text": "It rises by 0.5 percentage points.",
+            "value": null,
+            "explanation": "Multiplies the change in the risk-free rate by beta. Beta scales only the market risk premium, not the risk-free component."
+          },
+          {
+            "text": "It does not change, because the stock's beta is unchanged.",
+            "value": null,
+            "explanation": "Ignores that the risk-free rate is part of every required return, so the whole SML shifts."
+          },
+          {
+            "text": "It rises by 1.0 percentage point.",
+            "value": null,
+            "explanation": "Correct. R_f + β × (premium): the premium term is unchanged, so the required return moves one-for-one with R_f."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:156:189",
+          "mit-ocw-15401-rec07:6:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): With the market risk premium held constant, E(R_m) rises by 1 point along with R_f. Required return = R_f + β × MRP, so it rises by 1 point only, not 0.5. Checking: R = R_f + β(MRP), so ΔR = ΔR_f = 1.0 point. The answer is C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A diversified, all-equity-financed company is evaluating a project in an unrelated industry. The project's cash flows have much higher systematic risk than the company's existing operations. Using the CAPM, which discount rate is most appropriate for the project's cash flows?",
+        "options": [
+          {
+            "text": "The risk-free rate, since the cash flows are forecast with care",
+            "value": null,
+            "explanation": "Treats a careful forecast as if it were certain. Forecast cash flows are still risky, so a beta-based risk premium must be added to the risk-free rate."
+          },
+          {
+            "text": "The CAPM required return using the company's current average beta",
+            "value": null,
+            "explanation": "Uses the firm's average risk instead of the project's risk. This understates the required return for a higher-risk project and could lead to accepting a value-destroying project."
+          },
+          {
+            "text": "The CAPM required return using the project's own systematic risk",
+            "value": null,
+            "explanation": "Correct. Required return depends on the systematic risk of the cash flows being discounted. The project's beta, not the sponsoring company's, determines the hurdle rate, so a higher-beta project needs a higher rate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio is 60% invested in a stock with a beta of 1.5 and 40% invested in the risk-free asset (beta of 0). The risk-free rate is 3% and the expected return on the market portfolio is 8%. Assuming the CAPM holds, first compute the portfolio's beta as the weighted average of the component betas, then compute the portfolio's CAPM required return. Round to one decimal place of a percent.",
+        "options": [
+          {
+            "text": "10.5%",
+            "value": 0.105,
+            "explanation": "Uses the stock's beta of 1.5 for the whole portfolio and ignores the 40% in the risk-free asset: 3% + 1.5 × 5% = 10.5%."
+          },
+          {
+            "text": "6.0%",
+            "value": 0.06,
+            "explanation": "Uses the 60% stock weight as the portfolio beta instead of weighting the stock's beta of 1.5: 3% + 0.6 × 5% = 6.0%."
+          },
+          {
+            "text": "7.5%",
+            "value": 0.075,
+            "explanation": "Correct. Portfolio beta = 0.6 × 1.5 + 0.4 × 0 = 0.9. Required return = 3% + 0.9 × (8% − 3%) = 7.5%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.03,\"beta\":0.9,\"marketReturn\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:6:1",
+          "cfa-rf-alt-primer:156:189"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key (after repair). Solver chose B: Portfolio beta = 0.6*1.5 + 0.4*0 = 0.9. Required return = 3% + 0.9*(8% - 3%) = 3% + 4.5% = 7.5%, so the answer is C (index 2), not B."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "When an asset's forecast return is above the SML, what does that say about it, and what is the trade idea?",
+        "back": "Forecast return exceeds the required return for its beta (positive alpha), so the asset is undervalued and a buy candidate. Below the SML means overvalued; on the SML means fairly valued.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:6:1",
+          "mit-ocw-15433-active-management:6:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is the CAPM used in capital budgeting and valuation?",
+        "back": "It estimates the cost of equity: R_f + β × (market risk premium). That rate discounts equity cash flows and sets a hurdle rate. It should reflect the project's own systematic risk.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:156:189"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "SML or CML: which line do you use to judge whether an individual stock is fairly priced, and why?",
+        "back": "The SML. It relates required return to beta, and only systematic risk is rewarded. The CML uses total risk and applies only to efficient portfolios.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-capm1:1:0",
+          "mit-ocw-15401-rec07:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How can a manager change a portfolio's market exposure, using the CAPM?",
+        "back": "Portfolio beta is the weighted average of holdings' betas, and the risk-free asset has beta 0. Shifting money between stocks and the risk-free asset (or between high- and low-beta stocks) raises or lowers beta.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec07:6:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Name two practical limits of applying the CAPM.",
+        "back": "The market portfolio cannot be observed, so an index proxy is used, and beta is estimated with error. The model rests on restrictive assumptions and explains illiquid and alternative assets poorly.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:156:189",
+          "cfa-rf-alt-primer:151:183"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T21:53:39.285Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-02-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1076,
+      "outputTokens": 515,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007419,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:53:51.095Z",
+      "purpose": "repair",
+      "losId": "portfolio-02-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10445,
+      "outputTokens": 1495,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.036784,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:53:52.850Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-02-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 336,
+      "outputTokens": 196,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002749,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:54:02.589Z",
+      "purpose": "grounding",
+      "losId": "portfolio-02-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13763,
+      "outputTokens": 1393,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.041625199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0885772
+}

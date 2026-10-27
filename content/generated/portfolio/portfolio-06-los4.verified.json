@@ -1,0 +1,821 @@
+{
+  "losId": "portfolio-06-los4",
+  "losText": "explain how risk tolerance affects risk management",
+  "moduleId": "portfolio-06",
+  "moduleTitle": "Introduction to Risk Management",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:59:43.535Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-interest-rate-risk:26:35",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 26–27",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=26",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-rf-alt-primer:163:198",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 163–164",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=163",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-individual-finance:378:342",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 378–380",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=378",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-behavioral:111:135",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 111–112",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=111",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-individual-finance:19:16",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 19–20",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=19",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-ips-individual:16:9",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-individual-finance:22:19",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 22–24",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=22",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-behavioral:113:137",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 113–114",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=113",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "occ-corporate-risk-governance:120:152",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 120–121",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=120",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-individual-finance:383:346",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 383",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=383",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:158:156",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 158",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=158",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:159:158",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 159–161",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=159",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Risk Tolerance Shapes Risk Management",
+      "summary": "Risk tolerance is how much uncertainty about losses a person or organization is both willing and able to live with. It sets the target that risk management works toward, so it decides when exposure should be cut, kept, or increased.",
+      "sections": [
+        {
+          "heading": "Two halves of risk tolerance",
+          "body_markdown": "**Risk** here means uncertainty about outcomes, including the chance of a loss. **Risk tolerance** is the amount of that uncertainty an investor or organization is prepared to accept. It has two parts:\n\n- **Willingness** (also called *risk appetite*) is the *wish* to take risk. It comes from attitudes, personality, experience and the goals the owners or board have set.\n- **Ability** (also called *risk capacity*) is the *financial power* to absorb losses without being knocked off course. It depends on assets, time horizon, income stability and cash needs.\n\nThink of driving. Willingness is how fast you feel comfortable going. Ability is what your brakes, tires and the road can actually handle. A sensible driver respects the lower of the two. In the same way, a risk plan should not rest on appetite alone when capacity is thin."
+        },
+        {
+          "heading": "What pushes tolerance up or down",
+          "body_markdown": "For **individuals**, tolerance falls when someone has dependents, health problems, a short horizon, or heavy need to draw cash from the portfolio. A retiree often has plenty of assets (high ability) but depends on them for living costs (low willingness), so overall tolerance is low. A young person with a long horizon and steady income usually has more room to take risk.\n\nFor **organizations**, tolerance is shaped by capital strength, earnings stability, regulation, the business strategy, and what the board and owners expect. The board states its appetite, often in a written *risk appetite statement*, and that statement drives the limits set below it.\n\nTolerance is not fixed. Evidence from investor surveys suggests that a person's underlying risk *trait* can stay steady while the risk they actually accept moves with market events, perceptions and personal circumstances. It therefore needs periodic review."
+        },
+        {
+          "heading": "From tolerance to action",
+          "body_markdown": "Risk management is the process of keeping actual risk consistent with what the entity wants and can bear. Tolerance enters at each step:\n\n1. **Set boundaries.** Tolerance is turned into concrete limits and an acceptable range, for example a maximum loss that would not derail the plan, or a target mix of stocks and bonds.\n2. **Compare.** Measure the current exposure and compare it with those boundaries.\n3. **Respond.** If exposure is *above* tolerance, reduce it (avoid the risk, lower it, or transfer it to someone else, such as through insurance or hedges). If exposure is *within* tolerance, accept it. If it is well *below*, consider whether unused capacity should be put to work to pursue return.\n4. **Escalate breaches.** Positions outside limits should be reported up to senior management or the board, depending on how serious the breach is.\n\nThis is why institutions with long horizons and strong capital, such as endowments, tend to hold more equities than the classic 60/40 mix, while a low-tolerance investor holds more bonds and cash."
+        },
+        {
+          "heading": "Common tensions and good practice",
+          "body_markdown": "- **Return goals versus tolerance.** If goals can only be met with more risk than the investor can or will bear, the goals must be scaled back. Tolerance should not be stretched to fit hopes.\n- **Risk is not only volatility.** For individuals, what matters may be a level of loss that would permanently wreck the plan, so tolerance is often described in layers: avoid catastrophe, keep a current lifestyle, reach a goal, build extra wealth.\n- **Too little risk is also a failure.** Risk-taking is how return is earned. Aiming for zero risk wastes capacity and can leave goals unmet.\n- **Review regularly.** Changes in circumstances, market moves or regulation can alter tolerance, so limits and exposures should be revisited."
+        }
+      ],
+      "worked_example": {
+        "problem": "A small endowment's board has decided that a one-year loss of more than 10% of the portfolio would force cuts to scholarships it cannot accept. A risk review estimates that a bad but plausible year could cost 14% under the current mix. Walk through how risk tolerance guides the response.",
+        "steps": [
+          "Identify the boundary that tolerance sets: the board cannot accept a bad-year loss larger than 10%. This reflects limited ability, because scholarships depend on the funds, not just appetite.",
+          "State the current exposure: a plausible bad year is about a 14% loss.",
+          "Compare: 14% minus 10% is 4 percentage points beyond what the board can bear, so exposure is above tolerance.",
+          "Choose a response that brings exposure back inside tolerance: shift part of the equity holdings into bonds or cash, or hedge part of the equity risk. Do not simply raise the 10% limit to match the portfolio.",
+          "Re-measure after the change. Confirm that the estimated bad-year loss is at or below 10%, report the original breach and the fix to the board, and schedule the next review."
+        ],
+        "answer": "Exposure (14% potential loss) exceeds tolerance (10%) by 4 percentage points, so the endowment should reduce risk, for example through a lower equity weight or hedging, until the estimate is within 10%. The limit itself stays put.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating risk tolerance as willingness only. It combines willingness and ability, and a weak ability to bear losses can override a high appetite.",
+        "Assuming that when a risk exceeds tolerance the fix is to raise the tolerance. The standard response is to change the exposure, not to move the limit to fit it.",
+        "Believing the goal of risk management is to minimize risk. Exposure well below tolerance may waste capacity, so the goal is risk consistent with tolerance and objectives.",
+        "Assuming a risk questionnaire taken once gives a permanent answer. Circumstances, perceptions and market conditions change the risk a person is comfortable accepting.",
+        "Equating tolerance with a volatility number. For many investors, the real boundary is the size of loss that would derail their plan."
+      ],
+      "builds_on": [
+        "Definition of risk management",
+        "Risk appetite and risk governance",
+        "Investor objectives and constraints"
+      ],
+      "leads_to": [
+        "Risk budgeting",
+        "Methods for measuring and modifying risk exposures",
+        "Asset allocation decisions"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-individual-finance:378:342",
+        "flatworld-individual-finance:22:19",
+        "flatworld-individual-finance:19:16",
+        "cfa-ips-individual:16:9",
+        "occ-interest-rate-risk:26:35",
+        "occ-corporate-risk-governance:120:152",
+        "flatworld-enterprise-and-individual-risk-management:159:158",
+        "cfa-rf-behavioral:113:137",
+        "cfa-rf-alt-primer:163:198"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes risk tolerance?",
+        "options": [
+          {
+            "text": "The wish to take risk, based only on personality and attitudes",
+            "value": null,
+            "explanation": "This describes willingness only. Risk tolerance also depends on ability to bear losses, so this is incomplete."
+          },
+          {
+            "text": "The amount of risk an entity is both willing and able to bear",
+            "value": null,
+            "explanation": "Correct. Tolerance combines willingness (appetite) and ability (capacity) to absorb losses."
+          },
+          {
+            "text": "The largest loss a statistical model predicts for the portfolio",
+            "value": null,
+            "explanation": "This confuses tolerance with a measured exposure. Exposure is compared against tolerance; it is not the same thing."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342",
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor is eager to take large risks, but has a small asset base, a short horizon and large cash withdrawals needed within two years. Which conclusion about risk management is most appropriate?",
+        "options": [
+          {
+            "text": "Willingness governs, since it reflects the investor's own preferences",
+            "value": null,
+            "explanation": "Ignores ability. Strong appetite cannot make up for a limited capacity to absorb losses."
+          },
+          {
+            "text": "Take the average of willingness and ability as the risk level",
+            "value": null,
+            "explanation": "Averaging hides the binding constraint. Losses beyond capacity can cause real harm whatever the appetite."
+          },
+          {
+            "text": "Ability is low, so exposure should be held to what capacity allows",
+            "value": null,
+            "explanation": "Correct. When ability is the weaker half, it constrains the risk that can safely be taken."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342",
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A retired investor has a large portfolio and no dependents, but relies on it for all living expenses and is very uncomfortable with losses. Which description of the investor's risk tolerance fits best?",
+        "options": [
+          {
+            "text": "High ability but low willingness, so a cautious risk stance suits",
+            "value": null,
+            "explanation": "Correct. Large assets give capacity, but dependence on income and discomfort with losses lower willingness, so overall tolerance is low."
+          },
+          {
+            "text": "Low ability but high willingness, so a growth stance suits",
+            "value": null,
+            "explanation": "Reverses the situation. This investor has ample assets and low appetite for loss."
+          },
+          {
+            "text": "High ability and high willingness, so a growth stance suits",
+            "value": null,
+            "explanation": "Assumes large assets mean a high appetite. Reliance on the portfolio for income lowers willingness."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:22:19",
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm's risk review shows that its current exposure to a particular risk is above the level its board has set as tolerable. What is the most appropriate response?",
+        "options": [
+          {
+            "text": "Raise the tolerance level so that current exposure falls inside it",
+            "value": null,
+            "explanation": "Adjusting the limit to fit the exposure defeats the purpose of having a tolerance. Tolerance changes only for genuine reasons, such as a change in capacity or strategy."
+          },
+          {
+            "text": "Modify the exposure, such as by cutting, hedging or insuring it, and report the breach",
+            "value": null,
+            "explanation": "Correct. Exposure outside tolerance should be brought back within it and the breach escalated as policy requires."
+          },
+          {
+            "text": "Leave the exposure unchanged until the next annual strategy review",
+            "value": null,
+            "explanation": "Delays action on a known breach. Limit breaches should get prompt attention."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:26:35",
+          "occ-corporate-risk-governance:120:152"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A foundation's measured risk is far below its stated tolerance, and it keeps missing its return target. Which view is most consistent with sound risk management?",
+        "options": [
+          {
+            "text": "Risk should be cut further because lower risk is always preferable",
+            "value": null,
+            "explanation": "Treats risk minimization as the goal. Unused risk capacity is not free; it costs expected return."
+          },
+          {
+            "text": "Tolerance should be lowered to match the cautious current positioning",
+            "value": null,
+            "explanation": "Shrinking tolerance to fit existing exposure reverses the logic. Exposure should be guided by tolerance, not the other way around."
+          },
+          {
+            "text": "Some unused tolerance could be deployed to pursue return, within limits",
+            "value": null,
+            "explanation": "Correct. Risk management aims for exposure consistent with tolerance and objectives, so spare capacity can be used deliberately."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:26:35",
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In an organization with an effective approach, which statement best describes how risk tolerance is put into practice?",
+        "options": [
+          {
+            "text": "The board sets appetite, which is converted into limits; breaches are escalated by severity",
+            "value": null,
+            "explanation": "Correct. Tolerance flows from the board's appetite into limits across the organization, with breaches reported upward."
+          },
+          {
+            "text": "Front-line staff set their own limits, and tolerance is adjusted afterward to fit them",
+            "value": null,
+            "explanation": "Reverses the direction. Limits should be derived from the tolerance the board has set, not the other way around."
+          },
+          {
+            "text": "Tolerance is a single volatility figure that is fixed once and never revisited",
+            "value": null,
+            "explanation": "Tolerance covers several types of risk, often with qualitative elements, and should be reviewed as conditions change."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:26:35",
+          "occ-corporate-risk-governance:120:152"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In one study of investors, a measured personality-based risk trait stayed nearly constant through the 2008–2009 market crash, yet the share of money invested in stocks fell sharply and later recovered. Which implication for risk management is best supported?",
+        "options": [
+          {
+            "text": "Questionnaires are useless because the risk trait never matters",
+            "value": null,
+            "explanation": "Overreaches. The trait is real; the point is that risk actually accepted also depends on circumstances and perceptions."
+          },
+          {
+            "text": "Accepted risk can shift with circumstances, so tolerance needs periodic reassessment",
+            "value": null,
+            "explanation": "Correct. Even with a stable trait, circumstances and perceptions moved behavior, so tolerance should be revisited and not assumed fixed."
+          },
+          {
+            "text": "The investors' personalities changed because markets fell sharply",
+            "value": null,
+            "explanation": "Contradicts the finding. The trait stayed nearly constant; other influences changed."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-behavioral:113:137"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Why do endowments with very long investment horizons often hold more equities than the classic 60/40 stock–bond mix?",
+        "options": [
+          {
+            "text": "Equities carry no risk over long periods, so tolerance is irrelevant",
+            "value": null,
+            "explanation": "Equities remain risky over any horizon. A long horizon raises capacity to ride out losses but does not remove risk."
+          },
+          {
+            "text": "Regulation requires long-horizon institutions to hold mostly equities",
+            "value": null,
+            "explanation": "No such general rule exists. The tilt comes from the institution's own situation, not a mandate."
+          },
+          {
+            "text": "Their long horizon and strong capacity give them a higher tolerance for risk",
+            "value": null,
+            "explanation": "Correct. Greater ability to withstand short-term losses supports a higher risk tolerance and a larger equity allocation."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:163:198"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the two components of risk tolerance?",
+        "back": "Willingness to take risk (risk appetite) and ability to take risk (risk capacity, based on assets, horizon and liquidity needs). Overall tolerance is limited by the weaker of the two.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "If measured exposure is above risk tolerance, what is the correct response?",
+        "back": "Change the exposure (reduce, hedge or insure it) and escalate the breach. Do not raise the tolerance to fit the exposure.",
+        "cited_chunk_ids": [
+          "occ-interest-rate-risk:26:35"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Is the goal of risk management to minimize risk?",
+        "back": "No. The goal is exposure consistent with tolerance and objectives. Exposure far below tolerance wastes capacity and may leave return goals unmet.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why might a retiree with large assets still have low risk tolerance?",
+        "back": "Ability is high because of the assets, but willingness is low because the retiree depends on the portfolio for income and cares more about protecting wealth than growing it.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:22:19"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T21:59:32.266Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1053,
+      "outputTokens": 585,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008073,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:59:43.534Z",
+      "purpose": "grounding",
+      "losId": "portfolio-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12798,
+      "outputTokens": 1435,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0401152,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0481882
+}

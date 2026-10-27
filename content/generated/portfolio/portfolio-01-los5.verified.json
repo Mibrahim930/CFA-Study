@@ -1,0 +1,867 @@
+{
+  "losId": "portfolio-01-los5",
+  "losText": "calculate and interpret portfolio standard deviation",
+  "moduleId": "portfolio-01",
+  "moduleTitle": "Portfolio Risk and Return: Part I",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:50:53.038Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:6",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:8",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:18",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec06:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 1–7",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:14",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:18",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-active-management:14:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 14–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=14",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00097:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.5 Using Excel to Make Investment Decisions — Average Return and Standard Deviation for a Portfolio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-5-using-excel-to-make-investment-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-for-managers:182:131",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 182–183",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=182",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Putting a Single Risk Number on a Portfolio",
+      "summary": "This lesson shows how to turn each holding's volatility, the portfolio weights and the way the holdings move together into one risk figure for the whole portfolio. It matters because that figure is almost never a simple average of the parts, and the exam tests that repeatedly.",
+      "sections": [
+        {
+          "heading": "Why risk is not a plain average",
+          "body_markdown": "Expected return is easy to combine. A 60/40 portfolio earns 60% of one asset's expected return plus 40% of the other's. Risk behaves differently.\n\n**Standard deviation** (SD) measures how widely returns scatter around their average. Think of two friends who each arrive at a restaurant at unpredictable times. If one is early exactly when the other is late, their *average* arrival time is steady. Portfolio risk works the same way. When holdings do not move in lockstep, their ups and downs partly cancel and the portfolio is steadier than a weighted average of the individual SDs suggests.\n\nThe only case where the weighted-average shortcut works is when the assets are perfectly positively correlated (correlation of +1)."
+        },
+        {
+          "heading": "The two-asset recipe",
+          "body_markdown": "Start with the portfolio **variance**, which is the SD squared. Variance is the quantity that combines additively, so you compute it first and take the square root last.\n\n$$\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\,\\text{Cov}_{12}$$\n\nHere **covariance** measures how two assets' returns move together, and **correlation** $\\rho_{12}$ is covariance rescaled to lie between −1 and +1:\n\n$$\\text{Cov}_{12} = \\rho_{12}\\,\\sigma_1\\sigma_2$$\n\nSo the version most often used when SDs and a correlation are given is\n\n$$\\sigma_p = \\sqrt{w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\rho_{12}\\sigma_1\\sigma_2}$$\n\nThe first two terms are each asset's own risk, shrunk by the *squared* weight. The third term is the interaction between the assets. It adds risk if correlation is positive and removes risk if it is negative."
+        },
+        {
+          "heading": "Reading the answer",
+          "body_markdown": "Use these checks to interpret and sanity-test a result:\n\n- With $\\rho = +1$ the SD equals the weighted average $w_1\\sigma_1 + w_2\\sigma_2$. This is the **upper bound** for a long-only portfolio.\n- With $\\rho = -1$ the SD is $|w_1\\sigma_1 - w_2\\sigma_2|$, the lowest possible. It can reach zero with the right weights.\n- Holding weights and SDs fixed, a higher correlation always means a higher portfolio SD.\n- If your answer lies outside the range from the perfect-negative case to the weighted average, you made an arithmetic slip.\n\nIf you are given a *series of historical returns* instead of parameters, you can compute the portfolio's return in each period as the weighted average of the asset returns, then take the SD of that series directly. Do not average the assets' SDs."
+        },
+        {
+          "heading": "More than two assets",
+          "body_markdown": "For $N$ assets, every pair of holdings interacts, so the variance is a double sum over the covariance matrix:\n\n$$\\sigma_p^2 = \\sum_{i=1}^{N}\\sum_{j=1}^{N} w_i w_j\\,\\text{Cov}_{ij}$$\n\nWhen $i=j$ the covariance is just that asset's variance. The table has $N$ variance terms and $N^2-N$ covariance terms. Each distinct pair appears twice, once as $(i,j)$ and once as $(j,i)$. This is where the factor of 2 in the two-asset formula comes from.\n\nBecause covariance terms grow much faster than variance terms as $N$ increases, the average covariance, not the individual variances, drives the risk of a well-spread portfolio.\n\nOn the exam, three-asset questions typically hand you a covariance matrix and ask you to apply the double sum step by step."
+        }
+      ],
+      "worked_example": {
+        "problem": "A portfolio holds 60% in Asset 1 and 40% in Asset 2. Asset 1 has a standard deviation of 20%, Asset 2 has a standard deviation of 10%, and the correlation between them is 0.30. Calculate the portfolio standard deviation (these are given estimates, so no sample or population divisor is needed).",
+        "steps": [
+          "Convert percentages to decimals: $w_1=0.6$, $w_2=0.4$, $\\sigma_1=0.20$, $\\sigma_2=0.10$, $\\rho=0.30$.",
+          "Asset 1 term: $0.6^2 \\times 0.20^2 = 0.36 \\times 0.04 = 0.0144$. Calculator: 0.6 [x²] [×] 0.2 [x²] [=] shows 0.0144; press [STO] 1.",
+          "Asset 2 term: $0.4^2 \\times 0.10^2 = 0.16 \\times 0.01 = 0.0016$. Calculator: 0.4 [x²] [×] 0.1 [x²] [=] shows 0.0016; press [STO] 2.",
+          "Interaction term: $2 \\times 0.6 \\times 0.4 \\times 0.30 \\times 0.20 \\times 0.10 = 0.00288$. Calculator: 2 [×] 0.6 [×] 0.4 [×] 0.3 [×] 0.2 [×] 0.1 [=]; press [STO] 3.",
+          "Add the three terms for the variance: [RCL] 1 [+] [RCL] 2 [+] [RCL] 3 [=] gives 0.01888.",
+          "Take the square root: press [2nd] [√x] (the second function of the x² key) to get 0.1374.",
+          "Sanity check: the weighted average of the SDs is $0.6(20\\%)+0.4(10\\%)=16\\%$. Our 13.74% is below it, as expected when $\\rho<1$."
+        ],
+        "answer": "The portfolio standard deviation is about 13.74%.",
+        "answer_value": 0.1374,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.20,\"sd2\":0.10,\"corr\":0.3}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Two-asset portfolio variance (with covariance)",
+          "latex": "\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\,\\text{Cov}_{12}",
+          "where": "$w_1,w_2$ are portfolio weights (sum to 1); $\\sigma_1,\\sigma_2$ are the assets' standard deviations; $\\text{Cov}_{12}$ is the covariance of their returns."
+        },
+        {
+          "name": "Covariance from correlation",
+          "latex": "\\text{Cov}_{12} = \\rho_{12}\\,\\sigma_1\\sigma_2",
+          "where": "$\\rho_{12}$ is the correlation between the two assets' returns; $\\sigma_1,\\sigma_2$ are their standard deviations."
+        },
+        {
+          "name": "Two-asset portfolio standard deviation",
+          "latex": "\\sigma_p = \\sqrt{w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\rho_{12}\\sigma_1\\sigma_2}",
+          "where": "Symbols as above; $\\sigma_p$ is the portfolio standard deviation, in the same units as the inputs."
+        },
+        {
+          "name": "General N-asset portfolio variance",
+          "latex": "\\sigma_p^2 = \\sum_{i=1}^{N}\\sum_{j=1}^{N} w_i w_j\\,\\text{Cov}_{ij}",
+          "where": "$w_i,w_j$ are weights of assets $i$ and $j$; $\\text{Cov}_{ij}$ is their covariance, and $\\text{Cov}_{ii}=\\sigma_i^2$."
+        },
+        {
+          "name": "Limiting cases (long-only, two assets)",
+          "latex": "\\rho=+1:\\ \\sigma_p=w_1\\sigma_1+w_2\\sigma_2;\\qquad \\rho=-1:\\ \\sigma_p=|w_1\\sigma_1-w_2\\sigma_2|",
+          "where": "These give the upper and lower bounds of portfolio SD for given weights and asset SDs."
+        }
+      ],
+      "exam_traps": [
+        "Stopping at the variance and forgetting the final square root, so the answer is reported as a variance.",
+        "Using $w$ instead of $w^2$ on the variance terms, or dropping the factor of 2 on the covariance term.",
+        "Taking the weighted average of the asset SDs. That is only correct when correlation is +1.",
+        "Mixing units, for example plugging 20 for a 20% SD in one place and 0.20 in another, or putting a correlation where a covariance belongs (or the reverse).",
+        "Getting the sign of the interaction term wrong when correlation is negative, which turns a lower risk into a higher one."
+      ],
+      "builds_on": [
+        "Portfolio weights and expected return",
+        "Variance and standard deviation of returns",
+        "Covariance and correlation"
+      ],
+      "leads_to": [
+        "Effect of correlation on diversification",
+        "Minimum-variance and efficient frontiers",
+        "Sharpe ratio and capital allocation line"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec13:13:3",
+        "mit-ocw-15401-lec13:23:5",
+        "mit-ocw-15401-rec06:1:0",
+        "flatworld-finance-for-managers:182:131",
+        "os:principles-finance-2e:m00097:1"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A portfolio is 50% Asset X and 50% Asset Y. Asset X has a standard deviation of 12%, Asset Y has a standard deviation of 20%, and the correlation between their returns is 0. These are given estimates. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "16.00%",
+            "value": 0.16,
+            "explanation": "This is the weighted average of the two SDs (0.5×12% + 0.5×20%). It is only valid when the correlation is +1, not 0."
+          },
+          {
+            "text": "11.66%",
+            "value": 0.1166,
+            "explanation": "Correct. With zero correlation the interaction term vanishes: variance = 0.25×0.0144 + 0.25×0.04 = 0.0136, and the square root is 0.1166."
+          },
+          {
+            "text": "1.36%",
+            "value": 0.0136,
+            "explanation": "This is the variance (0.0136) reported without taking the square root."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.12,\"sd2\":0.20,\"corr\":0}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "flatworld-finance-for-managers:182:131"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A two-asset portfolio has a standard deviation lower than the weighted average of the two assets' standard deviations. What is the best explanation?",
+        "options": [
+          {
+            "text": "The assets are not perfectly positively correlated, so part of their return movements offset each other.",
+            "value": null,
+            "explanation": "Correct. The interaction term is smaller than it would be at a correlation of +1, so the portfolio SD falls below the weighted average."
+          },
+          {
+            "text": "Weights that sum to one automatically scale the portfolio SD below that of each component.",
+            "value": null,
+            "explanation": "This confuses weighting with diversification. Weights alone do not shrink risk. With a correlation of +1 the weighted-average SD is exactly the portfolio SD."
+          },
+          {
+            "text": "Diversification removes each asset's own variance, leaving only the covariance between the two.",
+            "value": null,
+            "explanation": "Each asset's variance, scaled by its squared weight, stays in the formula. Diversification changes the interaction term and does not delete individual variances."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:182:131",
+          "mit-ocw-15401-lec13:23:5",
+          "os:principles-finance-2e:m00097:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A portfolio holds two assets. Asset A has a weight of 70% and a standard deviation of 15%. Asset B has a weight of 30% and a standard deviation of 25%. The correlation between A and B is 0.40. Treat these as given estimates, so no sample or population divisor is needed. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "14.07%",
+            "value": 0.1407,
+            "explanation": "This drops the factor of 2 on the covariance term. The variance becomes 0.011025 + 0.005625 + 0.00315 = 0.0198, and its square root is 14.07%."
+          },
+          {
+            "text": "18.00%",
+            "value": 0.18,
+            "explanation": "This is the weighted average of the two standard deviations (0.7×15% + 0.3×25%). It would only be right if the correlation were +1, and here the correlation is 0.40, so diversification lowers the risk."
+          },
+          {
+            "text": "15.15%",
+            "value": 0.1515,
+            "explanation": "Correct. Variance = 0.7²×0.15² + 0.3²×0.25² + 2×0.7×0.3×0.40×0.15×0.25 = 0.011025 + 0.005625 + 0.0063 = 0.02295. The square root is 0.1515, or 15.15%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.7,\"sd1\":0.15,\"sd2\":0.25,\"corr\":0.4}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-rec06:1:0"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): Variance = 0.49*225 + 0.09*625 + 2*0.7*0.3*0.4*15*25 = 110.25+56.25+63 = 229.5; SD = 15.15%. So the correct answer is 15.15%, option C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A two-asset portfolio has fixed weights of 60% and 40% and fixed standard deviations of 18% and 12%. Which single change would increase the portfolio's standard deviation?",
+        "options": [
+          {
+            "text": "The correlation between the assets falls from 0.40 to −0.10.",
+            "value": null,
+            "explanation": "This reverses the direction. A lower correlation shrinks the interaction term and reduces portfolio SD."
+          },
+          {
+            "text": "The correlation between the assets rises from 0.10 to 0.50.",
+            "value": null,
+            "explanation": "Correct. With weights and SDs fixed, a higher correlation increases the positive interaction term, so the portfolio SD rises."
+          },
+          {
+            "text": "The covariance between the assets falls from 0.0060 to 0.0030.",
+            "value": null,
+            "explanation": "Covariance enters the variance with a positive coefficient, so a smaller covariance lowers portfolio variance and SD. Treating a fall as an increase is the error here."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio holds 40% in Asset P (standard deviation 30%) and 60% in Asset Q (standard deviation 10%). The correlation between P and Q is −0.50. These are given estimates. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "10.39%",
+            "value": 0.1039,
+            "explanation": "Correct. Variance = 0.16×0.09 + 0.36×0.01 + 2×0.4×0.6×(−0.5)×0.3×0.1 = 0.0144 + 0.0036 − 0.0072 = 0.0108; the square root is 0.1039."
+          },
+          {
+            "text": "15.87%",
+            "value": 0.1587,
+            "explanation": "This is a sign error: treating the correlation as +0.50 gives variance 0.0252, which adds the interaction term instead of subtracting it."
+          },
+          {
+            "text": "1.08%",
+            "value": 0.0108,
+            "explanation": "This is the variance (0.0108) reported without taking the square root."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.4,\"sd1\":0.30,\"sd2\":0.10,\"corr\":-0.5}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A long-only portfolio holds 25% in Asset M (standard deviation 20%) and 75% in Asset N (standard deviation 10%). The two assets have a correlation of exactly −1.00. These are given estimates. What is the portfolio standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "12.50%",
+            "value": 0.125,
+            "explanation": "This is the weighted-average SD (0.25×20% + 0.75×10%), which applies only when the correlation is +1, not −1."
+          },
+          {
+            "text": "9.01%",
+            "value": 0.0901,
+            "explanation": "This uses a correlation of 0 (dropping the interaction term): sqrt(0.0025 + 0.005625) = 0.0901."
+          },
+          {
+            "text": "2.50%",
+            "value": 0.025,
+            "explanation": "Correct. At a correlation of −1 the SD is |w₁σ₁ − w₂σ₂| = |0.25×20% − 0.75×10%| = |5% − 7.5%| = 2.50%. It is not zero because these weights do not offset exactly."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.25,\"sd1\":0.20,\"sd2\":0.10,\"corr\":-1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst computes the variance of a three-asset portfolio using the double summation over the covariance matrix, with every term $w_i w_j \\text{Cov}_{ij}$ written out for all combinations of i and j. How many terms involve variances and how many involve covariances between different assets?",
+        "options": [
+          {
+            "text": "3 variance terms and 3 covariance terms",
+            "value": null,
+            "explanation": "This counts each distinct pair only once. In the full double sum each pair appears twice, as (i,j) and (j,i)."
+          },
+          {
+            "text": "3 variance terms and 6 covariance terms",
+            "value": null,
+            "explanation": "Correct. The matrix has N² = 9 entries: N = 3 on the diagonal are variances, and N² − N = 6 are covariances. These are 3 distinct pairs, each counted twice."
+          },
+          {
+            "text": "6 variance terms and 3 covariance terms",
+            "value": null,
+            "explanation": "This reverses the counts. Variances are only the diagonal entries, so there are N of them, and covariances are the N² − N off-diagonal entries."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the formula for two-asset portfolio standard deviation using correlation?",
+        "back": "$\\sigma_p=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2}$. Square the weights, include the factor of 2 on the interaction term, and take the square root last.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-rec06:1:0"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "When does portfolio SD equal the weighted average of the assets' SDs?",
+        "back": "Only when the assets are perfectly positively correlated ($\\rho=+1$). For any lower correlation, portfolio SD is below that weighted average.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5",
+          "flatworld-finance-for-managers:182:131"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you convert correlation to covariance?",
+        "back": "$\\text{Cov}_{12}=\\rho_{12}\\,\\sigma_1\\sigma_2$. Correlation is covariance divided by the product of the two SDs.",
+        "cited_chunk_ids": [
+          "sharpe-pension-risk-budget:1:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "In the N-asset variance double sum, how many variance and covariance terms are there?",
+        "back": "$N$ variance terms and $N^2-N$ covariance terms. Each distinct pair appears twice, which is the source of the factor 2 in the two-asset formula.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What are the two-asset portfolio SD at $\\rho=-1$ and at $\\rho=+1$ (long-only)?",
+        "back": "At $\\rho=-1$: $|w_1\\sigma_1-w_2\\sigma_2|$, the lowest possible (zero with exactly offsetting weights). At $\\rho=+1$: $w_1\\sigma_1+w_2\\sigma_2$, the highest.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T21:50:18.064Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-01-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 987,
+      "outputTokens": 586,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007951,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:50:34.117Z",
+      "purpose": "repair",
+      "losId": "portfolio-01-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11584,
+      "outputTokens": 1117,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.035282,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:50:36.979Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-01-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 163,
+      "outputTokens": 290,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003343,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:50:53.037Z",
+      "purpose": "grounding",
+      "losId": "portfolio-01-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 15809,
+      "outputTokens": 1377,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0455572,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0921332
+}

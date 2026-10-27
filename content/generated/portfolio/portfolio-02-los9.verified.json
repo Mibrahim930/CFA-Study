@@ -1,0 +1,847 @@
+{
+  "losId": "portfolio-02-los9",
+  "losText": "calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen's alpha",
+  "moduleId": "portfolio-02",
+  "moduleTitle": "Portfolio Risk and Return: Part II",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:54:15.410Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00096:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Applications in Performance Measurement",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-active-management:38:14",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 38–41",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=38",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Treynor Measurement of Performance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-alt-primer:150:182",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 150–151",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=150",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Jensen’s Alpha",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:90:91",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 90",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=90",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00096:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.4 Applications in Performance Measurement — Sharpe Ratio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-4-applications-in-performance-measurement",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:89:90",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 89–90",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=89",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:151:183",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 151–152",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=151",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-active-management:8:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 8–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=8",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Four Ways to Grade a Portfolio Manager on a Risk-Adjusted Basis",
+      "summary": "A high return means little unless you know how much risk was taken to earn it. Sharpe ratio, Treynor ratio, M² and Jensen's alpha each adjust performance for risk in a different way, and the exam expects you to calculate all four and say what each one tells you.",
+      "sections": [
+        {
+          "heading": "Why raw return is not enough",
+          "body_markdown": "Imagine two delivery drivers who each finished a route in 60 minutes. One drove on a quiet road; the other weaved through a storm. The finishing time alone hides how hard the journey was. Portfolios are the same: a manager who earned 16% by taking huge risk may be worse than one who earned 12% with modest risk.\n\nAll four measures start from the **risk premium** (also called **excess return**): the portfolio return $R_p$ minus the **risk-free rate** $R_f$, the return on a safe asset such as a short-term government bill. This is the reward for bearing risk. The measures differ in how they define *risk*: total volatility, or only market-related (systematic) risk."
+        },
+        {
+          "heading": "Sharpe and Treynor: reward per unit of risk",
+          "body_markdown": "The **Sharpe ratio** divides the risk premium by the **standard deviation** of portfolio returns, $\\sigma_p$, which is a measure of *total* risk:\n\n$$\\text{Sharpe}=\\frac{R_p-R_f}{\\sigma_p}$$\n\nThe **Treynor ratio** divides the same premium by the portfolio's **beta**, $\\beta_p$, its sensitivity to market movements, which is *systematic* risk only:\n\n$$\\text{Treynor}=\\frac{R_p-R_f}{\\beta_p}$$\n\nSharpe asks 'how much extra return per unit of total ups and downs?' Treynor asks 'how much extra return per unit of market exposure?'. Both are **relative** measures: a Sharpe ratio of 0.8 is neither good nor bad until you compare it with other portfolios or a benchmark. Higher is better.\n\nChoosing between them: use Sharpe when the portfolio is the investor's whole holding, because all its risk matters. Use Treynor when the portfolio is one piece of a larger, well-diversified holding, because the nonsystematic risk will be diversified away by the other pieces."
+        },
+        {
+          "heading": "M²: Sharpe expressed as a return",
+          "body_markdown": "Sharpe ratios are hard to feel intuitively. **M²** (M-squared, the Modigliani–Modigliani measure) converts the Sharpe ratio into a return gap against the market.\n\nIdea: mix the portfolio with the risk-free asset (or borrow at the risk-free rate to lever it) until its standard deviation equals the market's. Then compare the two returns directly, since the risk is now the same.\n\n$$M^2=R_f+\\frac{R_p-R_f}{\\sigma_p}\\,\\sigma_M-R_M$$\n\nThe middle term is the Sharpe ratio times the market's standard deviation $\\sigma_M$. A positive M² means the portfolio beat the market at equal total risk. Because M² is just a straight-line transformation of the Sharpe ratio (same market, same $R_f$), **it always ranks portfolios in the same order as Sharpe**. It is expressed in percent, so it is easier to interpret."
+        },
+        {
+          "heading": "Jensen's alpha: the absolute verdict",
+          "body_markdown": "The **capital asset pricing model (CAPM)** gives the return a portfolio should earn for its beta: $R_f+\\beta_p(R_M-R_f)$. **Jensen's alpha** is the actual return minus that expected return:\n\n$$\\alpha_p=R_p-\\left[R_f+\\beta_p\\,(R_M-R_f)\\right]$$\n\nUnlike Sharpe and Treynor, alpha is meaningful in an **absolute** sense. Positive alpha means the portfolio earned more than its systematic risk justified. Zero means it earned exactly what was expected. Negative means it fell short. On a graph of return against beta, alpha is the vertical distance of the portfolio above or below the security market line.\n\nKeep the cousins apart: Sharpe and M² use total risk (standard deviation); Treynor and Jensen use systematic risk (beta). Treynor is a ratio, Jensen is a return difference."
+        }
+      ],
+      "worked_example": {
+        "problem": "Over the review period, Fund X earned an average return of 14% with a standard deviation of 20% and a beta of 1.2. The risk-free rate was 3%. The market index returned 10% with a standard deviation of 15%. Compute Fund X's Sharpe ratio, Treynor ratio, M² and Jensen's alpha.",
+        "steps": [
+          "Risk premium: $14\\%-3\\%=11\\%$. On the BA II Plus: 14 − 3 = gives 11.",
+          "Sharpe ratio: $11\\%/20\\%$. Keystrokes: 11 ÷ 20 = gives 0.55.",
+          "Treynor ratio: $11\\%/1.2$. Keystrokes: 11 ÷ 1.2 = gives 9.17 (that is 9.17% per unit of beta).",
+          "M²: scale the Sharpe ratio to market risk: $0.55\\times15\\%=8.25\\%$. Add the risk-free rate: $3\\%+8.25\\%=11.25\\%$. Subtract the market return: $11.25\\%-10\\%=1.25\\%$.",
+          "Jensen's alpha: CAPM expected return $=3\\%+1.2\\times(10\\%-3\\%)=3\\%+8.4\\%=11.4\\%$. Alpha $=14\\%-11.4\\%=2.6\\%$.",
+          "Interpretation: the positive M² and alpha show Fund X beat the market on a risk-adjusted basis, by 1.25% at equal total risk and by 2.6% given its beta."
+        ],
+        "answer": "Sharpe = 0.55; Treynor = 9.17% per unit of beta; M² = 1.25%; Jensen's alpha = 2.6%.",
+        "answer_value": 0.55,
+        "calc_spec": {
+          "fn": "sharpeRatio",
+          "args_json": "{\"rp\":0.14,\"rf\":0.03,\"sdp\":0.2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Sharpe ratio",
+          "latex": "\\text{Sharpe}=\\frac{R_p-R_f}{\\sigma_p}",
+          "where": "$R_p$ = portfolio return, $R_f$ = risk-free rate, $\\sigma_p$ = standard deviation of portfolio returns."
+        },
+        {
+          "name": "Treynor ratio",
+          "latex": "\\text{Treynor}=\\frac{R_p-R_f}{\\beta_p}",
+          "where": "$R_p$ = portfolio return, $R_f$ = risk-free rate, $\\beta_p$ = portfolio beta."
+        },
+        {
+          "name": "M-squared",
+          "latex": "M^2=R_f+\\frac{R_p-R_f}{\\sigma_p}\\,\\sigma_M-R_M",
+          "where": "$R_f$ = risk-free rate, $R_p$ = portfolio return, $\\sigma_p$ = portfolio standard deviation, $\\sigma_M$ = market standard deviation, $R_M$ = market return."
+        },
+        {
+          "name": "Jensen's alpha",
+          "latex": "\\alpha_p=R_p-\\left[R_f+\\beta_p(R_M-R_f)\\right]",
+          "where": "$R_p$ = portfolio return, $R_f$ = risk-free rate, $\\beta_p$ = portfolio beta, $R_M$ = market return."
+        }
+      ],
+      "exam_traps": [
+        "Forgetting to subtract the risk-free rate in the numerator of Sharpe or Treynor (dividing the raw return instead of the excess return).",
+        "Mixing up denominators: Sharpe uses standard deviation (total risk), Treynor uses beta (systematic risk).",
+        "In Jensen's alpha, multiplying beta by the market return instead of by the market risk premium $(R_M-R_f)$.",
+        "Computing M² as the portfolio's adjusted return and stopping there; the final step is to subtract the market return $R_M$.",
+        "Treating Sharpe or Treynor as good or bad in isolation. They only rank portfolios; only alpha (and M²) is read against zero."
+      ],
+      "builds_on": [
+        "Risk premium and risk-free rate",
+        "Standard deviation as total risk",
+        "Beta and systematic risk",
+        "CAPM and the security market line"
+      ],
+      "leads_to": [
+        "Performance evaluation of managers",
+        "Appraisal ratio and active management",
+        "Portfolio performance attribution"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00096:0",
+        "os:principles-finance-2e:m00096:1",
+        "os:principles-finance-2e:m00096:2",
+        "os:principles-finance-2e:m00096:3",
+        "cfa-rf-alt-primer:150:182"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A portfolio earned an average return of 12% with a standard deviation of 18%. The risk-free rate is 3%. What is the portfolio's Sharpe ratio, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.67",
+            "value": 0.67,
+            "explanation": "Mistake: dividing the raw return (12%) by the standard deviation, forgetting to subtract the risk-free rate."
+          },
+          {
+            "text": "0.50",
+            "value": 0.5,
+            "explanation": "Correct: (12% − 3%) / 18% = 9% / 18% = 0.50."
+          },
+          {
+            "text": "0.17",
+            "value": 0.17,
+            "explanation": "Mistake: dividing the risk-free rate (3%) by the standard deviation instead of the excess return."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "sharpeRatio",
+          "args_json": "{\"rp\":0.12,\"rf\":0.03,\"sdp\":0.18}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A fund returned 11% with a standard deviation of 12% over the period. The risk-free rate was 2%. What is its Sharpe ratio, rounded to two decimals?",
+        "options": [
+          {
+            "text": "0.92",
+            "value": 0.92,
+            "explanation": "Mistake: using the raw return 11% instead of the 9% excess return in the numerator."
+          },
+          {
+            "text": "1.33",
+            "value": 1.33,
+            "explanation": "Mistake: inverting the ratio (risk divided by reward: 12% / 9%)."
+          },
+          {
+            "text": "0.75",
+            "value": 0.75,
+            "explanation": "Correct: (11% − 2%) / 12% = 9% / 12% = 0.75."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "sharpeRatio",
+          "args_json": "{\"rp\":0.11,\"rf\":0.02,\"sdp\":0.12}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio earned 9% with a standard deviation of 12% and a beta of 0.8. The risk-free rate was 2%. What is its Treynor ratio?",
+        "options": [
+          {
+            "text": "8.75% per unit of beta",
+            "value": null,
+            "explanation": "Correct: (9% − 2%) / 0.8 = 7% / 0.8 = 8.75%."
+          },
+          {
+            "text": "5.83% per unit of beta",
+            "value": null,
+            "explanation": "Mistake: dividing the excess return by the standard deviation (12%). That is the Sharpe ratio, not Treynor."
+          },
+          {
+            "text": "11.25% per unit of beta",
+            "value": null,
+            "explanation": "Mistake: dividing the raw return (9%) by beta without subtracting the risk-free rate."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio returned 11% with a beta of 1.2. The risk-free rate was 3% and the market returned 9%. Using Jensen's measure, what is the portfolio's alpha?",
+        "options": [
+          {
+            "text": "2.0%",
+            "value": null,
+            "explanation": "Mistake: subtracting the market return (11% − 9%) and ignoring beta and the risk-free rate."
+          },
+          {
+            "text": "0.8%",
+            "value": null,
+            "explanation": "Correct: expected return = 3% + 1.2 × (9% − 3%) = 10.2%; alpha = 11% − 10.2% = 0.8%."
+          },
+          {
+            "text": "−2.8%",
+            "value": null,
+            "explanation": "Mistake: multiplying beta by the full market return rather than the market risk premium, giving an expected return of 3% + 1.2 × 9% = 13.8%."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A portfolio earned 12% with a standard deviation of 20%. The risk-free rate is 2%. The market earned 9% with a standard deviation of 15%. What is the portfolio's M²?",
+        "options": [
+          {
+            "text": "9.5%",
+            "value": null,
+            "explanation": "Mistake: stopping after computing the risk-matched portfolio return (2% + 0.5 × 15%) and forgetting to subtract the market return."
+          },
+          {
+            "text": "6.3%",
+            "value": null,
+            "explanation": "Mistake: scaling by σp/σM (20/15) instead of σM/σp, which levers the wrong way: 2% + 10% × 20/15 − 9% ≈ 6.3%."
+          },
+          {
+            "text": "0.5%",
+            "value": null,
+            "explanation": "Correct: Sharpe = 10% / 20% = 0.5; risk-matched return = 2% + 0.5 × 15% = 9.5%; M² = 9.5% − 9% = 0.5%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Sharpe = 10/20 = 0.5; M² return = 2 + 0.5*15 = 9.5%; M² = 9.5 - 9 = 0.5%... checking the options: M² as the difference is 0.5%, which matches option C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A pension fund hires many managers. One manager's portfolio is only one slice of the fund's total assets, and the other slices will diversify away that manager's nonsystematic risk. Which measure is the better fit for judging that manager's slice?",
+        "options": [
+          {
+            "text": "Sharpe ratio, because standard deviation captures the risk left over once the other slices are combined",
+            "value": null,
+            "explanation": "Mistake: standard deviation includes nonsystematic risk, which the other slices diversify away, so it overstates the risk that matters."
+          },
+          {
+            "text": "Sharpe ratio, because it is the only measure that compares return with the risk-free rate",
+            "value": null,
+            "explanation": "Mistake: all four measures use the risk-free rate (directly or via CAPM); that is not what separates them."
+          },
+          {
+            "text": "Treynor ratio, because beta captures the market-related risk that remains once the other slices are combined",
+            "value": null,
+            "explanation": "Correct: when a portfolio is one part of a well-diversified whole, only systematic risk (beta) matters, so Treynor fits."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:150:182",
+          "os:principles-finance-2e:m00096:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Several portfolios are evaluated against the same market index and the same risk-free rate. Which statement about the rankings is correct?",
+        "options": [
+          {
+            "text": "M² and the Sharpe ratio always rank the portfolios identically.",
+            "value": null,
+            "explanation": "Correct: M² = R_f + Sharpe × σ_M − R_M. With the same market inputs, M² rises one-for-one with Sharpe, so the order cannot change."
+          },
+          {
+            "text": "The Treynor ratio and the Sharpe ratio always rank the portfolios identically.",
+            "value": null,
+            "explanation": "Mistake: Treynor uses beta and Sharpe uses standard deviation. Portfolios with different amounts of nonsystematic risk can rank differently."
+          },
+          {
+            "text": "Jensen's alpha and M² always rank the portfolios identically.",
+            "value": null,
+            "explanation": "Mistake: alpha uses beta (systematic risk) while M² uses total risk, so the rankings can differ."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A manager's portfolio has a Jensen's alpha of −0.4% and a beta of 1.6. Which interpretation is correct?",
+        "options": [
+          {
+            "text": "The portfolio lost 0.4% in value over the period.",
+            "value": null,
+            "explanation": "Mistake: alpha is a return relative to the CAPM benchmark, not the portfolio's raw return; the portfolio could have gained overall."
+          },
+          {
+            "text": "The portfolio earned 0.4 percentage points less than CAPM predicts for a beta of 1.6.",
+            "value": null,
+            "explanation": "Correct: alpha is actual return minus CAPM-required return, so a negative value means underperformance relative to the risk taken."
+          },
+          {
+            "text": "The portfolio earned 0.4 percentage points less than the risk-free rate.",
+            "value": null,
+            "explanation": "Mistake: alpha is measured against the CAPM expected return (which includes beta times the market premium), not against the risk-free rate."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:2",
+          "os:principles-finance-2e:m00096:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between the Sharpe ratio and the Treynor ratio?",
+        "back": "Both divide the risk premium (R_p − R_f) by a risk measure. Sharpe uses standard deviation (total risk); Treynor uses beta (systematic risk only).",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:1",
+          "cfa-rf-alt-primer:150:182"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How is Jensen's alpha calculated and how is it read?",
+        "back": "α = R_p − [R_f + β_p(R_M − R_f)]. Positive means the portfolio beat its CAPM-required return, zero means it matched it, negative means it fell short.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What does M² measure and what is its formula?",
+        "back": "The return gap versus the market after adjusting the portfolio to the market's total risk: M² = R_f + Sharpe × σ_M − R_M. It ranks portfolios the same as Sharpe.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Which of the four measures are 'relative' and which are read against zero?",
+        "back": "Sharpe and Treynor are relative: only useful for comparing portfolios or with a benchmark. Jensen's alpha and M² are return differences, read against zero.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00096:1",
+          "os:principles-finance-2e:m00096:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T21:54:07.206Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-02-los9",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 967,
+      "outputTokens": 599,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008041,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:54:15.409Z",
+      "purpose": "grounding",
+      "losId": "portfolio-02-los9",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12582,
+      "outputTokens": 1251,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0378432,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0458842
+}

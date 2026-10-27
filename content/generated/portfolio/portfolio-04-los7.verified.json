@@ -1,0 +1,873 @@
+{
+  "losId": "portfolio-04-los7",
+  "losText": "describe the principles of portfolio construction and the role of asset allocation in relation to the IPS",
+  "moduleId": "portfolio-04",
+  "moduleTitle": "Basics of Portfolio Planning and Construction",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:57:42.879Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-ips-institutional:11:5",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 11–12",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-rf-alt-primer:163:198",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 163–164",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=163",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15433-active-management:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 6–8",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-ips-individual:13:6",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 13–14",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=13",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-etf-module2:30:30",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "p. 30",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=30",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-active-management:36:13",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 36–37",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=36",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-ips-individual:16:9",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:169:205",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 169",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=169",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-active-management:14:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 20: Active Management",
+      "locator": "pp. 14–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/85f4eff20857d0e5e7ff0b5cc80d522f_15433_20a_active_management.pdf#page=14",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-ips-institutional:23:16",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 23–26",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=23",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-etf-module2:29:29",
+      "title": "A Comprehensive Guide to ETFs, 2nd ed., Module 2: Evaluating ETFs (CFA Institute Research Foundation)",
+      "locator": "pp. 29–30",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_etfs_module2_evaluatingetfs_online.pdf#page=29",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "flatworld-individual-finance:381:345",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 381–383",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=381",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Turning an IPS into a Portfolio: Principles of Construction and the Role of Asset Allocation",
+      "summary": "Portfolio construction is the process of turning a client's written objectives and constraints into an actual set of holdings, and asset allocation is the step that links the two. It matters because the mix of asset classes, much more than individual security picks, drives most of the long-run risk and return a client experiences.",
+      "sections": [
+        {
+          "heading": "The chain from client to holdings",
+          "body_markdown": "Think of building a house. The **investment policy statement (IPS)** is the owner's written brief: what the house must do, the budget, the rules. The **asset allocation** is the floor plan: how much space goes to each broad type of room. **Security selection** is choosing the furniture for each room.\n\nPortfolio construction follows the same order:\n\n1. The IPS records the client's return objective, risk tolerance and constraints.\n2. Those inputs are converted into a **strategic asset allocation (SAA)**, a set of long-run target weights for each asset class.\n3. The portfolio is **implemented** by choosing managers, funds or securities within each asset class.\n4. The portfolio is **monitored and rebalanced** back toward the plan as markets move and the client's situation changes.\n\nThe key principle is that the allocation is derived *from* the IPS. It is not chosen first and justified afterward."
+        },
+        {
+          "heading": "Strategic asset allocation: the long-run policy mix",
+          "body_markdown": "The SAA gives a **target weight** for each asset class, usually with an **allowable range** around it (for example, 60% equities, allowed to sit between 55% and 65%). It is built from:\n\n- the client's **return objective** (what the portfolio must earn),\n- the client's **risk tolerance** (how much loss is acceptable and affordable),\n- the **constraints** (liquidity, time horizon, taxes, legal/regulatory limits, unique circumstances),\n- long-run **capital market expectations**: expected returns, volatilities and correlations of the asset classes.\n\nCorrelations matter because combining assets that do not move in lockstep **diversifies**, lowering portfolio risk for a given expected return. A classic simple starting point is a stock/bond mix such as 60/40. Investors with long horizons and high risk tolerance tend to hold more equity, while those with short horizons or tight liquidity needs hold less.\n\nBecause the SAA reflects the client's long-term needs rather than a market forecast, it changes only when the client's circumstances or long-run expectations change."
+        },
+        {
+          "heading": "Where the allocation lives in the IPS",
+          "body_markdown": "The IPS should state who is responsible for the asset allocation and which assumptions feed it. The detailed target weights and ranges are often kept in an **appendix**. Allocations need to be updated as the client or markets change, and an appendix can be revised without redrafting and re-approving the whole IPS.\n\nThe IPS also sets out how the plan is policed: allowable ranges, who monitors them, how often the adviser reports, and when rebalancing happens. So the IPS acts as both the source of the allocation and the rulebook for staying with it."
+        },
+        {
+          "heading": "Tactical tilts, top-down vs bottom-up, and active vs passive",
+          "body_markdown": "**Tactical asset allocation (TAA)** means deliberately and temporarily moving weights away from the strategic targets, within the allowed ranges, to exploit a view on short-term market conditions. The SAA is the anchor; TAA is a bounded departure from it.\n\nTwo styles of decision-making:\n\n- **Top-down:** start with the big asset-class and market decisions, then fill in the securities.\n- **Bottom-up:** start by finding attractive individual securities, then see what portfolio results.\n\nWithin each asset class the manager may be **passive** (tracking a benchmark index) or **active** (trying to beat it through timing, sector emphasis or stock selection). A common blend is **core–satellite**: a low-cost, broadly diversified core (often passive) plus smaller satellite positions that pursue extra return or specific exposures.\n\nQuantitative tools can help set the weights. Mean–variance optimization, risk budgeting and risk parity are examples. Optimizer outputs can be very sensitive to the expected-return inputs, which are hard to estimate, so judgment and sensible limits still matter."
+        },
+        {
+          "heading": "Monitoring and rebalancing",
+          "body_markdown": "Markets move, so actual weights **drift** away from targets. A portfolio that began at 60% equities can end up at 66% after a stock rally, which means it now carries more risk than the IPS intended.\n\n**Rebalancing** means trading back toward the target weights. The IPS should say how this is done, for example on a calendar schedule or whenever a weight leaves its allowable range, and if the policy is *not* to rebalance, that should be written down too. Trading has costs, including commissions and possibly taxes, so the rules balance staying near the target against trading too often.\n\nFinally, the IPS and allocation are reviewed periodically. A change in the client's goals, constraints or risk capacity can justify revising the *strategic* targets, but an ordinary market move is a reason to rebalance, not to change the policy."
+        }
+      ],
+      "worked_example": {
+        "problem": "An IPS sets a strategic allocation of 60% equities and 40% bonds, with an allowable range of 55%–65% for equities. The portfolio starts at $1,000,000 in line with the targets. Over the year, equities gain 30% and bonds are unchanged. (a) What is the equity weight at year-end? (b) Does the IPS range require rebalancing? (c) What trades restore the 60/40 targets, ignoring costs and taxes?",
+        "steps": [
+          "Starting values: equities = 0.60 × 1,000,000 = $600,000; bonds = 0.40 × 1,000,000 = $400,000.",
+          "Year-end values: equities = 600,000 × 1.30 = $780,000; bonds = $400,000 (unchanged). Total = $1,180,000.",
+          "Equity weight = 780,000 ÷ 1,180,000 = 0.6610, or about 66.10%. On the BA II Plus: 780000 ÷ 1180000 = 0.6610.",
+          "Compare with the range: 66.10% is above the 65% upper limit, so the IPS policy triggers rebalancing.",
+          "Target equity value = 0.60 × 1,180,000 = $708,000. Target bond value = 0.40 × 1,180,000 = $472,000.",
+          "Trades: sell 780,000 − 708,000 = $72,000 of equities and buy $72,000 of bonds (472,000 − 400,000 = 72,000). The two amounts match, so the trade is self-financing."
+        ],
+        "answer": "Equity weight is about 66.10%, which breaches the 65% upper limit; sell $72,000 of equities and buy $72,000 of bonds to return to 60/40.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Portfolio weight of asset class i",
+          "latex": "w_i=\\frac{V_i}{\\sum_{j=1}^{N}V_j}",
+          "where": "w_i is the weight of asset class i; V_i is its current market value; the sum in the denominator is the total market value of the portfolio across all N asset classes."
+        },
+        {
+          "name": "Rebalancing trade for asset class i",
+          "latex": "\\text{Trade}_i = w_i^{target}\\times V_{total}-V_i",
+          "where": "w_i^{target} is the strategic target weight; V_{total} is the total portfolio value; V_i is the current value of asset class i. A positive result means buy; a negative result means sell."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up strategic and tactical allocation: strategic is the long-run policy mix tied to the IPS; tactical is a deliberate short-term deviation from it within the ranges.",
+        "Thinking the asset allocation comes first and the IPS is written to match it. The IPS objectives and constraints drive the allocation.",
+        "Treating a market-driven drift as a reason to change the strategic policy. Drift calls for rebalancing; the policy changes only when the client's needs or long-run expectations change.",
+        "Reversing top-down and bottom-up: top-down starts from asset-class or market views, while bottom-up starts from individual security analysis.",
+        "Assuming a quantitative optimizer gives reliable answers on its own. Its weights are very sensitive to the expected-return inputs, which are hard to estimate."
+      ],
+      "builds_on": [
+        "Components of an IPS",
+        "Risk and return objectives",
+        "Investment constraints",
+        "Asset class specification",
+        "Diversification and correlation"
+      ],
+      "leads_to": [
+        "Strategic vs tactical asset allocation in practice",
+        "Rebalancing policies",
+        "Active vs passive management",
+        "ESG integration in portfolio construction"
+      ],
+      "cited_chunk_ids": [
+        "cfa-ips-institutional:11:5",
+        "cfa-ips-individual:13:6",
+        "cfa-ips-individual:16:9",
+        "cfa-ips-institutional:23:16",
+        "mit-ocw-15433-active-management:6:1",
+        "cfa-rf-alt-primer:163:198",
+        "cfa-rf-etf-module2:30:30",
+        "mit-ocw-15433-active-management:14:4"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes how a strategic asset allocation relates to a client's investment policy statement (IPS)?",
+        "options": [
+          {
+            "text": "It is chosen from current market forecasts, and the IPS is written afterward to document it.",
+            "value": null,
+            "explanation": "Reverses the order. The allocation is derived from the IPS objectives and constraints, not the other way round."
+          },
+          {
+            "text": "It converts the IPS return objective, risk tolerance and constraints into long-run target weights.",
+            "value": null,
+            "explanation": "Correct. The strategic allocation is the long-run mix built from what the IPS says the client needs and can bear."
+          },
+          {
+            "text": "It lists the specific securities the manager must buy within each asset class.",
+            "value": null,
+            "explanation": "Confuses asset allocation with security selection. The allocation sets asset-class weights, not individual holdings."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-individual:13:6",
+          "cfa-ips-institutional:11:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio manager temporarily raises the equity weight a few percentage points above the strategic target, staying inside the allowable range, because of a short-term market view. This is best described as:",
+        "options": [
+          {
+            "text": "rebalancing to the strategic target",
+            "value": null,
+            "explanation": "Rebalancing moves weights back toward the target. Here the manager is moving away from it."
+          },
+          {
+            "text": "a revision of the strategic asset allocation",
+            "value": null,
+            "explanation": "A strategic revision is a lasting change to the policy because the client's needs or long-run expectations changed, not a temporary view."
+          },
+          {
+            "text": "tactical asset allocation",
+            "value": null,
+            "explanation": "Correct. Tactical asset allocation is a deliberate, temporary deviation from strategic weights, within permitted ranges, to act on a short-term view."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:6:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A manager first decides how much to hold in each asset class and market based on macro views, and only afterward picks securities to fill those allocations. This approach is best described as:",
+        "options": [
+          {
+            "text": "top-down",
+            "value": null,
+            "explanation": "Correct. Top-down starts with broad asset-class and market decisions, then selects securities within them."
+          },
+          {
+            "text": "bottom-up",
+            "value": null,
+            "explanation": "Reverses the terms. Bottom-up starts from analysis of individual securities and lets the portfolio result from those choices."
+          },
+          {
+            "text": "core–satellite",
+            "value": null,
+            "explanation": "Core–satellite describes combining a diversified core with smaller, more actively managed positions. It does not describe the order of decisions."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:6:1",
+          "cfa-rf-etf-module2:30:30"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An IPS says the asset allocation plan is attached as an appendix, while the main document addresses the assumptions behind the plan. What is the main practical advantage of this structure?",
+        "options": [
+          {
+            "text": "The allocation can be set once and never reviewed, because the main document already covers it.",
+            "value": null,
+            "explanation": "Wrong. Allocation policies are meant to be reviewed and may change as the client or markets change."
+          },
+          {
+            "text": "The allocation can be revised without redrafting and re-approving the whole IPS.",
+            "value": null,
+            "explanation": "Correct. Allocations change over time, and an appendix lets them be updated while the core IPS stays stable."
+          },
+          {
+            "text": "The adviser can change the targets at any time without client or trustee approval.",
+            "value": null,
+            "explanation": "Wrong. The appendix is still part of the policy framework, and changes follow the approval process set out in the IPS."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:11:5",
+          "cfa-ips-individual:13:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An IPS targets 60% equities and 40% bonds, with an allowable equity range of 55%–65%. After a rally, equities make up 66.1% of the portfolio. Which action is most consistent with the IPS?",
+        "options": [
+          {
+            "text": "Sell bonds and buy equities so the portfolio keeps up with the market.",
+            "value": null,
+            "explanation": "Wrong direction. This would push equities even further above the target and further outside the range."
+          },
+          {
+            "text": "Raise the strategic equity target to 66% so the portfolio is back on target.",
+            "value": null,
+            "explanation": "Rewrites the policy to match drift. A market move is a reason to rebalance, not to change the strategic targets."
+          },
+          {
+            "text": "Sell some equities and buy bonds to bring the equity weight back toward 60%.",
+            "value": null,
+            "explanation": "Correct. The weight is outside its range, so the policy calls for trading back toward the target."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:23:16",
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A mean–variance optimizer produces an allocation that looks extreme and unrelated to the investor's views. Which feature of such models most likely explains this?",
+        "options": [
+          {
+            "text": "The weights are very sensitive to expected-return inputs, which are hard to estimate for every asset.",
+            "value": null,
+            "explanation": "Correct. Small changes in return assumptions can swing the optimal weights sharply, so the output often looks unreasonable."
+          },
+          {
+            "text": "The model ignores correlations and uses only expected returns, so diversification is never captured.",
+            "value": null,
+            "explanation": "Wrong. Mean–variance optimization explicitly uses volatilities and correlations; the problem lies in input sensitivity."
+          },
+          {
+            "text": "The model sets each asset class's weight equal to the inverse of its volatility, over-weighting equities.",
+            "value": null,
+            "explanation": "Describes a naive inverse-volatility rule, not mean–variance optimization, and such rules tend to favor low-risk assets rather than equities."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:14:4",
+          "cfa-rf-alt-primer:169:205"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "In a core–satellite portfolio, which description of the core and satellite portions is most accurate?",
+        "options": [
+          {
+            "text": "The core holds the most speculative positions, and the satellites hold the diversified market exposure.",
+            "value": null,
+            "explanation": "Reversed. The core is the stable, diversified foundation, and the satellites carry the more specialized or active positions."
+          },
+          {
+            "text": "The core is a broadly diversified, usually low-cost base; the satellites are smaller positions seeking extra return or targeted exposures.",
+            "value": null,
+            "explanation": "Correct. The core supplies broad diversification at low cost, and the satellites add active or specialist exposures around it."
+          },
+          {
+            "text": "The core and satellites must use the same manager and the same benchmark so that risk is identical.",
+            "value": null,
+            "explanation": "No such rule exists. Satellites usually differ from the core in manager, style and benchmark."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-etf-module2:30:30",
+          "cfa-rf-etf-module2:29:29"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about rebalancing policy in an IPS is most accurate?",
+        "options": [
+          {
+            "text": "The IPS should document the boundaries or triggers for rebalancing, or state that the policy is not to rebalance.",
+            "value": null,
+            "explanation": "Correct. Whatever the approach, it should be written down so that adviser and client share the same expectations."
+          },
+          {
+            "text": "Rebalancing is a purely operational matter that should be left out of the IPS.",
+            "value": null,
+            "explanation": "Wrong. Rebalancing rules and allowable ranges are part of how the IPS keeps risk near its intended level."
+          },
+          {
+            "text": "Rebalancing must occur every time any asset class moves away from its target by any amount.",
+            "value": null,
+            "explanation": "Ignores trading costs and taxes. Policies usually use calendar dates or tolerance ranges rather than constant trading."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:23:16",
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is a strategic asset allocation (SAA)?",
+        "back": "The long-run target mix across asset classes (with allowable ranges), built from the IPS return objective, risk tolerance and constraints plus long-run expectations for returns, volatilities and correlations.",
+        "cited_chunk_ids": [
+          "cfa-ips-individual:13:6",
+          "cfa-ips-institutional:11:5"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How does tactical asset allocation differ from strategic asset allocation?",
+        "back": "Strategic is the long-run policy mix; tactical is a deliberate, temporary deviation from it, within permitted ranges, to act on a short-term market view.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:6:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Top-down vs bottom-up portfolio construction?",
+        "back": "Top-down starts with asset-class and market decisions and then selects securities. Bottom-up starts with individual security analysis and lets the portfolio follow.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-active-management:6:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why does an IPS often keep the asset allocation in an appendix?",
+        "back": "Allocations change as the client's situation and markets change, and an appendix can be revised without redrafting and re-approving the whole IPS. The IPS still states the assumptions behind it.",
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:11:5",
+          "cfa-ips-individual:13:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What should an IPS say about rebalancing?",
+        "back": "It should document how weights are brought back toward targets, such as allowable ranges or trigger points, or state explicitly that the policy is not to rebalance.",
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:23:16"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "2/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T21:57:31.339Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-04-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1087,
+      "outputTokens": 562,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007911,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:57:42.878Z",
+      "purpose": "grounding",
+      "losId": "portfolio-04-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14110,
+      "outputTokens": 1580,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0441892,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0521002
+}

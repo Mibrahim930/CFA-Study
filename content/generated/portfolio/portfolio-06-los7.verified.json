@@ -1,0 +1,882 @@
+{
+  "losId": "portfolio-06-los7",
+  "losText": "describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods",
+  "moduleId": "portfolio-06",
+  "moduleTitle": "Introduction to Risk Management",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:00:35.590Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-risk-mgmt-derivatives:110:111",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 110–111",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=110",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-alt-primer:107:130",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 107",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=107",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:176:168",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 176–177",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=176",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:22",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:148:143",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 148–149",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=148",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:44:47",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 44–45",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=44",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:227:226",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 227–229",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=227",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:170:162",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 170–171",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=170",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:108:132",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 108–109",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=108",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15433-riskmanagement:19:7",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 19–22",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:303:305",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 303–304",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=303",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:175:174",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 175–177",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=175",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Measuring Risk and Choosing How to Change It",
+      "summary": "Risk managers first quantify how exposed a portfolio or firm is, using tools such as beta, duration, the option Greeks, value at risk and stress tests. They then change that exposure by avoiding, accepting, transferring or shifting risk, picking the method that fits cost, risk tolerance and side effects.",
+      "sections": [
+        {
+          "heading": "Measure first, then steer",
+          "body_markdown": "Think of driving at night. The dashboard (speed, fuel) tells you where you are, and the steering wheel and pedals change it. Risk management works the same way. **Measurement** tells you how much exposure you have and to what. **Modification** is what you do when that exposure is not what you want.\n\nNo single measure tells the whole story, so practitioners combine several. A good measurement system should also add up exposures across desks, products and regions, and should support stress testing."
+        },
+        {
+          "heading": "Measuring exposures to market factors",
+          "body_markdown": "**Linear measures.** For a plain long-only portfolio of stocks and bonds, a change in the market moves the portfolio roughly proportionally. Two measures cover most of this:\n- **Beta** is a stock or portfolio's sensitivity to the equity market.\n- **Duration** is a bond's sensitivity to interest rates.\n\n**Nonlinear exposures and the Greeks.** Options (and portfolios holding them) do not respond proportionally, so extra measures are needed:\n- **Delta** is the change in a position's value for a $1 change in the underlying. A share has delta $+1$, a short position has $-1$, a long call has delta between 0 and $+1$, and a long put has delta between $-1$ and 0. Long calls and **short puts** add positive delta. Long puts and short calls add negative delta.\n- **Gamma** is how fast delta itself changes as the underlying moves. Long options give positive (long) gamma: delta rises as the market rises and falls as it falls, so large moves help. Short options give negative gamma: large moves hurt, with small profits in quiet markets.\n- **Vega** is sensitivity to the volatility of the underlying. Long options have positive vega and short options have negative vega.\n\n**Aggregation.** Position-level Greeks can be added up (weighted by position size) into a portfolio delta, gamma and vega. Portfolio delta shows the net directional bet. It is only reliable for small moves, because gamma means delta changes as prices move."
+        },
+        {
+          "heading": "Measuring losses: VaR, tail measures and stress tests",
+          "body_markdown": "**Value at risk (VaR)** is a loss threshold for a stated horizon and probability. A one-day 5% VaR of $1 million means that, on 5% of days, losses are expected to be at least $1 million. It is *not* the worst possible loss. There are three common ways to estimate it:\n- **Parametric (variance–covariance):** assumes a return distribution (often normal) and uses volatilities and correlations. The basic version handles option-like (nonlinear) exposures poorly.\n- **Historical simulation:** reprices the whole portfolio using actual past days of market inputs, ranks the resulting portfolio values and reads off the percentile. It makes no distributional assumption (it is *nonparametric*) and keeps real correlations, so it handles options more naturally, but it assumes the past sample represents the future.\n- **Monte Carlo simulation:** generates many random scenarios from a chosen model and reads the percentile from those.\n\n**Conditional VaR (CVaR, expected shortfall)** is the average loss in the cases that are worse than the VaR cutoff, so it speaks to the tail that VaR ignores.\n\n**Scenario analysis and stress tests** ask 'what if?' Examples are a historical crisis replayed, or a hypothetical yield-curve twist. They reveal how risks interact (for example, credit quality and liquidity worsening together), which a single VaR figure can miss. Good stress tests are reasonable, run often enough, consider connected risks, and are reported to senior management and the board."
+        },
+        {
+          "heading": "Modifying exposures",
+          "body_markdown": "Once measured, an exposure can be handled in four broad ways:\n1. **Avoid or prevent:** do not take the risk at all (stay out of the activity or market). Avoiding one risk may create another, like choosing to drive instead of fly.\n2. **Accept:** keep the risk. This may be passive, or active such as **self-insuring** (retaining losses up to a limit) or **diversifying** to reduce exposure.\n3. **Transfer:** move the risk of loss to another party, typically by buying **insurance**, which works by pooling many exposures. You pay a premium and the insurer bears the loss.\n4. **Shift:** change the *distribution* of outcomes, typically with **derivatives**. A forward contract can lock in a price, removing both bad and good outcomes. Futures or options can move portfolio delta to a target.\n\nExample of shifting: if an asset allocator wants less directional equity exposure, selling index futures lowers portfolio delta without selling the underlying holdings."
+        },
+        {
+          "heading": "Choosing among methods",
+          "body_markdown": "No method is best in every case. Typical decision factors are:\n- **Cost versus benefit:** premiums, hedging costs and giving up upside versus the reduction in risk.\n- **Risk tolerance and risk budget:** is the exposure within what the organization is willing and able to bear? If yes, accepting may be fine.\n- **Is it a risk worth taking?** Risks that the firm is paid to take (and that fit its expertise) may be retained, while incidental risks are better removed.\n- **Effectiveness and residual risk:** how closely does the hedge track the exposure, and how large are the leftovers?\n- **Side effects:** a fix can create new risks. Derivatives add counterparty credit and liquidity risk, and early termination clauses can reduce credit risk while raising liquidity and price risk. Changing factor exposures can push a manager out of their preferred style.\n- **Measurability and monitoring:** the more complex the exposure, the more sophisticated the measurement and reporting must be."
+        }
+      ],
+      "worked_example": {
+        "problem": "A portfolio holds 50,000 shares of a stock (delta +1.0 per share), 100 long call contracts and 40 short put contracts on that stock. Each option contract covers 100 shares. The call delta is +0.60 and the put delta is -0.40. Single-stock futures each cover 100 shares and have a delta of about +1.0 per share. The manager wants the net position to behave like 20,000 shares. How many futures contracts must be sold?",
+        "steps": [
+          "Express every position in share-equivalents (delta × shares). Stock: 50,000 × 1.0 = +50,000.",
+          "Long calls: 100 contracts × 100 shares = 10,000 shares; 10,000 × 0.60 = +6,000.",
+          "Short puts: 40 × 100 = 4,000 shares. A long put has delta -0.40, so being short it gives -(-0.40) × 4,000 = +1,600.",
+          "Portfolio delta = 50,000 + 6,000 + 1,600 = +57,600 share-equivalents.",
+          "Required reduction = 57,600 - 20,000 = 37,600 share-equivalents.",
+          "Each short futures contract has delta of about -100 share-equivalents (100 shares × 1.0). Contracts to sell = 37,600 / 100 = 376.",
+          "No financial-calculator keystrokes are needed here. Remember the hedge is accurate only for small moves, because gamma will change the option deltas as the stock moves."
+        ],
+        "answer": "Sell 376 futures contracts (portfolio delta falls from +57,600 to +20,000 share-equivalents).",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Portfolio delta (share-equivalents)",
+          "latex": "\\Delta_P=\\sum_i n_i\\,\\Delta_i",
+          "where": "$\\Delta_P$ is portfolio delta, $n_i$ is the number of units (shares or option-underlying shares, negative if short) in position $i$, and $\\Delta_i$ is the delta per unit of position $i$."
+        },
+        {
+          "name": "Approximate option price change",
+          "latex": "\\Delta V\\approx \\delta\\times\\Delta S",
+          "where": "$\\Delta V$ is the change in the option value, $\\delta$ is the option's delta, and $\\Delta S$ is the small change in the underlying price."
+        },
+        {
+          "name": "Futures needed to reach a target delta",
+          "latex": "N=\\frac{\\Delta_{target}-\\Delta_P}{\\Delta_f\\times s}",
+          "where": "$N$ is the number of futures contracts (negative means sell), $\\Delta_{target}$ is the desired delta, $\\Delta_P$ is the current delta, $\\Delta_f$ is the futures delta per unit (about 1), and $s$ is the number of units in one contract."
+        },
+        {
+          "name": "Value at risk definition",
+          "latex": "P(\\text{Loss}\\ge \\text{VaR}_{\\alpha})=\\alpha",
+          "where": "$\\alpha$ is the chosen probability (such as 5% or 1%) over a stated horizon, and Loss is the portfolio loss over that horizon."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up risk transfer (insurance moves the loss to a third party) with risk shifting (derivatives change the distribution of outcomes, often giving up gains too).",
+        "Reading VaR as the maximum possible loss. It is only a threshold exceeded with a stated probability, and says nothing about how bad losses beyond it can be.",
+        "Getting delta signs wrong: a short put has positive delta, and a long put has negative delta.",
+        "Treating portfolio delta as constant. For larger moves, gamma changes delta, so hedges need rebalancing, and net short gamma means large moves cause losses.",
+        "Assuming a hedge or insurance removes risk entirely. Derivatives bring counterparty, liquidity and basis risk, and avoiding one risk can create another.",
+        "Thinking historical simulation assumes normal returns. It is nonparametric, but it assumes the past sample is representative of the future."
+      ],
+      "builds_on": [
+        "Risk tolerance and risk budgeting",
+        "Sources of financial and non-financial risk",
+        "Beta and duration as sensitivity measures",
+        "Basic option and futures payoffs"
+      ],
+      "leads_to": [
+        "Derivative-based hedging strategies",
+        "Portfolio performance and risk-adjusted measures",
+        "Active risk and factor exposure management"
+      ],
+      "cited_chunk_ids": [
+        "cfa-rf-alt-primer:107:130",
+        "cfa-rf-alt-primer:108:132",
+        "occ-risk-mgmt-derivatives:170:162",
+        "occ-risk-mgmt-derivatives:110:111",
+        "occ-risk-mgmt-derivatives:176:168",
+        "occ-risk-mgmt-derivatives:44:47",
+        "flatworld-enterprise-and-individual-risk-management:227:226",
+        "flatworld-enterprise-and-individual-risk-management:175:174",
+        "sharpe-pension-risk-budget:1:22"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A food manufacturer enters a forward contract to fix the price of wheat it will buy in six months. This removes the harm from a price rise and also the benefit from a price fall. How is this method of modifying risk best classified?",
+        "options": [
+          {
+            "text": "Risk transfer, because an insurer takes on the loss",
+            "value": null,
+            "explanation": "Confuses risk transfer with shifting. Transfer means passing the loss to an insurer for a premium, not changing the distribution of outcomes with a derivative."
+          },
+          {
+            "text": "Risk shifting, because the distribution of outcomes changes",
+            "value": null,
+            "explanation": "Correct. A derivative alters the range of possible outcomes (gains as well as losses), which is risk shifting."
+          },
+          {
+            "text": "Risk avoidance, because wheat is no longer purchased",
+            "value": null,
+            "explanation": "Mistakes hedging for avoidance. The firm still buys wheat and is exposed to the activity; only its price outcome has been fixed."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:107:130",
+          "flatworld-enterprise-and-individual-risk-management:227:226"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which position contributes negative delta to a portfolio?",
+        "options": [
+          {
+            "text": "A long put option on an equity index",
+            "value": null,
+            "explanation": "Correct. A long put loses value as the underlying rises, so its delta is between -1 and 0."
+          },
+          {
+            "text": "A short put option on an equity index",
+            "value": null,
+            "explanation": "Sign error. Being short a put reverses the put's negative delta, so a short put adds positive delta."
+          },
+          {
+            "text": "A long call option on an equity index",
+            "value": null,
+            "explanation": "A long call gains value as the underlying rises, so it has positive delta, not negative."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:107:130",
+          "cfa-rf-alt-primer:108:132"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio's net gamma is negative because it is mostly short options. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "Delta rises as the market rises, and large moves tend to produce large gains.",
+            "value": null,
+            "explanation": "Describes positive (long) gamma, so the sign is reversed."
+          },
+          {
+            "text": "Gamma measures sensitivity to volatility, so the portfolio loses when volatility falls.",
+            "value": null,
+            "explanation": "Confuses gamma with vega. Gamma is about how delta changes, not exposure to volatility levels."
+          },
+          {
+            "text": "Delta falls as the market rises, and large moves tend to produce large losses.",
+            "value": null,
+            "explanation": "Correct. Negative gamma means delta moves against the portfolio as the market moves, giving small profits in calm markets and a higher chance of large losses."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:108:132"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with the basic variance–covariance approach, which is an advantage of the historical simulation method of estimating VaR for a portfolio containing options?",
+        "options": [
+          {
+            "text": "It looks ahead to market conditions that have never occurred in the data sample.",
+            "value": null,
+            "explanation": "Historical simulation relies only on past observations, so it cannot capture unprecedented conditions."
+          },
+          {
+            "text": "It reprices each instrument with past inputs, so nonlinear exposures are captured without assuming a distribution.",
+            "value": null,
+            "explanation": "Correct. Full repricing with real past data handles option payoffs and keeps actual correlations, and it is nonparametric."
+          },
+          {
+            "text": "It needs no historical data, since returns are drawn from a normal curve.",
+            "value": null,
+            "explanation": "Describes a parametric method. Historical simulation depends heavily on historical data and assumes no normal curve."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:170:162"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A risk committee already reports a daily 1% VaR. Why would it also run scenario analysis and stress tests?",
+        "options": [
+          {
+            "text": "They examine extreme or hypothetical events and connected risks that a single VaR number may not show.",
+            "value": null,
+            "explanation": "Correct. VaR is only a threshold and often rests on historical data, so stress tests add insight on severe, interlinked outcomes."
+          },
+          {
+            "text": "They give a more precise probability for each extreme outcome than VaR does.",
+            "value": null,
+            "explanation": "Stress scenarios are not assigned precise probabilities; that is a weakness of them, not a strength."
+          },
+          {
+            "text": "They remove the need for model assumptions, so VaR can be dropped.",
+            "value": null,
+            "explanation": "Stress tests still depend on assumptions, and they complement VaR rather than replace it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:110:111",
+          "occ-risk-mgmt-derivatives:176:168"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company faces a small, predictable loss exposure. Insurance would cost more than the expected loss, and the potential loss is small relative to its capital and well within its stated risk tolerance. Which action is most appropriate?",
+        "options": [
+          {
+            "text": "Buy insurance to transfer the exposure, since any risk should be transferred.",
+            "value": null,
+            "explanation": "Ignores cost-benefit and risk tolerance. Paying more than the expected loss to protect against a tolerable loss is inefficient."
+          },
+          {
+            "text": "Exit the activity to avoid the risk entirely, whatever the lost revenue.",
+            "value": null,
+            "explanation": "Over-reacts. Avoidance sacrifices the activity's benefits and may create other exposures, and is unneeded when the risk is tolerable."
+          },
+          {
+            "text": "Accept the risk, for example by self-insuring up to a loss limit.",
+            "value": null,
+            "explanation": "Correct. When cost exceeds benefit and the loss is within tolerance, retaining the risk is the sensible choice."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:175:174"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A bank plans to cut its price risk by using derivative hedges. Which consideration is most relevant when choosing this method?",
+        "options": [
+          {
+            "text": "Hedging removes all risk, so monitoring can be reduced afterward.",
+            "value": null,
+            "explanation": "Wrong. Hedges leave residual risk and bring new exposures, so monitoring remains essential."
+          },
+          {
+            "text": "The hedge may add counterparty credit and liquidity risk, so the net effect and cost must be assessed.",
+            "value": null,
+            "explanation": "Correct. Risk-modifying actions can create other risks, so the choice weighs cost, effectiveness and these side effects."
+          },
+          {
+            "text": "The method should be chosen only on the lowest upfront cost.",
+            "value": null,
+            "explanation": "Cost matters, but ignoring effectiveness, risk tolerance and side effects can leave the firm with an unsuitable or riskier position."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:44:47",
+          "sharpe-pension-risk-budget:1:22"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which measure is most appropriate as the main linear gauge of interest-rate sensitivity for an unlevered, long-only bond portfolio?",
+        "options": [
+          {
+            "text": "Duration",
+            "value": null,
+            "explanation": "Correct. Duration is the traditional linear measure of a bond's price sensitivity to interest rates."
+          },
+          {
+            "text": "Vega",
+            "value": null,
+            "explanation": "Vega measures sensitivity to volatility, mainly for options, not to the level of interest rates."
+          },
+          {
+            "text": "Equity beta",
+            "value": null,
+            "explanation": "Beta measures sensitivity to the equity market, so it is the wrong tool for bond interest-rate risk."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:107:130"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the four broad ways to modify a risk exposure?",
+        "back": "Avoid/prevent, accept (including self-insurance and diversification), transfer (for example insurance), and shift (change the outcome distribution, for example with derivatives).",
+        "cited_chunk_ids": [
+          "flatworld-enterprise-and-individual-risk-management:227:226",
+          "flatworld-enterprise-and-individual-risk-management:175:174"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What do delta and gamma each measure?",
+        "back": "Delta is the change in a position's value per $1 change in the underlying. Gamma is how much delta changes as the underlying moves, so it captures exposure to large moves.",
+        "cited_chunk_ids": [
+          "cfa-rf-alt-primer:107:130",
+          "cfa-rf-alt-primer:108:132"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does historical simulation estimate VaR?",
+        "back": "Reprice the whole portfolio using inputs from many past days, rank the resulting portfolio values, and read off the chosen percentile. It is nonparametric and handles options well.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:170:162"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why add stress tests and scenario analysis to VaR?",
+        "back": "VaR is only a loss threshold at a stated probability. Stress tests show the effect of extreme or hypothetical events and how risks interact.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:110:111",
+          "occ-risk-mgmt-derivatives:176:168"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Name key factors when choosing a risk-modification method.",
+        "back": "Cost versus benefit, risk tolerance and budget, whether the risk is one worth taking, hedge effectiveness, and side effects such as new credit or liquidity risk.",
+        "cited_chunk_ids": [
+          "occ-risk-mgmt-derivatives:44:47"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "3/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T22:00:24.960Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-06-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1011,
+      "outputTokens": 682,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008959,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:00:35.590Z",
+      "purpose": "grounding",
+      "losId": "portfolio-06-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 15195,
+      "outputTokens": 1441,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.044969199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.053928199999999996
+}

@@ -1,0 +1,823 @@
+{
+  "losId": "portfolio-04-los6",
+  "losText": "explain the specification of asset classes in relation to asset allocation",
+  "moduleId": "portfolio-04",
+  "moduleTitle": "Basics of Portfolio Planning and Construction",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T21:57:27.425Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "flatworld-individual-finance:393:356",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 393–394",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=393",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-ips-institutional:14:7",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 14–15",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=14",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-ips-individual:15:7",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 15–16",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=15",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-alt-primer:169:205",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 169",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=169",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "cfa-rf-alt-primer:168:204",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "p. 168",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=168",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-individual-finance:395:359",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 395–397",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=395",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-ips-institutional:12:6",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 12–14",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=12",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-individual-finance:394:357",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 394–395",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=394",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-ips-institutional:16:9",
+      "title": "Elements of an Investment Policy Statement for Institutional Investors (CFA Institute)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-institutional-investors.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:6",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-individual-finance:392:355",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 392–393",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=392",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-alt-primer:164:199",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 164–165",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=164",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Defining Asset Classes for an Allocation Plan",
+      "summary": "An asset class is a group of investments that behave similarly, and the investor's written plan must name which groups may be used, describe them, and pick a yardstick for each. Clear, well-built classes make the percentage allocation meaningful, diversifying and measurable.",
+      "sections": [
+        {
+          "heading": "Asset classes as sorting bins",
+          "body_markdown": "Think of a supermarket: produce, dairy and frozen goods sit in separate aisles because items within an aisle are handled and stored alike. An **asset class** is the same idea for investments: a group of securities with similar characteristics that tend to react in similar ways to economic events (for example, equities, fixed income, cash, real estate). **Asset allocation** is the decision about how much of the portfolio's total value goes into each class, expressed as percentages. The allocation is only as clear as the bins you define: if the bins are fuzzy or overlap, the percentages mean little."
+        },
+        {
+          "heading": "What the written plan must say about classes",
+          "body_markdown": "A good investment policy document lists **every permissible asset class**, the ones the portfolio may hold, even if some are not used right now. For each class it gives:\n\n- a short **description** of what belongs in it;\n- a **benchmark** (a reference index or standard) against which the class's performance is judged.\n\nClasses can contain **subclasses**, for example U.S. large-cap equity inside U.S. equity. Their descriptions and benchmarks can sit in the main document or in an attached allocation plan. The allocation itself is stated as the **percentage of total portfolio value** in each class (often with a target and an allowed range), and those percentages drift as prices move, so they are adjusted periodically."
+        },
+        {
+          "heading": "What makes a set of asset classes well specified",
+          "body_markdown": "Practitioners generally look for these features:\n\n1. **Homogeneity within a class:** the holdings are similar enough to share risk and return characteristics.\n2. **Mutually exclusive:** a given holding fits in one class only, so the percentages do not double count.\n3. **Diversifying:** returns of different classes are not highly correlated, so mixing them lowers portfolio risk. The classes should be *less* alike each other than the holdings are within each class.\n4. **Broad coverage:** together the classes should account for most of the investable wealth available to the investor.\n5. **Capacity:** the investor can put a meaningful amount into the class without moving its prices much.\n\nIf these hold, portfolio risk can be lower than a simple average of the classes' individual risks."
+        },
+        {
+          "heading": "Benchmarks make each class measurable",
+          "body_markdown": "An index of all the investments in a class acts as the standard for judging a specific investment or manager in that class. A sound benchmark is usually:\n\n- **investable** (you could actually hold it, for example through an index fund),\n- **definable in advance** (its rules and constituents are known before the period starts),\n- **representative** of the class and the exposure wanted,\n- **readily measured**, with widely available history.\n\nEach class normally has one benchmark. Peer-group indices are sometimes used for hard-to-index classes like private equity, though they fall short of several of these tests."
+        },
+        {
+          "heading": "Why the diversification feature is the heart of it",
+          "body_markdown": "Two classes with a correlation below 1 produce a portfolio standard deviation below the weighted average of the two standard deviations. The lower the correlation, the larger the reduction. That is why a candidate class is valued less for its own return and more for how it behaves relative to the other classes already in the plan."
+        }
+      ],
+      "worked_example": {
+        "problem": "A plan permits two asset classes: equities (expected standard deviation 16%) and bonds (5%). The correlation between them is 0.10, and the allocation is 70% equities and 30% bonds. Find the portfolio standard deviation and compare it with the simple weighted average of the two standard deviations.",
+        "steps": [
+          "Write the weights and inputs as decimals: $w_1=0.70$, $w_2=0.30$, $\\sigma_1=0.16$, $\\sigma_2=0.05$, $\\rho=0.10$.",
+          "Equity term: $0.70^2\\times0.16^2 = 0.49\\times0.0256 = 0.012544$. Calculator: 0.7 [x²] [×] 0.16 [x²] [=] (shows 0.012544).",
+          "Bond term: $0.30^2\\times0.05^2 = 0.09\\times0.0025 = 0.000225$.",
+          "Interaction term: $2\\times0.70\\times0.30\\times0.10\\times0.16\\times0.05 = 0.000336$.",
+          "Add the three terms to get the variance: $0.012544+0.000225+0.000336=0.013105$.",
+          "Take the square root: [√x] gives about 0.1145, so 11.45%.",
+          "Compare: the weighted average of the standard deviations is $0.70\\times16\\%+0.30\\times5\\%=12.7\\%$. The portfolio's 11.45% is lower because the two classes are not perfectly correlated."
+        ],
+        "answer": "The portfolio standard deviation is about 11.45%, below the 12.7% weighted average, which shows the diversification benefit of two distinct asset classes.",
+        "answer_value": 0.1145,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.7,\"sd1\":0.16,\"sd2\":0.05,\"corr\":0.1}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Two-asset portfolio standard deviation",
+          "latex": "\\sigma_p=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2\\,w_1 w_2\\,\\rho_{12}\\,\\sigma_1\\sigma_2}",
+          "where": "$w_1,w_2$ are portfolio weights of the two asset classes ($w_2=1-w_1$); $\\sigma_1,\\sigma_2$ are their standard deviations; $\\rho_{12}$ is the correlation between their returns; $\\sigma_p$ is the portfolio standard deviation."
+        }
+      ],
+      "exam_traps": [
+        "Treating asset classes as defined by the number of securities held. A class is defined by shared characteristics, and diversification comes from differing characteristics, not from a large count.",
+        "Listing only the classes currently used in the plan. Permissible classes should be identified even if they are not used at the moment.",
+        "Allowing overlapping classes (such as a broad class and its own subclass) as separate, same-level categories, which breaks mutual exclusivity and double counts exposure.",
+        "Assuming portfolio risk equals the weighted average of class risks. That is only true when correlation is +1; any lower correlation gives less risk.",
+        "Choosing a benchmark that cannot be known in advance or invested in (such as an average of peer results published after the fact) and expecting it to meet the normal benchmark standards."
+      ],
+      "builds_on": [
+        "Components of an investment policy statement",
+        "Return and risk objectives",
+        "Investment constraints",
+        "Correlation and diversification"
+      ],
+      "leads_to": [
+        "Principles of portfolio construction",
+        "Strategic asset allocation",
+        "Rebalancing and allocation ranges",
+        "Risk budgeting and risk parity"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-individual-finance:393:356",
+        "cfa-ips-institutional:14:7",
+        "cfa-ips-individual:15:7",
+        "flatworld-individual-finance:394:357"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A written investment policy sets out the permissible asset classes for a portfolio. Which pair of items should it normally provide for each permissible class?",
+        "options": [
+          {
+            "text": "A forecast return and the name of the manager",
+            "value": null,
+            "explanation": "Forecasts and manager names are not what the policy specifies per class; this confuses implementation detail with class specification."
+          },
+          {
+            "text": "A brief description and a performance benchmark",
+            "value": null,
+            "explanation": "Correct. Each permissible class gets a short description of what it contains and a benchmark for judging performance."
+          },
+          {
+            "text": "A tax rate and a liquidity ratio",
+            "value": null,
+            "explanation": "Tax and liquidity are investor constraints covered elsewhere, not the standard per-class specification."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:14:7",
+          "cfa-ips-individual:15:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A draft allocation plan lists \"U.S. equity\" and \"U.S. large-cap equity\" as two separate, same-level asset classes, each with its own target percentage. Which desirable feature of a set of asset classes does this most clearly violate?",
+        "options": [
+          {
+            "text": "Homogeneity of holdings within each class",
+            "value": null,
+            "explanation": "Confuses overlap with similarity. Large-cap stocks are similar to each other; the problem is that they belong to both classes."
+          },
+          {
+            "text": "Low correlation between the classes",
+            "value": null,
+            "explanation": "Correlation is not the issue here. Overlapping classes would indeed be highly correlated, but the defect is the overlap itself."
+          },
+          {
+            "text": "Mutual exclusivity of the classes",
+            "value": null,
+            "explanation": "Correct. Large-cap U.S. stocks are already inside U.S. equity, so a holding fits in both classes and the targets double count. Large-cap should be a subclass."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-individual:15:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Why is it desirable for the asset classes in an allocation plan to have low correlation with one another?",
+        "options": [
+          {
+            "text": "Combining classes whose returns do not move together can reduce portfolio risk below the weighted average of the class risks",
+            "value": null,
+            "explanation": "Correct. With correlation below +1, some losses in one class are offset by gains in another, so portfolio standard deviation is below the weighted average."
+          },
+          {
+            "text": "Low correlation guarantees the portfolio will earn a higher return than any single class",
+            "value": null,
+            "explanation": "Diversification lowers risk for a given return; it does not guarantee a higher return than every individual class."
+          },
+          {
+            "text": "Low correlation between classes reduces the volatility of each individual class on its own",
+            "value": null,
+            "explanation": "Correlation between classes does not change a class's own standard deviation; it only affects the combined portfolio."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:393:356"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A plan uses two asset classes. Equities (weight 60%) have a standard deviation of 18%; bonds (weight 40%) have a standard deviation of 6%. The correlation between the two classes is 0.20. Using the two-asset portfolio formula, what is the portfolio standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "13.20%",
+            "value": 0.132,
+            "explanation": "Weighted average of the standard deviations (0.6×18% + 0.4×6%). This ignores correlation and implicitly assumes a correlation of +1."
+          },
+          {
+            "text": "11.52%",
+            "value": 0.1152,
+            "explanation": "Correct. Variance = 0.36×0.0324 + 0.16×0.0036 + 2×0.6×0.4×0.2×0.18×0.06 = 0.013277; the square root is about 11.52%."
+          },
+          {
+            "text": "11.06%",
+            "value": 0.1106,
+            "explanation": "Drops the covariance term, which treats the correlation as zero instead of 0.20."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.18,\"sd2\":0.06,\"corr\":0.2}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "critic_review": {
+          "pass": true,
+          "issues": [
+            "flag overturned on second review: Recomputed: 0.011664 + 0.000576 + 0.0010368 = 0.0132768, and its square root is 0.115225, which is 11.52%. Distractor A (13.20%) and distractor C (sqrt(0.01224) = 11.06%) are also correct. The flag only complains that no source passage is cited, which is not a content error."
+          ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investment committee requires each asset-class benchmark to be investable, definable in advance and readily measured. Which candidate benchmark is the weakest fit for these requirements?",
+        "options": [
+          {
+            "text": "A rules-based index whose holdings are published before each period and can be held through index funds",
+            "value": null,
+            "explanation": "This meets all three requirements, so it is a strong benchmark, not a weak one."
+          },
+          {
+            "text": "A broad market index of the class with a long history that is widely available from data vendors",
+            "value": null,
+            "explanation": "Wide availability of history satisfies the readily measured test, so this is not the weakest fit."
+          },
+          {
+            "text": "An average of peer funds' returns that can only be computed after the period has ended",
+            "value": null,
+            "explanation": "Correct. Peer averages cannot be defined in advance and are not directly investable, so they violate several of the usual benchmark tests."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:14:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "An allocation holds 50% in asset class 1 (standard deviation 20%) and 50% in asset class 2 (standard deviation 10%). The correlation between the classes is 0.50. Using the two-asset portfolio formula, what is the portfolio standard deviation? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "13.23%",
+            "value": 0.1323,
+            "explanation": "Correct. Variance = 0.25×0.04 + 0.25×0.01 + 2×0.25×0.5×0.02 = 0.0175; the square root is about 13.23%."
+          },
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Simple weighted average of the standard deviations, which ignores correlation (it assumes +1)."
+          },
+          {
+            "text": "1.75%",
+            "value": 0.0175,
+            "explanation": "Stops at the variance (0.0175) and forgets to take the square root."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.5}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A foundation currently holds no commodities, but its committee may want to use them in future years. How should the investment policy treat commodities?",
+        "options": [
+          {
+            "text": "Omit them until the first purchase, then amend the document",
+            "value": null,
+            "explanation": "This misses that the policy should set out every permissible class in advance, not only those already held."
+          },
+          {
+            "text": "Mention them only in a side memo that is not part of the policy",
+            "value": null,
+            "explanation": "Permissible classes belong in the policy or its attached allocation plan, not in an informal note outside it."
+          },
+          {
+            "text": "List them as a permitted class with a description and a benchmark",
+            "value": null,
+            "explanation": "Correct. Permissible classes should be identified even if they are not used at all times, each with a description and a benchmark."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:14:7",
+          "cfa-ips-individual:15:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is an asset class, and what does asset allocation do with it?",
+        "back": "An asset class is a group of investments with similar characteristics that react similarly to economic conditions. Asset allocation sets the percentage of total portfolio value held in each class.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:393:356"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What does the written policy specify for each permissible asset class?",
+        "back": "A brief description of the class and a performance benchmark. Subclasses may be handled in the policy or in an attached allocation plan, and unused permitted classes are still listed.",
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:14:7",
+          "cfa-ips-individual:15:7"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Elements of an Investment Policy Statement for Individual Investors (CFA Institute) pp. 15–16: \"asset class a brief description of the class\"",
+            "copies 8+ words from Elements of an Investment Policy Statement for Institutional Investors (CFA Institute) pp. 14–15: \"asset class a brief description of the class\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "List the desirable features of a set of asset classes.",
+        "back": "Homogeneous within each class, mutually exclusive, diversifying (low correlation between classes), broad coverage of investable wealth, and enough capacity to absorb meaningful money.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What four tests should an asset-class benchmark meet?",
+        "back": "Investable, definable in advance, representative of the class and desired exposure, and readily measured with widely available history.",
+        "cited_chunk_ids": [
+          "cfa-ips-institutional:14:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Contrast capital allocation, asset allocation and security selection.",
+        "back": "Capital allocation splits money between risky and riskless assets. Asset allocation chooses which asset classes and their percentages. Security selection picks the individual securities within each class.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:393:356",
+          "flatworld-individual-finance:394:357"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T21:57:14.551Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-04-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 913,
+      "outputTokens": 834,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.010283,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:57:23.629Z",
+      "purpose": "grounding",
+      "losId": "portfolio-04-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12137,
+      "outputTokens": 1263,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.037073199999999994,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T21:57:27.424Z",
+      "purpose": "confirm",
+      "losId": "portfolio-04-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 490,
+      "outputTokens": 408,
+      "cacheWriteTokens": 540,
+      "cacheReadTokens": 0,
+      "costUsd": 0.00641,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.05376619999999999
+}

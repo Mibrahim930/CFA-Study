@@ -1,0 +1,441 @@
+{
+  "losId": "portfolio-01-los7",
+  "losText": "describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio",
+  "moduleId": "portfolio-01",
+  "moduleTitle": "Portfolio Risk and Return: Part I",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T21:11:21.222Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec13:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 28–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "mit-ocw-15401-rec06:13:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 13–18",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "mit-ocw-15401-rec06:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 1–7",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "cfa-rf-behavioral:102:123",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 102–103",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=102",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15401-rec06:27:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 27–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=27",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:10:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 10–12",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=10",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-lec13:32:7",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 32–37",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=32",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-behavioral:99:119",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "p. 99",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=99",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-rf-behavioral:106:128",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 106–107",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=106",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-behavioral:98:118",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "pp. 98–99",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=98",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-alt-primer:69:83",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 69–70",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=69",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Frontiers of Risky Assets and the Global Minimum-Variance Portfolio",
+      "summary": "Mixing risky assets in different proportions gives a whole menu of possible (risk, return) outcomes. This lesson shows which of those mixes are worth considering, and where the least risky mix of all sits. It underpins every later step of building a portfolio.",
+      "sections": [
+        {
+          "heading": "1. The menu of possible portfolios",
+          "body_markdown": "Think of mixing two drinks. Each recipe (say 30% orange, 70% apple) gives a slightly different taste. In the same way, every set of **weights** (the fraction of your money in each asset, adding up to 100%) gives a portfolio with its own **expected return** (a probability-weighted average of possible returns) and its own **standard deviation** (a measure of how widely returns scatter, our risk measure). Plot each portfolio as one point, with standard deviation on the horizontal axis and expected return on the vertical axis. With several risky assets, the points fill a region shaped like a bullet or a sideways bowl. This region is the **opportunity set**. Nothing outside it can be built from the assets you have."
+        },
+        {
+          "heading": "2. The minimum-variance frontier and the global minimum-variance portfolio",
+          "body_markdown": "Pick a target expected return, for example 8%. Many portfolios can deliver 8%, and each has its own risk. The one with the smallest standard deviation lies on the left edge of the bullet. Repeat this for every target return, and the left edge traces out the **minimum-variance frontier**: for each expected return, the lowest risk achievable. The very leftmost point of the bullet is the **global minimum-variance (GMV) portfolio**. No portfolio built from these assets has lower risk, whatever its return. A common surprise is that the GMV portfolio is usually **not** just the single safest asset. If assets are imperfectly correlated (correlation below 1), their ups and downs partly cancel, so the mix can be less risky than even the least risky asset on its own. The lower the correlations, the deeper this effect. At correlation +1 there is no such benefit, and with correlation −1 risk can be cut all the way to zero."
+        },
+        {
+          "heading": "3. The efficient frontier is only the upper arm",
+          "body_markdown": "The minimum-variance frontier curves back on itself at the GMV portfolio. The lower arm has portfolios with *lower* expected return than the GMV portfolio. For any portfolio on that lower arm, there is a portfolio directly above it on the upper arm with the **same risk but a higher expected return**. An investor who likes more return and dislikes risk would never pick the lower one. We say the upper one **dominates** it. So the **efficient frontier** is the part of the minimum-variance frontier running from the GMV portfolio upward to higher expected returns. Every portfolio on it offers the highest expected return available for its level of risk. Portfolios strictly inside the bullet are feasible but inefficient, because something on the frontier either earns more for the same risk or has less risk for the same return."
+        },
+        {
+          "heading": "4. Reading the picture, and its limits",
+          "body_markdown": "The frontier is built only from the **inputs**: expected returns, standard deviations and correlations of the assets. It does not depend on who the investor is. Personal risk tolerance only decides *where* along the efficient frontier someone ends up (a later topic). Adding another risky asset can never make the frontier worse. You could always put zero weight on the newcomer and recover the old frontier, so it either stays put or moves outward, toward higher return and lower risk. Lower correlations between assets make the bullet bulge more to the left. Two practical notes: the frontier is only as good as the estimated inputs, and optimizers fed noisy estimates tend to produce extreme, concentrated weights that investors find uncomfortable. Textbook mean–variance theory also looks only at return and standard deviation, and ignores other things investors may care about."
+        }
+      ],
+      "worked_example": {
+        "problem": "Asset A has a standard deviation of 20% and asset B has a standard deviation of 10%. Their correlation is 0.20, and portfolios may hold any weights summing to 1. (a) Find the weight in A that gives the global minimum-variance portfolio. (b) Find that portfolio's standard deviation, and compare it with asset B alone.",
+        "steps": [
+          "Variances: A = 0.20² = 0.0400; B = 0.10² = 0.0100.",
+          "Covariance = correlation × SD_A × SD_B = 0.20 × 0.20 × 0.10 = 0.0040.",
+          "GMV weight in A: w_A = (0.0100 − 0.0040) / (0.0400 + 0.0100 − 2 × 0.0040) = 0.0060 / 0.0420 = 0.142857 (about 14.29%). So w_B = 0.857143.",
+          "Portfolio variance = w_A²(0.04) + w_B²(0.01) + 2·w_A·w_B·(0.004) = 0.000816 + 0.007347 + 0.000980 = 0.009143.",
+          "BA II Plus: enter 0.009143, then press [2nd] [√x] to get 0.0956. (Computing the variance terms with [×] and [+] works the same way. The calculator's statistics worksheet is not needed here.)",
+          "Compare: 9.56% is below B's 10%, the lower of the two single-asset risks. Imperfect correlation lets the mix beat the safest asset."
+        ],
+        "answer": "The GMV portfolio holds about 14.29% in A and 85.71% in B. Its standard deviation is about 9.56%, which is less than the 10% of asset B alone.",
+        "answer_value": 0.0956,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.142857,\"sd1\":0.2,\"sd2\":0.1,\"corr\":0.2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Two-asset portfolio variance",
+          "latex": "\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2\\,\\mathrm{Cov}_{12}",
+          "where": "w_1, w_2 are portfolio weights (w_2 = 1 − w_1); \\sigma_1, \\sigma_2 are the asset standard deviations; \\mathrm{Cov}_{12} = \\rho_{12}\\sigma_1\\sigma_2 is their covariance and \\rho_{12} their correlation."
+        },
+        {
+          "name": "Two-asset GMV weight (useful for intuition)",
+          "latex": "w_1^{GMV} = \\frac{\\sigma_2^2 - \\mathrm{Cov}_{12}}{\\sigma_1^2 + \\sigma_2^2 - 2\\,\\mathrm{Cov}_{12}}",
+          "where": "w_1^{GMV} is the weight in asset 1 that minimizes portfolio variance (weight in asset 2 is 1 − w_1^{GMV}); \\sigma_1^2, \\sigma_2^2 are the asset variances; \\mathrm{Cov}_{12} is the covariance between them."
+        }
+      ],
+      "exam_traps": [
+        "Calling the entire bullet-shaped minimum-variance frontier 'efficient'. Only the part from the GMV portfolio upward is efficient; the lower arm is dominated.",
+        "Assuming the GMV portfolio is simply the single lowest-risk asset. With correlation below 1, the mix can be less risky than any one asset.",
+        "Confusing the GMV portfolio (lowest risk) with the tangency portfolio (highest return per unit of risk). They are different points on the efficient frontier.",
+        "Thinking the frontier shifts with the investor's risk tolerance. It depends only on the asset inputs; the investor's preferences decide where on it they choose to sit.",
+        "Believing that adding another risky asset can push the frontier to the right (worse). It can only stay the same or improve."
+      ],
+      "builds_on": [
+        "Portfolio standard deviation",
+        "Correlation and diversification",
+        "Mean, variance and covariance of returns"
+      ],
+      "leads_to": [
+        "Capital allocation line and optimal portfolio choice",
+        "Tangency portfolio and the Sharpe ratio",
+        "Capital market line and CAPM"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec13:28:6",
+        "mit-ocw-15401-rec06:13:2",
+        "mit-ocw-15433-portfolio3:10:2",
+        "cfa-rf-behavioral:99:119"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Expected return is on the vertical axis and standard deviation on the horizontal axis. For a set of risky assets, which part of the minimum-variance frontier is the efficient frontier?",
+        "options": [
+          {
+            "text": "The lower arm, from the GMV portfolio down toward lower expected returns",
+            "value": null,
+            "explanation": "Reverses the logic. Each lower-arm portfolio is dominated by one directly above it with the same risk and a higher return."
+          },
+          {
+            "text": "The upper arm, from the GMV portfolio up toward higher expected returns",
+            "value": null,
+            "explanation": "Correct. Above the GMV portfolio, each point gives the highest expected return available for its level of risk."
+          },
+          {
+            "text": "The whole bullet-shaped curve, because each point has minimum risk for its return",
+            "value": null,
+            "explanation": "Confuses the minimum-variance frontier with the efficient frontier. Minimum risk for a given return is not enough, because the lower arm is dominated by points on the upper arm."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15401-rec06:27:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Portfolio P is built from a set of risky assets and plots strictly inside the bullet-shaped region, to the right of the minimum-variance frontier at its level of expected return. Which statement is correct?",
+        "options": [
+          {
+            "text": "It cannot be constructed, because only portfolios on the frontier itself are feasible",
+            "value": null,
+            "explanation": "Mistakes the frontier for the whole opportunity set. Every point inside the bullet is feasible as well."
+          },
+          {
+            "text": "It is efficient, because it has the same expected return as a frontier portfolio would",
+            "value": null,
+            "explanation": "Looks only at return and ignores risk. P has higher risk than the frontier portfolio with the same expected return."
+          },
+          {
+            "text": "It is feasible, but another portfolio offers the same expected return with a lower standard deviation",
+            "value": null,
+            "explanation": "Correct. Being to the right of the frontier means that, for P's return, a lower-risk portfolio exists, so P is inefficient."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "Two risky assets are uncorrelated (correlation = 0). Asset A has a standard deviation of 30% and asset B has a standard deviation of 10%. The global minimum-variance portfolio holds 10% in A and 90% in B. What is its standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "9.49%",
+            "value": 0.0949,
+            "explanation": "Correct. Variance = 0.1²(0.09) + 0.9²(0.01) + 0 = 0.0009 + 0.0081 = 0.0090, and the square root is about 9.49%, below the 10% of B alone."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "Assumes the GMV portfolio is just the least risky asset, so it ignores that diversification lowers risk further."
+          },
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "Takes the weighted average of the standard deviations (0.1×30 + 0.9×10), which is only valid when the correlation is +1."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.1,\"sd1\":0.3,\"sd2\":0.1,\"corr\":0}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about the global minimum-variance portfolio of a set of risky assets is correct?",
+        "options": [
+          {
+            "text": "It always holds only the single asset with the lowest standard deviation",
+            "value": null,
+            "explanation": "Ignores covariance effects. Mixing in a higher-risk asset that is imperfectly correlated can lower total risk."
+          },
+          {
+            "text": "With imperfectly correlated assets, its risk can be below that of every individual asset",
+            "value": null,
+            "explanation": "Correct. Imperfect correlation lets some risk cancel, so the lowest-risk mix can beat even the safest single asset."
+          },
+          {
+            "text": "It offers the highest expected return per unit of risk of all risky portfolios",
+            "value": null,
+            "explanation": "Confuses it with the tangency portfolio, which maximizes the Sharpe ratio. The GMV portfolio only minimizes risk."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "Asset A has a standard deviation of 20% and asset B has a standard deviation of 10%. Their correlation is −1. A portfolio holds exactly one-third in A and two-thirds in B (use w = 1/3 exactly). What is the portfolio's standard deviation, rounded to two decimals in percent?",
+        "options": [
+          {
+            "text": "9.43%",
+            "value": 0.0943,
+            "explanation": "Drops the covariance term (treats correlation as 0): √(w_A²σ_A² + w_B²σ_B²) ≈ 9.43%."
+          },
+          {
+            "text": "13.33%",
+            "value": 0.1333,
+            "explanation": "Uses the weighted average of standard deviations, which applies only for correlation +1."
+          },
+          {
+            "text": "0.00%",
+            "value": 0,
+            "explanation": "Correct. With correlation −1, σ_p = |w_Aσ_A − w_Bσ_B| = |(1/3)(20%) − (2/3)(10%)| = 0. These weights give a risk-free GMV portfolio."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.3333333333,\"sd1\":0.2,\"sd2\":0.1,\"corr\":-1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor's opportunity set currently consists of several risky assets, and a new risky asset is then added. Which statement about the minimum-variance frontier is correct?",
+        "options": [
+          {
+            "text": "It stays where it was or moves outward, offering equal or lower risk at each expected return",
+            "value": null,
+            "explanation": "Correct. The investor can set the new asset's weight to zero and recover the old frontier, so the frontier cannot get worse."
+          },
+          {
+            "text": "It shifts to the right, since an extra asset adds more risk to the portfolio",
+            "value": null,
+            "explanation": "Treats an added asset as an extra burden. Weights are chosen, so unwanted risk can be avoided by holding none of it."
+          },
+          {
+            "text": "It stays unchanged, because diversification benefits are used up after a few assets",
+            "value": null,
+            "explanation": "Overstates the limit to diversification. A new asset with a distinct return pattern can still lower risk for a given return."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "Assets A and B are perfectly positively correlated (correlation = +1). Asset A has a standard deviation of 25% and asset B has a standard deviation of 15%. A portfolio holds 40% in A and 60% in B. What is its standard deviation, rounded to two decimals in percent? (With these inputs, portfolios of the two assets plot as a straight line rather than a bullet.)",
+        "options": [
+          {
+            "text": "13.45%",
+            "value": 0.1345,
+            "explanation": "Adds the weighted variances and drops the covariance term, which treats the assets as uncorrelated."
+          },
+          {
+            "text": "19.00%",
+            "value": 0.19,
+            "explanation": "Correct. With correlation +1, σ_p = 0.4(25%) + 0.6(15%) = 10% + 9% = 19%, a weighted average with no risk reduction."
+          },
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "Takes the simple average of 25% and 15%, ignoring the 40/60 weights."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.4,\"sd1\":0.25,\"sd2\":0.15,\"corr\":1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the minimum-variance frontier?",
+        "back": "The set of portfolios of risky assets that have the lowest possible standard deviation for each level of expected return. It forms the left edge of the bullet-shaped opportunity set.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      },
+      {
+        "front": "What is the global minimum-variance (GMV) portfolio?",
+        "back": "The leftmost point of the frontier: the lowest-risk portfolio achievable from the risky assets, whatever its expected return. With imperfect correlation it can be less risky than any single asset.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2"
+        ]
+      },
+      {
+        "front": "How does the efficient frontier differ from the minimum-variance frontier?",
+        "back": "The efficient frontier is only the upper part, from the GMV portfolio up to higher expected returns. The lower arm is dominated by portfolios with equal risk and higher return.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6",
+          "mit-ocw-15401-rec06:27:5"
+        ]
+      },
+      {
+        "front": "What does it mean if a feasible portfolio plots inside the bullet, off the frontier?",
+        "back": "It is inefficient. Some other feasible portfolio has either a higher expected return for the same risk or a lower risk for the same expected return.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T21:11:21.222Z",
+      "purpose": "generate",
+      "losId": "portfolio-01-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12115,
+      "outputTokens": 13435,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.15973620000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

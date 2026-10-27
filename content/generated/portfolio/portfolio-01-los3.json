@@ -1,0 +1,491 @@
+{
+  "losId": "portfolio-01-los3",
+  "losText": "explain the selection of an optimal portfolio, given an investor's utility (or risk aversion) and the capital allocation line",
+  "moduleId": "portfolio-01",
+  "moduleTitle": "Portfolio Risk and Return: Part I",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T21:05:36.265Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-portfolio3:6:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:13:3",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 13–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:10:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 10–12",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=10",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:9:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 9–13",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=9",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "mit-ocw-15433-portfolio2:11:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 4: Portfolio Theory part 2",
+      "locator": "pp. 11–17",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/64364800d3b15fcdb618e844e9ba25b7_154334portfolio2.pdf#page=11",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "mit-ocw-15433-portfolio3:14:4",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 5: Portfolio Theory part 3 (optimal risky portfolio)",
+      "locator": "pp. 14–15",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/d87bfc38cba412a4187bb892a70fe372_154335portfolio3.pdf#page=14",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:117:118",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 117–118",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=117",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:130:130",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 130–131",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=130",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-rec07:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 7: CAPM",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/ecfe2e9d4bba810207c1fefcb216a852_MIT15_401F08_rec07.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15433-portfolio1:5:1",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 3: Portfolio Theory part 1 (utility, risk aversion, capital allocation)",
+      "locator": "pp. 5–9",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/aaabe0fbbdfa71e72fe46853b289a34d_154333portfolio1.pdf#page=5",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-rec06:27:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 27–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=27",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-enterprise-and-individual-risk-management:142:143",
+      "title": "Enterprise and Individual Risk Management (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 142–143",
+      "url": "https://2012books.lardbucket.org/pdfs/enterprise-and-individual-risk-management.pdf#page=142",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Choosing the Best Portfolio: Utility Meets the Capital Allocation Line",
+      "summary": "An investor's best portfolio comes from matching what the market offers (a line of risk-return choices built from a risk-free asset and one risky portfolio) with how much risk that investor dislikes. This is the core logic behind how advisers set the split between safe and risky holdings for different clients.",
+      "sections": [
+        {
+          "heading": "The menu and the appetite",
+          "body_markdown": "Think of choosing a meal. The **menu** is what is available; your **appetite** decides what you order. In portfolio choice, the menu is the set of risk-return combinations you can actually build. The appetite is your **utility function**, a score that rewards expected return and penalises risk.\n\nThe optimal portfolio is the menu item that gives *you* the highest score. Two investors face the same menu but can rationally order differently, because their appetites for risk differ."
+        },
+        {
+          "heading": "The menu: the capital allocation line (CAL)",
+          "body_markdown": "Take one risky portfolio $P$ with expected return $E(R_P)$ and standard deviation $\\sigma_P$, plus a risk-free asset with return $R_f$ (zero standard deviation). Put a fraction $y$ of your wealth in $P$ and $1-y$ in the risk-free asset. Then:\n\n$$E(R_C)=R_f+y\\,[E(R_P)-R_f],\\qquad \\sigma_C=y\\,\\sigma_P$$\n\nBecause the risk-free asset has no variance and no covariance with anything, risk scales one-for-one with $y$. Plot every $y$ and you get a straight line from $R_f$ through $P$: the **capital allocation line**. The line is straight, so every portfolio on it earns the same extra return per unit of extra risk. That ratio is the **Sharpe ratio** and it is the slope of the CAL:\n\n$$\\text{Sharpe}=\\frac{E(R_P)-R_f}{\\sigma_P}$$\n\nA steeper CAL is a better menu, so the risky portfolio with the highest Sharpe ratio gives the best CAL. On a graph that is the point where a line from $R_f$ just touches the efficient frontier of risky assets, called the **tangency portfolio**. Values of $y$ below 1 mean lending at $R_f$. Values above 1 mean borrowing at $R_f$ to buy more of $P$ (leverage)."
+        },
+        {
+          "heading": "The appetite: utility and indifference curves",
+          "body_markdown": "A common way to score a portfolio for a risk-averse investor is\n\n$$U=E(R)-\\tfrac12 A\\,\\sigma^2$$\n\nwhere $A$ is the **risk aversion coefficient**: the larger $A$, the heavier the penalty for variance. (Some textbooks write $0.005A\\sigma^2$; that is the same thing with returns and risk expressed in percent rather than decimals.) You can read $U$ as the certain return that would make the investor equally happy as the risky portfolio.\n\nAn **indifference curve** joins all risk-return pairs that give the same $U$. For a risk-averse investor it slopes upward (more risk needs more return as compensation) and bends upward more steeply as risk rises. Curves further up and to the left are better. A more risk-averse investor has steeper curves."
+        },
+        {
+          "heading": "Putting them together: the optimal choice",
+          "body_markdown": "The investor wants the highest indifference curve that still touches the CAL. That happens where an indifference curve is **tangent** to the CAL. Any higher curve is unreachable; any lower one wastes utility.\n\nSubstituting the CAL into $U$ and maximising over $y$ gives the optimal fraction in the risky portfolio:\n\n$$y^*=\\frac{E(R_P)-R_f}{A\\,\\sigma_P^2}$$\n\nWhat this tells you:\n- Higher risk aversion $A$ gives a smaller $y^*$.\n- A bigger risk premium $E(R_P)-R_f$ gives a larger $y^*$.\n- Higher risky-portfolio variance gives a smaller $y^*$.\n- $y^*>1$ means borrowing at the risk-free rate (if that is allowed); $y^*<1$ means holding some risk-free asset.\n\nThis leads to the **separation principle**: choosing the risky portfolio (the tangency portfolio, highest Sharpe ratio) does not depend on risk aversion, so every investor with the same expectations picks the same one. Risk aversion only decides $y^*$, the split between that portfolio and the risk-free asset. In practice, managers hold different return forecasts and asset universes, so their \"optimal\" risky portfolios can differ."
+        }
+      ],
+      "worked_example": {
+        "problem": "The risk-free rate is 3%. The optimal (tangency) risky portfolio has an expected return of 11% and a standard deviation of 20%. An investor has a risk aversion coefficient A = 4 and uses U = E(R) − ½Aσ² (decimals). What fraction y* should she put in the risky portfolio, and what are the expected return, standard deviation and utility of her complete portfolio?",
+        "steps": [
+          "Risk premium: 0.11 − 0.03 = 0.08.",
+          "Variance of the risky portfolio: 0.20² = 0.04.",
+          "Optimal weight: y* = 0.08 / (4 × 0.04) = 0.08 / 0.16 = 0.50. BA II Plus: 0.2 [x²] [×] 4 [=] gives 0.16; then 0.08 [÷] 0.16 [=] gives 0.5.",
+          "So she holds 50% in the risky portfolio and 50% in the risk-free asset.",
+          "Expected return of the complete portfolio: 0.03 + 0.5 × 0.08 = 0.07 (7%).",
+          "Standard deviation: 0.5 × 0.20 = 0.10 (10%).",
+          "Utility: 0.07 − ½ × 4 × 0.10² = 0.07 − 0.02 = 0.05 (5%)."
+        ],
+        "answer": "y* = 0.50 (50% in the risky portfolio); the complete portfolio has E(R) = 7%, σ = 10% and U = 5%.",
+        "answer_value": 0.5,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Capital allocation line (expected return)",
+          "latex": "E(R_C)=R_f+y\\,[E(R_P)-R_f]",
+          "where": "$E(R_C)$ = expected return of the complete portfolio; $R_f$ = risk-free rate; $y$ = fraction of wealth in the risky portfolio; $E(R_P)$ = expected return of the risky portfolio."
+        },
+        {
+          "name": "Risk of the complete portfolio",
+          "latex": "\\sigma_C=y\\,\\sigma_P",
+          "where": "$\\sigma_C$ = standard deviation of the complete portfolio; $y$ = weight in the risky portfolio (y ≥ 0); $\\sigma_P$ = standard deviation of the risky portfolio."
+        },
+        {
+          "name": "Sharpe ratio (slope of the CAL)",
+          "latex": "S=\\frac{E(R_P)-R_f}{\\sigma_P}",
+          "where": "$E(R_P)$ = expected return of the portfolio; $R_f$ = risk-free rate; $\\sigma_P$ = standard deviation of the portfolio."
+        },
+        {
+          "name": "Mean-variance utility",
+          "latex": "U=E(R)-\\tfrac12 A\\,\\sigma^2",
+          "where": "$U$ = utility; $E(R)$ = expected return (decimal); $A$ = risk aversion coefficient (larger = more risk averse); $\\sigma^2$ = variance of return."
+        },
+        {
+          "name": "Optimal weight in the risky portfolio",
+          "latex": "y^*=\\frac{E(R_P)-R_f}{A\\,\\sigma_P^2}",
+          "where": "$y^*$ = utility-maximising fraction in the risky portfolio; $E(R_P)-R_f$ = risk premium; $A$ = risk aversion coefficient; $\\sigma_P^2$ = variance of the risky portfolio."
+        }
+      ],
+      "exam_traps": [
+        "Using the standard deviation instead of the variance in the denominator of y*. The formula needs $\\sigma_P^2$ (as a decimal, 20% gives 0.04).",
+        "Thinking risk aversion changes which risky portfolio is best. It does not: the tangency portfolio (highest Sharpe ratio) is the same for everyone with the same expectations. Risk aversion only changes y*.",
+        "Forgetting to subtract the risk-free rate when computing the Sharpe ratio or the risk premium, so the 'slope' or y* comes out too large.",
+        "Mixing units: with A on the usual scale, returns must be decimals in $U=E(R)-\\tfrac12A\\sigma^2$ (or use 0.005A with percent figures). Mixing the two gives nonsense utilities.",
+        "Reading y* > 1 as an error. It simply means borrowing at the risk-free rate to hold more than 100% in the risky portfolio, if borrowing is allowed."
+      ],
+      "builds_on": [
+        "Risk aversion",
+        "Expected return and variance",
+        "Risk-free asset and risk premium",
+        "Sharpe ratio"
+      ],
+      "leads_to": [
+        "Efficient frontier and tangency portfolio",
+        "Capital market line",
+        "CAPM and the market portfolio"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-portfolio1:9:2",
+        "mit-ocw-15433-portfolio1:13:3",
+        "mit-ocw-15433-portfolio1:5:1",
+        "mit-ocw-15433-portfolio3:6:1",
+        "mit-ocw-15433-portfolio3:10:2",
+        "mit-ocw-15401-rec06:27:5"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Two investors have identical return forecasts and can both lend and borrow at the risk-free rate. One is very risk averse and the other is only mildly risk averse. According to the separation principle, which statement is correct?",
+        "options": [
+          {
+            "text": "Both hold the same risky portfolio and differ only in how much they put in it versus the risk-free asset.",
+            "value": null,
+            "explanation": "Correct. The risky portfolio is the highest-Sharpe-ratio (tangency) portfolio for everyone; risk aversion only sets the weight y."
+          },
+          {
+            "text": "The more risk-averse investor holds a risky portfolio with a lower standard deviation than the other investor.",
+            "value": null,
+            "explanation": "This confuses the two decisions. Risk aversion changes the mix of risky portfolio and risk-free asset, not the composition of the risky portfolio."
+          },
+          {
+            "text": "The more risk-averse investor faces a CAL with a flatter slope than the other investor.",
+            "value": null,
+            "explanation": "The CAL slope is the Sharpe ratio of the risky portfolio, which depends on market opportunities, not on the investor's preferences."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:6:1",
+          "mit-ocw-15433-portfolio3:10:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A risky portfolio has an expected return of 12% and a standard deviation of 20%. The risk-free rate is 4%. What is the slope of the capital allocation line drawn from the risk-free asset through this portfolio (its Sharpe ratio)? Round to two decimals.",
+        "options": [
+          {
+            "text": "0.60",
+            "value": 0.6,
+            "explanation": "Mistake: the risk-free rate was not subtracted (12% / 20%), so the risk premium is overstated."
+          },
+          {
+            "text": "0.40",
+            "value": 0.4,
+            "explanation": "Correct: (0.12 − 0.04) / 0.20 = 0.40, the extra return per unit of risk."
+          },
+          {
+            "text": "2.50",
+            "value": 2.5,
+            "explanation": "Mistake: the ratio was inverted (20% / 8%), giving risk per unit of premium rather than premium per unit of risk."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "sharpeRatio",
+          "args_json": "{\"rp\":0.12,\"rf\":0.04,\"sdp\":0.2}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:9:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor places 40% of her wealth in a risky portfolio with a standard deviation of 25% and the remaining 60% in a risk-free asset. What is the standard deviation of her complete portfolio? Round to one decimal place in percent.",
+        "options": [
+          {
+            "text": "25.0%",
+            "value": 0.25,
+            "explanation": "Mistake: ignoring the 40% weight and quoting the risky portfolio's standard deviation."
+          },
+          {
+            "text": "15.0%",
+            "value": 0.15,
+            "explanation": "Mistake: scaling by the risk-free weight (0.60 × 25%) instead of the risky weight."
+          },
+          {
+            "text": "10.0%",
+            "value": 0.1,
+            "explanation": "Correct: the risk-free asset has zero risk and zero covariance, so σ = y × σP = 0.40 × 25% = 10%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.4,\"sd1\":0.25,\"sd2\":0,\"corr\":0}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:5:1",
+          "mit-ocw-15433-portfolio1:9:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The optimal risky portfolio has an expected return of 11% and a standard deviation of 20%; the risk-free rate is 5%. An investor's utility is U = E(R) − ½Aσ² (decimals) with A = 3. Money can be split freely between the two assets. What fraction of her wealth should she invest in the risky portfolio?",
+        "options": [
+          {
+            "text": "50%",
+            "value": null,
+            "explanation": "Correct: y* = (0.11 − 0.05) / (3 × 0.20²) = 0.06 / 0.12 = 0.50."
+          },
+          {
+            "text": "10%",
+            "value": null,
+            "explanation": "Mistake: using the standard deviation (0.20) instead of the variance (0.04) in the denominator: 0.06 / (3 × 0.20)."
+          },
+          {
+            "text": "100%",
+            "value": null,
+            "explanation": "Mistake: applying an extra factor of ½ to A in the denominator: 0.06 / (0.5 × 3 × 0.04). The ½ is already built into the utility function and cancels in the formula."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor's risk aversion coefficient rises from 2 to 5. The risk-free rate and the optimal risky portfolio do not change, and she can lend and borrow at the risk-free rate. What is the most likely result?",
+        "options": [
+          {
+            "text": "She switches to a risky portfolio with a lower standard deviation because the best CAL now differs.",
+            "value": null,
+            "explanation": "Mistake: believing risk aversion changes the risky portfolio. The tangency portfolio is the same for all investors."
+          },
+          {
+            "text": "She keeps the same risky portfolio and the same CAL, but invests a smaller fraction in it.",
+            "value": null,
+            "explanation": "Correct: y* = premium / (Aσ²) falls as A rises, while the CAL (set by the Sharpe ratio) is unchanged."
+          },
+          {
+            "text": "She keeps the same risky portfolio and the same weight in it, but the CAL becomes flatter.",
+            "value": null,
+            "explanation": "Mistake: treating risk aversion as altering the CAL slope. The slope is the Sharpe ratio; risk aversion changes the chosen point on the line."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:13:3",
+          "mit-ocw-15433-portfolio3:6:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor with U = E(R) − ½Aσ² (decimals) and A = 4 is choosing one of three portfolios. Portfolio X: E(R) = 8%, σ = 10%. Portfolio Y: E(R) = 11%, σ = 20%. Portfolio Z: risk-free, return 5%. Which gives the highest utility?",
+        "options": [
+          {
+            "text": "Portfolio Y, because it has the highest expected return.",
+            "value": null,
+            "explanation": "Mistake: ignoring the risk penalty. U(Y) = 0.11 − 2 × 0.04 = 3%, the lowest of the three."
+          },
+          {
+            "text": "Portfolio Z, because it has no risk.",
+            "value": null,
+            "explanation": "Mistake: assuming a risk-averse investor always picks the least risk. U(Z) = 5%, which is below X."
+          },
+          {
+            "text": "Portfolio X, with utility of 6%.",
+            "value": null,
+            "explanation": "Correct: U(X) = 0.08 − ½ × 4 × 0.01 = 0.06, versus 0.03 for Y and 0.05 for Z."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:5:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "On a graph with standard deviation on the horizontal axis and expected return on the vertical axis, where is a risk-averse investor's optimal complete portfolio?",
+        "options": [
+          {
+            "text": "Where the CAL touches the efficient frontier of risky assets, the same point for every investor regardless of preferences.",
+            "value": null,
+            "explanation": "Mistake: this is the optimal risky portfolio (the tangency portfolio), not the investor's complete portfolio, which also depends on the risk-free holding."
+          },
+          {
+            "text": "Where the investor's highest attainable indifference curve is just tangent to the CAL.",
+            "value": null,
+            "explanation": "Correct: higher curves cannot be reached and lower curves give less utility, so the optimum is the tangency point with the CAL."
+          },
+          {
+            "text": "At the risk-free rate on the vertical axis, because a risk-averse investor avoids all risk.",
+            "value": null,
+            "explanation": "Mistake: risk aversion is not infinite. If the risk premium is positive, the investor accepts some risk and y* > 0."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:6:1",
+          "mit-ocw-15401-rec06:27:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The optimal risky portfolio has a risk premium of 8% and a standard deviation of 20%. An investor with A = 1.5 (utility U = E(R) − ½Aσ², decimals) can borrow and lend at the risk-free rate. Her optimal y* is 1.333 (0.08 / (1.5 × 0.04)). What does this mean for her portfolio?",
+        "options": [
+          {
+            "text": "Lend 33.3% of her wealth at the risk-free rate and invest 66.7% in the risky portfolio.",
+            "value": null,
+            "explanation": "Mistake: reading y* = 1.333 as a 33.3% lending position. A value above 1 means the weight in the risky portfolio exceeds 100%."
+          },
+          {
+            "text": "Invest 133.3% of her wealth in the risky portfolio and also hold 33.3% in the risk-free asset.",
+            "value": null,
+            "explanation": "Mistake: adding the extra 33.3% as an asset. Weights must sum to 100%, so the extra amount is a risk-free liability."
+          },
+          {
+            "text": "Borrow 33.3% of her wealth at the risk-free rate and invest 133.3% in the risky portfolio.",
+            "value": null,
+            "explanation": "Correct: the risk-free weight is 1 − y* = −0.333, a borrowing position that leverages the risky portfolio."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:13:3",
+          "mit-ocw-15433-portfolio1:9:2"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the capital allocation line (CAL) and what does its slope equal?",
+        "back": "The straight line of risk-return combinations from mixing the risk-free asset with one risky portfolio. Its slope is that portfolio's Sharpe ratio, (E(Rp) − Rf)/σp.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:9:2"
+        ]
+      },
+      {
+        "front": "State the separation principle in one sentence.",
+        "back": "Every investor with the same expectations holds the same optimal risky portfolio (highest Sharpe ratio); risk aversion only determines how much goes into it versus the risk-free asset.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:6:1"
+        ]
+      },
+      {
+        "front": "What is the formula for mean-variance utility, and what does A do?",
+        "back": "U = E(R) − ½Aσ². A is the risk aversion coefficient: the higher A, the bigger the penalty for variance.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:5:1"
+        ]
+      },
+      {
+        "front": "What is the optimal fraction y* in the risky portfolio, and how does it respond to A?",
+        "back": "y* = (E(Rp) − Rf)/(Aσp²). A higher A gives a lower y*; a higher risk premium raises y*; higher variance lowers y*.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio1:13:3"
+        ]
+      },
+      {
+        "front": "Graphically, where is an investor's optimal complete portfolio?",
+        "back": "Where the highest reachable indifference curve is tangent to the CAL.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-portfolio3:6:1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T21:05:36.265Z",
+      "purpose": "generate",
+      "losId": "portfolio-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12208,
+      "outputTokens": 12867,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.15424220000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

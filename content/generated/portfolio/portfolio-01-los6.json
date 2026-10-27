@@ -1,0 +1,488 @@
+{
+  "losId": "portfolio-01-los6",
+  "losText": "describe the effect on a portfolio's risk of investing in assets that are less than perfectly correlated",
+  "moduleId": "portfolio-01",
+  "moduleTitle": "Portfolio Risk and Return: Part I",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T21:09:45.173Z",
+  "retrieved": [
+    {
+      "id": "sharpe-pension-risk-budget:1:6",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "mit-ocw-15401-rec06:13:2",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 6: Portfolio Choice",
+      "locator": "pp. 13–18",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/afd942e9eab1c6e9e2da35d37a978523_MIT15_401F08_rec06.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00094:0.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.2 Risk and Return to Multiple Assets — Diversification",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-2-risk-and-return-to-multiple-assets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec13:23:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 23–28",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=23",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "mit-ocw-15401-lec13:13:3",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 13–19",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=13",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:169:161",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 169–170",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=169",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-lec13:28:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 13-14: Risk Analytics and Portfolio Theory",
+      "locator": "pp. 28–32",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf#page=28",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-alt-primer:117:142",
+      "title": "Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation)",
+      "locator": "pp. 117–118",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2018/rf-v2018-n1-1.pdf#page=117",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "sharpe-pension-risk-budget:1:8",
+      "title": "Budgeting and Monitoring the Risk of Defined Benefit Pension Funds (W. F. Sharpe, 2001)",
+      "locator": "Budgeting and Monitoring Risk",
+      "url": "https://web.stanford.edu/~wfsharpe/art/q2001/q2001.htm",
+      "license": "© William F. Sharpe; posted free on his Stanford page, no open licence stated (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fed-feds-2001-27-historical-simulation:15:18",
+      "title": "The Hidden Dangers of Historical Simulation (M. Pritsker, FEDS 2001-27, Federal Reserve Board)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/pubs/feds/2001/200127/200127pap.pdf#page=15",
+      "license": "Public domain (Federal Reserve Board: information on the Board's website is in the public domain unless otherwise indicated)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00097:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§15.5 Using Excel to Make Investment Decisions — Average Return and Standard Deviation for a Portfolio",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/15-5-using-excel-to-make-investment-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "mit-ocw-15401-final:19:4",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Sample Final Examination",
+      "locator": "pp. 19–23",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/f8870d5f537f04e75e7ecc243416e02a_MIT15_401F08_final.pdf#page=19",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Why Imperfectly Correlated Assets Shrink Portfolio Risk",
+      "summary": "When two assets do not move in perfect lockstep, their ups and downs partly cancel, so the portfolio is less volatile than a simple average of the assets' own volatilities would suggest. This is the core logic behind diversification and a frequent source of exam questions.",
+      "sections": [
+        {
+          "heading": "The intuition: cancelling swings",
+          "body_markdown": "Picture a shop that sells umbrellas and another that sells sunscreen. Rain hurts one and helps the other, so a person who owns both shops sees steadier total income than someone who owns only one. **Correlation** is the number that measures how closely two assets' returns move together. It runs from $-1$ (exactly opposite moves) through $0$ (no linear relationship) to $+1$ (perfect lockstep). Whenever the correlation is below $+1$, some of one asset's bad outcomes coincide with the other asset's average or good outcomes, and the combined return bounces around less."
+        },
+        {
+          "heading": "What changes and what doesn't",
+          "body_markdown": "Two separate facts:\n\n- **Expected return** of a portfolio is just the weighted average of the assets' expected returns. Correlation has no effect on it.\n- **Risk**, measured by standard deviation (the typical size of deviations from the average return), is *not* a weighted average, unless correlation is exactly $+1$. For any correlation below $+1$, portfolio standard deviation is **less than** the weighted average of the individual standard deviations.\n\nSo lower correlation gives you a free reduction in risk with the expected return untouched. The lower the correlation, the larger the reduction. At $\\rho=+1$ there is none; at $\\rho=-1$ the reduction is greatest and can reach zero risk with the right weights. Any $\\rho<1$ helps, so negative correlation is not required."
+        },
+        {
+          "heading": "Why the maths works: the covariance term",
+          "body_markdown": "Portfolio variance is built from each asset's own variance plus a **covariance** term, which is how the two assets move together: $\\text{Cov}_{1,2}=\\rho_{1,2}\\,\\sigma_1\\sigma_2$. For two assets:\n\n$$\\sigma_p^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{1,2}\\sigma_1\\sigma_2$$\n\nOnly the last term depends on correlation. A positive covariance adds to variance, a negative one subtracts from it. Setting $\\rho=1$ makes the formula a perfect square, $(w_1\\sigma_1+w_2\\sigma_2)^2$, which is exactly the weighted average of the two standard deviations. Any smaller $\\rho$ shrinks the last term and pulls the answer below that average."
+        },
+        {
+          "heading": "Same-industry versus different-industry stocks, and the floor",
+          "body_markdown": "Stocks in the same industry usually have high correlations because they face the same fuel costs, regulation and demand swings. Pairing two such stocks removes only the firm-specific (**idiosyncratic**) risk, not the shared industry risk, so the benefit is small. Pairing stocks from unrelated industries lowers risk much more.\n\nAdding more and more assets keeps helping, but not without limit. In a large equal-weighted portfolio, the variance approaches the average covariance between the assets. The idiosyncratic risk fades out and what remains is **systematic (market) risk** that all the assets share. With stocks of standard deviation $\\sigma$ and every pairwise correlation $\\rho$, the portfolio standard deviation approaches $\\sigma\\sqrt{\\rho}$, not zero."
+        }
+      ],
+      "worked_example": {
+        "problem": "A portfolio holds 50% in Asset X (standard deviation 20%) and 50% in Asset Y (standard deviation 30%). The correlation between X and Y is 0.20. These are given risk estimates, so no sample-versus-population choice arises. Find the portfolio standard deviation and compare it with the weighted average of the two standard deviations.",
+        "steps": [
+          "Weighted average of the standard deviations: $0.5(20\\%)+0.5(30\\%)=25\\%$. This is the answer you would get if $\\rho=+1$.",
+          "Term 1: $w_X^2\\sigma_X^2=0.25\\times0.04=0.0100$.",
+          "Term 2: $w_Y^2\\sigma_Y^2=0.25\\times0.09=0.0225$.",
+          "Term 3 (covariance term): $2\\times0.5\\times0.5\\times0.20\\times0.20\\times0.30=0.0060$.",
+          "Add: $\\sigma_p^2=0.0100+0.0225+0.0060=0.0385$.",
+          "Square root: $\\sigma_p=\\sqrt{0.0385}\\approx0.1962$, i.e. 19.62%.",
+          "BA II Plus: the calculator is in chain mode by default, so do not string the terms together. Enter 0.25 × 0.04 = STO 1; 0.25 × 0.09 = STO 2; 2 × 0.5 × 0.5 × 0.2 × 0.2 × 0.3 = STO 3. Then RCL 1 + RCL 2 + RCL 3 = (shows 0.0385) and press √x (shows 0.1962).",
+          "Interpretation: 19.62% is well below the 25% weighted average, and even below the 20% standard deviation of the less risky asset X."
+        ],
+        "answer": "The portfolio standard deviation is about 19.62%, below the 25% weighted average and below either asset's own standard deviation of 20% (X) or 30% (Y) in the case of X.",
+        "answer_value": 0.1962,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.2,\"sd2\":0.3,\"corr\":0.2}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Two-asset portfolio standard deviation",
+          "latex": "\\sigma_p=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{1,2}\\sigma_1\\sigma_2}",
+          "where": "$w_1,w_2$ are portfolio weights (summing to 1); $\\sigma_1,\\sigma_2$ are the assets' standard deviations; $\\rho_{1,2}$ is their correlation; $\\sigma_p$ is the portfolio standard deviation."
+        },
+        {
+          "name": "Covariance from correlation",
+          "latex": "\\text{Cov}_{1,2}=\\rho_{1,2}\\,\\sigma_1\\sigma_2",
+          "where": "$\\text{Cov}_{1,2}$ is the covariance of the two assets' returns; $\\rho_{1,2}$ their correlation; $\\sigma_1,\\sigma_2$ their standard deviations."
+        },
+        {
+          "name": "Perfect positive correlation (no benefit)",
+          "latex": "\\rho_{1,2}=1\\;\\Rightarrow\\;\\sigma_p=w_1\\sigma_1+w_2\\sigma_2",
+          "where": "Portfolio standard deviation equals the weighted average of the individual standard deviations; weights $w_1,w_2$ are non-negative."
+        },
+        {
+          "name": "Perfect negative correlation",
+          "latex": "\\rho_{1,2}=-1\\;\\Rightarrow\\;\\sigma_p=\\left|w_1\\sigma_1-w_2\\sigma_2\\right|",
+          "where": "Risk is zero when $w_1=\\sigma_2/(\\sigma_1+\\sigma_2)$; symbols as above."
+        }
+      ],
+      "exam_traps": [
+        "Averaging the standard deviations. Portfolio standard deviation equals the weighted average only when $\\rho=+1$; otherwise it is lower.",
+        "Believing diversification lowers expected return. Expected return is always the weighted average of the assets' expected returns, whatever the correlation.",
+        "Thinking you need negative correlation to reduce risk. Any correlation below $+1$ gives some reduction; negative values simply give more.",
+        "Dropping the factor 2 (or the correlation) in the covariance term when computing variance, or forgetting to take the square root at the end.",
+        "Assuming enough assets drive risk to zero. The portfolio keeps the systematic risk the assets share, so the floor reflects the average covariance."
+      ],
+      "builds_on": [
+        "Mean, variance and standard deviation of returns",
+        "Covariance and correlation",
+        "Portfolio weights and expected return"
+      ],
+      "leads_to": [
+        "Minimum-variance and efficient frontiers",
+        "Global minimum-variance portfolio",
+        "Systematic versus idiosyncratic risk"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15401-lec13:13:3",
+        "mit-ocw-15401-lec13:23:5",
+        "mit-ocw-15401-lec13:28:6",
+        "os:principles-finance-2e:m00094:0.2",
+        "os:principles-finance-2e:m00097:1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio combines two risky assets whose returns have a correlation of exactly +1. Compared with the weighted average of the two assets' standard deviations, the portfolio standard deviation is:",
+        "options": [
+          {
+            "text": "Equal to the weighted average, so no risk reduction occurs",
+            "value": null,
+            "explanation": "Correct. With $\\rho=+1$ the variance formula collapses to $(w_1\\sigma_1+w_2\\sigma_2)^2$, so the standard deviation is exactly the weighted average."
+          },
+          {
+            "text": "Below the weighted average, because the assets differ in size",
+            "value": null,
+            "explanation": "Mistake: believing that merely holding two different assets reduces risk. The reduction comes only from a correlation below +1."
+          },
+          {
+            "text": "Zero, because the assets move in perfect unison",
+            "value": null,
+            "explanation": "Mistake: confusing +1 with −1. Zero risk is possible only with perfect negative correlation and suitable weights."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A portfolio is split 50% / 50% between Asset A (standard deviation 10%) and Asset B (standard deviation 20%). The correlation of their returns is 0.25. These are given risk estimates. Compute the portfolio standard deviation, rounded to two decimals in percent.",
+        "options": [
+          {
+            "text": "15.00%",
+            "value": 0.15,
+            "explanation": "Mistake: taking the weighted average of the standard deviations, which is only valid at $\\rho=+1$."
+          },
+          {
+            "text": "12.25%",
+            "value": 0.1225,
+            "explanation": "Correct. Variance $=0.25(0.01)+0.25(0.04)+2(0.5)(0.5)(0.25)(0.10)(0.20)=0.015$; the square root is about 12.25%."
+          },
+          {
+            "text": "11.18%",
+            "value": 0.1118,
+            "explanation": "Mistake: dropping the covariance term (treating correlation as zero), which gives $\\sqrt{0.0125}$."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.1,\"sd2\":0.2,\"corr\":0.25}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor holds only airline stock A (standard deviation 30%). She will add an equal dollar amount of one of two candidates, each with a 30% standard deviation and the same expected return as A. Airline B has a 0.85 correlation with A; oil producer C has a 0.30 correlation with A. Which statement is correct?",
+        "options": [
+          {
+            "text": "Airline B reduces risk more, since its returns are driven by familiar shared factors",
+            "value": null,
+            "explanation": "Mistake: equating familiarity or predictability with diversification. Shared drivers are exactly what keeps B's correlation with A high and leaves the risk in place."
+          },
+          {
+            "text": "Oil producer C reduces risk more, since its returns move less closely with A's",
+            "value": null,
+            "explanation": "Correct. With equal standard deviations and weights, the lower correlation means a smaller covariance term and a lower portfolio standard deviation."
+          },
+          {
+            "text": "Both reduce risk equally, since the two candidates share the same standard deviation",
+            "value": null,
+            "explanation": "Mistake: ignoring correlation. Equal individual risk does not mean equal contribution to portfolio risk."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00094:0.2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A fund holds 70% in Asset P (standard deviation 15%) and 30% in Asset Q (standard deviation 25%). The correlation between P and Q is 0.60. These are given risk estimates. Compute the portfolio standard deviation, rounded to two decimals in percent.",
+        "options": [
+          {
+            "text": "16.16%",
+            "value": 0.1616,
+            "explanation": "Correct. Variance $=0.49(0.0225)+0.09(0.0625)+2(0.7)(0.3)(0.6)(0.15)(0.25)=0.0261$; the square root is about 16.16%."
+          },
+          {
+            "text": "18.00%",
+            "value": 0.18,
+            "explanation": "Mistake: using the weighted average $0.7(15)+0.3(25)$, which ignores that $\\rho=0.6$ is below 1."
+          },
+          {
+            "text": "14.62%",
+            "value": 0.1462,
+            "explanation": "Mistake: omitting the factor 2 on the covariance term, which understates variance ($0.021375$ instead of $0.0261$)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.7,\"sd1\":0.15,\"sd2\":0.25,\"corr\":0.6}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A portfolio is held at fixed weights of 40% in asset M and 60% in asset N. The correlation between M and N falls from 0.8 to 0.2, while each asset's expected return and standard deviation stay the same. What happens to the portfolio?",
+        "options": [
+          {
+            "text": "Expected return falls and standard deviation falls",
+            "value": null,
+            "explanation": "Mistake: believing that risk reduction must be paid for with lower expected return. Expected return depends only on weights and the assets' expected returns."
+          },
+          {
+            "text": "Expected return rises and standard deviation falls",
+            "value": null,
+            "explanation": "Mistake: believing lower correlation raises the expected return. Correlation does not enter the expected-return formula."
+          },
+          {
+            "text": "Expected return is unchanged and standard deviation falls",
+            "value": null,
+            "explanation": "Correct. Expected return is a weighted average and ignores correlation; the covariance term shrinks, lowering variance and standard deviation."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5",
+          "mit-ocw-15401-lec13:13:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A portfolio is 60% Asset X (standard deviation 20%) and 40% Asset Y (standard deviation 30%). The correlation between X and Y is exactly −1. These are given risk estimates. Compute the portfolio standard deviation, rounded to two decimals in percent.",
+        "options": [
+          {
+            "text": "24.00%",
+            "value": 0.24,
+            "explanation": "Mistake: using the weighted average $0.6(20)+0.4(30)$, which holds only at $\\rho=+1$."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "Mistake: subtracting the raw standard deviations ($30-20$) without applying the weights."
+          },
+          {
+            "text": "0.00%",
+            "value": 0,
+            "explanation": "Correct. At $\\rho=-1$, $\\sigma_p=|0.6(20)-0.4(30)|=|12-12|=0$; the weights fit $w_X=\\sigma_Y/(\\sigma_X+\\sigma_Y)=0.6$, so risk vanishes."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.6,\"sd1\":0.2,\"sd2\":0.3,\"corr\":-1}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An investor splits money 50% / 50% between two funds, each with a standard deviation of 20%. The correlation between the funds is 0.50. These are given risk estimates. Compute the portfolio standard deviation, rounded to two decimals in percent.",
+        "options": [
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "Mistake: assuming no risk reduction, i.e. treating the correlation as +1 even though it is 0.50."
+          },
+          {
+            "text": "14.14%",
+            "value": 0.1414,
+            "explanation": "Mistake: treating the funds as uncorrelated (dropping the covariance term), giving $\\sqrt{0.02}$."
+          },
+          {
+            "text": "17.32%",
+            "value": 0.1732,
+            "explanation": "Correct. Variance $=0.25(0.04)+0.25(0.04)+2(0.25)(0.5)(0.04)=0.03$; the square root is about 17.32%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "portfolioStdev2",
+          "args_json": "{\"w1\":0.5,\"sd1\":0.2,\"sd2\":0.2,\"corr\":0.5}"
+        },
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "os:principles-finance-2e:m00097:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An investor holds an equal-weighted portfolio of n stocks. Every stock has a standard deviation of 10%, and every pair of stocks has a correlation of 0.40. As n grows from 2 to a very large number, what happens to the portfolio standard deviation?",
+        "options": [
+          {
+            "text": "It falls toward about 6.3%, a floor set by the shared covariance",
+            "value": null,
+            "explanation": "Correct. Idiosyncratic risk is averaged away, but variance approaches the average covariance $0.4\\times0.01=0.004$, giving $\\sqrt{0.004}\\approx6.3\\%$."
+          },
+          {
+            "text": "It falls toward zero, since enough stocks remove every source of risk",
+            "value": null,
+            "explanation": "Mistake: thinking diversification can eliminate all risk. Positive correlation means shared (systematic) risk remains."
+          },
+          {
+            "text": "It stays near 10%, since each stock has the same standard deviation",
+            "value": null,
+            "explanation": "Mistake: assuming portfolio risk equals the individual stock risk. With $\\rho<1$ the portfolio is less volatile than its parts."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the effect on portfolio standard deviation when two assets have a correlation of +1?",
+        "back": "No risk reduction: portfolio standard deviation equals the weighted average of the two assets' standard deviations.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-rec06:13:2",
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "front": "Why is portfolio standard deviation below the weighted average of individual standard deviations when correlation is less than 1?",
+        "back": "The covariance term is smaller than in the perfect-correlation case, so the assets' swings partly offset each other.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:13:3",
+          "os:principles-finance-2e:m00097:1"
+        ]
+      },
+      {
+        "front": "Does lowering the correlation between two assets change the portfolio's expected return?",
+        "back": "No. Expected return is the weighted average of the assets' expected returns; only portfolio risk changes.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:23:5"
+        ]
+      },
+      {
+        "front": "What kind of risk remains in a large portfolio of positively correlated assets, and what sets its size?",
+        "back": "Systematic (market) risk, determined by the average covariance among the assets. It cannot be diversified away.",
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec13:28:6"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T21:09:45.173Z",
+      "purpose": "generate",
+      "losId": "portfolio-01-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11398,
+      "outputTokens": 13759,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.16154220000000002,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "losId": "portfolio-06-los6",
+  "losText": "identify financial and non-financial sources of risk and describe how they may interact",
+  "moduleId": "portfolio-06",
+  "moduleTitle": "Introduction to Risk Management",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T21:46:11.488Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15433-riskmanagement:6:2",
+      "title": "MIT OpenCourseWare 15.433 Investments (Spring 2003, R. Gallati): Class 16: Risk Management (VaR, historical simulation)",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/2bca024b70143e5d8f63df171c30e83f_1543316riskmanagement.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare course page: creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fsoc-digital-assets-2022:44:51",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "p. 44",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=44",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fsb-ai-ml-2017:20:24",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "p. 20",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=20",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fsoc-digital-assets-2022:16:17",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "pp. 16–17",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=16",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fsb-ai-ml-2017:30:41",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "p. 30",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=30",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fsoc-digital-assets-2022:78:89",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "p. 78",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=78",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "occ-corporate-risk-governance:42:58",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 42–43",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=42",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "fsoc-digital-assets-2022:118:150",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "pp. 118–119",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=118",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "fsb-ai-ml-2017:12:12",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 12–13",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=12",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.04
+    },
+    {
+      "id": "occ-corporate-risk-governance:42:57",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "p. 42",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=42",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    },
+    {
+      "id": "fsb-ai-ml-2017:32:45",
+      "title": "Artificial Intelligence and Machine Learning in Financial Services (Financial Stability Board)",
+      "locator": "pp. 32–33",
+      "url": "https://www.fsb.org/wp-content/uploads/P011117.pdf#page=32",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "occ-corporate-risk-governance:6:8",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 6–7",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Where Risk Comes From: Financial and Non-Financial Sources, and How They Feed Each Other",
+      "summary": "Organizations face risks that come from financial markets and risks that come from how the organization and its environment work. This LOS is about telling the two groups apart and seeing that they rarely act alone, because one risk can set off or magnify another.",
+      "sections": [
+        {
+          "heading": "Think of a household first",
+          "body_markdown": "A household has money risks: the value of its savings can drop, someone who owes it money might not pay, and it might not be able to sell the house quickly when cash is needed. It also has other risks: a burst pipe, a new law, a lawsuit, or a wrong spreadsheet used to plan the budget. An investment firm is the same, only larger. Risk management starts by listing *where* losses can come from, because a risk that has not been named cannot be measured or controlled. The curriculum splits the sources into **financial** risks (tied directly to markets and money flows) and **non-financial** risks (tied to the organization, its people, its models and its surroundings)."
+        },
+        {
+          "heading": "Financial sources of risk",
+          "body_markdown": "Three financial risks matter most.\n\n- **Market risk**: the chance of loss from unexpected moves in market prices or rates, such as interest rates, equity prices, exchange rates and commodity prices.\n- **Credit risk**: the chance of loss because a borrower or counterparty (the other side of a contract) does not pay in full and on time, or because its creditworthiness gets worse and its obligations fall in value.\n- **Liquidity risk**: the chance of loss because a position cannot be bought or sold quickly at a fair price. It shows up as wider bid-ask spreads, price concessions to sell, or lost access to borrowing.\n\nNotice that a bond can be perfectly safe from default (no credit problem) and still carry liquidity risk if nobody is quoting a sensible price for it."
+        },
+        {
+          "heading": "Non-financial sources of risk",
+          "body_markdown": "These come from the organization and its environment rather than from price moves directly.\n\n- **Operational risk**: losses from failures of people, systems, internal processes, or external events (a trading system crash, a data-entry error, fraud, a cyber-attack).\n- **Solvency risk**: the risk that the organization runs short of the resources it needs to keep operating and meet its obligations.\n- **Regulatory risk**: the risk that rules change, or that the organization breaks them, and it is hurt as a result.\n- **Governmental (political) risk**: the risk from actions of governments, for example sanctions, nationalization or sudden policy shifts.\n- **Legal risk**: the risk of loss from lawsuits or from contracts that turn out to be unenforceable.\n- **Model risk**: the risk of loss from a model that is wrong, badly built, fed bad data, or used for something it was not designed for.\n- **Tail risk**: the risk that extreme outcomes happen more often or are bigger than a standard assumption, such as a normal distribution, suggests.\n- **Accounting risk**: the risk that the way transactions or positions are recorded and reported is wrong or misleading.\n\nA quick way to classify: ask *what is the root cause?* A price move points to market risk, a failed payer to credit risk, a broken process to operational risk, a rule change to regulatory risk, and so on."
+        },
+        {
+          "heading": "How risks interact",
+          "body_markdown": "Risks do not sit in separate boxes. Vulnerabilities can operate on their own, but they tend to interact, and the combination can be worse than the sum of the parts.\n\n- **Market + liquidity + leverage**: leverage means investing with borrowed money. A price fall hurts, lenders ask for more collateral, the investor must sell, and selling into a thin market pushes prices down further. Even a sudden loss or reduced access to credit can create dramatic illiquidity in a business that normally looks very liquid.\n- **Market + credit**: a market downturn can lower the credit quality of issuers and counterparties, which causes credit losses on top of the market losses.\n- **Model + tail**: a model assuming mild, normal-looking outcomes can understate extreme losses, so the firm takes larger positions than it would have if it knew the truth.\n- **Operational + market**: a system outage in a volatile market stops a firm from closing positions, so a market loss is magnified by an operational failure.\n- **Regulatory/legal + others**: a compliance failure can bring penalties and a damaged reputation, which can reduce funding and raise solvency concerns.\n\nThe exam-level idea: risks are often **correlated in stress**, so managing each in isolation can miss the chain reaction. Capital is also a scarce resource, since raising new money from outsiders is usually more expensive than using retained earnings, so a loss that forces a quick capital raise makes everything worse."
+        }
+      ],
+      "worked_example": {
+        "problem": "A highly leveraged fund holds lightly traded corporate bonds. Its risk model assumes returns are normally distributed. Several issuers are downgraded, dealers widen their quotes, the fund's lender issues a margin call, and during the rush the fund's order-entry system freezes for two hours. Identify the risks involved and explain how they interacted.",
+        "steps": [
+          "Step 1: Read each event and ask what the root cause is. Downgrades of issuers are a change in credit quality, so this is credit risk.",
+          "Step 2: Bond prices fall because of the downgrades and the general selloff. A price decline is market risk.",
+          "Step 3: Dealers widen their quotes and the fund cannot sell without large concessions. This is liquidity risk. The margin call is a loss of access to credit, which is part of the same problem and is made worse by leverage.",
+          "Step 4: The risk model assumed normally distributed returns, so it did not warn of a loss this large. This is model risk, tied to tail risk because extreme outcomes were more likely than assumed.",
+          "Step 5: The frozen order-entry system stopped the fund from acting. This is operational risk, and it turned a bad situation into a worse one by delaying sales while prices fell.",
+          "Step 6: Trace the chain: downgrade (credit) leads to falling prices (market), which leads to a margin call and wider spreads (liquidity and leverage). Forced selling pushes prices lower, and the model failure and system outage prevented a timely response. If losses grow large enough, the fund's ability to survive (solvency) is in question."
+        ],
+        "answer": "Credit, market and liquidity risk (financial), plus model, tail and operational risk (non-financial), with solvency at stake. They reinforced each other in a loop: credit and market losses triggered liquidity stress, and model and operational weaknesses magnified the damage.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating the risks as independent. Exam answers that describe losses compounding across risk types (for example market losses leading to margin calls and illiquidity) are usually the correct ones.",
+        "Filing liquidity risk under non-financial or operational risk. It is a financial risk, because it concerns the ability to trade or fund positions at fair prices.",
+        "Confusing credit risk with liquidity risk. A sound issuer can still have a bond that is hard to sell (liquidity), while a defaulting issuer is a credit problem even if the bond trades actively.",
+        "Mixing up regulatory, governmental and legal risk. Regulatory risk is about rules and compliance, governmental risk is about actions of governments such as expropriation or sanctions, and legal risk is about lawsuits and enforceability of contracts.",
+        "Thinking market risk means only share prices. It covers interest rates, exchange rates and commodity prices as well."
+      ],
+      "builds_on": [
+        "What risk and risk management mean",
+        "Leverage and margin",
+        "Diversification and correlation"
+      ],
+      "leads_to": [
+        "Methods for measuring and modifying risk exposures",
+        "Stress testing and scenario analysis",
+        "Risk budgeting"
+      ],
+      "cited_chunk_ids": [
+        "mit-ocw-15433-riskmanagement:6:2",
+        "fsoc-digital-assets-2022:16:17",
+        "occ-corporate-risk-governance:6:8",
+        "fsb-ai-ml-2017:20:24"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A fund holds a corporate bond. The issuer misses a scheduled coupon payment, and the bond's value falls sharply. Which risk is the most direct source of this loss?",
+        "options": [
+          {
+            "text": "Liquidity risk, because the bond cannot be sold easily",
+            "value": null,
+            "explanation": "Mistake: confusing a trading problem with a payment problem. Liquidity risk concerns the ability to trade at a fair price; here the cause is the issuer's failure to pay."
+          },
+          {
+            "text": "Credit risk, because the issuer failed to pay as promised",
+            "value": null,
+            "explanation": "Correct. Credit risk is the chance of loss because a borrower does not pay in full and on time, or because its credit quality deteriorates."
+          },
+          {
+            "text": "Solvency risk of the fund, because the fund lost money",
+            "value": null,
+            "explanation": "Mistake: mixing up the fund's own survival with the issuer's failure to pay. The loss originates with the issuer's credit event, not with the fund running out of resources."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is classified as a non-financial source of risk?",
+        "options": [
+          {
+            "text": "Market risk from a change in exchange rates",
+            "value": null,
+            "explanation": "Mistake: market risk (unexpected changes in prices or rates) is one of the core financial risks."
+          },
+          {
+            "text": "Liquidity risk from widening bid-ask spreads",
+            "value": null,
+            "explanation": "Mistake: liquidity risk is a financial risk, since it concerns the cost or ability to adjust positions or obtain credit."
+          },
+          {
+            "text": "Operational risk from a failed internal system",
+            "value": null,
+            "explanation": "Correct. Operational risk arises from failures of people, systems, processes or external events, which makes it a non-financial source."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-corporate-risk-governance:6:8"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investor owns a bond from a financially healthy issuer that has never missed a payment. During a market panic, no dealer will quote a reasonable price, and the investor can only sell by accepting a large discount. Which risk is most directly illustrated?",
+        "options": [
+          {
+            "text": "Liquidity risk, because the position cannot be sold quickly at a fair price",
+            "value": null,
+            "explanation": "Correct. The problem is the inability to trade at a fair price, not a payment failure by the issuer."
+          },
+          {
+            "text": "Credit risk, because large price concessions signal an impending default",
+            "value": null,
+            "explanation": "Mistake: assuming any price drop means a credit problem. The issuer is healthy; the discount reflects a lack of buyers."
+          },
+          {
+            "text": "Legal risk, because the sale involves a binding contract",
+            "value": null,
+            "explanation": "Mistake: treating the existence of a trade contract as a legal problem. Nothing suggests lawsuits or unenforceable terms."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bank's value-at-risk model was built on a flawed assumption and consistently understates potential losses. Managers, trusting it, took larger positions than they otherwise would have. The additional exposure created by relying on the flawed model is best described as:",
+        "options": [
+          {
+            "text": "regulatory risk, because the model may breach supervisory rules",
+            "value": null,
+            "explanation": "Mistake: assuming any model problem is mainly about regulators. The source of the loss here is the model itself being wrong."
+          },
+          {
+            "text": "accounting risk, because the model affects reported values",
+            "value": null,
+            "explanation": "Mistake: confusing a risk measurement model with how transactions are recorded in the financial statements."
+          },
+          {
+            "text": "model risk, because decisions rested on an incorrect model",
+            "value": null,
+            "explanation": "Correct. Model risk is the risk of loss from a model that is wrong, poorly built, or misused, and here it caused larger positions than were justified."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:20:24"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best describes how risks can interact during a market downturn at a leveraged investor?",
+        "options": [
+          {
+            "text": "The risks are independent, so losses from one source do not affect the others",
+            "value": null,
+            "explanation": "Mistake: assuming independence. Risks tend to interact, and stress often links them."
+          },
+          {
+            "text": "Falling prices can trigger margin calls and forced sales, reducing liquidity and pushing prices down further",
+            "value": null,
+            "explanation": "Correct. A market loss combined with leverage causes funding stress and illiquidity, which feeds back into more market losses."
+          },
+          {
+            "text": "Holding several risk types guarantees that gains in one offset losses in another",
+            "value": null,
+            "explanation": "Mistake: confusing diversification with a guarantee. In stress, risks often become more correlated rather than offsetting."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2",
+          "fsoc-digital-assets-2022:16:17"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A government suddenly seizes the local assets of a foreign-owned energy company and pays no compensation. An investor holding shares in the company loses most of the value of the holding. Which source of risk best explains the loss?",
+        "options": [
+          {
+            "text": "Governmental (political) risk, because a government action caused the loss",
+            "value": null,
+            "explanation": "Correct. Risk arising from actions of a government, such as expropriation or sanctions, is governmental or political risk."
+          },
+          {
+            "text": "Model risk, because the investor's valuation model failed to predict it",
+            "value": null,
+            "explanation": "Mistake: blaming the valuation approach. Even a good model cannot remove the exposure to a government's seizure of assets."
+          },
+          {
+            "text": "Operational risk, because the company lost control of its facilities",
+            "value": null,
+            "explanation": "Mistake: reading loss of assets as an internal process failure. The cause was an external government decision, not a failing in people, systems or processes."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "On a day of sharp price swings, a trading firm's settlement system fails and the firm cannot close out positions while prices move against it. Which description best captures the interaction of risks?",
+        "options": [
+          {
+            "text": "A market-risk loss that is unrelated to the system failure",
+            "value": null,
+            "explanation": "Mistake: ignoring the link. The outage prevented the firm from reducing its exposure, so it contributed to the size of the loss."
+          },
+          {
+            "text": "A credit event triggered by the downgrade of the firm's counterparty",
+            "value": null,
+            "explanation": "Mistake: inventing a counterparty downgrade that the scenario does not describe. The failure is internal, in the firm's own system."
+          },
+          {
+            "text": "An operational failure that magnifies a loss caused by market risk",
+            "value": null,
+            "explanation": "Correct. The system failure is operational risk, and by blocking the firm's response it increased losses from adverse market moves."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the three main financial sources of risk?",
+        "back": "Market risk (unexpected moves in prices or rates), credit risk (a counterparty fails to pay or its credit quality falls) and liquidity risk (inability to trade at a fair price, or loss of access to credit).",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2"
+        ]
+      },
+      {
+        "front": "Name the non-financial sources of risk in the curriculum list.",
+        "back": "Operational, solvency, regulatory, governmental (political), legal, model, tail and accounting risk.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How does credit risk differ from liquidity risk?",
+        "back": "Credit risk is about the other party failing to pay or being downgraded. Liquidity risk is about being unable to buy or sell at a fair price or to obtain funding, even if the issuer is sound.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2"
+        ]
+      },
+      {
+        "front": "Give an example of how financial risks can interact through leverage.",
+        "back": "Prices fall (market risk), lenders issue margin calls, the investor must sell into a thin market (liquidity risk), and the forced selling pushes prices down further.",
+        "cited_chunk_ids": [
+          "mit-ocw-15433-riskmanagement:6:2",
+          "fsoc-digital-assets-2022:16:17"
+        ]
+      },
+      {
+        "front": "What is model risk, and which other risk does it often hide?",
+        "back": "Model risk is the chance of loss from a model that is wrong, built on bad assumptions or data, or misused. It often hides tail risk, because models assuming normal outcomes can understate extreme losses.",
+        "cited_chunk_ids": [
+          "fsb-ai-ml-2017:20:24"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T21:46:11.488Z",
+      "purpose": "generate",
+      "losId": "portfolio-06-los6",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9832,
+      "outputTokens": 9979,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1206102,
+      "stopReason": "end_turn"
+    }
+  ]
+}

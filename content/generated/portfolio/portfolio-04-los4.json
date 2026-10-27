@@ -1,0 +1,415 @@
+{
+  "losId": "portfolio-04-los4",
+  "losText": "explain the difference between the willingness and the ability (capacity) to take risk in analyzing an investor's financial risk tolerance",
+  "moduleId": "portfolio-04",
+  "moduleTitle": "Basics of Portfolio Planning and Construction",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T21:32:54.988Z",
+  "retrieved": [
+    {
+      "id": "flatworld-individual-finance:378:342",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 378–380",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=378",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:149:144",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 149–150",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=149",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-individual-finance:19:16",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 19–20",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=19",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-individual-finance:402:366",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 402–403",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=402",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-individual-finance:22:19",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 22–24",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=22",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-risk-mgmt-derivatives:147:142",
+      "title": "Comptroller's Handbook: Risk Management of Financial Derivatives (OCC)",
+      "locator": "pp. 147–148",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/risk-mgmt-financial-derivatives/pub-ch-risk-mgmt-financial-derivatives.pdf#page=147",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-individual-finance:381:345",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 381–383",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=381",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-interest-rate-risk:49:63",
+      "title": "Comptroller's Handbook: Interest Rate Risk (OCC)",
+      "locator": "pp. 49–50",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/interest-rate-risk/pub-ch-interest-rate-risk.pdf#page=49",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-rf-behavioral:176:216",
+      "title": "Behavioral Finance: The Second Generation (Statman, CFA Institute Research Foundation)",
+      "locator": "p. 176",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2019/behavioral-finance-the-second-generation.pdf#page=176",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-individual-finance:383:346",
+      "title": "Individual Finance (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 383",
+      "url": "https://2012books.lardbucket.org/pdfs/individual-finance.pdf#page=383",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-ips-individual:7:1",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "p. 7",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=7",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.03
+    },
+    {
+      "id": "cfa-ips-individual:16:9",
+      "title": "Elements of an Investment Policy Statement for Individual Investors (CFA Institute)",
+      "locator": "pp. 16–17",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf#page=16",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.03
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Can You Afford the Risk vs. Can You Stomach It",
+      "summary": "A client's risk tolerance has two separate parts: how much loss the client's finances can absorb (ability) and how much loss the client is comfortable accepting (willingness). Keeping them apart helps you set a sensible risk level, especially when the two point in different directions.",
+      "sections": [
+        {
+          "heading": "Two questions, not one",
+          "body_markdown": "When an advisor asks 'how much risk can this client take?', there are really two questions hiding inside it.\n\n- **Ability (capacity) to take risk** is an *objective, financial* question: if markets fall hard, can this person's finances absorb the loss and still meet their goals?\n- **Willingness to take risk** is a *subjective, psychological* question: how does this person feel about the chance of losing money?\n\nThink of a swimmer. Ability is whether they are physically strong enough to swim across the lake. Willingness is whether they are brave enough to get in the water. A strong swimmer can be terrified of water, and a weak swimmer can be reckless. Both facts matter for deciding whether to send them across."
+        },
+        {
+          "heading": "What drives ability",
+          "body_markdown": "Ability comes from the client's financial situation, which can be measured with numbers:\n\n- **Asset base**: a larger cushion relative to needs means losses hurt less.\n- **Time horizon**: the longer until the money is needed, the more time to recover from a bad stretch.\n- **Liquidity needs**: cash the portfolio must pay out for spending rather than reinvestment. Large near-term withdrawals reduce capacity.\n- **Income stability and obligations**: a secure paycheck and few dependents give more room; an uncertain job, large known liabilities, or dependents who rely on the client give less.\n\nNotice that ability is about the *situation*, not about feelings. A client can feel relaxed and still have very little capacity."
+        },
+        {
+          "heading": "What drives willingness",
+          "body_markdown": "Willingness comes from the client's attitudes: personality, past experiences (for example, living through a market crash), and knowledge or education about investing. Someone who says 'protecting what I have matters more than big gains' is risk averse. Someone who wants a quick profit leans toward risk seeking.\n\nBecause attitudes cannot be read from a balance sheet, advisors usually use **interviews and questionnaires** to gauge willingness, and they use **financial data** (assets, liabilities, spending needs, horizon) to gauge ability. Willingness can also shift as life changes. For example, having dependents tends to lower both willingness and ability."
+        },
+        {
+          "heading": "When the two disagree",
+          "body_markdown": "The exam-level idea is what to do with a mismatch.\n\n- **Low ability, high willingness** (an enthusiastic client who will need most of the money soon): the client may happily take big risks, but the finances cannot withstand a big loss. Capacity limits the risk taken.\n- **High ability, low willingness** (a wealthy client who panics at losses): the finances could cope, but an uncomfortable client may bail out at the worst time. The advisor generally leans toward the more conservative of the two, and may educate the client to see whether willingness is based on misunderstanding.\n\nA common real-life example is a retiree with large accumulated assets: capacity can be high because of the assets, yet willingness is often low because the portfolio is now the only source of income. Do not assume this automatically, though. A retiree with modest assets relative to spending would have low capacity too. Judge each client from their own numbers and attitudes, not from age alone.\n\nBoth parts then feed the risk objective in the client's investment policy statement (IPS)."
+        }
+      ],
+      "worked_example": {
+        "problem": "Two clients each have a $1,000,000 portfolio. Client X is a 40-year-old engineer with a secure, high salary, no dependents, no major near-term cash needs, and a 25-year horizon. After the last market drop, X sold everything and says even a 10% temporary loss is unbearable. Client Y is a 55-year-old who is thrilled by high-risk investing and says losses never bother her, but she must pay $700,000 for a business purchase in two years. Classify each client's ability and willingness, and say what should guide the risk level.",
+        "steps": [
+          "Client X ability: assets are large relative to needs, income is secure, horizon is long, and there are no big liquidity needs, so ability is HIGH.",
+          "Client X willingness: the panic selling and the stated discomfort with a 10% loss show willingness is LOW.",
+          "Client X conclusion: ability is high and willingness is low, so the more conservative willingness generally guides the risk level. The advisor can educate X about long-horizon investing and revisit the question later.",
+          "Client Y ability: $700,000 of the $1,000,000 is needed in two years, so a short horizon and a large liquidity need make ability LOW.",
+          "Client Y willingness: she is comfortable with losses and seeks risk, so willingness is HIGH.",
+          "Client Y conclusion: ability is low and willingness is high, so capacity should limit the risk taken, since a large loss could stop her from making the purchase."
+        ],
+        "answer": "Client X: high ability, low willingness, so lean toward the lower, more conservative level (willingness) while educating. Client Y: low ability, high willingness, so capacity (the lower) limits risk.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Mixing up the two terms: ability is the financial, objective side (assets, horizon, liquidity needs), while willingness is the psychological, subjective side (attitudes, experience).",
+        "Assuming an enthusiastic, risk-seeking client can take high risk. A client with low capacity should still be limited, however eager.",
+        "Treating age as a shortcut. Older does not automatically mean low ability; a retiree's ability depends on assets relative to spending and liabilities.",
+        "Using a questionnaire alone. Questionnaires and interviews mainly reveal willingness; ability needs financial facts such as liabilities and cash needs.",
+        "Confusing risk tolerance with the return objective. Risk tolerance is about how much loss can and will be accepted; the return objective is about what the goals require."
+      ],
+      "builds_on": [
+        "Risk aversion and risk-return trade-off",
+        "Time horizon and liquidity needs",
+        "Client profile and life stage"
+      ],
+      "leads_to": [
+        "Setting risk and return objectives in the IPS",
+        "Investment constraints",
+        "Strategic asset allocation"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-individual-finance:378:342",
+        "flatworld-individual-finance:22:19",
+        "flatworld-individual-finance:19:16",
+        "flatworld-individual-finance:402:366",
+        "cfa-ips-individual:16:9"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In analyzing a client's risk tolerance, which description best fits the client's ABILITY to take risk?",
+        "options": [
+          {
+            "text": "The client's emotional comfort with portfolio swings, shaped by personality and past market experiences",
+            "value": null,
+            "explanation": "This describes willingness, the psychological side. Confusing the two terms is the mistake."
+          },
+          {
+            "text": "The financial capacity to absorb losses without derailing goals, set by assets, horizon and spending needs",
+            "value": null,
+            "explanation": "Correct. Ability is the objective financial capacity to bear losses, determined by the asset base, time horizon and liquidity needs."
+          },
+          {
+            "text": "The investment return the client hopes to earn, set by goals and the desired standard of living",
+            "value": null,
+            "explanation": "This describes the return objective, which is a separate component and not about capacity to bear losses."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is most directly a determinant of a client's WILLINGNESS to take risk?",
+        "options": [
+          {
+            "text": "Having lived through a severe market crash and found the experience deeply distressing",
+            "value": null,
+            "explanation": "Correct. Personal experiences and personality shape attitudes toward risk, which is willingness."
+          },
+          {
+            "text": "Having a long period of many years before the money is needed for spending",
+            "value": null,
+            "explanation": "Time horizon is a determinant of ability, not willingness."
+          },
+          {
+            "text": "Having a large pool of liquid assets compared with annual spending needs",
+            "value": null,
+            "explanation": "The size of the asset base relative to needs determines ability, a financial factor."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A 35-year-old surgeon has a very high and stable income, large investable assets, no dependents, and no near-term cash needs. After a market decline she sold all her stocks in a panic and says she cannot tolerate seeing losses. Which conclusion is most appropriate?",
+        "options": [
+          {
+            "text": "Ability is low and willingness is high, so the portfolio should follow her stated risk appetite",
+            "value": null,
+            "explanation": "This reverses the facts. Her finances give high ability, and her behavior shows low willingness."
+          },
+          {
+            "text": "Ability is high and willingness is low, so the portfolio should be built at the most risk she could afford",
+            "value": null,
+            "explanation": "Ignoring low willingness is the mistake. A client who cannot stay with the strategy may sell at the worst time."
+          },
+          {
+            "text": "Ability is high and willingness is low, so the lower of the two generally guides risk, with possible client education",
+            "value": null,
+            "explanation": "Correct. Her finances could absorb losses, but her discomfort is a real constraint, so a more conservative stance generally prevails while education may help."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:22:19",
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A client says he loves taking investment risk and never worries about losses. However, he will need to withdraw about 80% of his small portfolio within two years to pay for a medical procedure. Which statement is most accurate?",
+        "options": [
+          {
+            "text": "His ability is low because of the short horizon and large liquidity need, so capacity should limit the risk taken",
+            "value": null,
+            "explanation": "Correct. The short horizon and large near-term withdrawal limit capacity, and a high willingness cannot make up for that."
+          },
+          {
+            "text": "His willingness governs, because the risk level should always follow the client's own preferences",
+            "value": null,
+            "explanation": "Letting willingness override low ability is the mistake. A large loss could leave the medical bill unpaid."
+          },
+          {
+            "text": "His ability is high, because a client who is comfortable with losses can clearly afford them",
+            "value": null,
+            "explanation": "This confuses willingness with ability. Comfort with losses does not create financial capacity."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following developments would most directly reduce a client's ABILITY (as opposed to willingness) to take risk?",
+        "options": [
+          {
+            "text": "The client reads a news article about a possible market bubble and feels uneasy about stocks",
+            "value": null,
+            "explanation": "Unease is an attitude, so this affects willingness, not financial capacity."
+          },
+          {
+            "text": "The client's employer announces layoffs, making the client's future salary far less secure",
+            "value": null,
+            "explanation": "Correct. A less secure income weakens the financial cushion and so reduces capacity to absorb losses."
+          },
+          {
+            "text": "A close friend loses money in a speculative investment, and the client becomes wary of speculation",
+            "value": null,
+            "explanation": "This changes the client's experience-based attitude, which is willingness."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An advisor wants to assess both parts of a new client's risk tolerance. Which approach correctly matches the tool to the component?",
+        "options": [
+          {
+            "text": "Questionnaires measure ability, while the client's liabilities and spending needs measure willingness",
+            "value": null,
+            "explanation": "This reverses the pairing. Questionnaires capture attitudes, and financial data capture capacity."
+          },
+          {
+            "text": "Questionnaires measure both ability and willingness, so financial data on liabilities is not needed",
+            "value": null,
+            "explanation": "Questionnaires cannot reveal financial capacity. Known liabilities and cash needs give a quantitative basis for ability."
+          },
+          {
+            "text": "Interviews and questionnaires gauge willingness, while assets, liabilities and spending needs gauge ability",
+            "value": null,
+            "explanation": "Correct. Attitudes toward loss are assessed by talking and questioning, while capacity comes from the client's financial facts."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A 68-year-old retiree has accumulated assets that are large relative to her annual spending. Her portfolio is now her only income source, and she is very worried about losses. Which statement best describes her situation?",
+        "options": [
+          {
+            "text": "Ability may be high because of her large assets, but willingness is likely low since the portfolio funds her living",
+            "value": null,
+            "explanation": "Correct. Large assets relative to spending give capacity, while dependence on the portfolio for income often lowers willingness."
+          },
+          {
+            "text": "Both ability and willingness must be low, since age alone sets a ceiling on both components",
+            "value": null,
+            "explanation": "Using age as a shortcut is the mistake. Ability depends on assets relative to needs, which here are favorable."
+          },
+          {
+            "text": "Ability is low and willingness is high, because with no wage income she must pursue growth",
+            "value": null,
+            "explanation": "This contradicts the facts. She is worried about losses (low willingness), and her large asset base supports ability."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:22:19",
+          "flatworld-individual-finance:402:366"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a client's ability (capacity) to take risk, and what determines it?",
+        "back": "The objective financial capacity to absorb losses without derailing goals. It is determined by asset base, time horizon, liquidity needs, and income stability and obligations.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      {
+        "front": "What is a client's willingness to take risk, and what shapes it?",
+        "back": "The subjective, psychological comfort with the possibility of losses. It is shaped by personality, past experiences, and knowledge or education.",
+        "cited_chunk_ids": [
+          "flatworld-individual-finance:378:342"
+        ]
+      },
+      {
+        "front": "How are ability and willingness typically assessed?",
+        "back": "Willingness: interviews and questionnaires. Ability: financial facts such as assets, known liabilities, spending needs and horizon.",
+        "cited_chunk_ids": [
+          "cfa-ips-individual:16:9"
+        ]
+      },
+      {
+        "front": "What generally guides the risk level when ability and willingness conflict?",
+        "back": "The more conservative (lower) of the two generally prevails. If ability is high but willingness is low, the advisor may educate the client; if ability is low, capacity limits risk even when willingness is high.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T21:32:54.988Z",
+      "purpose": "generate",
+      "losId": "portfolio-04-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9243,
+      "outputTokens": 7709,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.09673219999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}
