@@ -115,17 +115,29 @@ export interface StructuredCall<S extends z.ZodType> {
 export async function callStructured<S extends z.ZodType>(call: StructuredCall<S>): Promise<{ data: z.infer<S>; record: CallRecord }> {
   assertUnderBudget();
   const model = call.model ?? DEFAULT_MODEL;
-  const stream = getClient().beta.messages.stream({
-    model,
-    max_tokens: call.maxTokens ?? 64000,
-    betas: ["server-side-fallback-2026-07-01"],
-    fallbacks: "default",
-    thinking: { type: "adaptive" },
-    output_config: { effort: call.effort ?? "high", format: betaZodOutputFormat(call.schema) },
-    system: [{ type: "text", text: call.system, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: call.user }],
-  });
-  const message = await stream.finalMessage();
+  const request = () =>
+    getClient()
+      .beta.messages.stream({
+        model,
+        max_tokens: call.maxTokens ?? 64000,
+        betas: ["server-side-fallback-2026-07-01"],
+        fallbacks: "default",
+        thinking: { type: "adaptive" },
+        output_config: { effort: call.effort ?? "high", format: betaZodOutputFormat(call.schema) },
+        system: [{ type: "text", text: call.system, cache_control: { type: "ephemeral" } }],
+        messages: [{ role: "user", content: call.user }],
+      })
+      .finalMessage();
+  let message: Awaited<ReturnType<typeof request>>;
+  try {
+    message = await request();
+  } catch (err) {
+    // The SDK throws when the reply doesn't match the schema (seen once: an off-list enum value from the
+    // grounding critic). One retry; its cost isn't in the ledger because the SDK threw before we saw usage.
+    if (!(err instanceof Error && err.message.includes("Failed to parse structured output"))) throw err;
+    console.warn(`${call.purpose} for ${call.losId}: reply did not match the schema; retrying once`);
+    message = await request();
+  }
 
   const record: CallRecord = {
     at: new Date().toISOString(),

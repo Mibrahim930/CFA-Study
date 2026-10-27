@@ -374,6 +374,7 @@ async function main() {
   const targets = values.topic ? losForTopic(values.topic) : (values.los ?? []).flatMap((s) => s.split(",")).map(findLos);
   if (targets.length === 0) throw new Error("Pass --los <id> or --topic <id>");
   if (!values["skip-model-gates"]) console.log(`Verifier model ${values.model}. Spent this month: $${monthSpendUsd().toFixed(2)} of $${monthlyBudgetUsd().toFixed(2)}.`);
+  const failed: string[] = [];
 
   for (const ctx of targets) {
     const src = outputPath(ctx);
@@ -386,10 +387,17 @@ async function main() {
       continue;
     }
     const file = JSON.parse(readFileSync(src, "utf8")) as GeneratedFile;
-    const out = await verifyOne(file, { model: values.model, skipModelGates: values["skip-model-gates"] });
-    writeFileSync(src.replace(/\.json$/, ".verified.json"), JSON.stringify(out, null, 2) + "\n");
-    report(out, file.usage.reduce((s, r) => s + r.costUsd, 0));
+    try {
+      const out = await verifyOne(file, { model: values.model, skipModelGates: values["skip-model-gates"] });
+      writeFileSync(src.replace(/\.json$/, ".verified.json"), JSON.stringify(out, null, 2) + "\n");
+      report(out, file.usage.reduce((s, r) => s + r.costUsd, 0));
+    } catch (err) {
+      // One bad reply must not abort the topic; the LOS has no .verified.json, so the next run retries it.
+      failed.push(ctx.los.id);
+      console.error(`\n${ctx.los.id}: verify failed, skipped: ${err instanceof Error ? err.message.split("\n")[0] : err}`);
+    }
   }
+  if (failed.length) console.log(`\nverify: ${failed.length} LOS failed and were skipped (${failed.join(", ")}); rerun the same command to retry them.`);
 }
 
 if (process.argv[1]?.replace(/\\/g, "/").endsWith("content-pipeline/verify.ts")) {
