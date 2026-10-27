@@ -1,0 +1,793 @@
+{
+  "losId": "corpfin-03-los1",
+  "losText": "describe the principal-agent relationship and conflicts that may arise between stakeholder groups",
+  "moduleId": "corpfin-03",
+  "moduleTitle": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:30:45.196Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00014:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — How to Resolve Agency Problems",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.25
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.2
+    },
+    {
+      "id": "flatworld-finance-for-managers:24:14",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 24–25",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=24",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "os:principles-management:m70732:3",
+      "title": "Principles of Management",
+      "locator": "§2.1 Overview of Managerial Decision-Making — What’s the Right (Ethical) Answer?",
+      "url": "https://openstax.org/books/principles-management/pages/2-1-overview-of-managerial-decision-making",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Issues: Shareholders and Corporate Boards",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-finance-2e:m00012:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.2 Relationship between Shareholders and Company Management — Shareholders’ Roles and Composition",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-2-relationship-between-shareholders-and-company-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00012:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.2 Relationship between Shareholders and Company Management — Stakeholders",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-2-relationship-between-shareholders-and-company-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-corporate-risk-governance:20:27",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 20–21",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=20",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-management:m70631:1",
+      "title": "Principles of Management",
+      "locator": "§5.6 Corporate Social Responsibility (CSR) — Stakeholder Management",
+      "url": "https://openstax.org/books/principles-management/pages/5-6-corporate-social-responsibility-csr",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-for-managers:25:15",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 25–27",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=25",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Who Acts for Whom: Agency Relationships and Stakeholder Conflicts",
+      "summary": "An agency relationship exists whenever one party makes decisions on behalf of another, and it creates room for conflicts because the two sides want different things. This lesson maps the main conflicts between shareholders, managers, directors, creditors and other stakeholders, since exam questions ask you to name the conflict from a short scenario.",
+      "sections": [
+        {
+          "heading": "The core idea: hiring someone to decide for you",
+          "body_markdown": "Imagine you own a house and hire a property manager to rent it out. You are the **principal**, the party whose interests are supposed to be served. The manager is the **agent**, the party who acts on the principal's behalf. This is an **agency relationship**. You cannot watch every decision, so the manager will always know more than you. Their pay, workload and career goals may also differ from yours. A **conflict of interest** arises when the agent's incentives push toward a choice that is good for the agent but not for the principal. The *agency problem* is the risk that the agent puts their own interests first."
+        },
+        {
+          "heading": "Who is principal and who is agent in a company",
+          "body_markdown": "A listed company has several layers of agency. **Shareholders** (owners of the company's stock) are the ultimate principals. They elect a **board of directors** to oversee the business for them. The board in turn appoints **senior management** (the CEO and other executives), who run the company day to day. So directors are agents of shareholders, and managers are agents of the board and ultimately of shareholders. Separating ownership from management lets a company hire specialist professionals. The price is that the people making decisions are not the people bearing most of the consequences. Directors also owe legal duties of **care** (informed, prudent decision-making) and **loyalty** (acting for the company and its shareholders, not for themselves). These duties exist because of the agency risk."
+        },
+        {
+          "heading": "The main conflicts to recognise",
+          "body_markdown": "**1. Shareholders vs. managers.** Managers may pursue their own benefit: excessive pay and perks, empire-building acquisitions that enlarge the firm (and their pay or prestige) without adding value, or avoiding risk that would help owners. They may also focus on short-term results that trigger bonuses. A famous case is an executive using company assets for personal loans.\n\n**2. Shareholders vs. the board.** Directors are meant to monitor management. If they are close to the CEO, are paid generously by the firm, or lack independence, they may approve things that hurt shareholders.\n\n**3. Controlling vs. minority shareholders.** Shareholders are not one uniform group. A shareholder with a large block of votes can steer the company toward their own benefit, for instance through deals with other firms they own, and the remaining owners bear the cost.\n\n**4. Shareholders vs. creditors.** Creditors (lenders and bondholders) are promised fixed payments and gain nothing extra if things go very well. Shareholders keep the upside of risky projects, so after borrowing, a company may take on more risk, borrow more, or pay out large dividends. This leaves creditors with a higher chance of not being repaid.\n\n**5. Shareholders vs. other stakeholders.** A **stakeholder** is any person or group that affects, or is affected by, what the company does: employees, customers, suppliers, communities, governments and others. Shareholders own the company. Other stakeholders may have no ownership but still depend on it. A decision that boosts profit, such as cutting wages, raising prices sharply or ignoring environmental harm, can hurt these groups and later damage the company itself."
+        },
+        {
+          "heading": "How to attack an exam scenario",
+          "body_markdown": "Ask three quick questions. (1) Who is making the decision? (2) On whose behalf is that party supposed to act? (3) Who gains and who loses? If a decision-maker gains personally at the expense of the party they serve, it is an agency conflict. Then name the pair: manager vs. shareholder, director vs. shareholder, controlling vs. minority shareholder, shareholder vs. creditor, or shareholder vs. another stakeholder. Remember that a **shareholder** is one kind of stakeholder, but not every stakeholder is a shareholder. Some views say a company should focus only on shareholder wealth, while others say it should balance the claims of all stakeholders. The conflicts above arise under either view."
+        }
+      ],
+      "worked_example": {
+        "problem": "Quarry Tech has two classes of voting stock. Founder Dana holds a block that carries 55% of the votes but only 20% of the economic ownership. Dana arranges for Quarry Tech to rent office space from a company Dana owns personally, at rent well above market. Quarry Tech's profit falls, and its share price falls with it. Other shareholders object. Identify the type of conflict and the principal and agent.",
+        "steps": [
+          "Step 1: Identify the decision-maker. Dana's voting block lets Dana control the company's decisions, including the rental contract.",
+          "Step 2: Identify whose interests the decision-maker should serve. Dana should act in the interests of the company and all its shareholders, not only personal interests.",
+          "Step 3: Identify who gains and who loses. Dana's own company collects above-market rent, while Quarry Tech's profit and share price fall, so every shareholder bears a cost, including Dana's 20%.",
+          "Step 4: Because Dana gains more through the rental company than they lose through their 20% stake, Dana benefits at the expense of the other shareholders.",
+          "Step 5: Name the conflict. Because the split is between a shareholder with control and shareholders without it, this is a controlling vs. minority shareholder conflict. It is not manager vs. shareholder or shareholder vs. creditor."
+        ],
+        "answer": "A controlling vs. minority shareholder conflict: the controlling shareholder acts as the agent and benefits personally, while minority shareholders bear the cost.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Mixing up who is principal and who is agent: shareholders (owners) are the principals, and managers and directors are their agents, not the reverse.",
+        "Treating all shareholders as one group. Controlling vs. minority shareholders can have opposing interests, so a conflict can exist between two sets of shareholders.",
+        "Assuming shareholder vs. creditor conflicts come from creditors taking risk. Shareholders usually push for more risk or payouts because creditors absorb much of the downside.",
+        "Using 'stakeholder' and 'shareholder' as synonyms. All shareholders are stakeholders, but employees, customers, suppliers and governments are stakeholders without owning stock.",
+        "Naming a boardroom conflict as manager vs. shareholder when the scenario is about directors' independence or their own benefit. That is a board vs. shareholder conflict."
+      ],
+      "builds_on": [
+        "Ownership structure of a corporation",
+        "Shareholders vs. creditors (claims on a firm)",
+        "Ethics and fiduciary duty"
+      ],
+      "leads_to": [
+        "Corporate governance mechanisms",
+        "Risks of poor governance",
+        "Stakeholder management",
+        "Compensation and incentive design"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00014:0",
+        "os:principles-finance-2e:m00014:0.1",
+        "os:principles-finance-2e:m00012:0",
+        "os:principles-finance-2e:m00012:1",
+        "flatworld-finance-for-managers:24:14",
+        "flatworld-finance-for-managers:25:15",
+        "occ-corporate-risk-governance:20:27"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Shareholders of a listed company rely on the CEO to run it day to day. In agency terminology, which statement is correct?",
+        "options": [
+          {
+            "text": "Management is the principal and shareholders are its agents",
+            "value": null,
+            "explanation": "This reverses the roles. The principal is the party whose interests are to be served, and that is the owners, not the managers."
+          },
+          {
+            "text": "Shareholders are the principals and management is their agent",
+            "value": null,
+            "explanation": "Correct. Owners delegate decisions (through the board) to managers, who are expected to act on the owners' behalf."
+          },
+          {
+            "text": "Shareholders and management are both agents of the creditors",
+            "value": null,
+            "explanation": "Creditors are a separate stakeholder group with fixed claims. They do not direct the company's management as principals."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0",
+          "flatworld-finance-for-managers:24:14"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A CEO's bonus rises with the company's total revenue. The CEO pushes through a very large acquisition at a high price that analysts expect to reduce shareholder value. Which conflict does this best illustrate?",
+        "options": [
+          {
+            "text": "Shareholders vs. managers",
+            "value": null,
+            "explanation": "Correct. The agent (CEO) pursues an action that raises their own pay while the owners bear the loss, which is an empire-building agency problem."
+          },
+          {
+            "text": "Controlling vs. minority shareholders",
+            "value": null,
+            "explanation": "This conflict is between groups of owners. Nothing in the scenario involves a dominant shareholder gaining at the expense of other shareholders."
+          },
+          {
+            "text": "Shareholders vs. creditors",
+            "value": null,
+            "explanation": "This conflict concerns risk shifted onto lenders. The scenario describes a manager benefiting at the owners' expense, not owners at the lenders' expense."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0",
+          "os:principles-finance-2e:m00014:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "After a company sells bonds, its shareholders approve a plan to take on much riskier projects and fund a large special dividend with new borrowing. Which conflict is most clearly illustrated?",
+        "options": [
+          {
+            "text": "Shareholders vs. managers, because executives use company assets for personal gain",
+            "value": null,
+            "explanation": "Nothing in the scenario says managers benefit personally. The owners themselves approve the plan, so this is not manager vs. shareholder."
+          },
+          {
+            "text": "Board of directors vs. shareholders, because directors lack independence",
+            "value": null,
+            "explanation": "The scenario says nothing about directors' independence or personal benefit. The issue is the lenders' position, not the board's loyalty."
+          },
+          {
+            "text": "Shareholders vs. creditors, because lenders bear more default risk",
+            "value": null,
+            "explanation": "Correct. Shareholders keep the upside of riskier projects and payouts, while creditors, who are only owed fixed amounts, face a higher chance of default."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A founder controls 60% of a firm's votes. She has the firm buy components from a supplier she privately owns at prices above those of competing suppliers. Other shareholders see their returns fall. Which conflict does this describe?",
+        "options": [
+          {
+            "text": "Shareholders vs. creditors",
+            "value": null,
+            "explanation": "Lenders' claims are not the issue. The cost is borne by other owners, not by a lender facing greater default risk."
+          },
+          {
+            "text": "Controlling vs. minority shareholders",
+            "value": null,
+            "explanation": "Correct. The shareholder with voting control uses it to benefit herself through a related-party deal, and the minority holders bear the cost."
+          },
+          {
+            "text": "Shareholders vs. employees",
+            "value": null,
+            "explanation": "Employees' wages or jobs are not mentioned. The conflict is within the ownership group, not between owners and workers."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best explains why agency problems arise in companies with separated ownership and management?",
+        "options": [
+          {
+            "text": "Managers are legally forbidden from owning any shares in the company",
+            "value": null,
+            "explanation": "Managers may own shares. Ownership is not forbidden, and in fact stock grants are used to align interests."
+          },
+          {
+            "text": "Shareholders always want short-term profit while managers prefer long-term growth",
+            "value": null,
+            "explanation": "This is an overgeneralisation and often backwards. Managers' short-term focus is a common concern, but the key problem is not a fixed pairing of horizons."
+          },
+          {
+            "text": "Managers know more than owners and may have goals that differ from owners' goals",
+            "value": null,
+            "explanation": "Correct. Information differences and differing incentives let agents pursue personal interests without owners easily noticing or stopping them."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0",
+          "flatworld-finance-for-managers:24:14"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about shareholders and stakeholders is correct?",
+        "options": [
+          {
+            "text": "Every shareholder is a stakeholder, but stakeholders such as employees or governments need not own shares",
+            "value": null,
+            "explanation": "Correct. A stakeholder is anyone affected by or able to affect the company, which includes owners and many non-owners."
+          },
+          {
+            "text": "Stakeholders are limited to parties that hold a financial claim on the company, such as owners and lenders",
+            "value": null,
+            "explanation": "This is too narrow. Employees, customers, suppliers, communities and governments are stakeholders even without a financial claim."
+          },
+          {
+            "text": "Stakeholders must own shares in the company to have any influence over its decisions",
+            "value": null,
+            "explanation": "This confuses stakeholders with shareholders. Many stakeholders, such as customers or regulators, can affect a firm without owning stock."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00012:0",
+          "os:principles-finance-2e:m00012:1",
+          "flatworld-finance-for-managers:25:15"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Directors are chosen to monitor management for shareholders. A company's board is made up mostly of the CEO's long-time friends and business partners, who are paid generous fees and routinely approve the CEO's very large pay package. Which description is most accurate?",
+        "options": [
+          {
+            "text": "A shareholder vs. creditor conflict, because the pay package raises the company's debt",
+            "value": null,
+            "explanation": "The conflict is not about lenders' risk. A pay package may affect finances, but the problem here is directors failing to monitor on owners' behalf."
+          },
+          {
+            "text": "A conflict between shareholders and the board, because directors' personal ties and fees weaken their loyalty to owners",
+            "value": null,
+            "explanation": "Correct. The board is the owners' agent for oversight, and relationships and fees give directors incentives that conflict with owners' interests."
+          },
+          {
+            "text": "A conflict between controlling and minority shareholders, because the directors are also large shareholders",
+            "value": null,
+            "explanation": "The stem does not say the directors hold a controlling stake. The issue is lack of independent oversight, not a split among owners."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-corporate-risk-governance:20:27",
+          "os:principles-finance-2e:m00014:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the roles of the principal and the agent in an agency relationship?",
+        "back": "The agent is expected to make decisions on behalf of the principal. In a listed company, shareholders are the principals and the board and managers are their agents.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:24:14",
+          "os:principles-finance-2e:m00014:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the agency problem?",
+        "back": "The risk that an agent, whose goals and information differ from the principal's, puts personal interests ahead of the principal's.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0",
+          "flatworld-finance-for-managers:24:14"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why do shareholders and creditors conflict?",
+        "back": "Creditors are owed fixed payments, while shareholders keep the upside of risk. Shareholders may favour riskier projects, extra borrowing or big dividends, which raises the creditors' default risk.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the difference between a shareholder and a stakeholder?",
+        "back": "A shareholder owns stock. A stakeholder is any person or group affected by or able to affect the company, such as employees, customers, suppliers, communities and governments, so shareholders are one type of stakeholder.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00012:0",
+          "os:principles-finance-2e:m00012:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What is the conflict between controlling and minority shareholders?",
+        "back": "A shareholder with voting control can steer the company, for example through related-party deals, to benefit themselves while the minority shareholders bear the cost.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T17:30:35.746Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 935,
+      "outputTokens": 481,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006797,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:30:45.196Z",
+      "purpose": "grounding",
+      "losId": "corpfin-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12405,
+      "outputTokens": 1367,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.038649199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.04544619999999999
+}

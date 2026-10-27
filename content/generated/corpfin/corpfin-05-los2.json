@@ -1,0 +1,459 @@
+{
+  "losId": "corpfin-05-los2",
+  "losText": "describe the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and contrast their use in capital allocation",
+  "moduleId": "corpfin-05",
+  "moduleTitle": "Capital Investments and Capital Allocation",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:15:48.193Z",
+  "retrieved": [
+    {
+      "id": "mit-ocw-15401-lec18:22:5",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 18-20: Capital Budgeting",
+      "locator": "pp. 22–26",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/06b2ce70ad26ae3d3be8d94145495be6_MIT15_401F08_lec18.pdf#page=22",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:principles-finance-2e:m00101:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§16.3 Internal Rate of Return (IRR) Method — Internal Rate of Return (IRR) Calculation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/16-3-internal-rate-of-return-irr-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "mit-ocw-15401-rec08:6:1",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 8: Capital Budgeting",
+      "locator": "pp. 6–10",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/9762eeb6e5ddad7fb5cf78b235ccba35_MIT15_401F08_rec08.pdf#page=6",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "mit-ocw-15401-lec18:27:6",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Lectures 18-20: Capital Budgeting",
+      "locator": "pp. 27–33",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/06b2ce70ad26ae3d3be8d94145495be6_MIT15_401F08_lec18.pdf#page=27",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-for-managers:225:160",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 225–227",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=225",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-asset-based-lending:72:92",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "p. 72",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=72",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00007:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.6 Microeconomic and Macroeconomic Matters — Microeconomic and Macroeconomic Matters",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-6-microeconomic-and-macroeconomic-matters",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "libretexts-aurora-capital-budgeting:1:2",
+      "title": "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)",
+      "locator": "9.5: Capital Rationing and Mutually Exclusive Project - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.05:_Capital_Rationing_and_Mutually_Exclusive_Project",
+      "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "flatworld-finance-for-managers:229:163",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 229–231",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=229",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "libretexts-aurora-capital-budgeting:1:3",
+      "title": "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)",
+      "locator": "9.5: Capital Rationing and Mutually Exclusive Project - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.05:_Capital_Rationing_and_Mutually_Exclusive_Project",
+      "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "mit-ocw-15401-rec08:1:0",
+      "title": "MIT OpenCourseWare 15.401 Finance Theory I (Fall 2008, A. Lo): Recitation 8: Capital Budgeting",
+      "locator": "pp. 1–6",
+      "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/9762eeb6e5ddad7fb5cf78b235ccba35_MIT15_401F08_rec08.pdf#page=1",
+      "license": "CC BY-NC-SA 4.0 (MIT OpenCourseWare; slides \"© 2007–2008 by Andrew W. Lo\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00007:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.6 Microeconomic and Macroeconomic Matters — Microeconomics",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-6-microeconomic-and-macroeconomic-matters",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Judging Projects: NPV, IRR and ROIC in Capital Allocation",
+      "summary": "Companies have limited money and many possible projects, so they follow a structured process to decide where it goes. This lesson covers the three main yardsticks, NPV, IRR and ROIC, and shows why NPV is the one to trust when they disagree.",
+      "sections": [
+        {
+          "heading": "The capital allocation process: from idea to audit",
+          "body_markdown": "**Capital allocation** means deciding which long-lived projects get the firm's scarce money. Think of a household with one renovation budget and a long wish list. The firm works through four stages:\n\n1. **Idea generation**: projects come from managers, employees, customers, competitors or regulation.\n2. **Investment analysis**: forecast the project's cash flows and judge them with tools such as NPV and IRR.\n3. **Capital allocation planning**: rank and prioritize the approved projects, set their timing and fit them into the overall budget, often alongside strategy and financing limits.\n4. **Monitoring and post-audit**: compare actual results with the forecasts, find out why they differ, and use the lessons to improve future forecasts and decisions.\n\nThe rest of this lesson is about the tools used in stage 2 and in the monitoring stage."
+        },
+        {
+          "heading": "Net present value (NPV): the value a project adds",
+          "body_markdown": "The **required rate of return** (also called the discount rate or opportunity cost of capital) is what investors could earn elsewhere on investments of similar risk. Usually this is the firm's cost of capital. **NPV** discounts every expected after-tax cash flow, inflows and outflows, back to today at that rate and adds them up:\n\n$$NPV=\\sum_{t=0}^{N}\\frac{CF_t}{(1+r)^t}$$\n\n$CF_0$ is normally the initial outlay, so it is negative. NPV is measured in currency, so it is the **amount of value the project creates for shareholders** after paying investors their required return.\n\n- Independent projects (each can be chosen on its own): accept all with $NPV>0$.\n- Mutually exclusive projects (choosing one rules out the others): accept the one with the highest positive NPV.\n\nNPV assumes that interim cash flows can be reinvested at the discount rate, which is a realistic assumption because that rate is the opportunity cost of funds."
+        },
+        {
+          "heading": "Internal rate of return (IRR): the project's own break-even rate",
+          "body_markdown": "The **IRR** is the discount rate that makes the project's NPV exactly zero. It is the project's built-in annualized return, found by trial and error (your calculator does this for you):\n\n$$0=\\sum_{t=0}^{N}\\frac{CF_t}{(1+IRR)^t}$$\n\n**Decision rule:** accept if $IRR>$ required rate of return, reject if lower. For a single project with a normal pattern (money out first, then money in), the IRR rule and the NPV rule give the same accept/reject answer.\n\nIRR has weaknesses:\n- It is a **percentage**, so it ignores the size of the project. A 30% return on a tiny project can create less value than a 15% return on a huge one.\n- With **non-conventional cash flows** (the sign of the cash flows changes more than once, for example a big cleanup cost at the end) there can be several IRRs or none.\n- It implicitly assumes interim cash flows are reinvested at the IRR itself, which is often too optimistic for high-IRR projects.\n- For mutually exclusive projects, differences in scale or in the timing of cash flows can make IRR rank projects differently from NPV. **When they conflict, follow NPV.**"
+        },
+        {
+          "heading": "Return on invested capital (ROIC): an accounting-based yardstick",
+          "body_markdown": "**ROIC** asks how much operating profit the business earns, after tax, for each unit of capital invested in it:\n\n$$ROIC=\\frac{NOPAT}{\\text{Invested capital}},\\qquad NOPAT=EBIT\\,(1-t)$$\n\n**NOPAT** is net operating profit after tax: operating profit (EBIT) taxed as if the firm had no debt, so financing choices do not distort it. **Invested capital** is the money tied up in operations, roughly the book value of debt plus equity (often using an average of start and end of year, and leaving out non-operating assets such as surplus cash).\n\nCompare ROIC with the **WACC**, the blended cost of the firm's debt and equity financing. If $ROIC>WACC$, the capital is earning more than it costs, which is **value-creating**. If $ROIC<WACC$, value is being destroyed.\n\nROIC is built from accounting profits rather than discounted cash flows. It is a snapshot of one period's return, which makes it useful for judging a whole company or division and for the monitoring and post-audit stage, but it does not by itself measure the total value a multi-year project adds."
+        },
+        {
+          "heading": "Putting the three tools side by side",
+          "body_markdown": "| Tool | Type | Answers | Accept if |\n|---|---|---|---|\n| NPV | Absolute (currency) | How much value is added? | $NPV>0$ |\n| IRR | Relative (percentage) | What is the project's own return? | $IRR>r$ |\n| ROIC | Accounting ratio | Is the capital earning more than it costs? | $ROIC>WACC$ |\n\nUse NPV as the primary basis for choosing among projects. It uses all the cash flows, accounts for timing and risk through the discount rate, and measures value directly. IRR is popular because a percentage is easy to communicate, but it can mislead when ranking. ROIC is a quick profitability check and a monitoring tool. When capital is limited, the aim is to pick the set of projects with the highest total NPV that fits the budget."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company can invest $100,000 today in a machine. It expects after-tax cash inflows of $40,000, $50,000 and $60,000 at the end of years 1, 2 and 3. The required rate of return is 10%. Calculate the NPV and decide whether to accept the project.",
+        "steps": [
+          "Lay out the cash flows: $CF_0=-100{,}000$, $CF_1=40{,}000$, $CF_2=50{,}000$, $CF_3=60{,}000$.",
+          "Discount each inflow: $40{,}000/1.10=36{,}363.64$; $50{,}000/1.10^2=41{,}322.31$; $60{,}000/1.10^3=45{,}078.89$.",
+          "Add the present values of the inflows: $36{,}363.64+41{,}322.31+45{,}078.89=122{,}764.84$.",
+          "Subtract the initial outlay: $122{,}764.84-100{,}000=22{,}764.84$.",
+          "BA II Plus: press CF, then 2ND CLR WORK. Enter CF0: 100000, +/-, ENTER. Press the down arrow, then C01: 40000 ENTER, down (F01 stays 1), C02: 50000 ENTER, down, down, C03: 60000 ENTER. Press NPV, enter I = 10 ENTER, down arrow to NPV, then CPT. The display shows 22,764.84.",
+          "The NPV is positive, so the project earns more than the 10% required return and adds value. Accept it."
+        ],
+        "answer": "NPV = $22,764.84 (positive), so accept the project.",
+        "answer_value": 22764.84,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.10,\"cashflows\":[-100000,40000,50000,60000]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Net present value",
+          "latex": "NPV=\\sum_{t=0}^{N}\\frac{CF_t}{(1+r)^t}",
+          "where": "$CF_t$ = expected after-tax cash flow at time $t$ (negative for outflows), $r$ = required rate of return per period, $N$ = last period of the project."
+        },
+        {
+          "name": "Internal rate of return",
+          "latex": "0=\\sum_{t=0}^{N}\\frac{CF_t}{(1+IRR)^t}",
+          "where": "$CF_t$ = cash flow at time $t$, $IRR$ = the discount rate per period that makes NPV equal to zero."
+        },
+        {
+          "name": "Net operating profit after tax",
+          "latex": "NOPAT=EBIT\\,(1-t)",
+          "where": "$EBIT$ = earnings before interest and taxes (operating profit), $t$ = tax rate."
+        },
+        {
+          "name": "Return on invested capital",
+          "latex": "ROIC=\\frac{NOPAT}{\\text{Invested capital}}",
+          "where": "$NOPAT$ = net operating profit after tax, Invested capital = capital (debt plus equity, net of non-operating assets) used in operations, often an average for the period."
+        }
+      ],
+      "exam_traps": [
+        "Ranking mutually exclusive projects by IRR (or by profitability index) instead of NPV. The higher IRR can belong to the project that creates less value, so choose the highest positive NPV.",
+        "Forgetting that a later negative cash flow (cleanup, refurbishment) must also be discounted and subtracted. These non-conventional patterns can also give multiple or no IRRs.",
+        "Calling IRR the 'average' return: it is not total profit divided by cost, nor total profit divided by years, because it accounts for the timing of cash flows.",
+        "Computing ROIC with EBIT instead of after-tax NOPAT, or comparing ROIC with the cost of equity instead of WACC.",
+        "Mixing up the process stages: the post-audit compares actual results with forecasts to improve future decisions, and it is not the stage where the NPV is first computed."
+      ],
+      "builds_on": [
+        "Time value of money",
+        "Cost of capital (WACC)",
+        "Incremental after-tax cash flows"
+      ],
+      "leads_to": [
+        "Capital allocation principles and pitfalls",
+        "Capital rationing",
+        "Real options in capital investments"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00101:0",
+        "mit-ocw-15401-lec18:22:5",
+        "mit-ocw-15401-lec18:27:6",
+        "flatworld-finance-for-managers:225:160",
+        "flatworld-finance-for-managers:229:163",
+        "libretexts-aurora-capital-budgeting:1:2",
+        "libretexts-aurora-capital-budgeting:1:3",
+        "mit-ocw-15401-rec08:1:0"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In the capital allocation process, which stage compares the actual results of an approved project with the original forecasts so that future forecasting can be improved?",
+        "options": [
+          {
+            "text": "Investment analysis",
+            "value": null,
+            "explanation": "Investment analysis is where cash flows are forecast and tools like NPV are applied before approval. It uses forecasts and does not compare them with actual results."
+          },
+          {
+            "text": "Capital allocation planning",
+            "value": null,
+            "explanation": "Planning prioritizes approved projects and sets their timing and budget. Confusing this with the review stage is the mistake here."
+          },
+          {
+            "text": "Monitoring and post-audit",
+            "value": null,
+            "explanation": "Correct. After a project is under way, actual cash flows and returns are compared with the forecasts, and the reasons for differences are used to improve later decisions."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A project requires an outlay of 5,000 today and is expected to produce after-tax cash inflows of 2,000, 2,500 and 3,000 at the end of years 1, 2 and 3. The required rate of return is 8% per year. What is the project's NPV, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "2,500.00",
+            "value": 2500,
+            "explanation": "This adds the inflows (7,500) and subtracts the outlay without discounting. It ignores the time value of money."
+          },
+          {
+            "text": "1,376.70",
+            "value": 1376.7,
+            "explanation": "Correct. PV of inflows = 2,000/1.08 + 2,500/1.08² + 3,000/1.08³ = 1,851.85 + 2,143.35 + 2,381.50 = 6,376.70. Subtracting the 5,000 outlay gives 1,376.70."
+          },
+          {
+            "text": "6,376.70",
+            "value": 6376.7,
+            "explanation": "This is only the present value of the inflows. It forgets to subtract the initial outlay."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.08,\"cashflows\":[-5000,2000,2500,3000]}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:225:160",
+          "mit-ocw-15401-rec08:1:0"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A project costs 1,000 today and pays 600 at the end of year 1 and 600 at the end of year 2. Using annual periods, what is the project's IRR, rounded to the nearest 0.01%?",
+        "options": [
+          {
+            "text": "13.07%",
+            "value": 0.1307,
+            "explanation": "Correct. The IRR is the rate that sets 600/(1+r) + 600/(1+r)² equal to 1,000. Solving gives about 13.07%."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "This takes the total profit of 200 over the 1,000 cost (20%) and divides by 2 years. It ignores that cash arrives early and is partly reinvested, so it understates the IRR."
+          },
+          {
+            "text": "20.00%",
+            "value": 0.2,
+            "explanation": "This is the total profit (200) divided by the outlay (1,000) with no annualizing or discounting. It is a simple total return, not an IRR."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "irr",
+          "args_json": "{\"cashflows\":[-1000,600,600]}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00101:0",
+          "flatworld-finance-for-managers:225:160"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm earned EBIT of 300 this year and faces a 25% tax rate. Its average invested capital was 1,500 and its WACC is 12%. Which statement about its ROIC is correct?",
+        "options": [
+          {
+            "text": "ROIC is 20.0%, above the WACC, so value is created",
+            "value": null,
+            "explanation": "This divides pre-tax EBIT (300) by invested capital. ROIC uses after-tax NOPAT, so this overstates the figure."
+          },
+          {
+            "text": "ROIC is 15.0%, above the WACC, so value is created",
+            "value": null,
+            "explanation": "Correct. NOPAT = 300 × (1 − 0.25) = 225, and 225 / 1,500 = 15.0%. This exceeds the 12% WACC, so the capital earns more than it costs."
+          },
+          {
+            "text": "ROIC is 5.0%, below the WACC, so value is destroyed",
+            "value": null,
+            "explanation": "This uses the tax amount (300 × 0.25 = 75) instead of NOPAT in the numerator. NOPAT is EBIT times (1 − t), not EBIT times t."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two mutually exclusive projects have the same risk, and the firm's cost of capital is 10%. Project X has an NPV of 40 million and an IRR of 18%. Project Y has an NPV of 55 million and an IRR of 14%. Which decision is most appropriate?",
+        "options": [
+          {
+            "text": "Accept X, because its IRR is higher",
+            "value": null,
+            "explanation": "Ranking mutually exclusive projects by IRR ignores scale. IRR is a relative measure and does not show which project adds more value."
+          },
+          {
+            "text": "Accept both, because both NPVs are positive",
+            "value": null,
+            "explanation": "The projects are mutually exclusive, so accepting one rules out the other. Positive NPVs alone do not allow both to be taken."
+          },
+          {
+            "text": "Accept Y, because its NPV is higher",
+            "value": null,
+            "explanation": "Correct. NPV measures the absolute value added. When NPV and IRR rankings conflict for mutually exclusive projects, choose the higher positive NPV."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:1:3",
+          "libretexts-aurora-capital-budgeting:1:2",
+          "mit-ocw-15401-lec18:27:6"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A project requires an outlay of 10,000 today. It is expected to generate after-tax cash inflows of 6,000 at the end of year 1 and 6,000 at the end of year 2, followed by a site-restoration cost of 2,000 paid at the end of year 3 (a cash outflow). The required rate of return is 10% per year. What is the project's NPV, rounded to the nearest cent?",
+        "options": [
+          {
+            "text": "-1,089.41",
+            "value": -1089.41,
+            "explanation": "Correct. PV of inflows = 5,454.55 + 4,958.68 = 10,413.22. The restoration cost's PV is −2,000/1.10³ = −1,502.63. NPV = 10,413.22 − 1,502.63 − 10,000 = −1,089.41, so the project should be rejected."
+          },
+          {
+            "text": "+413.22",
+            "value": 413.22,
+            "explanation": "This leaves out the year-3 restoration cost, which gives 10,413.22 − 10,000. The final outflow must be included."
+          },
+          {
+            "text": "-1,586.78",
+            "value": -1586.78,
+            "explanation": "This subtracts the 2,000 restoration cost at face value without discounting it, which gives 10,413.22 − 2,000 − 10,000."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.10,\"cashflows\":[-10000,6000,6000,-2000]}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:225:160",
+          "mit-ocw-15401-lec18:22:5"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement about using the IRR rule in capital allocation is most accurate?",
+        "options": [
+          {
+            "text": "A project whose cash flows change sign more than once can have several IRRs or none",
+            "value": null,
+            "explanation": "Correct. With non-conventional cash flows the NPV equation can have multiple solutions or no real solution, so the IRR may be unusable or ambiguous. NPV still gives a clear answer."
+          },
+          {
+            "text": "Every project has exactly one IRR, so the rule is unambiguous",
+            "value": null,
+            "explanation": "This assumes a unique IRR always exists. Non-conventional cash flow patterns can produce multiple IRRs or none."
+          },
+          {
+            "text": "A higher IRR always means a higher NPV, so IRR reliably ranks projects",
+            "value": null,
+            "explanation": "This ignores that IRR is a percentage and does not capture project size or cash-flow timing. Rankings can conflict with NPV for mutually exclusive projects."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "mit-ocw-15401-lec18:27:6",
+          "mit-ocw-15401-lec18:22:5",
+          "flatworld-finance-for-managers:229:163"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the four stages of the capital allocation process?",
+        "back": "Idea generation, investment analysis, capital allocation planning (prioritizing, timing, budgeting), and monitoring with post-audit.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What does NPV measure, and what is the accept rule?",
+        "back": "NPV is the present value of all cash flows (outlays negative) at the required return. It is the value added in currency terms. Accept independent projects with NPV > 0; among mutually exclusive projects take the highest positive NPV.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:225:160",
+          "mit-ocw-15401-rec08:1:0"
+        ]
+      },
+      {
+        "front": "What is IRR, and why can it mislead when ranking projects?",
+        "back": "IRR is the discount rate that makes NPV zero. It is a percentage, so it ignores project scale and timing differences, and non-conventional cash flows can give multiple or no IRRs. When it conflicts with NPV, trust NPV.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00101:0",
+          "mit-ocw-15401-lec18:22:5",
+          "mit-ocw-15401-lec18:27:6"
+        ]
+      },
+      {
+        "front": "How is ROIC calculated and what is it compared with?",
+        "back": "ROIC = NOPAT / invested capital, where NOPAT = EBIT × (1 − tax rate). It is compared with WACC: ROIC > WACC means value creation.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:15:48.193Z",
+      "purpose": "generate",
+      "losId": "corpfin-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10330,
+      "outputTokens": 12047,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1422862,
+      "stopReason": "end_turn"
+    }
+  ]
+}

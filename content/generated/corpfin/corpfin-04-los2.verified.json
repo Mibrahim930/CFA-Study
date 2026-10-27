@@ -1,0 +1,805 @@
+{
+  "losId": "corpfin-04-los2",
+  "losText": "explain liquidity and compare issuers' liquidity levels",
+  "moduleId": "corpfin-04",
+  "moduleTitle": "Working Capital and Liquidity",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:31:57.299Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "occ-liquidity:21:29",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 21–22",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=21",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-leveraged-lending:8:6",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "pp. 8–9",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "occ-liquidity:5:7",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 5–6",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Interest Rate Movements and Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-liquidity:28:38",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "p. 28",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=28",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.4",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-liquidity:17:23",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 17–18",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00041:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.2 Operating Efficiency Ratios — Accounts Receivable Turnover",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-2-operating-efficiency-ratios",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.6",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Liquidity: Can the Company Pay Its Bills on Time?",
+      "summary": "Liquidity is a company's ability to meet its short-term cash obligations on time and at a reasonable cost. This lesson covers where that cash comes from, what threatens it, and how to compare one issuer's liquidity with another's.",
+      "sections": [
+        {
+          "heading": "What liquidity means",
+          "body_markdown": "Think of your household. You earn well and own a house, but if the electricity bill is due tomorrow and all your wealth is in the house, you have a **liquidity** problem. For a company, **liquidity** is the capacity to meet cash obligations as they fall due, without disrupting operations and without paying a punishing price for funds. The word has two uses that are easy to mix up. An *asset* is liquid if it converts to cash quickly at close to its fair value. A *company* is liquid if, taken as a whole, it can cover its near-term bills. A profitable company can still be illiquid, because profit is an accounting number and bills are paid with cash."
+        },
+        {
+          "heading": "Where liquidity comes from",
+          "body_markdown": "Analysts split the sources into two tiers.\n\n**Primary sources** are the normal, low-cost ones: cash and cash equivalents on hand, short-term marketable securities, cash generated by ongoing operations (including collecting receivables), and short-term funding the firm can routinely draw, such as a bank credit line or trade credit from suppliers.\n\n**Secondary sources** are used when the primary ones run short: selling assets, renegotiating debt terms with lenders, or, at the extreme, seeking bankruptcy protection and reorganizing. These are costlier. They can change how the business operates or its financial position, and relying on them is often a sign of distress."
+        },
+        {
+          "heading": "Drags and pulls on liquidity",
+          "body_markdown": "Two kinds of pressure shrink liquidity.\n\n**Drags** slow cash *coming in*: customers who pay late or not at all (uncollected receivables), obsolete inventory that cannot be sold, and tight credit conditions that delay funding.\n\n**Pulls** speed cash *going out*: suppliers demanding faster payment or paying them early, a lender cutting a credit line or its limit, and an already low liquidity position that makes counterparties nervous. A handy memory trick: a **drag** holds cash back from arriving, and a **pull** yanks cash out the door."
+        },
+        {
+          "heading": "Measuring and comparing liquidity",
+          "body_markdown": "Ratios built from the balance sheet give a quick read. **Current assets** are cash and items expected to turn into cash within a year; **current liabilities** are obligations due within a year. Each ratio below is stricter than the last, because it counts only more cash-like assets:\n\n- **Current ratio**: all current assets over current liabilities. It can mislead when much of the total is inventory (slow to sell) or prepaid expenses (which never become cash).\n- **Quick (acid-test) ratio**: counts only cash, short-term marketable securities and receivables.\n- **Cash ratio**: counts only cash and marketable securities.\n- **Defensive interval ratio (DIR)**: how many *days* the firm could keep paying its cash operating costs from cash, securities and receivables alone, with no new sales.\n\nA higher ratio means more liquidity, but there is a limit. Idle cash earns little, so a very high ratio can mean a lost return. When comparing issuers, use peers in the same industry, because normal ratio levels differ across industries. Watch trends over time as well. Also weigh qualitative factors such as credit rating, access to capital markets and committed credit lines, since these determine how easily a firm can raise cash in a pinch. Ratios are also a snapshot at one date and do not show future cash flows."
+        }
+      ],
+      "worked_example": {
+        "problem": "Two companies in the same industry report the following (in thousands). Firm X: cash 120, marketable securities 80, receivables 300, inventory 400, current liabilities 600, annual cash operating expenses 2,190. Firm Y: cash 50, marketable securities 0, receivables 250, inventory 500, current liabilities 400, annual cash operating expenses 1,825. Use a 365-day year. Compute each firm's current ratio, quick ratio, cash ratio and defensive interval ratio, then say which firm is more liquid.",
+        "steps": [
+          "Firm X current assets = 120 + 80 + 300 + 400 = 900. Current ratio = 900 ÷ 600 = 1.50.",
+          "Firm X quick ratio = (120 + 80 + 300) ÷ 600 = 500 ÷ 600 = 0.83. Cash ratio = (120 + 80) ÷ 600 = 0.33.",
+          "Firm X daily cash expenses = 2,190 ÷ 365 = 6.0. DIR = 500 ÷ 6.0 = 83.3 days. BA II Plus: 500 ÷ 6 = gives 83.33.",
+          "Firm Y current assets = 50 + 0 + 250 + 500 = 800. Current ratio = 800 ÷ 400 = 2.00.",
+          "Firm Y quick ratio = (50 + 250) ÷ 400 = 0.75. Cash ratio = 50 ÷ 400 = 0.125, about 0.13.",
+          "Firm Y daily cash expenses = 1,825 ÷ 365 = 5.0. DIR = 300 ÷ 5.0 = 60.0 days.",
+          "Compare: Y has the higher current ratio (2.00 vs 1.50), but that is because inventory makes up most of its current assets. X is ahead on the quick ratio, the cash ratio and the DIR."
+        ],
+        "answer": "Firm X is more liquid in substance. Its current ratio is lower (1.50 vs 2.00), but its quick ratio (0.83 vs 0.75), cash ratio (0.33 vs 0.13) and DIR (83.3 vs 60.0 days) are all higher, because Y's current assets are mostly slow-moving inventory.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Current ratio",
+          "latex": "\\text{Current ratio}=\\frac{\\text{Current assets}}{\\text{Current liabilities}}",
+          "where": "Current assets are cash and items expected to become cash within one year; current liabilities are obligations due within one year."
+        },
+        {
+          "name": "Quick ratio",
+          "latex": "\\text{Quick ratio}=\\frac{\\text{Cash}+\\text{Short-term marketable securities}+\\text{Receivables}}{\\text{Current liabilities}}",
+          "where": "Inventory and prepaid expenses are left out. Subtracting only inventory from current assets is a common shortcut that gives the same answer when there are no prepaids or other minor items."
+        },
+        {
+          "name": "Cash ratio",
+          "latex": "\\text{Cash ratio}=\\frac{\\text{Cash}+\\text{Short-term marketable securities}}{\\text{Current liabilities}}",
+          "where": "The strictest of the three balance-sheet ratios; counts only cash and near-cash securities."
+        },
+        {
+          "name": "Defensive interval ratio",
+          "latex": "\\text{DIR}=\\frac{\\text{Cash}+\\text{Short-term marketable securities}+\\text{Receivables}}{\\text{Daily cash expenditures}},\\quad \\text{Daily cash expenditures}=\\frac{\\text{Annual cash operating expenses}}{365}",
+          "where": "The result is in days. Cash expenses exclude non-cash charges such as depreciation."
+        },
+        {
+          "name": "Net working capital",
+          "latex": "\\text{NWC}=\\text{Current assets}-\\text{Current liabilities}",
+          "where": "A positive value means current assets exceed current liabilities; it is an amount, not a ratio."
+        }
+      ],
+      "exam_traps": [
+        "Assuming the firm with the higher current ratio is more liquid. If the extra current assets are inventory or prepaid expenses, the quick ratio and cash ratio can tell the opposite story.",
+        "Putting total expenses (including depreciation and other non-cash charges) in the DIR denominator. Only cash operating expenses belong there, and the result is expressed in days.",
+        "Mixing up drags and pulls. Drags delay cash arriving (late-paying customers, unsellable inventory); pulls accelerate cash leaving (suppliers tightening terms, a cut credit line).",
+        "Treating secondary sources (asset sales, debt renegotiation, bankruptcy protection) as routine liquidity. They are costlier and may disrupt operations or signal distress.",
+        "Concluding that more liquidity is always better. Excess cash and securities earn little, so a very high ratio carries an opportunity cost."
+      ],
+      "builds_on": [
+        "Balance sheet: current assets and current liabilities",
+        "Financial ratio analysis basics",
+        "Receivables and inventory as assets"
+      ],
+      "leads_to": [
+        "Cash conversion cycle",
+        "Working capital management methods",
+        "Short-term funding and investment choices"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00120:2.1",
+        "occ-liquidity:5:7",
+        "os:principles-finance-2e:m00073:1.3"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is best described as a secondary source of liquidity for a non-financial company?",
+        "options": [
+          {
+            "text": "Selling operating assets to raise cash",
+            "value": null,
+            "explanation": "Correct. Asset sales are a secondary source: they are used when normal sources fall short and can change the company's operations or financial position."
+          },
+          {
+            "text": "Cash collected from ongoing sales",
+            "value": null,
+            "explanation": "Operating cash flow is a primary source. Choosing it confuses routine funding with last-resort funding."
+          },
+          {
+            "text": "Cash and equivalents held on the balance sheet",
+            "value": null,
+            "explanation": "Ready cash is the most basic primary source of liquidity. Calling it secondary ignores how readily it covers bills."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following is a pull on a company's liquidity?",
+        "options": [
+          {
+            "text": "A large customer begins paying invoices much later than usual",
+            "value": null,
+            "explanation": "This delays cash coming in, which is a drag on liquidity, not a pull."
+          },
+          {
+            "text": "A bank reduces the limit on the company's short-term credit line",
+            "value": null,
+            "explanation": "Correct. A cut credit line reduces the funding the company can draw on, which is a pull on liquidity."
+          },
+          {
+            "text": "Part of the inventory becomes obsolete and cannot be sold",
+            "value": null,
+            "explanation": "Obsolete inventory stops cash from arriving, which is a drag. It does not speed up cash outflows."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's current assets consist only of cash 30, marketable securities 20, receivables 150 and inventory 200 (all in thousands). Its current liabilities are 160. Using the quick ratio defined as (cash + marketable securities + receivables) ÷ current liabilities, what is the quick ratio? Round to two decimals.",
+        "options": [
+          {
+            "text": "0.31",
+            "value": null,
+            "explanation": "This is the cash ratio (50 ÷ 160). It leaves out receivables, which the quick ratio includes."
+          },
+          {
+            "text": "2.50",
+            "value": null,
+            "explanation": "This is the current ratio (400 ÷ 160). It fails to exclude inventory."
+          },
+          {
+            "text": "1.25",
+            "value": null,
+            "explanation": "Correct. Quick assets = 30 + 20 + 150 = 200; 200 ÷ 160 = 1.25."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A company reports cash of 40, marketable securities of 60 and receivables of 200 (all in thousands). Its annual operating expenses are 4,200, which includes 550 of depreciation (a non-cash charge). All other expenses are paid in cash. The defensive interval ratio is liquid assets (cash, marketable securities and receivables) divided by average daily cash expenditures. Using a 365-day year, what is the ratio in days, rounded to one decimal?",
+        "options": [
+          {
+            "text": "26.1 days",
+            "value": null,
+            "explanation": "This divides by total expenses of 4,200 including depreciation: 300 ÷ (4,200 ÷ 365) = 26.1. Depreciation is a non-cash charge and must be removed from the denominator."
+          },
+          {
+            "text": "30.0 days",
+            "value": null,
+            "explanation": "Correct. Liquid assets = 40 + 60 + 200 = 300. Cash expenses = 4,200 − 550 = 3,650, so daily cash expenditure = 3,650 ÷ 365 = 10.0. DIR = 300 ÷ 10 = 30.0 days."
+          },
+          {
+            "text": "10.0 days",
+            "value": null,
+            "explanation": "This leaves receivables out of the numerator (100 ÷ 10 = 10.0). The defensive interval ratio counts cash, marketable securities and receivables."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): Liquid assets = 40+60+200 = 300. Cash expenses = 4,200-550 = 3,650; daily = 3,650/365 = 10. DIR = 300/10 = 30.0 days. Check: 3,650/365 = 10.0 exactly, so 30.0 days is correct, making option A the answer."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Two firms in the same industry report these ratios: Firm P has a current ratio of 2.4 and a quick ratio of 0.6. Firm Q has a current ratio of 1.6 and a quick ratio of 1.2. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Firm P is more liquid because its current ratio is higher",
+            "value": null,
+            "explanation": "This relies on the current ratio alone. P's low quick ratio shows most of its current assets are inventory or similar items that are slow to turn into cash."
+          },
+          {
+            "text": "The firms are equally liquid because they operate in the same industry",
+            "value": null,
+            "explanation": "Industry membership makes the ratios comparable but does not make liquidity equal."
+          },
+          {
+            "text": "Firm Q probably has stronger near-term liquidity because more of its current assets are cash-like",
+            "value": null,
+            "explanation": "Correct. The small gap between Q's current and quick ratios shows its current assets are mostly cash, securities and receivables, so it can cover near-term bills more reliably."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Why is a very high liquidity ratio not necessarily a positive sign for a company?",
+        "options": [
+          {
+            "text": "Liquid assets are taxed more heavily than inventory, which lowers after-tax income",
+            "value": null,
+            "explanation": "Liquid assets are not generally taxed at a higher rate because of their liquidity; this explanation is invented."
+          },
+          {
+            "text": "Idle cash and securities usually earn less than operating assets, so excess liquidity can cost returns",
+            "value": null,
+            "explanation": "Correct. Holding more liquid assets than needed means giving up higher returns elsewhere, which is the opportunity cost of excess liquidity."
+          },
+          {
+            "text": "A high ratio means current liabilities are being paid late",
+            "value": null,
+            "explanation": "A high ratio means large current assets relative to liabilities. It says nothing about late payment, and it is the opposite of liquidity stress."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two firms in the same industry have identical current and quick ratios. Firm A has an investment-grade credit rating and established access to short-term debt markets. Firm B has a weak rating and depends on one bank credit line. Which conclusion is best supported?",
+        "options": [
+          {
+            "text": "Firm A likely has more liquidity because it can raise short-term funds more easily and cheaply",
+            "value": null,
+            "explanation": "Correct. Liquidity includes the ability to obtain funding at a reasonable cost, and a stronger rating and market access improve that ability even when ratios match."
+          },
+          {
+            "text": "The firms have equal liquidity because their ratios are identical",
+            "value": null,
+            "explanation": "This looks only at balance-sheet ratios and ignores qualitative factors such as credit rating and access to funding."
+          },
+          {
+            "text": "Firm B has more liquidity because a bank credit line is always available",
+            "value": null,
+            "explanation": "A single credit line can be cut or reduced, which is itself a pull on liquidity. It is not guaranteed."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00073:1.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is liquidity for a company, and why can a profitable firm still lack it?",
+        "back": "The ability to meet short-term cash obligations on time and at reasonable cost. Profit is an accounting measure, but bills are paid in cash, so a profitable firm with cash tied up in slow assets can be illiquid.",
+        "cited_chunk_ids": [
+          "occ-liquidity:5:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Drag vs pull on liquidity: what is the difference?",
+        "back": "A drag delays cash coming in (late-paying customers, obsolete inventory, tight credit). A pull speeds cash going out (suppliers tightening terms, a cut credit line, a low liquidity position).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How does the quick ratio differ from the current ratio?",
+        "back": "The quick ratio counts only cash, short-term marketable securities and receivables, so it excludes inventory and prepaid expenses. It is the more conservative test of liquidity.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the defensive interval ratio and how is it calculated?",
+        "back": "(Cash + short-term marketable securities + receivables) ÷ daily cash expenditures, where daily cash expenditures = annual cash operating expenses ÷ 365. It gives the number of days the firm can pay its costs without new sales.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "3/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T17:31:36.700Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 945,
+      "outputTokens": 565,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007657,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:31:46.655Z",
+      "purpose": "repair",
+      "losId": "corpfin-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10081,
+      "outputTokens": 1070,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.031806,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:31:48.253Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 195,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001767,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:31:57.299Z",
+      "purpose": "grounding",
+      "losId": "corpfin-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13678,
+      "outputTokens": 1279,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.040315199999999995,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.08154519999999998
+}

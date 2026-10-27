@@ -1,0 +1,878 @@
+{
+  "losId": "corpfin-05-los4",
+  "losText": "describe types of real options relevant to capital investments",
+  "moduleId": "corpfin-05",
+  "moduleTitle": "Capital Investments and Capital Allocation",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:33:31.930Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "libretexts-aurora-capital-budgeting:2:7",
+      "title": "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)",
+      "locator": "9.6: Real Options in Capital Budgeting Overview - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.06:_Real_Options_in_Capital_Budgeting_Overview",
+      "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)",
+      "reuse": "adapt",
+      "score": 0.27
+    },
+    {
+      "id": "libretexts-aurora-capital-budgeting:2:8",
+      "title": "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)",
+      "locator": "9.6: Real Options in Capital Budgeting Overview - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.06:_Real_Options_in_Capital_Budgeting_Overview",
+      "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)",
+      "reuse": "adapt",
+      "score": 0.24
+    },
+    {
+      "id": "libretexts-aurora-capital-budgeting:2:6",
+      "title": "Capital Rationing and Real Options in Capital Budgeting (Principles of Financial Management, Aurora University; Business LibreTexts)",
+      "locator": "9.6: Real Options in Capital Budgeting Overview - Business LibreTexts",
+      "url": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management/09:_Capital_Budgeting/9.06:_Real_Options_in_Capital_Budgeting_Overview",
+      "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0 linked in the page footer)",
+      "reuse": "adapt",
+      "score": 0.23
+    },
+    {
+      "id": "flatworld-creating-services-and-products:338:277",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 338–339",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=338",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "flatworld-creating-services-and-products:336:275",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 336–337",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=336",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.17
+    },
+    {
+      "id": "flatworld-creating-services-and-products:340:279",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 340–341",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=340",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "damodaran-valn2ed-ch28:10:10",
+      "title": "Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 10–11",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch28.pdf#page=10",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "damodaran-valn2ed-ch28:8:7",
+      "title": "Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 8–9",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch28.pdf#page=8",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.1
+    },
+    {
+      "id": "flatworld-creating-services-and-products:342:281",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 342–344",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=342",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "damodaran-valn2ed-ch28:1:0",
+      "title": "Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern)",
+      "locator": "p. 1",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch28.pdf#page=1",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-creating-services-and-products:7:8",
+      "title": "Creating Services and Products (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 7–8",
+      "url": "https://2012books.lardbucket.org/pdfs/creating-services-and-products.pdf#page=7",
+      "license": "CC BY-NC-SA 3.0 (book front matter: \"licensed under a Creative Commons by-nc-sa 3.0 license\")",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "damodaran-valn2ed-ch28:3:2",
+      "title": "Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern)",
+      "locator": "pp. 3–4",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch28.pdf#page=3",
+      "license": "© Aswath Damodaran / John Wiley & Sons; chapter posted free on the author's NYU Stern site, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Real Options: Flexibility Hidden Inside Capital Projects",
+      "summary": "Real options are management's rights, but not obligations, to change course on a real project: wait, grow, shrink, quit, or adapt. They matter because plain NPV treats a project as a fixed plan, so it can undervalue projects that keep choices open.",
+      "sections": [
+        {
+          "heading": "Why plain NPV can miss something",
+          "body_markdown": "Standard NPV treats a project as a take-it-or-leave-it bet. You accept it today, and then the forecast cash flows arrive no matter what happens. Real managers don't behave that way. If a market collapses they cut back or walk away, and if it booms they spend more.\n\nThink of a **refundable plane ticket** versus a non-refundable one at the same price. The refundable ticket is worth more because you can respond to news. A **real option** is a right, with no obligation, to make a later business decision about a real (non-financial) asset such as a factory, land, or a product line. Project analysis can include these options explicitly, and they are not traded on a market."
+        },
+        {
+          "heading": "Timing options and sizing options",
+          "body_markdown": "**Timing option (option to delay):** the firm can wait before committing, for example until a permit arrives, prices settle, or demand is confirmed. Waiting gives up near-term cash flows, but it lets the firm learn first. Delay is most valuable when the firm holds exclusive rights to the project, as with a patent, undeveloped land, or unexploited mineral reserves. If the project looks bad today, the firm can still wait and see whether it improves. Structurally, this is a **call option**: the underlying asset is the project's present value of cash flows, and the strike price is the investment outlay.\n\n**Sizing options** change the scale of a project after launch:\n- **Abandonment option:** sell or shut the project to stop losses. It works like a put option and limits the downside.\n- **Growth (expansion) option:** if a pilot succeeds, scale up or enter new markets. It works like a call option on future opportunities.\n- **Contraction option:** reduce capacity if demand is weaker than expected."
+        },
+        {
+          "heading": "Flexibility options and fundamental options",
+          "body_markdown": "**Flexibility options** let the firm adjust how it operates once the project is running:\n- **Price-setting option:** when demand is strong and capacity is limited, the firm can raise prices to earn extra profit.\n- **Production-flexibility option:** the firm can change inputs or outputs as relative prices move, such as a plant that can burn gas or coal, or machinery that makes product X or product Y.\n\n**Fundamental options** are different. Here the *whole project* behaves like an option, because its value depends directly on the price of some underlying asset. An oil-field investment is the classic case: its payoff moves with the oil price. The key difference from the other types is that no separate managerial decision is attached to the project. The project itself is the option."
+        },
+        {
+          "heading": "What options do to project value",
+          "body_markdown": "Real options are usually treated as an add-on to the usual NPV analysis. Analysts compute the base NPV from forecast cash flows, subtract the cost of acquiring the options, and add the value of the options.\n\nUncertainty has a surprising effect here. In a plain DCF analysis, more risk means a higher discount rate and a lower NPV. With an option, more uncertainty means a wider range of outcomes. The firm can still choose to exploit the good outcomes and ignore or escape the bad ones, so **the option's value rises with uncertainty**.\n\nThis can justify taking a project whose base NPV is slightly negative, provided the options it creates are worth more than the shortfall. Valuing an option precisely needs option-pricing models (decision trees or binomial/Black-Scholes style models). At Level I you mainly need to identify the option type and understand how it affects value."
+        }
+      ],
+      "worked_example": {
+        "problem": "A firm can invest $900 now in a pilot plant. The pilot's expected after-tax cash flows are $300, $400 and $300 at the end of years 1, 2 and 3. The discount rate is 9%. If the pilot succeeds, the firm gains the right to build a full-scale plant, and an analyst values that growth option at $70 today. Ignore the cost of acquiring the option. What is the base-case NPV, and what is the project's value after counting the option?",
+        "steps": [
+          "Identify the option type: the right to scale up after a successful pilot is a growth (expansion) option, which is a sizing option.",
+          "Compute the base-case NPV from the pilot's cash flows only: $NPV = -900 + 300/1.09 + 400/1.09^2 + 300/1.09^3$.",
+          "Discount each flow: 275.23 + 336.67 + 231.66 = 843.56.",
+          "Base NPV = 843.56 − 900 = −56.44.",
+          "BA II Plus: press CF, then 2ND CLR WORK. Enter CF0 = −900 (ENTER, ↓), C01 = 300 (ENTER, ↓), F01 = 1 (↓), C02 = 400 (ENTER, ↓), F02 = 1 (↓), C03 = 300 (ENTER). Press NPV, enter I = 9 (ENTER), ↓, then CPT. The display shows −56.44.",
+          "Add the option value: −56.44 + 70 = +13.56, and the cost of acquiring the option is ignored per the problem.",
+          "Interpretation: standing alone, the pilot destroys value, but the flexibility it creates makes the whole package worth taking."
+        ],
+        "answer": "Base-case NPV = −56.44; including the growth option, the project's value is about +13.56, so it is attractive.",
+        "answer_value": -56.44,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.09,\"cashflows\":[-900,300,400,300]}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Project NPV including real options",
+          "latex": "NPV_{\\text{project}} = NPV_{\\text{base}} - C_{\\text{options}} + V_{\\text{options}}",
+          "where": "NPV_base is the NPV of the forecast cash flows with no flexibility; C_options is the cost of acquiring or creating the options; V_options is the value of the options the project provides."
+        },
+        {
+          "name": "Payoff of a delay (timing) option at the end of the waiting period",
+          "latex": "\\max(PV - I,\\ 0)",
+          "where": "PV is the present value of the project's expected cash flows at that time (before subtracting the outlay); I is the investment outlay needed to start the project (the strike price)."
+        }
+      ],
+      "exam_traps": [
+        "Confusing the two sizing options: abandonment and contraction both shrink the investment, but abandonment ends the project (sale or shutdown) while contraction only reduces capacity. A growth/expansion option is the opposite direction.",
+        "Putting a fundamental option in the wrong bucket. If a project's value moves directly with a commodity or asset price and the whole project is the option, it is fundamental, not just a flexibility option such as production-flexibility.",
+        "Believing higher uncertainty always lowers project value. With an option, more volatility raises the option's value, because the firm can take up the good outcomes and avoid the bad ones.",
+        "Treating a negative base NPV as an automatic rejection without checking whether the real options are worth more than the shortfall.",
+        "Mixing up the signs in the project NPV: options add value but acquiring them costs money, so it is NPV base − cost of options + value of options."
+      ],
+      "builds_on": [
+        "NPV and the time value of money",
+        "Types of capital investments",
+        "Capital allocation process",
+        "Financial options (calls and puts)"
+      ],
+      "leads_to": [
+        "Capital allocation pitfalls",
+        "Option pricing and binomial models",
+        "Corporate strategy and project flexibility"
+      ],
+      "cited_chunk_ids": [
+        "libretexts-aurora-capital-budgeting:2:6",
+        "libretexts-aurora-capital-budgeting:2:7",
+        "libretexts-aurora-capital-budgeting:2:8",
+        "damodaran-valn2ed-ch28:1:0",
+        "damodaran-valn2ed-ch28:3:2",
+        "damodaran-valn2ed-ch28:10:10"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern) pp. 3–4: \"a call option the underlying asset is the\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A pharmaceutical company owns exclusive rights to a drug compound. It decides to hold off on building a factory until a regulator announces its decision. Which real option is the company exercising?",
+        "options": [
+          {
+            "text": "Abandonment option",
+            "value": null,
+            "explanation": "Abandonment means selling or shutting an existing project to stop losses. Nothing has been started here, so this confuses quitting with waiting."
+          },
+          {
+            "text": "Timing option",
+            "value": null,
+            "explanation": "Correct. Postponing the investment until uncertainty (the regulatory ruling) resolves is the option to delay, which is a timing option."
+          },
+          {
+            "text": "Production-flexibility option",
+            "value": null,
+            "explanation": "Production flexibility means switching inputs or outputs of a running operation. The firm is not switching anything; it is waiting."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7",
+          "damodaran-valn2ed-ch28:1:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A retailer opens a single pilot store. If its sales beat a target, the retailer has the right to open 20 more stores on the same terms. Which real option does the pilot store create?",
+        "options": [
+          {
+            "text": "Abandonment option",
+            "value": null,
+            "explanation": "Abandonment is the right to quit and recover value if results are poor. The right here is to grow, not to exit."
+          },
+          {
+            "text": "Timing option",
+            "value": null,
+            "explanation": "A timing option is about when to start a project. The pilot has already been launched, and the added right concerns scale, so this is the wrong category."
+          },
+          {
+            "text": "Growth option",
+            "value": null,
+            "explanation": "Correct. The right to scale up after a successful pilot is a growth (expansion) option, which is a sizing option."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A power company's plant is built to burn either natural gas or coal, and operators choose whichever fuel is cheaper that month. This flexibility is best classified as a:",
+        "options": [
+          {
+            "text": "production-flexibility option",
+            "value": null,
+            "explanation": "Correct. Switching inputs (or outputs) as relative prices change is a flexibility option of the production-flexibility type."
+          },
+          {
+            "text": "fundamental option",
+            "value": null,
+            "explanation": "A fundamental option is one where the whole project's value depends on an underlying asset price. Here a specific operating choice is built into the plant, so this mislabels the category."
+          },
+          {
+            "text": "contraction option",
+            "value": null,
+            "explanation": "Contraction reduces the scale of the project when demand is weak. Switching fuels does not change capacity, so this confuses switching with shrinking."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The value of an undeveloped oil-field project rises and falls directly with the market price of oil, so the investment itself behaves much like an option on oil. Which category of real option does this describe?",
+        "options": [
+          {
+            "text": "Sizing option",
+            "value": null,
+            "explanation": "Sizing options (growth, abandonment, contraction) are decisions about the scale of a project that already exists. Here the project's value is simply tied to an asset price, so this is not a sizing decision."
+          },
+          {
+            "text": "Fundamental option",
+            "value": null,
+            "explanation": "Correct. When the project's value depends directly on the price of an underlying asset such as oil, the project itself is the option, which is a fundamental option."
+          },
+          {
+            "text": "Production-flexibility option",
+            "value": null,
+            "explanation": "Production flexibility refers to a specific operating switch among inputs or outputs. Nothing in the stem describes a switch."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two projects have the same expected NPV based on DCF. Project A is irreversible. Project B can be abandoned after one year for its salvage value. All else equal, which statement is most accurate?",
+        "options": [
+          {
+            "text": "Project B is worth more because the abandonment option limits losses.",
+            "value": null,
+            "explanation": "Correct. The right to exit after poor results cuts off the worst outcomes, so B has extra option value that A lacks."
+          },
+          {
+            "text": "Both are worth the same because their expected NPVs are equal.",
+            "value": null,
+            "explanation": "This ignores the option. Standard NPV treats management as passive, so equal base NPVs do not mean equal total value."
+          },
+          {
+            "text": "Project A is worth more because Project B's flexibility adds risk.",
+            "value": null,
+            "explanation": "This treats added flexibility as added risk, as in plain DCF. A real option limits the downside, so it adds value rather than subtracting it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7",
+          "libretexts-aurora-capital-budgeting:2:8"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An analyst has computed a project's base-case NPV from its forecast cash flows and wants to reflect real options. Which expression gives the project's NPV including those options?",
+        "options": [
+          {
+            "text": "Base NPV − value of options + cost of options",
+            "value": null,
+            "explanation": "The signs are reversed. This subtracts the benefit of the options and adds back their cost."
+          },
+          {
+            "text": "Base NPV + value of options + cost of options",
+            "value": null,
+            "explanation": "This adds the cost of acquiring the options instead of subtracting it, treating a cost as if it were a benefit."
+          },
+          {
+            "text": "Base NPV + value of options − cost of options",
+            "value": null,
+            "explanation": "Correct. Options add value, but creating them costs money, so the net effect is value of options minus cost of options, added to the base NPV."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A project requires an outlay of 500 today and is expected to return 150, 200 and 250 at the end of years 1, 2 and 3. The discount rate is 10% per year. Ignoring any real options, what is the base-case NPV? Round to two decimals.",
+        "options": [
+          {
+            "text": "100.00",
+            "value": 100,
+            "explanation": "This simply adds the undiscounted inflows (600) and subtracts the outlay, ignoring the time value of money."
+          },
+          {
+            "text": "-10.52",
+            "value": -10.52,
+            "explanation": "Correct. 150/1.10 + 200/1.10² + 250/1.10³ = 489.48; subtracting the 500 outlay gives −10.52. The base NPV is slightly negative, so any real options would need to be worth more than about 10.52."
+          },
+          {
+            "text": "489.48",
+            "value": 489.48,
+            "explanation": "This is the present value of the inflows only; the initial 500 outlay was never subtracted."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "npv",
+          "args_json": "{\"rate\":0.10,\"cashflows\":[-500,150,200,250]}"
+        },
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "critic_review": {
+          "pass": true,
+          "issues": [
+            "flag overturned on second review: Recomputed: 150/1.1=136.364, 200/1.21=165.289, 250/1.331=187.829; sum=489.482; minus 500 = -10.518, which rounds to -10.52 and matches the engine value. Option A's undiscounted sum (600-500=100) is correct, and the key B is right, so the flag is not a real error."
+          ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A firm holds the exclusive right to start a project for one year. Starting now would cost 110, and the present value of the project's cash flows is 100 today, so the immediate NPV is −10. In one year that present value will be either 130 (up, u = 1.30) or 80 (down, d = 0.80). The risk-free rate is 5% per year. Use a one-period binomial model: the delay option pays max(PV − 110, 0) at year 1, and you should use risk-neutral probabilities. What is the value of the option to delay today? Round to two decimals.",
+        "options": [
+          {
+            "text": "9.52",
+            "value": 9.52,
+            "explanation": "Correct. Risk-neutral up probability = (1.05 − 0.80)/(1.30 − 0.80) = 0.5. Payoffs are 20 (up) and 0 (down). Value = 0.5 × 20 / 1.05 = 9.52. The option is worth having even though the immediate NPV is negative."
+          },
+          {
+            "text": "10.00",
+            "value": 10,
+            "explanation": "This takes the 0.5-probability expected payoff (0.5 × 20) but forgets to discount it by one year at the risk-free rate."
+          },
+          {
+            "text": "19.05",
+            "value": 19.05,
+            "explanation": "This discounts the full up-state payoff (20/1.05) and ignores the 0.5 risk-neutral probability of the up state."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "binomialValue",
+          "args_json": "{\"spot\":100,\"strike\":110,\"u\":1.3,\"d\":0.8,\"r\":0.05,\"kind\":\"call\"}"
+        },
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch28:3:2",
+          "damodaran-valn2ed-ch28:1:0"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Name the main types of real options relevant to capital investments.",
+        "back": "Timing options (delay); sizing options (abandonment, growth/expansion, contraction); flexibility options (price-setting, production-flexibility); and fundamental options (the project itself is an option on an underlying asset price).",
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Why can more uncertainty raise the value of a real option?",
+        "back": "The firm can exploit favorable outcomes and avoid or limit unfavorable ones, so wider outcomes add upside without equal downside. Option value rises with volatility.",
+        "cited_chunk_ids": [
+          "libretexts-aurora-capital-budgeting:2:7",
+          "libretexts-aurora-capital-budgeting:2:8",
+          "damodaran-valn2ed-ch28:10:10"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How is the option to delay a project like a financial option?",
+        "back": "It is a call option. The underlying asset is the project's PV of cash flows and the strike price is the investment outlay. The firm gains if PV exceeds the outlay and need not invest otherwise.",
+        "cited_chunk_ids": [
+          "damodaran-valn2ed-ch28:3:2"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": false,
+          "issues": [
+            "copies 8+ words from Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern) pp. 3–4: \"a call option the underlying asset is the\""
+          ]
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How do you include real options in a project's NPV?",
+        "back": "NPV with options = base NPV − cost of the options + value of the options.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "What distinguishes a fundamental option from a flexibility option?",
+        "back": "In a fundamental option, the whole project's value depends directly on an underlying asset price, such as an oil field and oil price. A flexibility option is an operating choice inside a project, such as switching inputs or changing prices.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T17:33:22.241Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 850,
+      "outputTokens": 726,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009077,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:33:29.616Z",
+      "purpose": "grounding",
+      "losId": "corpfin-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10306,
+      "outputTokens": 1080,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.031581200000000004,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:33:31.929Z",
+      "purpose": "confirm",
+      "losId": "corpfin-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 393,
+      "outputTokens": 147,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.002364,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.043022200000000003
+}

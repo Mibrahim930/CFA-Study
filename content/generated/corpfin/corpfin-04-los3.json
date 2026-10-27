@@ -1,0 +1,442 @@
+{
+  "losId": "corpfin-04-los3",
+  "losText": "describe issuers' objectives and compare methods for managing working capital and liquidity",
+  "moduleId": "corpfin-04",
+  "moduleTitle": "Working Capital and Liquidity",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:13:36.092Z",
+  "retrieved": [
+    {
+      "id": "occ-liquidity:27:37",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 27–28",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.6",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — What Is Working Capital?",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:276:188",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 276–278",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=276",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-liquidity:35:48",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "p. 35",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=35",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-liquidity:58:79",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 58–59",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=58",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.2",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-asset-based-lending:11:15",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 11–12",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=11",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-liquidity:12:16",
+      "title": "Comptroller's Handbook: Liquidity (OCC)",
+      "locator": "pp. 12–13",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/liquidity/pub-ch-liquidity.pdf#page=12",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Keeping the Lights On: Working Capital and Liquidity Management",
+      "summary": "Companies manage short-term assets and liabilities so they can always pay what is due without leaving money idle or borrowing at needless cost. This LOS covers what treasurers are trying to achieve, where liquidity comes from, and how the main short-term tools compare.",
+      "sections": [
+        {
+          "heading": "Two goals pulling in opposite directions",
+          "body_markdown": "**Working capital** is the money tied up in day-to-day operations: cash, marketable securities, receivables (money customers owe), and inventory, less the short-term obligations (payables, short-term debt, accruals) that fund them. **Net working capital (NWC)** is current assets minus current liabilities.\n\nManagement has two aims:\n\n1. **Liquidity**: have enough cash, or quick access to it, to pay bills, wages, interest and taxes on time.\n2. **Efficiency**: keep the cost of funding low and avoid cash sitting idle earning nothing.\n\nThink of a household checking account. Too little and you bounce checks. Too much and you lose the interest you could have earned elsewhere. Firms face the same trade-off at larger scale. A very high NWC means safety but an opportunity cost, and a negative NWC signals possible trouble paying bills."
+        },
+        {
+          "heading": "Where liquidity comes from, and what threatens it",
+          "body_markdown": "**Primary sources** are the everyday, low-cost ones: cash on hand, cash from collecting receivables, trade credit from suppliers, and short-term funding such as a bank line of credit. Good cash-flow forecasting is part of this.\n\n**Secondary sources** are used only under stress and usually signal trouble or cost something: selling assets, renegotiating debt terms, or seeking bankruptcy protection and reorganization.\n\nTwo forces erode liquidity:\n- **Drags** slow cash *coming in*. Examples: customers paying late, bad debts, obsolete inventory that cannot be sold, or tight credit conditions.\n- **Pulls** make cash *go out sooner*. Examples: suppliers shortening credit terms, a bank reducing a credit-line limit, or lenders demanding collateral.\n\nA sound plan also keeps a cushion of high-quality liquid assets and a contingency funding plan. These stress-test how much cash would be needed if normal funding sources dried up."
+        },
+        {
+          "heading": "Managing each piece of working capital",
+          "body_markdown": "- **Cash and short-term investments**: forecast inflows and outflows (a cash budget), speed up collections, and invest surplus only in safe, easily sold instruments such as government bills, bank deposits, money-market funds, high-grade commercial paper or repos. Safety and liquidity rank ahead of yield.\n- **Receivables**: set a credit policy, screen customers, monitor ageing and chase late payers. Early-payment discounts speed cash in but cost margin.\n- **Inventory**: hold enough to meet sales without piling up stock. Tools include just-in-time ordering and economic order quantity models. Excess stock ties up cash and risks obsolescence.\n- **Payables**: pay on time but not early. Use the full credit period, and take a cash discount only when its cost is lower than other funding. Paying very late damages supplier relationships and credit standing.\n\nThe goal across all four is a shorter cash conversion cycle, which frees cash and reduces the need for outside funding."
+        },
+        {
+          "heading": "Short-term funding choices and financing strategy",
+          "body_markdown": "When internal cash is not enough, firms compare:\n- **Trade credit**: supplier lets you pay later. Free if you pay within the terms, but forgoing a discount (such as 2/10 net 30) is expensive.\n- **Bank lines of credit**: an *uncommitted* line is flexible and cheap but the bank has no legal duty to lend. A *committed* line obliges the bank to lend up to the limit, for a fee. A *revolving* line can be drawn, repaid and redrawn.\n- **Commercial paper**: short-term unsecured notes sold at a discount by large, high-quality issuers. It is usually cheaper than bank loans but unavailable to weaker credits and unreliable in market stress.\n- **Asset-based loans and factoring**: borrowing against, or selling, receivables and inventory. They are available to weaker borrowers but cost more.\n\nAnnualise costs on an effective basis to compare them fairly.\n\n**Strategy**: a *conservative* firm funds permanent *and* seasonal needs with long-term capital and holds surplus cash in quiet periods. This is safer but costlier. An *aggressive* firm funds seasonal (and sometimes part of permanent) needs with short-term borrowing. This is usually cheaper but exposes it to refinancing and rollover risk if credit tightens."
+        }
+      ],
+      "worked_example": {
+        "problem": "A supplier offers terms of 2/10 net 30 on a 100 invoice (pay 98 within 10 days, or the full 100 on day 30). What is the cost per 20-day period of skipping the discount, and what is that cost on an effective annual basis (365-day year)?",
+        "steps": [
+          "Paying on day 30 instead of day 10 means you use the supplier's money for 30 − 10 = 20 extra days.",
+          "By waiting, you pay 100 instead of 98. Treat this as borrowing 98 and repaying 100 after one 20-day period.",
+          "BA II Plus: N = 1, PV = −98, PMT = 0, FV = 100, CPT I/Y → 2.0408 (% per 20 days).",
+          "Check by formula: 2/98 = 0.020408, so the periodic cost is 2.04%.",
+          "There are 365 / 20 = 18.25 such periods a year, so EAR = (1.020408)^18.25 − 1 ≈ 0.446.",
+          "Conclusion: forgoing the discount costs about 44.6% a year. It is almost always better to take the discount, even by borrowing from a bank at a far lower rate."
+        ],
+        "answer": "2.04% per 20-day period (about 44.6% annualized)",
+        "answer_value": 0.020408,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":1,\"pmt\":0,\"pv\":-98,\"fv\":100}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Net working capital",
+          "latex": "NWC = CA - CL",
+          "where": "CA = current assets; CL = current liabilities."
+        },
+        {
+          "name": "Effective annual rate",
+          "latex": "EAR = \\left(1+\\frac{r}{m}\\right)^{m}-1",
+          "where": "r = stated annual rate; m = compounding periods per year."
+        },
+        {
+          "name": "Price of a discount-basis instrument (e.g. commercial paper)",
+          "latex": "P = FV\\left(1 - D\\times\\frac{t}{360}\\right)",
+          "where": "P = issue price; FV = face value paid at maturity; D = annual discount rate (decimal); t = days to maturity; 360 = day-count basis."
+        },
+        {
+          "name": "Annualized cost of forgoing a trade discount",
+          "latex": "\\left(1+\\frac{d}{1-d}\\right)^{365/(N-t)}-1",
+          "where": "d = discount percentage (decimal); N = net due days; t = discount period in days."
+        }
+      ],
+      "exam_traps": [
+        "Treating a larger cushion of liquid assets as always better. Idle cash has an opportunity cost, and the objective is balance.",
+        "Mixing up drags and pulls. Drags delay cash coming in; pulls accelerate cash going out.",
+        "Calling the sale of assets or renegotiation of debt a primary source. These are secondary sources used under stress.",
+        "Dividing the discount by the invoice amount rather than by the amount actually paid when computing the cost of forgoing a trade discount, or forgetting to annualize.",
+        "Assuming an uncommitted credit line guarantees funds. Only a committed line legally obliges the bank to lend."
+      ],
+      "builds_on": [
+        "Net working capital and current assets/liabilities",
+        "Cash conversion cycle",
+        "Liquidity ratios (current, quick, cash)",
+        "Effective annual rate"
+      ],
+      "leads_to": [
+        "Capital structure and cost of capital",
+        "Short-term versus long-term financing decisions",
+        "Credit analysis of issuers"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00120:2",
+        "os:principles-finance-2e:m00120:2.1",
+        "os:principles-finance-2e:m00120:2.3",
+        "os:principles-finance-2e:m00120:2.2",
+        "flatworld-finance-for-managers:276:188",
+        "occ-liquidity:35:48"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is most accurately described as a secondary source of liquidity for a non-financial company?",
+        "options": [
+          {
+            "text": "Cash held in the firm's operating bank accounts",
+            "value": null,
+            "explanation": "Cash on hand is a primary source. This mistake treats any liquid resource as secondary."
+          },
+          {
+            "text": "Renegotiating the terms of existing debt agreements",
+            "value": null,
+            "explanation": "Correct. Secondary sources (asset sales, debt renegotiation, reorganization) are used under stress, may change the firm's operations or financial position, and signal difficulty."
+          },
+          {
+            "text": "Collecting trade receivables on normal terms",
+            "value": null,
+            "explanation": "Normal collections are part of ordinary cash-flow management, a primary source. This confuses routine operations with emergency measures."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A manufacturer's main supplier shortens its credit terms from 60 days to 15 days, and the firm's bank lowers the limit on its short-term credit line. These developments are best described as:",
+        "options": [
+          {
+            "text": "A drag on liquidity, because they delay cash inflows",
+            "value": null,
+            "explanation": "Drags involve delayed receipts such as slow-paying customers or obsolete inventory. These events do not slow inflows."
+          },
+          {
+            "text": "A secondary source of liquidity, because they involve lenders",
+            "value": null,
+            "explanation": "Neither event provides funds. This confuses a change in funding availability with a liquidity-generating action."
+          },
+          {
+            "text": "A pull on liquidity, because cash outflows come due sooner",
+            "value": null,
+            "explanation": "Correct. Pulls are factors that accelerate payments or reduce access to short-term funding, such as shorter supplier terms and lower credit limits."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement about bank credit lines is most accurate?",
+        "options": [
+          {
+            "text": "A committed line legally obliges the bank to lend up to its limit, usually in exchange for a fee",
+            "value": null,
+            "explanation": "Correct. The fee buys certainty of access, which is why committed lines are valued during market stress."
+          },
+          {
+            "text": "An uncommitted line legally obliges the bank to lend as long as the borrower remains solvent",
+            "value": null,
+            "explanation": "This reverses the distinction. An uncommitted line gives the bank discretion to refuse a draw."
+          },
+          {
+            "text": "A committed line is cheaper than an uncommitted line because the bank carries no funding obligation",
+            "value": null,
+            "explanation": "The bank does carry an obligation under a committed line, which is why it charges a fee. This confuses the cost of certainty with the absence of it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A retailer has a large seasonal build-up in inventory and receivables each holiday period. Compared with an aggressive working capital financing policy, a conservative policy would most likely:",
+        "options": [
+          {
+            "text": "Fund permanent needs with short-term debt and accept more refinancing risk",
+            "value": null,
+            "explanation": "This describes an aggressive policy, which lowers expected financing cost but raises rollover risk."
+          },
+          {
+            "text": "Fund seasonal peaks with short-term borrowing to avoid carrying idle cash",
+            "value": null,
+            "explanation": "This is also the aggressive approach. Conservative firms avoid depending on short-term markets at peak times."
+          },
+          {
+            "text": "Fund seasonal needs with long-term capital and hold surplus cash in off-peak periods",
+            "value": null,
+            "explanation": "Correct. The conservative policy accepts a higher cost and idle cash in return for lower liquidity and refinancing risk."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:276:188"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company's committed line of credit carries a stated annual rate of 8%, compounded monthly. What is the effective annual rate, rounded to two decimal places?",
+        "options": [
+          {
+            "text": "8.24%",
+            "value": 0.0824,
+            "explanation": "Compounds quarterly (m = 4) instead of monthly, which understates the EAR."
+          },
+          {
+            "text": "8.30%",
+            "value": 0.083,
+            "explanation": "Correct. EAR = (1 + 0.08/12)^12 − 1 ≈ 0.0830."
+          },
+          {
+            "text": "8.00%",
+            "value": 0.08,
+            "explanation": "Uses the stated rate and ignores intra-year compounding."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "effectiveAnnualRate",
+          "args_json": "{\"statedRate\":0.08,\"m\":12}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A highly rated issuer sells 120-day commercial paper with a face value of 5,000,000 at a quoted discount rate of 6% per year. Use a 360-day year. What is the issue price, rounded to the nearest whole currency unit?",
+        "options": [
+          {
+            "text": "4,900,000",
+            "value": 4900000,
+            "explanation": "Correct. Price = 5,000,000 × (1 − 0.06 × 120/360) = 4,900,000."
+          },
+          {
+            "text": "4,700,000",
+            "value": 4700000,
+            "explanation": "Applies the full annual discount rate (1 − 0.06) without prorating for 120 days."
+          },
+          {
+            "text": "4,901,370",
+            "value": 4901370,
+            "explanation": "Uses a 365-day year instead of the 360-day convention given in the stem."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "priceFromDiscountRate",
+          "args_json": "{\"fv\":5000000,\"discountRate\":0.06,\"days\":120,\"year\":360}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A supplier offers terms of 3/10 net 40 on a 100 invoice. A buyer pays 97 on day 10 to take the discount, or 100 on day 40 otherwise. What is the cost, per 30-day period, of forgoing the discount, rounded to two decimal places?",
+        "options": [
+          {
+            "text": "3.00%",
+            "value": 0.03,
+            "explanation": "Divides the 3 discount by the 100 invoice rather than by the 97 actually paid on day 10, so the borrowed amount is overstated."
+          },
+          {
+            "text": "2.91%",
+            "value": 0.029126,
+            "explanation": "Divides the 3 discount by 103, wrongly adding the discount to the invoice."
+          },
+          {
+            "text": "3.09%",
+            "value": 0.030928,
+            "explanation": "Correct. Borrowing 97 and repaying 100 after 30 days gives 3/97 ≈ 0.0309."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "rate",
+          "args_json": "{\"n\":1,\"pmt\":0,\"pv\":-97,\"fv\":100}"
+        },
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the two main objectives of working capital management?",
+        "back": "(1) Maintain enough liquidity to meet short-term obligations on time. (2) Do so at the lowest cost, without idle cash or expensive funding. The two goals must be balanced.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.1",
+          "os:principles-finance-2e:m00120:3"
+        ]
+      },
+      {
+        "front": "Contrast primary and secondary sources of liquidity.",
+        "back": "Primary: cash on hand, collections, trade credit, short-term funding lines (routine). Secondary: selling assets, renegotiating debt, bankruptcy protection (stress measures that signal trouble).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Contrast a drag and a pull on liquidity.",
+        "back": "Drag: delays in cash coming in (late-paying customers, obsolete inventory). Pull: cash going out sooner or funding shrinking (shorter supplier terms, reduced credit limits).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How do conservative and aggressive working capital financing policies differ?",
+        "back": "Conservative: long-term capital funds both permanent and seasonal needs, with surplus cash held off-peak. Safer but costlier. Aggressive: short-term borrowing funds seasonal needs. Cheaper but higher rollover risk.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:276:188"
+        ]
+      },
+      {
+        "front": "Committed versus uncommitted bank credit line?",
+        "back": "Committed: the bank must lend up to the limit, for a fee. Uncommitted: no legal obligation, so the bank may refuse a draw.",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:13:36.092Z",
+      "purpose": "generate",
+      "losId": "corpfin-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9733,
+      "outputTokens": 11562,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1362422,
+      "stopReason": "end_turn"
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "losId": "corpfin-06-los4",
+  "losText": "describe optimal and target capital structures",
+  "moduleId": "corpfin-06",
+  "moduleTitle": "Capital Structure",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:24:59.396Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00110:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "flatworld-finance-for-managers:255:177",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 255–256",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=255",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Optimal Capital Structure",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "flatworld-finance-for-managers:258:179",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 258–260",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=258",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — Leverage and the WACC",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Levered Firm",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:256:178",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 256–258",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=256",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-management:m70719:2",
+      "title": "Principles of Management",
+      "locator": "§18.7 Managing Now for Future Technology and Innovation — Chapter Review Questions",
+      "url": "https://openstax.org/books/principles-management/pages/18-7-managing-now-for-future-technology-and-innovation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-management:m70687:6.1",
+      "title": "Principles of Management",
+      "locator": "§14.2 Content Theories of Motivation — Self-Determination Theory",
+      "url": "https://openstax.org/books/principles-management/pages/14-2-content-theories-of-motivation",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "flatworld-finance-for-managers:5:6",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 5–6",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=5",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.04
+    },
+    {
+      "id": "flatworld-finance-for-managers:253:176",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 253–255",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=253",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.04
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Optimal and Target Capital Structure",
+      "summary": "A firm's capital structure is its mix of debt and equity. The optimal mix is the one that makes the firm worth the most, and management aims for it as a target. Knowing the difference between optimal, target and actual mixes tells you which weights to use when estimating the cost of capital.",
+      "sections": [
+        {
+          "heading": "The financing mix as a balancing act",
+          "body_markdown": "A firm's **capital structure** is the blend of debt and equity it uses to fund its assets. Think of salt in cooking: a little improves the dish, but too much ruins it. Debt works the same way. Interest is usually tax deductible, so some debt makes the firm cheaper to finance. Past a certain point, though, the extra risk of not being able to pay lenders outweighs the saving."
+        },
+        {
+          "heading": "Why there is an optimal mix (trade-off theory)",
+          "body_markdown": "**Trade-off theory** says debt has one benefit and one cost. The benefit is the **interest tax shield**, the tax saved because interest reduces taxable income. The cost is **financial distress**: a higher chance of default, which also brings lost customers, nervous suppliers and legal costs. Putting the two together gives $$V_{levered} = V_{unlevered} + PV(\\text{tax shield}) - PV(\\text{distress costs})$$ At low debt the tax shield dominates, so value rises. At high debt the distress costs grow faster and value falls. The **optimal capital structure** is the debt weight at the peak of that curve. Lenders and shareholders both demand higher returns as debt rises, so the optimum is also where the **WACC** (weighted-average cost of capital) is lowest. Firms with high expected distress costs, such as volatile revenues and few assets to pledge as collateral, reach the peak sooner and so have a lower optimal debt level. Steady, collateral-rich firms, such as utilities, can carry more."
+        },
+        {
+          "heading": "From optimal to target",
+          "body_markdown": "Nobody can compute the exact optimum. A firm can only estimate WACC at different debt levels, using the costs other firms face. Management therefore sets a **target capital structure**: the debt and equity weights it intends to hold over time, usually based on its estimate of the optimum. The **actual** structure drifts away from the target every day because market values of debt and equity move. Rebalancing for small gaps would cost real money in transaction costs, so firms tolerate small deviations and act only when the gap is large. For example, 23.1% debt against a 22.5% target is close enough."
+        },
+        {
+          "heading": "Using it as an analyst",
+          "body_markdown": "When estimating a company's WACC, use **target weights**, not whatever the latest market values happen to show, because the firm will be financed at the target mix over the long run. Without a stated target, an analyst can use the firm's current market-value weights, a typical mix for the industry, or management's own comments. Capital structures differ widely by industry. For example, online retailers use very little debt, while tire and rubber makers use a lot. Finding the optimum from a table of WACC at different debt levels just means picking the lowest WACC."
+        }
+      ],
+      "worked_example": {
+        "problem": "A firm with a 30% tax rate has estimated its costs at three debt weights. At 0% debt the cost of equity is 8% and WACC is 8.00%. At 20% debt the pre-tax cost of debt is 5% and the cost of equity is 9%. At 40% debt the pre-tax cost of debt is 6% and the cost of equity is 10.5%. At 60% debt the pre-tax cost of debt is 8% and the cost of equity is 14%. Which debt weight is optimal among these four, and what is its WACC? Give percentages to two decimals.",
+        "steps": [
+          "Write WACC as $w_d \\times r_d (1-t) + w_e \\times r_e$. The optimal structure is the one with the lowest WACC.",
+          "At 20% debt: $0.20 \\times 0.05 \\times 0.70 + 0.80 \\times 0.09 = 0.007 + 0.072 = 0.079$, so 7.90%. Calculator keystrokes: 0.2 × 0.05 × 0.7 + 0.8 × 0.09 = (shows 0.079).",
+          "At 40% debt: $0.40 \\times 0.06 \\times 0.70 + 0.60 \\times 0.105 = 0.0168 + 0.063 = 0.0798$, so 7.98%.",
+          "At 60% debt: $0.60 \\times 0.08 \\times 0.70 + 0.40 \\times 0.14 = 0.0336 + 0.056 = 0.0896$, so 8.96%.",
+          "At 0% debt WACC is 8.00%. Compare all four: 8.00%, 7.90%, 7.98%, 8.96%. The minimum is at 20% debt."
+        ],
+        "answer": "Among the four, 20% debt is optimal, with a WACC of 7.90%.",
+        "answer_value": 0.079,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.2,\"rd\":0.05,\"tax\":0.3,\"we\":0.8,\"re\":0.09}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Trade-off theory value of a levered firm",
+          "latex": "V_L = V_U + PV(\\text{tax shield}) - PV(\\text{financial distress costs})",
+          "where": "V_L is the value of the firm with debt, V_U is the value of the same firm with no debt, PV(tax shield) is the present value of the tax savings on interest, and PV(financial distress costs) is the present value of expected distress costs."
+        },
+        {
+          "name": "WACC (debt and common equity only)",
+          "latex": "WACC = w_d\\, r_d (1-t) + w_e\\, r_e",
+          "where": "w_d and w_e are the target market-value weights of debt and equity, r_d is the pre-tax cost of debt, t is the marginal tax rate, and r_e is the cost of equity."
+        }
+      ],
+      "exam_traps": [
+        "Assuming more debt is always better because of the tax shield. Distress costs and higher required returns eventually outweigh it.",
+        "Using the firm's current market-value weights when a target structure is given. WACC should reflect the target weights.",
+        "Thinking a firm must rebalance whenever its actual mix differs from the target. Small gaps are tolerated because transaction costs are significant.",
+        "Forgetting that the optimal structure has the lowest WACC, not the lowest cost of debt or the lowest cost of equity.",
+        "Believing firms in all industries should share one optimal debt weight. Business risk and collateral make the optimum differ by firm and industry."
+      ],
+      "builds_on": [
+        "Weighted-average cost of capital",
+        "Interest tax shield",
+        "Financial leverage"
+      ],
+      "leads_to": [
+        "Factors affecting capital structure",
+        "Modigliani-Miller propositions",
+        "Capital budgeting discount rates"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00110:1",
+        "os:principles-finance-2e:m00110:1.1",
+        "os:principles-finance-2e:m00110:2",
+        "flatworld-finance-for-managers:256:178",
+        "flatworld-finance-for-managers:258:179",
+        "flatworld-finance-for-managers:255:177"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Under trade-off theory, which description best fits a firm's optimal capital structure?",
+        "options": [
+          {
+            "text": "The mix with the highest debt weight that still gives a tax shield",
+            "value": null,
+            "explanation": "This ignores distress costs. Adding debt for its tax shield without limit pushes the firm past the point where distress costs exceed the benefit."
+          },
+          {
+            "text": "The mix with the lowest WACC and the highest firm value",
+            "value": null,
+            "explanation": "Correct. The tax-shield gain from extra debt is just offset by rising distress costs and higher required returns at the optimum, so WACC is lowest and value is highest."
+          },
+          {
+            "text": "The mix that matches the average debt weight of its industry",
+            "value": null,
+            "explanation": "This confuses the optimum with an industry benchmark. Benchmarks can help estimate a target, but the optimum depends on the firm's own distress costs."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1",
+          "os:principles-finance-2e:m00110:2",
+          "flatworld-finance-for-managers:258:179"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company's optimal structure is estimated at 22.5% debt and 77.5% equity. Because market prices moved, its actual market-value structure is now 23.1% debt and 76.9% equity. What is the most reasonable response?",
+        "options": [
+          {
+            "text": "Issue new equity immediately and retire debt to restore exactly 22.5% debt",
+            "value": null,
+            "explanation": "This ignores transaction costs. Rebalancing for such a small gap would cost more than it gains."
+          },
+          {
+            "text": "Issue more debt to capture a larger interest tax shield",
+            "value": null,
+            "explanation": "This repeats the more-debt-is-better error. The firm is already slightly above its optimum, so more debt would move it further away."
+          },
+          {
+            "text": "Make no change, because the firm is close to its target and rebalancing is costly",
+            "value": null,
+            "explanation": "Correct. Small deviations are tolerated because transaction costs of rebalancing can exceed the benefit."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1.1"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A firm's target capital structure is 40% debt and 60% common equity (no preferred stock). Its pre-tax cost of debt is 6%, its cost of equity is 10% and its marginal tax rate is 25%. Using the target weights, what is its WACC? Round to two decimals.",
+        "options": [
+          {
+            "text": "7.80%",
+            "value": 0.078,
+            "explanation": "Correct. WACC = 0.40 × 6% × (1 − 0.25) + 0.60 × 10% = 1.80% + 6.00% = 7.80%."
+          },
+          {
+            "text": "8.40%",
+            "value": 0.084,
+            "explanation": "This is the mistake of leaving out the tax adjustment on debt: 0.40 × 6% + 0.60 × 10% = 8.40%."
+          },
+          {
+            "text": "6.70%",
+            "value": 0.067,
+            "explanation": "This is the mistake of swapping the weights: 0.60 × 4.5% + 0.40 × 10% = 6.70%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.4,\"rd\":0.06,\"tax\":0.25,\"we\":0.6,\"re\":0.1}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:256:178"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement about target and actual capital structure is most accurate?",
+        "options": [
+          {
+            "text": "The target is recomputed each day from current market values of debt and equity",
+            "value": null,
+            "explanation": "Daily recalculation is neither practical nor desirable. It is the actual mix, not the target, that moves with market values."
+          },
+          {
+            "text": "The target is the mix management intends to hold, while the actual mix drifts as market values change",
+            "value": null,
+            "explanation": "Correct. The target is a planned long-run mix, usually based on the estimated optimum, and the actual market-value weights move around it."
+          },
+          {
+            "text": "The target always equals the actual mix shown in the latest balance sheet",
+            "value": null,
+            "explanation": "This treats the target and the current book mix as the same. A target is a goal, and the actual mix is only where the firm is now."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two firms face the same tax rate. Firm A has volatile revenues and few assets that could serve as collateral. Firm B has steady revenues and many tangible assets. All else equal, which firm's optimal debt weight is likely lower, and why?",
+        "options": [
+          {
+            "text": "Firm A, because it faces higher expected costs of financial distress",
+            "value": null,
+            "explanation": "Correct. Higher distress costs offset the tax shield sooner, so the optimum is reached at a lower debt weight."
+          },
+          {
+            "text": "Firm B, because steady cash flows make the interest tax shield less valuable",
+            "value": null,
+            "explanation": "Steady cash flows lower the chance of distress. They do not make the tax shield less valuable, and they support more debt."
+          },
+          {
+            "text": "Firm A, because volatile revenues make the interest tax shield larger",
+            "value": null,
+            "explanation": "Volatility does not enlarge the tax shield. It raises the chance of distress, which is the reason for the lower optimum."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1",
+          "flatworld-finance-for-managers:255:177"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A company's management has set a target capital structure of 30% debt and 70% common equity. Because its stock price has fallen, its current market-value mix is 45% debt and 55% equity. Its pre-tax cost of debt is 8%, its cost of equity is 12% and its tax rate is 25%. To estimate the WACC the company will use for long-run project evaluation, what figure should an analyst compute using the target weights? Round to two decimals.",
+        "options": [
+          {
+            "text": "9.30%",
+            "value": 0.093,
+            "explanation": "This uses the current 45%/55% weights instead of the target: 0.45 × 6% + 0.55 × 12% = 9.30%."
+          },
+          {
+            "text": "10.80%",
+            "value": 0.108,
+            "explanation": "This uses the target weights but omits the tax shield on debt: 0.30 × 8% + 0.70 × 12% = 10.80%."
+          },
+          {
+            "text": "10.20%",
+            "value": 0.102,
+            "explanation": "Correct. WACC = 0.30 × 8% × (1 − 0.25) + 0.70 × 12% = 1.80% + 8.40% = 10.20%."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.3,\"rd\":0.08,\"tax\":0.25,\"we\":0.7,\"re\":0.12}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1.1",
+          "flatworld-finance-for-managers:255:177"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "According to trade-off theory, the value of a levered firm equals which of the following?",
+        "options": [
+          {
+            "text": "Unlevered value plus PV of the tax shield minus PV of financial distress costs",
+            "value": null,
+            "explanation": "Correct. The tax shield adds value and expected distress costs subtract value."
+          },
+          {
+            "text": "Unlevered value plus PV of the tax shield plus PV of financial distress costs",
+            "value": null,
+            "explanation": "This adds distress costs instead of subtracting them, a sign error."
+          },
+          {
+            "text": "Unlevered value plus PV of the tax shield, with no allowance for distress costs",
+            "value": null,
+            "explanation": "This leaves out distress costs, so more debt would always raise value and there would be no optimum."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:2",
+          "os:principles-finance-2e:m00110:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm has estimated its WACC at various debt weights: 0% debt: 7.8%; 10%: 7.5%; 20%: 7.3%; 30%: 7.2%; 40%: 7.3%; 60%: 8.0%. Based on these estimates, which debt weight is the best estimate of its optimal structure?",
+        "options": [
+          {
+            "text": "0% debt, because it avoids all distress costs",
+            "value": null,
+            "explanation": "This ignores the tax shield. At 0% debt the WACC of 7.8% is higher than at several other weights, so value is not maximized."
+          },
+          {
+            "text": "60% debt, because it has the largest tax shield",
+            "value": null,
+            "explanation": "This focuses on the tax shield alone. At 60% WACC is 8.0%, the highest in the table, so distress costs and higher required returns have taken over."
+          },
+          {
+            "text": "30% debt, because it has the lowest estimated WACC",
+            "value": null,
+            "explanation": "Correct. The optimal structure minimizes WACC, which maximizes firm value, and 7.2% is the lowest figure."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:256:178",
+          "flatworld-finance-for-managers:258:179"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a firm's optimal capital structure?",
+        "back": "The mix of debt and equity that minimizes WACC and so maximizes firm value. It sits where the marginal tax-shield benefit of debt equals the marginal cost of financial distress.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1",
+          "flatworld-finance-for-managers:258:179"
+        ]
+      },
+      {
+        "front": "What is the trade-off theory value equation for a levered firm?",
+        "back": "Value of levered firm = value of unlevered firm + PV of interest tax shield − PV of financial distress costs.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:2"
+        ]
+      },
+      {
+        "front": "Target vs actual capital structure: what is the difference, and why do firms tolerate small gaps?",
+        "back": "The target is the debt/equity mix management plans to hold over time, based on its estimate of the optimum. The actual mix drifts as market values change. Small gaps are tolerated because rebalancing carries transaction costs.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1.1"
+        ]
+      },
+      {
+        "front": "Why does a firm with higher expected financial distress costs have a lower optimal debt weight?",
+        "back": "Distress costs offset the tax shield sooner as debt rises, so the value-maximizing point is reached at less debt.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1",
+          "flatworld-finance-for-managers:255:177"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:24:59.396Z",
+      "purpose": "generate",
+      "losId": "corpfin-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9389,
+      "outputTokens": 10945,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1293842,
+      "stopReason": "end_turn"
+    }
+  ]
+}

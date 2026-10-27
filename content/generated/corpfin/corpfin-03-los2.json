@@ -1,0 +1,445 @@
+{
+  "losId": "corpfin-03-los2",
+  "losText": "describe corporate governance and mechanisms to manage stakeholder relationships and mitigate associated risks",
+  "moduleId": "corpfin-03",
+  "moduleTitle": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:08:58.993Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00012:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.2 Relationship between Shareholders and Company Management — Shareholders’ Roles and Composition",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-2-relationship-between-shareholders-and-company-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "os:principles-management:m70732:3",
+      "title": "Principles of Management",
+      "locator": "§2.1 Overview of Managerial Decision-Making — What’s the Right (Ethical) Answer?",
+      "url": "https://openstax.org/books/principles-management/pages/2-1-overview-of-managerial-decision-making",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "occ-corporate-risk-governance:6:7",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "p. 6",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "occ-corporate-risk-governance:7:9",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 7–8",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=7",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — How to Resolve Agency Problems",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-management:m70631:1",
+      "title": "Principles of Management",
+      "locator": "§5.6 Corporate Social Responsibility (CSR) — Stakeholder Management",
+      "url": "https://openstax.org/books/principles-management/pages/5-6-corporate-social-responsibility-csr",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-for-managers:24:14",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 24–25",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=24",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00012:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.2 Relationship between Shareholders and Company Management — Stakeholders",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-2-relationship-between-shareholders-and-company-management",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-finance-2e:m00013:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.3 Role of the Board of Directors — Oversight: Corporate Governance",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-3-role-of-the-board-of-directors",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "occ-corporate-risk-governance:4:4",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "p. 4",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=4",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-corporate-risk-governance:6:8",
+      "title": "Comptroller's Handbook: Corporate and Risk Governance (OCC)",
+      "locator": "pp. 6–7",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/corporate-risk-governance/pub-ch-corporate-risk.pdf#page=6",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Governance Frameworks and Tools for Keeping Stakeholders in Balance",
+      "summary": "Corporate governance is the set of rules, structures and checks that decide who controls a company and how it treats everyone with a stake in it. This lesson covers how companies identify stakeholders, the supporting infrastructure, and the specific mechanisms (shareholder meetings, boards, committees, pay design, transparency, whistleblowing) used to keep conflicts and risks in check.",
+      "sections": [
+        {
+          "heading": "Governance as the company's rulebook and referee",
+          "body_markdown": "Think of a sports league. The players want to win, but the league has a rulebook, referees, and replay review so that nobody gains by cheating. **Corporate governance** plays that role for a company. It is the system of internal controls, procedures and relationships through which a company is directed and held accountable.\n\nIt does three jobs:\n- It spells out who has which **rights, responsibilities and expectations** (shareholders, board, managers, lenders, employees and others).\n- It aims to **reduce conflicts of interest**, for example a manager who would rather enjoy perks than raise profit.\n- It aims to ensure company assets are used in the interests of the owners and other stakeholders, not for private gain.\n\nA **stakeholder** is anyone who is affected by, or can affect, what the company does: employees, customers, suppliers, lenders, shareholders, governments and the local community. Different stakeholders want different things, so governance has to balance them."
+        },
+        {
+          "heading": "Managing stakeholder relationships: identify, prioritize, support",
+          "body_markdown": "Stakeholder management starts with **identifying** who the stakeholders are, then **understanding what each one wants** and how much influence each has. The company can then decide how to deal with competing demands and keep monitoring as things change. Treating stakeholders fairly tends to protect the company's reputation and lowers the chance of surprises such as boycotts, fines or strikes.\n\nThese relationships are only reliable if there is supporting **infrastructure**. A useful way to remember four kinds:\n- **Legal**: laws and courts that give stakeholders enforceable rights (for example, shareholder and employee protection law).\n- **Contractual**: private agreements that set out promises, such as loan covenants for lenders, supply contracts, or employment contracts.\n- **Organizational**: the company's internal setup, such as the board, its committees, codes of conduct, and a hotline for reporting wrongdoing.\n- **Governmental**: regulators and public bodies that set and enforce rules, such as disclosure requirements and supervision of markets.\n\nThe infrastructure types overlap in practice. The exam skill is matching a protection to its main source."
+        },
+        {
+          "heading": "Shareholder-facing mechanisms: meetings, votes and the board",
+          "body_markdown": "Shareholders own the company but do not run it daily. They exercise control mainly through **general meetings** and their votes. An *annual general meeting* is held every year to elect directors, appoint the auditor and vote on other routine items. An *extraordinary general meeting* is called between annual meetings for urgent or special matters, such as approving a merger. Shareholders who cannot attend can usually vote by **proxy**, which means authorizing someone else to cast their vote.\n\nBoard elections can work in two ways:\n- **Statutory voting**: each share gets one vote per open seat, and each seat is decided separately. A majority holder can win every seat.\n- **Cumulative voting**: each share gets as many votes as there are seats, and the holder may put them all on one candidate. This makes it easier for a minority holder to win a seat.\n\nThe **board of directors** is the main internal governance body. It is elected by shareholders to oversee strategy, appoint and monitor top management, approve executive pay, and watch over risk and reporting. A board is more credible when a good share of its members are **independent**, meaning they have no material ties to management or major owners and can challenge them."
+        },
+        {
+          "heading": "Committees, pay design, transparency and whistleblowing",
+          "body_markdown": "Boards split specialized work into **committees**, typically staffed with independent directors:\n- **Audit committee**: oversees financial reporting accuracy, internal controls, risk management, compliance, and the independence and work of the external auditor and internal audit function.\n- **Compensation (remuneration) committee**: designs executive pay.\n- **Nomination/governance committee**: selects director candidates and reviews board effectiveness.\n- **Risk committee**: oversees the company's risk-taking (common in financial firms).\n\n**Pay design** is a direct fix for the principal-agent gap: bonuses, stock grants and long-term plans link a manager's reward to shareholder results. Poor design backfires. Pay focused on short-term results can reward risky decisions that hurt the company later, so vesting periods and clawbacks (recovering pay already given) are common safeguards.\n\n**Transparency** lets outsiders monitor the company: audited financial statements, clear disclosure of governance structure and pay, and sustainability reporting. A **whistleblowing** channel lets employees report misconduct safely, which brings problems to light early.\n\nNo single tool is enough. Governance works through layers: rights for owners, a challenging board, reliable information, and incentives that point managers the right way."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company has 1,000 shares outstanding and 4 board seats up for election. A minority investor owns 300 shares and the rest (700 shares) are held by one majority investor. Compare the outcomes under statutory voting and cumulative voting. Can the minority investor guarantee winning a seat under each?",
+        "steps": [
+          "Statutory voting: each seat is decided separately, one vote per share. For every seat the majority has 700 votes against the minority's 300, so the majority wins all 4 seats. The minority cannot guarantee any seat.",
+          "Cumulative voting, minority votes: 300 shares × 4 seats = 1,200 votes, which the minority can place entirely on one candidate.",
+          "Cumulative voting, majority votes: 700 shares × 4 seats = 2,800 votes in total.",
+          "To beat the minority's candidate (1,200 votes) with all 4 of its own candidates, the majority would need more than 1,200 votes for each, i.e. more than 4 × 1,200 = 4,800 votes. It only has 2,800.",
+          "So at most 2 of the majority's candidates can exceed 1,200 votes, leaving the minority's concentrated candidate in the top 4. The minority wins at least one seat."
+        ],
+        "answer": "Under statutory voting the majority wins all 4 seats; under cumulative voting the minority holder has 1,200 votes and is guaranteed at least one seat.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Votes available under cumulative voting",
+          "latex": "\\text{Total votes} = \\text{Shares owned} \\times \\text{Number of seats up for election}",
+          "where": "Shares owned is the number of shares the investor holds; Number of seats is how many directors are being elected. The investor may split the votes across candidates or place them all on one."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up the four infrastructure types: a loan covenant is contractual, a code of conduct and whistleblowing hotline are organizational, and legal/governmental refer to laws and regulators.",
+        "Assuming governance exists only to maximize shareholder returns; it also aims to manage the interests of other stakeholders such as employees, lenders and communities.",
+        "Treating a director as automatically independent because they are not an employee; independence means no material ties to management or major owners.",
+        "Believing cumulative voting favors the majority holder; it is designed to help minority holders win board representation, while statutory voting lets a majority sweep every seat.",
+        "Assuming stock-based or bonus pay always fixes the agent's incentives; badly designed short-term pay can encourage excess risk-taking."
+      ],
+      "builds_on": [
+        "Principal-agent relationship",
+        "Stakeholder groups and their interests",
+        "Shareholders versus creditors"
+      ],
+      "leads_to": [
+        "Risks of poor governance",
+        "Benefits of effective governance",
+        "ESG considerations in investing"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00012:0",
+        "os:principles-management:m70631:1",
+        "os:principles-finance-2e:m00013:1.1",
+        "os:principles-finance-2e:m00014:1",
+        "os:principles-finance-2e:m00012:1"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes corporate governance?",
+        "options": [
+          {
+            "text": "A set of accounting rules that decides how profit is measured",
+            "value": null,
+            "explanation": "Confuses governance with financial reporting standards. Accounting rules govern measurement; governance concerns control, accountability and conflict management."
+          },
+          {
+            "text": "A system of controls and relationships defining who directs the company and is accountable",
+            "value": null,
+            "explanation": "Correct. Governance sets rights, responsibilities and checks among shareholders, the board, management and other stakeholders, and aims to curb conflicts of interest."
+          },
+          {
+            "text": "A strategy for raising capital at the lowest possible cost",
+            "value": null,
+            "explanation": "Confuses governance with capital structure and financing decisions, which are corporate finance topics rather than governance itself."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-corporate-risk-governance:6:7"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company wants to manage stakeholder relationships systematically. Which is the most logical starting point?",
+        "options": [
+          {
+            "text": "Identify the stakeholders and understand what each group wants",
+            "value": null,
+            "explanation": "Correct. You must know who the stakeholders are and what they need, and how influential they are, before you can prioritize or manage relationships."
+          },
+          {
+            "text": "Distribute all surplus profit to shareholders as dividends",
+            "value": null,
+            "explanation": "Assumes shareholders are the only stakeholders and skips the identification step."
+          },
+          {
+            "text": "Move all stakeholder issues to the external auditor",
+            "value": null,
+            "explanation": "Confuses the auditor's role (opinion on financial statements) with the board's and management's responsibility to handle stakeholder relations."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-management:m70631:1",
+          "os:principles-finance-2e:m00012:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A bond indenture requires a company to keep its debt-to-equity ratio below a stated level. Which type of stakeholder-protection infrastructure does this primarily represent?",
+        "options": [
+          {
+            "text": "Legal infrastructure, because it is enforceable in court",
+            "value": null,
+            "explanation": "Confuses the enforcement route with the source. Courts enforce contracts, but this protection comes from a private agreement, not from legislation."
+          },
+          {
+            "text": "Organizational infrastructure, because the company must monitor it",
+            "value": null,
+            "explanation": "Confuses internal monitoring with source. Organizational infrastructure means internal structures such as committees, codes and hotlines."
+          },
+          {
+            "text": "Contractual infrastructure, because it is a negotiated promise to lenders",
+            "value": null,
+            "explanation": "Correct. A covenant is a term in a private agreement between the company and its creditors, so it is contractual."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company elects 5 directors under cumulative voting. An investor owns 200 shares. Which statement about the investor's voting power is correct?",
+        "options": [
+          {
+            "text": "The investor has 1,000 votes and can split them or place them all on one candidate",
+            "value": null,
+            "explanation": "Correct. Under cumulative voting, votes = shares × seats = 200 × 5 = 1,000, usable in any combination."
+          },
+          {
+            "text": "The investor has 200 votes in total and can use them only once",
+            "value": null,
+            "explanation": "Ignores the multiplication by the number of seats, treating the vote as a single one-share-one-vote count."
+          },
+          {
+            "text": "The investor has 40 votes per seat and cannot concentrate them",
+            "value": null,
+            "explanation": "Divides shares by seats, the reverse of the cumulative voting rule, and wrongly bars concentrating votes."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why do governance frameworks generally want an audit committee made up of independent directors?",
+        "options": [
+          {
+            "text": "They guarantee that reported earnings will rise each year",
+            "value": null,
+            "explanation": "Confuses oversight with performance. Independence improves reliability of reporting, not the level of earnings."
+          },
+          {
+            "text": "They allow management to approve the external auditor's fees without board review",
+            "value": null,
+            "explanation": "Reverses the purpose: the committee is meant to check management's influence on the auditor, not hand it over."
+          },
+          {
+            "text": "They can challenge management on reporting and controls without a personal stake",
+            "value": null,
+            "explanation": "Correct. Independent members lack ties to management, so they can credibly review reporting accuracy, internal controls and the auditor's independence."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00013:1.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Shareholders worry that executives are paid mostly through annual cash bonuses tied to this year's profit, encouraging risky short-term decisions. Which governance response best addresses this?",
+        "options": [
+          {
+            "text": "Have the CEO set all executive pay without committee input",
+            "value": null,
+            "explanation": "Removes independent oversight and worsens the conflict because the agent then sets their own reward."
+          },
+          {
+            "text": "Raise annual cash bonuses so executives feel secure",
+            "value": null,
+            "explanation": "More short-term cash pay strengthens the same short-term incentive instead of fixing it."
+          },
+          {
+            "text": "Have a compensation committee add multi-year stock awards with vesting and clawbacks",
+            "value": null,
+            "explanation": "Correct. Long-term, equity-linked pay with vesting aligns managers with lasting shareholder value, and clawbacks discourage short-term risk-taking."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An employee suspects a manager is hiding expenses. The company runs an anonymous reporting line with protection from retaliation. Which type of infrastructure does this mainly illustrate?",
+        "options": [
+          {
+            "text": "Organizational infrastructure, an internal mechanism for surfacing misconduct",
+            "value": null,
+            "explanation": "Correct. Whistleblowing channels, codes of conduct and board committees are internal structures, so they are organizational."
+          },
+          {
+            "text": "Contractual infrastructure, because employment contracts mention it",
+            "value": null,
+            "explanation": "Mistakes a possible reference in a contract for the source. The channel is an internal company system, not a negotiated term with an outside party."
+          },
+          {
+            "text": "Governmental infrastructure, because regulators run the line",
+            "value": null,
+            "explanation": "Assumes the regulator operates the hotline. This one is set up and run by the company itself."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company needs shareholder approval of a merger that cannot wait for next year's annual meeting. Which meeting is typically used?",
+        "options": [
+          {
+            "text": "An annual general meeting held on the usual date",
+            "value": null,
+            "explanation": "The annual meeting is scheduled once a year for routine business, so waiting for it ignores the urgency."
+          },
+          {
+            "text": "A meeting of the audit committee only",
+            "value": null,
+            "explanation": "Confuses a board committee with the shareholder meeting. Committees cannot give shareholder approval."
+          },
+          {
+            "text": "An extraordinary general meeting called for the special matter",
+            "value": null,
+            "explanation": "Correct. An extraordinary (special) general meeting is called between annual meetings to vote on urgent or significant items such as a merger."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is corporate governance, and what is it trying to achieve?",
+        "back": "The system of controls, procedures and relationships by which a company is directed and held accountable. It sets stakeholders' rights and responsibilities and aims to reduce conflicts of interest so assets serve owners and other stakeholders.",
+        "cited_chunk_ids": [
+          "occ-corporate-risk-governance:6:7"
+        ]
+      },
+      {
+        "front": "Name the four kinds of infrastructure that support stakeholder relationships.",
+        "back": "Legal (laws and courts), contractual (agreements such as covenants), organizational (board, committees, codes, hotlines) and governmental (regulators and public rules).",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Statutory versus cumulative voting for directors?",
+        "back": "Statutory: one vote per share per seat, each seat decided separately, so a majority can win all seats. Cumulative: votes = shares × seats, concentrated on one candidate, which helps minority holders win a seat.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "What does an audit committee do?",
+        "back": "A board subcommittee, ideally independent, that oversees financial reporting accuracy, internal controls and risk management, legal compliance, and the independence and work of the external auditor and internal audit.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00013:1.1"
+        ]
+      },
+      {
+        "front": "How can pay design reduce the principal-agent conflict?",
+        "back": "By tying managers' rewards to long-term shareholder value, for example through stock grants with vesting and penalties for poor or unethical behavior, so managers' interests move closer to owners'.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:08:58.993Z",
+      "purpose": "generate",
+      "losId": "corpfin-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9092,
+      "outputTokens": 9068,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1100202,
+      "stopReason": "end_turn"
+    }
+  ]
+}

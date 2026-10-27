@@ -1,0 +1,881 @@
+{
+  "losId": "corpfin-06-los2",
+  "losText": "explain factors affecting capital structure and the weighted-average cost of capital",
+  "moduleId": "corpfin-06",
+  "moduleTitle": "Capital Structure",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:33:59.981Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00109:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — Leverage and the WACC",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "flatworld-finance-for-managers:206:147",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 206–207",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=206",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00108:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.3 Calculating the Weighted Average Cost of Capital — WACC Equation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-3-calculating-the-weighted-average-cost-of-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-for-managers:196:141",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 196–198",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=196",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00108:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.3 Calculating the Weighted Average Cost of Capital — Calculating the Weighted Average Cost of Capital",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-3-calculating-the-weighted-average-cost-of-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:207:148",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 207–210",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=207",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Impact of Taxes",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-finance-for-managers:258:179",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 258–260",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=258",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:255:177",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 255–256",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=255",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Issuing New Common Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "What Pushes a Firm's Debt-Equity Mix, and How That Mix Moves WACC",
+      "summary": "A firm's mix of debt and equity is shaped by how risky its business is, the tax rules it faces, how costly distress would be, and how much room it wants to keep for the future. That mix and the market conditions around it determine the firm's weighted-average cost of capital, which the firm uses as its hurdle rate for new investments.",
+      "sections": [
+        {
+          "heading": "Start with the intuition: borrowing is like a mortgage",
+          "body_markdown": "**Capital structure** is the mix of debt and equity a company uses to pay for its assets. Think of buying a house. A bigger mortgage means a smaller deposit from your own savings, but the monthly payment is fixed and you can lose the house if you miss it. A company faces the same trade-off.\n\n**WACC** (weighted-average cost of capital) is the average return the company must pay its financing providers. Each source is weighted by its share of total (market-value) financing. It is the minimum return a typical new project needs to earn.\n\nEvery factor in this lesson works through one of three channels:\n- how much debt the firm *can* carry safely,\n- how much debt is *worth* carrying (tax benefit vs. cost of distress),\n- how the cost of each source changes when the mix changes."
+        },
+        {
+          "heading": "Firm-specific factors that shape the mix",
+          "body_markdown": "- **Business risk.** This is the uncertainty in operating profit from volatile sales and from high fixed operating costs (*operating leverage*). Steady-revenue firms such as utilities can carry more debt. Firms with swinging revenue must keep debt lower, because fixed interest on top of shaky profits invites default.\n- **Asset type and collateral.** Lenders favour firms with tangible assets they can seize (plants, pipelines, property). Firms whose value is mostly intangible (software, brands) usually borrow less.\n- **Costs of financial distress.** These are the extra losses when a firm looks likely to fail, such as lost customers, nervous suppliers and forced asset sales. The higher they would be, the sooner extra debt stops being worthwhile.\n- **Taxes.** Interest is tax-deductible in most countries, so debt creates an *interest tax shield*. A higher tax rate makes debt more attractive.\n- **Agency costs.** These are costs of conflicts of interest. Debt can discipline managers, because required payments leave less free cash for wasteful projects. But heavy debt can also tempt shareholders to take extra risk at creditors' expense, and lenders respond with covenants and higher yields.\n- **Financial flexibility.** A firm often keeps spare borrowing capacity so it can fund opportunities or survive a bad year without raising capital at bad prices.\n- **Industry norms, growth stage and market conditions.** Peers' debt ratios act as a reference point. Young, fast-growing firms with uncertain cash flows tend to use more equity. When credit is cheap and plentiful, firms tend to borrow more."
+        },
+        {
+          "heading": "How leverage shows up in WACC",
+          "body_markdown": "Debt looks cheaper than equity for two reasons. Lenders are paid before shareholders and so take less risk, and interest is tax-deductible. That is why the WACC formula uses the **after-tax cost of debt**, $r_d(1-T)$.\n\nA small example: with a 28% tax rate, $280 of interest cuts the tax bill by $280 × 0.28 = $78.40. That is the interest tax shield.\n\nBut adding debt also makes shareholders' returns riskier, so they demand a higher cost of equity. Beyond a point, lenders also demand higher yields. In a world with taxes, the net effect is typically that WACC falls at first as cheap, tax-advantaged debt is added. It then bottoms out and rises as distress risk and higher costs of both debt and equity take over. A firm with higher expected distress costs reaches that turning point sooner, so it should use less debt."
+        },
+        {
+          "heading": "Other inputs that move WACC",
+          "body_markdown": "- **Tax rate.** A higher rate lowers the after-tax cost of debt and so lowers WACC (cost of equity held constant).\n- **Market conditions.** Higher risk-free rates or a larger equity risk premium raise the cost of equity (e.g. through CAPM). Wider credit spreads raise the cost of debt.\n- **Equity risk (beta).** Using more debt raises the beta of the stock, which raises the required return on equity.\n- **Flotation costs.** Issuing new securities costs money. Newly issued equity therefore has a higher cost than equity funded from retained earnings, so WACC steps up once retained earnings are used up and new shares must be sold.\n- **Weights.** Use *market* values of debt and equity, and a long-run target mix, not day-to-day fluctuations. Small gaps between actual and target mix are usually tolerated because rebalancing has transaction costs."
+        }
+      ],
+      "worked_example": {
+        "problem": "A firm's target capital structure is 40% debt and 60% common equity, measured at market values, with no preferred stock. Its pre-tax cost of debt is 6%, its cost of equity is 11%, and its tax rate is 30%. Calculate its WACC.",
+        "steps": [
+          "Write the formula: WACC = w_d × r_d × (1 − T) + w_e × r_e.",
+          "After-tax cost of debt: 0.06 × (1 − 0.30) = 0.042, or 4.20%. On the BA II Plus: 1 − .3 = × .06 = shows 0.042.",
+          "Debt contribution: 0.40 × 0.042 = 0.0168. Calculator: × .4 = shows 0.0168. Store it with STO 1.",
+          "Equity contribution: 0.60 × 0.11 = 0.066. Calculator: .6 × .11 = shows 0.066.",
+          "Add the pieces: + RCL 1 = shows 0.0828, which is 8.28%."
+        ],
+        "answer": "WACC = 8.28%",
+        "answer_value": 0.0828,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.4,\"rd\":0.06,\"tax\":0.3,\"we\":0.6,\"re\":0.11}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Weighted-average cost of capital",
+          "latex": "WACC = w_d\\,r_d(1-T) + w_p\\,r_p + w_e\\,r_e",
+          "where": "w_d, w_p, w_e are the market-value weights of debt, preferred stock and common equity (they sum to 1); r_d is the pre-tax cost of debt; r_p the cost of preferred; r_e the cost of common equity; T the marginal tax rate."
+        },
+        {
+          "name": "After-tax cost of debt",
+          "latex": "r_d(1-T)",
+          "where": "r_d is the pre-tax borrowing rate and T is the corporate tax rate. Interest is tax-deductible, so the effective cost is lower."
+        },
+        {
+          "name": "Interest tax shield",
+          "latex": "\\text{Tax shield} = T \\times \\text{Interest}",
+          "where": "T is the corporate tax rate and Interest is the interest expense for the period; the result is the tax saved."
+        },
+        {
+          "name": "CAPM cost of equity",
+          "latex": "r_e = r_f + \\beta\\,(R_m - r_f)",
+          "where": "r_f is the risk-free rate; \\beta measures the stock's systematic risk; R_m is the expected market return, so R_m − r_f is the market risk premium."
+        }
+      ],
+      "exam_traps": [
+        "Using the pre-tax cost of debt in the WACC formula. Always multiply by (1 − T) for the debt term.",
+        "Concluding that more debt always lowers WACC because debt is cheaper. Leverage raises the cost of equity and, past a point, the cost of debt and distress costs.",
+        "Mixing up business risk (volatility of operating profit, driven by sales variability and operating leverage) with financial risk (extra risk from using debt).",
+        "Weighting by book values or by one day's market values rather than the long-run target mix at market values.",
+        "Treating a higher tax rate as raising WACC. All else equal it lowers the after-tax cost of debt and so lowers WACC, while also making debt more attractive."
+      ],
+      "builds_on": [
+        "Cost of debt, preferred stock and equity",
+        "Capital structure and leverage basics",
+        "CAPM and beta"
+      ],
+      "leads_to": [
+        "Modigliani-Miller propositions",
+        "Optimal and target capital structure",
+        "Capital budgeting hurdle rates"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-finance-for-managers:255:177",
+        "os:principles-finance-2e:m00110:1",
+        "os:principles-finance-2e:m00109:4",
+        "os:principles-finance-2e:m00109:3",
+        "os:principles-finance-2e:m00111:2.3",
+        "os:principles-finance-2e:m00108:1",
+        "os:principles-finance-2e:m00110:1.1"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Holding everything else equal, which company is most likely to be able to support the highest proportion of debt in its capital structure?",
+        "options": [
+          {
+            "text": "A young software firm with volatile sales and mostly intangible assets",
+            "value": null,
+            "explanation": "Volatile revenue and few pledgeable assets limit debt capacity. This is the opposite of what lenders prefer."
+          },
+          {
+            "text": "A regulated water utility with steady revenue and large pledgeable fixed assets",
+            "value": null,
+            "explanation": "Correct. Stable cash flows (low business risk) and good collateral lower the chance of default, so the firm can carry more debt."
+          },
+          {
+            "text": "A fashion retailer whose sales swing with consumer trends and has few pledgeable assets",
+            "value": null,
+            "explanation": "Highly variable revenue and little collateral mean higher default risk, so debt capacity is lower."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:255:177"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company's target capital structure, at market values, is 30% debt and 70% common equity, with no preferred stock. Its pre-tax cost of debt is 6%, its cost of equity is 12%, and its tax rate is 25%. What is its WACC, rounded to two decimal places in percent?",
+        "options": [
+          {
+            "text": "9.75%",
+            "value": 0.0975,
+            "explanation": "Correct. 0.30 × 6% × (1 − 0.25) + 0.70 × 12% = 1.35% + 8.40% = 9.75%."
+          },
+          {
+            "text": "10.20%",
+            "value": 0.102,
+            "explanation": "Uses the pre-tax cost of debt: 0.30 × 6% + 0.70 × 12% = 10.20%. This ignores the tax deductibility of interest."
+          },
+          {
+            "text": "6.75%",
+            "value": 0.0675,
+            "explanation": "Swaps the weights (70% on after-tax debt, 30% on equity): 0.70 × 4.5% + 0.30 × 12% = 6.75%."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.3,\"rd\":0.06,\"tax\":0.25,\"we\":0.7,\"re\":0.12}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00108:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two firms are identical except that Firm X has highly specialised assets and customers who rely on its long-term warranties, while Firm Y has generic, easily resold assets and customers with no long-term reliance. Which statement is most consistent with the trade-off between the interest tax shield and financial distress costs?",
+        "options": [
+          {
+            "text": "Firm X should borrow more, because larger losses in default make lenders accept lower interest rates.",
+            "value": null,
+            "explanation": "This reverses the logic. Larger distress losses make creditors and customers more worried, not less, and do not justify more debt."
+          },
+          {
+            "text": "Both firms should use the same debt level, because the tax shield per dollar of interest is identical.",
+            "value": null,
+            "explanation": "Looks only at the benefit side. The trade-off also weighs the cost of distress, which differs between the two firms."
+          },
+          {
+            "text": "Firm X should borrow less, because its higher expected distress costs offset the tax benefit of debt sooner.",
+            "value": null,
+            "explanation": "Correct. Higher distress costs mean the tax savings from extra debt are outweighed at a lower debt level, so the optimal leverage is lower."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:1",
+          "flatworld-finance-for-managers:255:177"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A company is financed 40% by debt and 60% by common equity (market values; no preferred stock). Its pre-tax cost of debt is 7% and its cost of equity is 11%, and both stay the same. The corporate tax rate rises from 25% to 35%. What is the new WACC, rounded to two decimal places in percent?",
+        "options": [
+          {
+            "text": "8.70%",
+            "value": 0.087,
+            "explanation": "Uses the old 25% tax rate: 0.40 × 7% × 0.75 + 0.60 × 11% = 8.70%. This does not reflect the tax increase."
+          },
+          {
+            "text": "8.42%",
+            "value": 0.0842,
+            "explanation": "Correct. 0.40 × 7% × (1 − 0.35) + 0.60 × 11% = 1.82% + 6.60% = 8.42%. A higher tax rate lowers WACC."
+          },
+          {
+            "text": "7.58%",
+            "value": 0.0758,
+            "explanation": "Multiplies the debt cost by T instead of (1 − T): 0.40 × 7% × 0.35 + 6.60% = 7.58%."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.4,\"rd\":0.07,\"tax\":0.35,\"we\":0.6,\"re\":0.11}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00108:1",
+          "os:principles-finance-2e:m00109:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A company keeps a constant target mix of 30% debt and 70% equity. It has so far financed its equity portion with retained earnings, but a large expansion now requires it to sell new shares with flotation costs. All else equal, what happens to its WACC?",
+        "options": [
+          {
+            "text": "It rises, because newly issued equity costs more than retained earnings once flotation costs are included.",
+            "value": null,
+            "explanation": "Correct. Flotation costs raise the effective cost of new equity. With target weights unchanged, the higher equity cost lifts WACC."
+          },
+          {
+            "text": "It falls, because selling shares increases the weight of equity, which reduces default risk.",
+            "value": null,
+            "explanation": "The target weights are constant, so the mix does not change. Issuing shares does not by itself lower the cost of equity."
+          },
+          {
+            "text": "It stays the same, because the target weights of debt and equity have not changed.",
+            "value": null,
+            "explanation": "Unchanged weights do not mean unchanged component costs. The cost of the equity component has risen, so WACC rises."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:2.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "After a debt-funded recapitalisation, a firm's equity beta rises from 1.0 to 1.4. The risk-free rate is 3% and the expected market return is 8%. Using CAPM, what is the firm's new cost of equity, rounded to two decimal places in percent?",
+        "options": [
+          {
+            "text": "11.20%",
+            "value": 0.112,
+            "explanation": "Multiplies beta by the market return (1.4 × 8%) and skips the risk-free rate and the use of the premium."
+          },
+          {
+            "text": "7.00%",
+            "value": 0.07,
+            "explanation": "Computes beta × market risk premium (1.4 × 5%) but forgets to add the risk-free rate."
+          },
+          {
+            "text": "10.00%",
+            "value": 0.1,
+            "explanation": "Correct. 3% + 1.4 × (8% − 3%) = 3% + 7% = 10%. More leverage raises beta and so the required return on equity."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "capm",
+          "args_json": "{\"rf\":0.03,\"beta\":1.4,\"marketReturn\":0.08}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:255:177",
+          "os:principles-finance-2e:m00109:3"
+        ]
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which of the following best describes a way in which a higher level of debt can reduce agency costs between a firm's managers and its shareholders?",
+        "options": [
+          {
+            "text": "Debt lets shareholders switch to riskier projects, which brings managers' interests in line with those of lenders.",
+            "value": null,
+            "explanation": "Describes a different conflict (shareholders versus creditors), and risk shifting increases agency costs rather than reducing them."
+          },
+          {
+            "text": "Required interest and principal payments absorb cash flow that managers might otherwise spend on wasteful projects.",
+            "value": null,
+            "explanation": "Correct. Fixed obligations reduce the free cash flow managers can use at their discretion, which disciplines spending."
+          },
+          {
+            "text": "Interest is tax-deductible, so a lower tax bill leaves managers with less cash to misuse.",
+            "value": null,
+            "explanation": "Confuses the interest tax shield with managerial discipline. The tax shield actually leaves more total cash, and it is not an agency effect."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A manager argues: \"Debt is cheaper than equity, so we should keep replacing equity with debt to push WACC lower and lower.\" Which reply is most accurate?",
+        "options": [
+          {
+            "text": "Debt's after-tax cost rises above the cost of equity once the tax rate exceeds 50%, which ends the benefit.",
+            "value": null,
+            "explanation": "Invented rule. Debt remains cheaper than equity at any tax rate because the tax rate only lowers its after-tax cost further."
+          },
+          {
+            "text": "Interest stops being tax-deductible as soon as any equity is retired, so the tax benefit disappears.",
+            "value": null,
+            "explanation": "Wrong. Interest stays deductible as long as the firm has taxable income. The benefit ends only when interest absorbs all of it."
+          },
+          {
+            "text": "More leverage makes lenders and shareholders demand higher returns, and distress costs grow, eventually outweighing the tax benefit.",
+            "value": null,
+            "explanation": "Correct. Higher risk raises both the cost of debt and the cost of equity, and distress risk increases, so WACC stops falling and starts to rise."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:255:177",
+          "os:principles-finance-2e:m00110:1",
+          "flatworld-finance-for-managers:258:179"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "Why does the WACC formula use r_d(1 − T) for debt rather than r_d?",
+        "back": "Interest is tax-deductible, so each dollar of interest saves T in taxes. The effective cost of debt to the firm is lower than the stated rate.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:4",
+          "os:principles-finance-2e:m00108:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Name four firm characteristics that raise a company's debt capacity.",
+        "back": "Stable, predictable revenue (low business risk); tangible assets usable as collateral; low expected costs of financial distress; and ample taxable income to use the interest tax shield.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:255:177",
+          "os:principles-finance-2e:m00110:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What happens to WACC when a firm runs out of retained earnings and must issue new equity?",
+        "back": "WACC rises, because new equity carries flotation costs and so costs more than retained earnings, even if target weights stay the same.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:2.3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Contrast business risk and financial risk.",
+        "back": "Business risk is the uncertainty of operating profit, driven by sales volatility and fixed operating costs. Financial risk is the extra uncertainty for shareholders created by using debt financing.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why does WACC not keep falling as a firm adds more debt?",
+        "back": "More debt raises the cost of both debt and equity and increases the chance of financial distress, so these costs eventually outweigh the interest tax shield.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:255:177",
+          "os:principles-finance-2e:m00110:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T17:33:50.316Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1285,
+      "outputTokens": 587,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008557,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:33:59.980Z",
+      "purpose": "grounding",
+      "losId": "corpfin-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13811,
+      "outputTokens": 1483,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0426212,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0511782
+}

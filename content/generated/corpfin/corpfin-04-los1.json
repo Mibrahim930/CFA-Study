@@ -1,0 +1,463 @@
+{
+  "losId": "corpfin-04-los1",
+  "losText": "explain the cash conversion cycle and compare issuers' cash conversion cycles",
+  "moduleId": "corpfin-04",
+  "moduleTitle": "Working Capital and Liquidity",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:10:57.677Z",
+  "retrieved": [
+    {
+      "id": "flatworld-finance-for-managers:280:191",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 280–283",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=280",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.4",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-finance-for-managers:283:192",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 283–284",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=283",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:278:189",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 278–279",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=278",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00120:2.6",
+      "title": "Principles of Finance 2e",
+      "locator": "§19.1 What Is Working Capital? — Components of Working Capital Management",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/19-1-what-is-working-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-for-managers:276:188",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 276–278",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=276",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00045:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§6.6 Profitability Ratios and the DuPont Method — Return on Total Assets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/6-6-profitability-ratios-and-the-dupont-method",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00064:4",
+      "title": "Principles of Finance 2e",
+      "locator": "§10.4 Risks of Interest Rates and Default — Interest Rate Movements and Bond Prices",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/10-4-risks-of-interest-rates-and-default",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-for-managers:279:190",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 279–280",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=279",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-finance-2e:m00073:1.4",
+      "title": "Principles of Finance 2e",
+      "locator": "§12.1 Overview of US Financial Markets — Bond Markets",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/12-1-overview-of-us-financial-markets",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Cash Conversion Cycle: How Long Operating Cash Stays Tied Up",
+      "summary": "The cash conversion cycle counts the days between paying cash for inventory and collecting cash from customers, net of the credit suppliers give. It lets you compare how efficiently different companies run their day-to-day operations and how much funding those operations need.",
+      "sections": [
+        {
+          "heading": "The intuition: a pipe that cash flows through",
+          "body_markdown": "Picture a bakery that buys flour, bakes bread, sells it on account to cafés, and later gets paid. Cash leaves the business when the flour is paid for and returns only when the cafés pay. The longer that gap, the more money the owner has to find from somewhere else (savings, a bank loan) to keep the shop running.\n\nThe **cash conversion cycle (CCC)** measures that gap in days. A shorter gap means cash is trapped for less time. The idea is the same for a giant manufacturer or a small retailer."
+        },
+        {
+          "heading": "Three building blocks, each measured in days",
+          "body_markdown": "Each block comes from a balance-sheet item divided by a *daily* flow from the income statement. Use average balances (beginning plus ending, divided by 2) when you have both. Use 365 days per year.\n\n- **Days of inventory on hand (DOH)**: how long goods sit before being sold. Average inventory divided by cost of goods sold (COGS) per day.\n- **Days sales outstanding (DSO)**: how long customers take to pay after a credit sale. Average receivables divided by revenue per day.\n- **Days payables outstanding (DPO)**: how long the company takes to pay its suppliers. Average payables divided by purchases per day. Purchases are rarely disclosed, so COGS per day is the usual stand-in.\n\nSome books call these the inventory conversion period, receivables collection period and payables deferral period. The ideas are identical."
+        },
+        {
+          "heading": "Putting the blocks together",
+          "body_markdown": "DOH plus DSO is the **operating cycle**. It runs from receiving goods until cash arrives from the sale. But suppliers usually let the company pay later, so cash is not out the door for the whole operating cycle. Subtract the payables period:\n\n$$\\text{CCC} = \\text{DOH} + \\text{DSO} - \\text{DPO}$$\n\nA **negative CCC** is possible and usually favourable. It means customers pay before the company has to pay its suppliers, so suppliers are effectively financing operations. Some large retailers and online sellers work this way."
+        },
+        {
+          "heading": "Comparing issuers and reading the result",
+          "body_markdown": "Shorter is generally better, all else equal, because less cash is tied up in working capital. Useful comparison habits:\n\n- **Compare within an industry.** A grocer and a shipbuilder have very different natural cycles.\n- **Look at the trend over several periods** for the same issuer. A lengthening CCC can signal slow-selling inventory, slipping collections, or loss of supplier credit.\n- **Look at each component.** Two issuers with the same CCC can get there in very different ways.\n- **Watch for trade-offs.** Looser credit terms can lift sales but lengthen DSO. Paying suppliers very late can shorten the CCC but damage supplier relationships.\n- **Check consistency.** Use the same averaging method (average or ending balances) and the same day-count for every issuer, and be careful with seasonal businesses."
+        }
+      ],
+      "worked_example": {
+        "problem": "A manufacturer reports revenue of 500 million and COGS of 350 million. Average inventory is 48 million, average receivables are 55 million, and average payables are 31 million. Purchases are not disclosed, so use COGS for payables. Use 365 days and round each component to two decimals. Find the cash conversion cycle.",
+        "steps": [
+          "Days of inventory: 48 ÷ 350 × 365. On the BA II Plus press 48 ÷ 350 × 365 = and read 50.06 days.",
+          "Days sales outstanding: 55 ÷ 500 × 365 = 40.15 days (use revenue, not COGS).",
+          "Days payables: 31 ÷ 350 × 365 = 32.33 days (COGS stands in for purchases).",
+          "Operating cycle = 50.06 + 40.15 = 90.21 days.",
+          "CCC = 90.21 − 32.33 = 57.88 days. Cash is tied up for about 58 days between paying suppliers and collecting from customers."
+        ],
+        "answer": "The cash conversion cycle is 57.88 days.",
+        "answer_value": 57.88,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":50.06,\"dso\":40.15,\"dpo\":32.33}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Days of inventory on hand",
+          "latex": "\\text{DOH} = \\frac{\\text{Average inventory}}{\\text{COGS}/365}",
+          "where": "Average inventory is the mean of beginning and ending inventory; COGS is annual cost of goods sold; 365 is days in the year."
+        },
+        {
+          "name": "Days sales outstanding",
+          "latex": "\\text{DSO} = \\frac{\\text{Average receivables}}{\\text{Revenue}/365}",
+          "where": "Average receivables is the mean of beginning and ending receivables; Revenue is annual (credit) sales."
+        },
+        {
+          "name": "Days payables outstanding",
+          "latex": "\\text{DPO} = \\frac{\\text{Average payables}}{\\text{Purchases}/365}",
+          "where": "Average payables is the mean of beginning and ending payables; Purchases is annual purchases from suppliers, often approximated by COGS."
+        },
+        {
+          "name": "Operating cycle",
+          "latex": "\\text{Operating cycle} = \\text{DOH} + \\text{DSO}",
+          "where": "DOH and DSO are as defined above, in days."
+        },
+        {
+          "name": "Cash conversion cycle",
+          "latex": "\\text{CCC} = \\text{DOH} + \\text{DSO} - \\text{DPO}",
+          "where": "DOH is days of inventory on hand, DSO is days sales outstanding, DPO is days payables outstanding; all in days."
+        }
+      ],
+      "exam_traps": [
+        "Adding DPO instead of subtracting it. Payables are a source of financing, so they shorten the cycle.",
+        "Dividing receivables by COGS per day. DSO uses revenue per day; DOH uses COGS per day.",
+        "Treating the operating cycle (DOH + DSO) as the CCC and forgetting the payables deduction.",
+        "Assuming a negative CCC is an error or a sign of distress. It can mean the company is financed by its suppliers and is often favourable.",
+        "Comparing CCCs across very different industries, or mixing average balances for one issuer with ending balances for another."
+      ],
+      "builds_on": [
+        "Balance sheet working capital items",
+        "Income statement: revenue and COGS",
+        "Turnover ratios and averages"
+      ],
+      "leads_to": [
+        "Liquidity measures and sources of liquidity",
+        "Working capital management methods",
+        "Short-term financing needs"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-finance-for-managers:278:189",
+        "flatworld-finance-for-managers:279:190",
+        "flatworld-finance-for-managers:283:192",
+        "os:principles-finance-2e:m00120:2.3",
+        "os:principles-finance-2e:m00120:2.4",
+        "os:principles-finance-2e:m00120:2.6"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A company has 40 days of inventory on hand, 45 days sales outstanding, and 30 days payables outstanding. What is its cash conversion cycle?",
+        "options": [
+          {
+            "text": "25 days",
+            "value": 25,
+            "explanation": "Subtracts DSO and adds DPO (40 − 45 + 30). Only payables are subtracted."
+          },
+          {
+            "text": "55 days",
+            "value": 55,
+            "explanation": "Correct: 40 + 45 − 30 = 55 days."
+          },
+          {
+            "text": "115 days",
+            "value": 115,
+            "explanation": "Adds all three components (40 + 45 + 30). Payables must be subtracted because supplier credit delays the cash outflow."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":40,\"dso\":45,\"dpo\":30}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An issuer reports 62 days of inventory on hand, 38 days sales outstanding, and 75 days payables outstanding. What is its cash conversion cycle?",
+        "options": [
+          {
+            "text": "100 days",
+            "value": 100,
+            "explanation": "This is the operating cycle (62 + 38). It leaves out the deduction for payables."
+          },
+          {
+            "text": "175 days",
+            "value": 175,
+            "explanation": "Adds all three components, treating payables as an extra delay instead of a financing source."
+          },
+          {
+            "text": "25 days",
+            "value": 25,
+            "explanation": "Correct: 62 + 38 − 75 = 25 days."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":62,\"dso\":38,\"dpo\":75}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:279:190",
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A grocery-delivery issuer has 20 days of inventory on hand, 8 days sales outstanding, and 48 days payables outstanding. What is its cash conversion cycle?",
+        "options": [
+          {
+            "text": "-20 days",
+            "value": -20,
+            "explanation": "Correct: 20 + 8 − 48 = −20. It collects from customers 20 days before it pays suppliers."
+          },
+          {
+            "text": "28 days",
+            "value": 28,
+            "explanation": "This is the operating cycle (20 + 8). It ignores payables."
+          },
+          {
+            "text": "76 days",
+            "value": 76,
+            "explanation": "Adds all three components, so payables increase the cycle instead of reducing it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "cashConversionCycle",
+          "args_json": "{\"dio\":20,\"dso\":8,\"dpo\":48}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:283:192",
+          "os:principles-finance-2e:m00120:2.6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "All else equal, which change would lengthen an issuer's cash conversion cycle?",
+        "options": [
+          {
+            "text": "Collecting receivables from customers more quickly",
+            "value": null,
+            "explanation": "This lowers DSO, which shortens the cycle."
+          },
+          {
+            "text": "Selling inventory faster, so goods sit for fewer days",
+            "value": null,
+            "explanation": "This lowers DOH, which shortens the cycle."
+          },
+          {
+            "text": "Paying suppliers sooner than it did before",
+            "value": null,
+            "explanation": "Correct: paying sooner lowers DPO. Since DPO is subtracted, a lower DPO increases the CCC."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.6",
+          "flatworld-finance-for-managers:283:192"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An issuer reports a cash conversion cycle of −15 days. Which interpretation is most appropriate?",
+        "options": [
+          {
+            "text": "It collects cash from customers before it has to pay suppliers",
+            "value": null,
+            "explanation": "Correct: DPO exceeds DOH + DSO by 15 days, so supplier credit funds the whole operating cycle."
+          },
+          {
+            "text": "The calculation must be wrong because the cycle cannot be below zero",
+            "value": null,
+            "explanation": "Mistake: assuming days measures cannot net below zero. A large DPO can make the CCC negative."
+          },
+          {
+            "text": "Its operating cycle is negative because it sells goods before buying them",
+            "value": null,
+            "explanation": "Mistake: confusing CCC with the operating cycle. The operating cycle (DOH + DSO) cannot be negative; the payables deduction makes the CCC negative."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:283:192",
+          "os:principles-finance-2e:m00120:2.6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Two issuers in the same industry have similar sales. Issuer X has a cash conversion cycle of 45 days and Issuer Y has 30 days. Which conclusion is best supported by this information alone?",
+        "options": [
+          {
+            "text": "Issuer Y is more profitable than Issuer X",
+            "value": null,
+            "explanation": "Mistake: the CCC measures how long cash is tied up in operations, not profit."
+          },
+          {
+            "text": "Issuer Y has a stronger current ratio than Issuer X",
+            "value": null,
+            "explanation": "Mistake: the CCC does not give balance-sheet liquidity ratios. A shorter cycle does not guarantee a higher current ratio."
+          },
+          {
+            "text": "Issuer Y ties up cash in operations for fewer days, so it likely needs less working capital funding",
+            "value": null,
+            "explanation": "Correct: a shorter CCC means cash returns sooner, so for similar sales the issuer generally needs less funding. The comparison is more meaningful within the same industry."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:278:189",
+          "os:principles-finance-2e:m00120:2.6"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst wants days payables outstanding but the issuer does not disclose purchases. Which daily figure is the usual substitute in the denominator, with average payables in the numerator?",
+        "options": [
+          {
+            "text": "Average daily revenue",
+            "value": null,
+            "explanation": "Mistake: revenue is the base for receivables (DSO), not payables."
+          },
+          {
+            "text": "Average daily operating expenses",
+            "value": null,
+            "explanation": "Mistake: payables arise mainly from buying goods for resale or production, not from all operating expenses."
+          },
+          {
+            "text": "Average daily cost of goods sold",
+            "value": null,
+            "explanation": "Correct: COGS is the common proxy for purchases when purchases are not reported."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:279:190"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does the cash conversion cycle measure?",
+        "back": "The average number of days cash is tied up in operations: from paying for inventory to collecting cash from customers, net of the credit suppliers give.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:276:188",
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      {
+        "front": "What is the formula for the cash conversion cycle?",
+        "back": "CCC = days of inventory on hand + days sales outstanding − days payables outstanding.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00120:2.3"
+        ]
+      },
+      {
+        "front": "Which income-statement figure goes with each balance-sheet item in the three day measures?",
+        "back": "Inventory uses COGS, receivables use revenue, and payables use purchases (COGS if purchases are unknown); each is divided by 365 for a daily figure.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:279:190",
+          "os:principles-finance-2e:m00120:2.4"
+        ]
+      },
+      {
+        "front": "What does a negative cash conversion cycle indicate, and how does it differ from the operating cycle?",
+        "back": "Customers pay before suppliers must be paid, so suppliers finance operations. The operating cycle (DOH + DSO) ignores payables and cannot be negative.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:283:192",
+          "os:principles-finance-2e:m00120:2.6"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:10:57.677Z",
+      "purpose": "generate",
+      "losId": "corpfin-04-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9587,
+      "outputTokens": 8155,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.10188019999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}

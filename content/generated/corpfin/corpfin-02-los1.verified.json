@@ -1,0 +1,774 @@
+{
+  "losId": "corpfin-02-los1",
+  "losText": "compare the financial claims and motivations of lenders and shareholders",
+  "moduleId": "corpfin-02",
+  "moduleTitle": "Investors and Other Stakeholders",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T17:30:06.081Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00070:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§11.4 Preferred Stock — Features of Preferred Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/11-4-preferred-stock",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "occ-rating-credit-risk:53:50",
+      "title": "Comptroller's Handbook: Rating Credit Risk (OCC)",
+      "locator": "pp. 53–55",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/rating-credit-risk/pub-ch-rating-credit-risk.pdf#page=53",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "flatworld-finance-for-managers:155:108",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "p. 155",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=155",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "occ-asset-based-lending:44:61",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 44–45",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=44",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00014:0.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§2.4 Agency Issues: Shareholders and Corporate Boards — Agency Problems and Issues",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/2-4-agency-issues-shareholders-and-corporate-boards",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "occ-asset-based-lending:74:96",
+      "title": "Comptroller's Handbook: Asset-Based Lending (OCC)",
+      "locator": "pp. 74–75",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf#page=74",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-introduction-to-business:91:88",
+      "title": "An Introduction to Business, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 91–92",
+      "url": "https://2012books.lardbucket.org/pdfs/an-introduction-to-business-v2.0.pdf#page=91",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:2.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Levered Firm",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-finance-2e:m00003:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§1.2 The Role of Finance in an Organization — The Role of Finance in an Organization",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/1-2-the-role-of-finance-in-an-organization",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-leveraged-lending:65:56",
+      "title": "Comptroller's Handbook: Leveraged Lending (OCC)",
+      "locator": "p. 65",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf#page=65",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "occ-accts-rec-inventory-financing:27:29",
+      "title": "Comptroller's Handbook: Accounts Receivable and Inventory Financing (factoring) (OCC)",
+      "locator": "pp. 27–28",
+      "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/accts-rec-inventory-financing/pub-ch-accts-rec-inventory-financing.pdf#page=27",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Lenders vs. Shareholders: Who Is Owed What, and Why They Care",
+      "summary": "Lenders and shareholders both supply money to a company, but they hold very different claims on its cash flows and assets. Those differences explain why the two groups want different things from management, especially on risk.",
+      "sections": [
+        {
+          "heading": "Two ways to fund a business",
+          "body_markdown": "A company needs money to operate. It can **borrow** the money from lenders (banks, bondholders) or **raise ownership capital** from shareholders. Think of a house purchase. The bank that gives you the mortgage is a lender with a contract. You are the owner who keeps whatever the house is worth after the mortgage is repaid. Lenders and shareholders sit in the same two seats for a company."
+        },
+        {
+          "heading": "Lenders: a fixed, contractual claim",
+          "body_markdown": "A lender is promised **interest** and the return of **principal** (the amount borrowed) on set dates. Because the promise is written in a contract:\n\n- Missing a payment is a **default**, and the lender has legal remedies.\n- The lender's best case is being paid in full. A company that earns ten times more does not owe the lender more.\n- The lender's worst case is losing part or all of the money.\n\nThis payoff is *capped upside, real downside*. So the lender's main motivation is **safe, timely repayment**, not company growth. Lenders therefore care about steady cash flow, collateral (assets pledged as security) and **covenants** (conditions in the loan agreement, such as limits on extra borrowing or dividends)."
+        },
+        {
+          "heading": "Shareholders: the residual claim",
+          "body_markdown": "Shareholders own what is **left over** after every other claim is settled. This is called the **residual claim**.\n\n- The board decides whether profits are paid out as dividends or retained. No dividend is guaranteed.\n- If the company does well, the leftover grows and so does the share value. In principle there is no ceiling.\n- If it does poorly, shareholders are paid last and may get nothing. Because the owners of a corporation have limited liability, they lose at most what they invested.\n- Shareholders usually have **voting rights**, which let them elect the board and influence management.\n\nSo shareholders are motivated by **growth in value and dividends**, and they accept more uncertainty to get it.\n\n**Preferred shares** sit in between. They have a fixed dividend that must be paid before common dividends, and they rank behind lenders but ahead of common shareholders in liquidation. Unlike lenders, preferred holders cannot force the company into bankruptcy."
+        },
+        {
+          "heading": "Where interests collide",
+          "body_markdown": "**Order of payment.** In ordinary operations and in liquidation (selling the assets and winding up), the order is: lenders first, then preferred shareholders, then common shareholders.\n\n**Risk appetite.** Because shareholders keep the upside and lenders do not, a risky project with a high expected payoff can look attractive to shareholders. The extra risk raises the chance of default, which lenders dislike because they gain nothing from the upside. Lenders respond with covenants, collateral, guarantees and higher interest rates.\n\n**Leverage raises equity risk.** The more fixed payments a firm owes lenders, the less cash flow is left for shareholders in a bad year. Shareholders then demand a higher expected return as compensation.\n\n**Managers sit in the middle.** Managers work for the owners, so they are expected to raise share value. They must still honour debt contracts."
+        }
+      ],
+      "worked_example": {
+        "problem": "A company owes its lender $80,000 of interest at year end. After running the business, the cash available to pay claims is $200,000 in a good year, $120,000 in a normal year and $60,000 in a bad year. Assume the lender is paid first, nothing else is owed, and any cash left goes to shareholders. Compare what each group receives in each scenario.",
+        "steps": [
+          "Lender's payoff = the smaller of the promised $80,000 and the cash available.",
+          "Good year: lender gets min(80,000; 200,000) = $80,000. Shareholders get 200,000 − 80,000 = $120,000.",
+          "Normal year: lender gets min(80,000; 120,000) = $80,000. Shareholders get 120,000 − 80,000 = $40,000.",
+          "Bad year: lender gets min(80,000; 60,000) = $60,000, so $20,000 of the promise goes unpaid. Shareholders get $0.",
+          "Compare: the lender's payoff moves only between $60,000 and $80,000 and is capped at $80,000. The shareholders' payoff moves between $0 and $120,000, with no cap."
+        ],
+        "answer": "Lender: $80,000 / $80,000 / $60,000 (good / normal / bad). Shareholders: $120,000 / $40,000 / $0. The lender has a capped, stable payoff and the shareholders have a larger but more variable residual payoff.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Residual (equity) value",
+          "latex": "E = V - D",
+          "where": "E = value belonging to shareholders; V = value of the company's assets; D = amount owed to lenders (and other senior claims). If V < D, shareholders receive zero because of limited liability."
+        },
+        {
+          "name": "Lender's payoff at the payment date",
+          "latex": "\\text{Payoff}_{lender} = \\min(D,\\; V)",
+          "where": "D = promised payment (interest plus principal due); V = cash or asset value available to pay it. The lender never receives more than D."
+        },
+        {
+          "name": "Holding period return for a shareholder",
+          "latex": "HPR = \\frac{P_1 - P_0 + D_1}{P_0}",
+          "where": "P_0 = purchase price; P_1 = ending price; D_1 = dividends received during the holding period."
+        }
+      ],
+      "exam_traps": [
+        "Calling the shareholders' claim 'fixed' or 'guaranteed'. Common dividends are at the board's discretion, and shareholders hold the residual claim.",
+        "Assuming lenders benefit when the company becomes more profitable. Their payoff is capped at the contractual amount, so they care about repayment safety.",
+        "Treating a skipped common dividend like a missed interest payment. Only missing a contractual debt payment is a default.",
+        "Putting preferred shares ahead of lenders. Preferred ranks after lenders and before common shareholders, and it usually cannot force bankruptcy.",
+        "Believing shareholders must cover a shortfall when the assets do not cover the debt. Their loss is limited to their investment."
+      ],
+      "builds_on": [
+        "Basic balance sheet: assets, liabilities, equity",
+        "Time value of money",
+        "Risk and return"
+      ],
+      "leads_to": [
+        "Stakeholder groups and their interests",
+        "Capital structure and leverage",
+        "Cost of debt vs. cost of equity",
+        "Agency problems and corporate governance"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-finance-for-managers:155:108",
+        "os:principles-finance-2e:m00111:1",
+        "os:principles-finance-2e:m00109:2.1",
+        "os:principles-finance-2e:m00014:0.1",
+        "occ-leveraged-lending:65:56"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description fits the claim that common shareholders hold on a corporation?",
+        "options": [
+          {
+            "text": "A fixed claim for interest and principal set by contract",
+            "value": null,
+            "explanation": "This describes lenders. Common shareholders have no contractual promise of payment."
+          },
+          {
+            "text": "A residual claim on what remains after other claims are paid",
+            "value": null,
+            "explanation": "Correct. Shareholders are paid only from what is left after lenders and other senior claims, which is why their payoff is uncertain but uncapped."
+          },
+          {
+            "text": "A priority claim to assets ahead of lenders in liquidation",
+            "value": null,
+            "explanation": "This reverses the ranking. Lenders are repaid before common shareholders."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:108"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Management is considering a new project that is far riskier than the firm's current business but has a higher expected payoff. Which statement best describes the likely reactions of the two groups?",
+        "options": [
+          {
+            "text": "Lenders would welcome it, because a more profitable firm will owe them more interest",
+            "value": null,
+            "explanation": "Lenders' payoff is capped at the contractual amount, so higher profit does not raise it. Believing it does is the mistake."
+          },
+          {
+            "text": "Neither group would care, because both are paid from the same cash flows in the same proportion",
+            "value": null,
+            "explanation": "The claims differ in priority and in payoff shape. Risk affects them differently."
+          },
+          {
+            "text": "Shareholders may favour it for the upside they keep, while lenders worry about higher default risk",
+            "value": null,
+            "explanation": "Correct. Shareholders keep gains above the fixed claims, and lenders bear the extra downside without sharing in the upside."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "An investor buys a share for $40.00, receives a dividend of $1.20 during the year, and sells the share for $43.50 at the end of the year. What is the holding period return? Round to two decimal places in percent.",
+        "options": [
+          {
+            "text": "11.75%",
+            "value": 0.1175,
+            "explanation": "Correct. HPR = (43.50 − 40.00 + 1.20) / 40.00 = 4.70 / 40.00 = 11.75%. A shareholder's return includes both price change and dividends."
+          },
+          {
+            "text": "8.75%",
+            "value": 0.0875,
+            "explanation": "Ignores the dividend: (43.50 − 40.00) / 40.00. This leaves out part of what shareholders actually earn."
+          },
+          {
+            "text": "10.80%",
+            "value": 0.108,
+            "explanation": "Divides the total gain by the ending price (4.70 / 43.50) instead of the beginning price."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":40,\"endPrice\":43.5,\"income\":1.2}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A company is liquidated and its assets are sold. Which sequence correctly shows the order in which the claimants are paid?",
+        "options": [
+          {
+            "text": "Common shareholders, then preferred shareholders, then lenders",
+            "value": null,
+            "explanation": "This is the exact reverse of the true ranking. Common shareholders are last."
+          },
+          {
+            "text": "Lenders, then preferred shareholders, then common shareholders",
+            "value": null,
+            "explanation": "Correct. Lenders have the highest priority, preferred shareholders come next, and common shareholders take the residual."
+          },
+          {
+            "text": "Preferred shareholders, then lenders, then common shareholders",
+            "value": null,
+            "explanation": "Puts preferred stock ahead of debt. Preferred is equity and ranks behind lenders."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Why do lenders typically insist on covenants and collateral, while shareholders rarely ask for comparable protections?",
+        "options": [
+          {
+            "text": "A lender's return is capped at the promised amount, so lenders focus on limiting the chance of loss",
+            "value": null,
+            "explanation": "Correct. Lenders cannot gain more than the contract promises, so they focus on protecting the downside. Shareholders already benefit from the upside and hold voting rights."
+          },
+          {
+            "text": "A lender shares in profits above the promised amount, so it wants control over how profits are used",
+            "value": null,
+            "explanation": "Lenders do not share in excess profits. Assuming they do is the mistake."
+          },
+          {
+            "text": "A lender holds voting rights on the board, so covenants are a way of formalising its votes",
+            "value": null,
+            "explanation": "Voting rights normally belong to shareholders, not lenders. Covenants are contract terms."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "occ-accts-rec-inventory-financing:27:29",
+          "occ-leveraged-lending:65:56"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A corporation with no preferred stock owes lenders $1,000,000. In liquidation its assets are sold for $900,000, and there are no other costs. Which outcome is correct?",
+        "options": [
+          {
+            "text": "Shareholders receive $900,000 and the lenders absorb the shortfall",
+            "value": null,
+            "explanation": "Reverses the priority. Lenders are paid before shareholders."
+          },
+          {
+            "text": "Shareholders receive nothing and must pay lenders the $100,000 shortfall",
+            "value": null,
+            "explanation": "Ignores limited liability. Shareholders of a corporation are not personally liable for the shortfall."
+          },
+          {
+            "text": "Shareholders receive nothing, and their loss is limited to their investment",
+            "value": null,
+            "explanation": "Correct. The lenders receive the $900,000 and take a $100,000 loss. The residual claim is zero, and limited liability caps the shareholders' loss at what they invested."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:108"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A struggling company fails to make a scheduled payment. Which statement is correct?",
+        "options": [
+          {
+            "text": "Skipping a common dividend gives shareholders legal remedies, while a missed interest payment is only a delay",
+            "value": null,
+            "explanation": "Reverses the two. Interest is a contractual obligation, and a common dividend is not."
+          },
+          {
+            "text": "A missed interest payment is a default that gives lenders legal remedies, but skipping a common dividend is not",
+            "value": null,
+            "explanation": "Correct. Interest and principal are contractual, and common dividends are at the board's discretion."
+          },
+          {
+            "text": "Both a missed interest payment and a skipped common dividend count as a default",
+            "value": null,
+            "explanation": "Common dividends are never promised, so skipping one is not a default."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:108",
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the shareholders' claim on a company, and what is its payoff shape?",
+        "back": "A residual claim on what is left after all other claims are paid. The payoff is uncertain, can be zero, and has no cap on the upside.",
+        "cited_chunk_ids": [
+          "flatworld-finance-for-managers:155:108"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is a lender's claim, and what motivates a lender?",
+        "back": "A fixed, contractual claim to interest and principal. The upside is capped at the promised amount, so lenders focus on safe, timely repayment and the downside.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why can a riskier project create a conflict between shareholders and lenders?",
+        "back": "Shareholders keep the gains above the fixed claims, while lenders bear the extra default risk without sharing in the upside.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00014:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Where do preferred shareholders rank relative to lenders and common shareholders?",
+        "back": "After lenders and before common shareholders, for both payments and liquidation. Unlike lenders, they cannot force the company into bankruptcy.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00111:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T17:29:57.649Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 907,
+      "outputTokens": 493,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.006861,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T17:30:06.080Z",
+      "purpose": "grounding",
+      "losId": "corpfin-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11987,
+      "outputTokens": 1292,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0370632,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0439242
+}

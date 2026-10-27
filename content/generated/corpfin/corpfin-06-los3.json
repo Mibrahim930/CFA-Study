@@ -1,0 +1,489 @@
+{
+  "losId": "corpfin-06-los3",
+  "losText": "explain the Modigliani-Miller propositions regarding capital structure",
+  "moduleId": "corpfin-06",
+  "moduleTitle": "Capital Structure",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T17:23:43.888Z",
+  "retrieved": [
+    {
+      "id": "os:principles-finance-2e:m00109:3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — Leverage and the WACC",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.29
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Levered Firm",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.21
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-finance-for-managers:206:147",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 206–207",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=206",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-finance-2e:m00109:4.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.4 Capital Structure Choices — The Impact of Taxes",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-4-capital-structure-choices",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "flatworld-finance-for-managers:256:178",
+      "title": "Finance for Managers (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 256–258",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-for-managers.pdf#page=256",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Trade-Off Theory",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:2",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Optimal Capital Structure",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:2.3",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Issuing New Common Stock",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00110:0",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.5 Optimal Capital Structure — Debt and Financial Distress",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-5-optimal-capital-structure",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00108:1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.3 Calculating the Weighted Average Cost of Capital — WACC Equation",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-3-calculating-the-weighted-average-cost-of-capital",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-finance-2e:m00111:1.1",
+      "title": "Principles of Finance 2e",
+      "locator": "§17.6 Alternative Sources of Funds — Preferred Shares",
+      "url": "https://openstax.org/books/principles-finance-2e/pages/17-6-alternative-sources-of-funds",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Modigliani–Miller: When Financing Mix Matters and When It Doesn't",
+      "summary": "Modigliani and Miller (MM) showed that in a frictionless world the way a firm splits its financing between debt and equity cannot change its value. Adding real-world features such as taxes and distress costs shows why capital structure matters in practice.",
+      "sections": [
+        {
+          "heading": "Slicing the same pizza",
+          "body_markdown": "A firm's **capital structure** is its mix of debt and equity financing. Using debt is called **financial leverage**. A firm with no debt is **unlevered**, and one with debt is **levered**.\n\nThink of the firm's assets as a pizza. The pizza's size is set by the cash flows those assets generate. Debt holders and shareholders are only deciding how to slice it. Cutting the slices differently does not make the pizza bigger. That is the core MM insight.\n\nIt holds in a **perfect capital market**: no taxes, no transaction or bankruptcy costs, no information gap between managers and investors, and investors and firms can borrow or lend at the same rate. These assumptions are the baseline, and the rest of the topic relaxes them one at a time."
+        },
+        {
+          "heading": "Propositions I and II with no taxes",
+          "body_markdown": "**Proposition I (no taxes):** firm value is the present value of the cash flows from its assets, discounted at the unlevered cost of capital $r_0$. Financing does not change those cash flows or their risk, so $V_L = V_U$.\n\n**Proposition II (no taxes):** debt is cheaper than equity because debt holders are paid first. But leverage makes shareholders' payoff riskier, so they demand a higher return. The cost of equity rises with the debt-to-equity ratio:\n\n$$r_E = r_0 + \\frac{D}{E}(r_0 - r_d)$$\n\nThe cheaper debt is exactly offset by the costlier equity, so the **weighted average cost of capital (WACC)** stays at $r_0$ whatever the leverage. Equity gets riskier, yet the firm's overall cost of funding does not move, because the underlying business risk is unchanged. Leverage only transfers risk to the equity holders."
+        },
+        {
+          "heading": "Adding corporate taxes",
+          "body_markdown": "If interest is tax-deductible, each dollar of interest saves the firm tax. The yearly saving is the **interest tax shield**, equal to $t \\times$ interest. With permanent debt $D$ the shield is worth $tD$, so:\n\n$$V_L = V_U + tD$$\n\nThe tax shield is a real extra cash flow that goes to investors, so value now rises with leverage. Proposition II is adjusted for the tax:\n\n$$r_E = r_0 + (1-t)\\frac{D}{E}(r_0 - r_d)$$\n\nEquity cost still rises with leverage, but by less than before, so the after-tax cheap debt is no longer fully offset. WACC falls as debt increases: $\\text{WACC} = r_0\\left(1 - t\\frac{D}{V}\\right)$. Taken alone, this suggests using as much debt as possible."
+        },
+        {
+          "heading": "Distress costs bring us back to reality",
+          "body_markdown": "More debt also raises the chance of **financial distress**, meaning the firm struggles to meet its debt payments. Distress brings direct costs (lawyers, advisers) and indirect costs (lost customers and suppliers). Extending MM:\n\n$$V_L = V_U + tD - PV(\\text{distress costs})$$\n\nAt low debt, the tax shield dominates and value rises. At high debt, expected distress costs grow faster and value falls. Lenders also charge a higher $r_d$ as leverage grows, which flattens the rise in the cost of equity because $(r_0 - r_d)$ shrinks. The best debt level lies in the interior, and firms with higher distress costs should use less debt. How to choose a target structure belongs to a separate LOS, so this lesson stops at the idea."
+        }
+      ],
+      "worked_example": {
+        "problem": "A firm in a perfect capital market with no taxes has an unlevered cost of capital of 10%. It finances itself with equal amounts of debt and equity (D/E = 1.0) and borrows at 6%. Find the cost of equity and the WACC.",
+        "steps": [
+          "Use MM Proposition II with no taxes: $r_E = r_0 + (D/E)(r_0 - r_d)$.",
+          "Substitute: $r_E = 0.10 + 1.0 \\times (0.10 - 0.06)$. On the BA II Plus press: 0.10 + 1 × ( 0.10 − 0.06 ) = which gives 0.14, so $r_E$ = 14%.",
+          "Weights: D/E = 1 means debt is 50% and equity is 50% of total value.",
+          "WACC with no taxes: $0.5 \\times 0.06 + 0.5 \\times 0.14$. Keystrokes: 0.5 × 0.06 + 0.5 × 0.14 = which gives 0.10.",
+          "Check against Proposition II: WACC equals $r_0$ = 10%, so leverage did not change the overall cost of capital."
+        ],
+        "answer": "Cost of equity = 14%; WACC = 10%, the same as the unlevered cost of capital.",
+        "answer_value": 0.1,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.5,\"rd\":0.06,\"tax\":0,\"we\":0.5,\"re\":0.14}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "MM Proposition I (no taxes)",
+          "latex": "V_L = V_U",
+          "where": "$V_L$ = value of the levered firm; $V_U$ = value of the otherwise identical unlevered firm."
+        },
+        {
+          "name": "MM Proposition II (no taxes)",
+          "latex": "r_E = r_0 + \\frac{D}{E}\\left(r_0 - r_d\\right)",
+          "where": "$r_E$ = cost of equity of the levered firm; $r_0$ = cost of capital of the unlevered firm; $r_d$ = cost of debt; $D/E$ = market-value debt-to-equity ratio."
+        },
+        {
+          "name": "MM Proposition I (with taxes)",
+          "latex": "V_L = V_U + tD",
+          "where": "$t$ = corporate tax rate; $D$ = market value of permanent debt, so $tD$ is the value of the interest tax shield."
+        },
+        {
+          "name": "MM Proposition II (with taxes)",
+          "latex": "r_E = r_0 + (1-t)\\frac{D}{E}\\left(r_0 - r_d\\right)",
+          "where": "Symbols as above; $t$ = corporate tax rate."
+        },
+        {
+          "name": "WACC with taxes under MM",
+          "latex": "\\text{WACC} = r_0\\left(1 - t\\,\\frac{D}{V}\\right)",
+          "where": "$D/V$ = debt as a fraction of total firm value; WACC falls as $D/V$ rises."
+        },
+        {
+          "name": "Value with taxes and distress costs",
+          "latex": "V_L = V_U + tD - PV(\\text{distress costs})",
+          "where": "$PV(\\text{distress costs})$ = present value of expected costs of financial distress."
+        }
+      ],
+      "exam_traps": [
+        "Saying leverage keeps the cost of equity unchanged. In Proposition II the cost of equity rises with D/E; it is the WACC that stays constant without taxes.",
+        "Applying the no-tax Proposition II when the question includes corporate taxes. The tax version carries a $(1-t)$ factor, and WACC falls as debt rises.",
+        "Adding the whole debt amount $D$ to firm value instead of the tax shield $tD$ (or subtracting $D$ from firm value and calling it the firm's value instead of equity value).",
+        "Treating MM's no-tax result as a claim about real firms. It is a benchmark that holds only under perfect-market assumptions.",
+        "Using book values instead of market values for $D$ and $E$ when working out D/E."
+      ],
+      "builds_on": [
+        "Weighted average cost of capital",
+        "Cost of equity and cost of debt",
+        "Tax deductibility of interest"
+      ],
+      "leads_to": [
+        "Trade-off theory and costs of financial distress",
+        "Optimal and target capital structure",
+        "Effect of leverage on equity risk"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-finance-2e:m00109:2",
+        "os:principles-finance-2e:m00109:3",
+        "os:principles-finance-2e:m00109:4.1",
+        "os:principles-finance-2e:m00110:0",
+        "os:principles-finance-2e:m00110:2"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "An unlevered firm expects a perpetual, no-growth annual cash flow of $12 million to all capital providers, with the first payment one year away. Its unlevered cost of capital is 8%. Assume perfect capital markets with no taxes. The firm now issues $60 million of debt and uses the proceeds to repurchase shares. What is the value of the firm after the recapitalization? Round to the nearest million.",
+        "options": [
+          {
+            "text": "$150 million",
+            "value": 150,
+            "explanation": "Correct. MM Proposition I says firm value is unchanged: $12 / 0.08 = 150$, so the recapitalization does not alter it."
+          },
+          {
+            "text": "$90 million",
+            "value": 90,
+            "explanation": "Subtracts the $60 million of debt from firm value. That figure is the equity value after the buyback, not the firm's total value."
+          },
+          {
+            "text": "$210 million",
+            "value": 210,
+            "explanation": "Adds the debt to the unlevered value as if borrowing created value. With no taxes, leverage adds nothing to total firm value."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "gordonValue",
+          "args_json": "{\"d1\":12,\"r\":0.08,\"g\":0}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:2"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "In a perfect capital market with no taxes, a firm's unlevered cost of capital is 12% and its cost of debt is 6%. Its capital structure has a debt-to-equity ratio of 0.25 (20% debt, 80% equity by market value). Using MM Proposition II to find the cost of equity, what is the firm's WACC? Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "7.50%",
+            "value": 0.075,
+            "explanation": "Swaps the weights, applying 80% to debt and 20% to equity. The debt weight is 20% and the equity weight is 80%."
+          },
+          {
+            "text": "12.00%",
+            "value": 0.12,
+            "explanation": "Correct. $r_E = 0.12 + 0.25(0.12-0.06) = 13.5\\%$. WACC $= 0.2(6\\%) + 0.8(13.5\\%) = 12\\%$, equal to $r_0$ as Proposition II predicts."
+          },
+          {
+            "text": "9.75%",
+            "value": 0.0975,
+            "explanation": "Takes a simple average of the 6% debt cost and the 13.5% equity cost, ignoring the market-value weights."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.2,\"rd\":0.06,\"tax\":0,\"we\":0.8,\"re\":0.135}"
+        },
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:3"
+        ]
+      },
+      {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "A firm faces a 30% corporate tax rate, with interest fully deductible. Its unlevered cost of capital is 12%, its cost of debt is 6%, and its debt-to-equity ratio is 0.25 (20% debt, 80% equity by market value). Assume MM with corporate taxes and no distress costs. Use MM Proposition II with taxes to find the cost of equity, then compute the WACC. Round to two decimals in percent.",
+        "options": [
+          {
+            "text": "8.15%",
+            "value": 0.0815,
+            "explanation": "Applies $(1-t)$ to the cost of equity as well as to the cost of debt. Only the interest on debt is tax-deductible."
+          },
+          {
+            "text": "11.64%",
+            "value": 0.1164,
+            "explanation": "Uses the no-tax cost of equity of 13.5% (omitting the $(1-t)$ factor in Proposition II) with after-tax debt. Equity cost with taxes is only 13.05%."
+          },
+          {
+            "text": "11.28%",
+            "value": 0.1128,
+            "explanation": "Correct. $r_E = 0.12 + 0.7(0.25)(0.06) = 13.05\\%$. WACC $= 0.2(6\\%)(0.7) + 0.8(13.05\\%) = 11.28\\%$, which equals $12\\%\\times(1 - 0.3\\times0.2)$."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "wacc",
+          "args_json": "{\"wd\":0.2,\"rd\":0.06,\"tax\":0.3,\"we\":0.8,\"re\":0.1305}"
+        },
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In a perfect capital market with no taxes, a firm replaces some equity with debt without changing its assets or operating plans. According to MM Proposition I, what happens to total firm value?",
+        "options": [
+          {
+            "text": "It rises, because debt is cheaper than equity.",
+            "value": null,
+            "explanation": "Ignores that shareholders demand a higher return as leverage rises, which offsets the cheaper debt."
+          },
+          {
+            "text": "It is unchanged, because asset cash flows and risk set value.",
+            "value": null,
+            "explanation": "Correct. Value comes from the present value of the assets' cash flows, which financing does not alter."
+          },
+          {
+            "text": "It falls, because equity holders demand more and debt adds obligations.",
+            "value": null,
+            "explanation": "Counts the higher equity return as a loss without recognising the offsetting cheaper debt financing."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:2"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Under MM Proposition II with no taxes, what happens to a firm's cost of equity when it increases its debt-to-equity ratio, assuming the cost of debt is below the unlevered cost of capital?",
+        "options": [
+          {
+            "text": "It stays at the unlevered rate, because asset risk is unchanged.",
+            "value": null,
+            "explanation": "Confuses the risk of the assets with the risk borne by equity holders, which is magnified by leverage."
+          },
+          {
+            "text": "It falls, because debt lowers the overall financing cost.",
+            "value": null,
+            "explanation": "Assumes the benefit of cheap debt reaches shareholders. Their added risk raises their required return instead."
+          },
+          {
+            "text": "It rises in proportion to D/E, keeping the WACC unchanged.",
+            "value": null,
+            "explanation": "Correct. The equity premium grows with $(D/E)(r_0-r_d)$, which exactly offsets the cheaper debt in the WACC."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An unlevered firm is worth $400 million. It issues $100 million of permanent debt. The corporate tax rate is 25%, interest is fully deductible, and there are no distress costs or other frictions. According to MM with corporate taxes, what is the value of the levered firm?",
+        "options": [
+          {
+            "text": "$425 million",
+            "value": null,
+            "explanation": "Correct. $V_L = V_U + tD = 400 + 0.25 \\times 100 = 425$."
+          },
+          {
+            "text": "$400 million",
+            "value": null,
+            "explanation": "Applies the no-tax result of Proposition I and omits the interest tax shield."
+          },
+          {
+            "text": "$500 million",
+            "value": null,
+            "explanation": "Adds the debt itself ($D$) instead of the tax shield ($tD$)."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:4.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Under an extension of MM that includes corporate taxes and costs of financial distress, which statement best describes the debt level that maximises firm value?",
+        "options": [
+          {
+            "text": "Debt is raised until the tax shield is used up, so the highest feasible leverage is best.",
+            "value": null,
+            "explanation": "Ignores distress costs, which grow with leverage and eventually outweigh the extra tax shield."
+          },
+          {
+            "text": "Debt is raised until an extra dollar of tax-shield value equals the added expected distress cost.",
+            "value": null,
+            "explanation": "Correct. Value is $V_U + tD - PV(\\text{distress costs})$, which peaks where the marginal tax benefit equals the marginal distress cost."
+          },
+          {
+            "text": "Debt is kept at zero, because distress costs always outweigh the tax shield.",
+            "value": null,
+            "explanation": "Distress costs are small at low debt levels, so some debt adds value before the costs catch up."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:2",
+          "os:principles-finance-2e:m00110:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is an assumption of the perfect capital market in which the no-tax MM propositions hold?",
+        "options": [
+          {
+            "text": "Managers hold private information that outside investors cannot observe.",
+            "value": null,
+            "explanation": "Information asymmetry is a market friction, so the perfect-market setting assumes it away."
+          },
+          {
+            "text": "Bankruptcy costs rise as the firm takes on more debt.",
+            "value": null,
+            "explanation": "Distress and bankruptcy costs are frictions; the no-tax baseline assumes there are none."
+          },
+          {
+            "text": "Firms and investors can borrow or lend at the same interest rate.",
+            "value": null,
+            "explanation": "Correct. Equal borrowing rates let investors undo or replicate a firm's leverage on their own."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What does MM Proposition I (no taxes) say about firm value?",
+        "back": "Firm value depends on the cash flows and risk of its assets, not on the debt/equity mix, so $V_L = V_U$.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:2"
+        ]
+      },
+      {
+        "front": "State MM Proposition II (no taxes) and its effect on WACC.",
+        "back": "$r_E = r_0 + (D/E)(r_0 - r_d)$. Equity cost rises with leverage, exactly offsetting cheaper debt, so WACC stays equal to $r_0$.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:3"
+        ]
+      },
+      {
+        "front": "How do corporate taxes change MM's results?",
+        "back": "The interest tax shield adds $tD$ to value ($V_L = V_U + tD$), and WACC falls as debt rises.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00109:4.1"
+        ]
+      },
+      {
+        "front": "Which assumptions define a perfect capital market in MM's baseline?",
+        "back": "No taxes, no transaction or bankruptcy costs, no information asymmetry, and equal borrowing and lending rates for firms and investors.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "Why is the best debt level not 100% once distress costs are included?",
+        "back": "Value is $V_U + tD - PV(\\text{distress costs})$. Distress costs rise with debt, and at some point they offset the extra tax shield.",
+        "cited_chunk_ids": [
+          "os:principles-finance-2e:m00110:2",
+          "os:principles-finance-2e:m00110:0"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T17:23:43.888Z",
+      "purpose": "generate",
+      "losId": "corpfin-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8982,
+      "outputTokens": 13547,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1545902,
+      "stopReason": "end_turn"
+    }
+  ]
+}
