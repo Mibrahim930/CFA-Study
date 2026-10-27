@@ -1,0 +1,827 @@
+{
+  "losId": "econ-03-los1",
+  "losText": "compare monetary and fiscal policy",
+  "moduleId": "econ-03",
+  "moduleTitle": "Fiscal Policy",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:36:37.519Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-economics-3e:m63969:0.1",
+      "title": "Principles of Economics 3e",
+      "locator": "Ch. 30 Government Budgets and Fiscal Policy — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/30-introduction",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m64137:2.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§31.4 Fiscal Policy, Investment, and Economic Growth — The Interest Rate Connection",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/31-4-fiscal-policy-investment-and-economic-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-economics-3e:m63941:2",
+      "title": "Principles of Economics 3e",
+      "locator": "§28.4 Monetary Policy and Economic Outcomes — The Effect of Monetary Policy on Aggregate Demand",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/28-4-monetary-policy-and-economic-outcomes",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:1042:912",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1042–1043",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=1042",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "imf-wb-debt-mgmt-2002:130:165",
+      "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
+      "locator": "pp. 130–131",
+      "url": "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf#page=130",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "imf-wb-debt-mgmt-2002:362:453",
+      "title": "Guidelines for Public Debt Management: Accompanying Document (IMF and World Bank staff, Nov 2002; copy hosted by the Czech Ministry of Finance)",
+      "locator": "pp. 362–363",
+      "url": "https://www.mfcr.cz/assets/en/media/IMF-WB-Guidelines-for-Public-Debt-Management-Accompanying-Document-November-2002.pdf#page=362",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "suranovic-intl-finance:407:359",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 407–408",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=407",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:346:303",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 346–349",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=346",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-economics-3e:m64135:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§32.3 Causes of Unemployment around the World — Unemployment from a Recession",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/32-3-causes-of-unemployment-around-the-world",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:366:319",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 366–368",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=366",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "os:principles-economics-3e:m63944:0",
+      "title": "Principles of Economics 3e",
+      "locator": "§28.3 How a Central Bank Executes Monetary Policy — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/28-3-how-a-central-bank-executes-monetary-policy",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:351:306",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 351–353",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=351",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Two Levers on the Economy: Central Bank vs Government Budget",
+      "summary": "Governments and central banks both try to steer overall spending, inflation and jobs, but they use different tools and answer to different bodies. Knowing how they differ, and what happens when they pull in opposite directions, is a staple of Level I economics questions.",
+      "sections": [
+        {
+          "heading": "Who pulls which lever",
+          "body_markdown": "**Fiscal policy** means the government's use of **spending** (purchases and transfer payments) and **taxation** to influence the economy. In most countries the legislature and the executive decide it, so it is a political process.\n\n**Monetary policy** means the central bank's management of the money supply, interest rates and credit conditions. Its goals are usually stable prices, with support for growth and employment. The central bank is often set up to be independent of day-to-day politics.\n\nAnalogy: think of the economy as a car. Fiscal policy is the government pressing the accelerator or brake directly by spending and taxing. Monetary policy is the central bank changing how easy it is to borrow, which nudges households and firms to press or release the pedal themselves."
+        },
+        {
+          "heading": "How each one reaches aggregate demand",
+          "body_markdown": "**Aggregate demand (AD)** is total planned spending in the economy: $Y = C + I + G + NX$ (consumption, investment, government purchases, net exports).\n\n- **Monetary channel (indirect):** a lower policy interest rate and looser credit make borrowing cheaper. Firms invest more and households buy houses and cars on credit, so $I$ and $C$ rise. Higher rates do the reverse.\n- **Fiscal channel (direct):** government purchases are the $G$ component itself. Tax cuts and transfers raise households' disposable income, which feeds $C$. Tax increases and spending cuts pull AD down.\n\nMonetary tools include open market operations (buying or selling securities), the policy or discount rate, and reserve requirements. Fiscal tools are the budget items: tax rates, transfers and spending programmes. Fiscal policy can also change who gets resources and income. Monetary policy has no direct way to do that."
+        },
+        {
+          "heading": "Speed, politics and side effects",
+          "body_markdown": "A central bank can usually change its policy rate quickly, often at a scheduled meeting, and can reverse course just as fast. Its effects on the economy still take time to work through.\n\nFiscal changes usually need legislation and then implementation, so they often arrive later. They are also open to political bargaining. Government borrowing to fund a deficit adds to demand for loanable funds and can push up interest rates, which may **crowd out** private investment.\n\nThe central bank's reaction affects how much crowding out occurs. If the economy is near capacity and the bank tightens against inflation, interest rates rise even more and crowding out is large. If the economy is weak, the bank may ease, so higher rates from borrowing are largely offset and crowding out is small."
+        },
+        {
+          "heading": "Policy mixes",
+          "body_markdown": "The two policies can be combined. Call a policy **easy** if it is expansionary and **tight** if it is contractionary.\n\n| Fiscal | Monetary | Effect on AD | Effect on interest rates | Which sector gains share |\n|---|---|---|---|---|\n| Easy | Easy | Strong increase | Uncertain (opposing forces) | Both can grow |\n| Tight | Tight | Strong decrease | Uncertain | Both shrink |\n| Easy | Tight | Uncertain | Rise | Public sector |\n| Tight | Easy | Uncertain | Fall | Private sector |\n\n**Shortcut:** when both policies push AD the same way, the AD effect is clear but the interest rate effect is not. When they push in opposite directions, the interest rate effect is clear but the AD effect is not. The sector logic is simple: government spending is high under easy fiscal policy, and cheap credit favours private borrowing under easy monetary policy."
+        }
+      ],
+      "worked_example": {
+        "problem": "An economy is producing below potential output with high unemployment. The government raises spending and cuts taxes (easy fiscal policy), but the central bank, worried about future inflation, raises its policy rate (tight monetary policy). What can you say about aggregate demand, interest rates and the relative size of the public sector?",
+        "steps": [
+          "Classify each policy. Higher spending and lower taxes are easy (expansionary) fiscal policy. A higher policy rate is tight (contractionary) monetary policy.",
+          "Notice that the two policies push AD in opposite directions: fiscal policy raises it and monetary policy lowers it. The net effect on AD therefore depends on which force is stronger and is uncertain.",
+          "Government borrowing to fund the deficit adds to demand for loanable funds, and the central bank is raising rates. Both push interest rates up, so rates rise.",
+          "Easy fiscal policy enlarges government spending, while higher rates discourage private borrowing and investment. The public sector's share of the economy tends to rise.",
+          "Combine the results."
+        ],
+        "answer": "Interest rates rise and the public sector's share of the economy tends to grow, while the net effect on aggregate demand is uncertain.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Expenditure identity for aggregate demand",
+          "latex": "Y = C + I + G + NX",
+          "where": "Y = total output or aggregate demand; C = household consumption; I = business investment; G = government purchases; NX = net exports (exports minus imports). Fiscal policy acts on G and, through taxes and transfers, on C. Monetary policy acts mainly on I and C through interest rates and credit."
+        }
+      ],
+      "exam_traps": [
+        "Mixing up who controls what: tax and spending decisions belong to fiscal authorities, while interest rates and the money supply belong to the central bank.",
+        "Assuming that two policies pushing in the same direction give a clear interest rate result. With easy/easy or tight/tight, the interest rate effect is uncertain. Only the AD direction is clear.",
+        "Assuming that opposed policies give a clear AD result. With easy/tight or tight/easy, the interest rate effect is clear and the AD effect is uncertain.",
+        "Forgetting that government deficit borrowing can raise interest rates and crowd out private investment, and that the central bank's reaction changes how large the crowding out is.",
+        "Treating fiscal policy as quicker than monetary policy. Budget changes normally need legislative approval, so fiscal lags are typically longer."
+      ],
+      "builds_on": [
+        "Aggregate demand and aggregate supply",
+        "Money, banking and interest rates",
+        "Business cycle and potential output"
+      ],
+      "leads_to": [
+        "Roles and objectives of fiscal policy",
+        "Fiscal policy tools",
+        "Implementation and lags of fiscal policy",
+        "Monetary policy tools and transmission"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63969:0.1",
+        "os:principles-economics-3e:m63941:2",
+        "os:principles-economics-3e:m64137:2.1",
+        "os:principles-economics-3e:m64135:1",
+        "os:principles-economics-3e:m63944:0",
+        "flatworld-policy-and-theory-of-international-economics:1042:912"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "In a typical economy, which pairing correctly states who conducts fiscal policy and who conducts monetary policy?",
+        "options": [
+          {
+            "text": "Fiscal: the central bank; monetary: the legislature",
+            "value": null,
+            "explanation": "This reverses the roles. The central bank sets monetary policy, while taxing and spending are fiscal decisions."
+          },
+          {
+            "text": "Fiscal: legislature and executive; monetary: central bank",
+            "value": null,
+            "explanation": "Correct. Taxes and government spending are set through the political budget process, while the central bank manages interest rates and credit."
+          },
+          {
+            "text": "Fiscal: the central bank; monetary: the central bank",
+            "value": null,
+            "explanation": "This wrongly assigns both policies to the central bank. The central bank has no authority over the tax and spending budget."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63969:0.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is a tool of monetary policy rather than fiscal policy?",
+        "options": [
+          {
+            "text": "Changing the income tax rate schedule",
+            "value": null,
+            "explanation": "Tax rates are a fiscal tool set by the government, not a central bank tool."
+          },
+          {
+            "text": "Increasing government spending on infrastructure",
+            "value": null,
+            "explanation": "Government purchases are a fiscal tool because they directly make up the G component of demand."
+          },
+          {
+            "text": "Open market purchases of government securities",
+            "value": null,
+            "explanation": "Correct. Open market operations add reserves to the banking system and are a core central bank tool."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63944:0",
+          "flatworld-finance-banking-and-money:346:303"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A government runs a large expansionary fiscal programme financed by borrowing, while the central bank pursues contractionary monetary policy. Which outcome is most likely?",
+        "options": [
+          {
+            "text": "Interest rates rise and the public sector's share of the economy grows",
+            "value": null,
+            "explanation": "Correct. Heavy government borrowing pushes rates up, and a tight central bank pushes them up further. Government spending stays high while private borrowing is held back, so the public sector's share of the economy grows."
+          },
+          {
+            "text": "Interest rates fall and the public sector's share of the economy grows",
+            "value": null,
+            "explanation": "This assumes the easy fiscal stance dominates the interest rate effect. Deficit financing and tight money both raise rates, so rates do not fall."
+          },
+          {
+            "text": "Interest rates rise and the private sector's share of the economy grows",
+            "value": null,
+            "explanation": "The rate direction is right, but the sector effect is reversed. Rising rates crowd out private borrowing and investment while government spending expands, so the private share does not grow. The private share grows under the opposite mix, tight fiscal with easy monetary policy."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Expansionary fiscal policy (larger deficit) plus tight money pushes interest rates up, crowding out private activity, so the private sector's share grows? Standard CFA mix: expansionary fiscal + tight monetary gives higher interest rates and a larger public sector share. Reconsider: the CFA curriculum states this mix leads to higher interest rates and a growing public sector share, so A is correct."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Fiscal policy and monetary policy are both contractionary at the same time. Which conclusion is most reliable?",
+        "options": [
+          {
+            "text": "Aggregate demand is uncertain; interest rates certainly fall",
+            "value": null,
+            "explanation": "This confuses which effect is clear. When both policies are tight, aggregate demand clearly falls, and the interest rate effect is the uncertain one."
+          },
+          {
+            "text": "Aggregate demand clearly falls; the interest rate change is uncertain",
+            "value": null,
+            "explanation": "Correct. Both policies reduce aggregate demand, so it falls. Tight fiscal policy means less government borrowing, which lowers rates, while tight money raises them. The net rate change depends on which force is stronger."
+          },
+          {
+            "text": "Aggregate demand clearly falls; interest rates certainly rise",
+            "value": null,
+            "explanation": "This ignores that tight fiscal policy reduces government borrowing and pulls rates down, partly or fully offsetting the tight monetary effect."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1",
+          "os:principles-economics-3e:m63941:2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement best explains why discretionary fiscal policy is often slower to take effect than a change in the central bank's policy rate?",
+        "options": [
+          {
+            "text": "Tax changes influence only aggregate supply and never affect aggregate demand",
+            "value": null,
+            "explanation": "This is false. Taxes change disposable income and therefore consumption, so they do affect aggregate demand. It also does not explain a timing difference."
+          },
+          {
+            "text": "Fiscal policy works only through interest rates, and these adjust very slowly",
+            "value": null,
+            "explanation": "This confuses the channels. Fiscal policy acts directly through government purchases, transfers and taxes, not only through interest rates."
+          },
+          {
+            "text": "Tax and spending changes usually need legislation and then implementation, which adds delays",
+            "value": null,
+            "explanation": "Correct. Political debate, the budget process and implementation create long recognition, action and impact lags. A central bank can change its policy rate quickly."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64135:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An economy is already near full capacity and the government increases its budget deficit. Because inflation is a concern, the central bank responds with contractionary monetary policy. What is the likely effect on private investment?",
+        "options": [
+          {
+            "text": "Crowding out is large because interest rates are pushed even higher",
+            "value": null,
+            "explanation": "Correct. Deficit borrowing raises interest rates, and contractionary monetary policy raises them further. Private investment is therefore strongly crowded out."
+          },
+          {
+            "text": "Crowding out is small because the central bank offsets higher borrowing costs",
+            "value": null,
+            "explanation": "This describes the recession case, where the central bank eases and offsets the rate rise. A tightening central bank adds to the rate increase."
+          },
+          {
+            "text": "Private investment rises because stronger demand outweighs the higher interest rates",
+            "value": null,
+            "explanation": "This ignores that near full capacity, higher rates from both government borrowing and tight money discourage investment. The result is crowding out, not a rise in investment."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement correctly compares how monetary and fiscal policy influence aggregate demand?",
+        "options": [
+          {
+            "text": "Monetary policy sets government purchases directly, while fiscal policy sets interest rates directly",
+            "value": null,
+            "explanation": "This reverses the channels. The central bank does not set government purchases, and fiscal authorities do not set the policy rate."
+          },
+          {
+            "text": "Both policies influence aggregate demand only by changing the money supply",
+            "value": null,
+            "explanation": "This is wrong. Fiscal policy works through the budget (government spending, transfers and taxes), not by directly changing the money supply."
+          },
+          {
+            "text": "Monetary policy works mainly through interest rates and credit, while fiscal policy works directly through spending and taxes",
+            "value": null,
+            "explanation": "Correct. Monetary policy changes borrowing conditions and so affects investment and consumption indirectly. Fiscal policy acts directly on government purchases and on households' disposable income."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63941:2",
+          "os:principles-economics-3e:m63969:0.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver gave no answer"
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the difference between fiscal and monetary policy in terms of who decides and what tools are used?",
+        "back": "Fiscal policy: government (legislature/executive) uses spending and taxes. Monetary policy: the central bank uses interest rates, open market operations and reserve requirements to manage money and credit.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63969:0.1",
+          "os:principles-economics-3e:m63944:0"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Easy fiscal + tight monetary: effects on interest rates and AD?",
+        "back": "Interest rates rise (clear). Aggregate demand effect is uncertain. The public sector's share of the economy tends to grow.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Both policies easy (or both tight): which effect is clear and which is uncertain?",
+        "back": "The AD direction is clear (up if both easy, down if both tight). The interest rate effect is uncertain because the two policies pull rates in opposite directions.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Why does the central bank's reaction matter for crowding out?",
+        "back": "Near full capacity, a tightening bank pushes rates higher and crowding out is large. In a weak economy, an easing bank offsets rate rises and crowding out is small.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T22:36:04.210Z",
+      "purpose": "blind-solve",
+      "losId": "econ-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 892,
+      "outputTokens": 300,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.004901,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:36:24.435Z",
+      "purpose": "repair",
+      "losId": "econ-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10909,
+      "outputTokens": 3188,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.054642,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:36:27.821Z",
+      "purpose": "blind-solve",
+      "losId": "econ-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 685,
+      "outputTokens": 412,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.005607,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:36:37.519Z",
+      "purpose": "grounding",
+      "losId": "econ-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12169,
+      "outputTokens": 1376,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.038267199999999994,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.10341719999999999
+}

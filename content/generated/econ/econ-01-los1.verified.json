@@ -1,0 +1,918 @@
+{
+  "losId": "econ-01-los1",
+  "losText": "determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition",
+  "moduleId": "econ-01",
+  "moduleTitle": "The Firm and Market Structures",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:34:05.174Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-economics-3e:m63906:4.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — The Shutdown Point",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "os:principles-economics-3e:m63913:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§9.1 How Monopolies Form: Barriers to Entry — Natural Monopoly",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:5",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Short-Run Outcomes for Perfectly Competitive Firms",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:325:283",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 325–326",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=325",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.15
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:4",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — The Shutdown Point",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:312:272",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 312–313",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=312",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:513:428",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 513–514",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=513",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:4.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — The Shutdown Point",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:311:271",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 311–312",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=311",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:6.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Marginal Cost and the Firm’s Supply Curve",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:1.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Determining the Highest Profit by Comparing Total Revenue and Total Cost",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63682:4.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§7.5 Costs in the Long Run — The Size and Number of Firms in an Industry",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/7-5-costs-in-the-long-run",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Breakeven, Shutdown and Scale: When a Firm Should Keep Producing",
+      "summary": "Firms must decide whether to produce, stop temporarily, or leave an industry, and the answer depends on how revenue compares with different slices of cost. How average cost changes as a firm grows (economies and diseconomies of scale) shapes how many firms a market can support and whether they earn profits.",
+      "sections": [
+        {
+          "heading": "Cost building blocks",
+          "body_markdown": "**Fixed costs (TFC)** do not change with output in the short run, such as rent under a lease. **Variable costs (TVC)** rise with output, such as materials and hourly labor. Total cost is $TC = TFC + TVC$.\n\nDividing by output $Q$ gives per-unit measures: **average variable cost** $AVC = TVC/Q$, **average fixed cost** $AFC = TFC/Q$ and **average total cost** $ATC = AVC + AFC$. Economic profit is $TR - TC$, where $TR$ is total revenue. For a firm with no pricing power, price equals average revenue; a firm with pricing power also has average revenue equal to price. Costs here include the opportunity cost of the owner's capital and time, so zero economic profit still means the owners earn a normal return."
+        },
+        {
+          "heading": "Breakeven versus shutdown",
+          "body_markdown": "Think of a food truck with a prepaid monthly permit. The permit is owed whether or not the truck drives out.\n\n- **Breakeven:** total revenue equals total cost, $TR = TC$, which is the same as price equal to $ATC$. Economic profit is zero. For a price-taking firm this is where $P = MC$ meets the bottom of the ATC curve.\n- **Short-run shutdown:** the firm should stop producing if $TR < TVC$, which is price below $AVC$. Each unit then adds more cost than revenue, and closing limits the loss to $TFC$ because fixed costs are owed anyway.\n- **Between the two** ($AVC < P < ATC$): the firm loses money but should keep producing in the short run. Revenue covers all variable cost and part of fixed cost, so the loss is smaller than $TFC$.\n- **Long run:** all costs become avoidable once commitments expire. The firm exits if it expects $TR < TC$ (price below $ATC$) to persist.\n\nThis logic is the same for perfect and imperfect competition. A firm with pricing power (monopolistic competitor, oligopolist, monopolist) compares total revenue at its profit-maximizing output (where $MR = MC$) with total variable cost. The only difference is that its price is not fixed by the market."
+        },
+        {
+          "heading": "Economies and diseconomies of scale",
+          "body_markdown": "Scale effects are long-run ideas, because every input can be changed.\n\n- **Economies of scale:** long-run average cost (LRAC) falls as output rises. Causes include spreading large fixed costs over more units, specialized labor and machinery, and bulk purchasing.\n- **Constant returns to scale:** LRAC is flat.\n- **Diseconomies of scale:** LRAC rises as output rises, often because coordination, communication and monitoring get harder in a larger organization.\n\nThe **minimum efficient scale** is the smallest output at which LRAC reaches its lowest level. Do not confuse these with the *short-run* effects of diminishing marginal returns, which arise because at least one input (such as the plant) is fixed."
+        },
+        {
+          "heading": "Scale and market structure",
+          "body_markdown": "**Perfect competition:** many small firms, free entry and exit, and price takers. In long-run equilibrium, entry and exit push price down to the minimum of LRAC, so each firm produces at minimum efficient scale and earns zero economic profit. Perfect competition fits best when minimum efficient scale is small relative to market demand.\n\n**Imperfect competition:** firms have some pricing power and may earn positive economic profit that is not competed away. Large fixed costs and strong economies of scale make it hard for newcomers to enter at a competitive cost, which acts as a barrier to entry. If demand is too small to support even one firm at minimum efficient scale, the market is a **natural monopoly**: one firm can serve everyone at lower average cost than two or more could."
+        }
+      ],
+      "worked_example": {
+        "problem": "A firm sells its product for $30 per unit. Variable cost is a constant $18 per unit and fixed costs are $48,000 per year. (a) What is the breakeven quantity? (b) At 3,000 units sold, should the firm keep operating in the short run?",
+        "steps": [
+          "Contribution per unit = price − variable cost = 30 − 18 = $12. Each unit sold helps pay fixed costs by $12.",
+          "Breakeven quantity = fixed costs ÷ contribution per unit = 48,000 ÷ 12. On the BA II Plus: 30 − 18 = (12), then 48000 ÷ 12 = 4,000.",
+          "Part (b): at 3,000 units, TR = 30 × 3,000 = $90,000. TVC = 18 × 3,000 = $54,000.",
+          "Compare TR with TVC: 90,000 > 54,000, so the firm covers variable costs.",
+          "Operating loss = 90,000 − (54,000 + 48,000) = −$12,000. Shutting down would lose all fixed costs, $48,000.",
+          "A $12,000 loss is smaller than a $48,000 loss, so the firm should keep operating in the short run. Selling 3,000 units is below breakeven (4,000), so it does not earn a profit."
+        ],
+        "answer": "Breakeven quantity is 4,000 units. At 3,000 units the firm loses $12,000 but should keep operating in the short run, because revenue exceeds variable cost.",
+        "answer_value": 4000,
+        "calc_spec": {
+          "fn": "breakevenQuantity",
+          "args_json": "{\"fixedCosts\":48000,\"price\":30,\"variableCost\":18}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Economic profit",
+          "latex": "\\pi = TR - TC = (P - ATC)\\,Q",
+          "where": "$\\pi$ is economic profit, $TR$ total revenue, $TC$ total cost, $P$ price per unit, $ATC$ average total cost, $Q$ quantity produced."
+        },
+        {
+          "name": "Average total cost",
+          "latex": "ATC = AVC + AFC = \\frac{TVC + TFC}{Q}",
+          "where": "$AVC$ is average variable cost, $AFC$ average fixed cost, $TVC$ total variable cost, $TFC$ total fixed cost, $Q$ output."
+        },
+        {
+          "name": "Short-run shutdown rule",
+          "latex": "\\text{shut down if } TR < TVC \\;(P < AVC)",
+          "where": "$TR$ is total revenue, $TVC$ total variable cost, $P$ price, $AVC$ average variable cost at the chosen output."
+        },
+        {
+          "name": "Long-run exit rule",
+          "latex": "\\text{exit if } TR < TC \\;(P < ATC) \\text{ persists}",
+          "where": "$TR$ is total revenue, $TC$ total cost, $P$ price, $ATC$ average total cost."
+        },
+        {
+          "name": "Breakeven quantity (constant unit variable cost)",
+          "latex": "Q_{BE} = \\frac{TFC}{P - AVC}",
+          "where": "$Q_{BE}$ is the breakeven quantity, $TFC$ total fixed cost, $P$ price per unit, $AVC$ variable cost per unit (assumed constant)."
+        }
+      ],
+      "exam_traps": [
+        "Using ATC instead of AVC for the short-run shutdown decision. A firm with $AVC < P < ATC$ loses money but should keep producing in the short run.",
+        "Believing that any loss means shut down. The right comparison is the loss from operating against the loss from shutting down, which equals fixed cost.",
+        "Applying the shutdown rule only to perfect competition. Firms with pricing power use the same logic, comparing total revenue with total variable cost.",
+        "Mixing up economies of scale (long run, all inputs variable, falling LRAC) with diminishing marginal returns (short run, a fixed input, rising marginal cost).",
+        "Dividing fixed costs by price, or by variable cost, rather than by price minus variable cost, when computing breakeven quantity, or leaving out some fixed cost items."
+      ],
+      "builds_on": [
+        "Fixed, variable and average costs",
+        "Profit maximization (MR = MC)",
+        "Short run versus long run"
+      ],
+      "leads_to": [
+        "Characteristics of market structures",
+        "Monopolistic competition and oligopoly pricing",
+        "Concentration and market structure identification"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63906:4",
+        "os:principles-economics-3e:m63906:4.1",
+        "os:principles-economics-3e:m63906:5",
+        "os:principles-economics-3e:m63913:1",
+        "flatworld-policy-and-theory-of-international-economics:311:271",
+        "flatworld-policy-and-theory-of-international-economics:513:428"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A price-taking firm produces in the short run where price equals marginal cost. At that output, price is $4.00, average total cost is $5.00 and average variable cost is $3.20. What should the firm do?",
+        "options": [
+          {
+            "text": "Shut down now, because price is below average total cost",
+            "value": null,
+            "explanation": "Mistake: using ATC for the short-run shutdown test. Fixed costs are owed whether or not it produces, so the relevant comparison is price with AVC."
+          },
+          {
+            "text": "Keep producing, because it covers variable costs and loses less than its fixed costs",
+            "value": null,
+            "explanation": "Correct. Price ($4.00) exceeds AVC ($3.20), so each unit contributes $0.80 toward fixed costs. The loss ($1.00 per unit) is smaller than the loss from closing, which is all of the fixed costs."
+          },
+          {
+            "text": "Keep producing, because price above average variable cost means it earns an economic profit",
+            "value": null,
+            "explanation": "Mistake: equating P > AVC with profit. Economic profit needs P > ATC, and here P < ATC, so the firm still makes a loss."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:5",
+          "os:principles-economics-3e:m63906:4"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "A firm has fixed costs of $60,000 per year. It sells each unit for $20, and its variable cost is a constant $12 per unit. Assume every unit produced is sold. What is the breakeven quantity, in units per year?",
+        "options": [
+          {
+            "text": "7,500 units",
+            "value": 7500,
+            "explanation": "Correct. Each unit contributes price minus variable cost, 20 − 12 = $8, toward fixed costs. Breakeven is where total contribution equals fixed costs: 60,000 ÷ 8 = 7,500 units."
+          },
+          {
+            "text": "3,000 units",
+            "value": 3000,
+            "explanation": "Mistake: dividing fixed costs by price (60,000 ÷ 20) and ignoring variable cost per unit. This treats the whole price as available to cover fixed costs."
+          },
+          {
+            "text": "5,000 units",
+            "value": 5000,
+            "explanation": "Mistake: dividing fixed costs by the variable cost per unit (60,000 ÷ 12) instead of by price minus variable cost."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "breakevenQuantity",
+          "args_json": "{\"fixedCosts\":60000,\"price\":20,\"variableCost\":12}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose C (high): Contribution margin is 20 - 12 = $8 per unit. Breakeven is 60,000 / 8 = 7,500 units. Check: option A is 7,500, so that is the answer, not C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "For a firm with positive fixed costs, how does the short-run shutdown price compare with the breakeven price?",
+        "options": [
+          {
+            "text": "The shutdown price is above the breakeven price, because fixed costs are sunk",
+            "value": null,
+            "explanation": "Mistake: reversing the order. Sunk fixed costs make the firm willing to operate at prices below ATC, so the shutdown price is lower."
+          },
+          {
+            "text": "The two are equal, because both occur where price equals marginal cost",
+            "value": null,
+            "explanation": "Mistake: ignoring that the two points are on different curves. Shutdown is where MC crosses AVC, breakeven where MC crosses ATC, and these differ when fixed costs exist."
+          },
+          {
+            "text": "The shutdown price is below the breakeven price, because ATC includes fixed cost per unit",
+            "value": null,
+            "explanation": "Correct. Shutdown is at the minimum of AVC and breakeven at the minimum of ATC. Since ATC = AVC + AFC and AFC is positive, the minimum ATC lies above the minimum AVC."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:5",
+          "os:principles-economics-3e:m63906:4.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes diseconomies of scale?",
+        "options": [
+          {
+            "text": "Long-run average cost rises as the firm expands all inputs, for example because management is harder to coordinate",
+            "value": null,
+            "explanation": "Correct. Diseconomies of scale are a long-run effect in which LRAC increases with size, often from coordination and monitoring problems."
+          },
+          {
+            "text": "Short-run marginal cost rises because additional workers share a fixed plant",
+            "value": null,
+            "explanation": "Mistake: describing diminishing marginal returns, which are a short-run effect of a fixed input, not a scale effect."
+          },
+          {
+            "text": "Average fixed cost falls as output rises because fixed cost is spread over more units",
+            "value": null,
+            "explanation": "Mistake: describing the spreading of fixed costs, which is a source of economies of scale, not diseconomies."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "flatworld-policy-and-theory-of-international-economics:311:271",
+          "os:principles-economics-3e:m63682:4.1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "A firm pays $40,000 per year in rent and $50,000 per year in salaries for permanent staff; both are fixed costs. Each unit sells for $12 and has a constant variable cost of $8. What is the breakeven quantity, in units per year?",
+        "options": [
+          {
+            "text": "10,000 units",
+            "value": 10000,
+            "explanation": "Mistake: counting only the rent (40,000 ÷ 4) and leaving out the fixed salaries."
+          },
+          {
+            "text": "7,500 units",
+            "value": 7500,
+            "explanation": "Mistake: dividing total fixed costs by price (90,000 ÷ 12) rather than by price minus variable cost."
+          },
+          {
+            "text": "22,500 units",
+            "value": 22500,
+            "explanation": "Correct. Total fixed costs = 40,000 + 50,000 = 90,000. Contribution per unit = 12 − 8 = 4. Breakeven = 90,000 ÷ 4 = 22,500."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "breakevenQuantity",
+          "args_json": "{\"fixedCosts\":90000,\"price\":12,\"variableCost\":8}"
+        },
+        "cited_chunk_ids": []
+      },
+      "badge": "verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Fixed costs are 40,000 + 50,000 = 90,000. Contribution margin is 12 - 8 = 4. Breakeven is 90,000 / 4 = 22,500 units, which is option C."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A monopolistically competitive firm sets its price and, at its profit-maximizing output, has total revenue of $800,000, total variable cost of $900,000 and total fixed cost of $300,000 in the short run. What is its best short-run decision?",
+        "options": [
+          {
+            "text": "Keep operating, because total revenue exceeds the $300,000 of fixed costs",
+            "value": null,
+            "explanation": "Mistake: comparing revenue with fixed costs. Revenue must be compared with variable costs; operating loses $400,000 (800 − 1,200)."
+          },
+          {
+            "text": "Shut down, because revenue is below variable cost, limiting the loss to $300,000",
+            "value": null,
+            "explanation": "Correct. TR ($800,000) < TVC ($900,000). Operating gives a loss of 800 − 1,200 = −$400,000, whereas shutting down loses only the $300,000 of fixed costs. The rule applies to firms with pricing power too."
+          },
+          {
+            "text": "Keep operating, because a firm with pricing power cannot be forced to shut down in the short run",
+            "value": null,
+            "explanation": "Mistake: thinking the shutdown rule applies only to price takers. Any firm whose revenue falls short of variable cost does better by stopping."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:4",
+          "os:principles-economics-3e:m63906:4.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "In an industry, long-run average cost falls until output reaches 10,000 units per year and then stays flat. Market demand at a price equal to that minimum cost is only 6,000 units per year. Which outcome is most likely?",
+        "options": [
+          {
+            "text": "Several firms each operate at minimum efficient scale and share the market",
+            "value": null,
+            "explanation": "Mistake: ignoring that demand (6,000) is below the output needed for even one firm to reach minimum efficient scale (10,000)."
+          },
+          {
+            "text": "One firm serves the market, because a smaller entrant would face higher average cost",
+            "value": null,
+            "explanation": "Correct. Demand intersects the downward-sloping part of LRAC, which is a natural monopoly. A single firm has lower average cost than any two smaller firms could achieve."
+          },
+          {
+            "text": "Perfect competition arises, because falling average cost makes entry easy for new firms",
+            "value": null,
+            "explanation": "Mistake: economies of scale relative to market size act as a barrier to entry; they do not encourage many small firms."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63913:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm in a competitive industry has total revenue of $500,000, total variable cost of $380,000 and total fixed cost of $180,000 this year. It expects the same results next year, when its lease expires. Which course of action is best?",
+        "options": [
+          {
+            "text": "Shut down now, because total revenue is below total cost",
+            "value": null,
+            "explanation": "Mistake: applying the long-run rule (TR < TC) in the short run. Fixed costs are owed anyway, so closing now would lose $180,000 versus the $60,000 loss from operating."
+          },
+          {
+            "text": "Operate indefinitely, because revenue exceeds variable cost",
+            "value": null,
+            "explanation": "Mistake: ignoring the long run. When the fixed commitments end, all costs are avoidable and a persistent loss means the firm should leave."
+          },
+          {
+            "text": "Operate now, and exit when fixed commitments end if conditions persist",
+            "value": null,
+            "explanation": "Correct. TR ($500,000) > TVC ($380,000), so operating reduces the loss to $60,000 versus $180,000 if it closes. Once the lease ends, TR < TC means a persistent economic loss, so it should exit."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:4",
+          "os:principles-economics-3e:m63906:4.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the short-run shutdown rule for a firm?",
+        "back": "Shut down if total revenue is less than total variable cost (price below average variable cost at the chosen output). Otherwise keep producing, even at a loss, because the loss is smaller than total fixed cost.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:4",
+          "os:principles-economics-3e:m63906:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do the breakeven and short-run shutdown points differ?",
+        "back": "Breakeven: TR = TC, price equals ATC (zero economic profit). Shutdown: TR = TVC, price equals AVC. The shutdown price is the lower one because ATC = AVC + AFC.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63906:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the breakeven quantity when variable cost per unit is constant?",
+        "back": "Fixed costs divided by (price − variable cost per unit).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Economies of scale versus diseconomies of scale: what is the difference?",
+        "back": "Economies of scale: long-run average cost falls as output grows (for example, fixed costs spread over more units). Diseconomies of scale: long-run average cost rises as the firm grows too large (for example, coordination problems).",
+        "cited_chunk_ids": [
+          "flatworld-policy-and-theory-of-international-economics:311:271"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "When does a natural monopoly arise?",
+        "back": "When market demand is too small to support more than one firm at minimum efficient scale, so market demand meets the long-run average cost curve while it is still falling.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63913:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/8 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T22:33:46.927Z",
+      "purpose": "blind-solve",
+      "losId": "econ-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1117,
+      "outputTokens": 808,
+      "cacheWriteTokens": 585,
+      "cacheReadTokens": 0,
+      "costUsd": 0.0117765,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:33:53.561Z",
+      "purpose": "repair",
+      "losId": "econ-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9784,
+      "outputTokens": 800,
+      "cacheWriteTokens": 4720,
+      "cacheReadTokens": 0,
+      "costUsd": 0.039368,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:33:54.789Z",
+      "purpose": "blind-solve",
+      "losId": "econ-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 118,
+      "outputTokens": 99,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001343,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:34:05.174Z",
+      "purpose": "grounding",
+      "losId": "econ-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13935,
+      "outputTokens": 1438,
+      "cacheWriteTokens": 846,
+      "cacheReadTokens": 0,
+      "costUsd": 0.044365,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.09685250000000001
+}

@@ -1,0 +1,472 @@
+{
+  "losId": "econ-01-los5",
+  "losText": "identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures",
+  "moduleId": "econ-01",
+  "moduleTitle": "The Firm and Market Structures",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T22:06:53.517Z",
+  "retrieved": [
+    {
+      "id": "os:principles-economics-3e:m63913:0",
+      "title": "Principles of Economics 3e",
+      "locator": "§9.1 How Monopolies Form: Barriers to Entry — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63913:7",
+      "title": "Principles of Economics 3e",
+      "locator": "§9.1 How Monopolies Form: Barriers to Entry — Self-Check Questions",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63856:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.2 Oligopoly — Tradeoffs of Imperfect Competition",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-2-oligopoly",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63856:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.2 Oligopoly — Why Do Oligopolies Exist?",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-2-oligopoly",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:513:428",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 513–514",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=513",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63855:0.1",
+      "title": "Principles of Economics 3e",
+      "locator": "Ch. 10 Monopolistic Competition and Oligopoly — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-introduction",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63887:3",
+      "title": "Principles of Economics 3e",
+      "locator": "§11.1 Corporate Mergers — The Herfindahl-Hirschman Index",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/11-1-corporate-mergers",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-economics-3e:m63887:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§11.1 Corporate Mergers — Critical Thinking Questions",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/11-1-corporate-mergers",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:3.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — How a Monopolistic Competitor Chooses Price and Quantity",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63913:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§9.1 How Monopolies Form: Barriers to Entry — Summing Up Barriers to Entry",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63680:0.1",
+      "title": "Principles of Economics 3e",
+      "locator": "Ch. 7 Production, Costs, and Industry Structure — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/7-introduction",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63887:3.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§11.1 Corporate Mergers — The Herfindahl-Hirschman Index",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/11-1-corporate-mergers",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Spotting a Firm's Market Structure and Measuring Industry Concentration",
+      "summary": "This lesson shows how to decide whether a firm sits in perfect competition, monopolistic competition, oligopoly or monopoly from a few observable facts. It also covers the two standard concentration measures, the N-firm ratio and the Herfindahl-Hirschman Index, and why neither is a full picture of competition.",
+      "sections": [
+        {
+          "heading": "Four questions that sort any industry",
+          "body_markdown": "Think of market structures as points on a dial from 'many rivals, no control over price' to 'no rivals, lots of control'. You place a firm on the dial by asking four questions:\n\n1. **How many sellers are there?** Many, a few, or one.\n2. **How alike are the products?** Identical, differentiated (similar but not the same), or with no close substitute.\n3. **How hard is entry?** **Barriers to entry** are legal, technological or market forces that keep new firms out, such as patents, huge fixed costs, or control of a scarce resource.\n4. **How much pricing power does the firm have, and how does it compete?** On price alone, on branding and quality, or by reacting to rivals' moves.\n\nThe answers to these four questions, not the firm's size or fame, determine the structure."
+        },
+        {
+          "heading": "Matching the facts to the structure",
+          "body_markdown": "- **Perfect competition:** very many sellers, identical product, no barriers. Each firm is a *price taker*: it accepts the market price.\n- **Monopolistic competition:** many sellers, differentiated products, low barriers. Firms have a little pricing power because their product is slightly different, and they compete through branding, advertising and quality. Think of the many clothing shops in a large mall.\n- **Oligopoly:** a few firms dominate, the product may be identical or differentiated, and barriers are high (large economies of scale, patents, brand-building costs). Each firm's best move depends on what rivals do, so decisions are *interdependent*. Commercial jets (Boeing and Airbus) are the classic case.\n- **Pure monopoly:** one seller, no close substitutes, very high barriers (a legal monopoly, a natural monopoly such as a local water utility, or control of a key resource). The firm has the most pricing power, although regulation can limit it.\n\nA useful shortcut: if the facts mention *rivals reacting to each other*, think oligopoly. If they mention *many firms and branding*, think monopolistic competition. If they mention *identical product and price taking*, think perfect competition."
+        },
+        {
+          "heading": "Concentration measures: N-firm ratio and HHI",
+          "body_markdown": "Analysts and regulators want a quick number for how much of an industry's sales sit with a few firms. That number is called **concentration**.\n\nThe **N-firm concentration ratio** adds up the market shares of the $N$ largest firms. The four-firm ratio is the most common. A ratio near 0 suggests many small firms. A ratio near 100% suggests a few firms control the market.\n\nThe **Herfindahl-Hirschman Index (HHI)** squares every firm's market share and adds the results. Squaring gives large firms much more weight. With shares in percentage points the scale runs from near 0 (very many tiny firms) to 10,000 (one firm with 100%). If shares are written as decimals the index runs from near 0 to 1, and the ranking of industries is unchanged. Always check which scale a question uses.\n\nRule of thumb: a low HHI points toward perfect or monopolistic competition, a middle-to-high HHI points toward oligopoly, and a value at or near the maximum points toward monopoly. Regulators once used HHI cut-offs (for example, below 1,000 as unconcentrated and above 1,800 as highly concentrated) to screen mergers. Treat those cut-offs as illustrative, because authorities have moved toward case-by-case analysis."
+        },
+        {
+          "heading": "What concentration measures cannot tell you",
+          "body_markdown": "Both measures are useful screening tools, but they are crude.\n\n- **Ratio ignores the spread among the top N.** Two industries can both have a four-firm ratio of 80 while one has five equal firms and the other has a near-monopolist. The ratio cannot distinguish them. HHI can (here 2,000 versus 5,952).\n- **Ratio is blind to mergers** among firms inside the top N, or among firms outside it. HHI does rise when firms merge, because the squared shares increase.\n- **Neither captures barriers to entry or potential entrants.** A concentrated market with easy entry may still be competitive. A fragmented market with high barriers may not be.\n- **Market definition matters.** Both depend on how the market is drawn: which products count as substitutes and which geographic area is used. Import competition and close substitutes outside the chosen market are ignored.\n- **Neither measures pricing power directly.** They do not use price elasticity of demand, profit margins or actual rivalry. They are indicators, not proof, of market power."
+        }
+      ],
+      "worked_example": {
+        "problem": "An industry has eight firms with market shares of 30%, 25%, 20%, 10%, 5%, 5%, 3% and 2% of total sales. (a) Find the four-firm concentration ratio. (b) Find the HHI using shares in percentage points. (c) State what a merger of the two 5% firms does to each measure.",
+        "steps": [
+          "Check that the shares add to 100: 30 + 25 + 20 + 10 + 5 + 5 + 3 + 2 = 100.",
+          "(a) Four-firm ratio: add the four largest shares. 30 + 25 + 20 + 10 = 85, so the ratio is 85%.",
+          "(b) HHI: square each share and add. 30² = 900, 25² = 625, 20² = 400, 10² = 100, 5² = 25, 5² = 25, 3² = 9, 2² = 4.",
+          "Total: 900 + 625 + 400 + 100 + 25 + 25 + 9 + 4 = 2,088.",
+          "BA II Plus: key 30 [x²] [+] 25 [x²] [+] 20 [x²] [+] 10 [x²] [+] 5 [x²] [+] 5 [x²] [+] 3 [x²] [+] 2 [x²] [=]. Press [x²] straight after each share so it is squared before it is added. The display shows 2,088.",
+          "(c) Merger of the two 5% firms: the merged firm has 10%, which ties with the current fourth-largest firm. The top four still sum to 85, so the ratio is unchanged.",
+          "The two 5% firms contributed 25 + 25 = 50 to HHI. The merged firm contributes 10² = 100, so HHI rises by 50 to 2,138.",
+          "Interpretation: with a four-firm ratio of 85 and an HHI above 2,000, the industry is highly concentrated and fits an oligopoly, provided entry barriers are also high."
+        ],
+        "answer": "Four-firm ratio = 85%; HHI = 2,088. A merger of the two 5% firms leaves the ratio at 85% but raises HHI by 50 to 2,138.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "N-firm concentration ratio",
+          "latex": "CR_N=\\sum_{i=1}^{N} s_i",
+          "where": "$s_i$ is the market share of the $i$th largest firm (share of industry sales), and $N$ is the number of largest firms included, often 4."
+        },
+        {
+          "name": "Herfindahl-Hirschman Index",
+          "latex": "HHI=\\sum_{i=1}^{n} s_i^{2}",
+          "where": "$s_i$ is the market share of firm $i$ (in percentage points the index runs up to 10,000; in decimals up to 1), and $n$ is the number of firms in the industry."
+        }
+      ],
+      "exam_traps": [
+        "Adding the shares for HHI instead of squaring them. That just gives 100 (or 1), which says nothing about concentration.",
+        "Concluding that two industries are equally competitive because their four-firm ratios match. The ratio ignores how shares are split among the top firms.",
+        "Treating a high concentration measure as proof of market power. Easy entry, close substitutes or import competition can keep a concentrated market competitive.",
+        "Mixing scales: squaring decimal shares and then comparing with a 10,000-point threshold, or the reverse.",
+        "Naming the structure from a firm's size or fame rather than from the number of sellers, product differentiation and barriers to entry."
+      ],
+      "builds_on": [
+        "Characteristics of the four market structures",
+        "Barriers to entry",
+        "Market share and industry sales"
+      ],
+      "leads_to": [
+        "Pricing and output under monopolistic competition",
+        "Strategic pricing under oligopoly",
+        "Antitrust and merger review"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63680:0.1",
+        "os:principles-economics-3e:m63855:0.1",
+        "os:principles-economics-3e:m63887:3",
+        "os:principles-economics-3e:m63887:3.1",
+        "os:principles-economics-3e:m63887:6",
+        "os:principles-economics-3e:m63913:0",
+        "os:principles-economics-3e:m63913:6"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A town has about 40 independent coffee shops. Each sells its own blend with its own decor, and each advertises to build a loyal customer base. A new shop can open with a modest investment. Which market structure best describes these firms?",
+        "options": [
+          {
+            "text": "Perfect competition",
+            "value": null,
+            "explanation": "Perfect competition requires identical products and pure price taking. These shops differentiate their product and advertise, so this confuses 'many sellers' with 'identical sellers'."
+          },
+          {
+            "text": "Monopolistic competition",
+            "value": null,
+            "explanation": "Correct: many sellers, differentiated products, low barriers to entry, and competition through branding and quality describe monopolistic competition."
+          },
+          {
+            "text": "Oligopoly",
+            "value": null,
+            "explanation": "Oligopoly needs a few dominant firms and high barriers, with rivals reacting to each other. Forty firms with easy entry is the wrong count and the wrong barriers."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63855:0.1",
+          "os:principles-economics-3e:m63680:0.1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Two firms supply nearly all of a specialised industrial component. Building a competing plant would cost billions, and each firm checks its rival's price before changing its own. Which structure is most consistent with these facts?",
+        "options": [
+          {
+            "text": "Pure monopoly",
+            "value": null,
+            "explanation": "A monopoly has a single seller and so has no rival whose reactions matter. Here there are two firms, so this miscounts the sellers."
+          },
+          {
+            "text": "Monopolistic competition",
+            "value": null,
+            "explanation": "Monopolistic competition has many firms and low barriers. A very costly entry requirement and only two sellers rule it out."
+          },
+          {
+            "text": "Oligopoly",
+            "value": null,
+            "explanation": "Correct: a few firms, high barriers from scale, and interdependent pricing decisions are the signature of oligopoly (here a duopoly)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63855:0.1",
+          "os:principles-economics-3e:m63856:1"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "An industry has six firms with shares of total sales of 35%, 25%, 15%, 10%, 8% and 7%. What is the four-firm concentration ratio?",
+        "options": [
+          {
+            "text": "85%",
+            "value": null,
+            "explanation": "Correct: add the four largest shares: 35 + 25 + 15 + 10 = 85."
+          },
+          {
+            "text": "75%",
+            "value": null,
+            "explanation": "This adds only the top three firms (35 + 25 + 15), so it uses N = 3 instead of 4."
+          },
+          {
+            "text": "93%",
+            "value": null,
+            "explanation": "This adds the top five firms (35 + 25 + 15 + 10 + 8), so it uses N = 5 instead of 4."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An industry has five firms with market shares of 40%, 30%, 20%, 5% and 5%. Using shares in percentage points (so the index can reach 10,000), what is the HHI?",
+        "options": [
+          {
+            "text": "2,900",
+            "value": null,
+            "explanation": "This squares only the three largest shares (1,600 + 900 + 400) and leaves out the two 5% firms. HHI sums over every firm."
+          },
+          {
+            "text": "2,950",
+            "value": null,
+            "explanation": "Correct: 40² + 30² + 20² + 5² + 5² = 1,600 + 900 + 400 + 25 + 25 = 2,950."
+          },
+          {
+            "text": "100",
+            "value": null,
+            "explanation": "This simply adds the shares without squaring. That total is always 100 and carries no information about concentration."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Industry X has five firms with 20% each. Industry Y has one firm with 77% and 23 firms with 1% each. Both have a four-firm concentration ratio of 80. Using shares in percentage points, which statement is correct?",
+        "options": [
+          {
+            "text": "The HHIs are equal because the four-firm ratios are equal.",
+            "value": null,
+            "explanation": "This assumes HHI behaves like the ratio. HHI squares shares, so it responds to how shares are distributed, not just to the top-four total."
+          },
+          {
+            "text": "Industry X has the higher HHI because its shares are more evenly spread.",
+            "value": null,
+            "explanation": "This reverses the effect of squaring. Equal shares give a lower HHI (2,000), while one very large share raises it sharply."
+          },
+          {
+            "text": "Industry Y has the higher HHI, about 5,952 versus 2,000 for X.",
+            "value": null,
+            "explanation": "Correct: Y = 77² + 23 × 1² = 5,929 + 23 = 5,952, while X = 5 × 20² = 2,000. Squaring gives the dominant firm heavy weight."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which statement describes a limitation that applies to both the N-firm concentration ratio and the HHI when they are used to judge market power?",
+        "options": [
+          {
+            "text": "They ignore barriers to entry and import competition, so a high reading can overstate market power.",
+            "value": null,
+            "explanation": "Correct: both are computed only from market shares within a chosen market, so they say nothing about how easily new or foreign rivals can enter."
+          },
+          {
+            "text": "They give no extra weight to large firms, so a near-monopolist looks like a small firm.",
+            "value": null,
+            "explanation": "This is false for HHI, which squares shares and so weights large firms heavily. It confuses HHI with an unweighted count of firms."
+          },
+          {
+            "text": "They directly measure each firm's price elasticity of demand, which makes them precise.",
+            "value": null,
+            "explanation": "Neither measure uses elasticity or price data. They are rough share-based indicators and not direct measures of pricing power."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:6",
+          "os:principles-economics-3e:m63887:3.1",
+          "os:principles-economics-3e:m63913:0"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An industry has eight firms with shares of 30%, 25%, 20%, 10%, 5%, 5%, 3% and 2%, so the four-firm ratio is 85 and the HHI (in percentage points) is 2,088. The two 5% firms merge into one 10% firm. What happens to the two measures?",
+        "options": [
+          {
+            "text": "The ratio rises to 90 and HHI rises by 10.",
+            "value": null,
+            "explanation": "This adds the merged firm's 10% on top of the existing top four and adds the merged share to HHI without squaring. The merged firm only ties the 10% firm, and HHI uses squares."
+          },
+          {
+            "text": "The ratio stays at 85 and HHI rises by 50.",
+            "value": null,
+            "explanation": "Correct: the top four still total 85. HHI changes from 25 + 25 = 50 to 10² = 100, a rise of 50 (to 2,138)."
+          },
+          {
+            "text": "The ratio stays at 85 and HHI stays at 2,088.",
+            "value": null,
+            "explanation": "This treats HHI as insensitive to mergers outside the top four, as the ratio is. HHI includes every firm, so combining two firms raises it."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A town's only piped-water supplier is the sole seller because duplicating the pipe network would be far too costly, and no close substitute for piped water exists. How should this firm's market structure be classified?",
+        "options": [
+          {
+            "text": "Pure monopoly (a natural monopoly)",
+            "value": null,
+            "explanation": "Correct: one seller, no close substitutes and very high barriers from economies of scale describe a natural monopoly."
+          },
+          {
+            "text": "Oligopoly",
+            "value": null,
+            "explanation": "Oligopoly requires a few firms whose decisions depend on each other. A single seller has no such rivals, so this miscounts the firms."
+          },
+          {
+            "text": "Monopolistic competition",
+            "value": null,
+            "explanation": "Monopolistic competition has many sellers with differentiated products and low barriers, the opposite of this situation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63913:6",
+          "os:principles-economics-3e:m63680:0.1"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What four features do you check to identify a firm's market structure?",
+        "back": "Number of sellers, how similar the products are, how hard entry is (barriers), and the firm's pricing power and way of competing.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63680:0.1"
+        ]
+      },
+      {
+        "front": "How is the Herfindahl-Hirschman Index (HHI) calculated, and what are its limits on the 0–10,000 scale?",
+        "back": "Square each firm's market share (in percentage points) and add them up. Near 0 means very many tiny firms; 10,000 means a single firm with 100%.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "front": "Why can HHI be more informative than the four-firm concentration ratio?",
+        "back": "HHI squares shares, so it reflects how shares are split and rises when firms merge. The ratio only totals the top N and ignores the split and mergers among other firms.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:3"
+        ]
+      },
+      {
+        "front": "Name two limitations shared by concentration measures.",
+        "back": "They ignore barriers to entry and potential or foreign competition, and they depend on how the market is defined. They do not directly measure pricing power.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63887:6",
+          "os:principles-economics-3e:m63913:0"
+        ]
+      },
+      {
+        "front": "Which structure has few firms, high barriers and pricing decisions that depend on rivals' reactions?",
+        "back": "Oligopoly.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63855:0.1"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T22:06:53.517Z",
+      "purpose": "generate",
+      "losId": "econ-01-los5",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 7831,
+      "outputTokens": 11900,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.1358182,
+      "stopReason": "end_turn"
+    }
+  ]
+}

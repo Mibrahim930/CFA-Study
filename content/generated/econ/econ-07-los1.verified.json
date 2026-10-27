@@ -1,0 +1,849 @@
+{
+  "losId": "econ-07-los1",
+  "losText": "describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency",
+  "moduleId": "econ-07",
+  "moduleTitle": "Capital Flows and the FX Market",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:41:09.243Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "ecb-wp1415-capital-controls:15:20",
+      "title": "Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012)",
+      "locator": "pp. 15–16",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1415.pdf#page=15",
+      "license": "© European Central Bank 2012; all rights reserved, free to download (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "ecb-wp1415-capital-controls:34:37",
+      "title": "Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012)",
+      "locator": "pp. 34–35",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1415.pdf#page=34",
+      "license": "© European Central Bank 2012; all rights reserved, free to download (private grounding only)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-economics-3e:m63724:1.3",
+      "title": "Principles of Economics 3e",
+      "locator": "§19.2 Adjusting Nominal Values to Real Values — Converting Nominal to Real GDP",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/19-2-adjusting-nominal-values-to-real-values",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:2:2",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "pp. 2–3",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=2",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "imf-wb-lic-dsf-2018:64:79",
+      "title": "Guidance Note on the Bank-Fund Debt Sustainability Framework for Low Income Countries (IMF and World Bank staff)",
+      "locator": "pp. 64–65",
+      "url": "https://www.worldbank.org/content/dam/LIC%20DSF/Site%20File/assets/documentation/pp122617guidance-note-on-lic-dsf.pdf#page=64",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:49:89",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 49",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=49",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p1:89:146",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 89",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=89",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:405:345",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 405–408",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=405",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "boe-anderson-sleath-yield-curves:28:25",
+      "title": "New estimates of the UK real and nominal yield curves (N. Anderson and J. Sleath, Bank of England Working Paper 126; spot and forward rates)",
+      "locator": "pp. 28–29",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2001/new-estimates-of-the-uk-real-and-nominal-yield-curves.pdf#page=28",
+      "license": "© Bank of England; free to download, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-international-business:362:359",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 362–363",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=362",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:394:340",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 394–396",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=394",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "suranovic-intl-finance:172:173",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 172–173",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=172",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "How Currencies Are Traded, Quoted and Measured",
+      "summary": "The foreign exchange market is where one currency is swapped for another, and every exchange rate is simply the price of one currency in terms of another. This lesson teaches you to read quotes correctly, tell nominal from real rates, and compute how much a currency has gained or lost, which is the base skill for the rest of the FX module.",
+      "sections": [
+        {
+          "heading": "What the FX market does and who is in it",
+          "body_markdown": "The **foreign exchange (FX) market** is the global, mostly over-the-counter (OTC) network of dealers, not a single exchange building. OTC means trades are negotiated directly between two parties, by screen or phone. It runs nearly around the clock on business days.\n\nIts main jobs:\n- **Converting currency** so that people can buy foreign goods, services and assets.\n- **Hedging**: locking in a rate today so that a future foreign-currency payment or receipt has a known value at home.\n- **Speculating**: deliberately taking a position to profit from rate moves.\n\nParticipants are usually split into two groups:\n- **Sell side**: a small number of large dealer banks that act as market makers, meaning they quote prices at which they will both buy and sell.\n- **Buy side**: the clients who use those quotes. These include corporations (paying for imports, receiving export income), investment funds such as mutual funds, pension funds and sovereign wealth funds, hedge funds, retail traders, and governments and central banks.\n\nThe main products are spot (immediate delivery, in practice about two business days), forwards (fixed rate for a later date), swaps, futures and options."
+        },
+        {
+          "heading": "Reading a quote: price currency and base currency",
+          "body_markdown": "An exchange rate quote is written **price currency / base currency** (for example USD/EUR). It tells you how many units of the *price currency* you pay for **one unit of the base currency**. If USD/EUR = 1.2500, one euro costs 1.25 dollars. The euro is the base; its value is being stated in dollars.\n\nThink of a shop: the base currency is the item on the shelf and the price currency is the money on the price tag.\n\nA **direct quote** (from the viewpoint of a given country) has the *domestic* currency as the price currency: domestic currency per one unit of foreign. An **indirect quote** is the reverse. Because the terms confuse people, always rely on the price/base reading instead of the words 'direct' or 'indirect'.\n\nThe reciprocal flips the roles. If USD/EUR = 1.25, then EUR/USD = 1/1.25 = 0.80, and now the dollar is the base."
+        },
+        {
+          "heading": "Nominal versus real exchange rates",
+          "body_markdown": "The **nominal exchange rate** is the market quote itself, with no adjustment for what the money can buy.\n\nThe **real exchange rate** adjusts the nominal rate for price levels in the two countries, so it measures the purchasing power of one currency against another. Using $d$ for the domestic currency and $f$ for the foreign currency, with price indexes (such as CPI) for each country:\n\n$$\\text{Real } S_{d/f}=S_{d/f}\\times\\frac{CPI_f}{CPI_d}$$\n\nThe result is the number of domestic baskets of goods that one foreign basket costs. Compare two prices: a foreign basket costs $S_{d/f}\\times CPI_f$ in domestic currency, and a domestic basket costs $CPI_d$.\n\nIf the real rate rises, foreign goods become more expensive relative to domestic goods, which is a real depreciation of the domestic currency. If it falls, the domestic currency has appreciated in real terms.\n\nBase-period logic: when both price indexes start at 100, real and nominal rates coincide at the start. After that, only the *change* in the real rate is informative. With a constant nominal rate, higher domestic inflation than foreign inflation lowers the real rate, so the domestic currency strengthens in real terms."
+        },
+        {
+          "heading": "Percentage change in a currency",
+          "body_markdown": "A quote P/B rising means the base currency is worth more price-currency units, so the **base currency appreciates** and the price currency depreciates.\n\n**Base currency (the one in the denominator):**\n$$\\%\\Delta_{\\text{base}}=\\frac{S_1}{S_0}-1$$\n\n**Price currency (the one in the numerator):** its value in base units is the reciprocal of the quote, so\n$$\\%\\Delta_{\\text{price}}=\\frac{S_0}{S_1}-1$$\n\nThe two changes are **not mirror images**. If USD/EUR goes from 1.20 to 1.26, the euro gains 5.00%, but the dollar loses only $1.20/1.26-1=-4.76\\%$. The reason is that the percentage is measured against a different starting value in each case.\n\nExam routine: (1) write the quote as P/B, (2) decide whether the currency you are asked about is the base or the price currency, (3) apply the matching formula using the start and end quotes."
+        }
+      ],
+      "worked_example": {
+        "problem": "The quote USD/EUR (dollars per one euro) rises from 1.2000 at the start of the year to 1.2600 at the end of the year. What is the percentage change in the euro relative to the dollar, and what is the change in the dollar relative to the euro?",
+        "steps": [
+          "Read the quote: USD is the price currency and EUR is the base currency, so a higher quote means the euro is worth more dollars.",
+          "Euro (base) change: $S_1/S_0-1 = 1.2600/1.2000-1$.",
+          "BA II Plus: 1.26 ÷ 1.2 = gives 1.05; then − 1 = gives 0.05; × 100 = gives 5.00. The euro appreciated 5.00% against the dollar.",
+          "Dollar (price currency) change: $S_0/S_1-1 = 1.2000/1.2600-1$.",
+          "BA II Plus: 1.2 ÷ 1.26 = gives 0.952381; − 1 = gives −0.047619; × 100 = gives −4.76. The dollar depreciated about 4.76% against the euro.",
+          "Check: the gains are not symmetric, so +5.00% for the euro and −4.76% for the dollar is consistent."
+        ],
+        "answer": "The euro appreciated by +5.00% against the dollar (the dollar fell by about 4.76% against the euro).",
+        "answer_value": 0.05,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":1.2,\"endPrice\":1.26}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Percentage change in the base currency",
+          "latex": "\\%\\Delta_{\\text{base}}=\\frac{S_1}{S_0}-1",
+          "where": "S_0 and S_1 are the beginning and ending quotes in price currency per one unit of base currency; the result is the change in the base currency's value."
+        },
+        {
+          "name": "Percentage change in the price currency",
+          "latex": "\\%\\Delta_{\\text{price}}=\\frac{S_0}{S_1}-1",
+          "where": "S_0 and S_1 are the beginning and ending P/B quotes; the result is the change in the value of the price currency against the base currency."
+        },
+        {
+          "name": "Real exchange rate",
+          "latex": "\\text{Real }S_{d/f}=S_{d/f}\\times\\frac{CPI_f}{CPI_d}",
+          "where": "S_{d/f} is the nominal quote of domestic currency per one unit of foreign currency; CPI_f and CPI_d are the foreign and domestic price indexes on the same base period."
+        },
+        {
+          "name": "Reciprocal quote",
+          "latex": "S_{B/P}=\\frac{1}{S_{P/B}}",
+          "where": "S_{P/B} is the price per unit of base; the reciprocal swaps which currency is the base."
+        }
+      ],
+      "exam_traps": [
+        "Applying the base-currency formula to the price currency (or the reverse). Always identify which currency sits in the denominator of the quote before calculating.",
+        "Assuming symmetry: a 10% rise in the quote does not mean the other currency falls 10%. It falls $1/1.10-1=-9.09\\%$.",
+        "Dividing by the new rate instead of the old one: the percentage change always uses the starting value of the currency whose change you are measuring.",
+        "Writing the real exchange rate with the CPI ratio inverted ($CPI_d/CPI_f$). Check the logic: higher foreign prices should raise the cost of the foreign basket, so $CPI_f$ goes in the numerator for a d/f quote.",
+        "Thinking a constant nominal rate means constant competitiveness. If inflation differs between countries, the real rate still moves."
+      ],
+      "builds_on": [
+        "Percentage change and reciprocals",
+        "Inflation and price indexes"
+      ],
+      "leads_to": [
+        "Exchange rate regimes",
+        "Effects of exchange rates on trade and capital flows",
+        "Forward rates and interest rate parity"
+      ],
+      "cited_chunk_ids": [
+        "flatworld-international-business:362:359",
+        "suranovic-intl-finance:172:173",
+        "fed-trading-4000-p2:49:89",
+        "os:principles-economics-3e:m63724:1.3"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description of the two broad groups of participants in the FX market is most accurate?",
+        "options": [
+          {
+            "text": "Sell side: central banks and sovereign wealth funds; buy side: the dealer banks that quote the prices.",
+            "value": null,
+            "explanation": "This swaps the roles. Dealer banks are the market makers on the sell side, not the clients."
+          },
+          {
+            "text": "Sell side: hedge funds and retail traders; buy side: the large banks that create liquidity.",
+            "value": null,
+            "explanation": "Hedge funds and retail traders use dealer quotes, so they are buy-side clients. The banks are on the sell side."
+          },
+          {
+            "text": "Sell side: large dealer banks quoting two-way prices; buy side: corporations, investment funds and other end users.",
+            "value": null,
+            "explanation": "Correct. A handful of large banks make markets, and the buy side consists of clients that use those quotes to convert, hedge or speculate."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:49:89"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The JPY/USD quote (yen per one US dollar) falls from 110.00 to 104.50. The US dollar is the base currency. What is the percentage change in the value of the US dollar relative to the yen? Round to two decimals.",
+        "options": [
+          {
+            "text": "+5.26%",
+            "value": 0.052632,
+            "explanation": "This is $110/104.5-1$, which is the change in the yen against the dollar. It answers for the wrong currency."
+          },
+          {
+            "text": "−5.00%",
+            "value": -0.05,
+            "explanation": "Correct. The dollar is the base currency, so its change is $S_1/S_0-1=104.5/110-1=-5.00\\%$, a depreciation."
+          },
+          {
+            "text": "+5.00%",
+            "value": 0.05,
+            "explanation": "Sign error: the size is right, but a falling quote means the base currency lost value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":110,\"endPrice\":104.5}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-international-business:362:359",
+          "suranovic-intl-finance:172:173"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A US manufacturer will receive €5 million from a customer in three months. Today it agrees to sell those euros at a fixed USD rate for delivery in three months. Which FX market function is the company mainly using?",
+        "options": [
+          {
+            "text": "Hedging its currency risk",
+            "value": null,
+            "explanation": "Correct. Fixing the dollar value of a known future euro receipt removes uncertainty from exchange-rate moves."
+          },
+          {
+            "text": "Speculating on euro weakness",
+            "value": null,
+            "explanation": "Speculation means taking an open position to profit from rate moves. The firm already has the euro exposure and is closing it off."
+          },
+          {
+            "text": "Arbitraging between markets",
+            "value": null,
+            "explanation": "Arbitrage exploits price differences across markets for a riskless profit. Nothing here involves such a mismatch."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The USD/GBP quote (US dollars per one pound) falls from 1.5000 to 1.4400. The pound is the base currency. What is the percentage change in the value of the US dollar relative to the pound? Round to two decimals.",
+        "options": [
+          {
+            "text": "−4.00%",
+            "value": -0.04,
+            "explanation": "This is the change in the pound (the base currency), $1.44/1.5-1$. The question asks about the dollar."
+          },
+          {
+            "text": "+4.00%",
+            "value": 0.04,
+            "explanation": "This flips the sign of the pound's change but forgets that the dollar's change uses the reciprocal and a different starting value."
+          },
+          {
+            "text": "+4.17%",
+            "value": 0.041667,
+            "explanation": "Correct. The dollar is the price currency: $S_0/S_1-1=1.5/1.44-1=+4.17\\%$. It appreciated."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":1.44,\"endPrice\":1.5}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-international-business:362:359",
+          "suranovic-intl-finance:172:173"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "S is the domestic-currency price of one unit of foreign currency (d/f). The real exchange rate is defined as S × CPI_f / CPI_d, which measures how many domestic baskets of goods one foreign basket costs. Over one year S is unchanged, the domestic CPI rises 4% and the foreign CPI rises 1%. Which statement is correct?",
+        "options": [
+          {
+            "text": "The real rate rises, so one foreign basket costs more domestic baskets than a year ago.",
+            "value": null,
+            "explanation": "This inverts the price ratio and uses CPI_d/CPI_f, which is not the definition given. With S × CPI_f/CPI_d, faster domestic inflation puts a larger number in the denominator and lowers the real rate."
+          },
+          {
+            "text": "The real rate falls, so one foreign basket costs fewer domestic baskets than a year ago.",
+            "value": null,
+            "explanation": "Correct. With S unchanged, the real rate is multiplied by 1.01/1.04 ≈ 0.971, a fall of about 2.9%. Domestic prices rose faster than foreign prices, so the foreign basket became cheaper relative to the domestic basket."
+          },
+          {
+            "text": "The real rate is unchanged, so one foreign basket costs the same number of domestic baskets.",
+            "value": null,
+            "explanation": "This treats the real rate as moving only with the nominal rate. The real rate also depends on the two price levels, so it changes whenever inflation differs between the countries, even if S is constant."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose B (high): The real rate changes by the factor 1.01/1.04, which is about 0.971, so it falls. A lower real rate means foreign goods get relatively cheaper for domestic buyers, so A is correct, not B. With S unchanged, the real rate = S × CPIf/CPId falls by about 2.9%. Foreign goods in domestic terms became cheaper relative to domestic goods, so A is correct."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The MXN/USD quote (pesos per one US dollar) rises from 18.00 to 20.70. The dollar is the base currency. What is the percentage change in the value of the Mexican peso relative to the US dollar? Round to two decimals.",
+        "options": [
+          {
+            "text": "−13.04%",
+            "value": -0.130435,
+            "explanation": "Correct. The peso is the price currency: $S_0/S_1-1=18/20.7-1=-13.04\\%$, a depreciation."
+          },
+          {
+            "text": "+15.00%",
+            "value": 0.15,
+            "explanation": "This is the dollar's gain $(20.7/18-1)$, and it also mistakes a rising quote for a stronger peso."
+          },
+          {
+            "text": "−15.00%",
+            "value": -0.15,
+            "explanation": "The direction is right, but it uses $S_1/S_0-1$ (the base currency's change) and does not invert the quote for the price currency."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":20.7,\"endPrice\":18}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-international-business:362:359",
+          "suranovic-intl-finance:172:173"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "The CAD/USD quote (Canadian dollars per one US dollar) rises from 1.2000 to 1.3200, a 10.00% increase, so the US dollar is the base currency. What is the percentage change in the value of the Canadian dollar relative to the US dollar? Round to two decimals.",
+        "options": [
+          {
+            "text": "−10.00%",
+            "value": -0.1,
+            "explanation": "This assumes the changes are symmetric. The Canadian dollar's change must be measured against its own starting value in USD terms."
+          },
+          {
+            "text": "−9.09%",
+            "value": -0.090909,
+            "explanation": "Correct. The CAD is the price currency: $S_0/S_1-1=1.2/1.32-1=-9.09\\%$."
+          },
+          {
+            "text": "+9.09%",
+            "value": 0.090909,
+            "explanation": "Right size but wrong sign: a rising CAD/USD quote means the Canadian dollar weakened."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "hpr",
+          "args_json": "{\"beginPrice\":1.32,\"endPrice\":1.2}"
+        },
+        "cited_chunk_ids": [
+          "flatworld-international-business:362:359",
+          "suranovic-intl-finance:172:173"
+        ]
+      },
+      "badge": "quarantined",
+      "gates": {
+        "lint": {
+          "pass": false,
+          "issues": [
+            "options are not distinct"
+          ]
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+          ]
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "In a quote written P/B, which currency is the base and what does the number tell you?",
+        "back": "B is the base currency. The quote is the number of units of the price currency P needed to buy one unit of B.",
+        "cited_chunk_ids": [
+          "flatworld-international-business:362:359"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "How do you compute the percentage change in the base currency of a P/B quote?",
+        "back": "$S_1/S_0-1$, using the ending and beginning quotes. A rising quote means the base currency appreciated.",
+        "cited_chunk_ids": [
+          "suranovic-intl-finance:172:173"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you compute the percentage change in the price currency of a P/B quote, and why is it not the mirror image of the base's change?",
+        "back": "$S_0/S_1-1$. It is not symmetric because the price currency's value is the reciprocal of the quote, with a different starting value.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "What is the real exchange rate (d/f) and how does it differ from the nominal rate?",
+        "back": "Real $S_{d/f}=S_{d/f}\\times CPI_f/CPI_d$. It adjusts the nominal quote for price levels, so it measures purchasing power, not just the market price.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63724:1.3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Who are the sell-side and buy-side participants in the FX market?",
+        "back": "Sell side: large dealer banks that make markets by quoting prices. Buy side: corporations, investment funds, hedge funds, retail traders, governments and central banks.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:49:89"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T22:40:48.735Z",
+      "purpose": "blind-solve",
+      "losId": "econ-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 466,
+      "outputTokens": 313,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.004179,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:40:59.707Z",
+      "purpose": "repair",
+      "losId": "econ-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11084,
+      "outputTokens": 1371,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.036822,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:41:01.556Z",
+      "purpose": "blind-solve",
+      "losId": "econ-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 235,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001867,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:41:09.242Z",
+      "purpose": "grounding",
+      "losId": "econ-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14018,
+      "outputTokens": 1106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0392652,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0821332
+}

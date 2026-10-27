@@ -1,0 +1,769 @@
+{
+  "losId": "econ-03-los3",
+  "losText": "describe tools of fiscal policy, including their advantages and disadvantages",
+  "moduleId": "econ-03",
+  "moduleTitle": "Fiscal Policy",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:37:02.873Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-economics-3e:m64137:2.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§31.4 Fiscal Policy, Investment, and Economic Growth — The Interest Rate Connection",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/31-4-fiscal-policy-investment-and-economic-growth",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63969:0.1",
+      "title": "Principles of Economics 3e",
+      "locator": "Ch. 30 Government Budgets and Fiscal Policy — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/30-introduction",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "imf-wb-lic-dsf-2018:48:62",
+      "title": "Guidance Note on the Bank-Fund Debt Sustainability Framework for Low Income Countries (IMF and World Bank staff)",
+      "locator": "pp. 48–49",
+      "url": "https://www.worldbank.org/content/dam/LIC%20DSF/Site%20File/assets/documentation/pp122617guidance-note-on-lic-dsf.pdf#page=48",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "flatworld-international-business:429:426",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 429–430",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=429",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "suranovic-intl-finance:467:413",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 467–468",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=467",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63851:3",
+      "title": "Principles of Economics 3e",
+      "locator": "§25.2 The Building Blocks of Keynesian Analysis — The Expenditure Multiplier",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/25-2-the-building-blocks-of-keynesian-analysis",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:99:102",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 99–100",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=99",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:79:84",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 79–80",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=79",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "imf-wb-lic-dsf-2018:24:27",
+      "title": "Guidance Note on the Bank-Fund Debt Sustainability Framework for Low Income Countries (IMF and World Bank staff)",
+      "locator": "pp. 24–25",
+      "url": "https://www.worldbank.org/content/dam/LIC%20DSF/Site%20File/assets/documentation/pp122617guidance-note-on-lic-dsf.pdf#page=24",
+      "license": "© International Monetary Fund and World Bank; not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:1042:912",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 1042–1043",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=1042",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-economics-3e:m63824:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§33.2 What Happens When a Country Has an Absolute Advantage in All Goods — Production Possibilities and Comparative Advantage",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/33-2-what-happens-when-a-country-has-an-absolute-advantage-in-all",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-economics-3e:m64135:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§32.3 Causes of Unemployment around the World — Unemployment from a Recession",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/32-3-causes-of-unemployment-around-the-world",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "The Fiscal Toolkit: Spending, Taxes and Their Trade-offs",
+      "summary": "Governments influence the economy through what they spend and what they collect in taxes. Each tool has strengths and weaknesses, such as speed, targeting, side effects on incentives, and how long the effect takes to arrive, and the exam expects you to know them.",
+      "sections": [
+        {
+          "heading": "Two levers: money out and money in",
+          "body_markdown": "Think of a government as a very large household with two dials. One dial controls **spending** (money going out). The other controls **revenue**, mostly taxes (money coming in). **Fiscal policy** means changing these dials to steer the economy.\n\nTurning spending up or taxes down puts more money into the economy and pushes aggregate demand (total desired purchases of goods and services) higher. This is called *expansionary* policy. Turning spending down or taxes up does the opposite and is called *contractionary* policy. The choice of tool matters because each one reaches the economy through a different route."
+        },
+        {
+          "heading": "Spending tools",
+          "body_markdown": "Government spending falls into three groups:\n\n- **Transfer payments**: money handed over with no good or service received in return, such as unemployment benefits, pensions and housing support. *Advantage:* they can be aimed at specific groups, so they redistribute income and support households quickly. *Disadvantage:* they can weaken incentives to work if badly designed, and they are politically hard to cut once granted.\n- **Current spending**: the everyday running costs of government, such as public-sector wages, supplies and routine services like policing and schooling. *Advantage:* it delivers services people need and puts demand into the economy directly. *Disadvantage:* it recurs every year, so it builds a lasting commitment that is hard to scale back.\n- **Capital spending**: investment in long-lived assets such as roads, railways, hospitals and power grids. *Advantage:* it can raise the economy's productive capacity for decades. *Disadvantage:* projects take time to plan and build, so the boost to demand can arrive late, and badly chosen projects can waste money.\n\nOne analogy is the difference between giving a family cash (transfer), paying the family's monthly bills (current spending), and building them a new workshop (capital spending). Only the workshop makes them more productive later, but it also takes the longest to finish."
+        },
+        {
+          "heading": "Revenue tools: direct and indirect taxes",
+          "body_markdown": "**Direct taxes** are charged on a person's or firm's income or wealth. Examples are personal income tax, corporate tax, wealth or property tax, and payroll or social-security contributions. *Advantages:* they can be made *progressive* (higher earners pay a larger share), which supports redistribution, and they bring in more revenue when the economy booms. *Disadvantages:* high rates can reduce the reward for working, saving and investing, and they invite avoidance and evasion.\n\n**Indirect taxes** are charged on spending, such as sales tax, value-added tax (VAT), excise duties on fuel, alcohol or tobacco, and import tariffs. *Advantages:* rates can be changed quickly, they are collected at the point of sale, and they can discourage consumption of goods seen as harmful. *Disadvantages:* they tend to be *regressive* (they take a bigger share of a low-income household's income, because poorer households spend more of what they earn), and higher rates push up prices.\n\nA useful memory hook is that direct taxes hit *who you are* (income, wealth), while indirect taxes hit *what you buy*."
+        },
+        {
+          "heading": "Side effects that apply to every tool",
+          "body_markdown": "Several issues cut across the tools.\n\n- **Size of the effect.** One unit of spending can add more than one unit to GDP, because one person's spending becomes another person's income. This is the *multiplier*. Multipliers differ by tool. A tax cut aimed at wealthy households tends to have a smaller multiplier, because they save a large part of the extra income. Money given to households that spend most of it has more punch.\n- **Timing lags.** Passing a budget, planning projects and hiring all take time. For a mild recession, discretionary measures can arrive after the economy has already recovered.\n- **Crowding out.** If the government finances a deficit by borrowing, it competes for savings and can push interest rates up, reducing private investment. The effect is stronger if the central bank is also tightening, and weaker if the central bank is easing.\n- **Automatic stabilizers.** Some taxes and benefits adjust on their own, with no new law. Income-tax revenue falls in a downturn and unemployment benefits rise. They act with no delay but cannot be fine-tuned."
+        }
+      ],
+      "worked_example": {
+        "problem": "A government is planning four measures: (i) building a new rail line, (ii) paying monthly unemployment benefits, (iii) raising the VAT rate, and (iv) paying the salaries of public-school teachers. Classify each as a spending or revenue tool, name its type, and identify one advantage or disadvantage of each.",
+        "steps": [
+          "Rail line: the government is buying a long-lived asset, so this is **capital spending**. Advantage: raises productive capacity for years. Disadvantage: slow to plan and build, so demand support arrives late.",
+          "Unemployment benefits: money paid out with no good or service received in return, so this is a **transfer payment**. Advantage: targets people who lose income and who are likely to spend it. Disadvantage: it can weaken the incentive to look for work if poorly designed.",
+          "VAT increase: VAT is a tax on spending, so this is an **indirect tax** (revenue tool). Advantage: easy to adjust and collect. Disadvantage: tends to be regressive and raises prices.",
+          "Teachers' salaries: payment for a service delivered in the current period, so this is **current spending**. Advantage: provides a needed service and supports demand directly. Disadvantage: a recurring commitment that is hard to cut."
+        ],
+        "answer": "(i) capital spending; (ii) transfer payment; (iii) indirect tax; (iv) current spending. Three are spending tools and one (the VAT increase) is a revenue tool.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Calling public-sector salaries a transfer payment. Salaries buy a service, so they are current spending. A transfer has nothing delivered in exchange.",
+        "Mixing up direct and indirect taxes. Income, wealth and corporate taxes are direct. Sales tax, VAT, excise duties and tariffs are indirect.",
+        "Assuming indirect taxes are progressive. They are usually regressive, because poorer households spend a larger share of income.",
+        "Treating capital spending as the fast fix for a recession. It builds productive capacity but has long implementation lags. Transfers and tax changes usually act faster.",
+        "Ignoring that tools differ in effect per unit. Equal-sized changes in spending and in taxes do not have equal impact on demand, because it depends on how much of the money recipients spend."
+      ],
+      "builds_on": [
+        "Aggregate demand",
+        "Government budget deficit and surplus",
+        "Expenditure multiplier"
+      ],
+      "leads_to": [
+        "Implementation lags and fiscal stance",
+        "Automatic stabilizers vs discretionary policy",
+        "Crowding out and national debt"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63851:3",
+        "os:principles-economics-3e:m64135:1",
+        "os:principles-economics-3e:m64137:2.1",
+        "flatworld-policy-and-theory-of-international-economics:1042:912"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is best classified as a transfer payment?",
+        "options": [
+          {
+            "text": "Monthly salaries paid to civil servants",
+            "value": null,
+            "explanation": "Salaries are paid in exchange for work, so they are current spending. Treating any payment to individuals as a transfer is the mistake."
+          },
+          {
+            "text": "Unemployment benefits paid to jobless workers",
+            "value": null,
+            "explanation": "Correct. Money is paid out with no good or service received in return, which is the defining feature of a transfer payment."
+          },
+          {
+            "text": "Funding for building a new motorway",
+            "value": null,
+            "explanation": "A motorway is a long-lived asset, so this is capital spending. Confusing government outlays on projects with redistribution is the mistake."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which of the following is an indirect tax?",
+        "options": [
+          {
+            "text": "A value-added tax on goods and services",
+            "value": null,
+            "explanation": "Correct. VAT is charged on spending at the point of sale, which makes it an indirect tax."
+          },
+          {
+            "text": "A tax on corporate profits",
+            "value": null,
+            "explanation": "Corporate profit tax is levied on income, so it is a direct tax."
+          },
+          {
+            "text": "A tax on personal wage income",
+            "value": null,
+            "explanation": "Income tax is charged directly on earnings, so it is direct. The mistake is treating any tax paid regularly as indirect."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with transfer payments, what is a main advantage of capital spending?",
+        "options": [
+          {
+            "text": "It supports the incomes of particular low-income groups",
+            "value": null,
+            "explanation": "That is the strength of transfer payments, which can be targeted. Mixing up the two spending types is the mistake."
+          },
+          {
+            "text": "It delivers its demand boost faster than any other tool",
+            "value": null,
+            "explanation": "Capital projects usually have long planning and construction lags, so they are often slower. This is the speed mistake."
+          },
+          {
+            "text": "It can raise the economy's productive capacity for years",
+            "value": null,
+            "explanation": "Correct. Roads, rail and similar assets can lift productivity and long-run growth, which pure transfers cannot do."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with direct income taxes, which statement describes a typical advantage of indirect taxes?",
+        "options": [
+          {
+            "text": "The burden rises as a share of income as income rises",
+            "value": null,
+            "explanation": "That describes a progressive direct tax. Indirect taxes are usually regressive, so this confuses the two."
+          },
+          {
+            "text": "Rates can be changed quickly and can discourage some goods",
+            "value": null,
+            "explanation": "Correct. Indirect taxes are collected at the point of sale, so rates can be adjusted fast, and excise duties can curb consumption of harmful goods."
+          },
+          {
+            "text": "Revenue adjusts automatically with the business cycle",
+            "value": null,
+            "explanation": "Automatic cyclical adjustment is mostly a feature of income-based taxes and benefits (automatic stabilizers), not a special advantage of indirect taxes."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "The economy is near full capacity. The government expands spending financed by borrowing, while the central bank tightens monetary policy to restrain inflation. Which outcome is most likely?",
+        "options": [
+          {
+            "text": "Higher interest rates and substantial crowding out of private investment",
+            "value": null,
+            "explanation": "Correct. Government borrowing pushes interest rates up and tightening pushes them higher still, so private investment is squeezed out."
+          },
+          {
+            "text": "Lower interest rates and a sharp rise in private investment",
+            "value": null,
+            "explanation": "This ignores both the extra borrowing and the tightening, which push rates up. It reverses the direction of the effect."
+          },
+          {
+            "text": "No change in interest rates because spending and borrowing offset each other",
+            "value": null,
+            "explanation": "Borrowing to fund spending adds to the demand for savings. Assuming the spending somehow cancels its own financing is the mistake."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64137:2.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A country is in a mild recession. Which is the most plausible weakness of relying on a new large infrastructure programme as the main short-run stabilization tool?",
+        "options": [
+          {
+            "text": "It cannot add to aggregate demand because the spending goes on assets",
+            "value": null,
+            "explanation": "Capital spending does add to demand when it is paid for, so this is wrong. It confuses asset creation with a lack of spending."
+          },
+          {
+            "text": "It always reduces the productive capacity of the economy",
+            "value": null,
+            "explanation": "Well-chosen projects usually raise capacity. This reverses the long-run effect."
+          },
+          {
+            "text": "Planning and building take so long that the boost may arrive after the recession",
+            "value": null,
+            "explanation": "Correct. Implementation lags mean discretionary measures, especially capital projects, can take effect too late to be useful against a mild downturn."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64135:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A government has 1 billion currency units to inject into the economy. It can send it as transfers to low-income households or give it as a tax cut to the highest earners. Other things equal, why does the transfer usually boost aggregate demand more per unit?",
+        "options": [
+          {
+            "text": "Transfers are indirect, so they bypass the saving decision entirely",
+            "value": null,
+            "explanation": "Transfers are not indirect taxes and do not bypass saving. This misuses the direct and indirect terms."
+          },
+          {
+            "text": "Low-income households spend a larger share of any extra income",
+            "value": null,
+            "explanation": "Correct. Because more of each unit is spent and re-spent, the multiplier is larger. High earners save more of a tax cut, giving it a smaller multiplier."
+          },
+          {
+            "text": "High earners never respond to changes in their tax bills",
+            "value": null,
+            "explanation": "They do respond, but they save much of the gain. Saying they ignore the cut overstates the case and misses the spending-share logic."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63851:3"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What are the three categories of government spending used as fiscal tools?",
+        "back": "Transfer payments (no good or service in return), current spending (running costs and services), and capital spending (long-lived assets such as infrastructure).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Direct vs indirect taxes: what is the difference and give examples of each?",
+        "back": "Direct taxes are levied on income or wealth (personal income, corporate, property). Indirect taxes are levied on spending (VAT, sales tax, excise duties, tariffs).",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why can indirect taxes be a disadvantage for equity?",
+        "back": "They tend to be regressive: lower-income households spend a larger share of income, so they bear a larger share of the tax relative to income.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Main advantage and main drawback of capital spending as a fiscal tool?",
+        "back": "Advantage: raises productive capacity and long-run growth. Drawback: long planning and construction lags, so the demand boost may come late.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m64135:1"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why do different fiscal tools have different strengths per unit of money?",
+        "back": "The expenditure multiplier depends on how much recipients spend. Money to high-spending households has a bigger effect than a tax cut to high earners who save most of it.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63851:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T22:36:54.496Z",
+      "purpose": "blind-solve",
+      "losId": "econ-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 749,
+      "outputTokens": 572,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007335,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:37:02.873Z",
+      "purpose": "grounding",
+      "losId": "econ-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11782,
+      "outputTokens": 1218,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0359132,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0432482
+}

@@ -1,0 +1,429 @@
+{
+  "losId": "econ-02-los2",
+  "losText": "describe credit cycles",
+  "moduleId": "econ-02",
+  "moduleTitle": "Understanding Business Cycles",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T22:08:53.326Z",
+  "retrieved": [
+    {
+      "id": "bea-business-cycle-indicators-2010:11:9",
+      "title": "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)",
+      "locator": "pp. 11–13",
+      "url": "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf#page=11",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.18
+    },
+    {
+      "id": "bea-business-cycle-indicators-2010:5:4",
+      "title": "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)",
+      "locator": "pp. 5–6",
+      "url": "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.13
+    },
+    {
+      "id": "bea-business-cycle-indicators-2010:3:3",
+      "title": "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)",
+      "locator": "pp. 3–5",
+      "url": "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf#page=3",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "suranovic-intl-finance:37:38",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 37–38",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=37",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:672:590",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 672–673",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=672",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63910:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§15.3 The Safety Net — Critical Thinking Questions",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/15-3-the-safety-net",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "flatworld-finance-banking-and-money:363:315",
+      "title": "Finance, Banking, and Money, v2.0 (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 363–364",
+      "url": "https://2012books.lardbucket.org/pdfs/finance-banking-and-money-v2.0.pdf#page=363",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fed-trading-4000-p1:51:81",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 1 (Federal Reserve)",
+      "locator": "p. 51",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p1.pdf#page=51",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.1
+    },
+    {
+      "id": "os:principles-economics-3e:m63943:4",
+      "title": "Principles of Economics 3e",
+      "locator": "§28.5 Pitfalls for Monetary Policy — Asset Bubbles and Leverage Cycles",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/28-5-pitfalls-for-monetary-policy",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63727:0.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§19.3 Tracking Real GDP over Time — Overview",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/19-3-tracking-real-gdp-over-time",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "bea-business-cycle-indicators-2010:3:2",
+      "title": "Business cycle indicators: leading, coincident and lagging (BEA paper P2010-2, International Seminar on Early Warning and Business Cycle Indicators)",
+      "locator": "p. 3",
+      "url": "https://www.bea.gov/sites/default/files/papers/P2010-2.pdf#page=3",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fed-trading-4000-p2:14:25",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=14",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Credit Cycles: When Borrowing Is Easy and When It Dries Up",
+      "summary": "A credit cycle is the repeating swing between periods when loans are cheap and easy to get and periods when they are costly or unavailable. It matters because these swings can make booms bigger and downturns deeper than the underlying economy alone would.",
+      "sections": [
+        {
+          "heading": "Credit as fuel for the economy",
+          "body_markdown": "Think of **credit** (money borrowed now and repaid later with interest) as fuel for spending. Households use it for homes and cars, and firms use it to build factories and hold inventory. When fuel is plentiful and cheap, more gets spent and economic activity speeds up. When fuel is scarce or expensive, spending slows even if people still *want* to buy.\n\nA **credit cycle** is the recurring rise and fall in how available and how costly credit is. Two things are tracked together:\n\n- **Availability**: how strict or loose lenders' approval standards are.\n- **Price**: interest rates and **credit spreads**. A credit spread is the extra yield a risky borrower pays over a government bond of similar maturity."
+        },
+        {
+          "heading": "The two halves of the cycle",
+          "body_markdown": "**Credit expansion (easy credit)**\n- Lenders are optimistic, so approval standards loosen and more risky borrowers get loans.\n- Credit spreads narrow because lenders see default as unlikely.\n- Borrowing and leverage (using borrowed money) grow, and so do prices of assets such as housing and stocks.\n- Rising asset prices make collateral (assets pledged against a loan) look more valuable, which encourages still more lending. This is a self-reinforcing loop.\n\n**Credit contraction (tight credit)**\n- Defaults and losses show up, and lenders become cautious.\n- Standards tighten and spreads widen. Some borrowers cannot get credit at any reasonable price. When this is severe it is called a **credit crunch**.\n- Falling asset prices shrink collateral values, which pushes lenders to cut credit further.\n\nAn everyday analogy is a party where the host keeps refilling glasses while everyone is enjoying themselves. When a problem appears, the host suddenly stops serving, and the mood changes more sharply than the problem itself would justify."
+        },
+        {
+          "heading": "How credit cycles relate to business cycles",
+          "body_markdown": "Credit and the broader economy influence each other. In good times a surge of lending can **exaggerate growth**, and it can help push asset prices up at unsustainable rates. In bad times a sharp pullback in lending, possibly combined with a burst asset bubble, can **make a downturn worse** than it would otherwise be. Because of this amplification, credit is called *procyclical*: it moves in the same direction as the economy and strengthens the movement.\n\nThe credit cycle is **not identical** to the business cycle. They are linked, but turning points and durations need not line up, and a credit cycle can follow its own rhythm of lending standards, debt levels and asset prices. Do not treat the two as interchangeable on the exam."
+        },
+        {
+          "heading": "Spotting credit conditions with indicators",
+          "body_markdown": "Analysts watch credit-related data. Several credit measures are classified as **lagging** indicators of the business cycle, meaning their turning points come *after* the economy turns:\n\n- the average prime rate charged by banks\n- commercial and industrial loans\n- the ratio of consumer installment credit outstanding to personal income\n\nThese lag because loan balances and borrowing costs adjust slowly. Firms and households keep drawing on credit lines and finishing earlier commitments even after conditions turn. By contrast, an interest rate spread between long-term Treasury bonds and the short-term policy rate is classed as *leading*. The lesson is that credit measures are not all the same: some are early warnings and others only confirm what has already happened."
+        }
+      ],
+      "worked_example": {
+        "problem": "A country has had several years of economic growth. Banks have been approving loans with minimal documentation, corporate bond spreads over government bonds have narrowed to very low levels, household debt relative to income has risen sharply, and house prices have climbed much faster than their long-run trend. Then a large lender reports unexpected loan losses, and soon after, banks begin rejecting many applications that they would have approved a month earlier. Describe the credit-cycle phases involved and the likely effect on the economy.",
+        "steps": [
+          "Step 1: Classify the early conditions. Loose standards, narrow spreads, rising leverage and fast-rising asset prices describe a late credit expansion.",
+          "Step 2: Note the feedback loop. Rising house prices raise collateral values, which supports more lending and more buying.",
+          "Step 3: Identify the trigger. Unexpected loan losses make lenders reassess risk, which marks the turn toward credit contraction.",
+          "Step 4: Describe the contraction. Standards tighten and spreads widen. Borrowers who were previously approved now face a credit crunch.",
+          "Step 5: Link to the economy. Less credit means less spending and investment, and falling asset prices lower collateral values, which causes more lending cutbacks. The downturn is amplified."
+        ],
+        "answer": "The economy moved from a late credit expansion (easy standards, narrow spreads, high leverage, asset-price boom) into a credit contraction or crunch (tight standards, wider spreads). Because falling collateral values and reduced lending reinforce each other, the credit contraction can deepen the economic downturn.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Credit spread",
+          "latex": "\\text{Spread} = y_{\\text{risky}} - y_{\\text{govt}}",
+          "where": "y_risky is the yield on a corporate or other risky bond; y_govt is the yield on a government bond of similar maturity. A narrow spread signals easy credit conditions, and a wide spread signals tight ones."
+        }
+      ],
+      "exam_traps": [
+        "Treating the credit cycle and the business cycle as the same thing. They are related and reinforce each other, but their timing and length can differ.",
+        "Assuming narrow credit spreads mean credit is tight. Narrow spreads go with easy credit and optimism, and wide spreads go with stress.",
+        "Forgetting the feedback loop through asset prices and collateral. Rising prices support more lending in booms, and falling prices force cutbacks in busts.",
+        "Assuming every credit-related indicator is lagging. Loans outstanding, the prime rate and the consumer credit-to-income ratio lag, but some financial-condition measures, such as the Treasury yield spread, lead.",
+        "Thinking a credit crunch just means higher interest rates. In a crunch, some borrowers cannot get credit at any reasonable price."
+      ],
+      "builds_on": [
+        "Phases of the business cycle",
+        "Interest rates and borrowing costs",
+        "Leverage and collateral",
+        "Credit risk and credit spreads"
+      ],
+      "leads_to": [
+        "Economic indicators over the cycle",
+        "Housing sector activity and the cycle",
+        "Monetary policy and financial stability",
+        "Fixed-income credit analysis"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63943:4",
+        "bea-business-cycle-indicators-2010:3:3",
+        "bea-business-cycle-indicators-2010:11:9"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes a credit cycle?",
+        "options": [
+          {
+            "text": "A repeating pattern in the length of time borrowers take to repay their loans",
+            "value": null,
+            "explanation": "Wrong: this confuses the credit cycle with loan maturity or repayment speed. The credit cycle is about the availability and cost of credit, not repayment duration."
+          },
+          {
+            "text": "A repeating swing between easy, cheap credit and tight, costly or scarce credit",
+            "value": null,
+            "explanation": "Correct: a credit cycle is the recurring alternation between periods of loose lending with low spreads and periods of tight lending with high spreads."
+          },
+          {
+            "text": "A repeating pattern in which central banks raise and lower the government's debt limit",
+            "value": null,
+            "explanation": "Wrong: this confuses credit conditions in the private sector with fiscal or government debt rules."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which set of conditions is most typical of a late credit expansion?",
+        "options": [
+          {
+            "text": "Loosening lending standards, narrow credit spreads and rising asset prices",
+            "value": null,
+            "explanation": "Correct: optimism in a credit expansion leads to looser standards, narrow spreads and rising asset values, which in turn supports more lending."
+          },
+          {
+            "text": "Tightening lending standards, narrow credit spreads and rising asset prices",
+            "value": null,
+            "explanation": "Wrong: this mixes a contraction feature (tight standards) with expansion features. Tight standards do not coexist with an expansion in lending."
+          },
+          {
+            "text": "Loosening lending standards, wide credit spreads and falling asset prices",
+            "value": null,
+            "explanation": "Wrong: wide spreads and falling asset prices are signs of a credit contraction, not an expansion."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "During a credit crunch, which outcome is most likely?",
+        "options": [
+          {
+            "text": "Banks lend more freely because lower asset prices make loans cheaper to originate",
+            "value": null,
+            "explanation": "Wrong: this reverses the effect. Lower asset prices reduce collateral values and push lenders to lend less."
+          },
+          {
+            "text": "Credit spreads narrow because investors see government bonds as less safe",
+            "value": null,
+            "explanation": "Wrong: this is a confused link between safety of government bonds and spreads. In a downturn, spreads typically widen as default risk concerns rise."
+          },
+          {
+            "text": "Many potential borrowers find credit either very expensive or unavailable",
+            "value": null,
+            "explanation": "Correct: a crunch means a sharp reduction in lending, so credit becomes costly or impossible to obtain for many borrowers."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst says the credit cycle can make an economic downturn worse than it would otherwise be. Which mechanism best supports this view?",
+        "options": [
+          {
+            "text": "Falling government spending forces banks to hold more government bonds, which lowers corporate yields",
+            "value": null,
+            "explanation": "Wrong: this invents a link between government spending and corporate yields that is not the credit-cycle amplification mechanism."
+          },
+          {
+            "text": "Falling asset prices reduce collateral values, so lenders cut credit, which depresses spending and prices further",
+            "value": null,
+            "explanation": "Correct: this is the self-reinforcing loop. Lower asset values make lenders more cautious, which cuts credit and spending, which in turn weakens asset prices again."
+          },
+          {
+            "text": "Rising unemployment makes households more willing to borrow, which raises interest rates",
+            "value": null,
+            "explanation": "Wrong: in a downturn, lenders usually pull back and credit demand weakens. The key amplification channel is a reduction in credit supply."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Compared with the previous quarter, an economy shows sharply wider credit spreads, stricter lending standards and falling housing prices. Which interpretation is most consistent with these facts?",
+        "options": [
+          {
+            "text": "Credit conditions are moving toward contraction, with risk concerns rising among lenders",
+            "value": null,
+            "explanation": "Correct: wider spreads, tighter standards and falling asset prices all point to a credit contraction."
+          },
+          {
+            "text": "Credit conditions are moving toward late expansion, with lenders becoming more optimistic",
+            "value": null,
+            "explanation": "Wrong: this reads wider spreads as a sign of optimism. Optimism shows up as narrower spreads."
+          },
+          {
+            "text": "Credit conditions are unchanged because lending standards only react to changes in inflation",
+            "value": null,
+            "explanation": "Wrong: lending standards respond to perceived default risk, collateral values and funding conditions, not only inflation."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Which statement about the relationship between credit cycles and business cycles is most accurate?",
+        "options": [
+          {
+            "text": "They are the same cycle, so credit conditions always turn at exactly the same time as real GDP",
+            "value": null,
+            "explanation": "Wrong: this treats the two as identical. Credit conditions interact with the business cycle but can have their own timing and duration."
+          },
+          {
+            "text": "They are unrelated, because credit only affects financial firms and not spending or investment",
+            "value": null,
+            "explanation": "Wrong: credit supports household and business spending, so credit swings feed into economic activity."
+          },
+          {
+            "text": "They are linked, with credit tending to amplify the business cycle, but their timing and length can differ",
+            "value": null,
+            "explanation": "Correct: credit expansions can exaggerate booms and credit contractions can deepen downturns, yet the two cycles are not identical in timing or length."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Based on commonly used business-cycle indicator classifications, how is the ratio of consumer installment credit outstanding to personal income best classified?",
+        "options": [
+          {
+            "text": "A leading indicator, because credit growth always signals a turn in the economy beforehand",
+            "value": null,
+            "explanation": "Wrong: this assumes all credit data are early signals. This ratio is a lagging indicator because borrowing balances adjust slowly."
+          },
+          {
+            "text": "A coincident indicator, because credit balances rise and fall in step with real GDP",
+            "value": null,
+            "explanation": "Wrong: coincident indicators such as real GDP or payroll employment turn with the economy. This ratio typically turns afterward."
+          },
+          {
+            "text": "A lagging indicator, because borrowing balances and costs adjust only after the economy has turned",
+            "value": null,
+            "explanation": "Correct: the consumer credit-to-income ratio, like commercial and industrial loans and the prime rate, is classified as lagging."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "bea-business-cycle-indicators-2010:3:3",
+          "bea-business-cycle-indicators-2010:11:9"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a credit cycle?",
+        "back": "A recurring swing between periods of easy, cheap credit (loose standards, narrow spreads) and periods of tight, costly or scarce credit (strict standards, wide spreads).",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "front": "What is a credit spread, and how does it behave over the credit cycle?",
+        "back": "The extra yield on a risky bond over a government bond of similar maturity. It narrows in credit expansions and widens in credit contractions.",
+        "cited_chunk_ids": []
+      },
+      {
+        "front": "How does the credit cycle amplify the business cycle?",
+        "back": "In booms, surging lending exaggerates growth and can inflate asset prices. In busts, lenders pull back and collateral values fall, which makes the downturn worse. The loop runs through asset prices, collateral and lending.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "front": "What is a credit crunch?",
+        "back": "A sharp reduction in lending in which credit becomes very expensive or unavailable to many borrowers, usually during a downturn.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63943:4"
+        ]
+      },
+      {
+        "front": "Name three credit-related measures classified as lagging indicators of the business cycle.",
+        "back": "The average prime rate charged by banks, commercial and industrial loans, and the ratio of consumer installment credit outstanding to personal income.",
+        "cited_chunk_ids": [
+          "bea-business-cycle-indicators-2010:3:3",
+          "bea-business-cycle-indicators-2010:11:9"
+        ]
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T22:08:53.326Z",
+      "purpose": "generate",
+      "losId": "econ-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9957,
+      "outputTokens": 6814,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.0892102,
+      "stopReason": "end_turn"
+    }
+  ]
+}

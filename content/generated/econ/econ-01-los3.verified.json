@@ -1,0 +1,878 @@
+{
+  "losId": "econ-01-los3",
+  "losText": "explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing strategy",
+  "moduleId": "econ-01",
+  "moduleTitle": "The Firm and Market Structures",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:34:41.049Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "os:principles-economics-3e:m63857:6.1",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — The Benefits of Variety and Product Differentiation",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "os:principles-economics-3e:m63856:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.2 Oligopoly — Tradeoffs of Imperfect Competition",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-2-oligopoly",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63856:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.2 Oligopoly — Why Do Oligopolies Exist?",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-2-oligopoly",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:6",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — The Benefits of Variety and Product Differentiation",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:7",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — Self-Check Questions",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:3.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — How a Monopolistic Competitor Chooses Price and Quantity",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:5",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — Monopolistic Competition and Efficiency",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:1",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — Differentiated Products",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.07
+    },
+    {
+      "id": "os:principles-economics-3e:m63857:4.2",
+      "title": "Principles of Economics 3e",
+      "locator": "§10.1 Monopolistic Competition — Monopolistic Competitors and Entry",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/10-1-monopolistic-competition",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:322:280",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 322–323",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=322",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "flatworld-international-business:527:519",
+      "title": "Challenges and Opportunities in International Business (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 527–528",
+      "url": "https://2012books.lardbucket.org/pdfs/challenges-and-opportunities-in-international-business.pdf#page=527",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "os:principles-economics-3e:m63906:5",
+      "title": "Principles of Economics 3e",
+      "locator": "§8.2 How Perfectly Competitive Firms Make Output Decisions — Short-Run Outcomes for Perfectly Competitive Firms",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "adapt",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Pricing and Output for a Monopolistically Competitive Firm",
+      "summary": "Monopolistic competition has many sellers whose products are similar but not identical, so each firm has some pricing power but also faces entry. This LOS covers how such a firm picks its price and quantity, why profits vanish in the long run, and how differentiation and advertising fit in.",
+      "sections": [
+        {
+          "heading": "Intuition: a small corner of pricing power",
+          "body_markdown": "Think of coffee shops in a big city. Each one sells a slightly different experience (location, beans, atmosphere), so a shop can raise its price a little without losing every customer. But there are plenty of other shops, so a large price rise sends customers away. Economists call this a **downward-sloping perceived demand curve**: the demand the firm believes it faces. Its slope depends on how **differentiated** the product is (distinct in physical features, location, service or image) and on how many close rivals exist. More close substitutes make demand flatter (more elastic). Stronger differentiation makes it steeper."
+        },
+        {
+          "heading": "Short run: set MR = MC, then read the price off demand",
+          "body_markdown": "Because the demand curve slopes down, selling one more unit means cutting the price on all units. So **marginal revenue (MR)**, the extra revenue from one more unit, is below the price. The profit-maximizing firm uses the same rule as a monopolist: produce the quantity where $MR = MC$ (marginal cost, the extra cost of one more unit). Then **go up to the demand curve** at that quantity to find the price. Do not read the price off the MR or MC curve. For straight-line demand $P = a - bQ$, the MR line has the same intercept but twice the slope: $MR = a - 2bQ$. Whether the firm makes an economic profit or loss in the short run depends on whether that price is above or below average total cost (ATC) at that quantity."
+        },
+        {
+          "heading": "Long run: entry and exit erase economic profit",
+          "body_markdown": "Barriers to entry are low, so a firm making economic profit attracts imitators with similar products. Each entrant takes away some customers, so every existing firm's demand curve shifts **left** (and becomes more elastic), and its profit-maximizing price and quantity fall. Entry continues until the demand curve just touches the ATC curve. At that point $P = ATC$ and **economic profit is zero**. If instead firms are making losses, some exit, demand for the remaining firms shifts right, and losses shrink to zero. Note that zero *economic* profit means the owners still earn what their resources would earn in their next best use. The firm still sets $MR = MC$ at that point, so $P > MC$."
+        },
+        {
+          "heading": "Pricing strategy, advertising and efficiency",
+          "body_markdown": "The firm's main strategy is **non-price competition**: differentiate through product features, quality, service, location and branding, and advertise to make customers see the product as special. Successful advertising either shifts demand right or makes it steeper (less elastic). Either way the firm may sell more, charge more, or both, which raises short-run profit. But if rivals respond with their own advertising, the effects largely cancel while every firm's costs rise, so the long-run price can be higher with no lasting extra profit. Compared with perfect competition, the long-run outcome is **not productively efficient** (price lies on the falling part of the ATC curve, so output is below the minimum-cost scale, often called excess capacity) and **not allocatively efficient** ($P > MC$). The inefficiency is smaller than under pure monopoly, and consumers get variety in return."
+        }
+      ],
+      "worked_example": {
+        "problem": "A monopolistically competitive firm faces the perceived demand curve $P = 40 - 0.2Q$ (P in dollars, Q in units). Its marginal cost is a constant $12 per unit and its total cost is $TC = 700 + 12Q$. (a) Find the profit-maximizing quantity and price. (b) Find the firm's economic profit. (c) What happens in the long run?",
+        "steps": [
+          "Write MR from the demand curve. The slope doubles: $MR = 40 - 0.4Q$.",
+          "Set MR = MC: $40 - 0.4Q = 12$, so $0.4Q = 28$ and $Q = 70$ units.",
+          "Find the price on the demand curve at Q = 70: $P = 40 - 0.2(70) = 40 - 14 = 26$.",
+          "Find ATC at Q = 70: $ATC = 700/70 + 12 = 10 + 12 = 22$.",
+          "Profit = $(P - ATC) \\times Q = (26 - 22) \\times 70 = 280$. (Check: revenue 1,820 minus cost 1,540 = 280.)",
+          "Long run: a positive economic profit attracts entrants, the firm's demand shifts left, and the price and quantity fall until demand touches ATC and economic profit is zero (P = ATC, still P > MC). No special calculator keystrokes are needed."
+        ],
+        "answer": "Q = 70 units, P = $26, economic profit = $280 in the short run; in the long run entry shifts demand left until P = ATC and economic profit is zero.",
+        "answer_value": 280,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Profit-maximizing rule",
+          "latex": "MR = MC",
+          "where": "MR is marginal revenue (extra revenue from one more unit); MC is marginal cost (extra cost of one more unit). Price is then read from the demand curve at that quantity."
+        },
+        {
+          "name": "MR for linear demand",
+          "latex": "P = a - bQ \\;\\Rightarrow\\; MR = a - 2bQ",
+          "where": "P is price; Q is quantity; a is the demand intercept (price at zero quantity); b is the slope of demand. MR has the same intercept and twice the slope."
+        },
+        {
+          "name": "Economic profit",
+          "latex": "\\pi = (P - ATC)\\,Q",
+          "where": "π is economic profit; P is price; ATC is average total cost at quantity Q; Q is quantity sold."
+        },
+        {
+          "name": "Long-run equilibrium condition",
+          "latex": "P = ATC, \\quad P > MC",
+          "where": "Entry and exit drive economic profit to zero (P = ATC), but the downward-sloping demand keeps price above marginal cost."
+        }
+      ],
+      "exam_traps": [
+        "Reading the price from the MR or MC curve. The quantity comes from MR = MC, but the price comes from the demand curve above that quantity.",
+        "Drawing MR with the same slope as demand. For a downward-sloping demand curve MR lies below it (twice as steep if demand is linear).",
+        "Thinking zero economic profit in the long run means P = MC. In monopolistic competition P = ATC but P > MC, and the firm operates on the falling part of its ATC curve.",
+        "Assuming advertising profits last. Rivals imitate and counter-advertise, so any short-run gain is competed away and costs end up higher.",
+        "Saying the firm is productively or allocatively efficient in the long run. It is neither: output is below minimum-ATC scale and P > MC."
+      ],
+      "builds_on": [
+        "Marginal revenue and marginal cost",
+        "Profit maximization",
+        "Elasticity of demand",
+        "Characteristics of market structures"
+      ],
+      "leads_to": [
+        "Oligopoly pricing and strategic behavior",
+        "Monopoly pricing and efficiency",
+        "Market structure identification"
+      ],
+      "cited_chunk_ids": [
+        "os:principles-economics-3e:m63857:3.2",
+        "os:principles-economics-3e:m63857:4.2",
+        "os:principles-economics-3e:m63857:5",
+        "os:principles-economics-3e:m63857:6.1",
+        "os:principles-economics-3e:m63857:1",
+        "os:principles-economics-3e:m63857:7"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A monopolistically competitive firm wants to maximize profit in the short run. Which procedure should it follow?",
+        "options": [
+          {
+            "text": "Produce where price equals marginal cost, and charge that price.",
+            "value": null,
+            "explanation": "This is the perfectly competitive rule. A firm with a downward-sloping demand curve has MR below price, so setting P = MC overproduces relative to the profit-maximizing level."
+          },
+          {
+            "text": "Produce where MR equals MC, then charge the price on the demand curve at that output.",
+            "value": null,
+            "explanation": "Correct. MR = MC gives the profit-maximizing quantity, and the highest price consumers will pay for that quantity is read from the demand curve."
+          },
+          {
+            "text": "Produce at minimum average total cost and charge the price on the MC curve.",
+            "value": null,
+            "explanation": "Minimum ATC is the productive-efficiency point in perfect competition. It is not the profit-maximizing rule here, and price is not read from MC."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:3.2",
+          "os:principles-economics-3e:m63857:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Which description fits a typical monopolistically competitive firm in long-run equilibrium?",
+        "options": [
+          {
+            "text": "Price equals average total cost, so economic profit is zero, and price exceeds marginal cost.",
+            "value": null,
+            "explanation": "Correct. Entry and exit move demand until it touches ATC (zero economic profit), while MR = MC with a downward-sloping demand keeps P above MC."
+          },
+          {
+            "text": "Price equals marginal cost and equals minimum average total cost.",
+            "value": null,
+            "explanation": "This describes perfect competition. Confusing the two structures ignores the downward-sloping demand curve of a differentiated seller."
+          },
+          {
+            "text": "Price exceeds average total cost, so economic profit persists because products are differentiated.",
+            "value": null,
+            "explanation": "Differentiation gives pricing power, but low barriers to entry mean profits attract rivals, so profit does not persist in the long run."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:4.2",
+          "os:principles-economics-3e:m63857:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A monopolistically competitive firm faces the perceived demand curve P = 60 − 0.5Q and has a constant marginal cost of 10. Using the MR = MC rule, what is its profit-maximizing quantity?",
+        "options": [
+          {
+            "text": "100 units",
+            "value": null,
+            "explanation": "Mistake: setting the demand price equal to MC (60 − 0.5Q = 10), which ignores that MR lies below the demand curve."
+          },
+          {
+            "text": "25 units",
+            "value": null,
+            "explanation": "Mistake: using MR = 60 − 2Q, doubling the slope twice. For linear demand P = a − bQ, MR = a − 2bQ = 60 − Q."
+          },
+          {
+            "text": "50 units",
+            "value": null,
+            "explanation": "Correct. MR = 60 − Q. Setting 60 − Q = 10 gives Q = 50 (the price would then be 60 − 0.5 × 50 = 35)."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:3.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A monopolistically competitive firm is earning a positive economic profit in the short run. Other things equal, what is the expected long-run adjustment?",
+        "options": [
+          {
+            "text": "Demand shifts right as consumers notice the profit, so price and quantity rise.",
+            "value": null,
+            "explanation": "This reverses the effect. Profit attracts entrants offering similar products, which pulls customers away rather than adding them."
+          },
+          {
+            "text": "Demand shifts left as entrants arrive, so the profit-maximizing price and quantity fall until profit is zero.",
+            "value": null,
+            "explanation": "Correct. Entry reduces the original firm's share of the market, shifting its demand and MR left until demand touches ATC."
+          },
+          {
+            "text": "Cost curves shift down as entrants arrive, so the firm keeps its profit through lower costs.",
+            "value": null,
+            "explanation": "Entry operates through the firm's demand, not by lowering its costs, and the adjustment ends with zero economic profit, not persisting profit."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:7",
+          "os:principles-economics-3e:m63857:4.2"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "Compared with a perfectly competitive industry that has the same cost conditions, which statement about long-run monopolistic competition is correct?",
+        "options": [
+          {
+            "text": "It is allocatively efficient because entry drives price to marginal cost, though it is not productively efficient.",
+            "value": null,
+            "explanation": "Mistake: assuming zero economic profit implies P = MC. Zero profit means P = ATC; P still exceeds MC."
+          },
+          {
+            "text": "It is productively efficient because zero economic profit puts output at minimum ATC, though it is not allocatively efficient.",
+            "value": null,
+            "explanation": "Mistake: equating zero profit with minimum ATC. The demand curve touches ATC on its falling portion, so output is below the minimum-cost scale."
+          },
+          {
+            "text": "It is neither: price is above marginal cost and output is below the minimum-ATC level, with a higher price and lower quantity.",
+            "value": null,
+            "explanation": "Correct. P > MC means allocative inefficiency, and tangency on the falling part of ATC means no productive efficiency. The loss is smaller than under monopoly, and variety is a benefit."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:5",
+          "os:principles-economics-3e:m63857:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which factor would make a monopolistically competitive firm's perceived demand curve more elastic (flatter)?",
+        "options": [
+          {
+            "text": "A greater number of close substitutes sold by competitors.",
+            "value": null,
+            "explanation": "Correct. With more close substitutes, a price rise sends more customers elsewhere, so quantity demanded is more responsive to price."
+          },
+          {
+            "text": "A strong brand reputation built through successful advertising.",
+            "value": null,
+            "explanation": "Mistake: reversing the effect. Successful branding makes demand less elastic (steeper) or shifts it right."
+          },
+          {
+            "text": "A location that customers find uniquely convenient.",
+            "value": null,
+            "explanation": "Mistake: reversing the effect. Location is a form of differentiation, which reduces substitutability and makes demand less elastic."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:3.2",
+          "flatworld-policy-and-theory-of-international-economics:322:280",
+          "os:principles-economics-3e:m63857:1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "Every firm in a monopolistically competitive industry raises its advertising spending by a similar amount, and customers are persuaded in roughly equal numbers in each direction. What is the most likely long-run result?",
+        "options": [
+          {
+            "text": "Each firm's economic profit rises permanently because advertising makes demand steeper.",
+            "value": null,
+            "explanation": "Mistake: viewing one firm's advertising in isolation. When rivals match it, the demand effects largely cancel."
+          },
+          {
+            "text": "Prices fall because heavier advertising intensifies competition among the firms.",
+            "value": null,
+            "explanation": "Mistake: assuming advertising lowers prices. Advertising raises costs, which tends to push the zero-profit price up, not down."
+          },
+          {
+            "text": "Demand effects cancel while costs are higher, so the zero-profit price is higher with no extra profit.",
+            "value": null,
+            "explanation": "Correct. Rival advertising neutralizes the gains, leaving each firm with about the same share, higher ATC, and zero economic profit once entry and exit settle."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:6.1",
+          "os:principles-economics-3e:m63856:6"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A monopolistically competitive firm faces the perceived demand curve P = 100 − 2Q, where P is in dollars and Q is in units. Its total cost is TC = 300 + 20Q, which includes a $300 fixed cost, so marginal cost is a constant $20. The firm maximizes profit by setting marginal revenue equal to marginal cost (MR = MC), and entry by rivals has not yet occurred. What is its short-run economic profit?",
+        "options": [
+          {
+            "text": "$800",
+            "value": null,
+            "explanation": "Mistake: computing (P − MC) × Q = (60 − 20) × 20 = 800. This is profit before the $300 fixed cost, so it ignores total cost. Average total cost is above marginal cost here."
+          },
+          {
+            "text": "$500",
+            "value": null,
+            "explanation": "Correct. Revenue is P × Q, so MR = 100 − 4Q. Setting MR = 20 gives Q = 20, and the demand curve gives P = 100 − 40 = 60. Total revenue is 60 × 20 = 1,200 and total cost is 300 + 20 × 20 = 700, so profit is 1,200 − 700 = 500."
+          },
+          {
+            "text": "$1,200",
+            "value": null,
+            "explanation": "Mistake: reporting total revenue (60 × 20) as profit without subtracting total cost."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:3.2"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_first": {
+          "pass": true,
+          "issues": [
+            "solver chose A (high): MR = 100 − 4Q = 20 gives Q = 20 and P = 60. Profit = (60 − 20)×20 − 300 = 800 − 300 = 500... Check: TR = 1200, TC = 300 + 400 = 700, so profit = 500."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "repaired": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What rule does a monopolistically competitive firm use to choose output, and how does it find its price?",
+        "back": "Produce where MR = MC, then read the price from the firm's demand curve at that quantity.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:3.2",
+          "os:principles-economics-3e:m63857:5"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What is the long-run equilibrium condition for a monopolistic competitor?",
+        "back": "Zero economic profit: demand touches ATC, so P = ATC, while P > MC (entry and exit shift demand until profit is gone).",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:4.2",
+          "os:principles-economics-3e:m63857:7"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Why is long-run monopolistic competition inefficient, and what is the offsetting benefit?",
+        "back": "P > MC (not allocatively efficient) and output is below minimum-ATC scale (not productively efficient); the benefit is product variety and innovation.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:5",
+          "os:principles-economics-3e:m63857:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "How does successful advertising affect a monopolistic competitor's demand, and why do the gains fade?",
+        "back": "It shifts demand right or makes it steeper (less elastic), raising short-run profit; rivals imitate or counter-advertise, so gains fade while costs stay higher.",
+        "cited_chunk_ids": [
+          "os:principles-economics-3e:m63857:6.1"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T22:34:21.756Z",
+      "purpose": "blind-solve",
+      "losId": "econ-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1073,
+      "outputTokens": 675,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.009013,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:34:30.384Z",
+      "purpose": "repair",
+      "losId": "econ-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8043,
+      "outputTokens": 1120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 4720,
+      "costUsd": 0.02823,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:34:32.372Z",
+      "purpose": "blind-solve",
+      "losId": "econ-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 184,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001705,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:34:41.049Z",
+      "purpose": "grounding",
+      "losId": "econ-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11777,
+      "outputTokens": 1225,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0359732,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0749212
+}

@@ -1,0 +1,850 @@
+{
+  "losId": "econ-08-los2",
+  "losText": "explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium",
+  "moduleId": "econ-08",
+  "moduleTitle": "Exchange Rate Calculations",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T22:42:08.140Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "fed-trading-4000-p2:7:13",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 7–8",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=7",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.26
+    },
+    {
+      "id": "fed-trading-4000-p2:8:14",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "p. 8",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.25
+    },
+    {
+      "id": "fed-trading-4000-p2:5:9",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 5–6",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=5",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.2
+    },
+    {
+      "id": "fed-trading-4000-p2:13:24",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 13–14",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.16
+    },
+    {
+      "id": "fed-trading-4000-p2:15:28",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 15–16",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=15",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.14
+    },
+    {
+      "id": "suranovic-intl-finance:175:176",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 175–176",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=175",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "boe-anderson-sleath-yield-curves:4:2",
+      "title": "New estimates of the UK real and nominal yield curves (N. Anderson and J. Sleath, Bank of England Working Paper 126; spot and forward rates)",
+      "locator": "pp. 4–5",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2001/new-estimates-of-the-uk-real-and-nominal-yield-curves.pdf#page=4",
+      "license": "© Bank of England; free to download, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.12
+    },
+    {
+      "id": "flatworld-policy-and-theory-of-international-economics:810:728",
+      "title": "Policy and Theory of International Economics (Flat World Knowledge / Saylor Foundation archive)",
+      "locator": "pp. 810–811",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-economics.pdf#page=810",
+      "license": "CC BY-NC-SA 3.0 (book front matter; verified at ingest, see docs/missing-sources.md)",
+      "reuse": "adapt",
+      "score": 0.12
+    },
+    {
+      "id": "fed-trading-4000-p2:17:31",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 17–18",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=17",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.09
+    },
+    {
+      "id": "boe-anderson-sleath-yield-curves:27:24",
+      "title": "New estimates of the UK real and nominal yield curves (N. Anderson and J. Sleath, Bank of England Working Paper 126; spot and forward rates)",
+      "locator": "pp. 27–28",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2001/new-estimates-of-the-uk-real-and-nominal-yield-curves.pdf#page=27",
+      "license": "© Bank of England; free to download, all rights reserved (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fed-trading-4000-p2:8:15",
+      "title": "Trading and Capital-Markets Activities Manual §4000, Instrument Profiles part 2 (Federal Reserve)",
+      "locator": "pp. 8–9",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/trading/4000p2.pdf#page=8",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.08
+    },
+    {
+      "id": "suranovic-intl-finance:231:216",
+      "title": "International Finance: Theory and Policy (Suranovic, 2010; Saylor Foundation edition)",
+      "locator": "pp. 231–232",
+      "url": "https://2012books.lardbucket.org/pdfs/policy-and-theory-of-international-finance.pdf#page=231",
+      "license": "SURANOVIC_LICENSE_TBD",
+      "reuse": "adapt",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Covered Interest Parity and Forward Exchange Rates",
+      "summary": "A forward exchange rate is not a forecast. It is pinned to today's spot rate by the interest rates of the two currencies, because otherwise a risk-free profit would exist. This lesson shows how to compute a forward rate, quote it in points or percent, and read a premium or discount correctly.",
+      "sections": [
+        {
+          "heading": "Quote conventions and what 'premium' means",
+          "body_markdown": "An exchange rate is quoted as **price currency per 1 unit of base currency** (P/B). A USD/EUR rate of 1.0850 means 1 euro costs 1.0850 dollars. Here the euro is the **base** currency and the dollar is the **price** currency.\n\nA **spot rate** is for exchange now (settled in a couple of business days). A **forward rate** is a price fixed today for an exchange on a later date, such as 90 days away.\n\n- If the forward rate is **above** spot, the base currency is at a **forward premium**. It costs more for future delivery.\n- If the forward rate is **below** spot, the base currency is at a **forward discount**.\n\nBoth words describe the **base** currency. Always check which currency is in the denominator before you speak of a premium or a discount."
+        },
+        {
+          "heading": "Why the forward rate is forced to a specific value",
+          "body_markdown": "Picture two savings accounts, one in each currency. Suppose you can lock in today the exchange rate at which your money comes back home. Then investing at home and investing abroad must pay the same, or someone would borrow in one currency, invest in the other, and earn a risk-free profit. That is **arbitrage**.\n\nThe argument runs like this.\n1. Borrow or hold one unit of base currency and invest it at the base-currency rate for the period.\n2. Alternatively, convert it at spot into price currency, invest at the price-currency rate, and convert back at the forward rate.\n3. Markets only allow a forward rate that makes both routes end with the same amount.\n\nThis is **covered interest rate parity**. It is 'covered' because the forward contract removes exchange-rate risk from the foreign leg. The rate it implies depends only on spot and the two interest rates. It does not depend on where anyone expects spot to go."
+        },
+        {
+          "heading": "Calculating the forward rate",
+          "body_markdown": "For money-market rates quoted as annual simple interest, with $t$ as the fraction of a year (usually days/360; GBP uses days/365):\n\n$$F = S\\times\\frac{1+i_P\\,t}{1+i_B\\,t}$$\n\nThe **price-currency** rate goes on top and the **base-currency** rate on the bottom. If the price currency has the higher rate, then $F > S$ and the base currency is at a premium. The base currency has the lower interest rate, and it makes up for that through the forward premium.\n\n**Using points.** Forward quotes in practice often show only the difference from spot in *points*. One point is the last quoted decimal place, 0.0001 for most pairs and 0.01 for pairs quoted to two decimals such as yen. So $F = S + \\text{points}\\times\\text{point size}$. A quote of +43 points on 1.0850 gives $1.0850+0.0043=1.0893$.\n\n**Using percent.** The premium or discount on the base currency in percent is $(F-S)/S$, with spot in the denominator. Some dealers annualise it by multiplying by 12 and dividing by the number of months in the contract."
+        },
+        {
+          "heading": "Interpreting a premium or discount",
+          "body_markdown": "A forward premium or discount is a statement about **interest rates**. It is not a prediction that spot will move. The dealer is simply passing through the interest differential, so the forward rate is whatever level removes arbitrage.\n\nIf the interest differential changes, the forward points change too. This means an existing forward position can be closed at a gain or loss.\n\nQuick check before you finish any problem: the currency with the **higher** interest rate is the one at a forward **discount**. Sign and direction can be verified this way in a few seconds."
+        }
+      ],
+      "worked_example": {
+        "problem": "The spot rate is 1.0850 USD/EUR (USD is the price currency, EUR the base). The 90-day interest rates are 4.80% per year for USD and 3.20% per year for EUR, both simple interest on a 360-day year. Find the 90-day forward rate, the forward points, and the premium or discount on the euro.",
+        "steps": [
+          "Identify the price currency (USD) and the base currency (EUR). So $i_P=4.80\\%$ and $i_B=3.20\\%$.",
+          "Time fraction: $t = 90/360 = 0.25$.",
+          "Price-currency growth factor: $1+0.048\\times0.25 = 1.012$. Base-currency growth factor: $1+0.032\\times0.25 = 1.008$.",
+          "Forward rate: $F = 1.0850\\times 1.012/1.008 = 1.0850\\times1.003968 = 1.0893$.",
+          "Calculator (BA II Plus): 0.048 × 0.25 + 1 = ÷ ( 0.032 × 0.25 + 1 ) = gives 1.003968 (if you have trouble with parentheses, compute the denominator first, press STO 1, then divide by RCL 1). Then × 1.085 = gives 1.0893.",
+          "Points: $(1.0893-1.0850)\\times10{,}000 \\approx +43$ points.",
+          "Percent: $(1.0893-1.0850)/1.0850 \\approx 0.40\\%$. Because $F>S$, the euro (base) trades at a forward premium."
+        ],
+        "answer": "Forward rate ≈ 1.0893 USD/EUR (about +43 points, a 0.40% forward premium on the euro, since USD interest rates are higher).",
+        "answer_value": 1.0893,
+        "calc_spec": {
+          "fn": "forwardFx",
+          "args_json": "{\"spot\":1.085,\"iPrice\":0.048,\"iBase\":0.032,\"T\":0.25,\"compounding\":\"simple\"}"
+        }
+      },
+      "formulas": [
+        {
+          "name": "Covered interest rate parity (forward rate)",
+          "latex": "F = S\\times\\frac{1+i_P\\,t}{1+i_B\\,t}",
+          "where": "F = forward rate (price/base); S = spot rate (price/base); i_P = annual interest rate of the price currency; i_B = annual interest rate of the base currency; t = days in contract divided by the day-count year (usually 360)."
+        },
+        {
+          "name": "Forward rate from points",
+          "latex": "F = S + \\text{points}\\times \\text{point size}",
+          "where": "points = quoted forward points (signed); point size = 0.0001 for most pairs, 0.01 for pairs quoted to two decimals such as yen; S = spot rate."
+        },
+        {
+          "name": "Forward premium/discount in percent",
+          "latex": "\\text{Premium (+) / Discount (−)} = \\frac{F-S}{S}",
+          "where": "F = forward rate; S = spot rate; the result applies to the base currency of the quote."
+        },
+        {
+          "name": "Annualised premium/discount (dealer convention)",
+          "latex": "\\frac{F-S}{S}\\times\\frac{12}{m}",
+          "where": "F = forward rate; S = spot rate; m = months in the forward contract."
+        }
+      ],
+      "exam_traps": [
+        "Putting the interest rates the wrong way round. The price-currency rate goes in the numerator and the base-currency rate in the denominator. Flipping them gives a forward rate on the wrong side of spot.",
+        "Forgetting to scale the annual rates by the time fraction (for example using the full 5% for a 90-day contract).",
+        "Reading a forward premium as a forecast that the base currency will appreciate. The forward rate reflects the interest differential only.",
+        "Mixing up the base and price currency when naming the premium or discount. The label belongs to the base currency, the denominator of the quote.",
+        "Converting points incorrectly: using 0.0001 for a yen-style quote, or adding 43 points as 0.043 or 0.43. Also dividing the percentage by F instead of S."
+      ],
+      "builds_on": [
+        "Spot exchange rate quotes (price/base)",
+        "Simple interest and money-market rates",
+        "No-arbitrage pricing"
+      ],
+      "leads_to": [
+        "Cross-rate and triangular arbitrage",
+        "Uncovered interest rate parity and carry trades",
+        "Hedging currency exposure with forwards"
+      ],
+      "cited_chunk_ids": [
+        "fed-trading-4000-p2:13:24",
+        "fed-trading-4000-p2:5:9",
+        "fed-trading-4000-p2:7:13",
+        "fed-trading-4000-p2:8:14",
+        "suranovic-intl-finance:175:176"
+      ]
+    },
+    "badge": "verified",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes the arbitrage relationship between spot rates, forward rates and interest rates (covered interest rate parity)?",
+        "options": [
+          {
+            "text": "The forward rate equals the spot rate that the market expects to prevail at the forward contract's maturity date.",
+            "value": null,
+            "explanation": "Confuses the forward rate with a forecast. The forward rate is set by interest rates, not by expectations of the future spot rate."
+          },
+          {
+            "text": "The forward rate is set so that investing in either currency, with the exchange rate locked by a forward, earns the same return.",
+            "value": null,
+            "explanation": "Correct. If the two hedged returns differed, a risk-free profit would exist, so the forward rate adjusts to the interest differential."
+          },
+          {
+            "text": "The forward rate equals the spot rate adjusted for the difference in the two countries' expected inflation rates.",
+            "value": null,
+            "explanation": "Confuses interest rate parity with purchasing power parity. Covered interest parity uses interest rates, not inflation."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The spot rate is quoted as MXN/USD (MXN is the price currency, USD the base). The 90-day interest rate is 10% per year in Mexico and 4% per year in the US. Which statement about the 90-day forward rate is correct?",
+        "options": [
+          {
+            "text": "The USD trades at a forward premium, because the price-currency interest rate is higher.",
+            "value": null,
+            "explanation": "Correct. A higher price-currency rate raises the numerator of the parity formula, so F > S and the base currency (USD) is at a premium."
+          },
+          {
+            "text": "The USD trades at a forward discount, because the US interest rate is lower.",
+            "value": null,
+            "explanation": "Reverses the direction. The lower-rate currency (here the base) is the one at a forward premium, not a discount."
+          },
+          {
+            "text": "The forward rate equals the spot rate, because arbitrage removes any interest rate effect.",
+            "value": null,
+            "explanation": "Misreads arbitrage. Arbitrage forces the forward rate to reflect the interest differential rather than cancelling it."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24",
+          "fed-trading-4000-p2:5:9"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "calc",
+        "difficulty": "medium",
+        "stem": "The spot rate is 1.3500 CAD/USD (CAD is the price currency, USD the base). The 180-day simple annual interest rates are 2.00% for CAD and 5.00% for USD. Use 180/360 = 0.5 of a year. What is the 180-day forward rate, rounded to four decimals?",
+        "options": [
+          {
+            "text": "1.3700 CAD/USD",
+            "value": 1.37,
+            "explanation": "Inverts the ratio, putting the base-currency rate on top: 1.35 × 1.025/1.01 ≈ 1.3700."
+          },
+          {
+            "text": "1.3114 CAD/USD",
+            "value": 1.3114,
+            "explanation": "Uses the full-year rates instead of scaling by 0.5: 1.35 × 1.02/1.05 ≈ 1.3114."
+          },
+          {
+            "text": "1.3302 CAD/USD",
+            "value": 1.3302,
+            "explanation": "Correct: 1.35 × (1 + 0.02×0.5)/(1 + 0.05×0.5) = 1.35 × 1.01/1.025 ≈ 1.3302."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": {
+          "fn": "forwardFx",
+          "args_json": "{\"spot\":1.35,\"iPrice\":0.02,\"iBase\":0.05,\"T\":0.5,\"compounding\":\"simple\"}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "The spot rate is 1.0850 USD/EUR, quoted to four decimals. A dealer quotes the 3-month forward at +43 points. What is the 3-month forward rate?",
+        "options": [
+          {
+            "text": "1.1280 USD/EUR",
+            "value": null,
+            "explanation": "Treats 43 points as 0.0430 (wrong point size): 1.0850 + 0.0430 = 1.1280."
+          },
+          {
+            "text": "1.0807 USD/EUR",
+            "value": null,
+            "explanation": "Subtracts the points, ignoring the positive sign: 1.0850 − 0.0043 = 1.0807."
+          },
+          {
+            "text": "1.0893 USD/EUR",
+            "value": null,
+            "explanation": "Correct. One point is 0.0001, so 43 points = 0.0043 and F = 1.0850 + 0.0043 = 1.0893."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:7:13"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "calc",
+        "difficulty": "hard",
+        "stem": "The spot rate is 150.00 JPY/USD (JPY is the price currency, USD the base). The 90-day simple annual interest rates are 0.10% for JPY and 5.20% for USD. Use 90/360 = 0.25 of a year. What is the 90-day forward rate, rounded to two decimals?",
+        "options": [
+          {
+            "text": "151.91 JPY/USD",
+            "value": 151.91,
+            "explanation": "Puts the interest rates the wrong way round: 150 × 1.013/1.00025 ≈ 151.91. This wrongly implies a forward premium on the high-rate currency, the USD."
+          },
+          {
+            "text": "148.11 JPY/USD",
+            "value": 148.11,
+            "explanation": "Correct: 150 × (1 + 0.001×0.25)/(1 + 0.052×0.25) = 150 × 1.00025/1.013 ≈ 148.11. The USD, with the higher rate, is at a forward discount."
+          },
+          {
+            "text": "142.73 JPY/USD",
+            "value": 142.73,
+            "explanation": "Uses full-year rates with no time adjustment: 150 × 1.001/1.052 ≈ 142.73."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": {
+          "fn": "forwardFx",
+          "args_json": "{\"spot\":150,\"iPrice\":0.001,\"iBase\":0.052,\"T\":0.25,\"compounding\":\"simple\"}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "The spot rate is 1.3500 CAD/USD and the 180-day forward rate is 1.3302 CAD/USD. Using spot in the denominator and rounding to two decimals, which statement is correct?",
+        "options": [
+          {
+            "text": "The USD is at a forward premium of 1.47%.",
+            "value": null,
+            "explanation": "Sign error. F is below S, so the base currency (USD) is at a discount, not a premium."
+          },
+          {
+            "text": "The USD is at a forward discount of 1.47%.",
+            "value": null,
+            "explanation": "Correct: (1.3302 − 1.3500)/1.3500 = −1.47%. A negative result on the base currency means a forward discount."
+          },
+          {
+            "text": "The USD is at a forward discount of 1.49%.",
+            "value": null,
+            "explanation": "Divides the difference by the forward rate instead of spot: 0.0198/1.3302 ≈ 1.49%."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:5:9",
+          "fed-trading-4000-p2:8:14"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A trader sees that the euro trades at a 90-day forward premium against the dollar. What can the trader conclude?",
+        "options": [
+          {
+            "text": "The market expects the euro to appreciate against the dollar over the next 90 days.",
+            "value": null,
+            "explanation": "Treats the forward rate as a forecast. A premium reflects the interest differential, not expected spot moves."
+          },
+          {
+            "text": "The market expects the euro to depreciate, so buyers demand compensation through a higher forward price.",
+            "value": null,
+            "explanation": "Also treats the premium as a forecast, and with the wrong logic. Forwards do not encode a view on the spot rate."
+          },
+          {
+            "text": "Interest rates are lower in the euro area than in the US, so the premium offsets that difference.",
+            "value": null,
+            "explanation": "Correct. By covered interest parity, the base currency (euro) trades at a premium when its interest rate is below the price currency's. This is a statement about interest rates, not a forecast."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:8:14",
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "item": {
+        "kind": "calc",
+        "difficulty": "easy",
+        "stem": "The spot rate is 1.1000 USD/EUR (USD is the price currency, EUR the base). The 1-year simple annual interest rates are 3.00% for USD and 5.00% for EUR. What is the 1-year forward rate, rounded to four decimals?",
+        "options": [
+          {
+            "text": "1.0790 USD/EUR",
+            "value": 1.079,
+            "explanation": "Correct: 1.10 × 1.03/1.05 ≈ 1.0790. The euro has the higher rate, so it trades at a forward discount."
+          },
+          {
+            "text": "1.1214 USD/EUR",
+            "value": 1.1214,
+            "explanation": "Inverts the ratio (1.10 × 1.05/1.03), which gives the wrong direction for the premium or discount."
+          },
+          {
+            "text": "1.0780 USD/EUR",
+            "value": 1.078,
+            "explanation": "Subtracts the rate difference from 1 instead of using the ratio: 1.10 × (1 − 0.02) = 1.0780."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": {
+          "fn": "forwardFx",
+          "args_json": "{\"spot\":1.1,\"iPrice\":0.03,\"iBase\":0.05,\"T\":1}"
+        },
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What does covered interest rate parity say about forward exchange rates?",
+        "back": "The forward rate is set so that a hedged investment in either currency earns the same return. This leaves no risk-free arbitrage profit.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Forward rate formula for a P/B quote using simple interest?",
+        "back": "F = S × (1 + i_P·t)/(1 + i_B·t). The price-currency rate goes on top, the base-currency rate on the bottom, and t = days/360 (days/365 for GBP).",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:13:24"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "How do you convert forward points into a forward rate, and how do you express the premium in percent?",
+        "back": "F = S + points × point size (0.0001 for most pairs, 0.01 for yen-style quotes). Premium or discount on the base currency in percent = (F − S)/S, with spot in the denominator.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:7:13",
+          "fed-trading-4000-p2:8:14"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Does a forward premium on the base currency mean the market expects it to appreciate?",
+        "back": "No. The premium or discount only reflects the interest rate differential. The currency with the lower interest rate trades at a forward premium.",
+        "cited_chunk_ids": [
+          "fed-trading-4000-p2:8:14"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [],
+  "usage": [
+    {
+      "at": "2026-10-27T22:41:53.063Z",
+      "purpose": "blind-solve",
+      "losId": "econ-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1217,
+      "outputTokens": 624,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008791,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T22:42:08.139Z",
+      "purpose": "grounding",
+      "losId": "econ-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 14362,
+      "outputTokens": 2259,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0514832,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0602742
+}
