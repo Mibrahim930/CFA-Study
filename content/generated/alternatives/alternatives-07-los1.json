@@ -1,0 +1,463 @@
+{
+  "losId": "alternatives-07-los1",
+  "losText": "describe financial applications of distributed ledger technology",
+  "moduleId": "alternatives-07",
+  "moduleTitle": "Introduction to Digital Assets",
+  "model": "claude-sonnet-5-5",
+  "generatedAt": "2026-10-27T20:51:43.058Z",
+  "retrieved": [
+    {
+      "id": "fsoc-digital-assets-2022:10:9",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "p. 10",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=10",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.11
+    },
+    {
+      "id": "fsb-crypto-2022:19:23",
+      "title": "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)",
+      "locator": "pp. 19–20",
+      "url": "https://www.fsb.org/wp-content/uploads/P160222.pdf#page=19",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "fsoc-digital-assets-2022:11:11",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "pp. 11–12",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=11",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fsoc-digital-assets-2022:10:10",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "pp. 10–11",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=10",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.06
+    },
+    {
+      "id": "fsb-crypto-2022:20:24",
+      "title": "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)",
+      "locator": "p. 20",
+      "url": "https://www.fsb.org/wp-content/uploads/P160222.pdf#page=20",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "fsb-crypto-2022:29:34",
+      "title": "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)",
+      "locator": "p. 29",
+      "url": "https://www.fsb.org/wp-content/uploads/P160222.pdf#page=29",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "nist-ir-8202:12:9",
+      "title": "Blockchain Technology Overview (NIST Interagency Report 8202)",
+      "locator": "p. 12",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf#page=12",
+      "license": "Public domain (U.S. government work, 17 U.S.C. 105; NIST publications are not subject to copyright in the United States)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "nist-ir-8202:6:3",
+      "title": "Blockchain Technology Overview (NIST Interagency Report 8202)",
+      "locator": "p. 6",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf#page=6",
+      "license": "Public domain (U.S. government work, 17 U.S.C. 105; NIST publications are not subject to copyright in the United States)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fsoc-digital-assets-2022:13:13",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "pp. 13–14",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=13",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "fsb-crypto-2022:20:25",
+      "title": "Assessment of Risks to Financial Stability from Crypto-assets (Financial Stability Board)",
+      "locator": "pp. 20–21",
+      "url": "https://www.fsb.org/wp-content/uploads/P160222.pdf#page=20",
+      "license": "© Financial Stability Board; free to read, not an open licence (private grounding only)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "fsoc-digital-assets-2022:117:148",
+      "title": "Report on Digital Asset Financial Stability Risks and Regulation (Financial Stability Oversight Council, 2022)",
+      "locator": "p. 117",
+      "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf#page=117",
+      "license": "Public domain (U.S. government work)",
+      "reuse": "adapt",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-rf-private-credit-2026:28:37",
+      "title": "Private Credit: Market Structure, Fund Design, and Retail Access (CFA Institute, 2026)",
+      "locator": "pp. 28–29",
+      "url": "https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rpc_private-credit_marketstructure-funddesign-andretailaccess_online.pdf#page=28",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "content": {
+    "lesson": {
+      "title": "Distributed Ledgers at Work in Finance",
+      "summary": "A distributed ledger is a record book that many computers keep in sync instead of one institution holding the master copy. This lesson covers how that idea is used in finance, from digital currencies to tokenized assets, trade settlement, automated contracts and decentralized lending, so you can recognise each application on the exam.",
+      "sections": [
+        {
+          "heading": "The shared notebook idea",
+          "body_markdown": "Picture a notebook of who owns what. In a traditional setup, one trusted keeper (a bank or a depository) holds the only official notebook, and everyone relies on that keeper. A **distributed ledger** is a notebook whose identical copies are held by many participants, and the copies are kept in agreement by agreed rules rather than by one boss. **Distributed ledger technology (DLT)** is the set of tools that makes this possible.\n\nA **blockchain** is one common form of DLT. New transactions are bundled into *blocks*, each block is cryptographically linked to the one before it, and participants validate new blocks by a *consensus* process. Because each block is chained to earlier ones, altering history later becomes very hard. **Cryptography** (turning data into coded form with mathematical algorithms) is what lets users sign transactions and lets everyone verify them."
+        },
+        {
+          "heading": "Who may write to the ledger, and how entries get approved",
+          "body_markdown": "Ledgers differ in access:\n\n- **Permissionless**: anyone can take part in adding data (Bitcoin is the classic case).\n- **Permissioned**: a central party restricts access to selected participants or to itself. Institutions often prefer this when they need to know who is on the network.\n\nNew entries also need an approval method. In **proof of work (PoW)**, *miners* compete to solve computationally heavy puzzles to add a block. In **proof of stake (PoS)**, *validators* lock up (stake) crypto-assets for the chance to record transactions, which needs far less computing power and can raise capacity. Designers often talk about a trade-off among scale, security and decentralization, sometimes called the blockchain trilemma."
+        },
+        {
+          "heading": "Main financial applications",
+          "body_markdown": "1. **Cryptocurrencies and other crypto-assets.** These are private-sector digital assets relying on cryptography and DLT. They were the first big use of the technology. *Stablecoins* aim to hold a steady value against a national currency or other reference asset, which makes them more practical than volatile coins for payments and for trading inside crypto markets.\n2. **Tokenization.** A *token* is a digital representation of an interest or right. Putting an asset such as a fund share, real estate interest or loan on a ledger as a token can allow fractional ownership and easier transfer. Legal treatment varies by jurisdiction, and regulators often apply the rule that the same business with the same risks should face the same rules.\n3. **Post-trade clearing and settlement.** After a trade, ownership and payment must be confirmed and exchanged. A shared ledger that all parties trust can record these steps together, which could speed settlement, cut reconciliation work and reduce counterparty exposure.\n4. **Smart contracts.** A smart contract is code on the ledger that carries out an action automatically when set conditions are met, with no third party needed to execute it. An **oracle** supplies the contract with outside (off-chain) data it cannot see on its own, such as an event or a price.\n5. **Decentralized finance (DeFi).** DeFi uses smart contracts, typically on public permissionless blockchains, to offer lending, borrowing, trading, asset management, derivatives and insurance without a traditional intermediary."
+        },
+        {
+          "heading": "DeFi in more detail",
+          "body_markdown": "On a DeFi lending platform, a borrower locks crypto-assets as collateral and borrows other crypto-assets. The code cannot check identity or assess credit, so it protects lenders by **over-collateralization**: the collateral is worth more than the loan, and the rules are enforced automatically. For instance, a platform may require $150 of collateral per $100 borrowed. Interest rates are often set automatically by supply and demand for funds.\n\n**Decentralized exchanges (DEXs)** use automated *liquidity pools*: participants lock crypto-assets into a pool, earning fees, so others can trade against it without a traditional order-matching firm.\n\nCaveats to remember: many DeFi projects claim to be decentralized but in practice concentrate control (for example through founders holding administrative keys), which makes it hard for regulators to find an accountable party. Innovation has also at times outrun governance, controls and regulatory compliance, and real economic uses of crypto-assets remain limited so far."
+        }
+      ],
+      "worked_example": {
+        "problem": "A DeFi lending platform requires $150 of crypto-asset collateral for every $100 borrowed, enforced automatically by a smart contract. A user locks collateral worth $4,500. What is the maximum amount the user can borrow, and why does the platform ask for more collateral than the loan?",
+        "steps": [
+          "Express the rule as a collateral ratio: $150 / $100 = 1.5 (150%).",
+          "Divide the collateral by the ratio: maximum loan = $4,500 / 1.5.",
+          "Compute: $4,500 / 1.5 = $3,000.",
+          "Check: $3,000 × 1.5 = $4,500, so the collateral exactly meets the requirement.",
+          "Reason for the extra collateral: the smart contract cannot verify the borrower's identity or creditworthiness, so a cushion of collateral and automatic enforcement take the place of a credit assessment."
+        ],
+        "answer": "The maximum loan is $3,000. Over-collateralization substitutes for identity checks and credit analysis that an intermediary would normally perform.",
+        "answer_value": 3000,
+        "calc_spec": null
+      },
+      "formulas": [
+        {
+          "name": "Maximum borrowing under a collateral ratio",
+          "latex": "\\text{Max loan}=\\frac{\\text{Collateral value}}{\\text{Required collateral ratio}}",
+          "where": "Collateral value is the market value of crypto-assets locked in the smart contract; Required collateral ratio is collateral required per 1 of borrowing (for example 1.5 for $150 per $100)."
+        }
+      ],
+      "exam_traps": [
+        "Treating blockchain and DLT as the same thing. A blockchain is one type of DLT; the broader term covers any shared, replicated ledger.",
+        "Assuming every distributed ledger is permissionless. Permissioned ledgers restrict who can take part and are common where participants must be identified.",
+        "Thinking a smart contract is a legal contract written in a clever format. It is code that executes automatically when conditions are met, and it cannot reach outside data without an oracle.",
+        "Believing DeFi is truly free of intermediaries and control. Governance is often concentrated, and admin keys or large token holders can make decisions.",
+        "Reading collateral requirements backwards: DeFi loans are typically over-collateralized, so the borrowable amount is less than the collateral value, not more."
+      ],
+      "builds_on": [
+        "Basic ledgers and record-keeping",
+        "Cryptography basics",
+        "Asset classes and alternative investments"
+      ],
+      "leads_to": [
+        "Investment features of digital assets",
+        "Digital asset investment vehicles",
+        "Risk, return and diversification of digital assets"
+      ],
+      "cited_chunk_ids": [
+        "fsoc-digital-assets-2022:10:9",
+        "fsoc-digital-assets-2022:10:10",
+        "fsoc-digital-assets-2022:11:11",
+        "fsb-crypto-2022:19:23",
+        "fsb-crypto-2022:20:24",
+        "fsb-crypto-2022:20:25",
+        "fsb-crypto-2022:29:34",
+        "nist-ir-8202:12:9",
+        "cfa-rf-private-credit-2026:28:37"
+      ]
+    },
+    "mcqs": [
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which statement best describes distributed ledger technology (DLT)?",
+        "options": [
+          {
+            "text": "A record of transactions copied across many participants and kept consistent by agreed rules, with no single master copy needed.",
+            "value": null,
+            "explanation": "Correct: the defining feature is a replicated ledger synchronized across multiple locations through common rules."
+          },
+          {
+            "text": "A database run by one trusted operator, with backup copies that only that operator may alter or approve.",
+            "value": null,
+            "explanation": "This describes a centralized database with backups. It confuses simple replication for safety with shared maintenance by many participants."
+          },
+          {
+            "text": "An encrypted messaging system that sends payment instructions between banks but keeps no permanent record.",
+            "value": null,
+            "explanation": "This confuses cryptography with a ledger. DLT is about keeping a persistent shared record, not just secure messages."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:29:34",
+          "nist-ir-8202:12:9"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A bank consortium wants a shared ledger in which only vetted member firms may add and validate entries. Which type of ledger fits this need?",
+        "options": [
+          {
+            "text": "A permissionless blockchain, because anyone can join and add data, which lets the members control who participates.",
+            "value": null,
+            "explanation": "Permissionless means open to all contributors, so it does not let members restrict who participates."
+          },
+          {
+            "text": "A proof-of-work chain, because mining is the feature that restricts who is allowed to join the network.",
+            "value": null,
+            "explanation": "Proof of work is a validation method, not an access-control model. It confuses how entries are approved with who may take part."
+          },
+          {
+            "text": "A permissioned ledger, because a central party or group limits access to approved participants.",
+            "value": null,
+            "explanation": "Correct: permissioned ledgers restrict access to selected parties, which suits vetted consortia."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsoc-digital-assets-2022:10:9"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which description of a smart contract is most accurate?",
+        "options": [
+          {
+            "text": "A legal agreement signed electronically that a court enforces in the same way as any other written contract.",
+            "value": null,
+            "explanation": "This confuses a smart contract with an e-signed legal contract. Smart contracts are code, and legal enforceability is a separate issue."
+          },
+          {
+            "text": "Code on a ledger that automatically carries out an action once predefined conditions are met.",
+            "value": null,
+            "explanation": "Correct: it automates the implementation of an agreement through code without needing a third party to act."
+          },
+          {
+            "text": "A guarantee from the ledger's validators that the market price of a token will not fall below a set level.",
+            "value": null,
+            "explanation": "This confuses smart contracts with price guarantees. Code executes rules; it does not guarantee value."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsoc-digital-assets-2022:11:11",
+          "fsb-crypto-2022:19:23"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "How could DLT most plausibly improve post-trade clearing and settlement of securities?",
+        "options": [
+          {
+            "text": "It would remove price risk from securities, because trades recorded on a ledger cannot lose value before delivery.",
+            "value": null,
+            "explanation": "DLT changes how records and transfers are handled; it does not remove market price risk. This confuses settlement mechanics with price behaviour."
+          },
+          {
+            "text": "It would make legal rules about ownership unnecessary, because the ledger entry alone settles every dispute.",
+            "value": null,
+            "explanation": "Legal frameworks still determine whether a ledger entry counts as ownership. This overstates the technology's role."
+          },
+          {
+            "text": "A shared ledger could record the ownership transfer and payment together, potentially shortening settlement and reducing counterparty exposure.",
+            "value": null,
+            "explanation": "Correct: a common ledger trusted by all parties can cut reconciliation and the time during which one side is exposed to the other's default."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A DeFi lending platform lets anyone borrow crypto-assets without any identity check or credit assessment. What mainly protects lenders on such a platform?",
+        "options": [
+          {
+            "text": "Over-collateralization with margin requirements enforced automatically by smart contracts.",
+            "value": null,
+            "explanation": "Correct: borrowers post collateral worth more than the loan, and code enforces the margin, replacing identity checks and credit analysis."
+          },
+          {
+            "text": "Deposit insurance provided by the validators who confirm each transaction on the blockchain.",
+            "value": null,
+            "explanation": "Validators confirm transactions; they do not insure deposits. This confuses validation with insurance."
+          },
+          {
+            "text": "A credit rating that the smart contract assigns to each borrower from their transaction history.",
+            "value": null,
+            "explanation": "The described platforms rely on collateral rather than borrower credit scoring. This assumes the code performs traditional credit analysis."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:19:23",
+          "fsb-crypto-2022:20:24",
+          "fsb-crypto-2022:20:25"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "What problem is an oracle designed to solve in blockchain applications?",
+        "options": [
+          {
+            "text": "It lets validators avoid staking crypto-assets by replacing consensus with a central approval authority.",
+            "value": null,
+            "explanation": "This confuses oracles with changes to validation mechanisms such as proof of stake or permissioned approval."
+          },
+          {
+            "text": "It supplies smart contracts with off-chain information, such as real-world events, which they cannot access on their own.",
+            "value": null,
+            "explanation": "Correct: smart contracts cannot see data outside the ledger, so oracles feed in external information."
+          },
+          {
+            "text": "It converts a volatile crypto-asset into a stable-value token by holding reserves in a national currency.",
+            "value": null,
+            "explanation": "That describes a stablecoin's design, not an oracle. This mixes up two different innovations."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsoc-digital-assets-2022:11:11"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An asset manager issues digital tokens, each representing a small slice of ownership in a real estate investment, recorded on a distributed ledger. This is best described as:",
+        "options": [
+          {
+            "text": "a stablecoin, because the tokens are designed to keep a constant value against a national currency.",
+            "value": null,
+            "explanation": "Stablecoins target a stable value relative to a reference asset. These tokens represent an ownership interest, so the label is wrong."
+          },
+          {
+            "text": "a proof-of-stake validation, because the investors lock up their holdings to secure the real estate.",
+            "value": null,
+            "explanation": "Proof of stake is a transaction-validation method. Holding a token that represents ownership is not staking."
+          },
+          {
+            "text": "tokenization, which can enable fractional ownership of the asset, with legal treatment depending on the jurisdiction.",
+            "value": null,
+            "explanation": "Correct: tokenization places a representation of an interest on a ledger. It can allow smaller slices, but regulation and legal recognition vary."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:29:34",
+          "cfa-rf-private-credit-2026:28:37"
+        ]
+      },
+      {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A DeFi platform requires $150 of collateral for every $100 borrowed. A user locks collateral worth $6,000 and borrows the maximum permitted. Ignoring interest and price changes, how much can the user borrow? Round to the nearest dollar.",
+        "options": [
+          {
+            "text": "$9,000, found by multiplying the collateral by the 1.5 ratio instead of dividing by it.",
+            "value": null,
+            "explanation": "Multiplying by 1.5 reverses the rule; it treats collateral as if it were the loan rather than the other way around."
+          },
+          {
+            "text": "$4,000, found by dividing the $6,000 collateral by the 1.5 required ratio.",
+            "value": null,
+            "explanation": "Correct: $6,000 / 1.5 = $4,000, and $4,000 × 1.5 = $6,000 meets the requirement."
+          },
+          {
+            "text": "$6,000, found by assuming the loan equals the collateral on a one-for-one basis.",
+            "value": null,
+            "explanation": "This ignores over-collateralization; borrowing $6,000 would need $9,000 of collateral."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:20:24"
+        ]
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the difference between DLT and a blockchain?",
+        "back": "DLT is the broad idea of a ledger replicated across many participants. A blockchain is one form of DLT where transactions are grouped into cryptographically linked blocks.",
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:29:34",
+          "nist-ir-8202:12:9"
+        ]
+      },
+      {
+        "front": "Permissioned vs permissionless ledger: what is the difference?",
+        "back": "On a permissioned ledger a central party limits who may access and write to it. On a permissionless ledger anyone can contribute and add data.",
+        "cited_chunk_ids": [
+          "fsoc-digital-assets-2022:10:9"
+        ]
+      },
+      {
+        "front": "What are smart contracts and oracles?",
+        "back": "A smart contract is ledger-based code that automatically acts when set conditions are met. An oracle feeds it off-chain information it cannot see itself.",
+        "cited_chunk_ids": [
+          "fsoc-digital-assets-2022:11:11"
+        ]
+      },
+      {
+        "front": "Why are DeFi loans typically over-collateralized?",
+        "back": "Smart contracts cannot check identity or assess credit, so excess collateral plus automatic margin enforcement protects lenders (for example $150 per $100 borrowed).",
+        "cited_chunk_ids": [
+          "fsb-crypto-2022:20:24",
+          "fsb-crypto-2022:20:25"
+        ]
+      },
+      {
+        "front": "Name the main financial applications of DLT.",
+        "back": "Cryptocurrencies and other crypto-assets, tokenization of assets, post-trade clearing and settlement, smart contracts, and decentralized finance (lending, trading, derivatives, insurance).",
+        "cited_chunk_ids": []
+      }
+    ]
+  },
+  "usage": [
+    {
+      "at": "2026-10-27T20:51:43.058Z",
+      "purpose": "generate",
+      "losId": "alternatives-07-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9186,
+      "outputTokens": 7543,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 5781,
+      "costUsd": 0.09495819999999999,
+      "stopReason": "end_turn"
+    }
+  ]
+}
