@@ -71,3 +71,18 @@ Mark Meldrum ($300–500), Kaplan Schweser packages ($799–1,099), PrepNuggets 
 
 ## Agent-Reach itself
 Installed 2026-10-27 at user level via `uv` (program under `~/.agent-reach/`, skill linked for Claude Code). Channels kept: **github, web** (web's Exa backend was down at the time). Removed: youtube (project rule: no YouTube scraping), bilibili, v2ex. Not added: reddit and the login channels. Uninstall: `agent-reach uninstall --dry-run`, then `agent-reach uninstall`.
+
+## Reddit (added 2026-10-27, later the same day)
+
+Reddit blocks anonymous automated reading outright ("You've been blocked by network security. To continue, log in to your Reddit account or use your developer token"), which is also why Claude Code's own tools refuse the site. Agent-Reach's Reddit channel was added (`agent-reach add reddit`, no login) and its direct route hit the same wall, but its public-web search route returns each thread's indexed text including the top comments, which was enough. Eleven threads read in full, 2016–2026; the Exa backend rate-limits, so 15–20 s pauses between queries were needed.
+
+**What r/CFA recommends for free Level I study, by how often it came up:**
+1. **Let me explain** (YouTube) — the most-named channel. One 2025 commenter says most videos are now members-only ($10/month). Checked via the YouTube Data API: 417 of the 419 videos in the app's video map are public, so the app is unaffected.
+2. **Mark Meldrum's free older lessons** (2017–2018) via a free account on markmeldrum.com, plus his YouTube — named in four threads. His site now describes the free tier as a one-section preview.
+3. **Martin Stoynov** (YouTube, @mstoynov) — "Goldmine for CFA L1 Candidates" (50 points, 2024); ex-Schweser instructor; all 10 topics covered unevenly; Quant playlist updated Oct 2026 — **added to app**.
+4. **Salt Solutions** — described in 2023–24 as "Level 1 material is free, videos and QB"; today a 14-day trial with a mock and one full topic — app entry updated.
+5. **CFA Institute Learning Ecosystem** questions and mocks — "no added cost whatsoever" once registered; already in app.
+6. Also named: IFT free videos (in app), FinTree live streams (in app), FinQuiz Pro (in app), AnalystPrep (in app), edZeb (Indian provider, revision lectures; not verified), Chalk & Board (Hinglish), Bionic Turtle (FRM-focused), Bloomberg Prep 7-day trial (contents not stated; not added), Princeton Review free test (no longer exists), cfamocks.streamlit.app (user-built; a commenter says too easy and repetitive; not added), leetquiz.com (behind a bot check; not checked).
+7. r/cfaindia: a Level III candidate started a free full Level I course in Hindi (May 2026, 94 points); a Jan 2026 post offers "plain-English notes for all topics" from Zorroh Academy, which couldn't be found anywhere else.
+
+Threads read: 1d5oz9m, 1egjhb4, 1l8l91y, 1l9j3rd, 1o077gd, 1spuzbk, 11pkld4, i5k7xm, nabdl8, yzrrmi, 1ve5qe1 (r/CFA); 1thsjw9, 1qlltgi, 1wu0c8k (r/cfaindia).

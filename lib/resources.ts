@@ -142,7 +142,7 @@ export const RESOURCES: Resource[] = [
     cost: "Free, no card",
     trialDays: 14,
     when: "Your Quant weeks",
-    notes: "Time-limited, so start it the week you begin Quant.",
+    notes: "Time-limited, so start it the week you begin Quant. The trial includes a mock exam and one full topic (10+ hours). r/CFA posts from 2023–24 describe all of Level I as free there; that offer has since shrunk to this trial (checked 2026-10-27).",
   },
   {
     id: "uworld",
@@ -281,6 +281,18 @@ export const RESOURCES: Resource[] = [
     notes: "Playlist working through a full Level I mock question by question. Their channel (about 890 videos) also has topic lectures.",
   },
   {
+    id: "stoynov-youtube",
+    name: "Martin Stoynov lectures",
+    provider: "Martin Stoynov (YouTube)",
+    url: "https://www.youtube.com/@mstoynov",
+    kind: "video",
+    topics: "all",
+    cost: "Free",
+    when: "A second teacher for any topic; his Quant playlist is the most complete and was updated October 2026",
+    notes: "Former Schweser video instructor; r/CFA calls his channel a \"goldmine\" for being engaging and concise. Playlists for all 10 topics (Quant 30 videos, Fixed Income 38, FSA 23, Equity 19; Ethics only 1) plus a 7-video BA II Plus calculator guide. Less deep than Mark Meldrum, by design.",
+    extra: { label: "Quantitative Methods playlist", url: "https://www.youtube.com/playlist?list=PLZ__iX3bx1_ECg_HmYuJgFjbDWajJx2Kh" },
+  },
+  {
     id: "meldrum-youtube",
     name: "Mark Meldrum on YouTube",
     provider: "Mark Meldrum (YouTube)",
@@ -289,7 +301,7 @@ export const RESOURCES: Resource[] = [
     topics: "all",
     cost: "Free videos; the full course is paid ($300–500)",
     when: "For a topic you find hard, after the app's lesson",
-    notes: "The most-recommended paid Level I instructor; about 970 videos on the free channel, often from earlier curriculum years, so check dates. The paid course isn't needed for this plan.",
+    notes: "The most-recommended paid Level I instructor; about 970 videos on the free channel, often from earlier curriculum years, so check dates. r/CFA regulars also point to his older free lessons behind a free account on markmeldrum.com (today the site describes that as a preview of one section). The paid course isn't needed for this plan.",
   },
 ];
 
