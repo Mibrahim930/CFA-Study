@@ -1,0 +1,762 @@
+{
+  "losId": "ethics-08-los2",
+  "losText": "recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct",
+  "moduleId": "ethics-08",
+  "moduleTitle": "Guidance for Standard VI: Conflicts of Interest",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T23:21:39.984Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-code-ethics-page:1:1",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-sop-handbook-12:1:0",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 1–5",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=1",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-sop-handbook-12:11:6",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 11",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-sop-handbook-12:146:171",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 146",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=146",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-sop-handbook-12:147:172",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 147",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=147",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-code-ethics-page:1:0",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-sop-handbook-12:20:17",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 20–21",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=20",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-sop-handbook-12:191:227",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 191–192",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=191",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-sop-handbook-12:84:96",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 84–85",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=84",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-sop-handbook-12:147:173",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 147–148",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=147",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-sop-handbook-12:8:3",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 8–9",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=8",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    },
+    {
+      "id": "cfa-sop-handbook-12:186:221",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 186–187",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=186",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.05
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Building Safeguards Against Conflicts of Interest",
+      "summary": "This lesson covers the policies, controls and habits that stop conflicts of interest from turning into ethics violations: avoiding or disclosing conflicts, controlling personal trading, handling referral fees, and building a workable compliance program. Exam questions often ask what a firm or a supervisor should put in place, not just what went wrong.",
+      "sections": [
+        {
+          "heading": "Why procedures matter: prevention beats punishment",
+          "body_markdown": "A **conflict of interest** exists when something, such as money, a relationship or a personal trade, could pull your judgment away from what is best for a client or your employer. Think of a referee who has bet on one of the teams. Even if he calls the game fairly, nobody can be sure of it.\n\nThe Standards expect professionals to recommend *safeguards* so that problems are stopped early. Safeguards are written rules, approvals, reporting duties and training. A firm that waits for a violation and then reacts has already harmed clients."
+        },
+        {
+          "heading": "Standard VI(A): avoid first, disclose if you cannot",
+          "body_markdown": "The preferred approach is to **avoid** the conflict. Many conflicts in investment firms cannot reasonably be avoided, so the fallback is **full and fair disclosure** to the people affected: clients, prospective clients and the employer.\n\nQuality of disclosure counts as well as the fact of it. It should be **prominent**, written in **plain language**, and **effective** at getting the relevant information across. A dense legal footnote that nobody reads does not meet this.\n\nTypical practices to recommend:\n- Decline outside payments that could influence recommendations (for example, extra pay from a stock promoter for pushing a security).\n- Where avoidance is not realistic, tell clients and the employer about compensation arrangements, ownership stakes and relationships that could bias advice.\n- Disclose pay arrangements that create pressure, such as short-term performance targets that clash with clients' stated objectives.\n\nDisclosing to clients lets them judge for themselves whether a recommendation was influenced."
+        },
+        {
+          "heading": "Standards VI(B) and VI(C): personal trades and referral fees",
+          "body_markdown": "**Priority of transactions (VI(B))**: client trades come before employer trades, and both come before personal trades. Firms typically use these controls:\n- **Preclearance**: staff get approval before a personal trade.\n- **Restricted and watch lists**, and **blackout periods** around client trades or new recommendations.\n- **Reporting**: regular statements of personal holdings and transactions, and duplicate trade confirmations sent to compliance.\n- **Limits on IPOs and private placements** unless approved, because these are often scarce, hot opportunities that could be diverted from clients.\n- **Disclosure** of the firm's personal-trading policies to clients on request.\n\nClients must be treated as equals. A manager's family member who is a fee-paying client gets the same treatment as any other client, neither better nor worse. If the manager has beneficial ownership of that account, the firm's preclearance and reporting rules can apply too.\n\nA firm must also enforce what it writes. If an employee keeps skipping the required quarterly personal-trade report and nobody insists, the supervisor has failed.\n\n**Referral fees (VI(C))**: if you give or receive payment or benefits for referring clients, disclose it to your employer, to clients and to prospective clients, *before* the service relationship begins. The disclosure should describe the nature of the compensation, so the client can value the referral properly."
+        },
+        {
+          "heading": "Building a compliance program that works",
+          "body_markdown": "Supervisors are expected to *find* the situations where violations are likely, then set up and enforce procedures to prevent them. Good written procedures:\n- are clear, easy to understand and tailored to the firm's real operations;\n- name a **compliance officer** with defined authority, resources and power to investigate;\n- describe the supervision hierarchy and who does what;\n- build in **checks and balances**;\n- spell out permitted conduct, how to report violations, and the sanctions;\n- include documented monitoring and testing of the procedures.\n\nOnce the program is running, supervisors keep it alive by circulating it, updating it, training staff, sending regular reminders, including conduct in performance reviews, and monitoring employees.\n\nKeep two documents distinct. The **code of ethics** is short, principle-based and in plain language, and can be shared with clients. The **compliance procedures** hold the detailed rules. Mixing the two weakens the message about ethical ideals.\n\nIf a violation turns up, the supervisor should respond promptly, investigate thoroughly to find the scope, tighten supervision or limit the person's duties meanwhile, and then review the procedures for gaps. A violation can be a sign that the procedures were inadequate."
+        }
+      ],
+      "worked_example": {
+        "problem": "Harbor Ridge Advisers has 40 employees. A review finds that an analyst bought shares of a small company two days before the firm added it to its recommended list. The firm's only personal-trading rule is a one-sentence statement in the employee handbook saying staff 'should act ethically'. The new compliance head asks for recommendations to prevent a repeat. List the practices you would recommend.",
+        "steps": [
+          "Identify the risk: staff can trade ahead of clients on information about upcoming recommendations. This is a Standard VI(B) priority-of-transactions problem.",
+          "Add access control: require **preclearance** of personal trades by compliance, and set a **blackout period** around the firm's recommendation changes.",
+          "Add visibility: create a **restricted/watch list** and require duplicate trade confirmations and regular reports of personal holdings and transactions.",
+          "Limit special opportunities: require approval before employees take part in IPOs or private placements.",
+          "Assign accountability: define the compliance officer's authority and resources, and require that missing reports be followed up and enforced.",
+          "Keep documents distinct: keep the short code of ethics principle-based and put these detailed rules in a separate, clearly written compliance manual.",
+          "Sustain it: train staff, send periodic reminders, include conduct in performance reviews, and test the procedures regularly."
+        ],
+        "answer": "Recommend preclearance, blackout periods, restricted/watch lists, duplicate confirmations and holdings reports, approval for IPO and private placement participation, a compliance officer with real authority, and enforcement, training and monitoring, with the code of ethics kept separate from the detailed procedures.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating disclosure as the first choice. Avoiding the conflict is preferred where reasonably possible; disclosure is what is required when avoidance is not reasonable.",
+        "Assuming a disclosure counts as long as it exists somewhere. It must be prominent, in plain language and effective, not buried or full of jargon.",
+        "Giving relatives' accounts special treatment (either better or worse). Fee-paying family clients are owed the same treatment as other clients.",
+        "Assuming written procedures alone satisfy a supervisor. They must be enforced, monitored and updated, and a supervisor who knows or should know they are being ignored can still be in violation.",
+        "Disclosing a referral fee only after the client has signed up. The disclosure should come before the service relationship starts."
+      ],
+      "builds_on": [
+        "Standard I(B) Independence and Objectivity",
+        "Standard IV(C) Responsibilities of Supervisors",
+        "Standard III(B) Fair Dealing",
+        "Code of Ethics: client interests above personal interests"
+      ],
+      "leads_to": [
+        "Applying the Standards to case scenarios",
+        "Identifying conforming vs violating conduct",
+        "Standard V(C) Record Retention",
+        "Firm-level compliance and ethics culture"
+      ],
+      "cited_chunk_ids": [
+        "cfa-sop-handbook-12:11:6",
+        "cfa-sop-handbook-12:8:3",
+        "cfa-sop-handbook-12:186:221",
+        "cfa-sop-handbook-12:191:227",
+        "cfa-sop-handbook-12:146:171",
+        "cfa-sop-handbook-12:147:172",
+        "cfa-sop-handbook-12:147:173"
+      ]
+    },
+    "badge": "model_only",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": true,
+        "issues": []
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio manager is offered extra pay by a stock promoter for steering clients into the promoter's shares. Which course of action best reflects the recommended approach under Standard VI(A)?",
+        "options": [
+          {
+            "text": "Accept the offer and disclose it to clients only if a client asks about it",
+            "value": null,
+            "explanation": "Wrong: disclosure must be given proactively and must be prominent. Waiting for a client question does not meet the standard."
+          },
+          {
+            "text": "Decline the extra pay, since the conflict can reasonably be avoided",
+            "value": null,
+            "explanation": "Correct: avoiding the conflict is the preferred practice when reasonably possible. Only when avoidance is not reasonable is clear and full disclosure the minimum."
+          },
+          {
+            "text": "Accept the offer and tell the employer but not the clients",
+            "value": null,
+            "explanation": "Wrong: this confuses the audiences. Clients are the people whose advice might be biased, so they must be told as well, and avoiding the conflict is better still."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6",
+          "cfa-sop-handbook-12:186:221"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investment firm wants to stop employees from trading personal accounts ahead of client orders and new recommendations. Which pair of controls would best address this?",
+        "options": [
+          {
+            "text": "Preclearance of personal trades and blackout periods around firm recommendations",
+            "value": null,
+            "explanation": "Correct: preclearance lets compliance block conflicting trades before they happen, and blackout periods prevent trading around client activity or recommendation changes. Both support priority of transactions."
+          },
+          {
+            "text": "An annual written promise to act ethically and a list of approved brokers",
+            "value": null,
+            "explanation": "Wrong: a general attestation and a broker list do not stop a specific trade ahead of clients. This confuses a principle-based commitment with an operating control."
+          },
+          {
+            "text": "Quarterly client newsletters and a ban on employees holding any securities",
+            "value": null,
+            "explanation": "Wrong: newsletters do not control employee trading. A blanket ban on holding securities is also not the recommended approach; the standard calls for controls, not prohibition of all ownership."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:191:227"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm's compliance director proposes putting detailed trading rules, legal boilerplate and reporting forms inside the firm's code of ethics so employees see everything in one document. Which response best reflects recommended practice?",
+        "options": [
+          {
+            "text": "Agree, because a single document ensures employees cannot claim they missed any rule",
+            "value": null,
+            "explanation": "Wrong: this ignores the guidance that mingling procedures with the code weakens its ethical message and makes it harder to read."
+          },
+          {
+            "text": "Agree, but only for firms with more than a few dozen employees",
+            "value": null,
+            "explanation": "Wrong: firm size is not the deciding factor. The recommended practice is to separate the two documents at any size."
+          },
+          {
+            "text": "Disagree; keep the code short and principle-based and put detailed procedures in separate compliance documents",
+            "value": null,
+            "explanation": "Correct: a plain-language, principle-based code conveys ethical ideals and can be given to clients, while detailed policies sit in the compliance procedures that implement it."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:146:171",
+          "cfa-sop-handbook-12:147:172"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An analyst will receive a fee from a broker for introducing new clients to the broker. Which practice best prevents a violation of Standard VI(C)?",
+        "options": [
+          {
+            "text": "Disclose the fee to the employer only, since the clients are not paying it",
+            "value": null,
+            "explanation": "Wrong: this ignores that clients must also be told, because the fee could bias the referral."
+          },
+          {
+            "text": "Disclose the fee to the employer and to clients before they enter the service relationship",
+            "value": null,
+            "explanation": "Correct: disclosure to the employer and to clients and prospects, made before the relationship starts and describing the nature of the benefit, lets clients value the referral."
+          },
+          {
+            "text": "Disclose the fee to clients once the relationship has been running for a year",
+            "value": null,
+            "explanation": "Wrong: this is a timing error. Disclosure after the client has already acted on the referral comes too late, and it also omits the employer."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Which feature would a supervisor include to make a firm's compliance procedures adequate?",
+        "options": [
+          {
+            "text": "A designated compliance officer with clearly defined authority and the resources to investigate",
+            "value": null,
+            "explanation": "Correct: adequate procedures name a compliance officer who has defined authority, sufficient resources and the power to investigate possible violations."
+          },
+          {
+            "text": "A rule that employees interpret the procedures as they see fit in each case",
+            "value": null,
+            "explanation": "Wrong: leaving interpretation to each employee defeats the purpose. Procedures should be clear and specify permitted conduct."
+          },
+          {
+            "text": "A policy of reviewing the procedures only after a regulator raises a concern",
+            "value": null,
+            "explanation": "Wrong: this is reactive. Supervisors should update and test the program periodically, not wait for outside pressure."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:147:172",
+          "cfa-sop-handbook-12:147:173"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A supervisor learns that an employee has repeatedly skipped the firm's required quarterly personal-trade report and made profitable trades just before stocks were added to the buy list. What is the most appropriate supervisory response?",
+        "options": [
+          {
+            "text": "Wait for the next annual review to see whether the pattern continues before acting",
+            "value": null,
+            "explanation": "Wrong: delay is the mistake. Supervisors should respond promptly once they know of a possible violation."
+          },
+          {
+            "text": "Issue a general reminder to all staff and take no step against the individual",
+            "value": null,
+            "explanation": "Wrong: reminders are useful for prevention, but here a known issue requires a specific investigation and enforcement, not just a broad message."
+          },
+          {
+            "text": "Investigate promptly, tighten supervision of the employee meanwhile, and review procedures for gaps",
+            "value": null,
+            "explanation": "Correct: the recommended steps are a prompt response, a thorough inquiry into the scope, extra supervision or limits pending the outcome, and a review of procedures to prevent recurrence."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:147:173",
+          "cfa-sop-handbook-12:191:227"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "A firm discloses in a long block of legal text, placed on page 40 of an annual document, that its advisers receive bonuses tied to sales of the firm's own funds. Which assessment is most accurate?",
+        "options": [
+          {
+            "text": "Adequate, because any written mention satisfies the disclosure duty",
+            "value": null,
+            "explanation": "Wrong: this treats the existence of a disclosure as enough, ignoring that disclosures must be prominent and communicate effectively."
+          },
+          {
+            "text": "Inadequate, because disclosures should be prominent, in plain language and effective",
+            "value": null,
+            "explanation": "Correct: Standard VI(A) expects disclosure to be prominent, in plain language and effective at communicating the relevant information. A buried, jargon-heavy note fails that test."
+          },
+          {
+            "text": "Adequate, as long as the employer approved the wording beforehand",
+            "value": null,
+            "explanation": "Wrong: employer approval does not substitute for the quality of disclosure to clients, who need to understand the conflict."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What is the preferred response to a conflict of interest under Standard VI(A), and what is the fallback?",
+        "back": "Avoid the conflict where reasonably possible. If avoidance is not reasonable, make full and fair disclosure that is prominent, in plain language and effective.",
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6",
+          "cfa-sop-handbook-12:8:3"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "Name four procedures a firm can use to uphold Standard VI(B) Priority of Transactions.",
+        "back": "Preclearance of personal trades, blackout/restricted periods and lists, reporting of personal holdings and trades (including duplicate confirmations), and approval limits on IPO and private placement participation.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "Contrast a code of ethics with compliance procedures.",
+        "back": "The code is short, plain-language and principle-based, and can be shared with clients. Compliance procedures are the detailed rules that put those principles into daily practice, and they should be kept separate from the code.",
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:146:171",
+          "cfa-sop-handbook-12:147:172"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "When and to whom should referral fees be disclosed under Standard VI(C)?",
+        "back": "To the employer, clients and prospective clients, before the service relationship begins, describing the nature of the compensation or benefit.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "4/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T23:21:31.164Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1016,
+      "outputTokens": 560,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007749,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T23:21:39.983Z",
+      "purpose": "grounding",
+      "losId": "ethics-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13564,
+      "outputTokens": 1307,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0403672,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0481162
+}

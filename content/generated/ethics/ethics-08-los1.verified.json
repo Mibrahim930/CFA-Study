@@ -1,0 +1,786 @@
+{
+  "losId": "ethics-08-los1",
+  "losText": "demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity",
+  "moduleId": "ethics-08",
+  "moduleTitle": "Guidance for Standard VI: Conflicts of Interest",
+  "generatedBy": "claude-sonnet-5-5",
+  "verifiedAt": "2026-10-27T23:21:26.585Z",
+  "verifierModel": "claude-sonnet-5-5",
+  "retrieved": [
+    {
+      "id": "cfa-code-ethics-page:1:0",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-sop-handbook-12:1:0",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 1–5",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=1",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.14
+    },
+    {
+      "id": "cfa-sop-handbook-12:147:172",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 147",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=147",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-sop-handbook-12:21:18",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 21–22",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=21",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-sop-handbook-12:20:17",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 20–21",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=20",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.09
+    },
+    {
+      "id": "cfa-sop-handbook-12:7:2",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 7–8",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=7",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-sop-handbook-12:19:16",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 19–20",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=19",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-sop-handbook-12:6:1",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 6–7",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=6",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.08
+    },
+    {
+      "id": "cfa-sop-handbook-12:15:10",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 15–16",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=15",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-code-ethics-page:1:1",
+      "title": "Code of Ethics and Standards of Professional Conduct overview page (CFA Institute)",
+      "locator": "Code of Ethics and Standards of Professional Conduct",
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.07
+    },
+    {
+      "id": "cfa-sop-handbook-12:58:66",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "pp. 58–60",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=58",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    },
+    {
+      "id": "cfa-sop-handbook-12:11:6",
+      "title": "Standards of Practice Handbook, 12th ed.",
+      "locator": "p. 11",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/code/code-ethics-standards/standards-practice-handbook-12th-edition.pdf#page=11",
+      "license": "© CFA Institute. All rights reserved (free public PDF)",
+      "reuse": "ground",
+      "score": 0.06
+    }
+  ],
+  "lesson": {
+    "id": "lesson",
+    "item": {
+      "title": "Working Through Conflict-of-Interest Cases",
+      "summary": "This lesson gives you a repeatable routine for reading an ethics scenario, spotting whose interests are pulling against each other, and choosing the response that protects clients and the profession. Standard VI (conflicts of interest) supplies three recurring situations to practise on: hidden interests, personal trading and referral payments.",
+      "sections": [
+        {
+          "heading": "Why exam ethics is about stories, not slogans",
+          "body_markdown": "Ethics questions on the exam are short stories about people in tricky spots. Real decisions are often not clearly right or wrong, and even well-meaning professionals can be pushed toward cutting corners by pressure around them. So you are asked which action *best fits* the Code and Standards, not which rule you can recite.\n\nA **conflict of interest** is a situation where your own interest (or your firm's, or a relative's) could bend your judgment or pull you away from the loyalty you owe clients, prospective clients or your employer. Think of a referee who secretly owns shares in one of the two teams. The referee may call the game perfectly fairly, but nobody can be sure, and that doubt damages trust. Markets depend on that trust, which is why the Code puts clients and the integrity of the profession ahead of your personal interests.\n\nThe Standards apply to members and also to CFA Program candidates, including you."
+        },
+        {
+          "heading": "A five-question routine for any scenario",
+          "body_markdown": "Use the same questions every time:\n\n1. **Who is owed a duty?** Clients, prospective clients, the employer, or the market.\n2. **What interest pulls against that duty?** Personal shareholdings, family ties, pay linked to a product, a firm relationship with an issuer.\n3. **Can the conflict reasonably be avoided?** If so, avoiding it is the preferred answer.\n4. **If not, is it disclosed fully and fairly?** The disclosure must reach the right people, stand out, and be easy to understand.\n5. **Do other standards also apply?** Independence and Objectivity, Loyalty to clients, Fair Dealing, duties to the employer, Misconduct, or Knowledge of the Law.\n\nThe best answer usually fixes the problem openly. It does not hide the problem, shrink it, or rely on 'my judgment is fine anyway'."
+        },
+        {
+          "heading": "Standard VI(A): avoid it, or disclose it properly",
+          "body_markdown": "Standard VI(A) now tells members and candidates to **avoid or make full and fair disclosure** of anything that could reasonably be expected to impair their independence and objectivity or interfere with their duties to clients, prospective clients and the employer. Avoiding conflicts has always been the best practice, and the wording now says so. Because some conflicts cannot reasonably be avoided in the industry, clear and complete disclosure is still required in those cases.\n\nDisclosures must be **prominent** (not buried), written in **plain language** (not legal fog), and must **communicate the relevant information effectively**. A footnote in tiny print that nobody can decode fails this test even though the information is technically 'there'.\n\nTypical items to disclose: owning shares of a company you recommend, serving on its board, a family relationship with its management, or a firm relationship with an issuer such as underwriting its securities. Disclosure goes to clients and prospective clients, and the employer must also be told so it can decide how to manage the situation."
+        },
+        {
+          "heading": "Standard VI(B) and VI(C): trading queues and referral payments",
+          "body_markdown": "**Priority of Transactions (VI(B)).** Think of a queue: clients go first, then the employer, and your personal trades go last. You are allowed to invest personally, but you must not trade ahead of clients or on terms that disadvantage them. For example, buying for yourself before a recommendation has been released and clients have had the chance to act is a classic problem.\n\n**Referral Fees (VI(C)).** If you receive or pay any compensation or benefit for recommending a product or service to someone, you must disclose it to your employer, to clients and to prospective clients. The disclosure must come **before** the service is provided, so the client can weigh how the payment may colour your advice. The nature of the benefit does not matter. It can be cash, free services or other consideration."
+        },
+        {
+          "heading": "Layering other duties and the law",
+          "body_markdown": "Most real scenarios touch several standards. A conflicted analyst raises Independence and Objectivity, Loyalty to clients, and possibly Fair Dealing if some clients see a recommendation before others. If local law is more lenient than the Code and Standards, follow the **stricter** rule. Law-abiding behaviour alone is not enough, because the profession expects a culture of integrity that goes beyond bare legal compliance.\n\nWhen two answer choices both look reasonable, prefer the one that is **proactive, transparent and puts clients first**."
+        }
+      ],
+      "worked_example": {
+        "problem": "Priya is an equity analyst at a brokerage. She owns shares of a small mining company she is about to rate 'Buy'. Her brother sits on that company's board. Her employer knows about neither fact. She plans to buy more shares for her personal account tomorrow, ahead of publishing the report next week. Which standards are in play and what should she do?",
+        "steps": [
+          "Identify who is owed duties: the firm's clients who will read and act on the report, and her employer.",
+          "Identify the pulling interests: her existing shareholding, her brother's board seat, and her wish to profit personally from her own recommendation.",
+          "Apply VI(A): the shareholding and the family tie could reasonably be expected to affect her independence and objectivity. She should raise both with her employer and compliance. If coverage can reasonably be reassigned, avoiding the conflict is preferred. Otherwise the research must carry a prominent, plain-language disclosure of both facts.",
+          "Apply VI(B): buying more for herself before clients have had the chance to act on the recommendation puts her interest ahead of theirs. Her personal trade must wait until after clients and the employer have been served.",
+          "Layer other standards: Independence and Objectivity (I(B)) applies to the bias risk, and Loyalty to clients (III(A)) and Fair Dealing (III(B)) apply to the early trade and to who sees the rating first.",
+          "Conclude: tell the employer now, avoid the conflict if reasonably possible, otherwise disclose prominently, and do not trade personally ahead of clients."
+        ],
+        "answer": "Priya must disclose the shareholding and her brother's board seat to her employer, avoid the conflict if reasonably possible (otherwise disclose it prominently in plain language in the report), and not place her personal purchase before clients can act on the recommendation. Standards VI(A) and VI(B) are central, with I(B), III(A) and III(B) also relevant.",
+        "answer_value": null,
+        "calc_spec": null
+      },
+      "formulas": [],
+      "exam_traps": [
+        "Treating disclosure as a cure-all. When a conflict can reasonably be avoided, avoiding it is the preferred response, and disclosure is the fallback.",
+        "Accepting a disclosure that technically exists but is buried in fine print or legal jargon. VI(A) requires it to be prominent, plain and effective.",
+        "Believing personal investing is banned. It is allowed, but clients and then the employer come before your own trades, and you must not disadvantage clients.",
+        "Telling only the employer about a referral arrangement. Clients and prospective clients must be told as well, and before the service is provided.",
+        "Choosing the answer that cites only one standard when the scenario also engages independence, loyalty or fair dealing, or assuming that because local law allows something the Code does too."
+      ],
+      "builds_on": [
+        "Code of Ethics principles",
+        "Standard I(A) Knowledge of the Law",
+        "Standard I(B) Independence and Objectivity",
+        "Standard III(A) Loyalty, Prudence, and Care",
+        "Standard III(B) Fair Dealing"
+      ],
+      "leads_to": [
+        "Compliance procedures and firm policies",
+        "Telling conforming from violating conduct",
+        "Standard VII: Responsibilities as a Member or Candidate"
+      ],
+      "cited_chunk_ids": [
+        "cfa-sop-handbook-12:11:6",
+        "cfa-sop-handbook-12:19:16",
+        "cfa-sop-handbook-12:7:2",
+        "cfa-sop-handbook-12:20:17",
+        "cfa-sop-handbook-12:21:18",
+        "cfa-sop-handbook-12:15:10"
+      ]
+    },
+    "badge": "quarantined",
+    "gates": {
+      "citations": {
+        "pass": true,
+        "issues": []
+      },
+      "calc": {
+        "pass": true,
+        "issues": []
+      },
+      "copy": {
+        "pass": false,
+        "issues": [
+          "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 11: \"avoid or make full and fair disclosure of\""
+        ]
+      },
+      "ifrs18": {
+        "pass": true,
+        "issues": []
+      }
+    }
+  },
+  "mcqs": [
+    {
+      "id": "q1",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio manager personally owns a stake in a private company that one of her client portfolios is considering buying. She cannot reasonably avoid the conflict. Which response best applies Standard VI(A)?",
+        "options": [
+          {
+            "text": "Tell only her employer, since the employer supervises her work on the portfolio.",
+            "value": null,
+            "explanation": "Wrong: this limits disclosure to one audience. VI(A) also protects clients and prospective clients, who must be told."
+          },
+          {
+            "text": "Disclose the stake to the client and employer in a prominent, plain-language statement.",
+            "value": null,
+            "explanation": "Correct: when a conflict cannot reasonably be avoided, VI(A) requires full and fair disclosure that is prominent, plain and effective, reaching those whose interests are affected."
+          },
+          {
+            "text": "Proceed without disclosure, because owning the stake is legal and the price is fair.",
+            "value": null,
+            "explanation": "Wrong: this confuses legality with ethics. The conflict could reasonably impair objectivity, so disclosure is required regardless of legality."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "A portfolio manager decides to buy the same stock for several client accounts and also for her own account. Which sequence best reflects Standard VI(B)?",
+        "options": [
+          {
+            "text": "Client orders first, the firm's own order next, and her personal order last.",
+            "value": null,
+            "explanation": "Correct: clients come first, then the employer, and personal transactions last, so she does not benefit at clients' expense."
+          },
+          {
+            "text": "Her personal order first, since a small order cannot affect the price clients receive.",
+            "value": null,
+            "explanation": "Wrong: this assumes small size excuses trading ahead of clients. The ordering matters regardless of price impact."
+          },
+          {
+            "text": "The firm's order first, then her personal order, and client orders after that.",
+            "value": null,
+            "explanation": "Wrong: this places her ahead of clients because she is an employee. Clients' interests have priority over her own trades."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An investment adviser recommends a mortgage broker to a client. The broker pays the adviser a fee for each loan closed, and the adviser's employer has not been told. Which action best applies Standard VI(C)?",
+        "options": [
+          {
+            "text": "Disclose the fee to the client in an annual statement after the loan closes.",
+            "value": null,
+            "explanation": "Wrong: this gets the timing wrong. The client must know about the payment before relying on the recommendation."
+          },
+          {
+            "text": "Disclose the arrangement to the employer only, because the client pays nothing extra.",
+            "value": null,
+            "explanation": "Wrong: it assumes no cost to the client means no disclosure. Clients and prospective clients must also be told of any benefit received for a referral."
+          },
+          {
+            "text": "Disclose the arrangement to both the employer and the client before making the recommendation.",
+            "value": null,
+            "explanation": "Correct: VI(C) requires disclosure of referral compensation to the employer, clients and prospective clients, before the service is provided."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "item": {
+        "kind": "concept",
+        "difficulty": "hard",
+        "stem": "An equity analyst is assigned to start coverage of a listed company whose chief executive is her brother. Her employer does not know of the relationship. Which response best applies the Code and Standards?",
+        "options": [
+          {
+            "text": "Start coverage and mention the relationship in a small note at the end of the report.",
+            "value": null,
+            "explanation": "Wrong: the employer is still uninformed and the disclosure is buried, which fails VI(A)'s requirement that disclosures be prominent."
+          },
+          {
+            "text": "Tell the employer, then step aside if reasonable, or else ensure the relationship is prominently disclosed.",
+            "value": null,
+            "explanation": "Correct: she informs the employer, avoids the conflict where reasonably possible, and otherwise makes a prominent, plain disclosure. This protects independence and objectivity."
+          },
+          {
+            "text": "Start coverage without mentioning it, since a rigorous valuation model keeps her objective.",
+            "value": null,
+            "explanation": "Wrong: this treats personal confidence as a substitute for disclosure. The standard concerns what could reasonably be expected to impair objectivity, not how objective she feels."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6",
+          "cfa-sop-handbook-12:21:18"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q5",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "A firm's research report states, in very small type on the final page and in dense legal wording, that the firm recently underwrote the issuer's bond offering. Which assessment best applies Standard VI(A)?",
+        "options": [
+          {
+            "text": "It complies, because the information appears somewhere in the report.",
+            "value": null,
+            "explanation": "Wrong: this accepts mere presence of the information. Disclosure must also be prominent and effective."
+          },
+          {
+            "text": "It complies, as long as the firm's legal department approved the wording.",
+            "value": null,
+            "explanation": "Wrong: legal sign-off does not make a disclosure plain or noticeable. The standard asks for plain language that readers can understand."
+          },
+          {
+            "text": "It falls short, because the disclosure is neither prominent nor in plain language.",
+            "value": null,
+            "explanation": "Correct: VI(A) requires disclosures to be prominent, in plain language and effective at communicating the information. Hiding the fact in small, dense text does not meet that."
+          }
+        ],
+        "answer_index": 2,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q6",
+      "item": {
+        "kind": "concept",
+        "difficulty": "medium",
+        "stem": "An adviser works where local law does not require disclosure of referral fees to clients, and her firm's policy manual is silent on the topic. She is paid a fee for referring clients to an insurance agent. Which action best applies the Code and Standards?",
+        "options": [
+          {
+            "text": "Disclose to the employer and clients anyway, since the Standards apply where the law is silent.",
+            "value": null,
+            "explanation": "Correct: members and candidates must follow the Code and Standards, and where rules differ the stricter one governs. Referral compensation must be disclosed."
+          },
+          {
+            "text": "Make no disclosure, since neither the law nor firm policy requires one.",
+            "value": null,
+            "explanation": "Wrong: this treats the legal minimum as the ethical standard. The Standards impose their own, stricter duty."
+          },
+          {
+            "text": "Disclose only if a client specifically asks about her compensation.",
+            "value": null,
+            "explanation": "Wrong: this makes disclosure reactive. Disclosure must be proactive and made before the service is provided."
+          }
+        ],
+        "answer_index": 0,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:20:17"
+        ]
+      },
+      "badge": "model_only",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "q7",
+      "item": {
+        "kind": "concept",
+        "difficulty": "easy",
+        "stem": "Marco is a CFA Program candidate working as a junior analyst. He believes the Code and Standards bind only charterholders, so he skips disclosing a personal shareholding in a company he covers. Which statement is correct?",
+        "options": [
+          {
+            "text": "He is right, because only charterholders are bound by the Code and Standards.",
+            "value": null,
+            "explanation": "Wrong: this ignores that candidates are required to follow the Code and Standards too."
+          },
+          {
+            "text": "He is wrong, because candidates are bound and the shareholding raises a VI(A) issue.",
+            "value": null,
+            "explanation": "Correct: members and candidates must follow the Code and Standards, and an undisclosed holding in a covered company is a conflict that must be avoided or disclosed."
+          },
+          {
+            "text": "He is right, because candidates are bound only while sitting the exam itself.",
+            "value": null,
+            "explanation": "Wrong: the obligation covers professional conduct generally, not just exam day."
+          }
+        ],
+        "answer_index": 1,
+        "calc_spec": null,
+        "cited_chunk_ids": [
+          "cfa-code-ethics-page:1:0",
+          "cfa-sop-handbook-12:20:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "lint": {
+          "pass": true,
+          "issues": []
+        },
+        "calc": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "item": {
+        "front": "What two routes does Standard VI(A) allow for a conflict of interest, and which is preferred?",
+        "back": "Avoid the conflict, or make full and fair disclosure of it. Avoiding is preferred whenever reasonably possible; disclosure is required when avoidance is not reasonable.",
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "item": {
+        "front": "What three qualities must a VI(A) disclosure have?",
+        "back": "It must be prominent, written in plain language, and effective at communicating the relevant information.",
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:11:6"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "item": {
+        "front": "What is the order of priority under Standard VI(B) Priority of Transactions?",
+        "back": "Client transactions first, then the employer's, then personal transactions of the member or candidate.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "item": {
+        "front": "Under Standard VI(C), who must be told about referral compensation, and when?",
+        "back": "The employer, clients and prospective clients, before the service is provided.",
+        "cited_chunk_ids": []
+      },
+      "badge": "model_only",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "item": {
+        "front": "Why is following the law not enough for an investment professional?",
+        "back": "Markets rely on trust, so firms and individuals are expected to build a culture of integrity that goes beyond strict legal compliance, and where rules differ the stricter one applies.",
+        "cited_chunk_ids": [
+          "cfa-sop-handbook-12:15:10",
+          "cfa-sop-handbook-12:20:17"
+        ]
+      },
+      "badge": "grounded_verified",
+      "gates": {
+        "citations": {
+          "pass": true,
+          "issues": []
+        },
+        "copy": {
+          "pass": true,
+          "issues": []
+        },
+        "ifrs18": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "1/7 items have the longest option as the key"
+  ],
+  "usage": [
+    {
+      "at": "2026-10-27T23:21:19.497Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 1109,
+      "outputTokens": 516,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.007495,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-27T23:21:26.585Z",
+      "purpose": "grounding",
+      "losId": "ethics-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11375,
+      "outputTokens": 1037,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0332892,
+      "stopReason": "end_turn"
+    }
+  ],
+  "costUsd": 0.0407842
+}
