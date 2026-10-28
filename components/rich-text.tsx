@@ -7,8 +7,10 @@ import katex from "katex";
 const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 // Inline math is $…$ whose opening $ is not followed by a digit or space and whose closing $ is not
-// preceded by a space, so currency like "$100 now and $105 later" stays plain text.
-const MATH = /(\$\$[^$]+\$\$|\$(?![\s\d])[^$\n]+?(?<!\s)\$)/g;
+// preceded by a space, so currency like "$100 now and $105 later" stays plain text. A span that does
+// start with a digit is still math when it contains LaTeX syntax (a backslash, ^, _ or braces), as in
+// "$1.6^{1/4}-1\\approx 12.47\\%$": currency never does.
+const MATH = /(\$\$[^$]+\$\$|\$(?![\s\d])[^$\n]+?(?<!\s)\$|\$\d[^$\n]*?[\\^_{}][^$\n]*?(?<!\s)\$)/g;
 
 function inline(text: string): string {
   // Split out math first so markdown rules never touch LaTeX. With a capturing split, odd parts are math.

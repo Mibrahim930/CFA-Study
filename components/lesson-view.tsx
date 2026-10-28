@@ -1,6 +1,8 @@
 import katex from "katex";
 import type { Badge, ViewLesson } from "@/lib/content/generated";
+import { assignChecks } from "@/lib/content/section-checks";
 import { PracticeSet } from "./practice-set";
+import { SectionCheck } from "./section-check";
 import { InlineRich, RichText } from "./rich-text";
 
 const BADGES: Record<Badge, { label: string; title: string; className: string }> = {
@@ -21,6 +23,9 @@ export function BadgeChip({ badge }: { badge: Badge }) {
 const card = "rounded-tile border border-line bg-surface p-6 sm:p-8";
 
 export function LessonView({ lesson }: { lesson: ViewLesson }) {
+  // One flashcard after the section it belongs to: chunk, then check.
+  const checks = assignChecks(lesson.sections, lesson.flashcards);
+  const total = lesson.sections.length;
   return (
     <article id={lesson.losId} className="scroll-mt-24 space-y-5">
       <header className="space-y-3">
@@ -33,12 +38,26 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
       </header>
 
       <div className={`${card} space-y-7 text-[1.03125rem] leading-7`}>
-        {lesson.sections.map((s) => (
-          <section key={s.heading} className="max-w-[70ch] space-y-3">
-            <h3 className="text-lg font-bold">{s.heading}</h3>
-            <RichText text={s.body} />
-          </section>
-        ))}
+        {lesson.sections.map((s, i) => {
+          const card = checks[i] === null ? null : lesson.flashcards[checks[i]];
+          return (
+            <section key={s.heading} className="max-w-[70ch] space-y-3">
+              <div className="flex items-baseline justify-between gap-3">
+                <h3 className="text-lg font-bold">{s.heading}</h3>
+                {total > 1 && (
+                  <span className="caps shrink-0 text-muted">
+                    <span className="sr-only">Section </span>
+                    {i + 1}
+                    <span className="sr-only"> of {total}</span>
+                    <span aria-hidden="true">/{total}</span>
+                  </span>
+                )}
+              </div>
+              <RichText text={s.body} />
+              {card && <SectionCheck reviewId={`${lesson.losId}:${card.id}`} front={card.front} back={card.back} />}
+            </section>
+          );
+        })}
 
         {lesson.formulas.length > 0 && (
           <section className="space-y-3">
