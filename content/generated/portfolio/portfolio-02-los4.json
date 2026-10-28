@@ -147,7 +147,7 @@
           "Write the single-factor benchmark: benchmark return = Rf + β × (Rm − Rf).",
           "Compute the index excess return: 9.0% − 2.0% = 7.0%.",
           "Scale by beta: 1.2 × 7.0% = 8.4%.",
-          "Add the riskless rate: 2.0% + 8.4% = 10.4%. This is the return of a replicating portfolio holding 120% in the index and −20% in the riskless asset (borrowing at the riskless rate).",
+          "Add the riskless rate: 2.0% + 8.4% = 10.4%. This is the return of a replicating portfolio that puts 120% into the index, funded by borrowing 20% at the risk-free rate.",
           "BA II Plus keystrokes: 9 [−] 2 [=] [×] 1.2 [+] 2 [=] shows 10.4.",
           "Alpha = fund return − benchmark return = 10.0% − 10.4% = −0.4%."
         ],
@@ -374,7 +374,7 @@
           {
             "text": "A multifactor model with a factor for each major market the fund is exposed to",
             "value": null,
-            "explanation": "Correct. When returns are driven by several sources of systematic risk, a multifactor model links expected return to each risk premium and any excess is attributed to alpha."
+            "explanation": "Correct. When more than one kind of market-wide risk drives returns, a multifactor model links expected return to each risk premium and any excess is attributed to alpha."
           }
         ],
         "answer_index": 2,

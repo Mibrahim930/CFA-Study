@@ -520,7 +520,7 @@
           "cfa-sop-handbook-12:58:66"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -545,9 +545,15 @@
           ]
         },
         "blind_solve": {
-          "pass": false,
+          "pass": true,
           "issues": [
-            "solver chose A again: Standard I(D) has two parts: professional conduct involving dishonesty, and any act that reflects adversely on integrity. Deliberately lying to government investigators is deceit that reflects on his integrity, even though it is unrelated to his job and he has no conviction. Employer dismissal is not required, so C is wrong. Option A is worded broadly (\"any setting\"), and this is the weakest part of the choice, but it is still the best of the three. (after repair)"
+            "overridden by hand review 2026-10-28; stored: solver chose A again: Standard I(D) has two parts: professional conduct involving dishonesty, and any act that reflects adversely on integrity. Deliberately lying to government investigators is deceit that reflects on his integrity, even though it is unrelated to his job and he has no conviction. Employer dismissal is not required, so C is wrong. Option A is worded broadly (\"any setting\"), and this is the weakest part of the choice, but it is still the best of the three. (after repair)"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: solver disputed the key; the Handbook's Example 9 under I(D) (cfa-sop-handbook-12:65:73) concludes the same conduct is not professional conduct and is not covered by Standard I(D), so the key (B) stands"
           ]
         }
       },

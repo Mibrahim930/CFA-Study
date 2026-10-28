@@ -128,7 +128,7 @@
         },
         {
           "heading": "Loyalty: what is allowed and what is not",
-          "body_markdown": "**Generally conforming**\n\n- Preparing to start a competing business **on your own time**, for example registering the company with a regulator, as long as you do not solicit clients or operate the business until you have left.\n- Using the skills, experience and general knowledge you gained at a previous employer.\n- After leaving, contacting former clients using **public** information, if no agreement forbids it. Simply knowing who the clients were is not confidential.\n- Running an independent business while employed, **if** you notify your employer of the services, duration and pay, and get consent before you provide any service.\n\n**Generally violating**\n\n- Soliciting the employer's clients, or providing services your employer offers, before you leave or without consent.\n- Taking client lists or other firm records (the firm owns them) and using them to contact clients without permission.\n- Acting against the employer's interest after handing in a resignation letter but before the relationship ends. The relationship generally ends when you are no longer paid or have no responsibilities.\n- Using firm-approved social media accounts in ways that go against firm departure policy, or keeping them after being told to transfer or delete them.\n\nEmployers may also have you sign agreements that restrict what you can do after leaving, so check those terms.\n\n**Whistle-blowing exception**: if the employer is engaged in illegal or unethical activity, acts that would normally breach loyalty, such as copying records, may be justified. This applies only when the intent is clearly to protect clients or market integrity and not to gain personally."
+          "body_markdown": "**Generally conforming**\n\n- Preparing to start a competing business **on your own time**, for example registering the company with a regulator, as long as you do not solicit clients or operate the business until you have left.\n- Using the skills, experience and general knowledge you gained at a previous employer.\n- After leaving, contacting former clients using **public** information, if no agreement forbids it. Simply knowing who the clients were is not confidential.\n- Running an independent business while employed, **if** you notify your employer of the services, duration and pay, and get consent before you provide any service.\n\n**Generally violating**\n\n- Soliciting the employer's clients, or providing services your employer offers, before you leave or without consent.\n- Taking client lists or other firm records (the firm owns them) and using them to contact clients without permission.\n- Acting against the employer's interest after handing in a resignation letter but before the relationship ends. The relationship generally ends when you are no longer paid or have no responsibilities.\n- Using firm-approved social media accounts in ways that go against firm departure policy, or keeping them after being told to transfer or delete them.\n\nEmployers may also have you sign agreements that restrict what you can do after leaving, so check those terms.\n\n**Whistle-blowing exception**: if the employer itself is doing something illegal or unethical, acts that would normally breach loyalty, such as copying records, may be justified. This applies only when the intent is clearly to protect clients or market integrity and not to gain personally."
         },
         {
           "heading": "Additional compensation: disclose anything that creates a conflict",
@@ -184,7 +184,7 @@
         "cfa-sop-handbook-12:26:23"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -195,15 +195,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 26: \"members and candidates must not engage in conduct\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 133–134: \"employer is engaged in illegal or unethical activity\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

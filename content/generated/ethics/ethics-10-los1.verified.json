@@ -132,7 +132,7 @@
         },
         {
           "heading": "Evaluating firm policies and supervision",
-          "body_markdown": "A firm's **code of ethics** should state broad, principle-based ideals that apply to every employee. **Compliance policies and procedures** are the detailed, day-to-day rules that put those ideals into practice. A good firm has both.\n\nA supervisor under Standard IV(C) must make **reasonable efforts to prevent and detect** violations. An effective compliance system includes:\n- written procedures that are actually implemented\n- recurring education and training\n- periodic review of employee actions\n- incentives that reward ethical conduct, not just business results\n- a prompt response and investigation when a violation is found\n\nA supervisor with reasonable procedures in place may not be in violation just because a violation slipped through. A supervisor who **knows or should know** that the procedures are being ignored may be in violation.\n\nThe Code and Standards bind individuals. A firm may claim compliance with them, but it should add a statement that CFA Institute has not verified the claim."
+          "body_markdown": "A firm's **code of ethics** should state broad, principle-based ideals that apply to every employee. **Compliance policies and procedures** are the detailed, day-to-day rules that put those ideals into practice. A good firm has both.\n\nA supervisor under Standard IV(C) must take **reasonable steps to stop violations before they happen and to catch** any that do. An effective compliance system includes:\n- written procedures that are actually implemented\n- recurring education and training\n- periodic review of employee actions\n- incentives that reward ethical conduct, not just business results\n- a prompt response and investigation when a violation is found\n\nA supervisor with reasonable procedures in place may not be in violation just because a violation slipped through. A supervisor who **knows or should know** that the procedures are being ignored may be in violation.\n\nThe Code and Standards bind individuals. A firm may claim compliance with them, but it should add a statement that CFA Institute has not verified the claim."
         },
         {
           "heading": "Intent, reasonableness and judgment calls",
@@ -182,7 +182,7 @@
         "cfa-sop-handbook-12:157:185"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -193,15 +193,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 144–145: \"make reasonable efforts to prevent and detect violations\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 157: \"has a reasonable and adequate basis and is\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -450,7 +459,7 @@
           {
             "text": "It may violate Standard IV(C) because she knew the procedures were not being followed.",
             "value": null,
-            "explanation": "Correct. Supervisors may violate IV(C) if they know or should know that compliance procedures are not being followed."
+            "explanation": "Correct. Supervisors can breach IV(C) when they are aware, or ought to be aware, that compliance procedures are being ignored."
           },
           {
             "text": "It violates IV(C) only if a client suffers a measurable loss from the trades.",
@@ -465,7 +474,7 @@
           "cfa-sop-handbook-12:147:173"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -476,10 +485,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 146: \"iv c if they know or should know\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -488,7 +495,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -580,7 +593,7 @@
           "cfa-sop-handbook-12:157:185"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -591,10 +604,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 157: \"a reasonable and adequate basis and is independent\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -603,7 +614,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -677,21 +688,25 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 26: \"when applicable law and the code and standards\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },
@@ -704,21 +719,25 @@
           "cfa-sop-handbook-12:26:23"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 26: \"members and candidates must not engage in conduct\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },
@@ -789,21 +808,25 @@
           "cfa-sop-handbook-12:12:8"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"claim has not been verified by cfa institute\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     }

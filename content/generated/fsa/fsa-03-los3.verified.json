@@ -140,7 +140,7 @@
         },
         {
           "heading": "Impairment, reclassification and disclosure",
-          "body_markdown": "**Impairment** means recognizing expected credit losses on debt assets. Under IFRS 9 the **expected credit loss (ECL)** model has stages:\n\n- **Stage 1:** no significant rise in credit risk, so the allowance is the *12-month* ECL.\n- **Stage 2:** significant rise in credit risk, so the allowance is the *lifetime* ECL. Interest income is still computed on the **gross** carrying amount.\n- **Stage 3:** a credit event has occurred, so lifetime ECL applies and interest income is computed on the amount **net** of the allowance.\n\nFor debt at FVOCI, the ECL does not reduce the carrying amount, which stays at fair value. The loss goes to P&L with an offset in OCI. Under US GAAP, assets at amortized cost follow the current expected credit loss (CECL) model. Debt securities held as AFS record credit-related losses through an allowance with a charge to earnings, and the non-credit part goes to OCI.\n\n**Reclassification** (standard knowledge): IFRS 9 allows reclassifying financial *assets* only when the business model changes, which is rare, and it applies going forward. Financial liabilities are not reclassified.\n\n**Disclosures** in the notes typically cover carrying amounts by category, fair values and their hierarchy level, valuation techniques for Level 2 and 3, credit risk, and the effects of hedging."
+          "body_markdown": "**Impairment** means recognizing expected credit losses on debt assets. Under IFRS 9 the **expected credit loss (ECL)** model has stages:\n\n- **Stage 1:** no significant rise in credit risk, so the allowance is the *12-month* ECL.\n- **Stage 2:** significant rise in credit risk, so the allowance is the *lifetime* ECL. Interest income is still computed on the **gross** carrying amount.\n- **Stage 3:** a credit event has occurred, so lifetime ECL applies and interest income is computed on the amount **net** of the allowance.\n\nFor debt at FVOCI, the ECL does not reduce the carrying amount, which stays at fair value. The loss goes to P&L with an offset in OCI. US GAAP applies its current expected credit loss (CECL) model to assets held at amortized cost. Debt securities held as AFS record credit-related losses through an allowance with a charge to earnings, and the non-credit part goes to OCI.\n\n**Reclassification** (standard knowledge): IFRS 9 allows reclassifying financial *assets* only when the business model changes, which is rare, and it applies going forward. Financial liabilities are not reclassified.\n\n**Disclosures** in the notes typically cover carrying amounts by category, fair values and their hierarchy level, valuation techniques for Level 2 and 3, credit risk, and the effects of hedging."
         }
       ],
       "worked_example": {
@@ -198,7 +198,7 @@
         "ey-us-gaap-vs-ifrs-2026:23:31"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -209,15 +209,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 25: \"held to maturity htm amortized cost trading fair\"",
-          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) pp. 26–27: \"follow the current expected credit loss cecl model\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -541,7 +550,7 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -552,10 +561,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 32: \"a quoted price in an active market for\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -564,7 +571,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

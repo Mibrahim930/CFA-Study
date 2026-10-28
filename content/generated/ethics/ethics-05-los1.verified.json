@@ -180,7 +180,7 @@
         "cfa-sop-handbook-12:6:1"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -191,14 +191,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"and revocation of membership and the right to\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },

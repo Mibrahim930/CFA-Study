@@ -132,7 +132,7 @@
         },
         {
           "heading": "Swaps: a string of exchanges",
-          "body_markdown": "A **swap** is an OTC agreement to exchange cash flows at regular intervals over an agreed period, on terms fixed today. You can think of it as a **sequence of forwards** bundled into one contract.\n\nThe most common example is a **fixed-for-floating interest rate swap**. One side pays a fixed rate and the other pays a floating rate (for example, a short-term benchmark rate), each applied to a **notional principal**. The notional is called that because in a plain interest rate swap it is only used to calculate the payments. It is not itself handed over. Payments are usually netted, so only the difference moves.\n\nLike forwards, swaps are customised, OTC and carry counterparty risk, and both sides have obligations."
+          "body_markdown": "A **swap** is an OTC contract in which two parties trade a series of payments on set dates over an agreed period, on terms fixed today. You can think of it as a **sequence of forwards** bundled into one contract.\n\nThe most common example is a **fixed-for-floating interest rate swap**. One side pays a fixed rate and the other pays a floating rate (for example, a short-term benchmark rate), each applied to a **notional principal**. The notional is called that because in a plain interest rate swap it is only used to calculate the payments. It is not itself handed over. Payments are usually netted, so only the difference moves.\n\nLike forwards, swaps are customised, OTC and carry counterparty risk, and both sides have obligations."
         },
         {
           "heading": "Options: a right, not an obligation",
@@ -197,7 +197,7 @@
         "fed-trading-4000-p2:24:42"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -208,14 +208,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago) p. 4: \"to exchange cash flows at regular intervals over\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -719,27 +729,37 @@
       "id": "f2",
       "item": {
         "front": "What is a swap, in terms of simpler contracts?",
-        "back": "An OTC agreement to exchange cash flows at regular intervals over an agreed period. It can be viewed as a sequence of forwards.",
+        "back": "An OTC contract in which two parties trade a series of payments on set dates over an agreed period. It can be viewed as a sequence of forwards.",
         "cited_chunk_ids": [
           "chicagofed-derivatives-1:4:3",
           "richmondfed-money-market-ch16:21:21"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Understanding Derivatives: Markets and Infrastructure, ch. 1: Derivatives Overview (Federal Reserve Bank of Chicago) p. 4: \"to exchange cash flows at regular intervals over\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

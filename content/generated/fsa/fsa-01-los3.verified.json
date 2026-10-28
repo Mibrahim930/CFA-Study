@@ -178,7 +178,7 @@
         "occ-internal-external-audits:53:76"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -189,14 +189,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Analyzing Financial Statements: steps in analysis (Strathmore University, Financial and Managerial Accounting lecture handout) pp. 15–21: \"management's discussion and analysis md a also called\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },

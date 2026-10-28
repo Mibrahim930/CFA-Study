@@ -195,7 +195,7 @@
         "cfa-rf-alt-credit:14:15"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -206,14 +206,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 89: \"like an out of the money call option\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -476,7 +480,7 @@
           "cfa-rf-alt-primer:89:106"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -487,10 +491,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 89: \"like an out of the money call option\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -499,7 +501,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

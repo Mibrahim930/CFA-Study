@@ -535,9 +535,9 @@
             "explanation": "Applies the full annual discount rate (1 − 0.06) without prorating for 120 days."
           },
           {
-            "text": "4,901,370",
-            "value": 4901370,
-            "explanation": "Uses a 365-day year instead of the 360-day convention given in the stem."
+            "text": "4,100,000",
+            "value": 4100000,
+            "explanation": "Inverts the day-count fraction, using 360/120 = 3 instead of 120/360: 5,000,000 × (1 − 0.06 × 3) = 4,100,000."
           }
         ],
         "answer_index": 0,
@@ -547,17 +547,15 @@
         },
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
           "issues": []
         },
         "calc": {
-          "pass": false,
-          "issues": [
-            "distractor 2 (4901370) equals the engine value 4900000"
-          ]
+          "pass": true,
+          "issues": []
         },
         "copy": {
           "pass": true,
@@ -570,7 +568,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: distractor 4,901,370 (365-day year) was within 0.03% of the key; replaced with an inverted day-count mistake"
           ]
         }
       }

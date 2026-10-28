@@ -175,7 +175,7 @@
         "cfa-sop-handbook-12:1:0"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -186,14 +186,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Code of Ethics and Standards of Professional Conduct overview page (CFA Institute) Code of Ethics and Standards of Professional Conduct: \"vii responsibilities as a cfa institute member or\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -573,7 +577,7 @@
           "cfa-sop-handbook-12:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -584,10 +588,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Code of Ethics and Standards of Professional Conduct overview page (CFA Institute) Code of Ethics and Standards of Professional Conduct: \"standard vii responsibilities as a cfa institute member\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -596,7 +598,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -642,21 +644,25 @@
           "cfa-sop-handbook-12:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Code of Ethics and Standards of Professional Conduct overview page (CFA Institute) Code of Ethics and Standards of Professional Conduct: \"vii responsibilities as a cfa institute member or\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

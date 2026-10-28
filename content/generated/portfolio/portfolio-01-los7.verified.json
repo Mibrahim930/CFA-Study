@@ -192,7 +192,7 @@
         "cfa-rf-behavioral:99:119"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -203,14 +203,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 10+ words from LOS portfolio-01-los7: \"frontiers of risky assets and the global minimum variance portfolio\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },

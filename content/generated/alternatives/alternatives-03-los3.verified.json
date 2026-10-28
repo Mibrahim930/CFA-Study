@@ -224,7 +224,7 @@
           {
             "text": "It lends to large mature issuers whose results track the broad listed market closely.",
             "value": null,
-            "explanation": "Wrong: this reverses the facts. Private borrowers tend to be smaller and more focused, and their results depend more on competing within their industry than on the broad market."
+            "explanation": "Wrong: this reverses the facts. Private borrowers are usually smaller, narrower businesses, so their results depend more on competing within their industry than on the broad market."
           },
           {
             "text": "It lends to smaller, focused firms and gives a different sector mix from listed indexes.",
@@ -243,7 +243,7 @@
           "cfa-rf-alt-credit:12:13"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -254,10 +254,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from An Introduction to Alternative Credit (CFA Institute Research Foundation) pp. 12–13: \"tend to be smaller and more focused and\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -266,7 +264,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

@@ -525,7 +525,7 @@
           {
             "text": "The firms reach the same ROE through different business models: X relies on high volume at thin margins, while Y relies on high margins at low turnover.",
             "value": null,
-            "explanation": "Correct. 0.02 × 5.0 × 2.0 = 0.10 × 1.0 × 2.0 = 20%. With equal leverage, the difference lies in the margin/turnover trade-off, which is common across industries."
+            "explanation": "Correct. Firm X: 0.02 × 5.0 × 2.0 = 0.20. Firm Y: 0.10 × 1.0 × 2.0 = 0.20. Both are 20%. With equal leverage, the difference lies in the margin/turnover trade-off, which is common across industries."
           },
           {
             "text": "Firm Y must be using more debt than X, because its higher margin shows greater financial leverage.",
@@ -544,7 +544,7 @@
           "cfa-rf-earnings-quality:38:39"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -567,15 +567,21 @@
           "issues": []
         },
         "grounding": {
-          "pass": false,
+          "pass": true,
           "issues": [
-            "error found: Firm X: 0.02×5×2=0.20, Y: 0.10×1×2=0.20, so both are 20%. The explanation writes '0.02 × 5.0 × 2.0 = 0.10 × 1.0 × 2.0', which is wrong: the first product is 0.20, not 0.10. The answer is right but the stated arithmetic is a mistake. The cited passages discuss RNOA margin/turnover industry differences (silver ore, pipelines), so the idea is broadly supported."
+            "overridden by hand review 2026-10-28; stored: error found: Firm X: 0.02×5×2=0.20, Y: 0.10×1×2=0.20, so both are 20%. The explanation writes '0.02 × 5.0 × 2.0 = 0.10 × 1.0 × 2.0', which is wrong: the first product is 0.20, not 0.10. The answer is right but the stated arithmetic is a mistake. The cited passages discuss RNOA margin/turnover industry differences (silver ore, pipelines), so the idea is broadly supported."
           ]
         },
         "critic_review": {
           "pass": true,
           "issues": [
             "flag confirmed: Computing 0.02 × 5.0 = 0.10, then × 2.0 = 0.20. The explanation writes 0.02 × 5.0 × 2.0 = 0.10 × 1.0 × 2.0 = 20%, which is a chain of equalities, and the middle term 0.10 × 1.0 × 2.0 is Y's product (0.20), so the chain is actually valid: 0.02×5.0×2.0 = 0.20 and 0.10×1.0×2.0 = 0.20. The flagger misread it as claiming the first product equals 0.10, but the equation says the two products are equal, and both equal 0.20, which is the stated 20%. So the flagged error is not real."
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: explanation wrote 0.02 × 5.0 × 2.0 = 0.10 × 1.0 × 2.0; the first product is 0.20, so the chain was rewritten"
           ]
         }
       }

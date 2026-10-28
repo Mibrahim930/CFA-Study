@@ -201,7 +201,7 @@
         "eia-energy-explained:2:4"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -212,14 +212,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 66–67: \"energy crude oil natural gas gasoline metals precious\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },

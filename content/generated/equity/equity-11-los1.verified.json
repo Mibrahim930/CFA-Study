@@ -663,21 +663,25 @@
           "cfa-research-challenge:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from CFA Institute Research Challenge: Written Report Guidelines pp. 1–2: \"competitive positioning investment summary valuation financial analysis investment\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

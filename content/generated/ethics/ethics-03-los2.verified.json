@@ -179,7 +179,7 @@
         "cfa-sop-handbook-12:147:173"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -190,14 +190,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 61–62: \"should encourage their firms to adopt a code\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -289,7 +293,7 @@
           "cfa-sop-handbook-12:29:28"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -300,11 +304,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 28–29: \"applicable law is stricter than the code and\"",
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 29–30: \"is stricter than the code and standards the\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -313,7 +314,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

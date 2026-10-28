@@ -650,7 +650,7 @@
             "explanation": "This is not the explanation. Farmland income follows crop prices rather than bond yields, and financial assets generally have negative inflation betas."
           },
           {
-            "text": "Farmland income is tied to commodity price levels, which tend to rise when inflation occurs",
+            "text": "Farmland income moves with crop and commodity prices, which tend to rise when inflation occurs",
             "value": null,
             "explanation": "Correct. Because crop revenue follows commodity prices, farmland has shown a positive inflation beta, unlike most financial assets."
           },
@@ -667,7 +667,7 @@
           "cfa-rf-alt-primer:69:82"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -678,10 +678,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 61: \"farmland income is tied to commodity price levels\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -690,7 +688,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

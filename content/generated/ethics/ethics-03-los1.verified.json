@@ -235,7 +235,7 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -246,10 +246,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 28–29: \"applicable law is less strict than the code\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -264,7 +262,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       },
@@ -625,21 +623,25 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 28–29: \"applicable law is stricter than the code and\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

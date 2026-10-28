@@ -516,7 +516,7 @@
           {
             "text": "Their non-standard terms mean there is no deep pool of buyers",
             "value": null,
-            "explanation": "Correct. Without contract standardization, OTC derivatives tend to be less liquid than exchange-traded ones, especially when volatility is high or a counterparty's credit is in doubt."
+            "explanation": "Correct. Without contract standardization, OTC derivatives are usually harder to trade out of than exchange-traded ones, especially when volatility is high or a counterparty's credit is in doubt."
           },
           {
             "text": "Their positions are marked to market daily by a clearinghouse",
@@ -535,7 +535,7 @@
           "richmondfed-money-market-ch16:20:19"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -546,10 +546,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Instruments of the Money Market, ch. 16: Over-the-Counter Interest Rate Derivatives (Federal Reserve Bank of Richmond) p. 20: \"otc derivatives tend to be less liquid than\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -558,7 +556,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

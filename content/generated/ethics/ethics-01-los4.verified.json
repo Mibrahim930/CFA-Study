@@ -452,7 +452,7 @@
           {
             "text": "Regulation is intended to be ethically neutral, so it never tries to guide people toward proper conduct.",
             "value": null,
-            "explanation": "Laws and regulations often do try to guide people toward ethical behavior, but they cannot cover all unethical conduct."
+            "explanation": "Laws and regulations often do aim to steer people towards ethical behaviour, but they cannot cover all unethical conduct."
           }
         ],
         "answer_index": 0,
@@ -462,7 +462,7 @@
           "cfa-sop-handbook-12:15:10"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -473,10 +473,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 17: \"to guide people toward ethical behavior but they\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -485,7 +483,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

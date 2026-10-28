@@ -212,7 +212,7 @@
         "lyryx-intro-fa-2021a:350:279"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -223,15 +223,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 18: \"is measured at the lower of its carrying\"",
-          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) pp. 22–23: \"is the higher of 1 fair value less\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },

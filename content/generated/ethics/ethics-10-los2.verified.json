@@ -132,7 +132,7 @@
         },
         {
           "heading": "Supervisors: reasonable effort, not perfection",
-          "body_markdown": "Standard IV(C) asks supervisors to make **reasonable efforts to prevent and detect** violations. That means establishing and enforcing compliance procedures and checking through periodic review that they are being followed.\n\nTo explain a verdict, separate three situations:\n\n- **Reasonable procedures in place and followed, yet a violation slips through undetected** – the supervisor may *not* be in violation. A violation occurring can hint that the procedures were weak, so look at the procedures themselves.\n- **Procedures exist only on paper** – merely enacting them may not be enough.\n- **The supervisor knows or should know procedures are being ignored** and does nothing – that can violate IV(C).\n\nA supervisor who lacks authority to change firm-wide policy is not excused. He or she should work with superiors and within the firm's structure to build tools such as training, an ethics-rewarding incentive structure, and compliance policies."
+          "body_markdown": "Standard IV(C) asks supervisors to take **reasonable steps to stop violations before they happen and to catch** any that do. That means establishing and enforcing compliance procedures and checking through periodic review that they are being followed.\n\nTo explain a verdict, separate three situations:\n\n- **Reasonable procedures in place and followed, yet a violation slips through undetected** – the supervisor may *not* be in violation. A violation occurring can hint that the procedures were weak, so look at the procedures themselves.\n- **Procedures exist only on paper** – merely enacting them may not be enough.\n- **The supervisor knows or should know procedures are being ignored** and does nothing – that can violate IV(C).\n\nA supervisor who lacks authority to change firm-wide policy is not excused. He or she should work with superiors and within the firm's structure to build tools such as training, an ethics-rewarding incentive structure, and compliance policies."
         },
         {
           "heading": "Conduct examples: spotting the deciding fact",
@@ -180,7 +180,7 @@
         "cfa-sop-handbook-12:12:8"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -191,15 +191,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"claim has not been verified by cfa institute\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 144–145: \"make reasonable efforts to prevent and detect violations\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -224,7 +233,7 @@
           {
             "text": "The supervisor has no responsibility because the compliance officer owns all monitoring.",
             "value": null,
-            "explanation": "Wrongly assumes a compliance officer removes the supervisor's own duty to make reasonable efforts to prevent and detect violations."
+            "explanation": "Wrongly assumes a compliance officer removes the supervisor's own duty to take reasonable steps to stop and catch violations."
           }
         ],
         "answer_index": 1,
@@ -234,7 +243,7 @@
           "cfa-sop-handbook-12:147:172"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -245,10 +254,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 144–145: \"make reasonable efforts to prevent and detect violations\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -257,7 +264,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -406,7 +419,7 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -417,10 +430,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 20–21: \"must comply with the more strict law rule\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -429,7 +440,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -704,21 +715,25 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 20–21: \"must comply with the more strict law rule\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     }

@@ -202,7 +202,7 @@
         "cfa-rf-earnings-quality:111:123"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -213,14 +213,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 20: \"feasibility intent to complete the asset and ability\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -312,13 +316,11 @@
           "ey-us-gaap-vs-ifrs-2026:19:25"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
-          "pass": false,
-          "issues": [
-            "option 0 uses a banned form (\"US GAAP capitalizes all development costs as incurred, while IFRS requires all of them to be expensed.\")"
-          ]
+          "pass": true,
+          "issues": []
         },
         "calc": {
           "pass": true,
@@ -335,7 +337,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

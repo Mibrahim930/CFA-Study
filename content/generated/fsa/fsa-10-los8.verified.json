@@ -177,7 +177,7 @@
       "exam_traps": [
         "Treating a red flag as proof of fraud. Warning signs prompt investigation; innocent explanations exist.",
         "Reading rising receivables as a sign of strong demand without checking whether they are outpacing sales.",
-        "Assuming profit is more reliable than cash flow because earnings are, on average, more persistent than cash flows. The accrual component of earnings is the less persistent part.",
+        "Assuming profit is more reliable than cash flow just because earnings usually carry forward better than cash flows do. The accrual component of earnings is the less persistent part.",
         "Believing a clean audit opinion rules out manipulation. Auditors cannot guarantee detection.",
         "Mixing up earnings management (within the rules) and manipulation (breaking or ignoring the rules)."
       ],
@@ -202,7 +202,7 @@
         "cfa-rf-earnings-quality:76:83"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -213,14 +213,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation) pp. 26–27: \"earnings are on average more persistent than cash\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

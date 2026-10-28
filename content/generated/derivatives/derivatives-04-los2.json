@@ -414,9 +414,9 @@
             "explanation": "Correct. $F_0=100\\times(1.06)^{0.5}=100\\times1.02956=102.96$."
           },
           {
-            "text": "$103.00",
-            "value": 103,
-            "explanation": "This uses simple interest for the half year, $100\\times(1+0.06\\times0.5)$, rather than annual compounding raised to $T=0.5$."
+            "text": "$97.13",
+            "value": 97.13,
+            "explanation": "This divides by the growth factor instead of multiplying, $100/(1.06)^{0.5}=97.13$. A forward price is the spot price carried forward, so it must be above $100 when the asset pays no income."
           },
           {
             "text": "$106.00",

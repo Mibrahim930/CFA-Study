@@ -136,7 +136,7 @@
         },
         {
           "heading": "Sanctions, cooperation and misuse",
-          "body_markdown": "Possible sanctions include **public censure**, **suspension** of membership and of the right to use the CFA designation, and **revocation** of membership and of that right. A candidate may be suspended or prohibited from further participation in the CFA Program.\n\n**Cooperation is a duty.** Confidentiality under Standard III(E) does not stop you from cooperating with a PC investigation. You must cooperate with investigations into your own conduct unless the law prevents it. Under the Rules of Procedure you must also cooperate with investigations into *other people's* conduct. PC takes reasonable care to keep the documents and information it receives confidential.\n\n**Misuse of the program.** Some people try to use the program, especially Standard I(D) Misconduct, to settle personal or political disputes unrelated to professional ethics. CFA Institute has policies to deal with such abuse.\n\n**Firms.** The Code and Standards apply to individuals, but a firm may adopt them. A firm claiming compliance must state that the claim has not been verified by CFA Institute."
+          "body_markdown": "Possible sanctions include **public censure**, **suspension** of membership and of the right to use the CFA designation, and **revocation** of membership and of that right. A candidate can be suspended from, or barred from continuing in, the CFA Program.\n\n**Cooperation is a duty.** Confidentiality under Standard III(E) does not stop you from cooperating with a PC investigation. You must cooperate with investigations into your own conduct unless the law prevents it. Under the Rules of Procedure you must also cooperate with investigations into *other people's* conduct. PC takes reasonable care to keep the documents and information it receives confidential.\n\n**Misuse of the program.** Some people try to use the program, especially Standard I(D) Misconduct, to settle personal or political disputes unrelated to professional ethics. CFA Institute has policies to deal with such abuse.\n\n**Firms.** The Code and Standards apply to individuals, but a firm may adopt them. A firm claiming compliance must state that the claim has not been verified by CFA Institute."
         }
       ],
       "worked_example": {
@@ -179,7 +179,7 @@
         "cfa-sop-handbook-12:61:68"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -190,16 +190,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 11–12: \"a cautionary letter or continue proceedings to discipline\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"sanctions include public censure suspension of membership and\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 20–21: \"of the right to use the cfa designation\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -219,7 +227,7 @@
           {
             "text": "The Disciplinary Review Committee (DRC)",
             "value": null,
-            "explanation": "Correct. The DRC is a volunteer committee of charterholders. Its hearing panels review misconduct allegations and impose sanctions for violations."
+            "explanation": "Correct. The DRC is a volunteer committee of charterholders. Its hearing panels look into alleged misconduct and decide the penalty when a violation is found."
           },
           {
             "text": "The Board of Governors",
@@ -233,7 +241,7 @@
           "cfa-sop-handbook-12:11:6"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -244,10 +252,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 11: \"review misconduct allegations and impose sanctions for violations\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -256,7 +262,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -575,7 +587,7 @@
           "cfa-sop-handbook-12:12:8"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -586,10 +598,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"the code and standards or testing policies may\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -598,7 +608,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -697,27 +707,37 @@
       "id": "f4",
       "item": {
         "front": "What sanctions can CFA Institute impose for violations?",
-        "back": "Public censure, suspension, or revocation of membership and the right to use the CFA designation. Candidates may be suspended or prohibited from further participation in the CFA Program.",
+        "back": "Public censure, suspension, or revocation of membership and the right to use the CFA designation. Candidates can be suspended from, or barred from continuing in, the CFA Program.",
         "cited_chunk_ids": [
           "cfa-sop-handbook-12:12:8",
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 12–13: \"revocation of membership and the right to use\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

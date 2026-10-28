@@ -132,7 +132,7 @@
         },
         {
           "heading": "What makes a hedge fund diversifying",
-          "body_markdown": "A fund diversifies a stock and bond portfolio most when it has **both** a low volatility and a low correlation with the assets already held. Low correlation alone is not enough if the fund is very volatile.\n\nStrategies differ in how they behave:\n- Macro and managed futures funds trade liquid derivatives and have tended to hold value, or even gain, in equity crises.\n- Equity hedge funds with a net long bias usually do better when equities rise.\n- Event-driven and relative-value funds depend on security-specific opportunities. They tend to do well in calm markets with stable credit spreads and to suffer in crises.\n\nCorrelations between managers and strategies are below 1, so mixing several of them lowers risk. Many allocators use roughly equal weights (1/N), because forecasts of volatility and correlation are error-prone. Funds of funds make that mixing easy for small investors, but they add a second layer of fees."
+          "body_markdown": "A fund diversifies a stock and bond portfolio most when it is **both** not very volatile itself and weakly correlated with the assets already held. Low correlation alone is not enough if the fund is very volatile.\n\nStrategies differ in how they behave:\n- Macro and managed futures funds trade liquid derivatives and have tended to hold value, or even gain, in equity crises.\n- Equity hedge funds with a net long bias usually do better when equities rise.\n- Event-driven and relative-value funds depend on security-specific opportunities. They tend to do well in calm markets with stable credit spreads and to suffer in crises.\n\nCorrelations between managers and strategies are below 1, so mixing several of them lowers risk. Many allocators use roughly equal weights (1/N), because forecasts of volatility and correlation are error-prone. Funds of funds make that mixing easy for small investors, but they add a second layer of fees."
         },
         {
           "heading": "Reading the numbers with care",
@@ -178,7 +178,7 @@
         "Treating all of a hedge fund's return as alpha. Much of it can be factor exposure (beta) that could be had more cheaply.",
         "Taking low reported volatility or low correlation at face value for funds with illiquid, smoothed valuations. The true risk is higher and the true equity correlation is higher.",
         "Assuming incentive fees net across the funds in a fund of funds or a direct multi-fund portfolio. Each winning fund pays its own fee.",
-        "Assuming every hedge fund strategy protects an equity portfolio in a crisis. Event-driven and relative-value funds tend to lose money then, while macro and managed futures funds have tended to hold up better.",
+        "Assuming every hedge fund strategy protects an equity portfolio in a crisis. Event-driven and relative-value strategies usually lose money then; macro and managed-futures strategies have usually held up better.",
         "Averaging returns from a database without recognising that backfill and survivorship bias make returns look too high and risk too low."
       ],
       "builds_on": [
@@ -203,7 +203,7 @@
         "cfa-rf-alt-primer:32:35"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -214,16 +214,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 26–27: \"low volatility and a low correlation with the\"",
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 36: \"macro and managed futures funds have tended to\"",
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 44–46: \"event driven and relative value funds tend to\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -730,27 +738,37 @@
     {
       "id": "f2",
       "item": {
-        "front": "What makes a hedge fund most diversifying to a stock and bond portfolio?",
-        "back": "Both low volatility and low correlation with the stocks, bonds and other assets already held. Low correlation alone is not enough.",
+        "front": "What makes a hedge fund the best diversifier for a portfolio of stocks and bonds?",
+        "back": "Both low volatility and a weak link to the stocks, bonds and other assets already held. Low correlation alone is not enough.",
         "cited_chunk_ids": [
           "cfa-rf-alt-primer:26:28"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 26–27: \"most diversifying to a stock and bond portfolio\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },
@@ -787,28 +805,37 @@
       "id": "f4",
       "item": {
         "front": "Which hedge fund strategies have tended to hold up in equity crises, and which have suffered?",
-        "back": "Macro and managed futures funds have tended to preserve or gain value. Event-driven and relative-value funds tend to lose in crises, and net long equity funds fall with the market.",
+        "back": "Macro and managed-futures strategies have usually kept or gained value. Event-driven and relative-value strategies usually lose in crises, and net long equity funds fall with the market.",
         "cited_chunk_ids": [
           "cfa-rf-alt-primer:44:52",
           "cfa-rf-alt-primer:36:40"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 36: \"macro and managed futures funds have tended to\"",
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 44–46: \"event driven and relative value funds tend to\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

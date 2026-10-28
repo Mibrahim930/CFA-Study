@@ -300,9 +300,9 @@
         "stem": "A 90-day Treasury bill with a face value of $1,000,000 is quoted at a discount rate of 3.60%. Use a 360-day year. What price does the investor pay? Round to the nearest cent.",
         "options": [
           {
-            "text": "$991,080.28",
-            "value": 991080.28,
-            "explanation": "Mistake: treating the discount rate as an add-on rate and computing FV ÷ (1 + 0.036 × 90/360) = 1,000,000 ÷ 1.009."
+            "text": "$964,000.00",
+            "value": 964000,
+            "explanation": "Mistake: forgetting to prorate the annual rate for 90 days, 1,000,000 × (1 − 0.036) = $964,000.00. The discount for a quarter of a year is a quarter of 3.60%."
           },
           {
             "text": "$991,000.00",
@@ -310,9 +310,9 @@
             "explanation": "Correct. PV = 1,000,000 × (1 − 0.036 × 90/360) = 1,000,000 × 0.991 = $991,000."
           },
           {
-            "text": "$991,123.29",
-            "value": 991123.29,
-            "explanation": "Mistake: using a 365-day year for the discount, 1,000,000 × (1 − 0.036 × 90/365), when the quote is on a 360-day basis."
+            "text": "$1,009,000.00",
+            "value": 1009000,
+            "explanation": "Mistake: adding the discount instead of subtracting it, 1,000,000 × (1 + 0.036 × 90/360). A bill sells below face value, so the price must be under $1,000,000."
           }
         ],
         "answer_index": 1,
@@ -324,18 +324,15 @@
           "fed-trading-4000-p1:7:8"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
           "issues": []
         },
         "calc": {
-          "pass": false,
-          "issues": [
-            "distractor 0 (991080.28) equals the engine value 991000",
-            "distractor 2 (991123.29) equals the engine value 991000"
-          ]
+          "pass": true,
+          "issues": []
         },
         "copy": {
           "pass": true,
@@ -348,7 +345,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: both distractors (add-on yield, 365-day year) were within 0.02% of the key; replaced with forgot-to-prorate and added-the-discount mistakes"
           ]
         }
       }
@@ -533,9 +536,9 @@
         "stem": "A company issues 270-day commercial paper with a face value of 100 at a discount rate of 4.20%. Use a 360-day year. What is the issue price per 100 of face value? Round to two decimal places.",
         "options": [
           {
-            "text": "96.89",
-            "value": 96.89,
-            "explanation": "Mistake: using a 365-day year, 100 × (1 − 0.042 × 270/365), although commercial paper is quoted with a 360-day year."
+            "text": "95.80",
+            "value": 95.8,
+            "explanation": "Mistake: forgetting to prorate the annual rate for 270 days, 100 × (1 − 0.042) = 95.80. The paper runs for three quarters of a year, so only three quarters of 4.20% is deducted."
           },
           {
             "text": "96.95",
@@ -557,17 +560,15 @@
           "fed-trading-4000-p1:7:8"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
           "issues": []
         },
         "calc": {
-          "pass": false,
-          "issues": [
-            "distractor 0 (96.89) equals the engine value 96.85000000000001"
-          ]
+          "pass": true,
+          "issues": []
         },
         "copy": {
           "pass": true,
@@ -580,7 +581,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: distractor 96.89 (365-day year) was within 0.05% of the key; replaced with a forgot-to-prorate mistake"
           ]
         }
       }

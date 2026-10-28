@@ -643,7 +643,7 @@
           {
             "text": "The price increase from a 1-point fall exceeds the price decrease from a 1-point rise",
             "value": null,
-            "explanation": "Correct: the price-yield curve is convex, so prices rise at an increasing rate as yields fall and decline at a decreasing rate as yields rise."
+            "explanation": "Correct: the price-yield curve is convex, so each further drop in yield adds more to the price than the last, and each further rise in yield takes away less."
           },
           {
             "text": "The price decrease from a 1-point rise exceeds the price increase from a 1-point fall",
@@ -664,7 +664,7 @@
           "fed-feds-2006-28:11:7"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -675,10 +675,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Chapter 9: Measures of Price Sensitivity (duration, modified duration, convexity, PVBP) (P. Ritchken, Case Western Reserve University) pp. 2–3: \"at an increasing rate as yields fall and\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -687,7 +685,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

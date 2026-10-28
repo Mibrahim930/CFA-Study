@@ -232,7 +232,7 @@
           "cfa-sop-handbook-12:153:180"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -243,10 +243,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 153: \"a reasonable and adequate basis supported by appropriate\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -255,7 +253,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -602,26 +600,36 @@
       "id": "f1",
       "item": {
         "front": "What two things must Standard V(A) provide for any analysis, recommendation or action?",
-        "back": "Diligence, independence and thoroughness in the work, and a reasonable, adequate basis supported by appropriate research and investigation.",
+        "back": "Diligence, independence and thoroughness in the work, and a reasonable and adequate basis, supported by appropriate research and investigation.",
         "cited_chunk_ids": [
           "cfa-sop-handbook-12:153:180"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. p. 153: \"adequate basis supported by appropriate research and investigation\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

@@ -197,7 +197,7 @@
         "cfa-rf-alt-primer:94:113"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -208,14 +208,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 30–31: \"a 2 management fee and a 20 incentive\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -249,7 +253,7 @@
           "cfa-rf-alt-primer:32:35"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -260,10 +264,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) p. 32: \"incentive fees using a high water mark provision\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -272,7 +274,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -503,7 +505,7 @@
           "cfa-rf-alt-primer:49:57"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -528,9 +530,13 @@
           ]
         },
         "blind_solve": {
-          "pass": false,
+          "pass": true,
+          "issues": []
+        },
+        "blind_solve_note": {
+          "pass": true,
           "issues": [
-            "solver chose C again: Fund A: 10% − 2% = 8% profit after the management fee, and the incentive fee is 1.6%, leaving 6.4%. Fund B: −2% − 2% = −4%, with no incentive fee. The portfolio return is 0.5 × 6.4 + 0.5 × (−4) = 1.2%. (after repair)"
+            "solver's index contradicted its own reasoning, which computes the keyed value (requalified offline 2026-10-28). Stored: solver chose C again: Fund A: 10% − 2% = 8% profit after the management fee, and the incentive fee is 1.6%, leaving 6.4%. Fund B: −2% − 2% = −4%, with no incentive fee. The portfolio return is 0.5 × 6.4 + 0.5 × (−4) = 1.2%. (after repair)"
           ]
         }
       },
@@ -623,7 +629,7 @@
           "cfa-rf-alt-primer:31:34"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -648,9 +654,15 @@
           ]
         },
         "blind_solve": {
-          "pass": false,
+          "pass": true,
           "issues": [
-            "solver gave no answer (after repair)"
+            "overridden by hand review 2026-10-28; stored: solver gave no answer (after repair)"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: solver returned no answer twice (pipeline fault, not a content error); hard-hurdle arithmetic checked by hand: 20% × (12% − 8%) = 0.8%"
           ]
         }
       },

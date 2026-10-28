@@ -158,7 +158,7 @@
       },
       "formulas": [],
       "exam_traps": [
-        "Treating hedge funds and private equity as the same thing. Hedge funds mainly trade publicly traded assets and can use leverage and shorting. Private equity holds securities of firms that are not publicly traded.",
+        "Treating hedge funds and private equity as the same thing. Hedge funds mainly trade publicly traded assets and can use leverage and shorting. Private equity holds stakes in companies whose shares do not trade on a public exchange.",
         "Assuming alternatives always have low risk because they diversify. Low correlation with stocks and bonds does not mean low risk, and concentrated or leveraged positions can lose heavily.",
         "Believing that real estate and commodities behave alike because both are real assets. Income-producing property can generate reliable cash flow, while a commodity alone does not.",
         "Assuming a normal return distribution for alternatives. Extreme outcomes are more likely, so normality-based risk measures can understate risk.",
@@ -187,7 +187,7 @@
         "cfa-rf-alt-credit:20:24"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -198,14 +198,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 8–9: \"securities of firms that are not publicly traded\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

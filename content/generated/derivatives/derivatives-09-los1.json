@@ -204,7 +204,7 @@
         "stem": "An investor holds a European call plus a zero-coupon bond whose face value equals the call's strike and which matures on the expiry date. Which holding in a put and the underlying stock has the same payoff at expiry?",
         "options": [
           {
-            "text": "A long put combined with a short position in the stock",
+            "text": "Buying a put while holding a short position in the stock",
             "value": null,
             "explanation": "Wrong: this flips the sign on the stock. Short stock loses when the price rises, so the payoff is not max(S_T, X)."
           },

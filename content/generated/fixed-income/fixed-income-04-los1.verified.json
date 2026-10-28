@@ -206,7 +206,7 @@
         "occ-liquidity:73:96"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -217,14 +217,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from The Federal Reserve's Commercial Paper Funding Facility (FRBNY Staff Report 423; commercial paper market description) pp. 5–6: \"to a bankruptcy remote special purpose vehicle spv\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -237,9 +241,9 @@
         "stem": "A company issues commercial paper with a face value of $10,000,000 and 90 days to maturity. The discount rate is 4.8%, quoted on a 360-day-year basis. What price will investors pay? Round to the nearest dollar.",
         "options": [
           {
-            "text": "$9,881,423",
-            "value": 9881423,
-            "explanation": "Treats the 4.8% as an add-on yield and computes face ÷ (1 + 0.048 × 90/360). A discount rate is applied to face value and subtracted."
+            "text": "$9,520,000",
+            "value": 9520000,
+            "explanation": "Forgets to prorate the annual rate for 90 days: 10,000,000 × (1 − 0.048) = $9,520,000. The discount for a quarter of a year is a quarter of 4.8%."
           },
           {
             "text": "$9,880,000",
@@ -247,9 +251,9 @@
             "explanation": "Correct: 10,000,000 × (1 − 0.048 × 90/360) = 10,000,000 × 0.988 = $9,880,000."
           },
           {
-            "text": "$9,881,644",
-            "value": 9881644,
-            "explanation": "Uses a 365-day year (0.048 × 90/365) although the stem says the quote is on a 360-day basis."
+            "text": "$10,120,000",
+            "value": 10120000,
+            "explanation": "Adds the 90-day discount instead of subtracting it: 10,000,000 × (1 + 0.048 × 90/360). Commercial paper is sold below face value, so the price must be under $10,000,000."
           }
         ],
         "answer_index": 1,
@@ -261,18 +265,15 @@
           "nyfed-sr423-cpff:5:3"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
           "issues": []
         },
         "calc": {
-          "pass": false,
-          "issues": [
-            "distractor 0 (9881423) equals the engine value 9880000",
-            "distractor 2 (9881644) equals the engine value 9880000"
-          ]
+          "pass": true,
+          "issues": []
         },
         "copy": {
           "pass": true,
@@ -285,7 +286,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: both distractors (add-on yield, 365-day year) were within 0.02% of the key; replaced with forgot-to-prorate and added-the-discount mistakes"
           ]
         }
       }

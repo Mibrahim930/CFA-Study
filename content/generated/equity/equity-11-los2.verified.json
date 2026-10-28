@@ -124,7 +124,7 @@
       "sections": [
         {
           "heading": "Two camps, two customers",
-          "body_markdown": "Think of a restaurant critic and a restaurant's own head chef. The critic writes for the public, while the chef's tasting notes stay in the kitchen and guide only that restaurant's menu.\n\n**Sell-side analysts** work for brokerage houses and investment banks. They publish research as a service to the firm's clients, mainly large institutional investors, and many clients receive the same report. The firm earns money from trading commissions and investment banking fees.\n\n**Buy-side analysts** work for institutions that manage money: mutual funds, pension funds, hedge funds and insurers. Their research is generally **proprietary**, meaning it is written for the firm's own portfolio managers and not distributed widely. The firm earns money only if its portfolios perform."
+          "body_markdown": "Think of a restaurant critic and a restaurant's own head chef. The critic writes for the public, while the chef's tasting notes stay in the kitchen and guide only that restaurant's menu.\n\n**Sell-side analysts** are employed by brokerages and investment banks. They publish research as a service to the firm's clients, mainly large institutional investors, and many clients receive the same report. The firm earns money from trading commissions and investment banking fees.\n\n**Buy-side analysts** work for institutions that manage money: mutual funds, pension funds, hedge funds and insurers. Their research is generally **proprietary**, meaning it is written for the firm's own portfolio managers and not distributed widely. The firm earns money only if its portfolios perform."
         },
         {
           "heading": "What the reports look like",
@@ -179,7 +179,7 @@
         "finra-splits-and-research:4:24"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -190,14 +190,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern) p. 19: \"sell side analysts work for brokerage houses and\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
@@ -217,7 +227,7 @@
           {
             "text": "Brokerages or investment banks employ them, and the firm's clients read the work.",
             "value": null,
-            "explanation": "Correct. Sell-side analysts work for brokerage houses and investment banks, and their research is offered to the firm's clients as a service."
+            "explanation": "Correct. Sell-side analysts are employed by brokerages and investment banks, which give their research to clients as part of the service."
           },
           {
             "text": "Regulators employ them, and the investing public reads the work.",
@@ -231,7 +241,7 @@
           "damodaran-valn2ed-ch11:19:15"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -242,10 +252,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern) p. 19: \"sell side analysts work for brokerage houses and\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -254,7 +262,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -269,7 +283,7 @@
           {
             "text": "Buy-side research, generally proprietary and written for internal portfolio decisions.",
             "value": null,
-            "explanation": "Correct. Buy-side analysts work for institutional investors, and their research mainly serves that institution's own investment decisions."
+            "explanation": "Correct. Buy-side analysts are employed by institutional investors, and their research mainly serves that institution's own investment decisions."
           },
           {
             "text": "Sell-side research, generally distributed to many clients of a brokerage.",
@@ -288,7 +302,7 @@
           "damodaran-valn2ed-ch11:19:15"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -299,10 +313,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Investment Valuation, 2nd ed., ch. 11: Estimating Growth (Aswath Damodaran, NYU Stern) p. 19: \"buy side analysts work for institutional investors and\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -311,7 +323,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

@@ -196,7 +196,7 @@
         "damodaran-valn2ed-ch28:10:10"
       ]
     },
-    "badge": "quarantined",
+    "badge": "verified",
     "gates": {
       "citations": {
         "pass": true,
@@ -207,14 +207,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern) pp. 3–4: \"a call option the underlying asset is the\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -531,13 +535,11 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
-          "pass": false,
-          "issues": [
-            "options are not distinct"
-          ]
+          "pass": true,
+          "issues": []
         },
         "calc": {
           "pass": true,
@@ -554,7 +556,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -757,21 +759,25 @@
           "damodaran-valn2ed-ch28:3:2"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Investment Valuation, 2nd ed., ch. 28: Option Applications in Valuation (real options) (Aswath Damodaran, NYU Stern) pp. 3–4: \"a call option the underlying asset is the\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

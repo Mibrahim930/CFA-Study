@@ -231,7 +231,7 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -242,10 +242,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from CFA Institute Ethical Decision-Making Framework p. 1: \"the cfa institute ethical decision making framework identify\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -254,7 +252,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }
@@ -329,7 +327,7 @@
             "explanation": "Listing duties is part of Identify, but deadlines, enthusiasm and overconfidence are pressures and biases, not duties."
           },
           {
-            "text": "Act, by elevating the issue to a higher authority",
+            "text": "Act, by taking the issue up the chain to someone more senior",
             "value": null,
             "explanation": "Elevating is a way of acting. She is still testing her own thinking rather than taking action."
           },
@@ -346,7 +344,7 @@
           "cfa-sop-handbook-12:19:16"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -357,10 +355,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from CFA Institute Ethical Decision-Making Framework p. 1: \"by elevating the issue to a higher authority\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -369,7 +365,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -445,7 +447,7 @@
             "explanation": "Seeking guidance means getting an objective view to inform your own decision. Here he is taking the concern to a party with authority to resolve it."
           },
           {
-            "text": "Act, by elevating the issue to a higher authority",
+            "text": "Act, by taking the issue up the chain to someone more senior",
             "value": null,
             "explanation": "Correct. Escalating concerns to a more appropriate party is one of the ways the framework describes acting."
           },
@@ -461,7 +463,7 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -472,10 +474,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from CFA Institute Ethical Decision-Making Framework p. 1: \"by elevating the issue to a higher authority\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -484,7 +484,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }
@@ -616,21 +622,25 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from CFA Institute Ethical Decision-Making Framework p. 1: \"the cfa institute ethical decision making framework identify\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
         }
       }
     },

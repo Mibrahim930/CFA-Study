@@ -136,7 +136,7 @@
         },
         {
           "heading": "Earnings versus cash: a first diagnostic",
-          "body_markdown": "Accrual accounting records revenue and expense when they are earned or incurred, not when cash moves. The gap between net income and operating cash flow is therefore the **accruals** (the non-cash part of earnings).\n\nResearch shows that earnings are more persistent than cash flow on average, but large accruals of either sign reduce earnings persistence. A large, lasting gap between net income and operating cash flow is a signal to investigate. It is not proof of manipulation, since growth can create legitimate accruals. It does mean the quality of earnings needs a closer look.\n\nAlso, persistence alone is not enough. Enron's earnings looked smooth and predictable for years, yet they hid losses and told nothing about true performance or value. Smooth does not mean good.\n\nA clean audit opinion does not settle the question either. It says the statements follow GAAP. It does not say the earnings are high quality."
+          "body_markdown": "Accrual accounting records revenue and expense when they are earned or incurred, not when cash moves. The gap between net income and operating cash flow is therefore the **accruals** (the non-cash part of earnings).\n\nResearch finds that, on average, earnings carry forward better than cash flow does, yet a large accrual component (positive or negative) makes earnings less likely to persist. A large, lasting gap between net income and operating cash flow is a signal to investigate. It is not proof of manipulation, since growth can create legitimate accruals. It does mean the quality of earnings needs a closer look.\n\nAlso, persistence alone is not enough. Enron's earnings looked smooth and predictable for years, yet they hid losses and told nothing about true performance or value. Smooth does not mean good.\n\nA clean audit opinion does not settle the question either. It says the statements follow GAAP. It does not say the earnings are high quality."
         }
       ],
       "worked_example": {
@@ -190,7 +190,7 @@
         "cfa-rf-earnings-quality:132:147"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -201,14 +201,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Earnings Quality (Dechow & Schrand, CFA Institute Research Foundation) pp. 27–28: \"on average but large accruals of either sign\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

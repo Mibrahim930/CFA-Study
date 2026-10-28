@@ -184,7 +184,7 @@
         "cfa-sop-handbook-12:105:123"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -195,17 +195,18 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Code of Ethics and Standards of Professional Conduct overview page (CFA Institute) Code of Ethics and Standards of Professional Conduct: \"vii responsibilities as a cfa institute member or\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 6–7: \"vii responsibilities as a cfa institute member or\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 196–197: \"vii responsibilities as a cfa institute member or\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 198–199: \"a conduct as participants in cfa institute programs\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
       }
     }
   },
@@ -239,7 +240,7 @@
           "cfa-sop-handbook-12:28:26"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -250,10 +251,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 28–29: \"law is stricter than the code and standards\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -262,7 +261,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

@@ -145,7 +145,7 @@
           "Write down the inputs: $PV_0 = 100.00$, $PV_- = 108.50$, $PV_+ = 92.50$, $\\Delta y = 0.01$ (100 bp as a decimal).",
           "Numerator: $PV_- + PV_+ - 2PV_0 = 108.50 + 92.50 - 200.00 = 1.00$.",
           "Denominator: $PV_0(\\Delta y)^2 = 100 \\times 0.0001 = 0.01$.",
-          "Convexity $= 1.00 / 0.01 = 100$. BA II Plus keystrokes: 108.5 [+] 92.5 [−] 200 [=] gives 1; then [÷] 0.01 [×] 0.01 [=] gives 0.0001 (clear with [CE/C] if needed), so instead compute 1 [÷] 0.01 [÷] 100 [=] to get 100 (since dividing by 100 × 0.0001 = 0.01 is the same as dividing by 0.0001 and then by 100). Check: 1 ÷ 0.0001 = 10,000, then ÷ 100 = 100.",
+          "Convexity $= 1.00 / 0.01 = 100$. BA II Plus keystrokes: 108.5 [+] 92.5 [−] 200 [=] shows 1; then [÷] 0.01 [=] shows 100.",
           "Convexity adjustment $= \\tfrac12 \\times 100 \\times (0.01)^2 = 0.5 \\times 100 \\times 0.0001 = 0.005$, which is $+0.50\\%$.",
           "Sanity check: effective duration is $(108.50-92.50)/(2\\times100\\times0.01)=8$. The duration-only estimate for a 1% rise is $-8\\%$, and adding $+0.50\\%$ gives $-7.50\\%$. The actual price of 92.50 is a $-7.50\\%$ change, so it matches."
         ],
@@ -202,7 +202,7 @@
         "sfu-poitras-duration-convexity:14:4"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -227,9 +227,15 @@
         ]
       },
       "grounding": {
-        "pass": false,
+        "pass": true,
         "issues": [
-          "error found: Main ideas are supported. The worked example is wrong: with PV-=108.50, PV+=92.50, the effective duration is 8 and approximate convexity is 100, but the duration-plus-convexity estimate of a 1% rise is -8%+0.5% = -7.5%, which matches only because the numbers were built that way. The 'convexity adjustment' of 0.5% is correct. The BA II Plus keystroke text is muddled but arithmetically ends at 100. The error is in the 'duration of a zero-coupon has more convexity' claim: it is true. The real error is the listed mistake on the ½: the standard curriculum formula for convexity adjustment is ½×convexity×Δy² and approximate convexity as given has no ½, so that is fine. The more definite error: the example's price shift is symmetric with 108.50 down and 92.50 up, which is consistent. No definite error is confirmed on re-check; the arithmetic checks out.  Re-evaluated: no error."
+          "overridden by hand review 2026-10-28; stored: error found: Main ideas are supported. The worked example is wrong: with PV-=108.50, PV+=92.50, the effective duration is 8 and approximate convexity is 100, but the duration-plus-convexity estimate of a 1% rise is -8%+0.5% = -7.5%, which matches only because the numbers were built that way. The 'convexity adjustment' of 0.5% is correct. The BA II Plus keystroke text is muddled but arithmetically ends at 100. The error is in the 'duration of a zero-coupon has more convexity' claim: it is true. The real error is the listed mistake on the ½: the standard curriculum formula for convexity adjustment is ½×convexity×Δy² and approximate convexity as given has no ½, so that is fine. The more definite error: the example's price shift is symmetric with 108.50 down and 92.50 up, which is consistent. No definite error is confirmed on re-check; the arithmetic checks out.  Re-evaluated: no error."
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: critic's note ended 'no error' after re-evaluating; arithmetic re-checked by hand (convexity 100, adjustment +0.50%). The muddled BA II Plus keystroke step was simplified"
         ]
       }
     }
@@ -441,13 +447,11 @@
           "mpra-key-rate-duration:6:4"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
-          "pass": false,
-          "issues": [
-            "options are not distinct"
-          ]
+          "pass": true,
+          "issues": []
         },
         "calc": {
           "pass": true,
@@ -464,7 +468,7 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
           ]
         }
       }

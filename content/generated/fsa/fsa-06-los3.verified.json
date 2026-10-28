@@ -531,7 +531,7 @@
           {
             "text": "The reversal is permitted up to the amount of the original write-down, and the circumstances should be disclosed.",
             "value": null,
-            "explanation": "Correct. IFRS allows reversal when the reasons for the write-down no longer exist, limited to the original write-down. Disclosure lets the analyst judge the effect on income."
+            "explanation": "Correct. IFRS allows a reversal once the circumstances that caused the write-down have gone, capped at the amount originally written down. Disclosure lets the analyst judge the effect on income."
           },
           {
             "text": "The reversal is prohibited, so the disclosure signals an accounting error that must be corrected.",
@@ -550,7 +550,7 @@
           "ey-us-gaap-vs-ifrs-2026:16:21"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -561,10 +561,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from US GAAP versus IFRS Accounting Standards: The basics, January 2026 (EY) p. 16: \"when the reasons for the write down no\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -573,7 +571,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

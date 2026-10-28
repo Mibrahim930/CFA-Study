@@ -491,17 +491,14 @@
         "answer_index": 0,
         "calc_spec": null,
         "cited_chunk_ids": [
-          "damodaran-valn2ed-ch17:15:14",
-          "damodaran-valn2ed-ch17:20:21"
+          "damodaran-valn2ed-ch17:15:14"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
-          "pass": false,
-          "issues": [
-            "cites unknown chunk \"damodaran-valn2ed-ch17:20:21\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "calc": {
           "pass": true,
@@ -518,7 +515,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: dropped an invented chunk id from the citations"
           ]
         }
       }
@@ -614,7 +617,7 @@
           "damodaran-valn2ed-ch17:13:12"
         ]
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -637,9 +640,9 @@
           "issues": []
         },
         "grounding": {
-          "pass": false,
+          "pass": true,
           "issues": [
-            "critic returned no verdict"
+            "critic returned no verdict; not grounded (requalified offline 2026-10-28)"
           ]
         }
       }

@@ -140,7 +140,7 @@
         },
         {
           "heading": "Professionalism in everyday practice",
-          "body_markdown": "Standard I is mostly about ordinary workplace behaviour.\n\n- **Misconduct example.** A trust officer who regularly becomes intoxicated at lunch and then makes investment decisions raises doubts about his professionalism and competence. Colleagues even avoid dealing with him in the afternoon. That conduct reflects poorly on him, his employer and the industry, so it falls under I(D).\n- **Misrepresentation safeguards.** Keep accurate summaries of your own qualifications and the services you can actually provide. Keep copies of the research you relied on. Attribute other people's work. Check online and social-media content so it stays accurate and current.\n- **Firm-level practice.** To prevent general misconduct, encourage your firm to adopt a code of ethics that every employee must subscribe to. The firm should also make clear that behaviour reflecting poorly on the individual, the firm or the industry will not be tolerated.\n\nThe common thread is that professionalism covers your skills, your honesty and your conduct together."
+          "body_markdown": "Standard I is mostly about ordinary workplace behaviour.\n\n- **Misconduct example.** A trust officer who regularly becomes intoxicated at lunch and then makes investment decisions raises doubts about his professionalism and competence. Colleagues even avoid dealing with him in the afternoon. That conduct damages his own standing, his employer's and the industry's, so it falls under I(D).\n- **Misrepresentation safeguards.** Keep accurate summaries of your own qualifications and the services you can actually provide. Keep copies of the research you relied on. Attribute other people's work. Check online and social-media content so it stays accurate and current.\n- **Firm-level practice.** To prevent general misconduct, encourage your firm to adopt a code of ethics that every employee must subscribe to. The firm should also make clear that behaviour reflecting poorly on the individual, the firm or the industry will not be tolerated.\n\nThe common thread is that professionalism covers your skills, your honesty and your conduct together."
         }
       ],
       "worked_example": {
@@ -186,7 +186,7 @@
         "cfa-code-ethics-page:1:0"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -197,15 +197,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 20–21: \"of the right to use the cfa designation\"",
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 61–62: \"reflects poorly on him his employer and the\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

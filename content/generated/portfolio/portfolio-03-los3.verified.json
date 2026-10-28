@@ -689,26 +689,36 @@
       "id": "f4",
       "item": {
         "front": "What is a sovereign wealth fund and what does it aim for?",
-        "back": "A state-owned investment pool used to stabilise national budgets and secure wealth for future generations, with a long horizon and a total return target above plain reserves.",
+        "back": "A state-owned investment pool that smooths government finances and sets money aside for future generations, with a long horizon and a total return target above plain reserves.",
         "cited_chunk_ids": [
           "cfa-rf-alt-primer:21:22"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Alternative Investments: A Primer for Investment Professionals (CFA Institute Research Foundation) pp. 21–22: \"national budgets and secure wealth for future generations\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

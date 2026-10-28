@@ -450,7 +450,7 @@
           {
             "text": "Exchange rate policy and concern about domestic economic overheating",
             "value": null,
-            "explanation": "Correct. Controls were linked to fixed regimes and undervalued exchange rates, and to worries about high credit growth, rising inflation and output volatility."
+            "explanation": "Correct. Controls were linked to fixed regimes and undervalued exchange rates, and to worries about fast credit expansion, accelerating inflation and swings in output."
           }
         ],
         "answer_index": 2,
@@ -460,7 +460,7 @@
           "ecb-wp1415-capital-controls:21:30"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -471,12 +471,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012) pp. 4–5: \"high credit growth rising inflation and output volatility\"",
-            "copies 8+ words from Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012) pp. 8–9: \"high credit growth rising inflation and output volatility\"",
-            "copies 8+ words from Capital Controls and Foreign Exchange Policy (M. Fratzscher, ECB Working Paper 1415, 2012) pp. 21–22: \"high credit growth rising inflation and output volatility\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -485,7 +481,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

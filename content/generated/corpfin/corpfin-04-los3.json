@@ -350,9 +350,9 @@
             "explanation": "Applies the full annual discount rate (1 − 0.06) without prorating for 120 days."
           },
           {
-            "text": "4,901,370",
-            "value": 4901370,
-            "explanation": "Uses a 365-day year instead of the 360-day convention given in the stem."
+            "text": "4,100,000",
+            "value": 4100000,
+            "explanation": "Inverts the day-count fraction, using 360/120 = 3 instead of 120/360: 5,000,000 × (1 − 0.06 × 3) = 4,100,000."
           }
         ],
         "answer_index": 0,

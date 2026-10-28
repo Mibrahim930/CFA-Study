@@ -522,9 +522,9 @@
             "explanation": "Wrong: this uses 5% as the per-period rate for the 6 half-year periods instead of halving it to 2.5%."
           },
           {
-            "text": "972.77",
-            "value": 972.77,
-            "explanation": "Wrong: this treats the bond as paying 40 once a year for 3 years at 5%. It ignores semiannual coupons and semiannual compounding."
+            "text": "1,000.00",
+            "value": 1000,
+            "explanation": "Wrong: this discounts at the 4% coupon rate instead of the 5% market yield, which always gives par. A bond trades at par only when its coupon rate equals the market yield."
           },
           {
             "text": "972.46",
@@ -539,17 +539,15 @@
         },
         "cited_chunk_ids": []
       },
-      "badge": "quarantined",
+      "badge": "verified",
       "gates": {
         "lint": {
           "pass": true,
           "issues": []
         },
         "calc": {
-          "pass": false,
-          "issues": [
-            "distractor 1 (972.77) equals the engine value 972.4593731921013"
-          ]
+          "pass": true,
+          "issues": []
         },
         "copy": {
           "pass": true,
@@ -562,7 +560,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: distractor 972.77 (annual coupons) was within 0.04% of the key; replaced with a discount-at-the-coupon-rate mistake"
           ]
         }
       }

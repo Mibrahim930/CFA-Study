@@ -232,7 +232,7 @@
         "stem": "An investor holds a European call plus a zero-coupon bond whose face value equals the call's strike and which matures on the expiry date. Which holding in a put and the underlying stock has the same payoff at expiry?",
         "options": [
           {
-            "text": "A long put combined with a short position in the stock",
+            "text": "Buying a put while holding a short position in the stock",
             "value": null,
             "explanation": "Wrong: this flips the sign on the stock. Short stock loses when the price rises, so the payoff is not max(S_T, X)."
           },
@@ -253,7 +253,7 @@
           "mit-ocw-15401-rec05:1:0"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "lint": {
           "pass": true,
@@ -264,10 +264,8 @@
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Instruments of the Money Market, ch. 15: Options on Money Market Futures (Federal Reserve Bank of Richmond) pp. 13–14: \"put combined with a short position in the\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
@@ -276,7 +274,13 @@
         "model_gates_pending": {
           "pass": true,
           "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-27); a paid verify pass upgrades this item"
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
         }
       }

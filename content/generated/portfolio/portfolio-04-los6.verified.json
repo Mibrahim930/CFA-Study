@@ -663,28 +663,37 @@
       "id": "f2",
       "item": {
         "front": "What does the written policy specify for each permissible asset class?",
-        "back": "A brief description of the class and a performance benchmark. Subclasses may be handled in the policy or in an attached allocation plan, and unused permitted classes are still listed.",
+        "back": "A short description of what the class covers and a benchmark to measure it against. Subclasses may be handled in the policy or in an attached allocation plan, and unused permitted classes are still listed.",
         "cited_chunk_ids": [
           "cfa-ips-institutional:14:7",
           "cfa-ips-individual:15:7"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Elements of an Investment Policy Statement for Individual Investors (CFA Institute) pp. 15–16: \"asset class a brief description of the class\"",
-            "copies 8+ words from Elements of an Investment Policy Statement for Institutional Investors (CFA Institute) pp. 14–15: \"asset class a brief description of the class\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     },

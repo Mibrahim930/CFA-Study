@@ -732,26 +732,36 @@
       "id": "f5",
       "item": {
         "front": "What should a supervisor without firm-wide authority do about weak compliance tools?",
-        "back": "Work with superiors and within the firm structure to develop and implement a code, procedures, training and ethics-linked incentives.",
+        "back": "Work with senior management, through the firm's normal structure, to put in place a code, procedures, training and ethics-linked incentives.",
         "cited_chunk_ids": [
           "cfa-sop-handbook-12:144:169"
         ]
       },
-      "badge": "quarantined",
+      "badge": "model_only",
       "gates": {
         "citations": {
           "pass": true,
           "issues": []
         },
         "copy": {
-          "pass": false,
-          "issues": [
-            "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 144–145: \"superiors and within the firm structure to develop\""
-          ]
+          "pass": true,
+          "issues": []
         },
         "ifrs18": {
           "pass": true,
           "issues": []
+        },
+        "model_gates_pending": {
+          "pass": true,
+          "issues": [
+            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          ]
+        },
+        "hand_fixed": {
+          "pass": true,
+          "issues": [
+            "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+          ]
         }
       }
     }

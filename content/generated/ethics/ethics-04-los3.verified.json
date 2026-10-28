@@ -124,7 +124,7 @@
       "sections": [
         {
           "heading": "The big idea: a fair game",
-          "body_markdown": "Think of a market as a card game. If one player secretly sees other players' cards, or fiddles with the scoreboard, everyone else stops wanting to play. Standard II protects that trust with two rules.\n\n- **II(A) Material Nonpublic Information (MNPI):** if you hold information that is *material* and *nonpublic*, you must not trade on it and must not cause anyone else to trade on it.\n- **II(B) Market Manipulation:** you must not distort prices or inflate trading volume with the *intent to mislead* other market participants.\n\n*Material* means the information could affect the value of an investment or influence an investor's decision. *Nonpublic* means it has not been made available to the market at large."
+          "body_markdown": "Think of a market as a card game. If one player secretly sees other players' cards, or fiddles with the scoreboard, everyone else stops wanting to play. Standard II protects that trust with two rules.\n\n- **II(A) Material Nonpublic Information (MNPI):** if you hold information that is *material* and *nonpublic*, you must not trade on it and must not cause anyone else to trade on it.\n- **II(B) Market Manipulation:** you must not distort prices or artificially pump up trading volume in order to *mislead* other market participants.\n\n*Material* means the information could affect the value of an investment or influence an investor's decision. *Nonpublic* means it has not been made available to the market at large."
         },
         {
           "heading": "II(A): conduct that violates vs. conduct that conforms",
@@ -180,7 +180,7 @@
         "cfa-sop-handbook-12:84:96"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -191,14 +191,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from Standards of Practice Handbook, 12th ed. pp. 82–83: \"inflate trading volume with the intent to mislead\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },

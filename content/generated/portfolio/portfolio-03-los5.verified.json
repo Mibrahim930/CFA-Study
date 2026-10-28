@@ -136,7 +136,7 @@
         },
         {
           "heading": "Fees, scale and industry trends",
-          "body_markdown": "**Revenue** for a manager is roughly average AUM times the fee rate. Fees are quoted as an **expense ratio** in percent or **basis points** (bps; 100 bps = 1%). A fee of 0.65% equals 65 bps.\n\n**Fee compression** means fees keep falling. Two forces drive it: investors prefer the cheapest products, and managers cut fees to stay competitive. For example, the average expense ratio of actively managed US equity mutual funds fell from 1.10% in 2003 to 0.65% in 2023. Index strategies cost much less than active ones. They need fewer analysts, less trading and fewer compliance and marketing resources, and they scale well, so one small team can run a very large fund.\n\n**Scale and concentration**: economies of scale favor big firms, which can offer broad, low-cost solutions. A 2013 snapshot showed the top five US mutual fund complexes managing nearly half of US mutual fund assets. Higher concentration means a problem at one large firm (operational or investment risk, or forced selling) could affect markets more.\n\n**Other trends** include:\n- the shift from active to passive products;\n- the growth of exchange-traded funds (ETFs);\n- active managers launching ETFs that mirror their mutual funds;\n- thematic ETFs and strategies built on options;\n- ESG screening (environmental, social, governance);\n- liquid alternatives.\n\nTechnology, such as robo-advisers and data analytics, is also reshaping how services are delivered."
+          "body_markdown": "**Revenue** for a manager is roughly average AUM times the fee rate. Fees are quoted as an **expense ratio** in percent or **basis points** (bps; 100 bps = 1%). A fee of 0.65% equals 65 bps.\n\n**Fee compression** means fees keep falling. Two forces drive it: investors prefer the cheapest products, and managers cut fees to stay competitive. For example, the average expense ratio of actively managed US equity mutual funds fell between 2003 and 2023, from 1.10% to 0.65%. Index strategies cost much less than active ones. They need fewer analysts, less trading and fewer compliance and marketing resources, and they scale well, so one small team can run a very large fund.\n\n**Scale and concentration**: economies of scale favor big firms, which can offer broad, low-cost solutions. A 2013 snapshot showed the top five US mutual fund complexes managing nearly half of US mutual fund assets. Higher concentration means a problem at one large firm (operational or investment risk, or forced selling) could affect markets more.\n\n**Other trends** include:\n- the shift from active to passive products;\n- the growth of exchange-traded funds (ETFs);\n- active managers launching ETFs that mirror their mutual funds;\n- thematic ETFs and strategies built on options;\n- ESG screening (environmental, social, governance);\n- liquid alternatives.\n\nTechnology, such as robo-advisers and data analytics, is also reshaping how services are delivered."
         }
       ],
       "worked_example": {
@@ -194,7 +194,7 @@
         "cfa-rf-etf-module1:39:46"
       ]
     },
-    "badge": "quarantined",
+    "badge": "model_only",
     "gates": {
       "citations": {
         "pass": true,
@@ -205,14 +205,24 @@
         "issues": []
       },
       "copy": {
-        "pass": false,
-        "issues": [
-          "copies 8+ words from A Comprehensive Guide to ETFs, 2nd ed., Module 1: ETF Features and Evolving Landscape (CFA Institute Research Foundation) pp. 17–18: \"from 1.10 in 2003 to 0.65 in 2023\""
-        ]
+        "pass": true,
+        "issues": []
       },
       "ifrs18": {
         "pass": true,
         "issues": []
+      },
+      "model_gates_pending": {
+        "pass": true,
+        "issues": [
+          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
+        ]
       }
     }
   },
