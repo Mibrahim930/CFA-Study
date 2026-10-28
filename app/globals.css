@@ -1,65 +1,83 @@
 @import "tailwindcss";
 
-/* "Calm study desk" design tokens: see the design canvas (docs/BUILD-PROGRESS.md, step 1). */
+/*
+ * "Edition" design tokens (design canvas, Direction 4): a warm desk, editorial type, an ultramarine accent.
+ * The accent is deliberately not green, red, amber or teal: those four are verdict colours and never move.
+ * Every ratio below is against --background unless noted.
+ */
 :root {
-  --background: #f6f7f9; /* paper */
-  --foreground: #111827; /* ink */
-  --surface: #ffffff;
-  --surface-2: #f3f4f6;
-  --surface-3: #e5e7eb;
-  --line: #e5e7eb; /* dividers and card edges (decorative) */
-  --control-line: #868e99; /* edges of controls: 3.3:1 on surface, 3.1:1 on paper (WCAG non-text 3:1) */
-  --muted: #4b5563; /* ≥ 7:1 on paper */
-  --accent: #1e3a8a; /* navy: primary actions */
-  --accent-fg: #ffffff;
-  --accent-soft: #eef2ff;
-  --success: #047857; /* grounded / correct */
-  --success-fg: #ffffff; /* text on a success fill: 5.5:1 */
-  --info: #1d4ed8; /* math verified */
-  --warn: #b45309; /* AI-only / due */
-  --warn-fg: #ffffff; /* text on a warn fill: 5.0:1 */
-  --danger: #b91c1c;
+  --background: #faf8f4; /* desk */
+  --foreground: #1d1b24; /* ink: 15.8:1 */
+  --surface: #ffffff; /* tiles */
+  --surface-2: #f1ede6; /* sunken sheet */
+  --surface-3: #e6e1d8; /* empty bar track */
+  --line: #e3ded5; /* dividers and tile edges (decorative) */
+  --rule: #1d1b24; /* the editorial section rule */
+  --control-line: #8a8692; /* edges of controls: 3.2:1 */
+  --muted: #5d5a66; /* 6.3:1 */
+  --accent: #1e4fd0; /* ultramarine: 6.4:1 */
+  --accent-fg: #ffffff; /* 6.8:1 on accent */
+  --accent-soft: #e3eafb;
+  --success: #1a7a3f; /* correct / grounded: 5.1:1 */
+  --success-fg: #ffffff;
+  --info: #0f6b7a; /* engine verified: 5.8:1 */
+  --warn: #8a5a00; /* due / AI-only: 5.6:1 */
+  --warn-fg: #ffffff;
+  --danger: #b3261e; /* wrong: 6.2:1 */
+  /* Mastery steps, derived from real activity: not started → learning → practised → solid. */
+  --mastery-0: #e6e1d8;
+  --mastery-1: #9db1ec;
+  --mastery-2: #6485e0;
+  --mastery-3: #1e4fd0;
+  --radius-control: 10px;
+  --radius-tile: 14px;
+  --radius-dock: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1120;
-    --foreground: #e5e7eb;
-    --surface: #111827;
-    --surface-2: #1f2937;
-    --surface-3: #374151;
-    --line: #1f2937;
-    --control-line: #6b7280; /* 3.7:1 on surface */
-    --muted: #9ca3af;
-    --accent: #93c5fd;
-    --accent-fg: #0b1120;
-    --accent-soft: #1e293b;
-    --success: #34d399;
-    --success-fg: #0b1120; /* 9.8:1 (white would be 1.9:1) */
-    --info: #60a5fa;
-    --warn: #fbbf24;
-    --warn-fg: #0b1120; /* 11.3:1 (white would be 1.7:1) */
-    --danger: #f87171;
+    --background: #121318;
+    --foreground: #f0eef4; /* 17.1:1 */
+    --surface: #1b1c24;
+    --surface-2: #22232c;
+    --surface-3: #2a2b34;
+    --line: #2a2b34;
+    --rule: #f0eef4;
+    --control-line: #6f6d7a; /* 3.3:1 */
+    --muted: #aeacb8; /* 8.2:1 */
+    --accent: #8fb0ff; /* 8.7:1 */
+    --accent-fg: #121318; /* 8.7:1 on accent */
+    --accent-soft: #1f2a4a;
+    --success: #4ade80; /* 12.0:1 */
+    --success-fg: #121318;
+    --info: #5ed3e6; /* 11.9:1 */
+    --warn: #f5b84a; /* 11.6:1 */
+    --warn-fg: #121318;
+    --danger: #ff8a80; /* 9.7:1 */
+    --mastery-0: #2a2b34;
+    --mastery-1: #4a63a8;
+    --mastery-2: #6d8ad6;
+    --mastery-3: #8fb0ff;
   }
 }
 
 /* Increase Contrast (macOS/iOS setting, surfaced to browsers as prefers-contrast). */
 @media (prefers-contrast: more) {
   :root {
-    --line: #868e99;
-    --control-line: #4b5563;
-    --muted: #374151;
+    --line: #8a8692;
+    --control-line: #5d5a66;
+    --muted: #3f3c47;
   }
 }
 @media (prefers-contrast: more) and (prefers-color-scheme: dark) {
   :root {
-    --line: #6b7280;
-    --control-line: #9ca3af;
-    --muted: #d1d5db;
+    --line: #6f6d7a;
+    --control-line: #aeacb8;
+    --muted: #d4d2dc;
   }
 }
 
-/* Reduce Motion: progress bars and hover changes snap instead of animating. */
+/* Reduce Motion: bars, the dock pill and hover changes snap instead of animating. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -77,6 +95,7 @@
   --color-surface-2: var(--surface-2);
   --color-surface-3: var(--surface-3);
   --color-line: var(--line);
+  --color-rule: var(--rule);
   --color-control-line: var(--control-line);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
@@ -88,7 +107,15 @@
   --color-warn: var(--warn);
   --color-warn-fg: var(--warn-fg);
   --color-danger: var(--danger);
-  --font-sans: var(--font-jakarta);
+  --color-mastery-0: var(--mastery-0);
+  --color-mastery-1: var(--mastery-1);
+  --color-mastery-2: var(--mastery-2);
+  --color-mastery-3: var(--mastery-3);
+  --radius-control: var(--radius-control);
+  --radius-tile: var(--radius-tile);
+  --radius-dock: var(--radius-dock);
+  --font-sans: var(--font-archivo);
+  --font-serif: var(--font-source-serif);
   --font-mono: var(--font-jetbrains);
 }
 
@@ -101,4 +128,24 @@ body {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+/* Editorial type utilities (Archivo's weight and width axes do the work of a second typeface). */
+@utility display {
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+@utility caps {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+/* A heavy ink rule under a section header, as on the design boards. */
+@utility rule-b {
+  border-bottom: 3px solid var(--rule);
+}
+@utility rule-t {
+  border-top: 3px solid var(--rule);
 }

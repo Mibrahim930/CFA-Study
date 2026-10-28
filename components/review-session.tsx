@@ -6,11 +6,12 @@ import type { DeckItem } from "@/lib/content/deck";
 import { dueIds, previewIntervals, rate, Rating, useNow, useReviewState } from "@/lib/store/review";
 import { InlineRich, RichText } from "./rich-text";
 
+// Edition: outlined ink buttons; Again carries the "wrong" red, Good is the accent-filled default (Enter).
 const GRADES = [
-  { grade: Rating.Again, key: "1", label: "Again", className: "border-danger/40 bg-danger/8 text-danger" },
-  { grade: Rating.Hard, key: "2", label: "Hard", className: "border-warn/40 bg-warn/8 text-warn" },
-  { grade: Rating.Good, key: "3", label: "Good", className: "border-success/40 bg-success/8 text-success" },
-  { grade: Rating.Easy, key: "4", label: "Easy", className: "border-info/40 bg-info/8 text-info" },
+  { grade: Rating.Again, key: "1", label: "Again", className: "border-danger text-danger" },
+  { grade: Rating.Hard, key: "2", label: "Hard", className: "border-rule text-foreground" },
+  { grade: Rating.Good, key: "3", label: "Good", className: "border-accent bg-accent text-accent-fg" },
+  { grade: Rating.Easy, key: "4", label: "Easy", className: "border-rule text-foreground" },
 ] as const;
 
 type Tally = Record<"again" | "hard" | "good" | "easy", number>;
@@ -57,16 +58,16 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
   if (!id) {
     const remembered = tally.good + tally.easy;
     return (
-      <div className="mx-auto max-w-xl space-y-5 rounded-2xl border border-line bg-surface p-8 text-center">
+      <div className="mx-auto max-w-xl space-y-5 rounded-tile border border-line bg-surface p-8 text-center">
         {done > 0 ? (
           <>
-            <p className="text-xs font-bold uppercase tracking-widest text-success">Session complete</p>
-            <h2 className="text-3xl font-extrabold tabular-nums">{done} cards reviewed</h2>
+            <p className="caps text-success">Session complete</p>
+            <h2 className="display text-[2.5rem] tabular-nums">{done} cards reviewed</h2>
             <div className="grid grid-cols-2 gap-3 text-left sm:grid-cols-4">
               {GRADES.map((g) => (
-                <div key={g.label} className={`rounded-xl border p-3 ${g.className}`}>
-                  <p className="text-xs font-bold">{g.label}</p>
-                  <p className="text-2xl font-extrabold tabular-nums">{tally[g.label.toLowerCase() as keyof Tally]}</p>
+                <div key={g.label} className="rounded-control border border-line p-3">
+                  <p className="caps text-muted">{g.label}</p>
+                  <p className="display text-[1.75rem] tabular-nums">{tally[g.label.toLowerCase() as keyof Tally]}</p>
                 </div>
               ))}
             </div>
@@ -77,7 +78,7 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
           </>
         ) : (
           <>
-            <h2 className="text-xl font-extrabold">Nothing due right now</h2>
+            <h2 className="display text-[1.75rem]">Nothing due right now</h2>
             <p className="text-muted">
               {tracked === 0
                 ? "Cards appear here once you add a topic's beginner flashcards, open a lesson, or miss a practice question."
@@ -86,11 +87,11 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
           </>
         )}
         <div className="flex flex-wrap justify-center gap-3">
-          <Link href="/" className="inline-flex min-h-11 items-center rounded-xl bg-accent px-5 font-bold text-accent-fg">
+          <Link href="/" className="inline-flex min-h-11 items-center rounded-control bg-accent px-5 font-bold text-accent-fg">
             Back to Today
           </Link>
           {tracked === 0 && (
-            <Link href="/syllabus" className="inline-flex min-h-11 items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
+            <Link href="/syllabus" className="inline-flex min-h-11 items-center rounded-control border border-control-line px-5 font-semibold hover:border-accent">
               Pick a topic
             </Link>
           )}
@@ -109,36 +110,37 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
   return (
     <div className="mx-auto max-w-2xl space-y-4 pb-28 sm:pb-0">
       <div className="space-y-2">
-        <div className="flex items-center justify-between text-sm text-muted">
-          <span className="tabular-nums">
-            {done} of {total} · {due.length} left
+        <div className="flex items-end justify-between text-sm text-muted">
+          <span className="display text-[1.75rem] text-foreground tabular-nums">
+            {due.length}
+            <span className="text-sm font-bold tracking-normal text-muted"> left · {done} done</span>
           </span>
           <Link href={item.href ?? `/learn/${item.moduleSlug}`} className="hover:text-accent">
             {item.moduleTitle} →
           </Link>
         </div>
-        <div className="h-1.5 overflow-hidden rounded-full bg-surface-3" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label="Session progress">
-          <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${pct}%` }} />
+        <div className="h-1 overflow-hidden rounded-[2px] bg-surface-3" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label="Session progress">
+          <div className="h-full bg-accent transition-[width] duration-300" style={{ width: `${pct}%` }} />
         </div>
       </div>
 
       <button
         type="button"
         onClick={() => setFlipped((f) => !f)}
-        className="flex min-h-72 w-full flex-col justify-center gap-4 rounded-2xl border border-line bg-surface p-8 text-left hover:border-accent"
+        className="flex min-h-72 w-full flex-col justify-center gap-4 rounded-tile border border-line bg-surface p-6 text-left shadow-[0_1px_2px_rgb(29_27_36/0.04),0_12px_30px_rgb(29_27_36/0.06)] hover:border-accent sm:p-8 dark:shadow-none"
       >
-        <span className="text-xs font-bold uppercase tracking-widest text-muted">
+        <span className={`caps ${flipped ? "border-t border-rule pt-4 text-accent" : "text-muted"}`}>
           {flipped ? "Answer" : kind === "missed" ? "A question you missed" : "Question"}
         </span>
         {flipped ? (
-          <RichText text={item.back} className="text-lg" />
+          <RichText text={item.back} className="font-serif text-[1.0625rem] leading-relaxed" />
         ) : (
           <>
-            <span className="text-xl font-bold leading-snug">
+            <span className="font-serif text-[1.3125rem] font-semibold leading-[1.4]">
               <InlineRich text={item.front} />
             </span>
             {item.options && (
-              <ul className="space-y-1 text-base text-muted">
+              <ul className="space-y-1 font-serif text-base text-muted">
                 {item.options.map((o) => (
                   <li key={o}>
                     <InlineRich text={o} />
@@ -156,12 +158,12 @@ export function ReviewSession({ deck }: { deck: Record<string, DeckItem> }) {
 
       {flipped && (
         // On phones the grade buttons stay in thumb reach at the bottom of the screen.
-        <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/95 p-3 backdrop-blur sm:static sm:border-0 sm:bg-transparent sm:p-0">
+        <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-background/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur sm:static sm:border-0 sm:bg-transparent sm:p-0">
           <div className="mx-auto grid max-w-2xl grid-cols-4 gap-2">
             {GRADES.map((g) => (
-              <button key={g.label} type="button" onClick={() => grade(g)} className={`min-h-14 rounded-xl border font-bold ${g.className}`}>
+              <button key={g.label} type="button" onClick={() => grade(g)} className={`min-h-14 rounded-control border-[1.5px] bg-surface text-sm font-extrabold ${g.className}`}>
                 {g.label}
-                <span className="block text-xs font-medium opacity-80">
+                <span className="block text-[0.6875rem] font-bold tracking-[0.04em] opacity-80">
                   {intervals[g.grade]}
                   <span className="hidden sm:inline"> · {g.key}</span>
                 </span>

@@ -113,7 +113,7 @@ export function BackupPanel() {
 
   return (
     <div className="space-y-6">
-      <section className="space-y-3 rounded-2xl border border-line bg-surface p-6">
+      <section className="space-y-3 rounded-tile border border-line bg-surface p-6">
         <h2 className="text-lg font-bold">Download a backup</h2>
         <p className="text-muted">
           Saves everything on this device
@@ -121,25 +121,25 @@ export function BackupPanel() {
           somewhere safe, like your cloud drive.
         </p>
         {last !== undefined && <p className="text-sm text-muted">{last === null ? "You haven't backed up on this device yet." : `Last backup: ${fmtDate(last)}.`}</p>}
-        <button type="button" onClick={download} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+        <button type="button" onClick={download} className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg">
           Download backup
         </button>
       </section>
 
-      <section className="space-y-3 rounded-2xl border border-line bg-surface p-6">
+      <section className="space-y-3 rounded-tile border border-line bg-surface p-6">
         <h2 className="text-lg font-bold">Restore from a backup</h2>
         <p className="text-muted">Use this on a new device, or after clearing your browser. It replaces the progress on this device with the backup&apos;s.</p>
-        <label className="inline-flex min-h-11 cursor-pointer items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent focus-within:outline-2 focus-within:outline-accent">
+        <label className="inline-flex min-h-11 cursor-pointer items-center rounded-control border border-control-line px-5 font-semibold hover:border-accent focus-within:outline-2 focus-within:outline-accent">
           Choose backup file…
           <input ref={fileInput} type="file" accept="application/json,.json" className="sr-only" onChange={(e) => pick(e.target.files?.[0])} />
         </label>
         {error && (
-          <p role="alert" className="rounded-xl border-l-4 border-danger bg-danger/8 p-3 text-sm">
+          <p role="alert" className="rounded-control border-l-4 border-danger bg-danger/8 p-3 text-sm">
             {error}
           </p>
         )}
         {pending && incoming && (
-          <div role="alertdialog" aria-labelledby="restore-title" aria-describedby="restore-detail" className="space-y-3 rounded-xl border-2 border-accent bg-accent-soft p-4">
+          <div role="alertdialog" aria-labelledby="restore-title" aria-describedby="restore-detail" className="space-y-3 rounded-control border-2 border-accent bg-accent-soft p-4">
             <p id="restore-title" className="font-bold">
               Replace this device&apos;s progress?
             </p>
@@ -150,10 +150,10 @@ export function BackupPanel() {
               first if you might want them.
             </p>
             <div className="flex flex-wrap justify-end gap-3">
-              <button type="button" autoFocus onClick={() => setPending(null)} className="min-h-11 rounded-xl border border-control-line bg-surface px-4 font-semibold hover:border-accent">
+              <button type="button" autoFocus onClick={() => setPending(null)} className="min-h-11 rounded-control border border-control-line bg-surface px-4 font-semibold hover:border-accent">
                 Cancel
               </button>
-              <button type="button" onClick={() => restore(pending)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+              <button type="button" onClick={() => restore(pending)} className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg">
                 Replace and restore
               </button>
             </div>

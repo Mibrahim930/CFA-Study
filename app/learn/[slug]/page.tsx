@@ -11,7 +11,7 @@ import { getModule, syllabus } from "@/lib/syllabus";
 async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: string; moduleId: string; losOrder: string[] }) {
   const [lessons, heldBack] = await Promise.all([getModuleLessons(topicId, moduleId, losOrder), getHeldBackLos(topicId, moduleId)]);
   const notice = heldBack.length > 0 && (
-    <p className="rounded-2xl border border-warn/40 bg-warn/8 p-5 text-sm">
+    <p className="rounded-tile border border-warn/40 bg-warn/8 p-5 text-sm">
       <strong>
         {heldBack.length} lesson{heldBack.length === 1 ? " was" : "s were"} held back by the quality checks
       </strong>{" "}
@@ -22,7 +22,7 @@ async function GeneratedLessons({ topicId, moduleId, losOrder }: { topicId: stri
   if (lessons.length === 0) {
     return (
       notice || (
-        <p className="rounded-2xl border border-dashed border-line bg-surface p-6 text-muted">
+        <p className="rounded-tile border border-dashed border-line bg-surface p-6 text-muted">
           Lessons for this module haven&apos;t been generated yet. Use the lectures, notes and checklist below in the meantime.
         </p>
       )
@@ -70,7 +70,7 @@ async function LearnContent({ params }: { params: PageProps<"/learn/[slug]">["pa
         <Link href={`/topics/${topic.id}`} className="text-sm font-semibold text-muted hover:text-accent">
           ← {topic.name}
         </Link>
-        <h1 className="text-3xl font-extrabold tracking-tight">{module.title}</h1>
+        <h1 className="display text-[2rem] sm:text-[2.5rem]">{module.title}</h1>
         <p className="text-sm text-muted">
           Module {module.order} of {topic.modules.length} · {module.los.length} learning outcome{module.los.length === 1 ? "" : "s"}
         </p>

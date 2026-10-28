@@ -1,13 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
+import { Archivo, JetBrains_Mono, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
-import { BottomNav } from "@/components/bottom-nav";
+import { Dock, Rail } from "@/components/app-nav";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
-  variable: "--font-jakarta",
+// "Edition": Archivo for headlines, controls and numbers; Source Serif 4 for anything read at length
+// (it sits with KaTeX's serif maths); JetBrains Mono for clocks.
+const archivo = Archivo({
+  variable: "--font-archivo",
   subsets: ["latin"],
+  axes: ["wdth"],
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
 });
 
 const jetbrains = JetBrains_Mono({
@@ -23,59 +32,35 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f6f7f9" },
-    { media: "(prefers-color-scheme: dark)", color: "#0b1120" },
+    { media: "(prefers-color-scheme: light)", color: "#faf8f4" },
+    { media: "(prefers-color-scheme: dark)", color: "#121318" },
   ],
 };
 
-const NAV = [
-  { href: "/", label: "Today" },
-  { href: "/syllabus", label: "Syllabus" },
-  { href: "/review", label: "Review" },
-  { href: "/mock", label: "Mock exam" },
-  { href: "/resources", label: "Free resources" },
-];
-
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${jakarta.variable} ${jetbrains.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col font-sans">
-        <a href="#content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-20 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:font-bold focus:text-accent-fg">
+    <html lang="en" className={`${archivo.variable} ${sourceSerif.variable} ${jetbrains.variable} h-full antialiased`}>
+      <body className="flex min-h-full font-sans">
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-20 focus:rounded-control focus:bg-accent focus:px-4 focus:py-2 focus:font-bold focus:text-accent-fg"
+        >
           Skip to content
         </a>
-        <header className="sticky top-0 z-10 border-b border-line bg-surface/95 backdrop-blur">
-          <nav aria-label="Main" className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 text-[0.9375rem]">
-            <Link href="/" className="flex items-center gap-2.5 font-extrabold tracking-tight">
-              <span aria-hidden="true" className="flex size-8 items-center justify-center rounded-lg bg-accent text-[0.8125rem] font-extrabold text-accent-fg">
-                L1
-              </span>
-              <span className="text-[1.0625rem]">L1 Study</span>
+        <Rail />
+        <div className="flex min-w-0 flex-1 flex-col">
+          <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-5 pt-6 pb-28 sm:px-8 sm:pt-8 sm:pb-10">
+            {children}
+          </main>
+          <footer className="border-t border-line px-5 py-5 text-center text-xs text-muted max-sm:pb-28">
+            <Link href="/backup" className="mb-2 inline-flex min-h-11 items-center font-bold text-accent hover:underline">
+              Back up your progress
             </Link>
-            <div className="flex flex-wrap gap-1 font-semibold max-sm:ml-auto">
-              {/* On phones the bottom nav covers the main sections; only Free resources stays up here. */}
-              {NAV.map((n) => (
-                <Link
-                  key={n.href}
-                  href={n.href}
-                  className={`rounded-lg px-3 py-2 text-muted hover:bg-accent-soft hover:text-accent ${n.href === "/resources" ? "" : "max-sm:hidden"}`}
-                >
-                  {n.label}
-                </Link>
-              ))}
-            </div>
-          </nav>
-        </header>
-        <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 max-sm:pb-24">
-          {children}
-        </main>
-        <BottomNav />
-        <footer className="border-t border-line px-4 py-5 text-center text-xs text-muted max-sm:pb-24">
-          <Link href="/backup" className="mb-2 inline-flex min-h-11 items-center font-semibold text-accent hover:underline">
-            Back up your progress
-          </Link>
-          <br />
-          Personal study tool. Not affiliated with or endorsed by CFA Institute. CFA® is a trademark of CFA Institute.
-        </footer>
+            <br />
+            Personal study tool. Not affiliated with or endorsed by CFA Institute. CFA® is a trademark of CFA Institute.
+          </footer>
+        </div>
+        <Dock />
       </body>
     </html>
   );

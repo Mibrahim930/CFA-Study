@@ -1,5 +1,6 @@
 import { TodayView, type TodayModule } from "@/components/today-view";
 import { getDeck } from "@/lib/content/deck";
+import type { TopicWeight } from "@/lib/progress";
 import { topicsInStudyOrder } from "@/lib/syllabus";
 
 export default async function TodayPage() {
@@ -17,5 +18,9 @@ export default async function TodayPage() {
       hasLessons: withLessons.has(m.slug),
     })),
   );
-  return <TodayView modules={modules} topics={topics.map((t) => ({ id: t.id, name: t.name }))} />;
+  const weights: TopicWeight[] = topics.map((t) => ({ id: t.id, name: t.name, weight: t.weight, moduleSlugs: t.modules.map((m) => m.slug) }));
+  // Answer key for scoring the last mock on the client (only ids that are questions).
+  const mockAnswers: Record<string, number> = {};
+  for (const [id, d] of Object.entries(deck)) if (d.answer !== undefined) mockAnswers[id] = d.answer;
+  return <TodayView modules={modules} topics={weights} mockAnswers={mockAnswers} />;
 }

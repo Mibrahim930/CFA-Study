@@ -17,7 +17,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
   const terms = showAllTerms ? primer.terms : primer.terms.slice(0, 8);
 
   return (
-    <section aria-labelledby="primer-heading" className="space-y-6 rounded-2xl border border-line bg-surface p-6 sm:p-8">
+    <section aria-labelledby="primer-heading" className="space-y-6 rounded-tile border border-line bg-surface p-6 sm:p-8">
       <div className="space-y-2">
         <p className="text-xs font-bold uppercase tracking-widest text-accent">Start here · no finance background needed</p>
         <h2 id="primer-heading" className="text-2xl font-extrabold tracking-tight">
@@ -26,7 +26,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
       </div>
 
       <RichText text={primer.overview} className="max-w-[70ch] text-[1.03125rem] leading-7" />
-      <p className="max-w-[70ch] rounded-xl bg-accent-soft p-4 text-[0.9375rem]">
+      <p className="max-w-[70ch] rounded-control bg-accent-soft p-4 text-[0.9375rem]">
         <strong>Why it matters: </strong>
         <InlineRich text={primer.whyItMatters} />
       </p>
@@ -46,7 +46,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
         <h3 className="text-lg font-bold">Key terms</h3>
         <dl className="grid gap-3 md:grid-cols-2">
           {terms.map((t) => (
-            <div key={t.id} className="space-y-1.5 rounded-xl border border-line p-4">
+            <div key={t.id} className="space-y-1.5 rounded-control border border-line p-4">
               <dt className="flex items-start justify-between gap-2 font-bold">
                 <span>{t.term}</span>
                 <BadgeChip badge={t.badge} />
@@ -75,7 +75,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
             type="button"
             disabled={enrolled === ids.length}
             onClick={() => enrol(ids, "flashcard")}
-            className="min-h-11 rounded-xl bg-accent px-4 text-sm font-bold text-accent-fg disabled:bg-success/12 disabled:text-success"
+            className="min-h-11 rounded-control bg-accent px-4 text-sm font-bold text-accent-fg disabled:bg-success/12 disabled:text-success"
           >
             {enrolled === ids.length ? `✓ All ${ids.length} in your review deck` : `Add all ${ids.length} to my review deck`}
           </button>
@@ -86,7 +86,7 @@ export function TopicPrimer({ primer, topicName }: { primer: Primer; topicName: 
               <button
                 type="button"
                 onClick={() => setFlipped((f) => ({ ...f, [c.id]: !f[c.id] }))}
-                className="flex h-full min-h-28 w-full flex-col justify-between gap-2 rounded-xl border border-line bg-surface-2 p-4 text-left text-[0.9375rem] hover:border-accent"
+                className="flex h-full min-h-28 w-full flex-col justify-between gap-2 rounded-control border border-line bg-surface-2 p-4 text-left text-[0.9375rem] hover:border-accent"
               >
                 <span>
                   <InlineRich text={flipped[c.id] ? c.back : c.front} />

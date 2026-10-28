@@ -15,8 +15,8 @@ const GROUPS = [
 export default function ResourcesPage() {
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Free resources</h1>
+      <div className="rule-b pb-3">
+        <h1 className="display text-[2rem] sm:text-[2.5rem]">Free resources</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted">
           Free practice and courses to use on their own sites alongside the app. They are a second opinion: if
           you score far higher here than on outside questions, the app is too easy. Start each time-limited trial

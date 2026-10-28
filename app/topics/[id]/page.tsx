@@ -52,7 +52,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
         <Link href="/syllabus" className="text-sm font-semibold text-muted hover:text-accent">
           ← Syllabus
         </Link>
-        <h1 className="text-3xl font-extrabold tracking-tight">{topic.name}</h1>
+        <h1 className="display text-[2rem] sm:text-[2.5rem]">{topic.name}</h1>
         <p className="text-sm text-muted">
           Exam weight {topic.weight.min}–{topic.weight.max}% · session {topic.session} · {topic.modules.length} modules · lessons ready for {ready}
         </p>
@@ -62,7 +62,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
       </div>
       {primer && <TopicPrimer primer={primer} topicName={topic.name} />}
       <h2 className="text-lg font-bold">Modules</h2>
-      <ol className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
+      <ol className="divide-y divide-line overflow-hidden rounded-tile border border-line bg-surface">
         {rows.map(({ m, lectures, heldBack, lessons }) => (
           <li key={m.id}>
             <Link href={`/learn/${m.slug}`} className="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-4 hover:bg-surface-2">
