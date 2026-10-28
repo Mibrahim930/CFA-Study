@@ -84,7 +84,7 @@ const CHECKS: Record<string, () => Check> = {
   "cfa1-029": () => ({ dataset: 2.1 / (0.1 - 0.04), engine: f.gordonValue(2.1, 0.1, 0.04) }),
   "cfa1-030": () => ({ dataset: 0.6 / (0.1 - 0.04), engine: f.justifiedForwardPE(0.6, 0.1, 0.04) }),
   "cfa1-031": () => ({ dataset: 4 / 0.08, engine: f.preferredValue(4, 0.08) }),
-  "cfa1-032": () => ({ gap: "Margin call price P0(1−IM)/(1−MM): not in the engine. Equity topic (not generated yet)." }),
+  "cfa1-032": () => ({ dataset: (40 * (1 - 0.5)) / (1 - 0.25), engine: f.marginCallPrice(40, 0.5, 0.25) }),
   "cfa1-033": () => {
     let p = 0;
     for (let t = 1; t <= 5; t++) p += 6 / 1.07 ** t;
@@ -122,8 +122,17 @@ const CHECKS: Record<string, () => Check> = {
     engine: f.correlation(xs, ys) * (f.stdev(xs) / f.stdev(ys)),
     note: "no dedicated beta() in the engine; both forms of the dataset's identity computed from engine primitives",
   }),
-  "cfa1-043": () => ({ gap: "Treynor ratio and Jensen's alpha: not in the engine. Portfolio topic (not generated yet)." }),
-  "cfa1-044": () => ({ gap: "Hedge-fund 2-and-20 fee: not in the engine. Alternatives topic (not generated yet). Dataset's version ignores the high-water mark, as it says." }),
+  "cfa1-043": () => ({
+    dataset: (0.12 - 0.03) / 1.2 + (0.12 - (0.03 + 1.2 * (0.1 - 0.03))),
+    engine: f.treynorRatio(0.12, 0.03, 1.2) + f.jensensAlpha(0.12, 0.03, 1.2, 0.1),
+    note: "Treynor and Jensen's alpha checked as a sum on one input set",
+  }),
+  "cfa1-044": () => ({
+    // Dataset: management fee on ending value, incentive on the gain net of it, no hurdle or high-water mark.
+    dataset: 0.02 * 120 + 0.2 * (120 - 0.02 * 120 - 100),
+    engine: f.hedgeFundFee({ beginValue: 100, endValue: 120 }).totalFee,
+    note: "engine defaults match the dataset's simplification; hurdle and high-water mark are optional inputs",
+  }),
 };
 
 // Quant lessons: which dataset Quant formulas appear in a lesson's formula list?

@@ -8,4 +8,5 @@ export * from "./corporate";
 export * from "./fx";
 export * from "./money-market";
 export * from "./accounting";
+export * from "./portfolio";
 export { findRoot } from "./solve";
