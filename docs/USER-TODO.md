@@ -11,14 +11,15 @@ Claude keeps this list updated. Tick items off as you go.
   4. **Mock exam** (`/mock`): a timed set, then the score by topic and an answer review.
   5. **Free resources** (`/resources`): FreeFellow, IFT, the CFA Institute Ethics Lab and others, plus trial trackers.
 - [ ] **Write down the edits you want** (look and feel, wording, features), and tell Claude.
-- [ ] **Rate a sample of the Quant lessons**: are they clear for a beginner? The plan's quality bar is that at least 80% are clear before generating the other 9 topics.
+- [ ] **Rate a sample of the lessons**: are they clear for a beginner? The plan's quality bar is at least 80% "clear". All 10 topics are generated now, so a weak sample means a prompt fix and a regeneration of that topic.
+- [ ] **Check the new mastery labels** (2026-10-28): a module is *Solid* only when it is marked complete and your latest practice scores for it average 80% or more. Tell Claude if the 80% bar feels wrong.
 
 ## 2. Accounts (Claude can't create accounts)
 - [ ] **Deploy privately so it works on your phone.** Follow `docs/DEPLOY.md`: a free Vercel account with GitHub sign-in, import the repo, set `APP_PASSWORD`. About 10 minutes.
 - [ ] Later, for syncing progress between laptop and phone, a free Supabase account. Not needed yet.
 
 ## 3. Budget
-- [ ] Claude API budget: you approved going over the $25 cap, and it is now $30 in `.env.local`. This month is at about $25.60: all 30 Quant objectives are done and re-checked. The other 9 topics cost about $55 more. Decide the cap for next month.
+- [ ] Claude API budget: October closed at about $87.54 against the $150 cap you set for the 9-topic run (`CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`). All 10 topics are generated and verified. Set the cap for November (nothing is scheduled to spend; a paid re-verify costs about $0.08 per LOS).
 
 ## Saves Claude usage (optional)
 - [ ] A "Fact-Forcing Gate" hook (from the ECC plugin) blocks Claude's first edit to every file until it restates facts, which wastes a noticeable share of your usage. To relax it for this project, start Claude with `ECC_GATEGUARD=off`, or add `pre:edit-write:gateguard-fact-force` to `ECC_DISABLED_HOOKS`. It's your setting, so Claude won't change it.
