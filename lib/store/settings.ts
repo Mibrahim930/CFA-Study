@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { persistSet } from "./persist";
 
 // Study settings: the exam date (for the countdown) and the weekly hours goal. Local-first like
 // lib/store/local.ts; the "l1:" prefix means backups include it.
@@ -39,11 +40,7 @@ function read(): Settings {
 export function saveSettings(patch: Partial<Settings>) {
   const next = { ...read(), ...patch };
   const raw = JSON.stringify(next);
-  try {
-    localStorage.setItem(KEY, raw);
-  } catch {
-    // storage unavailable: keep in memory for this tab
-  }
+  persistSet(KEY, raw); // storage unavailable: keep in memory for this tab
   cacheRaw = raw;
   cacheValue = next;
   window.dispatchEvent(new Event(CHANGE));

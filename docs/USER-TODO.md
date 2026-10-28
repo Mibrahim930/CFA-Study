@@ -14,9 +14,9 @@ Claude keeps this list updated. Tick items off as you go.
 - [ ] **Rate a sample of the lessons**: are they clear for a beginner? The plan's quality bar is at least 80% "clear". All 10 topics are generated now, so a weak sample means a prompt fix and a regeneration of that topic.
 - [ ] **Check the new mastery labels** (2026-10-28): a module is *Solid* only when it is marked complete and your latest practice scores for it average 80% or more. Tell Claude if the 80% bar feels wrong.
 
-## 2. Accounts (Claude can't create accounts)
-- [ ] **Deploy privately so it works on your phone.** Follow `docs/DEPLOY.md`: a free Vercel account with GitHub sign-in, import the repo, set `APP_PASSWORD`. About 10 minutes.
-- [ ] Later, for syncing progress between laptop and phone, a free Supabase account. Not needed yet.
+## 2. Hosting (Claude can't click in your Railway account)
+- [x] Deployed privately on Railway (2026-10-13).
+- [ ] **Turn on accounts:** add a PostgreSQL database to the Railway project and reference its `DATABASE_URL` from the app service (`docs/DEPLOY.md`, "Accounts" section, about two clicks). Then create your account on `/account` and sign in on the phone with the same email.
 
 ## 3. Budget
 - [ ] Claude API budget: October closed at about $87.54 against the $150 cap you set for the 9-topic run (`CLAUDE_MONTHLY_BUDGET_USD` in `.env.local`). All 10 topics are generated and verified. Set the cap for November (nothing is scheduled to spend; a paid re-verify costs about $0.08 per LOS).

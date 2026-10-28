@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { touchActivity } from "./activity";
+import { persistSet } from "./persist";
 
 // Practice scores per learning outcome: what the mastery labels are derived from. A score is recorded
 // each time the practice set for a lesson is finished. Local-first like lib/store/local.ts; the "l1:"
@@ -49,11 +50,7 @@ export function recordPractice(losId: string, right: number, total: number) {
     [losId]: { attempts: (prev?.attempts ?? 0) + 1, last: { right, total, at: Date.now() }, best: Math.max(prev?.best ?? 0, score) },
   };
   const raw = JSON.stringify(next);
-  try {
-    localStorage.setItem(KEY, raw);
-  } catch {
-    // storage unavailable: keep in memory for this tab
-  }
+  persistSet(KEY, raw); // storage unavailable: keep in memory for this tab
   cacheRaw = raw;
   cacheValue = next;
   window.dispatchEvent(new Event(CHANGE));

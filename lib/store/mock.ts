@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { touchActivity } from "./activity";
+import { persistSet } from "./persist";
 
 // The mock exam in progress (or its last result), saved so a reload or leaving the page doesn't lose it.
 // Local-first like lib/store/local.ts; the "l1:" prefix means backups include it.
@@ -45,12 +46,7 @@ function read(): MockSession | null {
 
 export function saveMock(next: MockSession | null) {
   const raw = next ? JSON.stringify(next) : null;
-  try {
-    if (raw) localStorage.setItem(KEY, raw);
-    else localStorage.removeItem(KEY);
-  } catch {
-    // storage unavailable: keep it in memory for this tab
-  }
+  persistSet(KEY, raw); // storage unavailable: keep it in memory for this tab
   cacheRaw = raw;
   cacheValue = next;
   window.dispatchEvent(new Event(CHANGE));

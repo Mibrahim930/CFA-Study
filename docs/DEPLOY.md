@@ -4,8 +4,20 @@ Everything is prepared. Only the account steps need you, because Claude can't si
 
 ## What you need to know first
 - **The lessons are built into the app**, so the deployed site needs **no API keys**. Never add `ANTHROPIC_API_KEY` or `YOUTUBE_API_KEY` to the host; they're only for running the content pipeline on your PC.
-- **Privacy:** the repo is private, and the site is locked behind a password you choose (`APP_PASSWORD`, enforced by `proxy.ts`). On Railway or Vercel, if `APP_PASSWORD` is missing the site shows an error instead of opening to the public.
-- **Your progress (finished modules, notes, flashcard schedule) is saved per device for now.** Laptop and phone won't share progress until the Supabase sync milestone. Until then, pick one device for flashcard reviews.
+- **Privacy:** the repo is private, and the site is locked behind a password you choose (`APP_PASSWORD`, enforced by `proxy.ts`). On Railway or Vercel, if `APP_PASSWORD` is missing the site shows an error instead of opening to the public. Accounts sit behind that same gate: the password keeps the content private, an account keeps each person's progress separate.
+- **Progress is saved per device until you add the database (next section).** With it, each person creates an account on `/account` and their progress, notes, flashcard schedule and settings follow them to any device.
+
+## Accounts: add a Postgres database on Railway (about two clicks)
+1. In the Railway project, click **+ New → Database → Add PostgreSQL**. Railway creates a `Postgres` service next to the app.
+2. Open the **app** service → **Variables** → **+ New Variable** → **Add Reference** → pick the Postgres service's `DATABASE_URL`. (Railway offers it as `${{Postgres.DATABASE_URL}}`; the private-network URL is fine and free of egress charges.) Save; the app redeploys.
+3. Open the site → **Account** (left rail, or the footer link) → **Create account**. The app creates its three tables on first use; there is nothing to run by hand.
+4. On the phone: open the site, sign in with the same email. If the phone already has progress, the app asks which copy to keep.
+
+What to know:
+- **No emails are sent**, so there is no "forgot password" link. A signed-in user can change their password on `/account`. If someone forgets theirs, reset it from the Postgres service's **Data** tab (or `psql`): delete their row in `sessions`, then set `users.password_hash` to a hash made with `npx tsx -e "import('./lib/server/auth').then(a=>a.hashPassword('newpassword').then(console.log))"` run in the repo.
+- **Signing out clears that device's copy** (the account keeps everything), so a shared laptop starts clean for the next person.
+- Sync is last-write-wins per record; if two devices change the same thing while offline, the later change wins. Normal use (one device at a time) never hits this.
+- The Postgres service is included in Railway's usage; a few users' progress is a few megabytes.
 
 ## Railway steps
 1. Go to **railway.com** and sign in (GitHub sign-in is easiest).

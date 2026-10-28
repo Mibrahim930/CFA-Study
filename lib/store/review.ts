@@ -3,6 +3,7 @@
 import { useSyncExternalStore } from "react";
 import { createEmptyCard, fsrs, Rating, type Card, type Grade } from "ts-fsrs";
 import { touchActivity } from "./activity";
+import { persistSet } from "./persist";
 
 // Spaced-repetition state (FSRS via ts-fsrs), local-first like lib/store/local.ts.
 // Items: lesson flashcards ("<losId>:f2") and missed practice questions ("<losId>:q3").
@@ -48,11 +49,7 @@ function read(): Record<string, Stored> {
 
 function write(next: Record<string, Stored>) {
   const raw = JSON.stringify(next);
-  try {
-    localStorage.setItem(KEY, raw);
-  } catch {
-    // storage unavailable: keep in memory for this tab
-  }
+  persistSet(KEY, raw); // storage unavailable: keep in memory for this tab
   cacheRaw = raw;
   cacheValue = revive(JSON.parse(raw) as Record<string, Stored>);
   window.dispatchEvent(new Event(CHANGE));

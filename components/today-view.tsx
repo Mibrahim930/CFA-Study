@@ -8,6 +8,7 @@ import { useDoneMap, useMasteryMap } from "@/lib/store/local";
 import { useMockSession } from "@/lib/store/mock";
 import { dueIds, useNow, useReviewState } from "@/lib/store/review";
 import { daysToExam, useSettings } from "@/lib/store/settings";
+import { useSyncStatus } from "@/lib/store/sync";
 import { useLastBackup } from "./backup-panel";
 import { LedgerBar, LedgerLegend } from "./ledger-bar";
 
@@ -43,8 +44,10 @@ export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModu
   const mock = useMockSession();
   const lastMock = mock?.finished ? scoreMock(mock.ids, mock.answers, mockAnswers) : null;
   const lastBackup = useLastBackup();
+  const sync = useSyncStatus();
   const backupDays = now === null || lastBackup === undefined ? undefined : daysSinceBackup(lastBackup, now);
-  const backupDue = backupDays !== undefined && (completed > 0 || Object.keys(review).length > 0) && (backupDays === null || backupDays >= 7);
+  // A signed-in account is the backup; the file nudge is for devices without one.
+  const backupDue = !sync.user && backupDays !== undefined && (completed > 0 || Object.keys(review).length > 0) && (backupDays === null || backupDays >= 7);
 
   const progress = topicProgress(topics, mastery);
   const secured = examSecured(progress);
@@ -199,6 +202,18 @@ export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModu
         </div>
 
         <aside className="min-w-0 space-y-5">
+          {sync.enabled && !sync.user && (
+            <Link href="/account" className="block space-y-1 rounded-tile border border-line bg-surface p-4 hover:border-accent">
+              <span className="caps text-accent">Sign in to keep your progress</span>
+              <span className="block text-sm text-muted">An account saves everything to the server, so your laptop and phone share one record.</span>
+            </Link>
+          )}
+          {sync.user && (
+            <p className="px-1 text-xs text-muted">
+              <span className={`mr-1.5 inline-block size-2 rounded-full align-middle ${sync.state === "error" ? "bg-warn" : "bg-success"}`} aria-hidden="true" />
+              {sync.state === "syncing" ? "Syncing" : sync.state === "error" ? "Sync paused" : "Synced"} · {sync.user.email}
+            </p>
+          )}
           {backupDue && (
             <Link href="/backup" className="block space-y-1 rounded-tile border border-warn bg-surface p-4 hover:bg-surface-2">
               <span className="caps text-warn">Back up your progress</span>
