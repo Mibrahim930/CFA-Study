@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { DoneMark, ProgressBar } from "@/components/progress";
+import { MasteryChip, ProgressBar } from "@/components/progress";
 import { ResourceCard } from "@/components/resource-card";
 import { getDeck } from "@/lib/content/deck";
 import { getHeldBackLos } from "@/lib/content/generated";
@@ -57,7 +57,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
           Exam weight {topic.weight.min}–{topic.weight.max}% · session {topic.session} · {topic.modules.length} modules · lessons ready for {ready}
         </p>
         <div className="max-w-sm pt-1">
-          <ProgressBar slugs={topic.modules.map((m) => m.slug)} />
+          <ProgressBar modules={topic.modules.map((m) => ({ slug: m.slug, losIds: m.los.map((l) => l.id) }))} />
         </div>
       </div>
       {primer && <TopicPrimer primer={primer} topicName={topic.name} />}
@@ -69,6 +69,7 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
               <span className="w-6 shrink-0 font-semibold tabular-nums text-muted">{m.order}</span>
               <span className="min-w-0 flex-[1_1_240px] font-semibold">{m.title}</span>
               <span className="flex shrink-0 flex-wrap items-center gap-2 text-xs font-semibold">
+                <MasteryChip module={{ slug: m.slug, losIds: m.los.map((l) => l.id) }} />
                 {lessons ? (
                   <span className="rounded-full bg-success/12 px-2.5 py-1 text-success">Lessons ready</span>
                 ) : heldBack ? (
@@ -82,9 +83,6 @@ async function TopicContent({ params }: { params: PageProps<"/topics/[id]">["par
                   </span>
                 )}
                 <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{m.los.length} LOS</span>
-              </span>
-              <span className="w-4 shrink-0 text-right">
-                <DoneMark slug={m.slug} />
               </span>
             </Link>
           </li>

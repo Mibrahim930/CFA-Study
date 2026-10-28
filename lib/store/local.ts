@@ -3,6 +3,7 @@
 import { useCallback, useSyncExternalStore } from "react";
 import { moduleMastery, type Mastery } from "@/lib/progress";
 import { touchActivity } from "./activity";
+import { readPractice, subscribePractice } from "./practice";
 
 // Local-first persistence for M1. The shape mirrors the planned Supabase tables
 // (plan/progress/notes) so this module can be swapped for a synced store later.
@@ -95,14 +96,32 @@ export function useDoneMap(slugs: string[]): Record<string, boolean> {
   return Object.fromEntries(slugs.map((s, i) => [s, snapshot[i] === "1"]));
 }
 
-/** Mastery step per module (0 not started, 1 learning, 3 solid) for a set of slugs; a string snapshot keeps the store stable. */
-export function useMasteryMap(slugs: string[]): Record<string, Mastery> {
+export interface ModuleRef {
+  slug: string;
+  /** The module's learning outcome ids, whose practice scores decide whether it is solid. */
+  losIds: string[];
+}
+
+function subscribeMastery(callback: () => void) {
+  const a = subscribe(callback);
+  const b = subscribePractice(callback);
+  return () => {
+    a();
+    b();
+  };
+}
+
+/** Mastery step per module (0 not started … 3 solid) for a set of modules; a string snapshot keeps the store stable. */
+export function useMasteryMap(modules: ModuleRef[]): Record<string, Mastery> {
   const snapshot = useSyncExternalStore(
-    subscribe,
-    () => slugs.map((s) => String(moduleMastery(read(s)))).join(""),
+    subscribeMastery,
+    () => {
+      const practice = readPractice();
+      return modules.map((m) => String(moduleMastery(read(m.slug), practice, m.losIds))).join("");
+    },
     () => "",
   );
-  return Object.fromEntries(slugs.map((s, i) => [s, (Number(snapshot[i] ?? "0") as Mastery) || 0]));
+  return Object.fromEntries(modules.map((m, i) => [m.slug, (Number(snapshot[i] ?? "0") as Mastery) || 0]));
 }
 
 export function newId(): string {

@@ -14,7 +14,8 @@
     "gen": "tsx content-pipeline/generate.ts",
     "verify": "tsx content-pipeline/verify.ts",
     "ingest:sources": "tsx content-pipeline/ingest-sources.ts",
-    "coverage": "tsx content-pipeline/coverage.ts"
+    "coverage": "tsx content-pipeline/coverage.ts",
+    "kb": "tsx scripts/kb.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",

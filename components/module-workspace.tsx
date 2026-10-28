@@ -4,7 +4,9 @@ import { useRef, useState } from "react";
 import type { Lecture } from "@/lib/content/videos";
 import { SOURCE_GAPS } from "@/lib/syllabus/source-gaps";
 import type { Los } from "@/lib/syllabus/types";
-import { newId, useModuleState } from "@/lib/store/local";
+import { MASTERY_LABEL, modulePractice, SOLID_THRESHOLD } from "@/lib/progress";
+import { newId, useMasteryMap, useModuleState } from "@/lib/store/local";
+import { usePractice } from "@/lib/store/practice";
 import { formatTime, parseYouTubeId } from "@/lib/youtube";
 import { YouTubePlayer, type PlayerHandle } from "./youtube-player";
 
@@ -222,6 +224,9 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
 export function ModuleChecklist({ slug, los }: { slug: string; los: Los[] }) {
   const [state, update] = useModuleState(slug);
   const losDone = new Set(state.losDone);
+  const losIds = los.map((l) => l.id);
+  const mastery = useMasteryMap([{ slug, losIds }])[slug] ?? 0;
+  const { practised, average } = modulePractice(usePractice(), losIds);
   return (
     <div className="space-y-3">
       <div className={`${card} space-y-3`}>
@@ -271,6 +276,18 @@ export function ModuleChecklist({ slug, los }: { slug: string; los: Los[] }) {
       >
         {state.done ? "✓ Module complete" : "Mark module complete"}
       </button>
+      <p className="px-1 text-xs leading-5 text-muted" aria-live="polite">
+        <strong className={mastery === 3 ? "text-accent" : "text-foreground"}>{MASTERY_LABEL[mastery]}.</strong>{" "}
+        {average === null
+          ? "Finish a practice set to record a score."
+          : `Practice average ${Math.round(average * 100)}% across ${practised} of ${los.length} outcome${los.length === 1 ? "" : "s"}.`}{" "}
+        {mastery !== 3 && (
+          <>
+            Solid needs the module marked complete and an average of {Math.round(SOLID_THRESHOLD * 100)}% or more
+            {state.done && average !== null && average < SOLID_THRESHOLD ? ": retry the weaker sets." : "."}
+          </>
+        )}
+      </p>
     </div>
   );
 }

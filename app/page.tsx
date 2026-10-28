@@ -16,6 +16,7 @@ export default async function TodayPage() {
       topicName: t.name,
       topicModules: t.modules.length,
       hasLessons: withLessons.has(m.slug),
+      losIds: m.los.map((l) => l.id),
     })),
   );
   const weights: TopicWeight[] = topics.map((t) => ({ id: t.id, name: t.name, weight: t.weight, moduleSlugs: t.modules.map((m) => m.slug) }));

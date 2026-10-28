@@ -4,7 +4,7 @@ import Link from "next/link";
 import { examSecured, MASTERY_LABEL, topicProgress, type TopicWeight } from "@/lib/progress";
 import { lastSevenDays, useActivity } from "@/lib/store/activity";
 import { daysSinceBackup } from "@/lib/store/backup";
-import { useMasteryMap } from "@/lib/store/local";
+import { useDoneMap, useMasteryMap } from "@/lib/store/local";
 import { useMockSession } from "@/lib/store/mock";
 import { dueIds, useNow, useReviewState } from "@/lib/store/review";
 import { daysToExam, useSettings } from "@/lib/store/settings";
@@ -19,17 +19,22 @@ export interface TodayModule {
   topicName: string;
   topicModules: number;
   hasLessons: boolean;
+  /** Learning outcome ids, whose practice scores decide whether the module is solid. */
+  losIds: string[];
 }
 
 const WEEKDAY = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModule[]; topics: TopicWeight[]; mockAnswers: Record<string, number> }) {
-  const mastery = useMasteryMap(modules.map((m) => m.slug));
+  const mastery = useMasteryMap(modules);
+  const done = useDoneMap(modules.map((m) => m.slug));
   const review = useReviewState();
   const now = useNow();
   const due = dueIds(review, now);
   const missedDue = due.filter((id) => review[id].kind === "missed").length;
-  const next = modules.find((m) => mastery[m.slug] !== 3 && m.hasLessons) ?? modules.find((m) => mastery[m.slug] !== 3);
+  // Next up moves on once a module is marked complete; "solid" (a score of 80%+) is tracked separately.
+  const next = modules.find((m) => !done[m.slug] && m.hasLessons) ?? modules.find((m) => !done[m.slug]);
+  const completed = modules.filter((m) => done[m.slug]).length;
   const finished = modules.filter((m) => mastery[m.slug] === 3).length;
   const settings = useSettings();
   const days = daysToExam(settings.examDate, now);
@@ -39,13 +44,13 @@ export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModu
   const lastMock = mock?.finished ? scoreMock(mock.ids, mock.answers, mockAnswers) : null;
   const lastBackup = useLastBackup();
   const backupDays = now === null || lastBackup === undefined ? undefined : daysSinceBackup(lastBackup, now);
-  const backupDue = backupDays !== undefined && (finished > 0 || Object.keys(review).length > 0) && (backupDays === null || backupDays >= 7);
+  const backupDue = backupDays !== undefined && (completed > 0 || Object.keys(review).length > 0) && (backupDays === null || backupDays >= 7);
 
   const progress = topicProgress(topics, mastery);
   const secured = examSecured(progress);
   const weakest = [...progress].filter((t) => t.mastery < 3).sort((a, b) => b.points * (1 - a.solidShare) - a.points * (1 - b.solidShare))[0];
   const minutes = Math.max(5, Math.round(due.length * 0.4 + (next ? 25 : 0) + missedDue * 2));
-  const fresh = finished === 0 && Object.keys(review).length === 0;
+  const fresh = completed === 0 && Object.keys(review).length === 0;
 
   return (
     <div className="space-y-5">
@@ -147,7 +152,7 @@ export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModu
                 href={`/learn/${next.slug}`}
                 className="mt-1 flex min-h-12 items-center justify-between rounded-control bg-accent px-4 text-base font-extrabold text-accent-fg hover:brightness-110"
               >
-                {finished === 0 ? "Start studying" : "Continue"}
+                {completed === 0 ? "Start studying" : "Continue"}
                 <svg aria-hidden="true" viewBox="0 0 20 20" className="size-5" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 10h12M11 5l5 5-5 5" />
                 </svg>
@@ -218,6 +223,7 @@ export function TodayView({ modules, topics, mockAnswers }: { modules: TodayModu
                   </Link>
                   <span className="flex h-2.5 overflow-hidden rounded-[3px] bg-mastery-0" role="img" aria-label={`${t.name}: ${MASTERY_LABEL[t.mastery]}`}>
                     <span className="bg-mastery-3" style={{ width: `${t.solidShare * 100}%` }} />
+                    <span className="bg-mastery-2" style={{ width: `${t.practisedShare * 100}%` }} />
                     <span className="bg-mastery-1" style={{ width: `${t.learningShare * 100}%` }} />
                   </span>
                   <span className={`w-[72px] text-right tabular-nums ${t.mastery ? "font-bold" : "text-xs text-muted"}`}>

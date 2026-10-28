@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { Badge, ViewLesson } from "@/lib/content/generated";
+import { recordPractice, usePractice } from "@/lib/store/practice";
 import { enrol, markMissed } from "@/lib/store/review";
 import { InlineRich } from "./rich-text";
 
@@ -18,6 +19,7 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
   const [submitted, setSubmitted] = useState(false);
   const [results, setResults] = useState<{ id: string; correct: boolean; confidence: Confidence | null }[]>([]);
   const [flipped, setFlipped] = useState<Record<string, boolean>>({});
+  const history = usePractice()[losId];
   // Opening a lesson puts its flashcards into the spaced-repetition deck.
   useEffect(() => enrol(flashcards.map((f) => `${losId}:${f.id}`), "flashcard"), [losId, flashcards]);
 
@@ -28,7 +30,10 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
     if (choice === null || !m) return;
     const correct = choice === m.answerIndex;
     if (!correct) markMissed(`${losId}:${m.id}`);
-    setResults((r) => [...r, { id: m.id, correct, confidence }]);
+    const nextResults = [...results, { id: m.id, correct, confidence }];
+    // The finished set is what the mastery labels are built from.
+    if (nextResults.length === mcqs.length) recordPractice(losId, nextResults.filter((r) => r.correct).length, mcqs.length);
+    setResults(nextResults);
     setSubmitted(true);
   };
   const next = () => {
@@ -82,6 +87,12 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                   </li>
                 )}
                 {mcqs.length - right > 0 && <li>{mcqs.length - right} missed question{mcqs.length - right === 1 ? " was" : "s were"} added to your review deck.</li>}
+                {history && (
+                  <li className="text-muted">
+                    Attempt {history.attempts} · best {Math.round(history.best * 100)}%. A module is solid once it is marked complete and its latest scores average 80% or
+                    more.
+                  </li>
+                )}
               </ul>
               <button type="button" onClick={restart} className="min-h-11 rounded-control border border-control-line bg-surface px-5 font-semibold hover:border-accent">
                 Try again

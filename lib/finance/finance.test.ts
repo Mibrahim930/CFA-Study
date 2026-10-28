@@ -180,6 +180,45 @@ describe("corporate, equity, FX, accounting", () => {
   });
 });
 
+describe("portfolio measures, margin and hedge-fund fees", () => {
+  it("Treynor, Jensen's alpha, M² and beta", () => {
+    close(f.treynorRatio(0.12, 0.03, 1.2), 0.075, 9);
+    close(f.jensensAlpha(0.12, 0.03, 1.2, 0.1), 0.006, 9);
+    close(f.mSquared(0.12, 0.03, 0.2, 0.15), 0.0975, 9);
+    close(f.beta(0.018, 0.0225), 0.8, 9);
+    expect(() => f.treynorRatio(0.1, 0.03, 0)).toThrow();
+  });
+  it("margin call price", () => {
+    // Buy at 40 on 50% initial margin, 25% maintenance: call at 40 × 0.5 / 0.75
+    close(f.marginCallPrice(40, 0.5, 0.25), 26.6667);
+    expect(() => f.marginCallPrice(40, 0, 0.25)).toThrow();
+  });
+  it("2 and 20 with the Level I defaults (management on ending value, incentive on net gain)", () => {
+    const r = f.hedgeFundFee({ beginValue: 100, endValue: 120 });
+    close(r.managementFee, 2.4, 9);
+    close(r.incentiveFee, 3.52, 9);
+    close(r.totalFee, 5.92, 9);
+    close(r.netReturn, 0.1408, 9);
+  });
+  it("fee variants: gross incentive, hard and soft hurdles, high-water mark, a loss year", () => {
+    close(f.hedgeFundFee({ beginValue: 100, endValue: 120, incentiveOn: "gross" }).totalFee, 6.4, 9);
+    close(f.hedgeFundFee({ beginValue: 100, endValue: 120, hurdleRate: 0.05 }).incentiveFee, 2.52, 9);
+    close(f.hedgeFundFee({ beginValue: 100, endValue: 120, hurdleRate: 0.05, hurdleType: "soft" }).incentiveFee, 3.52, 9);
+    close(f.hedgeFundFee({ beginValue: 100, endValue: 120, hurdleRate: 0.2 }).incentiveFee, 0, 9);
+    close(f.hedgeFundFee({ beginValue: 100, endValue: 120, highWaterMark: 125 }).totalFee, 2.4, 9);
+    const loss = f.hedgeFundFee({ beginValue: 100, endValue: 90 });
+    close(loss.incentiveFee, 0, 9);
+    close(loss.netReturn, -0.118, 9);
+  });
+  it("registry recomputes the new calcs with defaults", () => {
+    const fee = runCalc({ fn: "hedgeFundFee", args: { beginValue: 100, endValue: 120 } });
+    expect(fee.ok && fee.value).toBeCloseTo(5.92, 9);
+    const call = runCalc({ fn: "marginCallPrice", args: { purchasePrice: 40, initialMargin: 0.5, maintenanceMargin: 0.25 } });
+    expect(call.ok && call.value).toBeCloseTo(26.6667, 4);
+    expect(runCalc({ fn: "marginCallPrice", args: { purchasePrice: 40, initialMargin: 1.5, maintenanceMargin: 0.25 } }).ok).toBe(false);
+  });
+});
+
 describe("calc registry (verification gate)", () => {
   it("recomputes a bond price from a calc_spec", () => {
     const r = runCalc({ fn: "bondPrice", args: { bond: { couponRate: 0.05, years: 10 }, ytm: 0.06 } });

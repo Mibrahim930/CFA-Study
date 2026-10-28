@@ -22,7 +22,7 @@ Repo: https://github.com/Mibrahim930/CFA-Study (PRIVATE, keep it that way). Loca
    - "All rights reserved" sources (CFA docs/Handbook, CFA Research Foundation, EY/RSM, MIT problem-set PDFs) are **private grounding only**: Claude writes original wording, and a copy guard enforces it.
 5. **No AI arithmetic is trusted.** Every calculation question carries a `calc_spec` that `lib/finance/registry.ts` recomputes. The item is rejected if it's off by more than 0.5%.
 6. **Model defaults.** The content pipeline uses **`claude-sonnet-5-5`**; the user chose it on 2026-10-10 after the 1-LOS Opus pilot cost $0.41. Opus remains available per run via `--model claude-opus-5-5`. Calls use `fallbacks: "default"` with beta `server-side-fallback-2026-07-01` on non-batch calls (Sonnet 5.5 accepts only the `"default"` form). Note that fallbacks are rejected on the Batches API.
-7. Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+7. Commit messages end with the `Co-Authored-By` trailer for the Claude model that wrote them (Opus 5.5 until 2026-10-26, Fable 5.1 since), plus the `Claude-Session` link when the harness provides one.
 
 ## Cross-platform status (verified 2026-10-11)
 The project runs fully on **Windows**, macOS and Linux. GitHub Actions (`.github/workflows/ci.yml`) runs

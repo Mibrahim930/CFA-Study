@@ -18,6 +18,18 @@ const bond = z.object({
   freq: z.union([z.literal(1), z.literal(2), z.literal(4), z.literal(12)]).default(1),
 });
 
+const hedgeFund = z.object({
+  beginValue: num.positive(),
+  endValue: num.min(0),
+  managementRate: num.min(0).lt(1).default(0.02),
+  incentiveRate: num.min(0).lt(1).default(0.2),
+  managementBase: z.enum(["end", "begin"]).default("end"),
+  incentiveOn: z.enum(["net", "gross"]).default("net"),
+  hurdleRate: num.min(0).lt(1).default(0),
+  hurdleType: z.enum(["hard", "soft"]).default("hard"),
+  highWaterMark: num.positive().optional(),
+});
+
 function entry<S extends z.ZodType>(description: string, args: S, run: (a: z.infer<S>) => number) {
   return { description, args, run };
 }
@@ -65,6 +77,13 @@ export const CALCS = {
   forwardFx: entry("Covered-interest-parity forward (price/base)", z.object({ spot: num.positive(), iPrice: rate, iBase: rate, T: num.positive().default(1), compounding: z.enum(["simple", "annual"]).default("simple") }), (a) => f.forwardFx(a.spot, a.iPrice, a.iBase, a.T, a.compounding)),
   priceFromDiscountRate: entry("Money-market price from discount rate", z.object({ fv: num.positive(), discountRate: rate, days: num.positive(), year: z.union([z.literal(360), z.literal(365)]).default(360) }), (a) => f.priceFromDiscountRate(a.fv, a.discountRate, a.days, a.year)),
   straightLineDepreciation: entry("Straight-line depreciation per year", z.object({ cost: num.positive(), salvage: num.min(0), life: num.positive() }), (a) => f.straightLineDepreciation(a.cost, a.salvage, a.life)),
+  beta: entry("Beta = cov(asset, market) / var(market)", z.object({ covarianceWithMarket: num, marketVariance: num.positive() }), (a) => f.beta(a.covarianceWithMarket, a.marketVariance)),
+  treynorRatio: entry("Treynor ratio (Rp − Rf) / β", z.object({ rp: num, rf: num, beta: num }), (a) => f.treynorRatio(a.rp, a.rf, a.beta)),
+  jensensAlpha: entry("Jensen's alpha Rp − [Rf + β(Rm − Rf)]", z.object({ rp: num, rf: num, beta: num, rm: num }), (a) => f.jensensAlpha(a.rp, a.rf, a.beta, a.rm)),
+  mSquared: entry("M² = (Rp − Rf)·σm/σp + Rf", z.object({ rp: num, rf: num, sdp: num.positive(), sdm: num.min(0) }), (a) => f.mSquared(a.rp, a.rf, a.sdp, a.sdm)),
+  marginCallPrice: entry("Margin-call price for a long position: P0(1 − IM)/(1 − MM)", z.object({ purchasePrice: num.positive(), initialMargin: num.gt(0).max(1), maintenanceMargin: num.min(0).lt(1) }), (a) => f.marginCallPrice(a.purchasePrice, a.initialMargin, a.maintenanceMargin)),
+  hedgeFundFee: entry("Hedge-fund total fee (2 and 20 by default: management on ending value, incentive on the net gain)", hedgeFund, (a) => f.hedgeFundFee(a).totalFee),
+  hedgeFundNetReturn: entry("Investor's return after hedge-fund fees (same inputs as hedgeFundFee)", hedgeFund, (a) => f.hedgeFundFee(a).netReturn),
 } as const;
 
 export type CalcName = keyof typeof CALCS;
