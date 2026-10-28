@@ -47,6 +47,7 @@ You will receive one learning objective (LOS) and numbered source passages from 
 ## Calculation items (kind = "calc")
 - Every calc item and its options must be computable with one function from the catalog below. Put the function name in calc_spec.fn and its arguments in calc_spec.args_json as a JSON object (rates as decimals: 5% → 0.05).
 - options[].value: each option's number in the function's raw units: decimals for rates and returns (0.0525, displayed as "5.25%"), currency amounts as plain numbers. Distractor values come from the mistake they represent.
+- Every distractor must differ from the correct value by at least 2%. If a realistic mistake lands closer than that (a 365-day year or an add-on yield on a 90-day money-market price, say), pick a different mistake, such as forgetting to prorate the rate or adding the discount instead of subtracting it.
 - options[].text must display exactly that value (rounded as the stem instructs).
 - TVM functions (pv, fv, pmt) follow the BA II Plus sign convention: money paid out is negative. The engine's sign is ignored for these three; give magnitudes in option text.
 - If no catalog function fits, make the question a concept item instead of inventing a calc_spec.

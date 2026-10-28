@@ -1,4 +1,5 @@
 import { matches, runCalc } from "../../lib/finance/registry";
+import { maskFixedTerms, TERM_SENTINEL } from "./fixed-terms";
 import type { CalcSpecOut, Flashcard, Generation, Lesson, Mcq } from "./schema";
 
 /**
@@ -6,13 +7,15 @@ import type { CalcSpecOut, Flashcard, Generation, Lesson, Mcq } from "./schema";
  * Model-based gates (blind solve, grounding critic) live in verify.ts.
  */
 
-const BANNED_OPTION = /\b(all|none|both|neither) of (the )?(above|these|them)\b|\bboth [abc] and [abc]\b/i;
+// Anchored to the start: "All of the above" as an option is banned; "…buying all of them would be costly" mid-sentence is fine.
+const BANNED_OPTION = /^\W*(?:(?:all|none|both|neither) of (?:the )?(?:above|these|them)|both [abc] and [abc])\b/i;
 
 /** TVM functions return BA II Plus signed values; students see magnitudes. */
 const SIGN_CONVENTION_FNS = new Set(["pv", "fv", "pmt"]);
 
-// Comparison signs stay: "Mean < median" and "Mean > median" are different options.
-const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9.%<>=≤≥≠-]+/g, " ").trim();
+// Comparison, arithmetic and currency signs stay: "Mean < median" vs "Mean > median", "+5%" vs "−5%",
+// "× (1 + r)" vs "÷ (1 + r)" and "$1.25" vs "€1.25" are different options. Spacing and other punctuation are not.
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9.%<>=≤≥≠+\-−×÷*/^()$€£¥]+/g, "");
 
 export function parseCalcSpec(spec: CalcSpecOut): { fn: string; args: unknown } | { error: string } {
   try {
@@ -165,9 +168,13 @@ export interface CopyRef {
   maxRun: number;
 }
 
-/** Flags verbatim runs of ≥ maxRun words shared with any reference text. */
+/**
+ * Flags verbatim runs of ≥ maxRun words shared with any reference text. Fixed terminology (Standard
+ * titles, defined accounting phrases; see fixed-terms.ts) is masked first, so a run is broken at a term
+ * but the words around it still count.
+ */
 export function copyGuard(text: string, refs: CopyRef[]): string[] {
-  const w = words(text);
+  const w = words(maskFixedTerms(text));
   const issues: string[] = [];
   for (const ref of refs) {
     const rw = words(ref.text);
@@ -198,8 +205,11 @@ export function ifrs18Gate(text: string): string[] {
 
 // ---------- text extraction ----------
 
-export const mcqText = (m: Mcq) => [m.stem, ...m.options.flatMap((o) => [o.text, o.explanation])].join("\n");
-export const flashcardText = (f: Flashcard) => `${f.front}\n${f.back}`;
+// Fields are joined with a break word so a run of words that spans two fields (the end of a stem and the
+// start of an option, a card's front and back) is not read as copying.
+const BREAK = `\n${TERM_SENTINEL}\n`;
+export const mcqText = (m: Mcq) => [m.stem, ...m.options.flatMap((o) => [o.text, o.explanation])].join(BREAK);
+export const flashcardText = (f: Flashcard) => `${f.front}${BREAK}${f.back}`;
 export const lessonText = (l: Lesson) =>
   [
     l.title,
@@ -210,7 +220,7 @@ export const lessonText = (l: Lesson) =>
     l.worked_example.answer,
     ...l.formulas.flatMap((f) => [f.name, f.where]),
     ...l.exam_traps,
-  ].join("\n");
+  ].join(BREAK);
 
 /**
  * The blind solver sometimes returns a choice_index that contradicts its own reasoning
@@ -231,13 +241,32 @@ export function solverReasoningUnusable(reasoning: string): boolean {
 }
 
 /**
- * Does a blind-solve disagreement stand? It's dismissed when the solver's own reasoning names the key,
- * or when its reasoning is unusable and the finance engine has verified the keyed value.
+ * For calc items: the option whose value the solver's reasoning arrives at ("…= 1.2%" with options 2.0%,
+ * 1.2%, 1.6% → 1). Reads the numbers from the end; null when the last option-matching number fits more
+ * than one option, or none does.
+ */
+export function solverStatedOption(m: Mcq, reasoning: string): number | null {
+  if (m.options.some((o) => o.value === null)) return null;
+  const nums = numbersIn(reasoning);
+  for (let k = nums.length - 1; k >= 0; k--) {
+    const hits = m.options.flatMap((o, i) => (textShowsValue(String(nums[k]), o.value as number) ? [i] : []));
+    if (hits.length) return hits.length === 1 ? hits[0] : null;
+  }
+  return null;
+}
+
+/**
+ * Does a blind-solve disagreement stand? It's dismissed when the solver's own reasoning names the key
+ * (by letter, or by computing the keyed value), or when its reasoning is unusable and the finance engine
+ * has verified the keyed value.
  */
 export function solverDisputeStands(m: Mcq, choiceIndex: number | undefined, reasoning: string): { stands: boolean; note?: string } {
   if (choiceIndex === m.answer_index) return { stands: false };
   if (solverNamedChoice(reasoning) === m.answer_index) {
     return { stands: false, note: "solver's index contradicted its own reasoning, which names the key" };
+  }
+  if (solverNamedChoice(reasoning) === null && solverStatedOption(m, reasoning) === m.answer_index) {
+    return { stands: false, note: "solver's index contradicted its own reasoning, which computes the keyed value" };
   }
   if (solverReasoningUnusable(reasoning) && calcGateMcq(m).status === "pass") {
     return { stands: false, note: "solver gave no usable reasoning; the finance engine verified the key" };

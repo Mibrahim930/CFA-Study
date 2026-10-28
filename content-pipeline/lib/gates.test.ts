@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { calcGateMcq, calcGateWorkedExample, copyGuard, ifrs18Gate, lintMcq, numbersIn, solverDisputeStands, solverNamedChoice, textShowsValue } from "./gates";
+import { maskFixedTerms, TERM_SENTINEL } from "./fixed-terms";
+import { calcGateMcq, calcGateWorkedExample, copyGuard, ifrs18Gate, lintMcq, numbersIn, solverDisputeStands, solverNamedChoice, solverStatedOption, textShowsValue } from "./gates";
 import type { Mcq } from "./schema";
 
 const ids = new Set(["os:a", "os:b"]);
@@ -125,6 +126,22 @@ describe("copy guard", () => {
     const text = "The present value of fixed-income instruments depends on the discount rate.";
     expect(copyGuard(text, [{ label: "LOS", text: los, maxRun: 10 }])).toEqual([]);
   });
+
+  it("ignores fixed terminology but still catches the prose around it", () => {
+    const ref = "Under Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate, members must not misrepresent their status.";
+    const title = "The rule is Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate, and it is tested every year.";
+    expect(copyGuard(title, [{ label: "handbook", text: ref, maxRun: 8 }])).toEqual([]);
+    const prose = "Inventories are carried at the lower of cost and net realizable value under IFRS, and a reversal is recognised when the reasons for the write-down no longer exist, which is the rule.";
+    const source = "Inventories are carried at the lower of cost and net realizable value under IFRS, and a reversal is recognised when the reasons for the write-down no longer exist.";
+    expect(copyGuard(prose, [{ label: "EY", text: source, maxRun: 8 }])).toHaveLength(1);
+  });
+
+  it("masks the longest term and keeps the sentinel as one word", () => {
+    const masked = maskFixedTerms("the Code of Ethics and Standards of Professional Conduct says");
+    expect(masked.split(TERM_SENTINEL)).toHaveLength(2);
+    expect(masked).not.toMatch(/professional conduct/i);
+    expect(maskFixedTerms("a 2% management fee and a 20% incentive fee")).toContain(TERM_SENTINEL);
+  });
 });
 
 describe("IFRS 18 gate", () => {
@@ -148,6 +165,25 @@ describe("lint distinctness keeps comparison signs", () => {
     });
     expect(lintMcq(item, ids)).not.toContain("options are not distinct");
   });
+
+  it("treats signs, operators and currency symbols as distinguishing", () => {
+    const opts = (texts: string[]) => texts.map((text) => ({ text, value: null, explanation: "x" }));
+    for (const texts of [
+      ["+5.00%", "−5.00%", "+5.26%"],
+      ["97.00 × (1 + r)^(2/3)", "97.00 ÷ (1 + r)^(2/3)", "97.00 × (1 + r)^(1/3)"],
+      ["$1.25", "€1.25", "£1.25"],
+      ["Base NPV + value of options − cost of options", "Base NPV − value of options + cost of options", "Base NPV + value of options + cost of options"],
+    ]) {
+      expect(lintMcq(pvItem({ kind: "concept", calc_spec: null, options: opts(texts) }), ids)).not.toContain("options are not distinct");
+    }
+    expect(lintMcq(pvItem({ kind: "concept", calc_spec: null, options: opts(["5.00%", "5.00 %", "5.26%"]) }), ids)).toContain("options are not distinct");
+  });
+
+  it("bans 'all of the above' only as the whole option", () => {
+    const opts = (texts: string[]) => texts.map((text) => ({ text, value: null, explanation: "x" }));
+    expect(lintMcq(pvItem({ kind: "concept", calc_spec: null, options: opts(["None of the above", "A", "B"]) }), ids).join()).toMatch(/banned/);
+    expect(lintMcq(pvItem({ kind: "concept", calc_spec: null, options: opts(["Buying all of them would be costly, so a sample is used", "A", "B"]) }), ids).join()).not.toMatch(/banned/);
+  });
 });
 
 describe("blind-solve consistency", () => {
@@ -166,6 +202,23 @@ describe("blind-solve consistency", () => {
     expect(solverDisputeStands(pvItem(), 1, "Placeholder").stands).toBe(false);
     const concept = pvItem({ kind: "concept", calc_spec: null, options: pvItem().options.map((o) => ({ ...o, value: null })) });
     expect(solverDisputeStands(concept, 1, "Placeholder").stands).toBe(true);
+  });
+
+  it("dismisses a dispute when the reasoning computes the keyed value", () => {
+    const m = pvItem({
+      options: [
+        { text: "2.0%", value: 0.02, explanation: "x" },
+        { text: "1.2%", value: 0.012, explanation: "x" },
+        { text: "1.6%", value: 0.016, explanation: "x" },
+      ],
+      answer_index: 1,
+    });
+    const reasoning = "Fund A nets 6.4% and Fund B −4%, so the portfolio return is 0.5 × 6.4 + 0.5 × (−4) = 1.2%.";
+    expect(solverStatedOption(m, reasoning)).toBe(1);
+    expect(solverDisputeStands(m, 2, reasoning).stands).toBe(false);
+    // A final number matching a distractor keeps the dispute; concept items (no values) are never read this way.
+    expect(solverDisputeStands(m, 2, "The return is 1.6%.").stands).toBe(true);
+    expect(solverStatedOption(pvItem({ options: m.options.map((o) => ({ ...o, value: null })) }), reasoning)).toBeNull();
   });
 
   it("keeps a real disagreement", () => {

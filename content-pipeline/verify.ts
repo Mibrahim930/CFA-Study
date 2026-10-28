@@ -115,6 +115,23 @@ export function mcqGates(m: Mcq, allowed: Set<string>, refs: CopyRef[]): Record<
   };
 }
 
+export function lessonGates(l: Lesson, allowed: Set<string>, refs: CopyRef[]): Record<string, Gate> {
+  return {
+    citations: gate(citationIssues(l.cited_chunk_ids, allowed)),
+    calc: gate(calcGateWorkedExample(l.worked_example).issues),
+    copy: gate(copyGuard(lessonText(l), refs)),
+    ifrs18: gate(ifrs18Gate(lessonText(l))),
+  };
+}
+
+export function flashcardGates(f: Flashcard, allowed: Set<string>, refs: CopyRef[]): Record<string, Gate> {
+  return {
+    citations: gate(citationIssues(f.cited_chunk_ids, allowed)),
+    copy: gate(copyGuard(flashcardText(f), refs)),
+    ifrs18: gate(ifrs18Gate(flashcardText(f))),
+  };
+}
+
 const formatQuestion = (id: string, m: Mcq) =>
   `<question id="${id}">\n${m.stem}\n${m.options.map((o, i) => `${ABC[i]}. ${o.text}`).join("\n")}\n</question>`;
 
@@ -230,28 +247,9 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
 
   const { lesson: lessonItem, mcqs: mcqItems, flashcards: cardItems } = file.content;
   const workedCalc = calcGateWorkedExample(lessonItem.worked_example);
-  const lesson: Checked<Lesson> = {
-    id: "lesson",
-    item: lessonItem,
-    badge: "pending",
-    gates: {
-      citations: gate(citationIssues(lessonItem.cited_chunk_ids, allowed)),
-      calc: gate(workedCalc.issues),
-      copy: gate(copyGuard(lessonText(lessonItem), refs)),
-      ifrs18: gate(ifrs18Gate(lessonText(lessonItem))),
-    },
-  };
+  const lesson: Checked<Lesson> = { id: "lesson", item: lessonItem, badge: "pending", gates: lessonGates(lessonItem, allowed, refs) };
   const mcqs: Checked<Mcq>[] = mcqItems.map((m, i) => ({ id: `q${i + 1}`, item: m, badge: "pending", gates: mcqGates(m, allowed, refs) }));
-  const cards: Checked<Flashcard>[] = cardItems.map((f, i) => ({
-    id: `f${i + 1}`,
-    item: f,
-    badge: "pending",
-    gates: {
-      citations: gate(citationIssues(f.cited_chunk_ids, allowed)),
-      copy: gate(copyGuard(flashcardText(f), refs)),
-      ifrs18: gate(ifrs18Gate(flashcardText(f))),
-    },
-  }));
+  const cards: Checked<Flashcard>[] = cardItems.map((f, i) => ({ id: `f${i + 1}`, item: f, badge: "pending", gates: flashcardGates(f, allowed, refs) }));
 
   const grounded = new Set<string>();
   if (!opts.skipModelGates) {
