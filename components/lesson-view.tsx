@@ -18,7 +18,7 @@ export function BadgeChip({ badge }: { badge: Badge }) {
   );
 }
 
-const card = "rounded-2xl border border-line bg-surface p-6 sm:p-8";
+const card = "rounded-tile border border-line bg-surface p-6 sm:p-8";
 
 export function LessonView({ lesson }: { lesson: ViewLesson }) {
   return (
@@ -45,7 +45,7 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
             <h3 className="text-lg font-bold">Formulas</h3>
             <ul className="grid gap-3">
               {lesson.formulas.map((f) => (
-                <li key={f.name} className="rounded-xl bg-surface-2 p-4">
+                <li key={f.name} className="rounded-control bg-surface-2 p-4">
                   <p className="text-sm font-semibold">{f.name}</p>
                   <div className="overflow-x-auto py-1" dangerouslySetInnerHTML={{ __html: katex.renderToString(f.latex, { displayMode: true, throwOnError: false }) }} />
                   <p className="text-sm text-muted">
@@ -57,7 +57,7 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
           </section>
         )}
 
-        <section className="space-y-3 rounded-xl border border-line p-5">
+        <section className="space-y-3 rounded-control border border-line p-5">
           <h3 className="font-bold">Worked example</h3>
           <RichText text={lesson.workedExample.problem} className="text-muted" />
           <ol className="list-decimal space-y-1.5 pl-5">
@@ -73,7 +73,7 @@ export function LessonView({ lesson }: { lesson: ViewLesson }) {
         </section>
 
         {lesson.examTraps.length > 0 && (
-          <section className="space-y-2 rounded-xl bg-warn/8 p-5">
+          <section className="space-y-2 rounded-control bg-warn/8 p-5">
             <h3 className="font-bold">Exam traps</h3>
             <ul className="list-disc space-y-1.5 pl-5">
               {lesson.examTraps.map((t) => (

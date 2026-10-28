@@ -10,8 +10,8 @@ export default async function MockPage() {
   const topicNames = Object.fromEntries(syllabus.topics.map((t) => [t.id, t.name]));
   return (
     <div className="space-y-6">
-      <div className="space-y-1">
-        <h1 className="text-3xl font-extrabold tracking-tight">Mock exam</h1>
+      <div className="rule-b space-y-1 pb-3">
+        <h1 className="display text-[2rem] sm:text-[2.5rem]">Mock exam</h1>
         <p className="text-muted">Timed practice from verified questions, at the real exam&apos;s pace. Wrong answers go to your review deck.</p>
       </div>
       <MockExam deck={deck} topicNames={topicNames} />

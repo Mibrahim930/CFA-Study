@@ -72,7 +72,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
   if (!session || qs.length === 0) {
     const topics = new Set(pool.map((q) => q.topicId));
     return (
-      <div className="mx-auto max-w-2xl space-y-5 rounded-2xl border border-line bg-surface p-8">
+      <div className="mx-auto max-w-2xl space-y-5 rounded-tile border border-line bg-surface p-8">
         <h2 className="text-xl font-extrabold">Start a timed practice exam</h2>
         <p className="text-muted">
           {pool.length} verified questions available from {topics.size} topic{topics.size === 1 ? "" : "s"}. Pace is the real exam&apos;s: 1.5 minutes
@@ -85,7 +85,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
               type="button"
               disabled={pool.length === 0}
               onClick={() => startRandom(Math.min(n, pool.length))}
-              className="min-h-11 rounded-xl border border-control-line px-5 font-bold hover:border-accent disabled:opacity-50"
+              className="min-h-11 rounded-control border border-control-line px-5 font-bold hover:border-accent disabled:opacity-50"
             >
               {Math.min(n, pool.length)} questions · {Math.round((Math.min(n, pool.length) * SECONDS_PER_QUESTION) / 60)} min
             </button>
@@ -116,43 +116,57 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
     const shown = qs.map((q, n) => ({ q, n })).filter(({ q }) => matches[filter](q));
     return (
       <div className="mx-auto max-w-3xl space-y-6">
-        <div className="space-y-2 rounded-2xl bg-accent p-7 text-accent-fg">
-          <p className="text-xs font-bold uppercase tracking-widest opacity-80">Result</p>
-          <p className="text-4xl font-extrabold tabular-nums">
-            {right}/{qs.length} · {Math.round((right / qs.length) * 100)}%
-          </p>
-          <p className="opacity-90">
-            Time used {fmt(Math.min(elapsed, limit))} of {fmt(limit)}
+        <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-rule pb-4">
+          <div>
+            <p className="display text-[5.25rem]" style={{ fontStretch: "90%" }}>
+              {Math.round((right / qs.length) * 100)}
+              <span className="text-[2.25rem] font-bold tracking-normal">%</span>
+            </p>
+            <p className="caps mt-0.5 text-muted">
+              {right} of {qs.length} correct
+            </p>
+          </div>
+          <p className="max-w-xs text-[0.8125rem] text-muted sm:text-right">
+            Time used <strong className="text-foreground">{fmt(Math.min(elapsed, limit))}</strong> of {fmt(limit)}
             {elapsed >= limit ? " (time ran out)" : ""}. Missed questions were added to your review deck.
           </p>
         </div>
-        <ul className="space-y-2">
-          {Object.entries(byTopic).map(([t, s]) => (
-            <li key={t} className="flex justify-between rounded-xl border border-line bg-surface px-4 py-3">
-              <span>{topicNames[t] ?? t}</span>
-              <span className="font-bold tabular-nums">
-                {s.right}/{s.total}
-              </span>
-            </li>
-          ))}
+        <ul aria-label="Score by topic">
+          {Object.entries(byTopic)
+            .sort((a, b) => a[1].right / a[1].total - b[1].right / b[1].total)
+            .map(([t, s]) => {
+              const share = s.right / s.total;
+              const tone = share >= 0.7 ? "bg-success" : share >= 0.5 ? "bg-warn" : "bg-danger";
+              return (
+                <li key={t} className="grid min-h-11 grid-cols-[minmax(0,1fr)_72px_48px] items-center gap-3 border-b border-line text-[0.9375rem] last:border-b-0">
+                  <span className="truncate font-bold">{topicNames[t] ?? t}</span>
+                  <span className="flex h-2.5 overflow-hidden rounded-[3px] bg-surface-3" role="img" aria-label={`${s.right} of ${s.total}`}>
+                    <span className={tone} style={{ width: `${share * 100}%` }} />
+                  </span>
+                  <span className="text-right font-extrabold tabular-nums">
+                    {s.right}/{s.total}
+                  </span>
+                </li>
+              );
+            })}
         </ul>
 
         <div className="flex flex-wrap gap-3">
           {missed.length > 0 && (
-            <button type="button" onClick={() => start(missed)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+            <button type="button" onClick={() => start(missed)} className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg">
               Retry the {missed.length} you missed
             </button>
           )}
-          <button type="button" onClick={() => saveMock(null)} className="min-h-11 rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
+          <button type="button" onClick={() => saveMock(null)} className="min-h-11 rounded-control border border-control-line px-5 font-semibold hover:border-accent">
             New exam
           </button>
-          <Link href="/review" className="inline-flex min-h-11 items-center rounded-xl border border-control-line px-5 font-semibold hover:border-accent">
+          <Link href="/review" className="inline-flex min-h-11 items-center rounded-control border border-control-line px-5 font-semibold hover:border-accent">
             Review missed as flashcards
           </Link>
         </div>
 
         <section aria-labelledby="answers-heading" className="space-y-3">
-          <h2 id="answers-heading" className="text-lg font-bold">
+          <h2 id="answers-heading" className="caps text-muted">
             Your answers
           </h2>
           <div role="group" aria-label="Show questions" className="flex flex-wrap gap-2 text-sm">
@@ -162,20 +176,20 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 type="button"
                 aria-pressed={filter === f}
                 onClick={() => setFilter(f)}
-                className={`min-h-11 rounded-lg px-3.5 font-semibold ${filter === f ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+                className={`caps min-h-9 rounded-full border-[1.5px] px-3.5 ${filter === f ? "border-rule bg-rule text-background" : "border-rule bg-transparent hover:bg-surface-2"}`}
               >
                 {labels[f]} <span className="tabular-nums opacity-80">{qs.filter(matches[f]).length}</span>
               </button>
             ))}
           </div>
           {shown.length === 0 ? (
-            <p className="rounded-xl bg-surface-2 p-4 text-muted">No {labels[filter].toLowerCase()} questions in this exam.</p>
+            <p className="rounded-control bg-surface-2 p-4 text-muted">No {labels[filter].toLowerCase()} questions in this exam.</p>
           ) : (
             <ol className="space-y-3">
               {shown.map(({ q, n }) => {
                 const ok = answers[q.id] === q.answer;
                 return (
-                  <li key={q.id} className={`space-y-2 rounded-xl border p-4 ${ok ? "border-success/40" : "border-danger/40"}`}>
+                  <li key={q.id} className={`space-y-2 rounded-control border p-4 ${ok ? "border-success/40" : "border-danger/40"}`}>
                     <p className="text-sm">
                       <span className="mr-1 font-bold">{n + 1}.</span>
                       <InlineRich text={q.front} />
@@ -202,7 +216,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
   const flagged = qs.filter((x) => flags[x.id]).length;
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-line bg-surface">
+    <div className="overflow-hidden rounded-tile border border-line bg-surface">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-5 py-3">
         <span className="font-bold">
           Question {i + 1} of {qs.length}
@@ -232,14 +246,14 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 key={k}
                 type="button"
                 onClick={() => updateMock((s) => ({ ...s, answers: { ...s.answers, [q.id]: k } }))}
-                className={`block min-h-13 w-full rounded-xl px-4 py-3 text-left ${answers[q.id] === k ? "border-2 border-accent bg-accent-soft" : "border border-control-line hover:border-accent"}`}
+                className={`block min-h-13 w-full rounded-control px-4 py-3 text-left ${answers[q.id] === k ? "border-2 border-accent bg-accent-soft" : "border border-control-line hover:border-accent"}`}
               >
                 <InlineRich text={o} />
               </button>
             ))}
           </div>
           {confirming ? (
-            <div role="alertdialog" aria-labelledby="submit-title" aria-describedby="submit-detail" className="space-y-3 rounded-xl border-2 border-accent bg-accent-soft p-4">
+            <div role="alertdialog" aria-labelledby="submit-title" aria-describedby="submit-detail" className="space-y-3 rounded-control border-2 border-accent bg-accent-soft p-4">
               <p id="submit-title" className="font-bold">
                 Submit the exam?
               </p>
@@ -248,7 +262,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                 {flagged > 0 && ` and ${flagged} ${flagged === 1 ? "is" : "are"} flagged for review`}. You can&apos;t change answers after you submit.
               </p>
               <div className="flex flex-wrap justify-end gap-3">
-                <button type="button" autoFocus onClick={() => setConfirming(false)} className="min-h-11 rounded-xl border border-control-line bg-surface px-4 font-semibold hover:border-accent">
+                <button type="button" autoFocus onClick={() => setConfirming(false)} className="min-h-11 rounded-control border border-control-line bg-surface px-4 font-semibold hover:border-accent">
                   Keep working
                 </button>
                 <button
@@ -257,7 +271,7 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
                     setConfirming(false);
                     finish(session, byId, nowSeconds());
                   }}
-                  className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg"
+                  className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg"
                 >
                   Submit exam
                 </button>
@@ -265,15 +279,15 @@ export function MockExam({ deck, topicNames }: { deck: Record<string, DeckItem>;
             </div>
           ) : (
             <div className="flex justify-between gap-3">
-              <button type="button" disabled={i === 0} onClick={() => go(i - 1)} className="min-h-11 rounded-xl border border-control-line px-4 font-semibold disabled:opacity-40">
+              <button type="button" disabled={i === 0} onClick={() => go(i - 1)} className="min-h-11 rounded-control border border-control-line px-4 font-semibold disabled:opacity-40">
                 ← Previous
               </button>
               {i < qs.length - 1 ? (
-                <button type="button" onClick={() => go(i + 1)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                <button type="button" onClick={() => go(i + 1)} className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg">
                   Next →
                 </button>
               ) : (
-                <button type="button" onClick={() => setConfirming(true)} className="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-fg">
+                <button type="button" onClick={() => setConfirming(true)} className="min-h-11 rounded-control bg-accent px-5 font-bold text-accent-fg">
                   Submit exam…
                 </button>
               )}

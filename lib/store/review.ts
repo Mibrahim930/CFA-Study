@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { createEmptyCard, fsrs, Rating, type Card, type Grade } from "ts-fsrs";
+import { touchActivity } from "./activity";
 
 // Spaced-repetition state (FSRS via ts-fsrs), local-first like lib/store/local.ts.
 // Items: lesson flashcards ("<losId>:f2") and missed practice questions ("<losId>:q3").
@@ -84,6 +85,7 @@ export function enrol(ids: string[], kind: ReviewKind) {
 
 /** A wrong answer: track the question as a card that's due now (or reset it if already tracked). */
 export function markMissed(id: string) {
+  touchActivity();
   const cur = read();
   const now = new Date();
   const prev = cur[id];
@@ -95,6 +97,7 @@ export function rate(id: string, grade: Grade) {
   const cur = read();
   const item = cur[id];
   if (!item) return;
+  touchActivity();
   write({ ...cur, [id]: { ...item, card: scheduler.next(item.card, new Date(), grade).card } });
 }
 

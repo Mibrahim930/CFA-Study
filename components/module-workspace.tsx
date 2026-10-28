@@ -9,8 +9,8 @@ import { formatTime, parseYouTubeId } from "@/lib/youtube";
 import { YouTubePlayer, type PlayerHandle } from "./youtube-player";
 
 const RATES = [1, 1.25, 1.5, 1.75, 2];
-const card = "rounded-2xl border border-line bg-surface p-5";
-const input = "w-full rounded-xl border border-line bg-surface px-4 py-2.5 text-[0.9375rem] placeholder:text-muted/80";
+const card = "rounded-tile border border-line bg-surface p-5";
+const input = "w-full rounded-control border border-line bg-surface px-4 py-2.5 text-[0.9375rem] placeholder:text-muted/80";
 
 /** Watch-along area: lecture player, lecture list, your own videos and timestamped notes. */
 export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: Los[]; lectures?: Lecture[] }) {
@@ -99,13 +99,13 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
             </div>
           </>
         ) : (
-          <div className="flex aspect-video w-full items-center justify-center rounded-xl border border-dashed border-line p-6 text-center text-muted">
+          <div className="flex aspect-video w-full items-center justify-center rounded-control border border-dashed border-line p-6 text-center text-muted">
             No lecture is mapped to this module yet. Paste a YouTube link below to add one.
           </div>
         )}
 
         {lectures.length > 0 && (
-          <ol aria-label="Lectures for this module" className="max-h-80 divide-y divide-line overflow-y-auto rounded-xl border border-line">
+          <ol aria-label="Lectures for this module" className="max-h-80 divide-y divide-line overflow-y-auto rounded-control border border-line">
             {lectures.map((l, i) => (
               <li key={l.videoId}>
                 <button
@@ -153,7 +153,7 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
               YouTube video link
             </label>
             <input id={`${slug}-video-url`} value={url} onChange={(e) => setUrl(e.target.value)} placeholder="Paste a YouTube video link" className={input} />
-            <button className="min-h-11 shrink-0 rounded-xl bg-accent px-4 font-bold text-accent-fg">Add</button>
+            <button className="min-h-11 shrink-0 rounded-control bg-accent px-4 font-bold text-accent-fg">Add</button>
           </form>
           {urlError && <p className="mt-2 text-danger">{urlError}</p>}
         </details>
@@ -183,13 +183,13 @@ export function ModuleWorkspace({ slug, lectures = [] }: { slug: string; los?: L
               <input type="checkbox" checked={stamp} onChange={(e) => setStamp(e.target.checked)} className="size-4 accent-[var(--accent)]" />
               Attach video timestamp
             </label>
-            <button className="min-h-11 rounded-xl bg-accent px-4 font-bold text-accent-fg">Save note</button>
+            <button className="min-h-11 rounded-control bg-accent px-4 font-bold text-accent-fg">Save note</button>
           </div>
         </form>
         {state.notes.length > 0 && (
           <ul className="space-y-2.5">
             {[...state.notes].reverse().map((n) => (
-              <li key={n.id} className="group rounded-xl bg-surface-2 p-3.5 text-sm">
+              <li key={n.id} className="group rounded-control bg-surface-2 p-3.5 text-sm">
                 <div className="mb-1 flex items-center justify-between gap-2 text-xs text-muted">
                   {n.videoId && n.t !== undefined ? (
                     <button type="button" onClick={() => jumpTo(n.videoId!, n.t!)} className="font-mono font-semibold text-accent hover:underline">
@@ -267,7 +267,7 @@ export function ModuleChecklist({ slug, los }: { slug: string; los: Los[] }) {
         type="button"
         aria-pressed={state.done}
         onClick={() => update((s) => ({ ...s, done: !s.done }))}
-        className={`min-h-11 w-full rounded-xl px-4 font-bold ${state.done ? "bg-success text-success-fg" : "border border-control-line bg-surface hover:border-accent"}`}
+        className={`min-h-11 w-full rounded-control px-4 font-bold ${state.done ? "bg-success text-success-fg" : "border border-control-line bg-surface hover:border-accent"}`}
       >
         {state.done ? "✓ Module complete" : "Mark module complete"}
       </button>

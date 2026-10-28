@@ -54,17 +54,18 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
       {mcqs.length > 0 && (
         <section aria-label="Practice questions" className="space-y-4">
           <div className="flex items-baseline justify-between gap-2">
-            <h3 className="text-lg font-bold">Practice</h3>
-            <span className="text-sm text-muted tabular-nums">
-              {finished ? `${right}/${mcqs.length} correct` : `Question ${i + 1} of ${mcqs.length}`}
+            <h3 className="caps text-muted">Practice</h3>
+            <span className="display text-[1.75rem] tabular-nums">
+              {finished ? right : i + 1}
+              <span className="text-sm font-bold tracking-normal text-muted">/{mcqs.length}{finished ? " correct" : ""}</span>
             </span>
           </div>
-          <div className="h-1.5 overflow-hidden rounded-full bg-surface-3" aria-hidden="true">
-            <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${(results.length / mcqs.length) * 100}%` }} />
+          <div className="h-1 overflow-hidden rounded-[2px] bg-surface-3" aria-hidden="true">
+            <div className="h-full bg-accent transition-[width] duration-300" style={{ width: `${(results.length / mcqs.length) * 100}%` }} />
           </div>
 
           {finished ? (
-            <div className="space-y-4 rounded-xl bg-surface-2 p-5">
+            <div className="space-y-4 rounded-control bg-surface-2 p-5">
               <p className="text-2xl font-extrabold tabular-nums">
                 {right} of {mcqs.length} correct
               </p>
@@ -82,22 +83,22 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                 )}
                 {mcqs.length - right > 0 && <li>{mcqs.length - right} missed question{mcqs.length - right === 1 ? " was" : "s were"} added to your review deck.</li>}
               </ul>
-              <button type="button" onClick={restart} className="min-h-11 rounded-xl border border-control-line bg-surface px-5 font-semibold hover:border-accent">
+              <button type="button" onClick={restart} className="min-h-11 rounded-control border border-control-line bg-surface px-5 font-semibold hover:border-accent">
                 Try again
               </button>
             </div>
           ) : (
             <div className="space-y-4">
               <div className="flex items-start justify-between gap-3">
-                <p className="text-[1.03125rem] leading-7">
+                <p className="font-serif text-[1.25rem] leading-[1.4]">
                   <InlineRich text={m.stem} />
                 </p>
-                <span className="shrink-0 pt-1 text-xs text-muted">
+                <span className={`caps shrink-0 pt-1.5 ${m.badge === "model_only" ? "text-warn" : m.badge === "verified" ? "text-info" : "text-success"}`}>
                   {m.difficulty} · {BADGE_TEXT[m.badge]}
                 </span>
               </div>
               <div
-                className="space-y-2.5"
+                className="rule-t"
                 role="radiogroup"
                 aria-label="Answer options"
                 // Arrow keys move between options, as in a native radio group.
@@ -115,13 +116,14 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                   const isKey = k === m.answerIndex;
                   const state = !submitted
                     ? choice === k
-                      ? "border-2 border-accent bg-accent-soft"
-                      : "border border-control-line hover:border-accent"
+                      ? "bg-accent-soft"
+                      : "hover:bg-surface-2"
                     : isKey
-                      ? "border-2 border-success bg-success/10"
+                      ? "bg-success/10"
                       : k === choice
-                        ? "border-2 border-danger bg-danger/10"
-                        : "border border-line opacity-60";
+                        ? "bg-danger/10"
+                        : "opacity-60";
+                  const letter = !submitted ? (choice === k ? "text-accent" : "") : isKey ? "text-success" : k === choice ? "text-danger" : "text-muted";
                   return (
                     <button
                       key={k}
@@ -131,10 +133,11 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
                       tabIndex={choice === k || (choice === null && k === 0) ? 0 : -1}
                       disabled={submitted}
                       onClick={() => setChoice(k)}
-                      className={`flex min-h-13 w-full items-start gap-3 rounded-xl px-4 py-3 text-left ${state}`}
+                      className={`grid min-h-15 w-full grid-cols-[44px_1fr] items-center gap-3 border-b border-line px-2 py-3 text-left ${state}`}
                     >
-                      <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-surface-2 text-sm font-bold">{LETTERS[k]}</span>
-                      <span className="flex-1">
+                      <span className={`display text-[1.75rem] ${letter}`} aria-hidden="true">{LETTERS[k]}</span>
+                      <span className="sr-only">Option {LETTERS[k]}: </span>
+                      <span className="flex-1 text-[1.0625rem] font-medium">
                         <InlineRich text={o.text} />
                         {submitted && (isKey || k === choice) && (
                           <span className="mt-1.5 block text-sm text-muted">
@@ -151,26 +154,26 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
               {!submitted ? (
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="flex flex-wrap items-center gap-2 text-sm" role="group" aria-label="How sure are you?">
-                    <span className="font-semibold text-muted">How sure?</span>
+                    <span className="caps text-muted">How sure?</span>
                     {CONFIDENCE.map((c) => (
                       <button
                         key={c}
                         type="button"
                         aria-pressed={confidence === c}
                         onClick={() => setConfidence(c)}
-                        className={`min-h-11 rounded-lg px-3.5 font-semibold ${confidence === c ? "bg-accent text-accent-fg" : "bg-surface-2 hover:bg-surface-3"}`}
+                        className={`min-h-11 rounded-full border-[1.5px] px-4 font-extrabold ${confidence === c ? "border-accent bg-accent text-accent-fg" : "border-rule bg-transparent hover:bg-surface-2"}`}
                       >
                         {c}
                       </button>
                     ))}
                   </div>
-                  <button type="button" disabled={choice === null} onClick={submit} className="min-h-11 rounded-xl bg-accent px-6 font-bold text-accent-fg disabled:opacity-40">
+                  <button type="button" disabled={choice === null} onClick={submit} className="min-h-11 rounded-control bg-accent px-6 font-bold text-accent-fg disabled:opacity-40">
                     Check answer
                   </button>
                 </div>
               ) : (
                 <div className="flex justify-end">
-                  <button type="button" onClick={next} className="min-h-11 rounded-xl bg-accent px-6 font-bold text-accent-fg">
+                  <button type="button" onClick={next} className="min-h-11 rounded-control bg-accent px-6 font-bold text-accent-fg">
                     {i + 1 < mcqs.length ? "Next question →" : "See summary"}
                   </button>
                 </div>
@@ -182,14 +185,14 @@ export function PracticeSet({ losId, mcqs, flashcards }: Pick<ViewLesson, "losId
 
       {flashcards.length > 0 && (
         <section className="space-y-3">
-          <h3 className="text-lg font-bold">Flashcards</h3>
+          <h3 className="caps text-muted">Flashcards</h3>
           <ul className="grid gap-3 sm:grid-cols-2">
             {flashcards.map((c) => (
               <li key={c.id}>
                 <button
                   type="button"
                   onClick={() => setFlipped((f) => ({ ...f, [c.id]: !f[c.id] }))}
-                  className="flex h-full min-h-24 w-full flex-col justify-between gap-2 rounded-xl border border-line bg-surface-2 p-4 text-left text-sm hover:border-accent"
+                  className="flex h-full min-h-24 w-full flex-col justify-between gap-2 rounded-control border border-line bg-surface-2 p-4 text-left text-sm hover:border-accent"
                 >
                   <span>
                     <InlineRich text={flipped[c.id] ? c.back : c.front} />

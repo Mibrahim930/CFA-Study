@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { touchActivity } from "./activity";
 
 // The mock exam in progress (or its last result), saved so a reload or leaving the page doesn't lose it.
 // Local-first like lib/store/local.ts; the "l1:" prefix means backups include it.
@@ -56,6 +57,7 @@ export function saveMock(next: MockSession | null) {
 }
 
 export function updateMock(fn: (s: MockSession) => MockSession) {
+  touchActivity();
   const s = read();
   if (s) saveMock(fn(s));
 }
