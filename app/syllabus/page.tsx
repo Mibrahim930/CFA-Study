@@ -35,7 +35,7 @@ export default function SyllabusPage() {
                 </span>
               </span>
               <span className="col-start-2 sm:col-start-3">
-                <ProgressBar slugs={t.modules.map((m) => m.slug)} />
+                <ProgressBar modules={t.modules.map((m) => ({ slug: m.slug, losIds: m.los.map((l) => l.id) }))} />
               </span>
             </Link>
           </li>
