@@ -4,7 +4,7 @@
   "moduleId": "ethics-03",
   "moduleTitle": "Guidance for Standard I: Professionalism",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:18:15.705Z",
+  "verifiedAt": "2026-10-28T03:06:41.484Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -235,7 +235,7 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -259,11 +259,13 @@
             "solver chose A (high): Under Standard I(A), members must comply with the stricter of applicable law and the Code and Standards. Here the stem says the second country's law applies and is less strict, and the home country has no securities regulation, so the Code and Standards are stricter and must be followed."
           ]
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -623,7 +625,7 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -637,11 +639,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -776,7 +776,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0376332,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:35.579Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 167,
+      "outputTokens": 98,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001431,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:41.483Z",
+      "purpose": "grounding",
+      "losId": "ethics-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9194,
+      "outputTokens": 206,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.020617200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0873702
+  "costUsd": 0.1094184
 }

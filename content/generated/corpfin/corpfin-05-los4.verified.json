@@ -4,7 +4,7 @@
   "moduleId": "corpfin-05",
   "moduleTitle": "Capital Investments and Capital Allocation",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T17:33:31.930Z",
+  "verifiedAt": "2026-10-28T03:00:07.626Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -214,11 +214,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -553,11 +551,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -759,7 +759,7 @@
           "damodaran-valn2ed-ch28:3:2"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -773,11 +773,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -878,7 +876,33 @@
       "cacheReadTokens": 540,
       "costUsd": 0.002364,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:02.854Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 120,
+      "outputTokens": 81,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001167,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:07.625Z",
+      "purpose": "grounding",
+      "losId": "corpfin-05-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11287,
+      "outputTokens": 537,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0281132,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.043022200000000003
+  "costUsd": 0.0723024
 }

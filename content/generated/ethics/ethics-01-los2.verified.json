@@ -4,7 +4,7 @@
   "moduleId": "ethics-01",
   "moduleTitle": "Ethics and Trust in the Investment Profession",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:16:20.409Z",
+  "verifiedAt": "2026-10-28T03:05:46.253Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -583,7 +583,7 @@
           "cfa-sop-handbook-12:19:16"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -601,11 +601,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -759,7 +761,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0359112,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:43.437Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 136,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001599,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:46.252Z",
+      "purpose": "grounding",
+      "losId": "ethics-01-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9135,
+      "outputTokens": 157,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0200092,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0417942
+  "costUsd": 0.0634024
 }

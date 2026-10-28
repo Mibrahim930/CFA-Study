@@ -4,7 +4,7 @@
   "moduleId": "ethics-08",
   "moduleTitle": "Guidance for Standard VI: Conflicts of Interest",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:21:53.682Z",
+  "verifiedAt": "2026-10-28T03:07:50.844Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -415,7 +415,7 @@
           "cfa-sop-handbook-12:193:229"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -433,17 +433,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -799,7 +801,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0370452,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:07:48.743Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-08-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 192,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001961,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:07:50.843Z",
+      "purpose": "grounding",
+      "losId": "ethics-08-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9715,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0208792,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0443442
+  "costUsd": 0.0671844
 }

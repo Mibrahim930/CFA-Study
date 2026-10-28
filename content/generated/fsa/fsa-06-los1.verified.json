@@ -4,7 +4,7 @@
   "moduleId": "fsa-06",
   "moduleTitle": "Analysis of Inventories",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:52:04.652Z",
+  "verifiedAt": "2026-10-28T02:59:27.260Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -224,11 +224,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -553,7 +551,7 @@
           "flatworld-business-accounting:420:368"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -571,11 +569,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -707,7 +707,7 @@
           "flatworld-business-accounting:420:368"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -721,11 +721,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -846,7 +844,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0337212,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:19.029Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 135,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001667,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:27.259Z",
+      "purpose": "grounding",
+      "losId": "fsa-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12878,
+      "outputTokens": 556,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0314852,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0413562
+  "costUsd": 0.0745084
 }

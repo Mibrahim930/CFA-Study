@@ -4,7 +4,7 @@
   "moduleId": "ethics-01",
   "moduleTitle": "Ethics and Trust in the Investment Profession",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:17:24.751Z",
+  "verifiedAt": "2026-10-28T03:06:11.560Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -231,7 +231,7 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -249,11 +249,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -344,7 +346,7 @@
           "cfa-sop-handbook-12:19:16"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -362,17 +364,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -463,7 +467,7 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -481,17 +485,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -622,7 +628,7 @@
           "cfa-ethical-framework:1:0"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -636,11 +642,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -791,7 +795,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0316052,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:07.456Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-01-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 378,
+      "outputTokens": 228,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003153,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:11.560Z",
+      "purpose": "grounding",
+      "losId": "ethics-01-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9018,
+      "outputTokens": 345,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0216552,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0361542
+  "costUsd": 0.0609624
 }

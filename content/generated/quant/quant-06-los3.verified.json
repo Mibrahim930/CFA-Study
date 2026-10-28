@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T12:43:55.252Z",
+  "verifiedAt": "2026-10-28T02:58:28.552Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -379,7 +379,7 @@
         "calc_spec": null,
         "cited_chunk_ids": []
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -412,6 +412,10 @@
           "issues": [
             "solver's index contradicted its own reasoning, which names the key (requalified offline 2026-10-13). Stored: solver chose B again: E(R) = 0.6*12% + 0.4*(-4%) = 7.2% - 1.6% = 5.6%, which is option C (index 2). (after repair)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -479,6 +483,10 @@
           "issues": [
             "solver gave no usable reasoning; the finance engine verified the key (requalified offline 2026-10-13). Stored: solver chose A again: Placeholder (after repair)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -641,11 +649,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-13); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -817,7 +827,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0379732,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:25.034Z",
+      "purpose": "blind-solve",
+      "losId": "quant-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 121,
+      "outputTokens": 319,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003549,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:28.551Z",
+      "purpose": "grounding",
+      "losId": "quant-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10550,
+      "outputTokens": 450,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0257692,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0846808
+  "costUsd": 0.113999
 }

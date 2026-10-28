@@ -4,7 +4,7 @@
   "moduleId": "portfolio-06",
   "moduleTitle": "Introduction to Risk Management",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T21:59:27.224Z",
+  "verifiedAt": "2026-10-28T03:05:07.537Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -254,17 +254,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: dropped an invented chunk id from the citations"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -764,7 +766,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0352752,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:04.772Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 134,
+      "outputTokens": 106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001445,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:07.536Z",
+      "purpose": "grounding",
+      "losId": "portfolio-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8849,
+      "outputTokens": 254,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0204072,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0414602
+  "costUsd": 0.0633124
 }

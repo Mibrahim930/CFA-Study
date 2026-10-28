@@ -4,7 +4,7 @@
   "moduleId": "econ-07",
   "moduleTitle": "Capital Flows and the FX Market",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T22:41:32.825Z",
+  "verifiedAt": "2026-10-28T03:05:26.332Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -460,7 +460,7 @@
           "ecb-wp1415-capital-controls:21:30"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -478,17 +478,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -755,7 +757,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0367312,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:24.175Z",
+      "purpose": "blind-solve",
+      "losId": "econ-07-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 121,
+      "outputTokens": 772,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.008079,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:26.331Z",
+      "purpose": "grounding",
+      "losId": "econ-07-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9191,
+      "outputTokens": 152,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0200712,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0424882
+  "costUsd": 0.07063839999999999
 }

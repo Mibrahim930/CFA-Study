@@ -4,7 +4,7 @@
   "moduleId": "derivatives-02",
   "moduleTitle": "Forward Commitment and Contingent Claim Features and Instruments",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:22:52.201Z",
+  "verifiedAt": "2026-10-28T03:02:21.288Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -215,17 +215,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -735,7 +733,7 @@
           "richmondfed-money-market-ch16:21:21"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -749,17 +747,15 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -851,7 +847,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0347112,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:02:21.287Z",
+      "purpose": "grounding",
+      "losId": "derivatives-02-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13521,
+      "outputTokens": 515,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0323612,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0426642
+  "costUsd": 0.07502539999999999
 }

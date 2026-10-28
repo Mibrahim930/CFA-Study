@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-03",
   "moduleTitle": "Fixed-Income Issuance and Trading",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:39:47.513Z",
+  "verifiedAt": "2026-10-28T03:00:59.932Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -422,11 +422,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -779,7 +781,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0429012,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:57.166Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 140,
+      "outputTokens": 97,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001367,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:59.932Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10712,
+      "outputTokens": 216,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.023753200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0492522
+  "costUsd": 0.0743724
 }

@@ -4,7 +4,7 @@
   "moduleId": "alternatives-05",
   "moduleTitle": "Natural Resources",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:59:58.399Z",
+  "verifiedAt": "2026-10-28T03:03:43.940Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -667,7 +667,7 @@
           "cfa-rf-alt-primer:69:82"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -685,17 +685,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -856,7 +858,33 @@
       "cacheReadTokens": 0,
       "costUsd": 0.00606,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:41.878Z",
+      "purpose": "blind-solve",
+      "losId": "alternatives-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 141,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001559,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:43.939Z",
+      "purpose": "grounding",
+      "losId": "alternatives-05-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8894,
+      "outputTokens": 170,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0196572,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0533902
+  "costUsd": 0.0746064
 }

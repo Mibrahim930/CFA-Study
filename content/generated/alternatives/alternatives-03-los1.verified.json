@@ -4,7 +4,7 @@
   "moduleId": "alternatives-03",
   "moduleTitle": "Investments in Private Capital: Equity and Debt",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:57:37.388Z",
+  "verifiedAt": "2026-10-28T03:03:20.082Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -248,7 +248,7 @@
           "cfa-rf-alt-primer:88:105"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -266,17 +266,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -810,7 +812,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.036575199999999995,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:16.897Z",
+      "purpose": "blind-solve",
+      "losId": "alternatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 121,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001479,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:20.081Z",
+      "purpose": "grounding",
+      "losId": "alternatives-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9269,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0201372,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.044416199999999996
+  "costUsd": 0.06603239999999999
 }

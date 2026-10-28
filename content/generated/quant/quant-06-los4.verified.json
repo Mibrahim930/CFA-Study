@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T12:44:20.194Z",
+  "verifiedAt": "2026-10-28T02:58:31.218Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -368,7 +368,7 @@
           "os:principles-data-science:m00024:2.5"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -401,6 +401,10 @@
           "issues": [
             "solver's index contradicted its own reasoning, which names the key (requalified offline 2026-10-13). Stored: solver chose B again: P(flag) = 0.02*0.90 + 0.98*0.10 = 0.018 + 0.098 = 0.116. Posterior = 0.018/0.116 = 15.5%. Check: 0.018/0.116 = 0.15517, so 15.5%, which is option C.  Correcting: the answer is C. (after repair)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -813,7 +817,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0385212,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:31.217Z",
+      "purpose": "grounding",
+      "losId": "quant-06-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9117,
+      "outputTokens": 155,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0199532,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0859328
+  "costUsd": 0.10588600000000001
 }

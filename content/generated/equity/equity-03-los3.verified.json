@@ -4,7 +4,7 @@
   "moduleId": "equity-03",
   "moduleTitle": "Equity Issuance and Trading",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T18:19:11.585Z",
+  "verifiedAt": "2026-10-28T03:00:18.567Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -569,17 +569,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -815,7 +817,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0365312,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:12.571Z",
+      "purpose": "blind-solve",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 86,
+      "outputTokens": 92,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001209,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:18.567Z",
+      "purpose": "grounding",
+      "losId": "equity-03-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10247,
+      "outputTokens": 185,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0225132,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.09674719999999999
+  "costUsd": 0.12046939999999999
 }

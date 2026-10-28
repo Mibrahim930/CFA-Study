@@ -4,7 +4,7 @@
   "moduleId": "ethics-04",
   "moduleTitle": "Guidance for Standard II: Integrity of Capital Markets",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:19:19.066Z",
+  "verifiedAt": "2026-10-28T03:06:56.299Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -200,17 +200,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -244,7 +242,7 @@
           "cfa-sop-handbook-12:76:86"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -262,17 +260,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -768,7 +768,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0288712,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:52.129Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 148,
+      "outputTokens": 103,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001443,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:56.299Z",
+      "purpose": "grounding",
+      "losId": "ethics-04-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11774,
+      "outputTokens": 410,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0278172,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0356442
+  "costUsd": 0.0649044
 }

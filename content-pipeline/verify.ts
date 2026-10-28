@@ -2,6 +2,7 @@
  * Verify generated content and badge every item (milestone M2).
  *   npx tsx content-pipeline/verify.ts --los quant-04-los1
  *   npx tsx content-pipeline/verify.ts --topic quant [--skip-model-gates]
+ *   npx tsx content-pipeline/verify.ts --topic quant --pending   (paid gates only, for items requalify freed offline)
  * Reads content/generated/<topic>/<losId>.json and writes <losId>.verified.json beside it.
  *
  * Gates, in order: lint → calc engine → copy guard → IFRS 18 → blind solve (one repair, then quarantine)
@@ -238,6 +239,88 @@ function applyGrounding(c: Checked<unknown>, v: Grounding["verdicts"][number] | 
   return v.verdict === "supported" && !v.error_found;
 }
 
+/**
+ * The paid gates. Blind solve (one repair round) on `solve`, then the grounding critic plus the second-opinion
+ * confirm on every passing item in `lesson`/`mcqs`/`cards`. Returns the ids the critic found supported.
+ */
+async function modelGates(
+  v: Verifier,
+  items: { solve: Checked<Mcq>[]; lesson: Checked<Lesson> | null; mcqs: Checked<Mcq>[]; cards: Checked<Flashcard>[] },
+  allowed: Set<string>,
+  refs: CopyRef[],
+): Promise<Set<string>> {
+  const grounded = new Set<string>();
+  // Blind solve, one repair round, then quarantine.
+  const solvable = items.solve.filter(allPass);
+  const disputes: { checked: Checked<Mcq>; solver: string }[] = [];
+  if (solvable.length) {
+    const answers = await v.blindSolve(solvable);
+    for (const c of solvable) {
+      const a = answers.get(c.id);
+      const solver = a ? `chose ${ABC[a.choice_index] ?? a.choice_index} (${a.confidence}): ${a.reasoning}` : "gave no answer";
+      const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
+      const agree = !dispute.stands;
+      if (dispute.note) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note}. Solver ${solver}`] };
+      c.gates.blind_solve = gate(agree ? [] : [`solver ${solver}`]);
+      if (!agree) disputes.push({ checked: c, solver });
+    }
+  }
+  if (disputes.length) {
+    const fixes = await v.repair(disputes);
+    const retry: Checked<Mcq>[] = [];
+    for (const { checked } of disputes) {
+      const fixed = fixes.get(checked.id);
+      if (!fixed) continue;
+      checked.item = fixed;
+      checked.repaired = true;
+      const firstSolve = checked.gates.blind_solve;
+      checked.gates = mcqGates(fixed, allowed, refs);
+      checked.gates.blind_solve_first = { pass: true, issues: firstSolve.issues };
+      if (allPass(checked)) retry.push(checked);
+    }
+    if (retry.length) {
+      const answers = await v.blindSolve(retry);
+      for (const c of retry) {
+        const a = answers.get(c.id);
+        const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
+        const agree = !dispute.stands;
+        if (dispute.note && a) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note} (after repair). Solver chose ${ABC[a.choice_index] ?? a.choice_index}: ${a.reasoning}`] };
+        c.gates.blind_solve = gate(agree ? [] : [`solver ${a ? `chose ${ABC[a.choice_index] ?? a.choice_index} again: ${a.reasoning}` : "gave no answer"} (after repair)`]);
+      }
+    }
+  }
+
+  const lesson = items.lesson && allPass(items.lesson) ? items.lesson : null;
+  const verdicts = await v.ground(lesson, items.mcqs.filter(allPass), items.cards.filter(allPass));
+
+  // Second opinion: a flagged error only quarantines an item if an independent check confirms it.
+  const all = [...(items.lesson ? [items.lesson] : []), ...items.mcqs, ...items.cards] as Checked<unknown>[];
+  const flagged = all.filter((c) => allPass(c) && (verdicts.get(c.id)?.error_found || verdicts.get(c.id)?.verdict === "contradicted"));
+  if (flagged.length) {
+    const confirmed = await v.confirm(flagged.map((c) => ({ c, claim: verdicts.get(c.id)!.note })));
+    for (const c of flagged) {
+      const verdict = verdicts.get(c.id)!;
+      const second = confirmed.get(c.id);
+      if (second && !second.real_error) {
+        verdicts.set(c.id, { ...verdict, error_found: false, verdict: verdict.verdict === "contradicted" ? "partially_supported" : verdict.verdict });
+        c.gates.critic_review = { pass: true, issues: [`flag overturned on second review: ${second.explanation}`] };
+      } else if (second) {
+        c.gates.critic_review = { pass: true, issues: [`flag confirmed: ${second.explanation}`] };
+      }
+    }
+  }
+  for (const c of all) {
+    if (allPass(c) && applyGrounding(c, verdicts.get(c.id))) grounded.add(c.id);
+  }
+  return grounded;
+}
+
+const badgeOf = (c: Checked<unknown>, grounded: Set<string>, calcVerified: boolean): Badge => {
+  if (!allPass(c)) return "quarantined";
+  if (grounded.has(c.id)) return "grounded_verified";
+  return calcVerified ? "verified" : "model_only";
+};
+
 export async function verifyOne(file: GeneratedFile, opts: { model: string; skipModelGates: boolean }): Promise<VerifiedFile> {
   const ctx = findLos(file.losId);
   const allowed = new Set(file.retrieved.map((r) => r.id));
@@ -251,77 +334,8 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
   const mcqs: Checked<Mcq>[] = mcqItems.map((m, i) => ({ id: `q${i + 1}`, item: m, badge: "pending", gates: mcqGates(m, allowed, refs) }));
   const cards: Checked<Flashcard>[] = cardItems.map((f, i) => ({ id: `f${i + 1}`, item: f, badge: "pending", gates: flashcardGates(f, allowed, refs) }));
 
-  const grounded = new Set<string>();
-  if (!opts.skipModelGates) {
-    // Blind solve, one repair round, then quarantine.
-    const solvable = mcqs.filter(allPass);
-    const disputes: { checked: Checked<Mcq>; solver: string }[] = [];
-    if (solvable.length) {
-      const answers = await v.blindSolve(solvable);
-      for (const c of solvable) {
-        const a = answers.get(c.id);
-        const solver = a ? `chose ${ABC[a.choice_index] ?? a.choice_index} (${a.confidence}): ${a.reasoning}` : "gave no answer";
-        const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
-        const agree = !dispute.stands;
-        if (dispute.note) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note}. Solver ${solver}`] };
-        c.gates.blind_solve = gate(agree ? [] : [`solver ${solver}`]);
-        if (!agree) disputes.push({ checked: c, solver });
-      }
-    }
-    if (disputes.length) {
-      const fixes = await v.repair(disputes);
-      const retry: Checked<Mcq>[] = [];
-      for (const { checked } of disputes) {
-        const fixed = fixes.get(checked.id);
-        if (!fixed) continue;
-        checked.item = fixed;
-        checked.repaired = true;
-        const firstSolve = checked.gates.blind_solve;
-        checked.gates = mcqGates(fixed, allowed, refs);
-        checked.gates.blind_solve_first = { pass: true, issues: firstSolve.issues };
-        if (allPass(checked)) retry.push(checked);
-      }
-      if (retry.length) {
-        const answers = await v.blindSolve(retry);
-        for (const c of retry) {
-          const a = answers.get(c.id);
-          const dispute = a ? solverDisputeStands(c.item, a.choice_index, a.reasoning) : { stands: true };
-          const agree = !dispute.stands;
-          if (dispute.note && a) c.gates.blind_solve_note = { pass: true, issues: [`${dispute.note} (after repair). Solver chose ${ABC[a.choice_index] ?? a.choice_index}: ${a.reasoning}`] };
-          c.gates.blind_solve = gate(agree ? [] : [`solver ${a ? `chose ${ABC[a.choice_index] ?? a.choice_index} again: ${a.reasoning}` : "gave no answer"} (after repair)`]);
-        }
-      }
-    }
-
-    const verdicts = await v.ground(allPass(lesson) ? lesson : null, mcqs.filter(allPass), cards.filter(allPass));
-
-    // Second opinion: a flagged error only quarantines an item if an independent check confirms it.
-    const all = [lesson, ...mcqs, ...cards] as Checked<unknown>[];
-    const flagged = all.filter((c) => allPass(c) && (verdicts.get(c.id)?.error_found || verdicts.get(c.id)?.verdict === "contradicted"));
-    if (flagged.length) {
-      const confirmed = await v.confirm(flagged.map((c) => ({ c, claim: verdicts.get(c.id)!.note })));
-      for (const c of flagged) {
-        const verdict = verdicts.get(c.id)!;
-        const second = confirmed.get(c.id);
-        if (second && !second.real_error) {
-          verdicts.set(c.id, { ...verdict, error_found: false, verdict: verdict.verdict === "contradicted" ? "partially_supported" : verdict.verdict });
-          c.gates.critic_review = { pass: true, issues: [`flag overturned on second review: ${second.explanation}`] };
-        } else if (second) {
-          c.gates.critic_review = { pass: true, issues: [`flag confirmed: ${second.explanation}`] };
-        }
-      }
-    }
-    for (const c of all) {
-      if (allPass(c) && applyGrounding(c, verdicts.get(c.id))) grounded.add(c.id);
-    }
-  }
-
-  const badge = (c: Checked<unknown>, calcVerified: boolean): Badge => {
-    if (!allPass(c)) return "quarantined";
-    if (opts.skipModelGates) return "pending";
-    if (grounded.has(c.id)) return "grounded_verified";
-    return calcVerified ? "verified" : "model_only";
-  };
+  const grounded = opts.skipModelGates ? new Set<string>() : await modelGates(v, { solve: mcqs, lesson, mcqs, cards }, allowed, refs);
+  const badge = (c: Checked<unknown>, calcVerified: boolean): Badge => (opts.skipModelGates && allPass(c) ? "pending" : badgeOf(c, grounded, calcVerified));
   lesson.badge = badge(lesson, workedCalc.status === "pass");
   for (const c of mcqs) c.badge = badge(c, calcGateMcq(c.item).status === "pass");
   for (const c of cards) c.badge = badge(c, false);
@@ -342,6 +356,44 @@ export async function verifyOne(file: GeneratedFile, opts: { model: string; skip
     usage: v.usage,
     costUsd: v.usage.reduce((s, r) => s + r.costUsd, 0),
   };
+}
+
+/**
+ * Paid model gates for items a .verified.json still holds unchecked: items freed offline by requalify
+ * (`model_gates_pending`) or that never reached the critic. MCQs without a blind solve get one (plus a
+ * repair round); then every such item is graded by the grounding critic. Items that pass all gates are
+ * badged like a full verify; a confirmed error quarantines the item again. Nothing else in the file changes.
+ */
+export async function verifyPending(file: GeneratedFile, out: VerifiedFile, model: string): Promise<{ pending: number; cost: number }> {
+  const all = [out.lesson, ...out.mcqs, ...out.flashcards] as Checked<unknown>[];
+  const isPending = (c: Checked<unknown>) => c.badge !== "quarantined" && (!c.gates.grounding || Boolean(c.gates.model_gates_pending));
+  const pending = all.filter(isPending);
+  if (!pending.length) return { pending: 0, cost: 0 };
+
+  const ctx = findLos(file.losId);
+  const allowed = new Set(out.retrieved.map((r) => r.id));
+  const chunks = chunksById([...allowed]);
+  const refs = copyRefs(file, chunks);
+  const v = new Verifier(file, ctx, chunks, model);
+  const mcqs = out.mcqs.filter(isPending);
+  const grounded = await modelGates(
+    v,
+    { solve: mcqs.filter((c) => !c.gates.blind_solve), lesson: isPending(out.lesson) ? out.lesson : null, mcqs, cards: out.flashcards.filter(isPending) },
+    allowed,
+    refs,
+  );
+  for (const c of pending) {
+    delete c.gates.model_gates_pending;
+    const calcVerified =
+      c === out.lesson ? calcGateWorkedExample(out.lesson.item.worked_example).status === "pass" : "stem" in (c.item as object) ? calcGateMcq(c.item as Mcq).status === "pass" : false;
+    c.badge = badgeOf(c, grounded, calcVerified);
+  }
+  const cost = v.usage.reduce((s, r) => s + r.costUsd, 0);
+  out.usage.push(...v.usage);
+  out.costUsd += cost;
+  out.verifiedAt = new Date().toISOString();
+  out.verifierModel = model;
+  return { pending: pending.length, cost };
 }
 
 function report(out: VerifiedFile, generationCost: number) {
@@ -366,6 +418,7 @@ async function main() {
       model: { type: "string", default: DEFAULT_MODEL },
       "skip-model-gates": { type: "boolean", default: false },
       force: { type: "boolean", default: false },
+      pending: { type: "boolean", default: false },
     },
   });
   loadEnv();
@@ -373,6 +426,38 @@ async function main() {
   if (targets.length === 0) throw new Error("Pass --los <id> or --topic <id>");
   if (!values["skip-model-gates"]) console.log(`Verifier model ${values.model}. Spent this month: $${monthSpendUsd().toFixed(2)} of $${monthlyBudgetUsd().toFixed(2)}.`);
   const failed: string[] = [];
+
+  if (values.pending) {
+    // Only the unchecked items of already-verified LOS (after requalify/hand fixes). Free when nothing is pending.
+    let total = 0;
+    for (const ctx of targets) {
+      const src = outputPath(ctx);
+      const dst = src.replace(/\.json$/, ".verified.json");
+      if (!existsSync(src) || !existsSync(dst)) continue;
+      const file = JSON.parse(readFileSync(src, "utf8")) as GeneratedFile;
+      const out = JSON.parse(readFileSync(dst, "utf8")) as VerifiedFile;
+      try {
+        const r = await verifyPending(file, out, values.model);
+        if (!r.pending) continue;
+        writeFileSync(dst, JSON.stringify(out, null, 2) + "\n");
+        total += r.cost;
+        const items = [out.lesson, ...out.mcqs, ...out.flashcards] as Checked<unknown>[];
+        const counts: Record<string, number> = {};
+        for (const c of items) counts[c.badge] = (counts[c.badge] ?? 0) + 1;
+        console.log(`${ctx.los.id}: ${r.pending} pending items checked ($${r.cost.toFixed(4)}) → ${Object.entries(counts).map(([b, n]) => `${n} ${b}`).join(", ")}`);
+        for (const c of items) {
+          if (c.badge !== "quarantined") continue;
+          const why = Object.entries(c.gates).filter(([, g]) => !g.pass).map(([n, g]) => `${n}: ${g.issues.join("; ")}`);
+          console.log(`  ${c.id}: quarantined (${why.join(" | ")})`);
+        }
+      } catch (err) {
+        failed.push(ctx.los.id);
+        console.error(`\n${ctx.los.id}: pending check failed, skipped: ${err instanceof Error ? err.message.split("\n")[0] : err}`);
+      }
+    }
+    console.log(`\nverify --pending: $${total.toFixed(2)} spent${failed.length ? `; ${failed.length} LOS failed (${failed.join(", ")}); rerun to retry` : ""}.`);
+    return;
+  }
 
   for (const ctx of targets) {
     const src = outputPath(ctx);

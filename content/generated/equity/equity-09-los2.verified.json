@@ -4,7 +4,7 @@
   "moduleId": "equity-09",
   "moduleTitle": "Industry and Competitive Analysis",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T18:24:53.442Z",
+  "verifiedAt": "2026-10-28T03:00:35.718Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -198,11 +198,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -786,7 +784,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.035179199999999994,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:35.717Z",
+      "purpose": "grounding",
+      "losId": "equity-09-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13109,
+      "outputTokens": 517,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0315572,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.04188619999999999
+  "costUsd": 0.07344339999999999
 }

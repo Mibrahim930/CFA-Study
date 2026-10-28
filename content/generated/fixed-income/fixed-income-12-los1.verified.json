@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-12",
   "moduleTitle": "Yield-Based Bond Convexity and Portfolio Properties",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:46:54.793Z",
+  "verifiedAt": "2026-10-28T03:01:41.505Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -465,11 +465,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -869,7 +871,33 @@
       "cacheReadTokens": 540,
       "costUsd": 0.01623,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:38.424Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 118,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001753,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:41.504Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-12-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9904,
+      "outputTokens": 283,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0228072,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0715702
+  "costUsd": 0.0961304
 }

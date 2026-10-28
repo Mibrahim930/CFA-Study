@@ -4,7 +4,7 @@
   "moduleId": "alternatives-02",
   "moduleTitle": "Alternative Investment Performance and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:57:23.990Z",
+  "verifiedAt": "2026-10-28T03:03:14.778Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -215,11 +215,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "critic_review": {
         "pass": true,
         "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          "flag overturned on second review: All the arithmetic checks out (15-2-2.6=10.4; 12-2-2=8; 130-116=14). The HWM example is a simplified illustration where 116 is understood as the prior fee-paying peak, so it does not contradict the definition. The flagged inconsistency is a nitpick, not an error a student would be taught wrongly."
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -253,7 +257,7 @@
           "cfa-rf-alt-primer:32:35"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -271,11 +275,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -505,7 +511,7 @@
           "cfa-rf-alt-primer:49:57"
         ]
       },
-      "badge": "verified",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -538,6 +544,10 @@
           "issues": [
             "solver's index contradicted its own reasoning, which computes the keyed value (requalified offline 2026-10-28). Stored: solver chose C again: Fund A: 10% − 2% = 8% profit after the management fee, and the incentive fee is 1.6%, leaving 6.4%. Fund B: −2% − 2% = −4%, with no incentive fee. The portfolio return is 0.5 × 6.4 + 0.5 × (−4) = 1.2%. (after repair)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -664,6 +674,10 @@
           "issues": [
             "2026-10-28: solver returned no answer twice (pipeline fault, not a content error); hard-hurdle arithmetic checked by hand: 20% × (12% − 8%) = 0.8%"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -870,7 +884,46 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0311052,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:05.012Z",
+      "purpose": "blind-solve",
+      "losId": "alternatives-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 137,
+      "outputTokens": 117,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001561,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:13.034Z",
+      "purpose": "grounding",
+      "losId": "alternatives-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12976,
+      "outputTokens": 943,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0355512,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:14.777Z",
+      "purpose": "confirm",
+      "losId": "alternatives-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2933,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.007434,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0981032
+  "costUsd": 0.14264939999999998
 }

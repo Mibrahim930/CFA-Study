@@ -4,7 +4,7 @@
   "moduleId": "fsa-06",
   "moduleTitle": "Analysis of Inventories",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:52:48.253Z",
+  "verifiedAt": "2026-10-28T02:59:31.526Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -568,17 +568,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -873,7 +875,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0445072,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:28.880Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 161,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001869,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:31.526Z",
+      "purpose": "grounding",
+      "losId": "fsa-06-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9896,
+      "outputTokens": 178,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.021741200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0521462
+  "costUsd": 0.0757564
 }

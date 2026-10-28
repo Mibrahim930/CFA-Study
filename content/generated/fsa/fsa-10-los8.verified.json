@@ -4,7 +4,7 @@
   "moduleId": "fsa-10",
   "moduleTitle": "Financial Reporting Quality",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:58:23.159Z",
+  "verifiedAt": "2026-10-28T02:59:55.263Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -220,17 +220,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -780,7 +778,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.031699200000000004,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:55.262Z",
+      "purpose": "grounding",
+      "losId": "fsa-10-los8",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11478,
+      "outputTokens": 455,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0276752,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.039250200000000006
+  "costUsd": 0.06692540000000001
 }

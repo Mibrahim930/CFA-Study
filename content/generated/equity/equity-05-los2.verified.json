@@ -4,7 +4,7 @@
   "moduleId": "equity-05",
   "moduleTitle": "Introduction to Equity Valuation",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T18:20:52.376Z",
+  "verifiedAt": "2026-10-28T03:00:22.780Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -268,11 +268,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -363,7 +365,7 @@
           "os:principles-finance-2e:m00073:2"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -381,11 +383,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve_note": {
           "pass": true,
           "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+            "solver's index contradicted its own reasoning, which names the key. Solver chose A (high): Market cap = 50 million × $18 = $900 million. Book equity = 1,500 − 800 = $700 million. The difference is $200 million, which is option B, so index 1 is correct, not 0."
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -785,7 +795,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0398532,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:20.634Z",
+      "purpose": "blind-solve",
+      "losId": "equity-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 251,
+      "outputTokens": 196,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002579,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:22.780Z",
+      "purpose": "grounding",
+      "losId": "equity-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10063,
+      "outputTokens": 248,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.022775200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.045318199999999996
+  "costUsd": 0.0706724
 }

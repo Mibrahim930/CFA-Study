@@ -4,7 +4,7 @@
   "moduleId": "ethics-04",
   "moduleTitle": "Guidance for Standard II: Integrity of Capital Markets",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:19:30.306Z",
+  "verifiedAt": "2026-10-28T03:07:03.410Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -198,17 +198,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -764,7 +762,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0307032,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:07:03.409Z",
+      "purpose": "grounding",
+      "losId": "ethics-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10973,
+      "outputTokens": 350,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0256152,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0390462
+  "costUsd": 0.06466140000000001
 }

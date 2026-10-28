@@ -4,7 +4,7 @@
   "moduleId": "quant-06",
   "moduleTitle": "Statistical Distributions for Financial Asset Prices and Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T12:43:29.710Z",
+  "verifiedAt": "2026-10-28T02:58:22.038Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -394,7 +394,7 @@
           "os:introductory-business-statistics-2e:m53806:1.1"
         ]
       },
-      "badge": "verified",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -427,6 +427,10 @@
           "issues": [
             "solver's index contradicted its own reasoning, which names the key (requalified offline 2026-10-13). Stored: solver chose A again: Mean = (5+1-3+7)/4 = 2.5. Squared deviations: 6.25, 2.25, 30.25, 20.25 = 59. Divide by 3 = 19.667; sqrt = 4.43%. That matches option C (index 2), not A. (after repair)"
           ]
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       },
       "repaired": true
@@ -932,7 +936,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.039747199999999996,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:22.037Z",
+      "purpose": "grounding",
+      "losId": "quant-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8268,
+      "outputTokens": 198,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0186852,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.08635280000000001
+  "costUsd": 0.105038
 }

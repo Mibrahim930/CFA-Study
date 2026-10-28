@@ -4,7 +4,7 @@
   "moduleId": "fsa-02",
   "moduleTitle": "Analyzing Income Statements",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:41:10.360Z",
+  "verifiedAt": "2026-10-28T02:58:46.190Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -219,11 +219,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -899,7 +897,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0359732,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:46.188Z",
+      "purpose": "grounding",
+      "losId": "fsa-02-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11019,
+      "outputTokens": 577,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0279772,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0967452
+  "costUsd": 0.12472240000000001
 }

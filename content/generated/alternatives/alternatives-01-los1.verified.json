@@ -4,7 +4,7 @@
   "moduleId": "alternatives-01",
   "moduleTitle": "Alternative Investment Features, Methods, and Structures",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:55:50.700Z",
+  "verifiedAt": "2026-10-28T03:02:54.384Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -205,17 +205,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -772,7 +770,20 @@
       "cacheReadTokens": 0,
       "costUsd": 0.033741,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:02:54.384Z",
+      "purpose": "grounding",
+      "losId": "alternatives-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11549,
+      "outputTokens": 403,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0272972,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0420575
+  "costUsd": 0.06935469999999999
 }

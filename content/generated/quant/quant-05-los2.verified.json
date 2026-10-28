@@ -4,7 +4,7 @@
   "moduleId": "quant-05",
   "moduleTitle": "Statistical Characteristics of Asset Returns",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T12:42:19.049Z",
+  "verifiedAt": "2026-10-28T02:58:14.882Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -251,7 +251,7 @@
           "os:introductory-business-statistics-2e:m53804:0.1"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -269,11 +269,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-13); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -766,7 +768,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.038433199999999994,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:12.423Z",
+      "purpose": "blind-solve",
+      "losId": "quant-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 95,
+      "outputTokens": 87,
+      "cacheWriteTokens": 585,
+      "cacheReadTokens": 0,
+      "costUsd": 0.0025225,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:14.881Z",
+      "purpose": "grounding",
+      "losId": "quant-05-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8881,
+      "outputTokens": 157,
+      "cacheWriteTokens": 846,
+      "cacheReadTokens": 0,
+      "costUsd": 0.021447,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.044664199999999994
+  "costUsd": 0.06863369999999999
 }

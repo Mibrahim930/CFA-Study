@@ -4,7 +4,7 @@
   "moduleId": "alternatives-06",
   "moduleTitle": "Hedge Funds",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T21:00:33.673Z",
+  "verifiedAt": "2026-10-28T03:04:01.055Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -198,11 +198,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "critic_review": {
         "pass": true,
         "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          "flag overturned on second review: The flagged error does not hold up: Sept 30 minus 30 days is Aug 31 (September has 30 days), so the notice date is right. The fund-of-one, separate-account, FoF, multistrategy and liquid-alternatives content is also accurate and consistent."
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -777,7 +781,33 @@
       "cacheReadTokens": 540,
       "costUsd": 0.00636,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:57.806Z",
+      "purpose": "grounding",
+      "losId": "alternatives-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11854,
+      "outputTokens": 658,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0304572,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:01.055Z",
+      "purpose": "confirm",
+      "losId": "alternatives-06-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2873,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.007074,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0456262
+  "costUsd": 0.08315739999999999
 }

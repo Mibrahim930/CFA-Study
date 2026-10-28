@@ -4,7 +4,7 @@
   "moduleId": "ethics-01",
   "moduleTitle": "Ethics and Trust in the Investment Profession",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:17:15.586Z",
+  "verifiedAt": "2026-10-28T03:06:05.036Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -194,11 +194,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -576,7 +574,7 @@
           "cfa-sop-handbook-12:20:17"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -594,11 +592,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -751,7 +751,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0285172,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:05:59.404Z",
+      "purpose": "blind-solve",
+      "losId": "ethics-01-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 161,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001679,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:06:05.034Z",
+      "purpose": "grounding",
+      "losId": "ethics-01-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10458,
+      "outputTokens": 444,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0255252,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.034904199999999996
+  "costUsd": 0.062108399999999994
 }

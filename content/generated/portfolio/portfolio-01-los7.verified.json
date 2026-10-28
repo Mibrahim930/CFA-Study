@@ -4,7 +4,7 @@
   "moduleId": "portfolio-01",
   "moduleTitle": "Portfolio Risk and Return: Part I",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T21:51:53.436Z",
+  "verifiedAt": "2026-10-28T03:04:34.541Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -146,7 +146,7 @@
           "Covariance = correlation × SD_A × SD_B = 0.20 × 0.20 × 0.10 = 0.0040.",
           "GMV weight in A: w_A = (0.0100 − 0.0040) / (0.0400 + 0.0100 − 2 × 0.0040) = 0.0060 / 0.0420 = 0.142857 (about 14.29%). So w_B = 0.857143.",
           "Portfolio variance = w_A²(0.04) + w_B²(0.01) + 2·w_A·w_B·(0.004) = 0.000816 + 0.007347 + 0.000980 = 0.009143.",
-          "BA II Plus: enter 0.009143, then press [2nd] [√x] to get 0.0956. (Computing the variance terms with [×] and [+] works the same way. The calculator's statistics worksheet is not needed here.)",
+          "BA II Plus: enter 0.009143, then press [√x] to get 0.0956. (Computing the variance terms with [×] and [+] works the same way. The calculator's statistics worksheet is not needed here.)",
           "Compare: 9.56% is below B's 10%, the lower of the two single-asset risks. Imperfect correlation lets the mix beat the safest asset."
         ],
         "answer": "The GMV portfolio holds about 14.29% in A and 85.71% in B. Its standard deviation is about 9.56%, which is less than the 10% of asset B alone.",
@@ -210,10 +210,22 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "critic_review": {
         "pass": true,
         "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
+          "flag confirmed: The arithmetic is correct (w_A = 0.142857, variance 0.009143, SD about 9.56%). On the BA II Plus, [√x] is a primary key and [2nd] on it gives x², so [2nd][√x] would square 0.009143 instead of taking its root. The item should say to press [√x] alone."
+        ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": [
+          "overridden by hand review 2026-10-28; stored: error found: The passages back the main ideas: diversification limits, correlation effects, the bullet-shaped region, the efficient frontier as the upper part, investor-independent frontier, extreme weights from noisy inputs, and the GMV-versus-tangency distinction. Many specifics, especially the GMV formula and worked example, are not in the passages. The arithmetic checks out: covariance 0.004, w_A = 0.006/0.042 = 0.142857, variance 0.009143, SD 0.0956. The calculator instruction is wrong: on the BA II Plus, the square-root key [√x] is a primary key, so [2nd][√x] gives x² (the second function), not the square root. Press [√x] alone."
+        ]
+      },
+      "hand_fixed": {
+        "pass": true,
+        "issues": [
+          "2026-10-28: BA II Plus keystroke was wrong: [2nd][√x] is x², the square root is the primary [√x] key (found by the grounding critic on the paid pass of 2026-10-27)"
         ]
       }
     }
@@ -808,7 +820,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.039421199999999997,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:27.814Z",
+      "purpose": "grounding",
+      "losId": "portfolio-01-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13839,
+      "outputTokens": 863,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.036477199999999994,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:34.539Z",
+      "purpose": "confirm",
+      "losId": "portfolio-01-los7",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 2743,
+      "outputTokens": 756,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 540,
+      "costUsd": 0.013154,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0822852
+  "costUsd": 0.1319164
 }

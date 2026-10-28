@@ -4,7 +4,7 @@
   "moduleId": "derivatives-08",
   "moduleTitle": "Pricing and Valuation of Options",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:26:30.682Z",
+  "verifiedAt": "2026-10-28T03:02:35.423Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -648,7 +648,7 @@
           "damodaran-valn2ed-ch5:5:4"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -666,11 +666,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     }
@@ -819,7 +821,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0391732,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:02:33.697Z",
+      "purpose": "blind-solve",
+      "losId": "derivatives-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 130,
+      "outputTokens": 118,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001557,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:02:35.423Z",
+      "purpose": "grounding",
+      "losId": "derivatives-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10149,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0218472,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0455642
+  "costUsd": 0.0689684
 }

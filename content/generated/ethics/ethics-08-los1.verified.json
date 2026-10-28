@@ -4,7 +4,7 @@
   "moduleId": "ethics-08",
   "moduleTitle": "Guidance for Standard VI: Conflicts of Interest",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:21:26.585Z",
+  "verifiedAt": "2026-10-28T03:07:46.057Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -204,11 +204,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -784,7 +782,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0332892,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:07:46.056Z",
+      "purpose": "grounding",
+      "losId": "ethics-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12273,
+      "outputTokens": 383,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0285452,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0407842
+  "costUsd": 0.0693294
 }

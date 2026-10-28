@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-08",
   "moduleTitle": "Yield and Yield Spread Measures for Floating-Rate Instruments",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:43:45.953Z",
+  "verifiedAt": "2026-10-28T03:01:26.565Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -342,17 +342,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: both distractors (add-on yield, 365-day year) were within 0.02% of the key; replaced with forgot-to-prorate and added-the-discount mistakes"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -578,17 +580,25 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: distractor 96.89 (365-day year) was within 0.05% of the key; replaced with a forgot-to-prorate mistake"
           ]
+        },
+        "blind_solve_note": {
+          "pass": true,
+          "issues": [
+            "solver's index contradicted its own reasoning, which names the key. Solver chose B (high): Discount = 100 × 0.042 × 270/360 = 3.15, so price = 100 − 3.15 = 96.85. That is option C, so the choice index is 2, not 1."
+          ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -796,7 +806,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0399932,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:23.299Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 215,
+      "outputTokens": 184,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.002387,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:26.564Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-08-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10078,
+      "outputTokens": 364,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0239652,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0477522
+  "costUsd": 0.0741044
 }

@@ -4,7 +4,7 @@
   "moduleId": "corpfin-04",
   "moduleTitle": "Working Capital and Liquidity",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T17:32:19.232Z",
+  "verifiedAt": "2026-10-28T03:00:01.457Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -565,17 +565,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: distractor 4,901,370 (365-day year) was within 0.03% of the key; replaced with an inverted day-count mistake"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -833,7 +835,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.039377199999999994,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:58.501Z",
+      "purpose": "blind-solve",
+      "losId": "corpfin-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 123,
+      "outputTokens": 98,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001343,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:01.455Z",
+      "purpose": "grounding",
+      "losId": "corpfin-04-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9510,
+      "outputTokens": 200,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.021189200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0777852
+  "costUsd": 0.1003174
 }

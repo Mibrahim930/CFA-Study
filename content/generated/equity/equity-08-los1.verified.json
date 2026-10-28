@@ -4,7 +4,7 @@
   "moduleId": "equity-08",
   "moduleTitle": "Financial Statement Forecasting in Equity Valuation",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T18:23:56.889Z",
+  "verifiedAt": "2026-10-28T03:00:31.006Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -220,11 +220,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -806,7 +804,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0309752,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:31.006Z",
+      "purpose": "grounding",
+      "losId": "equity-08-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11270,
+      "outputTokens": 445,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0271592,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0383662
+  "costUsd": 0.06552540000000001
 }

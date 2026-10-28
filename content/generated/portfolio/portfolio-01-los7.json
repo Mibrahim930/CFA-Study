@@ -144,7 +144,7 @@
           "Covariance = correlation × SD_A × SD_B = 0.20 × 0.20 × 0.10 = 0.0040.",
           "GMV weight in A: w_A = (0.0100 − 0.0040) / (0.0400 + 0.0100 − 2 × 0.0040) = 0.0060 / 0.0420 = 0.142857 (about 14.29%). So w_B = 0.857143.",
           "Portfolio variance = w_A²(0.04) + w_B²(0.01) + 2·w_A·w_B·(0.004) = 0.000816 + 0.007347 + 0.000980 = 0.009143.",
-          "BA II Plus: enter 0.009143, then press [2nd] [√x] to get 0.0956. (Computing the variance terms with [×] and [+] works the same way. The calculator's statistics worksheet is not needed here.)",
+          "BA II Plus: enter 0.009143, then press [√x] to get 0.0956. (Computing the variance terms with [×] and [+] works the same way. The calculator's statistics worksheet is not needed here.)",
           "Compare: 9.56% is below B's 10%, the lower of the two single-asset risks. Imperfect correlation lets the mix beat the safest asset."
         ],
         "answer": "The GMV portfolio holds about 14.29% in A and 85.71% in B. Its standard deviation is about 9.56%, which is less than the 10% of asset B alone.",

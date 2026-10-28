@@ -4,7 +4,7 @@
   "moduleId": "portfolio-02",
   "moduleTitle": "Portfolio Risk and Return: Part II",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T21:52:50.905Z",
+  "verifiedAt": "2026-10-28T03:04:44.164Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -234,17 +234,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -582,7 +580,7 @@
           "cfa-rf-alt-primer:151:183"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -600,17 +598,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -823,7 +823,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0325172,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:39.337Z",
+      "purpose": "blind-solve",
+      "losId": "portfolio-02-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 161,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001839,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:44.163Z",
+      "purpose": "grounding",
+      "losId": "portfolio-02-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 13087,
+      "outputTokens": 495,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0312932,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0390842
+  "costUsd": 0.0722164
 }

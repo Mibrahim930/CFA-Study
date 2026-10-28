@@ -4,7 +4,7 @@
   "moduleId": "alternatives-03",
   "moduleTitle": "Investments in Private Capital: Equity and Debt",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T20:57:47.892Z",
+  "verifiedAt": "2026-10-28T03:03:27.883Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -213,11 +213,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -480,7 +478,7 @@
           "cfa-rf-alt-primer:89:106"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -498,11 +496,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -801,7 +801,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0310812,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:21.984Z",
+      "purpose": "blind-solve",
+      "losId": "alternatives-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 139,
+      "outputTokens": 118,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001575,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:03:27.882Z",
+      "purpose": "grounding",
+      "losId": "alternatives-03-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12007,
+      "outputTokens": 474,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0289232,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0368682
+  "costUsd": 0.06736639999999999
 }

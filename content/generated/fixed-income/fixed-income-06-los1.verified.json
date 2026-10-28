@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-06",
   "moduleTitle": "Fixed-Income Bond Valuation: Prices and Yields",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:41:35.614Z",
+  "verifiedAt": "2026-10-28T03:01:13.857Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -508,11 +508,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -838,7 +840,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0454052,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:10.794Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 178,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001673,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:13.857Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-06-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 10791,
+      "outputTokens": 254,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.024291200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0576302
+  "costUsd": 0.0835944
 }

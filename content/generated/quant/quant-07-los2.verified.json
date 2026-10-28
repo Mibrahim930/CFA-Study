@@ -4,7 +4,7 @@
   "moduleId": "quant-07",
   "moduleTitle": "Estimation and Hypothesis Testing",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-12T12:44:33.228Z",
+  "verifiedAt": "2026-10-28T02:58:35.282Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -450,11 +450,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "blind solve and grounding not run yet (requalified offline 2026-10-13); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -804,7 +806,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0374592,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:33.163Z",
+      "purpose": "blind-solve",
+      "losId": "quant-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 144,
+      "outputTokens": 153,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001935,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:35.281Z",
+      "purpose": "grounding",
+      "losId": "quant-07-los2",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 8068,
+      "outputTokens": 211,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0184152,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0442662
+  "costUsd": 0.06461639999999999
 }

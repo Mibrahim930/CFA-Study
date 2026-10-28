@@ -4,7 +4,7 @@
   "moduleId": "fsa-09",
   "moduleTitle": "Analysis of Income Taxes",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:56:23.830Z",
+  "verifiedAt": "2026-10-28T02:59:43.513Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -218,11 +218,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -770,7 +768,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0343172,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:43.512Z",
+      "purpose": "grounding",
+      "losId": "fsa-09-los4",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 12453,
+      "outputTokens": 465,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0297252,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0419302
+  "costUsd": 0.07165540000000001
 }

@@ -4,7 +4,7 @@
   "moduleId": "portfolio-03",
   "moduleTitle": "Portfolio Management: An Overview",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T21:54:28.221Z",
+  "verifiedAt": "2026-10-28T03:04:48.986Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -214,17 +214,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -871,7 +869,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0342872,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:04:48.986Z",
+      "purpose": "grounding",
+      "losId": "portfolio-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11364,
+      "outputTokens": 366,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0265572,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.04264419999999999
+  "costUsd": 0.0692014
 }

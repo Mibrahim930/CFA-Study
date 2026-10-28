@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-01",
   "moduleTitle": "Fixed-Income Instrument Features",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:38:15.721Z",
+  "verifiedAt": "2026-10-28T03:00:55.875Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -539,7 +539,7 @@
         },
         "cited_chunk_ids": []
       },
-      "badge": "verified",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -557,17 +557,19 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
-          "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
-        },
         "hand_fixed": {
           "pass": true,
           "issues": [
             "2026-10-28: distractor 972.77 (annual coupons) was within 0.04% of the key; replaced with a discount-at-the-coupon-rate mistake"
           ]
+        },
+        "blind_solve": {
+          "pass": true,
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -799,7 +801,33 @@
       "cacheReadTokens": 0,
       "costUsd": 0.039443,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:50.818Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 125,
+      "outputTokens": 271,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.003077,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:00:55.873Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-01-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9360,
+      "outputTokens": 528,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.024169200000000002,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.048701499999999995
+  "costUsd": 0.07594769999999999
 }

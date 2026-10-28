@@ -148,6 +148,14 @@ export const FIXES: HandFix[] = [
     override: ["grounding"],
   },
 
+  {
+    losId: "portfolio-01-los7",
+    id: "lesson",
+    note: "BA II Plus keystroke was wrong: [2nd][√x] is x², the square root is the primary [√x] key (found by the grounding critic on the paid pass of 2026-10-27)",
+    replace: [["enter 0.009143, then press [2nd] [√x] to get 0.0956.", "enter 0.009143, then press [√x] to get 0.0956."]],
+    override: ["grounding"],
+  },
+
   // ---- lint: a citation the retriever never returned (the model invented a neighbouring chunk id).
   { losId: "equity-07-los1", id: "q5", note: "dropped an invented chunk id from the citations", dropCitations: ["damodaran-valn2ed-ch17:20:21"] },
   { losId: "portfolio-06-los3", id: "q1", note: "dropped an invented chunk id from the citations", dropCitations: ["occ-corporate-risk-governance:39:55"] },

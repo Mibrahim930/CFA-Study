@@ -4,7 +4,7 @@
   "moduleId": "fsa-03",
   "moduleTitle": "Analyzing Balance Sheets",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:42:28.656Z",
+  "verifiedAt": "2026-10-28T02:59:00.211Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -220,11 +220,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -316,7 +314,7 @@
           "ey-us-gaap-vs-ifrs-2026:19:25"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -334,11 +332,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -901,7 +901,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0325392,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:55.008Z",
+      "purpose": "blind-solve",
+      "losId": "fsa-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 164,
+      "outputTokens": 106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001505,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:59:00.211Z",
+      "purpose": "grounding",
+      "losId": "fsa-03-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11987,
+      "outputTokens": 587,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0300132,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0798452
+  "costUsd": 0.1113634
 }

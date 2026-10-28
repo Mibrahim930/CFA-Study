@@ -4,7 +4,7 @@
   "moduleId": "fsa-01",
   "moduleTitle": "Introduction to Financial Statement Analysis",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T16:39:58.315Z",
+  "verifiedAt": "2026-10-28T02:58:40.993Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -196,11 +196,9 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
+      "grounding": {
         "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
+        "issues": []
       }
     }
   },
@@ -757,7 +755,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0324872,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T02:58:40.992Z",
+      "purpose": "grounding",
+      "losId": "fsa-01-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11457,
+      "outputTokens": 375,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0268332,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0390902
+  "costUsd": 0.0659234
 }

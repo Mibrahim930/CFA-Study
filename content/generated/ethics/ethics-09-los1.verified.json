@@ -4,7 +4,7 @@
   "moduleId": "ethics-09",
   "moduleTitle": "Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T23:22:04.032Z",
+  "verifiedAt": "2026-10-28T03:07:56.618Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -197,17 +197,15 @@
         "pass": true,
         "issues": []
       },
-      "model_gates_pending": {
-        "pass": true,
-        "issues": [
-          "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-        ]
-      },
       "hand_fixed": {
         "pass": true,
         "issues": [
           "2026-10-28: reworded a sentence that borrowed the source's phrasing (copy guard)"
         ]
+      },
+      "grounding": {
+        "pass": true,
+        "issues": []
       }
     }
   },
@@ -623,7 +621,7 @@
           "cfa-sop-handbook-12:196:232"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -637,11 +635,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -684,7 +680,7 @@
           "cfa-sop-handbook-12:202:239"
         ]
       },
-      "badge": "model_only",
+      "badge": "grounded_verified",
       "gates": {
         "citations": {
           "pass": true,
@@ -698,11 +694,9 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "grounding": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
         }
       }
     },
@@ -765,7 +759,20 @@
       "cacheReadTokens": 846,
       "costUsd": 0.0282892,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:07:56.617Z",
+      "purpose": "grounding",
+      "losId": "ethics-09-los1",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 11633,
+      "outputTokens": 577,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0292052,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.0363022
+  "costUsd": 0.0655074
 }

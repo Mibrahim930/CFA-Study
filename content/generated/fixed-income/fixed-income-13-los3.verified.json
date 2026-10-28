@@ -4,7 +4,7 @@
   "moduleId": "fixed-income-13",
   "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
   "generatedBy": "claude-sonnet-5-5",
-  "verifiedAt": "2026-10-27T19:48:12.908Z",
+  "verifiedAt": "2026-10-28T03:01:57.684Z",
   "verifierModel": "claude-sonnet-5-5",
   "retrieved": [
     {
@@ -372,7 +372,7 @@
           "mpra-key-rate-duration:10:7"
         ]
       },
-      "badge": "verified",
+      "badge": "grounded_verified",
       "gates": {
         "lint": {
           "pass": true,
@@ -390,11 +390,13 @@
           "pass": true,
           "issues": []
         },
-        "model_gates_pending": {
+        "blind_solve": {
           "pass": true,
-          "issues": [
-            "model gates not run yet (requalified offline 2026-10-28); a paid verify pass upgrades this item"
-          ]
+          "issues": []
+        },
+        "grounding": {
+          "pass": true,
+          "issues": []
         }
       }
     },
@@ -783,7 +785,33 @@
       "cacheReadTokens": 846,
       "costUsd": 0.038385199999999994,
       "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:55.643Z",
+      "purpose": "blind-solve",
+      "losId": "fixed-income-13-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 135,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 585,
+      "costUsd": 0.001657,
+      "stopReason": "end_turn"
+    },
+    {
+      "at": "2026-10-28T03:01:57.683Z",
+      "purpose": "grounding",
+      "losId": "fixed-income-13-los3",
+      "requestedModel": "claude-sonnet-5-5",
+      "servedModel": "claude-sonnet-5-5",
+      "inputTokens": 9416,
+      "outputTokens": 178,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 846,
+      "costUsd": 0.0207812,
+      "stopReason": "end_turn"
     }
   ],
-  "costUsd": 0.04602819999999999
+  "costUsd": 0.06846639999999998
 }
