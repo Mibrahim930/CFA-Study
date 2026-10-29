@@ -32,7 +32,8 @@ Next.js 16.4 (cacheComponents) + Tailwind 4. The user's PC is Windows at `C:\Use
 | Resources | `/resources`, `lib/resources.ts` | Link-out only, with a trial tracker |
 | Phone | `app/manifest.ts`, `app/icon.svg` | Installable PWA; dock at the bottom |
 | Deploy | `proxy.ts`, `docs/DEPLOY.md` | **Live on Railway: https://cfa-study.up.railway.app**, auto-deploys from `main`. Basic-auth gate via `APP_PASSWORD`; fails closed (503) if unset |
-| Storage | `lib/store/*` (localStorage, all keys `l1:`) | Per device; Supabase sync not built (user chose backup-now, sync-later). `/backup` downloads/restores a JSON file; Today nudges after 7 days |
+| Storage | `lib/store/*` (localStorage, all keys `l1:`) | Local-first. Every store writes through `lib/store/persist.ts`, which marks the key dirty for the account sync. `/backup` downloads/restores a JSON file; Today nudges after 7 days when no account is signed in |
+| **Accounts and sync** (built 2026-10-28) | `lib/server/{db,auth,sync,handlers}.ts`, `app/api/auth/*`, `app/api/sync`, `lib/store/{sync,sync-merge,persist}.ts`, `components/{account-panel,sync-provider}.tsx`, `app/account` | **On when `DATABASE_URL` is set** (Railway Postgres; `docs/DEPLOY.md`). Email + password (scrypt), 90-day httpOnly session cookie `l1_session`, tokens stored hashed. Tables `users`, `sessions`, `user_state` (one row per `l1:` key, client change time, NULL = tombstone), created on first use. Sync: pull on load and on foreground, push 1.5 s after any change, last write wins per key. First sign-in on a device that already has progress asks which copy to keep. Sign out clears the device. No email is sent, so no password reset by email (manual reset in DEPLOY.md). Tests: `lib/server/auth.test.ts` (integration part runs when `TEST_DATABASE_URL` is set), `lib/store/sync-merge.test.ts` |
 | Settings | `lib/store/settings.ts`, `lib/store/activity.ts` | Exam date and weekly goal (set on `/backup#exam`); study days for the "n/7" tile (never a streak) |
 
 Rules learned:
@@ -40,6 +41,8 @@ Rules learned:
 - Server data loaders use `"use cache"` plus `cacheLife("max")` (`lib/content/*`).
 - Module-store keys are the module **slug** (`l1:module:quant-01-returns-of-…`), not the module id.
 - `components/rich-text.tsx`: `$` + digit is currency unless the span contains LaTeX syntax (`\`, `^`, `_`, braces); both cases are tested.
+- Never write an `l1:` key with `localStorage.setItem` directly: go through `persistSet` (so it syncs) or `applyRemote` (so it doesn't mark dirty). `l1:meta:*` keys are per device.
+- Local Postgres for tests in a cloud session: `initdb` as `nobody` in `/var/lib/l1pg` (the scratchpad's permissions get reset and kill the server), start with `setsid nohup postgres -D … -p 5433`, then `TEST_DATABASE_URL=postgres://postgres@127.0.0.1:5433/l1test npm test` and `DATABASE_URL=…/l1dev npm run dev`.
 
 ## Content pipeline (`content-pipeline/`, Sonnet 5.5, spend ledger in `content-pipeline/.spend/`)
 - **Sources:** `ingest-sources.ts` holds about 185 PDF/HTML sources, plus OpenStax. Corpus and downloads are **git-ignored**. Rebuild with `npm run ingest:openstax`, then `npm run ingest:sources`. Tracker: `docs/missing-sources.md`. Audit: `npx tsx content-pipeline/source-audit.ts --outline-2026 <pdf>` → `docs/source-audit.md`.
@@ -62,7 +65,7 @@ Rules learned:
 ## Next steps (ask the user which)
 1. **Apply the user's edit list** from their 2026-10-28 tour (look and feel, wording, features). Then their lesson ratings (≥ 80% "clear for a beginner").
 2. **Mastery follow-ups** if the user likes the labels: "practise my weakest module" shortcut on Today (the data now exists), and an "overdue missed cards" condition for Solid (`docs/ui-inspiration.md` #6).
-3. **Supabase sync and login** (user must create the account; `.env.example` lists the variables). The stores are already shaped for it (`lib/store/*`, all keys `l1:`).
+3. ~~Supabase sync and login~~ Replaced by Railway Postgres accounts (2026-10-28). Remaining: the user links the database (`docs/USER-TODO.md`); possible follow-ups are an admin list of accounts, password reset by email if an email provider is ever added, and a smarter merge for the review deck (per-card instead of per-key).
 4. **In-app tutor** grounded on the knowledge base (needs a server-side key and a spend meter; the deployed site must stay key-free until then).
 5. **Golden test vectors** for the engine from the TI BA II Plus guidebook and SOA FM samples (plan §4).
 6. Remaining `docs/ui-inspiration.md` items: #14 review undo/skip, #16 reading preferences, #17 weekly summary.

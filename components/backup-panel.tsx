@@ -2,7 +2,8 @@
 
 import { useRouter } from "next/navigation";
 import { useRef, useState, useSyncExternalStore } from "react";
-import { BACKUP_PREFIX, buildBackup, describeBackup, LAST_BACKUP_KEY, parseBackup, type BackupFile } from "@/lib/store/backup";
+import { BACKUP_PREFIX, buildBackup, describeBackup, LAST_BACKUP_KEY, LOCAL_ONLY_PREFIX, parseBackup, type BackupFile } from "@/lib/store/backup";
+import { notifyStores, persistSet } from "@/lib/store/persist";
 
 function storedEntries(): Record<string, string> {
   const out: Record<string, string> = {};
@@ -96,15 +97,16 @@ export function BackupPanel() {
   };
 
   const restore = (b: BackupFile) => {
-    try {
-      for (const k of Object.keys(storedEntries())) localStorage.removeItem(k);
-      for (const [k, v] of Object.entries(b.entries)) localStorage.setItem(k, v);
-    } catch {
+    // Written through persistSet so a signed-in account receives the restored progress too.
+    let ok = true;
+    for (const k of Object.keys(storedEntries())) if (!k.startsWith(LOCAL_ONLY_PREFIX)) ok = persistSet(k, null) && ok;
+    for (const [k, v] of Object.entries(b.entries)) if (!k.startsWith(LOCAL_ONLY_PREFIX)) ok = persistSet(k, v) && ok;
+    if (!ok) {
       setError("This browser wouldn't let the app save data (private mode or storage full), so the restore didn't finish. Try again in a normal window.");
       return;
     }
     // Stores re-read storage on every read; these events make mounted views re-render with the restored data.
-    for (const e of ["l1-store-change", "l1-review-change", "l1-mock-change", "l1-backup-change"]) window.dispatchEvent(new Event(e));
+    notifyStores(Object.keys(b.entries));
     router.push("/");
   };
 

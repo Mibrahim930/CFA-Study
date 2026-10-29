@@ -1,7 +1,10 @@
 // Backup and restore of everything the app keeps in this browser (all localStorage keys under "l1:").
 // Until Supabase sync exists, this is how progress survives a cleared browser or moves to another device.
 
+import { LOCAL_ONLY_PREFIX } from "@/lib/sync-keys";
+
 export const BACKUP_PREFIX = "l1:";
+export { LOCAL_ONLY_PREFIX };
 /** When the last backup file was downloaded (ms since epoch). Not itself exported. */
 export const LAST_BACKUP_KEY = "l1:meta:lastBackup";
 
@@ -13,7 +16,7 @@ export interface BackupFile {
 }
 
 export function buildBackup(entries: Record<string, string>, now: Date): BackupFile {
-  const kept = Object.fromEntries(Object.entries(entries).filter(([k]) => k.startsWith(BACKUP_PREFIX) && k !== LAST_BACKUP_KEY));
+  const kept = Object.fromEntries(Object.entries(entries).filter(([k]) => k.startsWith(BACKUP_PREFIX) && !k.startsWith(LOCAL_ONLY_PREFIX)));
   return { app: "l1-study", version: 1, exportedAt: now.toISOString(), entries: kept };
 }
 

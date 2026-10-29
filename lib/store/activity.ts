@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { persistSet } from "./persist";
 
 // Which days had any study activity (a card rated, a question answered, a module touched), as local
 // YYYY-MM-DD keys. Honest consistency ("4 of 7 days this week"), never a streak. Local-first; "l1:"
@@ -44,11 +45,7 @@ export function touchActivity() {
   if (cur[key]) return;
   const next = { ...cur, [key]: true as const };
   const raw = JSON.stringify(next);
-  try {
-    localStorage.setItem(KEY, raw);
-  } catch {
-    // storage unavailable: keep in memory for this tab
-  }
+  persistSet(KEY, raw); // storage unavailable: keep in memory for this tab
   cacheRaw = raw;
   cacheValue = next;
   window.dispatchEvent(new Event(CHANGE));

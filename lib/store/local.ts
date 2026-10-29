@@ -3,6 +3,7 @@
 import { useCallback, useSyncExternalStore } from "react";
 import { moduleMastery, type Mastery } from "@/lib/progress";
 import { touchActivity } from "./activity";
+import { persistSet } from "./persist";
 import { readPractice, subscribePractice } from "./practice";
 
 // Local-first persistence for M1. The shape mirrors the planned Supabase tables
@@ -53,12 +54,9 @@ function read(slug: string): ModuleState {
 }
 
 function write(slug: string, value: ModuleState) {
-  try {
-    localStorage.setItem(PREFIX + slug, JSON.stringify(value));
-  } catch {
-    // storage unavailable (private mode / quota) — keep working in memory
-    cache.set(slug, { raw: JSON.stringify(value), value });
-  }
+  const raw = JSON.stringify(value);
+  // storage unavailable (private mode / quota): keep working in memory
+  if (!persistSet(PREFIX + slug, raw)) cache.set(slug, { raw, value });
   window.dispatchEvent(new Event(CHANGE));
   touchActivity();
 }

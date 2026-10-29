@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Archivo, JetBrains_Mono, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import { Dock, Rail } from "@/components/app-nav";
+import { SyncProvider } from "@/components/sync-provider";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
@@ -53,6 +54,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             {children}
           </main>
           <footer className="border-t border-line px-5 py-5 text-center text-xs text-muted max-sm:pb-28">
+            <Link href="/account" className="mb-2 inline-flex min-h-11 items-center font-bold text-accent hover:underline">
+              Account
+            </Link>
+            <span className="mx-2 text-line" aria-hidden="true">
+              ·
+            </span>
             <Link href="/backup" className="mb-2 inline-flex min-h-11 items-center font-bold text-accent hover:underline">
               Back up your progress
             </Link>
@@ -61,6 +68,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </footer>
         </div>
         <Dock />
+        <SyncProvider />
       </body>
     </html>
   );

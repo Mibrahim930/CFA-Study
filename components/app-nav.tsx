@@ -16,7 +16,7 @@ import { daysToExam, useSettings } from "@/lib/store/settings";
  */
 
 interface Tab {
-  href: "/" | "/syllabus" | "/review" | "/mock" | "/resources" | "/backup";
+  href: "/" | "/syllabus" | "/review" | "/mock" | "/resources" | "/account" | "/backup";
   label: string;
   short?: string;
   match: (path: string) => boolean;
@@ -67,6 +67,18 @@ export const TABS: Tab[] = [
     match: (p) => p.startsWith("/resources"),
     dock: false,
     icon: <path d="M3 5h6a3 3 0 013 3v9a2 2 0 00-2-2H3zM17 5h-6a3 3 0 00-3 3v9a2 2 0 012-2h7z" />,
+  },
+  {
+    href: "/account",
+    label: "Account",
+    match: (p) => p.startsWith("/account"),
+    dock: false,
+    icon: (
+      <>
+        <circle cx="10" cy="7" r="3.5" />
+        <path d="M3.5 17a6.5 6.5 0 0113 0" />
+      </>
+    ),
   },
   { href: "/backup", label: "Backup", match: (p) => p.startsWith("/backup"), dock: false, icon: <path d="M10 3v9M6 8l4 4 4-4M4 15h12" /> },
 ];
